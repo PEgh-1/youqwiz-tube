@@ -85,14 +85,16 @@ export const Karaoke: React.FC<{ clip?: VoiceClip; theme: Theme; size?: number; 
   const start = words.length > win ? Math.min(Math.max(0, cur - 3), words.length - win) : 0;
   const shown = words.slice(start, start + win);
   return (
-    <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", maxWidth: width, padding: "0 20px", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: size, lineHeight: 1.15, textAlign: "center" }}>
+    <div style={{ display: "block", maxWidth: width, padding: "0 20px", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: size, lineHeight: 1.15, textAlign: "center", wordSpacing: `${size * 0.12}px` }}>
       {shown.map((w, k) => {
         const i = start + k;
         const on = i === cur, done = i < cur;
         return (
-          <span key={i} style={{ color: on ? theme.accent : WHITE, opacity: done || on ? 1 : 0.45, textShadow: `5px 5px 0 ${INK}`, transform: `scale(${on ? 1.12 : 1})`, display: "inline-block", margin: `0 ${size * 0.16}px`, whiteSpace: "nowrap" }}>
-            {w}
-          </span>
+          <React.Fragment key={i}>
+            {k > 0 ? " " : null}
+            {/* pas de scale() : agrandi, le mot courant chevauchait ses voisins ; on le fait juste « sauter » */}
+            <span style={{ color: on ? theme.accent : WHITE, opacity: done || on ? 1 : 0.45, textShadow: `5px 5px 0 ${INK}`, transform: `translateY(${on ? -6 : 0}px)`, display: "inline-block", whiteSpace: "nowrap" }}>{w}</span>
+          </React.Fragment>
         );
       })}
     </div>
