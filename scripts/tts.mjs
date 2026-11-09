@@ -6,7 +6,7 @@
 // Usage : node scripts/tts.mjs [--episode data/episodes/x.json] [--dry]
 import { createHash } from "node:crypto";
 import { execSync } from "node:child_process";
-import { existsSync, mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { argv, p, readJson, rng, writeJson } from "./lib.mjs";
 
 const { ELEVENLABS_API_KEY, ELEVENLABS_VOICE_ID } = process.env;
@@ -14,11 +14,17 @@ const { ELEVENLABS_API_KEY, ELEVENLABS_VOICE_ID } = process.env;
 // 09/11/2026 (respirations audibles, ton qui saute d'une phrase à l'autre) : stabilité v3 « naturelle » (0,5) au lieu de
 // « créative » (0,3), palette de tags réduite à deux registres (cheerful partout, excited sur intro/score/relances-clés),
 // contexte previous_text/next_text entre question et réponse, puis porte anti-souffle + normalisation de niveau (ffmpeg).
-const MODEL = process.env.ELEVENLABS_MODEL || "eleven_v3";
-const V3 = MODEL === "eleven_v3";
-const SETTINGS = V3
+// 09/11/2026 soir : v3 répond parfois en 60-90 s par clip (run de 2 h 20 sans fin) → au-delà de 25 s de moyenne sur les
+// premiers clips, tout l'épisode est refait avec le modèle de secours (ELEVENLABS_FALLBACK_MODEL, eleven_multilingual_v2).
+let MODEL = process.env.ELEVENLABS_MODEL || "eleven_v3";
+const FALLBACK = process.env.ELEVENLABS_FALLBACK_MODEL || "eleven_multilingual_v2";
+const SLOW_SECONDS = Number(process.env.ELEVENLABS_SLOW_SECONDS || 25);
+let V3 = MODEL === "eleven_v3";
+const settingsFor = (v3) => (v3
   ? { stability: 0.5, similarity_boost: 0.8, style: 0.5, use_speaker_boost: true }
-  : { stability: 0.45, similarity_boost: 0.75, style: 0.35, use_speaker_boost: true, speed: 1.05 };
+  : { stability: 0.45, similarity_boost: 0.75, style: 0.35, use_speaker_boost: true, speed: 1.05 });
+let SETTINGS = settingsFor(V3);
+class SlowError extends Error {}
 // tag d'émotion v3 (ignoré par les autres modèles) — « curious » et « mischievously » rabattus sur « cheerful » : un seul ton de base
 const TAG_MAP = { curious: "cheerful", mischievously: "cheerful" };
 const tag = (t, text) => (V3 ? `[${TAG_MAP[t] ?? t}] ${text}` : text);
@@ -74,12 +80,15 @@ async function synth(text, outFile, ctx = {}) {
   if (!res.ok) throw new Error(`ElevenLabs ${res.status} : ${(await res.text()).slice(0, 200)}`);
   writeFileSync(outFile, Buffer.from(await res.arrayBuffer()));
   trim(outFile);
-  // Journal de progression (09/11/2026, run resté muet 2 h) : un point tous les 10 clips, et chaque appel lent.
-  const ms = Date.now() - t0;
-  if (ms > 20_000) console.warn(`ElevenLabs lent : ${(ms / 1000).toFixed(0)} s pour ${text.length} caractères`);
+  // Journal de progression et détection de lenteur (bascule sur le modèle de secours).
+  const sec = (Date.now() - t0) / 1000;
+  slow.push(sec);
+  if (sec > 20) console.warn(`ElevenLabs lent (${MODEL}) : ${sec.toFixed(0)} s pour ${text.length} caractères`);
   if (calls % 10 === 0) console.log(`voix off : ${calls} clips, ${((Date.now() - T0) / 60000).toFixed(1)} min écoulées`);
+  if (V3 && FALLBACK && FALLBACK !== MODEL && slow.length >= 3 && slow.slice(-3).reduce((a, b) => a + b, 0) / 3 > SLOW_SECONDS) throw new SlowError(`ElevenLabs ${MODEL} trop lent (${(slow.slice(-3).reduce((a, b) => a + b, 0) / 3).toFixed(0)} s par clip)`);
 }
 const T0 = Date.now();
+let slow = [];
 // Coupe les silences de début/fin (v3 ajoute souvent 0,1-0,5 s) pour que la voix tombe pile sur l'image, atténue les
 // respirations (porte : tout ce qui est sous -32 dB entre les mots est ramené vers le silence) et égalise le niveau entre
 // les clips (loudnorm -16 LUFS) pour que la voix garde le même volume d'une phrase à l'autre.
@@ -150,7 +159,8 @@ function devinePrompt(it, i) {
 const answerLine = (a) => clean(pick(isQcm ? R.answerQcm : isIntrus ? R.answerIntrus : R.answerDevine).replaceAll("{a}", a));
 
 // Toute erreur ElevenLabs (forfait, quota, réseau) → avertissement et épisode muet : la vidéo du jour sort quand même.
-try {
+// Modèle trop lent (SlowError) → on repart de zéro avec le modèle de secours (les clips déjà faits sont jetés : une seule voix par vidéo).
+async function generateAll() {
 for (let i = 0; i < ep.items.length; i++) {
   const it = ep.items[i];
   it.voice = {};
@@ -212,9 +222,23 @@ for (let k = 0; k < (ep.interludes?.length ?? 0); k++) {
 }
 if (ep.champion) ep.voice.champion = await specific(tag("excited", T.champion.replace("{name}", clean(ep.champion.name)).replace("{score}", String(ep.champion.score))), "champion");
 
+}
+try {
+  try {
+    await generateAll();
+  } catch (e) {
+    if (!(e instanceof SlowError)) throw e;
+    console.warn(`${e.message} → bascule sur ${FALLBACK} pour tout l'épisode`);
+    if (process.env.GITHUB_ACTIONS) console.log(`::warning title=Voix::${e.message} — épisode refait avec ${FALLBACK}`);
+    MODEL = FALLBACK; V3 = false; SETTINGS = settingsFor(false); slow = [];
+    rmSync(epDir, { recursive: true, force: true }); mkdirSync(epDir, { recursive: true });
+    for (const it of ep.items) delete it.voice;
+    for (const it of ep.interludes ?? []) delete it.voice;
+    await generateAll();
+  }
 writeJson(file, ep);
 console.log(`voix off : ${calls} clips générés, ${chars} caractères (${dry ? "simulation" : MODEL})`);
-if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Voix::${calls} clips, ${chars} caractères`);
+if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Voix::${calls} clips, ${chars} caractères (${MODEL})`);
 } catch (e) {
   const msg = (e.message || String(e)).replace(/sk_[A-Za-z0-9]+/g, "sk_***").slice(0, 300);
   for (const it of ep.items) delete it.voice;
