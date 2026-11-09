@@ -47,7 +47,7 @@ async function synth(text, outFile) {
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${ELEVENLABS_VOICE_ID}?output_format=mp3_44100_128`, {
     method: "POST",
     headers: { "xi-api-key": ELEVENLABS_API_KEY, "Content-Type": "application/json" },
-    body: JSON.stringify({ text, model_id: MODEL, ...(V3 ? {} : { language_code: "fr" }), voice_settings: SETTINGS }),
+    body: JSON.stringify({ text, model_id: MODEL, ...(V3 ? {} : { language_code: V.tts?.languageCode ?? "fr" }), voice_settings: SETTINGS }),
   });
   if (!res.ok) throw new Error(`ElevenLabs ${res.status} : ${(await res.text()).slice(0, 200)}`);
   writeFileSync(outFile, Buffer.from(await res.arrayBuffer()));
@@ -79,11 +79,27 @@ const isChoice = ep.timing.reveal <= 0;
 const isQcm = ep.template === "QuizQCM";
 const isIntrus = ep.template === "Intrus";
 const R = V.relances;
-const legacyPool = isIntrus
-  ? ["Trouve l'intrus !", "Où est l'intrus ?", "Un seul est différent…", "Cherche bien !", "Il se cache où ?"]
-  : /mots|films/.test(ep.id)
-    ? ["Quel mot se cache ici ?", "Devine le mot !", "Et celui-ci ?", "Alors, ça te parle ?", "Quel titre se cache là ?", "Décode-moi ça."]
-    : R.devine.generic;
+// Textes propres à la langue (09/11/2026) : surchargés par variants.json → "tts" (chaîne anglaise).
+const T = {
+  intrusPool: ["Trouve l'intrus !", "Où est l'intrus ?", "Un seul est différent…", "Cherche bien !", "Il se cache où ?"],
+  rebusPool: ["Quel mot se cache ici ?", "Devine le mot !", "Et celui-ci ?", "Alors, ça te parle ?", "Quel titre se cache là ?", "Décode-moi ça."],
+  rebusIds: "mots|films|words|movies",
+  letterQuestion: "Nomme {cat} qui commence par la lettre {letter}.",
+  letterLine: "{cat}, lettre {letter}.",
+  letterArticle: "^un |^une |^an |^a ",
+  choiceFirst: "Premier choix. ",
+  choiceMilestone: "Choix numéro {n}. ",
+  choiceQuestion: "Tu préfères… {a}, ou {b} ?",
+  levels: { facile: "Niveau facile. On s'échauffe !", moyen: "Niveau moyen. Ça se corse !", difficile: "Niveau difficile. Accroche-toi !", impossible: "Niveau impossible. Seuls les génies…" },
+  score: "Alors, combien de points ? Dis-le en commentaire !",
+  subscribe: "Abonne-toi et active la cloche, pour être prévenu gratuitement du prochain quiz !",
+  outro: "Un nouveau quiz chaque jour. Abonne-toi, active la cloche, et à demain !",
+  cliff: "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+  introTail: ["Prêt ? C'est parti !"],
+  champion: "Bravo {name}, champion de la semaine avec {score} points !",
+  ...(V.tts ?? {}),
+};
+const legacyPool = isIntrus ? T.intrusPool : new RegExp(T.rebusIds).test(ep.id) ? T.rebusPool : R.devine.generic;
 const levelOf = (it, i) => it.level ?? ["facile", "moyen", "difficile", "impossible"][Math.min(3, Math.floor((i / ep.items.length) * 4))];
 const LEVEL_TAG = { facile: "cheerful", moyen: "curious", difficile: "excited", impossible: "mischievously" };
 
@@ -95,10 +111,10 @@ function devinePrompt(it, i) {
   if (i === n - 1) return tag("excited", pick(R.devine.last));
   if (i > 0 && (i + 1) % 10 === 0 && rand() < 0.8) return tag("excited", pick(R.devine.milestone).replaceAll("{n}", String(i + 1)));
   if (ep.question && !isIntrus && rand() < (R.devine.question_share ?? 0.35)) {
-    const q = clean(it.prompt.type === "letter" ? `Nomme ${it.prompt.category} qui commence par la lettre ${it.prompt.value}.` : ep.question);
+    const q = clean(it.prompt.type === "letter" ? T.letterQuestion.replace("{cat}", it.prompt.category).replace("{letter}", it.prompt.value) : ep.question);
     return tag(LEVEL_TAG[lv], q);
   }
-  if (it.prompt.type === "letter") return tag(LEVEL_TAG[lv], `${it.prompt.category.replace(/^un |^une /, (m) => m.charAt(0).toUpperCase() + m.slice(1))}, lettre ${it.prompt.value}.`);
+  if (it.prompt.type === "letter") return tag(LEVEL_TAG[lv], T.letterLine.replace("{cat}", it.prompt.category.replace(new RegExp(T.letterArticle), (m) => m.charAt(0).toUpperCase() + m.slice(1))).replace("{letter}", it.prompt.value));
   if ((lv === "difficile" || lv === "impossible") && rand() < 0.5) return tag("mischievously", pick(R.devine.hard));
   return tag(LEVEL_TAG[lv], pick(legacyPool));
 }
@@ -111,8 +127,8 @@ for (let i = 0; i < ep.items.length; i++) {
   it.voice = {};
   if (isChoice) {
     const [a, b] = it.prompt.value.map(clean);
-    const lead = i === 0 ? "Premier choix. " : (i + 1) % 10 === 0 ? `Choix numéro ${i + 1}. ` : "";
-    it.voice.q = await specific(tag("curious", `${lead}Tu préfères… ${a}, ou ${b} ?`), `${i}-q`);
+    const lead = i === 0 ? T.choiceFirst : (i + 1) % 10 === 0 ? T.choiceMilestone.replace("{n}", String(i + 1)) : "";
+    it.voice.q = await specific(tag("curious", `${lead}${T.choiceQuestion.replace("{a}", a).replace("{b}", b)}`), `${i}-q`);
   } else if (isQcm) {
     const pre = rand() < (R.qcmPreShare ?? 0.3) ? `${pick(R.qcmPre)} ` : "";
     it.voice.q = await specific(tag(LEVEL_TAG[levelOf(it, i)], `${pre}${clean(it.prompt.value)}`), `${i}-q`);
@@ -129,24 +145,24 @@ for (let i = 0; i < ep.items.length; i++) {
 const vr = ep.variants ?? {};
 const lvl = (l, fallback) => clean(vr.levels?.[l]?.voice ?? fallback);
 ep.voice = {
-  level_facile: await generic(tag("cheerful", lvl("facile", "Niveau facile. On s'échauffe !"))),
-  level_moyen: await generic(tag("excited", lvl("moyen", "Niveau moyen. Ça se corse !"))),
-  level_difficile: await generic(tag("excited", lvl("difficile", "Niveau difficile. Accroche-toi !"))),
-  level_impossible: await generic(tag("mischievously", lvl("impossible", "Niveau impossible. Seuls les génies…"))),
-  score: await generic(tag("excited", clean(vr.scoreVoice ?? "Alors, combien de points ? Dis-le en commentaire !"))),
-  subscribe: await generic(tag("cheerful", clean(vr.subscribe?.voice ?? "Abonne-toi et active la cloche, pour être prévenu gratuitement du prochain quiz !"))),
-  outro: await generic(tag("cheerful", clean(vr.outro?.voice ?? "Un nouveau quiz chaque jour. Abonne-toi, active la cloche, et à demain !"))),
-  cliff: await generic(tag("excited", "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !")),
+  level_facile: await generic(tag("cheerful", lvl("facile", T.levels.facile))),
+  level_moyen: await generic(tag("excited", lvl("moyen", T.levels.moyen))),
+  level_difficile: await generic(tag("excited", lvl("difficile", T.levels.difficile))),
+  level_impossible: await generic(tag("mischievously", lvl("impossible", T.levels.impossible))),
+  score: await generic(tag("excited", clean(vr.scoreVoice ?? T.score))),
+  subscribe: await generic(tag("cheerful", clean(vr.subscribe?.voice ?? T.subscribe))),
+  outro: await generic(tag("cheerful", clean(vr.outro?.voice ?? T.outro))),
+  cliff: await generic(tag("excited", T.cliff)),
 };
 // Pré-roll et packshot : voix variables de l'épisode (cache générique) ; sans variante, les mp3 statiques de public/audio servent.
 if (vr.preroll?.voice) ep.voice.preroll = await generic(tag("excited", clean(vr.preroll.voice))); // 08/11/2026 : début plus enjoué
 // 08/11/2026 : la carte d'intro est lue à voix haute (titre/accroche + relance), au lieu du jingle seul.
 if (ep.intro?.hook) {
   const hook = clean(ep.intro.hook).replace(/\b([A-ZÉÈÀÇ]{3,})\b/g, (m) => m.charAt(0) + m.slice(1).toLowerCase());
-  ep.voice.intro = await specific(tag("excited", `${hook.replace(/[!?.…]+$/, "")} ! ${pick(V.introVoiceTail ?? ["Prêt ? C'est parti !"])}`), "intro");
+  ep.voice.intro = await specific(tag("excited", `${hook.replace(/[!?.…]+$/, "")} ! ${pick(V.introVoiceTail ?? T.introTail)}`), "intro");
 }
 if (vr.packshot?.voice) ep.voice.packshot = await generic(tag("cheerful", clean(vr.packshot.voice)));
-if (ep.champion) ep.voice.champion = await specific(tag("excited", `Bravo ${clean(ep.champion.name)}, champion de la semaine avec ${ep.champion.score} points !`), "champion");
+if (ep.champion) ep.voice.champion = await specific(tag("excited", T.champion.replace("{name}", clean(ep.champion.name)).replace("{score}", String(ep.champion.score))), "champion");
 
 writeJson(file, ep);
 console.log(`voix off : ${calls} clips générés, ${chars} caractères (${dry ? "simulation" : MODEL})`);

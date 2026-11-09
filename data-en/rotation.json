@@ -1,0 +1,46 @@
+{
+ "_comment": "YouQwiz English (09/11/2026), phase 1: universal banks only (flags, countries, animals, fruits, alphabet, maths, emoji puzzles, odd one out, would you rather, acronyms). Long video 6 PM New York time, Shorts at 12 PM and 7 PM ET. No Saturday site special (the site is French-only). Same mechanics as data/rotation.json.",
+ "timezone": "America/New_York",
+ "publishHour": "18:00",
+ "shortPublishHour": "12:00",
+ "shortPublishHour2": "19:00",
+ "bufferDays": 7,
+ "targetSeconds": { "min": 600, "max": 1200 },
+ "maxSeconds": 2400,
+ "week": {
+  "0": { "pillar": "culture", "label": "Sunday" },
+  "1": { "pillar": "devine", "label": "Monday" },
+  "2": { "pillar": "choix", "label": "Tuesday" },
+  "3": { "pillar": "emojis", "label": "Wednesday" },
+  "4": { "pillar": "devine", "label": "Thursday" },
+  "5": { "pillar": "emojis", "label": "Friday" },
+  "6": { "pillar": "choix", "label": "Saturday" }
+ },
+ "pillars": {
+  "devine": {
+   "template": "DevineEn3s",
+   "banks": ["animals", "countries-no-vowels", "flags", "fruits-veggies", "alphabet", "maths"],
+   "itemsPerEpisode": 60,
+   "weights": { "animals": 1, "countries-no-vowels": 0.8, "flags": 1, "fruits-veggies": 0.6, "alphabet": 1, "maths": 0.9 }
+  },
+  "choix": {
+   "template": "Versus",
+   "banks": ["would-you-rather"],
+   "itemsPerEpisode": 40,
+   "weights": { "would-you-rather": 1 }
+  },
+  "culture": {
+   "template": "QuizQCM",
+   "banks": ["acronyms"],
+   "itemsPerEpisode": 50,
+   "weights": { "acronyms": 1 }
+  },
+  "emojis": {
+   "template": "DevineEn3s",
+   "templates": { "odd-one-out": "Intrus", "words-emojis": "DevineEn3s", "movies-emojis": "DevineEn3s" },
+   "banks": ["odd-one-out", "words-emojis", "movies-emojis"],
+   "itemsPerEpisode": 50,
+   "weights": { "odd-one-out": 1, "words-emojis": 1, "movies-emojis": 0.9 }
+  }
+ }
+}

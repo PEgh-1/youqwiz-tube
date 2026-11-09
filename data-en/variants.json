@@ -1,0 +1,673 @@
+{
+ "_comment": "YouQwiz English (09/11/2026) — same structure as data/variants.json, in English. The site youqwiz.com is French-only: no call to action points to it; packshots and CTAs push the channel (subscribe, comment your score). {theme} = today's topic, {n} = number of questions, {noun} = bank subject, {weekday} = day. 'strings' = texts used by scripts/generate.mjs, 'tts' = texts used by scripts/tts.mjs.",
+ "lang": "en",
+ "strings": {
+  "lang": "en",
+  "weekdays": [
+   "Sunday",
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday"
+  ],
+  "subChoice": [
+   "Pick fast, no overthinking 🤔",
+   "5 seconds per choice, not one more ⏱️",
+   "Heart or head? 💭"
+  ],
+  "subGenerations": [
+   "Were you there? Prove it 😏",
+   "Test your memory, not your kids' 📺",
+   "If you remember it, you'll ace it 🥰"
+  ],
+  "subQcm": [
+   "4 answers, only one is right 🧠",
+   "One right answer out of four 🎯",
+   "Count your points, level by level ⭐"
+  ],
+  "subIntrus": [
+   "Only one is different 👀",
+   "Spot it before the timer runs out ⏱️",
+   "Keep your eyes peeled 👁️"
+  ],
+  "subDevine": [
+   "in 5 seconds ⏱️ from easy to impossible",
+   "5 seconds per question, no pause ⏱️",
+   "Easy to impossible, 5 seconds each 🔥"
+  ],
+  "levelNames": {
+   "facile": "easy",
+   "moyen": "medium",
+   "difficile": "hard",
+   "impossible": "impossible"
+  },
+  "levelPlural": false,
+  "levelLine": "Levels: {list}.",
+  "extraFacts": "{facts} “did you know” facts slipped in after the answers.",
+  "extraChoice": "Drop your picks in the comments, let's compare.",
+  "extraScore": "Count your points and comment your score 👇 Can you beat your friends?",
+  "ctaTexts": [
+   "Subscribe: a new quiz every day",
+   "Beat your score tomorrow, subscribe",
+   "Comment your score and challenge a friend"
+  ],
+  "quizPath": "https://www.youtube.com/@youqwiz_en",
+  "hashtags": {
+   "generations": " #nostalgia",
+   "choice": " #wouldyourather",
+   "default": " #triviaquiz"
+  },
+  "tags": {
+   "base": [
+    "quiz",
+    "trivia",
+    "quiz game",
+    "youqwiz"
+   ],
+   "choice": [
+    "would you rather",
+    "dilemma"
+   ],
+   "devine": [
+    "guessing game",
+    "easy to impossible"
+   ],
+   "generations": "nostalgia",
+   "culture": "general knowledge",
+   "tail": [
+    "trivia quiz",
+    "brain game"
+   ]
+  },
+  "thumbWeek": "of the week",
+  "thumbIntrus": "the odd one",
+  "stickerNotForChoice": "FAIL|ALL RIGHT|GENIUS|NOBODY",
+  "siteHook": "The {n} QUESTIONS of the WEEK",
+  "siteNoun": "QUESTIONS"
+ },
+ "tts": {
+  "languageCode": "en",
+  "intrusPool": [
+   "Spot the odd one out!",
+   "Where's the odd one?",
+   "Only one is different…",
+   "Look closely!",
+   "Where is it hiding?"
+  ],
+  "rebusPool": [
+   "What word is hiding here?",
+   "Guess the word!",
+   "And this one?",
+   "Ring a bell?",
+   "What title is hiding here?",
+   "Decode this one."
+  ],
+  "rebusIds": "words|movies",
+  "letterQuestion": "Name {cat} starting with the letter {letter}.",
+  "letterLine": "{cat}, letter {letter}.",
+  "letterArticle": "^an |^a ",
+  "choiceFirst": "First choice. ",
+  "choiceMilestone": "Choice number {n}. ",
+  "choiceQuestion": "Would you rather… {a}, or {b}?",
+  "levels": {
+   "facile": "Easy level. Let's warm up!",
+   "moyen": "Medium level. It's getting trickier!",
+   "difficile": "Hard level. Hold on tight!",
+   "impossible": "Impossible level. Only geniuses…"
+  },
+  "score": "So, how many points? Tell me in the comments!",
+  "subscribe": "Subscribe and hit the bell, so you never miss the next quiz!",
+  "outro": "A new quiz every day. Subscribe, hit the bell, and see you tomorrow!",
+  "cliff": "The answer is in the full video, link in the pinned comment!",
+  "introTail": [
+   "Ready? Let's go!"
+  ],
+  "champion": "Well done {name}, champion of the week with {score} points!"
+ },
+ "preroll": [
+  {
+   "text": "Good to see you again! 👋",
+   "voice": "Hey, good to see you again! It's quiz time!"
+  },
+  {
+   "text": "Ready for today's quiz? 🔥",
+   "voice": "Ready for today's quiz? Come on, let's go!"
+  },
+  {
+   "text": "Today: {theme} 🎯",
+   "voice": "Today: {theme}! You're going to love it!"
+  },
+  {
+   "text": "Get comfy 🛋️",
+   "voice": "Get comfy, we start in three seconds!"
+  },
+  {
+   "text": "New challenge! 💪",
+   "voice": "New challenge! Think you can beat yesterday? Let's see!"
+  },
+  {
+   "text": "Happy {weekday}! ☀️",
+   "voice": "Happy {weekday}! On the menu: {theme}!"
+  },
+  {
+   "text": "Today's quiz is here 🎁",
+   "voice": "Today's quiz is here! Count your points carefully!"
+  },
+  {
+   "text": "Back again? Nice 🏆",
+   "voice": "Back again? Nice! Champions play every day!"
+  }
+ ],
+ "introCta": [
+  "🏆 Count your points, comment your score",
+  "✍️ Keep track of your points, we compare at the end",
+  "👇 Your score in the comments, let's compare",
+  "🔥 Keep your streak alive as long as you can",
+  "🧠 No cheating, no pausing, let's go",
+  "🎯 Goal: finish without losing your streak"
+ ],
+ "subscribe": [
+  {
+   "title": "Subscribe and hit the bell",
+   "sub": "so you never miss the next quiz 🎁",
+   "voice": "Subscribe and hit the bell, so you never miss the next quiz!"
+  },
+  {
+   "title": "One free quiz a day",
+   "sub": "subscribe so you don't miss tomorrow's 🔔",
+   "voice": "One free quiz a day. Subscribe so you don't miss tomorrow's."
+  },
+  {
+   "title": "Enjoying it? Subscribe 👇",
+   "sub": "it helps the channel and costs nothing 🙏",
+   "voice": "If you're enjoying it, subscribe. It helps the channel, and it costs nothing."
+  },
+  {
+   "title": "Join the YouQwiz players",
+   "sub": "subscribe, the next quiz drops tomorrow 🔔",
+   "voice": "Join the YouQwiz players: subscribe, the next quiz drops tomorrow."
+  },
+  {
+   "title": "Not subscribed yet? 👀",
+   "sub": "one click and you'll never miss a quiz 🔔",
+   "voice": "Not subscribed yet? One click, and you'll never miss a quiz."
+  }
+ ],
+ "levels": {
+  "facile": [
+   {
+    "card": "Warming up 🔥",
+    "voice": "Easy level. Let's warm up!"
+   },
+   {
+    "card": "Nice and easy to start ☕",
+    "voice": "Easy level. Nice and easy to start."
+   },
+   {
+    "card": "Anyone can get these 😎",
+    "voice": "Easy level. Anyone can get these. Well, almost anyone."
+   },
+   {
+    "card": "First level, zero pressure 🙂",
+    "voice": "First level, zero pressure. Here we go."
+   }
+  ],
+  "moyen": [
+   {
+    "card": "Getting trickier 👀",
+    "voice": "Medium level. It's getting trickier!"
+   },
+   {
+    "card": "Time to think 🤔",
+    "voice": "Medium level. Now you have to think a little."
+   },
+   {
+    "card": "Things get serious 💪",
+    "voice": "Medium level. Things are getting serious."
+   },
+   {
+    "card": "Watch out for traps ⚠️",
+    "voice": "Medium level. Careful, there are traps."
+   }
+  ],
+  "difficile": [
+   {
+    "card": "Hold on tight 😰",
+    "voice": "Hard level. Hold on tight!"
+   },
+   {
+    "card": "Most people give up here 😅",
+    "voice": "Hard level. Most people give up here. Not you, I hope."
+   },
+   {
+    "card": "Respect if you keep going 🔥",
+    "voice": "Hard level. Respect if you keep a perfect run."
+   },
+   {
+    "card": "Maximum focus 🧠",
+    "voice": "Hard level. Maximum focus."
+   }
+  ],
+  "impossible": [
+   {
+    "card": "Geniuses only 🧠",
+    "voice": "Impossible level. Geniuses only…"
+   },
+   {
+    "card": "Nobody gets them all 🤯",
+    "voice": "Impossible level. Nobody gets them all. Prove me wrong."
+   },
+   {
+    "card": "Final level: the boss 👑",
+    "voice": "Final level: the boss. Good luck."
+   },
+   {
+    "card": "Even I get stuck 😈",
+    "voice": "Impossible level. Even I get stuck on some of these."
+   }
+  ]
+ },
+ "score": [
+  "Count your points and write your score in the comments: can you beat your friends?",
+  "So, how many points? Write your score in the comments, let's see who's the best!",
+  "Time to count up! Your score in the comments, and come back tomorrow to do even better!",
+  "Count your points, write your score right below, and challenge someone to beat it!"
+ ],
+ "outro": [
+  {
+   "title": "Your score in the comments 👇 who beats it? 🏆",
+   "voice": "Write your score in the comments, and see who beats it. Subscribe, and see you tomorrow!"
+  },
+  {
+   "title": "Your score in the comments 👇 new quiz tomorrow",
+   "voice": "A new quiz every day. Subscribe, hit the bell, and see you tomorrow!"
+  },
+  {
+   "title": "See you tomorrow for a new quiz 👋",
+   "voice": "See you tomorrow for a new quiz. Don't forget to subscribe!"
+  },
+  {
+   "title": "Share with someone who thinks they can beat you 😏",
+   "voice": "Share this video with someone who thinks they can beat your score. We'll see."
+  },
+  {
+   "title": "Thanks for playing 🙏",
+   "voice": "Thanks for playing. The next quiz drops tomorrow, same time."
+  },
+  {
+   "title": "Well done for making it to the end 🏁",
+   "voice": "Well done for making it to the end. Subscribe and see you tomorrow!"
+  }
+ ],
+ "outroChoice": [
+  {
+   "title": "Your picks in the comments 👇",
+   "voice": "Tell me your hardest picks in the comments. See you tomorrow!"
+  },
+  {
+   "title": "Who made the same choices? 🤔",
+   "voice": "Who made the same choices as you? Check the comments. See you tomorrow!"
+  },
+  {
+   "title": "Share with an indecisive friend 😏",
+   "voice": "Share with an indecisive friend and compare your answers. See you tomorrow!"
+  }
+ ],
+ "packshot": {
+  "generic": [
+   {
+    "headline": "A new quiz every day",
+    "sub": "subscribe and hit the bell, it's free 🔔",
+    "cta": "👉 Subscribe",
+    "voice": "A new quiz every single day. Subscribe and hit the bell, it's free."
+   },
+   {
+    "headline": "Think you can beat today's score?",
+    "sub": "come back tomorrow and prove it 🏆",
+    "cta": "👉 Subscribe",
+    "voice": "Think you can beat today's score? Come back tomorrow and prove it. Subscribe!"
+   },
+   {
+    "headline": "Challenge a friend",
+    "sub": "send them this quiz and compare your scores 😏",
+    "cta": "👉 Share & subscribe",
+    "voice": "Challenge a friend: send them this quiz, and compare your scores."
+   }
+  ],
+  "byPillar": {
+   "generations": [
+    {
+     "headline": "A quiz for the whole family",
+     "sub": "grandma, grandpa, the kids: who remembers best? 👵👴",
+     "cta": "👉 Subscribe",
+     "voice": "A quiz for the whole family. Grandma, grandpa, the kids: who remembers best? Subscribe for more."
+    }
+   ],
+   "choix": [
+    {
+     "headline": "Would your friends pick the same?",
+     "sub": "share this one and find out 😏",
+     "cta": "👉 Share & subscribe",
+     "voice": "Would your friends pick the same? Share this one and find out. And subscribe!"
+    }
+   ],
+   "culture": [
+    {
+     "headline": "Who's the smartest in your group?",
+     "sub": "send them today's quiz 🧠",
+     "cta": "👉 Subscribe",
+     "voice": "Who's the smartest in your group? Send them today's quiz. Subscribe for a new one tomorrow."
+    }
+   ],
+   "devine": [
+    {
+     "headline": "Challenge: send this quiz to someone",
+     "sub": "and compare your scores in the comments 🏆",
+     "cta": "👉 Subscribe",
+     "voice": "Challenge: send this quiz to someone and compare your scores in the comments."
+    }
+   ],
+   "emojis": [
+    {
+     "headline": "More emoji puzzles tomorrow",
+     "sub": "subscribe so you don't miss them 🧩",
+     "cta": "👉 Subscribe",
+     "voice": "More emoji puzzles tomorrow. Subscribe so you don't miss them."
+    }
+   ]
+  }
+ },
+ "relances": {
+  "devine": {
+   "first": [
+    "Come on, let's warm up! First question!",
+    "Here we go! First picture, easy one!",
+    "Ready, set, go! We start nice and easy!",
+    "First question, show me what you've got!"
+   ],
+   "generic": [
+    "This one?",
+    "And this one?",
+    "Well?",
+    "Easy, right?",
+    "Do you know it?",
+    "Next one!",
+    "Your turn.",
+    "Quick, quick!",
+    "I'm listening.",
+    "Got it?",
+    "Think carefully.",
+    "Focus.",
+    "Moving on.",
+    "Next!",
+    "Ring a bell?",
+    "Look closely.",
+    "Don't panic.",
+    "One more.",
+    "And now?",
+    "Can you tell what it is?"
+   ],
+   "hard": [
+    "Careful, this one tricks everyone.",
+    "Now it's getting serious.",
+    "Very few people get this one.",
+    "Hold on tight.",
+    "I bet you're stuck.",
+    "This one's sneaky.",
+    "Take your time, well, not too much.",
+    "Respect if you get it."
+   ],
+   "milestone": [
+    "Question {n} already! Keeping up?",
+    "Question {n}. Is your streak still alive?",
+    "On to question {n}. Count your points carefully."
+   ],
+   "last": [
+    "Last question!",
+    "Come on, the last one.",
+    "Let's finish in style."
+   ],
+   "question_share": 0.35
+  },
+  "qcmPre": [
+   "Careful, trick question.",
+   "This one is for the experts.",
+   "Easy one. Well, I think so.",
+   "Think carefully before you answer.",
+   "New question.",
+   "Moving on.",
+   "Next question.",
+   "Lots of people get this wrong."
+  ],
+  "qcmPreShare": 0.3,
+  "answerQcm": [
+   "Answer: {a}!",
+   "It was {a}.",
+   "That's right: {a}!",
+   "The right answer is {a}.",
+   "Well done if you said {a}.",
+   "{a}, of course!"
+  ],
+  "answerDevine": [
+   "{a}!",
+   "It's {a}.",
+   "Well done if you said {a}.",
+   "That's right, {a}!",
+   "Answer: {a}."
+  ],
+  "answerIntrus": [
+   "{a}!",
+   "The odd one was in {a}.",
+   "It was {a}.",
+   "Did you spot it? {a}!"
+  ],
+  "factLead": [
+   "Little bonus:",
+   "By the way,",
+   "Fun fact:",
+   "Here's a cool detail:",
+   "Did you know?",
+   "To impress your friends:"
+  ]
+ },
+ "titles": {
+  "devine": [
+   "{hook} in 5 seconds {emoji} | Easy, Medium, Hard, Impossible",
+   "Can you guess {n} {noun}? {emoji} Quiz from easy to IMPOSSIBLE",
+   "{n} {noun} to guess {emoji} Only geniuses get a perfect score",
+   "You have 5 seconds per {noun1} ⏱️ {emoji} {noun} Quiz",
+   "{hook} {emoji} 99% fail the last level",
+   "{noun} Quiz {emoji} How many can you get out of {n}?",
+   "{n} {noun} in 5 seconds flat {emoji} Speed test",
+   "{noun} challenge {emoji} {n} questions, 4 levels, one genius"
+  ],
+  "choix": [
+   "WOULD YOU RATHER…? {n} IMPOSSIBLE CHOICES {emoji} EXTREME level!",
+   "Would you rather…? {n} dilemmas nobody dares to settle {emoji}",
+   "{n} impossible choices {emoji} What would you rather?",
+   "Would you rather…? {n}-question edition {emoji} Pick without thinking!",
+   "Nobody agrees on these {n} choices {emoji} Would you rather…?",
+   "Would you rather…? {n} CRAZY dilemmas {emoji} Never seen before!",
+   "{n} impossible dilemmas {emoji} Answer in 5 seconds!"
+  ],
+  "culture": [
+   "{hook} {emoji} Are you an EXPERT? | Easy to Impossible",
+   "{n} {subject} questions {emoji} Almost nobody gets them all",
+   "{subject} Quiz {emoji} What's your level? ({n} questions)",
+   "{n} questions 90% of people get wrong {emoji} {subject} Quiz",
+   "Can you pass this {subject} quiz? {emoji} {n} questions, 4 levels",
+   "{hook} {emoji} Test your knowledge in {n} questions",
+   "Your brain is in shape if you pass this quiz {emoji} {n} questions",
+   "{subject} Quiz {emoji} {n} questions, from beginner to GENIUS"
+  ],
+  "generations": [
+   "{hook} {emoji} {n} memory questions | Generations Quiz",
+   "Do you remember all this? {emoji} {n} memories from the 60s to the 90s",
+   "Nostalgia quiz: {n} questions only the old-timers can pass {emoji}",
+   "If you lived through this, you'll ace it {emoji} {n} memories",
+   "Generations Quiz {emoji} {n} questions to test your memory",
+   "{n} memories from back in the day {emoji} Your kids won't get a thing",
+   "Only those born before 1975 will pass {emoji} {n} memory questions"
+  ],
+  "emojis": [
+   "{hook} {emoji} {n} levels | Easy, Medium, Hard, Impossible",
+   "Can you guess {n} {noun}? {emoji} Emoji quiz from easy to impossible",
+   "{n} {noun} {emoji} Only geniuses find them all",
+   "{noun} Quiz {emoji} {n} puzzles in 5 seconds",
+   "{hook} {emoji} Your brain is going to heat up",
+   "{n} {noun} to solve {emoji} How many can you find?",
+   "Guess {n} {noun} in 5 seconds {emoji} Emoji puzzles and riddles"
+  ],
+  "site": [
+   "{n} QUESTIONS of the WEEK {emoji} The best of YouQwiz | Easy to Impossible",
+   "The {n} questions of the week {emoji} Can you get them all?",
+   "Weekly recap: {n} questions {emoji} The best of the daily quizzes"
+  ]
+ },
+ "descriptionIntro": {
+  "devine": [
+   "{n} {noun} to guess in 5 seconds each, from the easiest to the most impossible.",
+   "Today: {n} {noun}. You have 5 seconds per picture, your streak counts double.",
+   "A {noun} quiz in {n} questions, 4 levels: easy, medium, hard, impossible."
+  ],
+  "choix": [
+   "{n} impossible dilemmas: what do you pick? No thinking, 5 seconds.",
+   "Would you rather…? {n} choices nobody can settle.",
+   "{n} “would you rather” questions, from everyday life to superpowers."
+  ],
+  "culture": [
+   "{n} {subject} questions, 4 answers, only one is right. Count your points.",
+   "{subject} quiz in {n} questions, from easy to genius level.",
+   "{n} questions to test your knowledge: most people fail the last level."
+  ],
+  "generations": [
+   "{n} memory questions: objects, TV shows, habits from back then. Do you remember them all?",
+   "A nostalgia quiz in {n} questions for those who were there.",
+   "{n} memories from the 60s to the 90s, to play with the whole family."
+  ],
+  "emojis": [
+   "{n} {noun}: find the hidden answer in 5 seconds.",
+   "A {noun} quiz in {n} puzzles, from easy to impossible.",
+   "{n} emoji puzzles to solve, your streak counts."
+  ],
+  "site": [
+   "The {n} questions of the week, picked from the daily quizzes.",
+   "Weekly recap: {n} questions from the daily quizzes."
+  ]
+ },
+ "descriptionCta": [
+  "🏆 Comment your score and see who beats it",
+  "😏 Send this quiz to someone who thinks they can beat you",
+  "🧠 Play along with family or friends and compare your scores",
+  "🎯 Keep your streak alive and tell us how far you got"
+ ],
+ "descriptionSub": [
+  "🔔 A new quiz every day, subscribe!",
+  "🔔 Subscribe: one quiz a day at 6 PM ET.",
+  "🔔 New quiz every day, hit the bell.",
+  "🔔 Don't forget to subscribe, it helps the channel."
+ ],
+ "shortTitles": [
+  "99% fail at question 8 😱 {hook} #Shorts",
+  "How many can you get? 😱 {hook} #Shorts",
+  "Nobody gets the last one 🤯 {hook} #Shorts",
+  "3 seconds per question ⏱️ {hook} #Shorts",
+  "Only geniuses finish 🧠 {hook} #Shorts",
+  "Question 8 is impossible 😱 {hook} #Shorts"
+ ],
+ "shortDescriptions": [
+  "The answer + {n} questions in the full video 🎬 {url}\n🔔 A new quiz every day, subscribe!\n#shorts #quiz #youqwiz",
+  "Want the answer? It's in the full video ({n} questions) 🎬 {url}\n🔔 Subscribe for tomorrow's quiz\n#shorts #quiz #youqwiz",
+  "Full video with all {n} questions 👉 {url}\n😏 Challenge your friends in the comments\n#shorts #quiz #youqwiz"
+ ],
+ "thumbStickers": [
+  "99% FAIL",
+  "IMPOSSIBLE?",
+  "ALL RIGHT?",
+  "NOBODY CAN",
+  "GENIUS LEVEL",
+  "{n} QUESTIONS",
+  "5 SECONDS!"
+ ],
+ "thumbLine1": {
+  "devine": [
+   "Guess",
+   "Find",
+   "Name"
+  ],
+  "choix": [
+   "Would you rather",
+   "Pick one",
+   "Dilemma"
+  ],
+  "culture": [
+   "Trivia",
+   "Quiz",
+   "Your level?"
+  ],
+  "generations": [
+   "Born before 1975?",
+   "Memories",
+   "Remember this?"
+  ],
+  "emojis": [
+   "Find",
+   "Guess",
+   "Decode"
+  ],
+  "site": [
+   "The quizzes",
+   "Recap"
+  ]
+ },
+ "introVoiceTail": [
+  "Ready? Let's go!",
+  "Buckle up, here we go!",
+  "Your turn!",
+  "Come on, show me what you've got!"
+ ],
+ "shortTitlesHard": [
+  "IMPOSSIBLE level 🔥 {hook} #Shorts",
+  "Only 1% get the last one 😱 {hook} #Shorts",
+  "The hardest {theme} ⚠️ 3 seconds each #Shorts",
+  "EXPERT mode on 🧠🔥 {hook} #Shorts",
+  "You won't get this one 🤯 {hook} #Shorts",
+  "The {theme} final boss 👑 #Shorts"
+ ],
+ "shortHardHooks": [
+  {
+   "sticker": "1% SUCCEED",
+   "line": "on the 8 hardest questions 🔥"
+  },
+  {
+   "sticker": "IMPOSSIBLE LEVEL",
+   "line": "nobody finishes this Short 😱"
+  },
+  {
+   "sticker": "NOBODY CAN",
+   "line": "the 8 hardest ones 🧠"
+  },
+  {
+   "sticker": "EXPERT MODE",
+   "line": "the 8 questions nobody gets 👑"
+  }
+ ],
+ "socialCaptions": [
+  "{hook} 🧠 How many can you get? Answer in the comments 👇",
+  "Today's quiz: {hook} ⏱️ 3 seconds per question, nobody finishes 😱",
+  "{n} {noun} to guess today on YouQwiz 🎯 Your score in the comments!",
+  "Only true experts get past question 8 😏 {hook}"
+ ],
+ "socialHashtags": [
+  "quiz",
+  "trivia",
+  "triviaquiz",
+  "braingame",
+  "challenge",
+  "guessinggame",
+  "youqwiz",
+  "fyp"
+ ]
+}

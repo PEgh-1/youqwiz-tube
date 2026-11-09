@@ -6,12 +6,12 @@
 // Usage : node scripts/save-state.mjs --message "état : …" [--paths "data/state data/episodes"]
 import { execSync } from "node:child_process";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import { argv } from "./lib.mjs";
+import { DATA_DIR, argv } from "./lib.mjs";
 
 const sh = (c, opt = {}) => execSync(c, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], ...opt }).trim();
 const message = argv("message", "état : mise à jour");
-const paths = argv("paths", "data/state").split(/\s+/).filter(Boolean);
-const Q = "data/state/queue.json";
+const paths = argv("paths", `${DATA_DIR}/state`).split(/\s+/).filter(Boolean);
+const Q = `${DATA_DIR}/state/queue.json`; // data/ (FR) ou data-en/ (chaîne anglaise, CHANNEL=en)
 const show = (ref) => { try { return JSON.parse(sh(`git show ${ref}:${Q}`)); } catch { return null; } };
 const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
 

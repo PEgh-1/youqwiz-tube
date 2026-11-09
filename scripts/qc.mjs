@@ -53,7 +53,7 @@ const previous = readdirSync(p("data/episodes"))
   .filter(Boolean);
 const words = (s) => new Set(String(s ?? "").toLowerCase().replace(/[^\p{L}\p{N} ]+/gu, " ").split(/\s+/).filter((w) => w.length > 3));
 const jaccard = (a, b) => { const A = words(a), B = words(b); const inter = [...A].filter((w) => B.has(w)).length; return inter / (A.size + B.size - inter || 1); };
-const descBody = (e) => String(e.meta?.description ?? "").replace(/⏱️ Chapitres[\s\S]*$/, "").replace(/https?:\S+/g, "").replace(/#\w+/g, "");
+const descBody = (e) => String(e.meta?.description ?? "").replace(/⏱️ Chapit(re|er)s[\s\S]*$/, "").replace(/https?:\S+/g, "").replace(/#\w+/g, "");
 for (const e of previous) {
   if (e.title === ep.title) errors.push(`titre identique à ${e.id}`);
   if (jaccard(descBody(e), descBody(ep)) > 0.85) errors.push(`description quasi identique à ${e.id}`);

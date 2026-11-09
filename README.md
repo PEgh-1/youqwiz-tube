@@ -55,6 +55,30 @@ Chromium déjà installé : `REMOTION_BROWSER_EXECUTABLE=/chemin/vers/chrome`.
 | `MUSIC_URL` | (optionnel) URL privée des pistes musicales |
 | `SITE_SYNC_KEY`, `SITE_SYNC_URL` | (optionnel) publication des quiz sur youqwiz.com |
 | `YOUQWIZ_EXPORT_URL` | (optionnel) export de la banque de questions du site |
+| `YT_REFRESH_TOKEN_EN`, `YT_PLAYLIST_ID_EN`, `ELEVENLABS_VOICE_ID_EN` | chaîne anglaise (voir ci-dessous) |
+
+## Chaîne anglaise (YouQwiz English)
+
+Même chaîne de production, lancée par `.github/workflows/daily-en.yml` avec `CHANNEL=en` : `scripts/lib.mjs` redirige
+alors tous les chemins `data/…` vers `data-en/` (banques anglaises, `rotation.json` à l'heure de New York, `variants.json`
+en anglais avec les sections `strings` et `tts`, état et épisodes propres). Les gabarits lisent `episode.lang` et
+affichent les textes de `src/i18n.ts`. Le site youqwiz.com étant en français, aucun appel à l'action anglais n'y renvoie.
+
+```bash
+CHANNEL=en npm run generate -- --date 2026-11-20   # épisode anglais dans data-en/episodes/
+CHANNEL=en npm run render && CHANNEL=en npm run qc
+```
+
+Mise en route : créer la chaîne de marque sur le même compte Google, obtenir son jeton avec `node scripts/auth.mjs`
+(choisir la chaîne anglaise à l'écran de consentement) → secret `YT_REFRESH_TOKEN_EN` ; choisir une voix ElevenLabs
+anglophone → `ELEVENLABS_VOICE_ID_EN` ; puis lancer « Video of the day (EN) » à la main pour constituer l'avance.
+
+## Relais réseaux sociaux (Shorts)
+
+Chaque épisode a deux Shorts : le premier (12 h, premières questions) et le second (19 h, les 8 questions les plus
+dures, `shortPublishHour2`). Le workflow les attache à une release GitHub nommée comme l'épisode ; le cron du site
+(`site/pull-episodes.php`, copie versionnée du script serveur) les copie dans `youqwiz.com/media/shorts/<id>.mp4` et
+`<id>-2.mp4`, d'où une tâche Claude quotidienne les programme sur Instagram, Facebook et TikTok via Metricool.
 
 ## File tampon
 

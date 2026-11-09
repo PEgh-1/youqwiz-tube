@@ -64,7 +64,7 @@ if (!dry) {
     const res = await yt.videos.insert({
       part: ["snippet", "status"],
       requestBody: {
-        snippet: { title, description, tags, categoryId: "24", defaultLanguage: "fr", defaultAudioLanguage: "fr" },
+        snippet: { title, description, tags, categoryId: "24", defaultLanguage: ep.lang ?? "fr", defaultAudioLanguage: ep.lang ?? "fr" },
         status: { privacyStatus: "private", publishAt, selfDeclaredMadeForKids: false, embeddable: true },
       },
       media: { body: createReadStream(file) },
@@ -101,7 +101,7 @@ if (!dry) {
     savePending();
   }
   // Titre et description du Short variables (03/11/2026) : tirés dans generate.mjs, repli sur l'ancienne formule.
-  const shortTitle = (ep.meta.shortTitle ?? `99 % échouent à la 8e 😱 ${ep.intro.hook} #Shorts`).slice(0, 100);
+  const shortTitle = (ep.meta.shortTitle ?? `99 % échouent à la 8e 😱 ${ep.intro.hook} #Shorts`).slice(0, 100); // repli FR (épisodes d'avant le 03/11/2026)
   const shortDescription = (ep.meta.shortDescription ?? `La réponse + {n} questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz`)
     .replaceAll("{n}", String(ep.items.length))
     .replaceAll("{url}", `https://youtu.be/${result.longId}`);

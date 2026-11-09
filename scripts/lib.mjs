@@ -2,7 +2,14 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 export const ROOT = path.resolve(new URL(".", import.meta.url).pathname, "..");
-export const p = (...x) => path.join(ROOT, ...x);
+// Chaînes (09/11/2026) : CHANNEL=fr (défaut, données dans data/) ou CHANNEL=en (données dans data-en/ : banques, rotation,
+// variantes, état, épisodes). Tout chemin « data/… » demandé par les scripts est redirigé vers le dossier de la chaîne.
+export const CHANNEL = (process.env.CHANNEL || "fr").toLowerCase();
+export const DATA_DIR = CHANNEL === "fr" ? "data" : `data-${CHANNEL}`;
+export const p = (...x) => {
+  const j = path.join(...x);
+  return path.join(ROOT, j === "data" || j.startsWith("data/") ? DATA_DIR + j.slice(4) : j);
+};
 export const readJson = (f, fallback) => (existsSync(f) ? JSON.parse(readFileSync(f, "utf8")) : fallback);
 export const writeJson = (f, obj) => {
   mkdirSync(path.dirname(f), { recursive: true });
@@ -34,10 +41,11 @@ export const argv = (name, def) => {
   return i >= 0 ? process.argv[i + 1] : def;
 };
 
-// Date du jour (Europe/Paris) au format YYYY-MM-DD.
-export const todayParis = () => {
+// Date du jour au format YYYY-MM-DD dans le fuseau de la chaîne (rotation.json → timezone, Europe/Paris par défaut).
+export const CHANNEL_TZ = readJson(p("data/rotation.json"), {}).timezone ?? "Europe/Paris";
+export const todayParis = (tz = CHANNEL_TZ) => {
   const d = new Date();
-  const fmt = new Intl.DateTimeFormat("fr-CA", { timeZone: "Europe/Paris", year: "numeric", month: "2-digit", day: "2-digit" });
+  const fmt = new Intl.DateTimeFormat("fr-CA", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit" });
   return fmt.format(d);
 };
 

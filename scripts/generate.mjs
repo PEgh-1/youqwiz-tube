@@ -67,7 +67,33 @@ if (!argv("date") && (Date.parse(date) - Date.parse(todayParis())) / 86400000 > 
 const state = readJson(p("data/state/used.json"), { items: {}, banks: {} });
 const rand = rng(date);
 const pick = (arr) => arr[Math.floor(rand() * arr.length)];
-const WEEKDAYS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+// Textes de generate.mjs propres à la langue (09/11/2026) : surchargés par variants.json → "strings" (chaîne anglaise).
+const S = {
+  lang: "fr",
+  weekdays: ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+  subChoice: ["Choisis vite, sans réfléchir 🤔", "5 secondes par choix, pas une de plus ⏱️", "Ton cœur ou ta raison ? 💭"],
+  subGenerations: ["Tu as vécu ça ? Prouve-le 😏", "Teste ta mémoire, pas tes enfants 📺", "Si tu t'en souviens, tu as tout bon 🥰"],
+  subQcm: ["4 réponses, une seule bonne 🧠", "Une seule bonne réponse sur quatre 🎯", "Compte tes points, niveau par niveau ⭐"],
+  subIntrus: ["Un seul est différent 👀", "Trouve-le avant la fin du chrono ⏱️", "Ouvre l'œil, et le bon 👁️"],
+  subDevine: ["en 5 secondes ⏱️ de facile à impossible", "5 secondes par question, sans pause ⏱️", "Du facile à l'impossible, en 5 secondes 🔥"],
+  levelNames: { facile: "facile", moyen: "moyen", difficile: "difficile", impossible: "impossible" },
+  levelPlural: true, // « 12 moyens », « 8 difficiles » (pas de pluriel en anglais)
+  levelLine: "Niveaux : {list}.",
+  extraFacts: "{facts} anecdotes « le savais-tu » glissées après les réponses.",
+  extraChoice: "Dis tes choix en commentaire, on compare.",
+  extraScore: "Compte tes points et dis ton score en commentaire 👇 Le meilleur score est félicité dès le lendemain 🏆",
+  ctaTexts: ["Défie tes proches sur youqwiz.com", "Crée ton quiz gratuit sur youqwiz.com", "Le même quiz en version jouable : youqwiz.com"],
+  quizPath: "https://youqwiz.com/quiz-du-jour/",
+  hashtags: { generations: " #nostalgie", choice: " #tupreferes", default: " #quizfrancais" },
+  tags: { base: ["quiz", "quiz français", "quizz", "youqwiz"], choice: ["tu préfères", "dilemme"], devine: ["devinette", "facile à impossible"], generations: "nostalgie", culture: "culture générale", tail: ["quiz en français", "jeu"] },
+  thumbWeek: "de la semaine",
+  thumbIntrus: "l'intrus",
+  stickerNotForChoice: "ÉCHOUENT|TOUT BON|GÉNIE|PERSONNE", // autocollants de miniature sans sens pour un « tu préfères »
+  siteHook: "Les {n} QUESTIONS de la SEMAINE sur youqwiz.com",
+  siteNoun: "QUESTIONS",
+  ...(V.strings ?? {}),
+};
+const WEEKDAYS = S.weekdays;
 
 // 1. Pilier du jour (ou forcé), avec repli si le gabarit n'est pas encore livré.
 const dow = new Date(`${date}T12:00:00Z`).getUTCDay();
@@ -92,7 +118,7 @@ if (pillar === "site") {
     const data = await res.json();
     const items = (data.quizzes ?? []).flatMap((q) => (q.questions ?? []).map((x) => ({ prompt: { type: "qcm", value: x.question, choices: x.choices, correct: x.correct }, answer: x.choices[x.correct], level: x.level ?? "moyen", source: q.title })));
     if (items.length < 20) throw new Error(`seulement ${items.length} questions`);
-    siteBank = { slug: "youqwiz-semaine", question: "", hook: "Les {n} QUESTIONS de la SEMAINE sur youqwiz.com", emoji: "🎮🧠📅", noun: "QUESTIONS", timing: { question: 5, reveal: 2 }, items };
+    siteBank = { slug: "youqwiz-semaine", question: "", hook: S.siteHook, emoji: "🎮🧠📅", noun: S.siteNoun, timing: { question: 5, reveal: 2 }, items };
     console.log(`export youqwiz.com : ${items.length} questions (${data.quizzes.length} quiz)`);
   } catch (e) {
     console.warn(`pilier site indisponible (${e.message}) → repli sur ${conf.fallback}`);
@@ -225,15 +251,15 @@ const titlePool = V.titles[isSite ? "site" : pillar] ?? V.titles.devine;
 const usedTitles = new Set(readdirSync(p("data/episodes")).map((f) => readJson(p("data/episodes", f))?.title).filter(Boolean));
 const titleCandidates = shuffle(titlePool, rand).map(fill).map((t) => t.replace(/\s+/g, " ").trim());
 const title = titleCandidates.find((t) => !usedTitles.has(t) && t.length <= 100) ?? `${titleCandidates[0]} (${WEEKDAYS[dow]})`.slice(0, 100);
-const sub = isChoice ? pick(["Choisis vite, sans réfléchir 🤔", "5 secondes par choix, pas une de plus ⏱️", "Ton cœur ou ta raison ? 💭"]) : isQcm ? (pillar === "generations" ? pick(["Tu as vécu ça ? Prouve-le 😏", "Teste ta mémoire, pas tes enfants 📺", "Si tu t'en souviens, tu as tout bon 🥰"]) : pick(["4 réponses, une seule bonne 🧠", "Une seule bonne réponse sur quatre 🎯", "Compte tes points, niveau par niveau ⭐"])) : isIntrus ? pick(["Un seul est différent 👀", "Trouve-le avant la fin du chrono ⏱️", "Ouvre l'œil, et le bon 👁️"]) : pick(["en 5 secondes ⏱️ de facile à impossible", "5 secondes par question, sans pause ⏱️", "Du facile à l'impossible, en 5 secondes 🔥"]);
+const sub = isChoice ? pick(S.subChoice) : isQcm ? (pillar === "generations" ? pick(S.subGenerations) : pick(S.subQcm)) : isIntrus ? pick(S.subIntrus) : pick(S.subDevine);
 const byLevel = ["facile", "moyen", "difficile", "impossible"].map((l) => [l, items.filter((i) => (i.level ?? "facile") === l).length]).filter(([, c]) => c > 0);
-const levelLine = byLevel.length > 1 ? `Niveaux : ${byLevel.map(([l, c]) => `${c} ${l}${c > 1 && l !== "facile" && l !== "impossible" ? "s" : ""}`).join(", ")}.` : "";
+const levelLine = byLevel.length > 1 ? S.levelLine.replace("{list}", byLevel.map(([l, c]) => `${c} ${S.levelNames[l]}${S.levelPlural && c > 1 && l !== "facile" && l !== "impossible" ? "s" : ""}`).join(", ")) : "";
 const intro = fill(pick(V.descriptionIntro[isSite ? "site" : pillar] ?? V.descriptionIntro.devine));
-const extra = facts ? `${facts} anecdotes « le savais-tu » glissées après les réponses.` : isChoice ? "Dis tes choix en commentaire, on compare." : "Compte tes points et dis ton score en commentaire 👇 Le meilleur score est félicité dès le lendemain 🏆";
+const extra = facts ? S.extraFacts.replace("{facts}", String(facts)) : isChoice ? S.extraChoice : S.extraScore;
 // Champion de la semaine (vidéo du lundi) : issu de scripts/community.mjs --leaderboard
 const board = readJson(p("data/state/leaderboard.json"));
 const champion = dow === 1 && board?.champion && (Date.parse(date) - Date.parse(board.week)) / 86400000 < 8 ? { name: board.champion.name, score: board.champion.score } : undefined;
-const stickerPool = V.thumbStickers.filter((s) => (isChoice ? !/ÉCHOUENT|TOUT BON|GÉNIE|PERSONNE/.test(s) : true));
+const stickerPool = V.thumbStickers.filter((s) => (isChoice ? !new RegExp(S.stickerNotForChoice).test(s) : true));
 const sticker = fill(choose(stickerPool, prevSame?.meta?.thumbnail?.sticker));
 const layouts = shuffle([0, 1, 2, 3], rand).slice(0, 2);
 const line1 = pick(V.thumbLine1[isSite ? "site" : pillar] ?? V.thumbLine1.devine);
@@ -252,11 +278,12 @@ const episode = {
   items,
   timing: bank.timing ?? { question: 3, reveal: 2 },
   ...(champion ? { champion } : {}),
-  cta: { url: "youqwiz.com", text: pick(["Défie tes proches sur youqwiz.com", "Crée ton quiz gratuit sur youqwiz.com", "Le même quiz en version jouable : youqwiz.com"]) },
+  ...(S.lang !== "fr" ? { lang: S.lang } : {}),
+  cta: { url: "youqwiz.com", text: pick(S.ctaTexts) },
   meta: {
-    description: [intro, levelLine, extra].filter(Boolean).join(" ") + "\n\n" + [pick(V.descriptionCta).replace("https://youqwiz.com", `https://youqwiz.com/quiz-du-jour/${date}-${bank.slug}`), pick(V.descriptionSub)].join("\n") + "\n\n" + `#quiz #${bank.slug.replace(/-/g, "")} #youqwiz` + (pillar === "generations" ? " #nostalgie" : isChoice ? " #tupreferes" : " #quizfrancais"),
-    tags: [...new Set(["quiz", "quiz français", "quizz", "youqwiz", bank.slug.replace(/-/g, " "), ...(bank.tags ?? []), isChoice ? "tu préfères" : "devinette", isChoice ? "dilemme" : "facile à impossible", pillar === "generations" ? "nostalgie" : "culture générale", "quiz en français", "jeu"])].slice(0, 20),
-    thumbnail: { line1, line2: isSite ? "de la semaine" : isIntrus ? "l'intrus" : `${count} ${bank.noun}`, emoji: (() => { const gs = [...new Intl.Segmenter("fr", { granularity: "grapheme" }).segment(bank.emoji)].map((s) => s.segment).filter((s) => /\p{Extended_Pictographic}/u.test(s)); return gs[Math.floor(rand() * gs.length)] ?? "🧠"; })(), sticker, layouts },
+    description: [intro, levelLine, extra].filter(Boolean).join(" ") + "\n\n" + [pick(V.descriptionCta).replace("https://youqwiz.com", `${S.quizPath}${date}-${bank.slug}`), pick(V.descriptionSub)].join("\n") + "\n\n" + `#quiz #${bank.slug.replace(/-/g, "")} #youqwiz` + (pillar === "generations" ? S.hashtags.generations : isChoice ? S.hashtags.choice : S.hashtags.default),
+    tags: [...new Set([...S.tags.base, bank.slug.replace(/-/g, " "), ...(bank.tags ?? []), ...(isChoice ? S.tags.choice : S.tags.devine), pillar === "generations" ? S.tags.generations : S.tags.culture, ...S.tags.tail])].slice(0, 20),
+    thumbnail: { line1, line2: isSite ? S.thumbWeek : isIntrus ? S.thumbIntrus : `${count} ${bank.noun}`, emoji: (() => { const gs = [...new Intl.Segmenter("fr", { granularity: "grapheme" }).segment(bank.emoji)].map((s) => s.segment).filter((s) => /\p{Extended_Pictographic}/u.test(s)); return gs[Math.floor(rand() * gs.length)] ?? "🧠"; })(), sticker, layouts },
     shortItems: isChoice ? 4 : 5,
     shortTitle: fill(pick(V.shortTitles)).slice(0, 100),
     shortDescription: fill(pick(V.shortDescriptions)),
