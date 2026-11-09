@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-sport",
+  "theme": "sport",
+  "title": "Quiz sport : 20 questions sur tous les sports",
+  "description": "Quiz sport gratuit : 20 questions sur le tennis, le basket, le judo, le golf et bien d'autres sports. Teste ta culture sportive en 5 s par question.",
+  "h1": "Quiz sport : quel est ton niveau en culture sportive ?",
+  "intro": "Du tennis au judo, du basket au golf, ce quiz sport balaie les disciplines les plus populaires du monde entier. Tu y trouveras des questions sur les règles, les origines et quelques grands noms du sport. Les premières questions sont accessibles à tous, puis le niveau monte progressivement jusqu'à des questions pour les vrais connaisseurs. Tu disposes de 5 secondes par question, donc pas le temps de tergiverser ! Chaque réponse s'accompagne d'une explication pour apprendre en t'amusant. Lance le chrono, défie tes amis et vois si tu es un champion de la culture sportive.",
+  "questions": [
+    {
+      "q": "Quelle est la distance officielle d'un marathon ?",
+      "choices": [
+        "40 km",
+        "45 km",
+        "42,195 km",
+        "50 km"
+      ],
+      "answer": 2,
+      "explication": "La distance de 42,195 km a été fixée officiellement en 1921 par la fédération internationale d'athlétisme.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien d'anneaux compte le symbole olympique ?",
+      "choices": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "answer": 0,
+      "explication": "Les cinq anneaux entrelacés représentent les cinq continents unis par l'olympisme.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel sport se pratique à Roland-Garros ?",
+      "choices": [
+        "Le golf",
+        "Le badminton",
+        "Le squash",
+        "Le tennis"
+      ],
+      "answer": 3,
+      "explication": "Roland-Garros accueille chaque année à Paris un tournoi du Grand Chelem sur terre battue.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de joueurs d'une équipe de basket-ball sont sur le terrain en même temps ?",
+      "choices": [
+        "6",
+        "5",
+        "7",
+        "4"
+      ],
+      "answer": 1,
+      "explication": "Chaque équipe aligne cinq joueurs sur le terrain, avec des remplaçants sur le banc.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quel sport Michael Jordan s'est-il rendu célèbre ?",
+      "choices": [
+        "Le baseball",
+        "Le football américain",
+        "Le hockey sur glace",
+        "Le basket-ball"
+      ],
+      "answer": 3,
+      "explication": "Michael Jordan a marqué l'histoire du basket avec les Chicago Bulls dans les années 1990.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quel sport utilise-t-on un volant ?",
+      "choices": [
+        "Le squash",
+        "Le badminton",
+        "Le tennis de table",
+        "Le golf"
+      ],
+      "answer": 1,
+      "explication": "Le volant, souvent en plumes ou en plastique, se joue avec une raquette légère au badminton.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de joueurs une équipe de volley-ball aligne-t-elle sur le terrain ?",
+      "choices": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": 0,
+      "explication": "Une équipe de volley-ball compte six joueurs sur le terrain, trois en avant et trois en arrière.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle nage se pratique allongé sur le dos ?",
+      "choices": [
+        "La brasse",
+        "Le papillon",
+        "Le dos crawlé",
+        "Le crawl"
+      ],
+      "answer": 2,
+      "explication": "Le dos crawlé est la seule des quatre nages officielles où le nageur est sur le dos.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel tournoi du Grand Chelem se joue sur gazon ?",
+      "choices": [
+        "Roland-Garros",
+        "Wimbledon",
+        "L'US Open",
+        "L'Open d'Australie"
+      ],
+      "answer": 1,
+      "explication": "Wimbledon, à Londres, est le plus ancien tournoi de tennis et se dispute sur gazon.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de trous compte un parcours de golf standard ?",
+      "choices": [
+        "9",
+        "12",
+        "24",
+        "18"
+      ],
+      "answer": 3,
+      "explication": "Un parcours complet de golf comporte 18 trous.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quel pays le sumo est-il le sport traditionnel ?",
+      "choices": [
+        "La Chine",
+        "La Corée du Sud",
+        "Le Japon",
+        "La Thaïlande"
+      ],
+      "answer": 2,
+      "explication": "Le sumo est un sport de combat japonais aux rituels très anciens.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de joueurs une équipe de handball a-t-elle sur le terrain, gardien compris ?",
+      "choices": [
+        "7",
+        "6",
+        "8",
+        "5"
+      ],
+      "answer": 0,
+      "explication": "Une équipe de handball compte six joueurs de champ et un gardien de but sur le terrain.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel pays est le berceau du cricket ?",
+      "choices": [
+        "L'Angleterre",
+        "L'Australie",
+        "L'Inde",
+        "L'Afrique du Sud"
+      ],
+      "answer": 0,
+      "explication": "Le cricket est né en Angleterre et s'est diffusé dans tout l'ancien Empire britannique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quel sport dispute-t-on la Ryder Cup ?",
+      "choices": [
+        "Le tennis",
+        "Le rugby",
+        "Le golf",
+        "La voile"
+      ],
+      "answer": 2,
+      "explication": "La Ryder Cup oppose tous les deux ans une équipe d'Europe à une équipe des États-Unis.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de sets faut-il gagner pour remporter un match de tennis en cinq sets ?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explication": "Le premier joueur à remporter trois sets gagne le match au meilleur des cinq sets.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment appelle-t-on un lancer qui renverse toutes les quilles au premier essai au bowling ?",
+      "choices": [
+        "Un spare",
+        "Un ace",
+        "Un birdie",
+        "Un strike"
+      ],
+      "answer": 3,
+      "explication": "Un strike abat les dix quilles d'un seul coup ; le spare les abat en deux lancers.",
+      "level": "moyen"
+    },
+    {
+      "q": "Au judo, quel score met immédiatement fin au combat ?",
+      "choices": [
+        "Le waza-ari",
+        "Le yuko",
+        "Le shido",
+        "L'ippon"
+      ],
+      "answer": 3,
+      "explication": "L'ippon est le point maximal : il donne la victoire immédiate au judoka.",
+      "level": "expert"
+    },
+    {
+      "q": "Qui a inventé le basket-ball en 1891 ?",
+      "choices": [
+        "James Naismith",
+        "Pierre de Coubertin",
+        "Abner Doubleday",
+        "William Webb Ellis"
+      ],
+      "answer": 0,
+      "explication": "Le professeur d'éducation physique canadien James Naismith a inventé le basket dans le Massachusetts.",
+      "level": "expert"
+    },
+    {
+      "q": "Combien de minutes dure un quart-temps en NBA ?",
+      "choices": [
+        "10 minutes",
+        "12 minutes",
+        "15 minutes",
+        "8 minutes"
+      ],
+      "answer": 1,
+      "explication": "Un match NBA se joue en quatre quart-temps de 12 minutes, soit 48 minutes.",
+      "level": "expert"
+    },
+    {
+      "q": "Qui a fondé le judo en 1882 ?",
+      "choices": [
+        "Gichin Funakoshi",
+        "Morihei Ueshiba",
+        "Jigoro Kano",
+        "Bruce Lee"
+      ],
+      "answer": 2,
+      "explication": "Le Japonais Jigoro Kano a créé le judo à partir de techniques de jujitsu.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quels sont les sports les plus populaires au monde ?",
+      "Le football est de loin le sport le plus suivi sur la planète, devant le cricket, le basket-ball et le tennis. Selon les pays, d'autres disciplines comme le rugby, le baseball ou le volley-ball sont également très pratiquées. La popularité varie beaucoup d'un continent à l'autre."
+    ],
+    [
+      "Combien de sports figurent aux Jeux olympiques d'été ?",
+      "Le programme olympique d'été réunit des dizaines de sports et plusieurs centaines d'épreuves, et il évolue d'une édition à l'autre selon les décisions du CIO. On y retrouve l'athlétisme, la natation, la gymnastique, les sports collectifs et de nombreux sports de combat."
+    ],
+    [
+      "Comment progresser en culture sportive ?",
+      "Regarde les grandes compétitions, lis les explications après chaque question de nos quiz et rejoue pour retenir les règles et les dates clés. Les quiz thématiques par discipline, comme le football ou le rugby, permettent d'approfondir chaque sport avec des questions plus pointues."
+    ]
+  ],
+  "related": [
+    "/quiz-football",
+    "/quiz-rugby",
+    "/quiz-tour-de-france",
+    "/quiz-jeux-olympiques"
+  ]
+}

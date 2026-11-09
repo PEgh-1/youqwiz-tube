@@ -1,0 +1,269 @@
+{
+  "path": "/quiz-orthographe",
+  "theme": "langue",
+  "title": "Quiz orthographe : 20 questions pour tester ton niveau",
+  "description": "Quiz orthographe gratuit : 20 questions sur les mots pièges, les accords et les homophones. Trouve la bonne orthographe en 5 secondes par question !",
+  "h1": "Quiz orthographe : sais-tu écrire ces mots sans faute ?",
+  "intro": "Prêt à débusquer les fautes d'orthographe qui se glissent partout ? Ce quiz de 20 questions te propose des mots pièges, des accords du participe passé et des homophones classiques comme son et sont ou ou et où. Tu as 5 secondes par question pour choisir la bonne graphie parmi quatre propositions. Les huit premières questions sont accessibles à tous, les huit suivantes demandent un peu plus de rigueur, et les quatre dernières mettront même les bons élèves en difficulté. Chaque réponse est accompagnée d'une petite explication pour retenir la règle. Alors, concentre-toi, et vérifie si ton orthographe est irréprochable !",
+  "questions": [
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Dévelloper",
+        "Développer",
+        "Devellopper",
+        "Déveloper"
+      ],
+      "answer": 1,
+      "explication": "Développer s'écrit avec un seul « l » et deux « p » : le verbe vient de l'ancien français « desveloper ».",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Acceuillir",
+        "Accueilir",
+        "Aqueillir",
+        "Accueillir"
+      ],
+      "answer": 3,
+      "explication": "Dans accueillir, on écrit « cue » pour garder le son [k] du radical, puis « ill » comme dans cueillir.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Rythme",
+        "Rithme",
+        "Rhytme",
+        "Rytme"
+      ],
+      "answer": 0,
+      "explication": "Rythme vient du grec « rhuthmos » : en français, on retient le « y » et le « th ».",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Farmacie",
+        "Pharmacye",
+        "Pharmacie",
+        "Pharmascie"
+      ],
+      "answer": 2,
+      "explication": "Pharmacie garde le « ph » du grec « pharmakon », comme pharaon ou photo.",
+      "level": "facile"
+    },
+    {
+      "q": "Complète : « Ils ___ partis hier. »",
+      "choices": [
+        "son",
+        "sonts",
+        "sons",
+        "sont"
+      ],
+      "answer": 3,
+      "explication": "« Sont » est le verbe être conjugué à la 3e personne du pluriel. « Son » est un déterminant possessif.",
+      "level": "facile"
+    },
+    {
+      "q": "Complète : « Elle a ___ ses clés. »",
+      "choices": [
+        "perdue",
+        "perdu",
+        "perdus",
+        "perdut"
+      ],
+      "answer": 1,
+      "explication": "Avec l'auxiliaire avoir, le participe s'accorde avec le COD seulement s'il est placé avant. Ici « ses clés » est après : perdu reste invariable.",
+      "level": "facile"
+    },
+    {
+      "q": "Complète : « Je ne sais pas ___ il est parti. »",
+      "choices": [
+        "ou",
+        "ous",
+        "où",
+        "oû"
+      ],
+      "answer": 2,
+      "explication": "« Où » avec accent grave indique le lieu. « Ou » sans accent exprime un choix, comme dans thé ou café.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Beaucoup",
+        "Beaucou",
+        "Boucoup",
+        "Beaucoups"
+      ],
+      "answer": 0,
+      "explication": "Beaucoup s'écrit avec « eau » et un « p » final, sans « s » : c'est un adverbe invariable.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Rinocéros",
+        "Rhinocéroce",
+        "Rhinocéros",
+        "Rhinoceros"
+      ],
+      "answer": 2,
+      "explication": "Rhinocéros vient du grec « rhis » (nez) et « keras » (corne). Il garde le « rh » et l'accent aigu sur le « é ».",
+      "level": "moyen"
+    },
+    {
+      "q": "Complète : « Elles se sont ___ la main. »",
+      "choices": [
+        "serré",
+        "serrées",
+        "serrés",
+        "serrée"
+      ],
+      "answer": 0,
+      "explication": "Le pronom « se » est ici COI, et le COD « la main » est placé après le verbe : le participe passé reste invariable.",
+      "level": "moyen"
+    },
+    {
+      "q": "Complète : « Les chaussures qu'elle a ___ sont jolies. »",
+      "choices": [
+        "acheté",
+        "achetés",
+        "achetée",
+        "achetées"
+      ],
+      "answer": 3,
+      "explication": "Le COD « que » (= les chaussures) est placé avant l'auxiliaire avoir : le participe s'accorde au féminin pluriel.",
+      "level": "moyen"
+    },
+    {
+      "q": "Complète : « ___ soient tes raisons, je t'écoute. »",
+      "choices": [
+        "Quelque",
+        "Quelles que",
+        "Quel que",
+        "Quelques"
+      ],
+      "answer": 1,
+      "explication": "Devant le verbe être au subjonctif, on écrit « quel que » en deux mots et on accorde « quel » avec le sujet : raisons étant féminin pluriel, on a « quelles que ».",
+      "level": "moyen"
+    },
+    {
+      "q": "Complète : « Il faut que tu ___ attention. »",
+      "choices": [
+        "fasses",
+        "fasse",
+        "face",
+        "fases"
+      ],
+      "answer": 0,
+      "explication": "Après « il faut que », on emploie le subjonctif : que tu fasses, avec la terminaison en -es de la 2e personne du singulier.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Dilème",
+        "Dilemne",
+        "Dilemme",
+        "Dillemme"
+      ],
+      "answer": 2,
+      "explication": "Dilemme s'écrit avec deux « m », comme le grec « dilêmma » dont il vient.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Atmosfère",
+        "Atmosphère",
+        "Atmosphaire",
+        "Atmosphére"
+      ],
+      "answer": 1,
+      "explication": "Atmosphère vient du grec « atmos » (vapeur) et « sphaira » (sphère) : « ph » et accent grave sur le « è » final.",
+      "level": "moyen"
+    },
+    {
+      "q": "Complète : « Ils sont ___ venus. »",
+      "choices": [
+        "tout",
+        "touts",
+        "tousse",
+        "tous"
+      ],
+      "answer": 3,
+      "explication": "Ici « tous » est un pronom indéfini qui reprend le sujet « ils » : on le prononce avec le « s » final et on l'accorde au pluriel.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Crysanthème",
+        "Chrysanthème",
+        "Chrisanthème",
+        "Chrysantème"
+      ],
+      "answer": 1,
+      "explication": "Chrysanthème vient du grec « khrusos » (or) et « anthemon » (fleur) : « chrys » avec un « y », puis « th ».",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Acquièscer",
+        "Aquiescer",
+        "Acquiesser",
+        "Acquiescer"
+      ],
+      "answer": 3,
+      "explication": "Acquiescer, qui veut dire donner son accord, s'écrit avec « cq » comme acquérir et « sc » comme son ancêtre latin « acquiescere ».",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Mnémotechnique",
+        "Némotechnique",
+        "Mnémotecnique",
+        "Mnémothechnique"
+      ],
+      "answer": 0,
+      "explication": "Mnémotechnique s'écrit avec « mn » au début (du grec « mnêmê », mémoire) et « technique » sans « h » après le « t ».",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la bonne orthographe ?",
+      "choices": [
+        "Rododendron",
+        "Rhodondendron",
+        "Rhododendron",
+        "Rhododendrom"
+      ],
+      "answer": 2,
+      "explication": "Rhododendron vient du grec « rhodon » (rose) et « dendron » (arbre) : « rh » au début et « dendron » à la fin.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Comment progresser en orthographe ?",
+      "Lis beaucoup, écris régulièrement et note les mots qui te posent problème. Pour les accords, apprends les règles du participe passé et repère le COD. Pour les homophones, remplace le mot par un autre : « sont » devient « étaient », « son » devient « mon ». Un quiz régulier aide à mémoriser."
+    ],
+    [
+      "Quelle est la différence entre « ou » et « où » ?",
+      "« Ou » sans accent est une conjonction qui exprime un choix : tu prends du thé ou du café. « Où » avec un accent grave indique un lieu ou un moment : où vas-tu ? Astuce : si tu peux le remplacer par « ou bien », il n'y a pas d'accent."
+    ],
+    [
+      "Pourquoi l'orthographe française est-elle si compliquée ?",
+      "Elle garde la trace de l'histoire des mots : beaucoup viennent du latin et du grec, d'où les lettres muettes ou doubles. Les accords grammaticaux, souvent silencieux à l'oral, ajoutent de la difficulté. Retenir l'origine d'un mot aide souvent à mieux l'écrire."
+    ]
+  ],
+  "related": [
+    "/quiz-langue-francaise",
+    "/quiz-vocabulaire",
+    "/quiz-culture-generale-facile"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-revolution-francaise",
+  "theme": "histoire",
+  "title": "Quiz Révolution française : 20 questions",
+  "description": "Quiz sur la Révolution française : 20 questions de 1789 à 1799, de la Bastille à Bonaparte. Teste tes connaissances, facile à expert.",
+  "h1": "Quiz Révolution française : que sais-tu de 1789 ?",
+  "intro": "Prise de la Bastille, Déclaration des droits de l'homme, Terreur, chute de la monarchie : la Révolution française a changé la France et inspiré le monde. Ce quiz te propose 20 questions pour tester ce que tu as retenu des années 1789 à 1799. Les huit premières sont faciles, les huit suivantes un peu plus corsées, et les quatre dernières réservées aux plus pointus. Prévois environ 5 secondes par question, puis lis l'explication pour mieux comprendre le contexte. Idéal pour réviser un cours, préparer un examen ou simplement le plaisir de réfléchir en famille. Alors, prêt à vivre un moment d'histoire ?",
+  "questions": [
+    {
+      "q": "En quelle année la Bastille est-elle prise ?",
+      "choices": [
+        "1789",
+        "1776",
+        "1793",
+        "1804"
+      ],
+      "answer": 0,
+      "explication": "Le 14 juillet 1789, les Parisiens s'emparent de la forteresse, symbole de l'arbitraire royal.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la devise de la République française ?",
+      "choices": [
+        "Travail, Famille, Patrie",
+        "Dieu et mon roi",
+        "Liberté, Égalité, Fraternité",
+        "Union et Force"
+      ],
+      "answer": 2,
+      "explication": "Cette devise, née pendant la Révolution, est inscrite dans la Constitution de 1958.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel roi est guillotiné en janvier 1793 ?",
+      "choices": [
+        "Louis XIV",
+        "Louis XV",
+        "Charles X",
+        "Louis XVI"
+      ],
+      "answer": 3,
+      "explication": "Condamné par la Convention, Louis XVI est guillotiné le 21 janvier 1793, place de la Révolution (aujourd'hui place de la Concorde).",
+      "level": "facile"
+    },
+    {
+      "q": "Quel chant, composé en 1792, devient l'hymne national français ?",
+      "choices": [
+        "Le Chant des partisans",
+        "La Marseillaise",
+        "Le Chant du départ",
+        "La Carmagnole"
+      ],
+      "answer": 1,
+      "explication": "Composé par Rouget de Lisle à Strasbourg, il est adopté comme hymne national en 1795, puis de nouveau sous la IIIe République.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel instrument d'exécution est adopté en 1792 ?",
+      "choices": [
+        "La potence",
+        "La guillotine",
+        "Le garrot",
+        "L'épée"
+      ],
+      "answer": 1,
+      "explication": "Proposée pour une mort rapide et identique pour tous, elle doit son nom au docteur Guillotin.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle reine, épouse de Louis XVI, est guillotinée en octobre 1793 ?",
+      "choices": [
+        "Joséphine",
+        "Catherine de Médicis",
+        "Anne d'Autriche",
+        "Marie-Antoinette"
+      ],
+      "answer": 3,
+      "explication": "Née en Autriche, Marie-Antoinette est jugée par le Tribunal révolutionnaire et exécutée le 16 octobre 1793.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel texte adopté en août 1789 proclame les droits fondamentaux ?",
+      "choices": [
+        "Le Code civil",
+        "La Charte de 1814",
+        "La Déclaration des droits de l'homme et du citoyen",
+        "L'édit de Nantes"
+      ],
+      "answer": 2,
+      "explication": "Elle affirme que les hommes naissent libres et égaux en droits, et inspire de nombreuses constitutions.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on les trois ordres de la société d'Ancien Régime ?",
+      "choices": [
+        "Le clergé, la noblesse et le tiers état",
+        "Les rois, les ducs et les paysans",
+        "Les juges, les soldats et les marchands",
+        "Les consuls, les tribuns et les sénateurs"
+      ],
+      "answer": 0,
+      "explication": "Le tiers état regroupe l'immense majorité de la population, sans les privilèges des deux premiers ordres.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle ville se réunissent les États généraux en mai 1789 ?",
+      "choices": [
+        "Paris",
+        "Reims",
+        "Versailles",
+        "Fontainebleau"
+      ],
+      "answer": 2,
+      "explication": "Convoqués par Louis XVI pour résoudre la crise financière, ils s'ouvrent à Versailles le 5 mai 1789.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel serment prêtent les députés du tiers état le 20 juin 1789 ?",
+      "choices": [
+        "Le serment du Jeu de paume",
+        "Le serment de Strasbourg",
+        "Le serment des Horaces",
+        "Le serment de Reims"
+      ],
+      "answer": 0,
+      "explication": "Réunis dans une salle de jeu de paume, ils jurent de ne pas se séparer avant d'avoir donné une Constitution à la France.",
+      "level": "moyen"
+    },
+    {
+      "q": "Que décide l'Assemblée dans la nuit du 4 août 1789 ?",
+      "choices": [
+        "La fin de la monarchie",
+        "L'exécution du roi",
+        "L'instauration de la Terreur",
+        "L'abolition des privilèges"
+      ],
+      "answer": 3,
+      "explication": "Les privilèges féodaux et les droits seigneuriaux sont supprimés, un tournant vers l'égalité devant la loi.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel épisode de juin 1791 ruine la confiance des Français envers Louis XVI ?",
+      "choices": [
+        "La prise des Tuileries",
+        "La fuite à Varennes",
+        "La fête de la Fédération",
+        "Le serment du Jeu de paume"
+      ],
+      "answer": 1,
+      "explication": "Le roi tente de fuir vers l'est mais il est reconnu et arrêté à Varennes, puis ramené à Paris.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quel mois de 1792 la Première République est-elle proclamée ?",
+      "choices": [
+        "Juillet",
+        "Janvier",
+        "Décembre",
+        "Septembre"
+      ],
+      "answer": 3,
+      "explication": "Après la chute de la monarchie en août, la Convention proclame la République en septembre 1792.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel révolutionnaire domine le Comité de salut public pendant la Terreur ?",
+      "choices": [
+        "Mirabeau",
+        "Robespierre",
+        "La Fayette",
+        "Talleyrand"
+      ],
+      "answer": 1,
+      "explication": "Figure des jacobins, Maximilien de Robespierre est l'un des chefs du Comité de salut public en 1793-1794.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle bataille de septembre 1792 voit les armées révolutionnaires arrêter les Prussiens ?",
+      "choices": [
+        "Valmy",
+        "Waterloo",
+        "Austerlitz",
+        "Marengo"
+      ],
+      "answer": 0,
+      "explication": "La victoire de Valmy, le 20 septembre 1792, sauve la jeune République de l'invasion.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel mois du calendrier révolutionnaire donne son nom à la chute de Robespierre ?",
+      "choices": [
+        "Brumaire",
+        "Germinal",
+        "Thermidor",
+        "Vendémiaire"
+      ],
+      "answer": 2,
+      "explication": "Robespierre est renversé le 9 thermidor an II (27 juillet 1794) et guillotiné le lendemain.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel régime succède à la Convention en 1795 ?",
+      "choices": [
+        "Le Consulat",
+        "Le Directoire",
+        "L'Empire",
+        "La Restauration"
+      ],
+      "answer": 1,
+      "explication": "Dirigé par cinq directeurs, il gouverne la France jusqu'au coup d'État de 1799.",
+      "level": "expert"
+    },
+    {
+      "q": "En quelle année a lieu le coup d'État du 18 brumaire ?",
+      "choices": [
+        "1795",
+        "1802",
+        "1804",
+        "1799"
+      ],
+      "answer": 3,
+      "explication": "Le 9 novembre 1799, Bonaparte renverse le Directoire, ce qui ouvre la période du Consulat.",
+      "level": "expert"
+    },
+    {
+      "q": "Combien de jours compte une décade dans le calendrier républicain ?",
+      "choices": [
+        "10",
+        "7",
+        "8",
+        "12"
+      ],
+      "answer": 0,
+      "explication": "Les mois sont composés de trois décades de dix jours, ce qui supprimait le dimanche et la semaine de sept jours.",
+      "level": "expert"
+    },
+    {
+      "q": "Qui assassine Marat dans son bain en juillet 1793 ?",
+      "choices": [
+        "Madame Roland",
+        "Olympe de Gouges",
+        "Charlotte Corday",
+        "Marie-Antoinette"
+      ],
+      "answer": 2,
+      "explication": "Proche des Girondins, Charlotte Corday poignarde Marat le 13 juillet 1793. Elle est guillotinée quatre jours plus tard.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quand commence et quand finit la Révolution française ?",
+      "On la fait généralement commencer en 1789, avec la réunion des États généraux et la prise de la Bastille, et finir en 1799, avec le coup d'État de Bonaparte du 18 brumaire. Certains historiens la prolongent jusqu'en 1815. Cette période est un grand classique des programmes scolaires."
+    ],
+    [
+      "Pourquoi la Révolution française a-t-elle éclaté ?",
+      "Plusieurs causes se combinent : une grave crise financière de l'État, des inégalités entre les trois ordres, de mauvaises récoltes qui font monter le prix du pain, et les idées des Lumières. La convocation des États généraux en 1789 a servi de déclencheur."
+    ],
+    [
+      "Qu'est-ce que la Terreur ?",
+      "C'est la période de 1793-1794 où le gouvernement révolutionnaire, dominé par le Comité de salut public, réprime durement ses opposants, avec le Tribunal révolutionnaire. Elle fait des dizaines de milliers de victimes et prend fin avec la chute de Robespierre."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-histoire-de-france",
+    "/quiz-seconde-guerre-mondiale",
+    "/quiz-rois-de-france"
+  ]
+}

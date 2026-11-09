@@ -1,0 +1,200 @@
+{
+ "id": "sample-intrus",
+ "pillar": "emojis",
+ "template": "Intrus",
+ "theme": 2,
+ "title": "Trouve l'INTRUS 👀🧠🌈 | Facile, Moyen, Difficile, Impossible",
+ "question": "Trouve l'intrus 👀",
+ "intro": {
+  "hook": "Trouve l'INTRUS",
+  "sub": "de facile à impossible ⏱️"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🍎🍎🍌🍎🍎🍎🍎🍎🍎🍎🍎"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌹🌹🌹🌵🌹🌹🌹🌹🌹🌹🌹🌹"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔥🔥🔥💧🔥🔥🔥🔥🔥🔥🔥🔥"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎸🎸🎸🥁🎸🎸🎸🎸🎸🎸🎸🎸"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☕☕☕🍺☕☕☕☕☕☕☕☕"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍅🍎"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍇🍇🍇🍇🍇🍇🍇🍇🍇🍇🫐🍇"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐼🐻"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍓🍉"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🌭🍔"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🙂🙂🙂🙂🙂😊🙂🙂🙂🙂🙂🙂"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💚💚💚💚💚💛💚💚💚💚💚💚"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔴🔴🔴🔴🔴🟠🔴🔴🔴🔴🔴🔴"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍐🍐🍐🍐🍐🍏🍐🍐🍐🍐🍐🍐"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥰🥰🥰🥰🥰😍🥰🥰🥰🥰🥰🥰"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😆😄😄😄😄😄😄😄😄😄😄😄"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🟪🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌖🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😙😗😗😗😗😗😗😗😗😗😗😗"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕧🕛🕛🕛🕛🕛🕛🕛🕛🕛🕛🕛"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Trouve l'intrus parmi 12 émojis, du plus facile au plus impossible ! Dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #intrus #youqwiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "intrus",
+   "trouve l'intrus",
+   "émojis",
+   "youqwiz",
+   "facile à impossible"
+  ],
+  "thumbnail": {
+   "line1": "Trouve l'INTRUS",
+   "line2": "20 NIVEAUX",
+   "emoji": "👀"
+  },
+  "shortItems": 5
+ }
+}

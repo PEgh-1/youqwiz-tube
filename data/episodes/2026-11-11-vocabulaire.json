@@ -1,0 +1,2872 @@
+{
+ "id": "2026-11-11-vocabulaire",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "theme": 2,
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring",
+  "reveal": "pop",
+  "card": "round",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Nouveau défi ! 💪",
+   "voice": "Nouveau défi sur YouQwiz. Tu vas faire mieux qu'hier ?"
+  },
+  "introCta": "🏆 Compte tes points, dis ton score en commentaire",
+  "subscribe": {
+   "title": "Un quiz par jour, gratuit",
+   "sub": "abonne-toi pour ne pas rater le prochain 🔔",
+   "voice": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain."
+  },
+  "levels": {
+   "facile": {
+    "card": "On s'échauffe 🔥",
+    "voice": "Niveau facile. On s'échauffe !"
+   },
+   "moyen": {
+    "card": "Les choses sérieuses commencent 💪",
+    "voice": "Niveau moyen. Les choses sérieuses commencent."
+   },
+   "difficile": {
+    "card": "Respect si tu continues 🔥",
+    "voice": "Niveau difficile. Respect si tu continues sans faute."
+   },
+   "impossible": {
+    "card": "Seuls les génies 🧠",
+    "voice": "Niveau impossible. Seuls les génies…"
+   }
+  },
+  "scoreVoice": "Compte tes points et écris ton score juste en dessous. Le meilleur de la semaine passe lundi.",
+  "outro": {
+   "title": "Partage à quelqu'un qui doit faire mieux 😏",
+   "voice": "Partage cette vidéo à quelqu'un qui pense faire mieux que toi. On verra."
+  },
+  "packshot": {
+   "headline": "Défie tes proches sur youqwiz.com",
+   "sub": "le quiz du jour, en version interactive 🎮",
+   "cta": "👉 youqwiz.com",
+   "voice": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
+  }
+ },
+ "title": "108 questions que 90 % des Français ratent 📖✍️🧠 Quiz VOCABULAIRE",
+ "question": "",
+ "intro": {
+  "hook": "108 MOTS de FRANÇAIS que 90 % ratent",
+  "sub": "Une seule bonne réponse sur quatre 🎯"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « L'habit ne fait pas le ___. »",
+    "choices": [
+     "prince",
+     "sage",
+     "moine",
+     "roi"
+    ],
+    "correct": 2
+   },
+   "answer": "moine",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/0-q.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/0-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Tomber dans les pommes », c'est…",
+    "choices": [
+     "glisser",
+     "s'évanouir",
+     "manger trop",
+     "jardiner"
+    ],
+    "correct": 1
+   },
+   "answer": "s'évanouir",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/1-q.mp3",
+     "sec": 1.776327
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/1-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Mieux vaut tard que ___. »",
+    "choices": [
+     "rien",
+     "trop",
+     "peu",
+     "jamais"
+    ],
+    "correct": 3
+   },
+   "answer": "jamais",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/2-q.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/2-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "dictionaire",
+     "dicsionnaire",
+     "dictionnaire",
+     "dictionère"
+    ],
+    "correct": 2
+   },
+   "answer": "dictionnaire",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/3-q.mp3",
+     "sec": 1.619592
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/3-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Une hirondelle ne fait pas le ___. »",
+    "choices": [
+     "printemps",
+     "beau temps",
+     "soleil",
+     "nid"
+    ],
+    "correct": 0
+   },
+   "answer": "printemps",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/4-q.mp3",
+     "sec": 4.284082
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/4-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Petit à petit, l'oiseau fait son ___. »",
+    "choices": [
+     "lit",
+     "nid",
+     "trou",
+     "pain"
+    ],
+    "correct": 1
+   },
+   "answer": "nid",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/5-q.mp3",
+     "sec": 3.709388
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/5-a.mp3",
+     "sec": 1.358367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "pharmacie",
+     "farmacie",
+     "phamacie",
+     "pharmassie"
+    ],
+    "correct": 0
+   },
+   "answer": "pharmacie",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/6-q.mp3",
+     "sec": 1.619592
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/6-a.mp3",
+     "sec": 2.324898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Poser un lapin à quelqu'un », ça veut dire…",
+    "choices": [
+     "lui offrir un cadeau",
+     "lui faire une farce",
+     "lui prêter un animal",
+     "ne pas venir au rendez-vous"
+    ],
+    "correct": 3
+   },
+   "answer": "ne pas venir au rendez-vous",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/7-q.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/7-a.mp3",
+     "sec": 3.160816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Qui ___ bien châtie bien. »",
+    "choices": [
+     "hait",
+     "craint",
+     "aime",
+     "sert"
+    ],
+    "correct": 2
+   },
+   "answer": "aime",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/8-q.mp3",
+     "sec": 3.108571
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/8-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Au Scrabble, combien de lettres y a-t-il sur un chevalet ?",
+    "choices": [
+     "5",
+     "7",
+     "8",
+     "10"
+    ],
+    "correct": 1
+   },
+   "answer": "7",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/9-q.mp3",
+     "sec": 3.186939
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/9-a.mp3",
+     "sec": 1.750204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « chou » ?",
+    "choices": [
+     "des chous",
+     "des choux",
+     "des choues",
+     "des chouxs"
+    ],
+    "correct": 1
+   },
+   "answer": "des choux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/10-q.mp3",
+     "sec": 4.440816
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/10-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « bijou » ?",
+    "choices": [
+     "des bijous",
+     "des bijoues",
+     "des bijoutx",
+     "des bijoux"
+    ],
+    "correct": 3
+   },
+   "answer": "des bijoux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/11-q.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/11-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Il n'y a pas de fumée sans ___. »",
+    "choices": [
+     "feu",
+     "vent",
+     "cendre",
+     "bruit"
+    ],
+    "correct": 0
+   },
+   "answer": "feu",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/12-q.mp3",
+     "sec": 4.989388
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/12-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Tous les chemins mènent à ___. »",
+    "choices": [
+     "Rome",
+     "Paris",
+     "Athènes",
+     "Madrid"
+    ],
+    "correct": 0
+   },
+   "answer": "Rome",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/13-q.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/13-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il a ___ son bonnet. »",
+    "choices": [
+     "mis",
+     "mit",
+     "mie",
+     "mi"
+    ],
+    "correct": 0
+   },
+   "answer": "mis",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/14-q.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/14-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « œil » ?",
+    "choices": [
+     "des yeux",
+     "des yeuxs",
+     "des yeus",
+     "des euils"
+    ],
+    "correct": 0
+   },
+   "answer": "des yeux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/15-q.mp3",
+     "sec": 5.250612
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/15-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Ils ___ trompés de route. »",
+    "choices": [
+     "ce sont",
+     "s'ont",
+     "se sont",
+     "c'ont"
+    ],
+    "correct": 2
+   },
+   "answer": "se sont",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/16-q.mp3",
+     "sec": 3.448163
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/16-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "apartement",
+     "appartement",
+     "appartemment",
+     "apartemment"
+    ],
+    "correct": 1
+   },
+   "answer": "appartement",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/17-q.mp3",
+     "sec": 3.787755
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/17-a.mp3",
+     "sec": 1.750204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Avoir le cafard », c'est…",
+    "choices": [
+     "avoir peur",
+     "être triste",
+     "avoir faim",
+     "être pressé"
+    ],
+    "correct": 1
+   },
+   "answer": "être triste",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/18-q.mp3",
+     "sec": 5.22449
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/18-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Pierre qui roule n'amasse pas ___. »",
+    "choices": [
+     "poussière",
+     "mousse",
+     "d'eau",
+     "de sable"
+    ],
+    "correct": 1
+   },
+   "answer": "mousse",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/19-q.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/19-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "rhytme",
+     "rythme",
+     "rithme",
+     "ritme"
+    ],
+    "correct": 1
+   },
+   "answer": "rythme",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/20-q.mp3",
+     "sec": 2.324898
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/20-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « pneu » ?",
+    "choices": [
+     "des pneux",
+     "des pneus",
+     "des pneues",
+     "des pneuz"
+    ],
+    "correct": 1
+   },
+   "answer": "des pneus",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/21-q.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/21-a.mp3",
+     "sec": 1.38449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "ortographe",
+     "orthografe",
+     "orthographie",
+     "orthographe"
+    ],
+    "correct": 3
+   },
+   "answer": "orthographe",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/22-q.mp3",
+     "sec": 2.795102
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/22-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un mélomane est une personne qui adore…",
+    "choices": [
+     "la cuisine",
+     "la peinture",
+     "la musique",
+     "la lecture"
+    ],
+    "correct": 2
+   },
+   "answer": "la musique",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/23-q.mp3",
+     "sec": 2.66449
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/23-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « cheval » ?",
+    "choices": [
+     "des chevaux",
+     "des chevals",
+     "des chevaus",
+     "des chevaulx"
+    ],
+    "correct": 0
+   },
+   "answer": "des chevaux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/24-q.mp3",
+     "sec": 4.91102
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/24-a.mp3",
+     "sec": 1.906939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Être aux anges », c'est…",
+    "choices": [
+     "être ravi",
+     "être fatigué",
+     "avoir peur",
+     "être perdu"
+    ],
+    "correct": 0
+   },
+   "answer": "être ravi",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/25-q.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/25-a.mp3",
+     "sec": 2.481633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "sympathique",
+     "simpathique",
+     "sympatique",
+     "symphatique"
+    ],
+    "correct": 0
+   },
+   "answer": "sympathique",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/26-q.mp3",
+     "sec": 3.552653
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/26-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ___ lave les mains. »",
+    "choices": [
+     "ce",
+     "ça",
+     "ceux",
+     "se"
+    ],
+    "correct": 3
+   },
+   "answer": "se",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/27-q.mp3",
+     "sec": 3.186939
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/27-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « caillou » ?",
+    "choices": [
+     "des cailloues",
+     "des caillous",
+     "des cailloux",
+     "des cailloutx"
+    ],
+    "correct": 2
+   },
+   "answer": "des cailloux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/28-q.mp3",
+     "sec": 3.213061
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/28-a.mp3",
+     "sec": 1.593469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces mots est un palindrome ?",
+    "choices": [
+     "canoë",
+     "rame",
+     "bateau",
+     "kayak"
+    ],
+    "correct": 3
+   },
+   "answer": "kayak",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/29-q.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/29-a.mp3",
+     "sec": 1.515102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « bleu » ?",
+    "choices": [
+     "des bleus",
+     "des bleux",
+     "des bleues",
+     "des bleuxs"
+    ],
+    "correct": 0
+   },
+   "answer": "des bleus",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/30-q.mp3",
+     "sec": 1.933061
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/30-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La philatélie, c'est la collection de…",
+    "choices": [
+     "pièces",
+     "papillons",
+     "timbres",
+     "cartes postales"
+    ],
+    "correct": 2
+   },
+   "answer": "timbres",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/31-q.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/31-a.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Dans le Sahara, il y a un grand ___ de sable. »",
+    "choices": [
+     "dessert",
+     "desserte",
+     "déserre",
+     "désert"
+    ],
+    "correct": 3
+   },
+   "answer": "désert",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/32-q.mp3",
+     "sec": 6.112653
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/32-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « genou » ?",
+    "choices": [
+     "des genous",
+     "des genouxs",
+     "des genoux",
+     "des genoues"
+    ],
+    "correct": 2
+   },
+   "answer": "des genoux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/33-q.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/33-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « carnaval » ?",
+    "choices": [
+     "des carnavaux",
+     "des carnavales",
+     "des carnavals",
+     "des carnavauxs"
+    ],
+    "correct": 2
+   },
+   "answer": "des carnavals",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/34-q.mp3",
+     "sec": 2.481633
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/34-a.mp3",
+     "sec": 1.671837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Les efforts qu'il a ___ ont payé. »",
+    "choices": [
+     "faits",
+     "fait",
+     "faite",
+     "faites"
+    ],
+    "correct": 0
+   },
+   "answer": "faits",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/35-q.mp3",
+     "sec": 6.347755
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/35-a.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "exagerrer",
+     "exhagérer",
+     "exagèré",
+     "exagérer"
+    ],
+    "correct": 3
+   },
+   "answer": "exagérer",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/36-q.mp3",
+     "sec": 1.541224
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/36-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "chrisanthème",
+     "chrysanthème",
+     "crysanthème",
+     "chrysantème"
+    ],
+    "correct": 1
+   },
+   "answer": "chrysanthème",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/37-q.mp3",
+     "sec": 1.436735
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/37-a.mp3",
+     "sec": 2.168163
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment écrit-on le nombre 80 en lettres ?",
+    "choices": [
+     "quatre vingt",
+     "quatre-vingt",
+     "quatre-vingts",
+     "quatres-vingts"
+    ],
+    "correct": 2
+   },
+   "answer": "quatre-vingts",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/38-q.mp3",
+     "sec": 2.847347
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/38-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ne ___ pas venir ce soir. »",
+    "choices": [
+     "peu",
+     "peux",
+     "peut",
+     "peuh"
+    ],
+    "correct": 2
+   },
+   "answer": "peut",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/39-q.mp3",
+     "sec": 3.474286
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/39-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne rustre est…",
+    "choices": [
+     "grossière",
+     "élégante",
+     "timide",
+     "rusée"
+    ],
+    "correct": 0
+   },
+   "answer": "grossière",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/40-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/40-a.mp3",
+     "sec": 1.541224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Ils sont ___ hier matin. »",
+    "choices": [
+     "parti",
+     "partit",
+     "partis",
+     "partie"
+    ],
+    "correct": 2
+   },
+   "answer": "partis",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/41-q.mp3",
+     "sec": 4.963265
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/41-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "acquiescer",
+     "aquiescer",
+     "acquiesser",
+     "acquiescé"
+    ],
+    "correct": 0
+   },
+   "answer": "acquiescer",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/42-q.mp3",
+     "sec": 2.638367
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/42-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « ___ que soient tes raisons, merci. »",
+    "choices": [
+     "Quelles",
+     "Quelle",
+     "Qu'elles",
+     "Quel"
+    ],
+    "correct": 0
+   },
+   "answer": "Quelles",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/43-q.mp3",
+     "sec": 2.873469
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/43-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « landau » ?",
+    "choices": [
+     "des landaux",
+     "des landaus",
+     "des landeaus",
+     "des landots"
+    ],
+    "correct": 1
+   },
+   "answer": "des landaus",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/44-q.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/44-a.mp3",
+     "sec": 1.671837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Les fleurs qu'il a ___ sont belles. »",
+    "choices": [
+     "cueilli",
+     "cueillies",
+     "cueillis",
+     "cueillie"
+    ],
+    "correct": 1
+   },
+   "answer": "cueillies",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/45-q.mp3",
+     "sec": 5.407347
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/45-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "dévelopement",
+     "développment",
+     "développement",
+     "développemment"
+    ],
+    "correct": 2
+   },
+   "answer": "développement",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/46-q.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/46-a.mp3",
+     "sec": 2.324898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "abbréviation",
+     "abréviasion",
+     "abréveation",
+     "abréviation"
+    ],
+    "correct": 3
+   },
+   "answer": "abréviation",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/47-q.mp3",
+     "sec": 2.899592
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/47-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment écrit-on le nombre 200 en lettres ?",
+    "choices": [
+     "deux cent",
+     "deux cents",
+     "deux-cents",
+     "deux cens"
+    ],
+    "correct": 1
+   },
+   "answer": "deux cents",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/48-q.mp3",
+     "sec": 2.742857
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/48-a.mp3",
+     "sec": 1.671837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ___ vu hier au marché. »",
+    "choices": [
+     "la",
+     "l'as",
+     "l'a",
+     "las"
+    ],
+    "correct": 2
+   },
+   "answer": "l'a",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/49-q.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/49-a.mp3",
+     "sec": 0.679184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne sagace est…",
+    "choices": [
+     "bavarde",
+     "têtue",
+     "perspicace",
+     "pressée"
+    ],
+    "correct": 2
+   },
+   "answer": "perspicace",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/50-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/50-a.mp3",
+     "sec": 2.377143
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Procrastiner, c'est…",
+    "choices": [
+     "travailler dur",
+     "hésiter longtemps",
+     "s'endormir",
+     "remettre à plus tard"
+    ],
+    "correct": 3
+   },
+   "answer": "remettre à plus tard",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/51-q.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/51-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « gratte-ciel » ?",
+    "choices": [
+     "des grattes-ciel",
+     "des gratte-cieux",
+     "des grattes-ciels",
+     "des gratte-ciel"
+    ],
+    "correct": 3
+   },
+   "answer": "des gratte-ciel",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/52-q.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/52-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elle est ___ contente de te voir. »",
+    "choices": [
+     "tout",
+     "toute",
+     "tous",
+     "toutes"
+    ],
+    "correct": 1
+   },
+   "answer": "toute",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/53-q.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/53-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une pléthore de quelque chose, c'est…",
+    "choices": [
+     "un manque",
+     "une rareté",
+     "une grande abondance",
+     "un mélange"
+    ],
+    "correct": 2
+   },
+   "answer": "une grande abondance",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/54-q.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/54-a.mp3",
+     "sec": 2.142041
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne taciturne est…",
+    "choices": [
+     "silencieuse",
+     "colérique",
+     "joyeuse",
+     "peureuse"
+    ],
+    "correct": 0
+   },
+   "answer": "silencieuse",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/55-q.mp3",
+     "sec": 2.716735
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/55-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il en veut ___ ! »",
+    "choices": [
+     "davantage",
+     "d'avantage",
+     "davantages",
+     "d'avantages"
+    ],
+    "correct": 0
+   },
+   "answer": "davantage",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/56-q.mp3",
+     "sec": 2.481633
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/56-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elle s'est ___ les mains. »",
+    "choices": [
+     "lavée",
+     "lavés",
+     "lavées",
+     "lavé"
+    ],
+    "correct": 3
+   },
+   "answer": "lavé",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/57-q.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/57-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un événement « fortuit » est un événement qui…",
+    "choices": [
+     "coûte cher",
+     "arrive par hasard",
+     "dure longtemps",
+     "fait peur"
+    ],
+    "correct": 1
+   },
+   "answer": "arrive par hasard",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/58-q.mp3",
+     "sec": 3.186939
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/58-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne prodigue est une personne qui…",
+    "choices": [
+     "compte chaque sou",
+     "dépense sans compter",
+     "parle trop",
+     "voyage beaucoup"
+    ],
+    "correct": 1
+   },
+   "answer": "dépense sans compter",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/59-q.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/59-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "parallèle",
+     "paralèle",
+     "parrallèle",
+     "paralelle"
+    ],
+    "correct": 0
+   },
+   "answer": "parallèle",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/60-q.mp3",
+     "sec": 2.899592
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/60-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « madame » ?",
+    "choices": [
+     "madames",
+     "mesdame",
+     "mesdames",
+     "medames"
+    ],
+    "correct": 2
+   },
+   "answer": "mesdames",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/61-q.mp3",
+     "sec": 2.063673
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/61-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « monsieur » ?",
+    "choices": [
+     "monsieurs",
+     "messieur",
+     "messieures",
+     "messieurs"
+    ],
+    "correct": 3
+   },
+   "answer": "messieurs",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/62-q.mp3",
+     "sec": 2.037551
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/62-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "reconnaissance",
+     "reconaissance",
+     "reconnaisance",
+     "reconnaissence"
+    ],
+    "correct": 0
+   },
+   "answer": "reconnaissance",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/63-q.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/63-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ___ lavé tout seul. »",
+    "choices": [
+     "c'est",
+     "sait",
+     "ses",
+     "s'est"
+    ],
+    "correct": 3
+   },
+   "answer": "s'est",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/64-q.mp3",
+     "sec": 4.989388
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/64-a.mp3",
+     "sec": 1.541224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Des cheveux hirsutes sont des cheveux…",
+    "choices": [
+     "soyeux",
+     "gras",
+     "très courts",
+     "ébouriffés"
+    ],
+    "correct": 3
+   },
+   "answer": "ébouriffés",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/65-q.mp3",
+     "sec": 7.967347
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/65-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un cuistre est une personne…",
+    "choices": [
+     "gourmande",
+     "pressée",
+     "pédante",
+     "généreuse"
+    ],
+    "correct": 2
+   },
+   "answer": "pédante",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/66-q.mp3",
+     "sec": 1.933061
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/66-a.mp3",
+     "sec": 1.436735
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un anachorète est…",
+    "choices": [
+     "un voyageur",
+     "un marin",
+     "un ermite",
+     "un marchand"
+    ],
+    "correct": 2
+   },
+   "answer": "un ermite",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/67-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/67-a.mp3",
+     "sec": 1.358367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « coffre-fort » ?",
+    "choices": [
+     "des coffre-forts",
+     "des coffres-fort",
+     "des coffres-forts",
+     "des coffre-fort"
+    ],
+    "correct": 2
+   },
+   "answer": "des coffres-forts",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/68-q.mp3",
+     "sec": 4.022857
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/68-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une sinécure est un emploi…",
+    "choices": [
+     "très dur",
+     "sans salaire",
+     "dangereux",
+     "bien payé et peu fatigant"
+    ],
+    "correct": 3
+   },
+   "answer": "bien payé et peu fatigant",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/69-q.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/69-a.mp3",
+     "sec": 2.612245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une réponse « sibylline » est…",
+    "choices": [
+     "énigmatique",
+     "très claire",
+     "joyeuse",
+     "cruelle"
+    ],
+    "correct": 0
+   },
+   "answer": "énigmatique",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/70-q.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/70-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elles se sont ___ au téléphone. »",
+    "choices": [
+     "parlées",
+     "parlé",
+     "parlés",
+     "parlée"
+    ],
+    "correct": 1
+   },
+   "answer": "parlé",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/71-q.mp3",
+     "sec": 5.668571
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/71-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un quolibet est…",
+    "choices": [
+     "une raillerie moqueuse",
+     "un gros gâteau",
+     "une danse ancienne",
+     "un petit cadeau"
+    ],
+    "correct": 0
+   },
+   "answer": "une raillerie moqueuse",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/72-q.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/72-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un paysage « bucolique » évoque…",
+    "choices": [
+     "la mer",
+     "la vie champêtre",
+     "la grande ville",
+     "la haute montagne"
+    ],
+    "correct": 1
+   },
+   "answer": "la vie champêtre",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/73-q.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/73-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La « gouaille » désigne…",
+    "choices": [
+     "une grosse toux",
+     "un mal de tête",
+     "une verve moqueuse et populaire",
+     "une grande faim"
+    ],
+    "correct": 2
+   },
+   "answer": "une verve moqueuse et populaire",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/74-q.mp3",
+     "sec": 2.037551
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/74-a.mp3",
+     "sec": 2.977959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La litote consiste à…",
+    "choices": [
+     "exagérer",
+     "dire moins pour faire entendre plus",
+     "répéter un mot",
+     "inventer un mot"
+    ],
+    "correct": 1
+   },
+   "answer": "dire moins pour faire entendre plus",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/75-q.mp3",
+     "sec": 3.787755
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/75-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Les heures qu'il a ___ à attendre. »",
+    "choices": [
+     "passées",
+     "passé",
+     "passés",
+     "passée"
+    ],
+    "correct": 0
+   },
+   "answer": "passées",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/76-q.mp3",
+     "sec": 3.448163
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/76-a.mp3",
+     "sec": 1.515102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un dilettante est quelqu'un qui…",
+    "choices": [
+     "pratique un art pour son plaisir",
+     "juge sévèrement",
+     "collectionne les objets",
+     "travaille la nuit"
+    ],
+    "correct": 0
+   },
+   "answer": "pratique un art pour son plaisir",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/77-q.mp3",
+     "sec": 2.220408
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/77-a.mp3",
+     "sec": 2.847347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Ergoter, c'est…",
+    "choices": [
+     "tricoter",
+     "marcher vite",
+     "bien travailler",
+     "chicaner sur des détails"
+    ],
+    "correct": 3
+   },
+   "answer": "chicaner sur des détails",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/78-q.mp3",
+     "sec": 1.462857
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/78-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne impécunieuse est…",
+    "choices": [
+     "sans argent",
+     "impolie",
+     "impatiente",
+     "impure"
+    ],
+    "correct": 0
+   },
+   "answer": "sans argent",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/79-q.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/79-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « va-et-vient » ?",
+    "choices": [
+     "des vas-et-viens",
+     "des va-et-viens",
+     "des vas-et-vient",
+     "des va-et-vient"
+    ],
+    "correct": 3
+   },
+   "answer": "des va-et-vient",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/80-q.mp3",
+     "sec": 2.220408
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/80-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un discours « lénifiant » est…",
+    "choices": [
+     "irritant",
+     "glacial",
+     "brûlant",
+     "apaisant"
+    ],
+    "correct": 3
+   },
+   "answer": "apaisant",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/81-q.mp3",
+     "sec": 3.892245
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/81-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Au Scrabble, quelle lettre a le plus de jetons ?",
+    "choices": [
+     "E",
+     "A",
+     "S",
+     "I"
+    ],
+    "correct": 0
+   },
+   "answer": "E",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/82-q.mp3",
+     "sec": 4.519184
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/82-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne pusillanime…",
+    "choices": [
+     "est très généreuse",
+     "est très petite",
+     "manque de courage",
+     "est cruelle"
+    ],
+    "correct": 2
+   },
+   "answer": "manque de courage",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/83-q.mp3",
+     "sec": 1.933061
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/83-a.mp3",
+     "sec": 3.108571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un discours « abscons » est…",
+    "choices": [
+     "très court",
+     "difficile à comprendre",
+     "très drôle",
+     "très bruyant"
+    ],
+    "correct": 1
+   },
+   "answer": "difficile à comprendre",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/84-q.mp3",
+     "sec": 2.56
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/84-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un bavardage « sempiternel » est un bavardage…",
+    "choices": [
+     "qui fait rire",
+     "tout nouveau",
+     "très discret",
+     "qui n'en finit jamais"
+    ],
+    "correct": 3
+   },
+   "answer": "qui n'en finit jamais",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/85-q.mp3",
+     "sec": 3.63102
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/85-a.mp3",
+     "sec": 2.168163
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une pérégrination est…",
+    "choices": [
+     "une sieste",
+     "un petit rhume",
+     "un long voyage",
+     "un pique-nique"
+    ],
+    "correct": 2
+   },
+   "answer": "un long voyage",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/86-q.mp3",
+     "sec": 1.854694
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/86-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une situation « ubuesque » est…",
+    "choices": [
+     "absurde et grotesque",
+     "très polie",
+     "très silencieuse",
+     "très propre"
+    ],
+    "correct": 0
+   },
+   "answer": "absurde et grotesque",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/87-q.mp3",
+     "sec": 4.989388
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/87-a.mp3",
+     "sec": 3.317551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'opprobre, c'est…",
+    "choices": [
+     "la honte publique",
+     "la richesse",
+     "la bonté",
+     "la splendeur"
+    ],
+    "correct": 0
+   },
+   "answer": "la honte publique",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/88-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/88-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un mot « sesquipédale » est un mot…",
+    "choices": [
+     "très long",
+     "très court",
+     "très ancien",
+     "très rare"
+    ],
+    "correct": 0
+   },
+   "answer": "très long",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/89-q.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/89-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un nycthémère, c'est…",
+    "choices": [
+     "une nuit polaire",
+     "une éclipse",
+     "une période de 24 heures",
+     "une tempête de nuit"
+    ],
+    "correct": 2
+   },
+   "answer": "une période de 24 heures",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/90-q.mp3",
+     "sec": 4.675918
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/90-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que désigne l'« ubac » en montagne ?",
+    "choices": [
+     "le versant ensoleillé",
+     "le glacier",
+     "le col",
+     "le versant à l'ombre"
+    ],
+    "correct": 3
+   },
+   "answer": "le versant à l'ombre",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/91-q.mp3",
+     "sec": 2.742857
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/91-a.mp3",
+     "sec": 1.828571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une logomachie est…",
+    "choices": [
+     "la peur des mots",
+     "une dispute sur les mots",
+     "un jeu de lettres",
+     "un dictionnaire"
+    ],
+    "correct": 1
+   },
+   "answer": "une dispute sur les mots",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/92-q.mp3",
+     "sec": 4.205714
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/92-a.mp3",
+     "sec": 3.160816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une anacoluthe est…",
+    "choices": [
+     "une rupture de construction",
+     "un accent",
+     "une rime",
+     "un pronom"
+    ],
+    "correct": 0
+   },
+   "answer": "une rupture de construction",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/93-q.mp3",
+     "sec": 3.552653
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/93-a.mp3",
+     "sec": 2.56
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne atrabilaire est…",
+    "choices": [
+     "d'humeur noire et irritable",
+     "très joyeuse",
+     "très gourmande",
+     "très forte"
+    ],
+    "correct": 0
+   },
+   "answer": "d'humeur noire et irritable",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/94-q.mp3",
+     "sec": 4.04898
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/94-a.mp3",
+     "sec": 3.395918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que fait une cloche qui « tintinnabule » ?",
+    "choices": [
+     "elle se brise",
+     "elle se tait",
+     "elle tinte",
+     "elle tombe"
+    ],
+    "correct": 2
+   },
+   "answer": "elle tinte",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/95-q.mp3",
+     "sec": 2.66449
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/95-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le mot « callipyge » se dit de quelqu'un qui a de belles…",
+    "choices": [
+     "mains",
+     "oreilles",
+     "fesses",
+     "jambes"
+    ],
+    "correct": 2
+   },
+   "answer": "fesses",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/96-q.mp3",
+     "sec": 3.63102
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/96-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un mot « hypocoristique » est…",
+    "choices": [
+     "une insulte",
+     "un mot très savant",
+     "un mot inventé",
+     "un diminutif affectueux"
+    ],
+    "correct": 3
+   },
+   "answer": "un diminutif affectueux",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/97-q.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/97-a.mp3",
+     "sec": 3.082449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une pandiculation est…",
+    "choices": [
+     "une fête",
+     "une maladie",
+     "un étirement au réveil",
+     "une prière"
+    ],
+    "correct": 2
+   },
+   "answer": "un étirement au réveil",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/98-q.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/98-a.mp3",
+     "sec": 2.847347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'ailurophobie est la peur des…",
+    "choices": [
+     "chiens",
+     "oiseaux",
+     "chats",
+     "souris"
+    ],
+    "correct": 2
+   },
+   "answer": "chats",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/99-q.mp3",
+     "sec": 4.675918
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/99-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne cacochyme est…",
+    "choices": [
+     "faible et maladive",
+     "bavarde",
+     "gourmande",
+     "joyeuse"
+    ],
+    "correct": 0
+   },
+   "answer": "faible et maladive",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/100-q.mp3",
+     "sec": 2.089796
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/100-a.mp3",
+     "sec": 2.847347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La triskaïdékaphobie est la peur du…",
+    "choices": [
+     "noir",
+     "vide",
+     "feu",
+     "nombre 13"
+    ],
+    "correct": 3
+   },
+   "answer": "nombre 13",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/101-q.mp3",
+     "sec": 4.91102
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/101-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un thaumaturge est…",
+    "choices": [
+     "un marchand",
+     "un faiseur de prodiges",
+     "un savant",
+     "un voleur"
+    ],
+    "correct": 1
+   },
+   "answer": "un faiseur de prodiges",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/102-q.mp3",
+     "sec": 1.671837
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/102-a.mp3",
+     "sec": 3.395918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un « hapax » est un mot…",
+    "choices": [
+     "très grossier",
+     "attesté une seule fois",
+     "très long",
+     "d'origine grecque"
+    ],
+    "correct": 1
+   },
+   "answer": "attesté une seule fois",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/103-q.mp3",
+     "sec": 3.918367
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/103-a.mp3",
+     "sec": 3.004082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'ultracrépidarianisme, c'est donner son avis…",
+    "choices": [
+     "en criant",
+     "en chantant",
+     "trop tard",
+     "hors de sa compétence"
+    ],
+    "correct": 3
+   },
+   "answer": "hors de sa compétence",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/104-q.mp3",
+     "sec": 3.317551
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/104-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un ukase est…",
+    "choices": [
+     "une danse russe",
+     "un ordre arbitraire",
+     "un fruit",
+     "une monnaie"
+    ],
+    "correct": 1
+   },
+   "answer": "un ordre arbitraire",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/105-q.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/105-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un apophtegme est…",
+    "choices": [
+     "une maladie",
+     "une éclipse",
+     "une maxime",
+     "un bavardage"
+    ],
+    "correct": 2
+   },
+   "answer": "une maxime",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/106-q.mp3",
+     "sec": 1.776327
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/106-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le « pétrichor » est…",
+    "choices": [
+     "une pierre précieuse",
+     "un vent chaud",
+     "le pollen des pins",
+     "l'odeur de la terre après la pluie"
+    ],
+    "correct": 3
+   },
+   "answer": "l'odeur de la terre après la pluie",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-vocabulaire/107-q.mp3",
+     "sec": 2.063673
+    },
+    "a": {
+     "src": "tts/2026-11-11-vocabulaire/107-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Le même quiz en version jouable : youqwiz.com"
+ },
+ "meta": {
+  "description": "108 questions pour tester ta culture : la plupart des gens ratent le dernier niveau. Niveaux : 34 facile, 32 moyens, 23 difficiles, 19 impossible. Compte tes points et dis ton score en commentaire 👇\n\n🎮 Crée ton propre quiz gratuit en 2 minutes : https://youqwiz.com/quiz-du-jour/2026-11-11-vocabulaire\n🔔 Pense à t'abonner, ça aide la chaîne.\n\n#quiz #vocabulaire #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:12 Niveau facile\n04:57 Niveau moyen\n09:23 Niveau difficile\n13:01 Niveau impossible\n16:35 Ton score\n16:46 Crée ton quiz sur youqwiz.com",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "vocabulaire",
+   "orthographe",
+   "langue française",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Culture G",
+   "line2": "108 MOTS",
+   "emoji": "✍️",
+   "sticker": "5 SECONDES !",
+   "layouts": [
+    2,
+    0
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "3 secondes par question ⏱️ 108 MOTS de FRANÇAIS que 90 % ratent #Shorts",
+  "shortDescription": "La réponse + 108 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 12.533333333333333,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 297.8333333333333,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 563.5333333333333,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 781.5333333333333,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 995.2333333333333,
+    "title": "Ton score"
+   },
+   {
+    "at": 1006.2,
+    "title": "Crée ton quiz sur youqwiz.com"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/7be58f74e39cf17f.mp3",
+   "sec": 2.194286
+  },
+  "level_moyen": {
+   "src": "tts-cache/e50717286acc9c69.mp3",
+   "sec": 3.082449
+  },
+  "level_difficile": {
+   "src": "tts-cache/7c4b0fa8b7836b70.mp3",
+   "sec": 3.892245
+  },
+  "level_impossible": {
+   "src": "tts-cache/d5d6978ec142b85a.mp3",
+   "sec": 3.082449
+  },
+  "score": {
+   "src": "tts-cache/8ef7bc3a2361b33d.mp3",
+   "sec": 5.12
+  },
+  "subscribe": {
+   "src": "tts-cache/12be9853171c1ac2.mp3",
+   "sec": 3.63102
+  },
+  "outro": {
+   "src": "tts-cache/33bf4f7514e57ec6.mp3",
+   "sec": 3.866122
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  },
+  "preroll": {
+   "src": "tts-cache/8a6f43c4a6c3fd59.mp3",
+   "sec": 2.76898
+  },
+  "packshot": {
+   "src": "tts-cache/72d277617320c213.mp3",
+   "sec": 4.989388
+  }
+ }
+}

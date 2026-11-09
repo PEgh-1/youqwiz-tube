@@ -1,0 +1,1617 @@
+{
+  "question": "À quel pays appartient ce drapeau ?",
+  "hook": "Devine {n} DRAPEAUX du MONDE",
+  "emoji": "🚩🌍🧠",
+  "slug": "drapeaux",
+  "noun": "DRAPEAUX",
+  "tags": [
+    "drapeaux",
+    "quiz drapeaux",
+    "pays du monde",
+    "géographie"
+  ],
+  "items": [
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇳"
+      },
+      "answer": "Chine",
+      "rank": 1
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇮🇳"
+      },
+      "answer": "Inde",
+      "fact": "La roue au centre du drapeau de l'Inde a vingt-quatre rayons.",
+      "rank": 2
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇺🇸"
+      },
+      "answer": "États-Unis",
+      "fact": "Le drapeau des États-Unis compte cinquante étoiles, une pour chaque État.",
+      "rank": 3
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇮🇩"
+      },
+      "answer": "Indonésie",
+      "rank": 4
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇷"
+      },
+      "answer": "Brésil",
+      "fact": "Les vingt-sept étoiles du drapeau du Brésil représentent ses États et le district fédéral.",
+      "rank": 5
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇵🇰"
+      },
+      "answer": "Pakistan",
+      "rank": 6
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇳🇬"
+      },
+      "answer": "Nigeria",
+      "rank": 7
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇩"
+      },
+      "answer": "Bangladesh",
+      "fact": "Le disque rouge du drapeau du Bangladesh est légèrement décalé vers le mât.",
+      "rank": 8
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇷🇺"
+      },
+      "answer": "Russie",
+      "rank": 9
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇯🇵"
+      },
+      "answer": "Japon",
+      "fact": "Le disque rouge du drapeau du Japon représente le soleil.",
+      "rank": 10
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇽"
+      },
+      "answer": "Mexique",
+      "fact": "Le drapeau du Mexique porte un aigle perché sur un cactus, tiré d'une légende aztèque.",
+      "rank": 11
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇵🇭"
+      },
+      "answer": "Philippines",
+      "rank": 12
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇻🇳"
+      },
+      "answer": "Vietnam",
+      "rank": 13
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇪🇹"
+      },
+      "answer": "Éthiopie",
+      "rank": 14
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇪🇬"
+      },
+      "answer": "Égypte",
+      "rank": 15
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇩🇪"
+      },
+      "answer": "Allemagne",
+      "rank": 16
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇮🇷"
+      },
+      "answer": "Iran",
+      "rank": 17
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇷"
+      },
+      "answer": "Turquie",
+      "rank": 18
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇩"
+      },
+      "answer": "RD Congo",
+      "rank": 19
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇫🇷"
+      },
+      "answer": "France",
+      "rank": 20
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇭"
+      },
+      "answer": "Thaïlande",
+      "fact": "Au centre du drapeau de la Thaïlande, la bande bleue est deux fois plus large que les autres.",
+      "rank": 21
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇧"
+      },
+      "answer": "Royaume-Uni",
+      "fact": "Le drapeau du Royaume-Uni est surnommé l'Union Jack.",
+      "rank": 22
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇮🇹"
+      },
+      "answer": "Italie",
+      "fact": "Le drapeau italien, vert, blanc et rouge, est surnommé il Tricolore.",
+      "rank": 23
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇿🇦"
+      },
+      "answer": "Afrique du Sud",
+      "rank": 24
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇲"
+      },
+      "answer": "Birmanie",
+      "rank": 25
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇷"
+      },
+      "answer": "Corée du Sud",
+      "rank": 26
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇴"
+      },
+      "answer": "Colombie",
+      "rank": 27
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇿"
+      },
+      "answer": "Tanzanie",
+      "rank": 28
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇪🇸"
+      },
+      "answer": "Espagne",
+      "rank": 29
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇺🇦"
+      },
+      "answer": "Ukraine",
+      "rank": 30
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇷"
+      },
+      "answer": "Argentine",
+      "fact": "Le drapeau de l'Argentine porte en son centre un soleil, le soleil de Mai.",
+      "rank": 31
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇪"
+      },
+      "answer": "Kenya",
+      "rank": 32
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇩🇿"
+      },
+      "answer": "Algérie",
+      "rank": 33
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇵🇱"
+      },
+      "answer": "Pologne",
+      "fact": "Le drapeau de la Pologne est blanc en haut et rouge en bas, à l'inverse de celui de l'Indonésie.",
+      "rank": 34
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇩"
+      },
+      "answer": "Soudan",
+      "rank": 35
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇮🇶"
+      },
+      "answer": "Irak",
+      "rank": 36
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇦"
+      },
+      "answer": "Canada",
+      "fact": "Le drapeau du Canada porte une feuille d'érable à onze pointes.",
+      "rank": 37
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇺🇬"
+      },
+      "answer": "Ouganda",
+      "fact": "Le drapeau de l'Ouganda porte en son centre une grue couronnée.",
+      "rank": 38
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇦"
+      },
+      "answer": "Maroc",
+      "fact": "Le drapeau du Maroc est rouge avec une étoile verte à cinq branches.",
+      "rank": 39
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇵🇪"
+      },
+      "answer": "Pérou",
+      "rank": 40
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇦"
+      },
+      "answer": "Arabie saoudite",
+      "rank": 41
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇺🇿"
+      },
+      "answer": "Ouzbékistan",
+      "rank": 42
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇾"
+      },
+      "answer": "Malaisie",
+      "fact": "Le drapeau de la Malaisie compte quatorze bandes rouges et blanches.",
+      "rank": 43
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇻🇪"
+      },
+      "answer": "Venezuela",
+      "rank": 44
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇳🇵"
+      },
+      "answer": "Népal",
+      "fact": "Le drapeau du Népal est le seul au monde qui n'est pas rectangulaire.",
+      "rank": 45
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇭"
+      },
+      "answer": "Ghana",
+      "fact": "Le drapeau du Ghana porte une étoile noire, symbole de la liberté africaine.",
+      "rank": 46
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇫"
+      },
+      "answer": "Afghanistan",
+      "rank": 47
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇾🇪"
+      },
+      "answer": "Yémen",
+      "rank": 48
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇿"
+      },
+      "answer": "Mozambique",
+      "rank": 49
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇵"
+      },
+      "answer": "Corée du Nord",
+      "rank": 50
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇴"
+      },
+      "answer": "Angola",
+      "rank": 51
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇮"
+      },
+      "answer": "Côte d'Ivoire",
+      "rank": 52
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇺"
+      },
+      "answer": "Australie",
+      "fact": "Le drapeau de l'Australie contient la Croix du Sud, une constellation de l'hémisphère sud.",
+      "rank": 53
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇾"
+      },
+      "answer": "Syrie",
+      "rank": 54
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇬"
+      },
+      "answer": "Madagascar",
+      "rank": 55
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇲"
+      },
+      "answer": "Cameroun",
+      "rank": 56
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇰"
+      },
+      "answer": "Sri Lanka",
+      "rank": 57
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇷🇴"
+      },
+      "answer": "Roumanie",
+      "rank": 58
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇱"
+      },
+      "answer": "Chili",
+      "rank": 59
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇿"
+      },
+      "answer": "Kazakhstan",
+      "rank": 60
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇫"
+      },
+      "answer": "Burkina Faso",
+      "rank": 61
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇳🇪"
+      },
+      "answer": "Niger",
+      "rank": 62
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇳🇱"
+      },
+      "answer": "Pays-Bas",
+      "rank": 63
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇪🇨"
+      },
+      "answer": "Équateur",
+      "rank": 64
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇹"
+      },
+      "answer": "Guatemala",
+      "fact": "Le drapeau du Guatemala montre un quetzal, l'oiseau emblème du pays.",
+      "rank": 65
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇼"
+      },
+      "answer": "Malawi",
+      "rank": 66
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇱"
+      },
+      "answer": "Mali",
+      "rank": 67
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇭"
+      },
+      "answer": "Cambodge",
+      "rank": 68
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇿🇲"
+      },
+      "answer": "Zambie",
+      "rank": 69
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇳"
+      },
+      "answer": "Sénégal",
+      "rank": 70
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇩"
+      },
+      "answer": "Tchad",
+      "fact": "Les drapeaux du Tchad et de la Roumanie sont presque identiques.",
+      "rank": 71
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇿🇼"
+      },
+      "answer": "Zimbabwe",
+      "fact": "Le drapeau du Zimbabwe montre l'oiseau de pierre, symbole du pays.",
+      "rank": 72
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇸"
+      },
+      "answer": "Soudan du Sud",
+      "rank": 73
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇪"
+      },
+      "answer": "Belgique",
+      "rank": 74
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇺"
+      },
+      "answer": "Cuba",
+      "rank": 75
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇷🇼"
+      },
+      "answer": "Rwanda",
+      "rank": 76
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇷"
+      },
+      "answer": "Grèce",
+      "fact": "Le drapeau de la Grèce compte neuf bandes, cinq bleues et quatre blanches.",
+      "rank": 77
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇳"
+      },
+      "answer": "Tunisie",
+      "rank": 78
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇴"
+      },
+      "answer": "Somalie",
+      "rank": 79
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇭🇹"
+      },
+      "answer": "Haïti",
+      "rank": 80
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇳"
+      },
+      "answer": "Guinée",
+      "rank": 81
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇿"
+      },
+      "answer": "Tchéquie",
+      "rank": 82
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇵🇹"
+      },
+      "answer": "Portugal",
+      "rank": 83
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇩🇴"
+      },
+      "answer": "République dominicaine",
+      "rank": 84
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇴"
+      },
+      "answer": "Bolivie",
+      "rank": 85
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇯"
+      },
+      "answer": "Bénin",
+      "rank": 86
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇪"
+      },
+      "answer": "Suède",
+      "rank": 87
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇭🇺"
+      },
+      "answer": "Hongrie",
+      "rank": 88
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇿"
+      },
+      "answer": "Azerbaïdjan",
+      "rank": 89
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇮"
+      },
+      "answer": "Burundi",
+      "rank": 90
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇾"
+      },
+      "answer": "Biélorussie",
+      "rank": 91
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇪"
+      },
+      "answer": "Émirats arabes unis",
+      "rank": 92
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇭🇳"
+      },
+      "answer": "Honduras",
+      "rank": 93
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇹"
+      },
+      "answer": "Autriche",
+      "rank": 94
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇮🇱"
+      },
+      "answer": "Israël",
+      "rank": 95
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇭"
+      },
+      "answer": "Suisse",
+      "fact": "Le drapeau de la Suisse est carré, comme celui du Vatican.",
+      "rank": 96
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇯"
+      },
+      "answer": "Tadjikistan",
+      "rank": 97
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇵🇬"
+      },
+      "answer": "Papouasie-Nouvelle-Guinée",
+      "fact": "Le drapeau de la Papouasie-Nouvelle-Guinée montre un oiseau de paradis.",
+      "rank": 98
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇬"
+      },
+      "answer": "Bulgarie",
+      "rank": 99
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇷🇸"
+      },
+      "answer": "Serbie",
+      "rank": 100
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇬"
+      },
+      "answer": "Togo",
+      "rank": 101
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇵🇾"
+      },
+      "answer": "Paraguay",
+      "rank": 102
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇦"
+      },
+      "answer": "Laos",
+      "rank": 103
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇯🇴"
+      },
+      "answer": "Jordanie",
+      "rank": 104
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇪🇷"
+      },
+      "answer": "Érythrée",
+      "rank": 105
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇻"
+      },
+      "answer": "Salvador",
+      "rank": 106
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇮🇪"
+      },
+      "answer": "Irlande",
+      "rank": 107
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇾"
+      },
+      "answer": "Libye",
+      "rank": 108
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇱"
+      },
+      "answer": "Sierra Leone",
+      "rank": 109
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇳🇮"
+      },
+      "answer": "Nicaragua",
+      "fact": "Le drapeau du Nicaragua affiche un arc-en-ciel au centre de son emblème.",
+      "rank": 110
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇲"
+      },
+      "answer": "Turkménistan",
+      "rank": 111
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇬"
+      },
+      "answer": "Kirghizstan",
+      "rank": 112
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇩🇰"
+      },
+      "answer": "Danemark",
+      "fact": "Le drapeau du Danemark est considéré comme le plus ancien drapeau national encore utilisé.",
+      "rank": 113
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇫🇮"
+      },
+      "answer": "Finlande",
+      "rank": 114
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇬"
+      },
+      "answer": "Singapour",
+      "rank": 115
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇰"
+      },
+      "answer": "Slovaquie",
+      "rank": 116
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇳🇴"
+      },
+      "answer": "Norvège",
+      "rank": 117
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇷"
+      },
+      "answer": "Costa Rica",
+      "rank": 118
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇫"
+      },
+      "answer": "République centrafricaine",
+      "rank": 119
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇬"
+      },
+      "answer": "Congo",
+      "rank": 120
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇳🇿"
+      },
+      "answer": "Nouvelle-Zélande",
+      "fact": "Le drapeau de la Nouvelle-Zélande montre quatre étoiles rouges de la Croix du Sud.",
+      "rank": 121
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇪"
+      },
+      "answer": "Géorgie",
+      "rank": 122
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇷"
+      },
+      "answer": "Liberia",
+      "fact": "Le drapeau du Liberia ressemble beaucoup au drapeau américain, avec une seule étoile.",
+      "rank": 123
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇭🇷"
+      },
+      "answer": "Croatie",
+      "rank": 124
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇧"
+      },
+      "answer": "Liban",
+      "rank": 125
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇴🇲"
+      },
+      "answer": "Oman",
+      "rank": 126
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇦"
+      },
+      "answer": "Bosnie-Herzégovine",
+      "rank": 127
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇵🇦"
+      },
+      "answer": "Panama",
+      "rank": 128
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇩"
+      },
+      "answer": "Moldavie",
+      "rank": 129
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇷"
+      },
+      "answer": "Mauritanie",
+      "rank": 130
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇺🇾"
+      },
+      "answer": "Uruguay",
+      "fact": "Le drapeau de l'Uruguay a aussi un soleil de Mai, comme celui de l'Argentine.",
+      "rank": 131
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇼"
+      },
+      "answer": "Koweït",
+      "rank": 132
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇲"
+      },
+      "answer": "Arménie",
+      "rank": 133
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇳"
+      },
+      "answer": "Mongolie",
+      "rank": 134
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇹"
+      },
+      "answer": "Lituanie",
+      "rank": 135
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇱"
+      },
+      "answer": "Albanie",
+      "fact": "Le drapeau de l'Albanie arbore un aigle noir à deux têtes sur fond rouge.",
+      "rank": 136
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇯🇲"
+      },
+      "answer": "Jamaïque",
+      "fact": "Le drapeau de la Jamaïque est le seul qui ne contient ni rouge, ni blanc, ni bleu.",
+      "rank": 137
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇶🇦"
+      },
+      "answer": "Qatar",
+      "fact": "Le drapeau du Qatar a un bord dentelé à neuf pointes, ce qui le rend unique.",
+      "rank": 138
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇳🇦"
+      },
+      "answer": "Namibie",
+      "rank": 139
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇸"
+      },
+      "answer": "Lesotho",
+      "fact": "Le drapeau du Lesotho montre un chapeau traditionnel, le mokorotlo.",
+      "rank": 140
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇮"
+      },
+      "answer": "Slovénie",
+      "rank": 141
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇰"
+      },
+      "answer": "Macédoine du Nord",
+      "rank": 142
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇼"
+      },
+      "answer": "Botswana",
+      "rank": 143
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇻"
+      },
+      "answer": "Lettonie",
+      "rank": 144
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇲"
+      },
+      "answer": "Gambie",
+      "rank": 145
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇼"
+      },
+      "answer": "Guinée-Bissau",
+      "rank": 146
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇦"
+      },
+      "answer": "Gabon",
+      "rank": 147
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇶"
+      },
+      "answer": "Guinée équatoriale",
+      "rank": 148
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇹"
+      },
+      "answer": "Trinité-et-Tobago",
+      "rank": 149
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇭"
+      },
+      "answer": "Bahreïn",
+      "rank": 150
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇪🇪"
+      },
+      "answer": "Estonie",
+      "rank": 151
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇺"
+      },
+      "answer": "Maurice",
+      "rank": 152
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇱"
+      },
+      "answer": "Timor oriental",
+      "rank": 153
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇿"
+      },
+      "answer": "Eswatini",
+      "rank": 154
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇩🇯"
+      },
+      "answer": "Djibouti",
+      "rank": 155
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇫🇯"
+      },
+      "answer": "Fidji",
+      "fact": "Le drapeau des Fidji porte l'Union Jack britannique dans un coin.",
+      "rank": 156
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇾"
+      },
+      "answer": "Chypre",
+      "fact": "Le drapeau de Chypre dessine la forme de l'île en cuivre, un métal qui doit son nom à Chypre.",
+      "rank": 157
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇾"
+      },
+      "answer": "Guyana",
+      "rank": 158
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇲"
+      },
+      "answer": "Comores",
+      "fact": "Le drapeau des Comores a quatre étoiles et quatre bandes pour ses quatre îles.",
+      "rank": 159
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇹"
+      },
+      "answer": "Bhoutan",
+      "fact": "Le drapeau du Bhoutan montre un dragon, car le pays se nomme « terre du dragon-tonnerre ».",
+      "rank": 160
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇪"
+      },
+      "answer": "Monténégro",
+      "rank": 161
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇧"
+      },
+      "answer": "Îles Salomon",
+      "rank": 162
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇺"
+      },
+      "answer": "Luxembourg",
+      "fact": "Le drapeau du Luxembourg ressemble à celui des Pays-Bas, avec un bleu plus clair.",
+      "rank": 163
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇷"
+      },
+      "answer": "Suriname",
+      "rank": 164
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇨🇻"
+      },
+      "answer": "Cap-Vert",
+      "fact": "Le drapeau du Cap-Vert dessine un cercle de dix étoiles, une par île.",
+      "rank": 165
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇹"
+      },
+      "answer": "Malte",
+      "rank": 166
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇳"
+      },
+      "answer": "Brunei",
+      "rank": 167
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇿"
+      },
+      "answer": "Belize",
+      "fact": "Le drapeau du Belize est l'un des rares au monde à montrer des personnes.",
+      "rank": 168
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇻"
+      },
+      "answer": "Maldives",
+      "rank": 169
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇮🇸"
+      },
+      "answer": "Islande",
+      "rank": 170
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇸"
+      },
+      "answer": "Bahamas",
+      "rank": 171
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇧🇧"
+      },
+      "answer": "Barbade",
+      "rank": 172
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇻🇺"
+      },
+      "answer": "Vanuatu",
+      "rank": 173
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇼🇸"
+      },
+      "answer": "Samoa",
+      "rank": 174
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇹"
+      },
+      "answer": "Sao Tomé-et-Principe",
+      "rank": 175
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇨"
+      },
+      "answer": "Sainte-Lucie",
+      "rank": 176
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇻🇨"
+      },
+      "answer": "Saint-Vincent-et-les Grenadines",
+      "rank": 177
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇮"
+      },
+      "answer": "Kiribati",
+      "fact": "Le drapeau de Kiribati montre un oiseau frégate planant au-dessus du soleil levant.",
+      "rank": 178
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇬🇩"
+      },
+      "answer": "Grenade",
+      "fact": "Le drapeau de la Grenade porte une noix de muscade, car l'île en produit beaucoup.",
+      "rank": 179
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇴"
+      },
+      "answer": "Tonga",
+      "rank": 180
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇫🇲"
+      },
+      "answer": "Micronésie",
+      "fact": "Le drapeau de la Micronésie a quatre étoiles, une pour chacun de ses États.",
+      "rank": 181
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇨"
+      },
+      "answer": "Seychelles",
+      "rank": 182
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇬"
+      },
+      "answer": "Antigua-et-Barbuda",
+      "rank": 183
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇦🇩"
+      },
+      "answer": "Andorre",
+      "rank": 184
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇩🇲"
+      },
+      "answer": "Dominique",
+      "fact": "Le drapeau de la Dominique est l'un des rares drapeaux à contenir du violet.",
+      "rank": 185
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇭"
+      },
+      "answer": "Îles Marshall",
+      "fact": "Le drapeau des îles Marshall porte une grande étoile à vingt-quatre branches.",
+      "rank": 186
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇰🇳"
+      },
+      "answer": "Saint-Kitts-et-Nevis",
+      "rank": 187
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇱🇮"
+      },
+      "answer": "Liechtenstein",
+      "rank": 188
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇲🇨"
+      },
+      "answer": "Monaco",
+      "rank": 189
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇸🇲"
+      },
+      "answer": "Saint-Marin",
+      "rank": 190
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇵🇼"
+      },
+      "answer": "Palaos",
+      "fact": "Le drapeau des Palaos montre une pleine lune jaune sur fond bleu.",
+      "rank": 191
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇹🇻"
+      },
+      "answer": "Tuvalu",
+      "fact": "Le drapeau de Tuvalu a neuf étoiles, une pour chacune de ses neuf îles.",
+      "rank": 192
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇳🇷"
+      },
+      "answer": "Nauru",
+      "rank": 193
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🇻🇦"
+      },
+      "answer": "Vatican",
+      "fact": "Le drapeau du Vatican est l'un des deux seuls drapeaux carrés du monde.",
+      "rank": 194
+    }
+  ],
+  "notes": "",
+  "rankNote": "rank = ordre de difficulté (1 = plus facile), ici par population décroissante du pays (décision du 06/11/2026) ; generate.mjs trie l'épisode par rank croissant"
+}

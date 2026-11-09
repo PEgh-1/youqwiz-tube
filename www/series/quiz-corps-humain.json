@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-corps-humain",
+  "theme": "sciences",
+  "title": "Quiz corps humain : 20 questions sur l'anatomie",
+  "description": "Quiz corps humain gratuit : 20 questions sur les organes, les os et les muscles. Teste tes connaissances en anatomie en 5 secondes par question !",
+  "h1": "Quiz corps humain : connais-tu bien ton anatomie ?",
+  "intro": "Ton corps est une machine extraordinaire, mais le connais-tu vraiment ? Ce quiz de 20 questions explore les organes, les os, les muscles et le sang. Tu as 5 secondes par question pour choisir parmi quatre propositions. Les huit premières questions sont des classiques que tout le monde a étudiés à l'école, les huit suivantes demandent un peu plus de précision, et les quatre dernières sont destinées aux amateurs d'anatomie. Chaque réponse est suivie d'une petite explication pour apprendre un fait étonnant sur le corps humain. Alors, respire un bon coup et teste ta culture du vivant !",
+  "questions": [
+    {
+      "q": "Combien de poumons avons-nous ?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explication": "Nous avons deux poumons : le droit, un peu plus grand, et le gauche, qui laisse de la place au cœur.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel organe pompe le sang dans tout le corps ?",
+      "choices": [
+        "le foie",
+        "le cerveau",
+        "l'estomac",
+        "le cœur"
+      ],
+      "answer": 3,
+      "explication": "Le cœur est un muscle qui se contracte pour envoyer le sang dans tout l'organisme.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de sens classiques avons-nous ?",
+      "choices": [
+        "5",
+        "3",
+        "4",
+        "7"
+      ],
+      "answer": 0,
+      "explication": "La vue, l'ouïe, l'odorat, le goût et le toucher sont les cinq sens classiques.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus grand organe du corps humain ?",
+      "choices": [
+        "le foie",
+        "les poumons",
+        "la peau",
+        "l'intestin"
+      ],
+      "answer": 2,
+      "explication": "La peau couvre environ 2 m² chez un adulte et protège le corps.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment s'appelle l'os de la cuisse ?",
+      "choices": [
+        "le tibia",
+        "l'humérus",
+        "le radius",
+        "le fémur"
+      ],
+      "answer": 3,
+      "explication": "Le fémur est le plus long et le plus solide os du corps humain.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de dents a un adulte avec toutes ses dents, dents de sagesse comprises ?",
+      "choices": [
+        "28",
+        "32",
+        "30",
+        "36"
+      ],
+      "answer": 1,
+      "explication": "Un adulte a 32 dents, dont 4 dents de sagesse. Un enfant en a 20 de lait.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel organe est protégé par le crâne ?",
+      "choices": [
+        "le cœur",
+        "le foie",
+        "le cerveau",
+        "l'estomac"
+      ],
+      "answer": 2,
+      "explication": "Le crâne protège le cerveau, qui commande les mouvements et les pensées.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelles cellules du sang transportent l'oxygène ?",
+      "choices": [
+        "les globules rouges",
+        "les globules blancs",
+        "les plaquettes",
+        "les neurones"
+      ],
+      "answer": 0,
+      "explication": "Les globules rouges contiennent de l'hémoglobine, une protéine qui fixe l'oxygène et donne au sang sa couleur rouge.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien d'os compte le squelette d'un adulte ?",
+      "choices": [
+        "106",
+        "306",
+        "206",
+        "406"
+      ],
+      "answer": 2,
+      "explication": "Un bébé naît avec environ 300 os, dont certains se soudent pendant la croissance.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le plus petit os du corps humain ?",
+      "choices": [
+        "l'étrier",
+        "la rotule",
+        "le radius",
+        "le sternum"
+      ],
+      "answer": 0,
+      "explication": "L'étrier, situé dans l'oreille moyenne, mesure environ 3 millimètres.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel organe fabrique la bile ?",
+      "choices": [
+        "l'estomac",
+        "le pancréas",
+        "la rate",
+        "le foie"
+      ],
+      "answer": 3,
+      "explication": "Le foie fabrique la bile, stockée dans la vésicule biliaire, qui aide à digérer les graisses.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel organe fabrique l'insuline ?",
+      "choices": [
+        "le foie",
+        "le pancréas",
+        "les reins",
+        "l'estomac"
+      ],
+      "answer": 1,
+      "explication": "Cette hormone, sécrétée par le pancréas, régule le taux de sucre dans le sang.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de cavités (oreillettes et ventricules) possède le cœur humain ?",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explication": "Le cœur a deux oreillettes et deux ventricules.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quels organes filtrent le sang et fabriquent l'urine ?",
+      "choices": [
+        "les poumons",
+        "le foie",
+        "les reins",
+        "la rate"
+      ],
+      "answer": 2,
+      "explication": "Les deux reins filtrent le sang et éliminent les déchets sous forme d'urine.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle vitamine le corps fabrique-t-il grâce au soleil ?",
+      "choices": [
+        "la vitamine A",
+        "la vitamine D",
+        "la vitamine C",
+        "la vitamine B12"
+      ],
+      "answer": 1,
+      "explication": "Sous l'effet des rayons UV, la peau fabrique la vitamine D, utile à la solidité des os.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel muscle joue un rôle essentiel dans la respiration ?",
+      "choices": [
+        "le biceps",
+        "le deltoïde",
+        "le trapèze",
+        "le diaphragme"
+      ],
+      "answer": 3,
+      "explication": "Le diaphragme se contracte à chaque inspiration pour que les poumons se remplissent d'air.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de paires de côtes possède un être humain ?",
+      "choices": [
+        "10",
+        "12",
+        "14",
+        "8"
+      ],
+      "answer": 1,
+      "explication": "Nous avons 12 paires de côtes qui protègent le cœur et les poumons.",
+      "level": "expert"
+    },
+    {
+      "q": "Comment s'appelle la partie transparente à l'avant de l'œil ?",
+      "choices": [
+        "la rétine",
+        "l'iris",
+        "le cristallin",
+        "la cornée"
+      ],
+      "answer": 3,
+      "explication": "La cornée laisse passer la lumière et la concentre. La rétine est à l'arrière de l'œil.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le plus gros muscle du corps humain ?",
+      "choices": [
+        "le grand fessier",
+        "le biceps",
+        "le grand pectoral",
+        "le deltoïde"
+      ],
+      "answer": 0,
+      "explication": "Le grand fessier est le muscle le plus volumineux, il sert à tenir debout, courir et monter les escaliers.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle partie du cerveau coordonne les mouvements et l'équilibre ?",
+      "choices": [
+        "l'hippocampe",
+        "le lobe frontal",
+        "le cervelet",
+        "le tronc cérébral"
+      ],
+      "answer": 2,
+      "explication": "Le cervelet, à l'arrière du cerveau, affine les mouvements et maintient l'équilibre.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Combien d'os possède le corps humain ?",
+      "Un adulte possède 206 os. Un nouveau-né en a davantage, environ 300, car certains os se soudent pendant la croissance. Le plus long est le fémur, le plus petit est l'étrier, situé dans l'oreille. Ces repères te servent aussi bien à l'école que dans la vie de tous les jours, et ils se retiennent mieux en s'amusant avec un quiz régulier."
+    ],
+    [
+      "Comment fonctionne le cœur ?",
+      "Le cœur est un muscle creux divisé en quatre cavités. Il envoie le sang chargé d'oxygène dans tout le corps, puis récupère le sang usé pour l'envoyer vers les poumons. Il bat environ 70 fois par minute au repos chez un adulte."
+    ],
+    [
+      "Pourquoi les globules rouges sont-ils rouges ?",
+      "Ils contiennent de l'hémoglobine, une protéine riche en fer qui transporte l'oxygène des poumons vers les organes. C'est le fer qui donne au sang sa couleur rouge. Les globules rouges sont les cellules les plus nombreuses du sang. Ces repères te servent aussi bien à l'école que dans la vie de tous les jours, et ils se retiennent mieux en s'amusant avec un quiz régulier."
+    ]
+  ],
+  "related": [
+    "/quiz-sciences",
+    "/quiz-animaux",
+    "/quiz-espace",
+    "/quiz-culture-generale-facile"
+  ]
+}

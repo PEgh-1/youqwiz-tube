@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-culture-generale-facile",
+  "theme": "culture-generale",
+  "title": "Quiz culture générale facile : 20 questions",
+  "description": "Quiz de culture générale facile : 20 questions accessibles sur la géographie, l'histoire, les sciences et les arts. Teste-toi en 2 minutes !",
+  "h1": "Quiz culture générale facile : 20 questions pour s'échauffer",
+  "intro": "Envie d'un petit quiz de culture générale pour te mettre en jambes ? Voici 20 questions faciles, tirées de tous les domaines : géographie, histoire, littérature, sciences, sport et arts. Chaque question se joue en quelques secondes, à raison de 5 secondes de réflexion environ, et chaque bonne réponse est accompagnée d'une petite explication pour apprendre quelque chose au passage. Que tu sois en famille, entre amis ou seul devant ton écran, tu devrais t'en sortir avec un beau score. Prêt à viser le sans-faute ? À toi de jouer, et amuse-toi bien !",
+  "questions": [
+    {
+      "q": "Combien de côtés a un hexagone ?",
+      "choices": [
+        "4",
+        "6",
+        "5",
+        "8"
+      ],
+      "answer": 1,
+      "explication": "Le préfixe « hexa » signifie six en grec. C'est pourquoi on surnomme la France « l'Hexagone », en raison de sa forme.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus grand océan du monde ?",
+      "choices": [
+        "L'océan Atlantique",
+        "L'océan Indien",
+        "L'océan Arctique",
+        "L'océan Pacifique"
+      ],
+      "answer": 3,
+      "explication": "Le Pacifique couvre à lui seul près d'un tiers de la surface du globe.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui a peint la Joconde ?",
+      "choices": [
+        "Léonard de Vinci",
+        "Michel-Ange",
+        "Raphaël",
+        "Claude Monet"
+      ],
+      "answer": 0,
+      "explication": "Léonard de Vinci a peint ce portrait au début du XVIe siècle ; il est exposé au musée du Louvre à Paris.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle planète est surnommée la planète rouge ?",
+      "choices": [
+        "Mars",
+        "Vénus",
+        "Jupiter",
+        "Mercure"
+      ],
+      "answer": 0,
+      "explication": "Mars doit sa couleur rouille à l'oxyde de fer présent à sa surface.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Italie ?",
+      "choices": [
+        "Milan",
+        "Venise",
+        "Naples",
+        "Rome"
+      ],
+      "answer": 3,
+      "explication": "Rome est la capitale de l'Italie depuis 1871, et abrite aussi le Vatican en son sein.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fleuve traverse Paris ?",
+      "choices": [
+        "La Loire",
+        "Le Rhône",
+        "La Garonne",
+        "La Seine"
+      ],
+      "answer": 3,
+      "explication": "La Seine traverse la capitale avant de se jeter dans la Manche, près du Havre.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?",
+      "choices": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "answer": 3,
+      "explication": "Une équipe de football compte onze joueurs sur le terrain, gardien de but compris.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui est l'auteur des « Misérables » ?",
+      "choices": [
+        "Émile Zola",
+        "Victor Hugo",
+        "Alexandre Dumas",
+        "Honoré de Balzac"
+      ],
+      "answer": 1,
+      "explication": "Victor Hugo publie ce grand roman en 1862, avec les personnages de Jean Valjean et de Cosette.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus grand mammifère terrestre ?",
+      "choices": [
+        "La girafe",
+        "Le rhinocéros blanc",
+        "L'éléphant d'Afrique",
+        "L'hippopotame"
+      ],
+      "answer": 2,
+      "explication": "L'éléphant d'Afrique peut dépasser 6 tonnes ; la baleine bleue, plus grande encore, vit dans l'océan.",
+      "level": "facile"
+    },
+    {
+      "q": "En quelle année éclate la Révolution française ?",
+      "choices": [
+        "1789",
+        "1769",
+        "1799",
+        "1815"
+      ],
+      "answer": 0,
+      "explication": "La prise de la Bastille a lieu le 14 juillet 1789, événement qui devient le symbole de la Révolution.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel gaz les humains ont-ils besoin de respirer pour vivre ?",
+      "choices": [
+        "L'azote",
+        "Le gaz carbonique",
+        "L'oxygène",
+        "L'hélium"
+      ],
+      "answer": 2,
+      "explication": "L'air contient environ 21 % d'oxygène, indispensable à notre organisme.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de jours compte une année bissextile ?",
+      "choices": [
+        "366",
+        "365",
+        "364",
+        "367"
+      ],
+      "answer": 0,
+      "explication": "Un jour est ajouté à février, qui compte alors 29 jours, tous les quatre ans en général.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus long fleuve de France ?",
+      "choices": [
+        "La Seine",
+        "Le Rhône",
+        "La Loire",
+        "La Garonne"
+      ],
+      "answer": 2,
+      "explication": "La Loire mesure environ 1 000 km, de l'Ardèche à l'océan Atlantique.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel monument parisien en fer a été inauguré en 1889 ?",
+      "choices": [
+        "La tour Eiffel",
+        "L'Arc de Triomphe",
+        "Le Sacré-Cœur",
+        "Le Grand Palais"
+      ],
+      "answer": 0,
+      "explication": "Elle est construite pour l'Exposition universelle de 1889 par l'entreprise de Gustave Eiffel.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui est l'auteur du « Petit Prince » ?",
+      "choices": [
+        "Jules Verne",
+        "Albert Camus",
+        "Jean de La Fontaine",
+        "Antoine de Saint-Exupéry"
+      ],
+      "answer": 3,
+      "explication": "Cet aviateur-écrivain publie le conte en 1943 ; c'est l'un des livres les plus traduits au monde.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la monnaie utilisée en France depuis 2002 ?",
+      "choices": [
+        "Le franc",
+        "L'euro",
+        "Le dollar",
+        "L'écu"
+      ],
+      "answer": 1,
+      "explication": "L'euro remplace le franc en espèces au début de l'année 2002.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le point culminant des Alpes françaises, environ 4 800 m ?",
+      "choices": [
+        "La Meije",
+        "Le mont Blanc",
+        "La barre des Écrins",
+        "Le mont Cenis"
+      ],
+      "answer": 1,
+      "explication": "Le mont Blanc est le plus haut sommet des Alpes et de l'Europe occidentale.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui est le premier homme à avoir marché sur la Lune, en 1969 ?",
+      "choices": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Youri Gagarine",
+        "John Glenn"
+      ],
+      "answer": 1,
+      "explication": "Neil Armstrong pose le pied sur la Lune le 20 juillet 1969, lors de la mission Apollo 11.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le symbole chimique de l'eau ?",
+      "choices": [
+        "CO₂",
+        "O₂",
+        "H₂O",
+        "NaCl"
+      ],
+      "answer": 2,
+      "explication": "Une molécule d'eau associe deux atomes d'hydrogène et un atome d'oxygène.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel animal est surnommé le « roi des animaux » ?",
+      "choices": [
+        "Le tigre",
+        "L'ours",
+        "Le lion",
+        "L'aigle"
+      ],
+      "answer": 2,
+      "explication": "Sa crinière et son rugissement lui valent ce surnom, même s'il vit surtout dans la savane africaine.",
+      "level": "facile"
+    }
+  ],
+  "faq": [
+    [
+      "Ce quiz est-il adapté aux enfants ?",
+      "Oui, les questions sont accessibles dès le collège et souvent même avant. Elles portent sur des connaissances de base : géographie, histoire, sciences, littérature. C'est un bon moyen de jouer en famille, de réviser en s'amusant et de découvrir, grâce aux explications, des anecdotes que tout le monde ne connaît pas encore."
+    ],
+    [
+      "Combien de temps faut-il pour terminer ce quiz ?",
+      "Compte environ deux minutes pour les vingt questions, à raison de quelques secondes de réflexion pour chacune. Tu peux aussi prendre ton temps pour lire les explications après chaque réponse. Rien ne t'oblige à courir : le but est avant tout de te faire plaisir et de progresser."
+    ],
+    [
+      "Comment progresser en culture générale ?",
+      "Lis les explications, relance le quiz plusieurs fois et passe ensuite aux niveaux supérieurs. Curiosité, lecture régulière, documentaires et jeux de questions sont les meilleurs alliés. En variant les domaines, tu retiens plus facilement les faits, et tu verras ton score grimper d'une partie à l'autre."
+    ]
+  ],
+  "related": [
+    "/quiz-culture-generale-difficile",
+    "/quiz-culture-generale-seniors",
+    "/quiz-chanson-francaise",
+    "/quiz-lille"
+  ]
+}

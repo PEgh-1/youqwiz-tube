@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-noel",
+  "theme": "noel",
+  "title": "Quiz Noël : 20 questions sur les traditions",
+  "description": "Quiz de Noël : 20 questions sur les traditions, les desserts, les chansons et les légendes des fêtes de fin d'année. Teste ta culture de Noël !",
+  "h1": "Quiz Noël : connais-tu bien les traditions de Noël ?",
+  "intro": "Sapin, crèche, bûche, marchés de Noël, Père Noël et chansons de saison : les fêtes de fin d'année cachent bien des histoires. Ce quiz de Noël te propose 20 questions sur les traditions françaises et européennes, des plus simples aux plus pointues, avec environ 5 secondes de réflexion chacune. Chaque réponse est suivie d'une petite explication pour apprendre l'origine d'une coutume ou d'un plat. À jouer en famille, devant la cheminée ou en attendant le réveillon. Prêt à décrocher le score parfait ? C'est parti !",
+  "questions": [
+    {
+      "q": "À quelle date fête-t-on Noël ?",
+      "choices": [
+        "Le 24 décembre",
+        "Le 25 décembre",
+        "Le 6 janvier",
+        "Le 31 décembre"
+      ],
+      "answer": 1,
+      "explication": "Le 25 décembre est le jour de Noël ; la veille au soir, le 24, se tient le réveillon.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui apporte les cadeaux aux enfants la nuit de Noël ?",
+      "choices": [
+        "Le Père Fouettard",
+        "Saint Valentin",
+        "Le Marchand de sable",
+        "Le Père Noël"
+      ],
+      "answer": 3,
+      "explication": "Le Père Noël se glisse par la cheminée pour déposer les cadeaux près du sapin.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel arbre décore-t-on traditionnellement pour Noël ?",
+      "choices": [
+        "Le chêne",
+        "Le palmier",
+        "Le bouleau",
+        "Le sapin"
+      ],
+      "answer": 3,
+      "explication": "On le décore de boules, de guirlandes et d'une étoile au sommet.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel dessert de Noël a la forme d'un tronc d'arbre ?",
+      "choices": [
+        "Le paris-brest",
+        "Le kouglof",
+        "La bûche",
+        "Le mille-feuille"
+      ],
+      "answer": 2,
+      "explication": "La bûche de Noël rappelle la bûche que l'on faisait brûler dans l'âtre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quels animaux tirent le traîneau du Père Noël ?",
+      "choices": [
+        "Des chevaux",
+        "Des chiens",
+        "Des rennes",
+        "Des bœufs"
+      ],
+      "answer": 2,
+      "explication": "Le plus célèbre de tous est Rudolph, le renne au nez rouge.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle chanson de Noël Tino Rossi chante-t-il pour la première fois en 1946 ?",
+      "choices": [
+        "« Douce nuit »",
+        "« Mon beau sapin »",
+        "« Petit Papa Noël »",
+        "« Vive le vent »"
+      ],
+      "answer": 2,
+      "explication": "Créée pour le film « Destins » en 1946, « Petit Papa Noël » est devenue l'un des disques les plus vendus de l'histoire en France.",
+      "level": "facile"
+    },
+    {
+      "q": "À quel moment de la soirée fête-t-on le réveillon de Noël ?",
+      "choices": [
+        "Dans la matinée du 25 décembre",
+        "Le 26 décembre à midi",
+        "Le 1er janvier au soir",
+        "Dans la soirée du 24 décembre"
+      ],
+      "answer": 3,
+      "explication": "Le repas du réveillon a lieu dans la nuit de Noël, parfois suivi de la messe de minuit.",
+      "level": "facile"
+    },
+    {
+      "q": "Où les enfants déposent-ils traditionnellement leurs souliers pour les cadeaux ?",
+      "choices": [
+        "Devant la cheminée",
+        "Sur le toit",
+        "Dans le jardin",
+        "Sous le lit"
+      ],
+      "answer": 0,
+      "explication": "La tradition des souliers devant la cheminée est restée très populaire dans de nombreuses familles.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on les petits personnages en argile de la crèche provençale ?",
+      "choices": [
+        "Les poupées",
+        "Les mascottes",
+        "Les santons",
+        "Les automates"
+      ],
+      "answer": 2,
+      "explication": "Les santons, « petits saints » en provençal, sont fabriqués notamment à Marseille et à Aubagne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de desserts compte le traditionnel repas de Noël en Provence ?",
+      "choices": [
+        "Treize",
+        "Sept",
+        "Neuf",
+        "Douze"
+      ],
+      "answer": 0,
+      "explication": "Ils symbolisent Jésus et ses douze apôtres ; fruits secs, nougats, fougasse et fruits frais en font partie.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel jour fête-t-on la Saint-Nicolas dans le Nord et l'Est de la France ?",
+      "choices": [
+        "Le 24 décembre",
+        "Le 6 décembre",
+        "Le 1er novembre",
+        "Le 25 décembre"
+      ],
+      "answer": 1,
+      "explication": "Saint Nicolas distribue friandises et pains d'épices aux enfants, avec parfois le Père Fouettard.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel conte de Charles Dickens publié en 1843 met en scène le vieux Scrooge ?",
+      "choices": [
+        "Un chant de Noël",
+        "Oliver Twist",
+        "David Copperfield",
+        "De grandes espérances"
+      ],
+      "answer": 0,
+      "explication": "Scrooge, avare solitaire, se transforme après la visite de trois fantômes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel ballet de Tchaïkovski se déroule la nuit de Noël ?",
+      "choices": [
+        "Le Lac des cygnes",
+        "Casse-Noisette",
+        "La Belle au bois dormant",
+        "Giselle"
+      ],
+      "answer": 1,
+      "explication": "Casse-Noisette est créé en 1892 à Saint-Pétersbourg ; il est très souvent donné en décembre.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel pays est considéré comme le berceau du sapin de Noël décoré ?",
+      "choices": [
+        "L'Espagne",
+        "Le Portugal",
+        "L'Irlande",
+        "L'Allemagne"
+      ],
+      "answer": 3,
+      "explication": "Une première mention d'un sapin en Alsace, alors dans l'espace germanique, remonte à 1521 à Sélestat.",
+      "level": "moyen"
+    },
+    {
+      "q": "Sous quelle plante s'embrasse-t-on pour porter bonheur à la nouvelle année ?",
+      "choices": [
+        "Le gui",
+        "Le houx",
+        "Le lierre",
+        "Le laurier"
+      ],
+      "answer": 0,
+      "explication": "La tradition du gui remonte à l'Antiquité ; elle s'est installée en France autour de Noël et du Nouvel An.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel personnage vert tente de voler Noël dans un conte du Dr Seuss ?",
+      "choices": [
+        "Shrek",
+        "Hulk",
+        "Le Grinch",
+        "Yoda"
+      ],
+      "answer": 2,
+      "explication": "Le Grinch, paru en 1957, déteste Noël avant que son cœur ne grandisse.",
+      "level": "moyen"
+    },
+    {
+      "q": "De quel pays vient l'étoile de Noël, ou poinsettia ?",
+      "choices": [
+        "Le Mexique",
+        "La Norvège",
+        "L'Inde",
+        "L'Italie"
+      ],
+      "answer": 0,
+      "explication": "Cette plante à feuilles rouges est originaire du Mexique ; elle y est liée aux célébrations de Noël.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle ville alsacienne possède un marché de Noël dont l'origine remonte à 1570 ?",
+      "choices": [
+        "Mulhouse",
+        "Strasbourg",
+        "Colmar",
+        "Metz"
+      ],
+      "answer": 1,
+      "explication": "Le « Christkindelsmärik » de Strasbourg est l'un des plus anciens marchés de Noël d'Europe.",
+      "level": "expert"
+    },
+    {
+      "q": "Dans quel pays est chanté pour la première fois « Douce nuit » en 1818 ?",
+      "choices": [
+        "La Suisse",
+        "L'Autriche",
+        "Le Danemark",
+        "Les Pays-Bas"
+      ],
+      "answer": 1,
+      "explication": "« Stille Nacht » est entonnée à l'église d'Oberndorf, près de Salzbourg, la nuit de Noël 1818.",
+      "level": "expert"
+    },
+    {
+      "q": "Comment appelle-t-on en Provence le rituel de la bûche bénie avec du vin cuit ?",
+      "choices": [
+        "La farandole",
+        "La pastorale",
+        "La crèche vivante",
+        "La cacho-fio"
+      ],
+      "answer": 3,
+      "explication": "Le soir du 24 décembre, le plus âgé et le plus jeune de la maison portent une bûche d'arbre fruitier jusqu'à l'âtre ; l'aïeul l'arrose trois fois de vin cuit avant d'y mettre le feu.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "D'où vient la tradition du sapin de Noël ?",
+      "Elle vient des pays germaniques, où l'on décore des arbres verts au cœur de l'hiver dès la fin du Moyen Âge. Une première mention d'un sapin dans la ville alsacienne de Sélestat date de 1521. La coutume s'est ensuite répandue en France, puis dans le monde entier."
+    ],
+    [
+      "Que mange-t-on à Noël en France ?",
+      "Cela varie selon les régions : foie gras, saumon fumé, huîtres, chapon ou dinde aux marrons composent souvent le repas du réveillon, suivi de la bûche. En Provence, on sert treize desserts, en Alsace des bredele, et dans le Nord, des spécialités locales comme la coquille de Noël."
+    ],
+    [
+      "Ce quiz est-il adapté aux enfants ?",
+      "Oui, les premières questions sont très accessibles, et les explications permettent aux plus petits de découvrir l'histoire de Noël. Les dernières questions sont plus pointues et amuseront les adultes. C'est un bon moyen de jouer en famille pendant l'Avent ou le soir du réveillon."
+    ]
+  ],
+  "related": [
+    "/quiz-cuisine",
+    "/quiz-chanson-francaise",
+    "/quiz-culture-generale-facile",
+    "/quiz-regions-de-france"
+  ]
+}

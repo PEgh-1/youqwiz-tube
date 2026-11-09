@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-geographie",
+  "theme": "geographie",
+  "title": "Quiz géographie du monde : 20 questions",
+  "description": "Quiz géographie du monde : fleuves, montagnes, pays et océans en 20 questions de culture générale. Du niveau facile à expert, joue gratuitement !",
+  "h1": "Quiz géographie : que sais-tu vraiment de la planète ?",
+  "intro": "Océans, fleuves, déserts, montagnes et pays : ce quiz de géographie du monde te propose 20 questions pour faire le tour de la planète en quelques minutes. Les premières questions portent sur les grands repères que l'on apprend à l'école, comme le plus haut sommet ou le plus grand océan. Ensuite, les choses se compliquent avec des fleuves européens, des détroits célèbres et quelques pièges classiques. Les quatre dernières questions s'adressent aux vrais passionnés. Compte environ cinq secondes pour répondre et lis l'explication de chaque réponse pour glaner un fait que tu pourras resservir. Prends ton atlas mental et lance-toi !",
+  "questions": [
+    {
+      "q": "Quel est le plus grand océan du monde ?",
+      "choices": [
+        "L'océan Atlantique",
+        "L'océan Pacifique",
+        "L'océan Indien",
+        "L'océan Arctique"
+      ],
+      "answer": 1,
+      "explication": "Le Pacifique couvre environ un tiers de la surface du globe.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus haut sommet du monde ?",
+      "choices": [
+        "Le K2",
+        "Le mont Blanc",
+        "Le Kilimandjaro",
+        "L'Everest"
+      ],
+      "answer": 3,
+      "explication": "Situé dans l'Himalaya, à la frontière entre le Népal et le Tibet, l'Everest dépasse 8 800 mètres.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fleuve traverse Le Caire ?",
+      "choices": [
+        "Le Nil",
+        "Le Congo",
+        "Le Niger",
+        "Le Zambèze"
+      ],
+      "answer": 0,
+      "explication": "Le Nil est l'un des plus longs fleuves du monde et irrigue toute l'Égypte.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus grand désert chaud du monde ?",
+      "choices": [
+        "Le Gobi",
+        "Le Kalahari",
+        "Le Sahara",
+        "L'Atacama"
+      ],
+      "answer": 2,
+      "explication": "Le Sahara couvre une grande partie du nord de l'Afrique.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus grand pays du monde par sa superficie ?",
+      "choices": [
+        "Le Canada",
+        "La Chine",
+        "La Russie",
+        "Les États-Unis"
+      ],
+      "answer": 2,
+      "explication": "La Russie s'étend sur deux continents, l'Europe et l'Asie.",
+      "level": "facile"
+    },
+    {
+      "q": "Sur quel continent se trouve le Brésil ?",
+      "choices": [
+        "L'Amérique du Sud",
+        "L'Afrique",
+        "L'Amérique du Nord",
+        "L'Asie"
+      ],
+      "answer": 0,
+      "explication": "Le Brésil occupe à lui seul près de la moitié du continent sud-américain.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle mer sépare l'Europe de l'Afrique ?",
+      "choices": [
+        "La mer Rouge",
+        "La mer du Nord",
+        "La mer Noire",
+        "La Méditerranée"
+      ],
+      "answer": 3,
+      "explication": "La Méditerranée est bordée par plus de vingt pays.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays a la forme d'une botte ?",
+      "choices": [
+        "L'Espagne",
+        "L'Italie",
+        "La Grèce",
+        "Le Portugal"
+      ],
+      "answer": 1,
+      "explication": "La péninsule italienne est souvent comparée à une botte.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+      "choices": [
+        "Les Pyrénées",
+        "Les Alpes",
+        "Les Vosges",
+        "Les Carpates"
+      ],
+      "answer": 0,
+      "explication": "Les Pyrénées s'étendent sur environ 430 kilomètres, de l'Atlantique à la Méditerranée.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel fleuve traverse Vienne, Budapest et Belgrade ?",
+      "choices": [
+        "Le Rhin",
+        "L'Elbe",
+        "Le Danube",
+        "La Vistule"
+      ],
+      "answer": 2,
+      "explication": "Le Danube traverse ou longe dix pays, plus que tout autre fleuve du monde.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel détroit sépare l'Espagne du Maroc ?",
+      "choices": [
+        "Le détroit du Bosphore",
+        "Le détroit de Gibraltar",
+        "Le détroit de Magellan",
+        "Le détroit de Messine"
+      ],
+      "answer": 1,
+      "explication": "Il relie la Méditerranée à l'océan Atlantique et ne fait qu'une quinzaine de kilomètres de large.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le plus haut sommet d'Afrique ?",
+      "choices": [
+        "Le mont Kenya",
+        "Le mont Cameroun",
+        "Le mont Stanley",
+        "Le Kilimandjaro"
+      ],
+      "answer": 3,
+      "explication": "Ce volcan se situe en Tanzanie et culmine à environ 5 900 mètres.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le plus petit pays du monde ?",
+      "choices": [
+        "Monaco",
+        "Saint-Marin",
+        "Le Liechtenstein",
+        "Le Vatican"
+      ],
+      "answer": 3,
+      "explication": "Le Vatican est enclavé dans Rome et fait moins d'un demi-kilomètre carré.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel grand désert se trouve en Mongolie et en Chine ?",
+      "choices": [
+        "Le Sahara",
+        "Le Gobi",
+        "Le Namib",
+        "Le Thar"
+      ],
+      "answer": 1,
+      "explication": "Le Gobi est un désert froid de l'Asie centrale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel océan borde l'est de l'Afrique ?",
+      "choices": [
+        "L'océan Atlantique",
+        "L'océan Pacifique",
+        "L'océan Indien",
+        "L'océan Arctique"
+      ],
+      "answer": 2,
+      "explication": "Madagascar, La Réunion et les Comores s'y trouvent.",
+      "level": "moyen"
+    },
+    {
+      "q": "Lequel de ces pays n'a pas de côte maritime ?",
+      "choices": [
+        "La Hongrie",
+        "La Grèce",
+        "Le Portugal",
+        "L'Espagne"
+      ],
+      "answer": 0,
+      "explication": "La Hongrie est entourée de sept pays et n'a aucun accès à la mer.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la fosse océanique la plus profonde connue ?",
+      "choices": [
+        "La fosse des Philippines",
+        "La fosse des Mariannes",
+        "La fosse de Porto Rico",
+        "La fosse de Java"
+      ],
+      "answer": 1,
+      "explication": "Située dans le Pacifique, elle dépasse 10 000 mètres de profondeur.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le plus long fleuve d'Europe ?",
+      "choices": [
+        "Le Danube",
+        "Le Rhin",
+        "La Volga",
+        "La Loire"
+      ],
+      "answer": 2,
+      "explication": "La Volga coule entièrement en Russie et se jette dans la mer Caspienne.",
+      "level": "expert"
+    },
+    {
+      "q": "Dans quel pays se trouve le lac Baïkal, le plus profond du monde ?",
+      "choices": [
+        "La Russie",
+        "La Chine",
+        "Le Kazakhstan",
+        "La Mongolie"
+      ],
+      "answer": 0,
+      "explication": "Situé en Sibérie, le Baïkal contient environ un cinquième de l'eau douce liquide de la planète.",
+      "level": "expert"
+    },
+    {
+      "q": "Dans quel pays se trouve l'Aconcagua, plus haut sommet d'Amérique ?",
+      "choices": [
+        "Le Chili",
+        "Le Pérou",
+        "La Bolivie",
+        "L'Argentine"
+      ],
+      "answer": 3,
+      "explication": "Il culmine à près de 6 960 mètres dans la cordillère des Andes.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le plus long fleuve du monde ?",
+      "Le débat oppose le Nil et l'Amazone, avec des longueurs proches de 6 500 kilomètres selon la façon de mesurer la source et l'embouchure. Selon les sources et les méthodes, on cite l'un ou l'autre. Dans tous les cas, ces deux fleuves surpassent largement tous les autres cours d'eau de la planète."
+    ],
+    [
+      "Combien y a-t-il de continents ?",
+      "Le découpage dépend des conventions. En France, on enseigne généralement cinq continents : Afrique, Amérique, Asie, Europe et Océanie, auxquels on ajoute parfois l'Antarctique. D’autres pays, notamment anglophones, séparent l’Amérique du Nord et l’Amérique du Sud, ce qui donne sept continents au total."
+    ],
+    [
+      "Comment progresser en géographie ?",
+      "Utilise des cartes muettes et complète-les de mémoire, continent par continent. Retiens les grands repères (océans, fleuves, chaînes de montagnes) avant de passer aux détails, puis associe chaque lieu à une anecdote. Les quiz réguliers permettent de vérifier ce qui est réellement acquis et d'identifier les points faibles."
+    ]
+  ],
+  "related": [
+    "/quiz-capitales",
+    "/quiz-drapeaux",
+    "/quiz-geographie-france",
+    "/quiz-regions-de-france"
+  ]
+}

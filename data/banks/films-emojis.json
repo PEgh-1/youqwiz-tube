@@ -1,0 +1,1099 @@
+{
+  "question": "Quel FILM se cache derrière ces émojis ? 🎬",
+  "hook": "Devine {n} FILMS en ÉMOJIS",
+  "emoji": "🎬🍿🧩",
+  "slug": "films-emojis",
+  "noun": "FILMS en ÉMOJIS",
+  "timing": {
+    "question": 5,
+    "reveal": 2
+  },
+  "tags": [
+    "films",
+    "cinéma",
+    "films en émojis"
+  ],
+  "items": [
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦈🏖️"
+      },
+      "answer": "Les Dents de la mer",
+      "level": "facile",
+      "rank": 3
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚢🧊"
+      },
+      "answer": "Titanic",
+      "level": "facile",
+      "rank": 1
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦖🏝️"
+      },
+      "answer": "Jurassic Park",
+      "level": "facile",
+      "rank": 2
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚗⏰"
+      },
+      "answer": "Retour vers le futur",
+      "level": "facile",
+      "rank": 8
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👽📞🏠"
+      },
+      "answer": "E.T. l'extraterrestre",
+      "level": "facile",
+      "rank": 9
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏰⏳🤢"
+      },
+      "answer": "Les Visiteurs",
+      "level": "facile",
+      "rank": 7
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👋🏠❄️✉️"
+      },
+      "answer": "Bienvenue chez les Ch'tis",
+      "level": "facile",
+      "rank": 5
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦽🤝"
+      },
+      "answer": "Intouchables",
+      "level": "facile",
+      "rank": 6
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪂🥖🇫🇷"
+      },
+      "answer": "La Grande Vadrouille",
+      "level": "facile",
+      "rank": 14
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚕💨"
+      },
+      "answer": "Taxi",
+      "level": "facile",
+      "rank": 11
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎅🗑️"
+      },
+      "answer": "Le Père Noël est une ordure",
+      "level": "facile",
+      "rank": 15
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💍🧙🌋"
+      },
+      "answer": "Le Seigneur des anneaux",
+      "level": "facile",
+      "rank": 10
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⚔️🏟️"
+      },
+      "answer": "Gladiator",
+      "level": "facile",
+      "rank": 12
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🕶️💊"
+      },
+      "answer": "Matrix",
+      "level": "facile",
+      "rank": 13
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔵🌿🐉"
+      },
+      "answer": "Avatar",
+      "level": "facile",
+      "rank": 4
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏝️🏐"
+      },
+      "answer": "Seul au monde",
+      "level": "facile",
+      "rank": 28
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐦😱"
+      },
+      "answer": "Les Oiseaux",
+      "level": "facile",
+      "rank": 34
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪐🐒"
+      },
+      "answer": "La Planète des singes",
+      "level": "facile",
+      "rank": 27
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🆘👻"
+      },
+      "answer": "SOS Fantômes",
+      "level": "facile",
+      "rank": 18
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⛺🏕️"
+      },
+      "answer": "Camping",
+      "level": "facile",
+      "rank": 22
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐔🏃"
+      },
+      "answer": "Chicken Run",
+      "level": "facile",
+      "rank": 29
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧊🦣"
+      },
+      "answer": "L'Âge de glace",
+      "level": "facile",
+      "rank": 16
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎲🦁🌴"
+      },
+      "answer": "Jumanji",
+      "level": "facile",
+      "rank": 17
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "☄️🌍💥"
+      },
+      "answer": "Armageddon",
+      "level": "facile",
+      "rank": 25
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌪️🚗"
+      },
+      "answer": "Twister",
+      "level": "facile",
+      "rank": 30
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💃🕺"
+      },
+      "answer": "Dirty Dancing",
+      "level": "facile",
+      "rank": 23
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👩‍👧🎶"
+      },
+      "answer": "Mamma Mia",
+      "level": "facile",
+      "rank": 24
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌙🚀"
+      },
+      "answer": "Le Voyage dans la Lune",
+      "level": "facile",
+      "rank": 36
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎈🌍📅"
+      },
+      "answer": "Le Tour du monde en 80 jours",
+      "level": "facile",
+      "rank": 35
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐧🧊🚶"
+      },
+      "answer": "La Marche de l'empereur",
+      "level": "facile",
+      "rank": 31
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏝️☀️😎"
+      },
+      "answer": "Les Bronzés",
+      "level": "facile",
+      "rank": 21
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚗🐕"
+      },
+      "answer": "Le Corniaud",
+      "level": "facile",
+      "rank": 32
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👽🚀😱"
+      },
+      "answer": "Alien",
+      "level": "facile",
+      "rank": 20
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤖🔙"
+      },
+      "answer": "Terminator",
+      "level": "facile",
+      "rank": 19
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🛸🎆🇺🇸"
+      },
+      "answer": "Independence Day",
+      "level": "facile",
+      "rank": 26
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌪️👠🧙"
+      },
+      "answer": "Le Magicien d'Oz",
+      "level": "facile",
+      "rank": 33
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍽️🤪"
+      },
+      "answer": "Le Dîner de cons",
+      "level": "moyen",
+      "rank": 37
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤵🍝💍"
+      },
+      "answer": "Le Parrain",
+      "level": "moyen",
+      "rank": 40
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👮🌴"
+      },
+      "answer": "Le Gendarme de Saint-Tropez",
+      "level": "moyen",
+      "rank": 45
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⚔️🔘"
+      },
+      "answer": "La Guerre des boutons",
+      "level": "moyen",
+      "rank": 67
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔵🤿🐬"
+      },
+      "answer": "Le Grand Bleu",
+      "level": "moyen",
+      "rank": 44
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏙️😱"
+      },
+      "answer": "La Cité de la peur",
+      "level": "moyen",
+      "rank": 54
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⚔️⚔️⚔️🪶"
+      },
+      "answer": "Les Trois Mousquetaires",
+      "level": "moyen",
+      "rank": 66
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤠🔫🏜️"
+      },
+      "answer": "Les Sept Mercenaires",
+      "level": "moyen",
+      "rank": 70
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐺🤝"
+      },
+      "answer": "Le Pacte des loups",
+      "level": "moyen",
+      "rank": 68
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🖐️🌍🔥💧"
+      },
+      "answer": "Le Cinquième Élément",
+      "level": "moyen",
+      "rank": 47
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌌🚀⏳"
+      },
+      "answer": "Interstellar",
+      "level": "moyen",
+      "rank": 43
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💭🌀🛌"
+      },
+      "answer": "Inception",
+      "level": "moyen",
+      "rank": 42
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤫🐑"
+      },
+      "answer": "Le Silence des agneaux",
+      "level": "moyen",
+      "rank": 51
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "✨🏔️"
+      },
+      "answer": "Shining",
+      "level": "moyen",
+      "rank": 52
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚢🪖🏖️"
+      },
+      "answer": "Dunkerque",
+      "level": "moyen",
+      "rank": 64
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🛃🇫🇷🇧🇪"
+      },
+      "answer": "Rien à déclarer",
+      "level": "moyen",
+      "rank": 58
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👶🤧"
+      },
+      "answer": "Les Petits Mouchoirs",
+      "level": "moyen",
+      "rank": 59
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥬🍲👽"
+      },
+      "answer": "La Soupe aux choux",
+      "level": "moyen",
+      "rank": 63
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👩‍🏫📚"
+      },
+      "answer": "Les Profs",
+      "level": "moyen",
+      "rank": 56
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👨👩❓"
+      },
+      "answer": "Papa ou maman",
+      "level": "moyen",
+      "rank": 57
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏹🏙️"
+      },
+      "answer": "Un Indien dans la ville",
+      "level": "moyen",
+      "rank": 55
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏠🇪🇸"
+      },
+      "answer": "L'Auberge espagnole",
+      "level": "moyen",
+      "rank": 60
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "✈️🔝"
+      },
+      "answer": "Top Gun",
+      "level": "moyen",
+      "rank": 38
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏢💎"
+      },
+      "answer": "Piège de cristal",
+      "level": "moyen",
+      "rank": 50
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌨️🗽"
+      },
+      "answer": "Le Jour d'après",
+      "level": "moyen",
+      "rank": 65
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌋🔥"
+      },
+      "answer": "Volcano",
+      "level": "moyen",
+      "rank": 69
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👠👩"
+      },
+      "answer": "Pretty Woman",
+      "level": "moyen",
+      "rank": 39
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🛵🎶"
+      },
+      "answer": "Grease",
+      "level": "moyen",
+      "rank": 41
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🕺🌟🎶"
+      },
+      "answer": "La Fièvre du samedi soir",
+      "level": "moyen",
+      "rank": 62
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎭💚"
+      },
+      "answer": "Le Mask",
+      "level": "moyen",
+      "rank": 48
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "☀️🔁⏰"
+      },
+      "answer": "Un jour sans fin",
+      "level": "moyen",
+      "rank": 61
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⚙️🏭"
+      },
+      "answer": "Les Temps modernes",
+      "level": "moyen",
+      "rank": 71
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎈🔴"
+      },
+      "answer": "Le Ballon rouge",
+      "level": "moyen",
+      "rank": 72
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👨👨👨👶"
+      },
+      "answer": "Trois hommes et un couffin",
+      "level": "moyen",
+      "rank": 53
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎶🧒🏫"
+      },
+      "answer": "Les Choristes",
+      "level": "moyen",
+      "rank": 46
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚌💨💣"
+      },
+      "answer": "Speed",
+      "level": "moyen",
+      "rank": 49
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👴🔫🍷"
+      },
+      "answer": "Les Tontons flingueurs",
+      "level": "difficile",
+      "rank": 78
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "😇👹🤠"
+      },
+      "answer": "Le Bon, la Brute et le Truand",
+      "level": "difficile",
+      "rank": 79
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤠🌵⏳"
+      },
+      "answer": "Il était une fois dans l'Ouest",
+      "level": "difficile",
+      "rank": 84
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "☂️🚢"
+      },
+      "answer": "Les Parapluies de Cherbourg",
+      "level": "difficile",
+      "rank": 94
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "📜⭕👻"
+      },
+      "answer": "Le Cercle des poètes disparus",
+      "level": "difficile",
+      "rank": 82
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐐🌎"
+      },
+      "answer": "La Chèvre",
+      "level": "difficile",
+      "rank": 80
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👱👞⚫"
+      },
+      "answer": "Un grand blond avec une chaussure noire",
+      "level": "difficile",
+      "rank": 86
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎿😎"
+      },
+      "answer": "Les Bronzés font du ski",
+      "level": "difficile",
+      "rank": 76
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤪👑"
+      },
+      "answer": "La Folie des grandeurs",
+      "level": "difficile",
+      "rank": 87
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥾🎒"
+      },
+      "answer": "Les Randonneurs",
+      "level": "difficile",
+      "rank": 89
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌍⬇️🦖"
+      },
+      "answer": "Voyage au centre de la Terre",
+      "level": "difficile",
+      "rank": 90
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏝️💰🗺️"
+      },
+      "answer": "L'Île au trésor",
+      "level": "difficile",
+      "rank": 91
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏰🚶🧙"
+      },
+      "answer": "Le Château ambulant",
+      "level": "difficile",
+      "rank": 83
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦁🌴🇲🇬"
+      },
+      "answer": "Madagascar",
+      "level": "difficile",
+      "rank": 73
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧝⛰️🐉"
+      },
+      "answer": "Le Hobbit",
+      "level": "difficile",
+      "rank": 74
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐦🪺✈️"
+      },
+      "answer": "Vol au-dessus d'un nid de coucou",
+      "level": "difficile",
+      "rank": 92
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌉🌊"
+      },
+      "answer": "Le Pont de la rivière Kwaï",
+      "level": "difficile",
+      "rank": 93
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⛏️💰"
+      },
+      "answer": "La Ruée vers l'or",
+      "level": "difficile",
+      "rank": 99
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏙️🤖"
+      },
+      "answer": "Metropolis",
+      "level": "difficile",
+      "rank": 102
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💰😱🚚"
+      },
+      "answer": "Le Salaire de la peur",
+      "level": "difficile",
+      "rank": 101
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪽🍗"
+      },
+      "answer": "L'Aile ou la Cuisse",
+      "level": "difficile",
+      "rank": 88
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌊🐋"
+      },
+      "answer": "Océans",
+      "level": "difficile",
+      "rank": 95
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤥🤷"
+      },
+      "answer": "La Vérité si je mens",
+      "level": "difficile",
+      "rank": 77
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🕴️⚫👽"
+      },
+      "answer": "Men in Black",
+      "level": "difficile",
+      "rank": 75
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🗡️🇯🇵"
+      },
+      "answer": "Le Dernier Samouraï",
+      "level": "difficile",
+      "rank": 85
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐛🔬"
+      },
+      "answer": "Microcosmos",
+      "level": "difficile",
+      "rank": 96
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦆🌍"
+      },
+      "answer": "Le Peuple migrateur",
+      "level": "difficile",
+      "rank": 97
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👵🚲🏙️"
+      },
+      "answer": "Les Triplettes de Belleville",
+      "level": "difficile",
+      "rank": 98
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔒🕳️"
+      },
+      "answer": "Les Évadés",
+      "level": "difficile",
+      "rank": 81
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏃💨"
+      },
+      "answer": "À bout de souffle",
+      "level": "difficile",
+      "rank": 100
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "📛"
+      },
+      "answer": "Le Prénom",
+      "level": "impossible",
+      "rank": 104
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👊👊👊👊"
+      },
+      "answer": "Les Quatre Cents Coups",
+      "level": "impossible",
+      "rank": 109
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "😒"
+      },
+      "answer": "Le Mépris",
+      "level": "impossible",
+      "rank": 110
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚇🔚"
+      },
+      "answer": "Le Dernier Métro",
+      "level": "impossible",
+      "rank": 108
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "😡🏙️"
+      },
+      "answer": "La Haine",
+      "level": "impossible",
+      "rank": 103
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚇🎸"
+      },
+      "answer": "Subway",
+      "level": "impossible",
+      "rank": 106
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪄🏰"
+      },
+      "answer": "La Grande Illusion",
+      "level": "impossible",
+      "rank": 111
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👶☁️🎭"
+      },
+      "answer": "Les Enfants du paradis",
+      "level": "impossible",
+      "rank": 112
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⭕🔴"
+      },
+      "answer": "Le Cercle rouge",
+      "level": "impossible",
+      "rank": 113
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌍👌"
+      },
+      "answer": "Un monde parfait",
+      "level": "impossible",
+      "rank": 107
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤫🎩"
+      },
+      "answer": "Le Charme discret de la bourgeoisie",
+      "level": "impossible",
+      "rank": 119
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "📏🎲"
+      },
+      "answer": "La Règle du jeu",
+      "level": "impossible",
+      "rank": 118
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👀🚫🙂"
+      },
+      "answer": "Les Yeux sans visage",
+      "level": "impossible",
+      "rank": 120
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥷"
+      },
+      "answer": "Le Samouraï",
+      "level": "impossible",
+      "rank": 114
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏃‍♂️🔍"
+      },
+      "answer": "Le Fugitif",
+      "level": "impossible",
+      "rank": 105
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌙🏰"
+      },
+      "answer": "Les Visiteurs du soir",
+      "level": "impossible",
+      "rank": 117
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚲🦹"
+      },
+      "answer": "Le Voleur de bicyclette",
+      "level": "impossible",
+      "rank": 116
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💡🏙️"
+      },
+      "answer": "Les Lumières de la ville",
+      "level": "impossible",
+      "rank": 115
+    }
+  ],
+  "rankNote": "Classement éditorial par notoriété en France à l'intérieur de chaque niveau (1 = le plus connu), 08/11/2026."
+}

@@ -1,0 +1,269 @@
+{
+  "path": "/quiz-langue-francaise",
+  "theme": "langue",
+  "title": "Quiz langue française : grammaire et conjugaison",
+  "description": "Quiz langue française gratuit : 20 questions sur la grammaire, la conjugaison et l'étymologie. Teste ta maîtrise du français en 5 secondes par question !",
+  "h1": "Quiz langue française : es-tu fort en grammaire et conjugaison ?",
+  "intro": "Du pluriel de cheval au passé antérieur, la langue française cache bien des subtilités. Ce quiz de 20 questions couvre la grammaire, la conjugaison, les figures de style et même l'origine de quelques mots. Tu as 5 secondes par question pour choisir parmi quatre réponses. Les huit premières questions sont à la portée de tous, les huit suivantes font appel à tes souvenirs d'école, et les quatre dernières sont réservées aux passionnés de grammaire. Après chaque réponse, une courte explication te permet d'apprendre quelque chose. Alors, révise tes classiques et montre que tu maîtrises la langue de Molière !",
+  "questions": [
+    {
+      "q": "Quel est le pluriel de « cheval » ?",
+      "choices": [
+        "chevals",
+        "chevaux",
+        "chevaus",
+        "chevalx"
+      ],
+      "answer": 1,
+      "explication": "Les noms en -al font généralement leur pluriel en -aux : un cheval, des chevaux.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le féminin de « acteur » ?",
+      "choices": [
+        "acteuse",
+        "acteure",
+        "actrise",
+        "actrice"
+      ],
+      "answer": 3,
+      "explication": "Acteur fait actrice, comme directeur fait directrice : les noms en -teur ont souvent un féminin en -trice.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment conjugue-t-on « finir » à la 1re personne du pluriel du présent ?",
+      "choices": [
+        "nous finissons",
+        "nous finons",
+        "nous finissions",
+        "nous finirons"
+      ],
+      "answer": 0,
+      "explication": "Finir est un verbe du 2e groupe : il intercale -iss- aux formes du pluriel. Nous finissons est au présent, nous finissions à l'imparfait.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la nature du mot « rapidement » ?",
+      "choices": [
+        "adjectif",
+        "nom",
+        "adverbe",
+        "verbe"
+      ],
+      "answer": 2,
+      "explication": "Les mots en -ment formés sur un adjectif sont le plus souvent des adverbes, donc invariables.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien y a-t-il de groupes de verbes en français ?",
+      "choices": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "explication": "Le 1er groupe (en -er), le 2e groupe (en -ir comme finir) et le 3e groupe (tous les autres verbes).",
+      "level": "facile"
+    },
+    {
+      "q": "Quel auxiliaire utilise-t-on pour conjuguer « aller » au passé composé ?",
+      "choices": [
+        "avoir",
+        "être",
+        "aller",
+        "faire"
+      ],
+      "answer": 1,
+      "explication": "On dit « je suis allé », car aller fait partie des verbes de mouvement conjugués avec l'auxiliaire être.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le pluriel de « journal » ?",
+      "choices": [
+        "journals",
+        "journaus",
+        "journaux",
+        "journalx"
+      ],
+      "answer": 2,
+      "explication": "Comme cheval ou animal, journal fait son pluriel en -aux.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment écrit-on « avoir » à la 1re personne du singulier du futur ?",
+      "choices": [
+        "j'aurai",
+        "j'aurais",
+        "j'avrai",
+        "j'ai eu"
+      ],
+      "answer": 0,
+      "explication": "Au futur, avoir devient j'aurai avec la terminaison -ai. « J'aurais » est le conditionnel présent.",
+      "level": "facile"
+    },
+    {
+      "q": "Le mot « salaire » vient du latin « salarium », lié à quelle matière ?",
+      "choices": [
+        "le soleil",
+        "le sol",
+        "le sel",
+        "le sang"
+      ],
+      "answer": 2,
+      "explication": "Salarium dérive du latin « sal », le sel : il désignait une somme versée aux soldats romains, peut-être pour acheter du sel. D'où le mot « salaire ».",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la forme correcte du subjonctif présent d'« être » à la 3e personne du singulier ?",
+      "choices": [
+        "qu'il soit",
+        "qu'il est",
+        "qu'il sois",
+        "qu'il serait"
+      ],
+      "answer": 0,
+      "explication": "On dit « il faut qu'il soit à l'heure ». Soit s'écrit sans « s » à la 3e personne du singulier.",
+      "level": "moyen"
+    },
+    {
+      "q": "De quelle langue vient le mot « algèbre » ?",
+      "choices": [
+        "le grec",
+        "le latin",
+        "le turc",
+        "l'arabe"
+      ],
+      "answer": 3,
+      "explication": "Algèbre vient de l'arabe « al-jabr », titre d'un ouvrage de mathématiques du IXe siècle.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la forme du passé simple de « il vient » ?",
+      "choices": [
+        "il venit",
+        "il vint",
+        "il vienta",
+        "il vient"
+      ],
+      "answer": 1,
+      "explication": "Venir est un verbe du 3e groupe : au passé simple, il vint, ils vinrent.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le pluriel de « œil » dans son sens courant ?",
+      "choices": [
+        "yeux",
+        "œils",
+        "oeux",
+        "yeuxs"
+      ],
+      "answer": 0,
+      "explication": "Œil a un pluriel irrégulier : des yeux. On parle d'« œils-de-bœuf » pour les petites fenêtres rondes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans « Cet homme est un lion », quelle est la figure de style ?",
+      "choices": [
+        "une comparaison",
+        "une antithèse",
+        "une métaphore",
+        "une litote"
+      ],
+      "answer": 2,
+      "explication": "Une métaphore identifie deux réalités sans outil de comparaison. Avec « comme », ce serait une comparaison.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans « Marie mange une pomme », quelle est la fonction de « une pomme » ?",
+      "choices": [
+        "sujet",
+        "complément d'objet direct",
+        "complément d'objet indirect",
+        "attribut du sujet"
+      ],
+      "answer": 1,
+      "explication": "On répond à la question « Marie mange quoi ? » : une pomme est COD, car il n'y a pas de préposition.",
+      "level": "moyen"
+    },
+    {
+      "q": "Le mot « bureau » désignait d'abord…",
+      "choices": [
+        "un arbre",
+        "une pièce",
+        "un outil",
+        "une étoffe"
+      ],
+      "answer": 3,
+      "explication": "Le mot vient de « bure », une grosse étoffe de laine. Elle recouvrait la table de travail, qui a pris le nom de bureau.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la forme de l'impératif de « avoir » à la 2e personne du singulier ?",
+      "choices": [
+        "aies",
+        "aie",
+        "ait",
+        "as"
+      ],
+      "answer": 1,
+      "explication": "L'impératif d'avoir est irrégulier : aie, ayons, ayez. Il vient du subjonctif et perd son « s » final.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la forme du subjonctif imparfait de « tenir » à la 3e personne du singulier ?",
+      "choices": [
+        "qu'il tint",
+        "qu'il tienne",
+        "qu'il tenait",
+        "qu'il tînt"
+      ],
+      "answer": 3,
+      "explication": "Le subjonctif imparfait de tenir est qu'il tînt, avec un accent circonflexe sur le « î ».",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la nature de « que » dans « Je pense que tu as raison » ?",
+      "choices": [
+        "conjonction de subordination",
+        "pronom relatif",
+        "adverbe",
+        "préposition"
+      ],
+      "answer": 0,
+      "explication": "Ici « que » introduit une proposition complétive après « penser ». Il ne remplace aucun nom, ce n'est donc pas un pronom relatif.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel temps est « il eut chanté » ?",
+      "choices": [
+        "le plus-que-parfait",
+        "le passé composé",
+        "le passé antérieur",
+        "le futur antérieur"
+      ],
+      "answer": 2,
+      "explication": "Le passé antérieur associe l'auxiliaire au passé simple (« eut ») et le participe passé. Il s'emploie surtout en littérature.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Comment réviser la conjugaison facilement ?",
+      "Commence par les auxiliaires être et avoir, puis les verbes en -er, qui sont les plus nombreux. Récite les temps à voix haute et écris des phrases courtes. Regroupe les verbes irréguliers par familles : tenir et venir, par exemple, se conjuguent de façon semblable."
+    ],
+    [
+      "Pourquoi dit-on que le français a trois groupes de verbes ?",
+      "Cette classification scolaire regroupe les verbes selon leur terminaison à l'infinitif et leur conjugaison. Le 1er groupe compte les verbes en -er, le 2e les verbes en -ir qui font -issons, et le 3e tous les autres. Elle sert à apprendre les conjugaisons par modèles."
+    ],
+    [
+      "À quoi sert l'étymologie ?",
+      "Elle étudie l'origine des mots et permet de comprendre leur sens et leur orthographe. Connaître le latin ou le grec aide à deviner des mots nouveaux : « salaire » renvoie au sel, « algèbre » à l'arabe. C'est aussi un excellent moyen de retenir le vocabulaire."
+    ]
+  ],
+  "related": [
+    "/quiz-orthographe",
+    "/quiz-vocabulaire",
+    "/quiz-culture-generale-facile"
+  ]
+}

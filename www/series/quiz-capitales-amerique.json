@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-capitales-amerique",
+  "theme": "geographie",
+  "title": "Quiz capitales d'Amérique : 20 questions",
+  "description": "Quiz capitales d'Amérique : 20 questions sur les capitales d'Amérique latine et des Caraïbes, de Mexico à Nassau. Joue gratuitement !",
+  "h1": "Quiz capitales d'Amérique : connais-tu les capitales américaines ?",
+  "intro": "Mexico, Lima, Bogota, Montevideo : connais-tu les capitales d'Amérique latine et des Caraïbes ? Ce quiz de 20 questions te fait voyager du Mexique à l'Argentine, avec une escale en Amérique centrale et dans les îles. On commence par des capitales très connues, puis la difficulté monte jusqu'à des villes plus rares comme Georgetown, Paramaribo ou Nassau. Les mauvaises réponses sont souvent d'autres grandes villes du même pays, alors fais attention. Compte environ cinq secondes par question et lis chaque explication pour retenir une anecdote. Rejoue autant que tu veux.",
+  "questions": [
+    {
+      "q": "Quelle est la capitale du Mexique ?",
+      "choices": [
+        "Guadalajara",
+        "Mexico",
+        "Monterrey",
+        "Puebla"
+      ],
+      "answer": 1,
+      "explication": "Mexico est bâtie sur l'ancienne cité aztèque de Tenochtitlan.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Argentine ?",
+      "choices": [
+        "Córdoba",
+        "Rosario",
+        "Mendoza",
+        "Buenos Aires"
+      ],
+      "answer": 3,
+      "explication": "Buenos Aires est située sur le Río de la Plata.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Pérou ?",
+      "choices": [
+        "Lima",
+        "Cusco",
+        "Arequipa",
+        "Trujillo"
+      ],
+      "answer": 0,
+      "explication": "Cusco fut la capitale de l'Empire inca, mais Lima est la capitale du Pérou.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Chili ?",
+      "choices": [
+        "Valparaíso",
+        "Concepción",
+        "Santiago",
+        "Antofagasta"
+      ],
+      "answer": 2,
+      "explication": "Valparaíso accueille le Parlement, mais la capitale est Santiago.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Colombie ?",
+      "choices": [
+        "Medellín",
+        "Cali",
+        "Carthagène",
+        "Bogota"
+      ],
+      "answer": 3,
+      "explication": "Bogota se situe sur un haut plateau des Andes, à environ 2 600 mètres d'altitude.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de Cuba ?",
+      "choices": [
+        "Santiago de Cuba",
+        "La Havane",
+        "Varadero",
+        "Camagüey"
+      ],
+      "answer": 1,
+      "explication": "La Havane est la capitale de Cuba, sur la côte nord de l'île.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Venezuela ?",
+      "choices": [
+        "Maracaibo",
+        "Valencia",
+        "Caracas",
+        "Barquisimeto"
+      ],
+      "answer": 2,
+      "explication": "Caracas est dans une vallée proche de la mer des Caraïbes.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Uruguay ?",
+      "choices": [
+        "Montevideo",
+        "Punta del Este",
+        "Salto",
+        "Colonia del Sacramento"
+      ],
+      "answer": 0,
+      "explication": "Montevideo est la capitale de l'Uruguay, sur le Río de la Plata.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Paraguay ?",
+      "choices": [
+        "Asunción",
+        "Ciudad del Este",
+        "Encarnación",
+        "Luque"
+      ],
+      "answer": 0,
+      "explication": "Asunción se trouve sur le fleuve Paraguay.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Panama ?",
+      "choices": [
+        "Colón",
+        "David",
+        "Panama",
+        "Balboa"
+      ],
+      "answer": 2,
+      "explication": "La capitale porte le même nom que le pays ; Colón est le port de l'Atlantique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Costa Rica ?",
+      "choices": [
+        "Cartago",
+        "San José",
+        "Limón",
+        "Alajuela"
+      ],
+      "answer": 1,
+      "explication": "Cartago fut la capitale coloniale avant San José.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Honduras ?",
+      "choices": [
+        "San Pedro Sula",
+        "La Ceiba",
+        "Comayagua",
+        "Tegucigalpa"
+      ],
+      "answer": 3,
+      "explication": "San Pedro Sula est le centre économique, tandis que Comayagua fut l'ancienne capitale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Nicaragua ?",
+      "choices": [
+        "León",
+        "Granada",
+        "Managua",
+        "Masaya"
+      ],
+      "answer": 2,
+      "explication": "Managua est située sur la rive sud du lac Managua.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale d'Haïti ?",
+      "choices": [
+        "Port-au-Prince",
+        "Cap-Haïtien",
+        "Jacmel",
+        "Les Cayes"
+      ],
+      "answer": 0,
+      "explication": "Port-au-Prince est au fond d'une grande baie de la côte ouest.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la République dominicaine ?",
+      "choices": [
+        "Santiago de los Caballeros",
+        "Puerto Plata",
+        "La Romana",
+        "Saint-Domingue"
+      ],
+      "answer": 3,
+      "explication": "Saint-Domingue, fondée à la fin du XVe siècle, est la plus ancienne ville d'origine européenne encore habitée des Amériques.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Salvador ?",
+      "choices": [
+        "Santa Ana",
+        "San Salvador",
+        "San Miguel",
+        "Soyapango"
+      ],
+      "answer": 1,
+      "explication": "San Salvador est la capitale du Salvador, au pied d'un volcan.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Guyana ?",
+      "choices": [
+        "New Amsterdam",
+        "Georgetown",
+        "Linden",
+        "Bartica"
+      ],
+      "answer": 1,
+      "explication": "Georgetown est la capitale du Guyana, à l'embouchure du fleuve Demerara.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Suriname ?",
+      "choices": [
+        "Nieuw Nickerie",
+        "Moengo",
+        "Albina",
+        "Paramaribo"
+      ],
+      "answer": 3,
+      "explication": "Paramaribo se trouve sur le fleuve Suriname, et son centre historique est classé à l'UNESCO.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale de la Jamaïque ?",
+      "choices": [
+        "Kingston",
+        "Montego Bay",
+        "Spanish Town",
+        "Ocho Rios"
+      ],
+      "answer": 0,
+      "explication": "Spanish Town fut la capitale avant Kingston ; Montego Bay est une station balnéaire.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale des Bahamas ?",
+      "choices": [
+        "Freeport",
+        "Marsh Harbour",
+        "Nassau",
+        "Andros Town"
+      ],
+      "answer": 2,
+      "explication": "Nassau est sur l'île de New Providence.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi tant de capitales d'Amérique latine portent-elles des noms espagnols ?",
+      "Elles ont presque toutes été fondées ou baptisées par les colons espagnols entre le XVIe et le XVIIIe siècle, souvent d'après un saint, comme San José ou Santiago. Le Brésil fait exception : sa langue est le portugais, tout comme l'histoire de ses villes."
+    ],
+    [
+      "Quelle capitale d'Amérique est la plus haute en altitude ?",
+      "La Paz, en Bolivie, est généralement citée comme le siège de gouvernement le plus haut du monde, à plus de 3 500 mètres. Quito, en Équateur, et Bogota, en Colombie, se situent aussi à haute altitude dans les Andes, autour de 2 500 à 2 800 mètres."
+    ],
+    [
+      "Comment retenir les capitales d'Amérique ?",
+      "Procède par zones : Amérique du Sud, Amérique centrale, Caraïbes. Associe chaque capitale à son fleuve, à son port ou à son voisin. Les petites capitales des Caraïbes et d'Amérique centrale demandent un peu de répétition : refais le quiz de temps en temps pour mémoriser les noms les moins courants."
+    ]
+  ],
+  "related": [
+    "/quiz-capitales",
+    "/quiz-capitales-difficile",
+    "/quiz-capitales-europe",
+    "/quiz-capitales-asie",
+    "/quiz-drapeaux-amerique"
+  ]
+}

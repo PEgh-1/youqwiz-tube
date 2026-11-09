@@ -1,0 +1,141 @@
+import React from "react";
+import { AbsoluteFill, Audio, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AUDIO, Background, Bubble, CommonSegment, Fonts, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, Ticks, Voice, quipFor, styleOf, themeOf } from "./components";
+import { FONT_BODY, FONT_DISPLAY, INK, WHITE } from "./theme";
+import { SHORT_OPTS, buildTimeline } from "./timeline";
+import type { Episode } from "./types";
+
+const has = (k: string) => AUDIO[k] === true;
+export type VersusProps = { episode: Episode; vertical?: boolean };
+
+// Gabarit « Versus » (Tu préfères…) : écran partagé en deux camps, barre de chrono centrale, mascottes qui s'opposent.
+// Différent du gabarit Devine (carte blanche centrée) pour que les deux piliers ne se ressemblent pas.
+export const Versus: React.FC<VersusProps> = ({ episode, vertical = false }) => {
+  const { fps } = useVideoConfig();
+  const theme = themeOf(episode);
+  const style = styleOf(episode);
+  const { segments } = buildTimeline(episode, fps, vertical ? SHORT_OPTS(episode) : {});
+  const n = Math.min(episode.items.length, vertical ? episode.meta.shortItems ?? 4 : episode.items.length);
+  return (
+    <AbsoluteFill style={{ fontFamily: FONT_BODY, color: INK }}>
+      <Fonts />
+      <Background theme={theme} confetti={vertical ? 16 : 24} pattern={style.pattern} />
+      <MusicBed episode={episode} />
+      {segments.map((s, k) => {
+        if (s.kind === "question")
+          return (
+            <Sequence key={k} from={s.from} durationInFrames={s.dur} name={`C${s.index + 1}`}>
+              <Voice clip={episode.items[s.index].voice?.q} />
+              {s.dur > 5 * fps && has("ding") && (
+                <Sequence from={5 * fps} durationInFrames={s.dur - 5 * fps}>
+                  <Audio src={staticFile("audio/ding.mp3")} volume={0.45} />
+                </Sequence>
+              )}
+              <Ticks episode={episode} index={s.index} dur={s.dur} until={5 * fps} />
+              <Duel episode={episode} index={s.index} total={n} dur={s.dur} vertical={vertical} />
+            </Sequence>
+          );
+        if (s.kind === "reveal" || s.kind === "score") return null;
+        return <CommonSegment key={k} index={k} s={s} episode={episode} vertical={vertical} />;
+      })}
+    </AbsoluteFill>
+  );
+};
+
+const SIDE_COLORS = ["#FFE3EC", "#DDF6FF"];
+const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: number; vertical: boolean }> = ({ episode, index, total, dur, vertical }) => {
+  const frame = useCurrentFrame();
+  const { fps, width, height } = useVideoConfig();
+  const theme = themeOf(episode);
+  const item = episode.items[index];
+  const options = item.prompt.type === "choices" ? item.prompt.value : [item.answer, ""];
+  const choiceFrames = 5 * fps;
+  const askPhase = frame >= choiceFrames;
+  const left = spring({ frame, fps, config: { damping: 13, stiffness: 120 } });
+  const right = spring({ frame: frame - 4, fps, config: { damping: 13, stiffness: 120 } });
+  const progress = Math.min(1, frame / choiceFrames);
+  const secondsLeft = Math.max(0, Math.ceil((choiceFrames - frame) / fps));
+  const hud = vertical ? 36 : 36;
+  const QUIPS_L = ["Moi, à gauche 😏", "Facile : la gauche !", "Gauche, sans hésiter 👈", "Je prends la première 🙋"];
+  const QUIPS_R = ["Non, la droite ! 👉", "Moi je dis droite 😎", "La deuxième, évidemment 🤷", "Droite, et je ne change pas 💪"];
+  const quipL = quipFor(episode, QUIPS_L, index);
+  const quipR = quipFor(episode, QUIPS_R, index * 7 + 1);
+  const fontFor = (s: string) => {
+    const n = s.length;
+    const base = vertical ? 70 : 82;
+    return n > 48 ? base * 0.66 : n > 34 ? base * 0.78 : n > 22 ? base * 0.9 : base;
+  };
+  const paneW = vertical ? width - 120 : width / 2 - 110;
+  const paneH = vertical ? (height - 1000) / 2 : 520;
+  const pane = (i: number) => {
+    const s = i === 0 ? left : right;
+    const shift = vertical ? `translateY(${(1 - s) * (i === 0 ? -300 : 300)}px)` : `translateX(${(1 - s) * (i === 0 ? -600 : 600)}px)`;
+    return (
+      <div key={i} style={{ width: paneW, height: paneH, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: fontFor(options[i]), color: INK, background: SIDE_COLORS[i], border: `9px solid ${INK}`, boxShadow: `14px 14px 0 ${INK}`, padding: "24px 36px", borderRadius: 34, textAlign: "center", lineHeight: 1.1, transform: `${shift} rotate(${i === 0 ? -1.2 : 1.2}deg)`, opacity: s, overflow: "hidden", overflowWrap: "anywhere" }}>
+        <Rich text={options[i]} size={fontFor(options[i])} />
+      </div>
+    );
+  };
+  return (
+    <AbsoluteFill style={{ alignItems: "center" }}>
+      {vertical && (
+        <div style={{ position: "absolute", top: 70 }}>
+          <Logo theme={theme} size={78} />
+        </div>
+      )}
+      <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, justifyContent: "center" }}>
+        <Pill size={hud}>{`🎯 ${index + 1} / ${total}`}</Pill>
+        {!vertical && <Progress value={index / total} theme={theme} />}
+        <Pill size={hud} bg={theme.accent} fg={WHITE}>Tu préfères… ?</Pill>
+      </div>
+      {!vertical && (
+        <div style={{ position: "absolute", top: 118, left: 60 }}>
+          <Logo theme={theme} size={48} />
+        </div>
+      )}
+
+      {/* Les deux camps + le OU central */}
+      <div style={{ position: "absolute", top: vertical ? 420 : 230, left: 0, right: 0, display: "flex", flexDirection: vertical ? "column" : "row", alignItems: "center", justifyContent: "center", gap: vertical ? 70 : 60 }}>
+        {pane(0)}
+        {pane(1)}
+      </div>
+      <div style={{ position: "absolute", top: vertical ? 420 + paneH + 10 : 230 + paneH / 2 - 50, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+        <Pop delay={6}>
+          <div style={{ width: 120, height: 120, borderRadius: 999, background: theme.accent, border: `8px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, color: WHITE, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 56, display: "flex", alignItems: "center", justifyContent: "center", transform: `rotate(${Math.sin(frame / 6) * 6}deg)` }}>
+            OU
+          </div>
+        </Pop>
+      </div>
+
+      {/* Chrono : barre centrale qui se vide des deux côtés */}
+      {!askPhase ? (
+        <div style={{ position: "absolute", bottom: vertical ? 330 : 40, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+          <div style={{ width: vertical ? 900 : 860, height: 44, background: WHITE, border: `6px solid ${INK}`, borderRadius: 999, boxShadow: `6px 6px 0 ${INK}`, overflow: "hidden", position: "relative" }}>
+            <div style={{ position: "absolute", left: `${progress * 50}%`, right: `${progress * 50}%`, top: 0, bottom: 0, background: secondsLeft <= 1 ? "#FF3B3B" : theme.accent }} />
+          </div>
+          <Pill size={40} bg={INK} fg={WHITE}>{`⏱️ ${secondsLeft} · choisis vite !`}</Pill>
+        </div>
+      ) : (
+        <div style={{ position: "absolute", bottom: vertical ? 330 : 60, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+          <Pop>
+            <Pill size={vertical ? 44 : 52} bg={theme.accent} fg={WHITE} tilt={-2} style={{ whiteSpace: "normal", textAlign: "center", maxWidth: 1100 }}>Et toi ? Dis-le en commentaire 👇</Pill>
+          </Pop>
+        </div>
+      )}
+
+      {/* Mascottes : chacune défend son camp */}
+      {!vertical && (
+        <>
+          <div style={{ position: "absolute", left: 40, bottom: 20, display: "flex", alignItems: "flex-end", gap: 8 }}>
+            <Mascot which="chat" size={240} mood={askPhase ? "cheer" : "idle"} />
+            <div style={{ marginBottom: 210 }}><Bubble size={30}>{askPhase ? "Alors ? 👀" : quipL}</Bubble></div>
+          </div>
+          <div style={{ position: "absolute", right: 40, bottom: 20, display: "flex", alignItems: "flex-end", flexDirection: "row-reverse", gap: 8 }}>
+            <Mascot which="poussin" size={220} mood={askPhase ? "cheer" : "idle"} />
+            <div style={{ marginBottom: 210 }}><Bubble size={30} tilt={2}>{askPhase ? "Moi je sais 😏" : quipR}</Bubble></div>
+          </div>
+        </>
+      )}
+    </AbsoluteFill>
+  );
+};

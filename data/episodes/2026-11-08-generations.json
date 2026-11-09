@@ -1,0 +1,2315 @@
+{
+ "id": "2026-11-08-generations",
+ "pillar": "generations",
+ "template": "QuizQCM",
+ "theme": 0,
+ "style": {
+  "pattern": "dots",
+  "timer": "ring",
+  "reveal": "pop",
+  "card": "square",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir ! 👋",
+   "voice": "Content de te revoir sur YouQwiz !"
+  },
+  "introCta": "🔥 Garde ta série le plus longtemps possible",
+  "subscribe": {
+   "title": "Pas encore abonné ? 👀",
+   "sub": "un clic, et tu ne rates plus rien 🔔",
+   "voice": "Pas encore abonné ? Un clic, et tu ne rates plus rien."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tranquille pour commencer ☕",
+    "voice": "Niveau facile. Tranquille pour commencer."
+   },
+   "moyen": {
+    "card": "Là, il faut réfléchir 🤔",
+    "voice": "Niveau moyen. Là, il faut réfléchir un peu."
+   },
+   "difficile": {
+    "card": "Accroche-toi 😰",
+    "voice": "Niveau difficile. Accroche-toi !"
+   },
+   "impossible": {
+    "card": "Seuls les génies 🧠",
+    "voice": "Niveau impossible. Seuls les génies…"
+   }
+  },
+  "scoreVoice": "Alors, génie ou débutant ? Dis ton score en commentaire.",
+  "outro": {
+   "title": "À demain pour un nouveau quiz 👋",
+   "voice": "À demain pour un nouveau quiz. Pense à t'abonner !"
+  },
+  "packshot": {
+   "headline": "Défie tes proches sur youqwiz.com",
+   "sub": "le quiz du jour, en version interactive 🎮",
+   "cta": "👉 youqwiz.com",
+   "voice": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
+  }
+ },
+ "title": "Si tu as vécu ça, tu auras tout bon 📺📼☎️ 83 souvenirs",
+ "question": "",
+ "intro": {
+  "hook": "Seuls ceux nés AVANT 1975 réussiront",
+  "sub": "Si tu t'en souviens, tu as tout bon 🥰"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la France remporte-t-elle sa première Coupe du monde de football ?",
+    "choices": [
+     "1982",
+     "1986",
+     "1998",
+     "2006"
+    ],
+    "correct": 2
+   },
+   "answer": "1998",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/0-q.mp3",
+     "sec": 4.675918
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/0-a.mp3",
+     "sec": 2.298776
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel numéro composait-on pour appeler les pompiers ?",
+    "choices": [
+     "Le 15",
+     "Le 17",
+     "Le 18",
+     "Le 12"
+    ],
+    "correct": 2
+   },
+   "answer": "Le 18",
+   "level": "facile",
+   "fact": "À l'époque comme aujourd'hui, le 18 joint les pompiers et le 15 le SAMU.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/1-q.mp3",
+     "sec": 2.66449
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/1-a.mp3",
+     "sec": 2.037551
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/1-f.mp3",
+     "sec": 6.844082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Mistral gagnant » ?",
+    "choices": [
+     "Francis Cabrel",
+     "Renaud",
+     "Yves Duteil",
+     "Jean-Jacques Goldman"
+    ],
+    "correct": 1
+   },
+   "answer": "Renaud",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/2-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/2-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle carte remplace les pièces dans les cabines téléphoniques à partir des années 80 ?",
+    "choices": [
+     "La télécarte",
+     "La carte bleue",
+     "La carte vitale",
+     "La carte postale"
+    ],
+    "correct": 0
+   },
+   "answer": "La télécarte",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/3-q.mp3",
+     "sec": 4.597551
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/3-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animateur présente « Questions pour un champion » ?",
+    "choices": [
+     "Jean-Pierre Foucault",
+     "Patrick Sébastien",
+     "Julien Lepers",
+     "Philippe Risoli"
+    ],
+    "correct": 2
+   },
+   "answer": "Julien Lepers",
+   "level": "facile",
+   "fact": "À l'époque, « Questions pour un champion » a débuté à la télévision en 1988.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/4-q.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/4-a.mp3",
+     "sec": 1.619592
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/4-f.mp3",
+     "sec": 6.922449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle monnaie utilisait-on en France avant l'euro ?",
+    "choices": [
+     "Le mark",
+     "La peseta",
+     "Le franc",
+     "La lire"
+    ],
+    "correct": 2
+   },
+   "answer": "Le franc",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/5-q.mp3",
+     "sec": 2.56
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/5-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quoi joue-t-on dans « Des chiffres et des lettres » ?",
+    "choices": [
+     "Des mots et des calculs",
+     "Des questions de sport",
+     "Des chansons à retrouver",
+     "Des devinettes de cuisine"
+    ],
+    "correct": 0
+   },
+   "answer": "Des mots et des calculs",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/6-q.mp3",
+     "sec": 2.66449
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/6-a.mp3",
+     "sec": 3.004082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel humoriste fonde les Restos du cœur en 1985 ?",
+    "choices": [
+     "Coluche",
+     "Pierre Desproges",
+     "Guy Bedos",
+     "Fernand Raynaud"
+    ],
+    "correct": 0
+   },
+   "answer": "Coluche",
+   "level": "facile",
+   "fact": "À l'époque, les premiers repas des Restos du cœur ont été servis en décembre 1985.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/7-q.mp3",
+     "sec": 7.157551
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/7-a.mp3",
+     "sec": 1.358367
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/7-f.mp3",
+     "sec": 7.235918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le grand disque noir qu'on pose sur une platine ?",
+    "choices": [
+     "Une cassette",
+     "Un vinyle",
+     "Un CD",
+     "Une disquette"
+    ],
+    "correct": 1
+   },
+   "answer": "Un vinyle",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/8-q.mp3",
+     "sec": 3.866122
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/8-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel jeu de cour se joue avec un bandeau sur les yeux ?",
+    "choices": [
+     "Colin-maillard",
+     "Le loup",
+     "La balle au prisonnier",
+     "Cache-cache"
+    ],
+    "correct": 0
+   },
+   "answer": "Colin-maillard",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/9-q.mp3",
+     "sec": 9.16898
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/9-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel appareil à ruban encreur servait à taper un texte sur papier ?",
+    "choices": [
+     "La machine à écrire",
+     "L'imprimante",
+     "Le photocopieur",
+     "Le scanner"
+    ],
+    "correct": 0
+   },
+   "answer": "La machine à écrire",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/10-q.mp3",
+     "sec": 4.153469
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/10-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année le mur de Berlin tombe-t-il ?",
+    "choices": [
+     "1987",
+     "1989",
+     "1991",
+     "1985"
+    ],
+    "correct": 1
+   },
+   "answer": "1989",
+   "level": "facile",
+   "fact": "À l'époque, le mur de Berlin est tombé dans la soirée du 9 novembre 1989.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/11-q.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/11-a.mp3",
+     "sec": 2.429388
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/11-f.mp3",
+     "sec": 7.810612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que portaient souvent les écoliers par-dessus leurs vêtements ?",
+    "choices": [
+     "Un imperméable",
+     "Une blouse",
+     "Un gilet",
+     "Une cape"
+    ],
+    "correct": 1
+   },
+   "answer": "Une blouse",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/12-q.mp3",
+     "sec": 7.262041
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/12-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qu'envoyait-on à ses grands-parents depuis les vacances ?",
+    "choices": [
+     "Une carte postale",
+     "Un e-mail",
+     "Un SMS",
+     "Un fax"
+    ],
+    "correct": 0
+   },
+   "answer": "Une carte postale",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/13-q.mp3",
+     "sec": 5.903673
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/13-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avant les télécartes, avec quoi payait-on dans une cabine ?",
+    "choices": [
+     "Des billets",
+     "Un chèque",
+     "Un timbre",
+     "Des pièces ou des jetons"
+    ],
+    "correct": 3
+   },
+   "answer": "Des pièces ou des jetons",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/14-q.mp3",
+     "sec": 3.082449
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/14-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle coupe de cheveux est courte devant et longue derrière dans les années 80 ?",
+    "choices": [
+     "Le mulet",
+     "Le carré",
+     "La brosse",
+     "Le chignon"
+    ],
+    "correct": 0
+   },
+   "answer": "Le mulet",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/15-q.mp3",
+     "sec": 6.452245
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/15-a.mp3",
+     "sec": 1.828571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle équipe remporte l'Euro 1984 de football, organisé chez elle ?",
+    "choices": [
+     "L'Espagne",
+     "Le Portugal",
+     "La France",
+     "L'Italie"
+    ],
+    "correct": 2
+   },
+   "answer": "La France",
+   "level": "facile",
+   "fact": "À l'époque, la France a battu l'Espagne 2 à 0 en finale de l'Euro 1984, au Parc des Princes.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/16-q.mp3",
+     "sec": 5.067755
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/16-a.mp3",
+     "sec": 1.933061
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/16-f.mp3",
+     "sec": 7.627755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que posait-on sur une page écrite à l'encre pour la sécher ?",
+    "choices": [
+     "Un mouchoir",
+     "Un chiffon",
+     "Une gomme",
+     "Un buvard"
+    ],
+    "correct": 3
+   },
+   "answer": "Un buvard",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/17-q.mp3",
+     "sec": 5.537959
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/17-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel jeu de cour se joue en lançant une balle pour éliminer l'adversaire ?",
+    "choices": [
+     "La balle au prisonnier",
+     "Le béret",
+     "Le saut de mouton",
+     "Cache-cache"
+    ],
+    "correct": 0
+   },
+   "answer": "La balle au prisonnier",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/18-q.mp3",
+     "sec": 4.362449
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/18-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel maillot porte le leader du Tour de France ?",
+    "choices": [
+     "Le maillot vert",
+     "Le maillot blanc",
+     "Le maillot jaune",
+     "Le maillot rose"
+    ],
+    "correct": 2
+   },
+   "answer": "Le maillot jaune",
+   "level": "facile",
+   "fact": "À l'époque, le maillot jaune était jaune car le journal organisateur du Tour était imprimé sur papier jaune.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/19-q.mp3",
+     "sec": 2.821224
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/19-a.mp3",
+     "sec": 1.619592
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/19-f.mp3",
+     "sec": 7.497143
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avant de voir ses photos de vacances, que fallait-il faire de la pellicule ?",
+    "choices": [
+     "L'envoyer par e-mail",
+     "La faire développer",
+     "La passer au four",
+     "La mettre en cadre"
+    ],
+    "correct": 1
+   },
+   "answer": "La faire développer",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/20-q.mp3",
+     "sec": 5.564082
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/20-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelles petites boules de verre échange-t-on à la récré ?",
+    "choices": [
+     "Des billes",
+     "Des perles",
+     "Des dés",
+     "Des osselets"
+    ],
+    "correct": 0
+   },
+   "answer": "Des billes",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/21-q.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/21-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment nomme-t-on la fête de fin d'année de l'école, avec stands et jeux ?",
+    "choices": [
+     "Le carnaval",
+     "La braderie",
+     "La kermesse",
+     "La foire"
+    ],
+    "correct": 2
+   },
+   "answer": "La kermesse",
+   "level": "facile",
+   "fact": "À l'époque, on disait kermesse, un mot venu du néerlandais « kerkmisse », la messe de l'église.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/22-q.mp3",
+     "sec": 4.179592
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/22-a.mp3",
+     "sec": 2.481633
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/22-f.mp3",
+     "sec": 9.090612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel coureur est surnommé « l'éternel second » du Tour de France ?",
+    "choices": [
+     "Bernard Thévenet",
+     "Raymond Poulidor",
+     "Lucien Van Impe",
+     "Roger Pingeon"
+    ],
+    "correct": 1
+   },
+   "answer": "Raymond Poulidor",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/23-q.mp3",
+     "sec": 7.157551
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/23-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec qui Guy Lux présentait-il « Intervilles » ?",
+    "choices": [
+     "Pierre Bellemare",
+     "Jacques Martin",
+     "Jean-Pierre Foucault",
+     "Léon Zitrone"
+    ],
+    "correct": 3
+   },
+   "answer": "Léon Zitrone",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/24-q.mp3",
+     "sec": 5.12
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/24-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avant 1984, combien de chaînes de télévision reçoit-on en France ?",
+    "choices": [
+     "Sept",
+     "Trois",
+     "Une",
+     "Cinq"
+    ],
+    "correct": 1
+   },
+   "answer": "Trois",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/25-q.mp3",
+     "sec": 6.896327
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/25-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « La Poupée qui fait non » ?",
+    "choices": [
+     "Jacques Dutronc",
+     "Michel Polnareff",
+     "Christophe",
+     "Dave"
+    ],
+    "correct": 1
+   },
+   "answer": "Michel Polnareff",
+   "level": "moyen",
+   "fact": "À l'époque, Michel Polnareff a sorti « La Poupée qui fait non » en 1966.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/26-q.mp3",
+     "sec": 2.377143
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/26-a.mp3",
+     "sec": 2.507755
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/26-f.mp3",
+     "sec": 7.000816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un euro vaut combien de francs ?",
+    "choices": [
+     "Environ 6,56 francs",
+     "Environ 3 francs",
+     "Environ 10 francs",
+     "Environ 2 francs"
+    ],
+    "correct": 0
+   },
+   "answer": "Environ 6,56 francs",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/27-q.mp3",
+     "sec": 3.63102
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/27-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Breton surnommé « le Blaireau » gagne cinq Tours de France ?",
+    "choices": [
+     "Bernard Hinault",
+     "Laurent Fignon",
+     "Jean-René Bernaudeau",
+     "Jacques Anquetil"
+    ],
+    "correct": 0
+   },
+   "answer": "Bernard Hinault",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/28-q.mp3",
+     "sec": 7.497143
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/28-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi du rock'n'roll meurt en 1977 ?",
+    "choices": [
+     "Jerry Lee Lewis",
+     "Little Richard",
+     "Elvis Presley",
+     "Buddy Holly"
+    ],
+    "correct": 2
+   },
+   "answer": "Elvis Presley",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/29-q.mp3",
+     "sec": 7.47102
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/29-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chantait « Le Sud » ?",
+    "choices": [
+     "Michel Sardou",
+     "Claude François",
+     "Nino Ferrer",
+     "Joe Dassin"
+    ],
+    "correct": 2
+   },
+   "answer": "Nino Ferrer",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/30-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/30-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel artisan ambulant aiguisait les couteaux et les ciseaux ?",
+    "choices": [
+     "Le ramoneur",
+     "Le vannier",
+     "Le colporteur",
+     "Le rémouleur"
+    ],
+    "correct": 3
+   },
+   "answer": "Le rémouleur",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/31-q.mp3",
+     "sec": 5.146122
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/31-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Born to be alive » ?",
+    "choices": [
+     "Patrick Hernandez",
+     "Jean-Luc Lahaye",
+     "Gilbert Montagné",
+     "Hervé Vilard"
+    ],
+    "correct": 0
+   },
+   "answer": "Patrick Hernandez",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/32-q.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/32-a.mp3",
+     "sec": 2.220408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Entre quelles villes circule le premier TGV commercial en 1981 ?",
+    "choices": [
+     "Paris et Lille",
+     "Paris et Marseille",
+     "Paris et Lyon",
+     "Paris et Bordeaux"
+    ],
+    "correct": 2
+   },
+   "answer": "Paris et Lyon",
+   "level": "moyen",
+   "fact": "À l'époque, le premier TGV commercial a roulé entre Paris et Lyon à partir de septembre 1981.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/33-q.mp3",
+     "sec": 6.4
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/33-a.mp3",
+     "sec": 1.776327
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/33-f.mp3",
+     "sec": 8.672653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel lieutenant en imperméable froissé est un héros d'une série américaine culte ?",
+    "choices": [
+     "Kojak",
+     "Columbo",
+     "Magnum",
+     "Starsky"
+    ],
+    "correct": 1
+   },
+   "answer": "Columbo",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/34-q.mp3",
+     "sec": 5.564082
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/34-a.mp3",
+     "sec": 2.063673
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel acteur est Fantômas aux côtés de Louis de Funès ?",
+    "choices": [
+     "Jean Marais",
+     "Jean Gabin",
+     "Jean-Paul Belmondo",
+     "Alain Delon"
+    ],
+    "correct": 0
+   },
+   "answer": "Jean Marais",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/35-q.mp3",
+     "sec": 5.459592
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/35-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Ça plane pour moi » ?",
+    "choices": [
+     "Alain Chamfort",
+     "Patrick Juvet",
+     "Jean-Luc Lahaye",
+     "Plastic Bertrand"
+    ],
+    "correct": 3
+   },
+   "answer": "Plastic Bertrand",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/36-q.mp3",
+     "sec": 2.45551
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/36-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays est originaire l'inventeur du célèbre cube casse-tête des années 80 ?",
+    "choices": [
+     "Le Japon",
+     "L'Allemagne",
+     "La Suède",
+     "La Hongrie"
+    ],
+    "correct": 3
+   },
+   "answer": "La Hongrie",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/37-q.mp3",
+     "sec": 4.754286
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/37-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui présente le journal de 20 heures de TF1 de 1975 à 1981 ?",
+    "choices": [
+     "Yves Mourousi",
+     "Léon Zitrone",
+     "Patrick Poivre d'Arvor",
+     "Roger Gicquel"
+    ],
+    "correct": 3
+   },
+   "answer": "Roger Gicquel",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/38-q.mp3",
+     "sec": 9.090612
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/38-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on la période de forte croissance de 1945 à 1975 ?",
+    "choices": [
+     "Les Quarante Piquantes",
+     "Les Années folles",
+     "Les Trente Glorieuses",
+     "La Belle Époque"
+    ],
+    "correct": 2
+   },
+   "answer": "Les Trente Glorieuses",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/39-q.mp3",
+     "sec": 8.463673
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/39-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle face d'un 45 tours portait en général le tube ?",
+    "choices": [
+     "La face B",
+     "La tranche",
+     "Le centre",
+     "La face A"
+    ],
+    "correct": 3
+   },
+   "answer": "La face A",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/40-q.mp3",
+     "sec": 3.63102
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/40-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle émission littéraire Bernard Pivot présente-t-il ?",
+    "choices": [
+     "Le Grand Échiquier",
+     "Droit de réponse",
+     "Champs-Élysées",
+     "Apostrophes"
+    ],
+    "correct": 3
+   },
+   "answer": "Apostrophes",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/41-q.mp3",
+     "sec": 4.519184
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/41-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la chaîne M6 commence-t-elle à émettre ?",
+    "choices": [
+     "1987",
+     "1984",
+     "1989",
+     "1991"
+    ],
+    "correct": 0
+   },
+   "answer": "1987",
+   "level": "moyen",
+   "fact": "À l'époque, M6 a commencé à émettre le 1er mars 1987.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/42-q.mp3",
+     "sec": 6.034286
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/42-a.mp3",
+     "sec": 1.906939
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/42-f.mp3",
+     "sec": 6.4
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel grand récipient en zinc servait à faire bouillir le linge ?",
+    "choices": [
+     "La lessiveuse",
+     "Le baquet",
+     "La marmite",
+     "Le bain-marie"
+    ],
+    "correct": 0
+   },
+   "answer": "La lessiveuse",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/43-q.mp3",
+     "sec": 4.04898
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/43-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de centimes vaut un « sou » ?",
+    "choices": [
+     "1",
+     "10",
+     "5",
+     "20"
+    ],
+    "correct": 2
+   },
+   "answer": "5",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/44-q.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/44-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année le premier choc pétrolier frappe-t-il la France ?",
+    "choices": [
+     "1968",
+     "1973",
+     "1979",
+     "1982"
+    ],
+    "correct": 1
+   },
+   "answer": "1973",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/45-q.mp3",
+     "sec": 3.709388
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/45-a.mp3",
+     "sec": 2.977959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel auteur du Petit Prince figure sur le billet de 50 francs ?",
+    "choices": [
+     "Saint-Exupéry",
+     "Jules Verne",
+     "Victor Hugo",
+     "Alexandre Dumas"
+    ],
+    "correct": 0
+   },
+   "answer": "Saint-Exupéry",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/46-q.mp3",
+     "sec": 6.034286
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/46-a.mp3",
+     "sec": 1.671837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel compositeur figure sur le billet de 20 francs ?",
+    "choices": [
+     "Maurice Ravel",
+     "Georges Bizet",
+     "Hector Berlioz",
+     "Claude Debussy"
+    ],
+    "correct": 3
+   },
+   "answer": "Claude Debussy",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/47-q.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/47-a.mp3",
+     "sec": 1.436735
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel groupe comique chante « Paulette, la reine des paupiettes » ?",
+    "choices": [
+     "Les Frères Jacques",
+     "Les Compagnons",
+     "Les Charlots",
+     "Les Inconnus"
+    ],
+    "correct": 2
+   },
+   "answer": "Les Charlots",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/48-q.mp3",
+     "sec": 5.564082
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/48-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animateur présente « Monsieur Cinéma » ?",
+    "choices": [
+     "Pierre Tchernia",
+     "Michel Drucker",
+     "Jean-Pierre Elkabbach",
+     "Claude Lelouch"
+    ],
+    "correct": 0
+   },
+   "answer": "Pierre Tchernia",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/49-q.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/49-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel équipement devient obligatoire à l'avant hors agglomération en 1973 ?",
+    "choices": [
+     "La ceinture de sécurité",
+     "Le casque",
+     "Les feux de jour",
+     "Le triangle"
+    ],
+    "correct": 0
+   },
+   "answer": "La ceinture de sécurité",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/50-q.mp3",
+     "sec": 5.564082
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/50-a.mp3",
+     "sec": 3.004082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec qui Serge Gainsbourg chante-t-il « Je t'aime… moi non plus » en 1969 ?",
+    "choices": [
+     "Catherine Deneuve",
+     "Jane Birkin",
+     "Brigitte Bardot",
+     "Françoise Hardy"
+    ],
+    "correct": 1
+   },
+   "answer": "Jane Birkin",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/51-q.mp3",
+     "sec": 5.746939
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/51-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel skieur français décroche trois médailles d'or aux JO de Grenoble en 1968 ?",
+    "choices": [
+     "Jean-Noël Augert",
+     "Luc Alphand",
+     "Jean-Claude Killy",
+     "Franck Piccard"
+    ],
+    "correct": 2
+   },
+   "answer": "Jean-Claude Killy",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/52-q.mp3",
+     "sec": 7.105306
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/52-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays lance le premier satellite artificiel, Spoutnik, en 1957 ?",
+    "choices": [
+     "La France",
+     "Les États-Unis",
+     "L'URSS",
+     "Le Royaume-Uni"
+    ],
+    "correct": 2
+   },
+   "answer": "L'URSS",
+   "level": "difficile",
+   "fact": "À l'époque, le bip-bip de Spoutnik 1, lancé le 4 octobre 1957, était capté par des radioamateurs du monde entier.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/53-q.mp3",
+     "sec": 5.720816
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/53-a.mp3",
+     "sec": 2.115918
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/53-f.mp3",
+     "sec": 10.03102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de chiffres comptent les numéros de téléphone français depuis 1996 ?",
+    "choices": [
+     "Huit",
+     "Neuf",
+     "Dix",
+     "Douze"
+    ],
+    "correct": 2
+   },
+   "answer": "Dix",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/54-q.mp3",
+     "sec": 4.780408
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/54-a.mp3",
+     "sec": 1.515102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle le quadrillage à grands carreaux des cahiers d'écolier ?",
+    "choices": [
+     "Pascal",
+     "Bertin",
+     "Seyès",
+     "Cassini"
+    ],
+    "correct": 2
+   },
+   "answer": "Seyès",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/55-q.mp3",
+     "sec": 3.709388
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/55-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur quoi enregistrait-on les programmes des premiers micro-ordinateurs ?",
+    "choices": [
+     "Sur des disques vinyles",
+     "Sur des bandes de papier",
+     "Sur des cassettes audio",
+     "Sur des CD"
+    ],
+    "correct": 2
+   },
+   "answer": "Sur des cassettes audio",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/56-q.mp3",
+     "sec": 3.63102
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/56-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle limite de vitesse sur autoroute est instaurée en novembre 1974 ?",
+    "choices": [
+     "130 km/h",
+     "110 km/h",
+     "140 km/h",
+     "120 km/h"
+    ],
+    "correct": 0
+   },
+   "answer": "130 km/h",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/57-q.mp3",
+     "sec": 4.937143
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/57-a.mp3",
+     "sec": 3.082449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle athlète française gagne le 400 m aux JO de Barcelone en 1992 ?",
+    "choices": [
+     "Colette Besson",
+     "Marie-José Pérec",
+     "Chantal Réga",
+     "Muriel Hurtis"
+    ],
+    "correct": 1
+   },
+   "answer": "Marie-José Pérec",
+   "level": "difficile",
+   "fact": "À l'époque, Marie-José Pérec a gagné le 400 m à Barcelone en 1992, puis à Atlanta en 1996.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/58-q.mp3",
+     "sec": 5.694694
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/58-a.mp3",
+     "sec": 1.802449
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/58-f.mp3",
+     "sec": 10.919184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel coureur à lunettes gagne le Tour de France 1983 et 1984 ?",
+    "choices": [
+     "Bernard Hinault",
+     "Laurent Fignon",
+     "Pascal Simon",
+     "Jean-René Bernaudeau"
+    ],
+    "correct": 1
+   },
+   "answer": "Laurent Fignon",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/59-q.mp3",
+     "sec": 6.347755
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/59-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel acteur joue dans « Le Grand Blond avec une chaussure noire » ?",
+    "choices": [
+     "Jacques Villeret",
+     "Michel Galabru",
+     "Pierre Richard",
+     "Jean Lefebvre"
+    ],
+    "correct": 2
+   },
+   "answer": "Pierre Richard",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/60-q.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/60-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la troisième chaîne de télévision française apparaît-elle ?",
+    "choices": [
+     "1964",
+     "1972",
+     "1969",
+     "1975"
+    ],
+    "correct": 1
+   },
+   "answer": "1972",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/61-q.mp3",
+     "sec": 4.04898
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/61-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel présentateur du 13 h de TF1 a marqué par son style très décontracté ?",
+    "choices": [
+     "Yves Mourousi",
+     "Roger Gicquel",
+     "Claude Sérillon",
+     "Jean-Claude Narcy"
+    ],
+    "correct": 0
+   },
+   "answer": "Yves Mourousi",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/62-q.mp3",
+     "sec": 6.164898
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/62-a.mp3",
+     "sec": 2.45551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « San Francisco » en 1972 ?",
+    "choices": [
+     "Antoine",
+     "Michel Berger",
+     "Yves Simon",
+     "Maxime Le Forestier"
+    ],
+    "correct": 3
+   },
+   "answer": "Maxime Le Forestier",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/63-q.mp3",
+     "sec": 5.459592
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/63-a.mp3",
+     "sec": 2.56
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle série américaine met en scène le méchant J.R. Ewing ?",
+    "choices": [
+     "Santa Barbara",
+     "Les Feux de l'amour",
+     "Dynastie",
+     "Dallas"
+    ],
+    "correct": 3
+   },
+   "answer": "Dallas",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/64-q.mp3",
+     "sec": 3.709388
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/64-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien coûte le timbre d'une lettre en 1990 ?",
+    "choices": [
+     "1,20 franc",
+     "3,50 francs",
+     "5 francs",
+     "2,30 francs"
+    ],
+    "correct": 3
+   },
+   "answer": "2,30 francs",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/65-q.mp3",
+     "sec": 4.284082
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/65-a.mp3",
+     "sec": 2.586122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Il est libre Max » ?",
+    "choices": [
+     "Hervé Cristiani",
+     "Julien Clerc",
+     "Alain Chamfort",
+     "Michel Delpech"
+    ],
+    "correct": 0
+   },
+   "answer": "Hervé Cristiani",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/66-q.mp3",
+     "sec": 3.552653
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/66-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Une belle histoire » en 1972 ?",
+    "choices": [
+     "Gérard Lenorman",
+     "Michel Fugain",
+     "Pierre Perret",
+     "Jean-Claude Borelly"
+    ],
+    "correct": 1
+   },
+   "answer": "Michel Fugain",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/67-q.mp3",
+     "sec": 3.552653
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/67-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la peine de mort est-elle abolie en France ?",
+    "choices": [
+     "1974",
+     "1981",
+     "1986",
+     "1992"
+    ],
+    "correct": 1
+   },
+   "answer": "1981",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/68-q.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/68-a.mp3",
+     "sec": 2.76898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quel groupe Eddy Mitchell débute-t-il sa carrière ?",
+    "choices": [
+     "Les Chats Sauvages",
+     "Les Problèmes",
+     "Les Chaussettes noires",
+     "Les Players"
+    ],
+    "correct": 2
+   },
+   "answer": "Les Chaussettes noires",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/69-q.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/69-a.mp3",
+     "sec": 1.906939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la loi Veil autorise-t-elle l'IVG ?",
+    "choices": [
+     "1968",
+     "1975",
+     "1981",
+     "1989"
+    ],
+    "correct": 1
+   },
+   "answer": "1975",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/70-q.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/70-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel film de Claude Lelouch, avec Anouk Aimée, remporte la Palme d'or en 1966 ?",
+    "choices": [
+     "Vivre pour vivre",
+     "Les Parapluies de Cherbourg",
+     "Un homme et une femme",
+     "Les Uns et les Autres"
+    ],
+    "correct": 2
+   },
+   "answer": "Un homme et une femme",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/71-q.mp3",
+     "sec": 5.955918
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/71-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui présente l'émission radio « Salut les copains » dès 1959 ?",
+    "choices": [
+     "Jean-Pierre Foucault",
+     "Max Meynier",
+     "Daniel Filipacchi",
+     "Jean-Loup Lafont"
+    ],
+    "correct": 2
+   },
+   "answer": "Daniel Filipacchi",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/72-q.mp3",
+     "sec": 4.284082
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/72-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle chanson fait gagner France Gall à l'Eurovision 1965 ?",
+    "choices": [
+     "Sacré Charlemagne",
+     "Laisse tomber les filles",
+     "Poupée de cire, poupée de son",
+     "N'écoute pas les idoles"
+    ],
+    "correct": 2
+   },
+   "answer": "Poupée de cire, poupée de son",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/73-q.mp3",
+     "sec": 4.937143
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/73-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville française accueille l'Eurovision en 1959 ?",
+    "choices": [
+     "Nice",
+     "Cannes",
+     "Deauville",
+     "Biarritz"
+    ],
+    "correct": 1
+   },
+   "answer": "Cannes",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/74-q.mp3",
+     "sec": 4.519184
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/74-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Scoubidou » ?",
+    "choices": [
+     "Sacha Distel",
+     "Henri Salvador",
+     "Dario Moreno",
+     "Marcel Amont"
+    ],
+    "correct": 0
+   },
+   "answer": "Sacha Distel",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/75-q.mp3",
+     "sec": 3.787755
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/75-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année meurt Claude François ?",
+    "choices": [
+     "1972",
+     "1978",
+     "1983",
+     "1990"
+    ],
+    "correct": 1
+   },
+   "answer": "1978",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/76-q.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/76-a.mp3",
+     "sec": 2.76898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel chanteur est la vedette des Chats Sauvages ?",
+    "choices": [
+     "Frankie Jordan",
+     "Dick Rivers",
+     "Danyel Gérard",
+     "Long Chris"
+    ],
+    "correct": 1
+   },
+   "answer": "Dick Rivers",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/77-q.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/77-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « J'entends siffler le train » en 1962 ?",
+    "choices": [
+     "Dick Rivers",
+     "Franck Alamo",
+     "Frédéric François",
+     "Richard Anthony"
+    ],
+    "correct": 3
+   },
+   "answer": "Richard Anthony",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/78-q.mp3",
+     "sec": 6.19102
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/78-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle chanteuse partage la victoire à l'Eurovision 1969 avec « Un jour, un enfant » ?",
+    "choices": [
+     "Nicoletta",
+     "Monique Melinand",
+     "Frida Boccara",
+     "Mireille Mathieu"
+    ],
+    "correct": 2
+   },
+   "answer": "Frida Boccara",
+   "level": "impossible",
+   "fact": "À l'époque, quatre pays ont gagné ex æquo l'Eurovision 1969, à Madrid.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/79-q.mp3",
+     "sec": 9.952653
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/79-a.mp3",
+     "sec": 2.194286
+    },
+    "f": {
+     "src": "tts/2026-11-08-generations/79-f.mp3",
+     "sec": 6.765714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel syndicat polonais dirigé par Lech Wałęsa naît en 1980 ?",
+    "choices": [
+     "Solidarność",
+     "Przyjaźń",
+     "Wolność",
+     "Pologne Libre"
+    ],
+    "correct": 0
+   },
+   "answer": "Solidarność",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/80-q.mp3",
+     "sec": 4.884898
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/80-a.mp3",
+     "sec": 2.821224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui remporte l'Eurovision 1958 avec « Dors mon amour » ?",
+    "choices": [
+     "Philippe Clay",
+     "Jean Constantin",
+     "Lucien Lupi",
+     "André Claveau"
+    ],
+    "correct": 3
+   },
+   "answer": "André Claveau",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/81-q.mp3",
+     "sec": 6.765714
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/81-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel compositeur romantique figure sur le billet de 10 francs ?",
+    "choices": [
+     "Georges Bizet",
+     "Hector Berlioz",
+     "Camille Saint-Saëns",
+     "Maurice Ravel"
+    ],
+    "correct": 1
+   },
+   "answer": "Hector Berlioz",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-08-generations/82-q.mp3",
+     "sec": 7.549388
+    },
+    "a": {
+     "src": "tts/2026-11-08-generations/82-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2,
+  "slow": true
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Crée ton quiz gratuit sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Un quiz nostalgie en 83 questions pour ceux qui ont connu cette époque. Niveaux : 24 facile, 19 moyens, 23 difficiles, 17 impossible. 13 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Abonne-toi : un quiz par jour à 17 h 30.\n\n#quiz #generations #youqwiz #nostalgie\n\n⏱️ Chapitres\n00:00 Intro\n00:11 Niveau facile\n05:14 Niveau moyen\n09:03 Niveau difficile\n13:31 Niveau impossible\n17:10 Ton score\n17:20 Crée ton quiz sur youqwiz.com",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "generations",
+   "souvenirs",
+   "années 70",
+   "années 80",
+   "quiz seniors",
+   "devinette",
+   "facile à impossible",
+   "nostalgie",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Nés avant 1975 ?",
+   "line2": "83 SOUVENIRS",
+   "emoji": "☎️",
+   "sticker": "TU AS TOUT BON ?",
+   "layouts": [
+    1,
+    0
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "La 8e est impossible 😱 Seuls ceux nés AVANT 1975 réussiront #Shorts",
+  "shortDescription": "Vidéo complète avec les 83 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 11.466666666666667,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 314.6,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 543.4666666666667,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 811.6333333333333,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 1030.3333333333333,
+    "title": "Ton score"
+   },
+   {
+    "at": 1040.3333333333333,
+    "title": "Crée ton quiz sur youqwiz.com"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/79e983548aa33e64.mp3",
+   "sec": 2.507755
+  },
+  "level_moyen": {
+   "src": "tts-cache/ffda05d6b9a6603d.mp3",
+   "sec": 3.239184
+  },
+  "level_difficile": {
+   "src": "tts-cache/ae94e203a5bded47.mp3",
+   "sec": 2.063673
+  },
+  "level_impossible": {
+   "src": "tts-cache/d5d6978ec142b85a.mp3",
+   "sec": 3.082449
+  },
+  "score": {
+   "src": "tts-cache/be35052919217f6b.mp3",
+   "sec": 4.022857
+  },
+  "subscribe": {
+   "src": "tts-cache/9b584cc1fca8f4fc.mp3",
+   "sec": 2.977959
+  },
+  "outro": {
+   "src": "tts-cache/b17dbcbb59548534.mp3",
+   "sec": 2.45551
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  },
+  "preroll": {
+   "src": "tts-cache/3277a6a5ae9f13db.mp3",
+   "sec": 1.776327
+  },
+  "packshot": {
+   "src": "tts-cache/72d277617320c213.mp3",
+   "sec": 4.989388
+  }
+ }
+}

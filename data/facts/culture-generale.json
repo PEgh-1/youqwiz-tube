@@ -1,0 +1,638 @@
+[
+ {
+  "key": "Quelle est la capitale de l'Australie ?",
+  "fact": "Canberra a été choisie en 1908 pour mettre fin à la rivalité entre Sydney et Melbourne."
+ },
+ {
+  "key": "Quel est le plus grand océan du monde ?",
+  "fact": "Le Pacifique couvre à lui seul un tiers de la surface de la Terre."
+ },
+ {
+  "key": "Quelle planète est la plus proche du Soleil ?",
+  "fact": "Mercure met seulement 88 jours pour faire le tour du Soleil."
+ },
+ {
+  "key": "Combien de jours compte une année bissextile ?",
+  "fact": "Le 29 février n'existe que les années bissextiles, c'est-à-dire en général tous les quatre ans."
+ },
+ {
+  "key": "Quel est le plus haut sommet de France ?",
+  "fact": "Le sommet du mont Blanc est couvert de neige et de glace, donc sa hauteur change un peu d'une mesure à l'autre."
+ },
+ {
+  "key": "Quel fruit est l'ingrédient principal du guacamole ?",
+  "fact": "L'avocat est un fruit et non un légume, même si on le mange le plus souvent salé."
+ },
+ {
+  "key": "Quelle langue parle-t-on au Brésil ?",
+  "fact": "Le Brésil est le seul grand pays d'Amérique du Sud où l'on parle portugais."
+ },
+ {
+  "key": "Quel est le plus grand désert chaud du monde ?",
+  "fact": "Le Sahara s'étend sur plusieurs pays d'Afrique, de l'océan Atlantique jusqu'à la mer Rouge."
+ },
+ {
+  "key": "Qui a écrit « Les Misérables » ?",
+  "fact": "Victor Hugo a écrit une grande partie des Misérables pendant son exil, le roman est publié en 1862."
+ },
+ {
+  "key": "Quel insecte fabrique le miel ?",
+  "fact": "Une abeille ouvrière produit moins d'une cuillère à café de miel dans toute sa vie."
+ },
+ {
+  "key": "Dans quelle ville se trouve le Colisée ?",
+  "fact": "Le Colisée de Rome pouvait accueillir environ 50 000 spectateurs."
+ },
+ {
+  "key": "Quel est l'animal terrestre le plus rapide ?",
+  "fact": "Le guépard dépasse les 100 km/h, mais seulement sur de courtes distances."
+ },
+ {
+  "key": "Quelle est la capitale du Canada ?",
+  "fact": "Ottawa a été choisie comme capitale du Canada par la reine Victoria en 1857."
+ },
+ {
+  "key": "Quel est le plus long fleuve de France ?",
+  "fact": "La Loire est le plus long fleuve de France, avec environ 1 000 kilomètres."
+ },
+ {
+  "key": "Qui a écrit « Le Petit Prince » ?",
+  "fact": "Le Petit Prince est l'un des livres les plus traduits au monde, en plus de 300 langues et dialectes."
+ },
+ {
+  "key": "Quelle planète est surnommée la planète rouge ?",
+  "fact": "Mars est rouge à cause de la rouille, de l'oxyde de fer, présent dans son sol."
+ },
+ {
+  "key": "Quel est le plus grand os du corps humain ?",
+  "fact": "Le fémur, l'os de la cuisse, représente environ le quart de la taille d'une personne."
+ },
+ {
+  "key": "Quel compositeur a écrit « Les Quatre Saisons » ?",
+  "fact": "Vivaldi était surnommé le « prêtre roux » à cause de la couleur de ses cheveux."
+ },
+ {
+  "key": "Quel est le plus petit pays du monde ?",
+  "fact": "Le Vatican fait moins d'un kilomètre carré : on le traverse à pied en quelques minutes."
+ },
+ {
+  "key": "Qui a écrit « Le Rouge et le Noir » ?",
+  "fact": "Stendhal est le pseudonyme d'Henri Beyle, qui l'a emprunté à une ville allemande, Stendal."
+ },
+ {
+  "key": "Quel est le symbole chimique du fer ?",
+  "fact": "Le symbole Fe vient du mot latin « ferrum », qui veut dire fer."
+ },
+ {
+  "key": "Quels organes filtrent le sang pour fabriquer l'urine ?",
+  "fact": "On a deux reins, mais on peut vivre très bien avec un seul."
+ },
+ {
+  "key": "Dans quel musée parisien est exposée la Joconde ?",
+  "fact": "Le Louvre a d'abord été une forteresse, puis un palais royal, avant de devenir un musée."
+ },
+ {
+  "key": "En quelle année la Révolution française commence-t-elle ?",
+  "fact": "Le 14 juillet 1789, les Parisiens prennent la Bastille, une ancienne forteresse devenue prison."
+ },
+ {
+  "key": "Quel est le plus grand mammifère terrestre ?",
+  "fact": "Un éléphant d'Afrique peut peser jusqu'à 6 tonnes, autant que plusieurs voitures."
+ },
+ {
+  "key": "Quelle est la capitale de la Nouvelle-Zélande ?",
+  "fact": "Wellington est la capitale nationale la plus au sud du monde."
+ },
+ {
+  "key": "Qui a écrit « Madame Bovary » ?",
+  "fact": "Flaubert a mis environ cinq ans pour écrire « Madame Bovary »."
+ },
+ {
+  "key": "Quel traité de 1919 met fin à la Première Guerre mondiale avec l'Allemagne ?",
+  "fact": "Le traité de Versailles a été signé dans la galerie des Glaces, le 28 juin 1919."
+ },
+ {
+  "key": "Quel est le plus petit os du corps humain ?",
+  "fact": "L'étrier, un minuscule os de l'oreille, mesure environ trois millimètres."
+ },
+ {
+  "key": "Quelle est la capitale de la Suisse ?",
+  "fact": "Berne n'est pas la plus grande ville de Suisse : Zurich compte plus d'habitants."
+ },
+ {
+  "key": "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
+  "fact": "L'azote forme environ 78 % de l'air que nous respirons."
+ },
+ {
+  "key": "Quel détroit sépare l'Espagne du Maroc ?",
+  "fact": "Au plus étroit, le détroit de Gibraltar mesure environ 14 kilomètres de large."
+ },
+ {
+  "key": "Quelle épice est la plus chère du monde au poids ?",
+  "fact": "Le safran vient d'une petite fleur, le crocus, et se récolte à la main."
+ },
+ {
+  "key": "Quelle vitamine notre peau fabrique-t-elle grâce au soleil ?",
+  "fact": "Exposer son visage et ses mains au soleil aide la peau à fabriquer la vitamine D."
+ },
+ {
+  "key": "Par quel pays passe l'équateur ?",
+  "fact": "Le pays appelé Équateur doit son nom à la ligne imaginaire qui le traverse."
+ },
+ {
+  "key": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+  "fact": "La lumière du Soleil met environ 8 minutes pour arriver jusqu'à la Terre."
+ },
+ {
+  "key": "Combien de cavités (chambres) compte le cœur humain ?",
+  "fact": "Le cœur bat environ 100 000 fois par jour sans jamais se reposer."
+ },
+ {
+  "key": "Quelle est la capitale du Burkina Faso ?",
+  "fact": "Burkina Faso signifie à peu près « le pays des hommes intègres »."
+ },
+ {
+  "key": "Quel est le lac le plus profond du monde ?",
+  "fact": "Le lac Baïkal contient environ un cinquième de l'eau douce liquide de la planète."
+ },
+ {
+  "key": "Quelle est la capitale de la Mongolie ?",
+  "fact": "Oulan-Bator est souvent citée comme la capitale la plus froide du monde."
+ },
+ {
+  "key": "Quel est le plus grand pays d'Afrique par sa superficie ?",
+  "fact": "L'Algérie est le plus grand pays d'Afrique depuis la séparation du Soudan en 2011."
+ },
+ {
+  "key": "Quel est le numéro atomique du carbone ?",
+  "fact": "Le carbone est la base de tous les êtres vivants connus sur Terre."
+ },
+ {
+  "key": "Qui a peint « Le Radeau de la Méduse » ?",
+  "fact": "Le Radeau de la Méduse s'inspire d'un vrai naufrage survenu en 1816."
+ },
+ {
+  "key": "Quel pays organise la première Coupe du monde de football en 1930 ?",
+  "fact": "Pour la première Coupe du monde en 1930, les équipes d'Europe ont traversé l'océan en bateau."
+ },
+ {
+  "key": "Sur quelle planète un jour dure plus longtemps qu'une année ?",
+  "fact": "Vénus tourne si lentement sur elle-même qu'un seul de ses jours dure environ 243 jours terrestres."
+ },
+ {
+  "key": "Quel est le plus grand désert du monde, tous types confondus ?",
+  "fact": "L'Antarctique est un désert car il y tombe très peu de pluie et de neige."
+ },
+ {
+  "key": "Dans quel pays se trouve la ville de Tombouctou ?",
+  "fact": "Tombouctou fut un grand centre de commerce et de savoir, célèbre pour ses manuscrits anciens."
+ },
+ {
+  "key": "Quel roi de France signe l'édit de Nantes en 1598 ?",
+  "fact": "L'édit de Nantes, signé en 1598, met fin aux guerres de Religion en France."
+ },
+ {
+  "key": "Quel détroit sépare l'Asie de l'Amérique du Nord ?",
+  "fact": "Le détroit de Béring porte le nom de Vitus Béring, un explorateur danois."
+ },
+ {
+  "key": "Quel est le pays dont Lima est la capitale ?",
+  "fact": "Au Pérou se trouve le Machu Picchu, une cité construite par les Incas."
+ },
+ {
+  "key": "Quel est le plus grand continent du monde ?",
+  "fact": "L'Asie abrite à elle seule près de 60 % des habitants de la planète."
+ },
+ {
+  "key": "Quelle est la plus petite planète du système solaire ?",
+  "fact": "Mercure est la plus petite planète, mais elle est un peu plus grande que la Lune."
+ },
+ {
+  "key": "Quelle est la plus grande lune de Jupiter ?",
+  "fact": "Ganymède, la lune de Jupiter, est plus grosse que la planète Mercure."
+ },
+ {
+  "key": "Quelle est la hauteur d'un panier de basket ?",
+  "fact": "Le panier de basket est à 3,05 m, ce qui correspond à 10 pieds."
+ },
+ {
+  "key": "Dans quel pays se trouvent les pyramides de Gizeh ?",
+  "fact": "La pyramide de Khéops est restée le plus haut monument du monde pendant plusieurs milliers d'années."
+ },
+ {
+  "key": "Quel est le plus grand lac d'eau douce par sa superficie ?",
+  "fact": "Le lac Supérieur est situé entre le Canada et les États-Unis."
+ },
+ {
+  "key": "Quelle est la plus grande île du monde ?",
+  "fact": "Le Groenland est presque entièrement recouvert d'une immense calotte de glace."
+ },
+ {
+  "key": "En quelle année l'homme marche-t-il pour la première fois sur la Lune ?",
+  "fact": "Neil Armstrong a posé le pied sur la Lune le 20 juillet 1969."
+ },
+ {
+  "key": "Quel sport se joue avec une raquette et un volant ?",
+  "fact": "Les volants de badminton sont traditionnellement faits de plumes d'oie ou de canard."
+ },
+ {
+  "key": "Quelle est la capitale de l'Argentine ?",
+  "fact": "Buenos Aires veut dire à peu près « bons airs » ou « bon vent »."
+ },
+ {
+  "key": "Quel est le plus long fleuve d'Europe ?",
+  "fact": "La Volga se jette dans la mer Caspienne, la plus grande étendue d'eau fermée du monde."
+ },
+ {
+  "key": "Quel est le plus grand organe du corps humain ?",
+  "fact": "La couche extérieure de la peau se renouvelle à peu près tous les mois."
+ },
+ {
+  "key": "Quel physicien découvre la radioactivité en 1896 ?",
+  "fact": "Henri Becquerel a découvert la radioactivité par hasard, en étudiant des sels d'uranium."
+ },
+ {
+  "key": "À quelle température l'eau bout-elle au niveau de la mer ?",
+  "fact": "En montagne, l'eau bout à moins de 100 °C, car l'air y est plus léger."
+ },
+ {
+  "key": "Quelle est la fosse océanique la plus profonde ?",
+  "fact": "La fosse des Mariannes est plus profonde que la hauteur de l'Everest."
+ },
+ {
+  "key": "Quel muscle sépare le thorax de l'abdomen ?",
+  "fact": "Le diaphragme est le muscle principal de la respiration, et c'est lui qui provoque le hoquet."
+ },
+ {
+  "key": "Qui a écrit « Les Trois Mousquetaires » ?",
+  "fact": "Dans « Les Trois Mousquetaires », ils sont en fait quatre, car d'Artagnan les rejoint."
+ },
+ {
+  "key": "Qui a écrit la pièce « Cyrano de Bergerac » ?",
+  "fact": "Cyrano de Bergerac a vraiment existé : c'était un écrivain du XVIIe siècle."
+ },
+ {
+  "key": "Combien de pays membres compte l'ONU ?",
+  "fact": "Le dernier pays à avoir rejoint l'ONU est le Soudan du Sud, en 2011."
+ },
+ {
+  "key": "Quel est le plus gros félin du monde ?",
+  "fact": "Les rayures d'un tigre sont uniques, comme les empreintes digitales chez les humains."
+ },
+ {
+  "key": "Quelle est la capitale du Japon ?",
+  "fact": "Tokyo est l'une des plus grandes agglomérations du monde, avec plus de 30 millions d'habitants."
+ },
+ {
+  "key": "Quel roi de France est surnommé « le Bien-Aimé » ?",
+  "fact": "Louis XV est devenu roi à seulement cinq ans."
+ },
+ {
+  "key": "Combien de pattes a un insecte ?",
+  "fact": "Une araignée n'est pas un insecte : elle a huit pattes et non six."
+ },
+ {
+  "key": "En quelle année Constantinople tombe-t-elle aux mains des Ottomans ?",
+  "fact": "Constantinople, tombée en 1453, est aujourd'hui la ville d'Istanbul."
+ },
+ {
+  "key": "Qui a composé le ballet « Le Lac des cygnes » ?",
+  "fact": "Tchaïkovski a aussi composé la musique du ballet « Casse-noisette »."
+ },
+ {
+  "key": "Quel est le titre de l'hymne national français ?",
+  "fact": "La Marseillaise a été composée en 1792 à Strasbourg par Rouget de Lisle."
+ },
+ {
+  "key": "Quelle est la capitale du Myanmar ?",
+  "fact": "Naypyidaw est devenue la capitale du Myanmar vers 2006, à la place de Rangoun."
+ },
+ {
+  "key": "En combien de temps la Terre fait-elle le tour du Soleil ?",
+  "fact": "La Terre file autour du Soleil à plus de 100 000 km/h."
+ },
+ {
+  "key": "Quelle bataille a lieu en 1515 ?",
+  "fact": "Marignan, 1515, est une date que beaucoup d'élèves apprennent par cœur."
+ },
+ {
+  "key": "Quelle hormone est surnommée l'hormone du sommeil ?",
+  "fact": "La mélatonine est fabriquée par une petite glande du cerveau, l'épiphyse."
+ },
+ {
+  "key": "Comment appelle-t-on l'eau à l'état solide ?",
+  "fact": "La glace flotte sur l'eau, car elle est moins dense que l'eau liquide."
+ },
+ {
+  "key": "Lequel de ces animaux est un mammifère marin ?",
+  "fact": "Les dauphins dorment avec la moitié du cerveau éveillée."
+ },
+ {
+  "key": "Quel instrument permet d'observer les étoiles ?",
+  "fact": "Galilée est l'un des premiers à avoir observé le ciel avec une lunette, en 1609."
+ },
+ {
+  "key": "Quel savant met au point le vaccin contre la rage en 1885 ?",
+  "fact": "Louis Pasteur a testé son vaccin contre la rage sur un jeune garçon, Joseph Meister."
+ },
+ {
+  "key": "Quel animal est connu pour son très long cou ?",
+  "fact": "La girafe a le même nombre de vertèbres dans le cou que nous : sept."
+ },
+ {
+  "key": "Quel est le plus gros organe interne du corps humain ?",
+  "fact": "Le foie peut se régénérer en partie après une blessure."
+ },
+ {
+  "key": "Quelle unité mesure l'intensité du courant électrique ?",
+  "fact": "L'ampère porte le nom du physicien français André-Marie Ampère."
+ },
+ {
+  "key": "Quel organe sert à respirer ?",
+  "fact": "Un adulte respire plus de 15 000 fois par jour sans y penser."
+ },
+ {
+  "key": "Quel arbre est le plus haut du monde ?",
+  "fact": "Le plus haut séquoia connu, nommé Hyperion, dépasse 115 mètres."
+ },
+ {
+  "key": "Quelle partie de l'œil règle la quantité de lumière reçue ?",
+  "fact": "L'iris donne leur couleur aux yeux, qu'ils soient bleus, verts ou marron."
+ },
+ {
+  "key": "Quel est le plus grand reptile du monde ?",
+  "fact": "Le crocodile marin peut mesurer plus de 5 mètres de long."
+ },
+ {
+  "key": "Combien de dents de lait possède un enfant ?",
+  "fact": "Les dents de lait tombent généralement entre 6 et 12 ans environ."
+ },
+ {
+  "key": "Quel métal est le meilleur conducteur d'électricité ?",
+  "fact": "Le cuivre, très utilisé dans les fils électriques, conduit presque aussi bien que l'argent."
+ },
+ {
+  "key": "Quelle est l'unité de base du vivant ?",
+  "fact": "Notre corps compte des milliers de milliards de cellules."
+ },
+ {
+  "key": "Quelle partie de la cellule contient l'ADN ?",
+  "fact": "Si on étirait l'ADN d'une seule cellule, il mesurerait environ deux mètres."
+ },
+ {
+  "key": "Quelle unité mesure la fréquence d'un son ?",
+  "fact": "L'unité s'appelle le hertz en hommage au physicien allemand Heinrich Hertz."
+ },
+ {
+  "key": "Quel animal hiberne l'hiver ?",
+  "fact": "Pendant son hibernation, le cœur du hérisson ralentit énormément."
+ },
+ {
+  "key": "Quelle vitamine trouve-t-on en abondance dans les agrumes ?",
+  "fact": "Au XVIIIe siècle, on a découvert que les agrumes soignaient le scorbut chez les marins."
+ },
+ {
+  "key": "De quelle protéine sont faits nos cheveux et nos ongles ?",
+  "fact": "Les ongles poussent d'environ trois millimètres par mois."
+ },
+ {
+  "key": "En quoi une chenille se transforme-t-elle ?",
+  "fact": "Ce changement s'appelle la métamorphose, et il se passe dans la chrysalide."
+ },
+ {
+  "key": "Quel oiseau a la plus grande envergure d'ailes ?",
+  "fact": "L'albatros hurleur peut dépasser 3 mètres d'envergure et planer pendant des heures."
+ },
+ {
+  "key": "Quel est l'élément le plus abondant de l'écorce terrestre ?",
+  "fact": "L'oxygène représente près de la moitié de la masse de l'écorce terrestre."
+ },
+ {
+  "key": "Quelle substance donne leur couleur verte aux feuilles ?",
+  "fact": "En automne, la chlorophylle disparaît des feuilles, qui révèlent alors leurs couleurs jaunes et orangées."
+ },
+ {
+  "key": "Quel arbre a sa feuille sur le drapeau du Canada ?",
+  "fact": "Le sirop d'érable se fabrique avec la sève de l'érable."
+ },
+ {
+  "key": "Quel minéral est le plus dur de l'échelle de Mohs ?",
+  "fact": "Le diamant est fait de carbone pur, comme la mine d'un crayon à papier."
+ },
+ {
+  "key": "Combien de paires d'ailes ont les mouches ?",
+  "fact": "Les mouches n'ont qu'une paire d'ailes : l'autre s'est transformée en petits balanciers."
+ },
+ {
+  "key": "Quel animal est réputé pour sa grande lenteur ?",
+  "fact": "Le paresseux ne descend de son arbre qu'environ une fois par semaine."
+ },
+ {
+  "key": "Quel animal a des rayures noires et blanches ?",
+  "fact": "Chaque zèbre a des rayures uniques, un peu comme une empreinte digitale."
+ },
+ {
+  "key": "De quel matériau le verre est-il principalement fabriqué ?",
+  "fact": "Le verre se recycle à l'infini sans perdre en qualité."
+ },
+ {
+  "key": "Quel oiseau ne vole pas et vit en Antarctique ?",
+  "fact": "Chez les manchots empereurs, c'est le papa qui couve l'œuf sur ses pieds."
+ },
+ {
+  "key": "Qui invente le stéthoscope en 1816 ?",
+  "fact": "Laennec a inventé le stéthoscope avec un simple rouleau de papier."
+ },
+ {
+  "key": "Quelle ville accueille les Jeux olympiques d'été de 2024 ?",
+  "fact": "Paris accueille les Jeux olympiques d'été pour la troisième fois en 2024, après 1900 et 1924."
+ },
+ {
+  "key": "Qui invente la dynamite ?",
+  "fact": "Alfred Nobel a créé les prix Nobel avec l'argent gagné grâce à ses inventions."
+ },
+ {
+  "key": "Combien de trous compte un parcours de golf standard ?",
+  "fact": "Le nombre de 18 trous vient du célèbre parcours de Saint Andrews, en Écosse."
+ },
+ {
+  "key": "De quelle couleur est le maillot du leader du Tour de France ?",
+  "fact": "Le maillot jaune a été créé en 1919, car le journal organisateur était imprimé sur du papier jaune."
+ },
+ {
+  "key": "Qui met au point le daguerréotype, ancêtre de la photographie ?",
+  "fact": "Les premiers portraits au daguerréotype demandaient de rester immobile pendant plusieurs minutes."
+ },
+ {
+  "key": "Quel Italien réalise les premières liaisons radio transatlantiques ?",
+  "fact": "Marconi a reçu le prix Nobel de physique en 1909 pour ses travaux sur la radio."
+ },
+ {
+  "key": "Quel fromage est réputé pour ses gros trous ?",
+  "fact": "Les trous de l'emmental sont dus à des bulles de gaz formées pendant l'affinage."
+ },
+ {
+  "key": "Qui met au point le premier vaccin, contre la variole, en 1796 ?",
+  "fact": "Jenner a eu l'idée du vaccin en observant des fermières qui avaient attrapé la maladie des vaches."
+ },
+ {
+  "key": "Avec quoi fabrique-t-on le chocolat ?",
+  "fact": "Les fèves de cacao poussent dans de grosses cabosses sur le cacaoyer."
+ },
+ {
+  "key": "Qui a composé la suite « Les Planètes » ?",
+  "fact": "Dans « Les Planètes » de Holst, il n'y a pas la Terre, et Pluton n'était pas encore découverte."
+ },
+ {
+  "key": "Dans quelle région du monde le couscous est-il un plat traditionnel ?",
+  "fact": "Le couscous est inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2020."
+ },
+ {
+  "key": "Combien de touches possède un piano standard ?",
+  "fact": "Un piano standard compte 52 touches blanches et 36 touches noires."
+ },
+ {
+  "key": "Dans quel sport marque-t-on un ippon ?",
+  "fact": "Le mot ippon veut dire « un point » en japonais."
+ },
+ {
+  "key": "Avec quelle matière fabrique-t-on les pneus de voiture ?",
+  "fact": "Le caoutchouc naturel vient de la sève d'un arbre, l'hévéa."
+ },
+ {
+  "key": "Quel compositeur écrit la « Neuvième Symphonie » avec l'« Ode à la joie » ?",
+  "fact": "Beethoven était presque sourd quand il a composé sa Neuvième Symphonie."
+ },
+ {
+  "key": "Avec quelle plante fabrique-t-on le tofu ?",
+  "fact": "Le tofu se fabrique avec du lait de soja caillé."
+ },
+ {
+  "key": "Qui a peint « Le Jardin des délices » ?",
+  "fact": "Jérôme Bosch tire son nom de sa ville, Bois-le-Duc, aux Pays-Bas."
+ },
+ {
+  "key": "Qui invente la pile électrique en 1800 ?",
+  "fact": "L'unité de tension électrique, le volt, porte le nom d'Alessandro Volta."
+ },
+ {
+  "key": "Quelle pièce du jeu d'échecs se déplace en L ?",
+  "fact": "Le cavalier est la seule pièce des échecs qui peut sauter par-dessus les autres."
+ },
+ {
+  "key": "Qui invente le moteur diesel ?",
+  "fact": "Rudolf Diesel a donné son nom au moteur, mais aussi au carburant qu'il utilise."
+ },
+ {
+  "key": "Qui a peint « Les Époux Arnolfini » ?",
+  "fact": "Jan van Eyck a contribué à populariser la peinture à l'huile."
+ },
+ {
+  "key": "Quelles pâtes sont longues et fines ?",
+  "fact": "Le mot spaghetti vient de l'italien « spago », qui veut dire ficelle."
+ },
+ {
+  "key": "De quel pays vient le tajine ?",
+  "fact": "Le tajine porte le même nom que le plat en terre cuite à couvercle conique."
+ },
+ {
+  "key": "Combien de points vaut un panier normal au basket ?",
+  "fact": "Le basket a été inventé en 1891, avec des paniers à pêches accrochés au mur."
+ },
+ {
+  "key": "Combien de notes comporte la gamme de do ?",
+  "fact": "Les noms des notes viennent des premières syllabes d'un vieil hymne latin."
+ },
+ {
+  "key": "Combien de planètes compte le système solaire ?",
+  "fact": "Pluton a été reclassée planète naine en 2006."
+ },
+ {
+  "key": "Quelle est la plus haute montagne du monde ?",
+  "fact": "L'Everest culmine à environ 8 849 mètres au-dessus du niveau de la mer."
+ },
+ {
+  "key": "Quelle est la plus grande lune de Saturne ?",
+  "fact": "Titan est la seule lune du système solaire à avoir une atmosphère épaisse."
+ },
+ {
+  "key": "Quelle planète est surnommée la planète bleue ?",
+  "fact": "La Terre est bleue vue de l'espace, car les océans couvrent environ 70 % de sa surface."
+ },
+ {
+  "key": "Comment s'appelle le plus haut volcan du système solaire ?",
+  "fact": "Olympus Mons, sur Mars, est environ deux fois et demie plus haut que l'Everest."
+ },
+ {
+  "key": "Dans quel pays se trouve le Grand Canyon ?",
+  "fact": "Le Grand Canyon a été creusé par le fleuve Colorado pendant des millions d'années."
+ },
+ {
+  "key": "Combien de jours terrestres dure une année sur Mars ?",
+  "fact": "Une année martienne dure presque deux années terrestres."
+ },
+ {
+  "key": "Quelle est l'étoile la plus proche du Soleil ?",
+  "fact": "La lumière de Proxima du Centaure met un peu plus de quatre ans à nous parvenir."
+ },
+ {
+  "key": "Quelle est la capitale de la France ?",
+  "fact": "La tour Eiffel était prévue pour ne rester que 20 ans à Paris."
+ },
+ {
+  "key": "Quelle est la capitale de Madagascar ?",
+  "fact": "Madagascar est la quatrième plus grande île du monde."
+ },
+ {
+  "key": "Comment appelle-t-on un mot qui se lit dans les deux sens ?",
+  "fact": "Radar, kayak et ressasser se lisent dans les deux sens."
+ },
+ {
+  "key": "En quelle année est fondée l'Académie française ?",
+  "fact": "L'Académie française a été fondée en 1635 sous Richelieu pour veiller sur la langue."
+ },
+ {
+  "key": "Quelle planète est la plus chaude du système solaire ?",
+  "fact": "Vénus est plus chaude que Mercure, pourtant plus proche du Soleil, à cause de son atmosphère."
+ },
+ {
+  "key": "Quelle est l'étoile la plus brillante du ciel nocturne ?",
+  "fact": "Sirius est surnommée l'étoile du Chien, car elle fait partie de la constellation du Grand Chien."
+ },
+ {
+  "key": "Qui est le premier humain dans l'espace, en 1961 ?",
+  "fact": "Youri Gagarine a fait le tour de la Terre en environ 108 minutes, le 12 avril 1961."
+ },
+ {
+  "key": "Quel astre change de forme au fil du mois dans le ciel ?",
+  "fact": "La Lune s'éloigne de la Terre d'environ quatre centimètres par an."
+ },
+ {
+  "key": "Quelle ville est connue pour sa tour penchée ?",
+  "fact": "La tour de Pise penche depuis sa construction, car son sol est trop mou."
+ },
+ {
+  "key": "Quel astronome place le Soleil au centre de l'univers connu ?",
+  "fact": "Copernic a publié sa théorie en 1543, l'année de sa mort."
+ },
+ {
+  "key": "Comment appelle-t-on les mots qui se prononcent pareil mais s'écrivent différemment ?",
+  "fact": "« Vert », « verre » et « ver » sont des homophones."
+ },
+ {
+  "key": "Autour de quel astre la Terre tourne-t-elle ?",
+  "fact": "Le Soleil représente à lui seul presque toute la masse du système solaire."
+ },
+ {
+  "key": "Quelle planète a le jour le plus court du système solaire ?",
+  "fact": "Sur Jupiter, un jour dure moins de dix heures."
+ },
+ {
+  "key": "Combien de lettres compte « anticonstitutionnellement » ?",
+  "fact": "« Anticonstitutionnellement » est souvent cité comme le plus long mot de la langue française."
+ },
+ {
+  "key": "Comment appelle-t-on une étoile qui explose ?",
+  "fact": "Une supernova peut briller autant qu'une galaxie entière pendant quelques semaines."
+ }
+]

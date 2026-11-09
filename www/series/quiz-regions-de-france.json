@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-regions-de-france",
+  "theme": "geographie",
+  "title": "Quiz régions de France : 20 questions",
+  "description": "Quiz régions de France : les 13 régions métropolitaines, leurs capitales, villes et sites célèbres en 20 questions. Joue gratuitement dès maintenant !",
+  "h1": "Quiz régions de France : connais-tu les 13 régions ?",
+  "intro": "Depuis 2016, la France métropolitaine compte treize régions, issues de la réforme territoriale. Ce quiz de 20 questions te propose de retrouver leurs capitales, de situer des sites célèbres et de te souvenir des fusions qui ont redessiné la carte. On commence par les régions les plus familières, comme la Bretagne, les Hauts-de-France ou la Normandie, avant de s'attaquer aux chefs-lieux moins évidents. Les dernières questions interrogent sur les anciennes régions regroupées. Compte environ cinq secondes par question, et profite des explications pour apprendre quelques repères sur chaque territoire. Parfait pour réviser ou pour briller en société !",
+  "questions": [
+    {
+      "q": "Combien la France métropolitaine compte-t-elle de régions depuis 2016 ?",
+      "choices": [
+        "22",
+        "13",
+        "18",
+        "10"
+      ],
+      "answer": 1,
+      "explication": "La réforme territoriale de 2016 a ramené le nombre de régions métropolitaines de 22 à 13.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale régionale de la Bretagne ?",
+      "choices": [
+        "Brest",
+        "Nantes",
+        "Quimper",
+        "Rennes"
+      ],
+      "answer": 3,
+      "explication": "Rennes est la ville la plus peuplée de Bretagne administrative.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la région Hauts-de-France ?",
+      "choices": [
+        "Lille",
+        "Amiens",
+        "Calais",
+        "Arras"
+      ],
+      "answer": 0,
+      "explication": "Lille est la grande métropole du nord de la France.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle région se trouve le Mont-Saint-Michel ?",
+      "choices": [
+        "La Bretagne",
+        "Les Hauts-de-France",
+        "La Normandie",
+        "Le Centre-Val de Loire"
+      ],
+      "answer": 2,
+      "explication": "L'abbaye se dresse sur un îlot rocheux à la limite de la Bretagne.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la région Nouvelle-Aquitaine ?",
+      "choices": [
+        "Limoges",
+        "Poitiers",
+        "Bordeaux",
+        "La Rochelle"
+      ],
+      "answer": 2,
+      "explication": "Bordeaux est la capitale régionale et une ville réputée dans le monde entier pour ses vins.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la région Auvergne-Rhône-Alpes ?",
+      "choices": [
+        "Lyon",
+        "Grenoble",
+        "Clermont-Ferrand",
+        "Saint-Étienne"
+      ],
+      "answer": 0,
+      "explication": "Lyon, l'antique Lugdunum, était surnommée la « capitale des Gaules ».",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle région se trouve le Vieux-Port de Marseille ?",
+      "choices": [
+        "Occitanie",
+        "Corse",
+        "Auvergne-Rhône-Alpes",
+        "Provence-Alpes-Côte d'Azur"
+      ],
+      "answer": 3,
+      "explication": "Marseille est la capitale de la région Provence-Alpes-Côte d'Azur.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la région Occitanie ?",
+      "choices": [
+        "Montpellier",
+        "Toulouse",
+        "Perpignan",
+        "Nîmes"
+      ],
+      "answer": 1,
+      "explication": "Toulouse est la capitale régionale ; Montpellier abrite aussi des services régionaux.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la région Grand Est ?",
+      "choices": [
+        "Strasbourg",
+        "Metz",
+        "Nancy",
+        "Reims"
+      ],
+      "answer": 0,
+      "explication": "Strasbourg héberge aussi le Parlement européen.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la région Centre-Val de Loire ?",
+      "choices": [
+        "Tours",
+        "Bourges",
+        "Orléans",
+        "Blois"
+      ],
+      "answer": 2,
+      "explication": "Tours est la plus peuplée, mais Orléans est le chef-lieu régional.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la région Pays de la Loire ?",
+      "choices": [
+        "Angers",
+        "Nantes",
+        "Le Mans",
+        "La Roche-sur-Yon"
+      ],
+      "answer": 1,
+      "explication": "Nantes est la plus grande ville des Pays de la Loire.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la région Bourgogne-Franche-Comté ?",
+      "choices": [
+        "Besançon",
+        "Auxerre",
+        "Beaune",
+        "Dijon"
+      ],
+      "answer": 3,
+      "explication": "Dijon est la capitale de la moutarde et des grands vins de Bourgogne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la région Corse ?",
+      "choices": [
+        "Bastia",
+        "Calvi",
+        "Bonifacio",
+        "Ajaccio"
+      ],
+      "answer": 3,
+      "explication": "Ajaccio est la ville natale de Napoléon Bonaparte.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle région produit-on le champagne ?",
+      "choices": [
+        "La Bourgogne-Franche-Comté",
+        "Le Grand Est",
+        "La Bretagne",
+        "La Normandie"
+      ],
+      "answer": 1,
+      "explication": "L'essentiel du vignoble champenois se trouve dans la Marne et l'Aube, autour de Reims et d'Épernay.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle région se trouve la grotte de Lascaux ?",
+      "choices": [
+        "L'Occitanie",
+        "La Bretagne",
+        "La Nouvelle-Aquitaine",
+        "Les Pays de la Loire"
+      ],
+      "answer": 2,
+      "explication": "Lascaux, dans le département de la Dordogne, abrite des peintures préhistoriques.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle région se trouve le château de Chambord ?",
+      "choices": [
+        "Le Centre-Val de Loire",
+        "Les Pays de la Loire",
+        "L'Île-de-France",
+        "La Normandie"
+      ],
+      "answer": 0,
+      "explication": "Chambord, en Loir-et-Cher, est le plus grand château de la Loire.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle région est née de la fusion du Languedoc-Roussillon et de Midi-Pyrénées ?",
+      "choices": [
+        "La Nouvelle-Aquitaine",
+        "L'Occitanie",
+        "Provence-Alpes-Côte d'Azur",
+        "Le Grand Est"
+      ],
+      "answer": 1,
+      "explication": "La fusion date de la réforme territoriale entrée en vigueur en 2016.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle région regroupe l'ancienne Alsace, la Champagne-Ardenne et la Lorraine ?",
+      "choices": [
+        "Les Hauts-de-France",
+        "La Bourgogne-Franche-Comté",
+        "Le Grand Est",
+        "L'Île-de-France"
+      ],
+      "answer": 2,
+      "explication": "Le Grand Est, dont la capitale est Strasbourg, est né de la fusion entrée en vigueur le 1er janvier 2016.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelles anciennes régions forment les Hauts-de-France ?",
+      "choices": [
+        "Nord-Pas-de-Calais et Picardie",
+        "Normandie et Picardie",
+        "Champagne-Ardenne et Lorraine",
+        "Nord-Pas-de-Calais et Haute-Normandie"
+      ],
+      "answer": 0,
+      "explication": "Les Hauts-de-France résultent de la fusion de 2016.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelles anciennes régions forment la Nouvelle-Aquitaine ?",
+      "choices": [
+        "Aquitaine et Midi-Pyrénées",
+        "Limousin et Auvergne",
+        "Poitou-Charentes et Pays de la Loire",
+        "Aquitaine, Limousin et Poitou-Charentes"
+      ],
+      "answer": 3,
+      "explication": "C'est la plus vaste région de France métropolitaine.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelles sont les 13 régions de la France métropolitaine ?",
+      "Ce sont l'Auvergne-Rhône-Alpes, la Bourgogne-Franche-Comté, la Bretagne, le Centre-Val de Loire, la Corse, le Grand Est, les Hauts-de-France, l'Île-de-France, la Normandie, la Nouvelle-Aquitaine, l'Occitanie, les Pays de la Loire et Provence-Alpes-Côte d'Azur. S'y ajoutent cinq régions d'outre-mer, ce qui porte le total à dix-huit."
+    ],
+    [
+      "Pourquoi le nombre de régions a-t-il changé en 2016 ?",
+      "La loi de 2015, entrée en vigueur le 1er janvier 2016, a regroupé certaines régions pour passer de 22 à 13 en métropole. L'objectif affiché était de créer des ensembles plus grands et plus puissants économiquement, avec des compétences élargies en matière de transports, d'économie ou de formation."
+    ],
+    [
+      "Quelle est la plus grande région de France métropolitaine ?",
+      "La Nouvelle-Aquitaine est la plus vaste région métropolitaine par la superficie, avec environ 84 000 kilomètres carrés, soit à peu près la taille de l'Autriche. L'Île-de-France est à l'inverse la plus petite par la superficie hors Corse, mais de loin la plus peuplée."
+    ]
+  ],
+  "related": [
+    "/quiz-departements",
+    "/quiz-geographie-france",
+    "/quiz-capitales",
+    "/quiz-drapeaux"
+  ]
+}

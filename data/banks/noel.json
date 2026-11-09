@@ -1,0 +1,1369 @@
+{
+ "question": "",
+ "hook": "{n} QUESTIONS spécial NOËL",
+ "emoji": "🎄🎁⛄",
+ "slug": "noel",
+ "noun": "QUESTIONS de NOËL",
+ "tags": [
+  "noël",
+  "fêtes de fin d'année",
+  "quiz de noël"
+ ],
+ "season": {
+  "from": "11-25",
+  "to": "12-27"
+ },
+ "subject": "NOËL",
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel arbre décore-t-on traditionnellement à Noël ?",
+    "choices": [
+     "Le sapin",
+     "Le chêne",
+     "Le palmier",
+     "Le bouleau"
+    ],
+    "correct": 0
+   },
+   "answer": "Le sapin",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel dessert de Noël a la forme d'un tronc d'arbre ?",
+    "choices": [
+     "Le flan",
+     "La bûche",
+     "La tarte tatin",
+     "Le far breton"
+    ],
+    "correct": 1
+   },
+   "answer": "La bûche",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quels animaux tirent le traîneau du Père Noël ?",
+    "choices": [
+     "Des chevaux",
+     "Des loups",
+     "Des rennes",
+     "Des ours"
+    ],
+    "correct": 2
+   },
+   "answer": "Des rennes",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle région du nord est surnommée la terre du Père Noël ?",
+    "choices": [
+     "La Sicile",
+     "L'Alsace",
+     "La Bretagne",
+     "La Laponie"
+    ],
+    "correct": 3
+   },
+   "answer": "La Laponie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sous quelle plante s'embrasse-t-on pour se souhaiter la bonne année ?",
+    "choices": [
+     "Le gui",
+     "Le lierre",
+     "Le muguet",
+     "Le trèfle"
+    ],
+    "correct": 0
+   },
+   "answer": "Le gui",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle couleur ont les baies du houx ?",
+    "choices": [
+     "Bleu",
+     "Rouge",
+     "Jaune",
+     "Violet"
+    ],
+    "correct": 1
+   },
+   "answer": "Rouge",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la date de Noël ?",
+    "choices": [
+     "24 novembre",
+     "6 janvier",
+     "25 décembre",
+     "31 décembre"
+    ],
+    "correct": 2
+   },
+   "answer": "25 décembre",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quelle date a lieu la Saint-Sylvestre ?",
+    "choices": [
+     "25 décembre",
+     "1er décembre",
+     "6 janvier",
+     "31 décembre"
+    ],
+    "correct": 3
+   },
+   "answer": "31 décembre",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que crie-t-on à minuit le 31 décembre ?",
+    "choices": [
+     "Bonne année !",
+     "Bon appétit !",
+     "Joyeux anniversaire !",
+     "À table !"
+    ],
+    "correct": 0
+   },
+   "answer": "Bonne année !",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Où les enfants français posent-ils leurs souliers ?",
+    "choices": [
+     "Dans le frigo",
+     "Devant la cheminée",
+     "Sur le toit",
+     "Dans la baignoire"
+    ],
+    "correct": 1
+   },
+   "answer": "Devant la cheminée",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de bougies compte la couronne de l'Avent ?",
+    "choices": [
+     "2",
+     "6",
+     "4",
+     "12"
+    ],
+    "correct": 2
+   },
+   "answer": "4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mets de fête est fait avec du foie d'oie ou de canard ?",
+    "choices": [
+     "Le pâté de lapin",
+     "La salade verte",
+     "La soupe d'oignon",
+     "Le foie gras"
+    ],
+    "correct": 3
+   },
+   "answer": "Le foie gras",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal est souvent rôti à Noël, farci aux marrons ?",
+    "choices": [
+     "La dinde",
+     "Le lapin",
+     "Le hérisson",
+     "Le dauphin"
+    ],
+    "correct": 0
+   },
+   "answer": "La dinde",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quelle couleur est le manteau du Père Noël ?",
+    "choices": [
+     "Vert",
+     "Rouge",
+     "Bleu",
+     "Rose"
+    ],
+    "correct": 1
+   },
+   "answer": "Rouge",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Jingle Bells » se chante en français sous quel titre ?",
+    "choices": [
+     "Douce nuit",
+     "Mon beau sapin",
+     "Vive le vent",
+     "Noël blanc"
+    ],
+    "correct": 2
+   },
+   "answer": "Vive le vent",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Mon beau sapin, roi des… » quoi ?",
+    "choices": [
+     "jardins",
+     "montagnes",
+     "champs",
+     "forêts"
+    ],
+    "correct": 3
+   },
+   "answer": "forêts",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Petit Papa Noël, avec des… par milliers » quoi ?",
+    "choices": [
+     "jouets",
+     "bonbons",
+     "bonnets",
+     "bisous"
+    ],
+    "correct": 0
+   },
+   "answer": "jouets",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le repas de la nuit du 24 décembre ?",
+    "choices": [
+     "Le goûter",
+     "Le réveillon",
+     "Le brunch",
+     "Le petit-déjeuner"
+    ],
+    "correct": 1
+   },
+   "answer": "Le réveillon",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel dessert se partage début janvier avec une fève cachée ?",
+    "choices": [
+     "Le gâteau basque",
+     "Le mille-feuille",
+     "La galette des rois",
+     "Le kouign-amann"
+    ],
+    "correct": 2
+   },
+   "answer": "La galette des rois",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Par où le Père Noël entre-t-il dans les maisons ?",
+    "choices": [
+     "Le garage",
+     "La cave",
+     "Le grenier",
+     "La cheminée"
+    ],
+    "correct": 3
+   },
+   "answer": "La cheminée",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quelle saison fête-t-on Noël en France ?",
+    "choices": [
+     "L'hiver",
+     "L'été",
+     "Le printemps",
+     "L'automne"
+    ],
+    "correct": 0
+   },
+   "answer": "L'hiver",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment dit-on « Joyeux Noël » en anglais ?",
+    "choices": [
+     "Happy Birthday",
+     "Merry Christmas",
+     "Good Morning",
+     "Thank you"
+    ],
+    "correct": 1
+   },
+   "answer": "Merry Christmas",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle boisson chaude et sucrée boit-on avec du cacao ?",
+    "choices": [
+     "Le jus d'orange",
+     "Le sirop de menthe",
+     "Le chocolat chaud",
+     "Le lait froid"
+    ],
+    "correct": 2
+   },
+   "answer": "Le chocolat chaud",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel bonbon en forme de canne est rayé rouge et blanc ?",
+    "choices": [
+     "Le carambar",
+     "La guimauve",
+     "Le caramel mou",
+     "Le sucre d'orge"
+    ],
+    "correct": 3
+   },
+   "answer": "Le sucre d'orge",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le 1er janvier ?",
+    "choices": [
+     "Le jour de l'an",
+     "Mardi gras",
+     "La Chandeleur",
+     "Pâques"
+    ],
+    "correct": 0
+   },
+   "answer": "Le jour de l'an",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que fait-on chaque jour avec un calendrier de l'Avent ?",
+    "choices": [
+     "On plante un arbre",
+     "On ouvre une case",
+     "On lave un rideau",
+     "On compte les moutons"
+    ],
+    "correct": 1
+   },
+   "answer": "On ouvre une case",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel petit agrume est souvent dans les paniers de Noël ?",
+    "choices": [
+     "Le pamplemousse",
+     "Le citron vert",
+     "La clémentine",
+     "La pastèque"
+    ],
+    "correct": 2
+   },
+   "answer": "La clémentine",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de rennes tirent le traîneau dans le poème de 1823 ?",
+    "choices": [
+     "4",
+     "6",
+     "12",
+     "8"
+    ],
+    "correct": 3
+   },
+   "answer": "8",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quelle date fête-t-on la Saint-Nicolas ?",
+    "choices": [
+     "6 décembre",
+     "25 décembre",
+     "1er janvier",
+     "14 février"
+    ],
+    "correct": 0
+   },
+   "answer": "6 décembre",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays Sinterklaas arrive-t-il en bateau depuis l'Espagne ?",
+    "choices": [
+     "Portugal",
+     "Pays-Bas",
+     "Danemark",
+     "Irlande"
+    ],
+    "correct": 1
+   },
+   "answer": "Pays-Bas",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Italie, quelle vieille dame à balai apporte les cadeaux le 6 janvier ?",
+    "choices": [
+     "La Nonna Rosa",
+     "La Signora Neve",
+     "La Befana",
+     "La Fata Verde"
+    ],
+    "correct": 2
+   },
+   "answer": "La Befana",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de desserts compte la tradition provençale de Noël ?",
+    "choices": [
+     "7",
+     "10",
+     "21",
+     "13"
+    ],
+    "correct": 3
+   },
+   "answer": "13",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le panettone est une brioche de Noël de quel pays ?",
+    "choices": [
+     "Italie",
+     "Espagne",
+     "Grèce",
+     "Portugal"
+    ],
+    "correct": 0
+   },
+   "answer": "Italie",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouve Rovaniemi, la ville du Père Noël ?",
+    "choices": [
+     "Norvège",
+     "Finlande",
+     "Islande",
+     "Canada"
+    ],
+    "correct": 1
+   },
+   "answer": "Finlande",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Espagne, combien de raisins mange-t-on à minuit le 31 décembre ?",
+    "choices": [
+     "7",
+     "10",
+     "12",
+     "24"
+    ],
+    "correct": 2
+   },
+   "answer": "12",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment dit-on « Joyeux Noël » en espagnol ?",
+    "choices": [
+     "Buon Natale",
+     "Frohe Weihnachten",
+     "Boas Festas",
+     "Feliz Navidad"
+    ],
+    "correct": 3
+   },
+   "answer": "Feliz Navidad",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment dit-on « Joyeux Noël » en allemand ?",
+    "choices": [
+     "Frohe Weihnachten",
+     "Feliz Navidad",
+     "Buon Natale",
+     "God Jul"
+    ],
+    "correct": 0
+   },
+   "answer": "Frohe Weihnachten",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À New York, que fait-on descendre à minuit à Times Square ?",
+    "choices": [
+     "Un sapin géant",
+     "Une boule lumineuse",
+     "Un drapeau",
+     "Un ballon rouge"
+    ],
+    "correct": 1
+   },
+   "answer": "Une boule lumineuse",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays est né le calendrier de l'Avent ?",
+    "choices": [
+     "Japon",
+     "Brésil",
+     "Allemagne",
+     "Égypte"
+    ],
+    "correct": 2
+   },
+   "answer": "Allemagne",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel personnage sévère accompagne Saint-Nicolas ?",
+    "choices": [
+     "Le Père Ubu",
+     "Le Père Goriot",
+     "Le Père Lachaise",
+     "Le Père Fouettard"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Père Fouettard",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un chapon est un…",
+    "choices": [
+     "coq élevé pour sa chair",
+     "poisson fumé",
+     "fromage de chèvre",
+     "petit gâteau"
+    ],
+    "correct": 0
+   },
+   "answer": "coq élevé pour sa chair",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Australie, Noël tombe à quelle saison ?",
+    "choices": [
+     "L'hiver",
+     "L'été",
+     "L'automne",
+     "Le printemps"
+    ],
+    "correct": 1
+   },
+   "answer": "L'été",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Au Royaume-Uni, quel jour est le « Boxing Day » ?",
+    "choices": [
+     "24 décembre",
+     "31 décembre",
+     "26 décembre",
+     "2 janvier"
+    ],
+    "correct": 2
+   },
+   "answer": "26 décembre",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que trouve-t-on dans un « cracker » de Noël britannique ?",
+    "choices": [
+     "Un sapin miniature",
+     "Un poisson",
+     "Une carte routière",
+     "Une couronne en papier"
+    ],
+    "correct": 3
+   },
+   "answer": "Une couronne en papier",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a chanté « Petit Papa Noël » en 1946 ?",
+    "choices": [
+     "Tino Rossi",
+     "Charles Aznavour",
+     "Édith Piaf",
+     "Yves Montand"
+    ],
+    "correct": 0
+   },
+   "answer": "Tino Rossi",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la date traditionnelle de l'Épiphanie ?",
+    "choices": [
+     "1er janvier",
+     "6 janvier",
+     "14 février",
+     "2 février"
+    ],
+    "correct": 1
+   },
+   "answer": "6 janvier",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville française fête la Fête des Lumières le 8 décembre ?",
+    "choices": [
+     "Nantes",
+     "Toulouse",
+     "Lyon",
+     "Bordeaux"
+    ],
+    "correct": 2
+   },
+   "answer": "Lyon",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville alsacienne est surnommée « Capitale de Noël » ?",
+    "choices": [
+     "Mulhouse",
+     "Colmar",
+     "Metz",
+     "Strasbourg"
+    ],
+    "correct": 3
+   },
+   "answer": "Strasbourg",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient l'étoile de Noël, le poinsettia ?",
+    "choices": [
+     "Mexique",
+     "Finlande",
+     "Égypte",
+     "Inde"
+    ],
+    "correct": 0
+   },
+   "answer": "Mexique",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel peuple de Laponie élève des rennes ?",
+    "choices": [
+     "Les Gaulois",
+     "Les Samis",
+     "Les Vikings",
+     "Les Mayas"
+    ],
+    "correct": 1
+   },
+   "answer": "Les Samis",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le renne appartient à la famille des…",
+    "choices": [
+     "félidés",
+     "canidés",
+     "cervidés",
+     "bovidés"
+    ],
+    "correct": 2
+   },
+   "answer": "cervidés",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle confiserie au miel et aux amandes fait partie des 13 desserts ?",
+    "choices": [
+     "La tarte tatin",
+     "Le paris-brest",
+     "Le clafoutis",
+     "Le nougat"
+    ],
+    "correct": 3
+   },
+   "answer": "Le nougat",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Jusqu'à quand peut-on souhaiter ses vœux en France ?",
+    "choices": [
+     "Fin janvier",
+     "Mi-mars",
+     "Fin février",
+     "1er avril"
+    ],
+    "correct": 0
+   },
+   "answer": "Fin janvier",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé le ballet « Casse-Noisette » ?",
+    "choices": [
+     "Mozart",
+     "Tchaïkovski",
+     "Ravel",
+     "Debussy"
+    ],
+    "correct": 1
+   },
+   "answer": "Tchaïkovski",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le mot « réveillon » vient du verbe…",
+    "choices": [
+     "rêver",
+     "révéler",
+     "réveiller",
+     "revenir"
+    ],
+    "correct": 2
+   },
+   "answer": "réveiller",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Mon beau sapin » est inspiré d'un chant de quel pays ?",
+    "choices": [
+     "Espagne",
+     "Pologne",
+     "Chine",
+     "Allemagne"
+    ],
+    "correct": 3
+   },
+   "answer": "Allemagne",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Espagne, quel jour les enfants reçoivent-ils surtout leurs cadeaux ?",
+    "choices": [
+     "6 janvier",
+     "1er novembre",
+     "14 juillet",
+     "8 mars"
+    ],
+    "correct": 0
+   },
+   "answer": "6 janvier",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle région la Saint-Nicolas est-elle très fêtée ?",
+    "choices": [
+     "Bretagne",
+     "Lorraine",
+     "Corse",
+     "Gascogne"
+    ],
+    "correct": 1
+   },
+   "answer": "Lorraine",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on les cadeaux offerts au Nouvel An ?",
+    "choices": [
+     "Les arrhes",
+     "Les primes",
+     "Les étrennes",
+     "Les gages"
+    ],
+    "correct": 2
+   },
+   "answer": "Les étrennes",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Douce nuit » est la version française d'un chant né dans quel pays ?",
+    "choices": [
+     "Brésil",
+     "Japon",
+     "Irlande",
+     "Autriche"
+    ],
+    "correct": 3
+   },
+   "answer": "Autriche",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel cercle géographique traverse la ville de Rovaniemi ?",
+    "choices": [
+     "Le cercle polaire arctique",
+     "Le tropique du Cancer",
+     "L'équateur",
+     "Le méridien de Greenwich"
+    ],
+    "correct": 0
+   },
+   "answer": "Le cercle polaire arctique",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sapin est le plus vendu en France ?",
+    "choices": [
+     "L'épicéa bleu",
+     "Le Nordmann",
+     "Le pin parasol",
+     "Le cèdre"
+    ],
+    "correct": 1
+   },
+   "answer": "Le Nordmann",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays sont nées les boules de verre soufflé pour sapin ?",
+    "choices": [
+     "Italie",
+     "Canada",
+     "Allemagne",
+     "Suède"
+    ],
+    "correct": 2
+   },
+   "answer": "Allemagne",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle ville a été imprimée la première carte de Noël en 1843 ?",
+    "choices": [
+     "Paris",
+     "Rome",
+     "Vienne",
+     "Londres"
+    ],
+    "correct": 3
+   },
+   "answer": "Londres",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville allemande est célèbre pour son stollen de Noël ?",
+    "choices": [
+     "Dresde",
+     "Hambourg",
+     "Cologne",
+     "Brême"
+    ],
+    "correct": 0
+   },
+   "answer": "Dresde",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville allemande est célèbre pour ses lebkuchen ?",
+    "choices": [
+     "Stuttgart",
+     "Nuremberg",
+     "Munich",
+     "Leipzig"
+    ],
+    "correct": 1
+   },
+   "answer": "Nuremberg",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Suède, quel lutin apporte traditionnellement les cadeaux ?",
+    "choices": [
+     "Le Troll",
+     "Le Kobold",
+     "Le Tomte",
+     "Le Gnome vert"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Tomte",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le poinsettia porte le nom d'un ambassadeur de quel pays ?",
+    "choices": [
+     "Espagne",
+     "Italie",
+     "Norvège",
+     "États-Unis"
+    ],
+    "correct": 3
+   },
+   "answer": "États-Unis",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays offre chaque année un grand sapin à Londres ?",
+    "choices": [
+     "Norvège",
+     "Finlande",
+     "Danemark",
+     "Suisse"
+    ],
+    "correct": 0
+   },
+   "answer": "Norvège",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle ville de Gironde le courrier au Père Noël est-il traité ?",
+    "choices": [
+     "Arcachon",
+     "Libourne",
+     "Bordeaux",
+     "Pessac"
+    ],
+    "correct": 1
+   },
+   "answer": "Libourne",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Les « quatre mendiants » sont des fruits secs : figues, amandes, noisettes et… ?",
+    "choices": [
+     "cacahuètes",
+     "pistaches",
+     "raisins secs",
+     "dattes"
+    ],
+    "correct": 2
+   },
+   "answer": "raisins secs",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Chez quel cervidé les femelles portent-elles aussi des bois ?",
+    "choices": [
+     "Le chevreuil",
+     "Le daim",
+     "Le cerf élaphe",
+     "Le renne"
+    ],
+    "correct": 3
+   },
+   "answer": "Le renne",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En République tchèque, quel poisson mange-t-on au réveillon ?",
+    "choices": [
+     "La carpe",
+     "Le saumon",
+     "Le thon",
+     "La sardine"
+    ],
+    "correct": 0
+   },
+   "answer": "La carpe",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Depuis quelle année le marché de Noël de Strasbourg existe-t-il ?",
+    "choices": [
+     "1270",
+     "1570",
+     "1870",
+     "1970"
+    ],
+    "correct": 1
+   },
+   "answer": "1570",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Catalogne, quelle bûche frappée « donne » des cadeaux ?",
+    "choices": [
+     "Le Torró",
+     "Le Turrón",
+     "Le Tió",
+     "Le Tapas"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Tió",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Les premiers sapins artificiels étaient faits avec des plumes de quel animal ?",
+    "choices": [
+     "Le paon",
+     "Le coq",
+     "Le cygne",
+     "L'oie"
+    ],
+    "correct": 3
+   },
+   "answer": "L'oie",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle plante est surnommée la « rose de Noël » ?",
+    "choices": [
+     "L'hellébore",
+     "Le rosier nain",
+     "La pivoine",
+     "Le géranium"
+    ],
+    "correct": 0
+   },
+   "answer": "L'hellébore",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans la tradition, la bûche de Noël était à l'origine…",
+    "choices": [
+     "un tronc sculpté",
+     "une vraie bûche brûlée",
+     "une bougie géante",
+     "un pain doré"
+    ],
+    "correct": 1
+   },
+   "answer": "une vraie bûche brûlée",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel bonbon enveloppé de papier brillant cache un message ?",
+    "choices": [
+     "Le roudoudou",
+     "La sucette",
+     "La papillote",
+     "Le chamallow"
+    ],
+    "correct": 2
+   },
+   "answer": "La papillote",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville de Bourgogne est célèbre pour son pain d'épices ?",
+    "choices": [
+     "Mâcon",
+     "Auxerre",
+     "Chalon",
+     "Dijon"
+    ],
+    "correct": 3
+   },
+   "answer": "Dijon",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année le premier sapin a-t-il été cité à Sélestat ?",
+    "choices": [
+     "1521",
+     "1221",
+     "1721",
+     "1921"
+    ],
+    "correct": 0
+   },
+   "answer": "1521",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Finlande, comment appelle-t-on le Père Noël ?",
+    "choices": [
+     "Julenisse",
+     "Joulupukki",
+     "Kerstman",
+     "Weihnachtsmann"
+    ],
+    "correct": 1
+   },
+   "answer": "Joulupukki",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Écosse, comment appelle-t-on la fête du Nouvel An ?",
+    "choices": [
+     "Beltane",
+     "Samhain",
+     "Hogmanay",
+     "Burns Night"
+    ],
+    "correct": 2
+   },
+   "answer": "Hogmanay",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays du Pacifique accueille parmi les premiers la nouvelle année ?",
+    "choices": [
+     "Japon",
+     "Australie",
+     "Chili",
+     "Kiribati"
+    ],
+    "correct": 3
+   },
+   "answer": "Kiribati",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Islande, que s'offre-t-on la veille de Noël ?",
+    "choices": [
+     "Des livres",
+     "Des skis",
+     "Des pulls",
+     "Des poissons"
+    ],
+    "correct": 0
+   },
+   "answer": "Des livres",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle ville les guirlandes électriques de sapin sont-elles apparues en 1882 ?",
+    "choices": [
+     "Berlin",
+     "New York",
+     "Londres",
+     "Chicago"
+    ],
+    "correct": 1
+   },
+   "answer": "New York",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel nom porte le Père Noël au Danemark ?",
+    "choices": [
+     "Père Fouettard",
+     "Ded Moroz",
+     "Julemanden",
+     "Babbo Natale"
+    ],
+    "correct": 2
+   },
+   "answer": "Julemanden",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle le Père Noël russe, vêtu de bleu ?",
+    "choices": [
+     "Joulupukki",
+     "Kris Kringle",
+     "Zwarte Piet",
+     "Ded Moroz"
+    ],
+    "correct": 3
+   },
+   "answer": "Ded Moroz",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on les chants de Noël en anglais ?",
+    "choices": [
+     "Les carols",
+     "Les choirs",
+     "Les hymns",
+     "Les songbooks"
+    ],
+    "correct": 0
+   },
+   "answer": "Les carols",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle fête des lumières a lieu en Suède le 13 décembre ?",
+    "choices": [
+     "La Saint-Jean",
+     "La Sainte-Lucie",
+     "La Chandeleur",
+     "La Walpurgis"
+    ],
+    "correct": 1
+   },
+   "answer": "La Sainte-Lucie",
+   "level": "moyen"
+  }
+ ]
+}

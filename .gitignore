@@ -1,0 +1,23 @@
+node_modules/
+out/
+public/emoji/
+public/fonts/
+public/audio/tick.mp3
+public/audio/ding.mp3
+public/audio/whoosh.mp3
+public/audio/buzz.mp3
+public/audio/jingle.mp3
+public/audio/fanfare.mp3
+src/audio.json
+src/mascots.json
+.env
+public/tts/
+
+# Musique de fond : téléchargée au rendu (scripts/get-music.mjs, secret MUSIC_URL), jamais versionnée
+public/audio/music.mp3
+public/audio/music-*.mp3
+
+# Hors dépôt public (conservés dans le dépôt privé d'archive)
+site/server-snapshot/
+site/keyword-volumes-*.csv
+docs/voice-samples/

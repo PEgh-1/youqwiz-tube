@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-histoire",
+  "theme": "histoire",
+  "title": "Quiz histoire : 20 questions de culture générale",
+  "description": "Quiz histoire gratuit : 20 questions sur l'Antiquité, le Moyen Âge et les grands événements jusqu'au XXe siècle. Teste ta culture !",
+  "h1": "Quiz histoire : connais-tu les grands moments du monde ?",
+  "intro": "Des pyramides d'Égypte à la chute du mur de Berlin, ce quiz histoire te promène à travers les siècles et les continents. Tu vas croiser des empires, des batailles, des traités et des figures qui ont changé le monde. Les 20 questions montent doucement en difficulté : huit faciles pour se mettre en jambes, huit moyennes pour les curieux, puis quatre questions expert pour les passionnés. Compte environ 5 secondes par question, soit une petite pause d'à peine deux minutes. Chaque réponse est accompagnée d'une explication pour apprendre quelque chose au passage. À toi de jouer, et défie tes amis !",
+  "questions": [
+    {
+      "q": "Quelle civilisation a bâti les pyramides de Gizeh ?",
+      "choices": [
+        "Les Mayas",
+        "Les Égyptiens",
+        "Les Romains",
+        "Les Grecs"
+      ],
+      "answer": 1,
+      "explication": "Les pyramides de Gizeh, dont celle de Khéops, ont été élevées par les Égyptiens de l'Antiquité, il y a plus de 4 000 ans.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel navigateur, parti d'Espagne, atteint les Amériques en 1492 ?",
+      "choices": [
+        "Vasco de Gama",
+        "Magellan",
+        "Jacques Cartier",
+        "Christophe Colomb"
+      ],
+      "answer": 3,
+      "explication": "Christophe Colomb, au service des souverains espagnols, aborde les Bahamas en octobre 1492 en cherchant une route vers l'Asie.",
+      "level": "facile"
+    },
+    {
+      "q": "En quelle année commence la Première Guerre mondiale ?",
+      "choices": [
+        "1914",
+        "1905",
+        "1918",
+        "1939"
+      ],
+      "answer": 0,
+      "explication": "Le conflit débute à l'été 1914, après l'assassinat de l'archiduc François-Ferdinand à Sarajevo, et s'achève en 1918.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel mur symbole de la guerre froide tombe en novembre 1989 ?",
+      "choices": [
+        "Le mur d'Hadrien",
+        "La Grande Muraille",
+        "Le mur de Berlin",
+        "Le mur de l'Atlantique"
+      ],
+      "answer": 2,
+      "explication": "Le mur de Berlin, érigé en 1961, s'ouvre le 9 novembre 1989 et l'Allemagne est réunifiée l'année suivante.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle cité romaine est ensevelie par l'éruption du Vésuve en 79 ?",
+      "choices": [
+        "Carthage",
+        "Alexandrie",
+        "Pompéi",
+        "Athènes"
+      ],
+      "answer": 2,
+      "explication": "Pompéi, ensevelie sous les cendres, a été si bien conservée qu'elle offre aujourd'hui un témoignage unique sur la vie romaine.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle cité grecque naît la démocratie ?",
+      "choices": [
+        "Athènes",
+        "Sparte",
+        "Corinthe",
+        "Thèbes"
+      ],
+      "answer": 0,
+      "explication": "C'est à Athènes, avec les réformes de Clisthène à la fin du VIe siècle avant notre ère, que naît la démocratie : les citoyens votent les lois en assemblée.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui est le premier homme à marcher sur la Lune, en 1969 ?",
+      "choices": [
+        "Buzz Aldrin",
+        "Youri Gagarine",
+        "John Glenn",
+        "Neil Armstrong"
+      ],
+      "answer": 3,
+      "explication": "Neil Armstrong pose le pied sur la Lune le 21 juillet 1969 (heure de Paris), lors de la mission américaine Apollo 11.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quel pays naît la Renaissance, au XVe siècle ?",
+      "choices": [
+        "L'Espagne",
+        "L'Italie",
+        "L'Angleterre",
+        "La Pologne"
+      ],
+      "answer": 1,
+      "explication": "La Renaissance prend son essor en Italie, notamment à Florence, avec des artistes comme Léonard de Vinci et Michel-Ange.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui fonde Constantinople en 330 ?",
+      "choices": [
+        "L'empereur Auguste",
+        "L'empereur Néron",
+        "Charlemagne",
+        "L'empereur Constantin"
+      ],
+      "answer": 3,
+      "explication": "Constantin Ier installe sa capitale sur l'ancienne Byzance, qui prend son nom : aujourd'hui Istanbul.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année tombe l'Empire romain d'Occident ?",
+      "choices": [
+        "410",
+        "476",
+        "800",
+        "1453"
+      ],
+      "answer": 1,
+      "explication": "En 476, le dernier empereur d'Occident, Romulus Augustule, est déposé : cette date marque traditionnellement la fin de l'Antiquité.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année le roi d'Angleterre Jean sans Terre signe-t-il la Grande Charte ?",
+      "choices": [
+        "1215",
+        "1066",
+        "1315",
+        "1415"
+      ],
+      "answer": 0,
+      "explication": "La Magna Carta limite le pouvoir royal en Angleterre et est souvent vue comme un jalon des libertés politiques.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année les Ottomans prennent-ils Constantinople ?",
+      "choices": [
+        "1204",
+        "1492",
+        "1453",
+        "1517"
+      ],
+      "answer": 2,
+      "explication": "Mehmed II s'empare de la ville en mai 1453, mettant fin à l'Empire byzantin. Beaucoup d'historiens y voient la fin du Moyen Âge.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel homme d'État est surnommé le « chancelier de fer » et réalise l'unité allemande ?",
+      "choices": [
+        "Otto von Bismarck",
+        "Guillaume Ier",
+        "Konrad Adenauer",
+        "Helmut Kohl"
+      ],
+      "answer": 0,
+      "explication": "Bismarck, ministre du roi de Prusse, mène trois guerres et fait proclamer l'Empire allemand en 1871.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année a lieu la révolution russe qui amène les bolcheviks au pouvoir ?",
+      "choices": [
+        "1905",
+        "1914",
+        "1917",
+        "1923"
+      ],
+      "answer": 2,
+      "explication": "En octobre 1917 (calendrier russe), les bolcheviks de Lénine prennent le pouvoir à Petrograd.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année l'Inde accède-t-elle à l'indépendance ?",
+      "choices": [
+        "1919",
+        "1947",
+        "1935",
+        "1962"
+      ],
+      "answer": 1,
+      "explication": "L'indépendance est proclamée en août 1947, en même temps que la partition qui crée le Pakistan.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle cité est l'adversaire de Rome lors des guerres puniques ?",
+      "choices": [
+        "Syracuse",
+        "Corinthe",
+        "Troie",
+        "Carthage"
+      ],
+      "answer": 3,
+      "explication": "Rome affronte Carthage en trois guerres entre 264 et 146 avant notre ère, et finit par détruire la ville.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel traité de 1648 met fin à la guerre de Trente Ans ?",
+      "choices": [
+        "Le traité de Versailles",
+        "Le traité d'Utrecht",
+        "Les traités de Westphalie",
+        "Le congrès de Vienne"
+      ],
+      "answer": 2,
+      "explication": "Les traités de Westphalie redessinent l'Europe et consacrent l'idée d'États souverains.",
+      "level": "expert"
+    },
+    {
+      "q": "En quelle année meurt Alexandre le Grand, à Babylone ?",
+      "choices": [
+        "323 avant J.-C.",
+        "356 avant J.-C.",
+        "146 avant J.-C.",
+        "44 avant J.-C."
+      ],
+      "answer": 0,
+      "explication": "Alexandre meurt à 32 ans, en 323 avant notre ère, après avoir bâti un immense empire de la Grèce à l'Inde.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel traité de 1494 partage le Nouveau Monde entre l'Espagne et le Portugal ?",
+      "choices": [
+        "Le traité de Lisbonne",
+        "Le traité de Tordesillas",
+        "Le traité de Madrid",
+        "Le traité de Séville"
+      ],
+      "answer": 1,
+      "explication": "Négocié entre les deux couronnes après une bulle du pape de 1493, il fixe une ligne de partage dans l'Atlantique, ce qui explique en partie le portugais parlé au Brésil.",
+      "level": "expert"
+    },
+    {
+      "q": "Qui est le premier empereur de Chine, qui unifie le pays en 221 avant J.-C. ?",
+      "choices": [
+        "Confucius",
+        "Kubilai Khan",
+        "Sun Tzu",
+        "Qin Shi Huangdi"
+      ],
+      "answer": 3,
+      "explication": "Le roi de Qin devient le premier empereur et lance de grands travaux. Son mausolée, près de Xi'an, est gardé par l'armée de terre cuite.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelle est la durée de l'Antiquité en histoire ?",
+      "On la fait généralement commencer avec l'invention de l'écriture, vers 3 300 avant notre ère, et finir en 476 avec la chute de l'Empire romain d'Occident. Elle couvre donc environ quatre mille ans, des pharaons aux dernières années de Rome, en passant par la Grèce classique. Chaque grande période a ses événements et ses figures marquantes."
+    ],
+    [
+      "Pourquoi le Moyen Âge dure-t-il environ mille ans ?",
+      "Les historiens le situent entre 476 et 1453 ou 1492, soit un millénaire. Ce découpage est une convention : il commence avec la fin de l'Empire romain d'Occident et se termine avec la prise de Constantinople ou la découverte de l'Amérique, selon les écoles. Ces dates servent de repères pour tout ranger."
+    ],
+    [
+      "Comment bien réviser l'histoire avec un quiz ?",
+      "Répète le quiz plusieurs fois, en lisant l'explication après chaque réponse. Associe chaque date à un événement et à un personnage, puis retiens les grandes périodes avant les détails. Quelques minutes par jour valent mieux qu'une longue séance, et les questions ratées reviennent à ta mémoire plus facilement."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire-de-france",
+    "/quiz-seconde-guerre-mondiale",
+    "/quiz-revolution-francaise",
+    "/quiz-rois-de-france"
+  ]
+}

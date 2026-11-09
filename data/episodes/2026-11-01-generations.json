@@ -1,0 +1,1062 @@
+{
+ "id": "2026-11-01-generations",
+ "pillar": "generations",
+ "template": "QuizQCM",
+ "theme": 2,
+ "title": "Seuls ceux nés AVANT 1975 réussiront 📺📼☎️ 68 questions souvenirs | Quiz Générations",
+ "question": "",
+ "intro": {
+  "hook": "Seuls ceux nés AVANT 1975 réussiront",
+  "sub": "Tu as vécu ça ? Prouve-le 😏"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que glisse-t-on dans un magnétoscope pour regarder un film ?",
+    "choices": [
+     "Une disquette",
+     "Une cassette vidéo",
+     "Un disque vinyle",
+     "Une pellicule photo"
+    ],
+    "correct": 1
+   },
+   "answer": "Une cassette vidéo",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur quoi le maître écrivait-il à la craie, face à la classe ?",
+    "choices": [
+     "Le tableau blanc",
+     "Le paperboard",
+     "L'écran",
+     "Le tableau noir"
+    ],
+    "correct": 3
+   },
+   "answer": "Le tableau noir",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel jeu de cour d'école se dessine à la craie sur le sol ?",
+    "choices": [
+     "Le jeu de l'oie",
+     "La balle au prisonnier",
+     "Le morpion",
+     "La marelle"
+    ],
+    "correct": 3
+   },
+   "answer": "La marelle",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Je l'aime à mourir » ?",
+    "choices": [
+     "Alain Souchon",
+     "Michel Berger",
+     "Yves Duteil",
+     "Francis Cabrel"
+    ],
+    "correct": 3
+   },
+   "answer": "Francis Cabrel",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que lançait aux spectateurs la caravane publicitaire du Tour de France ?",
+    "choices": [
+     "Des petits cadeaux",
+     "Des fleurs",
+     "Des pièces",
+     "Des journaux"
+    ],
+    "correct": 0
+   },
+   "answer": "Des petits cadeaux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel ustensile à manivelle servait à moudre le café ?",
+    "choices": [
+     "Le presse-purée",
+     "Le moulin à café",
+     "Le hachoir",
+     "La rôtissoire"
+    ],
+    "correct": 1
+   },
+   "answer": "Le moulin à café",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pantalon est à la mode dans les années 70 ?",
+    "choices": [
+     "Le pantalon cigarette",
+     "Le pantalon pattes d'éléphant",
+     "Le jogging",
+     "Le bermuda"
+    ],
+    "correct": 1
+   },
+   "answer": "Le pantalon pattes d'éléphant",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chantait « Alexandrie Alexandra » ?",
+    "choices": [
+     "Sacha Distel",
+     "Michel Delpech",
+     "Claude François",
+     "Gérard Lenorman"
+    ],
+    "correct": 2
+   },
+   "answer": "Claude François",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle petite radio portative fonctionnait à piles dans les années 60 ?",
+    "choices": [
+     "Le transistor",
+     "L'électrophone",
+     "Le téléviseur",
+     "Le magnétoscope"
+    ],
+    "correct": 0
+   },
+   "answer": "Le transistor",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel groupe suédois gagne l'Eurovision 1974 avec « Waterloo » ?",
+    "choices": [
+     "Roxette",
+     "Europe",
+     "ABBA",
+     "Ace of Base"
+    ],
+    "correct": 2
+   },
+   "answer": "ABBA",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelait-on le système où l'on rapportait la bouteille vide ?",
+    "choices": [
+     "La consigne",
+     "Le troc",
+     "Le dépôt",
+     "Le rappel"
+    ],
+    "correct": 0
+   },
+   "answer": "La consigne",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur un vieux téléphone, que faisait-on tourner pour composer un numéro ?",
+    "choices": [
+     "Le cadran",
+     "Le clavier",
+     "Le bouton",
+     "La manivelle"
+    ],
+    "correct": 0
+   },
+   "answer": "Le cadran",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle ville se déroule « Le Gendarme de Saint-Tropez » ?",
+    "choices": [
+     "Cannes",
+     "Nice",
+     "Saint-Tropez",
+     "Marseille"
+    ],
+    "correct": 2
+   },
+   "answer": "Saint-Tropez",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que faisaient les élèves avant d'entrer en classe ?",
+    "choices": [
+     "Ils chantaient",
+     "Ils couraient",
+     "Ils se mettaient en rang",
+     "Ils se saluaient"
+    ],
+    "correct": 2
+   },
+   "answer": "Ils se mettaient en rang",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel instrument à manivelle jouait des airs dans les rues ?",
+    "choices": [
+     "L'accordéon",
+     "L'orgue de Barbarie",
+     "La harpe",
+     "Le clavecin"
+    ],
+    "correct": 1
+   },
+   "answer": "L'orgue de Barbarie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel boîtier permet de changer de chaîne sans se lever ?",
+    "choices": [
+     "Le décodeur",
+     "Le variateur",
+     "Le combiné",
+     "La télécommande"
+    ],
+    "correct": 3
+   },
+   "answer": "La télécommande",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel jouet monte et descend au bout d'une ficelle ?",
+    "choices": [
+     "La toupie",
+     "Le bilboquet",
+     "Le diabolo",
+     "Le yo-yo"
+    ],
+    "correct": 3
+   },
+   "answer": "Le yo-yo",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chantait « Aux Champs-Élysées » ?",
+    "choices": [
+     "Joe Dassin",
+     "Serge Lama",
+     "Michel Sardou",
+     "Daniel Guichard"
+    ],
+    "correct": 0
+   },
+   "answer": "Joe Dassin",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel petit terminal à écran et clavier a précédé Internet à la maison ?",
+    "choices": [
+     "Le Minitel",
+     "Le fax",
+     "Le télex",
+     "Le répondeur"
+    ],
+    "correct": 0
+   },
+   "answer": "Le Minitel",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel président est élu en 1981 ?",
+    "choices": [
+     "Valéry Giscard d'Estaing",
+     "Georges Pompidou",
+     "Jacques Chirac",
+     "François Mitterrand"
+    ],
+    "correct": 3
+   },
+   "answer": "François Mitterrand",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chantait « Les Lacs du Connemara » ?",
+    "choices": [
+     "Julien Clerc",
+     "Michel Polnareff",
+     "Alain Souchon",
+     "Michel Sardou"
+    ],
+    "correct": 3
+   },
+   "answer": "Michel Sardou",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Santiano » ?",
+    "choices": [
+     "Antoine",
+     "Marcel Amont",
+     "Hugues Aufray",
+     "Georges Brassens"
+    ],
+    "correct": 2
+   },
+   "answer": "Hugues Aufray",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Je suis malade » ?",
+    "choices": [
+     "Michel Delpech",
+     "Claude Nougaro",
+     "Serge Lama",
+     "Hervé Vilard"
+    ],
+    "correct": 2
+   },
+   "answer": "Serge Lama",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville savoyarde accueille les JO d'hiver de 1992 ?",
+    "choices": [
+     "Chamonix",
+     "Grenoble",
+     "Albertville",
+     "Annecy"
+    ],
+    "correct": 2
+   },
+   "answer": "Albertville",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel groupe britannique joue à l'Olympia de Paris en 1964 ?",
+    "choices": [
+     "Les Beatles",
+     "Les Kinks",
+     "Les Who",
+     "Les Animals"
+    ],
+    "correct": 0
+   },
+   "answer": "Les Beatles",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle émission du dimanche, animée par Jacques Martin, fait chanter des enfants ?",
+    "choices": [
+     "L'École des fans",
+     "Les Jeux de 20 heures",
+     "Intervilles",
+     "La Chance aux chansons"
+    ],
+    "correct": 0
+   },
+   "answer": "L'École des fans",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle émission de Georges Pernoud est consacrée à la mer ?",
+    "choices": [
+     "Thalassa",
+     "Océanos",
+     "Mer et Marée",
+     "Bleu Marine"
+    ],
+    "correct": 0
+   },
+   "answer": "Thalassa",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Quand la musique est bonne » ?",
+    "choices": [
+     "Jean-Jacques Goldman",
+     "Daniel Balavoine",
+     "Michel Berger",
+     "Renaud"
+    ],
+    "correct": 0
+   },
+   "answer": "Jean-Jacques Goldman",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelait-on l'image fixe de réglage diffusée à la télé ?",
+    "choices": [
+     "La grille",
+     "La mire",
+     "La trame",
+     "La balise"
+    ],
+    "correct": 1
+   },
+   "answer": "La mire",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle émission diffusait des pièces de théâtre filmées après le dîner ?",
+    "choices": [
+     "Les Dossiers de l'écran",
+     "La Piste aux étoiles",
+     "Au théâtre ce soir",
+     "Apostrophes"
+    ],
+    "correct": 2
+   },
+   "answer": "Au théâtre ce soir",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel cosmonaute soviétique est le premier homme dans l'espace en 1961 ?",
+    "choices": [
+     "Alexeï Leonov",
+     "Gherman Titov",
+     "Buzz Aldrin",
+     "Youri Gagarine"
+    ],
+    "correct": 3
+   },
+   "answer": "Youri Gagarine",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Femmes, je vous aime » ?",
+    "choices": [
+     "Michel Sardou",
+     "Gérard Lenorman",
+     "Serge Lama",
+     "Julien Clerc"
+    ],
+    "correct": 3
+   },
+   "answer": "Julien Clerc",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle émission de débat suivait un film, le mardi soir ?",
+    "choices": [
+     "Bouillon de culture",
+     "Les Dossiers de l'écran",
+     "Le Grand Échiquier",
+     "Les Enfants du rock"
+    ],
+    "correct": 1
+   },
+   "answer": "Les Dossiers de l'écran",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pilote français est champion du monde de F1 en 1985 ?",
+    "choices": [
+     "Alain Prost",
+     "Jacques Laffite",
+     "René Arnoux",
+     "Didier Pironi"
+    ],
+    "correct": 0
+   },
+   "answer": "Alain Prost",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année le permis à points entre-t-il en vigueur en France ?",
+    "choices": [
+     "1986",
+     "1992",
+     "1989",
+     "1996"
+    ],
+    "correct": 1
+   },
+   "answer": "1992",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel code tape-t-on sur le Minitel pour accéder aux services ?",
+    "choices": [
+     "3611",
+     "3617",
+     "3615",
+     "3620"
+    ],
+    "correct": 2
+   },
+   "answer": "3615",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Jusqu'au début des années 70, quel jour les écoliers n'avaient-ils pas classe ?",
+    "choices": [
+     "Le mercredi",
+     "Le jeudi",
+     "Le lundi",
+     "Le vendredi"
+    ],
+    "correct": 1
+   },
+   "answer": "Le jeudi",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Français gagne Roland-Garros en 1983 ?",
+    "choices": [
+     "Guy Forget",
+     "Henri Leconte",
+     "Jean-Paul Loth",
+     "Yannick Noah"
+    ],
+    "correct": 3
+   },
+   "answer": "Yannick Noah",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année le tunnel sous la Manche est-il inauguré ?",
+    "choices": [
+     "1990",
+     "1996",
+     "1987",
+     "1994"
+    ],
+    "correct": 3
+   },
+   "answer": "1994",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle future star québécoise gagne l'Eurovision 1988 pour la Suisse ?",
+    "choices": [
+     "Diane Tell",
+     "Céline Dion",
+     "Isabelle Boulay",
+     "Nana Mouskouri"
+    ],
+    "correct": 1
+   },
+   "answer": "Céline Dion",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la couleur arrive-t-elle sur la télévision française ?",
+    "choices": [
+     "1962",
+     "1967",
+     "1971",
+     "1975"
+    ],
+    "correct": 1
+   },
+   "answer": "1967",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle émission oppose des villes de plusieurs pays d'Europe dans des jeux ?",
+    "choices": [
+     "Intervilles",
+     "Les Jeux de 20 heures",
+     "Jeux sans frontières",
+     "Tournez manège"
+    ],
+    "correct": 2
+   },
+   "answer": "Jeux sans frontières",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Il est cinq heures, Paris s'éveille » ?",
+    "choices": [
+     "Michel Polnareff",
+     "Jacques Dutronc",
+     "Nino Ferrer",
+     "Antoine"
+    ],
+    "correct": 1
+   },
+   "answer": "Jacques Dutronc",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Joe le taxi » en 1987 ?",
+    "choices": [
+     "Vanessa Paradis",
+     "Mylène Farmer",
+     "Desireless",
+     "Sabine Paturel"
+    ],
+    "correct": 0
+   },
+   "answer": "Vanessa Paradis",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Français gagne le 110 m haies aux JO de Montréal en 1976 ?",
+    "choices": [
+     "Guy Drut",
+     "Michel Jazy",
+     "Roger Bambuck",
+     "Stéphane Diagana"
+    ],
+    "correct": 0
+   },
+   "answer": "Guy Drut",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui remporte l'Eurovision 1960 avec « Tom Pillibi » ?",
+    "choices": [
+     "Isabelle Aubret",
+     "Dany Dauberson",
+     "Jacqueline Boyer",
+     "Jacqueline François"
+    ],
+    "correct": 2
+   },
+   "answer": "Jacqueline Boyer",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année l'heure d'été est-elle instaurée en France ?",
+    "choices": [
+     "1968",
+     "1981",
+     "1973",
+     "1976"
+    ],
+    "correct": 3
+   },
+   "answer": "1976",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quels savants figurent sur le dernier billet de 500 francs ?",
+    "choices": [
+     "Pasteur et Koch",
+     "Louis et Auguste Lumière",
+     "Les frères Montgolfier",
+     "Pierre et Marie Curie"
+    ],
+    "correct": 3
+   },
+   "answer": "Pierre et Marie Curie",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel examen de fin de primaire est supprimé en 1989 ?",
+    "choices": [
+     "Le brevet",
+     "Le certificat d'études",
+     "Le baccalauréat",
+     "L'examen d'entrée"
+    ],
+    "correct": 1
+   },
+   "answer": "Le certificat d'études",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « La Ballade des gens heureux » ?",
+    "choices": [
+     "Gérard Lenorman",
+     "Michel Fugain",
+     "Julien Clerc",
+     "Pierre Bachelet"
+    ],
+    "correct": 0
+   },
+   "answer": "Gérard Lenorman",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Les Corons » ?",
+    "choices": [
+     "Daniel Balavoine",
+     "Jean-Jacques Goldman",
+     "Renaud",
+     "Pierre Bachelet"
+    ],
+    "correct": 3
+   },
+   "answer": "Pierre Bachelet",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quel hiver l'abbé Pierre lance-t-il son célèbre appel ?",
+    "choices": [
+     "1944",
+     "1954",
+     "1964",
+     "1974"
+    ],
+    "correct": 1
+   },
+   "answer": "1954",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit les histoires du Petit Nicolas ?",
+    "choices": [
+     "Pierre Perret",
+     "Hergé",
+     "Marcel Pagnol",
+     "René Goscinny"
+    ],
+    "correct": 3
+   },
+   "answer": "René Goscinny",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays est née la cassette audio, en 1963 ?",
+    "choices": [
+     "Le Japon",
+     "Les États-Unis",
+     "L'Allemagne",
+     "Les Pays-Bas"
+    ],
+    "correct": 3
+   },
+   "answer": "Les Pays-Bas",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que font les Shadoks toute la journée ?",
+    "choices": [
+     "Ils construisent",
+     "Ils pompent",
+     "Ils chantent",
+     "Ils pêchent"
+    ],
+    "correct": 1
+   },
+   "answer": "Ils pompent",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Nathalie », où il est question de la place Rouge ?",
+    "choices": [
+     "Charles Aznavour",
+     "Yves Montand",
+     "Gilbert Bécaud",
+     "Georges Moustaki"
+    ],
+    "correct": 2
+   },
+   "answer": "Gilbert Bécaud",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle république soviétique se trouve Tchernobyl ?",
+    "choices": [
+     "La Russie",
+     "La Biélorussie",
+     "La Lituanie",
+     "L'Ukraine"
+    ],
+    "correct": 3
+   },
+   "answer": "L'Ukraine",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Premier ministre de Giscard est surnommé « le meilleur économiste de France » ?",
+    "choices": [
+     "Pierre Mauroy",
+     "Raymond Barre",
+     "Jacques Chirac",
+     "Michel Debré"
+    ],
+    "correct": 1
+   },
+   "answer": "Raymond Barre",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année est signé le traité de Rome, qui fonde le Marché commun ?",
+    "choices": [
+     "1945",
+     "1957",
+     "1963",
+     "1972"
+    ],
+    "correct": 1
+   },
+   "answer": "1957",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui publie le roman « Bonjour tristesse » en 1954 ?",
+    "choices": [
+     "Simone de Beauvoir",
+     "Colette",
+     "Françoise Sagan",
+     "Marguerite Duras"
+    ],
+    "correct": 2
+   },
+   "answer": "Françoise Sagan",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année le Minitel s'arrête-t-il définitivement ?",
+    "choices": [
+     "2002",
+     "2008",
+     "2016",
+     "2012"
+    ],
+    "correct": 3
+   },
+   "answer": "2012",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la chaîne Canal+ est-elle lancée ?",
+    "choices": [
+     "1976",
+     "1981",
+     "1984",
+     "1990"
+    ],
+    "correct": 2
+   },
+   "answer": "1984",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel navigateur boucle un tour du monde en solitaire en 1974 ?",
+    "choices": [
+     "Alain Colas",
+     "Éric Tabarly",
+     "Gérard d'Aboville",
+     "Titouan Lamazou"
+    ],
+    "correct": 0
+   },
+   "answer": "Alain Colas",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Tombe la neige » en 1963 ?",
+    "choices": [
+     "Hervé Vilard",
+     "Salvatore Adamo",
+     "Michel Fugain",
+     "Nino Ferrer"
+    ],
+    "correct": 1
+   },
+   "answer": "Salvatore Adamo",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel coureur français est le premier à gagner cinq Tours de France ?",
+    "choices": [
+     "Raymond Poulidor",
+     "Bernard Thévenet",
+     "Louison Bobet",
+     "Jacques Anquetil"
+    ],
+    "correct": 3
+   },
+   "answer": "Jacques Anquetil",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la majorité passe-t-elle de 21 à 18 ans en France ?",
+    "choices": [
+     "1968",
+     "1974",
+     "1981",
+     "1986"
+    ],
+    "correct": 1
+   },
+   "answer": "1974",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de buts Just Fontaine marque-t-il à la Coupe du monde 1958 ?",
+    "choices": [
+     "9",
+     "11",
+     "15",
+     "13"
+    ],
+    "correct": 3
+   },
+   "answer": "13",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel satellite relaie en 1962 les premières images de télé entre l'Amérique et l'Europe ?",
+    "choices": [
+     "Telstar",
+     "Spoutnik",
+     "Explorer",
+     "Sputnik 2"
+    ],
+    "correct": 0
+   },
+   "answer": "Telstar",
+   "level": "impossible"
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2,
+  "slow": true
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "68 questions, 4 réponses, une seule bonne. Compte tes points et dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #generations #youqwiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "devinette",
+   "youqwiz",
+   "generations",
+   "devine",
+   "facile à impossible"
+  ],
+  "thumbnail": {
+   "line1": "Nés avant 1975 ?",
+   "line2": "68 SOUVENIRS",
+   "emoji": "📺"
+  },
+  "shortItems": 5
+ }
+}

@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-chimie",
+  "theme": "sciences",
+  "title": "Quiz chimie : 20 questions sur les éléments",
+  "description": "Quiz chimie : 20 questions sur les éléments, les symboles chimiques, les molécules et les réactions courantes. Du niveau facile à expert.",
+  "h1": "Quiz chimie : connais-tu les bases de la chimie ?",
+  "intro": "Atomes, molécules, symboles du tableau périodique, réactions du quotidien : la chimie est partout, de ta cuisine à ton corps. Ce quiz te propose 20 questions pour tester tes bases, des symboles chimiques les plus connus aux grands noms de la discipline. Le niveau monte progressivement, des questions faciles aux plus pointues. Compte environ 5 secondes par question, et lis les explications pour retenir l'essentiel. Tu y croiseras des symboles, des formules, des gaz nobles et quelques grands chimistes. Enfile ta blouse virtuelle et lance-toi !",
+  "questions": [
+    {
+      "q": "Quel est le symbole chimique de l'oxygène ?",
+      "choices": [
+        "Ox",
+        "O",
+        "Og",
+        "Oy"
+      ],
+      "answer": 1,
+      "explication": "L'oxygène a pour symbole O. C'est l'élément le plus abondant de la croûte terrestre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le symbole chimique du fer ?",
+      "choices": [
+        "F",
+        "Fr",
+        "Fi",
+        "Fe"
+      ],
+      "answer": 3,
+      "explication": "Fe vient du latin « ferrum ».",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le symbole chimique du calcium ?",
+      "choices": [
+        "Ca",
+        "C",
+        "Cl",
+        "Ka"
+      ],
+      "answer": 0,
+      "explication": "Le calcium a pour symbole Ca. C désigne le carbone et Cl le chlore. Le calcium est un composant essentiel des os et des dents.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la formule du dioxyde de carbone ?",
+      "choices": [
+        "CO",
+        "C₂O",
+        "CO₂",
+        "O₂"
+      ],
+      "answer": 2,
+      "explication": "Le dioxyde de carbone est composé d'un atome de carbone et de deux atomes d'oxygène.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le symbole chimique de l'azote ?",
+      "choices": [
+        "Az",
+        "Ni",
+        "N",
+        "At"
+      ],
+      "answer": 2,
+      "explication": "L'azote a pour symbole N, d'après son nom international « nitrogène ». Ni est le nickel et At l'astate.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le symbole chimique de l'hydrogène ?",
+      "choices": [
+        "H",
+        "Hy",
+        "Hg",
+        "He"
+      ],
+      "answer": 0,
+      "explication": "L'hydrogène, de symbole H, est l'élément le plus léger.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel élément forme la base des molécules organiques, comme celles des êtres vivants ?",
+      "choices": [
+        "le fer",
+        "l'argent",
+        "l'hélium",
+        "le carbone"
+      ],
+      "answer": 3,
+      "explication": "Le carbone peut former de longues chaînes et des anneaux, ce qui rend possible la chimie du vivant.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on un mélange où l'on ne distingue plus ses constituants, comme l'eau sucrée ?",
+      "choices": [
+        "un mélange hétérogène",
+        "un mélange homogène",
+        "une suspension",
+        "une émulsion"
+      ],
+      "answer": 1,
+      "explication": "Dans un mélange homogène, on ne voit qu'une seule phase à l'œil nu. L'eau et l'huile forment au contraire un mélange hétérogène.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le symbole chimique du plomb ?",
+      "choices": [
+        "Pl",
+        "Po",
+        "Pu",
+        "Pb"
+      ],
+      "answer": 3,
+      "explication": "Pb vient du latin « plumbum ».",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le symbole chimique du cuivre ?",
+      "choices": [
+        "Co",
+        "Cu",
+        "Cr",
+        "Ca"
+      ],
+      "answer": 1,
+      "explication": "Cu vient du latin « cuprum ».",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel gaz léger et non inflammable remplit certains ballons ?",
+      "choices": [
+        "l'hydrogène",
+        "l'oxygène",
+        "l'hélium",
+        "l'azote"
+      ],
+      "answer": 2,
+      "explication": "L'hélium est un gaz noble : plus léger que l'air, il ne brûle pas, contrairement à l'hydrogène.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel métal a pour symbole chimique Zn ?",
+      "choices": [
+        "le zinc",
+        "l'étain",
+        "le zirconium",
+        "le sodium"
+      ],
+      "answer": 0,
+      "explication": "Zn est le symbole du zinc, utilisé notamment pour protéger l'acier de la rouille par galvanisation. L'étain a pour symbole Sn.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle réaction chimique forme la rouille ?",
+      "choices": [
+        "l'oxydation du fer",
+        "la fusion du fer",
+        "la combustion du carbone",
+        "la dissolution du sel"
+      ],
+      "answer": 0,
+      "explication": "Le fer exposé à l'air et à l'eau s'oxyde et forme de l'oxyde de fer, la rouille.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien d'atomes d'hydrogène contient une molécule de méthane CH₄ ?",
+      "choices": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 2,
+      "explication": "L'indice 4 de la formule CH₄ indique quatre atomes d'hydrogène pour un atome de carbone.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel acide donne son goût acide au citron ?",
+      "choices": [
+        "l'acide sulfurique",
+        "l'acide citrique",
+        "l'acide chlorhydrique",
+        "l'acide acétique"
+      ],
+      "answer": 1,
+      "explication": "L'acide citrique est présent dans tous les agrumes. L'acide acétique, lui, est celui du vinaigre.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment appelle-t-on la famille d'éléments qui comprend l'hélium, le néon et l'argon ?",
+      "choices": [
+        "les métaux alcalins",
+        "les halogènes",
+        "les métaux de transition",
+        "les gaz nobles"
+      ],
+      "answer": 3,
+      "explication": "Les gaz nobles sont très peu réactifs, car leur couche électronique externe est complète.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le symbole chimique du tungstène ?",
+      "choices": [
+        "T",
+        "W",
+        "Tu",
+        "Tn"
+      ],
+      "answer": 1,
+      "explication": "Le symbole W vient de « wolfram », nom allemand du tungstène.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est l'élément le plus abondant de l'Univers ?",
+      "choices": [
+        "l'hydrogène",
+        "l'oxygène",
+        "le carbone",
+        "le fer"
+      ],
+      "answer": 0,
+      "explication": "L'hydrogène représente environ les trois quarts de la matière ordinaire de l'Univers.",
+      "level": "expert"
+    },
+    {
+      "q": "À quel chimiste français attribue-t-on la formule « rien ne se perd, rien ne se crée, tout se transforme » ?",
+      "choices": [
+        "Louis Pasteur",
+        "Marie Curie",
+        "Pierre Curie",
+        "Antoine Lavoisier"
+      ],
+      "answer": 3,
+      "explication": "Cette formule résume la loi de conservation de la masse établie par Lavoisier au XVIIIe siècle : la masse totale ne change pas lors d'une réaction chimique.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle particule détermine l'identité d'un élément chimique ?",
+      "choices": [
+        "l'électron",
+        "le neutron",
+        "le proton",
+        "le photon"
+      ],
+      "answer": 2,
+      "explication": "Le nombre de protons dans le noyau, ou numéro atomique, définit l'élément.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelle est la différence entre un atome et une molécule ?",
+      "Un atome est la plus petite unité d'un élément chimique. Une molécule est un assemblage d'au moins deux atomes liés entre eux : par exemple, la molécule d'eau H₂O contient deux atomes d'hydrogène et un atome d'oxygène. Les atomes de même type forment un élément, les assemblages forment des composés."
+    ],
+    [
+      "Pourquoi certains symboles chimiques semblent-ils venir d'une autre langue ?",
+      "Plusieurs symboles viennent du nom latin ou allemand de l'élément. Fe pour le fer vient de « ferrum », Pb pour le plomb de « plumbum » et W pour le tungstène de « wolfram ». Cela permet d'avoir un langage commun à tous les chimistes."
+    ],
+    [
+      "Qui a créé le tableau périodique des éléments ?",
+      "Le chimiste russe Dmitri Mendeleïev a présenté en 1869 une classification des éléments par masse atomique croissante. Elle regroupait les éléments aux propriétés semblables et laissait des cases vides pour des éléments encore inconnus, qui ont ensuite été découverts, ce qui a confirmé la pertinence de sa méthode."
+    ]
+  ],
+  "related": [
+    "/quiz-sciences",
+    "/quiz-physique",
+    "/quiz-corps-humain",
+    "/quiz-systeme-solaire",
+    "/quiz-espace"
+  ]
+}

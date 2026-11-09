@@ -1,0 +1,1666 @@
+{
+ "question": "Nomme {cat} qui commence par…",
+ "hook": "Nomme {n} MOTS qui commencent par…",
+ "emoji": "🔤🧠⏱️",
+ "slug": "alphabet",
+ "noun": "MOTS",
+ "timing": {
+  "question": 6,
+  "reveal": 2
+ },
+ "tags": [
+  "alphabet",
+  "petit bac",
+  "nomme un mot"
+ ],
+ "subject": "MOTS",
+ "items": [
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un animal"
+   },
+   "answer": "Âne, Abeille, Araignée, Autruche, Aigle",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un animal"
+   },
+   "answer": "Baleine, Bœuf, Biche, Buffle, Brebis",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un animal"
+   },
+   "answer": "Chat, Chien, Cheval, Canard, Cochon",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un animal"
+   },
+   "answer": "Dauphin, Dinde, Dromadaire, Dindon",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un animal"
+   },
+   "answer": "Éléphant, Écureuil, Escargot, Épervier",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un animal"
+   },
+   "answer": "Fourmi, Flamant, Furet, Faucon, Fauvette",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un animal"
+   },
+   "answer": "Girafe, Gorille, Grenouille, Grillon, Gazelle",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "un animal"
+   },
+   "answer": "Hibou, Hérisson, Hippopotame, Hamster, Homard",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "un animal"
+   },
+   "answer": "Iguane, Ibis, Impala",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un animal"
+   },
+   "answer": "Jaguar, Jument, Jabiru",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "un animal"
+   },
+   "answer": "Koala, Kangourou, Kiwi, Krill",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un animal"
+   },
+   "answer": "Lion, Lapin, Loup, Lézard, Lama",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un animal"
+   },
+   "answer": "Mouton, Mouche, Moineau, Morse",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un animal"
+   },
+   "answer": "Narval, Nandou, Naja",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un animal"
+   },
+   "answer": "Ours, Oie, Otarie, Orque",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un animal"
+   },
+   "answer": "Poule, Poisson, Panda, Pingouin, Perroquet",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "un animal"
+   },
+   "answer": "Quetzal, Quokka, Quagga",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "un animal"
+   },
+   "answer": "Renard, Rhinocéros, Requin, Rat, Raton laveur",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un animal"
+   },
+   "answer": "Singe, Serpent, Souris, Sanglier, Salamandre",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un animal"
+   },
+   "answer": "Tigre, Tortue, Taureau, Toucan, Taupe",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "un animal"
+   },
+   "answer": "Urubu, Unau, Urial",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "un animal"
+   },
+   "answer": "Vache, Vautour, Ver de terre, Vipère, Varan",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "un animal"
+   },
+   "answer": "Wapiti, Wombat, Wallaby",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "un animal"
+   },
+   "answer": "Xénope, Xérus, Xylocope",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "un animal"
+   },
+   "answer": "Yak, Yapock, Yabby",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "un animal"
+   },
+   "answer": "Zèbre, Zébu, Zorille",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un pays"
+   },
+   "answer": "Allemagne, Algérie, Argentine, Autriche, Australie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un pays"
+   },
+   "answer": "Belgique, Brésil, Bolivie, Bulgarie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un pays"
+   },
+   "answer": "Canada, Chine, Chili, Cuba, Colombie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un pays"
+   },
+   "answer": "Danemark, Djibouti, Dominique",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un pays"
+   },
+   "answer": "Espagne, Égypte, Équateur, Estonie, Éthiopie",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un pays"
+   },
+   "answer": "France, Finlande, Fidji",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un pays"
+   },
+   "answer": "Grèce, Gabon, Ghana, Guatemala, Guinée",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "un pays"
+   },
+   "answer": "Hongrie, Haïti, Honduras",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "un pays"
+   },
+   "answer": "Italie, Inde, Irlande, Islande, Irak",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un pays"
+   },
+   "answer": "Japon, Jordanie, Jamaïque",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "un pays"
+   },
+   "answer": "Kenya, Koweït, Kazakhstan, Kirghizistan",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un pays"
+   },
+   "answer": "Liban, Lituanie, Luxembourg, Libye, Lettonie",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un pays"
+   },
+   "answer": "Maroc, Mexique, Mali, Madagascar, Malte",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un pays"
+   },
+   "answer": "Norvège, Niger, Nigeria, Népal, Nicaragua",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un pays"
+   },
+   "answer": "Oman, Ouganda, Ouzbékistan",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un pays"
+   },
+   "answer": "Portugal, Pologne, Pérou, Pays-Bas, Paraguay",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "un pays"
+   },
+   "answer": "Roumanie, Russie, Rwanda",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un pays"
+   },
+   "answer": "Suisse, Suède, Sénégal, Serbie, Slovénie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un pays"
+   },
+   "answer": "Tunisie, Turquie, Thaïlande, Tchad, Togo",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "un pays"
+   },
+   "answer": "Ukraine, Uruguay",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "un pays"
+   },
+   "answer": "Venezuela, Vietnam, Vanuatu",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "un pays"
+   },
+   "answer": "Zambie, Zimbabwe",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "une ville de France"
+   },
+   "answer": "Amiens, Angers, Annecy, Avignon, Arras",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "une ville de France"
+   },
+   "answer": "Bordeaux, Brest, Besançon, Béziers, Boulogne-sur-Mer",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "une ville de France"
+   },
+   "answer": "Calais, Cannes, Caen, Clermont-Ferrand, Cherbourg",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "une ville de France"
+   },
+   "answer": "Dijon, Dunkerque, Dieppe, Douai",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "une ville de France"
+   },
+   "answer": "Épinal, Évreux, Elbeuf",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "une ville de France"
+   },
+   "answer": "Fréjus, Fontainebleau, Foix, Fougères",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "une ville de France"
+   },
+   "answer": "Grenoble, Grasse, Gap, Guéret",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "une ville de France"
+   },
+   "answer": "Hyères, Haguenau, Hazebrouck, Hénin-Beaumont",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "une ville de France"
+   },
+   "answer": "Issoire, Issy-les-Moulineaux, Istres",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "une ville de France"
+   },
+   "answer": "Joigny, Jarnac, Joinville-le-Pont",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "une ville de France"
+   },
+   "answer": "Kingersheim, Kaysersberg, Knutange",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "une ville de France"
+   },
+   "answer": "Lille, Lyon, Limoges, Le Havre, Lens",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "une ville de France"
+   },
+   "answer": "Marseille, Montpellier, Metz, Mulhouse, Montauban",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "une ville de France"
+   },
+   "answer": "Nantes, Nice, Nancy, Nîmes, Niort",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "une ville de France"
+   },
+   "answer": "Orléans, Oyonnax, Orange, Obernai",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "une ville de France"
+   },
+   "answer": "Paris, Poitiers, Pau, Perpignan, Pontoise",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "une ville de France"
+   },
+   "answer": "Quimper, Quimperlé, Quiberon, Quéven",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "une ville de France"
+   },
+   "answer": "Rennes, Reims, Rouen, Roubaix, Rodez",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "une ville de France"
+   },
+   "answer": "Strasbourg, Saint-Étienne, Soissons, Sète, Saint-Malo",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "une ville de France"
+   },
+   "answer": "Toulouse, Tours, Toulon, Tourcoing, Troyes",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "une ville de France"
+   },
+   "answer": "Uzès, Ussel, Uzerche",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "une ville de France"
+   },
+   "answer": "Valence, Versailles, Vannes, Vichy, Villeurbanne",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "une ville de France"
+   },
+   "answer": "Wattrelos, Wasquehal, Wissembourg, Woippy",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "une ville de France"
+   },
+   "answer": "Xertigny, Xonrupt-Longemer, Xaintrailles",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "une ville de France"
+   },
+   "answer": "Yvetot, Yerres, Yutz",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "une ville de France"
+   },
+   "answer": "Zuydcoote, Zillisheim, Zonza",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un prénom"
+   },
+   "answer": "Alice, Antoine, Anna, Alexandre, Amélie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un prénom"
+   },
+   "answer": "Baptiste, Brigitte, Benjamin, Béatrice, Bruno",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un prénom"
+   },
+   "answer": "Camille, Claire, Charles, Clément, Chloé",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un prénom"
+   },
+   "answer": "David, Denis, Delphine, Diane, Daniel",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un prénom"
+   },
+   "answer": "Emma, Éric, Élodie, Étienne, Eva",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un prénom"
+   },
+   "answer": "François, Fabien, Florence, Fanny, Félix",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un prénom"
+   },
+   "answer": "Gabriel, Guillaume, Gérard, Gaëlle, Gilles",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "un prénom"
+   },
+   "answer": "Hugo, Hélène, Henri, Hortense",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "un prénom"
+   },
+   "answer": "Inès, Isabelle, Ivan, Irène",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un prénom"
+   },
+   "answer": "Julie, Jean, Jules, Jade, Julien",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "un prénom"
+   },
+   "answer": "Kévin, Karine, Karim, Kylian",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un prénom"
+   },
+   "answer": "Léa, Louis, Lucas, Laura, Lucie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un prénom"
+   },
+   "answer": "Marie, Mathieu, Manon, Maxime, Marc",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un prénom"
+   },
+   "answer": "Nicolas, Nathalie, Noémie, Nina, Noah",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un prénom"
+   },
+   "answer": "Olivier, Océane, Olivia, Octave",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un prénom"
+   },
+   "answer": "Paul, Pierre, Pauline, Philippe, Patrick",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "un prénom"
+   },
+   "answer": "Quentin, Quitterie, Quentine",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "un prénom"
+   },
+   "answer": "Romain, Rose, Raphaël, Rémi, Rachel",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un prénom"
+   },
+   "answer": "Sophie, Sarah, Stéphane, Sébastien, Simon",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un prénom"
+   },
+   "answer": "Thomas, Théo, Thierry, Tiphaine, Théodore",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "un prénom"
+   },
+   "answer": "Ulysse, Ursule, Urbain",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "un prénom"
+   },
+   "answer": "Victor, Valérie, Vincent, Virginie, Valentin",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "un prénom"
+   },
+   "answer": "William, Wendy, Wilfried, Walid",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "un prénom"
+   },
+   "answer": "Xavier, Xavière, Xénia",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "un prénom"
+   },
+   "answer": "Yann, Yvonne, Yves, Yasmine",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "un prénom"
+   },
+   "answer": "Zoé, Zacharie, Zélie",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un métier"
+   },
+   "answer": "Avocat, Architecte, Agriculteur, Acteur, Astronaute",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un métier"
+   },
+   "answer": "Boulanger, Boucher, Banquier, Bûcheron, Berger",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un métier"
+   },
+   "answer": "Cuisinier, Coiffeur, Charpentier, Comptable, Couturier",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un métier"
+   },
+   "answer": "Dentiste, Docteur, Danseur, Décorateur, Déménageur",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un métier"
+   },
+   "answer": "Électricien, Enseignant, Éboueur, Éleveur, Écrivain",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un métier"
+   },
+   "answer": "Facteur, Fleuriste, Fromager, Forgeron",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un métier"
+   },
+   "answer": "Gendarme, Garagiste, Gardien, Géologue",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "un métier"
+   },
+   "answer": "Horloger, Hôtelier, Huissier",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "un métier"
+   },
+   "answer": "Infirmier, Ingénieur, Instituteur, Illustrateur, Informaticien",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un métier"
+   },
+   "answer": "Journaliste, Jardinier, Juge, Joaillier, Jockey",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "un métier"
+   },
+   "answer": "Kinésithérapeute, Kiosquier, Kinésiologue",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un métier"
+   },
+   "answer": "Libraire, Livreur, Luthier, Lunetier",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un métier"
+   },
+   "answer": "Maçon, Médecin, Mécanicien, Musicien, Marin",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un métier"
+   },
+   "answer": "Notaire, Nounou, Nutritionniste, Navigateur",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un métier"
+   },
+   "answer": "Opticien, Ouvrier, Orthophoniste, Océanographe, Orfèvre",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un métier"
+   },
+   "answer": "Pompier, Policier, Pilote, Plombier, Pâtissier",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "un métier"
+   },
+   "answer": "Quincaillier, Questeur, Quartier-maître",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "un métier"
+   },
+   "answer": "Routier, Réalisateur, Restaurateur, Réceptionniste, Radiologue",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un métier"
+   },
+   "answer": "Serveur, Secrétaire, Soudeur, Sculpteur, Sage-femme",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un métier"
+   },
+   "answer": "Traducteur, Technicien, Tailleur, Tapissier, Toiletteur",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "un métier"
+   },
+   "answer": "Urgentiste, Urbaniste, Usineur",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "un métier"
+   },
+   "answer": "Vendeur, Vétérinaire, Vigneron, Vitrier, Viticulteur",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "un métier"
+   },
+   "answer": "Webmaster, Web designer, Wedding planner",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "un métier"
+   },
+   "answer": "Xylophoniste, Xylographe",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "un métier"
+   },
+   "answer": "Zoologiste, Zingueur, Zootechnicien",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Ananas, Abricot, Ail, Artichaut, Aubergine",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Banane, Betterave, Brocoli, Bigarreau",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Carotte, Cerise, Citron, Courgette, Concombre",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Datte, Durian, Daikon",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Épinard, Échalote, Endive",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Fraise, Framboise, Fenouil, Figue, Fève",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Groseille, Goyave, Grenade, Gombo",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Jujube, Jacquier, Jicama",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Kiwi, Kaki, Kumquat, Kiwano",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Litchi, Laitue, Lentille, Lime",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Mangue, Melon, Mûre, Myrtille, Mandarine",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Nectarine, Navet, Nashi",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Orange, Oignon, Olive, Oseille",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Pomme, Poire, Pêche, Poireau, Pomme de terre",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Radis, Raisin, Rhubarbe, Rutabaga, Roquette",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Salade, Salsifis, Satsuma",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Tomate, Topinambour, Tamarin, Tangerine",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un objet de la maison"
+   },
+   "answer": "Armoire, Aspirateur, Assiette, Abat-jour",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un objet de la maison"
+   },
+   "answer": "Balai, Bougie, Bol, Baignoire",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un objet de la maison"
+   },
+   "answer": "Canapé, Chaise, Couteau, Cuillère",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un objet de la maison"
+   },
+   "answer": "Douche, Dressing, Drap, Déshumidificateur",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un objet de la maison"
+   },
+   "answer": "Éponge, Évier, Étagère, Écran",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un objet de la maison"
+   },
+   "answer": "Fauteuil, Four, Fourchette, Frigo",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un objet de la maison"
+   },
+   "answer": "Grille-pain, Gobelet, Gazinière, Glacière",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "un objet de la maison"
+   },
+   "answer": "Horloge, Hotte, Hamac",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "un objet de la maison"
+   },
+   "answer": "Interrupteur, Imprimante, Interphone",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un objet de la maison"
+   },
+   "answer": "Jarre, Jardinière, Jouet",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un objet de la maison"
+   },
+   "answer": "Lit, Lampe, Lavabo, Lave-linge, Lunettes",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un objet de la maison"
+   },
+   "answer": "Miroir, Meuble, Micro-ondes, Matelas",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un objet de la maison"
+   },
+   "answer": "Nappe, Nécessaire de toilette, Niche",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un objet de la maison"
+   },
+   "answer": "Oreiller, Ouvre-boîte, Ordinateur, Ombrelle",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un objet de la maison"
+   },
+   "answer": "Plat, Poêle, Porte, Placard, Peigne",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "un objet de la maison"
+   },
+   "answer": "Rideau, Radiateur, Réveil, Réfrigérateur, Robinet",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un objet de la maison"
+   },
+   "answer": "Savon, Serviette, Sofa, Seau, Sèche-linge",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un objet de la maison"
+   },
+   "answer": "Table, Tapis, Tabouret, Télévision, Tiroir",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "un objet de la maison"
+   },
+   "answer": "Verre, Vase, Valise, Vaisselle, Ventilateur",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "un objet de la maison"
+   },
+   "answer": "WC, Wok, Webcam",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un sport"
+   },
+   "answer": "Athlétisme, Aviron, Alpinisme, Aïkido",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un sport"
+   },
+   "answer": "Basket, Boxe, Badminton, Baseball",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un sport"
+   },
+   "answer": "Cyclisme, Canoë, Curling, Course à pied",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un sport"
+   },
+   "answer": "Danse, Duathlon, Dressage",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un sport"
+   },
+   "answer": "Escrime, Équitation, Escalade",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un sport"
+   },
+   "answer": "Football, Fitness, Fléchettes, Funboard",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un sport"
+   },
+   "answer": "Golf, Gymnastique, Gym",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "un sport"
+   },
+   "answer": "Handball, Hockey, Haltérophilie",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un sport"
+   },
+   "answer": "Judo, Jiu-jitsu, Javelot",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "un sport"
+   },
+   "answer": "Karaté, Kayak, Kitesurf, Kung-fu, Kendo",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un sport"
+   },
+   "answer": "Lutte, Luge, Lancer de poids",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un sport"
+   },
+   "answer": "Marathon, Motocross, Marche, Musculation",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un sport"
+   },
+   "answer": "Natation, Nage synchronisée, Netball",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un sport"
+   },
+   "answer": "Pétanque, Plongeon, Ping-pong, Patinage, Parachutisme",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "un sport"
+   },
+   "answer": "Rugby, Roller, Randonnée, Rafting",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un sport"
+   },
+   "answer": "Ski, Surf, Squash, Snowboard, Skateboard",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un sport"
+   },
+   "answer": "Tennis, Tir à l'arc, Trampoline, Triathlon",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "un sport"
+   },
+   "answer": "Ultimate, Ultra-trail, Unicycle",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "un sport"
+   },
+   "answer": "Volley-ball, Voile, VTT, Vélo",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "un sport"
+   },
+   "answer": "Water-polo, Windsurf, Wakeboard",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "un sport"
+   },
+   "answer": "Yoga, Yachting, Yamakasi",
+   "level": "impossible"
+  }
+ ]
+}

@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-capitales-afrique",
+  "theme": "geographie",
+  "title": "Quiz capitales d'Afrique : 20 questions",
+  "description": "Quiz capitales d'Afrique : 20 questions pour tester tes connaissances sur les capitales africaines, d'Alger à Praia. Joue gratuitement !",
+  "h1": "Quiz capitales d'Afrique : connais-tu les capitales africaines ?",
+  "intro": "Alger, Nairobi, Addis-Abeba, Windhoek : connais-tu vraiment les capitales d'Afrique ? Ce quiz de 20 questions te fait voyager du Maghreb à l'Afrique australe, en passant par l'Afrique de l'Ouest et de l'Est. On commence par des capitales très connues, puis le niveau monte progressivement jusqu'à des villes plus rares comme Gaborone, Kigali ou Praia. Les mauvaises réponses sont souvent d'autres grandes villes du même pays, alors réfléchis bien. Compte environ cinq secondes par question et lis les explications pour retenir une anecdote. Rejoue autant que tu veux.",
+  "questions": [
+    {
+      "q": "Quelle est la capitale de l'Algérie ?",
+      "choices": [
+        "Oran",
+        "Alger",
+        "Constantine",
+        "Annaba"
+      ],
+      "answer": 1,
+      "explication": "Alger est un grand port de la Méditerranée, bâti en amphithéâtre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Tunisie ?",
+      "choices": [
+        "Sfax",
+        "Sousse",
+        "Bizerte",
+        "Tunis"
+      ],
+      "answer": 3,
+      "explication": "Tunis est proche des ruines de l'antique Carthage.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Sénégal ?",
+      "choices": [
+        "Dakar",
+        "Saint-Louis",
+        "Thiès",
+        "Touba"
+      ],
+      "answer": 0,
+      "explication": "Dakar est sur la presqu'île du Cap-Vert, à l'extrémité ouest du continent africain.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Kenya ?",
+      "choices": [
+        "Mombasa",
+        "Kisumu",
+        "Nairobi",
+        "Nakuru"
+      ],
+      "answer": 2,
+      "explication": "Nairobi est la capitale du Kenya ; fait rare, un parc national s'étend à quelques kilomètres seulement de son centre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Éthiopie ?",
+      "choices": [
+        "Gondar",
+        "Axoum",
+        "Harar",
+        "Addis-Abeba"
+      ],
+      "answer": 3,
+      "explication": "Addis-Abeba signifie « nouvelle fleur » et accueille le siège de l'Union africaine.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Ghana ?",
+      "choices": [
+        "Kumasi",
+        "Accra",
+        "Tamale",
+        "Takoradi"
+      ],
+      "answer": 1,
+      "explication": "Accra est sur le golfe de Guinée, tandis que Kumasi est la grande ville ashanti.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la République démocratique du Congo ?",
+      "choices": [
+        "Lubumbashi",
+        "Goma",
+        "Kinshasa",
+        "Kisangani"
+      ],
+      "answer": 2,
+      "explication": "Kinshasa fait face à Brazzaville de l'autre côté du fleuve Congo : deux capitales très proches.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Gabon ?",
+      "choices": [
+        "Libreville",
+        "Port-Gentil",
+        "Franceville",
+        "Lambaréné"
+      ],
+      "answer": 0,
+      "explication": "Libreville, sur l'estuaire du Komo, signifie « ville libre » : elle fut fondée au XIXe siècle.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Mali ?",
+      "choices": [
+        "Bamako",
+        "Tombouctou",
+        "Gao",
+        "Sikasso"
+      ],
+      "answer": 0,
+      "explication": "Bamako s'étend sur les rives du fleuve Niger.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Niger ?",
+      "choices": [
+        "Zinder",
+        "Agadez",
+        "Niamey",
+        "Maradi"
+      ],
+      "answer": 2,
+      "explication": "Niamey se trouve sur le fleuve Niger, dans l'ouest du pays.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Guinée ?",
+      "choices": [
+        "Kankan",
+        "Conakry",
+        "Labé",
+        "Nzérékoré"
+      ],
+      "answer": 1,
+      "explication": "Conakry est bâtie sur une presqu'île de l'océan Atlantique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de l'Angola ?",
+      "choices": [
+        "Benguela",
+        "Huambo",
+        "Lobito",
+        "Luanda"
+      ],
+      "answer": 3,
+      "explication": "Luanda est un port de l'Atlantique et la capitale de l'Angola.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Mozambique ?",
+      "choices": [
+        "Beira",
+        "Nampula",
+        "Maputo",
+        "Matola"
+      ],
+      "answer": 2,
+      "explication": "Maputo s'appelait Lourenço Marques à l'époque coloniale portugaise ; le Mozambique est indépendant depuis 1975.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Zambie ?",
+      "choices": [
+        "Lusaka",
+        "Ndola",
+        "Kitwe",
+        "Livingstone"
+      ],
+      "answer": 0,
+      "explication": "Lusaka est la capitale de la Zambie, au centre-sud du pays.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Zimbabwe ?",
+      "choices": [
+        "Bulawayo",
+        "Mutare",
+        "Gweru",
+        "Harare"
+      ],
+      "answer": 3,
+      "explication": "Harare s'appelait Salisbury avant 1982.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de l'Ouganda ?",
+      "choices": [
+        "Entebbe",
+        "Kampala",
+        "Jinja",
+        "Gulu"
+      ],
+      "answer": 1,
+      "explication": "Entebbe abrite l'aéroport international, mais la capitale est Kampala.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Namibie ?",
+      "choices": [
+        "Swakopmund",
+        "Windhoek",
+        "Walvis Bay",
+        "Lüderitz"
+      ],
+      "answer": 1,
+      "explication": "Windhoek est la capitale de la Namibie, au centre du pays.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Botswana ?",
+      "choices": [
+        "Francistown",
+        "Maun",
+        "Kasane",
+        "Gaborone"
+      ],
+      "answer": 3,
+      "explication": "Gaborone a été bâtie au milieu des années 1960 pour servir de capitale au Botswana, indépendant en 1966.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Rwanda ?",
+      "choices": [
+        "Kigali",
+        "Butare",
+        "Gisenyi",
+        "Ruhengeri"
+      ],
+      "answer": 0,
+      "explication": "Kigali est la capitale du Rwanda, au centre du pays.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Cap-Vert ?",
+      "choices": [
+        "Mindelo",
+        "Espargos",
+        "Praia",
+        "Tarrafal"
+      ],
+      "answer": 2,
+      "explication": "Praia se trouve sur l'île de Santiago, la plus peuplée de l'archipel.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi la capitale d'un pays africain n'est-elle pas toujours sa plus grande ville ?",
+      "Plusieurs capitales ont été choisies pour des raisons politiques, historiques ou de position centrale. En Tanzanie, la capitale officielle est Dodoma, alors que Dar es Salaam est plus grande. Au Nigeria, Abuja a été construite pour remplacer Lagos, trop excentrée."
+    ],
+    [
+      "Quelles sont les capitales africaines les plus proches l'une de l'autre ?",
+      "Kinshasa, en République démocratique du Congo, et Brazzaville, au Congo, se font face de part et d'autre du fleuve Congo. Elles ne sont séparées que de quelques kilomètres, ce qui en fait les deux capitales les plus proches du monde, hors cas particuliers comme Rome et le Vatican."
+    ],
+    [
+      "Quel est le conseil pour retenir les capitales africaines ?",
+      "Avance par région : Afrique du Nord, de l'Ouest, de l'Est, centrale et australe. Associe chaque capitale à un fleuve ou à un voisin, par exemple Bamako et Niamey sur le Niger. Rejoue le quiz plusieurs fois, car les noms moins connus demandent un peu de répétition."
+    ]
+  ],
+  "related": [
+    "/quiz-capitales",
+    "/quiz-capitales-difficile",
+    "/quiz-capitales-europe",
+    "/quiz-capitales-asie",
+    "/quiz-drapeaux-afrique"
+  ]
+}

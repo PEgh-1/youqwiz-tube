@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-systeme-solaire",
+  "theme": "sciences",
+  "title": "Quiz système solaire : 20 questions sur les planètes",
+  "description": "Quiz système solaire : 20 questions sur les planètes, le Soleil, les comètes et Pluton. Du niveau facile à expert, avec explications.",
+  "h1": "Quiz système solaire : connais-tu bien les planètes ?",
+  "intro": "Huit planètes, une étoile, des comètes, des astéroïdes et quelques planètes naines : le système solaire est notre quartier cosmique ! Ce quiz te propose 20 questions sur les planètes, leurs particularités et les grands noms de l'astronomie. Les premières questions sont accessibles à tous, les dernières demandent un peu plus de culture scientifique. Compte environ 5 secondes par question, et profite des explications pour apprendre un détail à chaque réponse. Ici, aucun chiffre susceptible d'évoluer : on s'en tient aux faits solides. Prêt pour le décollage ?",
+  "questions": [
+    {
+      "q": "Combien de temps la Terre met-elle pour faire le tour du Soleil ?",
+      "choices": [
+        "un mois",
+        "un an",
+        "un jour",
+        "dix ans"
+      ],
+      "answer": 1,
+      "explication": "La Terre tourne autour du Soleil en un peu plus de 365 jours, ce qui définit l'année.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la plus petite planète du système solaire ?",
+      "choices": [
+        "Mars",
+        "Vénus",
+        "Neptune",
+        "Mercure"
+      ],
+      "answer": 3,
+      "explication": "Mercure est la plus petite des huit planètes et la plus proche du Soleil.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle planète vient juste après la Terre en s'éloignant du Soleil ?",
+      "choices": [
+        "Mars",
+        "Vénus",
+        "Jupiter",
+        "Mercure"
+      ],
+      "answer": 0,
+      "explication": "Mars est la quatrième planète depuis le Soleil. Vénus se trouve entre Mercure et la Terre.",
+      "level": "facile"
+    },
+    {
+      "q": "Laquelle de ces planètes est une planète tellurique, c'est-à-dire rocheuse ?",
+      "choices": [
+        "Jupiter",
+        "Saturne",
+        "Vénus",
+        "Neptune"
+      ],
+      "answer": 2,
+      "explication": "Mercure, Vénus, la Terre et Mars sont les quatre planètes telluriques. Les autres sont des géantes.",
+      "level": "facile"
+    },
+    {
+      "q": "Depuis 2006, Pluton est classée comme…",
+      "choices": [
+        "planète",
+        "étoile",
+        "planète naine",
+        "comète"
+      ],
+      "answer": 2,
+      "explication": "L'Union astronomique internationale a créé en 2006 la catégorie des planètes naines, et Pluton en fait partie.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on un petit corps de glace et de poussière qui forme une queue près du Soleil ?",
+      "choices": [
+        "une comète",
+        "une étoile filante",
+        "un satellite",
+        "un trou noir"
+      ],
+      "answer": 0,
+      "explication": "Quand une comète s'approche du Soleil, la glace se vaporise et forme une chevelure et une queue.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle ceinture de petits corps rocheux se trouve entre Mars et Jupiter ?",
+      "choices": [
+        "la ceinture de Kuiper",
+        "le nuage d'Oort",
+        "la Voie lactée",
+        "la ceinture d'astéroïdes"
+      ],
+      "answer": 3,
+      "explication": "La ceinture principale d'astéroïdes sépare les planètes rocheuses des planètes géantes.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de temps la Terre met-elle pour tourner sur elle-même ?",
+      "choices": [
+        "environ 12 heures",
+        "environ 24 heures",
+        "environ 7 jours",
+        "environ 1 an"
+      ],
+      "answer": 1,
+      "explication": "Cette rotation provoque l'alternance du jour et de la nuit.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle planète tourne sur elle-même dans le sens inverse des autres ?",
+      "choices": [
+        "Mars",
+        "Jupiter",
+        "Mercure",
+        "Vénus"
+      ],
+      "answer": 3,
+      "explication": "Vénus a une rotation dite rétrograde, très lente : elle met environ 243 jours à tourner sur elle-même, plus que son année de 225 jours.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle planète tourne presque couchée sur le côté ?",
+      "choices": [
+        "Mars",
+        "Uranus",
+        "Saturne",
+        "Mercure"
+      ],
+      "answer": 1,
+      "explication": "L'axe d'Uranus est incliné d'environ 98 degrés, ce qui donne à la planète un fonctionnement très particulier des saisons.",
+      "level": "moyen"
+    },
+    {
+      "q": "Sur quelle planète trouve-t-on la Grande Tache rouge ?",
+      "choices": [
+        "Mars",
+        "Saturne",
+        "Jupiter",
+        "Neptune"
+      ],
+      "answer": 2,
+      "explication": "La Grande Tache rouge est une gigantesque tempête, plus large que la Terre, suivie sans interruption depuis le XIXe siècle.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle planète a été découverte par le calcul avant d'être observée ?",
+      "choices": [
+        "Neptune",
+        "Mars",
+        "Saturne",
+        "Vénus"
+      ],
+      "answer": 0,
+      "explication": "Le Verrier a prévu la position de Neptune grâce à ses calculs. Elle a été observée en 1846.",
+      "level": "moyen"
+    },
+    {
+      "q": "De quel gaz le Soleil est-il principalement composé ?",
+      "choices": [
+        "d'hydrogène",
+        "d'oxygène",
+        "d'azote",
+        "de fer"
+      ],
+      "answer": 0,
+      "explication": "Le Soleil est composé d'environ trois quarts d'hydrogène, le reste étant surtout de l'hélium.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel phénomène se produit quand la Lune passe entre le Soleil et la Terre ?",
+      "choices": [
+        "une éclipse de Lune",
+        "un solstice",
+        "une éclipse de Soleil",
+        "une aurore"
+      ],
+      "answer": 2,
+      "explication": "Lors d'une éclipse solaire, l'ombre de la Lune se projette sur la Terre.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel gaz compose principalement l'atmosphère de Mars ?",
+      "choices": [
+        "l'oxygène",
+        "le dioxyde de carbone",
+        "l'hydrogène",
+        "l'azote"
+      ],
+      "answer": 1,
+      "explication": "L'atmosphère de Mars est très ténue et composée surtout de dioxyde de carbone.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment appelle-t-on la région de corps glacés située au-delà de Neptune ?",
+      "choices": [
+        "la ceinture d'astéroïdes",
+        "la Voie lactée",
+        "l'anneau de Saturne",
+        "la ceinture de Kuiper"
+      ],
+      "answer": 3,
+      "explication": "La ceinture de Kuiper contient de nombreux corps glacés, dont Pluton.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle planète est moins dense que l'eau ?",
+      "choices": [
+        "Jupiter",
+        "Saturne",
+        "la Terre",
+        "Mars"
+      ],
+      "answer": 1,
+      "explication": "Saturne est composée surtout d'hydrogène et d'hélium. Sa densité moyenne est inférieure à celle de l'eau.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle sonde lancée en 1977 a quitté l'héliosphère en 2012 ?",
+      "choices": [
+        "Voyager 1",
+        "Apollo 11",
+        "Spoutnik",
+        "Hubble"
+      ],
+      "answer": 0,
+      "explication": "Voyager 1 est le premier objet construit par l'homme à avoir atteint l'espace interstellaire.",
+      "level": "expert"
+    },
+    {
+      "q": "Qui a proposé en 1543 un modèle plaçant le Soleil au centre de l'univers connu ?",
+      "choices": [
+        "Ptolémée",
+        "Newton",
+        "Einstein",
+        "Copernic"
+      ],
+      "answer": 3,
+      "explication": "Nicolas Copernic a publié le modèle héliocentrique en 1543, qui a profondément transformé l'astronomie.",
+      "level": "expert"
+    },
+    {
+      "q": "Dans quelle région du système solaire se trouve la planète naine Cérès ?",
+      "choices": [
+        "la ceinture de Kuiper",
+        "l'orbite de Neptune",
+        "la ceinture d'astéroïdes",
+        "l'orbite de la Terre"
+      ],
+      "answer": 2,
+      "explication": "Cérès est le plus gros objet de la ceinture principale d'astéroïdes, entre Mars et Jupiter.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi Pluton n'est-elle plus une planète ?",
+      "En 2006, l'Union astronomique internationale a défini ce qu'est une planète : orbiter autour du Soleil, être sphérique et avoir dégagé son orbite. Pluton ne remplit pas la dernière condition, car elle partage son orbite avec de nombreux objets de la ceinture de Kuiper. Elle est donc classée planète naine."
+    ],
+    [
+      "Quelle est la différence entre une planète tellurique et une planète géante ?",
+      "Les planètes telluriques, Mercure, Vénus, la Terre et Mars, sont petites et rocheuses. Les planètes géantes, Jupiter, Saturne, Uranus et Neptune, sont beaucoup plus grandes et surtout composées de gaz et de glaces autour d'un noyau central beaucoup plus petit."
+    ],
+    [
+      "Combien de planètes compte le système solaire ?",
+      "Il compte huit planètes : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune. Pluton, Cérès et quelques autres objets sont des planètes naines. Une façon de s'en souvenir consiste à retenir une phrase dont les initiales suivent cet ordre."
+    ]
+  ],
+  "related": [
+    "/quiz-espace",
+    "/quiz-sciences",
+    "/quiz-physique",
+    "/quiz-chimie",
+    "/quiz-animaux"
+  ]
+}

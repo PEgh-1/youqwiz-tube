@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-xxe-siecle",
+  "theme": "histoire",
+  "title": "Quiz XXe siècle : grands événements hors guerres",
+  "description": "Quiz XXe siècle : 20 questions sur la conquête spatiale, la guerre froide, la décolonisation, mai 68 et les grands événements d'après 1945.",
+  "h1": "Quiz XXe siècle : connais-tu les grands événements de 1945 à 1990 ?",
+  "intro": "Conquête spatiale, guerre froide, décolonisation, mai 68, chute des régimes communistes : le XXe siècle regorge d'événements qui ont changé le monde. Ce quiz te propose 20 questions sur ces grands moments, hors guerres mondiales, des plus connus aux plus pointus. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une explication pour retenir une date, un nom ou un contexte. Idéal pour réviser, jouer en famille ou tester ta culture générale. Prêt à parcourir le siècle et à viser le sans-faute ?",
+  "questions": [
+    {
+      "q": "Quel cosmonaute soviétique devient le premier homme dans l'espace en 1961 ?",
+      "choices": [
+        "Youri Gagarine",
+        "Alan Shepard",
+        "Alexeï Leonov",
+        "Gherman Titov"
+      ],
+      "answer": 0,
+      "explication": "Il effectue un tour de la Terre à bord de Vostok 1, le 12 avril 1961.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel satellite, lancé par l'URSS en 1957, est le premier satellite artificiel ?",
+      "choices": [
+        "Explorer 1",
+        "Vostok 1",
+        "Apollo 11",
+        "Spoutnik 1"
+      ],
+      "answer": 3,
+      "explication": "Son lancement ouvre l'ère spatiale et alarme les États-Unis.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel général est président de la République française lors des événements de mai 1968 ?",
+      "choices": [
+        "Georges Pompidou",
+        "Charles de Gaulle",
+        "François Mitterrand",
+        "Valéry Giscard d'Estaing"
+      ],
+      "answer": 1,
+      "explication": "Pompidou est alors Premier ministre ; de Gaulle démissionne en 1969.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle crise de 1962 met le monde au bord d'un conflit nucléaire entre les États-Unis et l'URSS ?",
+      "choices": [
+        "La crise de Suez",
+        "Le blocus de Berlin",
+        "La crise des missiles de Cuba",
+        "La guerre de Corée"
+      ],
+      "answer": 2,
+      "explication": "Elle prend fin lorsque l'URSS accepte de retirer ses missiles de l'île.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel opposant à l'apartheid est libéré en 1990 après 27 ans de prison ?",
+      "choices": [
+        "Desmond Tutu",
+        "Steve Biko",
+        "Kwame Nkrumah",
+        "Nelson Mandela"
+      ],
+      "answer": 3,
+      "explication": "Il devient président de l'Afrique du Sud en 1994.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle mission américaine dépose les premiers hommes sur la Lune en juillet 1969 ?",
+      "choices": [
+        "Apollo 8",
+        "Apollo 11",
+        "Apollo 13",
+        "Gemini 4"
+      ],
+      "answer": 1,
+      "explication": "Neil Armstrong et Buzz Aldrin marchent sur la Lune ; Michael Collins reste en orbite.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle organisation internationale est fondée en 1945 pour préserver la paix ?",
+      "choices": [
+        "L'OTAN",
+        "La Société des Nations",
+        "L'ONU",
+        "L'Union européenne"
+      ],
+      "answer": 2,
+      "explication": "Sa charte est signée à San Francisco, en juin 1945.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pasteur américain prononce le discours « I have a dream » en 1963 ?",
+      "choices": [
+        "Martin Luther King",
+        "Malcolm X",
+        "Rosa Parks",
+        "Barack Obama"
+      ],
+      "answer": 0,
+      "explication": "Il le prononce lors de la marche sur Washington pour les droits civiques.",
+      "level": "facile"
+    },
+    {
+      "q": "En quelle année l'Algérie accède-t-elle à l'indépendance ?",
+      "choices": [
+        "1954",
+        "1958",
+        "1962",
+        "1960"
+      ],
+      "answer": 2,
+      "explication": "L'indépendance est proclamée le 5 juillet 1962, après les accords d'Évian.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel président américain est assassiné à Dallas en 1963 ?",
+      "choices": [
+        "Lyndon Johnson",
+        "Richard Nixon",
+        "Dwight Eisenhower",
+        "John F. Kennedy"
+      ],
+      "answer": 3,
+      "explication": "Il est tué le 22 novembre 1963 ; Lyndon Johnson lui succède.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel dirigeant soviétique lance la perestroïka et la glasnost ?",
+      "choices": [
+        "Leonid Brejnev",
+        "Nikita Khrouchtchev",
+        "Mikhaïl Gorbatchev",
+        "Boris Eltsine"
+      ],
+      "answer": 2,
+      "explication": "Arrivé au pouvoir en 1985, il engage des réformes qui accélèrent la fin de l'URSS.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel traité de 1957 crée la Communauté économique européenne ?",
+      "choices": [
+        "Le traité de Rome",
+        "Le traité de Maastricht",
+        "Le traité de Paris",
+        "Le traité de Lisbonne"
+      ],
+      "answer": 0,
+      "explication": "Il est signé par six pays : France, RFA, Italie, Belgique, Pays-Bas et Luxembourg.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle république soviétique se situe la centrale de Tchernobyl, victime d'un accident en 1986 ?",
+      "choices": [
+        "La Biélorussie",
+        "La Russie",
+        "La Lituanie",
+        "L'Ukraine"
+      ],
+      "answer": 3,
+      "explication": "L'accident du 26 avril 1986 est l'un des plus graves de l'histoire du nucléaire civil.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui proclame la République populaire de Chine en 1949 ?",
+      "choices": [
+        "Chiang Kai-shek",
+        "Mao Zedong",
+        "Deng Xiaoping",
+        "Sun Yat-sen"
+      ],
+      "answer": 1,
+      "explication": "Il le fait le 1er octobre 1949 à Pékin, après la victoire des communistes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle bataille de 1954, perdue par la France, précipite la fin de la guerre d'Indochine ?",
+      "choices": [
+        "Diên Biên Phu",
+        "Hanoï",
+        "Saïgon",
+        "Hué"
+      ],
+      "answer": 0,
+      "explication": "La défaite française conduit aux accords de Genève.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle cosmonaute soviétique est la première femme dans l'espace, en 1963 ?",
+      "choices": [
+        "Svetlana Savitskaïa",
+        "Valentina Terechkova",
+        "Sally Ride",
+        "Youri Gagarine"
+      ],
+      "answer": 1,
+      "explication": "Elle effectue près de trois jours de vol à bord de Vostok 6.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle conférence de 1955 rassemble en Indonésie des pays d'Asie et d'Afrique récemment indépendants ?",
+      "choices": [
+        "La conférence de Yalta",
+        "La conférence de Genève",
+        "La conférence d'Helsinki",
+        "La conférence de Bandung"
+      ],
+      "answer": 3,
+      "explication": "Elle affirme la solidarité des pays décolonisés et préfigure le mouvement des non-alignés, fondé à Belgrade en 1961.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel pays connaît la « révolution des Œillets » en 1974 ?",
+      "choices": [
+        "L'Espagne",
+        "Le Portugal",
+        "La Grèce",
+        "L'Italie"
+      ],
+      "answer": 1,
+      "explication": "Ce coup d'État militaire presque sans violence met fin à la dictature et ouvre la décolonisation portugaise.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel canal est nationalisé par l'Égypte de Nasser en 1956, provoquant une crise internationale ?",
+      "choices": [
+        "Le canal de Suez",
+        "Le canal de Panama",
+        "Le canal de Kiel",
+        "Le canal de Corinthe"
+      ],
+      "answer": 0,
+      "explication": "La France et le Royaume-Uni, avec Israël, interviennent militairement, puis se retirent sous la pression des États-Unis et de l'URSS.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle colonie britannique, appelée Côte-de-l'Or, devient indépendante en 1957 ?",
+      "choices": [
+        "Le Nigeria",
+        "Le Kenya",
+        "Le Ghana",
+        "Le Sénégal"
+      ],
+      "answer": 2,
+      "explication": "Menée par Kwame Nkrumah, elle prend le nom de Ghana et devient un symbole de la décolonisation africaine.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Qu'est-ce que la guerre froide ?",
+      "C'est l'affrontement indirect, politique, économique et idéologique, entre les États-Unis et l'URSS et leurs alliés, de 1947 environ à 1991. Elle n'a jamais débouché sur un conflit direct entre les deux puissances, mais elle a provoqué des crises et des guerres par procuration."
+    ],
+    [
+      "Qu'appelle-t-on la décolonisation ?",
+      "C'est le processus par lequel les colonies européennes d'Asie et d'Afrique accèdent à l'indépendance, surtout entre 1945 et les années 1970. Il se déroule tantôt par négociation, comme en Afrique subsaharienne française, tantôt par la guerre, comme en Algérie. Ces repères aident à situer les événements dans leur contexte et à mieux les mémoriser."
+    ],
+    [
+      "Que s'est-il passé en mai 1968 en France ?",
+      "Un mouvement étudiant né à Nanterre et à Paris se prolonge par une grève générale de millions de salariés. Il se termine par les accords de Grenelle et par des élections législatives en juin, mais il laisse des traces durables dans la société."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-seconde-guerre-mondiale",
+    "/quiz-premiere-guerre-mondiale",
+    "/quiz-espace",
+    "/quiz-histoire-de-france"
+  ]
+}

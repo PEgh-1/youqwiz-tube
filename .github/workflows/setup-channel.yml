@@ -1,0 +1,52 @@
+name: Paramétrer la chaîne
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Dépendances (+ ffmpeg)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm ci
+          npx remotion browser ensure
+      - name: Musique de fond (URL privée)
+        env:
+          MUSIC_URL: ${{ secrets.MUSIC_URL }}
+        run: node scripts/get-music.mjs && node scripts/prepare-assets.mjs
+
+      - name: Rendre les visuels de chaîne
+        env:
+          REMOTION_CONCURRENCY: 2
+        run: npm run channel:render
+      - name: Appliquer sur YouTube
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: npm run channel:setup
+      - name: Sauvegarder l'état
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "youqwiz-bot"
+          git config user.email "bot@youqwiz.com"
+          git pull --rebase -q || true
+          git add data/state/channel.json
+          git diff --cached --quiet || git commit -m "état : chaîne paramétrée"
+          git push
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: channel
+          path: out/channel/*
+          retention-days: 7

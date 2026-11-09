@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-chanson-francaise",
+  "theme": "chanson-francaise",
+  "title": "Quiz chanson française : 20 questions",
+  "description": "Quiz chanson française : 20 questions sur Piaf, Brel, Brassens, Gainsbourg, Johnny et les grands tubes. Reconnais-tu les plus belles chansons ?",
+  "h1": "Quiz chanson française : connais-tu les grands classiques ?",
+  "intro": "De Piaf à Stromae, de Brassens à Johnny, la chanson française est un trésor que l'on se transmet de génération en génération. Ce quiz te propose 20 questions pour tester ta mémoire : interprètes, paroliers, titres cultes, anecdotes de coulisses. Les questions commencent par les plus connues et deviennent peu à peu plus pointues. Compte environ 5 secondes de réflexion par question, et profite de l'explication qui suit chaque réponse pour apprendre un détail sur la vie ou l'œuvre d'un artiste. À toi de chanter juste !",
+  "questions": [
+    {
+      "q": "Quelle chanteuse interprète « Non, je ne regrette rien » ?",
+      "choices": [
+        "Dalida",
+        "Édith Piaf",
+        "Barbara",
+        "Mireille Mathieu"
+      ],
+      "answer": 1,
+      "explication": "Édith Piaf enregistre cette chanson en 1960 ; elle reste l'un de ses titres les plus célèbres.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel chanteur est l'auteur de « La Mer » ?",
+      "choices": [
+        "Tino Rossi",
+        "Yves Montand",
+        "Maurice Chevalier",
+        "Charles Trenet"
+      ],
+      "answer": 3,
+      "explication": "Charles Trenet, surnommé « le Fou chantant », compose cette chanson en 1943.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel chanteur interprète « Foule sentimentale » ?",
+      "choices": [
+        "Julien Clerc",
+        "Michel Jonasz",
+        "Alain Souchon",
+        "Laurent Voulzy"
+      ],
+      "answer": 2,
+      "explication": "Alain Souchon y évoque, avec ironie, une société fascinée par la consommation et la publicité.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle chanteuse interprète « Ella, elle l'a » en 1987 ?",
+      "choices": [
+        "Véronique Sanson",
+        "Vanessa Paradis",
+        "France Gall",
+        "Sheila"
+      ],
+      "answer": 2,
+      "explication": "Michel Berger écrit cette chanson en hommage à Ella Fitzgerald.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel chanteur interprète « Le Poinçonneur des Lilas » ?",
+      "choices": [
+        "Boris Vian",
+        "Henri Salvador",
+        "Serge Gainsbourg",
+        "Georges Brassens"
+      ],
+      "answer": 2,
+      "explication": "Ce titre de 1958 est le premier grand succès de Serge Gainsbourg.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel chanteur interprète « Les Champs-Élysées » en 1969 ?",
+      "choices": [
+        "Michel Sardou",
+        "Joe Dassin",
+        "Michel Delpech",
+        "Claude François"
+      ],
+      "answer": 1,
+      "explication": "Joe Dassin signe là l'un des grands tubes de son répertoire.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel chanteur interprète « Le Métèque » en 1969 ?",
+      "choices": [
+        "Serge Reggiani",
+        "Georges Moustaki",
+        "Léo Ferré",
+        "Jacques Brel"
+      ],
+      "answer": 1,
+      "explication": "Georges Moustaki, né à Alexandrie, s'y décrit avec humour comme un étranger.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel chanteur belge est l'auteur de « Papaoutai » ?",
+      "choices": [
+        "Angèle",
+        "Maître Gims",
+        "Julien Doré",
+        "Stromae"
+      ],
+      "answer": 3,
+      "explication": "Stromae sort « Papaoutai » en 2013, extrait de son album « Racine carrée ».",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays Jacques Brel célèbre-t-il dans « Le Plat Pays » ?",
+      "choices": [
+        "Les Pays-Bas",
+        "La Belgique",
+        "Le Danemark",
+        "La Pologne"
+      ],
+      "answer": 1,
+      "explication": "Brel, belge d'origine, y chante les brumes et les paysages plats de son pays.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle ville du Sud est né Georges Brassens ?",
+      "choices": [
+        "Béziers",
+        "Montpellier",
+        "Perpignan",
+        "Sète"
+      ],
+      "answer": 3,
+      "explication": "Brassens est né à Sète en 1921 ; il y est enterré, au cimetière du Py, et un espace culturel lui est consacré dans sa ville natale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel chanteur interprète « Les Mots bleus » en 1974 ?",
+      "choices": [
+        "Christophe",
+        "Gérard Lenorman",
+        "Michel Sardou",
+        "Hervé Vilard"
+      ],
+      "answer": 0,
+      "explication": "Christophe y chante une tendresse feutrée, qui reste l'un de ses titres les plus connus.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel opéra rock de 1978, signé Michel Berger et Luc Plamondon, contient « Le Blues du businessman » ?",
+      "choices": [
+        "Notre-Dame de Paris",
+        "Les Misérables",
+        "Starmania",
+        "Mozart, l'opéra rock"
+      ],
+      "answer": 2,
+      "explication": "Starmania est créé en 1979 ; l'album sort dès 1978.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel chanteur interprète « La Poupée qui fait non » en 1966 ?",
+      "choices": [
+        "Michel Polnareff",
+        "Dave",
+        "Antoine",
+        "Christophe"
+      ],
+      "answer": 0,
+      "explication": "Ce premier grand succès de Michel Polnareff le lance dans le monde de la variété.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle célèbre salle parisienne du boulevard des Capucines accueille Piaf, Brel et les Beatles ?",
+      "choices": [
+        "L'Olympia",
+        "Pleyel",
+        "Le Zénith",
+        "Le Bataclan"
+      ],
+      "answer": 0,
+      "explication": "L'Olympia est un temple du music-hall depuis les années 1950.",
+      "level": "moyen"
+    },
+    {
+      "q": "De quelle origine est la famille de Charles Aznavour ?",
+      "choices": [
+        "Arménienne",
+        "Grecque",
+        "Turque",
+        "Italienne"
+      ],
+      "answer": 0,
+      "explication": "Fils de réfugiés arméniens, Charles Aznavour s'est beaucoup engagé pour la mémoire de ce peuple.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel chanteur interprète « Les Corons » en 1982 ?",
+      "choices": [
+        "Pierre Bachelet",
+        "Michel Sardou",
+        "Daniel Guichard",
+        "Pierre Perret"
+      ],
+      "answer": 0,
+      "explication": "Cette chanson sur la vie des mineurs du Nord est devenue un hymne de la région.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le vrai nom de Johnny Hallyday ?",
+      "choices": [
+        "Jean-Claude Smet",
+        "Jean-Pierre Smet",
+        "Philippe Hallyday",
+        "Jean-Philippe Smet"
+      ],
+      "answer": 3,
+      "explication": "Il adopte le nom de scène Hallyday au début de sa carrière, en 1959.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le nom de naissance d'Édith Piaf ?",
+      "choices": [
+        "Édith Lucienne Piaf",
+        "Édith Marguerite Monnot",
+        "Édith Louise Vaillant",
+        "Édith Giovanna Gassion"
+      ],
+      "answer": 3,
+      "explication": "Elle est née Gassion à Paris en 1915, avant de devenir « la Môme Piaf ».",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le vrai prénom de Serge Gainsbourg ?",
+      "choices": [
+        "Lionel",
+        "Lucien",
+        "Louis",
+        "Léon"
+      ],
+      "answer": 1,
+      "explication": "Il est né Lucien Ginsburg en 1928, dans une famille de Juifs russes émigrés.",
+      "level": "expert"
+    },
+    {
+      "q": "À quel boxeur Édith Piaf dédie-t-elle « Hymne à l'amour » ?",
+      "choices": [
+        "Georges Carpentier",
+        "Jake LaMotta",
+        "Marcel Cerdan",
+        "Max Schmeling"
+      ],
+      "answer": 2,
+      "explication": "Le boxeur Marcel Cerdan meurt dans un accident d'avion en 1949, peu après avoir inspiré cette chanson.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quels artistes sont incontournables de la chanson française ?",
+      "Parmi les plus grands : Édith Piaf, Charles Trenet, Jacques Brel, Georges Brassens, Léo Ferré, Serge Gainsbourg, Charles Aznavour, Barbara, Johnny Hallyday, Jean-Jacques Goldman ou encore Stromae. Chacun incarne une époque, un style, une manière unique de raconter la vie en quelques minutes."
+    ],
+    [
+      "Qu'est-ce que la chanson dite « à texte » ?",
+      "Ce terme désigne les chansons où le texte, souvent poétique ou engagé, a autant d'importance que la musique. Brassens, Brel, Ferré, Barbara ou Ferrat en sont des représentants. Leurs paroles, parfois rapprochées de la poésie, se transmettent depuis les années 1950 à travers les générations."
+    ],
+    [
+      "Ce quiz est-il difficile ?",
+      "Il progresse par paliers : huit questions faciles sur les titres les plus connus, huit de difficulté moyenne, puis quatre plus pointues sur les vrais noms et les anecdotes. Même si tu ne connais pas tous les titres, les explications t'aident à retenir de belles histoires de la chanson française."
+    ]
+  ],
+  "related": [
+    "/quiz-culture-generale-seniors",
+    "/quiz-culture-generale-facile",
+    "/quiz-noel",
+    "/quiz-lille"
+  ]
+}

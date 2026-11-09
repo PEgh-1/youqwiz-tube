@@ -1,0 +1,2018 @@
+{
+ "question": "Trouve l'intrus 👀",
+ "hook": "Trouve l'INTRUS",
+ "emoji": "👀🧠🌈",
+ "slug": "intrus",
+ "noun": "NIVEAUX",
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "tags": [
+  "trouve l'intrus",
+  "énigme visuelle",
+  "test de concentration"
+ ],
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐶🐶🐶🐱🐶🐶🐶🐶🐶🐶🐶🐶"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🍎🍎🍌🍎🍎🍎🍎🍎🍎🍎🍎"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌞🌞🌞🌙🌞🌞🌞🌞🌞🌞🌞🌞"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😀😀😀😡😀😀😀😀😀😀😀😀"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚽⚽⚽🏀⚽⚽⚽⚽⚽⚽⚽⚽"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗🚗🚗🚲🚗🚗🚗🚗🚗🚗🚗🚗"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌹🌹🌹🌵🌹🌹🌹🌹🌹🌹🌹🌹"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍕🍕🍕🍔🍕🍕🍕🍕🍕🍕🍕🍕"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐸🐸🐸🐵🐸🐸🐸🐸🐸🐸🐸🐸"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎈🎈🎈🎁🎈🎈🎈🎈🎈🎈🎈🎈"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⭐⭐⭐❤️⭐⭐⭐⭐⭐⭐⭐⭐"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔥🔥🔥💧🔥🔥🔥🔥🔥🔥🔥🔥"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍓🍓🍓🍇🍓🍓🍓🍓🍓🍓🍓🍓"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟🐟🐟🐔🐟🐟🐟🐟🐟🐟🐟🐟"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏠🏠🏠🏰🏠🏠🏠🏠🏠🏠🏠🏠"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📱📱📱💻📱📱📱📱📱📱📱📱"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎸🎸🎸🥁🎸🎸🎸🎸🎸🎸🎸🎸"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍩🍩🍩🍪🍩🍩🍩🍩🍩🍩🍩🍩"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌳🌳🌳🌴🌳🌳🌳🌳🌳🌳🌳🌳"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐘🐘🐘🐭🐘🐘🐘🐘🐘🐘🐘🐘"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚀🚀🚀✈️🚀🚀🚀🚀🚀🚀🚀🚀"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☕☕☕🍺☕☕☕☕☕☕☕☕"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👑👑👑🎩👑👑👑👑👑👑👑👑"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝🐝🐝🦋🐝🐝🐝🐝🐝🐝🐝🐝"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍋🍋🍋🍉🍋🍋🍋🍋🍋🍋🍋🍋"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐶🐶🐶🐶🐶🐶🐶🐶🐶🐶🐺🐶"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍅🍎"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🦁🐱"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐰🐰🐰🐰🐰🐰🐰🐰🐰🐰🐭🐰"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍑🍊"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌝🌕"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍇🍇🍇🍇🍇🍇🍇🍇🍇🍇🫐🍇"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐥🐔"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦊🦊🦊🦊🦊🦊🦊🦊🦊🦊🐱🦊"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍌🍋"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌷🌹"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻🐻🐻🐻🐻🐻🐻🐻🐻🐻🐼🐻"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐢🐸"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎾🎾🎾🎾🎾🎾🎾🎾🎾🎾⚾🎾"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏐🏀"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍒🍎"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍓🍉"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🌶️🥕"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐬🐟"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝🐝🐝🐝🐝🐝🐝🐝🐝🐝🐞🐝"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞⭐🌞"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🌭🍔"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐷🐷🐷🐷🐷🐷🐷🐷🐷🐷🐮🐷"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐴🐴🐴🐴🐴🐴🐴🐴🐴🐴🦄🐴"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🥝🍏"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😄😄😄😄😄😁😄😄😄😄😄😄"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🙂🙂🙂🙂🙂😊🙂🙂🙂🙂🙂🙂"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😢😢😢😢😢😭😢😢😢😢😢😢"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😠😠😠😠😠😡😠😠😠😠😠😠"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💙💙💙💙💙💜💙💙💙💙💙💙"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "❤️❤️❤️❤️❤️🧡❤️❤️❤️❤️❤️❤️"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💚💚💚💚💚💛💚💚💚💚💚💚"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🍎🍎🍎🍎🍏🍎🍎🍎🍎🍎🍎"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌑🌑🌑🌑🌑🌚🌑🌑🌑🌑🌑🌑"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐵🐵🐵🐵🐵🐒🐵🐵🐵🐵🐵🐵"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐮🐮🐮🐮🐮🐂🐮🐮🐮🐮🐮🐮"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔴🔴🔴🔴🔴🟠🔴🔴🔴🔴🔴🔴"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔵🔵🔵🔵🔵🟣🔵🔵🔵🔵🔵🔵"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐭🐭🐭🐭🐭🐹🐭🐭🐭🐭🐭🐭"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻🐻🐻🐻🐻🐨🐻🐻🐻🐻🐻🐻"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐯🐯🐯🐯🐯🐱🐯🐯🐯🐯🐯🐯"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍐🍐🍐🍐🍐🍏🍐🍐🍐🍐🍐🍐"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌻🌻🌻🌻🌻🌼🌻🌻🌻🌻🌻🌻"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😮😮😮😮😮😯😮😮😮😮😮😮"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😴😴😴😴😴😪😴😴😴😴😴😴"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😅😅😅😅😅😂😅😅😅😅😅😅"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥰🥰🥰🥰🥰😍🥰🥰🥰🥰🥰🥰"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😉😉😉😉😉😜😉😉😉😉😉😉"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧐🧐🧐🧐🧐🤔🧐🧐🧐🧐🧐🧐"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😎😎😎😎😎🤓😎😎😎😎😎😎"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😃😀😀😀😀😀😀😀😀😀😀😀"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😆😄😄😄😄😄😄😄😄😄😄😄"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕑🕐🕐🕐🕐🕐🕐🕐🕐🕐🕐🕐"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕓🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕕🕔🕔🕔🕔🕔🕔🕔🕔🕔🕔🕔"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🟧🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🟪🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🟨🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔻🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔸🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶🔶"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔹🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌖🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌘🌗🌗🌗🌗🌗🌗🌗🌗🌗🌗🌗"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤎🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧡💛💛💛💛💛💛💛💛💛💛💛"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☺️😊😊😊😊😊😊😊😊😊😊😊"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😙😗😗😗😗😗😗😗😗😗😗😗"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😙😚😚😚😚😚😚😚😚😚😚😚"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🙃🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂🙂"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😑😐😐😐😐😐😐😐😐😐😐😐"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😒😏😏😏😏😏😏😏😏😏😏😏"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕧🕛🕛🕛🕛🕛🕛🕛🕛🕛🕛🕛"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⭐🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚙🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚖🚕🚕🚕🚕🚕🚕🚕🚕🚕🚕🚕"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐍🐘🐘🐘🐘🐘🐘🐘🐘🐘🐘🐘"
+   },
+   "answer": "Case 1",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦒🦒🦒🦒🦒🐧🦒🦒🦒🦒🦒🦒"
+   },
+   "answer": "Case 6",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐕🐙"
+   },
+   "answer": "Case 11",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦆🦆🦆🐄🦆🦆🦆🦆🦆🦆🦆🦆"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐢🐢🐢🐢🐢🐢🐢🐢🦅🐢🐢🐢"
+   },
+   "answer": "Case 9",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐳🐓🐳🐳🐳🐳🐳🐳🐳🐳🐳🐳"
+   },
+   "answer": "Case 2",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍓🍓🍓🍓🍓🍓🥦🍓🍓🍓🍓🍓"
+   },
+   "answer": "Case 7",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍦"
+   },
+   "answer": "Case 12",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥕🥕🥕🥕🍔🥕🥕🥕🥕🥕🥕🥕"
+   },
+   "answer": "Case 5",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍌🍌🍌🍌🍌🍌🍌🍌🍌🥚🍌🍌"
+   },
+   "answer": "Case 10",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍞🍞🍉🍞🍞🍞🍞🍞🍞🍞🍞🍞"
+   },
+   "answer": "Case 3",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧀🧀🧀🧀🧀🧀🧀🍇🧀🧀🧀🧀"
+   },
+   "answer": "Case 8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚀🚀🚀🚜🚀🚀🚀🚀🚀🚀🚀🚀"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚌🚌🚌🚌🚌🚌🚌🚌🚁🚌🚌🚌"
+   },
+   "answer": "Case 9",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚂⛵🚂🚂🚂🚂🚂🚂🚂🚂🚂🚂"
+   },
+   "answer": "Case 2",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚲🚲🚲🚲🚲🚲🚢🚲🚲🚲🚲🚲"
+   },
+   "answer": "Case 7",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏍️🏍️🏍️🏍️🏍️🏍️🏍️🏍️🏍️🏍️🏍️🚒"
+   },
+   "answer": "Case 12",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎹🎹🎹🎹⚽🎹🎹🎹🎹🎹🎹🎹"
+   },
+   "answer": "Case 5",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎨🎨🎨🎨🎨🎨🎨🎨🎨🔑🎨🎨"
+   },
+   "answer": "Case 10",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📖📖🔔📖📖📖📖📖📖📖📖📖"
+   },
+   "answer": "Case 3",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⌚⌚⌚⌚⌚⌚⌚🎁⌚⌚⌚⌚"
+   },
+   "answer": "Case 8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍒🔨🔨🔨🔨🔨🔨🔨🔨🔨🔨🔨"
+   },
+   "answer": "Case 1",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☂️☂️☂️☂️☂️🍩☂️☂️☂️☂️☂️☂️"
+   },
+   "answer": "Case 6",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪑🪑🪑🪑🪑🪑🪑🪑🪑🪑🍎🪑"
+   },
+   "answer": "Case 11",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌈🌈🌈🌈🌈🌈🔥🌈🌈🌈🌈🌈"
+   },
+   "answer": "Case 7",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☃️☃️☃️☃️☃️☃️☃️☃️☃️☃️☃️🌻"
+   },
+   "answer": "Case 12",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌋🌋🌋🌋🌵🌋🌋🌋🌋🌋🌋🌋"
+   },
+   "answer": "Case 5",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌲🌲🌲🌲🌲🌲🌲🌲🌲🍄🌲🌲"
+   },
+   "answer": "Case 10",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌙🌙🎈🌙🌙🌙🌙🌙🌙🌙🌙🌙"
+   },
+   "answer": "Case 3",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💎💎💎💎💎💎💎🌧️💎💎💎💎"
+   },
+   "answer": "Case 8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😭😀😀😀😀😀😀😀😀😀😀😀"
+   },
+   "answer": "Case 1",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😎😎😎😎😎😱😎😎😎😎😎😎"
+   },
+   "answer": "Case 6",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😴😴😴😴😴😴😴😴😴😴😡😴"
+   },
+   "answer": "Case 11",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥶🥶🥶🥵🥶🥶🥶🥶🥶🥶🥶🥶"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤡🤡🤡🤡🤡🤡🤡🤡👽🤡🤡🤡"
+   },
+   "answer": "Case 9",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎅🐸🎅🎅🎅🎅🎅🎅🎅🎅🎅🎅"
+   },
+   "answer": "Case 2",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "❤️❤️❤️❤️❤️❤️❤️❤️❤️🍀❤️❤️"
+   },
+   "answer": "Case 10",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✅✅❌✅✅✅✅✅✅✅✅✅"
+   },
+   "answer": "Case 3",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎵🎵🎵🎵🎵🎵🎵🛑🎵🎵🎵🎵"
+   },
+   "answer": "Case 8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍟🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆"
+   },
+   "answer": "Case 1",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧸🧸🧸🧸🧸🦷🧸🧸🧸🧸🧸🧸"
+   },
+   "answer": "Case 6",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦈🦈🦈🦈🦈🦈🦈🦈🦈🦈🐥🦈"
+   },
+   "answer": "Case 11",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍔🍔🍔🥒🍔🍔🍔🍔🍔🍔🍔🍔"
+   },
+   "answer": "Case 4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗🚗🚗🚗🚗🚗🚗🚗🐟🚗🚗🚗"
+   },
+   "answer": "Case 9",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝🍕🐝🐝🐝🐝🐝🐝🐝🐝🐝🐝"
+   },
+   "answer": "Case 2",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐶🐶🐶🐶🐶🐶🐷🐶🐶🐶🐶🐶"
+   },
+   "answer": "Case 7",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐰"
+   },
+   "answer": "Case 12",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻🐻🐻🐻🐯🐻🐻🐻🐻🐻🐻🐻"
+   },
+   "answer": "Case 5",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐴🐮🐮🐮🐮🐮🐮🐮🐮🐮🐮🐮"
+   },
+   "answer": "Case 1",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐑🐑🐑🐑🐑🐐🐑🐑🐑🐑🐑🐑"
+   },
+   "answer": "Case 6",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦆🦆🦆🦆🦆🦆🦆🦆🦆🦆🐔🦆"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦉🦉🦉🦇🦉🦉🦉🦉🦉🦉🦉🦉"
+   },
+   "answer": "Case 4",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐊🐊🐊🐊🐊🐊🐊🐊🦎🐊🐊🐊"
+   },
+   "answer": "Case 9",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦀🦞🦀🦀🦀🦀🦀🦀🦀🦀🦀🦀"
+   },
+   "answer": "Case 2",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐙🐙🐙🐙🐙🐙🦑🐙🐙🐙🐙🐙"
+   },
+   "answer": "Case 7",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐬🐬🐬🐬🐬🐬🐬🐬🐬🐬🐬🦈"
+   },
+   "answer": "Case 12",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍊🍊🍊🍊🍋🍊🍊🍊🍊🍊🍊🍊"
+   },
+   "answer": "Case 5",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍓🍓🍓🍓🍓🍓🍓🍓🍓🍒🍓🍓"
+   },
+   "answer": "Case 10",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥔🥔🥕🥔🥔🥔🥔🥔🥔🥔🥔🥔"
+   },
+   "answer": "Case 3",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍞🍞🍞🍞🍞🍞🍞🥐🍞🍞🍞🍞"
+   },
+   "answer": "Case 8",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍕🍕🍕🥪🍕🍕🍕🍕🍕🍕🍕🍕"
+   },
+   "answer": "Case 4",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍫🍫🍫🍫🍫🍫🍫🍫🍪🍫🍫🍫"
+   },
+   "answer": "Case 9",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍰🧁🍰🍰🍰🍰🍰🍰🍰🍰🍰🍰"
+   },
+   "answer": "Case 2",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍦🍦🍦🍦🍦🍦🍧🍦🍦🍦🍦🍦"
+   },
+   "answer": "Case 7",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥛🥛🥛🥛🥛🥛🥛🥛🥛🥛🥛🍵"
+   },
+   "answer": "Case 12",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗🚗🚗🚗🚌🚗🚗🚗🚗🚗🚗🚗"
+   },
+   "answer": "Case 5",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚓🚓🚓🚓🚓🚓🚓🚓🚓🚑🚓🚓"
+   },
+   "answer": "Case 10",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚜🚜🚛🚜🚜🚜🚜🚜🚜🚜🚜🚜"
+   },
+   "answer": "Case 3",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✈️✈️✈️✈️✈️✈️✈️🚁✈️✈️✈️✈️"
+   },
+   "answer": "Case 8",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚤⛵⛵⛵⛵⛵⛵⛵⛵⛵⛵⛵"
+   },
+   "answer": "Case 1",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚲🚲🚲🚲🚲🛴🚲🚲🚲🚲🚲🚲"
+   },
+   "answer": "Case 6",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎾🎾🎾🎾🎾🎾🎾🎾🎾🎾🏐🎾"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎸🎸🎸🎸🎸🎸🎻🎸🎸🎸🎸🎸"
+   },
+   "answer": "Case 7",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎺🎺🎺🎺🎺🎺🎺🎺🎺🎺🎺🎷"
+   },
+   "answer": "Case 12",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔑🔑🔑🔑🔒🔑🔑🔑🔑🔑🔑🔑"
+   },
+   "answer": "Case 5",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✏️✏️✏️✏️✏️✏️✏️✏️✏️🖊️✏️✏️"
+   },
+   "answer": "Case 10",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📘📘📗📘📘📘📘📘📘📘📘📘"
+   },
+   "answer": "Case 3",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏠🏠🏠🏠🏠🏠🏠🏢🏠🏠🏠🏠"
+   },
+   "answer": "Case 8",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏰⛪⛪⛪⛪⛪⛪⛪⛪⛪⛪⛪"
+   },
+   "answer": "Case 1",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌲🌲🌲🌲🌲🌴🌲🌲🌲🌲🌲🌲"
+   },
+   "answer": "Case 6",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐❄️⭐"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🙂🙂🙂😢🙂🙂🙂🙂🙂🙂🙂🙂"
+   },
+   "answer": "Case 4",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😡😡😡😡😡😡😡😡😈😡😡😡"
+   },
+   "answer": "Case 9",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😴🤢😴😴😴😴😴😴😴😴😴😴"
+   },
+   "answer": "Case 2",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥳🥳🥳🥳🥳🥳🥳🥳🥳🤩🥳🥳"
+   },
+   "answer": "Case 10",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐸🐸🐊🐸🐸🐸🐸🐸🐸🐸🐸🐸"
+   },
+   "answer": "Case 3",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍍🍍🍍🍍🍍🍍🍍🥥🍍🍍🍍🍍"
+   },
+   "answer": "Case 8",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥬🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦"
+   },
+   "answer": "Case 1",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏐🏐🏐🏐🏐⚽🏐🏐🏐🏐🏐🏐"
+   },
+   "answer": "Case 6",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐺🐺🐺🐺🐺🐺🐺🐺🐺🐺🦊🐺"
+   },
+   "answer": "Case 11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐕🐕🐕🐩🐕🐕🐕🐕🐕🐕🐕🐕"
+   },
+   "answer": "Case 4",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐈🐈🐈🐈🐈🐈🐈🐈🐅🐈🐈🐈"
+   },
+   "answer": "Case 9",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐇🐁🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇"
+   },
+   "answer": "Case 2",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐖🐖🐖🐖🐖🐖🐗🐖🐖🐖🐖🐖"
+   },
+   "answer": "Case 7",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐏🐏🐏🐏🐏🐏🐏🐏🐏🐏🐏🐑"
+   },
+   "answer": "Case 12",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐎🐎🐎🐎🐴🐎🐎🐎🐎🐎🐎🐎"
+   },
+   "answer": "Case 5",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦢🦆🦆🦆🦆🦆🦆🦆🦆🦆🦆🦆"
+   },
+   "answer": "Case 1",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦅🦅🦅🦅🦅🦉🦅🦅🦅🦅🦅🦅"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️🐦🕊️"
+   },
+   "answer": "Case 11",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦜🦜🦜🦚🦜🦜🦜🦜🦜🦜🦜🦜"
+   },
+   "answer": "Case 4",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐌🐌🐌🐌🐌🐌🐌🐌🐛🐌🐌🐌"
+   },
+   "answer": "Case 9",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦗🦟🦗🦗🦗🦗🦗🦗🦗🦗🦗🦗"
+   },
+   "answer": "Case 2",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐜🐜🐜🐜🐜🐜🐝🐜🐜🐜🐜🐜"
+   },
+   "answer": "Case 7",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🦂"
+   },
+   "answer": "Case 12",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍅🍅🍅🍅🍓🍅🍅🍅🍅🍅🍅🍅"
+   },
+   "answer": "Case 5",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥭🥭🥭🥭🥭🥭🥭🥭🥭🍍🥭🥭"
+   },
+   "answer": "Case 10",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥥🥥🥔🥥🥥🥥🥥🥥🥥🥥🥥🥥"
+   },
+   "answer": "Case 3",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧅🧅🧅🧅🧅🧅🧅🧄🧅🧅🧅🧅"
+   },
+   "answer": "Case 8",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥒🥒🥒🥬🥒🥒🥒🥒🥒🥒🥒🥒"
+   },
+   "answer": "Case 4",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍞🍞🍞🍞🍞🍞🍞🍞🥖🍞🍞🍞"
+   },
+   "answer": "Case 9",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥨🥯🥨🥨🥨🥨🥨🥨🥨🥨🥨🥨"
+   },
+   "answer": "Case 2",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚓🚓🚓🚓🚓🚓🚔🚓🚓🚓🚓🚓"
+   },
+   "answer": "Case 7",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚑🚑🚑🚑🚑🚑🚑🚑🚑🚑🚑🚒"
+   },
+   "answer": "Case 12",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚌🚌🚌🚌🚎🚌🚌🚌🚌🚌🚌🚌"
+   },
+   "answer": "Case 5",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚙🚙🚙🚙🚙🚙🚙🚙🚙🛻🚙🚙"
+   },
+   "answer": "Case 10",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⛵⛵🛶⛵⛵⛵⛵⛵⛵⛵⛵⛵"
+   },
+   "answer": "Case 3",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚁🚁🚁🚁🚁🚁🚁🛩️🚁🚁🚁🚁"
+   },
+   "answer": "Case 8",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⏰⌚⌚⌚⌚⌚⌚⌚⌚⌚⌚⌚"
+   },
+   "answer": "Case 1",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📕📕📕📕📕📙📕📕📕📕📕📕"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔎🔍"
+   },
+   "answer": "Case 11",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔨🔨🔨🔨🔨🔨⛏️🔨🔨🔨🔨🔨"
+   },
+   "answer": "Case 7",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪓🪓🪓🪓🪓🪓🪓🪓🪓🪓🪓🔪"
+   },
+   "answer": "Case 12",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕯️🕯️🕯️🕯️🔦🕯️🕯️🕯️🕯️🕯️🕯️🕯️"
+   },
+   "answer": "Case 5",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💡💡💡💡💡💡💡💡💡🔦💡💡"
+   },
+   "answer": "Case 10",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☎️☎️📞☎️☎️☎️☎️☎️☎️☎️☎️☎️"
+   },
+   "answer": "Case 3",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📺📺📺📺📺📺📺📻📺📺📺📺"
+   },
+   "answer": "Case 8",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌳🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲"
+   },
+   "answer": "Case 1",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌴🌴🌴🌴🌴🌵🌴🌴🌴🌴🌴🌴"
+   },
+   "answer": "Case 6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗🚘🚗"
+   },
+   "answer": "Case 11",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚌🚌🚌🚍🚌🚌🚌🚌🚌🚌🚌🚌"
+   },
+   "answer": "Case 4",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚐🚐🚐🚐🚐🚐🚐🚐🚌🚐🚐🚐"
+   },
+   "answer": "Case 9",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚂🚆🚂🚂🚂🚂🚂🚂🚂🚂🚂🚂"
+   },
+   "answer": "Case 2",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚆🚆🚆🚆🚆🚆🚆🚆🚆🚄🚆🚆"
+   },
+   "answer": "Case 10",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚈🚈🚝🚈🚈🚈🚈🚈🚈🚈🚈🚈"
+   },
+   "answer": "Case 3",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✈️✈️✈️✈️✈️✈️✈️🛫✈️✈️✈️✈️"
+   },
+   "answer": "Case 8",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛬🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫🛫"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌛🌛🌛🌛🌛🌜🌛🌛🌛🌛🌛🌛"
+   },
+   "answer": "Case 6",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌑🌑🌑🌑🌑🌑🌑🌑🌑🌑🌘🌑"
+   },
+   "answer": "Case 11",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌒🌒🌒🌓🌒🌒🌒🌒🌒🌒🌒🌒"
+   },
+   "answer": "Case 4",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌔🌔🌔🌔🌔🌔🌔🌔🌕🌔🌔🌔"
+   },
+   "answer": "Case 9",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😃😄😃😃😃😃😃😃😃😃😃😃"
+   },
+   "answer": "Case 2",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😆😆😆😆😆😆😂😆😆😆😆😆"
+   },
+   "answer": "Case 7",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😚😚😚😚😚😚😚😚😚😚😚☺️"
+   },
+   "answer": "Case 12",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥲🥲🥲🥲🙂🥲🥲🥲🥲🥲🥲🥲"
+   },
+   "answer": "Case 5",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕜🕑🕑🕑🕑🕑🕑🕑🕑🕑🕑🕑"
+   },
+   "answer": "Case 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕐🕐🕐🕐🕐🕜🕐🕐🕐🕐🕐🕐"
+   },
+   "answer": "Case 6",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕞🕒"
+   },
+   "answer": "Case 11",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕓🕓🕓🕟🕓🕓🕓🕓🕓🕓🕓🕓"
+   },
+   "answer": "Case 4",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕔🕔🕔🕔🕔🕔🕔🕔🕠🕔🕔🕔"
+   },
+   "answer": "Case 9",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕕🕡🕕🕕🕕🕕🕕🕕🕕🕕🕕🕕"
+   },
+   "answer": "Case 2",
+   "level": "impossible"
+  }
+ ]
+}

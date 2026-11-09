@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-culture-generale-difficile",
+  "theme": "culture-generale",
+  "title": "Quiz culture générale difficile : 20 questions",
+  "description": "Quiz de culture générale difficile : 20 questions de niveau moyen à expert en histoire, sciences, arts et géographie. Oseras-tu viser le sans-faute ?",
+  "h1": "Quiz culture générale difficile : relève le défi",
+  "intro": "Tu te crois imbattable en culture générale ? Voici 20 questions de niveau moyen à expert, couvrant l'histoire, les sciences, la philosophie, les arts, la littérature et la géographie. Ici, pas de questions évidentes : il faudra fouiller dans ta mémoire, hésiter, parfois deviner. Chaque question laisse environ 5 secondes de réflexion, et chaque réponse est suivie d'une explication pour que tu repartes avec un fait de plus en poche. Si tu dépasses 15 bonnes réponses, tu peux être fier de toi. À toi de jouer !",
+  "questions": [
+    {
+      "q": "Quelle est la capitale de l'Australie ?",
+      "choices": [
+        "Sydney",
+        "Canberra",
+        "Melbourne",
+        "Perth"
+      ],
+      "answer": 1,
+      "explication": "Canberra est choisie comme capitale en compromis entre Sydney et Melbourne, qui se disputaient ce titre.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui a peint « Guernica » en 1937 ?",
+      "choices": [
+        "Pablo Picasso",
+        "Salvador Dalí",
+        "Joan Miró",
+        "Georges Braque"
+      ],
+      "answer": 0,
+      "explication": "Picasso réalise cette immense toile en réaction au bombardement de la ville basque de Guernica.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année tombe le mur de Berlin ?",
+      "choices": [
+        "1985",
+        "1991",
+        "1987",
+        "1989"
+      ],
+      "answer": 3,
+      "explication": "Dans la nuit du 9 au 10 novembre 1989, les points de passage s'ouvrent ; l'Allemagne est réunifiée l'année suivante.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le symbole chimique de l'or ?",
+      "choices": [
+        "Or",
+        "Au",
+        "Ag",
+        "Go"
+      ],
+      "answer": 1,
+      "explication": "Au vient du latin « aurum ». Ag, lui, désigne l'argent (« argentum »).",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui est l'auteur du « Rouge et le Noir » ?",
+      "choices": [
+        "Gustave Flaubert",
+        "Honoré de Balzac",
+        "Stendhal",
+        "Prosper Mérimée"
+      ],
+      "answer": 2,
+      "explication": "Stendhal, de son vrai nom Henri Beyle, publie ce roman en 1830.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le plus long fleuve d'Europe ?",
+      "choices": [
+        "Le Danube",
+        "Le Rhin",
+        "La Volga",
+        "Le Dniepr"
+      ],
+      "answer": 2,
+      "explication": "La Volga, en Russie, mesure environ 3 500 km et se jette dans la mer Caspienne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quels traités de 1648 mettent fin à la guerre de Trente Ans ?",
+      "choices": [
+        "Le traité de Versailles",
+        "Les traités de Westphalie",
+        "Le traité d'Utrecht",
+        "Le traité de Tordesillas"
+      ],
+      "answer": 1,
+      "explication": "Signés à Münster et Osnabrück, ils réorganisent l'équilibre des puissances en Europe.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui compose le « Boléro », créé en 1928 ?",
+      "choices": [
+        "Maurice Ravel",
+        "Claude Debussy",
+        "Erik Satie",
+        "Camille Saint-Saëns"
+      ],
+      "answer": 0,
+      "explication": "Ravel y répète un même thème, avec une orchestration qui s'enrichit peu à peu.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le plus petit État du monde par sa superficie ?",
+      "choices": [
+        "Monaco",
+        "Saint-Marin",
+        "Le Vatican",
+        "Le Liechtenstein"
+      ],
+      "answer": 2,
+      "explication": "Le Vatican couvre environ 0,44 km², soit moins que bien des parcs urbains.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel scientifique découvre la pénicilline en 1928 ?",
+      "choices": [
+        "Louis Pasteur",
+        "Marie Curie",
+        "Alexander Fleming",
+        "Robert Koch"
+      ],
+      "answer": 2,
+      "explication": "Fleming remarque qu'une moisissure détruit les bactéries d'une de ses cultures.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle bataille de 1214 voit Philippe Auguste vaincre une coalition menée par l'empereur Otton IV ?",
+      "choices": [
+        "La bataille de Poitiers",
+        "La bataille de Marignan",
+        "La bataille de Crécy",
+        "La bataille de Bouvines"
+      ],
+      "answer": 3,
+      "explication": "Bouvines, près de Lille, renforce l'autorité du roi de France face à ses puissants rivaux.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel mathématicien français a énoncé en marge d'un livre un « dernier théorème » resté sans preuve pendant plus de trois siècles ?",
+      "choices": [
+        "Pierre de Fermat",
+        "Blaise Pascal",
+        "René Descartes",
+        "Évariste Galois"
+      ],
+      "answer": 0,
+      "explication": "Andrew Wiles en donne enfin la démonstration en 1994.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Burkina Faso ?",
+      "choices": [
+        "Ouagadougou",
+        "Bamako",
+        "Niamey",
+        "Abidjan"
+      ],
+      "answer": 0,
+      "explication": "Ouagadougou, déjà chef-lieu de la colonie de Haute-Volta, reste la capitale à l'indépendance en 1960 ; le pays prend le nom de Burkina Faso en 1984.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel physicien formule en 1927 le principe d'incertitude ?",
+      "choices": [
+        "Niels Bohr",
+        "Max Planck",
+        "Erwin Schrödinger",
+        "Werner Heisenberg"
+      ],
+      "answer": 3,
+      "explication": "Ce principe de la mécanique quantique limite la précision avec laquelle on peut connaître à la fois la position et la quantité de mouvement (donc la vitesse) d'une particule.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel empereur romain fait de Byzance sa capitale, rebaptisée Constantinople ?",
+      "choices": [
+        "Auguste",
+        "Constantin Ier",
+        "Justinien",
+        "Dioclétien"
+      ],
+      "answer": 1,
+      "explication": "Constantin inaugure sa « Nouvelle Rome » en 330 ; la ville devient plus tard Istanbul.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel philosophe est l'auteur de la « Critique de la raison pure » ?",
+      "choices": [
+        "Georg Hegel",
+        "David Hume",
+        "Arthur Schopenhauer",
+        "Emmanuel Kant"
+      ],
+      "answer": 3,
+      "explication": "Kant publie cet ouvrage fondateur de la philosophie moderne en 1781.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel traité de 1494 partage le monde à découvrir entre l'Espagne et le Portugal ?",
+      "choices": [
+        "Le traité de Vienne",
+        "Le traité de Westphalie",
+        "Le traité de Tordesillas",
+        "Le traité de Paris"
+      ],
+      "answer": 2,
+      "explication": "Conclu directement entre les deux couronnes, il déplace vers l'ouest la ligne de partage fixée par une bulle du pape Alexandre VI en 1493, à 370 lieues des îles du Cap-Vert.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel chimiste russe publie une classification périodique des éléments en 1869 ?",
+      "choices": [
+        "Antoine Lavoisier",
+        "Dmitri Mendeleïev",
+        "Dmitri Chostakovitch",
+        "Ivan Pavlov"
+      ],
+      "answer": 1,
+      "explication": "Mendeleïev laisse des cases vides pour des éléments encore inconnus, dont il prédit les propriétés.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel navigateur portugais contourne le cap de Bonne-Espérance en 1488 ?",
+      "choices": [
+        "Bartolomeu Dias",
+        "Vasco de Gama",
+        "Magellan",
+        "Christophe Colomb"
+      ],
+      "answer": 0,
+      "explication": "Dias ouvre ainsi la voie maritime vers les Indes, que Vasco de Gama empruntera en 1498.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le seul nombre premier pair ?",
+      "choices": [
+        "0",
+        "4",
+        "1",
+        "2"
+      ],
+      "answer": 3,
+      "explication": "Tous les autres nombres pairs sont divisibles par 2, donc ne sont pas premiers.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Comment est construit ce quiz difficile ?",
+      "Il comprend dix questions de niveau moyen, suivies de dix questions de niveau expert, dans tous les domaines : histoire, sciences, arts, littérature et géographie. Les faits retenus sont stables et vérifiables. Chaque réponse est accompagnée d'une explication pour t'aider à retenir ce que tu viens d'apprendre."
+    ],
+    [
+      "Quel score est considéré comme bon ?",
+      "Sur ce niveau, dépasser 12 bonnes réponses sur 20 est déjà un très bon résultat. Au-delà de 16, tu peux te considérer comme un solide connaisseur. Un score plus modeste n'a rien d'alarmant : les questions expert sont volontairement pointues, et relancer le quiz permet de progresser vite."
+    ],
+    [
+      "Que faire pour s'améliorer en culture générale ?",
+      "Lis les explications, note les faits qui t'ont surpris et reviens-y quelques jours plus tard. Alterner les domaines est aussi utile : documentaires, livres d'histoire, vulgarisation scientifique. Passe ensuite aux séries thématiques de YouQwiz pour creuser un sujet en particulier."
+    ]
+  ],
+  "related": [
+    "/quiz-culture-generale-facile",
+    "/quiz-histoire",
+    "/quiz-geographie",
+    "/quiz-histoire-de-france",
+    "/quiz-culture-generale-seniors"
+  ]
+}

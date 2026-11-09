@@ -1,0 +1,44 @@
+name: Communauté
+
+on:
+  schedule:
+    - cron: "40 16 * * *" # 17:40 Paris (hiver) : commentaire « dis ton score » sur la vidéo du jour
+    - cron: "20 2 * * 1" # lundi 03:20 Paris : champion de la semaine, avant la vidéo du jour (02:41 UTC)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "post ou leaderboard"
+        required: false
+        default: "post"
+
+concurrency:
+  group: video-du-jour
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "20 2 * * 1" ]; then echo "m=leaderboard" >> $GITHUB_OUTPUT; else echo "m=${{ inputs.mode || 'post' }}" >> $GITHUB_OUTPUT; fi
+      - env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          node scripts/community.mjs --${{ steps.mode.outputs.m }}
+          [ "${{ steps.mode.outputs.m }}" = "leaderboard" ] && node scripts/analytics.mjs || true
+      - if: ${{ !cancelled() }}
+        run: |
+          node scripts/save-state.mjs --paths "data/state" --message "état : communauté (${{ steps.mode.outputs.m }})"

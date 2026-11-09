@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-seconde-guerre-mondiale",
+  "theme": "histoire",
+  "title": "Quiz Seconde Guerre mondiale : 20 questions",
+  "description": "Quiz sur la Seconde Guerre mondiale : 20 questions sur les dates, les batailles et la Résistance, de 1939 à 1945. Niveau facile à expert.",
+  "h1": "Quiz Seconde Guerre mondiale : que sais-tu de 1939-1945 ?",
+  "intro": "Entre 1939 et 1945, la Seconde Guerre mondiale a bouleversé le monde entier et marqué durablement des millions de familles. Ce quiz aborde ce sujet avec sobriété et respect : dates clés, grandes batailles, Résistance, libération et fin du conflit. Les 20 questions montent en difficulté, de huit faciles à quatre pour les connaisseurs. Compte environ 5 secondes par question. Chaque réponse est suivie d'une courte explication, car comprendre cette période, c'est aussi honorer la mémoire de celles et ceux qui l'ont vécue. Prends ton temps, lis les explications et partage le quiz pour transmettre ces repères d'histoire.",
+  "questions": [
+    {
+      "q": "Quel pays l'Allemagne nazie envahit-elle le 1er septembre 1939 ?",
+      "choices": [
+        "La France",
+        "La Tchécoslovaquie",
+        "L'Autriche",
+        "La Pologne"
+      ],
+      "answer": 3,
+      "explication": "L'invasion de la Pologne entraîne, le 3 septembre, la déclaration de guerre de la France et du Royaume-Uni à l'Allemagne.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui dirige l'Allemagne nazie de 1933 à 1945 ?",
+      "choices": [
+        "Benito Mussolini",
+        "Adolf Hitler",
+        "Francisco Franco",
+        "Joseph Staline"
+      ],
+      "answer": 1,
+      "explication": "Nommé chancelier en janvier 1933, Hitler instaure une dictature. Il se suicide à Berlin en avril 1945.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui lance l'appel du 18 juin 1940 ?",
+      "choices": [
+        "Philippe Pétain",
+        "Jean Moulin",
+        "Charles de Gaulle",
+        "Winston Churchill"
+      ],
+      "answer": 2,
+      "explication": "Depuis Londres, de Gaulle appelle les Français à poursuivre le combat : c'est l'acte fondateur de la France libre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel jour a lieu le Débarquement allié en Normandie ?",
+      "choices": [
+        "Le 6 juin 1944",
+        "Le 8 mai 1945",
+        "Le 1er septembre 1939",
+        "Le 14 juillet 1944"
+      ],
+      "answer": 0,
+      "explication": "L'opération Overlord engage des milliers de navires et d'avions sur les plages de Normandie.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays attaque la base américaine de Pearl Harbor en décembre 1941 ?",
+      "choices": [
+        "Le Japon",
+        "L'Allemagne",
+        "L'Italie",
+        "L'Union soviétique"
+      ],
+      "answer": 0,
+      "explication": "Cette attaque du 7 décembre 1941 provoque l'entrée en guerre des États-Unis.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle date marque la capitulation de l'Allemagne en Europe ?",
+      "choices": [
+        "Le 11 novembre 1918",
+        "Le 6 juin 1944",
+        "Le 8 mai 1945",
+        "Le 2 septembre 1945"
+      ],
+      "answer": 2,
+      "explication": "Le 8 mai 1945 est la Victoire en Europe, commémorée en France chaque année.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel livre est le journal d'une adolescente juive cachée à Amsterdam ?",
+      "choices": [
+        "Le Petit Prince",
+        "Le Journal d'Anne Frank",
+        "Si c'est un homme",
+        "Le Silence de la mer"
+      ],
+      "answer": 1,
+      "explication": "Anne Frank y raconte sa vie dans l'Annexe, de 1942 à 1944. Arrêtée en août 1944, elle meurt en 1945 à Bergen-Belsen.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui devient Premier ministre du Royaume-Uni en mai 1940 ?",
+      "choices": [
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Anthony Eden",
+        "Winston Churchill"
+      ],
+      "answer": 3,
+      "explication": "Churchill succède à Chamberlain et conduit la résistance britannique face à l'Allemagne.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui dirige le régime de Vichy à partir de 1940 ?",
+      "choices": [
+        "Pierre Laval seul",
+        "Le maréchal Pétain",
+        "Le général de Gaulle",
+        "Paul Reynaud"
+      ],
+      "answer": 1,
+      "explication": "Après l'armistice de juin 1940, Pétain reçoit les pleins pouvoirs et installe son gouvernement à Vichy.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle bataille de 1942-1943 voit l'Armée rouge vaincre l'armée allemande sur le front de l'Est ?",
+      "choices": [
+        "Koursk",
+        "Verdun",
+        "El-Alamein",
+        "Stalingrad"
+      ],
+      "answer": 3,
+      "explication": "Stalingrad est considérée comme un tournant de la guerre : l'armée allemande y perd la 6e armée.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui est chargé par de Gaulle d'unifier la Résistance intérieure ?",
+      "choices": [
+        "Pierre Brossolette",
+        "Philippe Leclerc",
+        "Jean Moulin",
+        "Henri Giraud"
+      ],
+      "answer": 2,
+      "explication": "Jean Moulin préside le Conseil national de la Résistance en mai 1943. Arrêté à Caluire en juin, il meurt en juillet.",
+      "level": "moyen"
+    },
+    {
+      "q": "Sur quelles villes japonaises des bombes atomiques sont-elles larguées en août 1945 ?",
+      "choices": [
+        "Hiroshima et Nagasaki",
+        "Tokyo et Osaka",
+        "Kyoto et Kobe",
+        "Yokohama et Nagoya"
+      ],
+      "answer": 0,
+      "explication": "Les 6 et 9 août 1945, ces bombardements font des centaines de milliers de victimes. Le Japon capitule peu après.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment s'appelle l'opération qui évacue des soldats alliés de Dunkerque en 1940 ?",
+      "choices": [
+        "Overlord",
+        "Barbarossa",
+        "Dynamo",
+        "Torch"
+      ],
+      "answer": 2,
+      "explication": "Environ 340 000 soldats sont évacués vers l'Angleterre, grâce notamment à de nombreux petits navires civils.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année a lieu la rafle du Vel' d'Hiv à Paris ?",
+      "choices": [
+        "1942",
+        "1939",
+        "1940",
+        "1944"
+      ],
+      "answer": 0,
+      "explication": "Les 16 et 17 juillet 1942, la police française arrête plus de 12 000 Juifs, à la demande de l'occupant et avec le concours du régime de Vichy. La France a reconnu sa responsabilité en 1995.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quel mois de 1944 Paris est-elle libérée ?",
+      "choices": [
+        "Juin",
+        "Mai",
+        "Novembre",
+        "Août"
+      ],
+      "answer": 3,
+      "explication": "La capitale est libérée à la fin du mois d'août 1944, avec la 2e division blindée du général Leclerc et les insurgés parisiens.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quels dirigeants se réunissent à Yalta en février 1945 ?",
+      "choices": [
+        "Truman, Attlee et Staline",
+        "Roosevelt, Churchill et Staline",
+        "Roosevelt, de Gaulle et Hitler",
+        "Churchill, Mussolini et Staline"
+      ],
+      "answer": 1,
+      "explication": "Les « Trois Grands » y préparent l'après-guerre et l'organisation de l'Europe.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel accord signé en août 1939 entre Berlin et Moscou précède l'invasion de la Pologne ?",
+      "choices": [
+        "Le pacte germano-soviétique",
+        "Les accords de Munich",
+        "Le traité de Versailles",
+        "Le pacte de l'Axe"
+      ],
+      "answer": 0,
+      "explication": "Aussi appelé pacte Molotov-Ribbentrop, il comprend un protocole secret de partage de l'Europe de l'Est.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle bataille aérienne de l'été 1940 oppose la Luftwaffe à la Royal Air Force ?",
+      "choices": [
+        "La bataille de Midway",
+        "Le Blitz de Dunkerque",
+        "La bataille d'Angleterre",
+        "La bataille des Ardennes"
+      ],
+      "answer": 2,
+      "explication": "La RAF résiste et prive l'Allemagne de la maîtrise du ciel : Hitler reporte puis abandonne son projet d'invasion.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel nom de code désigne l'invasion allemande de l'URSS en juin 1941 ?",
+      "choices": [
+        "Opération Overlord",
+        "Opération Market Garden",
+        "Opération Torch",
+        "Opération Barbarossa"
+      ],
+      "answer": 3,
+      "explication": "Lancée le 22 juin 1941, l'offensive rompt le pacte germano-soviétique et ouvre le front de l'Est.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle bataille navale de juin 1942 voit les Américains couler quatre porte-avions japonais ?",
+      "choices": [
+        "Guadalcanal",
+        "Midway",
+        "Okinawa",
+        "Iwo Jima"
+      ],
+      "answer": 1,
+      "explication": "Midway affaiblit durablement la flotte japonaise dans le Pacifique.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quand commence et quand finit la Seconde Guerre mondiale ?",
+      "Elle commence le 1er septembre 1939 avec l'invasion de la Pologne et s'achève en 1945 : le 8 mai en Europe avec la capitulation de l'Allemagne, puis le 2 septembre en Asie avec celle du Japon. Elle aura duré près de six ans."
+    ],
+    [
+      "Qu'est-ce que la Résistance française ?",
+      "C'est l'ensemble des mouvements et des réseaux, civils et militaires, qui se sont opposés à l'occupation allemande et au régime de Vichy entre 1940 et 1944. Leurs membres ont mené des actions de renseignement, de sabotage et d'aide aux persécutés, au péril de leur vie."
+    ],
+    [
+      "Pourquoi ce quiz est-il traité avec sobriété ?",
+      "Cette guerre a causé des dizaines de millions de morts, dont les victimes de la Shoah. Les questions portent sur des faits établis et sont accompagnées d'explications neutres. L'objectif est de transmettre des repères historiques, sans sensationnalisme et avec respect pour les victimes."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-histoire-de-france",
+    "/quiz-revolution-francaise",
+    "/quiz-rois-de-france"
+  ]
+}

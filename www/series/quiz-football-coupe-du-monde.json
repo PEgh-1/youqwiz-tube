@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-football-coupe-du-monde",
+  "theme": "sport",
+  "title": "Quiz Coupe du monde de football : 20 questions",
+  "description": "Quiz sur l'histoire de la Coupe du monde de football jusqu'en 2026 : vainqueurs, pays hôtes, finales et buteurs. 20 questions, du facile à l'expert.",
+  "h1": "Quiz Coupe du monde de football : connais-tu l'histoire du Mondial ?",
+  "intro": "De l'Uruguay de 1930 au sacre de l'Espagne en 2026, la Coupe du monde de football a écrit certaines des plus belles pages du sport. Ce quiz de 20 questions retrace son histoire : vainqueurs, pays organisateurs, finales mémorables et buteurs de légende, jusqu'à l'édition 2026 incluse, la première à 48 équipes, organisée par le Canada, les États-Unis et le Mexique. Les huit premières questions s'adressent à tous les amateurs, les huit suivantes demandent d'avoir suivi les grands tournois, et les quatre dernières mettront les vrais passionnés à l'épreuve. Compte environ 5 secondes par question et prépare-toi à un voyage dans le temps !",
+  "questions": [
+    {
+      "q": "Quel pays a remporté la Coupe du monde 2014 ?",
+      "choices": [
+        "L'Argentine",
+        "L'Allemagne",
+        "Les Pays-Bas",
+        "Le Brésil"
+      ],
+      "answer": 1,
+      "explication": "L'Allemagne a battu l'Argentine 1-0 en finale après prolongation, grâce à un but de Mario Götze.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays a organisé la Coupe du monde 2010, la première sur le continent africain ?",
+      "choices": [
+        "L'Égypte",
+        "Le Maroc",
+        "Le Nigeria",
+        "L'Afrique du Sud"
+      ],
+      "answer": 3,
+      "explication": "Le tournoi s'est déroulé en 2010 en Afrique du Sud, où l'on a découvert le bruit des vuvuzelas.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle équipe a remporté la Coupe du monde 2010 ?",
+      "choices": [
+        "L'Espagne",
+        "Les Pays-Bas",
+        "L'Allemagne",
+        "L'Uruguay"
+      ],
+      "answer": 0,
+      "explication": "L'Espagne a battu les Pays-Bas 1-0 en finale, but d'Andrés Iniesta en prolongation : c'était son premier titre mondial.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays a remporté la Coupe du monde 2022 ?",
+      "choices": [
+        "La France",
+        "La Croatie",
+        "L'Argentine",
+        "Le Maroc"
+      ],
+      "answer": 2,
+      "explication": "L'Argentine de Lionel Messi a battu la France aux tirs au but (4-2) après un 3-3 mémorable en finale.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays a organisé la Coupe du monde 2022 ?",
+      "choices": [
+        "Les Émirats arabes unis",
+        "L'Arabie saoudite",
+        "Le Qatar",
+        "Le Bahreïn"
+      ],
+      "answer": 2,
+      "explication": "Pour la première fois, la compétition s'est tenue au Moyen-Orient, en novembre-décembre à cause de la chaleur.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays a remporté la Coupe du monde 2026 ?",
+      "choices": [
+        "L'Espagne",
+        "L'Argentine",
+        "La France",
+        "L'Angleterre"
+      ],
+      "answer": 0,
+      "explication": "L'Espagne a battu l'Argentine 1-0 après prolongation, le 19 juillet 2026 à East Rutherford, près de New York, sur un but de Ferran Torres : son deuxième titre après 2010.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle équipe a gagné la Coupe du monde 2006, après une finale aux tirs au but ?",
+      "choices": [
+        "La France",
+        "L'Allemagne",
+        "Le Portugal",
+        "L'Italie"
+      ],
+      "answer": 3,
+      "explication": "L'Italie a battu la France aux tirs au but (5-3) à Berlin après un 1-1, pour son quatrième titre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays a co-organisé la Coupe du monde 2002 avec la Corée du Sud ?",
+      "choices": [
+        "La Chine",
+        "Le Japon",
+        "L'Australie",
+        "La Thaïlande"
+      ],
+      "answer": 1,
+      "explication": "En 2002, c'était la première fois qu'un Mondial était organisé par deux pays, et la première fois en Asie.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle sélection a gagné la finale de 1954 contre la Hongrie, surnommée le « miracle de Berne » ?",
+      "choices": [
+        "L'Allemagne de l'Ouest",
+        "La Hongrie",
+        "L'Autriche",
+        "Le Brésil"
+      ],
+      "answer": 0,
+      "explication": "L'Allemagne de l'Ouest a battu 3-2 la grande Hongrie de Puskás, pourtant favorite.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui a gagné la Coupe du monde 1990, organisée en Italie ?",
+      "choices": [
+        "L'Argentine",
+        "L'Italie",
+        "L'Allemagne de l'Ouest",
+        "L'Angleterre"
+      ],
+      "answer": 2,
+      "explication": "Les Allemands ont battu l'Argentine 1-0 en finale, sur un penalty d'Andreas Brehme.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien d'équipes ont disputé la phase finale de la Coupe du monde 2026 ?",
+      "choices": [
+        "32",
+        "48",
+        "40",
+        "64"
+      ],
+      "answer": 1,
+      "explication": "Pour la première fois, 48 sélections étaient au rendez-vous, contre 32 de 1998 à 2022, dans un tournoi organisé par le Canada, les États-Unis et le Mexique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel pays a remporté la toute première Coupe du monde, en 1930 ?",
+      "choices": [
+        "L'Argentine",
+        "L'Italie",
+        "Le Brésil",
+        "L'Uruguay"
+      ],
+      "answer": 3,
+      "explication": "L'Uruguay, pays organisateur, a battu l'Argentine 4-2 en finale à Montevideo.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel pays hôte a remporté la Coupe du monde 1978 ?",
+      "choices": [
+        "Les Pays-Bas",
+        "Le Brésil",
+        "L'Italie",
+        "L'Argentine"
+      ],
+      "answer": 3,
+      "explication": "L'Argentine a battu les Pays-Bas 3-1 après prolongation en finale, à Buenos Aires.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de buts Just Fontaine a-t-il marqués lors de la Coupe du monde 1958, record pour une seule édition ?",
+      "choices": [
+        "10",
+        "13",
+        "11",
+        "15"
+      ],
+      "answer": 1,
+      "explication": "Just Fontaine a inscrit 13 buts en six matchs en Suède. Un record toujours inégalé.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel pays a organisé les Coupes du monde 1970 et 1986 ?",
+      "choices": [
+        "L'Espagne",
+        "Le Brésil",
+        "Le Mexique",
+        "Les États-Unis"
+      ],
+      "answer": 2,
+      "explication": "Le Mexique a vu Pelé triompher en 1970 et Maradona dominer le tournoi en 1986.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel pays a gagné la Coupe du monde 1982 en Espagne, avec Paolo Rossi comme meilleur buteur ?",
+      "choices": [
+        "L'Italie",
+        "L'Allemagne de l'Ouest",
+        "La Pologne",
+        "Le Brésil"
+      ],
+      "answer": 0,
+      "explication": "L'Italie a battu l'Allemagne de l'Ouest 3-1 en finale à Madrid, pour son troisième titre.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel joueur anglais a réussi un triplé en finale de la Coupe du monde 1966 ?",
+      "choices": [
+        "Bobby Charlton",
+        "Gary Lineker",
+        "Geoff Hurst",
+        "Martin Peters"
+      ],
+      "answer": 2,
+      "explication": "Geoff Hurst a marqué trois buts contre l'Allemagne de l'Ouest (4-2 après prolongation), le premier triplé de l'histoire en finale de Coupe du monde.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel pays a conservé son titre mondial en 1938, lors du tournoi organisé en France ?",
+      "choices": [
+        "L'Italie",
+        "La Hongrie",
+        "Le Brésil",
+        "La France"
+      ],
+      "answer": 0,
+      "explication": "Après son titre en 1934 chez elle, l'Italie a battu la Hongrie 4-2 en finale au stade de Colombes.",
+      "level": "expert"
+    },
+    {
+      "q": "Combien de finales de Coupe du monde les Pays-Bas ont-ils perdues entre 1974 et 2010 ?",
+      "choices": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 1,
+      "explication": "Les Néerlandais ont perdu en 1974 contre l'Allemagne de l'Ouest, en 1978 contre l'Argentine et en 2010 contre l'Espagne.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle sélection a participé à toutes les phases finales de Coupe du monde de 1930 à 2026 ?",
+      "choices": [
+        "L'Allemagne",
+        "L'Italie",
+        "L'Argentine",
+        "Le Brésil"
+      ],
+      "answer": 3,
+      "explication": "Le Brésil est la seule équipe à avoir pris part à chacune des 23 éditions.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Qui a remporté le plus de Coupes du monde de football ?",
+      "Le Brésil détient le record avec cinq titres, obtenus en 1958, 1962, 1970, 1994 et 2002. Viennent ensuite l'Allemagne et l'Italie avec quatre titres chacune, puis l'Argentine avec trois. La France (1998, 2018) et l'Espagne (2010, 2026) ont gagné deux fois."
+    ],
+    [
+      "Tous les combien de temps a lieu la Coupe du monde ?",
+      "La Coupe du monde masculine a lieu tous les quatre ans. Elle n'a pas été organisée en 1942 et 1946 à cause de la Seconde Guerre mondiale. La première édition s'est tenue en 1930 en Uruguay, le tournoi de 2022 au Qatar a été joué exceptionnellement en fin d'année, et celui de 2026 a réuni 48 équipes pour la première fois."
+    ],
+    [
+      "Qui est le meilleur buteur de l'histoire de la Coupe du monde ?",
+      "Miroslav Klose a longtemps détenu le record du nombre de buts en phase finale, avec 16 réalisations entre 2002 et 2014. Lionel Messi l'a dépassé pendant le Mondial 2026. Sur une seule édition, le record reste celui de Just Fontaine : 13 buts en 1958, en seulement six matchs."
+    ]
+  ],
+  "related": [
+    "/quiz-football",
+    "/quiz-football-equipe-de-france",
+    "/quiz-football-difficile",
+    "/quiz-sport"
+  ]
+}

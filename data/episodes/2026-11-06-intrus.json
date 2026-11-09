@@ -1,0 +1,1461 @@
+{
+ "id": "2026-11-06-intrus",
+ "pillar": "emojis",
+ "template": "Intrus",
+ "theme": 0,
+ "title": "Trouve l'INTRUS 👀🧠🌈 77 niveaux | Facile, Moyen, Difficile, Impossible",
+ "question": "Trouve l'intrus 👀",
+ "intro": {
+  "hook": "Trouve l'INTRUS",
+  "sub": "Un seul est différent 👀"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😎😎😎😎😎😱😎😎😎😎😎😎"
+   },
+   "answer": "Case 6",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✅✅❌✅✅✅✅✅✅✅✅✅"
+   },
+   "answer": "Case 3",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/604bf3fe53054d0c.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐢🐢🐢🐢🐢🐢🐢🐢🦅🐢🐢🐢"
+   },
+   "answer": "Case 9",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/217f5f6ed03eecf7.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☂️☂️☂️☂️☂️🍩☂️☂️☂️☂️☂️☂️"
+   },
+   "answer": "Case 6",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍔🍔🍔🥒🍔🍔🍔🍔🍔🍔🍔🍔"
+   },
+   "answer": "Case 4",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/3fb4c2bb84f94382.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦈🦈🦈🦈🦈🦈🦈🦈🦈🦈🐥🦈"
+   },
+   "answer": "Case 11",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗🚗🚗🚗🚗🚗🚗🚗🐟🚗🚗🚗"
+   },
+   "answer": "Case 9",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/217f5f6ed03eecf7.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍦"
+   },
+   "answer": "Case 12",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/5487cbd2d5735252.mp3",
+     "sec": 1.123265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍋🍋🍋🍉🍋🍋🍋🍋🍋🍋🍋🍋"
+   },
+   "answer": "Case 4",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/3fb4c2bb84f94382.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧀🧀🧀🧀🧀🧀🧀🍇🧀🧀🧀🧀"
+   },
+   "answer": "Case 8",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/d6b2bcca9bfc2c53.mp3",
+     "sec": 1.253878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌈🌈🌈🌈🌈🌈🔥🌈🌈🌈🌈🌈"
+   },
+   "answer": "Case 7",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/ddf05738daa292c1.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚽⚽⚽🏀⚽⚽⚽⚽⚽⚽⚽⚽"
+   },
+   "answer": "Case 4",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/3fb4c2bb84f94382.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐍🐘🐘🐘🐘🐘🐘🐘🐘🐘🐘🐘"
+   },
+   "answer": "Case 1",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎨🎨🎨🎨🎨🎨🎨🎨🎨🔑🎨🎨"
+   },
+   "answer": "Case 10",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/d7bb94d6390f1f42.mp3",
+     "sec": 1.38449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎵🎵🎵🎵🎵🎵🎵🛑🎵🎵🎵🎵"
+   },
+   "answer": "Case 8",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/d6b2bcca9bfc2c53.mp3",
+     "sec": 1.253878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥶🥶🥶🥵🥶🥶🥶🥶🥶🥶🥶🥶"
+   },
+   "answer": "Case 4",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/3fb4c2bb84f94382.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚀🚀🚀✈️🚀🚀🚀🚀🚀🚀🚀🚀"
+   },
+   "answer": "Case 4",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/3fb4c2bb84f94382.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍕🍕🍕🍔🍕🍕🍕🍕🍕🍕🍕🍕"
+   },
+   "answer": "Case 4",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/3fb4c2bb84f94382.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏐🏐🏐🏐🏐⚽🏐🏐🏐🏐🏐🏐"
+   },
+   "answer": "Case 6",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍞🍞🍞🍞🍞🍞🍞🥐🍞🍞🍞🍞"
+   },
+   "answer": "Case 8",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/d6b2bcca9bfc2c53.mp3",
+     "sec": 1.253878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚲🚲🚲🚲🚲🛴🚲🚲🚲🚲🚲🚲"
+   },
+   "answer": "Case 6",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥔🥔🥕🥔🥔🥔🥔🥔🥔🥔🥔🥔"
+   },
+   "answer": "Case 3",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/604bf3fe53054d0c.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍏🍏🍏🍏🍏🍏🍏🍏🍏🍏🥝🍏"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻🐻🐻🐻🐯🐻🐻🐻🐻🐻🐻🐻"
+   },
+   "answer": "Case 5",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/00832a1ef64a2b56.mp3",
+     "sec": 1.515102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎾🎾🎾🎾🎾🎾🎾🎾🎾🎾⚾🎾"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍅🍎"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌲🌲🌲🌲🌲🌴🌲🌲🌲🌲🌲🌲"
+   },
+   "answer": "Case 6",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎺🎺🎺🎺🎺🎺🎺🎺🎺🎺🎺🎷"
+   },
+   "answer": "Case 12",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/5487cbd2d5735252.mp3",
+     "sec": 1.123265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝🐝🐝🐝🐝🐝🐝🐝🐝🐝🐞🐝"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍫🍫🍫🍫🍫🍫🍫🍫🍪🍫🍫🍫"
+   },
+   "answer": "Case 9",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/217f5f6ed03eecf7.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐺🐺🐺🐺🐺🐺🐺🐺🐺🐺🦊🐺"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍇🍇🍇🍇🍇🍇🍇🍇🍇🍇🫐🍇"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏰⛪⛪⛪⛪⛪⛪⛪⛪⛪⛪⛪"
+   },
+   "answer": "Case 1",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍰🧁🍰🍰🍰🍰🍰🍰🍰🍰🍰🍰"
+   },
+   "answer": "Case 2",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/e93a680c592d6fdd.mp3",
+     "sec": 0.940408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔑🔑🔑🔑🔒🔑🔑🔑🔑🔑🔑🔑"
+   },
+   "answer": "Case 5",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/00832a1ef64a2b56.mp3",
+     "sec": 1.515102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐷🐷🐷🐷🐷🐷🐷🐷🐷🐷🐮🐷"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐑🐑🐑🐑🐑🐐🐑🐑🐑🐑🐑🐑"
+   },
+   "answer": "Case 6",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌷🌹"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚜🚜🚛🚜🚜🚜🚜🚜🚜🚜🚜🚜"
+   },
+   "answer": "Case 3",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/604bf3fe53054d0c.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🙂🙂🙂😢🙂🙂🙂🙂🙂🙂🙂🙂"
+   },
+   "answer": "Case 4",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/3fb4c2bb84f94382.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞⭐🌞"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍉🍉🍉🍉🍉🍉🍉🍉🍉🍉🍓🍉"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🌶️🥕"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍔🍔🍔🍔🍔🍔🍔🍔🍔🍔🌭🍔"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐬🐟"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐰🐰🐰🐰🐰🐰🐰🐰🐰🐰🐭🐰"
+   },
+   "answer": "Case 11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐇🐁🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇"
+   },
+   "answer": "Case 2",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/e93a680c592d6fdd.mp3",
+     "sec": 0.940408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐏🐏🐏🐏🐏🐏🐏🐏🐏🐏🐏🐑"
+   },
+   "answer": "Case 12",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/5487cbd2d5735252.mp3",
+     "sec": 1.123265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚙🚙🚙🚙🚙🚙🚙🚙🚙🛻🚙🚙"
+   },
+   "answer": "Case 10",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/d7bb94d6390f1f42.mp3",
+     "sec": 1.38449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚑🚑🚑🚑🚑🚑🚑🚑🚑🚑🚑🚒"
+   },
+   "answer": "Case 12",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/5487cbd2d5735252.mp3",
+     "sec": 1.123265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☎️☎️📞☎️☎️☎️☎️☎️☎️☎️☎️☎️"
+   },
+   "answer": "Case 3",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/604bf3fe53054d0c.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔵🔵🔵🔵🔵🟣🔵🔵🔵🔵🔵🔵"
+   },
+   "answer": "Case 6",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⏰⌚⌚⌚⌚⌚⌚⌚⌚⌚⌚⌚"
+   },
+   "answer": "Case 1",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😴😴😴😴😴😪😴😴😴😴😴😴"
+   },
+   "answer": "Case 6",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧐🧐🧐🧐🧐🤔🧐🧐🧐🧐🧐🧐"
+   },
+   "answer": "Case 6",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐈🐈🐈🐈🐈🐈🐈🐈🐅🐈🐈🐈"
+   },
+   "answer": "Case 9",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/217f5f6ed03eecf7.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😅😅😅😅😅😂😅😅😅😅😅😅"
+   },
+   "answer": "Case 6",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥨🥯🥨🥨🥨🥨🥨🥨🥨🥨🥨🥨"
+   },
+   "answer": "Case 2",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/e93a680c592d6fdd.mp3",
+     "sec": 0.940408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦗🦟🦗🦗🦗🦗🦗🦗🦗🦗🦗🦗"
+   },
+   "answer": "Case 2",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/e93a680c592d6fdd.mp3",
+     "sec": 0.940408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🍎🍎🍎🍎🍏🍎🍎🍎🍎🍎🍎"
+   },
+   "answer": "Case 6",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😮😮😮😮😮😯😮😮😮😮😮😮"
+   },
+   "answer": "Case 6",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📺📺📺📺📺📺📺📻📺📺📺📺"
+   },
+   "answer": "Case 8",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/d6b2bcca9bfc2c53.mp3",
+     "sec": 1.253878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💚💚💚💚💚💛💚💚💚💚💚💚"
+   },
+   "answer": "Case 6",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🙂🙂🙂🙂🙂😊🙂🙂🙂🙂🙂🙂"
+   },
+   "answer": "Case 6",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/5d70404b8838e599.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌖🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕🌕"
+   },
+   "answer": "Case 1",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✈️✈️✈️✈️✈️✈️✈️🛫✈️✈️✈️✈️"
+   },
+   "answer": "Case 8",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/d6b2bcca9bfc2c53.mp3",
+     "sec": 1.253878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔹🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷"
+   },
+   "answer": "Case 1",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗🚘🚗"
+   },
+   "answer": "Case 11",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/d7396c44cb62969d.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😆😄😄😄😄😄😄😄😄😄😄😄"
+   },
+   "answer": "Case 1",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚂🚆🚂🚂🚂🚂🚂🚂🚂🚂🚂🚂"
+   },
+   "answer": "Case 2",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/e93a680c592d6fdd.mp3",
+     "sec": 0.940408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚌🚌🚌🚍🚌🚌🚌🚌🚌🚌🚌🚌"
+   },
+   "answer": "Case 4",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/3fb4c2bb84f94382.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧡💛💛💛💛💛💛💛💛💛💛💛"
+   },
+   "answer": "Case 1",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕓🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒🕒"
+   },
+   "answer": "Case 1",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84784fa6db9cc851.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤎🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤🖤"
+   },
+   "answer": "Case 1",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8db5c35965843708.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕧🕛🕛🕛🕛🕛🕛🕛🕛🕛🕛🕛"
+   },
+   "answer": "Case 1",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b00b6e8c8a3b7676.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😒😏😏😏😏😏😏😏😏😏😏😏"
+   },
+   "answer": "Case 1",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8ca1879294297cf5.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕑🕐🕐🕐🕐🕐🕐🕐🕐🕐🕐🕐"
+   },
+   "answer": "Case 1",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3828fbf481abbcd.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts-cache/178167b8847ce3e4.mp3",
+     "sec": 1.332245
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "77 grilles, un seul intrus à trouver ! Dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #intrus #youqwiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "devinette",
+   "youqwiz",
+   "intrus",
+   "devine",
+   "facile à impossible"
+  ],
+  "thumbnail": {
+   "line1": "Trouve",
+   "line2": "l'intrus",
+   "emoji": "👀"
+  },
+  "shortItems": 5
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/7be58f74e39cf17f.mp3",
+   "sec": 2.194286
+  },
+  "level_moyen": {
+   "src": "tts-cache/265b53abeb3bb0fa.mp3",
+   "sec": 1.985306
+  },
+  "level_difficile": {
+   "src": "tts-cache/ae94e203a5bded47.mp3",
+   "sec": 2.063673
+  },
+  "level_impossible": {
+   "src": "tts-cache/d5d6978ec142b85a.mp3",
+   "sec": 3.082449
+  },
+  "score": {
+   "src": "tts-cache/d5eb78159d0d5471.mp3",
+   "sec": 2.638367
+  },
+  "subscribe": {
+   "src": "tts-cache/902a10e49d0ddd5f.mp3",
+   "sec": 4.754286
+  },
+  "outro": {
+   "src": "tts-cache/016fd4dcdfef3fb6.mp3",
+   "sec": 4.075102
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  }
+ }
+}

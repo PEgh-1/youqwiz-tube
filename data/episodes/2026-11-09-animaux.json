@@ -1,0 +1,1845 @@
+{
+ "id": "2026-11-09-animaux",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "theme": 1,
+ "style": {
+  "pattern": "stars",
+  "timer": "digits",
+  "reveal": "pop",
+  "card": "round",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Tu reviens ? Bravo 🏆",
+   "voice": "Tu reviens ? Bravo, les meilleurs joueurs reviennent chaque jour."
+  },
+  "introCta": "🧠 Sans tricher, sans pause, on y va",
+  "subscribe": {
+   "title": "Rejoins les joueurs YouQwiz",
+   "sub": "abonne-toi, le prochain quiz arrive demain 🔔",
+   "voice": "Rejoins les joueurs YouQwiz : abonne-toi, le prochain quiz arrive demain."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tout le monde peut les avoir 😎",
+    "voice": "Niveau facile. Tout le monde peut les avoir. Enfin, presque."
+   },
+   "moyen": {
+    "card": "Ça se corse 👀",
+    "voice": "Niveau moyen. Ça se corse !"
+   },
+   "difficile": {
+    "card": "Respect si tu continues 🔥",
+    "voice": "Niveau difficile. Respect si tu continues sans faute."
+   },
+   "impossible": {
+    "card": "Seuls les génies 🧠",
+    "voice": "Niveau impossible. Seuls les génies…"
+   }
+  },
+  "scoreVoice": "Alors, génie ou débutant ? Dis ton score en commentaire.",
+  "outro": {
+   "title": "Bravo d'être allé jusqu'au bout 🏁",
+   "voice": "Bravo d'être allé jusqu'au bout. Abonne-toi et à demain !"
+  },
+  "packshot": {
+   "headline": "Défi : envoie ce quiz à quelqu'un",
+   "sub": "et compare vos scores sur youqwiz.com 🏆",
+   "cta": "👉 youqwiz.com",
+   "voice": "Défi : envoie ce quiz à quelqu'un et compare vos scores sur youqwiz point com."
+  }
+ },
+ "title": "Quiz ANIMAUX 🐯🦓🐙 Combien tu en trouves sur 94 ?",
+ "question": "Quel est cet animal ?",
+ "intro": {
+  "hook": "Devine 94 ANIMAUX",
+  "sub": "Du facile à l'impossible, en 5 secondes 🔥"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦄"
+   },
+   "answer": "La licorne",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f9147d1ffa6f1dee.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/0-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐀"
+   },
+   "answer": "Le rat",
+   "voice": {
+    "q": {
+     "src": "tts-cache/79dd841704908868.mp3",
+     "sec": 0.914286
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/1-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦛"
+   },
+   "answer": "L'hippopotame",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d98ab482e19196b9.mp3",
+     "sec": 0.940408
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/2-a.mp3",
+     "sec": 1.097143
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪸"
+   },
+   "answer": "Le corail",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/3-a.mp3",
+     "sec": 1.38449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐓"
+   },
+   "answer": "Le coq",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/4-a.mp3",
+     "sec": 2.168163
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦐"
+   },
+   "answer": "La crevette",
+   "voice": {
+    "q": {
+     "src": "tts-cache/09e018a2a776167f.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/5-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦙"
+   },
+   "answer": "Le lama",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/6-a.mp3",
+     "sec": 2.063673
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦕"
+   },
+   "answer": "Le diplodocus",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/7-a.mp3",
+     "sec": 1.750204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦋"
+   },
+   "answer": "Le papillon",
+   "fact": "Le papillon goûte les aliments avec ses pattes.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/c7b817886f717970.mp3",
+     "sec": 0.835918
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/8-a.mp3",
+     "sec": 1.018776
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/8-f.mp3",
+     "sec": 4.675918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦"
+   },
+   "answer": "L'oiseau",
+   "voice": {
+    "q": {
+     "src": "tts-cache/00d11eb4742c85b0.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/9-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐙"
+   },
+   "answer": "La pieuvre",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/10-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐈‍⬛"
+   },
+   "answer": "Le chat noir",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/11-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦫"
+   },
+   "answer": "Le castor",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f9286e2f48aea6af.mp3",
+     "sec": 0.653061
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/12-a.mp3",
+     "sec": 1.750204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪰"
+   },
+   "answer": "La mouche",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/13-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦜"
+   },
+   "answer": "Le perroquet",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/14-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦁"
+   },
+   "answer": "Le lion",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/15-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦉"
+   },
+   "answer": "Le hibou",
+   "fact": "Le hibou peut tourner la tête sur environ deux cent soixante-dix degrés.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/16-a.mp3",
+     "sec": 2.298776
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/16-f.mp3",
+     "sec": 5.511837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐵"
+   },
+   "answer": "Le singe",
+   "voice": {
+    "q": {
+     "src": "tts-cache/748deefcf65c611b.mp3",
+     "sec": 1.123265
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/17-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐬"
+   },
+   "answer": "Le dauphin",
+   "voice": {
+    "q": {
+     "src": "tts-cache/16495035baeed500.mp3",
+     "sec": 0.626939
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/18-a.mp3",
+     "sec": 1.828571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻‍❄️"
+   },
+   "answer": "L'ours polaire",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0e2b07f27988f78c.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/19-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪳"
+   },
+   "answer": "Le cafard",
+   "voice": {
+    "q": {
+     "src": "tts-cache/62330ebed2eb73dc.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/20-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐹"
+   },
+   "answer": "Le hamster",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/21-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦧"
+   },
+   "answer": "L'orang-outan",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/22-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦬"
+   },
+   "answer": "Le bison",
+   "voice": {
+    "q": {
+     "src": "tts-cache/538e680ae2f2587e.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/23-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦩"
+   },
+   "answer": "Le flamant rose",
+   "fact": "Le flamant rose est rose grâce aux petites crevettes et aux algues qu'il mange.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/24-a.mp3",
+     "sec": 2.429388
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/24-f.mp3",
+     "sec": 6.19102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦀"
+   },
+   "answer": "Le crabe",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/25-a.mp3",
+     "sec": 1.671837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕷️"
+   },
+   "answer": "L'araignée",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/26-a.mp3",
+     "sec": 1.018776
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦥"
+   },
+   "answer": "Le paresseux",
+   "fact": "Le paresseux peut mettre un mois entier à digérer une seule feuille.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/27-a.mp3",
+     "sec": 1.462857
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/27-f.mp3",
+     "sec": 5.146122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦇"
+   },
+   "answer": "La chauve-souris",
+   "voice": {
+    "q": {
+     "src": "tts-cache/13736d3a3d725b8f.mp3",
+     "sec": 0.731429
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/28-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝"
+   },
+   "answer": "L'abeille",
+   "voice": {
+    "q": {
+     "src": "tts-cache/67ac45941432fa13.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/29-a.mp3",
+     "sec": 2.063673
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦢"
+   },
+   "answer": "Le cygne",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/30-a.mp3",
+     "sec": 2.324898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪲"
+   },
+   "answer": "Le scarabée",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e918a1478440ab23.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/31-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦪"
+   },
+   "answer": "L'huître",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/32-a.mp3",
+     "sec": 1.044898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐪"
+   },
+   "answer": "Le dromadaire",
+   "fact": "Le dromadaire n'a qu'une seule bosse, alors que le chameau de Bactriane en a deux.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8647687546abc8d0.mp3",
+     "sec": 0.888163
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/33-a.mp3",
+     "sec": 2.168163
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/33-f.mp3",
+     "sec": 6.870204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦤"
+   },
+   "answer": "Le dodo",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9e3903a64a19ff80.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/34-a.mp3",
+     "sec": 1.671837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦝"
+   },
+   "answer": "Le raton laveur",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/35-a.mp3",
+     "sec": 2.142041
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐷"
+   },
+   "answer": "Le cochon",
+   "voice": {
+    "q": {
+     "src": "tts-cache/07489ff373882198.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/36-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻"
+   },
+   "answer": "L'ours",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/37-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐑"
+   },
+   "answer": "Le mouton",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/38-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐳"
+   },
+   "answer": "La baleine",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ca25fc5fd29c9624.mp3",
+     "sec": 3.474286
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/39-a.mp3",
+     "sec": 1.253878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐣"
+   },
+   "answer": "Le poussin",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/40-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐨"
+   },
+   "answer": "Le koala",
+   "fact": "Le koala dort près de vingt heures par jour.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd872ace5ca74d3f.mp3",
+     "sec": 1.123265
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/41-a.mp3",
+     "sec": 1.28
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/41-f.mp3",
+     "sec": 3.448163
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦞"
+   },
+   "answer": "Le homard",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6dd523cc95f45979.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/42-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐂"
+   },
+   "answer": "Le bœuf",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d393497d0c244aeb.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/43-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦓"
+   },
+   "answer": "Le zèbre",
+   "fact": "Chaque zèbre a des rayures uniques, un peu comme tes empreintes digitales.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8647687546abc8d0.mp3",
+     "sec": 0.888163
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/44-a.mp3",
+     "sec": 1.724082
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/44-f.mp3",
+     "sec": 5.929796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦦"
+   },
+   "answer": "La loutre",
+   "voice": {
+    "q": {
+     "src": "tts-cache/07489ff373882198.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/45-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐠"
+   },
+   "answer": "Le poisson tropical",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d393497d0c244aeb.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/46-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦘"
+   },
+   "answer": "Le kangourou",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/47-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦨"
+   },
+   "answer": "La mouffette",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/48-a.mp3",
+     "sec": 2.298776
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐮"
+   },
+   "answer": "La vache",
+   "voice": {
+    "q": {
+     "src": "tts-cache/12d6a8a25e80c5a8.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/49-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐉"
+   },
+   "answer": "Le dragon",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/50-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦃"
+   },
+   "answer": "La dinde",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d1b9b63b773fdcbc.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/51-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐌"
+   },
+   "answer": "L'escargot",
+   "fact": "L'escargot a des milliers de minuscules dents sur sa langue.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e632222f679a4069.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/52-a.mp3",
+     "sec": 2.115918
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/52-f.mp3",
+     "sec": 4.91102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦡"
+   },
+   "answer": "Le blaireau",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/53-a.mp3",
+     "sec": 0.940408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦‍⬛"
+   },
+   "answer": "Le corbeau",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/54-a.mp3",
+     "sec": 0.966531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦒"
+   },
+   "answer": "La girafe",
+   "fact": "Le long cou de la girafe compte seulement sept vertèbres, comme le tien.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1c035dc6d2759f62.mp3",
+     "sec": 1.515102
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/55-a.mp3",
+     "sec": 1.38449
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/55-f.mp3",
+     "sec": 7.131429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐼"
+   },
+   "answer": "Le panda",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fdcc8ac81d8d8251.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/56-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐢"
+   },
+   "answer": "La tortue",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fdcc8ac81d8d8251.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/57-a.mp3",
+     "sec": 1.358367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐔"
+   },
+   "answer": "La poule",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/58-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐸"
+   },
+   "answer": "La grenouille",
+   "fact": "La grenouille boit en absorbant l'eau directement par la peau.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/c1a97d6e018365a7.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/59-a.mp3",
+     "sec": 1.07102
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/59-f.mp3",
+     "sec": 5.067755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐿️"
+   },
+   "answer": "L'écureuil",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/60-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟"
+   },
+   "answer": "Le poisson",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd249d8462acaf72.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/61-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦎"
+   },
+   "answer": "Le lézard",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/62-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦟"
+   },
+   "answer": "Le moustique",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9c337124be44e9a5.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/63-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐺"
+   },
+   "answer": "Le loup",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/64-a.mp3",
+     "sec": 1.541224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦣"
+   },
+   "answer": "Le mammouth",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ed0c9eb9b5b20ae9.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/65-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐛"
+   },
+   "answer": "La chenille",
+   "voice": {
+    "q": {
+     "src": "tts-cache/01570ffd17d336a2.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/66-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐏"
+   },
+   "answer": "Le bélier",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9c337124be44e9a5.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/67-a.mp3",
+     "sec": 1.38449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐘"
+   },
+   "answer": "L'éléphant",
+   "fact": "L'éléphant utilise sa trompe pour boire, respirer et même attraper des objets.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/68-a.mp3",
+     "sec": 2.037551
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/68-f.mp3",
+     "sec": 6.765714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦍"
+   },
+   "answer": "Le gorille",
+   "voice": {
+    "q": {
+     "src": "tts-cache/bff6964ad32447ba.mp3",
+     "sec": 2.951837
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/69-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐡"
+   },
+   "answer": "Le poisson-globe",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a72df48aa3f8a73d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/70-a.mp3",
+     "sec": 1.436735
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦊"
+   },
+   "answer": "Le renard",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/71-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫏"
+   },
+   "answer": "L'âne",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1e0d2e027e99a6f0.mp3",
+     "sec": 0.809796
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/72-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦏"
+   },
+   "answer": "Le rhinocéros",
+   "fact": "La corne du rhinocéros est faite de kératine, comme tes ongles.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/73-a.mp3",
+     "sec": 2.742857
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/73-f.mp3",
+     "sec": 5.694694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦭"
+   },
+   "answer": "Le phoque",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/74-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐍"
+   },
+   "answer": "Le serpent",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/75-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦈"
+   },
+   "answer": "Le requin",
+   "fact": "Le requin renouvelle ses dents tout au long de sa vie.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/76-a.mp3",
+     "sec": 2.037551
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/76-f.mp3",
+     "sec": 3.604898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪼"
+   },
+   "answer": "La méduse",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/77-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦑"
+   },
+   "answer": "Le calamar",
+   "voice": {
+    "q": {
+     "src": "tts-cache/5b5c7d0c6ee58805.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/78-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐃"
+   },
+   "answer": "Le buffle",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4f409a5ae13d8949.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/79-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐐"
+   },
+   "answer": "La chèvre",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/80-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐊"
+   },
+   "answer": "Le crocodile",
+   "fact": "Le crocodile est incapable de tirer la langue.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/81-a.mp3",
+     "sec": 1.436735
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/81-f.mp3",
+     "sec": 4.754286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦌"
+   },
+   "answer": "Le cerf",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/82-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦆"
+   },
+   "answer": "Le canard",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/83-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐞"
+   },
+   "answer": "La coccinelle",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd249d8462acaf72.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/84-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐲"
+   },
+   "answer": "Le dragon chinois",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9c337124be44e9a5.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/85-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦠"
+   },
+   "answer": "Le microbe",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d1b9b63b773fdcbc.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/86-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦔"
+   },
+   "answer": "Le hérisson",
+   "voice": {
+    "q": {
+     "src": "tts-cache/c4f994d358693aba.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/87-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐯"
+   },
+   "answer": "Le tigre",
+   "fact": "Le tigre a des rayures aussi sur la peau, pas seulement sur le pelage.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b447b31727f8c627.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/88-a.mp3",
+     "sec": 2.272653
+    },
+    "f": {
+     "src": "tts/2026-11-09-animaux/88-f.mp3",
+     "sec": 6.844082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦗"
+   },
+   "answer": "Le grillon",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4d0a94396aa9077d.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/89-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦖"
+   },
+   "answer": "Le tyrannosaure",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d1b9b63b773fdcbc.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/90-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪿"
+   },
+   "answer": "L'oie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/91-a.mp3",
+     "sec": 1.17551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦂"
+   },
+   "answer": "Le scorpion",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1a8d80de0b935b16.mp3",
+     "sec": 1.750204
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/92-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐜"
+   },
+   "answer": "La fourmi",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e129d0b4a209d3e7.mp3",
+     "sec": 1.149388
+    },
+    "a": {
+     "src": "tts/2026-11-09-animaux/93-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Crée ton quiz gratuit sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Aujourd'hui : 94 ANIMAUX. Tu as 5 secondes par image, ta série compte double. 15 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com\n🔔 Abonne-toi : un quiz par jour à 17 h 30.\n\n#quiz #animaux #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:15 Niveau facile\n03:32 Niveau moyen\n07:00 Niveau difficile\n10:54 Niveau impossible\n15:23 Ton score\n15:33 Crée ton quiz sur youqwiz.com",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "animaux",
+   "quiz animaux",
+   "devine l'animal",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Devine",
+   "line2": "94 ANIMAUX",
+   "emoji": "🦓",
+   "sticker": "PERSONNE N'Y ARRIVE",
+   "layouts": [
+    2,
+    3
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Personne n'a la dernière 🤯 Devine 94 ANIMAUX #Shorts",
+  "shortDescription": "La réponse + 94 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 15.8,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 212.26666666666668,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 420.3666666666667,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 654.8666666666667,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 923.1666666666666,
+    "title": "Ton score"
+   },
+   {
+    "at": 933.1666666666666,
+    "title": "Crée ton quiz sur youqwiz.com"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/62b2ff7632c2c0b6.mp3",
+   "sec": 4.336327
+  },
+  "level_moyen": {
+   "src": "tts-cache/265b53abeb3bb0fa.mp3",
+   "sec": 1.985306
+  },
+  "level_difficile": {
+   "src": "tts-cache/7c4b0fa8b7836b70.mp3",
+   "sec": 3.892245
+  },
+  "level_impossible": {
+   "src": "tts-cache/d5d6978ec142b85a.mp3",
+   "sec": 3.082449
+  },
+  "score": {
+   "src": "tts-cache/be35052919217f6b.mp3",
+   "sec": 4.022857
+  },
+  "subscribe": {
+   "src": "tts-cache/8fdfaefd173281d1.mp3",
+   "sec": 4.362449
+  },
+  "outro": {
+   "src": "tts-cache/5218c5beb2478d97.mp3",
+   "sec": 3.552653
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  },
+  "preroll": {
+   "src": "tts-cache/c8126402540d6c00.mp3",
+   "sec": 5.32898
+  },
+  "packshot": {
+   "src": "tts-cache/f0d9a86c918b824d.mp3",
+   "sec": 5.564082
+  }
+ }
+}

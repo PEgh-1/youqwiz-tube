@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-drapeaux-amerique",
+  "theme": "geographie",
+  "title": "Quiz drapeaux d'Amérique : 20 questions",
+  "description": "Quiz drapeaux d'Amérique : 20 questions pour retrouver le pays de chaque drapeau d'Amérique latine et des Caraïbes. Joue gratuitement !",
+  "h1": "Quiz drapeaux d'Amérique : reconnais-tu les drapeaux américains ?",
+  "intro": "Du Chili aux Bahamas, les drapeaux d'Amérique du Sud, d'Amérique centrale et des Caraïbes se ressemblent souvent : bandes bleues et blanches, étoiles, blasons. Ce quiz te propose 20 drapeaux, un par question, et tu dois retrouver le pays qui les porte. Les quatre choix sont toujours des pays du continent américain. On commence par les plus familiers, puis la difficulté monte, jusqu'aux petits États des Caraïbes et d'Amérique centrale. Compte environ cinq secondes par question et lis les explications : elles donnent de petits repères pour ne plus confondre. Rejoue autant que tu veux.",
+  "questions": [
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Cuba",
+        "Chili",
+        "Panama",
+        "Pérou"
+      ],
+      "answer": 1,
+      "explication": "Une étoile blanche sur carré bleu, à côté de bandes blanche et rouge.",
+      "level": "facile",
+      "flag": "cl"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Chili",
+        "Canada",
+        "Mexique",
+        "Pérou"
+      ],
+      "answer": 3,
+      "explication": "Trois bandes verticales rouge, blanche et rouge : la même disposition que le Canada, mais sans feuille d'érable.",
+      "level": "facile",
+      "flag": "pe"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Cuba",
+        "Chili",
+        "Panama",
+        "Costa Rica"
+      ],
+      "answer": 0,
+      "explication": "Un triangle rouge avec une étoile blanche, à côté de cinq bandes bleues et blanches.",
+      "level": "facile",
+      "flag": "cu"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Colombie",
+        "Équateur",
+        "Venezuela",
+        "Bolivie"
+      ],
+      "answer": 2,
+      "explication": "Jaune, bleu et rouge, avec un arc d'étoiles blanches sur la bande bleue.",
+      "level": "facile",
+      "flag": "ve"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Guyana",
+        "Trinité-et-Tobago",
+        "Bahamas",
+        "Jamaïque"
+      ],
+      "answer": 3,
+      "explication": "C'est le seul drapeau national sans rouge, blanc ni bleu : une croix jaune en diagonale sur fond vert et noir.",
+      "level": "facile",
+      "flag": "jm"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Argentine",
+        "Uruguay",
+        "Honduras",
+        "Nicaragua"
+      ],
+      "answer": 1,
+      "explication": "Neuf bandes bleues et blanches et un Soleil de Mai dans le coin supérieur.",
+      "level": "facile",
+      "flag": "uy"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Costa Rica",
+        "Cuba",
+        "Panama",
+        "Paraguay"
+      ],
+      "answer": 2,
+      "explication": "Quatre quarts : blanc avec étoile bleue, rouge, blanc avec étoile rouge, bleu.",
+      "level": "facile",
+      "flag": "pa"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Costa Rica",
+        "Panama",
+        "Cuba",
+        "Honduras"
+      ],
+      "answer": 0,
+      "explication": "Bleu, blanc, rouge, blanc, bleu : la bande rouge centrale est deux fois plus large.",
+      "level": "facile",
+      "flag": "cr"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Paraguay",
+        "Pérou",
+        "Colombie",
+        "Bolivie"
+      ],
+      "answer": 0,
+      "explication": "Rouge, blanc et bleu avec un emblème différent de chaque côté : un cas rare.",
+      "level": "moyen",
+      "flag": "py"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Colombie",
+        "Venezuela",
+        "Bolivie",
+        "Guyana"
+      ],
+      "answer": 2,
+      "explication": "Rouge, jaune et vert en bandes horizontales, souvent frappées des armoiries au centre.",
+      "level": "moyen",
+      "flag": "bo"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Haïti",
+        "République dominicaine",
+        "Cuba",
+        "Panama"
+      ],
+      "answer": 1,
+      "explication": "Une croix blanche sépare des quartiers bleus et rouges ; ses armoiries comportent une Bible ouverte.",
+      "level": "moyen",
+      "flag": "do"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Pérou",
+        "Argentine",
+        "Uruguay",
+        "Guatemala"
+      ],
+      "answer": 3,
+      "explication": "Trois bandes verticales bleu clair, blanche, bleu clair avec les armoiries et un quetzal au centre.",
+      "level": "moyen",
+      "flag": "gt"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "République dominicaine",
+        "Cuba",
+        "Haïti",
+        "Paraguay"
+      ],
+      "answer": 2,
+      "explication": "Une bande bleue et une bande rouge horizontales avec un palmier et des canons au centre.",
+      "level": "moyen",
+      "flag": "ht"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Guyana",
+        "Suriname",
+        "Jamaïque",
+        "Trinité-et-Tobago"
+      ],
+      "answer": 0,
+      "explication": "Surnommé le Golden Arrowhead, il porte une pointe de flèche dorée sur fond vert.",
+      "level": "moyen",
+      "flag": "gy"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Guyana",
+        "Bolivie",
+        "Bahamas",
+        "Suriname"
+      ],
+      "answer": 3,
+      "explication": "Une étoile jaune à cinq branches sur une large bande rouge, entre des bandes vertes et blanches.",
+      "level": "moyen",
+      "flag": "sr"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Bahamas",
+        "Barbade",
+        "Trinité-et-Tobago",
+        "Jamaïque"
+      ],
+      "answer": 1,
+      "explication": "Un trident noir brisé figure sur la bande dorée centrale, entre deux bandes bleues.",
+      "level": "moyen",
+      "flag": "bb"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Nicaragua",
+        "Honduras",
+        "Salvador",
+        "Argentine"
+      ],
+      "answer": 1,
+      "explication": "Cinq étoiles bleues disposées en X sur la bande blanche centrale rappellent les cinq pays de l'ancienne République fédérale d'Amérique centrale.",
+      "level": "expert",
+      "flag": "hn"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Barbade",
+        "Jamaïque",
+        "Trinité-et-Tobago",
+        "Bahamas"
+      ],
+      "answer": 3,
+      "explication": "Un triangle noir à gauche, deux bandes aigue-marine et une bande dorée.",
+      "level": "expert",
+      "flag": "bs"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Trinité-et-Tobago",
+        "Jamaïque",
+        "Barbade",
+        "Guyana"
+      ],
+      "answer": 0,
+      "explication": "Rouge avec une diagonale noire bordée de blanc.",
+      "level": "expert",
+      "flag": "tt"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Guatemala",
+        "Honduras",
+        "Belize",
+        "Salvador"
+      ],
+      "answer": 2,
+      "explication": "L'un des rares drapeaux nationaux à représenter des personnes : deux hommes entourent le blason central.",
+      "level": "expert",
+      "flag": "bz"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi les drapeaux d'Amérique centrale se ressemblent-ils autant ?",
+      "Le Guatemala, le Honduras, le Salvador, le Nicaragua et le Costa Rica faisaient partie des Provinces-Unies d'Amérique centrale au début du XIXe siècle. Leur drapeau commun, bleu et blanc, a inspiré ceux des États qui en sont issus, d'où ces bandes bleues et blanches si proches."
+    ],
+    [
+      "Comment distinguer le Chili de Cuba ?",
+      "Les deux drapeaux combinent rouge, blanc et bleu avec une étoile et un triangle ou un carré. Le Chili a deux bandes horizontales, blanche et rouge, et un carré bleu en haut à gauche. Cuba a cinq bandes bleues et blanches et un triangle rouge côté hampe."
+    ],
+    [
+      "Combien de pays compte le continent américain ?",
+      "Il y a 35 États indépendants sur l'ensemble du continent américain, du Canada à l'Argentine, en passant par les nombreux petits pays des Caraïbes. Ce quiz se concentre sur l'Amérique latine et les Caraïbes, car les grands drapeaux d'Amérique du Nord sont déjà dans le quiz général."
+    ]
+  ],
+  "related": [
+    "/quiz-drapeaux",
+    "/quiz-drapeaux-difficile",
+    "/quiz-drapeaux-europe",
+    "/quiz-drapeaux-afrique",
+    "/quiz-capitales-amerique"
+  ]
+}

@@ -1,0 +1,2115 @@
+{
+ "question": "",
+ "hook": "{n} MOTS de FRANÇAIS que 90 % ratent",
+ "emoji": "📖✍️🧠",
+ "slug": "vocabulaire",
+ "noun": "MOTS",
+ "tags": [
+  "vocabulaire",
+  "orthographe",
+  "langue française"
+ ],
+ "subject": "VOCABULAIRE",
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « cheval » ?",
+    "choices": [
+     "des chevaux",
+     "des chevals",
+     "des chevaus",
+     "des chevaulx"
+    ],
+    "correct": 0
+   },
+   "answer": "des chevaux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « bijou » ?",
+    "choices": [
+     "des bijous",
+     "des bijoues",
+     "des bijoutx",
+     "des bijoux"
+    ],
+    "correct": 3
+   },
+   "answer": "des bijoux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « hibou » ?",
+    "choices": [
+     "des hibous",
+     "des hibouxs",
+     "des hiboux",
+     "des hiboues"
+    ],
+    "correct": 2
+   },
+   "answer": "des hiboux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « chou » ?",
+    "choices": [
+     "des chous",
+     "des choux",
+     "des choues",
+     "des chouxs"
+    ],
+    "correct": 1
+   },
+   "answer": "des choux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « journal » ?",
+    "choices": [
+     "des journals",
+     "des journaux",
+     "des journeaux",
+     "des journaus"
+    ],
+    "correct": 1
+   },
+   "answer": "des journaux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « œil » ?",
+    "choices": [
+     "des yeux",
+     "des yeuxs",
+     "des yeus",
+     "des euils"
+    ],
+    "correct": 0
+   },
+   "answer": "des yeux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « animal » ?",
+    "choices": [
+     "des animals",
+     "des animeaux",
+     "des animauxs",
+     "des animaux"
+    ],
+    "correct": 3
+   },
+   "answer": "des animaux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « caillou » ?",
+    "choices": [
+     "des cailloues",
+     "des caillous",
+     "des cailloux",
+     "des cailloutx"
+    ],
+    "correct": 2
+   },
+   "answer": "des cailloux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « genou » ?",
+    "choices": [
+     "des genous",
+     "des genouxs",
+     "des genoux",
+     "des genoues"
+    ],
+    "correct": 2
+   },
+   "answer": "des genoux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « pneu » ?",
+    "choices": [
+     "des pneux",
+     "des pneus",
+     "des pneues",
+     "des pneuz"
+    ],
+    "correct": 1
+   },
+   "answer": "des pneus",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « bleu » ?",
+    "choices": [
+     "des bleus",
+     "des bleux",
+     "des bleues",
+     "des bleuxs"
+    ],
+    "correct": 0
+   },
+   "answer": "des bleus",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « ___ mère est très gentille. »",
+    "choices": [
+     "Ça",
+     "Se",
+     "Ce",
+     "Sa"
+    ],
+    "correct": 3
+   },
+   "answer": "Sa",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ___ lave les mains. »",
+    "choices": [
+     "ce",
+     "ça",
+     "ceux",
+     "se"
+    ],
+    "correct": 3
+   },
+   "answer": "se",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Ils ___ trompés de route. »",
+    "choices": [
+     "ce sont",
+     "s'ont",
+     "se sont",
+     "c'ont"
+    ],
+    "correct": 2
+   },
+   "answer": "se sont",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elle ___ partie hier soir. »",
+    "choices": [
+     "et",
+     "est",
+     "ai",
+     "es"
+    ],
+    "correct": 1
+   },
+   "answer": "est",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il a ___ son bonnet. »",
+    "choices": [
+     "mis",
+     "mit",
+     "mie",
+     "mi"
+    ],
+    "correct": 0
+   },
+   "answer": "mis",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "pharmacie",
+     "farmacie",
+     "phamacie",
+     "pharmassie"
+    ],
+    "correct": 0
+   },
+   "answer": "pharmacie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "ortographe",
+     "orthografe",
+     "orthographie",
+     "orthographe"
+    ],
+    "correct": 3
+   },
+   "answer": "orthographe",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "dictionaire",
+     "dicsionnaire",
+     "dictionnaire",
+     "dictionère"
+    ],
+    "correct": 2
+   },
+   "answer": "dictionnaire",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "rhytme",
+     "rythme",
+     "rithme",
+     "ritme"
+    ],
+    "correct": 1
+   },
+   "answer": "rythme",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "apartement",
+     "appartement",
+     "appartemment",
+     "apartemment"
+    ],
+    "correct": 1
+   },
+   "answer": "appartement",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "sympathique",
+     "simpathique",
+     "sympatique",
+     "symphatique"
+    ],
+    "correct": 0
+   },
+   "answer": "sympathique",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Dans le Sahara, il y a un grand ___ de sable. »",
+    "choices": [
+     "dessert",
+     "desserte",
+     "déserre",
+     "désert"
+    ],
+    "correct": 3
+   },
+   "answer": "désert",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Qui ___ bien châtie bien. »",
+    "choices": [
+     "hait",
+     "craint",
+     "aime",
+     "sert"
+    ],
+    "correct": 2
+   },
+   "answer": "aime",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « L'appétit vient en ___. »",
+    "choices": [
+     "dormant",
+     "rêvant",
+     "mangeant",
+     "parlant"
+    ],
+    "correct": 2
+   },
+   "answer": "mangeant",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Petit à petit, l'oiseau fait son ___. »",
+    "choices": [
+     "lit",
+     "nid",
+     "trou",
+     "pain"
+    ],
+    "correct": 1
+   },
+   "answer": "nid",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Il n'y a pas de fumée sans ___. »",
+    "choices": [
+     "feu",
+     "vent",
+     "cendre",
+     "bruit"
+    ],
+    "correct": 0
+   },
+   "answer": "feu",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Mieux vaut tard que ___. »",
+    "choices": [
+     "rien",
+     "trop",
+     "peu",
+     "jamais"
+    ],
+    "correct": 3
+   },
+   "answer": "jamais",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Les petits ruisseaux font les grandes ___. »",
+    "choices": [
+     "mers",
+     "eaux",
+     "vagues",
+     "rivières"
+    ],
+    "correct": 3
+   },
+   "answer": "rivières",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « L'habit ne fait pas le ___. »",
+    "choices": [
+     "prince",
+     "sage",
+     "moine",
+     "roi"
+    ],
+    "correct": 2
+   },
+   "answer": "moine",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Pierre qui roule n'amasse pas ___. »",
+    "choices": [
+     "poussière",
+     "mousse",
+     "d'eau",
+     "de sable"
+    ],
+    "correct": 1
+   },
+   "answer": "mousse",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Une hirondelle ne fait pas le ___. »",
+    "choices": [
+     "printemps",
+     "beau temps",
+     "soleil",
+     "nid"
+    ],
+    "correct": 0
+   },
+   "answer": "printemps",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Tous les chemins mènent à ___. »",
+    "choices": [
+     "Rome",
+     "Paris",
+     "Athènes",
+     "Madrid"
+    ],
+    "correct": 0
+   },
+   "answer": "Rome",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Poser un lapin à quelqu'un », ça veut dire…",
+    "choices": [
+     "lui offrir un cadeau",
+     "lui faire une farce",
+     "lui prêter un animal",
+     "ne pas venir au rendez-vous"
+    ],
+    "correct": 3
+   },
+   "answer": "ne pas venir au rendez-vous",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Coûter les yeux de la tête », c'est…",
+    "choices": [
+     "faire très mal",
+     "être très rare",
+     "coûter très cher",
+     "être gratuit"
+    ],
+    "correct": 2
+   },
+   "answer": "coûter très cher",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Avoir le cafard », c'est…",
+    "choices": [
+     "avoir peur",
+     "être triste",
+     "avoir faim",
+     "être pressé"
+    ],
+    "correct": 1
+   },
+   "answer": "être triste",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Tomber dans les pommes », c'est…",
+    "choices": [
+     "glisser",
+     "s'évanouir",
+     "manger trop",
+     "jardiner"
+    ],
+    "correct": 1
+   },
+   "answer": "s'évanouir",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Être aux anges », c'est…",
+    "choices": [
+     "être ravi",
+     "être fatigué",
+     "avoir peur",
+     "être perdu"
+    ],
+    "correct": 0
+   },
+   "answer": "être ravi",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces mots est un palindrome ?",
+    "choices": [
+     "canoë",
+     "rame",
+     "bateau",
+     "kayak"
+    ],
+    "correct": 3
+   },
+   "answer": "kayak",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La philatélie, c'est la collection de…",
+    "choices": [
+     "pièces",
+     "papillons",
+     "timbres",
+     "cartes postales"
+    ],
+    "correct": 2
+   },
+   "answer": "timbres",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un mélomane est une personne qui adore…",
+    "choices": [
+     "la cuisine",
+     "la peinture",
+     "la musique",
+     "la lecture"
+    ],
+    "correct": 2
+   },
+   "answer": "la musique",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Au Scrabble, combien de lettres y a-t-il sur un chevalet ?",
+    "choices": [
+     "5",
+     "7",
+     "8",
+     "10"
+    ],
+    "correct": 1
+   },
+   "answer": "7",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "parallèle",
+     "paralèle",
+     "parrallèle",
+     "paralelle"
+    ],
+    "correct": 0
+   },
+   "answer": "parallèle",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "exagerrer",
+     "exhagérer",
+     "exagèré",
+     "exagérer"
+    ],
+    "correct": 3
+   },
+   "answer": "exagérer",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "abbréviation",
+     "abréviasion",
+     "abréveation",
+     "abréviation"
+    ],
+    "correct": 3
+   },
+   "answer": "abréviation",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "dévelopement",
+     "développment",
+     "développement",
+     "développemment"
+    ],
+    "correct": 2
+   },
+   "answer": "développement",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "chrisanthème",
+     "chrysanthème",
+     "crysanthème",
+     "chrysantème"
+    ],
+    "correct": 1
+   },
+   "answer": "chrysanthème",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "acquiescer",
+     "aquiescer",
+     "acquiesser",
+     "acquiescé"
+    ],
+    "correct": 0
+   },
+   "answer": "acquiescer",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "reconnaissance",
+     "reconaissance",
+     "reconnaisance",
+     "reconnaissence"
+    ],
+    "correct": 0
+   },
+   "answer": "reconnaissance",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "embarasser",
+     "embarraser",
+     "emberrasser",
+     "embarrasser"
+    ],
+    "correct": 3
+   },
+   "answer": "embarrasser",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment écrit-on le nombre 80 en lettres ?",
+    "choices": [
+     "quatre vingt",
+     "quatre-vingt",
+     "quatre-vingts",
+     "quatres-vingts"
+    ],
+    "correct": 2
+   },
+   "answer": "quatre-vingts",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment écrit-on le nombre 200 en lettres ?",
+    "choices": [
+     "deux cent",
+     "deux cents",
+     "deux-cents",
+     "deux cens"
+    ],
+    "correct": 1
+   },
+   "answer": "deux cents",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elle est ___ contente de te voir. »",
+    "choices": [
+     "tout",
+     "toute",
+     "tous",
+     "toutes"
+    ],
+    "correct": 1
+   },
+   "answer": "toute",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « ___ que soient tes raisons, merci. »",
+    "choices": [
+     "Quelles",
+     "Quelle",
+     "Qu'elles",
+     "Quel"
+    ],
+    "correct": 0
+   },
+   "answer": "Quelles",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « ___ à moi, je reste à la maison. »",
+    "choices": [
+     "Quand",
+     "Qu'en",
+     "Camp",
+     "Quant"
+    ],
+    "correct": 3
+   },
+   "answer": "Quant",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ___ vu hier au marché. »",
+    "choices": [
+     "la",
+     "l'as",
+     "l'a",
+     "las"
+    ],
+    "correct": 2
+   },
+   "answer": "l'a",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ne ___ pas venir ce soir. »",
+    "choices": [
+     "peu",
+     "peux",
+     "peut",
+     "peuh"
+    ],
+    "correct": 2
+   },
+   "answer": "peut",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ___ est habitué depuis longtemps. »",
+    "choices": [
+     "si",
+     "s'y",
+     "ci",
+     "scie"
+    ],
+    "correct": 1
+   },
+   "answer": "s'y",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il en veut ___ ! »",
+    "choices": [
+     "davantage",
+     "d'avantage",
+     "davantages",
+     "d'avantages"
+    ],
+    "correct": 0
+   },
+   "answer": "davantage",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ___ lavé tout seul. »",
+    "choices": [
+     "c'est",
+     "sait",
+     "ses",
+     "s'est"
+    ],
+    "correct": 3
+   },
+   "answer": "s'est",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elle s'est ___ les mains. »",
+    "choices": [
+     "lavée",
+     "lavés",
+     "lavées",
+     "lavé"
+    ],
+    "correct": 3
+   },
+   "answer": "lavé",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Ils sont ___ hier matin. »",
+    "choices": [
+     "parti",
+     "partit",
+     "partis",
+     "partie"
+    ],
+    "correct": 2
+   },
+   "answer": "partis",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Les fleurs qu'il a ___ sont belles. »",
+    "choices": [
+     "cueilli",
+     "cueillies",
+     "cueillis",
+     "cueillie"
+    ],
+    "correct": 1
+   },
+   "answer": "cueillies",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « La lettre que tu as ___ est arrivée. »",
+    "choices": [
+     "écrite",
+     "écrit",
+     "écrits",
+     "écrire"
+    ],
+    "correct": 0
+   },
+   "answer": "écrite",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Les efforts qu'il a ___ ont payé. »",
+    "choices": [
+     "faits",
+     "fait",
+     "faite",
+     "faites"
+    ],
+    "correct": 0
+   },
+   "answer": "faits",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « monsieur » ?",
+    "choices": [
+     "monsieurs",
+     "messieur",
+     "messieures",
+     "messieurs"
+    ],
+    "correct": 3
+   },
+   "answer": "messieurs",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « madame » ?",
+    "choices": [
+     "madames",
+     "mesdame",
+     "mesdames",
+     "medames"
+    ],
+    "correct": 2
+   },
+   "answer": "mesdames",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « bonhomme » ?",
+    "choices": [
+     "bonhommes",
+     "bonshommes",
+     "bonshomme",
+     "bonhomes"
+    ],
+    "correct": 1
+   },
+   "answer": "bonshommes",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « landau » ?",
+    "choices": [
+     "des landaux",
+     "des landaus",
+     "des landeaus",
+     "des landots"
+    ],
+    "correct": 1
+   },
+   "answer": "des landaus",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « œuf » ?",
+    "choices": [
+     "des œufs",
+     "des œufes",
+     "des œuffs",
+     "des euf"
+    ],
+    "correct": 0
+   },
+   "answer": "des œufs",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « gratte-ciel » ?",
+    "choices": [
+     "des grattes-ciel",
+     "des gratte-cieux",
+     "des grattes-ciels",
+     "des gratte-ciel"
+    ],
+    "correct": 3
+   },
+   "answer": "des gratte-ciel",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « chef-lieu » ?",
+    "choices": [
+     "des chef-lieux",
+     "des chefs-lieu",
+     "des chefs-lieux",
+     "des chef-lieu"
+    ],
+    "correct": 2
+   },
+   "answer": "des chefs-lieux",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « carnaval » ?",
+    "choices": [
+     "des carnavaux",
+     "des carnavales",
+     "des carnavals",
+     "des carnavauxs"
+    ],
+    "correct": 2
+   },
+   "answer": "des carnavals",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « festival » ?",
+    "choices": [
+     "des festivaux",
+     "des festivals",
+     "des festivales",
+     "des festivauxs"
+    ],
+    "correct": 1
+   },
+   "answer": "des festivals",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'ubiquité, c'est la capacité d'être…",
+    "choices": [
+     "partout à la fois",
+     "très rapide",
+     "invisible",
+     "très fort"
+    ],
+    "correct": 0
+   },
+   "answer": "partout à la fois",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Procrastiner, c'est…",
+    "choices": [
+     "travailler dur",
+     "hésiter longtemps",
+     "s'endormir",
+     "remettre à plus tard"
+    ],
+    "correct": 3
+   },
+   "answer": "remettre à plus tard",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un événement éphémère est un événement…",
+    "choices": [
+     "très ancien",
+     "très rare",
+     "très bruyant",
+     "très court"
+    ],
+    "correct": 3
+   },
+   "answer": "très court",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne sagace est…",
+    "choices": [
+     "bavarde",
+     "têtue",
+     "perspicace",
+     "pressée"
+    ],
+    "correct": 2
+   },
+   "answer": "perspicace",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne prodigue est une personne qui…",
+    "choices": [
+     "compte chaque sou",
+     "dépense sans compter",
+     "parle trop",
+     "voyage beaucoup"
+    ],
+    "correct": 1
+   },
+   "answer": "dépense sans compter",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne taciturne est…",
+    "choices": [
+     "silencieuse",
+     "colérique",
+     "joyeuse",
+     "peureuse"
+    ],
+    "correct": 0
+   },
+   "answer": "silencieuse",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne rustre est…",
+    "choices": [
+     "grossière",
+     "élégante",
+     "timide",
+     "rusée"
+    ],
+    "correct": 0
+   },
+   "answer": "grossière",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Des cheveux hirsutes sont des cheveux…",
+    "choices": [
+     "soyeux",
+     "gras",
+     "très courts",
+     "ébouriffés"
+    ],
+    "correct": 3
+   },
+   "answer": "ébouriffés",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une pléthore de quelque chose, c'est…",
+    "choices": [
+     "un manque",
+     "une rareté",
+     "une grande abondance",
+     "un mélange"
+    ],
+    "correct": 2
+   },
+   "answer": "une grande abondance",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un événement « fortuit » est un événement qui…",
+    "choices": [
+     "coûte cher",
+     "arrive par hasard",
+     "dure longtemps",
+     "fait peur"
+    ],
+    "correct": 1
+   },
+   "answer": "arrive par hasard",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un paysage « bucolique » évoque…",
+    "choices": [
+     "la mer",
+     "la vie champêtre",
+     "la grande ville",
+     "la haute montagne"
+    ],
+    "correct": 1
+   },
+   "answer": "la vie champêtre",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un dilettante est quelqu'un qui…",
+    "choices": [
+     "pratique un art pour son plaisir",
+     "juge sévèrement",
+     "collectionne les objets",
+     "travaille la nuit"
+    ],
+    "correct": 0
+   },
+   "answer": "pratique un art pour son plaisir",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelqu'un d'opiniâtre est…",
+    "choices": [
+     "peureux",
+     "indécis",
+     "lent",
+     "obstiné"
+    ],
+    "correct": 3
+   },
+   "answer": "obstiné",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La « gouaille » désigne…",
+    "choices": [
+     "une grosse toux",
+     "un mal de tête",
+     "une verve moqueuse et populaire",
+     "une grande faim"
+    ],
+    "correct": 2
+   },
+   "answer": "une verve moqueuse et populaire",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne pusillanime…",
+    "choices": [
+     "est très généreuse",
+     "est très petite",
+     "manque de courage",
+     "est cruelle"
+    ],
+    "correct": 2
+   },
+   "answer": "manque de courage",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un discours « abscons » est…",
+    "choices": [
+     "très court",
+     "difficile à comprendre",
+     "très drôle",
+     "très bruyant"
+    ],
+    "correct": 1
+   },
+   "answer": "difficile à comprendre",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une réponse « sibylline » est…",
+    "choices": [
+     "énigmatique",
+     "très claire",
+     "joyeuse",
+     "cruelle"
+    ],
+    "correct": 0
+   },
+   "answer": "énigmatique",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un discours « lénifiant » est…",
+    "choices": [
+     "irritant",
+     "glacial",
+     "brûlant",
+     "apaisant"
+    ],
+    "correct": 3
+   },
+   "answer": "apaisant",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Ergoter, c'est…",
+    "choices": [
+     "tricoter",
+     "marcher vite",
+     "bien travailler",
+     "chicaner sur des détails"
+    ],
+    "correct": 3
+   },
+   "answer": "chicaner sur des détails",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La « gabegie », c'est…",
+    "choices": [
+     "une petite cabane",
+     "une fête de village",
+     "le désordre et le gaspillage",
+     "une blague"
+    ],
+    "correct": 2
+   },
+   "answer": "le désordre et le gaspillage",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une dichotomie est…",
+    "choices": [
+     "un mélange de trois",
+     "une division en deux parties",
+     "une fusion",
+     "une addition"
+    ],
+    "correct": 1
+   },
+   "answer": "une division en deux parties",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un geste « ostensible » est un geste…",
+    "choices": [
+     "qu'on montre sans se cacher",
+     "secret",
+     "douteux",
+     "pointu"
+    ],
+    "correct": 0
+   },
+   "answer": "qu'on montre sans se cacher",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une situation « ubuesque » est…",
+    "choices": [
+     "absurde et grotesque",
+     "très polie",
+     "très silencieuse",
+     "très propre"
+    ],
+    "correct": 0
+   },
+   "answer": "absurde et grotesque",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "rododendron",
+     "rhododendrom",
+     "rhodondendron",
+     "rhododendron"
+    ],
+    "correct": 3
+   },
+   "answer": "rhododendron",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "onomatopé",
+     "onomathopée",
+     "onomatopée",
+     "anomatopée"
+    ],
+    "correct": 2
+   },
+   "answer": "onomatopée",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "asme",
+     "asthme",
+     "astme",
+     "athsme"
+    ],
+    "correct": 1
+   },
+   "answer": "asthme",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un lipogramme est un texte écrit…",
+    "choices": [
+     "à l'envers",
+     "sans une certaine lettre",
+     "en chantant",
+     "sans ponctuation"
+    ],
+    "correct": 1
+   },
+   "answer": "sans une certaine lettre",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne impécunieuse est…",
+    "choices": [
+     "sans argent",
+     "impolie",
+     "impatiente",
+     "impure"
+    ],
+    "correct": 0
+   },
+   "answer": "sans argent",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un bavardage « sempiternel » est un bavardage…",
+    "choices": [
+     "qui fait rire",
+     "tout nouveau",
+     "très discret",
+     "qui n'en finit jamais"
+    ],
+    "correct": 3
+   },
+   "answer": "qui n'en finit jamais",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un anachorète est…",
+    "choices": [
+     "un voyageur",
+     "un marin",
+     "un ermite",
+     "un marchand"
+    ],
+    "correct": 2
+   },
+   "answer": "un ermite",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une pérégrination est…",
+    "choices": [
+     "une sieste",
+     "un petit rhume",
+     "un long voyage",
+     "un pique-nique"
+    ],
+    "correct": 2
+   },
+   "answer": "un long voyage",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elles se sont ___ au téléphone. »",
+    "choices": [
+     "parlées",
+     "parlé",
+     "parlés",
+     "parlée"
+    ],
+    "correct": 1
+   },
+   "answer": "parlé",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Les heures qu'il a ___ à attendre. »",
+    "choices": [
+     "passées",
+     "passé",
+     "passés",
+     "passée"
+    ],
+    "correct": 0
+   },
+   "answer": "passées",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elle s'est ___ compte de son erreur. »",
+    "choices": [
+     "rendue",
+     "rendus",
+     "rendues",
+     "rendu"
+    ],
+    "correct": 3
+   },
+   "answer": "rendu",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « va-et-vient » ?",
+    "choices": [
+     "des vas-et-viens",
+     "des va-et-viens",
+     "des vas-et-vient",
+     "des va-et-vient"
+    ],
+    "correct": 3
+   },
+   "answer": "des va-et-vient",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « coffre-fort » ?",
+    "choices": [
+     "des coffre-forts",
+     "des coffres-fort",
+     "des coffres-forts",
+     "des coffre-fort"
+    ],
+    "correct": 2
+   },
+   "answer": "des coffres-forts",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Au Scrabble, laquelle de ces lettres vaut 8 points ?",
+    "choices": [
+     "R",
+     "J",
+     "M",
+     "P"
+    ],
+    "correct": 1
+   },
+   "answer": "J",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Au Scrabble, quelle lettre a le plus de jetons ?",
+    "choices": [
+     "E",
+     "A",
+     "S",
+     "I"
+    ],
+    "correct": 0
+   },
+   "answer": "E",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un quolibet est…",
+    "choices": [
+     "une raillerie moqueuse",
+     "un gros gâteau",
+     "une danse ancienne",
+     "un petit cadeau"
+    ],
+    "correct": 0
+   },
+   "answer": "une raillerie moqueuse",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une sinécure est un emploi…",
+    "choices": [
+     "très dur",
+     "sans salaire",
+     "dangereux",
+     "bien payé et peu fatigant"
+    ],
+    "correct": 3
+   },
+   "answer": "bien payé et peu fatigant",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un cuistre est une personne…",
+    "choices": [
+     "gourmande",
+     "pressée",
+     "pédante",
+     "généreuse"
+    ],
+    "correct": 2
+   },
+   "answer": "pédante",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La litote consiste à…",
+    "choices": [
+     "exagérer",
+     "dire moins pour faire entendre plus",
+     "répéter un mot",
+     "inventer un mot"
+    ],
+    "correct": 1
+   },
+   "answer": "dire moins pour faire entendre plus",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un ton « péremptoire » est un ton…",
+    "choices": [
+     "hésitant",
+     "qui n'admet pas de réplique",
+     "moqueur",
+     "très doux"
+    ],
+    "correct": 1
+   },
+   "answer": "qui n'admet pas de réplique",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'opprobre, c'est…",
+    "choices": [
+     "la honte publique",
+     "la richesse",
+     "la bonté",
+     "la splendeur"
+    ],
+    "correct": 0
+   },
+   "answer": "la honte publique",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Obnubiler quelqu'un, c'est…",
+    "choices": [
+     "l'éclairer",
+     "le consoler",
+     "le féliciter",
+     "l'obséder"
+    ],
+    "correct": 3
+   },
+   "answer": "l'obséder",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le mot « callipyge » se dit de quelqu'un qui a de belles…",
+    "choices": [
+     "mains",
+     "oreilles",
+     "fesses",
+     "jambes"
+    ],
+    "correct": 2
+   },
+   "answer": "fesses",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un nycthémère, c'est…",
+    "choices": [
+     "une nuit polaire",
+     "une éclipse",
+     "une période de 24 heures",
+     "une tempête de nuit"
+    ],
+    "correct": 2
+   },
+   "answer": "une période de 24 heures",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un « hapax » est un mot…",
+    "choices": [
+     "très grossier",
+     "attesté une seule fois",
+     "très long",
+     "d'origine grecque"
+    ],
+    "correct": 1
+   },
+   "answer": "attesté une seule fois",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une anacoluthe est…",
+    "choices": [
+     "une rupture de construction",
+     "un accent",
+     "une rime",
+     "un pronom"
+    ],
+    "correct": 0
+   },
+   "answer": "une rupture de construction",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le « pétrichor » est…",
+    "choices": [
+     "une pierre précieuse",
+     "un vent chaud",
+     "le pollen des pins",
+     "l'odeur de la terre après la pluie"
+    ],
+    "correct": 3
+   },
+   "answer": "l'odeur de la terre après la pluie",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un mot « hypocoristique » est…",
+    "choices": [
+     "une insulte",
+     "un mot très savant",
+     "un mot inventé",
+     "un diminutif affectueux"
+    ],
+    "correct": 3
+   },
+   "answer": "un diminutif affectueux",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un apophtegme est…",
+    "choices": [
+     "une maladie",
+     "une éclipse",
+     "une maxime",
+     "un bavardage"
+    ],
+    "correct": 2
+   },
+   "answer": "une maxime",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un thaumaturge est…",
+    "choices": [
+     "un marchand",
+     "un faiseur de prodiges",
+     "un savant",
+     "un voleur"
+    ],
+    "correct": 1
+   },
+   "answer": "un faiseur de prodiges",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne cacochyme est…",
+    "choices": [
+     "faible et maladive",
+     "bavarde",
+     "gourmande",
+     "joyeuse"
+    ],
+    "correct": 0
+   },
+   "answer": "faible et maladive",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne atrabilaire est…",
+    "choices": [
+     "d'humeur noire et irritable",
+     "très joyeuse",
+     "très gourmande",
+     "très forte"
+    ],
+    "correct": 0
+   },
+   "answer": "d'humeur noire et irritable",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'ultracrépidarianisme, c'est donner son avis…",
+    "choices": [
+     "en criant",
+     "en chantant",
+     "trop tard",
+     "hors de sa compétence"
+    ],
+    "correct": 3
+   },
+   "answer": "hors de sa compétence",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une pandiculation est…",
+    "choices": [
+     "une fête",
+     "une maladie",
+     "un étirement au réveil",
+     "une prière"
+    ],
+    "correct": 2
+   },
+   "answer": "un étirement au réveil",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un ukase est…",
+    "choices": [
+     "une danse russe",
+     "un ordre arbitraire",
+     "un fruit",
+     "une monnaie"
+    ],
+    "correct": 1
+   },
+   "answer": "un ordre arbitraire",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une logomachie est…",
+    "choices": [
+     "la peur des mots",
+     "une dispute sur les mots",
+     "un jeu de lettres",
+     "un dictionnaire"
+    ],
+    "correct": 1
+   },
+   "answer": "une dispute sur les mots",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un mot « sesquipédale » est un mot…",
+    "choices": [
+     "très long",
+     "très court",
+     "très ancien",
+     "très rare"
+    ],
+    "correct": 0
+   },
+   "answer": "très long",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La triskaïdékaphobie est la peur du…",
+    "choices": [
+     "noir",
+     "vide",
+     "feu",
+     "nombre 13"
+    ],
+    "correct": 3
+   },
+   "answer": "nombre 13",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'ailurophobie est la peur des…",
+    "choices": [
+     "chiens",
+     "oiseaux",
+     "chats",
+     "souris"
+    ],
+    "correct": 2
+   },
+   "answer": "chats",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que fait une cloche qui « tintinnabule » ?",
+    "choices": [
+     "elle se brise",
+     "elle se tait",
+     "elle tinte",
+     "elle tombe"
+    ],
+    "correct": 2
+   },
+   "answer": "elle tinte",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un palimpseste est un manuscrit…",
+    "choices": [
+     "brûlé",
+     "effacé puis réécrit",
+     "relié en cuir",
+     "illustré en couleurs"
+    ],
+    "correct": 1
+   },
+   "answer": "effacé puis réécrit",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que désigne l'« adret » en montagne ?",
+    "choices": [
+     "le versant ensoleillé",
+     "le versant à l'ombre",
+     "le sommet",
+     "la vallée"
+    ],
+    "correct": 0
+   },
+   "answer": "le versant ensoleillé",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que désigne l'« ubac » en montagne ?",
+    "choices": [
+     "le versant ensoleillé",
+     "le glacier",
+     "le col",
+     "le versant à l'ombre"
+    ],
+    "correct": 3
+   },
+   "answer": "le versant à l'ombre",
+   "level": "impossible"
+  }
+ ]
+}

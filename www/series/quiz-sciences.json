@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-sciences",
+  "theme": "sciences",
+  "title": "Quiz sciences : 20 questions de culture scientifique",
+  "description": "Quiz sciences gratuit : 20 questions de physique, chimie et biologie. Teste ta culture scientifique en 5 secondes par question !",
+  "h1": "Quiz sciences : quel est ton niveau en culture scientifique ?",
+  "intro": "Physique, chimie, biologie : les sciences nous entourent partout ! Ce quiz de 20 questions couvre les grands classiques de la culture scientifique, de la formule de l'eau au tableau périodique des éléments. Tu as 5 secondes par question pour choisir la bonne réponse parmi quatre propositions. Les huit premières questions sont à la portée de tous, les huit suivantes rappelleront tes cours de collège et de lycée, et les quatre dernières demandent de bonnes connaissances. Chaque réponse est suivie d'une explication courte pour apprendre quelque chose de nouveau. Alors, enfile ta blouse de laboratoire et lance-toi !",
+  "questions": [
+    {
+      "q": "Quelle est la formule chimique de l'eau ?",
+      "choices": [
+        "CO₂",
+        "H₂O",
+        "O₂",
+        "NaCl"
+      ],
+      "answer": 1,
+      "explication": "Une molécule d'eau contient deux atomes d'hydrogène (H) et un atome d'oxygène (O).",
+      "level": "facile"
+    },
+    {
+      "q": "Quel gaz respirons-nous pour vivre ?",
+      "choices": [
+        "l'hélium",
+        "l'hydrogène",
+        "le néon",
+        "l'oxygène"
+      ],
+      "answer": 3,
+      "explication": "L'oxygène représente environ 21 % de l'air. Nos cellules s'en servent pour produire de l'énergie.",
+      "level": "facile"
+    },
+    {
+      "q": "À quelle température l'eau bout-elle à pression normale ?",
+      "choices": [
+        "100 °C",
+        "50 °C",
+        "80 °C",
+        "120 °C"
+      ],
+      "answer": 0,
+      "explication": "Au niveau de la mer, l'eau pure bout à 100 °C. En altitude, la pression est plus faible et l'eau bout plus tôt.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quel état de la matière se trouve la glace ?",
+      "choices": [
+        "liquide",
+        "gazeux",
+        "solide",
+        "plasma"
+      ],
+      "answer": 2,
+      "explication": "La glace est de l'eau à l'état solide, en dessous de 0 °C à pression normale.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le matériau naturel le plus dur ?",
+      "choices": [
+        "l'or",
+        "le fer",
+        "le quartz",
+        "le diamant"
+      ],
+      "answer": 3,
+      "explication": "Le diamant, formé de carbone pur, est le matériau naturel le plus dur sur l'échelle de Mohs.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle force nous attire vers le sol ?",
+      "choices": [
+        "le magnétisme",
+        "la gravité",
+        "la friction",
+        "la pression"
+      ],
+      "answer": 1,
+      "explication": "La gravité est la force d'attraction entre les masses. Celle de la Terre nous maintient au sol.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le symbole chimique de l'or ?",
+      "choices": [
+        "Or",
+        "Ag",
+        "Au",
+        "Go"
+      ],
+      "answer": 2,
+      "explication": "Au vient du latin « aurum ». Ag (argent) vient de « argentum ».",
+      "level": "facile"
+    },
+    {
+      "q": "Quel métal est liquide à température ambiante ?",
+      "choices": [
+        "le mercure",
+        "le plomb",
+        "le cuivre",
+        "l'aluminium"
+      ],
+      "answer": 0,
+      "explication": "Le mercure fond à environ -39 °C, il est donc liquide à température ambiante.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le symbole chimique du sodium ?",
+      "choices": [
+        "So",
+        "S",
+        "Na",
+        "Sd"
+      ],
+      "answer": 2,
+      "explication": "Na vient du latin « natrium ». Le sel de table est du chlorure de sodium, NaCl.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quel milieu le son ne se propage-t-il pas ?",
+      "choices": [
+        "dans le vide",
+        "dans l'eau",
+        "dans l'air",
+        "dans l'acier"
+      ],
+      "answer": 0,
+      "explication": "Le son a besoin d'un milieu matériel pour se propager. Dans le vide, il n'y a rien à faire vibrer.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le pH d'une solution neutre à 25 °C ?",
+      "choices": [
+        "0",
+        "10",
+        "14",
+        "7"
+      ],
+      "answer": 3,
+      "explication": "Sur l'échelle de pH, usuellement de 0 à 14 : en dessous de 7, la solution est acide, au-dessus elle est basique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui a formulé la loi de la gravitation universelle ?",
+      "choices": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galilée",
+        "Marie Curie"
+      ],
+      "answer": 1,
+      "explication": "Isaac Newton a publié sa théorie de la gravitation en 1687 dans ses « Principia ».",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle particule porte une charge électrique négative ?",
+      "choices": [
+        "l'électron",
+        "le proton",
+        "le neutron",
+        "le noyau"
+      ],
+      "answer": 0,
+      "explication": "Les électrons se trouvent autour du noyau. Les protons sont positifs, les neutrons neutres.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est l'unité de force dans le Système international ?",
+      "choices": [
+        "le watt",
+        "le joule",
+        "le newton",
+        "le pascal"
+      ],
+      "answer": 2,
+      "explication": "Le newton (N) honore Isaac Newton. Un joule mesure l'énergie, un watt la puissance.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le gaz le plus abondant dans l'air que nous respirons ?",
+      "choices": [
+        "l'oxygène",
+        "l'azote",
+        "le dioxyde de carbone",
+        "l'argon"
+      ],
+      "answer": 1,
+      "explication": "L'air contient environ 78 % d'azote et 21 % d'oxygène.",
+      "level": "moyen"
+    },
+    {
+      "q": "Que mesure l'ampère ?",
+      "choices": [
+        "la tension électrique",
+        "la résistance",
+        "la puissance",
+        "l'intensité du courant électrique"
+      ],
+      "answer": 3,
+      "explication": "L'ampère mesure l'intensité du courant. Le volt mesure la tension, l'ohm la résistance.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le numéro atomique du carbone ?",
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explication": "Le carbone possède 6 protons dans son noyau, donc son numéro atomique est 6.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel scientifique a découvert la pénicilline en 1928 ?",
+      "choices": [
+        "Louis Pasteur",
+        "Marie Curie",
+        "Robert Koch",
+        "Alexander Fleming"
+      ],
+      "answer": 3,
+      "explication": "Alexander Fleming a remarqué qu'une moisissure, Penicillium, tuait des bactéries. C'est le premier antibiotique.",
+      "level": "expert"
+    },
+    {
+      "q": "Qui a créé la première version du tableau périodique des éléments en 1869 ?",
+      "choices": [
+        "Dmitri Mendeleïev",
+        "Antoine Lavoisier",
+        "Niels Bohr",
+        "John Dalton"
+      ],
+      "answer": 0,
+      "explication": "Mendeleïev a classé les éléments par masse atomique croissante et a laissé des cases vides pour des éléments encore inconnus.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le symbole chimique du potassium ?",
+      "choices": [
+        "P",
+        "Po",
+        "K",
+        "Pt"
+      ],
+      "answer": 2,
+      "explication": "K vient du latin « kalium ». P est le phosphore, Pt le platine.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi l'eau bout-elle à 100 °C ?",
+      "À pression normale, l'eau passe de l'état liquide à l'état gazeux à 100 °C, car ses molécules ont alors assez d'énergie pour s'échapper. En altitude, la pression de l'air est plus faible et l'ébullition se produit à une température inférieure. C'est pourquoi les pâtes cuisent moins bien en montagne."
+    ],
+    [
+      "Quelle est la différence entre un atome et une molécule ?",
+      "Un atome est la plus petite unité d'un élément chimique, comme l'oxygène ou l'hydrogène. Une molécule est un assemblage d'au moins deux atomes liés entre eux. L'eau (H₂O) est une molécule composée de trois atomes. Ces repères te servent aussi bien à l'école que dans la vie de tous les jours, et ils se retiennent mieux en s'amusant avec un quiz régulier."
+    ],
+    [
+      "Comment apprendre les sciences facilement ?",
+      "Pars de situations concrètes : cuisine, météo, jardin, électricité. Fais de petites expériences et pose-toi des questions. Les quiz permettent de réviser les notions de base, et chaque explication t'apprend un petit fait à retenir. Ces repères te servent aussi bien à l'école que dans la vie de tous les jours, et ils se retiennent mieux en s'amusant avec un quiz régulier."
+    ]
+  ],
+  "related": [
+    "/quiz-corps-humain",
+    "/quiz-espace",
+    "/quiz-animaux",
+    "/quiz-culture-generale-facile"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-physique",
+  "theme": "sciences",
+  "title": "Quiz physique : 20 questions sur les lois et unités",
+  "description": "Quiz physique : 20 questions sur les unités, les lois et les grands physiciens. Du niveau facile à expert, avec explications.",
+  "h1": "Quiz physique : connais-tu les bases de la physique ?",
+  "intro": "Gravité, lumière, électricité, énergie : la physique explique comment fonctionne le monde qui nous entoure ! Ce quiz te propose 20 questions sur les unités, les grandes lois et les physiciens qui ont changé notre vision de l'univers. Il commence par des notions simples, puis monte vers des questions plus pointues. Compte environ 5 secondes par question, et lis chaque explication pour retenir l'essentiel. Newton, Einstein et Curie t'attendent : tu verras aussi des unités du quotidien comme le watt ou le joule. Prêt à tester ta culture scientifique ?",
+  "questions": [
+    {
+      "q": "Quelle est l'unité de longueur du Système international ?",
+      "choices": [
+        "le kilomètre",
+        "le mètre",
+        "le centimètre",
+        "le litre"
+      ],
+      "answer": 1,
+      "explication": "Le mètre est l'unité de base de la longueur, dont dérivent le kilomètre et le centimètre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est l'unité de masse du Système international ?",
+      "choices": [
+        "le gramme",
+        "la tonne",
+        "le newton",
+        "le kilogramme"
+      ],
+      "answer": 3,
+      "explication": "Le kilogramme est l'unité de base de la masse. C'est la seule unité de base à porter un préfixe.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel physicien est célèbre pour la formule E = mc² ?",
+      "choices": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galilée",
+        "Nikola Tesla"
+      ],
+      "answer": 0,
+      "explication": "E = mc² exprime l'équivalence entre masse et énergie, un résultat de la relativité restreinte de 1905.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel instrument sert à mesurer la température ?",
+      "choices": [
+        "le baromètre",
+        "l'hygromètre",
+        "le thermomètre",
+        "l'anémomètre"
+      ],
+      "answer": 2,
+      "explication": "Le thermomètre mesure la température. Le baromètre mesure la pression de l'air.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est l'unité de temps du Système international ?",
+      "choices": [
+        "la minute",
+        "l'heure",
+        "la seconde",
+        "le jour"
+      ],
+      "answer": 2,
+      "explication": "La seconde est l'unité de base du temps, définie aujourd'hui à partir d'une fréquence atomique.",
+      "level": "facile"
+    },
+    {
+      "q": "Qu'est-ce qui se propage le plus vite : la lumière ou le son ?",
+      "choices": [
+        "la lumière",
+        "le son",
+        "les deux à la même vitesse",
+        "cela dépend du jour"
+      ],
+      "answer": 0,
+      "explication": "La lumière va environ 900 000 fois plus vite que le son dans l'air.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle force s'oppose au glissement entre deux surfaces en contact ?",
+      "choices": [
+        "la gravité",
+        "la poussée d'Archimède",
+        "la tension superficielle",
+        "le frottement"
+      ],
+      "answer": 3,
+      "explication": "Le frottement ralentit les objets et produit de la chaleur.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel phénomène sépare la lumière blanche en plusieurs couleurs à travers un prisme ?",
+      "choices": [
+        "la réflexion",
+        "la dispersion",
+        "la diffraction",
+        "l'absorption"
+      ],
+      "answer": 1,
+      "explication": "Chaque couleur est déviée différemment par le verre, ce qui étale la lumière en spectre. Le même phénomène intervient dans l'arc-en-ciel.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est l'unité d'énergie du Système international ?",
+      "choices": [
+        "le watt",
+        "le newton",
+        "le pascal",
+        "le joule"
+      ],
+      "answer": 3,
+      "explication": "Le joule honore James Prescott Joule. C'est l'énergie fournie par une force d'un newton sur un déplacement d'un mètre.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est l'unité de puissance du Système international ?",
+      "choices": [
+        "le joule",
+        "le watt",
+        "le volt",
+        "l'ampère"
+      ],
+      "answer": 1,
+      "explication": "Un watt correspond à un joule par seconde.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est l'unité de fréquence ?",
+      "choices": [
+        "le décibel",
+        "le watt",
+        "le hertz",
+        "le lumen"
+      ],
+      "answer": 2,
+      "explication": "Un hertz correspond à une oscillation par seconde. L'unité honore Heinrich Hertz.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle relation exprime la loi d'Ohm ?",
+      "choices": [
+        "U = R × I",
+        "E = mc²",
+        "P = F × S",
+        "F = m × a"
+      ],
+      "answer": 0,
+      "explication": "La tension U est égale à la résistance R multipliée par l'intensité I.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel principe dit qu'un corps non soumis à des forces garde un mouvement rectiligne uniforme ?",
+      "choices": [
+        "le principe d'inertie",
+        "le principe d'Archimède",
+        "le principe de Pascal",
+        "la loi de Hooke"
+      ],
+      "answer": 0,
+      "explication": "C'est la première loi de Newton, aussi appelée principe d'inertie.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel physicien a découvert la radioactivité en 1896 ?",
+      "choices": [
+        "Louis Pasteur",
+        "James Watt",
+        "Henri Becquerel",
+        "Alessandro Volta"
+      ],
+      "answer": 2,
+      "explication": "Becquerel a découvert la radioactivité naturelle. Marie et Pierre Curie l'ont ensuite étudiée.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est approximativement la vitesse de la lumière dans le vide ?",
+      "choices": [
+        "3000 km/s",
+        "300 000 km/s",
+        "30 000 km/s",
+        "3 millions de km/s"
+      ],
+      "answer": 1,
+      "explication": "La lumière se propage dans le vide à environ 300 000 kilomètres par seconde.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui a découvert les rayons X en 1895 ?",
+      "choices": [
+        "Marie Curie",
+        "Niels Bohr",
+        "Max Planck",
+        "Wilhelm Röntgen"
+      ],
+      "answer": 3,
+      "explication": "Röntgen a découvert les rayons X et reçu le premier prix Nobel de physique, en 1901.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est l'unité de pression du Système international ?",
+      "choices": [
+        "le bar",
+        "le pascal",
+        "le newton",
+        "le joule"
+      ],
+      "answer": 1,
+      "explication": "Le pascal correspond à un newton par mètre carré. Le bar est une unité d'usage courant, hors Système international.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel physicien a proposé la théorie des quanta en 1900 ?",
+      "choices": [
+        "Max Planck",
+        "Isaac Newton",
+        "Albert Einstein",
+        "James Clerk Maxwell"
+      ],
+      "answer": 0,
+      "explication": "Planck a introduit l'idée que l'énergie est échangée par paquets, les quanta. C'est le point de départ de la physique quantique.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la valeur du zéro absolu en degrés Celsius ?",
+      "choices": [
+        "−100 °C",
+        "−273 °F",
+        "0 °C",
+        "−273,15 °C"
+      ],
+      "answer": 3,
+      "explication": "Le zéro absolu correspond à 0 kelvin, soit exactement −273,15 °C. C'est la plus basse température théoriquement possible.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel physicien a découvert le noyau de l'atome en 1911 ?",
+      "choices": [
+        "Niels Bohr",
+        "Albert Einstein",
+        "Ernest Rutherford",
+        "Max Planck"
+      ],
+      "answer": 2,
+      "explication": "Rutherford a montré que la charge positive de l'atome est concentrée dans un noyau minuscule.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelle est la différence entre masse et poids ?",
+      "La masse mesure la quantité de matière d'un objet, en kilogrammes, et ne change pas. Le poids est la force d'attraction que subit cet objet, en newtons : il dépend de la gravité et serait donc plus faible sur la Lune que sur la Terre."
+    ],
+    [
+      "Qui était Isaac Newton ?",
+      "Isaac Newton était un physicien et mathématicien anglais du XVIIe siècle. Il a formulé les trois lois du mouvement et la loi de la gravitation universelle, qui expliquent aussi bien la chute d'une pomme que le mouvement des planètes autour du Soleil."
+    ],
+    [
+      "Pourquoi utilise-t-on des unités standard comme celles du Système international ?",
+      "Elles permettent aux scientifiques, aux ingénieurs et aux commerçants du monde entier de mesurer de la même manière et d'échanger des résultats comparables. Mètre, kilogramme, seconde, ampère, kelvin, mole et candela forment les sept unités de base du Système international."
+    ]
+  ],
+  "related": [
+    "/quiz-sciences",
+    "/quiz-chimie",
+    "/quiz-systeme-solaire",
+    "/quiz-espace",
+    "/quiz-corps-humain"
+  ]
+}

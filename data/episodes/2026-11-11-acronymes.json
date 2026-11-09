@@ -1,0 +1,2872 @@
+{
+ "id": "2026-11-11-acronymes",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "theme": 3,
+ "style": {
+  "pattern": "stripes",
+  "timer": "bar",
+  "reveal": "pop",
+  "card": "round",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Nouveau défi ! 💪",
+   "voice": "Nouveau défi sur YouQwiz. Tu vas faire mieux qu'hier ?"
+  },
+  "introCta": "🧠 Sans tricher, sans pause, on y va",
+  "subscribe": {
+   "title": "Abonne-toi et active la cloche",
+   "sub": "pour être prévenu gratuitement du prochain quiz 🎁",
+   "voice": "Abonne-toi et active la cloche, pour être prévenu gratuitement du prochain quiz !"
+  },
+  "levels": {
+   "facile": {
+    "card": "Premier niveau, zéro pression 🙂",
+    "voice": "Premier niveau, zéro pression. On démarre."
+   },
+   "moyen": {
+    "card": "Là, il faut réfléchir 🤔",
+    "voice": "Niveau moyen. Là, il faut réfléchir un peu."
+   },
+   "difficile": {
+    "card": "Respect si tu continues 🔥",
+    "voice": "Niveau difficile. Respect si tu continues sans faute."
+   },
+   "impossible": {
+    "card": "Personne ne les a tous 🤯",
+    "voice": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire."
+   }
+  },
+  "scoreVoice": "C'est l'heure des comptes. Ton score, en commentaire !",
+  "outro": {
+   "title": "Bravo d'être allé jusqu'au bout 🏁",
+   "voice": "Bravo d'être allé jusqu'au bout. Abonne-toi et à demain !"
+  },
+  "packshot": {
+   "headline": "Teste tes amis : qui te connaît VRAIMENT ?",
+   "sub": "ton quiz perso en 2 minutes, gratuit 🎁",
+   "cta": "👉 youqwiz.com",
+   "voice": "Teste tes amis : qui te connaît vraiment ? Crée ton quiz perso en deux minutes, gratuit, sur youqwiz point com."
+  }
+ },
+ "title": "Quiz ACRONYMES 💬🔤🤔 Quel est ton niveau ? (108 questions)",
+ "question": "",
+ "intro": {
+  "hook": "108 ACRONYMES & ABRÉVIATIONS : tu les connais ?",
+  "sub": "Une seule bonne réponse sur quatre 🎯"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SMS » ?",
+    "choices": [
+     "Service mobile spécial",
+     "Service de messages courts",
+     "Signal de mise en service",
+     "Société mondiale du son"
+    ],
+    "correct": 1
+   },
+   "answer": "Service de messages courts",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/0-q.mp3",
+     "sec": 1.776327
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/0-a.mp3",
+     "sec": 2.142041
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « OVNI » ?",
+    "choices": [
+     "Oiseau voyageur non invité",
+     "Orbite vers notre île",
+     "Objet venu de nulle part",
+     "Objet volant non identifié"
+    ],
+    "correct": 3
+   },
+   "answer": "Objet volant non identifié",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/1-q.mp3",
+     "sec": 2.66449
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/1-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « NB » (dans un texte) ?",
+    "choices": [
+     "Nota bene (notez bien)",
+     "Nouveau billet",
+     "Nombre brut",
+     "Note blanche"
+    ],
+    "correct": 0
+   },
+   "answer": "Nota bene (notez bien)",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/2-q.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/2-a.mp3",
+     "sec": 3.317551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « OSEF » ?",
+    "choices": [
+     "On s'est fait",
+     "On sort en fête",
+     "On s'en fout",
+     "On saute en famille"
+    ],
+    "correct": 2
+   },
+   "answer": "On s'en fout",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/3-q.mp3",
+     "sec": 3.552653
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/3-a.mp3",
+     "sec": 2.220408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « CDI » ?",
+    "choices": [
+     "Centre de documentation et d'information",
+     "Carte de départ immédiat",
+     "Contrat de dix ans",
+     "Contrat à durée indéterminée"
+    ],
+    "correct": 3
+   },
+   "answer": "Contrat à durée indéterminée",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/4-q.mp3",
+     "sec": 2.037551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/4-a.mp3",
+     "sec": 2.821224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « GPS » ?",
+    "choices": [
+     "Guide de la poste suisse",
+     "Gestion des passagers et services",
+     "Grand plan de secours",
+     "Système de positionnement mondial"
+    ],
+    "correct": 3
+   },
+   "answer": "Système de positionnement mondial",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/5-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/5-a.mp3",
+     "sec": 2.612245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TVA » ?",
+    "choices": [
+     "Taxe sur la valeur ajoutée",
+     "Taxe véhicule automobile",
+     "Tarif de vente annuel",
+     "Taxe variable appliquée"
+    ],
+    "correct": 0
+   },
+   "answer": "Taxe sur la valeur ajoutée",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/6-q.mp3",
+     "sec": 1.776327
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/6-a.mp3",
+     "sec": 3.395918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « DIY » ?",
+    "choices": [
+     "Dîner immédiat en yoga",
+     "Donne-moi un yaourt",
+     "Do it yourself (fais-le toi-même)",
+     "Dessine ton yacht"
+    ],
+    "correct": 2
+   },
+   "answer": "Do it yourself (fais-le toi-même)",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/7-q.mp3",
+     "sec": 4.989388
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/7-a.mp3",
+     "sec": 3.761633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « VTT » ?",
+    "choices": [
+     "Vélo tout terrain",
+     "Vélo de tourisme total",
+     "Voiture tout terrain",
+     "Véhicule tout-temps"
+    ],
+    "correct": 0
+   },
+   "answer": "Vélo tout terrain",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/8-q.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/8-a.mp3",
+     "sec": 2.612245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SDF » ?",
+    "choices": [
+     "Sans dette fiscale",
+     "Sans domicile fixe",
+     "Service de santé familial",
+     "Sans diplôme final"
+    ],
+    "correct": 1
+   },
+   "answer": "Sans domicile fixe",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/9-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/9-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « BTP » ?",
+    "choices": [
+     "Bâtiment et travaux publics",
+     "Bureau de transport populaire",
+     "Banque du travail pratique",
+     "Brique, tuile et plâtre"
+    ],
+    "correct": 0
+   },
+   "answer": "Bâtiment et travaux publics",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/10-q.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/10-a.mp3",
+     "sec": 2.847347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « LOL » ?",
+    "choices": [
+     "Lire en ligne",
+     "Rire à voix haute",
+     "Là où l'on loge",
+     "Lettre ouverte en ligne"
+    ],
+    "correct": 1
+   },
+   "answer": "Rire à voix haute",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/11-q.mp3",
+     "sec": 2.847347
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/11-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RDV » (en SMS) ?",
+    "choices": [
+     "Retour de vacances",
+     "Rendez-vous",
+     "Réponse de vendredi",
+     "Rendu du voyage"
+    ],
+    "correct": 1
+   },
+   "answer": "Rendez-vous",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/12-q.mp3",
+     "sec": 3.056327
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/12-a.mp3",
+     "sec": 1.436735
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « km/h » ?",
+    "choices": [
+     "Kilos par hectare",
+     "Kilomètres par jour",
+     "Kilos par heure",
+     "Kilomètres par heure"
+    ],
+    "correct": 3
+   },
+   "answer": "Kilomètres par heure",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/13-q.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/13-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « ASAP » ?",
+    "choices": [
+     "Après un soir à Paris",
+     "Dès que possible",
+     "Avec sucre à peine",
+     "À soi-même, à part"
+    ],
+    "correct": 1
+   },
+   "answer": "Dès que possible",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/14-q.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/14-a.mp3",
+     "sec": 2.742857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « ONU » ?",
+    "choices": [
+     "Office national d'urbanisme",
+     "Organisation nationale universelle",
+     "Ordre des nations unifiées",
+     "Organisation des Nations unies"
+    ],
+    "correct": 3
+   },
+   "answer": "Organisation des Nations unies",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/15-q.mp3",
+     "sec": 3.970612
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/15-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « MDR » (SMS) ?",
+    "choices": [
+     "Mort de rire",
+     "Merci de répondre",
+     "Mon dîner est rapide",
+     "Mal de reins"
+    ],
+    "correct": 0
+   },
+   "answer": "Mort de rire",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/16-q.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/16-a.mp3",
+     "sec": 1.541224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SNCF » ?",
+    "choices": [
+     "Service national des cars fluviaux",
+     "Société nationale du confort ferroviaire",
+     "Société nationale des chemins de fer",
+     "Syndicat des cheminots de France"
+    ],
+    "correct": 2
+   },
+   "answer": "Société nationale des chemins de fer",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/17-q.mp3",
+     "sec": 2.089796
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/17-a.mp3",
+     "sec": 3.787755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « UE » sur un drapeau bleu à étoiles ?",
+    "choices": [
+     "Usine d'État",
+     "Université étrangère",
+     "Union européenne",
+     "Univers étoilé"
+    ],
+    "correct": 2
+   },
+   "answer": "Union européenne",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/18-q.mp3",
+     "sec": 5.250612
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/18-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « etc. » ?",
+    "choices": [
+     "Et ensuite ça continue",
+     "Entre toutes choses",
+     "Encore tant de choses",
+     "Et cetera (et le reste)"
+    ],
+    "correct": 3
+   },
+   "answer": "Et cetera (et le reste)",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/19-q.mp3",
+     "sec": 4.022857
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/19-a.mp3",
+     "sec": 2.612245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « FOMO » ?",
+    "choices": [
+     "Faim de macarons",
+     "Peur de rater quelque chose",
+     "Fête en mode off",
+     "Fatigué mais optimiste"
+    ],
+    "correct": 1
+   },
+   "answer": "Peur de rater quelque chose",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/20-q.mp3",
+     "sec": 3.892245
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/20-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SMIC » ?",
+    "choices": [
+     "Somme minimale des caisses",
+     "Service des impôts communs",
+     "Salaire minimum de croissance",
+     "Salaire moyen des cadres"
+    ],
+    "correct": 2
+   },
+   "answer": "Salaire minimum de croissance",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/21-q.mp3",
+     "sec": 3.604898
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/21-a.mp3",
+     "sec": 3.160816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « OMS » ?",
+    "choices": [
+     "Office médical suisse",
+     "Ordre des maisons de soins",
+     "Organisme mondial du sport",
+     "Organisation mondiale de la santé"
+    ],
+    "correct": 3
+   },
+   "answer": "Organisation mondiale de la santé",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/22-q.mp3",
+     "sec": 2.795102
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/22-a.mp3",
+     "sec": 2.481633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PDG » ?",
+    "choices": [
+     "Président-directeur général",
+     "Petit déjeuner gratuit",
+     "Prix de gros",
+     "Poste de direction générale"
+    ],
+    "correct": 0
+   },
+   "answer": "Président-directeur général",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/23-q.mp3",
+     "sec": 1.854694
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/23-a.mp3",
+     "sec": 3.317551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PS » (à la fin d'une lettre) ?",
+    "choices": [
+     "Pour la suite",
+     "Post-scriptum",
+     "Petite signature",
+     "Pièce signée"
+    ],
+    "correct": 1
+   },
+   "answer": "Post-scriptum",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/24-q.mp3",
+     "sec": 6.034286
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/24-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « QI » ?",
+    "choices": [
+     "Question imprévue",
+     "Qualité d'ingénierie",
+     "Quotient intellectuel",
+     "Quantité d'information"
+    ],
+    "correct": 2
+   },
+   "answer": "Quotient intellectuel",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/25-q.mp3",
+     "sec": 4.597551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/25-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RSA » ?",
+    "choices": [
+     "Remise sur achats",
+     "Retraite sociale annuelle",
+     "Revenu de solidarité active",
+     "Rente de service actif"
+    ],
+    "correct": 2
+   },
+   "answer": "Revenu de solidarité active",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/26-q.mp3",
+     "sec": 2.089796
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/26-a.mp3",
+     "sec": 3.160816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TKT » (SMS) ?",
+    "choices": [
+     "Ta kiffante tante",
+     "T'inquiète",
+     "Toujours kiffer tout",
+     "Tu kiffes tard"
+    ],
+    "correct": 1
+   },
+   "answer": "T'inquiète",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/27-q.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/27-a.mp3",
+     "sec": 1.750204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TGV » ?",
+    "choices": [
+     "Train à grande vitesse",
+     "Transport grand voyageur",
+     "Train général voyageurs",
+     "Tram grande ville"
+    ],
+    "correct": 0
+   },
+   "answer": "Train à grande vitesse",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/28-q.mp3",
+     "sec": 1.358367
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/28-a.mp3",
+     "sec": 2.873469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « CD » ?",
+    "choices": [
+     "Carte de départ",
+     "Câble de données",
+     "Disque compact",
+     "Cassette digitale"
+    ],
+    "correct": 2
+   },
+   "answer": "Disque compact",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/29-q.mp3",
+     "sec": 4.597551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/29-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « YOLO » ?",
+    "choices": [
+     "On ne vit qu'une fois",
+     "Tu es trop lent",
+     "Jamais deux sans trois",
+     "Encore un peu plus"
+    ],
+    "correct": 0
+   },
+   "answer": "On ne vit qu'une fois",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/30-q.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/30-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « WC » ?",
+    "choices": [
+     "Toilettes (water-closet)",
+     "Wagon-couchette",
+     "Week-end chic",
+     "Wagon commun"
+    ],
+    "correct": 0
+   },
+   "answer": "Toilettes (water-closet)",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/31-q.mp3",
+     "sec": 4.075102
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/31-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « JPP » (argot) ?",
+    "choices": [
+     "Je pars pas",
+     "Jamais pas pressé",
+     "Je prends pas",
+     "J'en peux plus"
+    ],
+    "correct": 3
+   },
+   "answer": "J'en peux plus",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/32-q.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/32-a.mp3",
+     "sec": 2.142041
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « HT » (sur un devis) ?",
+    "choices": [
+     "Haute tension",
+     "Heures de travail",
+     "Hors temps",
+     "Hors taxes"
+    ],
+    "correct": 3
+   },
+   "answer": "Hors taxes",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/33-q.mp3",
+     "sec": 3.918367
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/33-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PTDR » ?",
+    "choices": [
+     "Pas tout de suite, rappelle",
+     "Pour tout dire, rien",
+     "Pété de rire",
+     "Parti tôt de Reims"
+    ],
+    "correct": 2
+   },
+   "answer": "Pété de rire",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/34-q.mp3",
+     "sec": 1.933061
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/34-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un appareil « HS », c'est un appareil…",
+    "choices": [
+     "hors service",
+     "haute sécurité",
+     "hyper silencieux",
+     "homologué sport"
+    ],
+    "correct": 0
+   },
+   "answer": "hors service",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/35-q.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/35-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « QCM » ?",
+    "choices": [
+     "Question courte mais mystérieuse",
+     "Quiz complet de mémoire",
+     "Quota de contrôle moyen",
+     "Questionnaire à choix multiples"
+    ],
+    "correct": 3
+   },
+   "answer": "Questionnaire à choix multiples",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/36-q.mp3",
+     "sec": 1.880816
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/36-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SAMU » ?",
+    "choices": [
+     "Service d'aide médicale urgente",
+     "Secours aux malades urbains",
+     "Service ambulancier municipal",
+     "Soins aigus médicaux uniques"
+    ],
+    "correct": 0
+   },
+   "answer": "Service d'aide médicale urgente",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/37-q.mp3",
+     "sec": 3.317551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/37-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « DVD » ?",
+    "choices": [
+     "Disque vidéo direct",
+     "Données vidéo digitales",
+     "Digital Versatile Disc",
+     "Disque vocal double"
+    ],
+    "correct": 2
+   },
+   "answer": "Digital Versatile Disc",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/38-q.mp3",
+     "sec": 1.802449
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/38-a.mp3",
+     "sec": 3.552653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RSVP » (sur une invitation) ?",
+    "choices": [
+     "Rendez-vous sur place",
+     "Répondez s'il vous plaît",
+     "Rien sans votre présence",
+     "Retour sur vos projets"
+    ],
+    "correct": 1
+   },
+   "answer": "Répondez s'il vous plaît",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/39-q.mp3",
+     "sec": 3.787755
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/39-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PTT » (les anciens facteurs) ?",
+    "choices": [
+     "Paquets, timbres, télégrammes",
+     "Postes, télégraphes, téléphones",
+     "Postes, trains, transports",
+     "Petits transports territoriaux"
+    ],
+    "correct": 1
+   },
+   "answer": "Postes, télégraphes, téléphones",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/40-q.mp3",
+     "sec": 5.877551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/40-a.mp3",
+     "sec": 2.56
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RATP » ?",
+    "choices": [
+     "Régie autonome des transports parisiens",
+     "Réseau aérien des transports publics",
+     "Route à tarif populaire",
+     "Régie des autobus et trains publics"
+    ],
+    "correct": 0
+   },
+   "answer": "Régie autonome des transports parisiens",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/41-q.mp3",
+     "sec": 1.933061
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/41-a.mp3",
+     "sec": 4.205714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « CV » (pour chercher un emploi) ?",
+    "choices": [
+     "Carte de visite",
+     "Contrat de voyage",
+     "Curriculum vitae",
+     "Certificat de valeur"
+    ],
+    "correct": 2
+   },
+   "answer": "Curriculum vitae",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/42-q.mp3",
+     "sec": 4.675918
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/42-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « IRM » (à l'hôpital) ?",
+    "choices": [
+     "Imagerie par résonance magnétique",
+     "Image rapide du muscle",
+     "Instrument de relevé médical",
+     "Intervention rapide mobile"
+    ],
+    "correct": 0
+   },
+   "answer": "Imagerie par résonance magnétique",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/43-q.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/43-a.mp3",
+     "sec": 4.04898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PIB » (en économie) ?",
+    "choices": [
+     "Prix interne de base",
+     "Part d'impôt budgétaire",
+     "Plan d'investissement bancaire",
+     "Produit intérieur brut"
+    ],
+    "correct": 3
+   },
+   "answer": "Produit intérieur brut",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/44-q.mp3",
+     "sec": 2.56
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/44-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'UNESCO est l'agence de l'ONU pour quoi ?",
+    "choices": [
+     "Santé et hôpitaux",
+     "Commerce et douanes",
+     "Éducation, science, culture",
+     "Sport et loisirs"
+    ],
+    "correct": 2
+   },
+   "answer": "Éducation, science, culture",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/45-q.mp3",
+     "sec": 2.821224
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/45-a.mp3",
+     "sec": 3.63102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TNT » (à la télé) ?",
+    "choices": [
+     "Télé nationale de tous",
+     "Télévision numérique terrestre",
+     "Transmission naturelle des télés",
+     "Tarif national télévisé"
+    ],
+    "correct": 1
+   },
+   "answer": "Télévision numérique terrestre",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/46-q.mp3",
+     "sec": 4.022857
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/46-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'INSEE est l'institut national de la…",
+    "choices": [
+     "météo",
+     "statistique",
+     "santé",
+     "justice"
+    ],
+    "correct": 1
+   },
+   "answer": "statistique",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/47-q.mp3",
+     "sec": 4.04898
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/47-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « CAF » (aides aux familles) ?",
+    "choices": [
+     "Centre d'aide aux foyers",
+     "Caisse d'allocations familiales",
+     "Caisse d'aide fiscale",
+     "Comité d'action familiale"
+    ],
+    "correct": 1
+   },
+   "answer": "Caisse d'allocations familiales",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/48-q.mp3",
+     "sec": 5.381224
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/48-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RER » (en Île-de-France) ?",
+    "choices": [
+     "Route en ligne rapide",
+     "Rail express rural",
+     "Réseau express régional",
+     "Réseau européen routier"
+    ],
+    "correct": 2
+   },
+   "answer": "Réseau express régional",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/49-q.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/49-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « ADN » ?",
+    "choices": [
+     "Assemblage de noyaux",
+     "Adresse du noyau",
+     "Acide désoxyribonucléique",
+     "Acide dentaire naturel"
+    ],
+    "correct": 2
+   },
+   "answer": "Acide désoxyribonucléique",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/50-q.mp3",
+     "sec": 1.802449
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/50-a.mp3",
+     "sec": 3.94449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PME » ?",
+    "choices": [
+     "Plan municipal d'emploi",
+     "Petite et moyenne entreprise",
+     "Petite machine électrique",
+     "Prime moyenne d'épargne"
+    ],
+    "correct": 1
+   },
+   "answer": "Petite et moyenne entreprise",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/51-q.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/51-a.mp3",
+     "sec": 3.160816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SAV » (d'un magasin) ?",
+    "choices": [
+     "Salle d'attente vitrée",
+     "Service aux voyageurs",
+     "Service après-vente",
+     "Stock à vérifier"
+    ],
+    "correct": 2
+   },
+   "answer": "Service après-vente",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/52-q.mp3",
+     "sec": 3.186939
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/52-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « WSH » (chez les jeunes) ?",
+    "choices": [
+     "Je suis fatigué",
+     "Mon super hit",
+     "Va-t'en vite",
+     "Salut (wesh)"
+    ],
+    "correct": 3
+   },
+   "answer": "Salut (wesh)",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/53-q.mp3",
+     "sec": 3.526531
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/53-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avant 1975, que désignait l'ORTF ?",
+    "choices": [
+     "La radio-télévision publique",
+     "Les postes françaises",
+     "Les chemins de fer",
+     "L'école publique"
+    ],
+    "correct": 0
+   },
+   "answer": "La radio-télévision publique",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/54-q.mp3",
+     "sec": 3.291429
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/54-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "OTAN : Organisation du traité de l'Atlantique…",
+    "choices": [
+     "Sud",
+     "Ouest",
+     "Nord",
+     "Est"
+    ],
+    "correct": 2
+   },
+   "answer": "Nord",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/55-q.mp3",
+     "sec": 6.347755
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/55-a.mp3",
+     "sec": 1.38449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur une voiture, que mesure le « cv » ?",
+    "choices": [
+     "La vitesse maximale",
+     "La consommation",
+     "Le poids",
+     "La puissance du moteur"
+    ],
+    "correct": 3
+   },
+   "answer": "La puissance du moteur",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/56-q.mp3",
+     "sec": 4.127347
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/56-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PACS » ?",
+    "choices": [
+     "Pacte civil de solidarité",
+     "Plan d'aide aux couples seuls",
+     "Pacte commun de sécurité",
+     "Paiement annuel conjoint"
+    ],
+    "correct": 0
+   },
+   "answer": "Pacte civil de solidarité",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/57-q.mp3",
+     "sec": 1.619592
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/57-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TTC » (sur un prix) ?",
+    "choices": [
+     "Tout travail compris",
+     "Tarif total conseillé",
+     "Taxe en toute clarté",
+     "Toutes taxes comprises"
+    ],
+    "correct": 3
+   },
+   "answer": "Toutes taxes comprises",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/58-q.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/58-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « BD » (en librairie) ?",
+    "choices": [
+     "Beau dessin",
+     "Base de données",
+     "Boîte dorée",
+     "Bande dessinée"
+    ],
+    "correct": 3
+   },
+   "answer": "Bande dessinée",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/59-q.mp3",
+     "sec": 2.35102
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/59-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « USB » (sur un ordinateur) ?",
+    "choices": [
+     "Ultra Speed Box",
+     "Universal Serial Bus",
+     "United System Block",
+     "Unité de stockage bleue"
+    ],
+    "correct": 1
+   },
+   "answer": "Universal Serial Bus",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/60-q.mp3",
+     "sec": 6.60898
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/60-a.mp3",
+     "sec": 2.795102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « HLM » ?",
+    "choices": [
+     "Haut lieu de marché",
+     "Hôtel de ligne moderne",
+     "Hébergement de longue mission",
+     "Habitation à loyer modéré"
+    ],
+    "correct": 3
+   },
+   "answer": "Habitation à loyer modéré",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/61-q.mp3",
+     "sec": 4.336327
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/61-a.mp3",
+     "sec": 3.604898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PV » (de stationnement) ?",
+    "choices": [
+     "Procès-verbal",
+     "Petite violation",
+     "Paiement vite",
+     "Permis valide"
+    ],
+    "correct": 0
+   },
+   "answer": "Procès-verbal",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/62-q.mp3",
+     "sec": 2.742857
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/62-a.mp3",
+     "sec": 2.76898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « BCBG » ?",
+    "choices": [
+     "Bien cuit bien grillé",
+     "Bon chic bon genre",
+     "Beau comme un bijou",
+     "Bon chef, bon goût"
+    ],
+    "correct": 1
+   },
+   "answer": "Bon chic bon genre",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/63-q.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/63-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « FAQ » (sur un site) ?",
+    "choices": [
+     "Fiche d'aide qualifiée",
+     "Fin d'accès quotidien",
+     "Fichier d'accueil",
+     "Foire aux questions"
+    ],
+    "correct": 3
+   },
+   "answer": "Foire aux questions",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/64-q.mp3",
+     "sec": 2.821224
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/64-a.mp3",
+     "sec": 1.253878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "OCDE : Organisation de…",
+    "choices": [
+     "Commerce et douanes européennes",
+     "Culture et droits d'expression",
+     "Contrôle des dettes extérieures",
+     "Coopération et développement économiques"
+    ],
+    "correct": 3
+   },
+   "answer": "Coopération et développement économiques",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/65-q.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/65-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le RGPD est un règlement européen sur…",
+    "choices": [
+     "l'eau potable",
+     "les transports",
+     "les retraites",
+     "les données personnelles"
+    ],
+    "correct": 3
+   },
+   "answer": "les données personnelles",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/66-q.mp3",
+     "sec": 3.317551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/66-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « CAP » (diplôme) ?",
+    "choices": [
+     "Carte d'accès professionnel",
+     "Cycle d'apprentissage pratique",
+     "Certificat d'aptitude professionnelle",
+     "Certificat d'activité publique"
+    ],
+    "correct": 2
+   },
+   "answer": "Certificat d'aptitude professionnelle",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/67-q.mp3",
+     "sec": 4.101224
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/67-a.mp3",
+     "sec": 3.395918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « HTML » (sur le web) ?",
+    "choices": [
+     "Hautes technologies de mise en ligne",
+     "Langage de balisage hypertexte",
+     "Hébergement de textes à long terme",
+     "Langage d'hébergement total"
+    ],
+    "correct": 1
+   },
+   "answer": "Langage de balisage hypertexte",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/68-q.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/68-a.mp3",
+     "sec": 3.082449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un EHPAD est un établissement pour…",
+    "choices": [
+     "enfants malades",
+     "sportifs",
+     "personnes âgées dépendantes",
+     "animaux abandonnés"
+    ],
+    "correct": 2
+   },
+   "answer": "personnes âgées dépendantes",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/69-q.mp3",
+     "sec": 3.787755
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/69-a.mp3",
+     "sec": 2.899592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'UNICEF est le fonds de l'ONU pour…",
+    "choices": [
+     "l'agriculture",
+     "l'énergie",
+     "l'enfance",
+     "la culture"
+    ],
+    "correct": 2
+   },
+   "answer": "l'enfance",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/70-q.mp3",
+     "sec": 4.205714
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/70-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "SMIG : Salaire minimum interprofessionnel…",
+    "choices": [
+     "général",
+     "global",
+     "gradué",
+     "garanti"
+    ],
+    "correct": 3
+   },
+   "answer": "garanti",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/71-q.mp3",
+     "sec": 7.079184
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/71-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « ZAC » (en urbanisme) ?",
+    "choices": [
+     "Zone d'accès contrôlé",
+     "Zone d'aménagement concerté",
+     "Zone d'activité commune",
+     "Zone d'achat et de commerce"
+    ],
+    "correct": 1
+   },
+   "answer": "Zone d'aménagement concerté",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/72-q.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/72-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « LED » ?",
+    "choices": [
+     "Diode électroluminescente",
+     "Lumière à énergie directe",
+     "Lampe économe durable",
+     "Lueur électrique douce"
+    ],
+    "correct": 0
+   },
+   "answer": "Diode électroluminescente",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/73-q.mp3",
+     "sec": 3.709388
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/73-a.mp3",
+     "sec": 2.742857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RIB » (pour un virement) ?",
+    "choices": [
+     "Relevé d'identité bancaire",
+     "Recette inscrite en banque",
+     "Rapport interne bancaire",
+     "Reçu d'impôt bancaire"
+    ],
+    "correct": 0
+   },
+   "answer": "Relevé d'identité bancaire",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/74-q.mp3",
+     "sec": 2.403265
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/74-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « ANPE » (autrefois) ?",
+    "choices": [
+     "Association nationale des paysans",
+     "Agence nationale pour l'emploi",
+     "Aide nationale aux parents d'élèves",
+     "Agence des postes et du Trésor"
+    ],
+    "correct": 1
+   },
+   "answer": "Agence nationale pour l'emploi",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/75-q.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/75-a.mp3",
+     "sec": 3.343673
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « ISBN » (au dos d'un livre) ?",
+    "choices": [
+     "Index des séries brochées",
+     "Identifiant des sagas et biographies",
+     "Numéro international normalisé du livre",
+     "Imprimerie suisse du bon livre"
+    ],
+    "correct": 2
+   },
+   "answer": "Numéro international normalisé du livre",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/76-q.mp3",
+     "sec": 3.709388
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/76-a.mp3",
+     "sec": 3.866122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PDF » (pour un document) ?",
+    "choices": [
+     "Papier dactylographié fixe",
+     "Format de document portable",
+     "Page de données finale",
+     "Fichier de projet digital"
+    ],
+    "correct": 1
+   },
+   "answer": "Format de document portable",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/77-q.mp3",
+     "sec": 3.108571
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/77-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TER » (à la gare) ?",
+    "choices": [
+     "Transport express régional",
+     "Train express rapide",
+     "Transport européen routier",
+     "Train entre régions"
+    ],
+    "correct": 0
+   },
+   "answer": "Transport express régional",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/78-q.mp3",
+     "sec": 2.899592
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/78-a.mp3",
+     "sec": 3.160816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « FMI » ?",
+    "choices": [
+     "Front mondial des industries",
+     "Fonds monétaire international",
+     "Fédération des marchés internationaux",
+     "Fonds mutuel immobilier"
+    ],
+    "correct": 1
+   },
+   "answer": "Fonds monétaire international",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/79-q.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/79-a.mp3",
+     "sec": 3.317551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "CEDEX : « Courrier d'entreprise à distribution… »",
+    "choices": [
+     "express",
+     "exclusive",
+     "électronique",
+     "exceptionnelle"
+    ],
+    "correct": 3
+   },
+   "answer": "exceptionnelle",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/80-q.mp3",
+     "sec": 6.034286
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/80-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « BTS » ?",
+    "choices": [
+     "Bachelier technique spécial",
+     "Brevet de travaux spécialisés",
+     "Bureau technique de secours",
+     "Brevet de technicien supérieur"
+    ],
+    "correct": 3
+   },
+   "answer": "Brevet de technicien supérieur",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/81-q.mp3",
+     "sec": 3.474286
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/81-a.mp3",
+     "sec": 2.847347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « AOC » (sur un fromage) ?",
+    "choices": [
+     "Aliment d'origine certifiée",
+     "Agriculture de qualité",
+     "Appellation d'origine contrôlée",
+     "Association des ouvriers cultivateurs"
+    ],
+    "correct": 2
+   },
+   "answer": "Appellation d'origine contrôlée",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/82-q.mp3",
+     "sec": 5.041633
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/82-a.mp3",
+     "sec": 4.101224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La CNIL veille à la protection des…",
+    "choices": [
+     "monuments",
+     "forêts",
+     "données personnelles",
+     "frontières"
+    ],
+    "correct": 2
+   },
+   "answer": "données personnelles",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/83-q.mp3",
+     "sec": 2.35102
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/83-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SCI » (en immobilier) ?",
+    "choices": [
+     "Syndicat des constructeurs indépendants",
+     "Société de crédit international",
+     "Société civile immobilière",
+     "Service du cadastre intercommunal"
+    ],
+    "correct": 2
+   },
+   "answer": "Société civile immobilière",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/84-q.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/84-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le CNRS est un grand organisme de…",
+    "choices": [
+     "transport",
+     "recherche scientifique",
+     "tourisme",
+     "formation sportive"
+    ],
+    "correct": 1
+   },
+   "answer": "recherche scientifique",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/85-q.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/85-a.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans « radar », le R du début vient de…",
+    "choices": [
+     "Rayon",
+     "Radio",
+     "Rapide",
+     "Réseau"
+    ],
+    "correct": 1
+   },
+   "answer": "Radio",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/86-q.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/86-a.mp3",
+     "sec": 1.123265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans « laser », que signifie le A ?",
+    "choices": [
+     "Absorption",
+     "Atomique",
+     "Amplification",
+     "Accélération"
+    ],
+    "correct": 2
+   },
+   "answer": "Amplification",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/87-q.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/87-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "OPEP : Organisation des pays exportateurs de…",
+    "choices": [
+     "pétrole",
+     "blé",
+     "coton",
+     "café"
+    ],
+    "correct": 0
+   },
+   "answer": "pétrole",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/88-q.mp3",
+     "sec": 5.485714
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/88-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « IBAN » ?",
+    "choices": [
+     "Impôt bancaire annuel national",
+     "Indice des banques nationales",
+     "Identifiant bancaire de l'agence",
+     "Numéro de compte bancaire international"
+    ],
+    "correct": 3
+   },
+   "answer": "Numéro de compte bancaire international",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/89-q.mp3",
+     "sec": 2.873469
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/89-a.mp3",
+     "sec": 4.101224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « IUT » ?",
+    "choices": [
+     "Institut urbain de transport",
+     "Institut unique des techniques",
+     "Ingénieurs unis de travaux",
+     "Institut universitaire de technologie"
+    ],
+    "correct": 3
+   },
+   "answer": "Institut universitaire de technologie",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/90-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/90-a.mp3",
+     "sec": 3.892245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RMI » (avant le RSA) ?",
+    "choices": [
+     "Revenu minimum d'insertion",
+     "Rente mensuelle individuelle",
+     "Revenu moyen imposable",
+     "Remboursement des maladies infantiles"
+    ],
+    "correct": 0
+   },
+   "answer": "Revenu minimum d'insertion",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/91-q.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/91-a.mp3",
+     "sec": 2.951837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À l'origine, le C de « CERN » voulait dire…",
+    "choices": [
+     "Centre",
+     "Conseil",
+     "Comité",
+     "Cercle"
+    ],
+    "correct": 1
+   },
+   "answer": "Conseil",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/92-q.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/92-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une SCPI sert à investir dans…",
+    "choices": [
+     "l'or",
+     "le pétrole",
+     "l'immobilier",
+     "les œuvres d'art"
+    ],
+    "correct": 2
+   },
+   "answer": "l'immobilier",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/93-q.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/93-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "NAF : Nomenclature d'activités…",
+    "choices": [
+     "française",
+     "fiscale",
+     "financière",
+     "foncière"
+    ],
+    "correct": 0
+   },
+   "answer": "française",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/94-q.mp3",
+     "sec": 3.317551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/94-a.mp3",
+     "sec": 2.612245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le NIR, c'est le numéro de…",
+    "choices": [
+     "carte grise",
+     "téléphone",
+     "passeport",
+     "Sécurité sociale"
+    ],
+    "correct": 3
+   },
+   "answer": "Sécurité sociale",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/95-q.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/95-a.mp3",
+     "sec": 2.638367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le GIEC est un groupe d'experts sur…",
+    "choices": [
+     "l'évolution du climat",
+     "les volcans",
+     "les océans",
+     "l'énergie solaire"
+    ],
+    "correct": 0
+   },
+   "answer": "l'évolution du climat",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/96-q.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/96-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un GAEC regroupe des…",
+    "choices": [
+     "enseignants",
+     "agriculteurs",
+     "médecins",
+     "boulangers"
+    ],
+    "correct": 1
+   },
+   "answer": "agriculteurs",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/97-q.mp3",
+     "sec": 3.422041
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/97-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le CCAS d'une mairie s'occupe de…",
+    "choices": [
+     "l'état civil",
+     "la voirie",
+     "les écoles",
+     "l'action sociale"
+    ],
+    "correct": 3
+   },
+   "answer": "l'action sociale",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/98-q.mp3",
+     "sec": 4.754286
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/98-a.mp3",
+     "sec": 2.638367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PLU » (en urbanisme) ?",
+    "choices": [
+     "Projet de loi unique",
+     "Plan de logement universel",
+     "Programme des lotissements",
+     "Plan local d'urbanisme"
+    ],
+    "correct": 3
+   },
+   "answer": "Plan local d'urbanisme",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/99-q.mp3",
+     "sec": 2.847347
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/99-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SCOT » (en urbanisme) ?",
+    "choices": [
+     "Schéma de cohérence territoriale",
+     "Service de conception des travaux",
+     "Schéma des communes et transports",
+     "Plan de sécurité des collectivités"
+    ],
+    "correct": 0
+   },
+   "answer": "Schéma de cohérence territoriale",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/100-q.mp3",
+     "sec": 3.970612
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/100-a.mp3",
+     "sec": 3.63102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une CUMA permet à des agriculteurs de partager…",
+    "choices": [
+     "un toit",
+     "leur matériel",
+     "une cantine",
+     "un salaire"
+    ],
+    "correct": 1
+   },
+   "answer": "leur matériel",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/101-q.mp3",
+     "sec": 3.317551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/101-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le numéro SIRET identifie…",
+    "choices": [
+     "un établissement d'entreprise",
+     "un salarié",
+     "un véhicule",
+     "une rue"
+    ],
+    "correct": 0
+   },
+   "answer": "un établissement d'entreprise",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/102-q.mp3",
+     "sec": 2.089796
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/102-a.mp3",
+     "sec": 2.76898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SEPA » (pour les virements) ?",
+    "choices": [
+     "Service européen des paiements agréés",
+     "Système d'épargne pour achats",
+     "Espace unique de paiement en euros",
+     "Société européenne de paiement"
+    ],
+    "correct": 2
+   },
+   "answer": "Espace unique de paiement en euros",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/103-q.mp3",
+     "sec": 2.45551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/103-a.mp3",
+     "sec": 3.369796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "EBITDA : dans ce sigle anglais, le T signifie…",
+    "choices": [
+     "Temps",
+     "Travail",
+     "Taxes",
+     "Transfert"
+    ],
+    "correct": 2
+   },
+   "answer": "Taxes",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/104-q.mp3",
+     "sec": 3.73551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/104-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « DPE » (d'un logement) ?",
+    "choices": [
+     "Dossier de propriété et d'expertise",
+     "Document de paiement échelonné",
+     "Devis de pose écologique",
+     "Diagnostic de performance énergétique"
+    ],
+    "correct": 3
+   },
+   "answer": "Diagnostic de performance énergétique",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/105-q.mp3",
+     "sec": 4.91102
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/105-a.mp3",
+     "sec": 2.847347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « DTU » (dans le bâtiment) ?",
+    "choices": [
+     "Dossier des travaux urbains",
+     "Document technique unifié",
+     "Directive technique universelle",
+     "Devis de travaux unique"
+    ],
+    "correct": 1
+   },
+   "answer": "Document technique unifié",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/106-q.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/106-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « POS » (ancêtre du PLU) ?",
+    "choices": [
+     "Projet d'organisation spatiale",
+     "Plan d'opération sur site",
+     "Plan d'occupation des sols",
+     "Programme d'ouvrages scolaires"
+    ],
+    "correct": 2
+   },
+   "answer": "Plan d'occupation des sols",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-acronymes/107-q.mp3",
+     "sec": 3.73551
+    },
+    "a": {
+     "src": "tts/2026-11-11-acronymes/107-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Le même quiz en version jouable : youqwiz.com"
+ },
+ "meta": {
+  "description": "Quiz ACRONYMES en 108 questions, du niveau facile au niveau génie. Niveaux : 33 facile, 32 moyens, 27 difficiles, 16 impossible. Compte tes points et dis ton score en commentaire 👇\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com/quiz-du-jour/2026-11-11-acronymes\n🔔 Pense à t'abonner, ça aide la chaîne.\n\n#quiz #acronymes #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:13 Niveau facile\n05:11 Niveau moyen\n10:10 Niveau difficile\n14:42 Niveau impossible\n17:47 Ton score\n17:57 Crée ton quiz sur youqwiz.com",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "acronymes",
+   "abréviations",
+   "argot",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Culture G",
+   "line2": "108 ACRONYMES",
+   "emoji": "🔤",
+   "sticker": "5 SECONDES !",
+   "layouts": [
+    1,
+    3
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "3 secondes par question ⏱️ 108 ACRONYMES & ABRÉVIATIONS : tu les connais ? #Shorts",
+  "shortDescription": "Vidéo complète avec les 108 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 13.666666666666666,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 311.06666666666666,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 610.9333333333333,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 882.4333333333333,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 1067.9666666666667,
+    "title": "Ton score"
+   },
+   {
+    "at": 1077.9666666666667,
+    "title": "Crée ton quiz sur youqwiz.com"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/e0c01bea595b8889.mp3",
+   "sec": 2.76898
+  },
+  "level_moyen": {
+   "src": "tts-cache/ffda05d6b9a6603d.mp3",
+   "sec": 3.239184
+  },
+  "level_difficile": {
+   "src": "tts-cache/7c4b0fa8b7836b70.mp3",
+   "sec": 3.892245
+  },
+  "level_impossible": {
+   "src": "tts-cache/71d84d022b7a2083.mp3",
+   "sec": 4.91102
+  },
+  "score": {
+   "src": "tts-cache/820f73e32119a666.mp3",
+   "sec": 2.612245
+  },
+  "subscribe": {
+   "src": "tts-cache/902a10e49d0ddd5f.mp3",
+   "sec": 4.754286
+  },
+  "outro": {
+   "src": "tts-cache/5218c5beb2478d97.mp3",
+   "sec": 3.552653
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  },
+  "preroll": {
+   "src": "tts-cache/8a6f43c4a6c3fd59.mp3",
+   "sec": 2.76898
+  },
+  "packshot": {
+   "src": "tts-cache/ce5834bb526cae38.mp3",
+   "sec": 7.131429
+  }
+ }
+}

@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-animaux-marins",
+  "theme": "animaux",
+  "title": "Quiz animaux marins : 20 questions sur la mer",
+  "description": "Quiz animaux marins : 20 questions sur les poissons, requins, baleines et pieuvres. Teste tes connaissances de l'océan, du niveau facile à expert.",
+  "h1": "Quiz animaux marins : que sais-tu des habitants de l'océan ?",
+  "intro": "Plonge dans les profondeurs avec ce quiz sur les animaux marins ! Requins, baleines, pieuvres, hippocampes, coraux : 20 questions pour tester ce que tu sais des habitants des mers et des océans. Les premières questions sont accessibles à tous, les suivantes demandent un peu plus de curiosité, et les dernières feront réfléchir même les passionnés de vie marine. Compte environ 5 secondes par question pour répondre, et découvre à chaque fois une explication qui t'apprend quelque chose de nouveau. Prêt à nager ?",
+  "questions": [
+    {
+      "q": "Combien de bras possède une pieuvre ?",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 1,
+      "explication": "La pieuvre possède huit bras garnis de ventouses. Les calmars et les seiches, eux, ont huit bras et deux tentacules.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel animal marin produit des perles ?",
+      "choices": [
+        "le crabe",
+        "l'oursin",
+        "la méduse",
+        "l'huître"
+      ],
+      "answer": 3,
+      "explication": "L'huître perlière sécrète de la nacre, couche après couche, autour d'un noyau ou d'un fragment de tissu irritant, ce qui forme la perle.",
+      "level": "facile"
+    },
+    {
+      "q": "Le requin est…",
+      "choices": [
+        "un poisson",
+        "un mammifère",
+        "un reptile",
+        "un mollusque"
+      ],
+      "answer": 0,
+      "explication": "Le requin est un poisson cartilagineux : il respire grâce à des branchies et son squelette est fait de cartilage.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel animal marin marche de côté sur le fond ?",
+      "choices": [
+        "l'étoile de mer",
+        "la sole",
+        "le crabe",
+        "le homard"
+      ],
+      "answer": 2,
+      "explication": "Le crabe se déplace surtout latéralement grâce à la disposition articulée de ses pattes.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel animal marin transparent a des tentacules urticants ?",
+      "choices": [
+        "l'oursin",
+        "la moule",
+        "la méduse",
+        "le hareng"
+      ],
+      "answer": 2,
+      "explication": "La méduse est constituée à plus de 95 % d'eau et ses tentacules portent des cellules urticantes.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel mammifère marin est célèbre pour ses chants ?",
+      "choices": [
+        "la baleine à bosse",
+        "le phoque",
+        "le requin-marteau",
+        "le thon"
+      ],
+      "answer": 0,
+      "explication": "Les mâles de baleine à bosse composent des chants complexes qui se répètent et évoluent au fil des saisons.",
+      "level": "facile"
+    },
+    {
+      "q": "Chez l'hippocampe, qui porte les petits avant la naissance ?",
+      "choices": [
+        "la femelle",
+        "les deux à tour de rôle",
+        "personne, les œufs flottent librement",
+        "le mâle"
+      ],
+      "answer": 3,
+      "explication": "La femelle dépose ses œufs dans la poche du mâle, qui les garde jusqu'à la naissance des petits.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel animal marin vit enfermé dans deux coquilles fixées aux rochers ?",
+      "choices": [
+        "le calmar",
+        "la moule",
+        "le bernard-l'ermite",
+        "la raie"
+      ],
+      "answer": 1,
+      "explication": "La moule est un mollusque bivalve : elle s'accroche aux rochers grâce à des filaments appelés byssus.",
+      "level": "facile"
+    },
+    {
+      "q": "Avec quel animal le poisson-clown vit-il en symbiose ?",
+      "choices": [
+        "la tortue marine",
+        "l'oursin",
+        "le requin",
+        "l'anémone de mer"
+      ],
+      "answer": 3,
+      "explication": "Le poisson-clown se protège entre les tentacules de l'anémone, qui ne le piquent pas, et il la nettoie en échange.",
+      "level": "moyen"
+    },
+    {
+      "q": "L'orque appartient à la famille des…",
+      "choices": [
+        "requins",
+        "dauphins",
+        "baleines à fanons",
+        "phoques"
+      ],
+      "answer": 1,
+      "explication": "Malgré son surnom de baleine tueuse, l'orque est le plus grand représentant de la famille des dauphins.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment s'appelle le minuscule crustacé dont se nourrissent de nombreuses baleines ?",
+      "choices": [
+        "le homard",
+        "la crevette grise",
+        "le krill",
+        "la langoustine"
+      ],
+      "answer": 2,
+      "explication": "Le krill forme d'immenses nuages dans les eaux froides et constitue la base de l'alimentation de nombreuses baleines.",
+      "level": "moyen"
+    },
+    {
+      "q": "Le requin-baleine se nourrit principalement de…",
+      "choices": [
+        "plancton",
+        "thons",
+        "phoques",
+        "baleines"
+      ],
+      "answer": 0,
+      "explication": "Malgré sa taille de poisson géant, le requin-baleine filtre l'eau pour avaler plancton et petits poissons.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel animal marin peut régénérer un bras perdu ?",
+      "choices": [
+        "l'étoile de mer",
+        "le dauphin",
+        "la tortue",
+        "le thon"
+      ],
+      "answer": 0,
+      "explication": "L'étoile de mer peut régénérer un bras perdu, et certaines espèces peuvent même refaire un individu complet à partir d'un bras.",
+      "level": "moyen"
+    },
+    {
+      "q": "Le narval est célèbre pour sa longue « défense » spiralée. De quoi s'agit-il ?",
+      "choices": [
+        "d'une corne",
+        "d'une arête",
+        "d'une dent",
+        "d'une nageoire"
+      ],
+      "answer": 2,
+      "explication": "La défense du narval est en réalité une canine gauche qui pousse en spirale à travers la lèvre supérieure.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel mammifère marin herbivore est surnommé « vache marine » ?",
+      "choices": [
+        "le morse",
+        "le lamantin",
+        "l'otarie",
+        "le dauphin"
+      ],
+      "answer": 1,
+      "explication": "Le lamantin broute des plantes aquatiques et vit dans des eaux chaudes et peu profondes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Le corail est…",
+      "choices": [
+        "une plante",
+        "un minéral",
+        "une algue",
+        "un animal"
+      ],
+      "answer": 3,
+      "explication": "Le corail est formé de petits animaux, les polypes, qui vivent en colonies et fabriquent un squelette calcaire.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment s'appelle l'organe du front qui permet au dauphin de concentrer ses clics d'écholocalisation ?",
+      "choices": [
+        "la vessie natatoire",
+        "le melon",
+        "l'évent",
+        "la ligne latérale"
+      ],
+      "answer": 1,
+      "explication": "Le melon est une masse graisseuse située sur le front du dauphin : il focalise les sons qu'il émet pour repérer ses proies par écholocalisation.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel céphalopode possède une coquille externe cloisonnée en spirale ?",
+      "choices": [
+        "le nautile",
+        "la pieuvre",
+        "le calmar",
+        "la seiche"
+      ],
+      "answer": 0,
+      "explication": "Le nautile est le seul céphalopode actuel à porter une vraie coquille externe, divisée en loges.",
+      "level": "expert"
+    },
+    {
+      "q": "Les oursins, étoiles de mer et concombres de mer appartiennent au groupe des…",
+      "choices": [
+        "crustacés",
+        "cnidaires",
+        "annélides",
+        "échinodermes"
+      ],
+      "answer": 3,
+      "explication": "Les échinodermes ont une symétrie souvent en cinq parties et une peau portant des piquants ou des plaques calcaires.",
+      "level": "expert"
+    },
+    {
+      "q": "Qu'a de particulier le poisson-clown ?",
+      "choices": [
+        "il vit plus de 100 ans",
+        "il respire hors de l'eau",
+        "il peut changer de sexe",
+        "il n'a pas de nageoires"
+      ],
+      "answer": 2,
+      "explication": "Les poissons-clowns naissent mâles, et le plus dominant du groupe peut devenir femelle.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Une pieuvre est-elle un poisson ?",
+      "Non. La pieuvre est un mollusque de la famille des céphalopodes, comme le calmar et la seiche. Elle n'a ni squelette ni écailles, mais huit bras et un cerveau très développé qui lui permet de résoudre des problèmes et de s'échapper de bocaux."
+    ],
+    [
+      "Les baleines sont-elles des poissons ?",
+      "Non, ce sont des mammifères. Elles respirent de l'air grâce à des poumons, remontent régulièrement à la surface, donnent naissance à des petits vivants et les allaitent. Leur ressemblance avec les poissons vient seulement d'une adaptation à la vie dans l'eau."
+    ],
+    [
+      "Quelle est la différence entre un requin et un dauphin ?",
+      "Le requin est un poisson à branchies et squelette de cartilage, alors que le dauphin est un mammifère qui respire de l'air par un évent. La queue du requin bouge de gauche à droite, celle du dauphin de haut en bas."
+    ]
+  ],
+  "related": [
+    "/quiz-animaux",
+    "/quiz-animaux-difficile",
+    "/quiz-sciences",
+    "/quiz-oiseaux",
+    "/quiz-dinosaures"
+  ]
+}

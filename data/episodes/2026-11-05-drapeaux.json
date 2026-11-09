@@ -1,0 +1,580 @@
+{
+ "id": "2026-11-05-drapeaux",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "theme": 2,
+ "title": "Devine 77 DRAPEAUX du MONDE en 5 secondes 🚩🌍🧠 | Facile, Moyen, Difficile, Impossible",
+ "question": "À quel pays appartient ce drapeau ?",
+ "intro": {
+  "hook": "Devine 77 DRAPEAUX du MONDE",
+  "sub": "en 5 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇨"
+   },
+   "answer": "Seychelles"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇿"
+   },
+   "answer": "Kazakhstan"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇱"
+   },
+   "answer": "Israël"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇸"
+   },
+   "answer": "Islande"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇦"
+   },
+   "answer": "Laos"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇳"
+   },
+   "answer": "Honduras"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇮"
+   },
+   "answer": "Slovénie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇱"
+   },
+   "answer": "Pays-Bas"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇿"
+   },
+   "answer": "Belize"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇾"
+   },
+   "answer": "Malaisie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇰"
+   },
+   "answer": "Macédoine du Nord"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇸"
+   },
+   "answer": "Serbie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇬"
+   },
+   "answer": "Togo"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇦"
+   },
+   "answer": "Ukraine"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇿"
+   },
+   "answer": "Azerbaïdjan"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇼"
+   },
+   "answer": "Koweït"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇬"
+   },
+   "answer": "Égypte"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇯"
+   },
+   "answer": "Djibouti"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇬"
+   },
+   "answer": "Antigua-et-Barbuda"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇼"
+   },
+   "answer": "Guinée-Bissau"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇬"
+   },
+   "answer": "Congo"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇸"
+   },
+   "answer": "Lesotho"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇹"
+   },
+   "answer": "Guatemala"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇷"
+   },
+   "answer": "Argentine"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇮"
+   },
+   "answer": "Nicaragua"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇱"
+   },
+   "answer": "Pologne"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇵"
+   },
+   "answer": "Népal"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇫"
+   },
+   "answer": "Afghanistan"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇳"
+   },
+   "answer": "Brunei"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇧"
+   },
+   "answer": "Royaume-Uni"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇷"
+   },
+   "answer": "Suriname"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇩"
+   },
+   "answer": "Tchad"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇹"
+   },
+   "answer": "Trinité-et-Tobago"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇩"
+   },
+   "answer": "Grenade"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇫"
+   },
+   "answer": "République centrafricaine"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇿🇲"
+   },
+   "answer": "Zambie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇲"
+   },
+   "answer": "Turkménistan"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇨"
+   },
+   "answer": "Sainte-Lucie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇪"
+   },
+   "answer": "Kenya"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇼"
+   },
+   "answer": "Botswana"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇪"
+   },
+   "answer": "Pérou"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇷"
+   },
+   "answer": "Croatie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇶"
+   },
+   "answer": "Guinée équatoriale"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇭"
+   },
+   "answer": "Îles Marshall"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇫"
+   },
+   "answer": "Burkina Faso"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇳"
+   },
+   "answer": "Inde"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇬"
+   },
+   "answer": "Madagascar"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇲"
+   },
+   "answer": "Cameroun"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇳"
+   },
+   "answer": "Chine"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇻"
+   },
+   "answer": "Cap-Vert"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇷"
+   },
+   "answer": "Nauru"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇺"
+   },
+   "answer": "Maurice"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇩"
+   },
+   "answer": "Bangladesh"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇸"
+   },
+   "answer": "Bahamas"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇶🇦"
+   },
+   "answer": "Qatar"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇬"
+   },
+   "answer": "Kirghizstan"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇴🇲"
+   },
+   "answer": "Oman"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇫🇯"
+   },
+   "answer": "Fidji"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇹"
+   },
+   "answer": "Haïti"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇺"
+   },
+   "answer": "Hongrie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇭"
+   },
+   "answer": "Cambodge"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇭"
+   },
+   "answer": "Bahreïn"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇼"
+   },
+   "answer": "Palaos"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇰"
+   },
+   "answer": "Slovaquie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇧"
+   },
+   "answer": "Îles Salomon"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇿"
+   },
+   "answer": "Algérie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇹"
+   },
+   "answer": "Bhoutan"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇱"
+   },
+   "answer": "Chili"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇷"
+   },
+   "answer": "Mauritanie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇪"
+   },
+   "answer": "Irlande"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇬"
+   },
+   "answer": "Papouasie-Nouvelle-Guinée"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇮"
+   },
+   "answer": "Liechtenstein"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇪"
+   },
+   "answer": "Niger"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇴"
+   },
+   "answer": "Angola"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇿"
+   },
+   "answer": "Tchéquie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇺"
+   },
+   "answer": "Luxembourg"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇫🇲"
+   },
+   "answer": "Micronésie"
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Devine 77 DRAPEAUX du MONDE en 5 secondes, de facile à impossible ! Dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #drapeaux #youqwiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "devinette",
+   "youqwiz",
+   "drapeaux",
+   "devine",
+   "facile à impossible"
+  ],
+  "thumbnail": {
+   "line1": "Devine",
+   "line2": "77 DRAPEAUX",
+   "emoji": "🚩"
+  },
+  "shortItems": 5
+ }
+}

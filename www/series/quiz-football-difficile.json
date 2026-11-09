@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-football-difficile",
+  "theme": "sport",
+  "title": "Quiz football difficile : 20 questions d'experts",
+  "description": "Quiz football difficile pour experts : finales de Coupe d'Europe anciennes, Ballons d'or d'hier, règles du jeu et grands tournois. 20 questions à relever !",
+  "h1": "Quiz football difficile : prouve que tu es un vrai expert",
+  "intro": "Tu suis le football depuis des années et tu connais les clubs par cœur ? Ce quiz de 20 questions fouille dans l'histoire du football européen et mondial : anciennes finales de la Coupe des clubs champions, Ballons d'or d'une autre époque, Euros mythiques et règles méconnues du jeu. Les huit premières questions sont déjà costaudes, les huit suivantes ne pardonnent pas l'à-peu-près et les quatre dernières sont réservées aux historiens du ballon rond. Compte environ 5 secondes par question, et vois si tu es un fin connaisseur !",
+  "questions": [
+    {
+      "q": "Quel club français a remporté la Ligue des champions en 1993, face au Milan AC à Munich ?",
+      "choices": [
+        "Le Paris Saint-Germain",
+        "L'Olympique de Marseille",
+        "L'AS Monaco",
+        "Le FC Nantes"
+      ],
+      "answer": 1,
+      "explication": "Un but de la tête de Basile Boli a donné à l'OM le premier titre européen d'un club français.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel Libérien a reçu le Ballon d'or en 1995 ?",
+      "choices": [
+        "Abedi Pelé",
+        "Samuel Eto'o",
+        "Didier Drogba",
+        "George Weah"
+      ],
+      "answer": 3,
+      "explication": "George Weah, joueur du Milan AC, est le premier Africain sacré Ballon d'or.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel attaquant français a reçu le Ballon d'or en 1991 ?",
+      "choices": [
+        "Jean-Pierre Papin",
+        "Éric Cantona",
+        "Marcel Desailly",
+        "David Ginola"
+      ],
+      "answer": 0,
+      "explication": "Jean-Pierre Papin a été sacré après de grandes saisons avec l'Olympique de Marseille.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel club anglais a battu le Bayern Munich en finale de la Ligue des champions 1999 en marquant deux buts dans les arrêts de jeu ?",
+      "choices": [
+        "Liverpool",
+        "Arsenal",
+        "Manchester United",
+        "Chelsea"
+      ],
+      "answer": 2,
+      "explication": "Teddy Sheringham et Ole Gunnar Solskjær ont marqué dans les arrêts de jeu au Camp Nou, pour un renversement fou.",
+      "level": "facile"
+    },
+    {
+      "q": "À quelle distance minimale du ballon doit se placer le mur lors d'un coup franc ?",
+      "choices": [
+        "5 mètres",
+        "7 mètres",
+        "9,15 mètres",
+        "11 mètres"
+      ],
+      "answer": 2,
+      "explication": "La loi du jeu impose 9,15 mètres, soit 10 yards, entre le ballon et le mur.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel joueur néerlandais a reçu le Ballon d'or en 1971, 1973 et 1974 ?",
+      "choices": [
+        "Johan Cruyff",
+        "Johan Neeskens",
+        "Marco van Basten",
+        "Ruud Gullit"
+      ],
+      "answer": 0,
+      "explication": "Johan Cruyff, star de l'Ajax puis du Barça, a reçu trois Ballons d'or.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle sélection a remporté l'Euro 1988 avec notamment une volée célèbre de Marco van Basten en finale ?",
+      "choices": [
+        "L'Union soviétique",
+        "L'Italie",
+        "L'Allemagne de l'Ouest",
+        "Les Pays-Bas"
+      ],
+      "answer": 3,
+      "explication": "Les Pays-Bas ont battu l'URSS 2-0 à Munich, avec ce but extraordinaire de Van Basten.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays a créé la surprise en gagnant l'Euro 2004 au Portugal ?",
+      "choices": [
+        "Le Portugal",
+        "La Grèce",
+        "La République tchèque",
+        "L'Espagne"
+      ],
+      "answer": 1,
+      "explication": "La Grèce d'Otto Rehhagel a battu le Portugal 1-0 en finale, grâce à Angelos Charisteas.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle ville a eu lieu la finale de la Coupe des clubs champions 1960, remportée 7-3 par le Real Madrid ?",
+      "choices": [
+        "Glasgow",
+        "Bruxelles",
+        "Stuttgart",
+        "Vienne"
+      ],
+      "answer": 0,
+      "explication": "La finale s'est jouée à Hampden Park, avec quatre buts de Ferenc Puskás et un triplé de Di Stéfano.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel attaquant écossais de Manchester United a reçu le Ballon d'or en 1964 ?",
+      "choices": [
+        "Bobby Charlton",
+        "George Best",
+        "Denis Law",
+        "Kenny Dalglish"
+      ],
+      "answer": 2,
+      "explication": "Denis Law est le seul Écossais à avoir reçu le Ballon d'or.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel club écossais est devenu en 1967 le premier club britannique à gagner la Coupe des clubs champions ?",
+      "choices": [
+        "Les Glasgow Rangers",
+        "Le Celtic Glasgow",
+        "Manchester United",
+        "Liverpool"
+      ],
+      "answer": 1,
+      "explication": "Surnommés les Lisbon Lions, les joueurs du Celtic, tous nés dans un rayon de 30 miles de Glasgow, ont battu l'Inter en finale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel attaquant portugais de Benfica a reçu le Ballon d'or en 1965 ?",
+      "choices": [
+        "António Simões",
+        "Mário Coluna",
+        "José Augusto",
+        "Eusébio"
+      ],
+      "answer": 3,
+      "explication": "Eusébio, la « Panthère noire », a aussi été meilleur buteur de la Coupe du monde 1966.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel club italien, où évoluait Michel Platini, a gagné la Coupe des clubs champions 1985 ?",
+      "choices": [
+        "Le Milan AC",
+        "L'Inter Milan",
+        "L'AS Rome",
+        "La Juventus"
+      ],
+      "answer": 3,
+      "explication": "La Juventus a battu Liverpool 1-0 à Bruxelles, sur un penalty de Platini, lors d'une finale marquée par un drame au stade du Heysel.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle action le gardien de but n'a-t-il plus le droit de faire depuis 1992 ?",
+      "choices": [
+        "Dégager le ballon au pied",
+        "Prendre à la main une passe volontaire au pied d'un coéquipier",
+        "Sortir de sa surface de réparation",
+        "Toucher le ballon de la tête"
+      ],
+      "answer": 1,
+      "explication": "La règle de la passe en retrait, adoptée en 1992, a été introduite pour limiter le jeu défensif et la perte de temps.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel pays, repêché au dernier moment, a remporté l'Euro 1992 en Suède ?",
+      "choices": [
+        "La Suède",
+        "L'Allemagne",
+        "Le Danemark",
+        "Les Pays-Bas"
+      ],
+      "answer": 2,
+      "explication": "Le Danemark a pris la place de la Yougoslavie, exclue du tournoi, et a battu l'Allemagne 2-0 en finale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel club a gagné trois Coupes des clubs champions de suite entre 1971 et 1973 ?",
+      "choices": [
+        "L'Ajax Amsterdam",
+        "L'Inter Milan",
+        "Le Bayern Munich",
+        "Benfica"
+      ],
+      "answer": 0,
+      "explication": "L'Ajax de Cruyff a ensuite été relayé par le Bayern Munich pour trois autres titres consécutifs.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel attaquant du Real Madrid a reçu le Ballon d'or en 1957 et en 1959 ?",
+      "choices": [
+        "Ferenc Puskás",
+        "Francisco Gento",
+        "Alfredo Di Stéfano",
+        "Raymond Kopa"
+      ],
+      "answer": 2,
+      "explication": "Alfredo Di Stéfano a été sacré deux fois, au sommet de la domination du Real Madrid en Europe.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel club allemand a gagné trois Coupes des clubs champions consécutives, de 1974 à 1976 ?",
+      "choices": [
+        "Le Bayern Munich",
+        "Le Borussia Mönchengladbach",
+        "Le Hambourg SV",
+        "Le Borussia Dortmund"
+      ],
+      "answer": 0,
+      "explication": "Le Bayern de Beckenbauer, Müller et Maier a réalisé le triplé européen de 1974 à 1976.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel attaquant hongrois de Ferencváros a reçu le Ballon d'or en 1967 ?",
+      "choices": [
+        "Ferenc Puskás",
+        "Flórián Albert",
+        "Lajos Tichy",
+        "Nándor Hidegkuti"
+      ],
+      "answer": 1,
+      "explication": "Flórián Albert, surnommé l'« Empereur », a été sacré en 1967.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle sélection a gagné le premier Championnat d'Europe des nations en 1960, organisé en France ?",
+      "choices": [
+        "La Yougoslavie",
+        "La Tchécoslovaquie",
+        "La France",
+        "L'Union soviétique"
+      ],
+      "answer": 3,
+      "explication": "L'URSS a battu la Yougoslavie 2-1 après prolongation en finale, au Parc des Princes.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Qu'est-ce que la règle de la passe en retrait ?",
+      "Depuis 1992, un gardien de but n'a plus le droit de prendre le ballon à la main lorsqu'un coéquipier le lui passe volontairement du pied. Cette règle a été instaurée pour lutter contre le jeu défensif et les pertes de temps, et elle a changé durablement la façon de jouer des gardiens."
+    ],
+    [
+      "Qu'est-ce que la Coupe des clubs champions ?",
+      "C'est l'ancien nom de la plus prestigieuse compétition européenne de clubs, créée en 1955 et dont la première finale a eu lieu en 1956. Elle regroupait à l'origine uniquement les champions nationaux. Elle est devenue Ligue des champions en 1992, avec une formule élargie."
+    ],
+    [
+      "Qui a remporté le plus de Ballons d'or avant 2000 ?",
+      "Michel Platini, Johan Cruyff et Marco van Basten ont chacun reçu trois Ballons d'or avant l'an 2000. Cruyff les a obtenus en 1971, 1973 et 1974, Platini de 1983 à 1985 et Van Basten en 1988, 1989 et 1992. Les trois ont marqué leur époque et leur club."
+    ]
+  ],
+  "related": [
+    "/quiz-football",
+    "/quiz-football-coupe-du-monde",
+    "/quiz-football-equipe-de-france",
+    "/quiz-sport"
+  ]
+}

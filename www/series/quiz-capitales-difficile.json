@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-capitales-difficile",
+  "theme": "geographie",
+  "title": "Quiz capitales difficile : 20 capitales piégeuses",
+  "description": "Quiz capitales difficile : 20 capitales piégeuses où la plus grande ville n'est pas la capitale (Pékin, Dodoma, Naypyidaw...). Sauras-tu les trouver ?",
+  "h1": "Quiz capitales difficile : sauras-tu éviter les pièges ?",
+  "intro": "Washington n'est pas New York, Pékin n'est pas Shanghai, Dodoma n'est pas Dar es Salaam : dans ce quiz, la plus grande ville est souvent le piège. Tu as 20 questions, des capitales trompeuses du début jusqu'à des capitales rares, parfois récentes ou construites de toutes pièces comme Naypyidaw ou Ngerulmud. Les mauvaises réponses sont souvent de grandes villes du même pays, volontairement tentantes. Compte environ cinq secondes par question et profite des explications pour comprendre pourquoi chaque capitale a été choisie. Rejoue autant que tu veux pour affiner ton instinct.",
+  "questions": [
+    {
+      "q": "Quelle est la capitale des États-Unis ?",
+      "choices": [
+        "New York",
+        "Washington D.C.",
+        "Los Angeles",
+        "Philadelphie"
+      ],
+      "answer": 1,
+      "explication": "New York est la plus grande ville américaine, mais la capitale fédérale est Washington.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Chine ?",
+      "choices": [
+        "Shanghai",
+        "Canton",
+        "Hong Kong",
+        "Pékin"
+      ],
+      "answer": 3,
+      "explication": "Pékin est la capitale de la Chine, alors que Shanghai est la plus grande ville.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Vietnam ?",
+      "choices": [
+        "Hanoï",
+        "Hô Chi Minh-Ville",
+        "Da Nang",
+        "Hué"
+      ],
+      "answer": 0,
+      "explication": "Hô Chi Minh-Ville est la plus peuplée, mais la capitale est Hanoï.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Pakistan ?",
+      "choices": [
+        "Karachi",
+        "Lahore",
+        "Islamabad",
+        "Rawalpindi"
+      ],
+      "answer": 2,
+      "explication": "Karachi fut la première capitale, mais Islamabad l'a remplacée dans les années 1960.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale des Émirats arabes unis ?",
+      "choices": [
+        "Dubaï",
+        "Charjah",
+        "Al Aïn",
+        "Abou Dabi"
+      ],
+      "answer": 3,
+      "explication": "Dubaï est plus célèbre, mais la capitale fédérale est Abou Dabi.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Cameroun ?",
+      "choices": [
+        "Douala",
+        "Yaoundé",
+        "Garoua",
+        "Bafoussam"
+      ],
+      "answer": 1,
+      "explication": "Douala est la plus grande ville et le grand port, mais la capitale est Yaoundé.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Équateur ?",
+      "choices": [
+        "Guayaquil",
+        "Cuenca",
+        "Quito",
+        "Ambato"
+      ],
+      "answer": 2,
+      "explication": "Guayaquil est la plus peuplée, mais Quito est la capitale, à environ 2 800 mètres d'altitude.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale des Philippines ?",
+      "choices": [
+        "Manille",
+        "Cebu",
+        "Davao",
+        "Baguio"
+      ],
+      "answer": 0,
+      "explication": "Manille est située sur l'île de Luçon.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Tanzanie ?",
+      "choices": [
+        "Dodoma",
+        "Dar es Salaam",
+        "Arusha",
+        "Zanzibar"
+      ],
+      "answer": 0,
+      "explication": "Dodoma est la capitale officielle, même si Dar es Salaam reste la plus grande ville.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Birmanie (Myanmar) ?",
+      "choices": [
+        "Rangoun",
+        "Mandalay",
+        "Naypyidaw",
+        "Bago"
+      ],
+      "answer": 2,
+      "explication": "Le gouvernement s'est installé à Naypyidaw fin 2005, et la ville a été proclamée capitale en 2006 ; Rangoun, aujourd'hui Yangon, la précédait.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Belize ?",
+      "choices": [
+        "Belize City",
+        "Belmopan",
+        "San Ignacio",
+        "Orange Walk"
+      ],
+      "answer": 1,
+      "explication": "Belmopan a été fondée après l'ouragan Hattie de 1961, qui avait dévasté Belize City, l'ancienne capitale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Malawi ?",
+      "choices": [
+        "Blantyre",
+        "Zomba",
+        "Mzuzu",
+        "Lilongwe"
+      ],
+      "answer": 3,
+      "explication": "Lilongwe a remplacé Zomba comme capitale en 1975.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Bhoutan ?",
+      "choices": [
+        "Paro",
+        "Punakha",
+        "Thimphou",
+        "Phuntsholing"
+      ],
+      "answer": 2,
+      "explication": "Thimphou est l'une des rares capitales au monde sans feux de circulation.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de Madagascar ?",
+      "choices": [
+        "Antananarivo",
+        "Toamasina",
+        "Antsirabe",
+        "Mahajanga"
+      ],
+      "answer": 0,
+      "explication": "Antananarivo se situe sur les hauts plateaux, loin de la côte.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de l'île Maurice ?",
+      "choices": [
+        "Curepipe",
+        "Quatre Bornes",
+        "Mahébourg",
+        "Port-Louis"
+      ],
+      "answer": 3,
+      "explication": "Port-Louis est le grand port de l'île.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale des Seychelles ?",
+      "choices": [
+        "Beau Vallon",
+        "Victoria",
+        "Anse Royale",
+        "Baie Sainte-Anne"
+      ],
+      "answer": 1,
+      "explication": "Victoria est située sur l'île de Mahé.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale des Palaos ?",
+      "choices": [
+        "Koror",
+        "Ngerulmud",
+        "Airai",
+        "Peleliu"
+      ],
+      "answer": 1,
+      "explication": "Koror, la plus grande ville, a été la capitale jusqu'en 2006, quand Ngerulmud l'a remplacée.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Brunei ?",
+      "choices": [
+        "Kuala Belait",
+        "Seria",
+        "Tutong",
+        "Bandar Seri Begawan"
+      ],
+      "answer": 3,
+      "explication": "Bandar Seri Begawan est la capitale de ce petit sultanat de l'île de Bornéo.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale des Comores ?",
+      "choices": [
+        "Moroni",
+        "Mutsamudu",
+        "Fomboni",
+        "Domoni"
+      ],
+      "answer": 0,
+      "explication": "Moroni est sur la Grande Comore, la plus grande île de l'archipel.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale de la Papouasie-Nouvelle-Guinée ?",
+      "choices": [
+        "Lae",
+        "Rabaul",
+        "Port Moresby",
+        "Madang"
+      ],
+      "answer": 2,
+      "explication": "Port Moresby est la capitale de la Papouasie-Nouvelle-Guinée, sur la côte sud.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi la capitale d'un pays n'est-elle pas toujours sa plus grande ville ?",
+      "Une capitale est choisie pour des raisons politiques, historiques ou stratégiques : position centrale, compromis entre deux grandes villes rivales, sécurité, ou volonté de développer une région. C'est le cas d'Abou Dabi, d'Islamabad ou de Naypyidaw, créées ou choisies à côté de villes plus connues."
+    ],
+    [
+      "Quelles capitales ont été construites de toutes pièces ?",
+      "Plusieurs capitales ont été créées pour l'occasion : Brasilia au Brésil, Canberra en Australie, Abuja au Nigeria, Islamabad au Pakistan, Belmopan au Belize ou Naypyidaw en Birmanie. Chacune a été pensée pour remplacer une ville jugée trop excentrée, trop vulnérable ou trop dominante."
+    ],
+    [
+      "Comment éviter les pièges sur les capitales ?",
+      "Méfie-toi de la réponse qui te vient en premier : c'est souvent la plus grande ville ou la plus touristique du pays. Retiens les cas piégeux par familles, comme les capitales créées de toutes pièces ou les villes qui ont remplacé une ancienne capitale, puis refais le quiz pour les ancrer."
+    ]
+  ],
+  "related": [
+    "/quiz-capitales",
+    "/quiz-capitales-europe",
+    "/quiz-capitales-afrique",
+    "/quiz-capitales-asie",
+    "/quiz-capitales-amerique"
+  ]
+}

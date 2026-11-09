@@ -1,0 +1,580 @@
+{
+ "id": "2026-11-05-animaux",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "theme": 1,
+ "title": "Devine 77 ANIMAUX en 5 secondes 🐯🦓🐙 | Facile, Moyen, Difficile, Impossible",
+ "question": "Quel est cet animal ?",
+ "intro": {
+  "hook": "Devine 77 ANIMAUX",
+  "sub": "en 5 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕊️"
+   },
+   "answer": "La colombe"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦤"
+   },
+   "answer": "Le dodo"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦕"
+   },
+   "answer": "Le diplodocus"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐷"
+   },
+   "answer": "Le cochon"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦈"
+   },
+   "answer": "Le requin"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦋"
+   },
+   "answer": "Le papillon"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪱"
+   },
+   "answer": "Le ver de terre"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦩"
+   },
+   "answer": "Le flamant rose"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻‍❄️"
+   },
+   "answer": "L'ours polaire"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐸"
+   },
+   "answer": "La grenouille"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦅"
+   },
+   "answer": "L'aigle"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦫"
+   },
+   "answer": "Le castor"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐢"
+   },
+   "answer": "La tortue"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦬"
+   },
+   "answer": "Le bison"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐹"
+   },
+   "answer": "Le hamster"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦍"
+   },
+   "answer": "Le gorille"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦃"
+   },
+   "answer": "La dinde"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐧"
+   },
+   "answer": "Le manchot"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐐"
+   },
+   "answer": "La chèvre"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪿"
+   },
+   "answer": "L'oie"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦊"
+   },
+   "answer": "Le renard"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐰"
+   },
+   "answer": "Le lapin"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦞"
+   },
+   "answer": "Le homard"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦇"
+   },
+   "answer": "La chauve-souris"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐜"
+   },
+   "answer": "La fourmi"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦭"
+   },
+   "answer": "Le phoque"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐀"
+   },
+   "answer": "Le rat"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦠"
+   },
+   "answer": "Le microbe"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦦"
+   },
+   "answer": "La loutre"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫏"
+   },
+   "answer": "L'âne"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦄"
+   },
+   "answer": "La licorne"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐵"
+   },
+   "answer": "Le singe"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦙"
+   },
+   "answer": "Le lama"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐡"
+   },
+   "answer": "Le poisson-globe"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐞"
+   },
+   "answer": "La coccinelle"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐉"
+   },
+   "answer": "Le dragon"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦔"
+   },
+   "answer": "Le hérisson"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦓"
+   },
+   "answer": "Le zèbre"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐫"
+   },
+   "answer": "Le chameau"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻"
+   },
+   "answer": "L'ours"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦉"
+   },
+   "answer": "Le hibou"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪸"
+   },
+   "answer": "Le corail"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦌"
+   },
+   "answer": "Le cerf"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦎"
+   },
+   "answer": "Le lézard"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦗"
+   },
+   "answer": "Le grillon"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟"
+   },
+   "answer": "Le poisson"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦖"
+   },
+   "answer": "Le tyrannosaure"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪰"
+   },
+   "answer": "La mouche"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪳"
+   },
+   "answer": "Le cafard"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦑"
+   },
+   "answer": "Le calamar"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕷️"
+   },
+   "answer": "L'araignée"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦢"
+   },
+   "answer": "Le cygne"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦‍⬛"
+   },
+   "answer": "Le corbeau"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦐"
+   },
+   "answer": "La crevette"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐯"
+   },
+   "answer": "Le tigre"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦥"
+   },
+   "answer": "Le paresseux"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦"
+   },
+   "answer": "L'oiseau"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐛"
+   },
+   "answer": "La chenille"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐑"
+   },
+   "answer": "Le mouton"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐴"
+   },
+   "answer": "Le cheval"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦀"
+   },
+   "answer": "Le crabe"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐭"
+   },
+   "answer": "La souris"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦣"
+   },
+   "answer": "Le mammouth"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐠"
+   },
+   "answer": "Le poisson tropical"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐿️"
+   },
+   "answer": "L'écureuil"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦝"
+   },
+   "answer": "Le raton laveur"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐼"
+   },
+   "answer": "Le panda"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐓"
+   },
+   "answer": "Le coq"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐪"
+   },
+   "answer": "Le dromadaire"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦚"
+   },
+   "answer": "Le paon"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐲"
+   },
+   "answer": "Le dragon chinois"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪼"
+   },
+   "answer": "La méduse"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦁"
+   },
+   "answer": "Le lion"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫎"
+   },
+   "answer": "L'élan"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐣"
+   },
+   "answer": "Le poussin"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐨"
+   },
+   "answer": "Le koala"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦛"
+   },
+   "answer": "L'hippopotame"
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Devine 77 ANIMAUX en 5 secondes, de facile à impossible ! Dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #animaux #youqwiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "devinette",
+   "youqwiz",
+   "animaux",
+   "devine",
+   "facile à impossible"
+  ],
+  "thumbnail": {
+   "line1": "Devine",
+   "line2": "77 ANIMAUX",
+   "emoji": "🐯"
+  },
+  "shortItems": 5
+ }
+}

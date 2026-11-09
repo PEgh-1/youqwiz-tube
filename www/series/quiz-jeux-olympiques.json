@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-jeux-olympiques",
+  "theme": "sport",
+  "title": "Quiz Jeux olympiques : 20 questions JO",
+  "description": "Quiz Jeux olympiques gratuit : 20 questions sur l'histoire des JO, les symboles, les athlètes et Paris 2024. Teste-toi en 5 s par question.",
+  "h1": "Quiz Jeux olympiques : connais-tu bien les JO ?",
+  "intro": "Anneaux, flamme, médailles et exploits : ce quiz Jeux olympiques te fait voyager de la Grèce antique à Paris 2024. Tu y retrouveras les symboles olympiques, l'histoire des villes hôtes et quelques performances d'athlètes devenues légendaires. Les huit premières questions sont idéales pour s'échauffer, les huit suivantes demandent plus de mémoire, et les quatre dernières sont destinées aux vrais passionnés d'olympisme. Tu disposes de 5 secondes pour chaque réponse, suivie d'une courte explication. Prépare-toi à monter sur le podium de la culture olympique !",
+  "questions": [
+    {
+      "q": "Combien d'anneaux compte le drapeau olympique ?",
+      "choices": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "explication": "Les cinq anneaux symbolisent l'union des cinq continents.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays est à l'origine des Jeux olympiques de l'Antiquité ?",
+      "choices": [
+        "La Grèce",
+        "L'Italie",
+        "L'Égypte",
+        "La Turquie"
+      ],
+      "answer": 0,
+      "explication": "Les Jeux antiques se tenaient à Olympie, en Grèce, en l'honneur de Zeus.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle ville se sont déroulés les premiers Jeux olympiques modernes, en 1896 ?",
+      "choices": [
+        "Paris",
+        "Londres",
+        "Rome",
+        "Athènes"
+      ],
+      "answer": 3,
+      "explication": "Les premiers Jeux modernes ont eu lieu à Athènes, berceau de l'olympisme.",
+      "level": "facile"
+    },
+    {
+      "q": "Que signifie la devise olympique « Citius, Altius, Fortius » ?",
+      "choices": [
+        "Plus loin, plus fort, plus beau",
+        "Plus vite, plus haut, plus fort",
+        "Toujours unis, toujours vainqueurs",
+        "Courage, force, honneur"
+      ],
+      "answer": 1,
+      "explication": "Cette devise latine encourage les athlètes à se dépasser.",
+      "level": "facile"
+    },
+    {
+      "q": "Tous les combien d'années les Jeux olympiques d'été ont-ils lieu ?",
+      "choices": [
+        "Tous les 2 ans",
+        "Tous les 3 ans",
+        "Tous les 5 ans",
+        "Tous les 4 ans"
+      ],
+      "answer": 3,
+      "explication": "Les Jeux d'été se déroulent tous les quatre ans, cycle appelé olympiade.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quel lieu grec la flamme olympique est-elle allumée ?",
+      "choices": [
+        "Athènes",
+        "Olympie",
+        "Delphes",
+        "Sparte"
+      ],
+      "answer": 1,
+      "explication": "La flamme est allumée à Olympie, grâce aux rayons du soleil, avant le relais de la flamme.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle médaille récompense la troisième place ?",
+      "choices": [
+        "Le bronze",
+        "L'argent",
+        "L'or",
+        "Le cuivre"
+      ],
+      "answer": 0,
+      "explication": "Les trois premiers reçoivent respectivement l'or, l'argent et le bronze.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle ville se sont déroulés les Jeux olympiques d'été de 2024 ?",
+      "choices": [
+        "Tokyo",
+        "Londres",
+        "Paris",
+        "Los Angeles"
+      ],
+      "answer": 2,
+      "explication": "Paris a accueilli les Jeux d'été de 2024, cent ans après ceux de 1924.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui est le fondateur des Jeux olympiques modernes ?",
+      "choices": [
+        "Napoléon Bonaparte",
+        "Pierre de Coubertin",
+        "Jules Rimet",
+        "Henri Desgrange"
+      ],
+      "answer": 1,
+      "explication": "Le baron Pierre de Coubertin a fondé le Comité international olympique en 1894.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de fois Paris avait-elle accueilli les Jeux d'été avant 2024 ?",
+      "choices": [
+        "1 fois",
+        "3 fois",
+        "Jamais",
+        "2 fois"
+      ],
+      "answer": 3,
+      "explication": "Paris avait accueilli les Jeux en 1900 et en 1924.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel fleuve a servi de cadre à la cérémonie d'ouverture de Paris 2024 ?",
+      "choices": [
+        "La Loire",
+        "Le Rhône",
+        "La Seine",
+        "La Garonne"
+      ],
+      "answer": 2,
+      "explication": "La cérémonie d'ouverture s'est déroulée pour la première fois hors d'un stade, sur la Seine.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de médailles d'or Jesse Owens a-t-il remportées aux Jeux de Berlin en 1936 ?",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 0,
+      "explication": "Jesse Owens a gagné le 100 m, le 200 m, le saut en longueur et le relais 4 x 100 m.",
+      "level": "moyen"
+    },
+    {
+      "q": "Laquelle de ces couleurs ne figure pas sur les anneaux olympiques ?",
+      "choices": [
+        "Orange",
+        "Bleu",
+        "Noir",
+        "Rouge"
+      ],
+      "answer": 0,
+      "explication": "Les anneaux sont bleu, jaune, noir, vert et rouge, sur fond blanc.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle ville ont eu lieu les premiers Jeux olympiques d'hiver, en 1924 ?",
+      "choices": [
+        "Innsbruck",
+        "Oslo",
+        "Chamonix",
+        "Lake Placid"
+      ],
+      "answer": 2,
+      "explication": "Les premiers Jeux d'hiver ont eu lieu à Chamonix, en France.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la mascotte des Jeux de Paris 2024 ?",
+      "choices": [
+        "Les Mascottes",
+        "Les Phryges",
+        "Les Coqs",
+        "Les Éclairs"
+      ],
+      "answer": 1,
+      "explication": "Les Phryges s'inspirent du bonnet phrygien, symbole de liberté.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle ville a accueilli les Jeux d'été de 1980, boycottés par les États-Unis ?",
+      "choices": [
+        "Montréal",
+        "Los Angeles",
+        "Séoul",
+        "Moscou"
+      ],
+      "answer": 3,
+      "explication": "Les Jeux de Moscou ont été boycottés par plusieurs pays, dont les États-Unis.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle gymnaste a obtenu la première note parfaite de 10 aux Jeux de Montréal en 1976 ?",
+      "choices": [
+        "Olga Korbut",
+        "Simone Biles",
+        "Larisa Latynina",
+        "Nadia Comăneci"
+      ],
+      "answer": 3,
+      "explication": "Nadia Comăneci a obtenu la première note de 10 de l'histoire olympique.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle ville a accueilli les Jeux d'été de 1992 ?",
+      "choices": [
+        "Barcelone",
+        "Atlanta",
+        "Séoul",
+        "Sydney"
+      ],
+      "answer": 0,
+      "explication": "Barcelone a organisé les Jeux de 1992.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel Grec a remporté le premier marathon olympique, en 1896 ?",
+      "choices": [
+        "Dorando Pietri",
+        "Spyridon Louis",
+        "Abebe Bikila",
+        "Emil Zátopek"
+      ],
+      "answer": 1,
+      "explication": "Spyridon Louis a gagné le marathon des Jeux d'Athènes en 1896, devant son public.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle ville a accueilli les Jeux d'été en 1908, 1948 et 2012 ?",
+      "choices": [
+        "Paris",
+        "Athènes",
+        "Londres",
+        "Los Angeles"
+      ],
+      "answer": 2,
+      "explication": "Londres est la première ville à avoir organisé trois fois les Jeux d'été.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quels sont les symboles des Jeux olympiques ?",
+      "Les symboles principaux sont les cinq anneaux entrelacés, la flamme allumée à Olympie, le drapeau blanc, la devise « Citius, Altius, Fortius » et les médailles d'or, d'argent et de bronze. Chaque édition se dote aussi de sa mascotte et de son emblème."
+    ],
+    [
+      "Quand ont lieu les Jeux olympiques ?",
+      "Les Jeux olympiques d'été se déroulent tous les quatre ans, tout comme les Jeux d'hiver, qui sont décalés de deux ans. Chaque édition dure environ deux à trois semaines et réunit des athlètes venus du monde entier. Une olympiade, c'est-à-dire quatre ans, sépare deux éditions d'été."
+    ],
+    [
+      "Qui a fondé les Jeux olympiques modernes ?",
+      "Les Jeux modernes ont été relancés par le baron Pierre de Coubertin, qui a fondé le Comité international olympique en 1894. La première édition moderne a eu lieu à Athènes en 1896, en hommage aux Jeux de l'Antiquité. Il a ensuite présidé le CIO pendant de nombreuses années pour faire vivre cet idéal d'amitié entre les peuples."
+    ]
+  ],
+  "related": [
+    "/quiz-sport",
+    "/quiz-football",
+    "/quiz-rugby",
+    "/quiz-tour-de-france"
+  ]
+}

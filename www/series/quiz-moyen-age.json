@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-moyen-age",
+  "theme": "histoire",
+  "title": "Quiz Moyen Âge : France et Europe",
+  "description": "Quiz Moyen Âge : 20 questions sur les chevaliers, les croisades, la guerre de Cent Ans et les grandes dates de la France et de l'Europe médiévales.",
+  "h1": "Quiz Moyen Âge : que sais-tu de l'histoire médiévale en France et en Europe ?",
+  "intro": "Châteaux forts, chevaliers, croisades, cathédrales et grandes épidémies : le Moyen Âge est une période fascinante, bien plus riche que sa légende. Ce quiz te propose 20 questions sur la France et l'Europe médiévales, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Chaque réponse est accompagnée d'une courte explication qui t'apprend un fait ou une date à retenir. À faire seul, en famille ou entre amis. Es-tu prêt à relever le défi et à décrocher le score parfait ?",
+  "questions": [
+    {
+      "q": "Comment appelle-t-on les expéditions chrétiennes vers Jérusalem lancées à partir de 1096 ?",
+      "choices": [
+        "Les invasions",
+        "Les pèlerinages royaux",
+        "Les reconquêtes",
+        "Les croisades"
+      ],
+      "answer": 3,
+      "explication": "La première croisade part après l'appel du pape en 1095 et aboutit à la prise de Jérusalem en 1099.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle tapisserie raconte la conquête de l'Angleterre en 1066 ?",
+      "choices": [
+        "La tapisserie des Gobelins",
+        "La tapisserie de Bayeux",
+        "La Dame à la licorne",
+        "La tapisserie d'Aubusson"
+      ],
+      "answer": 1,
+      "explication": "Longue de près de 70 mètres, elle est en réalité une broderie sur toile de lin.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel duc de Normandie devient roi d'Angleterre après la bataille d'Hastings ?",
+      "choices": [
+        "Richard Cœur de Lion",
+        "Henri V",
+        "Guillaume le Conquérant",
+        "Édouard le Confesseur"
+      ],
+      "answer": 2,
+      "explication": "Vainqueur de Harold en octobre 1066, il est couronné à Noël à Westminster.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on la cérémonie qui fait d'un jeune homme un chevalier ?",
+      "choices": [
+        "L'adoubement",
+        "L'investiture",
+        "Le sacre",
+        "L'intronisation"
+      ],
+      "answer": 0,
+      "explication": "Le futur chevalier reçoit ses armes, souvent d'un seigneur, au cours d'un rituel solennel.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle épidémie ravage l'Europe à partir de 1347 ?",
+      "choices": [
+        "Le choléra",
+        "La variole",
+        "La grippe espagnole",
+        "La peste noire"
+      ],
+      "answer": 3,
+      "explication": "Elle emporte, selon les estimations, de 30 à 50 % de la population européenne en quelques années.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment nomme-t-on le conflit qui oppose la France et l'Angleterre de 1337 à 1453 ?",
+      "choices": [
+        "La guerre de Trente Ans",
+        "La guerre de Cent Ans",
+        "La guerre des Deux-Roses",
+        "La Fronde"
+      ],
+      "answer": 1,
+      "explication": "Elle dure en réalité 116 ans, avec des périodes de trêve.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel style architectural caractérise Notre-Dame de Paris ?",
+      "choices": [
+        "Le gothique",
+        "Le baroque",
+        "Le classique",
+        "Le néoclassique"
+      ],
+      "answer": 0,
+      "explication": "Sa construction commence en 1163 ; l'art gothique privilégie les voûtes sur croisée d'ogives et les grands vitraux.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle demeure fortifiée sert de résidence et de forteresse au seigneur ?",
+      "choices": [
+        "La villa",
+        "Le manoir de plaisance",
+        "Le château fort",
+        "L'abbaye"
+      ],
+      "answer": 2,
+      "explication": "Il protège le seigneur, sa famille et les habitants des environs en cas d'attaque.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pape lance l'appel à la première croisade à Clermont, en 1095 ?",
+      "choices": [
+        "Grégoire VII",
+        "Urbain II",
+        "Innocent III",
+        "Jean XXII"
+      ],
+      "answer": 1,
+      "explication": "Son discours aurait été accueilli par le cri « Dieu le veut ».",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel chef franc remporte la bataille de Poitiers, vers 732 ?",
+      "choices": [
+        "Pépin le Bref",
+        "Charlemagne",
+        "Dagobert",
+        "Charles Martel"
+      ],
+      "answer": 3,
+      "explication": "Il arrête une expédition venue d'Al-Andalus, ce qui renforce son prestige (certains historiens datent la bataille de 733).",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel roi d'Angleterre est surnommé Cœur de Lion ?",
+      "choices": [
+        "Henri II",
+        "Jean sans Terre",
+        "Richard Ier",
+        "Édouard III"
+      ],
+      "answer": 2,
+      "explication": "Il participe à la troisième croisade et affronte Saladin.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle invention de Gutenberg, vers 1450, change la diffusion des livres ?",
+      "choices": [
+        "La poudre à canon",
+        "L'imprimerie à caractères mobiles",
+        "La boussole",
+        "Le papier"
+      ],
+      "answer": 1,
+      "explication": "Sa Bible, imprimée vers 1455, est l'un des premiers grands livres imprimés en Europe.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle dynastie succède aux Capétiens directs sur le trône de France en 1328 ?",
+      "choices": [
+        "Les Bourbons",
+        "Les Carolingiens",
+        "Les Valois",
+        "Les Mérovingiens"
+      ],
+      "answer": 2,
+      "explication": "Philippe VI de Valois devient roi, ce qui contribue au déclenchement de la guerre de Cent Ans.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle bataille de 1415 voit les archers d'Henri V écraser l'armée française ?",
+      "choices": [
+        "Azincourt",
+        "Crécy",
+        "Formigny",
+        "Castillon"
+      ],
+      "answer": 0,
+      "explication": "La boue et les archers anglais font échouer la charge de la chevalerie française.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel marchand vénitien raconte son voyage en Asie dans Le Devisement du monde ?",
+      "choices": [
+        "Ibn Battûta",
+        "Christophe Colomb",
+        "Vasco de Gama",
+        "Marco Polo"
+      ],
+      "answer": 3,
+      "explication": "Il séjourne à la cour de Kubilai Khan à la fin du XIIIe siècle.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle ville du sud de la France accueille la papauté de 1309 à 1377 ?",
+      "choices": [
+        "Marseille",
+        "Lyon",
+        "Avignon",
+        "Arles"
+      ],
+      "answer": 2,
+      "explication": "Le palais des papes y est construit au XIVe siècle.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel traité de 1420 prévoit la succession de Charles VI au profit d'Henri V d'Angleterre ?",
+      "choices": [
+        "Le traité de Troyes",
+        "Le traité de Brétigny",
+        "Le traité d'Arras",
+        "Le traité de Picquigny"
+      ],
+      "answer": 0,
+      "explication": "Il écarte le dauphin, futur Charles VII, de la succession.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle bataille de 1071 voit l'empereur byzantin Romain IV vaincu par les Seldjoukides ?",
+      "choices": [
+        "Hattin",
+        "Lépante",
+        "Las Navas de Tolosa",
+        "Manzikert"
+      ],
+      "answer": 3,
+      "explication": "Cette défaite ouvre l'Asie Mineure aux Turcs et précède l'appel à la première croisade.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel concordat de 1122 met fin à la querelle des Investitures ?",
+      "choices": [
+        "Le concordat de Worms",
+        "Le concordat de Bologne",
+        "La paix de Constance",
+        "La bulle d'or"
+      ],
+      "answer": 0,
+      "explication": "Il règle l'opposition entre pape et empereur sur la nomination des évêques.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle bataille de 1453 met fin à la guerre de Cent Ans ?",
+      "choices": [
+        "Patay",
+        "Castillon",
+        "Formigny",
+        "Rouvray"
+      ],
+      "answer": 1,
+      "explication": "La victoire française, avec une artillerie efficace, chasse les Anglais de Guyenne.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelles dates délimitent le Moyen Âge ?",
+      "On le fait généralement commencer en 476, avec la chute de l'Empire romain d'Occident, et s'achever en 1453 avec la fin de la guerre de Cent Ans et la prise de Constantinople. Certains historiens retiennent plutôt 1492 et la découverte de l'Amérique."
+    ],
+    [
+      "Qu'appelle-t-on les trois grandes périodes du Moyen Âge ?",
+      "On distingue le haut Moyen Âge (Ve-Xe siècles), le Moyen Âge central ou classique (XIe-XIIIe siècles), marqué par les croisades et les cathédrales, et le bas Moyen Âge (XIVe-XVe siècles), traversé par la peste noire et la guerre de Cent Ans."
+    ],
+    [
+      "Le Moyen Âge était-il une période sombre ?",
+      "Cette image est largement un cliché. Le Moyen Âge voit naître les universités, les grandes cathédrales gothiques, un essor des villes et des échanges, ainsi que de nombreuses innovations agricoles et techniques. Il a aussi connu des crises graves, comme les famines et la peste noire."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-antiquite",
+    "/quiz-rois-de-france",
+    "/quiz-histoire-de-france",
+    "/quiz-culture-generale-difficile"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-dinosaures",
+  "theme": "animaux",
+  "title": "Quiz dinosaures : 20 questions sur la préhistoire",
+  "description": "Quiz dinosaures : 20 questions sur les dinosaures, les fossiles et la préhistoire animale. Du niveau facile à expert, avec explications.",
+  "h1": "Quiz dinosaures : que sais-tu de la préhistoire animale ?",
+  "intro": "Tyrannosaure, tricératops, diplodocus, mammouth : les géants du passé fascinent petits et grands ! Ce quiz te propose 20 questions sur les dinosaures, les fossiles et la préhistoire animale, avec des faits établis par la paléontologie. Tu commenceras par les stars que tout le monde connaît, puis tu iras vers les périodes géologiques et les animaux moins célèbres. Compte environ 5 secondes par question, et profite des explications pour enrichir ta culture. Les réponses sont toutes issues de faits paléontologiques consensuels, sans spéculation. Prêt à remonter le temps ?",
+  "questions": [
+    {
+      "q": "Quel dinosaure carnivore est surnommé le « roi des tyrans » ?",
+      "choices": [
+        "le diplodocus",
+        "le Tyrannosaurus rex",
+        "le stégosaure",
+        "le tricératops"
+      ],
+      "answer": 1,
+      "explication": "Le Tyrannosaurus rex vivait en Amérique du Nord à la fin du Crétacé. Son nom signifie « roi des lézards tyrans ».",
+      "level": "facile"
+    },
+    {
+      "q": "Que signifie le mot « dinosaure » ?",
+      "choices": [
+        "gros oiseau",
+        "dragon volant",
+        "animal ancien",
+        "terrible lézard"
+      ],
+      "answer": 3,
+      "explication": "Le mot vient du grec « deinos », terrible, et « sauros », lézard. Il a été inventé en 1842 par Richard Owen.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel dinosaure possède trois cornes sur le visage ?",
+      "choices": [
+        "le tricératops",
+        "le stégosaure",
+        "le vélociraptor",
+        "l'ankylosaure"
+      ],
+      "answer": 0,
+      "explication": "Le tricératops vivait à la fin du Crétacé et portait une collerette osseuse derrière la tête.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel dinosaure est reconnaissable à ses plaques sur le dos ?",
+      "choices": [
+        "le diplodocus",
+        "le tyrannosaure",
+        "le stégosaure",
+        "l'iguanodon"
+      ],
+      "answer": 2,
+      "explication": "Le stégosaure avait des plaques osseuses sur le dos et des piquants au bout de la queue.",
+      "level": "facile"
+    },
+    {
+      "q": "Il y a environ combien de temps les dinosaures non aviens ont-ils disparu ?",
+      "choices": [
+        "6 millions d'années",
+        "6000 ans",
+        "66 millions d'années",
+        "660 millions d'années"
+      ],
+      "answer": 2,
+      "explication": "L'extinction de la fin du Crétacé, il y a environ 66 millions d'années, a mis fin au règne des dinosaures non aviens.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on les restes d'êtres vivants conservés dans les roches ?",
+      "choices": [
+        "des fossiles",
+        "des minerais",
+        "des cristaux",
+        "des météorites"
+      ],
+      "answer": 0,
+      "explication": "Un fossile est une trace ou un reste d'être vivant conservé dans une roche sédimentaire.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on les scientifiques qui étudient les fossiles ?",
+      "choices": [
+        "des géologues",
+        "des archéologues",
+        "des astronomes",
+        "des paléontologues"
+      ],
+      "answer": 3,
+      "explication": "La paléontologie étudie la vie du passé à partir des fossiles. L'archéologie, elle, s'intéresse aux traces humaines.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel animal géant et poilu, cousin des éléphants, vivait à l'ère glaciaire ?",
+      "choices": [
+        "le tricératops",
+        "le mammouth",
+        "le diplodocus",
+        "le ptérodactyle"
+      ],
+      "answer": 1,
+      "explication": "Le mammouth laineux a vécu en Eurasie et en Amérique du Nord. Il s'est éteint il y a plusieurs milliers d'années.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel dinosaure herbivore se reconnaît à son très long cou et à sa longue queue ?",
+      "choices": [
+        "le vélociraptor",
+        "le tricératops",
+        "l'ankylosaure",
+        "le diplodocus"
+      ],
+      "answer": 3,
+      "explication": "Le diplodocus faisait partie des sauropodes : il avait un très long cou, une très longue queue et marchait sur quatre pattes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Les oiseaux actuels descendent de quel groupe de dinosaures ?",
+      "choices": [
+        "des sauropodes",
+        "des théropodes",
+        "des stégosaures",
+        "des tricératops"
+      ],
+      "answer": 1,
+      "explication": "Les oiseaux sont aujourd'hui considérés comme des dinosaures théropodes survivants, ce qui les rattache aux grands carnivores comme le tyrannosaure.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment s'appelle l'ère géologique des dinosaures ?",
+      "choices": [
+        "le Paléozoïque",
+        "le Cénozoïque",
+        "le Mésozoïque",
+        "le Quaternaire"
+      ],
+      "answer": 2,
+      "explication": "Le Mésozoïque, ou ère secondaire, se divise en trois périodes : Trias, Jurassique et Crétacé.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel dinosaure portait une queue terminée par une massue osseuse ?",
+      "choices": [
+        "l'ankylosaure",
+        "le diplodocus",
+        "le tyrannosaure",
+        "l'iguanodon"
+      ],
+      "answer": 0,
+      "explication": "L'ankylosaure était un herbivore cuirassé, protégé par des plaques osseuses et une queue en massue.",
+      "level": "moyen"
+    },
+    {
+      "q": "Le ptéranodon, qui volait à l'époque des dinosaures, était…",
+      "choices": [
+        "un reptile volant qui n'était pas un dinosaure",
+        "un dinosaure à plumes",
+        "un ancêtre de la chauve-souris",
+        "un poisson"
+      ],
+      "answer": 0,
+      "explication": "Les ptérosaures étaient des reptiles volants cousins des dinosaures, mais ils n'appartiennent pas au groupe des dinosaures.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel événement est lié à l'extinction de la fin du Crétacé ?",
+      "choices": [
+        "un âge glaciaire d'un million d'années",
+        "une épidémie mondiale",
+        "la chute d'un gros astéroïde",
+        "la disparition du Soleil"
+      ],
+      "answer": 2,
+      "explication": "Un astéroïde s'est écrasé près de Chicxulub, au Mexique. Un volcanisme intense a aussi joué un rôle.",
+      "level": "moyen"
+    },
+    {
+      "q": "Le smilodon, de l'ère glaciaire, était…",
+      "choices": [
+        "un ancêtre des loups",
+        "un félin à dents de sabre",
+        "un reptile marin",
+        "un dinosaure carnivore"
+      ],
+      "answer": 1,
+      "explication": "Le smilodon avait des canines supérieures très longues. Ce n'était pas un tigre, mais un félin disparu.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle période du Mésozoïque est la plus récente ?",
+      "choices": [
+        "le Trias",
+        "le Jurassique",
+        "le Permien",
+        "le Crétacé"
+      ],
+      "answer": 3,
+      "explication": "Le Crétacé a commencé il y a environ 145 millions d'années et s'est terminé avec l'extinction des dinosaures non aviens.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment appelle-t-on le supercontinent unique qui existait à l'époque des premiers dinosaures ?",
+      "choices": [
+        "la Laurasie",
+        "la Pangée",
+        "l'Atlantide",
+        "le Gondwana"
+      ],
+      "answer": 1,
+      "explication": "La Pangée a commencé à se fragmenter au Trias et au Jurassique. Ses morceaux ont formé les continents actuels.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel fossile du Jurassique présente à la fois des plumes et des caractères de dinosaure ?",
+      "choices": [
+        "l'archéoptéryx",
+        "le ptéranodon",
+        "le smilodon",
+        "le mammouth"
+      ],
+      "answer": 0,
+      "explication": "L'archéoptéryx, découvert en Allemagne au XIXe siècle, est un fossile célèbre qui rapproche dinosaures et oiseaux.",
+      "level": "expert"
+    },
+    {
+      "q": "Les trilobites étaient…",
+      "choices": [
+        "des dinosaures aquatiques",
+        "des poissons cuirassés",
+        "des mollusques",
+        "des arthropodes marins"
+      ],
+      "answer": 3,
+      "explication": "Les trilobites sont des arthropodes marins du Paléozoïque. Leurs fossiles servent à dater les roches.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel dinosaure se reconnaît à son crâne en forme de dôme ?",
+      "choices": [
+        "le stégosaure",
+        "le tricératops",
+        "le pachycéphalosaure",
+        "le diplodocus"
+      ],
+      "answer": 2,
+      "explication": "Le pachycéphalosaure avait un crâne épaissi en dôme, probablement utilisé pour les affrontements ou la parade.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Les dinosaures et les humains ont-ils vécu à la même époque ?",
+      "Non. Les dinosaures non aviens ont disparu il y a environ 66 millions d'années, alors que le genre humain n'est apparu que depuis quelques millions d'années. Les premiers mammifères, en revanche, ont vécu en même temps que les dinosaures, mais ils étaient alors minuscules."
+    ],
+    [
+      "Tous les dinosaures vivaient-ils sur la terre ferme ?",
+      "Oui, les dinosaures étaient des animaux terrestres. Les reptiles marins comme les ichtyosaures ou les plésiosaures, et les reptiles volants comme les ptérosaures, vivaient à la même époque mais ne sont pas des dinosaures au sens scientifique du terme, même s'ils sont leurs proches cousins."
+    ],
+    [
+      "Comment sait-on à quoi ressemblaient les dinosaures ?",
+      "Les paléontologues étudient les squelettes fossiles, les empreintes, les œufs et parfois des traces de peau ou de plumes conservées. En comparant avec les animaux actuels, notamment les oiseaux et les crocodiles, ils reconstituent l'aspect et le comportement de ces animaux disparus."
+    ]
+  ],
+  "related": [
+    "/quiz-animaux",
+    "/quiz-animaux-difficile",
+    "/quiz-oiseaux",
+    "/quiz-sciences",
+    "/quiz-espace"
+  ]
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Fredoka:wght@400;600&display=swap');
+/* YouQwiz — quiz du jour (épisodes de la chaîne) · charte « Pop sticker » (encre #1A1030, 3 palettes tournantes). Scopé au conteneur .yq */
+
+.yq { --ink: #1A1030; --white: #fff; --ok: #2ECC71; --bad: #FF3B3B; --streak: #FFB800; --yellow: #FFE14D; --red: #FF2D2D; --yq-bg: linear-gradient(135deg,#FFD23F,#FF7A59 45%,#FF4D8D); --yq-accent: #FF4D8D; --yq-soft: #FFD23F; }
+.yq, .yq * { box-sizing: border-box; }
+.yq { font-family: 'Fredoka', 'Nunito', system-ui, sans-serif; color: var(--ink); background: var(--yq-bg); padding: 20px 14px 40px; margin: 0; border-radius: 22px; overflow: hidden; }
+.yq img.emoji { width: 1em; height: 1em; vertical-align: -0.12em; display: inline-block; }
+body.yq-page main.wrap { max-width: 720px; }
+.yq a { color: inherit; }
+.yq-hero, .yq-card, .yq-h2, .yq-list, .yq-more, .yq-today { max-width: 640px; margin-left: auto; margin-right: auto; }
+.yq-hero { text-align: center; color: var(--white); padding: 8px 0 18px; }
+.yq-hero h1 { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: clamp(30px, 7vw, 46px); line-height: 1.02; margin: 6px 0; text-shadow: 4px 4px 0 var(--ink), -2px -2px 0 var(--ink), 2px -2px 0 var(--ink), -2px 2px 0 var(--ink); }
+.yq-kicker { font-weight: 600; opacity: .95; margin: 0; font-size: 15px; } .yq-kicker a { color: inherit; }
+.yq-sub { margin: 4px 0 0; font-weight: 600; font-size: 18px; text-shadow: 2px 2px 0 var(--ink); }
+.yq-card { background: var(--white); border: 5px solid var(--ink); border-radius: 26px; box-shadow: 10px 10px 0 var(--ink); padding: 22px 18px; margin-bottom: 22px; }
+.yq-center { text-align: center; }
+.yq-stickers img { width: 110px; height: 110px; object-fit: contain; margin: -10px 6px 0; }
+.yq-big { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 30px; margin: 6px 0; line-height: 1.05; }
+.yq-huge { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 56px; margin: 2px 0; color: var(--yq-accent); line-height: 1; }
+.yq-tiny { font-size: 14px; opacity: .8; margin: 10px 0 0; } .yq-tiny a { color: inherit; }
+.yq button.yq-btn, .yq a.yq-btn, .yq span.yq-btn { line-height: 1.2; }
+.yq-btn { display: inline-block; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 20px; color: var(--ink); background: var(--yellow); border: 4px solid var(--ink); border-radius: 999px; padding: 10px 26px; box-shadow: 5px 5px 0 var(--ink); cursor: pointer; text-decoration: none; transition: transform .08s; }
+.yq-btn:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--ink); }
+.yq-btn-xl { font-size: 28px; padding: 14px 44px; margin: 10px 0 4px; }
+.yq-btn-ghost { background: var(--white); } .yq-btn-red { background: var(--red); color: var(--white); }
+.yq-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 12px 0; }
+.yq-top { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-bottom: 10px; }
+.yq-pill { display: inline-block; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 15px; background: var(--white); border: 3px solid var(--ink); border-radius: 999px; padding: 3px 12px; box-shadow: 3px 3px 0 var(--ink); }
+.yq-level { color: var(--white); background: var(--ok); text-shadow: 1px 1px 0 var(--ink); }
+.yq-level[data-l="moyen"] { background: #F39C12; } .yq-level[data-l="difficile"] { background: #FF4D8D; } .yq-level[data-l="impossible"] { background: var(--ink); }
+.yq-streak { background: var(--ink); color: var(--streak); }
+.yq-timer { height: 14px; border: 3px solid var(--ink); border-radius: 999px; overflow: hidden; background: #eee; margin: 6px 0 12px; }
+.yq-timer-bar { height: 100%; width: 100%; background: var(--yq-accent); transform-origin: left; }
+.yq-timer-bar.run { animation: yq-shrink linear forwards; } @keyframes yq-shrink { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+.yq-question { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 22px; text-align: center; margin: 0 0 10px; line-height: 1.15; }
+.yq-stage { min-height: 150px; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 10px; }
+.yq-stage img.emoji { width: 1em; height: 1em; vertical-align: -0.1em; }
+.yq-prompt-emoji { font-size: clamp(84px, 26vw, 150px); line-height: 1; }
+.yq-prompt-text { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: clamp(40px, 11vw, 72px); letter-spacing: .06em; text-align: center; line-height: 1; }
+.yq-flag { font-size: clamp(120px, 40vw, 220px); line-height: 1; border: 4px solid var(--ink); border-radius: 10px; box-shadow: 6px 6px 0 var(--ink); }
+.yq-letter { width: 120px; height: 120px; border-radius: 999px; background: var(--yq-accent); color: var(--white); border: 5px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); display: inline-flex; align-items: center; justify-content: center; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 72px; transform: rotate(-4deg); }
+.yq-answer { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: clamp(26px, 7vw, 40px); color: var(--yq-accent); text-align: center; animation: yq-pop .35s cubic-bezier(.2,1.6,.4,1); }
+@keyframes yq-pop { from { transform: scale(.4); opacity: 0; } }
+.yq-actions { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: 12px; }
+.yq-choice { flex: 1 1 45%; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 18px; text-align: left; background: var(--white); border: 4px solid var(--ink); border-radius: 18px; padding: 12px 14px; box-shadow: 5px 5px 0 var(--ink); cursor: pointer; display: flex; align-items: center; gap: 10px; color: var(--ink); }
+.yq-choice .k { flex: none; width: 34px; height: 34px; border-radius: 10px; background: var(--ink); color: var(--white); display: inline-flex; align-items: center; justify-content: center; font-size: 16px; }
+.yq-choice.ok { background: var(--ok); color: var(--white); } .yq-choice.bad { background: var(--bad); color: var(--white); } .yq-choice.dim { opacity: .45; }
+.yq-choice:disabled { cursor: default; }
+.yq-self { flex: 1 1 45%; font-size: 20px; } .yq-self.ok { background: var(--ok); color: var(--white); } .yq-self.bad { background: var(--bad); color: var(--white); }
+.yq-grid12 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; width: 100%; max-width: 420px; }
+.yq-cell { aspect-ratio: 1; font-size: clamp(34px, 9vw, 56px); background: #FFF8E7; border: 3px solid var(--ink); border-radius: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; line-height: 1; padding: 0; }
+.yq-cell.ok { background: var(--ok); } .yq-cell.bad { background: var(--bad); } .yq-cell.dim { opacity: .35; }
+.yq-vs { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; }
+.yq-vs button { min-height: 150px; font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 20px; line-height: 1.15; border: 4px solid var(--ink); border-radius: 20px; box-shadow: 6px 6px 0 var(--ink); cursor: pointer; padding: 14px 10px; color: var(--ink); position: relative; overflow: hidden; }
+.yq-vs button:first-child { background: #E3F7F5; transform: rotate(-1.5deg); } .yq-vs button:last-child { background: #FFF3CC; transform: rotate(1.5deg); }
+.yq-vs .pct { display: block; font-size: 30px; margin-top: 6px; color: var(--yq-accent); }
+.yq-vs button.me { outline: 5px solid var(--yq-accent); }
+.yq-fact { margin: 12px 0 0; padding: 10px 14px; background: #FFF8E7; border: 3px dashed var(--ink); border-radius: 14px; font-size: 15px; }
+.yq-levelcard { background: var(--ink); color: var(--white); } .yq-levelcard .yq-big { font-size: 40px; }
+.yq-grid { font-size: 22px; letter-spacing: 2px; word-break: break-all; line-height: 1.3; }
+.yq-embed { position: relative; aspect-ratio: 16/9; background: #000; border: 4px solid var(--ink); border-radius: 16px; overflow: hidden; }
+.yq-embed img, .yq-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; }
+.yq-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 86px; height: 60px; border-radius: 18px; background: var(--red); color: var(--white); border: 4px solid var(--ink); font-size: 28px; cursor: pointer; box-shadow: 4px 4px 0 var(--ink); }
+.yq-answers summary { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 18px; cursor: pointer; }
+.yq-answers ol { padding-left: 22px; } .yq-answers li { margin: 6px 0; } .yq-ans-q { opacity: .85; }
+.yq-more { text-align: center; font-size: 15px; } .yq-more a { color: var(--white); font-weight: 600; }
+.yq-h2 { color: var(--white); font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 24px; text-shadow: 3px 3px 0 var(--ink); margin: 22px auto 10px; }
+.yq-today { display: flex; flex-direction: column; align-items: center; gap: 8px; text-decoration: none; color: var(--ink); background: var(--white); }
+.yq-today-emoji { font-size: 72px; line-height: 1; } .yq-today-title { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 28px; text-align: center; line-height: 1.05; } .yq-today-sub { font-weight: 600; opacity: .8; }
+.yq-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.yq-list a { display: flex; align-items: center; gap: 12px; background: var(--white); border: 4px solid var(--ink); border-radius: 18px; padding: 10px 14px; box-shadow: 5px 5px 0 var(--ink); text-decoration: none; color: var(--ink); }
+.yq-list-emoji { font-size: 34px; line-height: 1; } .yq-list-main { display: flex; flex-direction: column; flex: 1; } .yq-list-main small { opacity: .75; } .yq-list-go { font-family: 'Baloo 2', sans-serif; font-weight: 800; color: var(--yq-accent); }
+@media (prefers-reduced-motion: reduce) { .yq-answer, .yq-btn { animation: none; transition: none; } }
+.yq [hidden] { display: none !important; }
+.yq-stage:empty { min-height: 0; }
+/* SEO 07/11/2026 : piliers, bloc explicatif, quiz liés */
+.yq .yq-pillars{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin:1rem 0}
+.yq .yq-pillars a{text-decoration:none}
+.yq .yq-seo p{line-height:1.6;margin:.6rem 0}
+.yq .yq-related .yq-row{display:flex;gap:.6rem;justify-content:space-between;flex-wrap:wrap}

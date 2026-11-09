@@ -1,0 +1,2186 @@
+{
+ "id": "2026-11-09-alphabet",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "theme": 3,
+ "style": {
+  "pattern": "confetti",
+  "timer": "digits",
+  "reveal": "zoom",
+  "card": "tilt",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Tu reviens ? Bravo 🏆",
+   "voice": "Tu reviens ? Bravo, les meilleurs joueurs reviennent chaque jour."
+  },
+  "introCta": "✍️ Note tes points, on compare à la fin",
+  "subscribe": {
+   "title": "Rejoins les joueurs YouQwiz",
+   "sub": "abonne-toi, le prochain quiz arrive demain 🔔",
+   "voice": "Rejoins les joueurs YouQwiz : abonne-toi, le prochain quiz arrive demain."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tranquille pour commencer ☕",
+    "voice": "Niveau facile. Tranquille pour commencer."
+   },
+   "moyen": {
+    "card": "Les choses sérieuses commencent 💪",
+    "voice": "Niveau moyen. Les choses sérieuses commencent."
+   },
+   "difficile": {
+    "card": "Accroche-toi 😰",
+    "voice": "Niveau difficile. Accroche-toi !"
+   },
+   "impossible": {
+    "card": "Personne ne les a tous 🤯",
+    "voice": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire."
+   }
+  },
+  "scoreVoice": "Compte tes points et écris ton score juste en dessous. Le meilleur de la semaine passe lundi.",
+  "outro": {
+   "title": "Bravo d'être allé jusqu'au bout 🏁",
+   "voice": "Bravo d'être allé jusqu'au bout. Abonne-toi et à demain !"
+  },
+  "packshot": {
+   "headline": "Défie tes proches sur youqwiz.com",
+   "sub": "le quiz du jour, en version interactive 🎮",
+   "cta": "👉 youqwiz.com",
+   "voice": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
+  }
+ },
+ "title": "106 MOTS à deviner 🔤🧠⏱️ Seuls les génies font un sans-faute",
+ "question": "Nomme {cat} qui commence par…",
+ "intro": {
+  "hook": "Nomme 106 MOTS qui commencent par…",
+  "sub": "Du facile à l'impossible, en 5 secondes 🔥"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un objet de la maison"
+   },
+   "answer": "Miroir, Meuble, Micro-ondes, Matelas",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/31e63472f0e39637.mp3",
+     "sec": 1.880816
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/0-a.mp3",
+     "sec": 3.970612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un métier"
+   },
+   "answer": "Serveur, Secrétaire, Soudeur, Sculpteur, Sage-femme",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/35e3d99248979007.mp3",
+     "sec": 1.436735
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/1-a.mp3",
+     "sec": 6.086531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un sport"
+   },
+   "answer": "Tennis, Tir à l'arc, Trampoline, Triathlon",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ef4c3027c663ab3c.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/2-a.mp3",
+     "sec": 3.317551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un métier"
+   },
+   "answer": "Boulanger, Boucher, Banquier, Bûcheron, Berger",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d78eaff2da82e45f.mp3",
+     "sec": 1.671837
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/3-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un prénom"
+   },
+   "answer": "Alice, Antoine, Anna, Alexandre, Amélie",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/27679b015d0ba154.mp3",
+     "sec": 1.802449
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/4-a.mp3",
+     "sec": 3.160816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un objet de la maison"
+   },
+   "answer": "Table, Tapis, Tabouret, Télévision, Tiroir",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3b2352998c881050.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/5-a.mp3",
+     "sec": 3.970612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "une ville de France"
+   },
+   "answer": "Calais, Cannes, Caen, Clermont-Ferrand, Cherbourg",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/dc96a7a3b22fadf0.mp3",
+     "sec": 2.899592
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/6-a.mp3",
+     "sec": 4.257959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un prénom"
+   },
+   "answer": "Marie, Mathieu, Manon, Maxime, Marc",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f1259dea3ee7864e.mp3",
+     "sec": 2.011429
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/7-a.mp3",
+     "sec": 3.474286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un métier"
+   },
+   "answer": "Cuisinier, Coiffeur, Charpentier, Comptable, Couturier",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/bc5c8fa3c0fef32b.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/8-a.mp3",
+     "sec": 3.657143
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un animal"
+   },
+   "answer": "Lion, Lapin, Loup, Lézard, Lama",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/00d11eb4742c85b0.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/9-a.mp3",
+     "sec": 4.91102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un sport"
+   },
+   "answer": "Pétanque, Plongeon, Ping-pong, Patinage, Parachutisme",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/761eeedd3b06dd11.mp3",
+     "sec": 1.436735
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/10-a.mp3",
+     "sec": 4.91102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un animal"
+   },
+   "answer": "Poule, Poisson, Panda, Pingouin, Perroquet",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6149ab4cd39711fa.mp3",
+     "sec": 1.697959
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/11-a.mp3",
+     "sec": 4.832653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un sport"
+   },
+   "answer": "Ski, Surf, Squash, Snowboard, Skateboard",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/517651c638b0d990.mp3",
+     "sec": 1.593469
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/12-a.mp3",
+     "sec": 3.186939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un sport"
+   },
+   "answer": "Cyclisme, Canoë, Curling, Course à pied",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/906fb948ab31f4de.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/13-a.mp3",
+     "sec": 2.899592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un prénom"
+   },
+   "answer": "Paul, Pierre, Pauline, Philippe, Patrick",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/068e89219093d13f.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/14-a.mp3",
+     "sec": 4.832653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "une ville de France"
+   },
+   "answer": "Paris, Poitiers, Pau, Perpignan, Pontoise",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/5516ab84b2c8081b.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/15-a.mp3",
+     "sec": 3.474286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "un métier"
+   },
+   "answer": "Traducteur, Technicien, Tailleur, Tapissier, Toiletteur",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/eaa7d7d98738c8ef.mp3",
+     "sec": 1.462857
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/16-a.mp3",
+     "sec": 6.556735
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un métier"
+   },
+   "answer": "Maçon, Médecin, Mécanicien, Musicien, Marin",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e3587f3b72e129d3.mp3",
+     "sec": 1.619592
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/17-a.mp3",
+     "sec": 5.146122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un sport"
+   },
+   "answer": "Basket, Boxe, Badminton, Baseball",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9942c34f843013a1.mp3",
+     "sec": 1.541224
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/18-a.mp3",
+     "sec": 4.153469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Ananas, Abricot, Ail, Artichaut, Aubergine",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e1495618c7c6e407.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/19-a.mp3",
+     "sec": 4.284082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un prénom"
+   },
+   "answer": "Camille, Claire, Charles, Clément, Chloé",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b4c9ef9890f5f2d4.mp3",
+     "sec": 2.66449
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/20-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un objet de la maison"
+   },
+   "answer": "Canapé, Chaise, Couteau, Cuillère",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/862d63e81c8ba8d0.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/21-a.mp3",
+     "sec": 3.004082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "un animal"
+   },
+   "answer": "Âne, Abeille, Araignée, Autruche, Aigle",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/754e61b57319c38c.mp3",
+     "sec": 2.66449
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/22-a.mp3",
+     "sec": 3.63102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un pays"
+   },
+   "answer": "Portugal, Pologne, Pérou, Pays-Bas, Paraguay",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ab2d9195ed527a8b.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/23-a.mp3",
+     "sec": 6.034286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "une ville de France"
+   },
+   "answer": "Lille, Lyon, Limoges, Le Havre, Lens",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3635984972153a35.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/24-a.mp3",
+     "sec": 4.205714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un pays"
+   },
+   "answer": "Maroc, Mexique, Mali, Madagascar, Malte",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/99e58c17c7869d88.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/25-a.mp3",
+     "sec": 4.04898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un objet de la maison"
+   },
+   "answer": "Lit, Lampe, Lavabo, Lave-linge, Lunettes",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/726ba6403591f277.mp3",
+     "sec": 3.892245
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/26-a.mp3",
+     "sec": 5.642449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un prénom"
+   },
+   "answer": "Sophie, Sarah, Stéphane, Sébastien, Simon",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/5c52be1163f2d267.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/27-a.mp3",
+     "sec": 3.082449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Pomme, Poire, Pêche, Poireau, Pomme de terre",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b79357406f270875.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/28-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un objet de la maison"
+   },
+   "answer": "Balai, Bougie, Bol, Baignoire",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/08198dcc22d7043d.mp3",
+     "sec": 2.638367
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/29-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un pays"
+   },
+   "answer": "Suisse, Suède, Sénégal, Serbie, Slovénie",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/7d2aeaaecde10b0f.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/30-a.mp3",
+     "sec": 3.552653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "un animal"
+   },
+   "answer": "Singe, Serpent, Souris, Sanglier, Salamandre",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/88b718499b9f4de3.mp3",
+     "sec": 2.847347
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/31-a.mp3",
+     "sec": 3.030204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un prénom"
+   },
+   "answer": "Léa, Louis, Lucas, Laura, Lucie",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e9bc1690c3926d19.mp3",
+     "sec": 2.951837
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/32-a.mp3",
+     "sec": 5.067755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "un animal"
+   },
+   "answer": "Mouton, Mouche, Moineau, Morse",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/accd132c352d842c.mp3",
+     "sec": 1.854694
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/33-a.mp3",
+     "sec": 4.336327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "un prénom"
+   },
+   "answer": "Baptiste, Brigitte, Benjamin, Béatrice, Bruno",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/5987ce0c6b9a7088.mp3",
+     "sec": 1.515102
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/34-a.mp3",
+     "sec": 5.146122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "une ville de France"
+   },
+   "answer": "Bordeaux, Brest, Besançon, Béziers, Boulogne-sur-Mer",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/df8df1db3bae9e11.mp3",
+     "sec": 1.828571
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/35-a.mp3",
+     "sec": 3.970612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "une ville de France"
+   },
+   "answer": "Marseille, Montpellier, Metz, Mulhouse, Montauban",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b3abc0e8121b29a4.mp3",
+     "sec": 2.35102
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/36-a.mp3",
+     "sec": 3.004082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Carotte, Cerise, Citron, Courgette, Concombre",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/c1e4bd520715e4e2.mp3",
+     "sec": 3.160816
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/37-a.mp3",
+     "sec": 4.440816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "une ville de France"
+   },
+   "answer": "Rennes, Reims, Rouen, Roubaix, Rodez",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/69352ab302131702.mp3",
+     "sec": 3.291429
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/38-a.mp3",
+     "sec": 5.877551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un métier"
+   },
+   "answer": "Facteur, Fleuriste, Fromager, Forgeron",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ca25fc5fd29c9624.mp3",
+     "sec": 3.474286
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/39-a.mp3",
+     "sec": 2.742857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "un objet de la maison"
+   },
+   "answer": "Rideau, Radiateur, Réveil, Réfrigérateur, Robinet",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/5df02483a9f89776.mp3",
+     "sec": 2.533878
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/40-a.mp3",
+     "sec": 6.817959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "un sport"
+   },
+   "answer": "Volley-ball, Voile, VTT, Vélo",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/09b80d0eb4bde96b.mp3",
+     "sec": 1.515102
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/41-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un pays"
+   },
+   "answer": "Espagne, Égypte, Équateur, Estonie, Éthiopie",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/84ea61d722e1c2bd.mp3",
+     "sec": 1.802449
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/42-a.mp3",
+     "sec": 3.526531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un sport"
+   },
+   "answer": "Escrime, Équitation, Escalade",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/27e2a4f609d63d1d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/43-a.mp3",
+     "sec": 4.04898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un objet de la maison"
+   },
+   "answer": "Éponge, Évier, Étagère, Écran",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/dc6e0bfb3591776e.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/44-a.mp3",
+     "sec": 5.198367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un prénom"
+   },
+   "answer": "Nicolas, Nathalie, Noémie, Nina, Noah",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/49fbd2535568c369.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/45-a.mp3",
+     "sec": 3.004082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Orange, Oignon, Olive, Oseille",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/96ae806e6a31ea02.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/46-a.mp3",
+     "sec": 4.466939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Litchi, Laitue, Lentille, Lime",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/eb12da6939c17e71.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/47-a.mp3",
+     "sec": 3.082449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "une ville de France"
+   },
+   "answer": "Strasbourg, Saint-Étienne, Soissons, Sète, Saint-Malo",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e23663278bb951e5.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/48-a.mp3",
+     "sec": 6.034286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "une ville de France"
+   },
+   "answer": "Fréjus, Fontainebleau, Foix, Fougères",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2234753d967e7bac.mp3",
+     "sec": 3.160816
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/49-a.mp3",
+     "sec": 4.675918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un objet de la maison"
+   },
+   "answer": "Oreiller, Ouvre-boîte, Ordinateur, Ombrelle",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59692e44d70c68bd.mp3",
+     "sec": 2.220408
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/50-a.mp3",
+     "sec": 3.265306
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "un métier"
+   },
+   "answer": "Libraire, Livreur, Luthier, Lunetier",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/001963bb59a552c1.mp3",
+     "sec": 1.880816
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/51-a.mp3",
+     "sec": 2.847347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un prénom"
+   },
+   "answer": "David, Denis, Delphine, Diane, Daniel",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/87e93cffa2cae147.mp3",
+     "sec": 2.951837
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/52-a.mp3",
+     "sec": 3.866122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un pays"
+   },
+   "answer": "France, Finlande, Fidji",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ef3767aea71140d6.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/53-a.mp3",
+     "sec": 3.291429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un animal"
+   },
+   "answer": "Fourmi, Flamant, Furet, Faucon, Fauvette",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/135122a1248c7d9e.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/54-a.mp3",
+     "sec": 4.440816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un métier"
+   },
+   "answer": "Électricien, Enseignant, Éboueur, Éleveur, Écrivain",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8fccaa0e86c40ba3.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/55-a.mp3",
+     "sec": 4.832653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "un métier"
+   },
+   "answer": "Infirmier, Ingénieur, Instituteur, Illustrateur, Informaticien",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/180b87008e773b51.mp3",
+     "sec": 2.011429
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/56-a.mp3",
+     "sec": 6.347755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un objet de la maison"
+   },
+   "answer": "Fauteuil, Four, Fourchette, Frigo",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/33d6cf71908da953.mp3",
+     "sec": 3.709388
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/57-a.mp3",
+     "sec": 2.324898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un animal"
+   },
+   "answer": "Ours, Oie, Otarie, Orque",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/13e3bf05a023e36c.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/58-a.mp3",
+     "sec": 5.198367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "un métier"
+   },
+   "answer": "Vendeur, Vétérinaire, Vigneron, Vitrier, Viticulteur",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8fedf7b68b10f3ba.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/59-a.mp3",
+     "sec": 4.04898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un animal"
+   },
+   "answer": "Éléphant, Écureuil, Escargot, Épervier",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d15188fae4a524b9.mp3",
+     "sec": 1.933061
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/60-a.mp3",
+     "sec": 4.519184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "une ville de France"
+   },
+   "answer": "Valence, Versailles, Vannes, Vichy, Villeurbanne",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1dbeced297096fb2.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/61-a.mp3",
+     "sec": 5.564082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "un métier"
+   },
+   "answer": "Pompier, Policier, Pilote, Plombier, Pâtissier",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f505722af4216d.mp3",
+     "sec": 1.933061
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/62-a.mp3",
+     "sec": 3.970612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "un prénom"
+   },
+   "answer": "Inès, Isabelle, Ivan, Irène",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/69ab5036c765a2a4.mp3",
+     "sec": 2.977959
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/63-a.mp3",
+     "sec": 4.336327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un métier"
+   },
+   "answer": "Dentiste, Docteur, Danseur, Décorateur, Déménageur",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9aae452aad767345.mp3",
+     "sec": 1.854694
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/64-a.mp3",
+     "sec": 5.955918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "une ville de France"
+   },
+   "answer": "Orléans, Oyonnax, Orange, Obernai",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/210c31602e094bdf.mp3",
+     "sec": 3.552653
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/65-a.mp3",
+     "sec": 2.56
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "une ville de France"
+   },
+   "answer": "Toulouse, Tours, Toulon, Tourcoing, Troyes",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d8f9624b80606d68.mp3",
+     "sec": 2.951837
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/66-a.mp3",
+     "sec": 3.448163
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un prénom"
+   },
+   "answer": "Gabriel, Guillaume, Gérard, Gaëlle, Gilles",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e0796b5b805acc21.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/67-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un sport"
+   },
+   "answer": "Danse, Duathlon, Dressage",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e426d109ad3949a9.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/68-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "un prénom"
+   },
+   "answer": "Ulysse, Ursule, Urbain",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5cd2005d140c87d.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/69-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un pays"
+   },
+   "answer": "Danemark, Djibouti, Dominique",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0fa269f08ec12960.mp3",
+     "sec": 2.011429
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/70-a.mp3",
+     "sec": 2.716735
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "un objet de la maison"
+   },
+   "answer": "Interrupteur, Imprimante, Interphone",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e2f332b1e67d856c.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/71-a.mp3",
+     "sec": 2.847347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un animal"
+   },
+   "answer": "Narval, Nandou, Naja",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/92c9a017c476032f.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/72-a.mp3",
+     "sec": 2.638367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un sport"
+   },
+   "answer": "Natation, Nage synchronisée, Netball",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/7fb69952574a985a.mp3",
+     "sec": 1.436735
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/73-a.mp3",
+     "sec": 3.395918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Groseille, Goyave, Grenade, Gombo",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6114873e1e89ab73.mp3",
+     "sec": 2.324898
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/74-a.mp3",
+     "sec": 3.395918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "une ville de France"
+   },
+   "answer": "Issoire, Issy-les-Moulineaux, Istres",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/261d2eb09622e474.mp3",
+     "sec": 3.160816
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/75-a.mp3",
+     "sec": 4.101224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un prénom"
+   },
+   "answer": "Julie, Jean, Jules, Jade, Julien",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/422058d4d272fcf1.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/76-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "un métier"
+   },
+   "answer": "Zoologiste, Zingueur, Zootechnicien",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/467b05cec3132dad.mp3",
+     "sec": 1.619592
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/77-a.mp3",
+     "sec": 4.336327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "une ville de France"
+   },
+   "answer": "Joigny, Jarnac, Joinville-le-Pont",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d046108789594da5.mp3",
+     "sec": 2.037551
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/78-a.mp3",
+     "sec": 2.638367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "un sport"
+   },
+   "answer": "Football, Fitness, Fléchettes, Funboard",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/7778b1b48949816d.mp3",
+     "sec": 2.35102
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/79-a.mp3",
+     "sec": 3.813878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "un prénom"
+   },
+   "answer": "Hugo, Hélène, Henri, Hortense",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/041636033db4cb7c.mp3",
+     "sec": 2.35102
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/80-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "un pays"
+   },
+   "answer": "Italie, Inde, Irlande, Islande, Irak",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/76f2a1d14adf956c.mp3",
+     "sec": 2.742857
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/81-a.mp3",
+     "sec": 3.369796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "un métier"
+   },
+   "answer": "Horloger, Hôtelier, Huissier",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/066f7d677fd2596d.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/82-a.mp3",
+     "sec": 3.761633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "un objet de la maison"
+   },
+   "answer": "Grille-pain, Gobelet, Gazinière, Glacière",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59c426630c3b5d6f.mp3",
+     "sec": 3.317551
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/83-a.mp3",
+     "sec": 2.821224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "un objet de la maison"
+   },
+   "answer": "Douche, Dressing, Drap, Déshumidificateur",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/bb47eb81f12b9930.mp3",
+     "sec": 2.168163
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/84-a.mp3",
+     "sec": 5.172245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un animal"
+   },
+   "answer": "Jaguar, Jument, Jabiru",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bef00c697afacbc.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/85-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "un sport"
+   },
+   "answer": "Judo, Jiu-jitsu, Javelot",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6557ac8ef8e912eb.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/86-a.mp3",
+     "sec": 3.84
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "un prénom"
+   },
+   "answer": "Zoé, Zacharie, Zélie",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f472d0810e332941.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/87-a.mp3",
+     "sec": 3.082449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un métier"
+   },
+   "answer": "Opticien, Ouvrier, Orthophoniste, Océanographe, Orfèvre",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/aa25c32b254d2d6f.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/88-a.mp3",
+     "sec": 4.858776
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "une ville de France"
+   },
+   "answer": "Hyères, Haguenau, Hazebrouck, Hénin-Beaumont",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0a912759f1593293.mp3",
+     "sec": 2.56
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/89-a.mp3",
+     "sec": 4.675918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "un métier"
+   },
+   "answer": "Notaire, Nounou, Nutritionniste, Navigateur",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a6c59e32b0ba264a.mp3",
+     "sec": 1.671837
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/90-a.mp3",
+     "sec": 3.970612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "un fruit ou un légume"
+   },
+   "answer": "Épinard, Échalote, Endive",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/7aa622397480a3da.mp3",
+     "sec": 2.481633
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/91-a.mp3",
+     "sec": 3.709388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "un animal"
+   },
+   "answer": "Xénope, Xérus, Xylocope",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cca234e79774faca.mp3",
+     "sec": 2.089796
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/92-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "une ville de France"
+   },
+   "answer": "Yvetot, Yerres, Yutz",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4e3a77139c474914.mp3",
+     "sec": 3.63102
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/93-a.mp3",
+     "sec": 2.899592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "un métier"
+   },
+   "answer": "Webmaster, Web designer, Wedding planner",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8a92d826b1ed89d0.mp3",
+     "sec": 2.089796
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/94-a.mp3",
+     "sec": 4.153469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "un animal"
+   },
+   "answer": "Quetzal, Quokka, Quagga",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d73c02d5dbf87de4.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/95-a.mp3",
+     "sec": 2.220408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "un prénom"
+   },
+   "answer": "Xavier, Xavière, Xénia",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/eed03bdd29ef6b65.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/96-a.mp3",
+     "sec": 3.160816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "un métier"
+   },
+   "answer": "Quincaillier, Questeur, Quartier-maître",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d7e2152f18cb81f7.mp3",
+     "sec": 2.063673
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/97-a.mp3",
+     "sec": 4.04898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "un métier"
+   },
+   "answer": "Kinésithérapeute, Kiosquier, Kinésiologue",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/bb6df678fd664892.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/98-a.mp3",
+     "sec": 4.362449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "un sport"
+   },
+   "answer": "Water-polo, Windsurf, Wakeboard",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/731600eb6db45a98.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/99-a.mp3",
+     "sec": 4.336327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "un animal"
+   },
+   "answer": "Yak, Yapock, Yabby",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/495fadc0486a80c7.mp3",
+     "sec": 2.089796
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/100-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "un sport"
+   },
+   "answer": "Ultimate, Ultra-trail, Unicycle",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ed8f62d8c6b06798.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/101-a.mp3",
+     "sec": 2.716735
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "une ville de France"
+   },
+   "answer": "Wattrelos, Wasquehal, Wissembourg, Woippy",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/7e4893e7c149833f.mp3",
+     "sec": 2.638367
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/102-a.mp3",
+     "sec": 3.657143
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "un animal"
+   },
+   "answer": "Urubu, Unau, Urial",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/7f662f6707101073.mp3",
+     "sec": 1.933061
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/103-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "un pays"
+   },
+   "answer": "Oman, Ouganda, Ouzbékistan",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0cdadeca92a24cc3.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/104-a.mp3",
+     "sec": 3.94449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "un pays"
+   },
+   "answer": "Zambie, Zimbabwe",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/57f8aa21331ef159.mp3",
+     "sec": 1.619592
+    },
+    "a": {
+     "src": "tts/2026-11-09-alphabet/105-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 6,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Le même quiz en version jouable : youqwiz.com"
+ },
+ "meta": {
+  "description": "Un quiz MOTS en 106 questions, 4 niveaux : facile, moyen, difficile, impossible. Niveaux : 38 facile, 30 moyens, 24 difficiles, 14 impossible. Compte tes points et dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #alphabet #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:15 Niveau facile\n06:40 Niveau moyen\n11:50 Niveau difficile\n15:56 Niveau impossible\n18:48 Ton score\n18:59 Crée ton quiz sur youqwiz.com",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "alphabet",
+   "petit bac",
+   "nomme un mot",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Reconnais",
+   "line2": "106 MOTS",
+   "emoji": "🔤",
+   "sticker": "106 QUESTIONS",
+   "layouts": [
+    2,
+    3
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Personne n'a la dernière 🤯 Nomme 106 MOTS qui commencent par… #Shorts",
+  "shortDescription": "La réponse + 106 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 15.8,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 400.93333333333334,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 710.1333333333333,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 956.8,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 1128.8333333333333,
+    "title": "Ton score"
+   },
+   {
+    "at": 1139.8,
+    "title": "Crée ton quiz sur youqwiz.com"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/79e983548aa33e64.mp3",
+   "sec": 2.507755
+  },
+  "level_moyen": {
+   "src": "tts-cache/e50717286acc9c69.mp3",
+   "sec": 3.082449
+  },
+  "level_difficile": {
+   "src": "tts-cache/ae94e203a5bded47.mp3",
+   "sec": 2.063673
+  },
+  "level_impossible": {
+   "src": "tts-cache/71d84d022b7a2083.mp3",
+   "sec": 4.91102
+  },
+  "score": {
+   "src": "tts-cache/8ef7bc3a2361b33d.mp3",
+   "sec": 5.12
+  },
+  "subscribe": {
+   "src": "tts-cache/8fdfaefd173281d1.mp3",
+   "sec": 4.362449
+  },
+  "outro": {
+   "src": "tts-cache/5218c5beb2478d97.mp3",
+   "sec": 3.552653
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  },
+  "preroll": {
+   "src": "tts-cache/c8126402540d6c00.mp3",
+   "sec": 5.32898
+  },
+  "packshot": {
+   "src": "tts-cache/72d277617320c213.mp3",
+   "sec": 4.989388
+  }
+ }
+}

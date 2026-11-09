@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-noel-traditions",
+  "theme": "noel",
+  "title": "Quiz traditions de Noël en France et dans le monde",
+  "description": "Quiz traditions de Noël : 20 questions sur les coutumes, plats et personnages de Noël en France et dans le monde. Teste ta culture des fêtes !",
+  "h1": "Quiz traditions de Noël : connais-tu les coutumes du monde entier ?",
+  "intro": "Chaque pays fête Noël à sa manière : lutins en Islande, sorcière bienveillante en Italie, poulet frit au Japon, marchés dorés en Allemagne. Ce quiz te propose 20 questions sur les traditions de Noël en France et dans le monde, des plus simples aux plus insolites. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication pour découvrir l'origine d'une coutume. À jouer en famille, au coin du feu ou pendant l'attente du réveillon. Prêt à décrocher le sans-faute ?",
+  "questions": [
+    {
+      "q": "Dans quelle ville de Finlande se trouve le village du Père Noël ?",
+      "choices": [
+        "Helsinki",
+        "Tampere",
+        "Rovaniemi",
+        "Oulu"
+      ],
+      "answer": 2,
+      "explication": "Situé sur le cercle polaire arctique, il accueille les visiteurs toute l'année.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on le Père Noël dans les pays anglophones ?",
+      "choices": [
+        "Saint Patrick",
+        "Father Time",
+        "Mister Christmas",
+        "Santa Claus"
+      ],
+      "answer": 3,
+      "explication": "Le nom vient du néerlandais Sinterklaas, c'est-à-dire saint Nicolas.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fruit glisse-t-on traditionnellement dans les chaussettes ou les souliers de Noël ?",
+      "choices": [
+        "Une banane",
+        "Une orange",
+        "Un ananas",
+        "Une pastèque"
+      ],
+      "answer": 1,
+      "explication": "À une époque, cet agrume était un petit luxe en hiver.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel mets de luxe issu du foie d'oie ou de canard est très présent sur les tables de Noël françaises ?",
+      "choices": [
+        "La choucroute",
+        "La raclette",
+        "Le foie gras",
+        "Le pot-au-feu"
+      ],
+      "answer": 2,
+      "explication": "Il est souvent servi en entrée, avec du pain d'épices ou des toasts.",
+      "level": "facile"
+    },
+    {
+      "q": "Que célèbre-t-on à Noël dans la tradition chrétienne ?",
+      "choices": [
+        "La résurrection du Christ",
+        "L'Ascension",
+        "La Pentecôte",
+        "La naissance de Jésus"
+      ],
+      "answer": 3,
+      "explication": "La fête s'accompagne de crèches, de messes et de repas en famille.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle fête chrétienne autour du 6 janvier commémore la visite des Rois mages ?",
+      "choices": [
+        "La Chandeleur",
+        "L'Épiphanie",
+        "L'Assomption",
+        "La Toussaint"
+      ],
+      "answer": 1,
+      "explication": "En France, on la fête avec la galette des rois.",
+      "level": "facile"
+    },
+    {
+      "q": "Quels cadeaux les Rois mages apportent-ils à l'enfant Jésus ?",
+      "choices": [
+        "L'or, l'encens et la myrrhe",
+        "Le blé, le vin et l'huile",
+        "L'argent, le sel et le miel",
+        "Les épices, la soie et l'ivoire"
+      ],
+      "answer": 0,
+      "explication": "Ces trois présents sont mentionnés dans l'Évangile selon Matthieu.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on les petits aides du Père Noël dans les contes ?",
+      "choices": [
+        "Les gnomes de jardin",
+        "Les sirènes",
+        "Les lutins",
+        "Les farfadets d'hiver"
+      ],
+      "answer": 2,
+      "explication": "Ils fabriquent les jouets dans l'atelier du Père Noël.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quel pays le calendrier de l'Avent en carton est-il apparu au début du XXe siècle ?",
+      "choices": [
+        "L'Italie",
+        "L'Allemagne",
+        "La Suède",
+        "L'Espagne"
+      ],
+      "answer": 1,
+      "explication": "Un éditeur allemand en commercialise dès le début du siècle, avant son essor mondial.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment appelle-t-on le vin chaud épicé des marchés de Noël en Allemagne ?",
+      "choices": [
+        "Le Gewürztraminer",
+        "L'Eiswein",
+        "Le Glühwein",
+        "Le Schnaps"
+      ],
+      "answer": 2,
+      "explication": "Il est préparé avec du vin rouge, de la cannelle, des clous de girofle et des agrumes.",
+      "level": "moyen"
+    },
+    {
+      "q": "De quelle ville italienne le panettone est-il originaire ?",
+      "choices": [
+        "Milan",
+        "Naples",
+        "Rome",
+        "Turin"
+      ],
+      "answer": 0,
+      "explication": "Ce pain brioché aux fruits confits est un incontournable de Noël en Italie.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quel pays la carpe est-elle un plat traditionnel du réveillon du 24 décembre ?",
+      "choices": [
+        "L'Espagne",
+        "Le Portugal",
+        "L'Irlande",
+        "La Pologne"
+      ],
+      "answer": 3,
+      "explication": "Elle fait partie des plats du repas de Wigilia, composé de douze mets sans viande.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel plat de restauration rapide est devenu une tradition de Noël au Japon ?",
+      "choices": [
+        "Le hamburger",
+        "Le poulet frit",
+        "Le sushi",
+        "La pizza"
+      ],
+      "answer": 1,
+      "explication": "La coutume s'est installée à partir des années 1970 grâce à une campagne publicitaire.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui apporte des cadeaux aux enfants italiens dans la nuit du 5 au 6 janvier ?",
+      "choices": [
+        "Le Père Fouettard",
+        "Le Grinch",
+        "La Befana",
+        "La fée Dragée"
+      ],
+      "answer": 2,
+      "explication": "Cette vieille femme à balai est une figure populaire de l'Épiphanie en Italie.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle fête de la lumière est célébrée en Suède le 13 décembre ?",
+      "choices": [
+        "La Saint-Nicolas",
+        "La Sainte-Lucie",
+        "La Pentecôte",
+        "La Chandeleur"
+      ],
+      "answer": 1,
+      "explication": "Une jeune fille en robe blanche, couronnée de bougies, ouvre le cortège.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle plante aux feuilles piquantes et aux baies rouges orne les portes à Noël ?",
+      "choices": [
+        "Le houx",
+        "Le laurier",
+        "Le buis",
+        "Le lierre"
+      ],
+      "answer": 0,
+      "explication": "Le houx est associé à la fête depuis des siècles dans les pays du nord de l'Europe.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle ville allemande est célèbre pour son Christkindlesmarkt ?",
+      "choices": [
+        "Hambourg",
+        "Cologne",
+        "Brême",
+        "Nuremberg"
+      ],
+      "answer": 3,
+      "explication": "Le marché est ouvert chaque année par le Christkind, incarné par une jeune Nurembergeoise qui lit un prologue depuis la Frauenkirche.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel pays offre chaque année un grand sapin à la ville de Londres, installé à Trafalgar Square ?",
+      "choices": [
+        "La Norvège",
+        "Le Danemark",
+        "La Suède",
+        "La Finlande"
+      ],
+      "answer": 0,
+      "explication": "C'est un remerciement pour l'aide britannique pendant la Seconde Guerre mondiale, depuis 1947.",
+      "level": "expert"
+    },
+    {
+      "q": "Comment s'appelle le gâteau aux fruits confits et aux épices typique de Dresde ?",
+      "choices": [
+        "Le Kougelhopf",
+        "Le Lebkuchen",
+        "La Linzer Torte",
+        "Le Stollen"
+      ],
+      "answer": 3,
+      "explication": "Le Dresdner Stollen est associé à la tradition de l'Avent saxon.",
+      "level": "expert"
+    },
+    {
+      "q": "Combien de personnages nommés Yule Lads rendent visite aux enfants islandais avant Noël ?",
+      "choices": [
+        "Treize",
+        "Sept",
+        "Neuf",
+        "Douze"
+      ],
+      "answer": 0,
+      "explication": "Ils arrivent un par nuit, chacun avec son caractère, à partir du 12 décembre.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi fête-t-on Noël le 25 décembre ?",
+      "Dès le IVe siècle, l'Église de Rome célèbre la naissance du Christ le 25 décembre. La date n'est pas connue historiquement, mais elle coïncide avec la période du solstice d'hiver, déjà marquée par des fêtes de la lumière dans l'Antiquité."
+    ],
+    [
+      "Qui apporte les cadeaux selon les pays ?",
+      "En France, c'est le Père Noël ; en Italie, la Befana arrive le 6 janvier ; en Espagne, les Rois mages passent le 5 au soir. En Allemagne et dans certains pays de l'Est, saint Nicolas offre des présents le 6 décembre."
+    ],
+    [
+      "Quelle est la différence entre le réveillon et Noël ?",
+      "Le réveillon désigne le repas festif de la nuit du 24 au 25 décembre, souvent suivi de l'échange des cadeaux ou de la messe de minuit. Noël désigne la fête du 25 décembre elle-même, avec un déjeuner en famille. Ces repères aident à situer les événements dans leur contexte et à mieux les mémoriser."
+    ]
+  ],
+  "related": [
+    "/quiz-noel",
+    "/quiz-noel-difficile",
+    "/quiz-cuisine",
+    "/quiz-culture-generale-facile"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-vin",
+  "theme": "regions-et-terroirs",
+  "title": "Quiz vin : 20 questions sur les vins de France",
+  "description": "Quiz vin : 20 questions sur les vignobles, cépages, appellations et le vocabulaire du vin en France. Es-tu un as de l'œnologie ?",
+  "h1": "Quiz vin : connais-tu les vignobles de France ?",
+  "intro": "Champagne, Bordeaux, Bourgogne, Alsace, Loire : la France abrite des vignobles légendaires. Ce quiz sur le vin te propose 20 questions pour tester ta connaissance des régions, des cépages, des appellations et du vocabulaire de la dégustation. Les premières questions sont accessibles à tous, les dernières feront réfléchir les amateurs éclairés. Prévois environ 5 secondes de réflexion par question, puis profite de l'explication qui suit pour approfondir. À consommer avec modération, bien sûr : c'est surtout ta culture que nous mettons à l'épreuve. Santé !",
+  "questions": [
+    {
+      "q": "Quel fruit sert à fabriquer le vin ?",
+      "choices": [
+        "La pomme",
+        "La cerise",
+        "Le raisin",
+        "La figue"
+      ],
+      "answer": 2,
+      "explication": "Le vin résulte de la fermentation du jus de raisin sous l'action des levures.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle région produit-on le champagne ?",
+      "choices": [
+        "La Champagne",
+        "La Bourgogne",
+        "L'Alsace",
+        "La Loire"
+      ],
+      "answer": 0,
+      "explication": "Seul le vin pétillant élaboré dans cette région, selon des règles précises, peut s'appeler champagne.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on la personne qui conseille les vins au restaurant ?",
+      "choices": [
+        "Le maître d'hôtel",
+        "Le sommelier",
+        "Le barman",
+        "Le commis"
+      ],
+      "answer": 1,
+      "explication": "Le sommelier choisit la carte des vins et conseille les clients sur les accords mets-vins.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on l'année de récolte d'un vin ?",
+      "choices": [
+        "Le cépage",
+        "Le terroir",
+        "L'appellation",
+        "Le millésime"
+      ],
+      "answer": 3,
+      "explication": "Le millésime figure sur l'étiquette, car chaque année climatique donne des vins différents.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on la couleur d'un vin ?",
+      "choices": [
+        "La robe",
+        "Le nez",
+        "La bouche",
+        "Le corps"
+      ],
+      "answer": 0,
+      "explication": "On observe la robe d'un vin dans le verre avant d'en sentir les arômes.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on la récolte du raisin ?",
+      "choices": [
+        "Les moissons",
+        "La cueillette",
+        "Les vendanges",
+        "Le pressurage"
+      ],
+      "answer": 2,
+      "explication": "Les vendanges ont lieu à la fin de l'été ou au début de l'automne.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle ville du Sud-Ouest donne son nom à un célèbre vignoble ?",
+      "choices": [
+        "Toulouse",
+        "Biarritz",
+        "Pau",
+        "Bordeaux"
+      ],
+      "answer": 3,
+      "explication": "Le Bordelais est l'un des plus grands vignobles du monde, avec le Médoc ou Saint-Émilion.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle couleur de vin obtient-on avec une courte macération de raisins noirs ?",
+      "choices": [
+        "Le blanc",
+        "Le rouge",
+        "Le rosé",
+        "Le jaune"
+      ],
+      "answer": 2,
+      "explication": "Le jus des raisins noirs est blanc : la couleur vient de la peau, laissée en contact peu de temps.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle région viticole se trouve Chablis ?",
+      "choices": [
+        "Le Val de Loire",
+        "L'Alsace",
+        "Le Beaujolais",
+        "La Bourgogne"
+      ],
+      "answer": 3,
+      "explication": "Les vins de Chablis sont des vins blancs secs issus du cépage chardonnay.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel jour sort officiellement le beaujolais nouveau ?",
+      "choices": [
+        "Le 1er novembre",
+        "Le troisième jeudi de novembre",
+        "Le 11 novembre",
+        "Le dernier jeudi de décembre"
+      ],
+      "answer": 1,
+      "explication": "La date est fixée au troisième jeudi de novembre, ce qui crée chaque année une fête populaire.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel cépage blanc donne les vins de Sancerre ?",
+      "choices": [
+        "Le sauvignon blanc",
+        "Le chardonnay",
+        "Le riesling",
+        "Le gewurztraminer"
+      ],
+      "answer": 0,
+      "explication": "Sancerre, dans le Val de Loire, est réputé pour ses blancs frais et vifs.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel cépage donne les grands rouges de Bourgogne ?",
+      "choices": [
+        "Le merlot",
+        "La syrah",
+        "Le pinot noir",
+        "Le cabernet sauvignon"
+      ],
+      "answer": 2,
+      "explication": "Le pinot noir est le cépage des vins rouges de la Côte-d'Or.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle région trouve-t-on les vins en bouteilles longues, dites « flûtes » ?",
+      "choices": [
+        "La Provence",
+        "Le Bordelais",
+        "Le Languedoc",
+        "L'Alsace"
+      ],
+      "answer": 3,
+      "explication": "Les vins d'Alsace sont mis en bouteilles élancées, appelées flûtes d'Alsace.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel vin liquoreux célèbre vient du Bordelais ?",
+      "choices": [
+        "Le muscadet",
+        "Le sauternes",
+        "Le chinon",
+        "Le morgon"
+      ],
+      "answer": 1,
+      "explication": "Le sauternes est un vin blanc doux, issu de raisins touchés par la pourriture noble.",
+      "level": "moyen"
+    },
+    {
+      "q": "Que signifie AOC sur une étiquette ?",
+      "choices": [
+        "Association des œnologues de la côte",
+        "Assemblage ordinaire de cépages",
+        "Appellation d'origine contrôlée",
+        "Agriculture organique certifiée"
+      ],
+      "answer": 2,
+      "explication": "L'AOC garantit l'origine et le respect d'un cahier des charges précis.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle région viticole produit-on le muscadet ?",
+      "choices": [
+        "La Bourgogne",
+        "Le Val de Loire",
+        "L'Alsace",
+        "Le Languedoc"
+      ],
+      "answer": 1,
+      "explication": "Le muscadet est produit autour de Nantes et accompagne volontiers les fruits de mer.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel puceron ravage le vignoble français à partir des années 1860 ?",
+      "choices": [
+        "Le doryphore",
+        "Le phylloxéra",
+        "Le mildiou",
+        "Le carpocapse"
+      ],
+      "answer": 1,
+      "explication": "On sauve le vignoble en greffant les cépages européens sur des porte-greffes américains résistants.",
+      "level": "expert"
+    },
+    {
+      "q": "En quelle année le classement officiel des grands crus du Médoc est-il établi ?",
+      "choices": [
+        "1855",
+        "1789",
+        "1900",
+        "1936"
+      ],
+      "answer": 0,
+      "explication": "Ce classement est établi pour l'Exposition universelle de Paris, à la demande de Napoléon III.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel moine bénédictin de l'abbaye d'Hautvillers est associé à l'essor du champagne ?",
+      "choices": [
+        "Dom Pérignon",
+        "Dom Ruinart",
+        "Frère Jacques",
+        "Dom Bosco"
+      ],
+      "answer": 0,
+      "explication": "Dom Pérignon n'a pas inventé le champagne, mais il a perfectionné l'assemblage des raisins et la conduite des vins.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle bouteille de 62 cl est réservée au vin jaune du Jura ?",
+      "choices": [
+        "Le magnum",
+        "Le jéroboam",
+        "La dame-jeanne",
+        "Le clavelin"
+      ],
+      "answer": 3,
+      "explication": "Le clavelin représente ce qui reste d'un litre de vin après six ans et trois mois d'élevage sous voile.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelles sont les grandes régions viticoles françaises ?",
+      "Les principales sont la Champagne, la Bourgogne, le Bordelais, la Vallée de la Loire, l'Alsace, la Vallée du Rhône, le Languedoc-Roussillon, la Provence, le Sud-Ouest et le Jura. Chacune possède ses cépages, ses climats et ses appellations propres. Tu peux ainsi explorer le pays vignoble par vignoble, au fil de tes dégustations et de tes voyages."
+    ],
+    [
+      "Qu'est-ce qu'un cépage ?",
+      "Un cépage est une variété de vigne, comme le chardonnay, le pinot noir, le merlot ou la syrah. Chaque cépage donne des arômes particuliers, et les vins sont souvent des assemblages de plusieurs cépages. En Alsace, l'étiquette mentionne le cépage ; ailleurs, c'est surtout l'appellation qui compte."
+    ],
+    [
+      "Comment progresser en connaissance du vin ?",
+      "Goûte, compare, note tes impressions et découvre une région à la fois. Des dégustations chez un caviste ou des visites de vignobles aident à associer arômes, cépages et terroirs. Ce quiz t'offre une première base de vocabulaire pour mieux comprendre les étiquettes."
+    ]
+  ],
+  "related": [
+    "/quiz-fromages",
+    "/quiz-cuisine",
+    "/quiz-regions-de-france",
+    "/quiz-noel"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-animaux-difficile",
+  "theme": "animaux",
+  "title": "Quiz animaux difficile : 20 questions d'expert",
+  "description": "Quiz animaux difficile : 20 questions d'expert sur les records et particularités biologiques du règne animal. Es-tu un vrai connaisseur ?",
+  "h1": "Quiz animaux difficile : es-tu un expert de la faune ?",
+  "intro": "Tu connais déjà les animaux de la ferme et ceux du zoo ? Alors ce quiz animaux difficile est pour toi ! Vingt questions sur les records, les particularités biologiques et les surprises du règne animal : anatomie, reproduction, longévité, adaptations extrêmes. Les premières questions te mettront en jambes, mais les dernières demandent de vraies connaissances. Compte environ 5 secondes par question, et découvre à chaque réponse une explication qui te fera briller en société. Prêt à relever le défi ?",
+  "questions": [
+    {
+      "q": "Quel oiseau pond le plus gros œuf ?",
+      "choices": [
+        "l'aigle",
+        "l'autruche",
+        "le cygne",
+        "le pélican"
+      ],
+      "answer": 1,
+      "explication": "L'œuf d'autruche pèse environ 1,5 kg, soit l'équivalent de plusieurs dizaines d'œufs de poule.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de bosses possède le dromadaire ?",
+      "choices": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "explication": "Le dromadaire n'a qu'une bosse, le chameau de Bactriane en a deux. La bosse stocke de la graisse, pas de l'eau.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de vertèbres cervicales possède la girafe ?",
+      "choices": [
+        "7",
+        "14",
+        "9",
+        "12"
+      ],
+      "answer": 0,
+      "explication": "Malgré son très long cou, la girafe n'a que sept vertèbres cervicales, comme presque tous les mammifères. Les paresseux et les lamantins font exception.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel animal se nourrit surtout de fourmis et de termites grâce à une très longue langue ?",
+      "choices": [
+        "le lézard",
+        "le hérisson",
+        "le fourmilier",
+        "le lapin"
+      ],
+      "answer": 2,
+      "explication": "Le fourmilier n'a pas de dents. Il attrape les insectes avec sa langue collante, longue et très rapide.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel animal possède des empreintes digitales très proches de celles des humains ?",
+      "choices": [
+        "le chat",
+        "le loup",
+        "le koala",
+        "le cheval"
+      ],
+      "answer": 2,
+      "explication": "Le koala a des empreintes digitales très semblables à celles des humains. Cela est dû à une évolution convergente.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus grand des primates vivants ?",
+      "choices": [
+        "le gorille",
+        "l'orang-outan",
+        "le chimpanzé",
+        "le babouin"
+      ],
+      "answer": 0,
+      "explication": "Le gorille de l'Est est le plus grand des primates actuels. Un mâle adulte peut dépasser 200 kg.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel oiseau est capable de voler en arrière ?",
+      "choices": [
+        "le moineau",
+        "le pigeon",
+        "la mésange",
+        "le colibri"
+      ],
+      "answer": 3,
+      "explication": "Le colibri bat des ailes très rapidement et peut faire du vol stationnaire, mais aussi voler en arrière.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel mammifère terrestre est réputé pour être le plus lent ?",
+      "choices": [
+        "le koala",
+        "le paresseux",
+        "la tortue",
+        "l'escargot"
+      ],
+      "answer": 1,
+      "explication": "Le paresseux se déplace lentement et dort beaucoup. Sa vitesse faible l'aide à économiser de l'énergie.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pigment rend le sang de la pieuvre bleu ?",
+      "choices": [
+        "l'hémoglobine",
+        "la mélanine",
+        "la chlorophylle",
+        "l'hémocyanine"
+      ],
+      "answer": 3,
+      "explication": "L'hémocyanine contient du cuivre. Elle devient bleue lorsqu'elle transporte de l'oxygène.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la durée approximative de gestation de l'éléphant d'Afrique ?",
+      "choices": [
+        "environ 9 mois",
+        "environ 22 mois",
+        "environ 12 mois",
+        "environ 3 ans"
+      ],
+      "answer": 1,
+      "explication": "La gestation de l'éléphant dure environ vingt-deux mois, la plus longue de tous les mammifères terrestres.",
+      "level": "moyen"
+    },
+    {
+      "q": "L'axolotl est célèbre pour sa capacité à…",
+      "choices": [
+        "voler",
+        "changer de sexe",
+        "régénérer ses membres",
+        "produire de la soie"
+      ],
+      "answer": 2,
+      "explication": "L'axolotl peut régénérer des membres entiers, mais aussi certaines parties de son cœur ou de son cerveau.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le seul marsupial d'Amérique du Nord ?",
+      "choices": [
+        "l'opossum de Virginie",
+        "le kangourou",
+        "le tatou",
+        "le wombat"
+      ],
+      "answer": 0,
+      "explication": "L'opossum de Virginie est le seul marsupial vivant au nord du Mexique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien d'ailes fonctionnelles possède une mouche ?",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "0"
+      ],
+      "answer": 0,
+      "explication": "Les mouches sont des diptères : elles ont une seule paire d'ailes et, à l'arrière, des petits organes d'équilibre.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de compartiments comporte l'estomac d'une vache ?",
+      "choices": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "answer": 2,
+      "explication": "La vache possède quatre compartiments : rumen, réseau, feuillet et caillette. Cela permet de digérer l'herbe.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel animal possède les plus grands yeux du règne animal ?",
+      "choices": [
+        "l'aigle royal",
+        "le calmar géant",
+        "la baleine bleue",
+        "le hibou grand-duc"
+      ],
+      "answer": 1,
+      "explication": "Les yeux du calmar géant atteignent environ 25 à 27 centimètres de diamètre, la taille d'un ballon : ce sont les plus grands du règne animal, à égalité avec ceux du calmar colossal.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le plus grand rongeur du monde ?",
+      "choices": [
+        "le castor",
+        "le porc-épic",
+        "le rat musqué",
+        "le capybara"
+      ],
+      "answer": 3,
+      "explication": "Le capybara d'Amérique du Sud peut peser plus de 50 kg et vit près de l'eau.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel organe permet au serpent de « goûter » l'air grâce à sa langue fourchue ?",
+      "choices": [
+        "la vessie natatoire",
+        "l'organe voméronasal",
+        "l'organe de Corti",
+        "le cloaque"
+      ],
+      "answer": 1,
+      "explication": "Le serpent capte les molécules de l'air avec sa langue et les analyse avec l'organe voméronasal, aussi appelé organe de Jacobson.",
+      "level": "expert"
+    },
+    {
+      "q": "Le tardigrade est célèbre pour…",
+      "choices": [
+        "sa résistance à des conditions extrêmes",
+        "sa taille gigantesque",
+        "sa vitesse",
+        "ses chants"
+      ],
+      "answer": 0,
+      "explication": "Le tardigrade, animal microscopique, peut entrer en cryptobiose et survivre à la déshydratation ou au froid extrême.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle méduse est surnommée « immortelle » ?",
+      "choices": [
+        "la méduse-boîte",
+        "la méduse dorée du lac",
+        "la physalie",
+        "Turritopsis dohrnii"
+      ],
+      "answer": 3,
+      "explication": "Turritopsis dohrnii peut revenir à l'état de polype après avoir atteint le stade adulte, ce qui lui vaut son surnom.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel groupe de vertébrés terrestres comprend les animaux les plus longévifs ?",
+      "choices": [
+        "les rongeurs",
+        "les oiseaux marins",
+        "les tortues",
+        "les serpents"
+      ],
+      "answer": 2,
+      "explication": "Certaines tortues terrestres géantes peuvent vivre plus d'un siècle, mais d'autres animaux, comme certains poissons, vivent encore plus longtemps.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Qu'est-ce qu'une évolution convergente ?",
+      "C'est l'apparition de caractères semblables chez des espèces de lignées différentes, parce qu'elles ont dû s'adapter à des conditions voisines. L'aile des oiseaux et celle des chauves-souris, ou les empreintes digitales des koalas et des humains, en sont des exemples."
+    ],
+    [
+      "Comment progresser en connaissance des animaux ?",
+      "Observe la nature, lis des ouvrages de zoologie accessibles et compare les espèces : leur classification, leur alimentation, leurs adaptations. Les quiz comme celui-ci aident aussi à retenir les records et les particularités marquantes, car chaque réponse s'accompagne d'une explication."
+    ],
+    [
+      "Les records animaux peuvent-ils changer ?",
+      "Oui, parfois. Les mesures sont affinées et de nouvelles espèces peuvent être découvertes. Ce quiz ne retient donc que des particularités solidement établies, qui ne varient pas d'une année à l'autre, comme l'anatomie, le régime alimentaire ou le mode de reproduction des espèces."
+    ]
+  ],
+  "related": [
+    "/quiz-animaux",
+    "/quiz-animaux-marins",
+    "/quiz-oiseaux",
+    "/quiz-sciences",
+    "/quiz-culture-generale-difficile"
+  ]
+}

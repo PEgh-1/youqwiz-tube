@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-capitales",
+  "theme": "geographie",
+  "title": "Quiz capitales du monde : 20 questions",
+  "description": "Quiz capitales du monde : 20 questions pour tester ta culture générale, des capitales les plus connues aux plus surprenantes. Joue gratuitement !",
+  "h1": "Quiz capitales : connais-tu les capitales du monde ?",
+  "intro": "Paris, Rome, Tokyo : facile. Mais saurais-tu dire quelle est la capitale de l'Australie, de la Turquie ou du Burkina Faso ? Ce quiz de 20 questions te fait voyager de continent en continent, avec une difficulté qui grimpe progressivement. Les premières capitales sont celles que tout le monde connaît, les suivantes cachent de petits pièges, car la plus grande ville d'un pays n'est pas toujours sa capitale. Les dernières sont réservées aux fins connaisseurs. Compte environ cinq secondes par question et profite de chaque explication pour apprendre une anecdote. Tu peux rejouer autant de fois que tu veux pour améliorer ton score.",
+  "questions": [
+    {
+      "q": "Quelle est la capitale de la France ?",
+      "choices": [
+        "Lyon",
+        "Paris",
+        "Marseille",
+        "Versailles"
+      ],
+      "answer": 1,
+      "explication": "Paris est la capitale de la France depuis des siècles et la ville la plus peuplée du pays.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Italie ?",
+      "choices": [
+        "Milan",
+        "Naples",
+        "Venise",
+        "Rome"
+      ],
+      "answer": 3,
+      "explication": "Rome, la « Ville éternelle », est capitale de l'Italie depuis 1871.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Espagne ?",
+      "choices": [
+        "Madrid",
+        "Barcelone",
+        "Séville",
+        "Valence"
+      ],
+      "answer": 0,
+      "explication": "Madrid se trouve au centre de la péninsule Ibérique.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Allemagne ?",
+      "choices": [
+        "Munich",
+        "Hambourg",
+        "Berlin",
+        "Francfort"
+      ],
+      "answer": 2,
+      "explication": "Berlin est capitale de l'Allemagne réunifiée depuis 1990.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Royaume-Uni ?",
+      "choices": [
+        "Manchester",
+        "Édimbourg",
+        "Londres",
+        "Liverpool"
+      ],
+      "answer": 2,
+      "explication": "Londres est traversée par la Tamise et abrite le Parlement de Westminster.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Japon ?",
+      "choices": [
+        "Tokyo",
+        "Kyoto",
+        "Osaka",
+        "Hiroshima"
+      ],
+      "answer": 0,
+      "explication": "Tokyo est capitale du Japon depuis 1868 ; Kyoto l'était auparavant.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Portugal ?",
+      "choices": [
+        "Porto",
+        "Coimbra",
+        "Faro",
+        "Lisbonne"
+      ],
+      "answer": 3,
+      "explication": "Lisbonne est bâtie sur les rives du Tage, près de l'océan Atlantique.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Belgique ?",
+      "choices": [
+        "Anvers",
+        "Bruxelles",
+        "Liège",
+        "Bruges"
+      ],
+      "answer": 1,
+      "explication": "Bruxelles accueille aussi plusieurs grandes institutions de l'Union européenne.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Australie ?",
+      "choices": [
+        "Canberra",
+        "Sydney",
+        "Melbourne",
+        "Perth"
+      ],
+      "answer": 0,
+      "explication": "Canberra a été créée de toutes pièces comme compromis entre Sydney et Melbourne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Canada ?",
+      "choices": [
+        "Toronto",
+        "Montréal",
+        "Ottawa",
+        "Vancouver"
+      ],
+      "answer": 2,
+      "explication": "Ottawa se situe en Ontario, sur la rivière des Outaouais, face au Québec.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Brésil ?",
+      "choices": [
+        "Rio de Janeiro",
+        "Brasilia",
+        "São Paulo",
+        "Salvador"
+      ],
+      "answer": 1,
+      "explication": "Brasilia, inaugurée en 1960, a remplacé Rio de Janeiro comme capitale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Turquie ?",
+      "choices": [
+        "Istanbul",
+        "Izmir",
+        "Antalya",
+        "Ankara"
+      ],
+      "answer": 3,
+      "explication": "Istanbul est la plus grande ville, mais la capitale est Ankara depuis 1923.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Suisse ?",
+      "choices": [
+        "Zurich",
+        "Genève",
+        "Bâle",
+        "Berne"
+      ],
+      "answer": 3,
+      "explication": "Berne est officiellement la « ville fédérale » de la Suisse.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Maroc ?",
+      "choices": [
+        "Casablanca",
+        "Rabat",
+        "Marrakech",
+        "Fès"
+      ],
+      "answer": 1,
+      "explication": "Casablanca est la plus grande ville marocaine, mais Rabat est la capitale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de l'Égypte ?",
+      "choices": [
+        "Alexandrie",
+        "Louxor",
+        "Le Caire",
+        "Assouan"
+      ],
+      "answer": 2,
+      "explication": "Le Caire s'étend sur les rives du Nil, non loin des pyramides de Gizeh.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de l'Inde ?",
+      "choices": [
+        "New Delhi",
+        "Mumbai",
+        "Calcutta",
+        "Bangalore"
+      ],
+      "answer": 0,
+      "explication": "New Delhi, conçue sous l'administration britannique, est la capitale de l'Inde.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Nouvelle-Zélande ?",
+      "choices": [
+        "Auckland",
+        "Wellington",
+        "Christchurch",
+        "Queenstown"
+      ],
+      "answer": 1,
+      "explication": "Wellington, à la pointe sud de l'île du Nord, est plus petite qu'Auckland.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Nigeria ?",
+      "choices": [
+        "Lagos",
+        "Kano",
+        "Abuja",
+        "Ibadan"
+      ],
+      "answer": 2,
+      "explication": "Abuja a remplacé Lagos comme capitale du Nigeria en 1991.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale de la Mongolie ?",
+      "choices": [
+        "Oulan-Bator",
+        "Astana",
+        "Bichkek",
+        "Tachkent"
+      ],
+      "answer": 0,
+      "explication": "Oulan-Bator est l'une des capitales les plus froides du monde.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Burkina Faso ?",
+      "choices": [
+        "Bamako",
+        "Niamey",
+        "Dakar",
+        "Ouagadougou"
+      ],
+      "answer": 3,
+      "explication": "Ouagadougou est aussi le siège du grand festival de cinéma africain, le FESPACO.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi la plus grande ville n'est-elle pas toujours la capitale ?",
+      "Une capitale est choisie pour des raisons politiques, historiques ou stratégiques plutôt que pour sa taille. C'est le cas de Canberra, Brasilia, Ankara ou Berne : ces villes ont été retenues comme compromis, pour leur position centrale ou après un changement de régime, alors qu'une métropole plus grande existait déjà ailleurs."
+    ],
+    [
+      "Combien de capitales dans le monde ?",
+      "On compte 193 États membres de l'ONU, donc autant de capitales, auxquelles on ajoute celles d'États observateurs ou partiellement reconnus. Certains pays ont plusieurs capitales aux fonctions réparties, comme l'Afrique du Sud avec Pretoria, Le Cap et Bloemfontein, ce qui complique un peu le décompte."
+    ],
+    [
+      "Comment apprendre les capitales plus facilement ?",
+      "Avance par continent et par petits groupes de cinq ou six pays, plutôt que tout d'un coup. Associe chaque capitale à une image, un monument ou un fleuve, et repère les pièges classiques où la capitale n'est pas la ville la plus connue. Rejouer régulièrement à un quiz ancre durablement les réponses."
+    ]
+  ],
+  "related": [
+    "/quiz-drapeaux",
+    "/quiz-geographie",
+    "/quiz-departements",
+    "/quiz-regions-de-france"
+  ]
+}

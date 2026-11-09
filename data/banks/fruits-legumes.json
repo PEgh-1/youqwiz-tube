@@ -1,0 +1,320 @@
+{
+  "question": "Quel est ce fruit ou légume ?",
+  "hook": "Devine {n} FRUITS et LÉGUMES",
+  "emoji": "🍎🍌🥦",
+  "slug": "fruits-legumes",
+  "noun": "FRUITS et LÉGUMES",
+  "tags": [
+    "fruits",
+    "légumes",
+    "quiz fruits"
+  ],
+  "items": [
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍎"
+      },
+      "answer": "La pomme",
+      "fact": "La pomme flotte sur l'eau parce qu'elle contient environ un quart d'air.",
+      "rank": 1
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍌"
+      },
+      "answer": "La banane",
+      "fact": "Au sens botanique, la banane est une baie, alors que la fraise n'en est pas une.",
+      "rank": 2
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍇"
+      },
+      "answer": "Le raisin",
+      "rank": 9
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍓"
+      },
+      "answer": "La fraise",
+      "fact": "Les petits grains sur la peau de la fraise sont en réalité ses vrais fruits.",
+      "rank": 3
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍒"
+      },
+      "answer": "La cerise",
+      "rank": 8
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍑"
+      },
+      "answer": "La pêche",
+      "rank": 13
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥝"
+      },
+      "answer": "Le kiwi",
+      "fact": "Le kiwi est originaire de Chine et doit son nom à l'oiseau de Nouvelle-Zélande.",
+      "rank": 14
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍍"
+      },
+      "answer": "L'ananas",
+      "fact": "Il faut environ deux ans à un ananas pour pousser.",
+      "rank": 11
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥭"
+      },
+      "answer": "La mangue",
+      "rank": 26
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍉"
+      },
+      "answer": "La pastèque",
+      "rank": 10
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍈"
+      },
+      "answer": "Le melon",
+      "rank": 25
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍋"
+      },
+      "answer": "Le citron",
+      "rank": 7
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍊"
+      },
+      "answer": "L'orange",
+      "rank": 6
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍐"
+      },
+      "answer": "La poire",
+      "rank": 12
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🫐"
+      },
+      "answer": "La myrtille",
+      "rank": 33
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥥"
+      },
+      "answer": "La noix de coco",
+      "rank": 24
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍅"
+      },
+      "answer": "La tomate",
+      "fact": "Pour les botanistes, la tomate est un fruit, même si on la mange comme un légume.",
+      "rank": 5
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍆"
+      },
+      "answer": "L'aubergine",
+      "rank": 17
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥑"
+      },
+      "answer": "L'avocat",
+      "rank": 20
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥦"
+      },
+      "answer": "Le brocoli",
+      "rank": 16
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥬"
+      },
+      "answer": "La salade",
+      "rank": 27
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥒"
+      },
+      "answer": "Le concombre",
+      "rank": 21
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌶️"
+      },
+      "answer": "Le piment",
+      "fact": "La force d'un piment se mesure sur l'échelle de Scoville.",
+      "rank": 22
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🫑"
+      },
+      "answer": "Le poivron",
+      "rank": 23
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌽"
+      },
+      "answer": "Le maïs",
+      "rank": 15
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥕"
+      },
+      "answer": "La carotte",
+      "rank": 4
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧄"
+      },
+      "answer": "L'ail",
+      "rank": 29
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧅"
+      },
+      "answer": "L'oignon",
+      "rank": 28
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥔"
+      },
+      "answer": "La pomme de terre",
+      "fact": "La pomme de terre vient des Andes, en Amérique du Sud.",
+      "rank": 19
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍠"
+      },
+      "answer": "La patate douce",
+      "rank": 36
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍄"
+      },
+      "answer": "Le champignon",
+      "rank": 18
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥜"
+      },
+      "answer": "La cacahuète",
+      "fact": "La cacahuète n'est pas une vraie noix : elle pousse sous la terre.",
+      "rank": 30
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌰"
+      },
+      "answer": "La châtaigne",
+      "rank": 31
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🫘"
+      },
+      "answer": "Le haricot",
+      "rank": 35
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🫛"
+      },
+      "answer": "Le petit pois",
+      "rank": 34
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🫒"
+      },
+      "answer": "L'olive",
+      "rank": 32
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥗"
+      },
+      "answer": "La salade composée",
+      "rank": 37
+    }
+  ],
+  "rankNote": "Classement éditorial par familiarité (1 = le plus évident), 08/11/2026."
+}

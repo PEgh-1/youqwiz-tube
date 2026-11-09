@@ -1,0 +1,269 @@
+{
+  "path": "/quiz-vocabulaire",
+  "theme": "langue",
+  "title": "Quiz vocabulaire français : 20 questions sur les mots",
+  "description": "Quiz vocabulaire gratuit : 20 questions sur le sens des mots, les synonymes et les contraires. Enrichis ton français en 5 secondes par question !",
+  "h1": "Quiz vocabulaire : connais-tu le sens de ces mots ?",
+  "intro": "Savoir choisir le mot juste, c'est tout un art ! Ce quiz de 20 questions te propose des synonymes, des contraires et des définitions de mots plus ou moins courants. Tu as 5 secondes par question pour choisir parmi quatre propositions. Les huit premières questions parlent de mots du quotidien, les huit suivantes sont un peu plus recherchées, et les quatre dernières te feront découvrir des mots qui ne sont pas utilisés tous les jours. Après chaque réponse, une courte explication t'aide à retenir le mot pour de bon. Alors, ouvre grand ton dictionnaire intérieur et vois combien de mots tu connais vraiment !",
+  "questions": [
+    {
+      "q": "Quel est un synonyme de « rapide » ?",
+      "choices": [
+        "lent",
+        "véloce",
+        "calme",
+        "pâle"
+      ],
+      "answer": 1,
+      "explication": "Véloce est un synonyme soutenu de rapide : une bête véloce court très vite.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le contraire de « généreux » ?",
+      "choices": [
+        "prodigue",
+        "aimable",
+        "riche",
+        "avare"
+      ],
+      "answer": 3,
+      "explication": "Une personne généreuse donne volontiers, tandis qu'une personne avare garde tout pour elle.",
+      "level": "facile"
+    },
+    {
+      "q": "Que signifie le mot familier « bouquin » ?",
+      "choices": [
+        "un livre",
+        "un bouchon",
+        "un bouquet",
+        "un instrument"
+      ],
+      "answer": 0,
+      "explication": "Bouquin est un mot familier pour désigner un livre.",
+      "level": "facile"
+    },
+    {
+      "q": "Qu'est-ce qu'une bourrasque ?",
+      "choices": [
+        "une pluie fine",
+        "un tremblement de terre",
+        "un coup de vent soudain",
+        "un épais brouillard"
+      ],
+      "answer": 2,
+      "explication": "Une bourrasque est un coup de vent violent et de courte durée, souvent accompagné de pluie.",
+      "level": "facile"
+    },
+    {
+      "q": "Qu'est-ce qu'un verger ?",
+      "choices": [
+        "un champ de blé",
+        "une forêt de pins",
+        "un jardin de fleurs",
+        "un terrain planté d'arbres fruitiers"
+      ],
+      "answer": 3,
+      "explication": "Dans un verger poussent des pommiers, poiriers, cerisiers ou d'autres arbres fruitiers.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le contraire de « récent » ?",
+      "choices": [
+        "nouveau",
+        "ancien",
+        "actuel",
+        "proche"
+      ],
+      "answer": 1,
+      "explication": "Un fait récent s'est produit il y a peu de temps ; un fait ancien s'est produit il y a longtemps.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est un synonyme de « fatigué » ?",
+      "choices": [
+        "gai",
+        "fort",
+        "las",
+        "vif"
+      ],
+      "answer": 2,
+      "explication": "Las signifie fatigué, lassé : on dit « las d'attendre ».",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de côtés a un hexagone ?",
+      "choices": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": 0,
+      "explication": "Hexa- vient du grec « hex » (six). Les alvéoles des abeilles sont hexagonales.",
+      "level": "facile"
+    },
+    {
+      "q": "Que signifie « éphémère » ?",
+      "choices": [
+        "qui dure toujours",
+        "qui est très grand",
+        "qui dure très peu de temps",
+        "qui fait beaucoup de bruit"
+      ],
+      "answer": 2,
+      "explication": "Éphémère vient du grec et signifie « pour un jour » : une fleur éphémère se fane vite.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qu'est-ce qu'un euphémisme ?",
+      "choices": [
+        "une façon d'atténuer une idée désagréable",
+        "une exagération",
+        "une répétition de mots",
+        "une phrase à l'envers"
+      ],
+      "answer": 0,
+      "explication": "Dire « il nous a quittés » pour « il est mort » est un euphémisme.",
+      "level": "moyen"
+    },
+    {
+      "q": "Que signifie « ubiquité » ?",
+      "choices": [
+        "la capacité de voler",
+        "la peur de l'obscurité",
+        "l'art de voyager",
+        "la capacité d'être partout à la fois"
+      ],
+      "answer": 3,
+      "explication": "Ubiquité vient du latin « ubique » (partout). Cette faculté appartient plutôt aux légendes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelqu'un de « taciturne » est…",
+      "choices": [
+        "une personne très bavarde",
+        "une personne qui parle peu",
+        "une personne très drôle",
+        "une personne très pressée"
+      ],
+      "answer": 1,
+      "explication": "Taciturne vient du latin « tacere » (se taire) : une personne silencieuse et réservée.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qu'est-ce qu'un antonyme ?",
+      "choices": [
+        "un mot de sens contraire",
+        "un mot de même sens",
+        "un mot qui se prononce pareil",
+        "un mot d'une autre langue"
+      ],
+      "answer": 0,
+      "explication": "« Grand » et « petit » sont des antonymes. À l'inverse, deux synonymes ont un sens proche.",
+      "level": "moyen"
+    },
+    {
+      "q": "Un repas « frugal » est un repas…",
+      "choices": [
+        "très riche",
+        "servi froid",
+        "simple et peu abondant",
+        "pris en retard"
+      ],
+      "answer": 2,
+      "explication": "Frugal vient du latin « frugalis » : qui se contente de peu.",
+      "level": "moyen"
+    },
+    {
+      "q": "Une phrase « ambiguë » est une phrase…",
+      "choices": [
+        "très longue",
+        "qui peut être comprise de plusieurs façons",
+        "très courte",
+        "fausse"
+      ],
+      "answer": 1,
+      "explication": "Une phrase ambiguë est équivoque, comme « Le chasseur a vu l'oiseau avec ses jumelles ».",
+      "level": "moyen"
+    },
+    {
+      "q": "Que signifie « rectifier » ?",
+      "choices": [
+        "casser",
+        "répéter",
+        "cacher",
+        "corriger pour rendre exact"
+      ],
+      "answer": 3,
+      "explication": "Rectifier vient du latin « rectus » (droit) : remettre droit ou rendre exact.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qu'est-ce qu'une sinécure ?",
+      "choices": [
+        "une maladie",
+        "un emploi bien payé qui demande peu de travail",
+        "un instrument de musique",
+        "un voyage organisé"
+      ],
+      "answer": 1,
+      "explication": "Une sinécure est un poste avantageux avec peu de charges. Le mot vient du latin « sine cura », sans souci.",
+      "level": "expert"
+    },
+    {
+      "q": "Un projet « pérenne » est un projet…",
+      "choices": [
+        "qui vient de naître",
+        "qui est impossible",
+        "qui coûte cher",
+        "qui dure longtemps"
+      ],
+      "answer": 3,
+      "explication": "Pérenne vient du latin « perennis » : qui dure toute l'année, donc durable.",
+      "level": "expert"
+    },
+    {
+      "q": "Que signifie « procrastiner » ?",
+      "choices": [
+        "remettre à plus tard",
+        "se dépêcher",
+        "se cacher",
+        "se tromper"
+      ],
+      "answer": 0,
+      "explication": "Procrastiner, c'est reporter sans cesse ce qu'on devrait faire, du latin « crastinus » (de demain).",
+      "level": "expert"
+    },
+    {
+      "q": "Que désigne le mot « acrimonie » ?",
+      "choices": [
+        "une grande joie",
+        "une odeur forte",
+        "une aigreur dans les propos",
+        "une vitesse élevée"
+      ],
+      "answer": 2,
+      "explication": "L'acrimonie est une amertume qui se manifeste dans les paroles : on discute avec acrimonie.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Comment enrichir son vocabulaire ?",
+      "Lis régulièrement des livres variés et note les mots inconnus. Cherche leur définition, puis réutilise-les dans une phrase à l'oral ou à l'écrit. Jouer à des quiz et à des jeux de mots est aussi un excellent entraînement, car la répétition fixe les mots dans la mémoire."
+    ],
+    [
+      "Quelle est la différence entre synonyme et antonyme ?",
+      "Un synonyme est un mot de sens proche ou équivalent, comme « rapide » et « véloce ». Un antonyme est un mot de sens contraire, comme « généreux » et « avare ». Les deux permettent de nuancer son expression et d'éviter les répétitions."
+    ],
+    [
+      "Pourquoi tant de mots français viennent-ils du latin ?",
+      "Le français est une langue romane : il descend du latin parlé par les Romains en Gaule. Une grande partie du vocabulaire courant en vient directement, et de nombreux mots savants ont été empruntés ensuite au latin et au grec. Connaître leur origine aide à en deviner le sens."
+    ]
+  ],
+  "related": [
+    "/quiz-orthographe",
+    "/quiz-langue-francaise",
+    "/quiz-culture-generale-facile"
+  ]
+}

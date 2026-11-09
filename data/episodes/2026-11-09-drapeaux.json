@@ -1,0 +1,1957 @@
+{
+ "id": "2026-11-09-drapeaux",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "theme": 3,
+ "style": {
+  "pattern": "stars",
+  "timer": "digits",
+  "reveal": "zoom",
+  "card": "round",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Nouveau défi ! 💪",
+   "voice": "Nouveau défi ! Tu vas faire mieux qu'hier ? On parie !"
+  },
+  "introCta": "🏆 Compte tes points, dis ton score en commentaire",
+  "subscribe": {
+   "title": "Un quiz par jour, gratuit",
+   "sub": "abonne-toi pour ne pas rater le prochain 🔔",
+   "voice": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tout le monde peut les avoir 😎",
+    "voice": "Niveau facile. Tout le monde peut les avoir. Enfin, presque."
+   },
+   "moyen": {
+    "card": "Attention aux pièges ⚠️",
+    "voice": "Niveau moyen. Attention, il y a des pièges."
+   },
+   "difficile": {
+    "card": "Ici, beaucoup abandonnent 😅",
+    "voice": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère."
+   },
+   "impossible": {
+    "card": "Personne ne les a tous 🤯",
+    "voice": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire."
+   }
+  },
+  "scoreVoice": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "Merci d'avoir joué 🙏",
+   "voice": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure."
+  },
+  "packshot": {
+   "headline": "Défie tes proches sur youqwiz.com",
+   "sub": "le quiz du jour, en version interactive 🎮",
+   "cta": "👉 youqwiz.com",
+   "voice": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
+  }
+ },
+ "title": "95 DRAPEAUX en 5 secondes chrono 🚩🌍🧠 Test de rapidité",
+ "question": "À quel pays appartient ce drapeau ?",
+ "intro": {
+  "hook": "Devine 95 DRAPEAUX du MONDE",
+  "sub": "en 5 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇳"
+   },
+   "answer": "Chine",
+   "rank": 1,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c102b7c09494f8cc.mp3",
+     "sec": 2.324898
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/0-a.mp3",
+     "sec": 1.593469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇷"
+   },
+   "answer": "Brésil",
+   "fact": "Les vingt-sept étoiles du drapeau du Brésil représentent ses États et le district fédéral.",
+   "rank": 5,
+   "voice": {
+    "q": {
+     "src": "tts-cache/5cdbd9339956266f.mp3",
+     "sec": 1.123265
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/1-a.mp3",
+     "sec": 1.018776
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/1-f.mp3",
+     "sec": 7.47102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇩"
+   },
+   "answer": "Bangladesh",
+   "rank": 8,
+   "voice": {
+    "q": {
+     "src": "tts-cache/aaf247ab4f1f702f.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/2-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇺"
+   },
+   "answer": "Russie",
+   "rank": 9,
+   "voice": {
+    "q": {
+     "src": "tts-cache/79dd841704908868.mp3",
+     "sec": 0.914286
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/3-a.mp3",
+     "sec": 1.671837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇯🇵"
+   },
+   "answer": "Japon",
+   "rank": 10,
+   "voice": {
+    "q": {
+     "src": "tts-cache/2bc5a0e3204b9c7b.mp3",
+     "sec": 1.880816
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/4-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇳"
+   },
+   "answer": "Vietnam",
+   "rank": 13,
+   "voice": {
+    "q": {
+     "src": "tts-cache/2bc5a0e3204b9c7b.mp3",
+     "sec": 1.880816
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/5-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇹"
+   },
+   "answer": "Éthiopie",
+   "rank": 14,
+   "voice": {
+    "q": {
+     "src": "tts-cache/5140f4f06865f26d.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/6-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇬"
+   },
+   "answer": "Égypte",
+   "rank": 15,
+   "voice": {
+    "q": {
+     "src": "tts-cache/09e018a2a776167f.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/7-a.mp3",
+     "sec": 1.044898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇷"
+   },
+   "answer": "Iran",
+   "rank": 17,
+   "voice": {
+    "q": {
+     "src": "tts-cache/9485a21e17f29289.mp3",
+     "sec": 1.17551
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/8-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇭"
+   },
+   "answer": "Thaïlande",
+   "fact": "Au centre du drapeau de la Thaïlande, la bande bleue est deux fois plus large que les autres.",
+   "rank": 21,
+   "voice": {
+    "q": {
+     "src": "tts-cache/943f0d06d44969d0.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/9-a.mp3",
+     "sec": 2.142041
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/9-f.mp3",
+     "sec": 7.157551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇧"
+   },
+   "answer": "Royaume-Uni",
+   "fact": "Le drapeau du Royaume-Uni est surnommé l'Union Jack.",
+   "rank": 22,
+   "voice": {
+    "q": {
+     "src": "tts-cache/9bcee5801f302aaf.mp3",
+     "sec": 0.548571
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/10-a.mp3",
+     "sec": 1.933061
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/10-f.mp3",
+     "sec": 5.355102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇹"
+   },
+   "answer": "Italie",
+   "fact": "Le drapeau italien, vert, blanc et rouge, est surnommé il Tricolore.",
+   "rank": 23,
+   "voice": {
+    "q": {
+     "src": "tts-cache/748deefcf65c611b.mp3",
+     "sec": 1.123265
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/11-a.mp3",
+     "sec": 1.227755
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/11-f.mp3",
+     "sec": 6.687347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇿🇦"
+   },
+   "answer": "Afrique du Sud",
+   "rank": 24,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c7b817886f717970.mp3",
+     "sec": 0.835918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/12-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇲"
+   },
+   "answer": "Birmanie",
+   "rank": 25,
+   "voice": {
+    "q": {
+     "src": "tts-cache/2bc5a0e3204b9c7b.mp3",
+     "sec": 1.880816
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/13-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇷"
+   },
+   "answer": "Corée du Sud",
+   "rank": 26,
+   "voice": {
+    "q": {
+     "src": "tts-cache/2bc5a0e3204b9c7b.mp3",
+     "sec": 1.880816
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/14-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇴"
+   },
+   "answer": "Colombie",
+   "rank": 27,
+   "voice": {
+    "q": {
+     "src": "tts-cache/887f3153227058a8.mp3",
+     "sec": 1.410612
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/15-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇸"
+   },
+   "answer": "Espagne",
+   "rank": 29,
+   "voice": {
+    "q": {
+     "src": "tts-cache/6039a3a195e7a4b8.mp3",
+     "sec": 0.862041
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/16-a.mp3",
+     "sec": 1.123265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇦"
+   },
+   "answer": "Ukraine",
+   "rank": 30,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0f3094441587bcd0.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/17-a.mp3",
+     "sec": 1.828571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇿"
+   },
+   "answer": "Algérie",
+   "rank": 33,
+   "voice": {
+    "q": {
+     "src": "tts-cache/62330ebed2eb73dc.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/18-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇱"
+   },
+   "answer": "Pologne",
+   "fact": "Le drapeau de la Pologne est blanc en haut et rouge en bas, à l'inverse de celui de l'Indonésie.",
+   "rank": 34,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cb317c697e9c4c91.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/19-a.mp3",
+     "sec": 1.17551
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/19-f.mp3",
+     "sec": 6.661224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇩"
+   },
+   "answer": "Soudan",
+   "rank": 35,
+   "voice": {
+    "q": {
+     "src": "tts-cache/5140f4f06865f26d.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/20-a.mp3",
+     "sec": 0.626939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇦"
+   },
+   "answer": "Canada",
+   "fact": "Le drapeau du Canada porte une feuille d'érable à onze pointes.",
+   "rank": 37,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a8b3149ce5dec5f7.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/21-a.mp3",
+     "sec": 1.07102
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/21-f.mp3",
+     "sec": 4.989388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇪"
+   },
+   "answer": "Pérou",
+   "rank": 40,
+   "voice": {
+    "q": {
+     "src": "tts-cache/2bc5a0e3204b9c7b.mp3",
+     "sec": 1.880816
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/22-a.mp3",
+     "sec": 1.436735
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇦"
+   },
+   "answer": "Arabie saoudite",
+   "rank": 41,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f9286e2f48aea6af.mp3",
+     "sec": 0.653061
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/23-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇾"
+   },
+   "answer": "Malaisie",
+   "rank": 43,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a2f03a892e23a199.mp3",
+     "sec": 1.436735
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/24-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇪"
+   },
+   "answer": "Venezuela",
+   "rank": 44,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a3123fac3a5270ba.mp3",
+     "sec": 1.253878
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/25-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇭"
+   },
+   "answer": "Ghana",
+   "rank": 46,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1534513079592292.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/26-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇫"
+   },
+   "answer": "Afghanistan",
+   "rank": 47,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1534513079592292.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/27-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇿"
+   },
+   "answer": "Mozambique",
+   "rank": 49,
+   "voice": {
+    "q": {
+     "src": "tts-cache/13736d3a3d725b8f.mp3",
+     "sec": 0.731429
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/28-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇴"
+   },
+   "answer": "Angola",
+   "rank": 51,
+   "voice": {
+    "q": {
+     "src": "tts-cache/08198dcc22d7043d.mp3",
+     "sec": 2.638367
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/29-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇬"
+   },
+   "answer": "Madagascar",
+   "rank": 55,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1534513079592292.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/30-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇲"
+   },
+   "answer": "Cameroun",
+   "rank": 56,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1534513079592292.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/31-a.mp3",
+     "sec": 1.541224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇰"
+   },
+   "answer": "Sri Lanka",
+   "rank": 57,
+   "voice": {
+    "q": {
+     "src": "tts-cache/baabbeb2fc1897a0.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/32-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇴"
+   },
+   "answer": "Roumanie",
+   "rank": 58,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d0e3b9b77a0da344.mp3",
+     "sec": 1.17551
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/33-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇿"
+   },
+   "answer": "Kazakhstan",
+   "rank": 60,
+   "voice": {
+    "q": {
+     "src": "tts-cache/baabbeb2fc1897a0.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/34-a.mp3",
+     "sec": 1.828571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇪"
+   },
+   "answer": "Niger",
+   "rank": 62,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1534513079592292.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/35-a.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇨"
+   },
+   "answer": "Équateur",
+   "rank": 64,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e918a1478440ab23.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/36-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇹"
+   },
+   "answer": "Guatemala",
+   "rank": 65,
+   "voice": {
+    "q": {
+     "src": "tts-cache/640c6b4a72768679.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/37-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇭"
+   },
+   "answer": "Cambodge",
+   "rank": 68,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1534513079592292.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/38-a.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇿🇲"
+   },
+   "answer": "Zambie",
+   "rank": 69,
+   "voice": {
+    "q": {
+     "src": "tts-cache/12eb5dc38e64d8bf.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/39-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇪"
+   },
+   "answer": "Belgique",
+   "rank": 74,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1534513079592292.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/40-a.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇼"
+   },
+   "answer": "Rwanda",
+   "rank": 76,
+   "voice": {
+    "q": {
+     "src": "tts-cache/9e3903a64a19ff80.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/41-a.mp3",
+     "sec": 1.671837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇹"
+   },
+   "answer": "Haïti",
+   "rank": 80,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b39607db11a8981a.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/42-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇳"
+   },
+   "answer": "Guinée",
+   "rank": 81,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e319ef06e1557bef.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/43-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇿"
+   },
+   "answer": "Tchéquie",
+   "rank": 82,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b39607db11a8981a.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/44-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇪"
+   },
+   "answer": "Suède",
+   "rank": 87,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1534513079592292.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/45-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇳"
+   },
+   "answer": "Honduras",
+   "rank": 93,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d393497d0c244aeb.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/46-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇹"
+   },
+   "answer": "Autriche",
+   "rank": 94,
+   "voice": {
+    "q": {
+     "src": "tts-cache/39f2be93a2d3f7ee.mp3",
+     "sec": 1.17551
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/47-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇱"
+   },
+   "answer": "Israël",
+   "rank": 95,
+   "voice": {
+    "q": {
+     "src": "tts-cache/072eb4f740d1c626.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/48-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇬"
+   },
+   "answer": "Togo",
+   "rank": 101,
+   "voice": {
+    "q": {
+     "src": "tts-cache/bb72e5256ca03dd6.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/49-a.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇾"
+   },
+   "answer": "Paraguay",
+   "rank": 102,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3f5e77e39d727885.mp3",
+     "sec": 1.306122
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/50-a.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇯🇴"
+   },
+   "answer": "Jordanie",
+   "rank": 104,
+   "voice": {
+    "q": {
+     "src": "tts-cache/978fa25e44cec694.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/51-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇮"
+   },
+   "answer": "Nicaragua",
+   "fact": "Le drapeau du Nicaragua affiche un arc-en-ciel au centre de son emblème.",
+   "rank": 110,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a089d97a8f51aa09.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/52-a.mp3",
+     "sec": 2.115918
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/52-f.mp3",
+     "sec": 6.086531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇲"
+   },
+   "answer": "Turkménistan",
+   "rank": 111,
+   "voice": {
+    "q": {
+     "src": "tts-cache/072eb4f740d1c626.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/53-a.mp3",
+     "sec": 1.593469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇰"
+   },
+   "answer": "Danemark",
+   "fact": "Le drapeau du Danemark est considéré comme le plus ancien drapeau national encore utilisé.",
+   "rank": 113,
+   "voice": {
+    "q": {
+     "src": "tts-cache/101df1503f0dfbc0.mp3",
+     "sec": 0.835918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/54-a.mp3",
+     "sec": 1.802449
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/54-f.mp3",
+     "sec": 6.661224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇬"
+   },
+   "answer": "Singapour",
+   "rank": 115,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c4f994d358693aba.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/55-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇴"
+   },
+   "answer": "Norvège",
+   "rank": 117,
+   "voice": {
+    "q": {
+     "src": "tts-cache/01570ffd17d336a2.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/56-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇫"
+   },
+   "answer": "République centrafricaine",
+   "rank": 119,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d1b9b63b773fdcbc.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/57-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇬"
+   },
+   "answer": "Congo",
+   "rank": 120,
+   "voice": {
+    "q": {
+     "src": "tts-cache/072eb4f740d1c626.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/58-a.mp3",
+     "sec": 0.835918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇧"
+   },
+   "answer": "Liban",
+   "rank": 125,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c02ed759699ae8a2.mp3",
+     "sec": 3.160816
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/59-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇦"
+   },
+   "answer": "Bosnie-Herzégovine",
+   "rank": 127,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd249d8462acaf72.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/60-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇷"
+   },
+   "answer": "Mauritanie",
+   "rank": 130,
+   "voice": {
+    "q": {
+     "src": "tts-cache/072eb4f740d1c626.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/61-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇾"
+   },
+   "answer": "Uruguay",
+   "fact": "Le drapeau de l'Uruguay a aussi un soleil de Mai, comme celui de l'Argentine.",
+   "rank": 131,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3f5e77e39d727885.mp3",
+     "sec": 1.306122
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/62-a.mp3",
+     "sec": 2.115918
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/62-f.mp3",
+     "sec": 5.720816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇼"
+   },
+   "answer": "Koweït",
+   "rank": 132,
+   "voice": {
+    "q": {
+     "src": "tts-cache/755d616ffb97c168.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/63-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇲"
+   },
+   "answer": "Arménie",
+   "rank": 133,
+   "voice": {
+    "q": {
+     "src": "tts-cache/978fa25e44cec694.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/64-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇳"
+   },
+   "answer": "Mongolie",
+   "rank": 134,
+   "voice": {
+    "q": {
+     "src": "tts-cache/101df1503f0dfbc0.mp3",
+     "sec": 0.835918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/65-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇯🇲"
+   },
+   "answer": "Jamaïque",
+   "fact": "Le drapeau de la Jamaïque est le seul qui ne contient ni rouge, ni blanc, ni bleu.",
+   "rank": 137,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c4f994d358693aba.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/66-a.mp3",
+     "sec": 1.227755
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/66-f.mp3",
+     "sec": 7.157551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇶🇦"
+   },
+   "answer": "Qatar",
+   "fact": "Le drapeau du Qatar a un bord dentelé à neuf pointes, ce qui le rend unique.",
+   "rank": 138,
+   "voice": {
+    "q": {
+     "src": "tts-cache/9c337124be44e9a5.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/67-a.mp3",
+     "sec": 0.966531
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/67-f.mp3",
+     "sec": 5.903673
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇰"
+   },
+   "answer": "Macédoine du Nord",
+   "rank": 142,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd249d8462acaf72.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/68-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇲"
+   },
+   "answer": "Gambie",
+   "rank": 145,
+   "voice": {
+    "q": {
+     "src": "tts-cache/26e693991a07b1a7.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/69-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇼"
+   },
+   "answer": "Guinée-Bissau",
+   "rank": 146,
+   "voice": {
+    "q": {
+     "src": "tts-cache/101df1503f0dfbc0.mp3",
+     "sec": 0.835918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/70-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇦"
+   },
+   "answer": "Gabon",
+   "rank": 147,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8d4560111bb871f8.mp3",
+     "sec": 0.914286
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/71-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇶"
+   },
+   "answer": "Guinée équatoriale",
+   "rank": 148,
+   "voice": {
+    "q": {
+     "src": "tts-cache/806f1c51c2572281.mp3",
+     "sec": 0.940408
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/72-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇹"
+   },
+   "answer": "Trinité-et-Tobago",
+   "rank": 149,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd249d8462acaf72.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/73-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇪"
+   },
+   "answer": "Estonie",
+   "rank": 151,
+   "voice": {
+    "q": {
+     "src": "tts-cache/978fa25e44cec694.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/74-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇪"
+   },
+   "answer": "Monténégro",
+   "rank": 161,
+   "voice": {
+    "q": {
+     "src": "tts-cache/05bd6938cdac9cf7.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/75-a.mp3",
+     "sec": 1.985306
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇧"
+   },
+   "answer": "Îles Salomon",
+   "rank": 162,
+   "voice": {
+    "q": {
+     "src": "tts-cache/05bd6938cdac9cf7.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/76-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇻"
+   },
+   "answer": "Cap-Vert",
+   "rank": 165,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7f9e95797d2ac7f5.mp3",
+     "sec": 0.809796
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/77-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇹"
+   },
+   "answer": "Malte",
+   "rank": 166,
+   "voice": {
+    "q": {
+     "src": "tts-cache/01570ffd17d336a2.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/78-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇿"
+   },
+   "answer": "Belize",
+   "fact": "Le drapeau du Belize est l'un des rares au monde à montrer des personnes.",
+   "rank": 168,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c4f994d358693aba.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/79-a.mp3",
+     "sec": 1.149388
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/79-f.mp3",
+     "sec": 5.407347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇻"
+   },
+   "answer": "Maldives",
+   "rank": 169,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cb222d5209ba6904.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/80-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇸"
+   },
+   "answer": "Islande",
+   "rank": 170,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cb222d5209ba6904.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/81-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇧"
+   },
+   "answer": "Barbade",
+   "rank": 172,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c4f994d358693aba.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/82-a.mp3",
+     "sec": 1.906939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇼🇸"
+   },
+   "answer": "Samoa",
+   "rank": 174,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cb222d5209ba6904.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/83-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇨"
+   },
+   "answer": "Saint-Vincent-et-les Grenadines",
+   "rank": 177,
+   "voice": {
+    "q": {
+     "src": "tts-cache/48127e816e3e32db.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/84-a.mp3",
+     "sec": 2.612245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇴"
+   },
+   "answer": "Tonga",
+   "rank": 180,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e7fa566b9afaeb62.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/85-a.mp3",
+     "sec": 0.679184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇫🇲"
+   },
+   "answer": "Micronésie",
+   "fact": "Le drapeau de la Micronésie a quatre étoiles, une pour chacun de ses États.",
+   "rank": 181,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cb222d5209ba6904.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/86-a.mp3",
+     "sec": 1.410612
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/86-f.mp3",
+     "sec": 6.19102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇨"
+   },
+   "answer": "Seychelles",
+   "rank": 182,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c4f994d358693aba.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/87-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇩"
+   },
+   "answer": "Andorre",
+   "rank": 184,
+   "voice": {
+    "q": {
+     "src": "tts-cache/45e17bb8ef8f79ec.mp3",
+     "sec": 1.541224
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/88-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇭"
+   },
+   "answer": "Îles Marshall",
+   "rank": 186,
+   "voice": {
+    "q": {
+     "src": "tts-cache/958eff7d0afc7e56.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/89-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇨"
+   },
+   "answer": "Monaco",
+   "rank": 189,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cb222d5209ba6904.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/90-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇲"
+   },
+   "answer": "Saint-Marin",
+   "rank": 190,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cb222d5209ba6904.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/91-a.mp3",
+     "sec": 1.906939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇻"
+   },
+   "answer": "Tuvalu",
+   "rank": 192,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3a8b5967e25cefc5.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/92-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇷"
+   },
+   "answer": "Nauru",
+   "rank": 193,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cb222d5209ba6904.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/93-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇦"
+   },
+   "answer": "Vatican",
+   "fact": "Le drapeau du Vatican est l'un des deux seuls drapeaux carrés du monde.",
+   "rank": 194,
+   "voice": {
+    "q": {
+     "src": "tts-cache/5574cae8df2b869a.mp3",
+     "sec": 1.462857
+    },
+    "a": {
+     "src": "tts/2026-11-09-drapeaux/94-a.mp3",
+     "sec": 1.724082
+    },
+    "f": {
+     "src": "tts/2026-11-09-drapeaux/94-f.mp3",
+     "sec": 5.198367
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Le même quiz en version jouable : youqwiz.com"
+ },
+ "meta": {
+  "description": "95 DRAPEAUX à deviner en 5 secondes chacun, du plus facile au plus impossible. 14 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #drapeaux #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:12 Niveau facile\n04:57 Niveau moyen\n09:28 Niveau difficile\n15:09 Niveau impossible\n21:14 Ton score\n21:24 Crée ton quiz sur youqwiz.com",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "drapeaux",
+   "quiz drapeaux",
+   "pays du monde",
+   "géographie",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Trouve",
+   "line2": "95 DRAPEAUX",
+   "emoji": "🚩",
+   "sticker": "TU AS TOUT BON ?",
+   "layouts": [
+    0,
+    1
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Tu tiens combien de questions ? 😱 Devine 95 DRAPEAUX du MONDE #Shorts",
+  "shortDescription": "Tu veux la réponse ? Elle est dans la vidéo complète (95 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 12.666666666666666,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 297.1333333333333,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 568.1,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 909.3,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 1274.0333333333333,
+    "title": "Ton score"
+   },
+   {
+    "at": 1284.7,
+    "title": "Crée ton quiz sur youqwiz.com"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/62b2ff7632c2c0b6.mp3",
+   "sec": 4.336327
+  },
+  "level_moyen": {
+   "src": "tts-cache/c1dd597da49e1592.mp3",
+   "sec": 2.847347
+  },
+  "level_difficile": {
+   "src": "tts-cache/6a4168170b804047.mp3",
+   "sec": 5.067755
+  },
+  "level_impossible": {
+   "src": "tts-cache/71d84d022b7a2083.mp3",
+   "sec": 4.91102
+  },
+  "score": {
+   "src": "tts-cache/ef0ff38ad795df4b.mp3",
+   "sec": 4.832653
+  },
+  "subscribe": {
+   "src": "tts-cache/12be9853171c1ac2.mp3",
+   "sec": 3.63102
+  },
+  "outro": {
+   "src": "tts-cache/48b8e83a2caab2d8.mp3",
+   "sec": 4.205714
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  },
+  "preroll": {
+   "src": "tts-cache/0cd70df1fb5eee89.mp3",
+   "sec": 2.795102
+  },
+  "intro": {
+   "src": "tts/2026-11-09-drapeaux/intro.mp3",
+   "sec": 4.440816
+  },
+  "packshot": {
+   "src": "tts-cache/72d277617320c213.mp3",
+   "sec": 4.989388
+  }
+ }
+}

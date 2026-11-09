@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-departements-numeros",
+  "theme": "geographie",
+  "title": "Quiz numéros des départements : 20 questions",
+  "description": "Quiz sur les numéros des départements français : métropole, Corse et outre-mer. 20 questions, du plus simple à l'expert. Teste-toi en quelques minutes !",
+  "h1": "Quiz numéros des départements : connais-tu les codes de la France ?",
+  "intro": "Du 01 au 95, sans oublier 2A, 2B et les 97x d'outre-mer : les numéros de départements se croisent sur les plaques d'immatriculation, les codes postaux et les cartes grises. Connais-tu vraiment ce qui se cache derrière chaque chiffre ? Ce quiz de 20 questions te demande tantôt le département correspondant à un numéro, tantôt le numéro d'un département. Les huit premières questions sont accessibles, les huit suivantes demandent un peu de mémoire et les quatre dernières mettront les experts à l'épreuve. Compte environ 5 secondes par question, et tente de battre ton meilleur score !",
+  "questions": [
+    {
+      "q": "Quel département porte le numéro 31 ?",
+      "choices": [
+        "Le Gers",
+        "La Haute-Garonne",
+        "Le Tarn",
+        "L'Ariège"
+      ],
+      "answer": 1,
+      "explication": "Sa préfecture est Toulouse. Les numéros ont été attribués dans l'ordre alphabétique des noms de départements de l'époque, d'où le 31 juste après le Gard (30).",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le numéro du Finistère ?",
+      "choices": [
+        "22",
+        "56",
+        "50",
+        "29"
+      ],
+      "answer": 3,
+      "explication": "Les quatre départements bretons portent les numéros 22 (Côtes-d'Armor), 29 (Finistère), 35 (Ille-et-Vilaine) et 56 (Morbihan).",
+      "level": "facile"
+    },
+    {
+      "q": "Quel département porte le numéro 67 ?",
+      "choices": [
+        "Le Bas-Rhin",
+        "Le Haut-Rhin",
+        "La Moselle",
+        "La Meurthe-et-Moselle"
+      ],
+      "answer": 0,
+      "explication": "Le Bas-Rhin, dont la préfecture est Strasbourg, porte le 67 ; son voisin du sud, le Haut-Rhin, porte le 68.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le numéro de la Loire-Atlantique ?",
+      "choices": [
+        "49",
+        "85",
+        "44",
+        "56"
+      ],
+      "answer": 2,
+      "explication": "Le département de Nantes porte le 44, un numéro hérité de l'époque où il s'appelait Loire-Inférieure.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel département porte le numéro 06 ?",
+      "choices": [
+        "Le Var",
+        "Les Alpes-de-Haute-Provence",
+        "Les Alpes-Maritimes",
+        "Les Hautes-Alpes"
+      ],
+      "answer": 2,
+      "explication": "Les Alpes-Maritimes, avec Nice pour préfecture, ont le 06. Le zéro initial est toujours écrit pour les numéros de 01 à 09.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le numéro de la Seine-Maritime ?",
+      "choices": [
+        "76",
+        "27",
+        "77",
+        "80"
+      ],
+      "answer": 0,
+      "explication": "La Seine-Maritime, préfecture Rouen, porte le 76. Elle s'appelait Seine-Inférieure jusqu'en 1955.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel département porte le numéro 34 ?",
+      "choices": [
+        "Le Gard",
+        "L'Aude",
+        "Le Tarn",
+        "L'Hérault"
+      ],
+      "answer": 3,
+      "explication": "L'Hérault, dont la préfecture est Montpellier, porte le 34 : on le voit sur les plaques de toute la côte languedocienne.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le numéro du Pas-de-Calais ?",
+      "choices": [
+        "60",
+        "62",
+        "61",
+        "80"
+      ],
+      "answer": 1,
+      "explication": "Le Pas-de-Calais (préfecture Arras) porte le 62, juste après l'Orne (61) dans l'ordre alphabétique. Ne le confonds pas avec le Nord, qui porte le 59.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel département porte le numéro 2B ?",
+      "choices": [
+        "La Haute-Corse",
+        "La Corse-du-Sud",
+        "Le Cantal",
+        "La Haute-Loire"
+      ],
+      "answer": 0,
+      "explication": "Depuis 1976, la Corse est divisée en 2A (Corse-du-Sud, Ajaccio) et 2B (Haute-Corse, Bastia).",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel département d'outre-mer porte le numéro 971 ?",
+      "choices": [
+        "La Martinique",
+        "La Guyane",
+        "La Guadeloupe",
+        "La Réunion"
+      ],
+      "answer": 2,
+      "explication": "Les départements d'outre-mer commencent par 97 : 971 Guadeloupe, 972 Martinique, 973 Guyane, 974 La Réunion et 976 Mayotte.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel département d'outre-mer porte le numéro 974 ?",
+      "choices": [
+        "La Guadeloupe",
+        "La Réunion",
+        "La Martinique",
+        "Mayotte"
+      ],
+      "answer": 1,
+      "explication": "La Réunion, dans l'océan Indien, est le 974 ; sa préfecture est Saint-Denis.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel département d'outre-mer porte le numéro 973 ?",
+      "choices": [
+        "Mayotte",
+        "La Réunion",
+        "La Martinique",
+        "La Guyane"
+      ],
+      "answer": 3,
+      "explication": "La Guyane, en Amérique du Sud, porte le 973. Sa préfecture est Cayenne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le numéro de la Seine-Saint-Denis ?",
+      "choices": [
+        "91",
+        "92",
+        "94",
+        "93"
+      ],
+      "answer": 3,
+      "explication": "Créée en 1964 et opérationnelle en 1968, la Seine-Saint-Denis (préfecture Bobigny) fait partie de la petite couronne avec le 92 et le 94.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel département porte le numéro 92 ?",
+      "choices": [
+        "Le Val-de-Marne",
+        "Les Hauts-de-Seine",
+        "La Seine-Saint-Denis",
+        "L'Essonne"
+      ],
+      "answer": 1,
+      "explication": "Les Hauts-de-Seine, dont la préfecture est Nanterre, ont le 92. Ils ont été créés dans la réorganisation de la région parisienne de 1964.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le numéro de la Haute-Savoie ?",
+      "choices": [
+        "73",
+        "84",
+        "74",
+        "26"
+      ],
+      "answer": 2,
+      "explication": "La Haute-Savoie (préfecture Annecy) porte le 74 ; la Savoie voisine porte le 73.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel département porte le numéro 38 ?",
+      "choices": [
+        "L'Isère",
+        "La Savoie",
+        "La Drôme",
+        "L'Ain"
+      ],
+      "answer": 0,
+      "explication": "L'Isère, préfecture Grenoble, porte le 38. Son nom vient de la rivière qui la traverse.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel département porte le numéro 90 ?",
+      "choices": [
+        "Les Vosges",
+        "La Haute-Saône",
+        "Le Territoire de Belfort",
+        "Le Doubs"
+      ],
+      "answer": 2,
+      "explication": "Seul département de France dont le nom commence par « Territoire », il a été créé en 1922 et a reçu le numéro 90.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel département porte le numéro 04 ?",
+      "choices": [
+        "Les Alpes-de-Haute-Provence",
+        "Les Hautes-Alpes",
+        "Les Alpes-Maritimes",
+        "Le Vaucluse"
+      ],
+      "answer": 0,
+      "explication": "Il s'appelait Basses-Alpes jusqu'en 1970. Sa préfecture est Digne-les-Bains.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel département porte le numéro 55 ?",
+      "choices": [
+        "La Marne",
+        "La Meuse",
+        "La Moselle",
+        "Les Vosges"
+      ],
+      "answer": 1,
+      "explication": "La Meuse, préfecture Bar-le-Duc, porte le 55. Elle tire son nom du fleuve qui la traverse.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le numéro du Tarn-et-Garonne ?",
+      "choices": [
+        "81",
+        "83",
+        "46",
+        "82"
+      ],
+      "answer": 3,
+      "explication": "Créé en 1808 sous Napoléon Ier, le Tarn-et-Garonne (préfecture Montauban) porte le 82 ; le Tarn voisin porte le 81.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi les départements ont-ils un numéro ?",
+      "Le numéro sert d'identifiant administratif : il figure dans les codes postaux, les anciennes plaques d'immatriculation et le numéro de sécurité sociale. Il a été attribué à l'origine dans l'ordre alphabétique des noms de départements, ce qui explique que l'Ain porte le 01 et l'Yonne le 89."
+    ],
+    [
+      "Comment sont numérotés la Corse et l'outre-mer ?",
+      "La Corse est divisée en deux départements depuis 1976 : 2A pour la Corse-du-Sud et 2B pour la Haute-Corse. Les départements d'outre-mer ont un numéro à trois chiffres commençant par 97 : Guadeloupe 971, Martinique 972, Guyane 973, La Réunion 974 et Mayotte 976."
+    ],
+    [
+      "Comment retenir les numéros des départements ?",
+      "Le plus simple est de partir de l'ordre alphabétique, qui fonctionne pour les départements historiques, puis d'apprendre par région : Bretagne 22, 29, 35, 56, ou petite couronne 92, 93, 94. S'entraîner avec un quiz régulier aide beaucoup à mémoriser les exceptions, comme le 90 ou les numéros d'Île-de-France."
+    ]
+  ],
+  "related": [
+    "/quiz-departements",
+    "/quiz-prefectures",
+    "/quiz-departements-difficile",
+    "/quiz-geographie-france",
+    "/quiz-regions-de-france"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-football",
+  "theme": "sport",
+  "title": "Quiz football : 20 questions sur le foot",
+  "description": "Quiz football gratuit : 20 questions sur les règles, la Coupe du monde, les clubs et les légendes du foot. Teste-toi en 5 s par question !",
+  "h1": "Quiz football : es-tu un vrai fan de foot ?",
+  "intro": "Prêt pour le coup d'envoi ? Ce quiz football te propose 20 questions qui vont des règles de base aux grandes pages de l'histoire : Coupes du monde, Euro, Ballon d'or et joueurs légendaires. Les questions commencent facilement, puis la difficulté monte jusqu'à quelques pièges réservés aux vrais passionnés. Tu as 5 secondes par question, alors fie-toi à ton instinct ! Chaque réponse est suivie d'une petite explication pour apprendre quelque chose à chaque fois. Défie tes amis, ta famille ou tes collègues et compare vos scores. Alors, tu te sens d'attaque pour viser le sans-faute ?",
+  "questions": [
+    {
+      "q": "Combien de joueurs une équipe aligne-t-elle sur le terrain, gardien compris ?",
+      "choices": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": 2,
+      "explication": "Une équipe de football compte 11 joueurs sur le terrain, dont le gardien de but.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de minutes dure un match de football, hors temps additionnel ?",
+      "choices": [
+        "90 minutes",
+        "80 minutes",
+        "100 minutes",
+        "120 minutes"
+      ],
+      "answer": 0,
+      "explication": "Un match se joue en deux mi-temps de 45 minutes, avec un temps additionnel décidé par l'arbitre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays a remporté la Coupe du monde 1998, organisée sur son sol ?",
+      "choices": [
+        "Le Brésil",
+        "L'Italie",
+        "L'Allemagne",
+        "La France"
+      ],
+      "answer": 3,
+      "explication": "L'équipe de France a battu le Brésil 3-0 en finale au Stade de France, son premier titre mondial.",
+      "level": "facile"
+    },
+    {
+      "q": "De quelle couleur est le carton qui entraîne l'exclusion d'un joueur ?",
+      "choices": [
+        "Jaune",
+        "Rouge",
+        "Vert",
+        "Bleu"
+      ],
+      "answer": 1,
+      "explication": "Le carton rouge exclut le joueur, qui ne peut pas être remplacé. Le jaune est un simple avertissement.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel joueur est le seul autorisé à toucher le ballon à la main dans sa surface de réparation ?",
+      "choices": [
+        "Le défenseur central",
+        "L'attaquant",
+        "Le capitaine",
+        "Le gardien de but"
+      ],
+      "answer": 3,
+      "explication": "Le gardien peut utiliser les mains dans sa surface, sauf sur une passe volontaire du pied ou une rentrée de touche d'un coéquipier.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quel pays s'est déroulée la Coupe du monde 2018 ?",
+      "choices": [
+        "Le Qatar",
+        "La Russie",
+        "Le Brésil",
+        "L'Afrique du Sud"
+      ],
+      "answer": 1,
+      "explication": "La Russie a accueilli le Mondial 2018, remporté par la France en finale face à la Croatie.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la nationalité de la légende Pelé ?",
+      "choices": [
+        "Brésilienne",
+        "Argentine",
+        "Portugaise",
+        "Uruguayenne"
+      ],
+      "answer": 0,
+      "explication": "Pelé est brésilien : il a remporté trois Coupes du monde avec le Brésil, en 1958, 1962 et 1970.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de points rapporte une victoire dans un championnat de football ?",
+      "choices": [
+        "2 points",
+        "1 point",
+        "3 points",
+        "4 points"
+      ],
+      "answer": 2,
+      "explication": "La victoire vaut 3 points, le match nul 1 point et la défaite 0.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays a remporté la première Coupe du monde, en 1930 ?",
+      "choices": [
+        "Le Brésil",
+        "L'Uruguay",
+        "L'Argentine",
+        "L'Italie"
+      ],
+      "answer": 1,
+      "explication": "L'Uruguay, pays organisateur, a battu l'Argentine 4-2 en finale de la toute première édition.",
+      "level": "moyen"
+    },
+    {
+      "q": "Contre quelle équipe Maradona a-t-il marqué le but de la « main de Dieu » en 1986 ?",
+      "choices": [
+        "L'Allemagne",
+        "La Belgique",
+        "L'Italie",
+        "L'Angleterre"
+      ],
+      "answer": 3,
+      "explication": "En quart de finale du Mondial 1986, Maradona a marqué de la main contre l'Angleterre, puis un second but exceptionnel.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel club remporte la première Coupe des clubs champions européens, en 1956 ?",
+      "choices": [
+        "Le Stade de Reims",
+        "L'AC Milan",
+        "Le Real Madrid",
+        "Benfica"
+      ],
+      "answer": 2,
+      "explication": "Le Real Madrid bat le Stade de Reims 4-3 en finale au Parc des Princes, puis remporte les cinq premières éditions.",
+      "level": "moyen"
+    },
+    {
+      "q": "À quelle distance du but est placé le point de penalty ?",
+      "choices": [
+        "11 mètres",
+        "9 mètres",
+        "10 mètres",
+        "12 mètres"
+      ],
+      "answer": 0,
+      "explication": "Le point de réparation se situe à 11 mètres de la ligne de but, au centre de la surface.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel stade est l'enceinte historique du Real Madrid ?",
+      "choices": [
+        "Le Santiago Bernabéu",
+        "Le Camp Nou",
+        "L'Allianz Arena",
+        "Anfield"
+      ],
+      "answer": 0,
+      "explication": "Le Santiago Bernabéu se trouve à Madrid et porte le nom d'un ancien président du club.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel pays a gagné l'Euro 2016, organisé en France ?",
+      "choices": [
+        "La France",
+        "L'Allemagne",
+        "Le Portugal",
+        "L'Italie"
+      ],
+      "answer": 2,
+      "explication": "Le Portugal a battu la France 1-0 en finale au Stade de France, après prolongation.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de Coupes du monde masculines le Brésil a-t-il remportées jusqu'en 2002 ?",
+      "choices": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "explication": "Le Brésil a gagné en 1958, 1962, 1970, 1994 et 2002.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel média est à l'origine du Ballon d'or ?",
+      "choices": [
+        "La FIFA",
+        "L'UEFA",
+        "L'Équipe",
+        "France Football"
+      ],
+      "answer": 3,
+      "explication": "Le magazine France Football a créé le Ballon d'or en 1956.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle équipe a battu le Brésil lors du match décisif du Mondial 1950 au Maracanã ?",
+      "choices": [
+        "L'Argentine",
+        "L'Espagne",
+        "La Suède",
+        "L'Uruguay"
+      ],
+      "answer": 3,
+      "explication": "Cette défaite 2-1 devant près de 200 000 spectateurs reste connue sous le nom de « Maracanazo ».",
+      "level": "expert"
+    },
+    {
+      "q": "Qui a reçu le tout premier Ballon d'or, en 1956 ?",
+      "choices": [
+        "Stanley Matthews",
+        "Alfredo Di Stefano",
+        "Raymond Kopa",
+        "Lev Yachine"
+      ],
+      "answer": 0,
+      "explication": "L'ailier anglais Stanley Matthews a été le premier lauréat du Ballon d'or.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel gardien de but a remporté le Ballon d'or en 1963 ?",
+      "choices": [
+        "Gordon Banks",
+        "Lev Yachine",
+        "Dino Zoff",
+        "Sepp Maier"
+      ],
+      "answer": 1,
+      "explication": "Le Soviétique Lev Yachine, surnommé l'« Araignée noire », est le premier gardien lauréat du Ballon d'or.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel pays remporte la Coupe du monde 1966, organisée sur son sol ?",
+      "choices": [
+        "Le Portugal",
+        "L'Union soviétique",
+        "L'Angleterre",
+        "La Hongrie"
+      ],
+      "answer": 2,
+      "explication": "Organisatrice, l'Angleterre a battu l'Allemagne de l'Ouest 4-2 après prolongation à Wembley.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelles sont les règles de base du football ?",
+      "Deux équipes de onze joueurs s'affrontent pendant deux mi-temps de 45 minutes. Le but est de mettre le ballon dans le but adverse sans utiliser les mains ni les bras, sauf pour le gardien dans sa surface. L'équipe qui marque le plus de buts gagne la rencontre."
+    ],
+    [
+      "Combien de temps dure un match de football ?",
+      "Un match officiel dure 90 minutes, soit deux mi-temps de 45 minutes séparées par une pause d'environ quinze minutes. L'arbitre ajoute du temps additionnel pour compenser les arrêts de jeu. En cas d'égalité lors d'une phase à élimination directe, une prolongation de deux fois 15 minutes peut être jouée, puis les tirs au but."
+    ],
+    [
+      "Combien de questions contient ce quiz football ?",
+      "Ce quiz contient 20 questions à choix multiples avec quatre réponses possibles, dont une seule est correcte. Elles sont classées par difficulté : huit faciles, huit moyennes et quatre expert. Chaque bonne ou mauvaise réponse est accompagnée d'une courte explication pour t'aider à retenir l'information."
+    ]
+  ],
+  "related": [
+    "/quiz-sport",
+    "/quiz-rugby",
+    "/quiz-jeux-olympiques",
+    "/quiz-tour-de-france"
+  ]
+}

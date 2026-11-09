@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-antiquite",
+  "theme": "histoire",
+  "title": "Quiz Antiquité : Égypte, Grèce, Rome, Gaule",
+  "description": "Quiz Antiquité : 20 questions sur l'Égypte, la Grèce, Rome et la Gaule, des pharaons à Vercingétorix. Teste ta culture d'histoire ancienne !",
+  "h1": "Quiz Antiquité : que sais-tu de l'Égypte, de la Grèce, de Rome et de la Gaule ?",
+  "intro": "Des pharaons du Nil aux légions de Rome, en passant par les cités grecques et les guerriers gaulois, l'Antiquité a façonné notre monde. Ce quiz te propose 20 questions sur l'Égypte, la Grèce, Rome et la Gaule, des plus accessibles aux plus pointues. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication pour retenir une date, un nom ou un lieu. Idéal pour réviser, jouer en famille ou défier tes amis. Prêt à remonter le temps et à viser le sans-faute ?",
+  "questions": [
+    {
+      "q": "Quel fleuve fait vivre l'Égypte antique ?",
+      "choices": [
+        "Le Nil",
+        "Le Tigre",
+        "Le Danube",
+        "Le Jourdain"
+      ],
+      "answer": 0,
+      "explication": "Chaque année, ses crues déposaient un limon fertile qui rendait possibles les cultures dans le désert.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on le roi de l'Égypte ancienne ?",
+      "choices": [
+        "Le satrape",
+        "Le consul",
+        "Le pharaon",
+        "Le calife"
+      ],
+      "answer": 2,
+      "explication": "Le pharaon est à la fois chef politique, chef militaire et intermédiaire entre les hommes et les dieux.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle ville se tenaient les Jeux olympiques de l'Antiquité ?",
+      "choices": [
+        "Olympie",
+        "Delphes",
+        "Sparte",
+        "Corinthe"
+      ],
+      "answer": 0,
+      "explication": "Les premiers Jeux connus datent de 776 avant J.-C., en l'honneur de Zeus, dans le sanctuaire d'Olympie.",
+      "level": "facile"
+    },
+    {
+      "q": "Selon la légende, quels jumeaux sont les fondateurs de Rome ?",
+      "choices": [
+        "Énée et Ulysse",
+        "Castor et Pollux",
+        "Brutus et Cassius",
+        "Romulus et Rémus"
+      ],
+      "answer": 3,
+      "explication": "La tradition place la fondation de Rome en 753 avant J.-C. ; Romulus donne son nom à la ville.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel général romain conquiert la Gaule entre 58 et 51 avant J.-C. ?",
+      "choices": [
+        "Auguste",
+        "Jules César",
+        "Néron",
+        "Scipion"
+      ],
+      "answer": 1,
+      "explication": "Il raconte lui-même cette campagne dans son ouvrage La Guerre des Gaules.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel chef arverne mène la révolte gauloise contre César en 52 avant J.-C. ?",
+      "choices": [
+        "Brennus",
+        "Ambiorix",
+        "Vercingétorix",
+        "Clovis"
+      ],
+      "answer": 2,
+      "explication": "Il rassemble de nombreux peuples gaulois contre Rome avant d'être vaincu.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on l'écriture des monuments de l'Égypte antique ?",
+      "choices": [
+        "Les cunéiformes",
+        "Les hiéroglyphes",
+        "Les runes",
+        "Les idéogrammes chinois"
+      ],
+      "answer": 1,
+      "explication": "Le mot vient du grec et signifie « signes sacrés gravés ».",
+      "level": "facile"
+    },
+    {
+      "q": "Quel immense amphithéâtre de Rome accueillait les combats de gladiateurs ?",
+      "choices": [
+        "Le Colisée",
+        "Le Panthéon",
+        "Le Capitole",
+        "Le Parthénon"
+      ],
+      "answer": 0,
+      "explication": "Inauguré en l'an 80, il pouvait accueillir des dizaines de milliers de spectateurs.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pharaon est célèbre pour son tombeau presque intact découvert en 1922 ?",
+      "choices": [
+        "Ramsès II",
+        "Khéops",
+        "Akhénaton",
+        "Toutânkhamon"
+      ],
+      "answer": 3,
+      "explication": "Howard Carter découvre sa tombe dans la Vallée des Rois, avec un trésor funéraire exceptionnel.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel objet découvert en 1799 a permis à Champollion de déchiffrer les hiéroglyphes ?",
+      "choices": [
+        "Le code d'Hammurabi",
+        "La pierre de Rosette",
+        "Le disque de Phaistos",
+        "La stèle de Mésha"
+      ],
+      "answer": 1,
+      "explication": "Elle porte un même texte en hiéroglyphes, en démotique et en grec ; Champollion annonce sa percée en 1822.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel poète grec est traditionnellement l'auteur de l'Iliade et de l'Odyssée ?",
+      "choices": [
+        "Hésiode",
+        "Sophocle",
+        "Homère",
+        "Virgile"
+      ],
+      "answer": 2,
+      "explication": "Ces deux épopées racontent la guerre de Troie et le retour d'Ulysse.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle cité grecque est réputée pour l'éducation militaire très stricte de ses citoyens ?",
+      "choices": [
+        "Corinthe",
+        "Sparte",
+        "Thèbes",
+        "Argos"
+      ],
+      "answer": 1,
+      "explication": "Les jeunes Spartiates suivaient dès l'enfance l'éducation collective appelée agôgé.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui est le premier empereur romain, à partir de 27 avant J.-C. ?",
+      "choices": [
+        "Auguste",
+        "Jules César",
+        "Néron",
+        "Trajan"
+      ],
+      "answer": 0,
+      "explication": "Petit-neveu et héritier de César, Octave reçoit le titre d'Auguste du Sénat.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel peuple les Athéniens battent-ils à Marathon en 490 avant J.-C. ?",
+      "choices": [
+        "Les Carthaginois",
+        "Les Macédoniens",
+        "Les Romains",
+        "Les Perses"
+      ],
+      "answer": 3,
+      "explication": "C'est une victoire majeure de la première guerre médique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel général carthaginois franchit les Alpes avec des éléphants pour attaquer Rome ?",
+      "choices": [
+        "Hamilcar",
+        "Scipion",
+        "Hannibal",
+        "Pyrrhus"
+      ],
+      "answer": 2,
+      "explication": "Cette traversée a lieu en 218 avant J.-C., pendant la deuxième guerre punique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Devant quelle place forte Vercingétorix se rend-il à César en 52 avant J.-C. ?",
+      "choices": [
+        "Bibracte",
+        "Lutèce",
+        "Uxellodunum",
+        "Alésia"
+      ],
+      "answer": 3,
+      "explication": "César l'assiège avec des fortifications doubles ; la reddition de Vercingétorix met fin à la révolte.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle victoire gauloise contre César précède le siège d'Alésia en 52 avant J.-C. ?",
+      "choices": [
+        "Avaricum",
+        "Gergovie",
+        "Bibracte",
+        "Actium"
+      ],
+      "answer": 1,
+      "explication": "À Gergovie, en Auvergne, César subit un des rares revers de la campagne.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel empereur fait édifier un mur frontière dans le nord de la Bretagne romaine, vers 122 ?",
+      "choices": [
+        "Hadrien",
+        "Trajan",
+        "Claude",
+        "Marc Aurèle"
+      ],
+      "answer": 0,
+      "explication": "Le mur d'Hadrien s'étend sur plus de 100 kilomètres et reste visible aujourd'hui.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle bataille navale de 31 avant J.-C. oppose Octave à Marc Antoine et Cléopâtre ?",
+      "choices": [
+        "Salamine",
+        "Pharsale",
+        "Zama",
+        "Actium"
+      ],
+      "answer": 3,
+      "explication": "La victoire d'Octave lui ouvre la voie du pouvoir absolu ; l'Égypte des Ptolémées tombe l'année suivante, en 30 avant J.-C.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel édit de 212 accorde la citoyenneté romaine à presque tous les hommes libres de l'Empire ?",
+      "choices": [
+        "L'édit de Milan",
+        "L'édit de Dioclétien",
+        "L'édit de Caracalla",
+        "L'édit de Théodose"
+      ],
+      "answer": 2,
+      "explication": "Aussi appelé constitution antonine, il porte le nom de l'empereur Caracalla.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelle période couvre l'Antiquité ?",
+      "En Europe, on la situe classiquement de l'invention de l'écriture, vers 3300 avant J.-C., jusqu'à la chute de l'Empire romain d'Occident en 476. Elle comprend les grandes civilisations du Nil, de la Mésopotamie, de la Grèce et de Rome, ainsi que la Gaule celtique puis gallo-romaine."
+    ],
+    [
+      "Quelle est la différence entre Gaulois et Gallo-Romains ?",
+      "Les Gaulois sont les peuples celtes qui vivaient en Gaule avant la conquête de César, achevée en 51 avant J.-C. Les Gallo-Romains désignent leurs descendants après l'intégration à l'Empire romain, qui adoptent le latin, les routes, les villes et de nombreuses coutumes romaines."
+    ],
+    [
+      "Comment réviser l'histoire ancienne facilement ?",
+      "Retiens quelques repères chronologiques : Marathon en 490 avant J.-C., Alésia en 52 avant J.-C., Actium en 31 avant J.-C. Associe chaque date à un personnage et à un lieu, puis teste-toi régulièrement avec des quiz courts comme celui-ci pour mémoriser durablement."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-moyen-age",
+    "/quiz-histoire-de-france",
+    "/quiz-culture-generale-difficile"
+  ]
+}

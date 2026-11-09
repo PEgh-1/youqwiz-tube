@@ -1,0 +1,1384 @@
+{
+ "id": "2026-11-05-pays-sans-voyelles",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "theme": 1,
+ "title": "Devine 77 PAYS sans VOYELLES en 5 secondes 🌍🚩✅ | Facile, Moyen, Difficile, Impossible",
+ "question": "Quel est ce pays sans voyelles ?",
+ "intro": {
+  "hook": "Devine 77 PAYS sans VOYELLES",
+  "sub": "en 5 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "text",
+    "value": "CR__T__"
+   },
+   "answer": "Croatie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/0-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "K_N__"
+   },
+   "answer": "Kenya",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/1-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "TR_N_T_-_T-T_B_G_"
+   },
+   "answer": "Trinité-et-Tobago",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/2-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_P-V_RT"
+   },
+   "answer": "Cap-Vert",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/3-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P__S-B_S"
+   },
+   "answer": "Pays-Bas",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/4-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_L__S__"
+   },
+   "answer": "Malaisie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/5-a.mp3",
+     "sec": 0.679184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "V_T_C_N"
+   },
+   "answer": "Vatican",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/6-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_LV_D_R"
+   },
+   "answer": "Salvador",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/7-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_B_R__"
+   },
+   "answer": "Liberia",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/8-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "Q_T_R"
+   },
+   "answer": "Qatar",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/9-a.mp3",
+     "sec": 0.679184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "D_N_M_RK"
+   },
+   "answer": "Danemark",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/10-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G_MB__"
+   },
+   "answer": "Gambie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/11-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "V_N_Z__L_"
+   },
+   "answer": "Venezuela",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/12-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_M_R _R__NT_L"
+   },
+   "answer": "Timor oriental",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/13-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "J_M__Q__"
+   },
+   "answer": "Jamaïque",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/14-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_R__ D_ N_RD"
+   },
+   "answer": "Corée du Nord",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/15-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_N_N"
+   },
+   "answer": "Bénin",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/16-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_NGL_D_SH"
+   },
+   "answer": "Bangladesh",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/17-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "CH_PR_"
+   },
+   "answer": "Chypre",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/18-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_FR_Q__ D_ S_D"
+   },
+   "answer": "Afrique du Sud",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/19-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_R__"
+   },
+   "answer": "Pérou",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/20-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "H_ND_R_S"
+   },
+   "answer": "Honduras",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/21-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_B__"
+   },
+   "answer": "Libye",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/22-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__ T_M_-_T-PR_NC_P_"
+   },
+   "answer": "Sao Tomé-et-Principe",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/23-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_ND_N_S__"
+   },
+   "answer": "Indonésie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/24-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__D_N"
+   },
+   "answer": "Soudan",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/25-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "F_DJ_"
+   },
+   "answer": "Fidji",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/26-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "SR_ L_NK_"
+   },
+   "answer": "Sri Lanka",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/27-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_G_"
+   },
+   "answer": "Togo",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/28-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_G_R"
+   },
+   "answer": "Niger",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/29-a.mp3",
+     "sec": 0.757551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_L_S M_RSH_LL"
+   },
+   "answer": "Îles Marshall",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/30-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_L_Z_"
+   },
+   "answer": "Belize",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/31-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M__R_T_N__"
+   },
+   "answer": "Mauritanie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/32-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_M__"
+   },
+   "answer": "Samoa",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/33-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_NT_G__-_T-B_RB_D_"
+   },
+   "answer": "Antigua-et-Barbuda",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/34-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_N_S__"
+   },
+   "answer": "Tunisie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/35-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G__N__"
+   },
+   "answer": "Guinée",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/36-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_ND_RR_"
+   },
+   "answer": "Andorre",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/37-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "SL_V_Q___"
+   },
+   "answer": "Slovaquie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/38-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "__M_N"
+   },
+   "answer": "Yémen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/39-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_KR__N_"
+   },
+   "answer": "Ukraine",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/40-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "TCH_D"
+   },
+   "answer": "Tchad",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/41-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G__RG__"
+   },
+   "answer": "Géorgie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/42-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_HR__N"
+   },
+   "answer": "Bahreïn",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/43-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_K_ST_N"
+   },
+   "answer": "Pakistan",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/44-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G__N__-B_SS__"
+   },
+   "answer": "Guinée-Bissau",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/45-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_RG_NT_N_"
+   },
+   "answer": "Argentine",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/46-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_N_M_"
+   },
+   "answer": "Panama",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/47-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_LL_M_GN_"
+   },
+   "answer": "Allemagne",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/48-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_R__ D_ S_D"
+   },
+   "answer": "Corée du Sud",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/49-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_TT_N__"
+   },
+   "answer": "Lettonie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/50-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_R_K"
+   },
+   "answer": "Irak",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/51-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_N_C_"
+   },
+   "answer": "Monaco",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/52-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G__T_M_L_"
+   },
+   "answer": "Guatemala",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/53-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__NT-M_R_N"
+   },
+   "answer": "Saint-Marin",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/54-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_LD_V_S"
+   },
+   "answer": "Maldives",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/55-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_N_G_L"
+   },
+   "answer": "Sénégal",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/56-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "D_M_N_Q__"
+   },
+   "answer": "Dominique",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/57-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_TSW_N_"
+   },
+   "answer": "Botswana",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/58-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_ST_N__"
+   },
+   "answer": "Estonie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/59-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_R_ND_"
+   },
+   "answer": "Burundi",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/60-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N__R_"
+   },
+   "answer": "Nauru",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/61-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "K_R_B_T_"
+   },
+   "answer": "Kiribati",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/62-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "BH__T_N"
+   },
+   "answer": "Bhoutan",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/63-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "R_SS__"
+   },
+   "answer": "Russie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/64-a.mp3",
+     "sec": 0.679184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_X_Q__"
+   },
+   "answer": "Mexique",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/65-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_C_D__N_ D_ N_RD"
+   },
+   "answer": "Macédoine du Nord",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/66-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "FR_NC_"
+   },
+   "answer": "France",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/67-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "TH__L_ND_"
+   },
+   "answer": "Thaïlande",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/68-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "H_NGR__"
+   },
+   "answer": "Hongrie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/69-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_M_N"
+   },
+   "answer": "Oman",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/70-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_RK_N_ F_S_"
+   },
+   "answer": "Burkina Faso",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0bb496ab00f8f1fc.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/71-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "__ZB_K_ST_N"
+   },
+   "answer": "Ouzbékistan",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f734b38e9ff42adb.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/72-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G__N__ _Q__T_R__L_"
+   },
+   "answer": "Guinée équatoriale",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6aab4290235e0427.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/73-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_X_MB__RG"
+   },
+   "answer": "Luxembourg",
+   "voice": {
+    "q": {
+     "src": "tts-cache/986f78c0851db950.mp3",
+     "sec": 1.567347
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/74-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "__G_ND_"
+   },
+   "answer": "Ouganda",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e5bd819929fb502c.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/75-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G_B_N"
+   },
+   "answer": "Gabon",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a212c230cee72f68.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-05-pays-sans-voyelles/76-a.mp3",
+     "sec": 0.914286
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Devine 77 PAYS sans VOYELLES en 5 secondes, de facile à impossible ! Dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #payssansvoyelles #youqwiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "devinette",
+   "youqwiz",
+   "pays sans voyelles",
+   "devine",
+   "facile à impossible"
+  ],
+  "thumbnail": {
+   "line1": "Devine",
+   "line2": "77 PAYS sans VOYELLES",
+   "emoji": "🌍"
+  },
+  "shortItems": 5
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/4854a0f54677bba7.mp3",
+   "sec": 1.880816
+  },
+  "level_moyen": {
+   "src": "tts-cache/b0d79166171c7633.mp3",
+   "sec": 1.802449
+  },
+  "level_difficile": {
+   "src": "tts-cache/e3bbb51058fe8e48.mp3",
+   "sec": 1.959184
+  },
+  "level_impossible": {
+   "src": "tts-cache/a9f1bd2bd5a7457d.mp3",
+   "sec": 3.552653
+  },
+  "score": {
+   "src": "tts-cache/442f8d5710e315cd.mp3",
+   "sec": 2.586122
+  },
+  "subscribe": {
+   "src": "tts-cache/4acfd2468b598d3e.mp3",
+   "sec": 4.440816
+  },
+  "outro": {
+   "src": "tts-cache/d918647a8c32cf50.mp3",
+   "sec": 4.205714
+  },
+  "cliff": {
+   "src": "tts-cache/bdad6413a3977c76.mp3",
+   "sec": 3.787755
+  }
+ }
+}

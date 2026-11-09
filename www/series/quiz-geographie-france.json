@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-geographie-france",
+  "theme": "geographie",
+  "title": "Quiz géographie de la France : 20 questions",
+  "description": "Quiz géographie de la France : fleuves, montagnes, massifs, côtes et frontières en 20 questions. Du niveau facile à expert, joue gratuitement !",
+  "h1": "Quiz géographie de la France : connais-tu ton pays ?",
+  "intro": "De la Manche à la Méditerranée, des Alpes aux Pyrénées, la France offre des paysages d'une grande diversité. Ce quiz de 20 questions teste ta connaissance de sa géographie : fleuves, massifs, côtes, îles et frontières. Les premières questions sont des grands classiques que tout le monde a apprises à l'école. Les suivantes demandent de situer précisément des sites célèbres, avant que les dernières ne s'attaquent aux points culminants des massifs et aux détails de la carte. Compte environ cinq secondes par question, et utilise les explications pour compléter ta carte mentale de la France. Prêt à parcourir l'Hexagone ?",
+  "questions": [
+    {
+      "q": "Quel est le plus haut sommet de France ?",
+      "choices": [
+        "La Meije",
+        "Le mont Blanc",
+        "Le mont Ventoux",
+        "Le Puy de Dôme"
+      ],
+      "answer": 1,
+      "explication": "Le mont Blanc culmine à environ 4 800 mètres, dans les Alpes, en Haute-Savoie.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus long fleuve de France ?",
+      "choices": [
+        "La Seine",
+        "La Garonne",
+        "Le Rhône",
+        "La Loire"
+      ],
+      "answer": 3,
+      "explication": "La Loire mesure environ 1 000 kilomètres et prend sa source en Ardèche.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fleuve traverse Paris ?",
+      "choices": [
+        "La Seine",
+        "La Loire",
+        "La Marne",
+        "Le Rhône"
+      ],
+      "answer": 0,
+      "explication": "La Seine traverse aussi Rouen avant de se jeter dans la Manche au Havre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle mer borde le sud de la France ?",
+      "choices": [
+        "La mer du Nord",
+        "La mer Baltique",
+        "La Méditerranée",
+        "La mer Noire"
+      ],
+      "answer": 2,
+      "explication": "La Côte d'Azur, la Camargue et la Corse bordent cette mer.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel océan borde l'ouest de la France ?",
+      "choices": [
+        "L'océan Indien",
+        "L'océan Pacifique",
+        "L'océan Atlantique",
+        "L'océan Arctique"
+      ],
+      "answer": 2,
+      "explication": "La côte atlantique va de la Bretagne au Pays basque.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la plus grande île de France métropolitaine ?",
+      "choices": [
+        "La Corse",
+        "Belle-Île",
+        "L'île de Ré",
+        "Oléron"
+      ],
+      "answer": 0,
+      "explication": "La Corse est aussi appelée l'« île de Beauté ».",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle région se trouve le Mont-Saint-Michel ?",
+      "choices": [
+        "La Bretagne",
+        "Les Pays de la Loire",
+        "Les Hauts-de-France",
+        "La Normandie"
+      ],
+      "answer": 3,
+      "explication": "Le Mont-Saint-Michel se situe dans la baie du même nom, à la frontière avec la Bretagne.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel massif sépare la France de l'Espagne ?",
+      "choices": [
+        "Le Jura",
+        "Les Pyrénées",
+        "Le Massif central",
+        "Les Vosges"
+      ],
+      "answer": 1,
+      "explication": "Les Pyrénées forment la frontière naturelle entre les deux pays.",
+      "level": "facile"
+    },
+    {
+      "q": "Lequel de ces pays n'a pas de frontière terrestre avec la France métropolitaine ?",
+      "choices": [
+        "Le Portugal",
+        "Andorre",
+        "La Suisse",
+        "Le Luxembourg"
+      ],
+      "answer": 0,
+      "explication": "Le Portugal est séparé de la France par l'Espagne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel fleuve passe à Toulouse et à Bordeaux ?",
+      "choices": [
+        "La Dordogne",
+        "L'Adour",
+        "La Garonne",
+        "Le Tarn"
+      ],
+      "answer": 2,
+      "explication": "La Garonne naît dans les Pyrénées et forme l'estuaire de la Gironde avec la Dordogne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le plus grand lac naturel entièrement situé en France ?",
+      "choices": [
+        "Le lac d'Annecy",
+        "Le lac du Bourget",
+        "Le lac Léman",
+        "Le lac de Serre-Ponçon"
+      ],
+      "answer": 1,
+      "explication": "Le lac du Bourget est en Savoie ; le Léman, plus grand, est partagé avec la Suisse.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle région se trouve le delta de la Camargue ?",
+      "choices": [
+        "Nouvelle-Aquitaine",
+        "Corse",
+        "Auvergne-Rhône-Alpes",
+        "Provence-Alpes-Côte d'Azur"
+      ],
+      "answer": 3,
+      "explication": "L'essentiel de la Camargue, delta du Rhône connu pour ses chevaux et ses flamants roses, se trouve dans les Bouches-du-Rhône.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quel département se trouve la dune du Pilat ?",
+      "choices": [
+        "Les Landes",
+        "La Charente-Maritime",
+        "La Vendée",
+        "La Gironde"
+      ],
+      "answer": 3,
+      "explication": "La dune du Pilat domine le bassin d'Arcachon.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel fleuve se jette dans la Manche, au Havre ?",
+      "choices": [
+        "La Somme",
+        "La Seine",
+        "L'Orne",
+        "La Loire"
+      ],
+      "answer": 1,
+      "explication": "Son embouchure forme un large estuaire, entre Le Havre et Honfleur.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel massif volcanique se situe au centre de la France ?",
+      "choices": [
+        "Le Jura",
+        "Les Vosges",
+        "Le Massif central",
+        "Les Ardennes"
+      ],
+      "answer": 2,
+      "explication": "Il compte la chaîne des Puys, un ensemble de volcans éteints en Auvergne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel fleuve longe la frontière entre la France et l'Allemagne ?",
+      "choices": [
+        "La Meuse",
+        "Le Rhin",
+        "La Moselle",
+        "Le Doubs"
+      ],
+      "answer": 1,
+      "explication": "Le Rhin sépare l'Alsace du Land allemand de Bade-Wurtemberg.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le point culminant du Massif central ?",
+      "choices": [
+        "Le Puy de Sancy",
+        "Le Puy de Dôme",
+        "Le Plomb du Cantal",
+        "Le mont Lozère"
+      ],
+      "answer": 0,
+      "explication": "Le Puy de Sancy culmine à environ 1 885 mètres, dans les monts Dore.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le point culminant du massif des Vosges ?",
+      "choices": [
+        "Le Hohneck",
+        "Le Ballon d'Alsace",
+        "Le Grand Ballon",
+        "Le Donon"
+      ],
+      "answer": 2,
+      "explication": "Le Grand Ballon, dans le Haut-Rhin, culmine à environ 1 424 mètres.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le plus haut sommet de Corse ?",
+      "choices": [
+        "Le Monte Cinto",
+        "Le Monte Rotondo",
+        "Le Monte d'Oro",
+        "L'Incudine"
+      ],
+      "answer": 0,
+      "explication": "Le Monte Cinto culmine à environ 2 710 mètres.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel estuaire est formé par la réunion de la Garonne et de la Dordogne ?",
+      "choices": [
+        "La Seine",
+        "La Loire",
+        "L'Adour",
+        "La Gironde"
+      ],
+      "answer": 3,
+      "explication": "Cet estuaire s'ouvre sur l'Atlantique et donne son nom au département de la Gironde.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi dit-on que la France est un hexagone ?",
+      "La forme de la France métropolitaine évoque un hexagone, avec trois façades maritimes (Manche et mer du Nord, Atlantique, Méditerranée) et trois frontières terrestres. Le terme s'est imposé au XXe siècle pour désigner familièrement le territoire métropolitain, par opposition à l'outre-mer."
+    ],
+    [
+      "Quels sont les principaux fleuves de France ?",
+      "Les quatre grands fleuves sont la Loire, la Seine, la Garonne et le Rhône. La Loire est le plus long, la Seine traverse Paris, la Garonne arrose Toulouse et Bordeaux et le Rhône descend des Alpes vers la Méditerranée. Le Rhin longe aussi la frontière avec l'Allemagne."
+    ],
+    [
+      "Quels sont les grands massifs montagneux français ?",
+      "On distingue les Alpes, avec le mont Blanc, les Pyrénées, le Massif central, le Jura et les Vosges, auxquels s'ajoutent les montagnes de Corse. Les Alpes sont les plus hautes, tandis que le Massif central est un ancien massif volcanique et érodé."
+    ]
+  ],
+  "related": [
+    "/quiz-regions-de-france",
+    "/quiz-departements",
+    "/quiz-geographie",
+    "/quiz-capitales"
+  ]
+}

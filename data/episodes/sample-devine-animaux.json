@@ -1,0 +1,178 @@
+{
+ "id": "sample-devine-animaux",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "theme": 0,
+ "title": "Devine 20 ANIMAUX en 3 secondes 🐯🦓🐙 | Facile, Moyen, Difficile, Impossible",
+ "question": "Quel est cet animal ?",
+ "intro": {
+  "hook": "Devine 20 ANIMAUX",
+  "sub": "en 3 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐯"
+   },
+   "answer": "Le tigre"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐘"
+   },
+   "answer": "L'éléphant"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦒"
+   },
+   "answer": "La girafe"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐧"
+   },
+   "answer": "Le manchot"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦁"
+   },
+   "answer": "Le lion"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐼"
+   },
+   "answer": "Le panda"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐨"
+   },
+   "answer": "Le koala"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦓"
+   },
+   "answer": "Le zèbre"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐙"
+   },
+   "answer": "La pieuvre"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦔"
+   },
+   "answer": "Le hérisson"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦦"
+   },
+   "answer": "La loutre"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦥"
+   },
+   "answer": "Le paresseux"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦩"
+   },
+   "answer": "Le flamant rose"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦜"
+   },
+   "answer": "Le perroquet"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐊"
+   },
+   "answer": "Le crocodile"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦎"
+   },
+   "answer": "Le lézard"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦇"
+   },
+   "answer": "La chauve-souris"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦡"
+   },
+   "answer": "Le blaireau"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦨"
+   },
+   "answer": "La mouffette"
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦫"
+   },
+   "answer": "Le castor"
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Devine 20 animaux en 3 secondes ! De facile à impossible. Dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes amis : https://youqwiz.com\n\n#quiz #animaux #devine",
+  "tags": [
+   "quiz",
+   "quiz animaux",
+   "devine l'animal",
+   "quiz français",
+   "youqwiz"
+  ],
+  "thumbnail": {
+   "line1": "Devine",
+   "line2": "20 animaux",
+   "emoji": "🐯"
+  },
+  "shortItems": 5
+ }
+}

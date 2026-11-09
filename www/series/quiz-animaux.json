@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-animaux",
+  "theme": "animaux",
+  "title": "Quiz animaux : 20 questions sur le monde animal",
+  "description": "Quiz animaux gratuit : 20 questions sur les mammifères, oiseaux et insectes. Teste ta culture animalière en 5 secondes par question !",
+  "h1": "Quiz animaux : connais-tu bien le monde animal ?",
+  "intro": "Des savanes aux océans, le monde animal regorge de surprises ! Ce quiz de 20 questions te propose de découvrir les records, les habitudes et les petits secrets de nos amis à poils, à plumes ou à écailles. Tu as 5 secondes par question pour choisir parmi quatre propositions. Les huit premières questions sont faciles, les huit suivantes demandent un peu plus de curiosité, et les quatre dernières sont réservées aux vrais passionnés. Chaque réponse est suivie d'une courte explication pour apprendre un fait surprenant. Alors, prends tes jumelles et lance-toi dans l'aventure !",
+  "questions": [
+    {
+      "q": "Quel est l'animal terrestre le plus lourd ?",
+      "choices": [
+        "la girafe",
+        "l'éléphant d'Afrique",
+        "le rhinocéros",
+        "l'hippopotame"
+      ],
+      "answer": 1,
+      "explication": "L'éléphant d'Afrique peut peser plus de 6 tonnes, ce qui en fait le plus lourd animal terrestre. La girafe, elle, est la plus haute.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment s'appelle le petit de la vache ?",
+      "choices": [
+        "le poulain",
+        "l'agneau",
+        "le chevreau",
+        "le veau"
+      ],
+      "answer": 3,
+      "explication": "Le veau est le petit de la vache. Le poulain est le petit du cheval.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est l'animal terrestre le plus rapide ?",
+      "choices": [
+        "le guépard",
+        "le lion",
+        "le cheval",
+        "l'antilope"
+      ],
+      "answer": 0,
+      "explication": "Le guépard peut atteindre environ 100 km/h sur de courtes distances.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de pattes possède une araignée ?",
+      "choices": [
+        "6",
+        "4",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "explication": "Les araignées ont 8 pattes, contrairement aux insectes qui en ont 6.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le seul mammifère capable de vraiment voler ?",
+      "choices": [
+        "l'écureuil volant",
+        "le colibri",
+        "le pingouin",
+        "la chauve-souris"
+      ],
+      "answer": 3,
+      "explication": "La chauve-souris est le seul mammifère capable de véritable vol battu.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel insecte fabrique le miel ?",
+      "choices": [
+        "la guêpe",
+        "l'abeille",
+        "la fourmi",
+        "le papillon"
+      ],
+      "answer": 1,
+      "explication": "Les abeilles butinent le nectar des fleurs et le transforment en miel dans la ruche.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus grand animal de la planète ?",
+      "choices": [
+        "l'éléphant",
+        "le requin-baleine",
+        "la baleine bleue",
+        "le cachalot"
+      ],
+      "answer": 2,
+      "explication": "La baleine bleue peut dépasser 25 mètres de long et peser plus de 100 tonnes.",
+      "level": "facile"
+    },
+    {
+      "q": "En quoi se transforme un têtard ?",
+      "choices": [
+        "en grenouille",
+        "en lézard",
+        "en poisson",
+        "en salamandre"
+      ],
+      "answer": 0,
+      "explication": "Le têtard respire par des branchies. En grandissant, il développe des pattes et des poumons et devient grenouille.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de cœurs possède une pieuvre ?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 2,
+      "explication": "Deux cœurs envoient le sang vers les branchies, un troisième l'envoie dans le reste du corps.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel animal porte son petit dans une poche ventrale ?",
+      "choices": [
+        "le kangourou",
+        "le lion",
+        "le panda",
+        "le singe"
+      ],
+      "answer": 0,
+      "explication": "Le petit kangourou naît minuscule et termine son développement dans la poche de sa mère.",
+      "level": "moyen"
+    },
+    {
+      "q": "Le dauphin est…",
+      "choices": [
+        "un poisson",
+        "un reptile",
+        "un amphibien",
+        "un mammifère"
+      ],
+      "answer": 3,
+      "explication": "Le dauphin respire de l'air avec des poumons et allaite ses petits, comme tous les mammifères.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel oiseau ne vole pas et vit en Antarctique ?",
+      "choices": [
+        "l'autruche",
+        "le manchot",
+        "le kiwi",
+        "le flamant rose"
+      ],
+      "answer": 1,
+      "explication": "Le manchot empereur est un oiseau marin qui nage très bien mais ne vole pas.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de pattes possède un insecte ?",
+      "choices": [
+        "6",
+        "4",
+        "8",
+        "10"
+      ],
+      "answer": 0,
+      "explication": "Tous les insectes ont six pattes, ce qui les distingue des araignées.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel animal est célèbre pour changer de couleur ?",
+      "choices": [
+        "la girafe",
+        "le tigre",
+        "le caméléon",
+        "le panda"
+      ],
+      "answer": 2,
+      "explication": "Le caméléon change de couleur selon son humeur, la température et la lumière.",
+      "level": "moyen"
+    },
+    {
+      "q": "De quoi le panda géant se nourrit-il principalement ?",
+      "choices": [
+        "de poisson",
+        "de bambou",
+        "d'herbe",
+        "de fruits"
+      ],
+      "answer": 1,
+      "explication": "Le panda géant passe plus de dix heures par jour à manger du bambou.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment appelle-t-on un groupe de loups ?",
+      "choices": [
+        "un essaim",
+        "un banc",
+        "un troupeau",
+        "une meute"
+      ],
+      "answer": 3,
+      "explication": "Une meute de loups est un groupe familial qui chasse et vit ensemble.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel oiseau possède la plus grande envergure d'ailes parmi les oiseaux vivants ?",
+      "choices": [
+        "l'aigle royal",
+        "l'albatros hurleur",
+        "le condor des Andes",
+        "la cigogne blanche"
+      ],
+      "answer": 1,
+      "explication": "L'albatros hurleur peut avoir plus de 3 mètres d'envergure et plane des heures sur l'océan.",
+      "level": "expert"
+    },
+    {
+      "q": "Lequel de ces animaux est un mammifère qui pond des œufs ?",
+      "choices": [
+        "le kangourou",
+        "le dauphin",
+        "la chauve-souris",
+        "l'ornithorynque"
+      ],
+      "answer": 3,
+      "explication": "L'ornithorynque, qui vit en Australie, est un monotrème : il pond des œufs mais allaite ses petits.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le plus grand félin vivant ?",
+      "choices": [
+        "le tigre",
+        "le lion",
+        "le léopard",
+        "le jaguar"
+      ],
+      "answer": 0,
+      "explication": "Le tigre est le plus grand des félins : certains mâles dépassent 200 kg.",
+      "level": "expert"
+    },
+    {
+      "q": "De quelles feuilles le koala se nourrit-il presque exclusivement ?",
+      "choices": [
+        "de chêne",
+        "de bambou",
+        "d'eucalyptus",
+        "de palmier"
+      ],
+      "answer": 2,
+      "explication": "Le koala mange des feuilles d'eucalyptus, peu nourrissantes : il dort jusqu'à vingt heures par jour.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le plus grand animal du monde ?",
+      "C'est la baleine bleue, un mammifère marin qui peut mesurer plus de 25 mètres et peser plus de 100 tonnes. Elle est plus grosse que n'importe quel dinosaure connu. Elle se nourrit surtout de minuscules crustacés, le krill. Ces repères te servent aussi bien à l'école que dans la vie de tous les jours, et ils se retiennent mieux en s'amusant avec un quiz régulier."
+    ],
+    [
+      "Quelle différence entre un insecte et une araignée ?",
+      "Un insecte a six pattes et son corps est divisé en trois parties : tête, thorax et abdomen. Une araignée a huit pattes et son corps est divisé en deux parties. Elle n'a pas d'antennes ni d'ailes. Ces repères te servent aussi bien à l'école que dans la vie de tous les jours, et ils se retiennent mieux en s'amusant avec un quiz régulier."
+    ],
+    [
+      "Pourquoi le dauphin n'est-il pas un poisson ?",
+      "Le dauphin est un mammifère : il respire de l'air avec des poumons, donne naissance à des petits vivants et les allaite. Un poisson, lui, respire sous l'eau grâce à des branchies. Le dauphin doit remonter régulièrement à la surface."
+    ]
+  ],
+  "related": [
+    "/quiz-sciences",
+    "/quiz-corps-humain",
+    "/quiz-espace",
+    "/quiz-culture-generale-facile"
+  ]
+}

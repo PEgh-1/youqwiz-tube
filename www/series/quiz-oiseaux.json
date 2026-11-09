@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-oiseaux",
+  "theme": "animaux",
+  "title": "Quiz oiseaux : 20 questions sur les oiseaux",
+  "description": "Quiz oiseaux : 20 questions sur les oiseaux, leurs plumes, leurs nids et leurs migrations. Du niveau facile à expert, avec une explication.",
+  "h1": "Quiz oiseaux : connais-tu bien les oiseaux ?",
+  "intro": "Que tu observes les mésanges dans ton jardin ou que tu rêves de voir un toucan, ce quiz sur les oiseaux est fait pour toi ! Vingt questions te font passer du pigeon de la place au rapace le plus rapide du monde, en passant par les nids, les plumes et les grandes migrations. Le niveau monte doucement, des questions faciles aux plus pointues. Compte environ 5 secondes par question, et profite des explications pour repartir avec une anecdote ou deux. À toi de jouer !",
+  "questions": [
+    {
+      "q": "Quel oiseau est le symbole de la paix ?",
+      "choices": [
+        "le corbeau",
+        "la colombe",
+        "l'aigle",
+        "le moineau"
+      ],
+      "answer": 1,
+      "explication": "La colombe portant un rameau d'olivier est un symbole de paix qui remonte à l'Antiquité et au récit biblique du déluge.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel oiseau nocturne a de grands yeux ronds et hulule ?",
+      "choices": [
+        "le pigeon",
+        "le canard",
+        "la mésange",
+        "la chouette"
+      ],
+      "answer": 3,
+      "explication": "La chouette et le hibou sont des rapaces nocturnes à la vue et à l'ouïe très développées.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel oiseau est célèbre pour imiter la voix humaine ?",
+      "choices": [
+        "le perroquet",
+        "le héron",
+        "le pélican",
+        "le faisan"
+      ],
+      "answer": 0,
+      "explication": "Le perroquet et ses cousins sont capables de reproduire des mots, sans toujours en comprendre le sens.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel oiseau de basse-cour chante « cocorico » ?",
+      "choices": [
+        "le canard",
+        "l'oie",
+        "le coq",
+        "la dinde"
+      ],
+      "answer": 2,
+      "explication": "Le coq chante surtout à l'aube pour marquer son territoire.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel grand oiseau blanc glisse avec élégance sur les étangs ?",
+      "choices": [
+        "le corbeau",
+        "la cigogne noire",
+        "le cygne",
+        "le faucon"
+      ],
+      "answer": 2,
+      "explication": "Le cygne tuberculé est un grand oiseau blanc à long cou, qui vit sur les étangs et les rivières calmes.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel petit oiseau à la poitrine orange est très présent dans les jardins ?",
+      "choices": [
+        "le rouge-gorge",
+        "le pic-vert",
+        "le moineau",
+        "le merle"
+      ],
+      "answer": 0,
+      "explication": "Le rouge-gorge est très territorial et chante même en hiver.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel oiseau déploie une roue de plumes colorées pour séduire ?",
+      "choices": [
+        "le dindon",
+        "la pintade",
+        "la grue",
+        "le paon"
+      ],
+      "answer": 3,
+      "explication": "C'est le mâle, le paon, qui déploie ses plumes de queue en éventail lors de la parade.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel oiseau est élevé pour ses œufs que nous mangeons le plus souvent ?",
+      "choices": [
+        "la caille",
+        "la poule",
+        "l'oie",
+        "la dinde"
+      ],
+      "answer": 1,
+      "explication": "La poule domestique est élevée dans le monde entier pour ses œufs et sa chair.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le plus grand oiseau vivant ?",
+      "choices": [
+        "l'émeu",
+        "le condor",
+        "le pélican",
+        "l'autruche"
+      ],
+      "answer": 3,
+      "explication": "L'autruche d'Afrique peut dépasser 2,5 mètres et pèse plus de 100 kg, mais elle ne vole pas.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le plus petit oiseau du monde ?",
+      "choices": [
+        "le moineau",
+        "le colibri",
+        "le roitelet",
+        "la mésange"
+      ],
+      "answer": 1,
+      "explication": "Les colibris sont les plus petits oiseaux du monde, et certains ne pèsent que quelques grammes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel oiseau pond ses œufs dans le nid d'autres espèces ?",
+      "choices": [
+        "la pie",
+        "le geai",
+        "le coucou",
+        "le pigeon"
+      ],
+      "answer": 2,
+      "explication": "Le coucou gris est un parasite de couvée : la femelle confie ses œufs à d'autres oiseaux, qui élèvent le petit.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel rapace est l'emblème des États-Unis ?",
+      "choices": [
+        "le pygargue à tête blanche",
+        "le faucon pèlerin",
+        "le hibou grand-duc",
+        "le vautour fauve"
+      ],
+      "answer": 0,
+      "explication": "Le pygargue à tête blanche, souvent appelé aigle à tête blanche, est l'emblème des États-Unis depuis 1782.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel oiseau de Nouvelle-Zélande ne vole pas et possède un long bec fin ?",
+      "choices": [
+        "le kiwi",
+        "le toucan",
+        "le colibri",
+        "la cigogne"
+      ],
+      "answer": 0,
+      "explication": "Le kiwi est un oiseau nocturne néo-zélandais, sans ailes utilisables, qui cherche sa nourriture au sol avec son bec.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel oiseau construit son nid en boue sous les toits ?",
+      "choices": [
+        "le pigeon",
+        "le moineau",
+        "l'hirondelle",
+        "le rouge-gorge"
+      ],
+      "answer": 2,
+      "explication": "L'hirondelle de fenêtre colle sous les avant-toits un nid fait de petites boulettes de boue mêlées de salive.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel oiseau tropical est reconnaissable à son énorme bec coloré ?",
+      "choices": [
+        "le pigeon",
+        "le toucan",
+        "le héron",
+        "le faisan"
+      ],
+      "answer": 1,
+      "explication": "Le bec du toucan est grand mais léger et creux. Il lui sert à cueillir des fruits.",
+      "level": "moyen"
+    },
+    {
+      "q": "De quelle substance les plumes sont-elles principalement faites ?",
+      "choices": [
+        "de calcium",
+        "de chitine",
+        "de cellulose",
+        "de kératine"
+      ],
+      "answer": 3,
+      "explication": "La kératine est la protéine qui compose aussi nos ongles et nos cheveux.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel oiseau réalise la plus longue migration annuelle, d'un pôle à l'autre ?",
+      "choices": [
+        "l'hirondelle rustique",
+        "la sterne arctique",
+        "la cigogne blanche",
+        "le pigeon voyageur"
+      ],
+      "answer": 1,
+      "explication": "La sterne arctique relie l'Arctique à l'Antarctique chaque année, un trajet de plusieurs dizaines de milliers de kilomètres.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel oiseau est le plus rapide en piqué ?",
+      "choices": [
+        "le faucon pèlerin",
+        "l'aigle royal",
+        "le colibri",
+        "le vautour"
+      ],
+      "answer": 0,
+      "explication": "En piqué, le faucon pèlerin dépasse 300 km/h, ce qui en fait l'animal le plus rapide de la planète.",
+      "level": "expert"
+    },
+    {
+      "q": "Sur quelle île vivait le dodo, oiseau aujourd'hui disparu ?",
+      "choices": [
+        "Madagascar",
+        "la Corse",
+        "Tahiti",
+        "Maurice"
+      ],
+      "answer": 3,
+      "explication": "Le dodo, qui ne volait pas, vivait sur l'île Maurice, dans l'océan Indien. Il a disparu au XVIIe siècle.",
+      "level": "expert"
+    },
+    {
+      "q": "Comment s'appelle la crête osseuse du sternum où s'attachent les muscles du vol ?",
+      "choices": [
+        "le fémur",
+        "la furcula",
+        "le bréchet",
+        "le croupion"
+      ],
+      "answer": 2,
+      "explication": "Chez les oiseaux volants, le bréchet est très développé. Chez l'autruche, qui ne vole pas, il est absent.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi les oiseaux migrent-ils ?",
+      "Les oiseaux migrent pour trouver de la nourriture et des conditions favorables à la reproduction, ce qui est vital pour leurs petits. Quand l'hiver rend les insectes ou les graines rares, beaucoup d'espèces rejoignent des régions plus chaudes, puis reviennent au printemps pour nicher dans leurs zones d'origine."
+    ],
+    [
+      "Tous les oiseaux savent-ils voler ?",
+      "Non. L'autruche, le kiwi, l'émeu ou le manchot ne volent pas. Leur corps s'est adapté à la course, au nageur ou à la vie au sol. Chez eux, le bréchet est souvent réduit ou absent, car ils n'ont pas besoin de puissants muscles de vol."
+    ],
+    [
+      "Quelle est la différence entre une chouette et un hibou ?",
+      "Le hibou possède des aigrettes, des touffes de plumes qui ressemblent à des oreilles, alors que la chouette a la tête ronde et lisse. En pratique, les deux appartiennent à l'ordre des rapaces nocturnes et le langage courant les confond souvent."
+    ]
+  ],
+  "related": [
+    "/quiz-animaux",
+    "/quiz-animaux-marins",
+    "/quiz-animaux-difficile",
+    "/quiz-dinosaures",
+    "/quiz-sciences"
+  ]
+}

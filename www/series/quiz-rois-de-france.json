@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-rois-de-france",
+  "theme": "histoire",
+  "title": "Quiz rois de France : 20 questions",
+  "description": "Quiz rois de France : 20 questions sur les souverains et reines de Clovis à Louis-Philippe. Facile à expert, gratuit.",
+  "h1": "Quiz rois de France : connais-tu nos souverains ?",
+  "intro": "Clovis, Charlemagne, Saint Louis, Louis XIV : les rois de France ont façonné notre pays pendant plus de mille ans. Ce quiz te propose 20 questions sur les souverains, les reines et leurs grands faits d'armes ou de gouvernement. Il commence par des questions accessibles, puis se corse avec huit questions moyennes et quatre pour les experts. Compte environ 5 secondes par question, et lis les explications pour retenir des anecdotes à raconter. Que tu sois élève, curieux d'histoire ou fan de Versailles, ce quiz royal est pour toi. Tu peux le refaire autant de fois que tu veux. À toi de régner sur le classement !",
+  "questions": [
+    {
+      "q": "Quel roi est surnommé le Roi-Soleil ?",
+      "choices": [
+        "Louis XIII",
+        "Louis XIV",
+        "Louis XV",
+        "Louis XVI"
+      ],
+      "answer": 1,
+      "explication": "Louis XIV a choisi le soleil comme emblème. Il règne de 1643 à 1715, ce qui en fait l'un des plus longs règnes de l'histoire.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel roi des Francs est baptisé à Reims vers 496 ?",
+      "choices": [
+        "Charlemagne",
+        "Pépin le Bref",
+        "Dagobert",
+        "Clovis"
+      ],
+      "answer": 3,
+      "explication": "Clovis, roi des Francs saliens, se convertit au christianisme, ce qui consolide son pouvoir.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel roi est guillotiné en 1793 ?",
+      "choices": [
+        "Louis XVI",
+        "Louis XV",
+        "Charles X",
+        "Louis XVIII"
+      ],
+      "answer": 0,
+      "explication": "Louis XVI est condamné par la Convention après la chute de la monarchie.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle reine est l'épouse de Louis XVI ?",
+      "choices": [
+        "Anne de Bretagne",
+        "Aliénor d'Aquitaine",
+        "Marie-Antoinette",
+        "Catherine de Médicis"
+      ],
+      "answer": 2,
+      "explication": "Archiduchesse d'Autriche, elle épouse le futur Louis XVI en 1770.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel empereur carolingien est couronné à Rome en l'an 800 ?",
+      "choices": [
+        "Clovis",
+        "Hugues Capet",
+        "Charlemagne",
+        "Napoléon"
+      ],
+      "answer": 2,
+      "explication": "Charlemagne reçoit la couronne impériale des mains du pape Léon III le jour de Noël.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quel château Louis XIV installe-t-il la cour ?",
+      "choices": [
+        "Versailles",
+        "Chambord",
+        "Fontainebleau",
+        "Vincennes"
+      ],
+      "answer": 0,
+      "explication": "La cour s'y installe durablement en 1682. Le château reste la résidence royale jusqu'en 1789.",
+      "level": "facile"
+    },
+    {
+      "q": "À quelle dynastie appartiennent Louis XIV, Louis XV et Louis XVI ?",
+      "choices": [
+        "Les Capétiens directs",
+        "Les Valois",
+        "Les Carolingiens",
+        "Les Bourbons"
+      ],
+      "answer": 3,
+      "explication": "Les Bourbons montent sur le trône avec Henri IV en 1589.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel roi est surnommé « le Bien-Aimé » ?",
+      "choices": [
+        "Louis XIV",
+        "Louis XV",
+        "Louis XVI",
+        "Louis XII"
+      ],
+      "answer": 1,
+      "explication": "Louis XV reçoit ce surnom en 1744, quand tout le royaume prie pour sa guérison à Metz. Il règne de 1715 à 1774.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui est le premier roi de la dynastie capétienne, élu en 987 ?",
+      "choices": [
+        "Philippe Auguste",
+        "Charles Martel",
+        "Robert le Pieux",
+        "Hugues Capet"
+      ],
+      "answer": 3,
+      "explication": "Hugues Capet fonde une dynastie qui régnera, par ses branches, pendant plusieurs siècles.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel roi bat les Suisses à Marignan en 1515 ?",
+      "choices": [
+        "Henri II",
+        "François Ier",
+        "Louis XII",
+        "Charles VIII"
+      ],
+      "answer": 1,
+      "explication": "Cette victoire marque le début du règne de François Ier, grand roi de la Renaissance.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel roi est assassiné par Ravaillac en 1610 ?",
+      "choices": [
+        "Henri IV",
+        "Henri III",
+        "Louis XIII",
+        "Charles IX"
+      ],
+      "answer": 0,
+      "explication": "Henri IV est poignardé dans son carrosse, rue de la Ferronnerie, à Paris.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle ville meurt Saint Louis en 1270, lors de sa dernière croisade ?",
+      "choices": [
+        "Jérusalem",
+        "Alexandrie",
+        "Tunis",
+        "Damiette"
+      ],
+      "answer": 2,
+      "explication": "Louis IX meurt devant Tunis, probablement de maladie. Il est canonisé en 1297.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle victoire de Philippe Auguste date de 1214 ?",
+      "choices": [
+        "Bouvines",
+        "Azincourt",
+        "Crécy",
+        "Poitiers"
+      ],
+      "answer": 0,
+      "explication": "À Bouvines, le roi de France bat une coalition menée par l'empereur germanique Otton IV.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel roi Catherine de Médicis épouse-t-elle ?",
+      "choices": [
+        "François Ier",
+        "Henri IV",
+        "Henri II",
+        "Charles IX"
+      ],
+      "answer": 2,
+      "explication": "Mère de trois rois (François II, Charles IX et Henri III), Catherine de Médicis exerce une grande influence.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel cardinal est le principal ministre de Louis XIII ?",
+      "choices": [
+        "Mazarin",
+        "Richelieu",
+        "Fleury",
+        "Retz"
+      ],
+      "answer": 1,
+      "explication": "Richelieu renforce l'autorité royale et reste au pouvoir de 1624 à sa mort en 1642.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel roi se fait sacrer à Reims en 1429, aux côtés de Jeanne d'Arc ?",
+      "choices": [
+        "Charles VI",
+        "Louis XI",
+        "Charles V",
+        "Charles VII"
+      ],
+      "answer": 3,
+      "explication": "Le sacre confirme sa légitimité face aux Anglais pendant la guerre de Cent Ans.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien d'années dure le règne de Louis XIV, de 1643 à 1715 ?",
+      "choices": [
+        "52 ans",
+        "62 ans",
+        "72 ans",
+        "82 ans"
+      ],
+      "answer": 2,
+      "explication": "Devenu roi à 4 ans, Louis XIV a le règne le plus long de l'histoire de France.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel frère de Louis XVI devient roi en 1814, lors de la Restauration ?",
+      "choices": [
+        "Louis XVIII",
+        "Charles X",
+        "Louis-Philippe",
+        "Napoléon III"
+      ],
+      "answer": 0,
+      "explication": "Louis XVIII règne jusqu'en 1824. Son frère Charles X lui succède.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel événement de juillet 1830 conduit Louis-Philippe au trône ?",
+      "choices": [
+        "La Commune",
+        "Les Trois Glorieuses",
+        "Le Printemps des peuples",
+        "La Fronde"
+      ],
+      "answer": 1,
+      "explication": "Charles X est renversé après trois journées d'émeutes à Paris. Louis-Philippe devient « roi des Français ».",
+      "level": "expert"
+    },
+    {
+      "q": "Quel roi fait arrêter les Templiers le 13 octobre 1307 ?",
+      "choices": [
+        "Philippe Auguste",
+        "Louis X",
+        "Philippe VI",
+        "Philippe le Bel"
+      ],
+      "answer": 3,
+      "explication": "Philippe IV le Bel fait arrêter les Templiers dans tout le royaume, avant la dissolution de l'ordre.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Qui a été le premier roi de France ?",
+      "Les historiens débattent : Clovis est souvent présenté comme le fondateur du royaume des Francs vers 500, mais le titre de roi de France n'apparaît que plus tard. Hugues Capet, élu en 987, est le premier d'une longue lignée de rois capétiens."
+    ],
+    [
+      "Quel roi a régné le plus longtemps ?",
+      "Louis XIV détient le record : il règne 72 ans, de 1643 à 1715. Il devient roi à quatre ans et gouverne personnellement à partir de 1661, à la mort de Mazarin. Son règne est resté célèbre comme celui du Grand Siècle."
+    ],
+    [
+      "Quand le dernier roi de France a-t-il régné ?",
+      "Louis-Philippe est le dernier à porter le titre de roi des Français, de 1830 à 1848. Après la révolution de 1848, la France devient une république. Napoléon III, élu président, se fait ensuite proclamer empereur en 1852. Ce quiz reste un jeu : les questions portent sur des faits historiques établis."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-histoire-de-france",
+    "/quiz-seconde-guerre-mondiale",
+    "/quiz-revolution-francaise"
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-drapeaux-difficile",
+  "theme": "geographie",
+  "title": "Quiz drapeaux difficile : 20 jumeaux à départager",
+  "description": "Quiz drapeaux difficile : 20 questions sur les drapeaux qui se ressemblent (Pays-Bas/Luxembourg, Mali/Guinée...). Sauras-tu les départager ?",
+  "h1": "Quiz drapeaux difficile : sauras-tu départager les drapeaux jumeaux ?",
+  "intro": "Les Pays-Bas et le Luxembourg, le Mali et la Guinée, la Norvège et l'Islande : certains drapeaux se ressemblent comme deux gouttes d'eau. Ce quiz te met face à 20 drapeaux, un par question, avec parmi les propositions leur jumeau ou leur cousin. Il faut regarder les nuances de couleur, l'ordre des bandes ou un petit blason. Les premières questions mettent en scène des paires célèbres, puis les ressemblances deviennent plus subtiles. Compte environ cinq secondes par question et lis chaque explication : elle donne le détail qui fait la différence. Rejoue pour progresser.",
+  "questions": [
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Nouvelle-Zélande",
+        "Australie",
+        "Fidji",
+        "Royaume-Uni"
+      ],
+      "answer": 1,
+      "explication": "Six étoiles blanches, dont celle du Commonwealth à sept branches, et la Croix du Sud sans rouge, contrairement à la Nouvelle-Zélande.",
+      "level": "facile",
+      "flag": "au"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Australie",
+        "Fidji",
+        "Tuvalu",
+        "Nouvelle-Zélande"
+      ],
+      "answer": 3,
+      "explication": "Seulement quatre étoiles rouges bordées de blanc forment la Croix du Sud, alors que celle de l'Australie compte cinq étoiles blanches.",
+      "level": "facile",
+      "flag": "nz"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Pays-Bas",
+        "Luxembourg",
+        "France",
+        "Russie"
+      ],
+      "answer": 0,
+      "explication": "Rouge, blanc, bleu : le drapeau est plus sombre que le luxembourgeois, dont le bleu est clair.",
+      "level": "facile",
+      "flag": "nl"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Pays-Bas",
+        "France",
+        "Luxembourg",
+        "Croatie"
+      ],
+      "answer": 2,
+      "explication": "Presque identique à celui des Pays-Bas, mais avec un bleu clair et des proportions plus allongées.",
+      "level": "facile",
+      "flag": "lu"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Belgique",
+        "Andorre",
+        "Moldavie",
+        "Roumanie"
+      ],
+      "answer": 3,
+      "explication": "Bleu, jaune, rouge sans emblème : Andorre et la Moldavie portent des armoiries au centre. Seul le Tchad a un drapeau quasi identique, au bleu un peu plus foncé.",
+      "level": "facile",
+      "flag": "ro"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Allemagne",
+        "Belgique",
+        "Roumanie",
+        "Ouganda"
+      ],
+      "answer": 1,
+      "explication": "Noir, jaune, rouge en bandes verticales, alors que l'Allemagne a les mêmes couleurs en bandes horizontales, dans l'ordre noir, rouge, or.",
+      "level": "facile",
+      "flag": "be"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Singapour",
+        "Pologne",
+        "Indonésie",
+        "Autriche"
+      ],
+      "answer": 2,
+      "explication": "Rouge au-dessus, blanc en dessous, sans emblème : Singapour ajoute un croissant et des étoiles, la Pologne inverse les couleurs. Monaco a le même dessin, dans des proportions différentes.",
+      "level": "facile",
+      "flag": "id"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Italie",
+        "Irlande",
+        "Mexique",
+        "Hongrie"
+      ],
+      "answer": 0,
+      "explication": "Vert, blanc, rouge en bandes verticales sans emblème : le Mexique ajoute un aigle au centre, l'Irlande remplace le rouge par l'orange et la Hongrie a des bandes horizontales.",
+      "level": "facile",
+      "flag": "it"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Côte d'Ivoire",
+        "Irlande",
+        "Italie",
+        "Inde"
+      ],
+      "answer": 0,
+      "explication": "Orange, blanc, vert : c'est l'inverse exact du drapeau irlandais, vert, blanc, orange.",
+      "level": "moyen",
+      "flag": "ci"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Guinée",
+        "Sénégal",
+        "Mali",
+        "Ghana"
+      ],
+      "answer": 2,
+      "explication": "Vert, jaune, rouge de gauche à droite, tandis que la Guinée a l'ordre inverse, rouge, jaune, vert.",
+      "level": "moyen",
+      "flag": "ml"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Mali",
+        "Guinée",
+        "Cameroun",
+        "Bolivie"
+      ],
+      "answer": 1,
+      "explication": "Rouge, jaune, vert de gauche à droite : le Mali présente le même trio dans l'ordre inverse.",
+      "level": "moyen",
+      "flag": "gn"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Lettonie",
+        "Pologne",
+        "Pérou",
+        "Autriche"
+      ],
+      "answer": 3,
+      "explication": "Trois bandes horizontales rouge, blanche, rouge d'égale largeur, alors que la Lettonie a une bande blanche très fine.",
+      "level": "moyen",
+      "flag": "at"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Autriche",
+        "Pologne",
+        "Lettonie",
+        "Pérou"
+      ],
+      "answer": 2,
+      "explication": "Un rouge sombre (carmin) et une bande blanche très fine, face à l'Autriche aux bandes égales.",
+      "level": "moyen",
+      "flag": "lv"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Norvège",
+        "Islande",
+        "Danemark",
+        "Suède"
+      ],
+      "answer": 0,
+      "explication": "Rouge avec une croix bleue bordée de blanc ; l'Islande a les couleurs inversées, avec un fond bleu et une croix rouge.",
+      "level": "moyen",
+      "flag": "no"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Norvège",
+        "Finlande",
+        "Suède",
+        "Islande"
+      ],
+      "answer": 3,
+      "explication": "Fond bleu, croix blanche bordée de rouge : c'est l'inverse du drapeau norvégien.",
+      "level": "moyen",
+      "flag": "is"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Équateur",
+        "Colombie",
+        "Venezuela",
+        "Bolivie"
+      ],
+      "answer": 1,
+      "explication": "Jaune (bande double), bleu et rouge sans aucun emblème ni étoile, contrairement au Venezuela et à l'Équateur.",
+      "level": "moyen",
+      "flag": "co"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Colombie",
+        "Équateur",
+        "Venezuela",
+        "Bolivie"
+      ],
+      "answer": 1,
+      "explication": "Il ressemble à la Colombie, mais ses armoiries au centre, avec le condor et le Chimborazo, le distinguent.",
+      "level": "expert",
+      "flag": "ec"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Slovaquie",
+        "Russie",
+        "Serbie",
+        "Slovénie"
+      ],
+      "answer": 3,
+      "explication": "Blanc, bleu, rouge, avec un blason à trois sommets et deux lignes ondulées placé en haut, côté hampe.",
+      "level": "expert",
+      "flag": "si"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Slovaquie",
+        "Slovénie",
+        "Tchéquie",
+        "Croatie"
+      ],
+      "answer": 0,
+      "explication": "Son blason à double croix sur trois collines est plus grand et décalé vers la hampe.",
+      "level": "expert",
+      "flag": "sk"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Égypte",
+        "Syrie",
+        "Yémen",
+        "Irak"
+      ],
+      "answer": 2,
+      "explication": "Trois bandes rouge, blanche et noire sans aucun emblème ; l'Égypte porte un aigle, la Syrie des étoiles et l'Irak une inscription.",
+      "level": "expert",
+      "flag": "ye"
+    }
+  ],
+  "faq": [
+    [
+      "Quels sont les drapeaux les plus ressemblants du monde ?",
+      "Les paires les plus célèbres sont Indonésie et Monaco, Roumanie et Tchad, Pays-Bas et Luxembourg. Ces drapeaux utilisent les mêmes couleurs dans le même ordre, la différence se jouant sur une nuance de bleu ou sur les proportions. Il faut parfois regarder la forme du rectangle pour les départager."
+    ],
+    [
+      "Pourquoi existe-t-il des drapeaux presque identiques ?",
+      "Beaucoup de drapeaux sont nés à des époques et dans des lieux très éloignés sans se connaître, en puisant dans les mêmes couleurs symboliques ou des modèles voisins. Certains pays s'inspirent aussi d'un voisin historique, comme les pays nordiques avec la croix, ou les États issus des fédérations coloniales."
+    ],
+    [
+      "Comment apprendre à ne pas les confondre ?",
+      "Associe chaque drapeau à un détail précis : un bleu plus foncé, un blason, la largeur d'une bande, l'ordre des couleurs. Apprends-les par paires, en les comparant côte à côte, puis refais ce quiz de temps en temps. En quelques essais, les jumeaux deviennent bien plus faciles à repérer."
+    ]
+  ],
+  "related": [
+    "/quiz-drapeaux",
+    "/quiz-drapeaux-europe",
+    "/quiz-drapeaux-afrique",
+    "/quiz-drapeaux-asie",
+    "/quiz-drapeaux-amerique"
+  ]
+}

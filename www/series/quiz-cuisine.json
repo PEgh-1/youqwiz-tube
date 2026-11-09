@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-cuisine",
+  "theme": "cuisine-et-gastronomie",
+  "title": "Quiz cuisine française : 20 questions gourmandes",
+  "description": "Quiz cuisine : 20 questions sur la gastronomie française, les plats, les sauces, les techniques et les grands chefs. Es-tu un vrai gourmet ?",
+  "h1": "Quiz cuisine : es-tu incollable sur la gastronomie ?",
+  "intro": "La cuisine française est inscrite à l'UNESCO, et pour de bonnes raisons : sauces, pâtisseries, techniques de chefs et plats de terroir. Ce quiz de cuisine te propose 20 questions pour tester ton palais et ta culture gourmande, des plus accessibles aux plus pointues. Prévois environ 5 secondes de réflexion par question. Après chaque réponse, une petite explication t'apprend un secret de recette, l'origine d'un plat ou le nom d'un grand cuisinier. Tablier noué, on passe aux fourneaux : bon appétit et bonne chance !",
+  "questions": [
+    {
+      "q": "De quoi un éclair est-il traditionnellement garni ?",
+      "choices": [
+        "De confiture",
+        "De crème de marron",
+        "De fromage frais",
+        "De crème pâtissière"
+      ],
+      "answer": 3,
+      "explication": "L'éclair est fait de pâte à choux, fourrée de crème pâtissière et glacée au chocolat ou au café.",
+      "level": "facile"
+    },
+    {
+      "q": "Que cache-t-on dans la galette des Rois ?",
+      "choices": [
+        "Une fève",
+        "Une bague",
+        "Une pièce d'or",
+        "Un bonbon"
+      ],
+      "answer": 0,
+      "explication": "Celui qui trouve la fève devient roi ou reine et porte la couronne.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle fête célèbre-t-on en mangeant des crêpes ?",
+      "choices": [
+        "Noël",
+        "Pâques",
+        "Le 14 juillet",
+        "La Chandeleur"
+      ],
+      "answer": 3,
+      "explication": "La Chandeleur a lieu le 2 février ; la crêpe dorée rappelle le soleil qui revient.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel plat typiquement français associe jambon et fromage dans du pain de mie grillé ?",
+      "choices": [
+        "Le panini",
+        "Le hot-dog",
+        "Le croque-monsieur",
+        "Le sandwich club"
+      ],
+      "answer": 2,
+      "explication": "Le croque-monsieur est servi dans les cafés parisiens depuis le début du XXe siècle.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fruit est au cœur de la tarte Tatin ?",
+      "choices": [
+        "La pomme",
+        "La poire",
+        "La pêche",
+        "L'abricot"
+      ],
+      "answer": 0,
+      "explication": "Cette tarte caramélisée se cuit à l'envers puis se retourne, selon la légende, par les sœurs Tatin.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est l'ingrédient principal du cassoulet ?",
+      "choices": [
+        "Les haricots blancs",
+        "Les lentilles",
+        "Les pois chiches",
+        "Les pommes de terre"
+      ],
+      "answer": 0,
+      "explication": "Le cassoulet, du Sud-Ouest, associe haricots blancs, saucisse et viande confite.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle viande entre dans la composition du pot-au-feu ?",
+      "choices": [
+        "Le bœuf",
+        "Le porc",
+        "L'agneau",
+        "Le canard"
+      ],
+      "answer": 0,
+      "explication": "Le pot-au-feu se prépare avec du bœuf et des légumes cuits longuement dans le bouillon.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel morceau de canard est le magret ?",
+      "choices": [
+        "La cuisse",
+        "L'aile",
+        "Le foie",
+        "La poitrine"
+      ],
+      "answer": 3,
+      "explication": "Le magret se cuit côté peau, puis se sert rosé.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle pâte permet de réaliser éclairs, choux et profiteroles ?",
+      "choices": [
+        "La pâte à choux",
+        "La pâte brisée",
+        "La pâte feuilletée",
+        "La pâte à crêpes"
+      ],
+      "answer": 0,
+      "explication": "Elle gonfle à la cuisson grâce à l'humidité qui se transforme en vapeur.",
+      "level": "moyen"
+    },
+    {
+      "q": "Avec quel vin prépare-t-on traditionnellement un coq au vin ?",
+      "choices": [
+        "Du vin blanc sucré",
+        "Du vin rouge",
+        "Du cidre",
+        "De la bière"
+      ],
+      "answer": 1,
+      "explication": "Dans la recette bourguignonne, le coq est mijoté dans un vin rouge, avec lardons et champignons.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle préparation mêle chocolat et crème chaude ?",
+      "choices": [
+        "Le praliné",
+        "Le coulis",
+        "La ganache",
+        "La meringue"
+      ],
+      "answer": 2,
+      "explication": "La ganache sert à fourrer des gâteaux ou à confectionner des truffes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle sauce rouge relevée accompagne la bouillabaisse ?",
+      "choices": [
+        "La béarnaise",
+        "La gribiche",
+        "La rouille",
+        "La tartare"
+      ],
+      "answer": 2,
+      "explication": "La rouille est une sauce à l'ail, au safran et au piment, servie avec des croûtons.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle épice est le fruit d'une orchidée ?",
+      "choices": [
+        "Le poivre",
+        "La vanille",
+        "La cannelle",
+        "Le clou de girofle"
+      ],
+      "answer": 1,
+      "explication": "La vanille est la gousse d'une orchidée ; son prix élevé s'explique par la pollinisation des fleurs à la main et la longue préparation des gousses.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle épice est formée des stigmates d'une fleur de crocus ?",
+      "choices": [
+        "Le curcuma",
+        "Le paprika",
+        "Le safran",
+        "La vanille"
+      ],
+      "answer": 2,
+      "explication": "Il faut récolter à la main de très nombreuses fleurs pour obtenir quelques grammes de safran.",
+      "level": "moyen"
+    },
+    {
+      "q": "Que veut dire « déglacer » une poêle ?",
+      "choices": [
+        "La mettre au congélateur",
+        "Retirer la graisse",
+        "Ajouter de la glace",
+        "Verser un liquide pour décoller les sucs"
+      ],
+      "answer": 3,
+      "explication": "On utilise du vin, du bouillon ou du vinaigre pour récupérer les sucs et en faire une sauce.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui a écrit « La Physiologie du goût » en 1825 ?",
+      "choices": [
+        "Grimod de La Reynière",
+        "Brillat-Savarin",
+        "Auguste Escoffier",
+        "Curnonsky"
+      ],
+      "answer": 1,
+      "explication": "Brillat-Savarin y signe la célèbre formule « Dis-moi ce que tu manges, je te dirai ce que tu es ».",
+      "level": "moyen"
+    },
+    {
+      "q": "Que contient une mirepoix ?",
+      "choices": [
+        "Poivrons et tomates",
+        "Ail et persil",
+        "Pommes et poires",
+        "Carottes, oignons et céleri"
+      ],
+      "answer": 3,
+      "explication": "On la taille en dés pour parfumer sauces, fonds et braisés.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle cuisinière lyonnaise, surnommée la Mère Brazier, obtient six étoiles au guide Michelin en 1933 ?",
+      "choices": [
+        "Anne-Sophie Pic",
+        "Eugénie Brazier",
+        "Hélène Darroze",
+        "Mère Blanc"
+      ],
+      "answer": 1,
+      "explication": "Elle décroche trois étoiles pour deux restaurants différents, un exploit rare à l'époque.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel inventeur met au point la conserve alimentaire en chauffant des aliments dans des bocaux ?",
+      "choices": [
+        "Louis Pasteur",
+        "Antoine Parmentier",
+        "Nicolas Appert",
+        "Henri Nestlé"
+      ],
+      "answer": 2,
+      "explication": "Appert met au point son procédé vers 1795 et reçoit une récompense de l'État en 1810.",
+      "level": "expert"
+    },
+    {
+      "q": "Qui publie « L'Almanach des gourmands » à partir de 1803 ?",
+      "choices": [
+        "Brillat-Savarin",
+        "Grimod de La Reynière",
+        "Marie-Antoine Carême",
+        "Curnonsky"
+      ],
+      "answer": 1,
+      "explication": "Cet ouvrage est considéré comme le premier guide gastronomique moderne.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi la cuisine française est-elle réputée ?",
+      "Elle repose sur une grande diversité de terroirs, des techniques codifiées par des chefs comme Carême ou Escoffier et un art de la table très particulier. Le repas gastronomique des Français est d'ailleurs inscrit depuis 2010 au patrimoine culturel immatériel de l'humanité par l'UNESCO."
+    ],
+    [
+      "Quelles sont les cinq sauces mères de la cuisine classique ?",
+      "Dans la cuisine classique codifiée par Escoffier, on distingue la béchamel, le velouté, l'espagnole, la hollandaise et la sauce tomate, parfois complétées par la mayonnaise. À partir de ces bases, les cuisiniers déclinent de nombreuses sauces dérivées, en ajoutant crème, vin, herbes ou épices."
+    ],
+    [
+      "Ce quiz est-il réservé aux cuisiniers ?",
+      "Pas du tout ! Les premières questions sont accessibles à tous les amateurs de bonne chère, les suivantes demandent un peu de pratique, et les dernières s'adressent aux passionnés. Chaque explication permet de découvrir une anecdote ou une technique à tester ensuite en cuisine."
+    ]
+  ],
+  "related": [
+    "/quiz-fromages",
+    "/quiz-vin",
+    "/quiz-noel",
+    "/quiz-regions-de-france"
+  ]
+}

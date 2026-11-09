@@ -1,0 +1,157 @@
+name: Vidéo du jour
+
+on:
+  schedule:
+    - cron: "41 2 * * *" # tous les jours, 02:41 UTC (03:41 / 04:41 Paris)
+    - cron: "11 10,13,19 * * *" # rattrapage : tant que la file tampon n'a pas 7 jours d'avance (limite YouTube d'envois/jour)
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date de l'épisode (YYYY-MM-DD, vide = aujourd'hui)"
+        required: false
+      pillar:
+        description: "Forcer un pilier (devine, choix, culture, emojis, generations)"
+        required: false
+      bank:
+        description: "Forcer une banque de questions (ex. drapeaux)"
+        required: false
+      skip_upload:
+        description: "true = rendre sans mettre en ligne"
+        required: false
+        default: "false"
+      reuse:
+        description: "Re-rendre un épisode existant tel quel pour sa date (id), même le jour même ; le Short déjà en file est conservé"
+        required: false
+      redo:
+        description: "Refaire un épisode déjà envoyé (id, ex. 2026-11-03-tu-preferes) : supprime les vidéos privées puis re-rend"
+        required: false
+
+concurrency:
+  group: video-du-jour
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Dépendances (+ ffmpeg)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm ci
+          npx remotion browser ensure
+
+      - name: Musique de fond (URL privée)
+        env:
+          MUSIC_URL: ${{ secrets.MUSIC_URL }}
+        run: node scripts/get-music.mjs && node scripts/prepare-assets.mjs
+
+      - name: Vérifier l'accès YouTube (sans publier)
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: node scripts/check-auth.mjs
+
+      - name: Refaire un épisode (supprime les vidéos privées)
+        if: ${{ inputs.redo != '' }}
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: node scripts/redo-episode.mjs --id "${{ inputs.redo }}"
+
+      - name: Générer l'épisode
+        id: gen
+        env:
+          YOUQWIZ_EXPORT_URL: ${{ secrets.YOUQWIZ_EXPORT_URL }}
+          REUSE_EPISODE: ${{ inputs.reuse }}
+        run: |
+          ARGS=""
+          [ -n "${{ inputs.date }}" ] && ARGS="$ARGS --date ${{ inputs.date }}"
+          [ -n "${{ inputs.redo }}" ] && [ -z "${{ inputs.date }}" ] && ARGS="$ARGS --date $(echo '${{ inputs.redo }}' | cut -c1-10)"
+          [ -n "${{ inputs.pillar }}" ] && ARGS="$ARGS --pillar ${{ inputs.pillar }}"
+          [ -n "${{ inputs.bank }}" ] && ARGS="$ARGS --bank ${{ inputs.bank }}"
+          node scripts/generate.mjs $ARGS
+
+      - name: Voix off (ElevenLabs, optionnel)
+        if: ${{ steps.gen.outputs.skip != 'true' }}
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+        run: node scripts/tts.mjs
+
+      - name: Chapitres (après la voix, avec la timeline réelle)
+        if: ${{ steps.gen.outputs.skip != 'true' }}
+        run: node scripts/chapters.mjs
+
+      # Le mixage audio Remotion écrit des Go de WAV temporaires (≈ 1 Go par minute de vidéo) : on libère le disque du runner
+      # et on place TMPDIR sur /mnt — panne « No space left on device » du 06/11/2026. Sur les runners actuels /mnt n'est plus
+      # un disque séparé (même volume que /, 30 Go libres après le premier ménage) : un épisode de 31 min a saturé le 09/11/2026,
+      # d'où le grand ménage ci-dessous (≈ +25 Go ; on garde /opt/hostedtoolcache/node, utilisé par setup-node).
+      - name: Libérer de l'espace disque
+        if: ${{ steps.gen.outputs.skip != 'true' }}
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/share/boost \
+            /usr/local/.ghcup /usr/share/swift /usr/local/julia* /usr/lib/jvm /usr/share/miniconda /usr/local/share/powershell \
+            /usr/local/aws-cli /usr/local/aws-sam-cli /opt/az /usr/lib/google-cloud-sdk /usr/lib/firefox /opt/microsoft /opt/google \
+            /usr/local/share/chromium /usr/lib/heroku /usr/local/share/edge_driver /usr/local/share/gecko_driver /usr/local/share/chromedriver-linux64  \
+            /usr/share/kotlinc 2>/dev/null || true
+          sudo find /opt/hostedtoolcache -mindepth 1 -maxdepth 1 ! -name node -exec rm -rf {} + 2>/dev/null || true
+          sudo docker image prune -af >/dev/null 2>&1 || true
+          sudo apt-get clean >/dev/null 2>&1 || true
+          sudo mkdir -p /mnt/tmp && sudo chmod 1777 /mnt/tmp
+          df -h / /mnt | sed 's/^/  /'
+
+      - name: Rendre (longue + Short + miniatures)
+        if: ${{ steps.gen.outputs.skip != 'true' }}
+        env:
+          REMOTION_CONCURRENCY: 2
+          TMPDIR: /mnt/tmp
+        run: node scripts/render.mjs
+
+      - name: Contrôle qualité
+        if: ${{ steps.gen.outputs.skip != 'true' }}
+        run: node scripts/qc.mjs
+
+      - name: Mettre en ligne (programmée)
+        if: ${{ steps.gen.outputs.skip != 'true' && inputs.skip_upload != 'true' }}
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PLAYLIST_ID: ${{ secrets.YT_PLAYLIST_ID }}
+          SAME_DAY: ${{ inputs.reuse != '' && '1' || '' }}
+        run: node scripts/upload.mjs
+
+      - name: Publier le quiz jouable sur youqwiz.com (non bloquant)
+        if: ${{ steps.gen.outputs.skip != 'true' && inputs.skip_upload != 'true' }}
+        env:
+          SITE_SYNC_KEY: ${{ secrets.SITE_SYNC_KEY }}
+          SITE_SYNC_URL: ${{ secrets.SITE_SYNC_URL }}
+        run: node scripts/publish-site.mjs
+
+      - name: Sauvegarder l'état (items utilisés, file de publication)
+        if: ${{ !cancelled() && steps.gen.outputs.skip != 'true' && inputs.skip_upload != 'true' }}
+        run: |
+          P="data/state data/episodes"; [ -d public/tts-cache ] && P="$P public/tts-cache"
+          node scripts/save-state.mjs --paths "$P" --message "état : $(node -pe 'require("./data/state/current.json").id')"
+
+      # Dépôt public : les artefacts sont téléchargeables par tous, on n'archive que les JSON (pas de vidéo ni d'image).
+      - name: Archiver les sorties JSON (2 jours, non bloquant)
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: episode
+          path: out/**/*.json
+          retention-days: 2

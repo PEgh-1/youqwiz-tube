@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-premiere-guerre-mondiale",
+  "theme": "histoire",
+  "title": "Quiz Première Guerre mondiale : 20 questions",
+  "description": "Quiz Première Guerre mondiale : 20 questions sur les causes, les grandes batailles, les poilus et l'armistice de 1918. Teste tes connaissances.",
+  "h1": "Quiz Première Guerre mondiale : que sais-tu de la guerre de 1914-1918 ?",
+  "intro": "La Première Guerre mondiale, de 1914 à 1918, a profondément marqué l'Europe et laissé des millions de victimes. Ce quiz te propose 20 questions pour mieux connaître ses causes, ses grandes batailles, la vie des soldats et la fin du conflit. Les questions vont des plus accessibles aux plus précises, avec environ 5 secondes de réflexion chacune. Chaque réponse est suivie d'une courte explication pour comprendre et retenir. Un quiz à aborder avec le respect dû à cette mémoire. À toi de jouer, et de tester ce que tu sais.",
+  "questions": [
+    {
+      "q": "Quel événement du 28 juin 1914 déclenche la crise qui mène à la guerre ?",
+      "choices": [
+        "L'invasion de la Pologne",
+        "L'assassinat de l'archiduc François-Ferdinand",
+        "Le naufrage du Lusitania",
+        "La mort de l'empereur Guillaume II"
+      ],
+      "answer": 1,
+      "explication": "L'héritier du trône d'Autriche-Hongrie est tué à Sarajevo ; l'Autriche-Hongrie déclare la guerre à la Serbie un mois plus tard.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la date de l'armistice qui met fin aux combats sur le front de l'Ouest ?",
+      "choices": [
+        "Le 8 mai 1945",
+        "Le 14 juillet 1919",
+        "Le 11 novembre 1918",
+        "Le 2 septembre 1918"
+      ],
+      "answer": 2,
+      "explication": "Il est signé à Rethondes ; le 11 novembre est depuis un jour de commémoration en France.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment surnomme-t-on les soldats français de la Grande Guerre ?",
+      "choices": [
+        "Les poilus",
+        "Les grognards",
+        "Les tirailleurs",
+        "Les chouans"
+      ],
+      "answer": 0,
+      "explication": "Le terme désigne le soldat ordinaire du front, mobilisé par millions.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel type de combat domine le front de l'Ouest à partir de la fin de 1914 ?",
+      "choices": [
+        "La guerre de mouvement",
+        "La guerre navale",
+        "La guerre de siège",
+        "La guerre de tranchées"
+      ],
+      "answer": 3,
+      "explication": "Les armées s'enterrent sur un front de plusieurs centaines de kilomètres, de la mer du Nord à la Suisse.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle bataille de 1916 dure dix mois et devient un symbole pour les Français ?",
+      "choices": [
+        "La Marne",
+        "Les Dardanelles",
+        "Verdun",
+        "Tannenberg"
+      ],
+      "answer": 2,
+      "explication": "Elle se déroule de février à décembre 1916 et fait des centaines de milliers de victimes des deux côtés.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays entre en guerre aux côtés des Alliés en avril 1917 ?",
+      "choices": [
+        "Les États-Unis",
+        "Le Japon",
+        "L'Espagne",
+        "Le Brésil"
+      ],
+      "answer": 0,
+      "explication": "Leur arrivée apporte un soutien décisif en hommes et en moyens à partir de 1918.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays neutre l'Allemagne envahit-elle en août 1914 pour contourner les défenses françaises ?",
+      "choices": [
+        "La Suisse",
+        "Les Pays-Bas",
+        "Le Danemark",
+        "La Belgique"
+      ],
+      "answer": 3,
+      "explication": "Sa neutralité était garantie par le traité de Londres de 1839 : sa violation décide le Royaume-Uni à entrer dans la guerre.",
+      "level": "facile"
+    },
+    {
+      "q": "Sous quel monument parisien repose le Soldat inconnu, inhumé en 1921 ?",
+      "choices": [
+        "Les Invalides",
+        "L'Arc de triomphe",
+        "Le Panthéon",
+        "Notre-Dame"
+      ],
+      "answer": 1,
+      "explication": "Une flamme y est ravivée chaque soir, depuis 1923, en hommage aux morts.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle bataille de septembre 1914 arrête l'avance allemande vers Paris ?",
+      "choices": [
+        "La bataille de la Somme",
+        "La bataille de Verdun",
+        "La bataille d'Ypres",
+        "La bataille de la Marne"
+      ],
+      "answer": 3,
+      "explication": "Elle met fin à l'espoir d'une guerre courte et rapide.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel traité signé en juin 1919 impose ses conditions à l'Allemagne ?",
+      "choices": [
+        "Le traité de Versailles",
+        "Le traité de Trianon",
+        "Le traité de Sèvres",
+        "Le traité de Saint-Germain"
+      ],
+      "answer": 0,
+      "explication": "Il est signé dans la galerie des Glaces, cinq ans jour pour jour après Sarajevo.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel général français commande les armées lors de la première bataille de la Marne ?",
+      "choices": [
+        "Ferdinand Foch",
+        "Joseph Joffre",
+        "Philippe Pétain",
+        "Robert Nivelle"
+      ],
+      "answer": 1,
+      "explication": "Il est commandant en chef de l'armée française de 1914 à décembre 1916.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel maréchal représente les Alliés lors de la signature de l'armistice à Rethondes ?",
+      "choices": [
+        "Joseph Joffre",
+        "Philippe Pétain",
+        "Ferdinand Foch",
+        "Hubert Lyautey"
+      ],
+      "answer": 2,
+      "explication": "Foch est alors commandant suprême des armées alliées.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel gaz l'armée allemande utilise-t-elle à grande échelle à Ypres en avril 1915 ?",
+      "choices": [
+        "Le gaz moutarde",
+        "Le chlore",
+        "Le méthane",
+        "L'hélium"
+      ],
+      "answer": 1,
+      "explication": "Cette attaque marque le début de l'emploi massif des armes chimiques durant la guerre.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle arme apparaît sur le champ de bataille de la Somme en septembre 1916 ?",
+      "choices": [
+        "Le char d'assaut",
+        "Le missile",
+        "Le lance-flammes portatif",
+        "Le sous-marin"
+      ],
+      "answer": 0,
+      "explication": "Les premiers chars sont engagés par les Britanniques.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment nomme-t-on la route par laquelle les camions ravitaillent Verdun en 1916 ?",
+      "choices": [
+        "La Voie royale",
+        "Le Chemin des Dames",
+        "La Voie sacrée",
+        "La route Napoléon"
+      ],
+      "answer": 2,
+      "explication": "Cette route reliant Bar-le-Duc à Verdun voit passer un camion toutes les quelques secondes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel traité de mars 1918 met fin à la guerre entre la Russie et les puissances centrales ?",
+      "choices": [
+        "Le traité de Rapallo",
+        "Le traité de Neuilly",
+        "Les accords de Locarno",
+        "Le traité de Brest-Litovsk"
+      ],
+      "answer": 3,
+      "explication": "Signé après la révolution bolchevique, il fait perdre à la Russie de vastes territoires.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel paquebot britannique est coulé par un sous-marin allemand en mai 1915 ?",
+      "choices": [
+        "Le Lusitania",
+        "Le Titanic",
+        "Le Britannic",
+        "L'Olympic"
+      ],
+      "answer": 0,
+      "explication": "Plus d'un millier de personnes meurent, dont de nombreux Américains, ce qui choque l'opinion.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel télégramme de janvier 1917 propose au Mexique une alliance avec l'Allemagne ?",
+      "choices": [
+        "La dépêche d'Ems",
+        "Le télégramme Kruger",
+        "Le télégramme Willy-Nicky",
+        "Le télégramme Zimmermann"
+      ],
+      "answer": 3,
+      "explication": "Intercepté par les Britanniques, il contribue à l'entrée en guerre des États-Unis.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle offensive d'avril 1917, dirigée par Nivelle, est suivie de mutineries ?",
+      "choices": [
+        "L'offensive de la Somme",
+        "L'offensive d'Artois",
+        "L'offensive du Chemin des Dames",
+        "La bataille de l'Yser"
+      ],
+      "answer": 2,
+      "explication": "Ses pertes élevées et son échec provoquent de graves troubles dans l'armée française.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel détroit est visé par l'expédition alliée de 1915, qui échoue ?",
+      "choices": [
+        "Le Bosphore",
+        "Les Dardanelles",
+        "Le détroit de Messine",
+        "Le Pas-de-Calais"
+      ],
+      "answer": 1,
+      "explication": "L'objectif est d'atteindre Constantinople ; l'opération est abandonnée début 1916.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelles sont les causes de la Première Guerre mondiale ?",
+      "Plusieurs facteurs se combinent : les rivalités entre grandes puissances, les systèmes d'alliances, la course aux armements, les tensions nationalistes dans les Balkans et la concurrence coloniale. L'assassinat de l'archiduc François-Ferdinand à Sarajevo, le 28 juin 1914, sert d'étincelle. Ces repères aident à situer les événements dans leur contexte et à mieux les mémoriser."
+    ],
+    [
+      "Pourquoi appelle-t-on les soldats français des poilus ?",
+      "Le mot « poilu » est une expression familière qui évoque la virilité et le courage. Elle désigne les soldats français du front, qui portaient souvent la barbe ou la moustache faute de pouvoir se raser dans les tranchées. Ces repères aident à situer les événements dans leur contexte et à mieux les mémoriser."
+    ],
+    [
+      "Quand et comment la guerre s'est-elle terminée ?",
+      "L'armistice avec l'Allemagne est signé le 11 novembre 1918 à Rethondes, dans la forêt de Compiègne, et les combats cessent à 11 heures. Le traité de Versailles est ensuite signé le 28 juin 1919. Ces repères aident à situer les événements dans leur contexte et à mieux les mémoriser."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-seconde-guerre-mondiale",
+    "/quiz-xxe-siecle",
+    "/quiz-histoire-de-france"
+  ]
+}

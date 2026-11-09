@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-fromages",
+  "theme": "cuisine-et-gastronomie",
+  "title": "Quiz fromages : 20 questions pour fins gourmets",
+  "description": "Quiz fromages : 20 questions sur les fromages de France, leurs régions, laits et AOP. Camembert, comté, roquefort : connais-tu bien ton plateau ?",
+  "h1": "Quiz fromages : connais-tu bien ton plateau ?",
+  "intro": "La France compte des centaines de fromages, du camembert au comté en passant par le roquefort, le reblochon ou le maroilles. Ce quiz te propose 20 questions pour tester ta connaissance des régions, des laits, des croûtes et des savoir-faire. Les premières questions sont accessibles à tous les amateurs, les dernières demandent un vrai palais de fromager. Compte environ 5 secondes de réflexion par question, et profite des explications pour découvrir de nouvelles pistes pour ton prochain plateau. Prêt à passer à table ?",
+  "questions": [
+    {
+      "q": "Quel célèbre fromage bleu est affiné dans les caves de Roquefort-sur-Soulzon ?",
+      "choices": [
+        "Le roquefort",
+        "Le bleu de Gex",
+        "Le saint-agur",
+        "La fourme d'Ambert"
+      ],
+      "answer": 0,
+      "explication": "Le roquefort est élaboré avec du lait de brebis et affiné dans des caves naturelles de l'Aveyron.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle région est né le camembert ?",
+      "choices": [
+        "La Bretagne",
+        "L'Alsace",
+        "La Normandie",
+        "Le Languedoc"
+      ],
+      "answer": 2,
+      "explication": "Le camembert tient son nom d'un village de l'Orne ; il est fait de lait de vache.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fromage est réputé pour ses trous ?",
+      "choices": [
+        "L'emmental",
+        "Le brie",
+        "Le cantal",
+        "Le munster"
+      ],
+      "answer": 0,
+      "explication": "Les trous de l'emmental sont dus au gaz produit par des bactéries pendant l'affinage.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel animal fournit le lait du crottin de Chavignol ?",
+      "choices": [
+        "La vache",
+        "La brebis",
+        "La chèvre",
+        "La jument"
+      ],
+      "answer": 2,
+      "explication": "Le crottin de Chavignol est un petit fromage de chèvre du Berry, près de Sancerre.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fromage italien garnit la pizza margherita ?",
+      "choices": [
+        "Le gorgonzola",
+        "La mozzarella",
+        "Le pecorino",
+        "Le mascarpone"
+      ],
+      "answer": 1,
+      "explication": "La mozzarella est fabriquée à partir de lait de bufflonne ou de vache.",
+      "level": "facile"
+    },
+    {
+      "q": "De quel pays vient la feta ?",
+      "choices": [
+        "La Turquie",
+        "L'Espagne",
+        "Le Portugal",
+        "La Grèce"
+      ],
+      "answer": 3,
+      "explication": "La feta est un fromage de brebis, ou de brebis et de chèvre, conservé dans la saumure.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fromage à croûte fleurie est surnommé « le roi des fromages » ?",
+      "choices": [
+        "Le chaource",
+        "Le brie de Meaux",
+        "Le saint-nectaire",
+        "Le livarot"
+      ],
+      "answer": 1,
+      "explication": "On dit du brie de Meaux qu'il est « le roi des fromages et le fromage des rois ».",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fromage à l'odeur forte et à croûte orangée est une spécialité du Nord ?",
+      "choices": [
+        "Le comté",
+        "Le maroilles",
+        "Le brie",
+        "Le cantal"
+      ],
+      "answer": 1,
+      "explication": "Le maroilles est un fromage de vache à croûte lavée, produit en Thiérache et dans l'Avesnois.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quel massif est fabriqué le comté ?",
+      "choices": [
+        "Le Jura",
+        "Les Vosges",
+        "Les Pyrénées",
+        "Le Massif central"
+      ],
+      "answer": 0,
+      "explication": "Le comté est un fromage de vache à pâte pressée cuite, produit en Franche-Comté.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel fromage de Savoie entre dans la préparation de la tartiflette ?",
+      "choices": [
+        "Le reblochon",
+        "Le beaufort",
+        "Le morbier",
+        "La tomme"
+      ],
+      "answer": 0,
+      "explication": "Le reblochon vient des Aravis, en Haute-Savoie.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel fromage à croûte lavée est une spécialité alsacienne et lorraine ?",
+      "choices": [
+        "Le brie",
+        "Le roquefort",
+        "Le munster",
+        "Le camembert"
+      ],
+      "answer": 2,
+      "explication": "Le munster est produit dans la vallée de Munster, sur le versant des Vosges.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle région volcanique est fabriqué le cantal ?",
+      "choices": [
+        "L'Auvergne",
+        "La Provence",
+        "La Normandie",
+        "Le Poitou"
+      ],
+      "answer": 0,
+      "explication": "Le cantal est l'un des plus anciens fromages de France, avec le salers et le saint-nectaire.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel fromage se déguste à la cuillère, dans sa boîte en épicéa ?",
+      "choices": [
+        "Le comté",
+        "Le mont-d'or",
+        "Le cantal",
+        "Le roquefort"
+      ],
+      "answer": 1,
+      "explication": "Le vacherin du Haut-Doubs, ou mont-d'or, est surtout connu l'hiver.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel lait est utilisé pour fabriquer l'ossau-iraty ?",
+      "choices": [
+        "Le lait de vache",
+        "Le lait de chèvre",
+        "Le lait de brebis",
+        "Le lait de bufflonne"
+      ],
+      "answer": 2,
+      "explication": "L'ossau-iraty est un fromage de brebis du Pays basque et du Béarn.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel fromage hollandais est souvent enrobé de cire rouge ?",
+      "choices": [
+        "Le leerdammer",
+        "Le gruyère",
+        "Le parmesan",
+        "L'édam"
+      ],
+      "answer": 3,
+      "explication": "L'édam est une boule de fromage de vache à pâte pressée.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle région est né le chaource ?",
+      "choices": [
+        "La Normandie",
+        "La Lorraine",
+        "L'Alsace",
+        "La Champagne"
+      ],
+      "answer": 3,
+      "explication": "Le chaource est un fromage de vache à croûte fleurie produit dans l'Aube.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle moisissure donne leur veinage bleu au roquefort ?",
+      "choices": [
+        "Penicillium camemberti",
+        "Penicillium roqueforti",
+        "Geotrichum candidum",
+        "Brevibacterium linens"
+      ],
+      "answer": 1,
+      "explication": "Cette moisissure se développe à l'air frais des caves, où le fromage est affiné.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel fromage de chèvre du Berry a la forme d'une pyramide tronquée ?",
+      "choices": [
+        "Le crottin de Chavignol",
+        "Le sainte-maure",
+        "Le picodon",
+        "Le valençay"
+      ],
+      "answer": 3,
+      "explication": "La légende veut que Napoléon ait coupé le sommet de la pyramide après son échec en Égypte.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel fromage normand, entouré de lanières de roseau, est surnommé « le colonel » ?",
+      "choices": [
+        "Le pont-l'évêque",
+        "Le neufchâtel",
+        "Le livarot",
+        "Le camembert"
+      ],
+      "answer": 2,
+      "explication": "Les lanières évoquent les galons d'un colonel ; le livarot est un fromage de vache à croûte lavée.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel fromage corse, fabriqué à partir de petit-lait, entre dans la recette du fiadone ?",
+      "choices": [
+        "Le niolo",
+        "Le sartenais",
+        "Le calenzana",
+        "Le brocciu"
+      ],
+      "answer": 3,
+      "explication": "Le brocciu, fromage frais bénéficiant d'une AOP, est utilisé dans la cuisine corse, du salé au sucré.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Combien de fromages compte la France ?",
+      "On évoque souvent plusieurs centaines de fromages, mais aucun chiffre ne fait vraiment autorité : tout dépend de ce que l'on compte. Ce qui est certain, c'est la grande diversité des laits (vache, chèvre, brebis), des pâtes et des terroirs qui font la richesse du plateau français."
+    ],
+    [
+      "Que signifie AOP pour un fromage ?",
+      "AOP signifie appellation d'origine protégée. Ce label européen garantit qu'un produit est fabriqué dans une zone géographique précise, selon un cahier des charges strict. Roquefort, comté, reblochon, maroilles ou ossau-iraty comptent parmi les fromages qui en bénéficient. Cette protection valorise le travail des producteurs et aide les gourmets à repérer des produits authentiques."
+    ],
+    [
+      "Comment composer un bon plateau de fromages ?",
+      "Mélange les familles : un fromage à pâte molle (brie), une pâte pressée (comté), une pâte persillée (roquefort), un fromage de chèvre et un fromage à croûte lavée. Sers-le à température ambiante, après l'avoir sorti du réfrigérateur environ une heure avant le repas."
+    ]
+  ],
+  "related": [
+    "/quiz-cuisine",
+    "/quiz-vin",
+    "/quiz-regions-de-france",
+    "/quiz-lille"
+  ]
+}

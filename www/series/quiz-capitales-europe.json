@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-capitales-europe",
+  "theme": "geographie",
+  "title": "Quiz capitales d'Europe : 20 questions",
+  "description": "Quiz capitales d'Europe : 20 questions pour tester ta géographie européenne, de Dublin à La Valette. Joue gratuitement !",
+  "h1": "Quiz capitales d'Europe : connais-tu les capitales européennes ?",
+  "intro": "Dublin, Vienne, Varsovie, Helsinki : sais-tu les placer sur la carte ? Ce quiz de 20 questions te fait traverser l'Europe, des pays nordiques aux Balkans. On commence avec des capitales que tout le monde connaît, puis la difficulté monte doucement, jusqu'à des villes plus discrètes comme Ljubljana, Vilnius ou La Valette. Les mauvaises réponses sont souvent de grandes villes du même pays : méfie-toi, la plus connue n'est pas toujours la capitale. Compte environ cinq secondes par question et lis chaque explication pour retenir une anecdote. Tu peux rejouer autant de fois que tu veux.",
+  "questions": [
+    {
+      "q": "Quelle est la capitale de l'Irlande ?",
+      "choices": [
+        "Cork",
+        "Dublin",
+        "Galway",
+        "Limerick"
+      ],
+      "answer": 1,
+      "explication": "Dublin est située sur la côte est, à l'embouchure de la Liffey.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Grèce ?",
+      "choices": [
+        "Thessalonique",
+        "Patras",
+        "Sparte",
+        "Athènes"
+      ],
+      "answer": 3,
+      "explication": "Athènes est l'une des plus anciennes villes d'Europe et le berceau de la démocratie.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Autriche ?",
+      "choices": [
+        "Vienne",
+        "Salzbourg",
+        "Graz",
+        "Innsbruck"
+      ],
+      "answer": 0,
+      "explication": "Vienne est traversée par le Danube et réputée pour ses palais impériaux et sa tradition musicale.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Pologne ?",
+      "choices": [
+        "Cracovie",
+        "Gdansk",
+        "Varsovie",
+        "Wroclaw"
+      ],
+      "answer": 2,
+      "explication": "Cracovie a été capitale avant Varsovie, qui l'est devenue à la fin du XVIe siècle.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Suède ?",
+      "choices": [
+        "Göteborg",
+        "Malmö",
+        "Uppsala",
+        "Stockholm"
+      ],
+      "answer": 3,
+      "explication": "Stockholm est bâtie sur un archipel, entre le lac Mälar et la mer Baltique.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Norvège ?",
+      "choices": [
+        "Bergen",
+        "Oslo",
+        "Trondheim",
+        "Stavanger"
+      ],
+      "answer": 1,
+      "explication": "Oslo est la capitale de la Norvège, au fond d'un fjord.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Danemark ?",
+      "choices": [
+        "Aarhus",
+        "Odense",
+        "Copenhague",
+        "Aalborg"
+      ],
+      "answer": 2,
+      "explication": "Copenhague est établie sur les îles de Seeland et d'Amager, face à la Suède.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Finlande ?",
+      "choices": [
+        "Helsinki",
+        "Tampere",
+        "Turku",
+        "Oulu"
+      ],
+      "answer": 0,
+      "explication": "Turku fut la capitale avant Helsinki, qui l'est devenue en 1812.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Hongrie ?",
+      "choices": [
+        "Budapest",
+        "Debrecen",
+        "Szeged",
+        "Pécs"
+      ],
+      "answer": 0,
+      "explication": "Budapest est née en 1873 de la réunion de Buda, Óbuda et Pest, de part et d'autre du Danube.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Tchéquie ?",
+      "choices": [
+        "Brno",
+        "Ostrava",
+        "Prague",
+        "Plzeň"
+      ],
+      "answer": 2,
+      "explication": "Prague est traversée par la Vltava et célèbre pour son pont Charles.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Roumanie ?",
+      "choices": [
+        "Cluj-Napoca",
+        "Bucarest",
+        "Timișoara",
+        "Iași"
+      ],
+      "answer": 1,
+      "explication": "Bucarest est la plus grande ville de Roumanie et sa capitale politique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Russie ?",
+      "choices": [
+        "Saint-Pétersbourg",
+        "Novossibirsk",
+        "Kazan",
+        "Moscou"
+      ],
+      "answer": 3,
+      "explication": "Saint-Pétersbourg fut la capitale de la Russie pendant environ deux siècles, jusqu'au retour du pouvoir à Moscou en 1918.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Croatie ?",
+      "choices": [
+        "Split",
+        "Dubrovnik",
+        "Zagreb",
+        "Rijeka"
+      ],
+      "answer": 2,
+      "explication": "Zagreb est la capitale de la Croatie, loin de la côte adriatique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Serbie ?",
+      "choices": [
+        "Belgrade",
+        "Novi Sad",
+        "Niš",
+        "Kragujevac"
+      ],
+      "answer": 0,
+      "explication": "Belgrade se trouve au confluent du Danube et de la Save.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Bulgarie ?",
+      "choices": [
+        "Plovdiv",
+        "Varna",
+        "Bourgas",
+        "Sofia"
+      ],
+      "answer": 3,
+      "explication": "Sofia est la capitale de la Bulgarie, au pied du mont Vitosha.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Slovaquie ?",
+      "choices": [
+        "Košice",
+        "Bratislava",
+        "Žilina",
+        "Nitra"
+      ],
+      "answer": 1,
+      "explication": "Bratislava est située sur le Danube, à environ 55 kilomètres de Vienne : deux capitales parmi les plus proches d'Europe.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Slovénie ?",
+      "choices": [
+        "Maribor",
+        "Ljubljana",
+        "Celje",
+        "Kranj"
+      ],
+      "answer": 1,
+      "explication": "Ljubljana est la capitale de la Slovénie, indépendante depuis 1991.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale de la Lituanie ?",
+      "choices": [
+        "Kaunas",
+        "Klaipėda",
+        "Šiauliai",
+        "Vilnius"
+      ],
+      "answer": 3,
+      "explication": "Kaunas fut capitale provisoire pendant l'entre-deux-guerres, mais Vilnius est la capitale.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale de l'Albanie ?",
+      "choices": [
+        "Tirana",
+        "Durrës",
+        "Shkodër",
+        "Vlorë"
+      ],
+      "answer": 0,
+      "explication": "Tirana est la capitale de l'Albanie, devant Durrës, grand port du pays.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale de Malte ?",
+      "choices": [
+        "Mdina",
+        "Sliema",
+        "La Valette",
+        "Rabat"
+      ],
+      "answer": 2,
+      "explication": "La Valette doit son nom au grand maître Jean de Valette, qui la fonda en 1566 ; Mdina fut l'ancienne capitale.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelle est la plus grande capitale d'Europe par sa population ?",
+      "Moscou est la plus peuplée des capitales européennes, devant Londres, Berlin et Madrid. Si l'on compte uniquement l'Union européenne, Berlin arrive en tête. Ces classements varient selon que l'on prend la ville seule ou son agglomération, ce qui explique les écarts entre les sources."
+    ],
+    [
+      "Quelles sont les plus petites capitales d'Europe ?",
+      "Les plus petites capitales sont celles de micro-États : Cité du Vatican, Monaco et Saint-Marin. À l'échelle d'un pays membre de l'Union européenne, La Valette, à Malte, est la plus petite capitale, avec une superficie de quelques kilomètres carrés seulement."
+    ],
+    [
+      "Comment retenir les capitales d'Europe ?",
+      "Avance par régions : pays nordiques, pays baltes, Balkans, Europe centrale. Associe chaque capitale à un fleuve ou à un monument, comme Budapest et le Danube ou Prague et son pont Charles. Fais ensuite des petites séries régulières, c'est plus efficace qu'une longue session."
+    ]
+  ],
+  "related": [
+    "/quiz-capitales",
+    "/quiz-capitales-difficile",
+    "/quiz-capitales-afrique",
+    "/quiz-geographie",
+    "/quiz-drapeaux-europe"
+  ]
+}

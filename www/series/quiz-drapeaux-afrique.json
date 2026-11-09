@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-drapeaux-afrique",
+  "theme": "geographie",
+  "title": "Quiz drapeaux d'Afrique : 20 questions",
+  "description": "Quiz drapeaux d'Afrique : 20 questions pour retrouver le pays de chaque drapeau africain, de l'Égypte au Botswana. Joue gratuitement !",
+  "h1": "Quiz drapeaux d'Afrique : reconnais-tu les drapeaux africains ?",
+  "intro": "Avec ses 54 pays, l'Afrique offre une incroyable diversité de drapeaux : couleurs panafricaines, étoiles, emblèmes, diagonales. Ce quiz te présente 20 drapeaux, un par question, et tu dois deviner à quel pays africain chacun appartient. Les quatre propositions sont toujours des pays d'Afrique. Les premières questions portent sur des drapeaux très connus, puis le niveau monte progressivement jusqu'à quelques drapeaux d'archipels et de pays plus discrets. Compte environ cinq secondes par question et lis chaque explication : elle t'apprend un détail pour mieux retenir la prochaine fois. Rejoue autant que tu veux !",
+  "questions": [
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Soudan",
+        "Égypte",
+        "Kenya",
+        "Maroc"
+      ],
+      "answer": 1,
+      "explication": "Rouge, blanc, noir et l'aigle de Saladin au centre : les couleurs panarabes réunies sur un drapeau.",
+      "level": "facile",
+      "flag": "eg"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Tunisie",
+        "Algérie",
+        "Égypte",
+        "Maroc"
+      ],
+      "answer": 3,
+      "explication": "Le pentagramme vert sur fond rouge s'appelle aussi le sceau de Salomon.",
+      "level": "facile",
+      "flag": "ma"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Afrique du Sud",
+        "Namibie",
+        "Zimbabwe",
+        "Kenya"
+      ],
+      "answer": 0,
+      "explication": "Adopté en 1994 à la fin de l'apartheid, ce drapeau réunit six couleurs autour d'un grand « Y » couché.",
+      "level": "facile",
+      "flag": "za"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Ghana",
+        "Éthiopie",
+        "Nigeria",
+        "Ouganda"
+      ],
+      "answer": 2,
+      "explication": "Deux bandes vertes pour l'agriculture et une bande blanche centrale pour la paix, adoptées à l'indépendance en 1960.",
+      "level": "facile",
+      "flag": "ng"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Tunisie",
+        "Maroc",
+        "Libye",
+        "Algérie"
+      ],
+      "answer": 3,
+      "explication": "Vert et blanc avec un croissant et une étoile rouges : des symboles de l'islam.",
+      "level": "facile",
+      "flag": "dz"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Kenya",
+        "Sénégal",
+        "Égypte",
+        "Nigeria"
+      ],
+      "answer": 1,
+      "explication": "Vert, jaune, rouge en bandes verticales, avec une étoile verte à cinq branches : ce sont les couleurs panafricaines.",
+      "level": "facile",
+      "flag": "sn"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Ouganda",
+        "Tanzanie",
+        "Kenya",
+        "Zimbabwe"
+      ],
+      "answer": 2,
+      "explication": "Un bouclier masaï et deux lances croisées figurent au centre, entre des bandes noire, rouge et verte.",
+      "level": "facile",
+      "flag": "ke"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Tunisie",
+        "Algérie",
+        "Maroc",
+        "Libye"
+      ],
+      "answer": 0,
+      "explication": "Un disque blanc contenant un croissant et une étoile rouges sur fond rouge.",
+      "level": "facile",
+      "flag": "tn"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Ghana",
+        "Éthiopie",
+        "Cameroun",
+        "Bénin"
+      ],
+      "answer": 0,
+      "explication": "Rouge, jaune, vert et une étoile noire, symbole de la liberté africaine : un drapeau adopté à l'indépendance, en 1957.",
+      "level": "moyen",
+      "flag": "gh"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Burundi",
+        "Éthiopie",
+        "Cameroun",
+        "Bénin"
+      ],
+      "answer": 2,
+      "explication": "Vert, rouge, jaune en bandes verticales, avec une étoile jaune au centre de la bande rouge.",
+      "level": "moyen",
+      "flag": "cm"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Ghana",
+        "Éthiopie",
+        "Ouganda",
+        "Soudan"
+      ],
+      "answer": 1,
+      "explication": "Ses couleurs vert, jaune et rouge ont inspiré de nombreux drapeaux africains après les indépendances.",
+      "level": "moyen",
+      "flag": "et"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Kenya",
+        "Rwanda",
+        "Gabon",
+        "Ouganda"
+      ],
+      "answer": 3,
+      "explication": "Six bandes noire, jaune et rouge et, au centre, une grue royale, l'oiseau emblème du pays.",
+      "level": "moyen",
+      "flag": "ug"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Zambie",
+        "Malawi",
+        "Zimbabwe",
+        "Mozambique"
+      ],
+      "answer": 2,
+      "explication": "Sept bandes, un triangle blanc, une étoile rouge et l'oiseau du Zimbabwe, inspiré des vestiges de Grand Zimbabwe.",
+      "level": "moyen",
+      "flag": "zw"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Tanzanie",
+        "Kenya",
+        "Mozambique",
+        "Zambie"
+      ],
+      "answer": 0,
+      "explication": "Une bande diagonale noire bordée de jaune sépare le vert et le bleu : l'union du Tanganyika et de Zanzibar.",
+      "level": "moyen",
+      "flag": "tz"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Maurice",
+        "Comores",
+        "Seychelles",
+        "Madagascar"
+      ],
+      "answer": 3,
+      "explication": "Une bande blanche verticale à gauche, une rouge et une verte horizontales à droite.",
+      "level": "moyen",
+      "flag": "mg"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Zimbabwe",
+        "Zambie",
+        "Malawi",
+        "Tanzanie"
+      ],
+      "answer": 1,
+      "explication": "Un aigle orange plane au-dessus de trois bandes verticales rouge, noire et orange sur fond vert.",
+      "level": "moyen",
+      "flag": "zm"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Namibie",
+        "Botswana",
+        "Cap-Vert",
+        "Seychelles"
+      ],
+      "answer": 1,
+      "explication": "Un fond bleu clair, évoquant l'eau et la pluie, traversé par une bande noire bordée de blanc.",
+      "level": "expert",
+      "flag": "bw"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Sao Tomé-et-Principe",
+        "Guinée-Bissau",
+        "Comores",
+        "Cap-Vert"
+      ],
+      "answer": 3,
+      "explication": "Dix étoiles jaunes en cercle représentent les dix îles de l'archipel.",
+      "level": "expert",
+      "flag": "cv"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Namibie",
+        "Botswana",
+        "Angola",
+        "Afrique du Sud"
+      ],
+      "answer": 0,
+      "explication": "Une diagonale rouge entre le bleu et le vert, avec un soleil doré dans le coin supérieur.",
+      "level": "expert",
+      "flag": "na"
+    },
+    {
+      "q": "De quel pays est ce drapeau ?",
+      "choices": [
+        "Maurice",
+        "Comores",
+        "Seychelles",
+        "Madagascar"
+      ],
+      "answer": 2,
+      "explication": "Cinq bandes obliques rayonnent depuis le coin inférieur du côté de la hampe : bleu, jaune, rouge, blanc et vert.",
+      "level": "expert",
+      "flag": "sc"
+    }
+  ],
+  "faq": [
+    [
+      "Que signifient les couleurs vert, jaune et rouge sur tant de drapeaux africains ?",
+      "Ce sont les couleurs panafricaines, inspirées du drapeau éthiopien, dont le pays est resté indépendant. Après 1957, beaucoup d'États, comme le Ghana, le Sénégal ou le Mali, les ont adoptées pour affirmer leur indépendance et leur unité. Leur signification précise varie d'un pays à l'autre."
+    ],
+    [
+      "Quels drapeaux africains sont les plus faciles à confondre ?",
+      "Le Mali et la Guinée utilisent les mêmes trois bandes dans un ordre inversé, tandis que le Sénégal y ajoute une étoile. La Tunisie et l'Algérie partagent croissant et étoile, mais pas les mêmes fonds. Pense aussi au Kenya et à l'Ouganda, aux compositions voisines."
+    ],
+    [
+      "Combien de pays compte l'Afrique ?",
+      "L'Afrique compte 54 États reconnus par l'ONU, de l'Algérie au Zimbabwe, du Cap-Vert aux Seychelles. C'est le continent qui compte le plus de pays. Chacun possède son drapeau, et certains ont été modifiés plusieurs fois depuis les indépendances des années 1950 et 1960, souvent pour changer de couleurs ou d'emblème."
+    ]
+  ],
+  "related": [
+    "/quiz-drapeaux",
+    "/quiz-drapeaux-difficile",
+    "/quiz-drapeaux-europe",
+    "/quiz-drapeaux-asie",
+    "/quiz-capitales-afrique"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-prefectures",
+  "theme": "geographie",
+  "title": "Quiz préfectures de France : 20 questions",
+  "description": "Quiz sur les préfectures de France : retrouve le chef-lieu de chaque département. 20 questions, du plus simple à l'expert. À toi de jouer !",
+  "h1": "Quiz préfectures : connais-tu les chefs-lieux des départements ?",
+  "intro": "Dans chaque département, une ville abrite la préfecture, et ce n'est pas toujours la plus grande ! Reims n'est pas la préfecture de la Marne, Brive n'est pas celle de la Corrèze. Ce quiz de 20 questions te propose de retrouver le chef-lieu de départements bien connus, puis de plus en plus discrets. Les huit premières questions sont à la portée de tous, les huit suivantes demandent d'avoir un peu voyagé, et les quatre dernières feront transpirer les fans de géographie. Chaque question dure environ 5 secondes : lance-toi et vois combien de préfectures tu connais vraiment !",
+  "questions": [
+    {
+      "q": "Quelle est la préfecture de l'Hérault ?",
+      "choices": [
+        "Béziers",
+        "Montpellier",
+        "Nîmes",
+        "Perpignan"
+      ],
+      "answer": 1,
+      "explication": "Montpellier est la préfecture de l'Hérault ; elle était aussi le chef-lieu de l'ancienne région Languedoc-Roussillon, avant la fusion de 2016 dans l'Occitanie, dont le chef-lieu est Toulouse.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture des Bouches-du-Rhône ?",
+      "choices": [
+        "Aix-en-Provence",
+        "Arles",
+        "Martigues",
+        "Marseille"
+      ],
+      "answer": 3,
+      "explication": "Marseille, deuxième ville de France, est la préfecture ; Aix-en-Provence n'est qu'une sous-préfecture.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture du Rhône ?",
+      "choices": [
+        "Lyon",
+        "Villeurbanne",
+        "Saint-Étienne",
+        "Grenoble"
+      ],
+      "answer": 0,
+      "explication": "Lyon est la préfecture du Rhône. Saint-Étienne, souvent confondue, est la préfecture de la Loire.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture du Nord ?",
+      "choices": [
+        "Dunkerque",
+        "Valenciennes",
+        "Lille",
+        "Roubaix"
+      ],
+      "answer": 2,
+      "explication": "Lille est la préfecture du Nord, le département le plus peuplé de France.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture du Bas-Rhin ?",
+      "choices": [
+        "Colmar",
+        "Mulhouse",
+        "Strasbourg",
+        "Haguenau"
+      ],
+      "answer": 2,
+      "explication": "Strasbourg est la préfecture du Bas-Rhin ; Colmar est celle du Haut-Rhin.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture de la Seine-Maritime ?",
+      "choices": [
+        "Rouen",
+        "Le Havre",
+        "Dieppe",
+        "Caen"
+      ],
+      "answer": 0,
+      "explication": "Rouen est la préfecture, bien que Le Havre soit plus peuplée.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture de l'Isère ?",
+      "choices": [
+        "Vienne",
+        "Chambéry",
+        "Valence",
+        "Grenoble"
+      ],
+      "answer": 3,
+      "explication": "Grenoble est la préfecture de l'Isère ; Chambéry est celle de la Savoie et Valence celle de la Drôme.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture de l'Ille-et-Vilaine ?",
+      "choices": [
+        "Saint-Malo",
+        "Rennes",
+        "Vannes",
+        "Fougères"
+      ],
+      "answer": 1,
+      "explication": "Rennes est la préfecture de l'Ille-et-Vilaine et la capitale de la Bretagne administrative.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture de la Vendée ?",
+      "choices": [
+        "La Roche-sur-Yon",
+        "Les Sables-d'Olonne",
+        "Fontenay-le-Comte",
+        "Challans"
+      ],
+      "answer": 0,
+      "explication": "Napoléon fonda la ville en 1804 pour en faire le chef-lieu de la Vendée ; elle s'appela Napoléon-Vendée un temps.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture de la Dordogne ?",
+      "choices": [
+        "Bergerac",
+        "Sarlat-la-Canéda",
+        "Périgueux",
+        "Brive-la-Gaillarde"
+      ],
+      "answer": 2,
+      "explication": "Périgueux est la préfecture, au cœur du Périgord ; Bergerac est la plus grande ville après elle.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture de la Charente-Maritime ?",
+      "choices": [
+        "Rochefort",
+        "La Rochelle",
+        "Saintes",
+        "Royan"
+      ],
+      "answer": 1,
+      "explication": "La Rochelle est la préfecture depuis 1810, devant Saintes qui l'était auparavant.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture de la Haute-Savoie ?",
+      "choices": [
+        "Thonon-les-Bains",
+        "Chambéry",
+        "Annemasse",
+        "Annecy"
+      ],
+      "answer": 3,
+      "explication": "Annecy est la préfecture de la Haute-Savoie, au bord de son lac.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture de la Marne ?",
+      "choices": [
+        "Reims",
+        "Épernay",
+        "Troyes",
+        "Châlons-en-Champagne"
+      ],
+      "answer": 3,
+      "explication": "Reims est plus grande, mais c'est Châlons-en-Champagne qui est préfecture. La ville s'est appelée Châlons-sur-Marne jusqu'en 1998.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture du Morbihan ?",
+      "choices": [
+        "Lorient",
+        "Vannes",
+        "Pontivy",
+        "Auray"
+      ],
+      "answer": 1,
+      "explication": "Vannes est la préfecture du Morbihan, alors que Lorient, sa grande rivale portuaire, n'est qu'une sous-préfecture.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture de la Sarthe ?",
+      "choices": [
+        "Sablé-sur-Sarthe",
+        "La Flèche",
+        "Le Mans",
+        "Laval"
+      ],
+      "answer": 2,
+      "explication": "Le Mans, célèbre pour ses 24 Heures, est la préfecture de la Sarthe. Laval est celle de la Mayenne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture du Loiret ?",
+      "choices": [
+        "Orléans",
+        "Montargis",
+        "Pithiviers",
+        "Gien"
+      ],
+      "answer": 0,
+      "explication": "Orléans est la préfecture du Loiret et aussi celle de la région Centre-Val de Loire.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture de la Corrèze ?",
+      "choices": [
+        "Brive-la-Gaillarde",
+        "Ussel",
+        "Tulle",
+        "Limoges"
+      ],
+      "answer": 2,
+      "explication": "Brive est plus grande, mais Tulle est la préfecture. Limoges est celle de la Haute-Vienne.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la préfecture de l'Allier ?",
+      "choices": [
+        "Moulins",
+        "Vichy",
+        "Montluçon",
+        "Clermont-Ferrand"
+      ],
+      "answer": 0,
+      "explication": "Moulins est la préfecture de l'Allier, alors que Montluçon est la ville la plus peuplée.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la préfecture de la Haute-Marne ?",
+      "choices": [
+        "Langres",
+        "Chaumont",
+        "Saint-Dizier",
+        "Troyes"
+      ],
+      "answer": 1,
+      "explication": "Chaumont est la préfecture ; Saint-Dizier est la ville la plus peuplée du département.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la préfecture du Lot ?",
+      "choices": [
+        "Figeac",
+        "Rodez",
+        "Gourdon",
+        "Cahors"
+      ],
+      "answer": 3,
+      "explication": "Cahors est la préfecture du Lot, célèbre pour son vin et son pont Valentré. Rodez est celle de l'Aveyron.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Qu'est-ce qu'une préfecture ?",
+      "C'est la ville où siège le préfet, représentant de l'État dans le département. On l'appelle aussi chef-lieu. Les villes qui accueillent un sous-préfet sont des sous-préfectures. La préfecture n'est pas toujours la plus grande ville : Le Havre, Reims ou Brive sont plus peuplées que leur chef-lieu."
+    ],
+    [
+      "Une préfecture est-elle toujours la plus grande ville du département ?",
+      "Non. Plusieurs départements ont pour préfecture une ville moins peuplée que sa voisine : Châlons-en-Champagne dans la Marne, Rouen en Seine-Maritime, Tulle en Corrèze ou Moulins dans l'Allier. Ce choix remonte souvent à la Révolution et au Premier Empire, qui privilégiaient la position centrale."
+    ],
+    [
+      "Combien y a-t-il de préfectures en France ?",
+      "Il y en a une par département, soit 101 départements en comptant l'outre-mer, auxquelles s'ajoutent des préfectures de région, qui sont en général celles du département où se trouve la capitale régionale. Lyon a par exemple un rôle de préfecture à la fois pour le Rhône et pour la région Auvergne-Rhône-Alpes."
+    ]
+  ],
+  "related": [
+    "/quiz-departements",
+    "/quiz-departements-numeros",
+    "/quiz-departements-difficile",
+    "/quiz-regions-de-france",
+    "/quiz-geographie-france"
+  ]
+}

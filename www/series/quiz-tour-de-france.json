@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-tour-de-france",
+  "theme": "sport",
+  "title": "Quiz Tour de France : 20 questions cyclisme",
+  "description": "Quiz Tour de France gratuit : 20 questions sur l'histoire, les maillots, les cols et les légendes de la Grande Boucle. Teste-toi en 5 s par question.",
+  "h1": "Quiz Tour de France : maîtrises-tu la Grande Boucle ?",
+  "intro": "Maillot jaune, cols mythiques, duels historiques : ce quiz Tour de France te plonge dans plus d'un siècle d'histoire de la Grande Boucle. Tu verras des questions sur les maillots distinctifs, les montées légendaires et les champions qui ont marqué la course. Le niveau grimpe progressivement, comme un col des Pyrénées : huit questions faciles pour s'échauffer, huit moyennes et quatre expert pour les passionnés de cyclisme. Tu as 5 secondes par question, puis une explication te fait découvrir une anecdote. Enfile ton maillot et vois si tu atteins le sommet !",
+  "questions": [
+    {
+      "q": "Que récompense le maillot jaune du Tour de France ?",
+      "choices": [
+        "Le meilleur sprinteur",
+        "Le meilleur grimpeur",
+        "Le leader du classement général",
+        "Le plus combatif"
+      ],
+      "answer": 2,
+      "explication": "Le maillot jaune est porté par le coureur qui a le plus petit temps cumulé.",
+      "level": "facile"
+    },
+    {
+      "q": "En quelle année s'est déroulé le premier Tour de France ?",
+      "choices": [
+        "1903",
+        "1890",
+        "1920",
+        "1936"
+      ],
+      "answer": 0,
+      "explication": "Le premier Tour a eu lieu en juillet 1903, à l'initiative du journal L'Auto.",
+      "level": "facile"
+    },
+    {
+      "q": "Où se termine traditionnellement le Tour de France ?",
+      "choices": [
+        "À Lyon",
+        "À Marseille",
+        "À Bordeaux",
+        "Sur les Champs-Élysées, à Paris"
+      ],
+      "answer": 3,
+      "explication": "L'arrivée sur les Champs-Élysées est une tradition depuis 1975.",
+      "level": "facile"
+    },
+    {
+      "q": "Que récompense le maillot à pois ?",
+      "choices": [
+        "Le meilleur sprinteur",
+        "Le meilleur grimpeur",
+        "Le meilleur jeune",
+        "Le leader de l'équipe"
+      ],
+      "answer": 1,
+      "explication": "Le maillot blanc à pois rouges revient au meilleur grimpeur du classement de la montagne.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle couleur est le maillot du classement par points, réservé aux sprinteurs ?",
+      "choices": [
+        "Rouge",
+        "Bleu",
+        "Orange",
+        "Vert"
+      ],
+      "answer": 3,
+      "explication": "Le maillot vert récompense la régularité dans les sprints et les arrivées.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel surnom porte le coureur belge Eddy Merckx, vainqueur de cinq Tours ?",
+      "choices": [
+        "Le Faucon",
+        "Le Cannibale",
+        "Le Pirate",
+        "Le Blaireau"
+      ],
+      "answer": 1,
+      "explication": "Eddy Merckx dévorait toutes les courses, d'où son surnom de « Cannibale ».",
+      "level": "facile"
+    },
+    {
+      "q": "Quel journal a créé le Tour de France ?",
+      "choices": [
+        "L'Auto",
+        "Le Monde",
+        "L'Équipe",
+        "Le Figaro"
+      ],
+      "answer": 0,
+      "explication": "Le journal L'Auto, imprimé sur papier jaune, a donné sa couleur au maillot du leader.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle montée mythique des Alpes est célèbre pour ses 21 virages ?",
+      "choices": [
+        "Le col du Tourmalet",
+        "Le Mont Ventoux",
+        "L'Alpe d'Huez",
+        "Le col de la Madeleine"
+      ],
+      "answer": 2,
+      "explication": "L'Alpe d'Huez est numérotée de 21 à 1 selon ses virages.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel coureur surnommé « l'éternel second » n'a jamais porté le maillot jaune ?",
+      "choices": [
+        "Jacques Anquetil",
+        "Raymond Poulidor",
+        "Bernard Thévenet",
+        "Laurent Jalabert"
+      ],
+      "answer": 1,
+      "explication": "Poulidor a terminé trois fois deuxième et cinq fois troisième, sans jamais être leader.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année Bernard Hinault a-t-il remporté son cinquième et dernier Tour ?",
+      "choices": [
+        "1982",
+        "1988",
+        "1991",
+        "1985"
+      ],
+      "answer": 3,
+      "explication": "Bernard Hinault a gagné en 1978, 1979, 1981, 1982 et 1985.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui a été le premier à gagner cinq Tours de France, entre 1957 et 1964 ?",
+      "choices": [
+        "Eddy Merckx",
+        "Louison Bobet",
+        "Jacques Anquetil",
+        "Fausto Coppi"
+      ],
+      "answer": 2,
+      "explication": "Jacques Anquetil a ouvert la série des quintuples vainqueurs en 1964.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel Espagnol a gagné cinq Tours consécutifs de 1991 à 1995 ?",
+      "choices": [
+        "Miguel Indurain",
+        "Pedro Delgado",
+        "Alberto Contador",
+        "Federico Bahamontes"
+      ],
+      "answer": 0,
+      "explication": "Miguel Indurain a dominé le Tour pendant cinq ans, notamment grâce à ses chronos.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle chaîne de montagnes se trouve le col du Tourmalet ?",
+      "choices": [
+        "Les Pyrénées",
+        "Les Alpes",
+        "Le Massif central",
+        "Les Vosges"
+      ],
+      "answer": 0,
+      "explication": "Le Tourmalet est l'un des cols les plus souvent franchis par le Tour, dans les Pyrénées.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel sommet de Provence est surnommé le « Géant de Provence » ?",
+      "choices": [
+        "La Sainte-Victoire",
+        "Le Luberon",
+        "Le Mont Ventoux",
+        "Le Mont Blanc"
+      ],
+      "answer": 2,
+      "explication": "Le sommet du Mont Ventoux, sans arbres, est connu pour sa chaleur et ses vents.",
+      "level": "moyen"
+    },
+    {
+      "q": "Que récompense le maillot blanc ?",
+      "choices": [
+        "Le meilleur grimpeur",
+        "Le meilleur jeune coureur",
+        "Le meilleur sprinteur",
+        "Le plus combatif"
+      ],
+      "answer": 1,
+      "explication": "Le maillot blanc revient au meilleur coureur de moins de 26 ans au classement général.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel Américain a devancé Laurent Fignon de 8 secondes au Tour 1989 ?",
+      "choices": [
+        "Lance Armstrong",
+        "Andy Hampsten",
+        "Tyler Hamilton",
+        "Greg LeMond"
+      ],
+      "answer": 3,
+      "explication": "Greg LeMond l'a emporté pour 8 secondes, l'écart le plus faible de l'histoire du Tour.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui a remporté le premier Tour de France, en 1903 ?",
+      "choices": [
+        "Henri Desgrange",
+        "Lucien Petit-Breton",
+        "Octave Lapize",
+        "Maurice Garin"
+      ],
+      "answer": 3,
+      "explication": "Le Français Maurice Garin a remporté la première édition.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel Italien a remporté le Tour de France en 1998 ?",
+      "choices": [
+        "Marco Pantani",
+        "Fausto Coppi",
+        "Gino Bartali",
+        "Felice Gimondi"
+      ],
+      "answer": 0,
+      "explication": "Surnommé « Il Pirata », Marco Pantani a gagné le Giro et le Tour la même année.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel Britannique a été le premier de son pays à gagner le Tour, en 2012 ?",
+      "choices": [
+        "Mark Cavendish",
+        "Bradley Wiggins",
+        "Chris Boardman",
+        "Tom Simpson"
+      ],
+      "answer": 1,
+      "explication": "Bradley Wiggins a été le premier Britannique à remporter l'épreuve.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel Italien surnommé « Il Campionissimo » a gagné le Tour en 1949 et 1952 ?",
+      "choices": [
+        "Gino Bartali",
+        "Marco Pantani",
+        "Fausto Coppi",
+        "Vincenzo Nibali"
+      ],
+      "answer": 2,
+      "explication": "Fausto Coppi a réussi le doublé Giro-Tour en 1949, puis de nouveau en 1952.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi le maillot du leader du Tour de France est-il jaune ?",
+      "La couleur jaune vient du journal L'Auto, organisateur du Tour, qui était imprimé sur du papier jaune. Le maillot a été introduit en 1919 pour permettre de repérer facilement le leader dans le peloton. Depuis, il est devenu le symbole le plus célèbre du cyclisme et la récompense suprême pour tous les coureurs de la Grande Boucle."
+    ],
+    [
+      "Qui a gagné le plus de Tours de France ?",
+      "Cinq coureurs ont gagné cinq fois la Grande Boucle : Jacques Anquetil, Eddy Merckx, Bernard Hinault, Miguel Indurain et, depuis 2026, Tadej Pogačar. Aucun d'eux ne détient seul le record de victoires. Ces champions ont chacun marqué une époque différente de la course, des années 1950 aux années 2020."
+    ],
+    [
+      "Quels sont les maillots du Tour de France ?",
+      "Le maillot jaune récompense le leader du classement général, le vert le meilleur sprinteur, le blanc à pois rouges le meilleur grimpeur, et le blanc le meilleur jeune. Il existe aussi un prix du combatif pour le coureur le plus offensif de l'étape."
+    ]
+  ],
+  "related": [
+    "/quiz-sport",
+    "/quiz-football",
+    "/quiz-rugby",
+    "/quiz-jeux-olympiques"
+  ]
+}

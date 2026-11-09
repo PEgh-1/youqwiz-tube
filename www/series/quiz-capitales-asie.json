@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-capitales-asie",
+  "theme": "geographie",
+  "title": "Quiz capitales d'Asie : 20 questions",
+  "description": "Quiz capitales d'Asie : 20 questions pour tester tes connaissances sur les capitales asiatiques, de Séoul à Douchanbé. Joue gratuitement !",
+  "h1": "Quiz capitales d'Asie : connais-tu les capitales asiatiques ?",
+  "intro": "Séoul, Bangkok, Katmandou, Tachkent : l'Asie cache des capitales aux noms parfois surprenants. Ce quiz de 20 questions t'emmène du Moyen-Orient à l'Asie du Sud-Est, en passant par l'Asie centrale. On commence par des capitales très connues, puis le niveau monte vers des villes plus rares comme Bichkek, Douchanbé, Achgabat ou Malé. Les mauvaises réponses sont souvent de grandes villes du même pays, donc réfléchis avant de répondre. Compte environ cinq secondes par question et lis chaque explication pour apprendre une anecdote. Rejoue autant que tu veux pour battre ton score.",
+  "questions": [
+    {
+      "q": "Quelle est la capitale de la Corée du Sud ?",
+      "choices": [
+        "Busan",
+        "Séoul",
+        "Incheon",
+        "Daegu"
+      ],
+      "answer": 1,
+      "explication": "Séoul est traversée par le fleuve Han et compte parmi les plus grandes métropoles du monde.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Thaïlande ?",
+      "choices": [
+        "Chiang Mai",
+        "Phuket",
+        "Pattaya",
+        "Bangkok"
+      ],
+      "answer": 3,
+      "explication": "Bangkok porte en thaï l'un des noms de ville les plus longs du monde.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Arabie saoudite ?",
+      "choices": [
+        "Riyad",
+        "Djeddah",
+        "La Mecque",
+        "Médine"
+      ],
+      "answer": 0,
+      "explication": "Riyad est située au centre du pays, loin des côtes, tandis que Djeddah est le grand port sur la mer Rouge.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Iran ?",
+      "choices": [
+        "Ispahan",
+        "Chiraz",
+        "Téhéran",
+        "Tabriz"
+      ],
+      "answer": 2,
+      "explication": "Téhéran est capitale de l'Iran depuis la fin du XVIIIe siècle.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de l'Irak ?",
+      "choices": [
+        "Bassora",
+        "Mossoul",
+        "Erbil",
+        "Bagdad"
+      ],
+      "answer": 3,
+      "explication": "Bagdad est bâtie sur le Tigre et fut fondée au VIIIe siècle.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Syrie ?",
+      "choices": [
+        "Alep",
+        "Damas",
+        "Homs",
+        "Lattaquié"
+      ],
+      "answer": 1,
+      "explication": "Damas compte parmi les plus anciennes villes du monde encore habitées.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Liban ?",
+      "choices": [
+        "Tripoli",
+        "Saïda",
+        "Beyrouth",
+        "Tyr"
+      ],
+      "answer": 2,
+      "explication": "Beyrouth est un grand port de la Méditerranée orientale.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale de la Jordanie ?",
+      "choices": [
+        "Amman",
+        "Aqaba",
+        "Irbid",
+        "Zarqa"
+      ],
+      "answer": 0,
+      "explication": "Amman est la capitale de la Jordanie ; Aqaba est son unique port sur la mer Rouge.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la capitale du Bangladesh ?",
+      "choices": [
+        "Dhaka",
+        "Chittagong",
+        "Sylhet",
+        "Khulna"
+      ],
+      "answer": 0,
+      "explication": "Dhaka, aussi écrite Dacca, est l'une des villes les plus densément peuplées du monde.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de l'Afghanistan ?",
+      "choices": [
+        "Kandahar",
+        "Hérat",
+        "Kaboul",
+        "Mazar-e Charif"
+      ],
+      "answer": 2,
+      "explication": "Kaboul est située dans une vallée entourée de montagnes, à plus de 1 700 mètres d'altitude.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Népal ?",
+      "choices": [
+        "Pokhara",
+        "Katmandou",
+        "Biratnagar",
+        "Janakpur"
+      ],
+      "answer": 1,
+      "explication": "Katmandou se trouve dans une vallée de l'Himalaya et compte de nombreux temples.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Cambodge ?",
+      "choices": [
+        "Siem Reap",
+        "Battambang",
+        "Sihanoukville",
+        "Phnom Penh"
+      ],
+      "answer": 3,
+      "explication": "Phnom Penh est au confluent du Mékong et du Tonlé Sap, loin du site d'Angkor près de Siem Reap.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Laos ?",
+      "choices": [
+        "Luang Prabang",
+        "Savannakhet",
+        "Vientiane",
+        "Pakse"
+      ],
+      "answer": 2,
+      "explication": "Vientiane est sur le Mékong, face à la Thaïlande ; Luang Prabang fut la capitale royale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de la Corée du Nord ?",
+      "choices": [
+        "Pyongyang",
+        "Hamhung",
+        "Kaesong",
+        "Wonsan"
+      ],
+      "answer": 0,
+      "explication": "Pyongyang est la capitale de la Corée du Nord.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Qatar ?",
+      "choices": [
+        "Al Khor",
+        "Al Wakrah",
+        "Lusail",
+        "Doha"
+      ],
+      "answer": 3,
+      "explication": "Doha est bâtie sur la côte du golfe Persique.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale de l'Ouzbékistan ?",
+      "choices": [
+        "Samarcande",
+        "Tachkent",
+        "Boukhara",
+        "Khiva"
+      ],
+      "answer": 1,
+      "explication": "Tachkent est la capitale, tandis que Samarcande, Boukhara et Khiva sont les villes historiques de la route de la soie.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la capitale du Kirghizistan ?",
+      "choices": [
+        "Och",
+        "Bichkek",
+        "Karakol",
+        "Naryn"
+      ],
+      "answer": 1,
+      "explication": "Bichkek est la capitale du Kirghizistan, au pied des montagnes du Tian Shan.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Tadjikistan ?",
+      "choices": [
+        "Khodjent",
+        "Kulob",
+        "Bokhtar",
+        "Douchanbé"
+      ],
+      "answer": 3,
+      "explication": "Douchanbé signifie « lundi » en tadjik, jour d'un ancien marché local.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale du Turkménistan ?",
+      "choices": [
+        "Achgabat",
+        "Türkmenbaşy",
+        "Mary",
+        "Daşoguz"
+      ],
+      "answer": 0,
+      "explication": "Achgabat se trouve au pied de la chaîne du Kopet-Dag, près de l'Iran.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la capitale des Maldives ?",
+      "choices": [
+        "Addu",
+        "Fuvahmulah",
+        "Malé",
+        "Kulhudhuffushi"
+      ],
+      "answer": 2,
+      "explication": "Malé occupe une petite île de l'atoll du même nom et regroupe environ un tiers des habitants du pays.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelle est la plus grande ville d'Asie qui n'est pas une capitale ?",
+      "Plusieurs mégapoles asiatiques ne sont pas des capitales : Shanghai, en Chine, Mumbai, en Inde, ou encore Karachi, au Pakistan. Dans chaque pays, la capitale a été choisie pour des raisons politiques ou historiques plutôt que pour sa taille ou son poids économique."
+    ],
+    [
+      "Pourquoi certaines capitales asiatiques ont-elles plusieurs orthographes ?",
+      "Leurs noms viennent de langues écrites dans d'autres alphabets, donc la transcription en français varie : Dhaka ou Dacca, Katmandou ou Kathmandu, Bichkek ou Bishkek, Douchanbé ou Dushanbe. Les deux écritures désignent la même ville, et ce quiz utilise les formes françaises les plus courantes."
+    ],
+    [
+      "Comment retenir les capitales d'Asie ?",
+      "Découpe le continent en grandes régions : Moyen-Orient, Asie du Sud, Asie du Sud-Est, Asie centrale, Asie de l'Est. Apprends cinq ou six capitales à la fois et associe-les à une image ou à un fleuve. Refais ensuite le quiz régulièrement pour fixer les noms les moins courants."
+    ]
+  ],
+  "related": [
+    "/quiz-capitales",
+    "/quiz-capitales-difficile",
+    "/quiz-capitales-europe",
+    "/quiz-capitales-afrique",
+    "/quiz-drapeaux-asie"
+  ]
+}

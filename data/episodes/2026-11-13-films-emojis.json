@@ -1,0 +1,2001 @@
+{
+ "id": "2026-11-13-films-emojis",
+ "pillar": "emojis",
+ "template": "DevineEn3s",
+ "theme": 2,
+ "style": {
+  "pattern": "stars",
+  "timer": "pie",
+  "reveal": "zoom",
+  "card": "round",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Tu reviens ? Bravo 🏆",
+   "voice": "Tu reviens ? Bravo ! Les champions jouent tous les jours !"
+  },
+  "introCta": "🏆 Compte tes points, dis ton score en commentaire",
+  "subscribe": {
+   "title": "Un quiz par jour, gratuit",
+   "sub": "abonne-toi pour ne pas rater le prochain 🔔",
+   "voice": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain."
+  },
+  "levels": {
+   "facile": {
+    "card": "On s'échauffe 🔥",
+    "voice": "Niveau facile. On s'échauffe !"
+   },
+   "moyen": {
+    "card": "Attention aux pièges ⚠️",
+    "voice": "Niveau moyen. Attention, il y a des pièges."
+   },
+   "difficile": {
+    "card": "Ici, beaucoup abandonnent 😅",
+    "voice": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère."
+   },
+   "impossible": {
+    "card": "Personne ne les a tous 🤯",
+    "voice": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire."
+   }
+  },
+  "scoreVoice": "C'est l'heure des comptes ! Ton score en commentaire : le meilleur de la journée est félicité demain, et le champion de la semaine passe lundi !",
+  "outro": {
+   "title": "Merci d'avoir joué 🙏",
+   "voice": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure."
+  },
+  "packshot": {
+   "headline": "Défie tes proches sur youqwiz.com",
+   "sub": "le quiz du jour, en version interactive 🎮",
+   "cta": "👉 youqwiz.com",
+   "voice": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
+  }
+ },
+ "title": "Devine 96 FILMS en ÉMOJIS en 5 secondes 🎬🍿🧩 Rébus et devinettes",
+ "question": "Quel FILM se cache derrière ces émojis ? 🎬",
+ "intro": {
+  "hook": "Devine 96 FILMS en ÉMOJIS",
+  "sub": "5 secondes par question, sans pause ⏱️"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚢🧊"
+   },
+   "answer": "Titanic",
+   "level": "facile",
+   "rank": 1,
+   "voice": {
+    "q": {
+     "src": "tts-cache/57577c88f847f603.mp3",
+     "sec": 3.787755
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/0-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦖🏝️"
+   },
+   "answer": "Jurassic Park",
+   "level": "facile",
+   "rank": 2,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/1-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦈🏖️"
+   },
+   "answer": "Les Dents de la mer",
+   "level": "facile",
+   "rank": 3,
+   "voice": {
+    "q": {
+     "src": "tts-cache/dd2cee1c41fe48fd.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/2-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦽🤝"
+   },
+   "answer": "Intouchables",
+   "level": "facile",
+   "rank": 6,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/3-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏰⏳🤢"
+   },
+   "answer": "Les Visiteurs",
+   "level": "facile",
+   "rank": 7,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0f3094441587bcd0.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/4-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗⏰"
+   },
+   "answer": "Retour vers le futur",
+   "level": "facile",
+   "rank": 8,
+   "voice": {
+    "q": {
+     "src": "tts-cache/22d16de230335c79.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/5-a.mp3",
+     "sec": 2.298776
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👽📞🏠"
+   },
+   "answer": "E.T. l'extraterrestre",
+   "level": "facile",
+   "rank": 9,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/6-a.mp3",
+     "sec": 2.899592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💍🧙🌋"
+   },
+   "answer": "Le Seigneur des anneaux",
+   "level": "facile",
+   "rank": 10,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/7-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚕💨"
+   },
+   "answer": "Taxi",
+   "level": "facile",
+   "rank": 11,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0f3094441587bcd0.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/8-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚔️🏟️"
+   },
+   "answer": "Gladiator",
+   "level": "facile",
+   "rank": 12,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/9-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕶️💊"
+   },
+   "answer": "Matrix",
+   "level": "facile",
+   "rank": 13,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/10-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪂🥖🇫🇷"
+   },
+   "answer": "La Grande Vadrouille",
+   "level": "facile",
+   "rank": 14,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/11-a.mp3",
+     "sec": 2.377143
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎅🗑️"
+   },
+   "answer": "Le Père Noël est une ordure",
+   "level": "facile",
+   "rank": 15,
+   "voice": {
+    "q": {
+     "src": "tts-cache/18a3b58b8a812a39.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/12-a.mp3",
+     "sec": 2.821224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧊🦣"
+   },
+   "answer": "L'Âge de glace",
+   "level": "facile",
+   "rank": 16,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/13-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🆘👻"
+   },
+   "answer": "SOS Fantômes",
+   "level": "facile",
+   "rank": 18,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/14-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤖🔙"
+   },
+   "answer": "Terminator",
+   "level": "facile",
+   "rank": 19,
+   "voice": {
+    "q": {
+     "src": "tts-cache/dd2cee1c41fe48fd.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/15-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👽🚀😱"
+   },
+   "answer": "Alien",
+   "level": "facile",
+   "rank": 20,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/16-a.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏝️☀️😎"
+   },
+   "answer": "Les Bronzés",
+   "level": "facile",
+   "rank": 21,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/17-a.mp3",
+     "sec": 1.253878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⛺🏕️"
+   },
+   "answer": "Camping",
+   "level": "facile",
+   "rank": 22,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/18-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👩‍👧🎶"
+   },
+   "answer": "Mamma Mia",
+   "level": "facile",
+   "rank": 24,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0e2b07f27988f78c.mp3",
+     "sec": 2.690612
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/19-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☄️🌍💥"
+   },
+   "answer": "Armageddon",
+   "level": "facile",
+   "rank": 25,
+   "voice": {
+    "q": {
+     "src": "tts-cache/dd2cee1c41fe48fd.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/20-a.mp3",
+     "sec": 1.306122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛸🎆🇺🇸"
+   },
+   "answer": "Independence Day",
+   "level": "facile",
+   "rank": 26,
+   "voice": {
+    "q": {
+     "src": "tts-cache/dd2cee1c41fe48fd.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/21-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪐🐒"
+   },
+   "answer": "La Planète des singes",
+   "level": "facile",
+   "rank": 27,
+   "voice": {
+    "q": {
+     "src": "tts-cache/22d16de230335c79.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/22-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐔🏃"
+   },
+   "answer": "Chicken Run",
+   "level": "facile",
+   "rank": 29,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e7b503ff54a6ec74.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/23-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌪️🚗"
+   },
+   "answer": "Twister",
+   "level": "facile",
+   "rank": 30,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/24-a.mp3",
+     "sec": 0.679184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐧🧊🚶"
+   },
+   "answer": "La Marche de l'empereur",
+   "level": "facile",
+   "rank": 31,
+   "voice": {
+    "q": {
+     "src": "tts-cache/18a3b58b8a812a39.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/25-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗🐕"
+   },
+   "answer": "Le Corniaud",
+   "level": "facile",
+   "rank": 32,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/26-a.mp3",
+     "sec": 0.679184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦😱"
+   },
+   "answer": "Les Oiseaux",
+   "level": "facile",
+   "rank": 34,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0f3094441587bcd0.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/27-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎈🌍📅"
+   },
+   "answer": "Le Tour du monde en 80 jours",
+   "level": "facile",
+   "rank": 35,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8da8d321c24c369b.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/28-a.mp3",
+     "sec": 3.239184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌙🚀"
+   },
+   "answer": "Le Voyage dans la Lune",
+   "level": "facile",
+   "rank": 36,
+   "voice": {
+    "q": {
+     "src": "tts-cache/716c60e55d7d0475.mp3",
+     "sec": 3.056327
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/29-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍽️🤪"
+   },
+   "answer": "Le Dîner de cons",
+   "level": "moyen",
+   "rank": 37,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/30-a.mp3",
+     "sec": 1.358367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✈️🔝"
+   },
+   "answer": "Top Gun",
+   "level": "moyen",
+   "rank": 38,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/31-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👠👩"
+   },
+   "answer": "Pretty Woman",
+   "level": "moyen",
+   "rank": 39,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/32-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤵🍝💍"
+   },
+   "answer": "Le Parrain",
+   "level": "moyen",
+   "rank": 40,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/33-a.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💭🌀🛌"
+   },
+   "answer": "Inception",
+   "level": "moyen",
+   "rank": 42,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/34-a.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔵🤿🐬"
+   },
+   "answer": "Le Grand Bleu",
+   "level": "moyen",
+   "rank": 44,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/35-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎶🧒🏫"
+   },
+   "answer": "Les Choristes",
+   "level": "moyen",
+   "rank": 46,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8f30196b50eb700b.mp3",
+     "sec": 2.037551
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/36-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🖐️🌍🔥💧"
+   },
+   "answer": "Le Cinquième Élément",
+   "level": "moyen",
+   "rank": 47,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e3244ba3d872c917.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/37-a.mp3",
+     "sec": 2.220408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎭💚"
+   },
+   "answer": "Le Mask",
+   "level": "moyen",
+   "rank": 48,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8f30196b50eb700b.mp3",
+     "sec": 2.037551
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/38-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏢💎"
+   },
+   "answer": "Piège de cristal",
+   "level": "moyen",
+   "rank": 50,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8a40a13616c52d39.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/39-a.mp3",
+     "sec": 1.28
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤫🐑"
+   },
+   "answer": "Le Silence des agneaux",
+   "level": "moyen",
+   "rank": 51,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/40-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✨🏔️"
+   },
+   "answer": "Shining",
+   "level": "moyen",
+   "rank": 52,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e3244ba3d872c917.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/41-a.mp3",
+     "sec": 1.358367
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👨👨👨👶"
+   },
+   "answer": "Trois hommes et un couffin",
+   "level": "moyen",
+   "rank": 53,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/42-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏹🏙️"
+   },
+   "answer": "Un Indien dans la ville",
+   "level": "moyen",
+   "rank": 55,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8647687546abc8d0.mp3",
+     "sec": 0.888163
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/43-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👩‍🏫📚"
+   },
+   "answer": "Les Profs",
+   "level": "moyen",
+   "rank": 56,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e3244ba3d872c917.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/44-a.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👨👩❓"
+   },
+   "answer": "Papa ou maman",
+   "level": "moyen",
+   "rank": 57,
+   "voice": {
+    "q": {
+     "src": "tts-cache/57de0eba872f3a5c.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/45-a.mp3",
+     "sec": 1.436735
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛃🇫🇷🇧🇪"
+   },
+   "answer": "Rien à déclarer",
+   "level": "moyen",
+   "rank": 58,
+   "voice": {
+    "q": {
+     "src": "tts-cache/6ca199f0cdb8b8e5.mp3",
+     "sec": 1.358367
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/46-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👶🤧"
+   },
+   "answer": "Les Petits Mouchoirs",
+   "level": "moyen",
+   "rank": 59,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/47-a.mp3",
+     "sec": 2.66449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏠🇪🇸"
+   },
+   "answer": "L'Auberge espagnole",
+   "level": "moyen",
+   "rank": 60,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/48-a.mp3",
+     "sec": 2.142041
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☀️🔁⏰"
+   },
+   "answer": "Un jour sans fin",
+   "level": "moyen",
+   "rank": 61,
+   "voice": {
+    "q": {
+     "src": "tts-cache/68f5458c62f46a8c.mp3",
+     "sec": 2.795102
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/49-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕺🌟🎶"
+   },
+   "answer": "La Fièvre du samedi soir",
+   "level": "moyen",
+   "rank": 62,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8647687546abc8d0.mp3",
+     "sec": 0.888163
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/50-a.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚢🪖🏖️"
+   },
+   "answer": "Dunkerque",
+   "level": "moyen",
+   "rank": 64,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/51-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌨️🗽"
+   },
+   "answer": "Le Jour d'après",
+   "level": "moyen",
+   "rank": 65,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8f30196b50eb700b.mp3",
+     "sec": 2.037551
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/52-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚔️⚔️⚔️🪶"
+   },
+   "answer": "Les Trois Mousquetaires",
+   "level": "moyen",
+   "rank": 66,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8647687546abc8d0.mp3",
+     "sec": 0.888163
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/53-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚔️🔘"
+   },
+   "answer": "La Guerre des boutons",
+   "level": "moyen",
+   "rank": 67,
+   "voice": {
+    "q": {
+     "src": "tts-cache/57de0eba872f3a5c.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/54-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐺🤝"
+   },
+   "answer": "Le Pacte des loups",
+   "level": "moyen",
+   "rank": 68,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e3244ba3d872c917.mp3",
+     "sec": 1.201633
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/55-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌋🔥"
+   },
+   "answer": "Volcano",
+   "level": "moyen",
+   "rank": 69,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8f30196b50eb700b.mp3",
+     "sec": 2.037551
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/56-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤠🔫🏜️"
+   },
+   "answer": "Les Sept Mercenaires",
+   "level": "moyen",
+   "rank": 70,
+   "voice": {
+    "q": {
+     "src": "tts-cache/57de0eba872f3a5c.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/57-a.mp3",
+     "sec": 2.298776
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎈🔴"
+   },
+   "answer": "Le Ballon rouge",
+   "level": "moyen",
+   "rank": 72,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d437419c55ae3c31.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/58-a.mp3",
+     "sec": 1.541224
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦁🌴🇲🇬"
+   },
+   "answer": "Madagascar",
+   "level": "difficile",
+   "rank": 73,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c02ed759699ae8a2.mp3",
+     "sec": 3.160816
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/59-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧝⛰️🐉"
+   },
+   "answer": "Le Hobbit",
+   "level": "difficile",
+   "rank": 74,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3a8b5967e25cefc5.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/60-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕴️⚫👽"
+   },
+   "answer": "Men in Black",
+   "level": "difficile",
+   "rank": 75,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3a8b5967e25cefc5.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/61-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎿😎"
+   },
+   "answer": "Les Bronzés font du ski",
+   "level": "difficile",
+   "rank": 76,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ebae7818b61e2856.mp3",
+     "sec": 2.377143
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/62-a.mp3",
+     "sec": 2.742857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤥🤷"
+   },
+   "answer": "La Vérité si je mens",
+   "level": "difficile",
+   "rank": 77,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ebae7818b61e2856.mp3",
+     "sec": 2.377143
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/63-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👴🔫🍷"
+   },
+   "answer": "Les Tontons flingueurs",
+   "level": "difficile",
+   "rank": 78,
+   "voice": {
+    "q": {
+     "src": "tts-cache/978fa25e44cec694.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/64-a.mp3",
+     "sec": 1.750204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😇👹🤠"
+   },
+   "answer": "Le Bon, la Brute et le Truand",
+   "level": "difficile",
+   "rank": 79,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3a8b5967e25cefc5.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/65-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔒🕳️"
+   },
+   "answer": "Les Évadés",
+   "level": "difficile",
+   "rank": 81,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ebae7818b61e2856.mp3",
+     "sec": 2.377143
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/66-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📜⭕👻"
+   },
+   "answer": "Le Cercle des poètes disparus",
+   "level": "difficile",
+   "rank": 82,
+   "voice": {
+    "q": {
+     "src": "tts-cache/dcb9f9cdd6bbab67.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/67-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏰🚶🧙"
+   },
+   "answer": "Le Château ambulant",
+   "level": "difficile",
+   "rank": 83,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ebae7818b61e2856.mp3",
+     "sec": 2.377143
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/68-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🗡️🇯🇵"
+   },
+   "answer": "Le Dernier Samouraï",
+   "level": "difficile",
+   "rank": 85,
+   "voice": {
+    "q": {
+     "src": "tts-cache/26e693991a07b1a7.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/69-a.mp3",
+     "sec": 2.742857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤪👑"
+   },
+   "answer": "La Folie des grandeurs",
+   "level": "difficile",
+   "rank": 87,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0cec21e2cf2da4a1.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/70-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪽🍗"
+   },
+   "answer": "L'Aile ou la Cuisse",
+   "level": "difficile",
+   "rank": 88,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e7fa566b9afaeb62.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/71-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌍⬇️🦖"
+   },
+   "answer": "Voyage au centre de la Terre",
+   "level": "difficile",
+   "rank": 90,
+   "voice": {
+    "q": {
+     "src": "tts-cache/dcb9f9cdd6bbab67.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/72-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏝️💰🗺️"
+   },
+   "answer": "L'Île au trésor",
+   "level": "difficile",
+   "rank": 91,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b705a1bb57f0d537.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/73-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦🪺✈️"
+   },
+   "answer": "Vol au-dessus d'un nid de coucou",
+   "level": "difficile",
+   "rank": 92,
+   "voice": {
+    "q": {
+     "src": "tts-cache/01570ffd17d336a2.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/74-a.mp3",
+     "sec": 3.291429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌉🌊"
+   },
+   "answer": "Le Pont de la rivière Kwaï",
+   "level": "difficile",
+   "rank": 93,
+   "voice": {
+    "q": {
+     "src": "tts-cache/dcb9f9cdd6bbab67.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/75-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☂️🚢"
+   },
+   "answer": "Les Parapluies de Cherbourg",
+   "level": "difficile",
+   "rank": 94,
+   "voice": {
+    "q": {
+     "src": "tts-cache/59235e87cde290d7.mp3",
+     "sec": 1.515102
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/76-a.mp3",
+     "sec": 1.828571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌊🐋"
+   },
+   "answer": "Océans",
+   "level": "difficile",
+   "rank": 95,
+   "voice": {
+    "q": {
+     "src": "tts-cache/8d4560111bb871f8.mp3",
+     "sec": 0.914286
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/77-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐛🔬"
+   },
+   "answer": "Microcosmos",
+   "level": "difficile",
+   "rank": 96,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0cec21e2cf2da4a1.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/78-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦆🌍"
+   },
+   "answer": "Le Peuple migrateur",
+   "level": "difficile",
+   "rank": 97,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd249d8462acaf72.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/79-a.mp3",
+     "sec": 2.742857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👵🚲🏙️"
+   },
+   "answer": "Les Triplettes de Belleville",
+   "level": "difficile",
+   "rank": 98,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ebae7818b61e2856.mp3",
+     "sec": 2.377143
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/80-a.mp3",
+     "sec": 2.56
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏃💨"
+   },
+   "answer": "À bout de souffle",
+   "level": "difficile",
+   "rank": 100,
+   "voice": {
+    "q": {
+     "src": "tts-cache/978fa25e44cec694.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/81-a.mp3",
+     "sec": 2.45551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏙️🤖"
+   },
+   "answer": "Metropolis",
+   "level": "difficile",
+   "rank": 102,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ebae7818b61e2856.mp3",
+     "sec": 2.377143
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/82-a.mp3",
+     "sec": 2.220408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😡🏙️"
+   },
+   "answer": "La Haine",
+   "level": "impossible",
+   "rank": 103,
+   "voice": {
+    "q": {
+     "src": "tts-cache/9a9c0beafe863665.mp3",
+     "sec": 0.966531
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/83-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📛"
+   },
+   "answer": "Le Prénom",
+   "level": "impossible",
+   "rank": 104,
+   "voice": {
+    "q": {
+     "src": "tts-cache/adb5c5b7ee219296.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/84-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚇🎸"
+   },
+   "answer": "Subway",
+   "level": "impossible",
+   "rank": 106,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d1b9b63b773fdcbc.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/85-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👊👊👊👊"
+   },
+   "answer": "Les Quatre Cents Coups",
+   "level": "impossible",
+   "rank": 109,
+   "voice": {
+    "q": {
+     "src": "tts-cache/adb5c5b7ee219296.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/86-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😒"
+   },
+   "answer": "Le Mépris",
+   "level": "impossible",
+   "rank": 110,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3a8b5967e25cefc5.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/87-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪄🏰"
+   },
+   "answer": "La Grande Illusion",
+   "level": "impossible",
+   "rank": 111,
+   "voice": {
+    "q": {
+     "src": "tts-cache/adb5c5b7ee219296.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/88-a.mp3",
+     "sec": 1.515102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👶☁️🎭"
+   },
+   "answer": "Les Enfants du paradis",
+   "level": "impossible",
+   "rank": 112,
+   "voice": {
+    "q": {
+     "src": "tts-cache/958eff7d0afc7e56.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/89-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⭕🔴"
+   },
+   "answer": "Le Cercle rouge",
+   "level": "impossible",
+   "rank": 113,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e7fa566b9afaeb62.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/90-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💡🏙️"
+   },
+   "answer": "Les Lumières de la ville",
+   "level": "impossible",
+   "rank": 115,
+   "voice": {
+    "q": {
+     "src": "tts-cache/adb5c5b7ee219296.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/91-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚲🦹"
+   },
+   "answer": "Le Voleur de bicyclette",
+   "level": "impossible",
+   "rank": 116,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c4f994d358693aba.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/92-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌙🏰"
+   },
+   "answer": "Les Visiteurs du soir",
+   "level": "impossible",
+   "rank": 117,
+   "voice": {
+    "q": {
+     "src": "tts-cache/adb5c5b7ee219296.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/93-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📏🎲"
+   },
+   "answer": "La Règle du jeu",
+   "level": "impossible",
+   "rank": 118,
+   "voice": {
+    "q": {
+     "src": "tts-cache/adb5c5b7ee219296.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/94-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👀🚫🙂"
+   },
+   "answer": "Les Yeux sans visage",
+   "level": "impossible",
+   "rank": 120,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e129d0b4a209d3e7.mp3",
+     "sec": 1.149388
+    },
+    "a": {
+     "src": "tts/2026-11-13-films-emojis/95-a.mp3",
+     "sec": 1.593469
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Un quiz FILMS en ÉMOJIS en 96 énigmes, du facile à l'impossible. Niveaux : 30 facile, 29 moyens, 24 difficiles, 13 impossible. Compte tes points et dis ton score en commentaire 👇 Le meilleur score est félicité dès le lendemain 🏆\n\n🎮 Crée ton propre quiz gratuit en 2 minutes : https://youqwiz.com/quiz-du-jour/2026-11-13-films-emojis\n🔔 Nouveau quiz tous les jours, active la cloche.\n\n#quiz #filmsemojis #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:14 Niveau facile\n05:40 Niveau moyen\n11:23 Niveau difficile\n16:53 Niveau impossible\n20:20 Ton score\n20:35 Crée ton quiz sur youqwiz.com",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "films emojis",
+   "films",
+   "cinéma",
+   "films en émojis",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Devine",
+   "line2": "96 FILMS en ÉMOJIS",
+   "emoji": "🎬",
+   "sticker": "5 SECONDES !",
+   "layouts": [
+    3,
+    1
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Seuls les génies finissent 🧠 Devine 96 FILMS en ÉMOJIS #Shorts",
+  "shortDescription": "Tu veux la réponse ? Elle est dans la vidéo complète (96 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 14.366666666666667,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 340.6666666666667,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 683.6333333333333,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 1013.3333333333334,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 1220.8666666666666,
+    "title": "Ton score"
+   },
+   {
+    "at": 1235.0333333333333,
+    "title": "Crée ton quiz sur youqwiz.com"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/7be58f74e39cf17f.mp3",
+   "sec": 2.194286
+  },
+  "level_moyen": {
+   "src": "tts-cache/c1dd597da49e1592.mp3",
+   "sec": 2.847347
+  },
+  "level_difficile": {
+   "src": "tts-cache/6a4168170b804047.mp3",
+   "sec": 5.067755
+  },
+  "level_impossible": {
+   "src": "tts-cache/71d84d022b7a2083.mp3",
+   "sec": 4.91102
+  },
+  "score": {
+   "src": "tts-cache/38a30f82df8cb58b.mp3",
+   "sec": 8.333061
+  },
+  "subscribe": {
+   "src": "tts-cache/12be9853171c1ac2.mp3",
+   "sec": 3.63102
+  },
+  "outro": {
+   "src": "tts-cache/48b8e83a2caab2d8.mp3",
+   "sec": 4.205714
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  },
+  "preroll": {
+   "src": "tts-cache/3d606395571bce48.mp3",
+   "sec": 4.623673
+  },
+  "intro": {
+   "src": "tts/2026-11-13-films-emojis/intro.mp3",
+   "sec": 4.284082
+  },
+  "packshot": {
+   "src": "tts-cache/72d277617320c213.mp3",
+   "sec": 4.989388
+  }
+ }
+}

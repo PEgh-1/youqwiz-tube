@@ -1,0 +1,1296 @@
+{
+ "id": "2026-11-03-tu-preferes",
+ "pillar": "choix",
+ "template": "DevineEn3s",
+ "theme": 2,
+ "title": "TU PRÉFÈRES…? 76 CHOIX IMPOSSIBLES 😨🔥🤔 Niveau EXTRÊME !",
+ "question": "Tu préfères… ?",
+ "intro": {
+  "hook": "TU PRÉFÈRES… ? 76 CHOIX IMPOSSIBLES",
+  "sub": "Choisis vite, sans réfléchir 🤔"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Regarder un dessin animé d'avant 📼",
+     "Regarder un dessin animé d'aujourd'hui 📺"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/0-q.mp3",
+     "sec": 5.32898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Se brosser les dents 5 min 🪥",
+     "Se coiffer 5 min 💈"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/1-q.mp3",
+     "sec": 4.832653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un tableau interactif géant 🖥️",
+     "Avoir un tableau noir avec des craies colorées 🖍️"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/2-q.mp3",
+     "sec": 7.157551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un panda qui fait des galipettes 🐼",
+     "Un ouistiti qui fait des grimaces 🙈"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/3-q.mp3",
+     "sec": 6.034286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre dans un terrier 🐇",
+     "Vivre dans un nid 🐦"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/4-q.mp3",
+     "sec": 4.04898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un melon sucré 🍈",
+     "Une banane bien mûre 🍌"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/5-q.mp3",
+     "sec": 4.284082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Cuisiner pour 50 personnes 🍳",
+     "Ranger 50 paires de chaussures 👟"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/6-q.mp3",
+     "sec": 6.19102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dormir dans un tipi 🏕️",
+     "Dormir dans une yourte 🛖"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/7-q.mp3",
+     "sec": 5.067755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un cartable qui pèse 20 kilos 🎒",
+     "Un cartable qui parle tout le temps 🗣️"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/8-q.mp3",
+     "sec": 6.426122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Passer un mois à la montagne 🏔️",
+     "Passer un mois à la mer 🌊"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/9-q.mp3",
+     "sec": 5.250612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une planète de glace 🧊",
+     "Une planète de sable 🏜️"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/10-q.mp3",
+     "sec": 4.362449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un chapeau melon 🎩",
+     "Avoir un béret 🧑‍🎨"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/11-q.mp3",
+     "sec": 4.04898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger un plat très piquant 🌶️",
+     "Manger un plat très sucré 🍭"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/12-q.mp3",
+     "sec": 5.720816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être chef d'orchestre 🎼",
+     "Être photographe 📷"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/13-q.mp3",
+     "sec": 4.597551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une classe sous un arbre 🌳",
+     "Une classe dans un bus 🚌"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/14-q.mp3",
+     "sec": 5.146122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un toboggan dans ta maison 🛝",
+     "Avoir un trampoline dans ta chambre 🤸"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/15-q.mp3",
+     "sec": 5.799184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Voir un spectacle de marionnettes 🧸",
+     "Voir un spectacle de danse 🩰"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/16-q.mp3",
+     "sec": 5.564082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Battre un record de saut 🦘",
+     "Battre un record de vitesse 💨"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/17-q.mp3",
+     "sec": 4.91102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à faire le contraire de ce qu'on te dit 🔄",
+     "Un jour à dire oui à tout 👍"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/18-q.mp3",
+     "sec": 6.269388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un potager sur le toit 🥬",
+     "Avoir une serre pleine de fleurs 🌼"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/19-q.mp3",
+     "sec": 5.146122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne dormir que dans un hamac 🏝️",
+     "Ne dormir que sur un canapé 🛋️"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/20-q.mp3",
+     "sec": 5.877551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des photos de famille tous les jours 📸",
+     "Un album de famille géant 🖼️"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/21-q.mp3",
+     "sec": 5.720816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un hamster géant 🐹",
+     "Avoir une tortue qui parle 🐢"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/22-q.mp3",
+     "sec": 5.250612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ramasser des coquillages 🐚",
+     "Ramasser des pommes de pin 🌰"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/23-q.mp3",
+     "sec": 5.146122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une grosse voix de géant 🗣️",
+     "Avoir une voix de souris 🐭"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/24-q.mp3",
+     "sec": 4.754286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Habiter dans un phare 🗼",
+     "Habiter dans un moulin 🌬️"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/25-q.mp3",
+     "sec": 4.91102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un frigo qui raconte des blagues 🧊",
+     "Une machine à laver qui danse 🫧"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/26-q.mp3",
+     "sec": 5.485714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un selfie avec un chameau 🐪",
+     "Faire un selfie avec un panda 🐼"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/27-q.mp3",
+     "sec": 7.47102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un tournoi de pétanque 🎯",
+     "Un tournoi de ping-pong 🏓"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/28-q.mp3",
+     "sec": 5.067755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre 100 ans en bonne santé 💪",
+     "Vivre 50 ans avec 100 millions 💰"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/29-q.mp3",
+     "sec": 5.955918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Gagner une médaille d'or 🥇",
+     "Gagner un trophée de champion 🏆"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/30-q.mp3",
+     "sec": 4.440816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un voisin qui élève des abeilles 🐝",
+     "Un voisin qui possède un paon 🦚"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/31-q.mp3",
+     "sec": 5.407347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger de la glace en plein hiver 🍦",
+     "Boire un chocolat chaud en plein été 🍫"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/32-q.mp3",
+     "sec": 7.000816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Boire du jus d'orange tous les matins 🍊",
+     "Boire du lait chaud tous les matins 🥛"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/33-q.mp3",
+     "sec": 5.877551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une journée sans écran 📵",
+     "Une journée sans bonbons 🍭"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/34-q.mp3",
+     "sec": 4.440816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir 10 frères et sœurs 👨‍👩‍👧‍👦",
+     "Être enfant unique 🧍"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/35-q.mp3",
+     "sec": 4.754286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Recevoir 10 cadeaux petits 🎀",
+     "Recevoir 1 cadeau géant 📦"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/36-q.mp3",
+     "sec": 5.564082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un renard comme meilleur ami 🦊",
+     "Un loup comme gardien 🐺"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/37-q.mp3",
+     "sec": 5.407347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être architecte 📐",
+     "Être inventeur 💡"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/38-q.mp3",
+     "sec": 3.787755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un robot qui range ta chambre 🤖",
+     "Avoir un robot qui fait tes devoirs 📚"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/39-q.mp3",
+     "sec": 6.687347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne plus jamais être malade 🤒",
+     "Ne plus jamais être fatigué 😴"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/40-q.mp3",
+     "sec": 4.832653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un château de cartes géant 🏯",
+     "Faire une tour de cubes géante 🧱"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/41-q.mp3",
+     "sec": 5.799184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Construire une cabane en carton 📦",
+     "Construire un château de sable 🏰"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/42-q.mp3",
+     "sec": 5.250612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Parler aux fantômes 👻",
+     "Parler aux robots 🤖"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/43-q.mp3",
+     "sec": 3.552653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne plus jamais aller au restaurant 🍽️",
+     "Ne plus jamais aller au cinéma 🎬"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/44-q.mp3",
+     "sec": 5.485714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Rencontrer un extraterrestre 👽",
+     "Rencontrer un dragon 🐲"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/45-q.mp3",
+     "sec": 4.832653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Marcher à reculons toute la journée 🔙",
+     "Parler à l'envers toute la journée 🙃"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/46-q.mp3",
+     "sec": 5.564082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un calendrier de l'Avent géant 🍫",
+     "Un sapin de 10 mètres 🌲"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/47-q.mp3",
+     "sec": 5.564082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Transformer l'eau en limonade 🥤",
+     "Transformer les feuilles en billets 🍃"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/48-q.mp3",
+     "sec": 6.19102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des sandales en hiver 🩴",
+     "Des bottes en été 🥾"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/49-q.mp3",
+     "sec": 4.362449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un voyage sur Mars 🚀",
+     "Un tour du monde 🌍"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/50-q.mp3",
+     "sec": 4.205714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire des étincelles avec les doigts ✨",
+     "Faire des arcs-en-ciel avec les mains 🌈"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/51-q.mp3",
+     "sec": 9.482449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un pique-nique au parc 🌳",
+     "Un goûter au bord de l'eau 💧"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/52-q.mp3",
+     "sec": 4.754286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un safari en Afrique 🦁",
+     "Une croisière en Antarctique 🧊"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/53-q.mp3",
+     "sec": 4.91102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire du camping en forêt ⛺",
+     "Dormir dans un igloo ❄️"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/54-q.mp3",
+     "sec": 4.675918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un nez qui s'allume 🔴",
+     "Avoir des oreilles qui bougent 👂"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/55-q.mp3",
+     "sec": 5.564082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une chasse aux œufs 🥚",
+     "Une chasse aux bonbons 🍬"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/56-q.mp3",
+     "sec": 4.284082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un pouvoir mais le garder secret 🤫",
+     "Avoir un pouvoir connu de tous 📣"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/57-q.mp3",
+     "sec": 10.44898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire de la peinture avec les doigts 🎨",
+     "Faire de la musique avec des casseroles 🥁"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/58-q.mp3",
+     "sec": 5.407347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un tour du monde en train 🚂",
+     "Faire un tour d'Europe en vélo 🚴"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/59-q.mp3",
+     "sec": 4.91102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un ascenseur qui parle 🛗",
+     "Un escalier qui chante 🪜"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/60-q.mp3",
+     "sec": 4.519184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un arc-en-ciel à chevaucher 🌈",
+     "Une étoile à attraper ⭐"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/61-q.mp3",
+     "sec": 4.440816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un pingouin à la maison 🐧",
+     "Un koala dans ton armoire 🐨"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/62-q.mp3",
+     "sec": 4.675918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être facteur 📮",
+     "Être capitaine de bateau ⚓"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/63-q.mp3",
+     "sec": 4.362449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une piscine 🏊",
+     "Avoir un jardin géant 🌳"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/64-q.mp3",
+     "sec": 5.146122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une vache qui chante 🐮",
+     "Un cochon qui danse 🐷"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/65-q.mp3",
+     "sec": 4.754286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Travailler la nuit 🦉",
+     "Travailler le matin très tôt 🐓"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/66-q.mp3",
+     "sec": 4.127347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un cœur de lion 🦁",
+     "Avoir une tête de linotte 🐦"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/67-q.mp3",
+     "sec": 4.675918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Gagner à tous les jeux de cartes 🃏",
+     "Gagner à tous les jeux de dés 🎲"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/68-q.mp3",
+     "sec": 5.799184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre sans Internet 📵",
+     "Vivre sans musique 🎵"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/69-q.mp3",
+     "sec": 4.91102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un hélicoptère personnel 🚁",
+     "Un petit sous-marin personnel 🌊"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/70-q.mp3",
+     "sec": 5.146122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une crinière de lion 🦁",
+     "Avoir une carapace de tortue 🐢"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/71-q.mp3",
+     "sec": 4.989388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Disposer d'un bouton pause 🔘",
+     "Disposer d'un bouton avance rapide ⏩"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/72-q.mp3",
+     "sec": 5.642449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Chanter sous la douche 🚿",
+     "Danser dans la cuisine 💃"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/73-q.mp3",
+     "sec": 4.04898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Mettre un déguisement tous les jours 🎭",
+     "Porter un pyjama partout 🛌"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/74-q.mp3",
+     "sec": 5.485714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Entendre une chanson en boucle 🎶",
+     "Voir le même dessin animé en boucle 📺"
+    ]
+   },
+   "answer": "",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-03-tu-preferes/75-q.mp3",
+     "sec": 5.32898
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 8,
+  "reveal": 0,
+  "fixed": true
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "76 dilemmes impossibles : tu choisis quoi ? Dis tes réponses en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #tupreferes #youqwiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "devinette",
+   "youqwiz",
+   "tu preferes",
+   "tu préfères",
+   "facile à impossible"
+  ],
+  "thumbnail": {
+   "line1": "Tu préfères",
+   "line2": "76 CHOIX IMPOSSIBLES",
+   "emoji": "😨"
+  },
+  "shortItems": 4
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/4854a0f54677bba7.mp3",
+   "sec": 1.880816
+  },
+  "level_moyen": {
+   "src": "tts-cache/b0d79166171c7633.mp3",
+   "sec": 1.802449
+  },
+  "level_difficile": {
+   "src": "tts-cache/e3bbb51058fe8e48.mp3",
+   "sec": 1.959184
+  },
+  "level_impossible": {
+   "src": "tts-cache/a9f1bd2bd5a7457d.mp3",
+   "sec": 3.552653
+  },
+  "score": {
+   "src": "tts-cache/442f8d5710e315cd.mp3",
+   "sec": 2.586122
+  },
+  "subscribe": {
+   "src": "tts-cache/4acfd2468b598d3e.mp3",
+   "sec": 4.440816
+  },
+  "outro": {
+   "src": "tts-cache/d918647a8c32cf50.mp3",
+   "sec": 4.205714
+  },
+  "cliff": {
+   "src": "tts-cache/bdad6413a3977c76.mp3",
+   "sec": 3.787755
+  },
+  "ask": {
+   "src": "tts-cache/93e1e03bebe91fdb.mp3",
+   "sec": 1.306122
+  }
+ }
+}

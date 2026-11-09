@@ -1,0 +1,43 @@
+name: Maintenance de la file
+
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Script de maintenance à exécuter (défaut : fix-thumbnails.mjs)"
+        required: false
+        default: "fix-thumbnails.mjs"
+
+concurrency:
+  group: video-du-jour
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm ci
+          npx remotion browser ensure
+      - env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          SITE_SYNC_KEY: ${{ secrets.SITE_SYNC_KEY }}
+          SITE_SYNC_URL: ${{ secrets.SITE_SYNC_URL }}
+        run: node scripts/${{ inputs.script || 'fix-thumbnails.mjs' }}
+      - if: ${{ !cancelled() }}
+        run: |
+          P="data/state"; for d in public/audio docs/voice-samples; do [ -d $d ] && P="$P $d"; done
+          node scripts/save-state.mjs --paths "$P" --message "état : maintenance (${{ inputs.script || 'fix-thumbnails.mjs' }})"

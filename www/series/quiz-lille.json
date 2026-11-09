@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-lille",
+  "theme": "nord-et-hauts-de-france",
+  "title": "Quiz Lille : 20 questions sur la capitale des Flandres",
+  "description": "Quiz Lille : 20 questions sur le beffroi, la Braderie, le Vieux-Lille, les spécialités et l'histoire de la métropole lilloise. Connais-tu Lille ?",
+  "h1": "Quiz Lille : connais-tu bien la capitale du Nord ?",
+  "intro": "Beffroi, Grand-Place, Vieux-Lille, Braderie, gaufres de Meert, moules-frites : Lille a du caractère. Ce quiz te propose 20 questions sur la capitale des Hauts-de-France : histoire, monuments, quartiers, gastronomie et culture. Les premières questions sont idéales pour les habitants et les visiteurs, les dernières demanderont un vrai sens de l'observation. Compte environ 5 secondes de réflexion par question, puis lis l'explication pour découvrir une anecdote sur la ville. Lillois de naissance, d'adoption ou simple curieux, à toi de jouer !",
+  "questions": [
+    {
+      "q": "Lille est la préfecture de quelle région ?",
+      "choices": [
+        "La Normandie",
+        "Le Grand Est",
+        "L'Île-de-France",
+        "Les Hauts-de-France"
+      ],
+      "answer": 3,
+      "explication": "Lille est la capitale de la région Hauts-de-France et la préfecture du département du Nord.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel grand rendez-vous de brocante et de moules-frites anime Lille chaque début septembre ?",
+      "choices": [
+        "La Braderie",
+        "Le Carnaval",
+        "La Fête de la musique",
+        "Le Marathon"
+      ],
+      "answer": 0,
+      "explication": "La Grande Braderie de Lille se tient le premier week-end de septembre ; les rues se couvrent de stands.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel plat se mange traditionnellement pendant la Braderie ?",
+      "choices": [
+        "Les moules-frites",
+        "La raclette",
+        "La choucroute",
+        "La bouillabaisse"
+      ],
+      "answer": 0,
+      "explication": "Les tas de coquilles devant les restaurants sont un symbole de la Braderie.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment appelle-t-on la tour de l'hôtel de ville de Lille ?",
+      "choices": [
+        "Le donjon",
+        "Le beffroi",
+        "Le clocher",
+        "Le minaret"
+      ],
+      "answer": 1,
+      "explication": "Le beffroi de l'hôtel de ville, achevé en 1932, domine la ville du haut de ses 104 mètres environ.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel quartier aux rues pavées est le cœur historique de Lille ?",
+      "choices": [
+        "Wazemmes",
+        "Lomme",
+        "Le Vieux-Lille",
+        "Fives"
+      ],
+      "answer": 2,
+      "explication": "Le Vieux-Lille est célèbre pour ses maisons de briques et ses boutiques.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle spécialité sucrée lilloise est une gaufre fourrée à la vanille ?",
+      "choices": [
+        "La gaufre de Meert",
+        "Le macaron de Reims",
+        "Le calisson",
+        "La madeleine"
+      ],
+      "answer": 0,
+      "explication": "La maison Meert, fondée en 1761, est connue pour sa gaufre à la vanille Bourbon.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel pays est voisin de Lille, à quelques kilomètres ?",
+      "choices": [
+        "L'Espagne",
+        "La Belgique",
+        "L'Italie",
+        "La Suisse"
+      ],
+      "answer": 1,
+      "explication": "Lille est située à la frontière belge, à quelques kilomètres de Mouscron et de Tournai.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel fromage à l'odeur forte est emblématique du Nord ?",
+      "choices": [
+        "Le comté",
+        "Le roquefort",
+        "Le maroilles",
+        "Le reblochon"
+      ],
+      "answer": 2,
+      "explication": "Le maroilles garnit la flamiche et la goyère, deux tartes typiques de la région.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel ingénieur de Louis XIV a construit la Citadelle de Lille ?",
+      "choices": [
+        "Haussmann",
+        "Vauban",
+        "Eiffel",
+        "Mansart"
+      ],
+      "answer": 1,
+      "explication": "La Citadelle, construite à partir de 1668, est surnommée la « reine des citadelles » de Vauban.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel nom officiel porte aujourd'hui la Grand-Place de Lille ?",
+      "choices": [
+        "La place du Général-de-Gaulle",
+        "La place de la République",
+        "La place Rihour",
+        "La place de la Gare"
+      ],
+      "answer": 0,
+      "explication": "Les Lillois continuent pourtant de l'appeler la Grand-Place.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel général et président de la République est né à Lille en 1890 ?",
+      "choices": [
+        "Georges Pompidou",
+        "Philippe Pétain",
+        "Charles de Gaulle",
+        "Maréchal Foch"
+      ],
+      "answer": 2,
+      "explication": "Charles de Gaulle est né rue Princesse, dans une maison devenue musée.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel bâtiment flamand du XVIIe siècle, avec sa cour intérieure, se trouve sur la Grand-Place ?",
+      "choices": [
+        "L'Opéra",
+        "La Citadelle",
+        "Le palais Rihour",
+        "La Vieille Bourse"
+      ],
+      "answer": 3,
+      "explication": "Dans la cour de la Vieille Bourse, on joue aux échecs et on chine des livres anciens.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année Lille est-elle capitale européenne de la culture ?",
+      "choices": [
+        "1994",
+        "2012",
+        "2004",
+        "2000"
+      ],
+      "answer": 2,
+      "explication": "Lille 2004 a transformé l'image de la ville, avec ses expositions et ses festivals.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel type de métro entièrement automatique ouvre à Lille en 1983 ?",
+      "choices": [
+        "Le tramway",
+        "Le RER",
+        "Le funiculaire",
+        "Le VAL"
+      ],
+      "answer": 3,
+      "explication": "Le VAL de Lille est l'un des premiers métros automatiques au monde, sans conducteur à bord.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel quartier d'affaires près des gares a été conçu autour de l'architecte Rem Koolhaas ?",
+      "choices": [
+        "Euratechnologies",
+        "Saint-Maurice Pellevoisin",
+        "Le Vieux-Lille",
+        "Euralille"
+      ],
+      "answer": 3,
+      "explication": "Euralille se développe à partir de l'arrivée du TGV et du tunnel sous la Manche, dans les années 1990.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel quartier lillois est célèbre pour son grand marché du dimanche matin ?",
+      "choices": [
+        "Lomme",
+        "Wazemmes",
+        "Hellemmes",
+        "Moulins"
+      ],
+      "answer": 1,
+      "explication": "Le marché de Wazemmes est un des plus grands marchés de France.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel savant, doyen de la faculté des sciences de Lille, y mène des travaux sur la fermentation vers 1856 ?",
+      "choices": [
+        "Marie Curie",
+        "Claude Bernard",
+        "Louis Pasteur",
+        "Antoine Lavoisier"
+      ],
+      "answer": 2,
+      "explication": "Pasteur arrive à Lille en 1854 et y étudie notamment la fermentation de l'alcool de betterave.",
+      "level": "expert"
+    },
+    {
+      "q": "Depuis quelle année le beffroi de Lille est-il inscrit au patrimoine mondial de l'UNESCO ?",
+      "choices": [
+        "1985",
+        "2005",
+        "1999",
+        "2012"
+      ],
+      "answer": 1,
+      "explication": "Il fait partie de la série des beffrois de Belgique et de France.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel architecte lillois a conçu l'Opéra de Lille, inauguré en 1923 ?",
+      "choices": [
+        "Charles Garnier",
+        "Gustave Eiffel",
+        "Rem Koolhaas",
+        "Louis-Marie Cordonnier"
+      ],
+      "answer": 3,
+      "explication": "Cordonnier est aussi l'architecte du Palais de la Paix à La Haye.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel palais du XVe siècle, voulu par Philippe le Bon, abrite aujourd'hui l'office de tourisme de Lille ?",
+      "choices": [
+        "Le palais Rihour",
+        "Le palais Rameau",
+        "Le palais des Beaux-Arts",
+        "La Vieille Bourse"
+      ],
+      "answer": 0,
+      "explication": "Le palais Rihour est une ancienne résidence des ducs de Bourgogne, dont il reste aujourd'hui une partie.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Pourquoi Lille est-elle appelée la capitale des Flandres ?",
+      "Lille a longtemps fait partie du comté de Flandre, avant de devenir française au XVIIe siècle sous Louis XIV. Son architecture de briques, sa Grand-Place et sa culture rappellent encore ce passé flamand, tout comme les noms de nombreuses rues et spécialités."
+    ],
+    [
+      "Quand a lieu la Braderie de Lille ?",
+      "La Grande Braderie se tient chaque année le premier week-end de septembre, sur tout un week-end. Pendant ces deux jours, des centaines de milliers de visiteurs viennent chiner dans les rues du centre-ville et manger des moules-frites. Prévois de venir tôt, car les rues sont vite bondées, et de profiter des animations jusque tard dans la nuit."
+    ],
+    [
+      "Que visiter à Lille en priorité ?",
+      "Commence par la Grand-Place, la Vieille Bourse et le Vieux-Lille avec ses ruelles pavées. Monte ensuite au beffroi pour la vue panoramique, puis visite le palais des Beaux-Arts, l'un des grands musées de France. Termine par une gaufre de Meert. Prévois une demi-journée pour le centre historique."
+    ]
+  ],
+  "related": [
+    "/quiz-fromages",
+    "/quiz-cuisine",
+    "/quiz-chanson-francaise",
+    "/quiz-histoire-de-france",
+    "/quiz-culture-generale-seniors"
+  ]
+}

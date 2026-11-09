@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-espace",
+  "theme": "sciences",
+  "title": "Quiz espace : 20 questions sur l'astronomie",
+  "description": "Quiz espace gratuit : 20 questions sur les planètes, les étoiles et l'astronomie. Explore l'univers en 5 secondes par question !",
+  "h1": "Quiz espace : connais-tu bien l'univers et les planètes ?",
+  "intro": "Prêt pour un voyage dans l'espace ? Ce quiz de 20 questions t'emmène à la découverte du système solaire, des étoiles et des grands moments de l'exploration spatiale. Tu as 5 secondes par question pour choisir parmi quatre propositions. Les huit premières questions sont idéales pour les débutants, les huit suivantes font appel à ta curiosité scientifique, et les quatre dernières sont réservées aux passionnés d'astronomie. Après chaque réponse, une courte explication t'apprend un fait fascinant sur le cosmos. Alors, attache ta ceinture, le décollage est imminent !",
+  "questions": [
+    {
+      "q": "Quelle est la planète la plus proche du Soleil ?",
+      "choices": [
+        "Vénus",
+        "Mercure",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": 1,
+      "explication": "Mercure tourne autour du Soleil en seulement 88 jours terrestres.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est l'étoile située au centre de notre système solaire ?",
+      "choices": [
+        "la Lune",
+        "Sirius",
+        "Vénus",
+        "le Soleil"
+      ],
+      "answer": 3,
+      "explication": "Le Soleil est une étoile : il produit lui-même sa lumière et sa chaleur.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle planète est surnommée la planète rouge ?",
+      "choices": [
+        "Mars",
+        "Vénus",
+        "Jupiter",
+        "Mercure"
+      ],
+      "answer": 0,
+      "explication": "Mars doit sa couleur rouge à l'oxyde de fer présent à sa surface.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de planètes compte le système solaire ?",
+      "choices": [
+        "7",
+        "9",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "explication": "Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment s'appelle le satellite naturel de la Terre ?",
+      "choices": [
+        "Phobos",
+        "Titan",
+        "Europe",
+        "la Lune"
+      ],
+      "answer": 3,
+      "explication": "La Lune tourne autour de la Terre en environ 27 jours.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la plus grande planète du système solaire ?",
+      "choices": [
+        "Saturne",
+        "Jupiter",
+        "Neptune",
+        "la Terre"
+      ],
+      "answer": 1,
+      "explication": "Jupiter est une géante gazeuse deux fois et demie plus massive que toutes les autres planètes réunies.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle planète est célèbre pour ses anneaux spectaculaires ?",
+      "choices": [
+        "Mars",
+        "Mercure",
+        "Saturne",
+        "Vénus"
+      ],
+      "answer": 2,
+      "explication": "Les anneaux de Saturne sont constitués de milliards de morceaux de glace et de roche.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui a été le premier homme à marcher sur la Lune, en 1969 ?",
+      "choices": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Youri Gagarine",
+        "John Glenn"
+      ],
+      "answer": 0,
+      "explication": "Neil Armstrong a posé le pied sur la Lune le 21 juillet 1969 (heure de Paris), pendant la mission Apollo 11.",
+      "level": "facile"
+    },
+    {
+      "q": "Comment s'appelle la galaxie dans laquelle se trouve la Terre ?",
+      "choices": [
+        "Andromède",
+        "le Triangle",
+        "la Voie lactée",
+        "le Tourbillon"
+      ],
+      "answer": 2,
+      "explication": "Notre galaxie, la Voie lactée, contient plusieurs centaines de milliards d'étoiles.",
+      "level": "moyen"
+    },
+    {
+      "q": "Qui a été le premier humain dans l'espace, en 1961 ?",
+      "choices": [
+        "Youri Gagarine",
+        "Neil Armstrong",
+        "Alan Shepard",
+        "Thomas Pesquet"
+      ],
+      "answer": 0,
+      "explication": "Le cosmonaute soviétique Youri Gagarine a effectué un tour de la Terre le 12 avril 1961.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de temps la lumière du Soleil met-elle environ pour atteindre la Terre ?",
+      "choices": [
+        "8 secondes",
+        "8 heures",
+        "8 jours",
+        "8 minutes"
+      ],
+      "answer": 3,
+      "explication": "La lumière met environ 8 minutes et 20 secondes pour parcourir les 150 millions de kilomètres qui nous séparent du Soleil.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est l'étoile la plus proche du Soleil ?",
+      "choices": [
+        "Sirius",
+        "Proxima du Centaure",
+        "Bételgeuse",
+        "l'étoile Polaire"
+      ],
+      "answer": 1,
+      "explication": "Proxima du Centaure se trouve à environ 4,2 années-lumière de nous.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la planète la plus éloignée du Soleil ?",
+      "choices": [
+        "Neptune",
+        "Uranus",
+        "Saturne",
+        "Pluton"
+      ],
+      "answer": 0,
+      "explication": "Depuis 2006, Pluton est classée planète naine, donc Neptune est la dernière planète.",
+      "level": "moyen"
+    },
+    {
+      "q": "Que mesure une année-lumière ?",
+      "choices": [
+        "une durée",
+        "une vitesse",
+        "une distance",
+        "une masse"
+      ],
+      "answer": 2,
+      "explication": "C'est la distance parcourue par la lumière en un an, soit environ 9 460 milliards de kilomètres.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel est le premier satellite artificiel de la Terre, lancé en 1957 ?",
+      "choices": [
+        "Apollo 11",
+        "Spoutnik 1",
+        "Hubble",
+        "Vostok 1"
+      ],
+      "answer": 1,
+      "explication": "Spoutnik 1, lancé par l'URSS le 4 octobre 1957, ouvre l'ère spatiale.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment s'appelle la plus grande lune de Saturne ?",
+      "choices": [
+        "Europe",
+        "Phobos",
+        "Triton",
+        "Titan"
+      ],
+      "answer": 3,
+      "explication": "Titan est la deuxième plus grande lune du système solaire. Elle possède une atmosphère épaisse.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la planète la plus chaude du système solaire ?",
+      "choices": [
+        "Mercure",
+        "Vénus",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": 1,
+      "explication": "Malgré sa distance au Soleil, Vénus est plus chaude que Mercure grâce à son atmosphère épaisse, qui produit un fort effet de serre.",
+      "level": "expert"
+    },
+    {
+      "q": "Combien de lunes possède Mars ?",
+      "choices": [
+        "0",
+        "1",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "explication": "Mars possède deux petites lunes, Phobos et Déimos.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le plus haut volcan du système solaire ?",
+      "choices": [
+        "Olympus Mons",
+        "le Vésuve",
+        "le mont Etna",
+        "le Kilimandjaro"
+      ],
+      "answer": 0,
+      "explication": "Olympus Mons, sur Mars, mesure environ 22 km de hauteur, soit environ deux fois et demie l'Everest.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel astronome a observé les quatre grandes lunes de Jupiter avec une lunette en 1610 ?",
+      "choices": [
+        "Copernic",
+        "Kepler",
+        "Galilée",
+        "Newton"
+      ],
+      "answer": 2,
+      "explication": "Galilée a découvert Io, Europe, Ganymède et Callisto, qu'on appelle les lunes galiléennes.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Combien y a-t-il de planètes dans le système solaire ?",
+      "Il y en a huit : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune. Pluton a été reclassée en planète naine en 2006 par l'Union astronomique internationale. Ces repères te servent aussi bien à l'école que dans la vie de tous les jours, et ils se retiennent mieux en s'amusant avec un quiz régulier."
+    ],
+    [
+      "Qu'est-ce qu'une année-lumière ?",
+      "C'est une unité de distance, pas de temps. Elle correspond à la distance que parcourt la lumière en un an dans le vide, soit environ 9 460 milliards de kilomètres. Elle sert à mesurer les distances entre les étoiles. Ces repères te servent aussi bien à l'école que dans la vie de tous les jours, et ils se retiennent mieux en s'amusant avec un quiz régulier."
+    ],
+    [
+      "Quelle différence entre une étoile et une planète ?",
+      "Une étoile, comme le Soleil, produit sa propre lumière grâce à des réactions nucléaires en son cœur. Une planète ne brille pas par elle-même : elle réfléchit la lumière de son étoile et tourne autour d'elle. Ces repères te servent aussi bien à l'école que dans la vie de tous les jours, et ils se retiennent mieux en s'amusant avec un quiz régulier."
+    ]
+  ],
+  "related": [
+    "/quiz-sciences",
+    "/quiz-corps-humain",
+    "/quiz-animaux",
+    "/quiz-culture-generale-facile"
+  ]
+}

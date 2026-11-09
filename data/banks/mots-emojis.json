@@ -1,0 +1,2145 @@
+{
+  "question": "Quel MOT se cache derrière ces émojis ?",
+  "hook": "Devine {n} MOTS en ÉMOJIS",
+  "emoji": "😀🧩❓",
+  "slug": "mots-emojis",
+  "noun": "MOTS en ÉMOJIS",
+  "timing": {
+    "question": 5,
+    "reveal": 2
+  },
+  "tags": [
+    "émojis",
+    "rébus",
+    "devinettes"
+  ],
+  "items": [
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌞🌻"
+      },
+      "answer": "Tournesol",
+      "level": "facile",
+      "fact": "Quand il est jeune, le tournesol tourne sa fleur pour suivre le soleil tout au long de la journée.",
+      "rank": 37
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "☕🍰"
+      },
+      "answer": "Pause-café",
+      "level": "facile",
+      "rank": 47
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚒🔥"
+      },
+      "answer": "Pompier",
+      "level": "facile",
+      "fact": "Le mot « pompier » vient des pompes à bras qu'on utilisait autrefois pour éteindre les incendies.",
+      "rank": 11
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥧🍓"
+      },
+      "answer": "Tarte aux fraises",
+      "level": "facile",
+      "rank": 45
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "❄️⛄"
+      },
+      "answer": "Bonhomme de neige",
+      "level": "facile",
+      "rank": 10
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌧️☂️"
+      },
+      "answer": "Parapluie",
+      "level": "facile",
+      "fact": "Le mot « parapluie » vient de « parer la pluie », comme le paratonnerre pare la foudre.",
+      "rank": 9
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏖️☀️"
+      },
+      "answer": "Vacances",
+      "level": "facile",
+      "fact": "Le mot « vacances » vient du latin « vacare », qui veut dire être vide, libre de toute occupation.",
+      "rank": 17
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎂🕯️"
+      },
+      "answer": "Anniversaire",
+      "level": "facile",
+      "rank": 2
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎄🎁"
+      },
+      "answer": "Noël",
+      "level": "facile",
+      "rank": 1
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐰🥚"
+      },
+      "answer": "Pâques",
+      "level": "facile",
+      "rank": 49
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎃👻"
+      },
+      "answer": "Halloween",
+      "level": "facile",
+      "rank": 4
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💍❤️"
+      },
+      "answer": "Alliance",
+      "level": "facile",
+      "rank": 50
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎬🍿"
+      },
+      "answer": "Cinéma",
+      "level": "facile",
+      "fact": "La première séance de cinéma payante a eu lieu à Paris le 28 décembre 1895, grâce aux frères Lumière.",
+      "rank": 12
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⛺🔥"
+      },
+      "answer": "Feu de camp",
+      "level": "facile",
+      "rank": 48
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐝🍯"
+      },
+      "answer": "Miel",
+      "level": "facile",
+      "rank": 38
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌊🏄"
+      },
+      "answer": "Surf",
+      "level": "facile",
+      "rank": 25
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "📚🏫"
+      },
+      "answer": "École",
+      "level": "facile",
+      "fact": "Le mot « école » vient du grec « scholê », qui signifiait à l'origine le temps libre, le loisir.",
+      "rank": 6
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧊🍦"
+      },
+      "answer": "Glace",
+      "level": "facile",
+      "rank": 8
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌽🍿"
+      },
+      "answer": "Pop-corn",
+      "level": "facile",
+      "rank": 13
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥐☕"
+      },
+      "answer": "Petit-déjeuner",
+      "level": "facile",
+      "fact": "Le mot « déjeuner » vient de l'idée de rompre le jeûne de la nuit.",
+      "rank": 46
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌧️☀️"
+      },
+      "answer": "Arc-en-ciel",
+      "level": "moyen",
+      "fact": "Newton a décidé de compter sept couleurs dans l'arc-en-ciel, alors que le spectre est continu.",
+      "rank": 70
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🕷️🕸️"
+      },
+      "answer": "Toile d'araignée",
+      "level": "moyen",
+      "rank": 106
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦷🐭"
+      },
+      "answer": "Petite souris",
+      "level": "moyen",
+      "fact": "La petite souris vient d'un conte de Madame d'Aulnoy publié en 1697, « La Bonne Petite Souris ».",
+      "rank": 112
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👂💍"
+      },
+      "answer": "Boucle d'oreille",
+      "level": "moyen",
+      "rank": 105
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥐🍫"
+      },
+      "answer": "Pain au chocolat",
+      "level": "moyen",
+      "rank": 73
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔥🌭"
+      },
+      "answer": "Hot-dog",
+      "level": "moyen",
+      "rank": 72
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "☀️🕶️"
+      },
+      "answer": "Lunettes de soleil",
+      "level": "moyen",
+      "rank": 71
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐮🥛"
+      },
+      "answer": "Lait",
+      "level": "moyen",
+      "rank": 76
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐑🧶"
+      },
+      "answer": "Laine",
+      "level": "moyen",
+      "rank": 111
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥚🍳"
+      },
+      "answer": "Omelette",
+      "level": "moyen",
+      "rank": 78
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌶️🔥"
+      },
+      "answer": "Piment",
+      "level": "moyen",
+      "rank": 77
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏰👑"
+      },
+      "answer": "Château",
+      "level": "moyen",
+      "rank": 74
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⛷️🏔️"
+      },
+      "answer": "Ski",
+      "level": "moyen",
+      "fact": "Le mot « ski » vient du vieux norrois « skíð », qui désignait un morceau de bois fendu.",
+      "rank": 75
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤿🐠"
+      },
+      "answer": "Plongée",
+      "level": "moyen",
+      "rank": 103
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌙🛏️"
+      },
+      "answer": "Bonne nuit",
+      "level": "moyen",
+      "rank": 107
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧠⛈️"
+      },
+      "answer": "Remue-méninges",
+      "level": "moyen",
+      "rank": 113
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍷🧀"
+      },
+      "answer": "Apéro",
+      "level": "moyen",
+      "rank": 109
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧊🍵"
+      },
+      "answer": "Thé glacé",
+      "level": "moyen",
+      "rank": 108
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💤🧸"
+      },
+      "answer": "Doudou",
+      "level": "moyen",
+      "rank": 110
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎯🏹"
+      },
+      "answer": "Tir à l'arc",
+      "level": "moyen",
+      "rank": 104
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦁👑"
+      },
+      "answer": "Roi de la jungle",
+      "level": "difficile",
+      "fact": "Les lions vivent dans la savane, pas dans la jungle : le « roi de la jungle » est donc un titre de fiction.",
+      "rank": 148
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔥🧊"
+      },
+      "answer": "Le chaud et le froid",
+      "level": "difficile",
+      "rank": 154
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏖️🧴"
+      },
+      "answer": "Crème solaire",
+      "level": "difficile",
+      "rank": 146
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔍🕵️"
+      },
+      "answer": "Détective",
+      "level": "difficile",
+      "rank": 147
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💰🐷"
+      },
+      "answer": "Tirelire",
+      "level": "difficile",
+      "rank": 145
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐛🦋"
+      },
+      "answer": "Métamorphose",
+      "level": "difficile",
+      "rank": 157
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⏰🛏️"
+      },
+      "answer": "Réveil",
+      "level": "difficile",
+      "rank": 138
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌍🌡️"
+      },
+      "answer": "Réchauffement climatique",
+      "level": "difficile",
+      "rank": 155
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔴🚦"
+      },
+      "answer": "Feu rouge",
+      "level": "difficile",
+      "rank": 139
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧠💡"
+      },
+      "answer": "Idée de génie",
+      "level": "difficile",
+      "rank": 153
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎡🎠"
+      },
+      "answer": "Fête foraine",
+      "level": "difficile",
+      "rank": 149
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌅🐓"
+      },
+      "answer": "Chant du coq",
+      "level": "difficile",
+      "rank": 152
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐶🦴"
+      },
+      "answer": "Os",
+      "level": "difficile",
+      "fact": "Un adulte compte 206 os, alors qu'un bébé en a environ 300 qui se soudent en grandissant.",
+      "rank": 142
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚗🔧"
+      },
+      "answer": "Garage",
+      "level": "difficile",
+      "rank": 143
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔥🧯"
+      },
+      "answer": "Extincteur",
+      "level": "difficile",
+      "rank": 144
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎻🎼"
+      },
+      "answer": "Violon",
+      "level": "difficile",
+      "rank": 140
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌰🐿️"
+      },
+      "answer": "Écureuil",
+      "level": "difficile",
+      "rank": 141
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌸🐝"
+      },
+      "answer": "Pollen",
+      "level": "difficile",
+      "rank": 156
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐺🌕"
+      },
+      "answer": "Loup-garou",
+      "level": "difficile",
+      "rank": 151
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧊🐧"
+      },
+      "answer": "Banquise",
+      "level": "difficile",
+      "fact": "Contrairement à l'iceberg, la banquise est faite d'eau de mer gelée et flotte à la surface.",
+      "rank": 150
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍒🎂"
+      },
+      "answer": "Cerise sur le gâteau",
+      "level": "impossible",
+      "rank": 193
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧊🔨"
+      },
+      "answer": "Briser la glace",
+      "level": "impossible",
+      "fact": "Au sens propre, les bateaux brise-glace ouvrent un passage dans les eaux gelées.",
+      "rank": 194
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥚🧺"
+      },
+      "answer": "Tous ses œufs dans le même panier",
+      "level": "impossible",
+      "rank": 213
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎯💯"
+      },
+      "answer": "Dans le mille",
+      "level": "impossible",
+      "rank": 208
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧱👂"
+      },
+      "answer": "Les murs ont des oreilles",
+      "level": "impossible",
+      "rank": 214
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐜💪"
+      },
+      "answer": "Travail de fourmi",
+      "level": "impossible",
+      "rank": 215
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌧️➡️☀️"
+      },
+      "answer": "Après la pluie, le beau temps",
+      "level": "impossible",
+      "rank": 211
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪨🐦🐦"
+      },
+      "answer": "Faire d'une pierre deux coups",
+      "level": "impossible",
+      "rank": 212
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐶⚔️🐱"
+      },
+      "answer": "Comme chien et chat",
+      "level": "impossible",
+      "rank": 191
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⏳💰"
+      },
+      "answer": "Le temps, c'est de l'argent",
+      "level": "impossible",
+      "fact": "Cette formule est popularisée par Benjamin Franklin dans un texte de 1748 : « Time is money ».",
+      "rank": 209
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔥💨"
+      },
+      "answer": "Pas de fumée sans feu",
+      "level": "impossible",
+      "rank": 210
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐺🐑🏠"
+      },
+      "answer": "Le loup dans la bergerie",
+      "level": "impossible",
+      "rank": 217
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐓🫏"
+      },
+      "answer": "Du coq à l'âne",
+      "level": "impossible",
+      "fact": "Cette expression vient des « Épîtres du coq à l'âne », des poèmes de Clément Marot au XVIe siècle.",
+      "rank": 216
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐟🌷"
+      },
+      "answer": "Poisson d'avril",
+      "level": "impossible",
+      "rank": 189
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐱🐭"
+      },
+      "answer": "Le chat et la souris",
+      "level": "impossible",
+      "rank": 195
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌅🌃"
+      },
+      "answer": "Jour et nuit",
+      "level": "impossible",
+      "rank": 192
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐸👑"
+      },
+      "answer": "Prince charmant",
+      "level": "impossible",
+      "rank": 190
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌊🧂"
+      },
+      "answer": "Sel de mer",
+      "level": "impossible",
+      "rank": 218
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐢🐇"
+      },
+      "answer": "Le lièvre et la tortue",
+      "level": "impossible",
+      "fact": "Avant La Fontaine, la course entre le lièvre et la tortue figurait déjà dans les fables d'Ésope.",
+      "rank": 196
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎶🦗🐜"
+      },
+      "answer": "La cigale et la fourmi",
+      "level": "impossible",
+      "fact": "La Fontaine a puisé cette fable chez Ésope, mais il a changé le décor et les personnages.",
+      "rank": 197
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍕🇮🇹"
+      },
+      "answer": "Pizza",
+      "level": "facile",
+      "rank": 3
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥖🇫🇷"
+      },
+      "answer": "Baguette",
+      "level": "facile",
+      "fact": "En 2022, le savoir-faire de la baguette française a été inscrit au patrimoine immatériel de l'UNESCO.",
+      "rank": 20
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🗼🇫🇷"
+      },
+      "answer": "Tour Eiffel",
+      "level": "facile",
+      "fact": "La tour Eiffel, bâtie pour l'Exposition universelle de 1889, devait être démontée au bout de vingt ans.",
+      "rank": 5
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍫🥛"
+      },
+      "answer": "Chocolat chaud",
+      "level": "facile",
+      "rank": 43
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍓🍰"
+      },
+      "answer": "Fraisier",
+      "level": "facile",
+      "rank": 63
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍎🥧"
+      },
+      "answer": "Tarte aux pommes",
+      "level": "facile",
+      "rank": 44
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥔🍟"
+      },
+      "answer": "Frites",
+      "level": "facile",
+      "rank": 7
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚀🌕"
+      },
+      "answer": "Voyage sur la Lune",
+      "level": "facile",
+      "rank": 56
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚂🛤️"
+      },
+      "answer": "Train",
+      "level": "facile",
+      "rank": 22
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "✈️🌍"
+      },
+      "answer": "Tour du monde",
+      "level": "facile",
+      "rank": 57
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏊🌊"
+      },
+      "answer": "Natation",
+      "level": "facile",
+      "rank": 24
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⚽🥅"
+      },
+      "answer": "But",
+      "level": "facile",
+      "rank": 26
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎹🎶"
+      },
+      "answer": "Piano",
+      "level": "facile",
+      "rank": 21
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎤🎶"
+      },
+      "answer": "Chanteur",
+      "level": "facile",
+      "rank": 51
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎨🖌️"
+      },
+      "answer": "Peintre",
+      "level": "facile",
+      "rank": 52
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏥🚑"
+      },
+      "answer": "Hôpital",
+      "level": "facile",
+      "rank": 23
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌳🍎"
+      },
+      "answer": "Pommier",
+      "level": "facile",
+      "rank": 64
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌳🍒"
+      },
+      "answer": "Cerisier",
+      "level": "facile",
+      "rank": 65
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌳🍊"
+      },
+      "answer": "Oranger",
+      "level": "facile",
+      "rank": 66
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌴🥥"
+      },
+      "answer": "Cocotier",
+      "level": "facile",
+      "rank": 67
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐄🧀"
+      },
+      "answer": "Fromage",
+      "level": "facile",
+      "rank": 19
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐒🍌"
+      },
+      "answer": "Banane",
+      "level": "facile",
+      "rank": 18
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦷🪥"
+      },
+      "answer": "Brosse à dents",
+      "level": "facile",
+      "rank": 28
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚿🧼"
+      },
+      "answer": "Douche",
+      "level": "facile",
+      "rank": 27
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🛏️😴"
+      },
+      "answer": "Dodo",
+      "level": "facile",
+      "rank": 58
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔑🚪"
+      },
+      "answer": "Clé",
+      "level": "facile",
+      "rank": 29
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎄🌟"
+      },
+      "answer": "Sapin de Noël",
+      "level": "facile",
+      "fact": "La première mention écrite d'un sapin décoré date de 1521, à Sélestat, en Alsace.",
+      "rank": 14
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎆🎇"
+      },
+      "answer": "Feux d'artifice",
+      "level": "facile",
+      "rank": 16
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💐❤️"
+      },
+      "answer": "Bouquet",
+      "level": "facile",
+      "rank": 36
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏁🏎️"
+      },
+      "answer": "Course automobile",
+      "level": "facile",
+      "rank": 41
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⛽🚗"
+      },
+      "answer": "Station-service",
+      "level": "facile",
+      "rank": 42
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🛒🍎"
+      },
+      "answer": "Courses",
+      "level": "facile",
+      "rank": 62
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏦💰"
+      },
+      "answer": "Banque",
+      "level": "facile",
+      "fact": "Le mot « banque » vient de l'italien « banca », le banc sur lequel les changeurs posaient leurs pièces.",
+      "rank": 34
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "📮✉️"
+      },
+      "answer": "Courrier",
+      "level": "facile",
+      "rank": 35
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎧🎵"
+      },
+      "answer": "Casque audio",
+      "level": "facile",
+      "rank": 32
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⌚⏱️"
+      },
+      "answer": "Chronomètre",
+      "level": "facile",
+      "fact": "Le mot « chronomètre » vient du grec « chronos », le temps, et « metron », la mesure.",
+      "rank": 33
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧩🖼️"
+      },
+      "answer": "Puzzle",
+      "level": "facile",
+      "rank": 31
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "♟️👑"
+      },
+      "answer": "Échecs",
+      "level": "facile",
+      "fact": "« Échec et mat » vient du persan « shah mat », qui signifie que le roi est mort.",
+      "rank": 30
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧜🌊"
+      },
+      "answer": "Sirène",
+      "level": "facile",
+      "rank": 59
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐝🏠"
+      },
+      "answer": "Ruche",
+      "level": "facile",
+      "rank": 39
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐦🪺"
+      },
+      "answer": "Nid",
+      "level": "facile",
+      "rank": 40
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐶🏠"
+      },
+      "answer": "Niche",
+      "level": "facile",
+      "rank": 68
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍞🧈"
+      },
+      "answer": "Tartine",
+      "level": "facile",
+      "rank": 61
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌙⭐"
+      },
+      "answer": "Nuit étoilée",
+      "level": "facile",
+      "rank": 60
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎅🛷"
+      },
+      "answer": "Père Noël",
+      "level": "facile",
+      "rank": 15
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍦☀️"
+      },
+      "answer": "Glace d'été",
+      "level": "facile",
+      "rank": 69
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍞🥚"
+      },
+      "answer": "Pain perdu",
+      "level": "moyen",
+      "fact": "Le pain perdu a ce nom parce qu'il redonne vie à du pain rassis, qui serait sinon perdu.",
+      "rank": 118
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥩🍟"
+      },
+      "answer": "Steak-frites",
+      "level": "moyen",
+      "rank": 81
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥔🧀"
+      },
+      "answer": "Tartiflette",
+      "level": "moyen",
+      "fact": "La tartiflette a été popularisée dans les années 1980 pour faire connaître le reblochon.",
+      "rank": 116
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥔🧀🔥"
+      },
+      "answer": "Raclette",
+      "level": "moyen",
+      "rank": 80
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐸🦵"
+      },
+      "answer": "Cuisses de grenouille",
+      "level": "moyen",
+      "rank": 115
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐌🧄"
+      },
+      "answer": "Escargots",
+      "level": "moyen",
+      "rank": 114
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥞🍯"
+      },
+      "answer": "Crêpes",
+      "level": "moyen",
+      "fact": "La tradition veut qu'on fasse sauter la crêpe en tenant une pièce dans l'autre main, pour attirer la chance.",
+      "rank": 79
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐓🍷"
+      },
+      "answer": "Coq au vin",
+      "level": "moyen",
+      "rank": 117
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍝🥩"
+      },
+      "answer": "Spaghetti bolognaise",
+      "level": "moyen",
+      "rank": 82
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔧🚗"
+      },
+      "answer": "Mécanicien",
+      "level": "moyen",
+      "rank": 93
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚰🔧"
+      },
+      "answer": "Plombier",
+      "level": "moyen",
+      "fact": "Le plombier doit son nom au plomb, un métal que les Romains utilisaient déjà pour leurs tuyaux.",
+      "rank": 83
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💉🏥"
+      },
+      "answer": "Infirmier",
+      "level": "moyen",
+      "rank": 85
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "✂️💇"
+      },
+      "answer": "Coiffeur",
+      "level": "moyen",
+      "rank": 84
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎓📚"
+      },
+      "answer": "Professeur",
+      "level": "moyen",
+      "rank": 86
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥖🔥"
+      },
+      "answer": "Boulanger",
+      "level": "moyen",
+      "rank": 87
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥩🔪"
+      },
+      "answer": "Boucher",
+      "level": "moyen",
+      "rank": 88
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐟🎣"
+      },
+      "answer": "Pêcheur",
+      "level": "moyen",
+      "rank": 89
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌾🚜"
+      },
+      "answer": "Agriculteur",
+      "level": "moyen",
+      "rank": 90
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "✈️🧑"
+      },
+      "answer": "Pilote",
+      "level": "moyen",
+      "rank": 91
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏗️🧱"
+      },
+      "answer": "Maçon",
+      "level": "moyen",
+      "rank": 92
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎭🎬"
+      },
+      "answer": "Acteur",
+      "level": "moyen",
+      "rank": 99
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔬🧪"
+      },
+      "answer": "Scientifique",
+      "level": "moyen",
+      "rank": 100
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⚖️🏛️"
+      },
+      "answer": "Avocat",
+      "level": "moyen",
+      "rank": 102
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦷🏥"
+      },
+      "answer": "Dentiste",
+      "level": "moyen",
+      "rank": 94
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐕🩺"
+      },
+      "answer": "Vétérinaire",
+      "level": "moyen",
+      "rank": 95
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💐🏪"
+      },
+      "answer": "Fleuriste",
+      "level": "moyen",
+      "rank": 96
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "📰🎤"
+      },
+      "answer": "Journaliste",
+      "level": "moyen",
+      "fact": "Le mot « journal » vient de « jour », car les premiers journaux paraissaient chaque jour.",
+      "rank": 101
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🚓👮"
+      },
+      "answer": "Policier",
+      "level": "moyen",
+      "rank": 97
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎼🎹"
+      },
+      "answer": "Pianiste",
+      "level": "moyen",
+      "fact": "Le piano est l'abréviation de « pianoforte », un instrument qui peut jouer doucement et fort.",
+      "rank": 98
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🗼🥐"
+      },
+      "answer": "Paris",
+      "level": "facile",
+      "fact": "Paris tire son nom des Parisii, un peuple gaulois installé sur les bords de la Seine.",
+      "rank": 53
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🎡🇬🇧"
+      },
+      "answer": "Londres",
+      "level": "facile",
+      "rank": 54
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🗽🇺🇸"
+      },
+      "answer": "New York",
+      "level": "facile",
+      "fact": "New York s'appelait Nieuw Amsterdam avant de prendre le nom du duc d'York en 1664.",
+      "rank": 55
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍕🏛️"
+      },
+      "answer": "Rome",
+      "level": "moyen",
+      "rank": 122
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏔️🧀"
+      },
+      "answer": "Suisse",
+      "level": "moyen",
+      "fact": "La Suisse compte quatre langues nationales : l'allemand, le français, l'italien et le romanche.",
+      "rank": 123
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌷🚲"
+      },
+      "answer": "Pays-Bas",
+      "level": "moyen",
+      "rank": 124
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐼🧱"
+      },
+      "answer": "Chine",
+      "level": "moyen",
+      "rank": 119
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦘🏝️"
+      },
+      "answer": "Australie",
+      "level": "moyen",
+      "fact": "Le mot « Australie » vient du latin « australis », qui veut dire du sud.",
+      "rank": 121
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏜️🐫"
+      },
+      "answer": "Désert",
+      "level": "moyen",
+      "rank": 125
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌋🍕"
+      },
+      "answer": "Naples",
+      "level": "moyen",
+      "rank": 127
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏯🌸"
+      },
+      "answer": "Japon",
+      "level": "moyen",
+      "fact": "Le nom japonais du pays, Nippon, signifie « origine du soleil ».",
+      "rank": 120
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🗿🌊"
+      },
+      "answer": "Île de Pâques",
+      "level": "moyen",
+      "fact": "L'île de Pâques doit son nom au jour de sa découverte par les Européens : le dimanche de Pâques 1722.",
+      "rank": 128
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏛️🇬🇷"
+      },
+      "answer": "Athènes",
+      "level": "moyen",
+      "rank": 126
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐺🍽️"
+      },
+      "answer": "Avoir une faim de loup",
+      "level": "moyen",
+      "rank": 132
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐭😴"
+      },
+      "answer": "Dormir comme un loir",
+      "level": "moyen",
+      "fact": "Le loir hiberne pendant plusieurs mois chaque année, ce qui explique cette expression.",
+      "rank": 136
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐰✋"
+      },
+      "answer": "Poser un lapin",
+      "level": "moyen",
+      "rank": 135
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪳😞"
+      },
+      "answer": "Avoir le cafard",
+      "level": "moyen",
+      "rank": 137
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦆🥶"
+      },
+      "answer": "Un froid de canard",
+      "level": "moyen",
+      "rank": 130
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍎⬇️"
+      },
+      "answer": "Tomber dans les pommes",
+      "level": "moyen",
+      "rank": 134
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "⚡❤️"
+      },
+      "answer": "Coup de foudre",
+      "level": "moyen",
+      "rank": 129
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐶🌧️"
+      },
+      "answer": "Un temps de chien",
+      "level": "moyen",
+      "rank": 131
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🍌🦶"
+      },
+      "answer": "Peau de banane",
+      "level": "moyen",
+      "rank": 133
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐔🦷"
+      },
+      "answer": "Quand les poules auront des dents",
+      "level": "difficile",
+      "fact": "Les poules n'ont pas de dents, comme tous les oiseaux actuels : cette expression veut dire jamais.",
+      "rank": 163
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐱🗣️"
+      },
+      "answer": "Avoir un chat dans la gorge",
+      "level": "difficile",
+      "rank": 161
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👀🍽️"
+      },
+      "answer": "Avoir les yeux plus gros que le ventre",
+      "level": "difficile",
+      "rank": 164
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👀💰"
+      },
+      "answer": "Coûter les yeux de la tête",
+      "level": "difficile",
+      "rank": 162
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🔄🍯"
+      },
+      "answer": "Tourner autour du pot",
+      "level": "difficile",
+      "rank": 170
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥗🗣️"
+      },
+      "answer": "Raconter des salades",
+      "level": "difficile",
+      "rank": 168
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥬⏳"
+      },
+      "answer": "Poireauter",
+      "level": "difficile",
+      "fact": "Poireauter, c'est attendre planté sur place, comme un poireau bien enraciné dans le potager.",
+      "rank": 172
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "❤️✋"
+      },
+      "answer": "Avoir le cœur sur la main",
+      "level": "difficile",
+      "rank": 165
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "☁️⬇️"
+      },
+      "answer": "Tomber des nues",
+      "level": "difficile",
+      "rank": 173
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌧️🪢"
+      },
+      "answer": "Il pleut des cordes",
+      "level": "difficile",
+      "rank": 158
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "😴👂👂"
+      },
+      "answer": "Dormir sur ses deux oreilles",
+      "level": "difficile",
+      "rank": 169
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦶🍽️"
+      },
+      "answer": "Mettre les pieds dans le plat",
+      "level": "difficile",
+      "rank": 167
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧠☁️"
+      },
+      "answer": "Avoir la tête dans les nuages",
+      "level": "difficile",
+      "rank": 159
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧍🌙"
+      },
+      "answer": "Être dans la lune",
+      "level": "difficile",
+      "rank": 160
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🛢️🔥"
+      },
+      "answer": "Mettre de l'huile sur le feu",
+      "level": "difficile",
+      "rank": 166
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💇👅"
+      },
+      "answer": "Avoir un cheveu sur la langue",
+      "level": "difficile",
+      "rank": 171
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌬️🌪️"
+      },
+      "answer": "Qui sème le vent récolte la tempête",
+      "level": "impossible",
+      "rank": 227
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏃🕐"
+      },
+      "answer": "Rien ne sert de courir",
+      "level": "difficile",
+      "fact": "Ces vers ouvrent « Le Lièvre et la Tortue », une fable de La Fontaine publiée en 1668.",
+      "rank": 186
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪨🔄"
+      },
+      "answer": "Pierre qui roule n'amasse pas mousse",
+      "level": "impossible",
+      "rank": 229
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐱💧"
+      },
+      "answer": "Chat échaudé craint l'eau froide",
+      "level": "impossible",
+      "rank": 228
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💰😢"
+      },
+      "answer": "L'argent ne fait pas le bonheur",
+      "level": "difficile",
+      "rank": 184
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐢🏁"
+      },
+      "answer": "Mieux vaut tard que jamais",
+      "level": "difficile",
+      "fact": "Ce proverbe existe déjà chez l'historien latin Tite-Live, il y a plus de deux mille ans.",
+      "rank": 183
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐕🐫"
+      },
+      "answer": "Les chiens aboient, la caravane passe",
+      "level": "difficile",
+      "rank": 187
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐦✋"
+      },
+      "answer": "Un tiens vaut mieux que deux tu l'auras",
+      "level": "impossible",
+      "fact": "Ce proverbe conclut une fable de La Fontaine, « Le Petit Poisson et le Pêcheur ».",
+      "rank": 230
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐻💰"
+      },
+      "answer": "Vendre la peau de l'ours",
+      "level": "impossible",
+      "fact": "Cette expression vient d'une fable de La Fontaine, « L'Ours et les deux Compagnons ».",
+      "rank": 226
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🤝💪"
+      },
+      "answer": "L'union fait la force",
+      "level": "difficile",
+      "fact": "« L'union fait la force » est la devise de la Belgique.",
+      "rank": 185
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "💧🏞️"
+      },
+      "answer": "Les petits ruisseaux font les grandes rivières",
+      "level": "difficile",
+      "rank": 188
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦊🍇"
+      },
+      "answer": "Le renard et les raisins",
+      "level": "difficile",
+      "fact": "Cette fable a donné l'expression « ils sont trop verts » pour dire qu'on méprise ce qu'on ne peut pas avoir.",
+      "rank": 178
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐺🐑"
+      },
+      "answer": "Le loup et l'agneau",
+      "level": "difficile",
+      "fact": "Cette fable commence par le vers « La raison du plus fort est toujours la meilleure ».",
+      "rank": 176
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐦🧀🦊"
+      },
+      "answer": "Le corbeau et le renard",
+      "level": "difficile",
+      "fact": "La Fontaine s'est inspiré d'Ésope et de Phèdre, deux auteurs de l'Antiquité, pour cette fable.",
+      "rank": 174
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐭🏙️🐭🌾"
+      },
+      "answer": "Le rat des villes et le rat des champs",
+      "level": "difficile",
+      "fact": "Cette fable vient du poète latin Horace, que La Fontaine a adapté en vers français.",
+      "rank": 179
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦁🐭"
+      },
+      "answer": "Le lion et le rat",
+      "level": "difficile",
+      "rank": 175
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🥛🏺"
+      },
+      "answer": "La laitière et le pot au lait",
+      "level": "difficile",
+      "rank": 180
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🌳🌾"
+      },
+      "answer": "Le chêne et le roseau",
+      "level": "difficile",
+      "rank": 181
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐺🐕"
+      },
+      "answer": "Le loup et le chien",
+      "level": "difficile",
+      "rank": 182
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐸🐮"
+      },
+      "answer": "La grenouille et le bœuf",
+      "level": "difficile",
+      "rank": 177
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐺🧒🔴"
+      },
+      "answer": "Le Petit Chaperon rouge",
+      "level": "impossible",
+      "fact": "Charles Perrault a publié ce conte en 1697, dans « Histoires ou contes du temps passé ».",
+      "rank": 200
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐱👢"
+      },
+      "answer": "Le Chat botté",
+      "level": "impossible",
+      "fact": "Dans le conte de Perrault, le chat obtient des bottes et fait la fortune de son maître.",
+      "rank": 202
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👸🛏️🫛"
+      },
+      "answer": "La princesse au petit pois",
+      "level": "impossible",
+      "fact": "Ce conte a été écrit par le Danois Hans Christian Andersen et publié en 1835.",
+      "rank": 205
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "👠🎃"
+      },
+      "answer": "Cendrillon",
+      "level": "impossible",
+      "fact": "Dans la version de Charles Perrault, la célèbre pantoufle de Cendrillon est en verre.",
+      "rank": 201
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐷🐷🐷🏠"
+      },
+      "answer": "Les trois petits cochons",
+      "level": "impossible",
+      "rank": 199
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧔🔵"
+      },
+      "answer": "La Barbe bleue",
+      "level": "impossible",
+      "rank": 206
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "😴👸🌲"
+      },
+      "answer": "La Belle au bois dormant",
+      "level": "impossible",
+      "rank": 203
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐴🏛️"
+      },
+      "answer": "Le cheval de Troie",
+      "level": "impossible",
+      "fact": "Le piège du cheval de bois est raconté par le poète latin Virgile dans l'Énéide.",
+      "rank": 207
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🗡️🪨"
+      },
+      "answer": "L'épée dans la pierre",
+      "level": "impossible",
+      "rank": 223
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧵🧶"
+      },
+      "answer": "Fil d'Ariane",
+      "level": "impossible",
+      "fact": "Dans la légende grecque, Ariane donne à Thésée un fil pour retrouver la sortie du labyrinthe du Minotaure.",
+      "rank": 224
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦢🎶"
+      },
+      "answer": "Chant du cygne",
+      "level": "impossible",
+      "fact": "Selon une vieille légende, le cygne chanterait une dernière fois juste avant de mourir.",
+      "rank": 225
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🏰🌉"
+      },
+      "answer": "Pont-levis",
+      "level": "impossible",
+      "rank": 221
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🧂🌾"
+      },
+      "answer": "Mettre son grain de sel",
+      "level": "impossible",
+      "rank": 220
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦅🏛️"
+      },
+      "answer": "Aigle impérial",
+      "level": "impossible",
+      "rank": 222
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐑⚫"
+      },
+      "answer": "Mouton noir",
+      "level": "impossible",
+      "rank": 219
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐜🎻"
+      },
+      "answer": "La fourmi et la cigale",
+      "level": "impossible",
+      "rank": 198
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦆😢"
+      },
+      "answer": "Le vilain petit canard",
+      "level": "impossible",
+      "fact": "Ce conte de Hans Christian Andersen a été publié en 1843.",
+      "rank": 204
+    }
+  ],
+  "rankNote": "Classement éditorial par évidence du rébus à l'intérieur de chaque niveau (1 = le plus évident), 08/11/2026."
+}

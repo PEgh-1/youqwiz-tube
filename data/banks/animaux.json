@@ -1,0 +1,874 @@
+{
+  "question": "Quel est cet animal ?",
+  "hook": "Devine {n} ANIMAUX",
+  "emoji": "🐯🦓🐙",
+  "slug": "animaux",
+  "noun": "ANIMAUX",
+  "tags": [
+    "animaux",
+    "quiz animaux",
+    "devine l'animal"
+  ],
+  "items": [
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐯"
+      },
+      "answer": "Le tigre",
+      "fact": "Le tigre a des rayures aussi sur la peau, pas seulement sur le pelage.",
+      "rank": 4
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐘"
+      },
+      "answer": "L'éléphant",
+      "fact": "L'éléphant utilise sa trompe pour boire, respirer et même attraper des objets.",
+      "rank": 1
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦒"
+      },
+      "answer": "La girafe",
+      "fact": "Le long cou de la girafe compte seulement sept vertèbres, comme le tien.",
+      "rank": 3
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐧"
+      },
+      "answer": "Le manchot",
+      "fact": "Chez le manchot empereur, c'est le papa qui garde l'œuf au chaud sur ses pattes.",
+      "rank": 27
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦁"
+      },
+      "answer": "Le lion",
+      "rank": 2
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐼"
+      },
+      "answer": "Le panda",
+      "rank": 10
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐨"
+      },
+      "answer": "Le koala",
+      "fact": "Le koala dort près de vingt heures par jour.",
+      "rank": 26
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦓"
+      },
+      "answer": "Le zèbre",
+      "fact": "Chaque zèbre a des rayures uniques, un peu comme tes empreintes digitales.",
+      "rank": 11
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐙"
+      },
+      "answer": "La pieuvre",
+      "fact": "La pieuvre a trois cœurs et du sang bleu.",
+      "rank": 31
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦔"
+      },
+      "answer": "Le hérisson",
+      "fact": "Le hérisson a plus de cinq mille piquants sur le dos.",
+      "rank": 54
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦦"
+      },
+      "answer": "La loutre",
+      "fact": "Les loutres de mer se tiennent par la patte en dormant pour ne pas se perdre.",
+      "rank": 83
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦥"
+      },
+      "answer": "Le paresseux",
+      "fact": "Le paresseux peut mettre un mois entier à digérer une seule feuille.",
+      "rank": 84
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦩"
+      },
+      "answer": "Le flamant rose",
+      "fact": "Le flamant rose est rose grâce aux petites crevettes et aux algues qu'il mange.",
+      "rank": 40
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦜"
+      },
+      "answer": "Le perroquet",
+      "rank": 39
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐊"
+      },
+      "answer": "Le crocodile",
+      "fact": "Le crocodile est incapable de tirer la langue.",
+      "rank": 28
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦎"
+      },
+      "answer": "Le lézard",
+      "rank": 61
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦇"
+      },
+      "answer": "La chauve-souris",
+      "fact": "La chauve-souris est le seul mammifère capable de voler pour de vrai.",
+      "rank": 62
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦡"
+      },
+      "answer": "Le blaireau",
+      "rank": 99
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦨"
+      },
+      "answer": "La mouffette",
+      "rank": 100
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦫"
+      },
+      "answer": "Le castor",
+      "fact": "Les dents du castor ne s'usent jamais, car elles poussent toute sa vie.",
+      "rank": 82
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐮"
+      },
+      "answer": "La vache",
+      "rank": 5
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐷"
+      },
+      "answer": "Le cochon",
+      "rank": 6
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐸"
+      },
+      "answer": "La grenouille",
+      "fact": "La grenouille boit en absorbant l'eau directement par la peau.",
+      "rank": 20
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐵"
+      },
+      "answer": "Le singe",
+      "rank": 12
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐔"
+      },
+      "answer": "La poule",
+      "rank": 9
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐦"
+      },
+      "answer": "L'oiseau",
+      "rank": 74
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐺"
+      },
+      "answer": "Le loup",
+      "rank": 24
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦊"
+      },
+      "answer": "Le renard",
+      "rank": 23
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐻"
+      },
+      "answer": "L'ours",
+      "rank": 22
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐰"
+      },
+      "answer": "Le lapin",
+      "rank": 7
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐭"
+      },
+      "answer": "La souris",
+      "rank": 21
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐹"
+      },
+      "answer": "Le hamster",
+      "rank": 56
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐴"
+      },
+      "answer": "Le cheval",
+      "rank": 8
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦄"
+      },
+      "answer": "La licorne",
+      "rank": 49
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐝"
+      },
+      "answer": "L'abeille",
+      "fact": "L'abeille bat des ailes plus de deux cents fois par seconde.",
+      "rank": 29
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐛"
+      },
+      "answer": "La chenille",
+      "rank": 59
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦋"
+      },
+      "answer": "Le papillon",
+      "fact": "Le papillon goûte les aliments avec ses pattes.",
+      "rank": 15
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐌"
+      },
+      "answer": "L'escargot",
+      "fact": "L'escargot a des milliers de minuscules dents sur sa langue.",
+      "rank": 16
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐞"
+      },
+      "answer": "La coccinelle",
+      "rank": 30
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐜"
+      },
+      "answer": "La fourmi",
+      "rank": 58
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦗"
+      },
+      "answer": "Le grillon",
+      "rank": 96
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🕷️"
+      },
+      "answer": "L'araignée",
+      "rank": 57
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦂"
+      },
+      "answer": "Le scorpion",
+      "rank": 60
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐢"
+      },
+      "answer": "La tortue",
+      "rank": 13
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐍"
+      },
+      "answer": "Le serpent",
+      "rank": 14
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦕"
+      },
+      "answer": "Le diplodocus",
+      "rank": 91
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦖"
+      },
+      "answer": "Le tyrannosaure",
+      "rank": 51
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐳"
+      },
+      "answer": "La baleine",
+      "rank": 18
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐬"
+      },
+      "answer": "Le dauphin",
+      "fact": "Le dauphin dort avec seulement la moitié de son cerveau à la fois.",
+      "rank": 17
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦭"
+      },
+      "answer": "Le phoque",
+      "rank": 75
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐟"
+      },
+      "answer": "Le poisson",
+      "rank": 48
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐠"
+      },
+      "answer": "Le poisson tropical",
+      "rank": 79
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐡"
+      },
+      "answer": "Le poisson-globe",
+      "rank": 80
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦈"
+      },
+      "answer": "Le requin",
+      "fact": "Le requin renouvelle ses dents tout au long de sa vie.",
+      "rank": 19
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦀"
+      },
+      "answer": "Le crabe",
+      "rank": 46
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦞"
+      },
+      "answer": "Le homard",
+      "rank": 76
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦐"
+      },
+      "answer": "La crevette",
+      "rank": 47
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦑"
+      },
+      "answer": "Le calamar",
+      "fact": "Le calamar géant a les plus grands yeux de tout le règne animal.",
+      "rank": 77
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐪"
+      },
+      "answer": "Le dromadaire",
+      "fact": "Le dromadaire n'a qu'une seule bosse, alors que le chameau de Bactriane en a deux.",
+      "rank": 63
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐫"
+      },
+      "answer": "Le chameau",
+      "rank": 64
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦙"
+      },
+      "answer": "Le lama",
+      "rank": 65
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦘"
+      },
+      "answer": "Le kangourou",
+      "fact": "À sa naissance, le bébé kangourou est à peine plus gros qu'un haricot.",
+      "rank": 25
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦃"
+      },
+      "answer": "La dinde",
+      "rank": 71
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦚"
+      },
+      "answer": "Le paon",
+      "rank": 42
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦢"
+      },
+      "answer": "Le cygne",
+      "rank": 41
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦉"
+      },
+      "answer": "Le hibou",
+      "fact": "Le hibou peut tourner la tête sur environ deux cent soixante-dix degrés.",
+      "rank": 37
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦅"
+      },
+      "answer": "L'aigle",
+      "rank": 38
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦆"
+      },
+      "answer": "Le canard",
+      "rank": 32
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐓"
+      },
+      "answer": "Le coq",
+      "rank": 33
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐐"
+      },
+      "answer": "La chèvre",
+      "rank": 36
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐑"
+      },
+      "answer": "Le mouton",
+      "rank": 35
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐏"
+      },
+      "answer": "Le bélier",
+      "rank": 89
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦌"
+      },
+      "answer": "Le cerf",
+      "rank": 67
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦬"
+      },
+      "answer": "Le bison",
+      "rank": 87
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦏"
+      },
+      "answer": "Le rhinocéros",
+      "fact": "La corne du rhinocéros est faite de kératine, comme tes ongles.",
+      "rank": 43
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦛"
+      },
+      "answer": "L'hippopotame",
+      "rank": 44
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐃"
+      },
+      "answer": "Le buffle",
+      "rank": 101
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦧"
+      },
+      "answer": "L'orang-outan",
+      "fact": "Le mot orang-outan veut dire « homme de la forêt » en malais.",
+      "rank": 86
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦍"
+      },
+      "answer": "Le gorille",
+      "rank": 45
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐿️"
+      },
+      "answer": "L'écureuil",
+      "rank": 55
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦝"
+      },
+      "answer": "Le raton laveur",
+      "rank": 85
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦤"
+      },
+      "answer": "Le dodo",
+      "fact": "Le dodo vivait sur l'île Maurice et a disparu au XVIIe siècle.",
+      "rank": 102
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪲"
+      },
+      "answer": "Le scarabée",
+      "rank": 94
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪰"
+      },
+      "answer": "La mouche",
+      "rank": 92
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦟"
+      },
+      "answer": "Le moustique",
+      "rank": 93
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪱"
+      },
+      "answer": "Le ver de terre",
+      "rank": 95
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐉"
+      },
+      "answer": "Le dragon",
+      "rank": 50
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐣"
+      },
+      "answer": "Le poussin",
+      "rank": 34
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🕊️"
+      },
+      "answer": "La colombe",
+      "rank": 72
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦣"
+      },
+      "answer": "Le mammouth",
+      "rank": 90
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐂"
+      },
+      "answer": "Le bœuf",
+      "rank": 68
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐀"
+      },
+      "answer": "Le rat",
+      "rank": 69
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦪"
+      },
+      "answer": "L'huître",
+      "rank": 81
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪳"
+      },
+      "answer": "Le cafard",
+      "rank": 97
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🦠"
+      },
+      "answer": "Le microbe",
+      "rank": 98
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐦‍⬛"
+      },
+      "answer": "Le corbeau",
+      "rank": 73
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐈‍⬛"
+      },
+      "answer": "Le chat noir",
+      "rank": 53
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐻‍❄️"
+      },
+      "answer": "L'ours polaire",
+      "rank": 52
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪿"
+      },
+      "answer": "L'oie",
+      "rank": 70
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🫏"
+      },
+      "answer": "L'âne",
+      "rank": 66
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🫎"
+      },
+      "answer": "L'élan",
+      "rank": 88
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪼"
+      },
+      "answer": "La méduse",
+      "rank": 78
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🪸"
+      },
+      "answer": "Le corail",
+      "rank": 103
+    },
+    {
+      "prompt": {
+        "type": "emoji",
+        "value": "🐲"
+      },
+      "answer": "Le dragon chinois",
+      "rank": 104
+    }
+  ],
+  "rankNote": "Classement éditorial par lisibilité de l'emoji / familiarité de l'animal (1 = le plus évident), 08/11/2026."
+}

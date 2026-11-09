@@ -1,0 +1,339 @@
+{
+ "id": "sample-culture",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "theme": 1,
+ "title": "20 QUESTIONS de CULTURE GÉNÉRALE 🧠📚✅ | Facile, Moyen, Difficile, Impossible",
+ "question": "",
+ "intro": {
+  "hook": "20 QUESTIONS de CULTURE GÉNÉRALE",
+  "sub": "4 choix, 5 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Australie ?",
+    "choices": [
+     "Melbourne",
+     "Perth",
+     "Canberra",
+     "Sydney"
+    ],
+    "correct": 2
+   },
+   "answer": "Canberra",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?",
+    "choices": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "correct": 2
+   },
+   "answer": "11",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus haut sommet de France ?",
+    "choices": [
+     "Le Pic du Midi",
+     "Le Puy de Dôme",
+     "Le mont Blanc",
+     "Le mont Ventoux"
+    ],
+    "correct": 2
+   },
+   "answer": "Le mont Blanc",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle saison voit tomber les feuilles des arbres ?",
+    "choices": [
+     "L'hiver",
+     "Le printemps",
+     "L'été",
+     "L'automne"
+    ],
+    "correct": 3
+   },
+   "answer": "L'automne",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel insecte fabrique le miel ?",
+    "choices": [
+     "La fourmi",
+     "La guêpe",
+     "L'abeille",
+     "Le bourdon"
+    ],
+    "correct": 2
+   },
+   "answer": "L'abeille",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Canada ?",
+    "choices": [
+     "Vancouver",
+     "Montréal",
+     "Toronto",
+     "Ottawa"
+    ],
+    "correct": 3
+   },
+   "answer": "Ottawa",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est surnommée la planète rouge ?",
+    "choices": [
+     "Vénus",
+     "Jupiter",
+     "Mars",
+     "Mercure"
+    ],
+    "correct": 2
+   },
+   "answer": "Mars",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel compositeur a écrit « Les Quatre Saisons » ?",
+    "choices": [
+     "Mozart",
+     "Chopin",
+     "Bach",
+     "Vivaldi"
+    ],
+    "correct": 3
+   },
+   "answer": "Vivaldi",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Le Rouge et le Noir » ?",
+    "choices": [
+     "Flaubert",
+     "Balzac",
+     "Stendhal",
+     "Zola"
+    ],
+    "correct": 2
+   },
+   "answer": "Stendhal",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel musée parisien est exposée la Joconde ?",
+    "choices": [
+     "Le Centre Pompidou",
+     "Le Grand Palais",
+     "Le musée d'Orsay",
+     "Le Louvre"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Louvre",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "choices": [
+     "Christchurch",
+     "Auckland",
+     "Wellington",
+     "Queenstown"
+    ],
+    "correct": 2
+   },
+   "answer": "Wellington",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit os du corps humain ?",
+    "choices": [
+     "Le radius",
+     "Le marteau",
+     "Le cubitus",
+     "L'étrier"
+    ],
+    "correct": 3
+   },
+   "answer": "L'étrier",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un mot de sens contraire à un autre ?",
+    "choices": [
+     "Un homonyme",
+     "Un paronyme",
+     "Un antonyme",
+     "Un synonyme"
+    ],
+    "correct": 2
+   },
+   "answer": "Un antonyme",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « œil » ?",
+    "choices": [
+     "Des yeuxs",
+     "Des œils",
+     "Des œuils",
+     "Des yeux"
+    ],
+    "correct": 3
+   },
+   "answer": "Des yeux",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+    "choices": [
+     "3 millions km/s",
+     "3 000 km/s",
+     "300 000 km/s",
+     "30 000 km/s"
+    ],
+    "correct": 2
+   },
+   "answer": "300 000 km/s",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Burkina Faso ?",
+    "choices": [
+     "Bamako",
+     "Dakar",
+     "Niamey",
+     "Ouagadougou"
+    ],
+    "correct": 3
+   },
+   "answer": "Ouagadougou",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand pays d'Afrique par sa superficie ?",
+    "choices": [
+     "La République démocratique du Congo",
+     "Le Soudan",
+     "L'Algérie",
+     "La Libye"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Algérie",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de paires de côtes compte le squelette humain ?",
+    "choices": [
+     "10",
+     "11",
+     "12",
+     "14"
+    ],
+    "correct": 2
+   },
+   "answer": "12",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays organise la première Coupe du monde de football en 1930 ?",
+    "choices": [
+     "L'Italie",
+     "L'Argentine",
+     "L'Uruguay",
+     "Le Brésil"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Uruguay",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouve la ville de Tombouctou ?",
+    "choices": [
+     "La Mauritanie",
+     "Le Sénégal",
+     "Le Niger",
+     "Le Mali"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Mali",
+   "level": "impossible"
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "20 questions de culture générale ! Géographie, histoire, sciences, arts… De facile à impossible. Dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes amis : https://youqwiz.com\n\n#quiz #culturegenerale #youqwiz",
+  "tags": [
+   "quiz",
+   "quiz culture générale",
+   "culture générale",
+   "quiz français",
+   "QCM",
+   "youqwiz"
+  ],
+  "thumbnail": {
+   "line1": "Culture générale",
+   "line2": "20 questions",
+   "emoji": "🧠"
+  },
+  "shortItems": 5
+ }
+}

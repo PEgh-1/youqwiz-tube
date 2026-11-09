@@ -1,0 +1,1779 @@
+{
+ "question": "Calcule en 5 secondes ! 🧮",
+ "hook": "{n} CALCULS en 5 secondes",
+ "emoji": "🧮➕✖️",
+ "slug": "maths",
+ "noun": "CALCULS",
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "tags": [
+  "calcul mental",
+  "mathématiques",
+  "quiz maths"
+ ],
+ "subject": "CALCUL MENTAL",
+ "items": [
+  {
+   "prompt": {
+    "type": "text",
+    "value": "90 + 30"
+   },
+   "answer": "120",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "70 + 20"
+   },
+   "answer": "90",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4 × 9"
+   },
+   "answer": "36",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "49 ÷ 7"
+   },
+   "answer": "7",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6 × 9"
+   },
+   "answer": "54",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 × 2"
+   },
+   "answer": "10",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "18 − 4"
+   },
+   "answer": "14",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 × 4"
+   },
+   "answer": "20",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "8 × 9"
+   },
+   "answer": "72",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 + 11"
+   },
+   "answer": "41",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "9 × 6"
+   },
+   "answer": "54",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "27 + 6"
+   },
+   "answer": "33",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 + 90"
+   },
+   "answer": "110",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "33 − 32"
+   },
+   "answer": "1",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 ÷ 8"
+   },
+   "answer": "2",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "15 − 11"
+   },
+   "answer": "4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4 × 3"
+   },
+   "answer": "12",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "17 − 15"
+   },
+   "answer": "2",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 ÷ 2"
+   },
+   "answer": "8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 × 3"
+   },
+   "answer": "15",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "12 ÷ 3"
+   },
+   "answer": "4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 + 5"
+   },
+   "answer": "10",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6 + 9"
+   },
+   "answer": "15",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "26 − 20"
+   },
+   "answer": "6",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "18 − 15"
+   },
+   "answer": "3",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "10 + 90"
+   },
+   "answer": "100",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6 × 6"
+   },
+   "answer": "36",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "2 + 6"
+   },
+   "answer": "8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 + 40"
+   },
+   "answer": "90",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 + 20"
+   },
+   "answer": "80",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 × 9"
+   },
+   "answer": "45",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25 − 17"
+   },
+   "answer": "8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "2 × 7"
+   },
+   "answer": "14",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "48 ÷ 8"
+   },
+   "answer": "6",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 × 5"
+   },
+   "answer": "25",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 + 30"
+   },
+   "answer": "90",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 + 40"
+   },
+   "answer": "70",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3 × 5"
+   },
+   "answer": "15",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "27 + 5"
+   },
+   "answer": "32",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 + 20"
+   },
+   "answer": "70",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 − 15"
+   },
+   "answer": "15",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "37 − 7"
+   },
+   "answer": "30",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "9 × 7"
+   },
+   "answer": "63",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "21 − 13"
+   },
+   "answer": "8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "72 ÷ 9"
+   },
+   "answer": "8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "70 + 50"
+   },
+   "answer": "120",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "48 ÷ 6"
+   },
+   "answer": "8",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 + 17"
+   },
+   "answer": "33",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "9 × 9"
+   },
+   "answer": "81",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "7 × 8"
+   },
+   "answer": "56",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25 − 11"
+   },
+   "answer": "14",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "80 + 90"
+   },
+   "answer": "170",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "18 ÷ 2"
+   },
+   "answer": "9",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "8 ÷ 2"
+   },
+   "answer": "4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 − 5"
+   },
+   "answer": "11",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4 + 27"
+   },
+   "answer": "31",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "19 + 26"
+   },
+   "answer": "45",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25 − 20"
+   },
+   "answer": "5",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "21 ÷ 7"
+   },
+   "answer": "3",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "81 ÷ 9"
+   },
+   "answer": "9",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "40 + 20"
+   },
+   "answer": "60",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3 × 8"
+   },
+   "answer": "24",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 + 10"
+   },
+   "answer": "70",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "27 + 4"
+   },
+   "answer": "31",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 + 30"
+   },
+   "answer": "80",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "9 + 18"
+   },
+   "answer": "27",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "12²"
+   },
+   "answer": "144",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "7²"
+   },
+   "answer": "49",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "63 ÷ 7"
+   },
+   "answer": "9",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "117 ÷ 9"
+   },
+   "answer": "13",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "103 − 28"
+   },
+   "answer": "75",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "11²"
+   },
+   "answer": "121",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "10²"
+   },
+   "answer": "100",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "98 + 78"
+   },
+   "answer": "176",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "2 + 6 + 2"
+   },
+   "answer": "10",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3 + 7 + 9"
+   },
+   "answer": "19",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "150 − 15"
+   },
+   "answer": "135",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "8²"
+   },
+   "answer": "64",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "18 × 6"
+   },
+   "answer": "108",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "143 − 48"
+   },
+   "answer": "95",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "45 + 27"
+   },
+   "answer": "72",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "138 − 13"
+   },
+   "answer": "125",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "103 − 30"
+   },
+   "answer": "73",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "57 + 30"
+   },
+   "answer": "87",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "54 + 39"
+   },
+   "answer": "93",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6²"
+   },
+   "answer": "36",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3 + 4 + 2"
+   },
+   "answer": "9",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "121 ÷ 11"
+   },
+   "answer": "11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "70 + 70"
+   },
+   "answer": "140",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4 + 7 + 4"
+   },
+   "answer": "15",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "139 − 22"
+   },
+   "answer": "117",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "36 ÷ 3"
+   },
+   "answer": "12",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "56 + 88"
+   },
+   "answer": "144",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "12 × 7"
+   },
+   "answer": "84",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 + 4 + 9"
+   },
+   "answer": "18",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "11 × 4"
+   },
+   "answer": "44",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "19 × 6"
+   },
+   "answer": "114",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "12 × 5"
+   },
+   "answer": "60",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4²"
+   },
+   "answer": "16",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "88 ÷ 8"
+   },
+   "answer": "11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "72 − 19"
+   },
+   "answer": "53",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6 + 2 + 6"
+   },
+   "answer": "14",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "15 × 8"
+   },
+   "answer": "120",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 × 8"
+   },
+   "answer": "128",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "129 − 17"
+   },
+   "answer": "112",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "7 + 2 + 4"
+   },
+   "answer": "13",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "66 ÷ 11"
+   },
+   "answer": "6",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "2 + 6 + 7"
+   },
+   "answer": "15",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 + 3 + 8"
+   },
+   "answer": "16",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "14 × 8"
+   },
+   "answer": "112",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3 + 9 + 4"
+   },
+   "answer": "16",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 × 3"
+   },
+   "answer": "48",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "80 ÷ 10"
+   },
+   "answer": "8",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "44 + 95"
+   },
+   "answer": "139",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5²"
+   },
+   "answer": "25",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "17 × 6"
+   },
+   "answer": "102",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "49 + 48"
+   },
+   "answer": "97",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "18 × 8"
+   },
+   "answer": "144",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "72 ÷ 8"
+   },
+   "answer": "9",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6 + 9 + 8"
+   },
+   "answer": "23",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "625 − 134"
+   },
+   "answer": "491",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "21 + 57 + 31"
+   },
+   "answer": "109",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "383 + 407"
+   },
+   "answer": "790",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "624 ÷ 24"
+   },
+   "answer": "26",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "455 + 236"
+   },
+   "answer": "691",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4³"
+   },
+   "answer": "64",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "7³"
+   },
+   "answer": "343",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "213 + 332"
+   },
+   "answer": "545",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "441 ÷ 21"
+   },
+   "answer": "21",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "594 − 264"
+   },
+   "answer": "330",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "43 + 30 + 60"
+   },
+   "answer": "133",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "190 + 105"
+   },
+   "answer": "295",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 × 18"
+   },
+   "answer": "288",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "22 + 29 + 29"
+   },
+   "answer": "80",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20²"
+   },
+   "answer": "400",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "471 + 480"
+   },
+   "answer": "951",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "500 ÷ 20"
+   },
+   "answer": "25",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3³"
+   },
+   "answer": "27",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "310 + 140"
+   },
+   "answer": "450",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "612 − 130"
+   },
+   "answer": "482",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "432 ÷ 24"
+   },
+   "answer": "18",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "118 + 396"
+   },
+   "answer": "514",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "608 − 194"
+   },
+   "answer": "414",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "17 × 19"
+   },
+   "answer": "323",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "19²"
+   },
+   "answer": "361",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "336 + 122"
+   },
+   "answer": "458",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 × 13"
+   },
+   "answer": "260",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "414 ÷ 18"
+   },
+   "answer": "23",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "349 − 254"
+   },
+   "answer": "95",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "13²"
+   },
+   "answer": "169",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25 × 19"
+   },
+   "answer": "475",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "704 − 236"
+   },
+   "answer": "468",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "488 + 254"
+   },
+   "answer": "742",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "40 + 16 + 10"
+   },
+   "answer": "66",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "13 × 17"
+   },
+   "answer": "221",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "308 ÷ 22"
+   },
+   "answer": "14",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "37 + 49 + 34"
+   },
+   "answer": "120",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5³"
+   },
+   "answer": "125",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "454 − 186"
+   },
+   "answer": "268",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "933 − 107"
+   },
+   "answer": "826",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "15 × 13"
+   },
+   "answer": "195",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "17 × 18"
+   },
+   "answer": "306",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "8³"
+   },
+   "answer": "512",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "53 + 34 + 49"
+   },
+   "answer": "136",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "723 − 232"
+   },
+   "answer": "491",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "462 ÷ 21"
+   },
+   "answer": "22",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "456 ÷ 24"
+   },
+   "answer": "19",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "44 × 25"
+   },
+   "answer": "1 100",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16³"
+   },
+   "answer": "4 096",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "648 ÷ 27"
+   },
+   "answer": "24",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "103 + 125 + 217"
+   },
+   "answer": "445",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "34²"
+   },
+   "answer": "1 156",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "1440 ÷ 32"
+   },
+   "answer": "45",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "1372 ÷ 28"
+   },
+   "answer": "49",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "260 + 212 + 227"
+   },
+   "answer": "699",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "31²"
+   },
+   "answer": "961",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "2488 − 919"
+   },
+   "answer": "1 569",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "19³"
+   },
+   "answer": "6 859",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "1280 − 536"
+   },
+   "answer": "744",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "726 + 688"
+   },
+   "answer": "1 414",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "32²"
+   },
+   "answer": "1 024",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "24²"
+   },
+   "answer": "576",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "48 × 21"
+   },
+   "answer": "1 008",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3943 − 584"
+   },
+   "answer": "3 359",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "39 × 45"
+   },
+   "answer": "1 755",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "22 × 35"
+   },
+   "answer": "770",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "805 + 674"
+   },
+   "answer": "1 479",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "1394 ÷ 34"
+   },
+   "answer": "41",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "28²"
+   },
+   "answer": "784",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3144 − 667"
+   },
+   "answer": "2 477",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "21²"
+   },
+   "answer": "441",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3722 − 774"
+   },
+   "answer": "2 948",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "29 × 21"
+   },
+   "answer": "609",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "22²"
+   },
+   "answer": "484",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "814 + 977"
+   },
+   "answer": "1 791",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25²"
+   },
+   "answer": "625",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4818 − 516"
+   },
+   "answer": "4 302",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "17³"
+   },
+   "answer": "4 913",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "10 % de 50"
+   },
+   "answer": "5",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 % de 500"
+   },
+   "answer": "100",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25 % de 500"
+   },
+   "answer": "125",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 % de 400"
+   },
+   "answer": "80",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 % de 50"
+   },
+   "answer": "10",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 % de 300"
+   },
+   "answer": "150",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 % de 50"
+   },
+   "answer": "25",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 % de 100"
+   },
+   "answer": "20",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 % de 1000"
+   },
+   "answer": "500",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 % de 200"
+   },
+   "answer": "100",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "10 % de 400"
+   },
+   "answer": "40",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25 % de 400"
+   },
+   "answer": "100",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 % de 750"
+   },
+   "answer": "450",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 % de 360"
+   },
+   "answer": "216",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 % de 120"
+   },
+   "answer": "6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 % de 640"
+   },
+   "answer": "192",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 % de 640"
+   },
+   "answer": "32",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 % de 360"
+   },
+   "answer": "108",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 % de 750"
+   },
+   "answer": "225",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "40 % de 640"
+   },
+   "answer": "256",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "85 % de 2400"
+   },
+   "answer": "2 040",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "45 % de 2400"
+   },
+   "answer": "1 080",
+   "level": "impossible"
+  }
+ ]
+}

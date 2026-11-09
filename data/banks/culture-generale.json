@@ -1,0 +1,7948 @@
+{
+ "question": "",
+ "hook": "{n} QUESTIONS de CULTURE GÉNÉRALE",
+ "emoji": "🧠📚✅",
+ "slug": "culture-generale",
+ "noun": "QUESTIONS",
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "tags": [
+  "culture générale",
+  "quiz culture générale",
+  "test de connaissances"
+ ],
+ "subject": "CULTURE GÉNÉRALE",
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Australie ?",
+    "choices": [
+     "Melbourne",
+     "Perth",
+     "Canberra",
+     "Sydney"
+    ],
+    "correct": 2
+   },
+   "answer": "Canberra",
+   "level": "facile",
+   "fact": "Canberra a été choisie en 1908 pour mettre fin à la rivalité entre Sydney et Melbourne."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de côtés a un hexagone ?",
+    "choices": [
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "correct": 1
+   },
+   "answer": "6",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand océan du monde ?",
+    "choices": [
+     "L'Arctique",
+     "L'Atlantique",
+     "L'océan Indien",
+     "Le Pacifique"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Pacifique",
+   "level": "facile",
+   "fact": "Le Pacifique couvre à lui seul un tiers de la surface de la Terre."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fleuve traverse Paris ?",
+    "choices": [
+     "La Loire",
+     "La Seine",
+     "La Garonne",
+     "Le Rhône"
+    ],
+    "correct": 1
+   },
+   "answer": "La Seine",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est la plus proche du Soleil ?",
+    "choices": [
+     "Vénus",
+     "Jupiter",
+     "Mercure",
+     "Mars"
+    ],
+    "correct": 2
+   },
+   "answer": "Mercure",
+   "level": "facile",
+   "fact": "Mercure met seulement 88 jours pour faire le tour du Soleil."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint la Joconde ?",
+    "choices": [
+     "Léonard de Vinci",
+     "Raphaël",
+     "Rembrandt",
+     "Michel-Ange"
+    ],
+    "correct": 0
+   },
+   "answer": "Léonard de Vinci",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?",
+    "choices": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "correct": 2
+   },
+   "answer": "11",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand animal du monde ?",
+    "choices": [
+     "La girafe",
+     "La baleine bleue",
+     "L'éléphant d'Afrique",
+     "Le requin-baleine"
+    ],
+    "correct": 1
+   },
+   "answer": "La baleine bleue",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Espagne ?",
+    "choices": [
+     "Barcelone",
+     "Valence",
+     "Madrid",
+     "Séville"
+    ],
+    "correct": 2
+   },
+   "answer": "Madrid",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+    "choices": [
+     "Le vert",
+     "Le violet",
+     "Le orange",
+     "Le marron"
+    ],
+    "correct": 0
+   },
+   "answer": "Le vert",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jours compte une année bissextile ?",
+    "choices": [
+     "364",
+     "365",
+     "366",
+     "367"
+    ],
+    "correct": 2
+   },
+   "answer": "366",
+   "level": "facile",
+   "fact": "Le 29 février n'existe que les années bissextiles, c'est-à-dire en général tous les quatre ans."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel gaz respirons-nous pour vivre ?",
+    "choices": [
+     "L'hélium",
+     "L'oxygène",
+     "Le gaz carbonique",
+     "L'hydrogène"
+    ],
+    "correct": 1
+   },
+   "answer": "L'oxygène",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus haut sommet de France ?",
+    "choices": [
+     "Le Pic du Midi",
+     "Le Puy de Dôme",
+     "Le mont Blanc",
+     "Le mont Ventoux"
+    ],
+    "correct": 2
+   },
+   "answer": "Le mont Blanc",
+   "level": "facile",
+   "fact": "Le sommet du mont Blanc est couvert de neige et de glace, donc sa hauteur change un peu d'une mesure à l'autre."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi de France était surnommé le Roi-Soleil ?",
+    "choices": [
+     "Louis XIV",
+     "Louis XVI",
+     "Louis XIII",
+     "Henri IV"
+    ],
+    "correct": 0
+   },
+   "answer": "Louis XIV",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fruit est l'ingrédient principal du guacamole ?",
+    "choices": [
+     "Le citron vert",
+     "La banane",
+     "La tomate",
+     "L'avocat"
+    ],
+    "correct": 3
+   },
+   "answer": "L'avocat",
+   "level": "facile",
+   "fact": "L'avocat est un fruit et non un légume, même si on le mange le plus souvent salé."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de cordes possède une guitare classique ?",
+    "choices": [
+     "4",
+     "5",
+     "6",
+     "8"
+    ],
+    "correct": 2
+   },
+   "answer": "6",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle langue parle-t-on au Brésil ?",
+    "choices": [
+     "Le brésilien",
+     "L'anglais",
+     "Le portugais",
+     "L'espagnol"
+    ],
+    "correct": 2
+   },
+   "answer": "Le portugais",
+   "level": "facile",
+   "fact": "Le Brésil est le seul grand pays d'Amérique du Sud où l'on parle portugais."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel organe pompe le sang dans notre corps ?",
+    "choices": [
+     "Le cœur",
+     "Les poumons",
+     "Le foie",
+     "L'estomac"
+    ],
+    "correct": 0
+   },
+   "answer": "Le cœur",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle saison voit tomber les feuilles des arbres ?",
+    "choices": [
+     "L'hiver",
+     "Le printemps",
+     "L'été",
+     "L'automne"
+    ],
+    "correct": 3
+   },
+   "answer": "L'automne",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays a la forme d'une botte sur la carte ?",
+    "choices": [
+     "Le Portugal",
+     "L'Italie",
+     "L'Espagne",
+     "La Grèce"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Italie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand désert chaud du monde ?",
+    "choices": [
+     "Le Kalahari",
+     "Le Gobi",
+     "Le Sahara",
+     "Le désert d'Arabie"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Sahara",
+   "level": "facile",
+   "fact": "Le Sahara s'étend sur plusieurs pays d'Afrique, de l'océan Atlantique jusqu'à la mer Rouge."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de minutes dure une heure et demie ?",
+    "choices": [
+     "60",
+     "80",
+     "90",
+     "100"
+    ],
+    "correct": 2
+   },
+   "answer": "90",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Les Misérables » ?",
+    "choices": [
+     "Émile Zola",
+     "Molière",
+     "Alexandre Dumas",
+     "Victor Hugo"
+    ],
+    "correct": 3
+   },
+   "answer": "Victor Hugo",
+   "level": "facile",
+   "fact": "Victor Hugo a écrit une grande partie des Misérables pendant son exil, le roman est publié en 1862."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel instrument a des touches blanches et noires ?",
+    "choices": [
+     "Le violon",
+     "Le piano",
+     "La harpe",
+     "La flûte"
+    ],
+    "correct": 1
+   },
+   "answer": "Le piano",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel insecte fabrique le miel ?",
+    "choices": [
+     "La fourmi",
+     "La guêpe",
+     "L'abeille",
+     "Le bourdon"
+    ],
+    "correct": 2
+   },
+   "answer": "L'abeille",
+   "level": "facile",
+   "fact": "Une abeille ouvrière produit moins d'une cuillère à café de miel dans toute sa vie."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que commémore le 14 juillet en France ?",
+    "choices": [
+     "La prise de la Bastille",
+     "Le couronnement de Napoléon",
+     "La fin de la guerre",
+     "La naissance de Louis XIV"
+    ],
+    "correct": 0
+   },
+   "answer": "La prise de la Bastille",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle ville se trouve le Colisée ?",
+    "choices": [
+     "Athènes",
+     "Paris",
+     "Naples",
+     "Rome"
+    ],
+    "correct": 3
+   },
+   "answer": "Rome",
+   "level": "facile",
+   "fact": "Le Colisée de Rome pouvait accueillir environ 50 000 spectateurs."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la formule chimique de l'eau ?",
+    "choices": [
+     "NaCl",
+     "H2O",
+     "O2",
+     "CO2"
+    ],
+    "correct": 1
+   },
+   "answer": "H2O",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est l'animal terrestre le plus rapide ?",
+    "choices": [
+     "Le cheval",
+     "Le lion",
+     "Le guépard",
+     "L'antilope"
+    ],
+    "correct": 2
+   },
+   "answer": "Le guépard",
+   "level": "facile",
+   "fact": "Le guépard dépasse les 100 km/h, mais seulement sur de courtes distances."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sport se joue à Roland-Garros ?",
+    "choices": [
+     "Le tennis",
+     "Le cyclisme",
+     "Le rugby",
+     "Le golf"
+    ],
+    "correct": 0
+   },
+   "answer": "Le tennis",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Canada ?",
+    "choices": [
+     "Vancouver",
+     "Montréal",
+     "Toronto",
+     "Ottawa"
+    ],
+    "correct": 3
+   },
+   "answer": "Ottawa",
+   "level": "moyen",
+   "fact": "Ottawa a été choisie comme capitale du Canada par la reine Victoria en 1857."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel navigateur atteint les Antilles en 1492 ?",
+    "choices": [
+     "Magellan",
+     "Christophe Colomb",
+     "Vasco de Gama",
+     "Jacques Cartier"
+    ],
+    "correct": 1
+   },
+   "answer": "Christophe Colomb",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus long fleuve de France ?",
+    "choices": [
+     "Le Rhône",
+     "La Seine",
+     "La Loire",
+     "La Garonne"
+    ],
+    "correct": 2
+   },
+   "answer": "La Loire",
+   "level": "moyen",
+   "fact": "La Loire est le plus long fleuve de France, avec environ 1 000 kilomètres."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de dents possède un adulte, dents de sagesse comprises ?",
+    "choices": [
+     "28",
+     "30",
+     "32",
+     "36"
+    ],
+    "correct": 2
+   },
+   "answer": "32",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Le Petit Prince » ?",
+    "choices": [
+     "Jules Verne",
+     "Albert Camus",
+     "Marcel Pagnol",
+     "Antoine de Saint-Exupéry"
+    ],
+    "correct": 3
+   },
+   "answer": "Antoine de Saint-Exupéry",
+   "level": "moyen",
+   "fact": "Le Petit Prince est l'un des livres les plus traduits au monde, en plus de 300 langues et dialectes."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand pays du monde par sa superficie ?",
+    "choices": [
+     "Le Canada",
+     "La Russie",
+     "La Chine",
+     "Les États-Unis"
+    ],
+    "correct": 1
+   },
+   "answer": "La Russie",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est surnommée la planète rouge ?",
+    "choices": [
+     "Vénus",
+     "Jupiter",
+     "Mars",
+     "Mercure"
+    ],
+    "correct": 2
+   },
+   "answer": "Mars",
+   "level": "moyen",
+   "fact": "Mars est rouge à cause de la rouille, de l'oxyde de fer, présent dans son sol."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « La Nuit étoilée » ?",
+    "choices": [
+     "Vincent van Gogh",
+     "Paul Cézanne",
+     "Claude Monet",
+     "Pablo Picasso"
+    ],
+    "correct": 0
+   },
+   "answer": "Vincent van Gogh",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs une équipe de basket aligne-t-elle sur le terrain ?",
+    "choices": [
+     "5",
+     "6",
+     "7",
+     "11"
+    ],
+    "correct": 0
+   },
+   "answer": "5",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle bataille de 1815 marque la défaite finale de Napoléon ?",
+    "choices": [
+     "Verdun",
+     "Waterloo",
+     "Austerlitz",
+     "Trafalgar"
+    ],
+    "correct": 1
+   },
+   "answer": "Waterloo",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand os du corps humain ?",
+    "choices": [
+     "Le tibia",
+     "L'humérus",
+     "Le fémur",
+     "Le bassin"
+    ],
+    "correct": 2
+   },
+   "answer": "Le fémur",
+   "level": "moyen",
+   "fact": "Le fémur, l'os de la cuisse, représente environ le quart de la taille d'une personne."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouve la ville de Marrakech ?",
+    "choices": [
+     "Le Maroc",
+     "L'Algérie",
+     "La Tunisie",
+     "L'Égypte"
+    ],
+    "correct": 0
+   },
+   "answer": "Le Maroc",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel compositeur a écrit « Les Quatre Saisons » ?",
+    "choices": [
+     "Mozart",
+     "Chopin",
+     "Bach",
+     "Vivaldi"
+    ],
+    "correct": 3
+   },
+   "answer": "Vivaldi",
+   "level": "moyen",
+   "fact": "Vivaldi était surnommé le « prêtre roux » à cause de la couleur de ses cheveux."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mot est un synonyme de « bavard » ?",
+    "choices": [
+     "Laconique",
+     "Loquace",
+     "Réservé",
+     "Taciturne"
+    ],
+    "correct": 1
+   },
+   "answer": "Loquace",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est l'ingrédient principal de l'houmous ?",
+    "choices": [
+     "Les haricots blancs",
+     "Les lentilles",
+     "Les pois chiches",
+     "Les aubergines"
+    ],
+    "correct": 2
+   },
+   "answer": "Les pois chiches",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de pattes a une araignée ?",
+    "choices": [
+     "6",
+     "8",
+     "10",
+     "12"
+    ],
+    "correct": 1
+   },
+   "answer": "8",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit pays du monde ?",
+    "choices": [
+     "Le Liechtenstein",
+     "Saint-Marin",
+     "Monaco",
+     "Le Vatican"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Vatican",
+   "level": "moyen",
+   "fact": "Le Vatican fait moins d'un kilomètre carré : on le traverse à pied en quelques minutes."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Turquie ?",
+    "choices": [
+     "Istanbul",
+     "Ankara",
+     "Antalya",
+     "Izmir"
+    ],
+    "correct": 1
+   },
+   "answer": "Ankara",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Le Rouge et le Noir » ?",
+    "choices": [
+     "Flaubert",
+     "Balzac",
+     "Stendhal",
+     "Zola"
+    ],
+    "correct": 2
+   },
+   "answer": "Stendhal",
+   "level": "moyen",
+   "fact": "Stendhal est le pseudonyme d'Henri Beyle, qui l'a emprunté à une ville allemande, Stendal."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de points vaut un essai au rugby à XV ?",
+    "choices": [
+     "3",
+     "4",
+     "5",
+     "7"
+    ],
+    "correct": 2
+   },
+   "answer": "5",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique du fer ?",
+    "choices": [
+     "Fi",
+     "F",
+     "Fr",
+     "Fe"
+    ],
+    "correct": 3
+   },
+   "answer": "Fe",
+   "level": "moyen",
+   "fact": "Le symbole Fe vient du mot latin « ferrum », qui veut dire fer."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi de France est guillotiné en 1793 ?",
+    "choices": [
+     "Louis XIV",
+     "Louis XVI",
+     "Charles X",
+     "Louis XV"
+    ],
+    "correct": 1
+   },
+   "answer": "Louis XVI",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quels organes filtrent le sang pour fabriquer l'urine ?",
+    "choices": [
+     "Le foie",
+     "Les poumons",
+     "Les reins",
+     "La rate"
+    ],
+    "correct": 2
+   },
+   "answer": "Les reins",
+   "level": "moyen",
+   "fact": "On a deux reins, mais on peut vivre très bien avec un seul."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel océan borde la côte ouest de la France ?",
+    "choices": [
+     "L'Atlantique",
+     "L'océan Indien",
+     "L'Arctique",
+     "Le Pacifique"
+    ],
+    "correct": 0
+   },
+   "answer": "L'Atlantique",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel musée parisien est exposée la Joconde ?",
+    "choices": [
+     "Le Centre Pompidou",
+     "Le Grand Palais",
+     "Le musée d'Orsay",
+     "Le Louvre"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Louvre",
+   "level": "moyen",
+   "fact": "Le Louvre a d'abord été une forteresse, puis un palais royal, avant de devenir un musée."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Les Nymphéas » ?",
+    "choices": [
+     "Auguste Renoir",
+     "Claude Monet",
+     "Édouard Manet",
+     "Edgar Degas"
+    ],
+    "correct": 1
+   },
+   "answer": "Claude Monet",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la Révolution française commence-t-elle ?",
+    "choices": [
+     "1715",
+     "1789",
+     "1804",
+     "1848"
+    ],
+    "correct": 1
+   },
+   "answer": "1789",
+   "level": "moyen",
+   "fact": "Le 14 juillet 1789, les Parisiens prennent la Bastille, une ancienne forteresse devenue prison."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville est surnommée la « Ville éternelle » ?",
+    "choices": [
+     "Rome",
+     "Athènes",
+     "Paris",
+     "Jérusalem"
+    ],
+    "correct": 0
+   },
+   "answer": "Rome",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand mammifère terrestre ?",
+    "choices": [
+     "Le rhinocéros",
+     "L'hippopotame",
+     "La girafe",
+     "L'éléphant d'Afrique"
+    ],
+    "correct": 3
+   },
+   "answer": "L'éléphant d'Afrique",
+   "level": "moyen",
+   "fact": "Un éléphant d'Afrique peut peser jusqu'à 6 tonnes, autant que plusieurs voitures."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville est la capitale du Portugal ?",
+    "choices": [
+     "Porto",
+     "Lisbonne",
+     "Faro",
+     "Madrid"
+    ],
+    "correct": 1
+   },
+   "answer": "Lisbonne",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "choices": [
+     "Christchurch",
+     "Auckland",
+     "Wellington",
+     "Queenstown"
+    ],
+    "correct": 2
+   },
+   "answer": "Wellington",
+   "level": "difficile",
+   "fact": "Wellington est la capitale nationale la plus au sud du monde."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fleuve traverse Budapest ?",
+    "choices": [
+     "Le Danube",
+     "L'Elbe",
+     "Le Rhin",
+     "La Vistule"
+    ],
+    "correct": 0
+   },
+   "answer": "Le Danube",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Madame Bovary » ?",
+    "choices": [
+     "Stendhal",
+     "Honoré de Balzac",
+     "Guy de Maupassant",
+     "Gustave Flaubert"
+    ],
+    "correct": 3
+   },
+   "answer": "Gustave Flaubert",
+   "level": "difficile",
+   "fact": "Flaubert a mis environ cinq ans pour écrire « Madame Bovary »."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel métal est liquide à température ambiante ?",
+    "choices": [
+     "Le zinc",
+     "Le mercure",
+     "Le plomb",
+     "L'étain"
+    ],
+    "correct": 1
+   },
+   "answer": "Le mercure",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel traité de 1919 met fin à la Première Guerre mondiale avec l'Allemagne ?",
+    "choices": [
+     "Le traité de Rome",
+     "Le traité de Paris",
+     "Le traité de Versailles",
+     "Le traité de Vienne"
+    ],
+    "correct": 2
+   },
+   "answer": "Le traité de Versailles",
+   "level": "difficile",
+   "fact": "Le traité de Versailles a été signé dans la galerie des Glaces, le 28 juin 1919."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de cœurs possède une pieuvre ?",
+    "choices": [
+     "1",
+     "2",
+     "3",
+     "8"
+    ],
+    "correct": 2
+   },
+   "answer": "3",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit os du corps humain ?",
+    "choices": [
+     "Le radius",
+     "Le marteau",
+     "Le cubitus",
+     "L'étrier"
+    ],
+    "correct": 3
+   },
+   "answer": "L'étrier",
+   "level": "difficile",
+   "fact": "L'étrier, un minuscule os de l'oreille, mesure environ trois millimètres."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé « Le Boléro » ?",
+    "choices": [
+     "Claude Debussy",
+     "Maurice Ravel",
+     "Erik Satie",
+     "Georges Bizet"
+    ],
+    "correct": 1
+   },
+   "answer": "Maurice Ravel",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Suisse ?",
+    "choices": [
+     "Zurich",
+     "Lausanne",
+     "Berne",
+     "Genève"
+    ],
+    "correct": 2
+   },
+   "answer": "Berne",
+   "level": "difficile",
+   "fact": "Berne n'est pas la plus grande ville de Suisse : Zurich compte plus d'habitants."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Kenya ?",
+    "choices": [
+     "Nairobi",
+     "Mombasa",
+     "Addis-Abeba",
+     "Kampala"
+    ],
+    "correct": 0
+   },
+   "answer": "Nairobi",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
+    "choices": [
+     "L'argon",
+     "Le gaz carbonique",
+     "L'oxygène",
+     "L'azote"
+    ],
+    "correct": 3
+   },
+   "answer": "L'azote",
+   "level": "difficile",
+   "fact": "L'azote forme environ 78 % de l'air que nous respirons."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Guernica » ?",
+    "choices": [
+     "Francisco de Goya",
+     "Pablo Picasso",
+     "Salvador Dalí",
+     "Joan Miró"
+    ],
+    "correct": 1
+   },
+   "answer": "Pablo Picasso",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un mot de sens contraire à un autre ?",
+    "choices": [
+     "Un homonyme",
+     "Un paronyme",
+     "Un antonyme",
+     "Un synonyme"
+    ],
+    "correct": 2
+   },
+   "answer": "Un antonyme",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle unité mesure-t-on une force ?",
+    "choices": [
+     "Le newton",
+     "Le watt",
+     "Le joule",
+     "Le pascal"
+    ],
+    "correct": 0
+   },
+   "answer": "Le newton",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel détroit sépare l'Espagne du Maroc ?",
+    "choices": [
+     "Le détroit de Magellan",
+     "Le détroit de Messine",
+     "Le détroit du Bosphore",
+     "Le détroit de Gibraltar"
+    ],
+    "correct": 3
+   },
+   "answer": "Le détroit de Gibraltar",
+   "level": "difficile",
+   "fact": "Au plus étroit, le détroit de Gibraltar mesure environ 14 kilomètres de large."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi franc est baptisé à Reims vers 496 ?",
+    "choices": [
+     "Pépin le Bref",
+     "Clovis",
+     "Dagobert",
+     "Charlemagne"
+    ],
+    "correct": 1
+   },
+   "answer": "Clovis",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle épice est la plus chère du monde au poids ?",
+    "choices": [
+     "Le poivre",
+     "La cannelle",
+     "Le safran",
+     "La vanille"
+    ],
+    "correct": 2
+   },
+   "answer": "Le safran",
+   "level": "difficile",
+   "fact": "Le safran vient d'une petite fleur, le crocus, et se récolte à la main."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle ville ont lieu les premiers Jeux olympiques modernes en 1896 ?",
+    "choices": [
+     "Athènes",
+     "Rome",
+     "Paris",
+     "Londres"
+    ],
+    "correct": 0
+   },
+   "answer": "Athènes",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « œil » ?",
+    "choices": [
+     "Des yeuxs",
+     "Des œils",
+     "Des œuils",
+     "Des yeux"
+    ],
+    "correct": 3
+   },
+   "answer": "Des yeux",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le seul mammifère capable de voler vraiment ?",
+    "choices": [
+     "Le lémurien",
+     "La chauve-souris",
+     "L'écureuil volant",
+     "Le colugo"
+    ],
+    "correct": 1
+   },
+   "answer": "La chauve-souris",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle vitamine notre peau fabrique-t-elle grâce au soleil ?",
+    "choices": [
+     "La vitamine A",
+     "La vitamine C",
+     "La vitamine D",
+     "La vitamine B12"
+    ],
+    "correct": 2
+   },
+   "answer": "La vitamine D",
+   "level": "difficile",
+   "fact": "Exposer son visage et ses mains au soleil aide la peau à fabriquer la vitamine D."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sculpteur a créé « Le Penseur » ?",
+    "choices": [
+     "Auguste Rodin",
+     "Camille Claudel",
+     "Constantin Brâncuși",
+     "Aristide Maillol"
+    ],
+    "correct": 0
+   },
+   "answer": "Auguste Rodin",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Par quel pays passe l'équateur ?",
+    "choices": [
+     "Le Mexique",
+     "L'Égypte",
+     "L'Inde",
+     "Le Brésil"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Brésil",
+   "level": "difficile",
+   "fact": "Le pays appelé Équateur doit son nom à la ligne imaginaire qui le traverse."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année commence la Première Guerre mondiale ?",
+    "choices": [
+     "1905",
+     "1914",
+     "1918",
+     "1939"
+    ],
+    "correct": 1
+   },
+   "answer": "1914",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+    "choices": [
+     "3 millions km/s",
+     "3 000 km/s",
+     "300 000 km/s",
+     "30 000 km/s"
+    ],
+    "correct": 2
+   },
+   "answer": "300 000 km/s",
+   "level": "difficile",
+   "fact": "La lumière du Soleil met environ 8 minutes pour arriver jusqu'à la Terre."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui est le premier président de la Ve République ?",
+    "choices": [
+     "Charles de Gaulle",
+     "René Coty",
+     "Georges Pompidou",
+     "Vincent Auriol"
+    ],
+    "correct": 0
+   },
+   "answer": "Charles de Gaulle",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Les Fleurs du mal » ?",
+    "choices": [
+     "Arthur Rimbaud",
+     "Paul Verlaine",
+     "Victor Hugo",
+     "Charles Baudelaire"
+    ],
+    "correct": 3
+   },
+   "answer": "Charles Baudelaire",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Autriche ?",
+    "choices": [
+     "Salzbourg",
+     "Vienne",
+     "Berlin",
+     "Budapest"
+    ],
+    "correct": 1
+   },
+   "answer": "Vienne",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de cavités (chambres) compte le cœur humain ?",
+    "choices": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ],
+    "correct": 2
+   },
+   "answer": "4",
+   "level": "difficile",
+   "fact": "Le cœur bat environ 100 000 fois par jour sans jamais se reposer."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fromage français est un bleu fabriqué avec du lait de brebis ?",
+    "choices": [
+     "Le roquefort",
+     "Le comté",
+     "Le reblochon",
+     "Le brie"
+    ],
+    "correct": 0
+   },
+   "answer": "Le roquefort",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Burkina Faso ?",
+    "choices": [
+     "Bamako",
+     "Dakar",
+     "Niamey",
+     "Ouagadougou"
+    ],
+    "correct": 3
+   },
+   "answer": "Ouagadougou",
+   "level": "impossible",
+   "fact": "Burkina Faso signifie à peu près « le pays des hommes intègres »."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel élément chimique a pour symbole W ?",
+    "choices": [
+     "Le tantale",
+     "Le tungstène",
+     "Le vanadium",
+     "Le titane"
+    ],
+    "correct": 1
+   },
+   "answer": "Le tungstène",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le lac le plus profond du monde ?",
+    "choices": [
+     "Le Tanganyika",
+     "Le lac Victoria",
+     "Le Baïkal",
+     "Le lac Supérieur"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Baïkal",
+   "level": "impossible",
+   "fact": "Le lac Baïkal contient environ un cinquième de l'eau douce liquide de la planète."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit la nouvelle « Le Horla » ?",
+    "choices": [
+     "Guy de Maupassant",
+     "Émile Zola",
+     "Prosper Mérimée",
+     "Alphonse Daudet"
+    ],
+    "correct": 0
+   },
+   "answer": "Guy de Maupassant",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Mongolie ?",
+    "choices": [
+     "Tachkent",
+     "Bichkek",
+     "Astana",
+     "Oulan-Bator"
+    ],
+    "correct": 3
+   },
+   "answer": "Oulan-Bator",
+   "level": "impossible",
+   "fact": "Oulan-Bator est souvent citée comme la capitale la plus froide du monde."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Bhoutan ?",
+    "choices": [
+     "Vientiane",
+     "Thimphou",
+     "Dacca",
+     "Katmandou"
+    ],
+    "correct": 1
+   },
+   "answer": "Thimphou",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand pays d'Afrique par sa superficie ?",
+    "choices": [
+     "La République démocratique du Congo",
+     "Le Soudan",
+     "L'Algérie",
+     "La Libye"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Algérie",
+   "level": "impossible",
+   "fact": "L'Algérie est le plus grand pays d'Afrique depuis la séparation du Soudan en 2011."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année Napoléon est-il sacré empereur ?",
+    "choices": [
+     "1799",
+     "1804",
+     "1810",
+     "1815"
+    ],
+    "correct": 1
+   },
+   "answer": "1804",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi règne sur la France de 1830 à 1848 ?",
+    "choices": [
+     "Charles X",
+     "Louis XVIII",
+     "Napoléon III",
+     "Louis-Philippe Ier"
+    ],
+    "correct": 3
+   },
+   "answer": "Louis-Philippe Ier",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle bataille de 1805 est surnommée « bataille des Trois Empereurs » ?",
+    "choices": [
+     "Wagram",
+     "Austerlitz",
+     "Friedland",
+     "Iéna"
+    ],
+    "correct": 1
+   },
+   "answer": "Austerlitz",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le numéro atomique du carbone ?",
+    "choices": [
+     "4",
+     "6",
+     "8",
+     "12"
+    ],
+    "correct": 1
+   },
+   "answer": "6",
+   "level": "impossible",
+   "fact": "Le carbone est la base de tous les êtres vivants connus sur Terre."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel os forme le talon ?",
+    "choices": [
+     "Le calcanéum",
+     "Le péroné",
+     "Le métatarse",
+     "Le talus"
+    ],
+    "correct": 0
+   },
+   "answer": "Le calcanéum",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de paires de côtes compte le squelette humain ?",
+    "choices": [
+     "10",
+     "11",
+     "12",
+     "14"
+    ],
+    "correct": 2
+   },
+   "answer": "12",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le seul oiseau capable de voler en arrière ?",
+    "choices": [
+     "L'hirondelle",
+     "Le colibri",
+     "Le rouge-gorge",
+     "Le martin-pêcheur"
+    ],
+    "correct": 1
+   },
+   "answer": "Le colibri",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Le Radeau de la Méduse » ?",
+    "choices": [
+     "Jean-Auguste-Dominique Ingres",
+     "Eugène Delacroix",
+     "Théodore Géricault",
+     "Gustave Courbet"
+    ],
+    "correct": 2
+   },
+   "answer": "Théodore Géricault",
+   "level": "impossible",
+   "fact": "Le Radeau de la Méduse s'inspire d'un vrai naufrage survenu en 1816."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé « Les Noces de Figaro » ?",
+    "choices": [
+     "Mozart",
+     "Rossini",
+     "Haydn",
+     "Verdi"
+    ],
+    "correct": 0
+   },
+   "answer": "Mozart",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on la figure de style qui consiste à exagérer ?",
+    "choices": [
+     "La litote",
+     "L'euphémisme",
+     "L'antithèse",
+     "L'hyperbole"
+    ],
+    "correct": 3
+   },
+   "answer": "L'hyperbole",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville est le berceau de la bouillabaisse ?",
+    "choices": [
+     "Nice",
+     "Marseille",
+     "Toulon",
+     "Perpignan"
+    ],
+    "correct": 1
+   },
+   "answer": "Marseille",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays organise la première Coupe du monde de football en 1930 ?",
+    "choices": [
+     "L'Italie",
+     "L'Argentine",
+     "L'Uruguay",
+     "Le Brésil"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Uruguay",
+   "level": "impossible",
+   "fact": "Pour la première Coupe du monde en 1930, les équipes d'Europe ont traversé l'océan en bateau."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la longueur officielle d'un marathon ?",
+    "choices": [
+     "42,195 km",
+     "40 km",
+     "45 km",
+     "41,5 km"
+    ],
+    "correct": 0
+   },
+   "answer": "42,195 km",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur quelle planète un jour dure plus longtemps qu'une année ?",
+    "choices": [
+     "Mercure",
+     "Mars",
+     "Saturne",
+     "Vénus"
+    ],
+    "correct": 3
+   },
+   "answer": "Vénus",
+   "level": "impossible",
+   "fact": "Vénus tourne si lentement sur elle-même qu'un seul de ses jours dure environ 243 jours terrestres."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui découvre la pénicilline en 1928 ?",
+    "choices": [
+     "Robert Koch",
+     "Alexander Fleming",
+     "Marie Curie",
+     "Louis Pasteur"
+    ],
+    "correct": 1
+   },
+   "answer": "Alexander Fleming",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand désert du monde, tous types confondus ?",
+    "choices": [
+     "Le désert de Gobi",
+     "L'Arctique",
+     "L'Antarctique",
+     "Le Sahara"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Antarctique",
+   "level": "impossible",
+   "fact": "L'Antarctique est un désert car il y tombe très peu de pluie et de neige."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus haut sommet du Massif central ?",
+    "choices": [
+     "Le Puy de Sancy",
+     "Le mont Lozère",
+     "Le Plomb du Cantal",
+     "Le Puy de Dôme"
+    ],
+    "correct": 0
+   },
+   "answer": "Le Puy de Sancy",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouve la ville de Tombouctou ?",
+    "choices": [
+     "La Mauritanie",
+     "Le Sénégal",
+     "Le Niger",
+     "Le Mali"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Mali",
+   "level": "impossible",
+   "fact": "Tombouctou fut un grand centre de commerce et de savoir, célèbre pour ses manuscrits anciens."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Germinal » ?",
+    "choices": [
+     "Victor Hugo",
+     "Émile Zola",
+     "Alphonse Daudet",
+     "Honoré de Balzac"
+    ],
+    "correct": 1
+   },
+   "answer": "Émile Zola",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi de France signe l'édit de Nantes en 1598 ?",
+    "choices": [
+     "Henri III",
+     "Louis XIII",
+     "Henri IV",
+     "François Ier"
+    ],
+    "correct": 2
+   },
+   "answer": "Henri IV",
+   "level": "impossible",
+   "fact": "L'édit de Nantes, signé en 1598, met fin aux guerres de Religion en France."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le métal le moins dense, donc le plus léger ?",
+    "choices": [
+     "Le lithium",
+     "L'aluminium",
+     "Le sodium",
+     "Le magnésium"
+    ],
+    "correct": 0
+   },
+   "answer": "Le lithium",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel détroit sépare l'Asie de l'Amérique du Nord ?",
+    "choices": [
+     "Le détroit de Malacca",
+     "Le détroit de Davis",
+     "Le détroit d'Ormuz",
+     "Le détroit de Béring"
+    ],
+    "correct": 3
+   },
+   "answer": "Le détroit de Béring",
+   "level": "impossible",
+   "fact": "Le détroit de Béring porte le nom de Vitus Béring, un explorateur danois."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel philosophe a écrit « Le Contrat social » ?",
+    "choices": [
+     "Montesquieu",
+     "Jean-Jacques Rousseau",
+     "Voltaire",
+     "Diderot"
+    ],
+    "correct": 1
+   },
+   "answer": "Jean-Jacques Rousseau",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pays dont Lima est la capitale ?",
+    "choices": [
+     "Le Chili",
+     "Le Pérou",
+     "La Bolivie",
+     "La Colombie"
+    ],
+    "correct": 1
+   },
+   "answer": "Le Pérou",
+   "level": "moyen",
+   "fact": "Au Pérou se trouve le Machu Picchu, une cité construite par les Incas."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand lac d'Afrique ?",
+    "choices": [
+     "Le lac Tchad",
+     "Le lac Victoria",
+     "Le lac Malawi",
+     "Le lac Nasser"
+    ],
+    "correct": 1
+   },
+   "answer": "Le lac Victoria",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Candide » ?",
+    "choices": [
+     "Diderot",
+     "Voltaire",
+     "Montesquieu",
+     "Rousseau"
+    ],
+    "correct": 1
+   },
+   "answer": "Voltaire",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel organe fabrique l'insuline ?",
+    "choices": [
+     "Le foie",
+     "La rate",
+     "L'estomac",
+     "Le pancréas"
+    ],
+    "correct": 3
+   },
+   "answer": "Le pancréas",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de roues a un tricycle ?",
+    "choices": [
+     "3",
+     "2",
+     "4",
+     "6"
+    ],
+    "correct": 0
+   },
+   "answer": "3",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le fruit du chêne ?",
+    "choices": [
+     "Le gland",
+     "La noix",
+     "La châtaigne",
+     "La pomme de pin"
+    ],
+    "correct": 0
+   },
+   "answer": "Le gland",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs compte une équipe de volley sur le terrain ?",
+    "choices": [
+     "5",
+     "7",
+     "6",
+     "8"
+    ],
+    "correct": 2
+   },
+   "answer": "6",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal nous donne la laine ?",
+    "choices": [
+     "La vache",
+     "Le mouton",
+     "Le cheval",
+     "Le cochon"
+    ],
+    "correct": 1
+   },
+   "answer": "Le mouton",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand continent du monde ?",
+    "choices": [
+     "L'Afrique",
+     "L'Europe",
+     "L'Asie",
+     "L'Amérique du Nord"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Asie",
+   "level": "facile",
+   "fact": "L'Asie abrite à elle seule près de 60 % des habitants de la planète."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de sets faut-il gagner en Grand Chelem masculin ?",
+    "choices": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "correct": 1
+   },
+   "answer": "3",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien y a-t-il de cases sur un échiquier ?",
+    "choices": [
+     "64",
+     "32",
+     "48",
+     "81"
+    ],
+    "correct": 0
+   },
+   "answer": "64",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel peintre a réalisé « La Jeune Fille à la perle » ?",
+    "choices": [
+     "Vermeer",
+     "Monet",
+     "Rubens",
+     "Van Gogh"
+    ],
+    "correct": 0
+   },
+   "answer": "Vermeer",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus petite planète du système solaire ?",
+    "choices": [
+     "Mercure",
+     "Mars",
+     "Vénus",
+     "Pluton"
+    ],
+    "correct": 0
+   },
+   "answer": "Mercure",
+   "level": "difficile",
+   "fact": "Mercure est la plus petite planète, mais elle est un peu plus grande que la Lune."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand pays d'Amérique du Sud ?",
+    "choices": [
+     "L'Argentine",
+     "Le Pérou",
+     "Le Brésil",
+     "La Colombie"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Brésil",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus grande lune de Jupiter ?",
+    "choices": [
+     "Ganymède",
+     "Io",
+     "Callisto",
+     "Europe"
+    ],
+    "correct": 0
+   },
+   "answer": "Ganymède",
+   "level": "impossible",
+   "fact": "Ganymède, la lune de Jupiter, est plus grosse que la planète Mercure."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Du côté de chez Swann » ?",
+    "choices": [
+     "André Gide",
+     "Louis Aragon",
+     "Marcel Proust",
+     "Albert Camus"
+    ],
+    "correct": 2
+   },
+   "answer": "Marcel Proust",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit le recueil « Les Contemplations » ?",
+    "choices": [
+     "Lamartine",
+     "Verlaine",
+     "Victor Hugo",
+     "Rimbaud"
+    ],
+    "correct": 2
+   },
+   "answer": "Victor Hugo",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le petit du chien ?",
+    "choices": [
+     "Le chiot",
+     "Le chaton",
+     "Le veau",
+     "L'agneau"
+    ],
+    "correct": 0
+   },
+   "answer": "Le chiot",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la hauteur d'un panier de basket ?",
+    "choices": [
+     "3,05 m",
+     "2,75 m",
+     "3,50 m",
+     "2,50 m"
+    ],
+    "correct": 0
+   },
+   "answer": "3,05 m",
+   "level": "difficile",
+   "fact": "Le panier de basket est à 3,05 m, ce qui correspond à 10 pieds."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien d'os compte le squelette d'un adulte ?",
+    "choices": [
+     "106",
+     "206",
+     "306",
+     "156"
+    ],
+    "correct": 1
+   },
+   "answer": "206",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouvent les pyramides de Gizeh ?",
+    "choices": [
+     "L'Égypte",
+     "Le Pérou",
+     "La Grèce",
+     "La Turquie"
+    ],
+    "correct": 0
+   },
+   "answer": "L'Égypte",
+   "level": "facile",
+   "fact": "La pyramide de Khéops est restée le plus haut monument du monde pendant plusieurs milliers d'années."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel courant artistique Claude Monet a-t-il illustré ?",
+    "choices": [
+     "L'impressionnisme",
+     "Le cubisme",
+     "Le surréalisme",
+     "Le fauvisme"
+    ],
+    "correct": 0
+   },
+   "answer": "L'impressionnisme",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Environ combien vaut le nombre d'or ?",
+    "choices": [
+     "3,14",
+     "2,718",
+     "1,414",
+     "1,618"
+    ],
+    "correct": 3
+   },
+   "answer": "1,618",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit pays d'Afrique par sa superficie ?",
+    "choices": [
+     "La Gambie",
+     "Djibouti",
+     "Maurice",
+     "Les Seychelles"
+    ],
+    "correct": 3
+   },
+   "answer": "Les Seychelles",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand lac d'eau douce par sa superficie ?",
+    "choices": [
+     "Le lac Supérieur",
+     "Le lac Victoria",
+     "Le Baïkal",
+     "Le lac Michigan"
+    ],
+    "correct": 0
+   },
+   "answer": "Le lac Supérieur",
+   "level": "difficile",
+   "fact": "Le lac Supérieur est situé entre le Canada et les États-Unis."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le contraire de « grand » ?",
+    "choices": [
+     "Large",
+     "Petit",
+     "Haut",
+     "Long"
+    ],
+    "correct": 1
+   },
+   "answer": "Petit",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus grande île du monde ?",
+    "choices": [
+     "Madagascar",
+     "Bornéo",
+     "Le Groenland",
+     "L'Islande"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Groenland",
+   "level": "moyen",
+   "fact": "Le Groenland est presque entièrement recouvert d'une immense calotte de glace."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé « La Flûte enchantée » ?",
+    "choices": [
+     "Mozart",
+     "Beethoven",
+     "Haydn",
+     "Schubert"
+    ],
+    "correct": 0
+   },
+   "answer": "Mozart",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année l'homme marche-t-il pour la première fois sur la Lune ?",
+    "choices": [
+     "1959",
+     "1975",
+     "1981",
+     "1969"
+    ],
+    "correct": 3
+   },
+   "answer": "1969",
+   "level": "moyen",
+   "fact": "Neil Armstrong a posé le pied sur la Lune le 20 juillet 1969."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville accueille les Jeux olympiques d'été de 2016 ?",
+    "choices": [
+     "Londres",
+     "Tokyo",
+     "Pékin",
+     "Rio de Janeiro"
+    ],
+    "correct": 3
+   },
+   "answer": "Rio de Janeiro",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sport se joue avec une raquette et un volant ?",
+    "choices": [
+     "Le golf",
+     "Le rugby",
+     "Le basket",
+     "Le badminton"
+    ],
+    "correct": 3
+   },
+   "answer": "Le badminton",
+   "level": "facile",
+   "fact": "Les volants de badminton sont traditionnellement faits de plumes d'oie ou de canard."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel navigateur portugais double le cap de Bonne-Espérance en 1488 ?",
+    "choices": [
+     "Vasco de Gama",
+     "Magellan",
+     "Bartolomeu Dias",
+     "Henri le Navigateur"
+    ],
+    "correct": 2
+   },
+   "answer": "Bartolomeu Dias",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Argentine ?",
+    "choices": [
+     "Santiago",
+     "Lima",
+     "Buenos Aires",
+     "Montevideo"
+    ],
+    "correct": 2
+   },
+   "answer": "Buenos Aires",
+   "level": "moyen",
+   "fact": "Buenos Aires veut dire à peu près « bons airs » ou « bon vent »."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année débute la guerre de Cent Ans ?",
+    "choices": [
+     "1415",
+     "1337",
+     "1453",
+     "1214"
+    ],
+    "correct": 1
+   },
+   "answer": "1337",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 7 × 8 ?",
+    "choices": [
+     "54",
+     "56",
+     "48",
+     "63"
+    ],
+    "correct": 1
+   },
+   "answer": "56",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la racine carrée de 81 ?",
+    "choices": [
+     "8",
+     "7",
+     "11",
+     "9"
+    ],
+    "correct": 3
+   },
+   "answer": "9",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus long fleuve d'Europe ?",
+    "choices": [
+     "Le Danube",
+     "Le Rhin",
+     "La Seine",
+     "La Volga"
+    ],
+    "correct": 3
+   },
+   "answer": "La Volga",
+   "level": "moyen",
+   "fact": "La Volga se jette dans la mer Caspienne, la plus grande étendue d'eau fermée du monde."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle mer baigne la ville de Marseille ?",
+    "choices": [
+     "La mer Baltique",
+     "La Méditerranée",
+     "La mer du Nord",
+     "La mer Noire"
+    ],
+    "correct": 1
+   },
+   "answer": "La Méditerranée",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de minutes y a-t-il dans une heure ?",
+    "choices": [
+     "100",
+     "30",
+     "120",
+     "60"
+    ],
+    "correct": 3
+   },
+   "answer": "60",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Suriname ?",
+    "choices": [
+     "Georgetown",
+     "Belmopan",
+     "Cayenne",
+     "Paramaribo"
+    ],
+    "correct": 3
+   },
+   "answer": "Paramaribo",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand organe du corps humain ?",
+    "choices": [
+     "Le foie",
+     "Les poumons",
+     "La peau",
+     "Le cerveau"
+    ],
+    "correct": 2
+   },
+   "answer": "La peau",
+   "level": "moyen",
+   "fact": "La couche extérieure de la peau se renouvelle à peu près tous les mois."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique du potassium ?",
+    "choices": [
+     "K",
+     "P",
+     "Po",
+     "Pt"
+    ],
+    "correct": 0
+   },
+   "answer": "K",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel physicien découvre la radioactivité en 1896 ?",
+    "choices": [
+     "Pierre Curie",
+     "Rutherford",
+     "Niels Bohr",
+     "Henri Becquerel"
+    ],
+    "correct": 3
+   },
+   "answer": "Henri Becquerel",
+   "level": "impossible",
+   "fact": "Henri Becquerel a découvert la radioactivité par hasard, en étudiant des sels d'uranium."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle saison suit le printemps ?",
+    "choices": [
+     "L'automne",
+     "L'été",
+     "L'hiver",
+     "Le printemps"
+    ],
+    "correct": 1
+   },
+   "answer": "L'été",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de mois compte une année ?",
+    "choices": [
+     "10",
+     "11",
+     "13",
+     "12"
+    ],
+    "correct": 3
+   },
+   "answer": "12",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel savant a formulé la loi de la gravitation universelle ?",
+    "choices": [
+     "Galilée",
+     "Kepler",
+     "Einstein",
+     "Isaac Newton"
+    ],
+    "correct": 3
+   },
+   "answer": "Isaac Newton",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 12 × 12 ?",
+    "choices": [
+     "124",
+     "132",
+     "144",
+     "164"
+    ],
+    "correct": 2
+   },
+   "answer": "144",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est l'élément le plus abondant de l'univers ?",
+    "choices": [
+     "L'oxygène",
+     "L'hélium",
+     "L'hydrogène",
+     "Le carbone"
+    ],
+    "correct": 2
+   },
+   "answer": "L'hydrogène",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle forme a un ballon de football ?",
+    "choices": [
+     "Un cube",
+     "Un cylindre",
+     "Un cône",
+     "Une sphère"
+    ],
+    "correct": 3
+   },
+   "answer": "Une sphère",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle étoile éclaire la Terre le jour ?",
+    "choices": [
+     "La Lune",
+     "Sirius",
+     "Le Soleil",
+     "Vénus"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Soleil",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quelle température l'eau bout-elle au niveau de la mer ?",
+    "choices": [
+     "80 °C",
+     "100 °C",
+     "90 °C",
+     "120 °C"
+    ],
+    "correct": 1
+   },
+   "answer": "100 °C",
+   "level": "moyen",
+   "fact": "En montagne, l'eau bout à moins de 100 °C, car l'air y est plus léger."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Slovaquie ?",
+    "choices": [
+     "Ljubljana",
+     "Zagreb",
+     "Bratislava",
+     "Brno"
+    ],
+    "correct": 2
+   },
+   "answer": "Bratislava",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la fosse océanique la plus profonde ?",
+    "choices": [
+     "La fosse des Mariannes",
+     "La fosse de Tonga",
+     "La fosse de Java",
+     "La fosse du Japon"
+    ],
+    "correct": 0
+   },
+   "answer": "La fosse des Mariannes",
+   "level": "impossible",
+   "fact": "La fosse des Mariannes est plus profonde que la hauteur de l'Everest."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de chromosomes compte une cellule humaine ?",
+    "choices": [
+     "23",
+     "48",
+     "46",
+     "44"
+    ],
+    "correct": 2
+   },
+   "answer": "46",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Pologne ?",
+    "choices": [
+     "Cracovie",
+     "Gdansk",
+     "Varsovie",
+     "Prague"
+    ],
+    "correct": 2
+   },
+   "answer": "Varsovie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a sculpté le célèbre « David » vers 1504 ?",
+    "choices": [
+     "Donatello",
+     "Le Bernin",
+     "Michel-Ange",
+     "Rodin"
+    ],
+    "correct": 2
+   },
+   "answer": "Michel-Ange",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel muscle sépare le thorax de l'abdomen ?",
+    "choices": [
+     "Le psoas",
+     "Le sartorius",
+     "Le deltoïde",
+     "Le diaphragme"
+    ],
+    "correct": 3
+   },
+   "answer": "Le diaphragme",
+   "level": "difficile",
+   "fact": "Le diaphragme est le muscle principal de la respiration, et c'est lui qui provoque le hoquet."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel gaz les plantes absorbent-elles pour la photosynthèse ?",
+    "choices": [
+     "L'oxygène",
+     "L'azote",
+     "L'hélium",
+     "Le dioxyde de carbone"
+    ],
+    "correct": 3
+   },
+   "answer": "Le dioxyde de carbone",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Les Trois Mousquetaires » ?",
+    "choices": [
+     "Jules Verne",
+     "Victor Hugo",
+     "Honoré de Balzac",
+     "Alexandre Dumas"
+    ],
+    "correct": 3
+   },
+   "answer": "Alexandre Dumas",
+   "level": "moyen",
+   "fact": "Dans « Les Trois Mousquetaires », ils sont en fait quatre, car d'Artagnan les rejoint."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Colombie ?",
+    "choices": [
+     "Quito",
+     "Bogota",
+     "Caracas",
+     "Lima"
+    ],
+    "correct": 1
+   },
+   "answer": "Bogota",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces animaux pond des œufs ?",
+    "choices": [
+     "La vache",
+     "La chèvre",
+     "La poule",
+     "La brebis"
+    ],
+    "correct": 2
+   },
+   "answer": "La poule",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel astre tourne autour de la Terre ?",
+    "choices": [
+     "Mars",
+     "Le Soleil",
+     "La Lune",
+     "Vénus"
+    ],
+    "correct": 2
+   },
+   "answer": "La Lune",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit la pièce « Cyrano de Bergerac » ?",
+    "choices": [
+     "Molière",
+     "Victor Hugo",
+     "Jean Racine",
+     "Edmond Rostand"
+    ],
+    "correct": 3
+   },
+   "answer": "Edmond Rostand",
+   "level": "moyen",
+   "fact": "Cyrano de Bergerac a vraiment existé : c'était un écrivain du XVIIe siècle."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel traité de 1648 met fin à la guerre de Trente Ans ?",
+    "choices": [
+     "Le traité d'Utrecht",
+     "Le traité de Westphalie",
+     "Le traité de Vienne",
+     "Le traité de Nimègue"
+    ],
+    "correct": 1
+   },
+   "answer": "Le traité de Westphalie",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le participe passé du verbe « prendre » ?",
+    "choices": [
+     "Pris",
+     "Prit",
+     "Prendu",
+     "Prenant"
+    ],
+    "correct": 0
+   },
+   "answer": "Pris",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel organe nous permet de voir ?",
+    "choices": [
+     "L'œil",
+     "L'oreille",
+     "Le nez",
+     "La langue"
+    ],
+    "correct": 0
+   },
+   "answer": "L'œil",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de pays membres compte l'ONU ?",
+    "choices": [
+     "150",
+     "205",
+     "193",
+     "178"
+    ],
+    "correct": 2
+   },
+   "answer": "193",
+   "level": "impossible",
+   "fact": "Le dernier pays à avoir rejoint l'ONU est le Soudan du Sud, en 2011."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que mesure un baromètre ?",
+    "choices": [
+     "La température",
+     "La vitesse du vent",
+     "La pression de l'air",
+     "L'humidité"
+    ],
+    "correct": 2
+   },
+   "answer": "La pression de l'air",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus gros félin du monde ?",
+    "choices": [
+     "Le guépard",
+     "Le puma",
+     "Le lynx",
+     "Le tigre"
+    ],
+    "correct": 3
+   },
+   "answer": "Le tigre",
+   "level": "facile",
+   "fact": "Les rayures d'un tigre sont uniques, comme les empreintes digitales chez les humains."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel élément chimique a pour numéro atomique 79 ?",
+    "choices": [
+     "L'argent",
+     "L'or",
+     "Le platine",
+     "Le mercure"
+    ],
+    "correct": 1
+   },
+   "answer": "L'or",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Japon ?",
+    "choices": [
+     "Kyoto",
+     "Tokyo",
+     "Osaka",
+     "Nagoya"
+    ],
+    "correct": 1
+   },
+   "answer": "Tokyo",
+   "level": "facile",
+   "fact": "Tokyo est l'une des plus grandes agglomérations du monde, avec plus de 30 millions d'habitants."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique du sodium ?",
+    "choices": [
+     "So",
+     "Na",
+     "S",
+     "Sn"
+    ],
+    "correct": 1
+   },
+   "answer": "Na",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi de France est surnommé « le Bien-Aimé » ?",
+    "choices": [
+     "Louis XIV",
+     "Louis XVI",
+     "Louis XV",
+     "Charles VII"
+    ],
+    "correct": 2
+   },
+   "answer": "Louis XV",
+   "level": "difficile",
+   "fact": "Louis XV est devenu roi à seulement cinq ans."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jours compte février une année normale ?",
+    "choices": [
+     "29",
+     "30",
+     "28",
+     "31"
+    ],
+    "correct": 2
+   },
+   "answer": "28",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Kazakhstan ?",
+    "choices": [
+     "Almaty",
+     "Astana",
+     "Bichkek",
+     "Tachkent"
+    ],
+    "correct": 1
+   },
+   "answer": "Astana",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Suède ?",
+    "choices": [
+     "Stockholm",
+     "Oslo",
+     "Copenhague",
+     "Helsinki"
+    ],
+    "correct": 0
+   },
+   "answer": "Stockholm",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Belgique ?",
+    "choices": [
+     "Anvers",
+     "Bruxelles",
+     "Liège",
+     "Gand"
+    ],
+    "correct": 1
+   },
+   "answer": "Bruxelles",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel empereur romain refonde Byzance sous le nom de Constantinople ?",
+    "choices": [
+     "Auguste",
+     "Néron",
+     "Hadrien",
+     "Constantin Ier"
+    ],
+    "correct": 3
+   },
+   "answer": "Constantin Ier",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de pattes a un insecte ?",
+    "choices": [
+     "8",
+     "6",
+     "4",
+     "10"
+    ],
+    "correct": 1
+   },
+   "answer": "6",
+   "level": "facile",
+   "fact": "Une araignée n'est pas un insecte : elle a huit pattes et non six."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est célèbre pour ses anneaux visibles ?",
+    "choices": [
+     "Mars",
+     "Mercure",
+     "Saturne",
+     "Vénus"
+    ],
+    "correct": 2
+   },
+   "answer": "Saturne",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année Constantinople tombe-t-elle aux mains des Ottomans ?",
+    "choices": [
+     "1453",
+     "1204",
+     "1517",
+     "1492"
+    ],
+    "correct": 0
+   },
+   "answer": "1453",
+   "level": "impossible",
+   "fact": "Constantinople, tombée en 1453, est aujourd'hui la ville d'Istanbul."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Allemagne ?",
+    "choices": [
+     "Berlin",
+     "Munich",
+     "Hambourg",
+     "Francfort"
+    ],
+    "correct": 0
+   },
+   "answer": "Berlin",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé le ballet « Le Lac des cygnes » ?",
+    "choices": [
+     "Stravinsky",
+     "Tchaïkovski",
+     "Prokofiev",
+     "Rachmaninov"
+    ],
+    "correct": 1
+   },
+   "answer": "Tchaïkovski",
+   "level": "difficile",
+   "fact": "Tchaïkovski a aussi composé la musique du ballet « Casse-noisette »."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel du mot « cheval » ?",
+    "choices": [
+     "Chevals",
+     "Chevaus",
+     "Chevalx",
+     "Chevaux"
+    ],
+    "correct": 3
+   },
+   "answer": "Chevaux",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le titre de l'hymne national français ?",
+    "choices": [
+     "Le Chant des partisans",
+     "La Marseillaise",
+     "Le Chant du départ",
+     "La Parisienne"
+    ],
+    "correct": 1
+   },
+   "answer": "La Marseillaise",
+   "level": "moyen",
+   "fact": "La Marseillaise a été composée en 1792 à Strasbourg par Rouget de Lisle."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal est surnommé le roi de la jungle ?",
+    "choices": [
+     "Le tigre",
+     "L'ours",
+     "Le gorille",
+     "Le lion"
+    ],
+    "correct": 3
+   },
+   "answer": "Le lion",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Myanmar ?",
+    "choices": [
+     "Rangoun",
+     "Mandalay",
+     "Naypyidaw",
+     "Bangkok"
+    ],
+    "correct": 2
+   },
+   "answer": "Naypyidaw",
+   "level": "difficile",
+   "fact": "Naypyidaw est devenue la capitale du Myanmar vers 2006, à la place de Rangoun."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de lettres compte l'alphabet français ?",
+    "choices": [
+     "26",
+     "24",
+     "25",
+     "28"
+    ],
+    "correct": 0
+   },
+   "answer": "26",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En combien de temps la Terre fait-elle le tour du Soleil ?",
+    "choices": [
+     "Un mois",
+     "Un jour",
+     "Un an",
+     "Dix ans"
+    ],
+    "correct": 2
+   },
+   "answer": "Un an",
+   "level": "facile",
+   "fact": "La Terre file autour du Soleil à plus de 100 000 km/h."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit nombre premier ?",
+    "choices": [
+     "2",
+     "1",
+     "3",
+     "0"
+    ],
+    "correct": 0
+   },
+   "answer": "2",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la formule chimique du sel de table ?",
+    "choices": [
+     "KCl",
+     "CaCO3",
+     "NaOH",
+     "NaCl"
+    ],
+    "correct": 3
+   },
+   "answer": "NaCl",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Éthiopie ?",
+    "choices": [
+     "Addis-Abeba",
+     "Nairobi",
+     "Khartoum",
+     "Kampala"
+    ],
+    "correct": 0
+   },
+   "answer": "Addis-Abeba",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs compte une équipe de handball sur le terrain ?",
+    "choices": [
+     "6",
+     "7",
+     "11",
+     "5"
+    ],
+    "correct": 1
+   },
+   "answer": "7",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus haut sommet d'Afrique ?",
+    "choices": [
+     "Le mont Kenya",
+     "Le Toubkal",
+     "Le mont Cameroun",
+     "Le Kilimandjaro"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Kilimandjaro",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de côtés a un triangle ?",
+    "choices": [
+     "4",
+     "5",
+     "6",
+     "3"
+    ],
+    "correct": 3
+   },
+   "answer": "3",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique de l'or ?",
+    "choices": [
+     "Au",
+     "Or",
+     "Ag",
+     "Go"
+    ],
+    "correct": 0
+   },
+   "answer": "Au",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jours compte une semaine ?",
+    "choices": [
+     "7",
+     "5",
+     "6",
+     "8"
+    ],
+    "correct": 0
+   },
+   "answer": "7",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus haute chute d'eau du monde ?",
+    "choices": [
+     "Les chutes Victoria",
+     "Le Salto Angel",
+     "Les chutes du Niagara",
+     "Les chutes d'Iguazú"
+    ],
+    "correct": 1
+   },
+   "answer": "Le Salto Angel",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle bataille a lieu en 1515 ?",
+    "choices": [
+     "Marignan",
+     "Pavie",
+     "Azincourt",
+     "Poitiers"
+    ],
+    "correct": 0
+   },
+   "answer": "Marignan",
+   "level": "difficile",
+   "fact": "Marignan, 1515, est une date que beaucoup d'élèves apprennent par cœur."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel instrument se joue avec un archet ?",
+    "choices": [
+     "La flûte",
+     "Le violon",
+     "La trompette",
+     "Le tambour"
+    ],
+    "correct": 1
+   },
+   "answer": "Le violon",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle partie de la plante absorbe l'eau du sol ?",
+    "choices": [
+     "Les racines",
+     "Les feuilles",
+     "Les fleurs",
+     "Les fruits"
+    ],
+    "correct": 0
+   },
+   "answer": "Les racines",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel naturaliste a établi la classification binominale des espèces ?",
+    "choices": [
+     "Carl von Linné",
+     "Charles Darwin",
+     "Gregor Mendel",
+     "Jean-Baptiste Lamarck"
+    ],
+    "correct": 0
+   },
+   "answer": "Carl von Linné",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle hormone est surnommée l'hormone du sommeil ?",
+    "choices": [
+     "L'insuline",
+     "La mélatonine",
+     "L'adrénaline",
+     "Le cortisol"
+    ],
+    "correct": 1
+   },
+   "answer": "La mélatonine",
+   "level": "difficile",
+   "fact": "La mélatonine est fabriquée par une petite glande du cerveau, l'épiphyse."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel organe produit la bile ?",
+    "choices": [
+     "Le pancréas",
+     "La rate",
+     "Le rein",
+     "Le foie"
+    ],
+    "correct": 3
+   },
+   "answer": "Le foie",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal fait « miaou » ?",
+    "choices": [
+     "Le chien",
+     "Le chat",
+     "La vache",
+     "Le mouton"
+    ],
+    "correct": 1
+   },
+   "answer": "Le chat",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique de l'argent ?",
+    "choices": [
+     "Ar",
+     "Au",
+     "Al",
+     "Ag"
+    ],
+    "correct": 3
+   },
+   "answer": "Ag",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on l'eau à l'état solide ?",
+    "choices": [
+     "La vapeur",
+     "Le brouillard",
+     "La glace",
+     "La rosée"
+    ],
+    "correct": 2
+   },
+   "answer": "La glace",
+   "level": "facile",
+   "fact": "La glace flotte sur l'eau, car elle est moins dense que l'eau liquide."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel liquide rouge circule dans nos veines ?",
+    "choices": [
+     "La sève",
+     "L'eau",
+     "Le sang",
+     "Le lait"
+    ],
+    "correct": 2
+   },
+   "answer": "Le sang",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle partie du corps relie la tête au tronc ?",
+    "choices": [
+     "Le cou",
+     "Le poignet",
+     "Le genou",
+     "Le coude"
+    ],
+    "correct": 0
+   },
+   "answer": "Le cou",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de pattes a un oiseau ?",
+    "choices": [
+     "4",
+     "6",
+     "3",
+     "2"
+    ],
+    "correct": 3
+   },
+   "answer": "2",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces animaux est un mammifère marin ?",
+    "choices": [
+     "Le requin",
+     "Le dauphin",
+     "Le thon",
+     "La raie"
+    ],
+    "correct": 1
+   },
+   "answer": "Le dauphin",
+   "level": "facile",
+   "fact": "Les dauphins dorment avec la moitié du cerveau éveillée."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de couleurs compte l'arc-en-ciel ?",
+    "choices": [
+     "7",
+     "5",
+     "6",
+     "9"
+    ],
+    "correct": 0
+   },
+   "answer": "7",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel instrument permet d'observer les étoiles ?",
+    "choices": [
+     "Le microscope",
+     "Le télescope",
+     "Le périscope",
+     "Le stéthoscope"
+    ],
+    "correct": 1
+   },
+   "answer": "Le télescope",
+   "level": "moyen",
+   "fact": "Galilée est l'un des premiers à avoir observé le ciel avec une lunette, en 1609."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces animaux est un reptile ?",
+    "choices": [
+     "Le crocodile",
+     "La grenouille",
+     "Le dauphin",
+     "Le requin"
+    ],
+    "correct": 0
+   },
+   "answer": "Le crocodile",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel savant met au point le vaccin contre la rage en 1885 ?",
+    "choices": [
+     "Robert Koch",
+     "Edward Jenner",
+     "Alexander Fleming",
+     "Louis Pasteur"
+    ],
+    "correct": 3
+   },
+   "answer": "Louis Pasteur",
+   "level": "difficile",
+   "fact": "Louis Pasteur a testé son vaccin contre la rage sur un jeune garçon, Joseph Meister."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal construit des barrages sur les rivières ?",
+    "choices": [
+     "La loutre",
+     "Le castor",
+     "Le lapin",
+     "Le renard"
+    ],
+    "correct": 1
+   },
+   "answer": "Le castor",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle partie du cerveau gère l'équilibre ?",
+    "choices": [
+     "L'hippocampe",
+     "Le thalamus",
+     "L'hypothalamus",
+     "Le cervelet"
+    ],
+    "correct": 3
+   },
+   "answer": "Le cervelet",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique du plomb ?",
+    "choices": [
+     "Pb",
+     "Pl",
+     "Po",
+     "Pm"
+    ],
+    "correct": 0
+   },
+   "answer": "Pb",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal est connu pour son très long cou ?",
+    "choices": [
+     "Le zèbre",
+     "La girafe",
+     "L'hippopotame",
+     "Le rhinocéros"
+    ],
+    "correct": 1
+   },
+   "answer": "La girafe",
+   "level": "facile",
+   "fact": "La girafe a le même nombre de vertèbres dans le cou que nous : sept."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle le processus par lequel les plantes fabriquent leur nourriture ?",
+    "choices": [
+     "La digestion",
+     "La photosynthèse",
+     "La fermentation",
+     "La respiration"
+    ],
+    "correct": 1
+   },
+   "answer": "La photosynthèse",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus gros organe interne du corps humain ?",
+    "choices": [
+     "Le cerveau",
+     "Les poumons",
+     "Le cœur",
+     "Le foie"
+    ],
+    "correct": 3
+   },
+   "answer": "Le foie",
+   "level": "moyen",
+   "fact": "Le foie peut se régénérer en partie après une blessure."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pigment donne sa couleur à la peau ?",
+    "choices": [
+     "La chlorophylle",
+     "La mélanine",
+     "La kératine",
+     "L'insuline"
+    ],
+    "correct": 1
+   },
+   "answer": "La mélanine",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle l'étude des champignons ?",
+    "choices": [
+     "L'algologie",
+     "La mycologie",
+     "La bryologie",
+     "L'entomologie"
+    ],
+    "correct": 1
+   },
+   "answer": "La mycologie",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mammifère pond des œufs ?",
+    "choices": [
+     "Le koala",
+     "L'ornithorynque",
+     "Le hérisson",
+     "Le castor"
+    ],
+    "correct": 1
+   },
+   "answer": "L'ornithorynque",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle unité mesure l'intensité du courant électrique ?",
+    "choices": [
+     "Le volt",
+     "Le watt",
+     "L'ohm",
+     "L'ampère"
+    ],
+    "correct": 3
+   },
+   "answer": "L'ampère",
+   "level": "difficile",
+   "fact": "L'ampère porte le nom du physicien français André-Marie Ampère."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal nous donne du lait de façon courante ?",
+    "choices": [
+     "Le cheval",
+     "Le lapin",
+     "La vache",
+     "Le canard"
+    ],
+    "correct": 2
+   },
+   "answer": "La vache",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle partie du squelette protège le cœur et les poumons ?",
+    "choices": [
+     "La cage thoracique",
+     "Le crâne",
+     "Le bassin",
+     "La colonne vertébrale"
+    ],
+    "correct": 0
+   },
+   "answer": "La cage thoracique",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel chimiste publie le tableau périodique en 1869 ?",
+    "choices": [
+     "Mendeleïev",
+     "Lavoisier",
+     "Dalton",
+     "Berzelius"
+    ],
+    "correct": 0
+   },
+   "answer": "Mendeleïev",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel organe sert à respirer ?",
+    "choices": [
+     "Les reins",
+     "Le foie",
+     "Les poumons",
+     "L'estomac"
+    ],
+    "correct": 2
+   },
+   "answer": "Les poumons",
+   "level": "facile",
+   "fact": "Un adulte respire plus de 15 000 fois par jour sans y penser."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal est un marsupial ?",
+    "choices": [
+     "Le panda",
+     "Le paresseux",
+     "Le koala",
+     "L'ours brun"
+    ],
+    "correct": 2
+   },
+   "answer": "Le koala",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel arbre est le plus haut du monde ?",
+    "choices": [
+     "Le séquoia",
+     "L'eucalyptus",
+     "Le baobab",
+     "Le chêne"
+    ],
+    "correct": 0
+   },
+   "answer": "Le séquoia",
+   "level": "difficile",
+   "fact": "Le plus haut séquoia connu, nommé Hyperion, dépasse 115 mètres."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle roche est composée surtout de carbonate de calcium ?",
+    "choices": [
+     "Le calcaire",
+     "Le granit",
+     "Le basalte",
+     "Le grès"
+    ],
+    "correct": 0
+   },
+   "answer": "Le calcaire",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle partie de l'œil règle la quantité de lumière reçue ?",
+    "choices": [
+     "La cornée",
+     "La rétine",
+     "L'iris",
+     "Le nerf optique"
+    ],
+    "correct": 2
+   },
+   "answer": "L'iris",
+   "level": "moyen",
+   "fact": "L'iris donne leur couleur aux yeux, qu'ils soient bleus, verts ou marron."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel élément chimique a pour symbole Sb ?",
+    "choices": [
+     "L'antimoine",
+     "L'étain",
+     "Le soufre",
+     "Le strontium"
+    ],
+    "correct": 0
+   },
+   "answer": "L'antimoine",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand reptile du monde ?",
+    "choices": [
+     "Le crocodile marin",
+     "Le dragon de Komodo",
+     "L'anaconda",
+     "La tortue luth"
+    ],
+    "correct": 0
+   },
+   "answer": "Le crocodile marin",
+   "level": "moyen",
+   "fact": "Le crocodile marin peut mesurer plus de 5 mètres de long."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle articulation se trouve au milieu de la jambe ?",
+    "choices": [
+     "Le coude",
+     "Le genou",
+     "La cheville",
+     "Le poignet"
+    ],
+    "correct": 1
+   },
+   "answer": "Le genou",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de dents de lait possède un enfant ?",
+    "choices": [
+     "16",
+     "24",
+     "32",
+     "20"
+    ],
+    "correct": 3
+   },
+   "answer": "20",
+   "level": "moyen",
+   "fact": "Les dents de lait tombent généralement entre 6 et 12 ans environ."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de sens principaux possède l'être humain ?",
+    "choices": [
+     "4",
+     "6",
+     "8",
+     "5"
+    ],
+    "correct": 3
+   },
+   "answer": "5",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel métal est le meilleur conducteur d'électricité ?",
+    "choices": [
+     "Le cuivre",
+     "L'or",
+     "L'argent",
+     "L'aluminium"
+    ],
+    "correct": 2
+   },
+   "answer": "L'argent",
+   "level": "difficile",
+   "fact": "Le cuivre, très utilisé dans les fils électriques, conduit presque aussi bien que l'argent."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le nerf le plus gros du corps humain ?",
+    "choices": [
+     "Le nerf sciatique",
+     "Le nerf vague",
+     "Le nerf radial",
+     "Le nerf cubital"
+    ],
+    "correct": 0
+   },
+   "answer": "Le nerf sciatique",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fruit jaune se pèle facilement et pousse en régime ?",
+    "choices": [
+     "La poire",
+     "La banane",
+     "La pomme",
+     "La cerise"
+    ],
+    "correct": 1
+   },
+   "answer": "La banane",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien d'os compte une main humaine ?",
+    "choices": [
+     "24",
+     "27",
+     "30",
+     "20"
+    ],
+    "correct": 1
+   },
+   "answer": "27",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est l'unité de base du vivant ?",
+    "choices": [
+     "L'atome",
+     "L'organe",
+     "Le tissu",
+     "La cellule"
+    ],
+    "correct": 3
+   },
+   "answer": "La cellule",
+   "level": "moyen",
+   "fact": "Notre corps compte des milliers de milliards de cellules."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de protons compte un atome d'hydrogène ?",
+    "choices": [
+     "2",
+     "1",
+     "0",
+     "3"
+    ],
+    "correct": 1
+   },
+   "answer": "1",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle partie de la cellule contient l'ADN ?",
+    "choices": [
+     "La membrane",
+     "Le cytoplasme",
+     "Le noyau",
+     "La paroi"
+    ],
+    "correct": 2
+   },
+   "answer": "Le noyau",
+   "level": "difficile",
+   "fact": "Si on étirait l'ADN d'une seule cellule, il mesurerait environ deux mètres."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel oiseau est le plus rapide en piqué ?",
+    "choices": [
+     "L'aigle royal",
+     "Le faucon pèlerin",
+     "Le colibri",
+     "Le martinet"
+    ],
+    "correct": 1
+   },
+   "answer": "Le faucon pèlerin",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle unité mesure la fréquence d'un son ?",
+    "choices": [
+     "Le watt",
+     "Le volt",
+     "Le hertz",
+     "L'ohm"
+    ],
+    "correct": 2
+   },
+   "answer": "Le hertz",
+   "level": "difficile",
+   "fact": "L'unité s'appelle le hertz en hommage au physicien allemand Heinrich Hertz."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Où se trouve la cochlée ?",
+    "choices": [
+     "Dans l'oreille interne",
+     "Dans l'œil",
+     "Dans le nez",
+     "Dans la gorge"
+    ],
+    "correct": 0
+   },
+   "answer": "Dans l'oreille interne",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal hiberne l'hiver ?",
+    "choices": [
+     "L'aigle",
+     "Le loup",
+     "Le hérisson",
+     "Le renard"
+    ],
+    "correct": 2
+   },
+   "answer": "Le hérisson",
+   "level": "facile",
+   "fact": "Pendant son hibernation, le cœur du hérisson ralentit énormément."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel type de roche est le marbre ?",
+    "choices": [
+     "Sédimentaire",
+     "Magmatique",
+     "Métamorphique",
+     "Volcanique"
+    ],
+    "correct": 2
+   },
+   "answer": "Métamorphique",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal respire avec des branchies ?",
+    "choices": [
+     "Le poisson",
+     "La baleine",
+     "Le dauphin",
+     "Le phoque"
+    ],
+    "correct": 0
+   },
+   "answer": "Le poisson",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le deuxième plus long os du corps humain ?",
+    "choices": [
+     "Le tibia",
+     "Le péroné",
+     "L'humérus",
+     "Le radius"
+    ],
+    "correct": 0
+   },
+   "answer": "Le tibia",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle vitamine trouve-t-on en abondance dans les agrumes ?",
+    "choices": [
+     "La vitamine D",
+     "La vitamine K",
+     "La vitamine B12",
+     "La vitamine C"
+    ],
+    "correct": 3
+   },
+   "answer": "La vitamine C",
+   "level": "moyen",
+   "fact": "Au XVIIIe siècle, on a découvert que les agrumes soignaient le scorbut chez les marins."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la température normale du corps humain ?",
+    "choices": [
+     "35 °C",
+     "39 °C",
+     "41 °C",
+     "37 °C"
+    ],
+    "correct": 3
+   },
+   "answer": "37 °C",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quelle protéine sont faits nos cheveux et nos ongles ?",
+    "choices": [
+     "Le collagène",
+     "La kératine",
+     "La mélanine",
+     "La cellulose"
+    ],
+    "correct": 1
+   },
+   "answer": "La kératine",
+   "level": "moyen",
+   "fact": "Les ongles poussent d'environ trois millimètres par mois."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que devient l'eau quand elle bout ?",
+    "choices": [
+     "De la glace",
+     "De la neige",
+     "Du givre",
+     "De la vapeur"
+    ],
+    "correct": 3
+   },
+   "answer": "De la vapeur",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un animal qui ne mange que des plantes ?",
+    "choices": [
+     "Un carnivore",
+     "Un omnivore",
+     "Un herbivore",
+     "Un insectivore"
+    ],
+    "correct": 2
+   },
+   "answer": "Un herbivore",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel physicien découvre l'électron en 1897 ?",
+    "choices": [
+     "Rutherford",
+     "Niels Bohr",
+     "James Chadwick",
+     "J. J. Thomson"
+    ],
+    "correct": 3
+   },
+   "answer": "J. J. Thomson",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quoi une chenille se transforme-t-elle ?",
+    "choices": [
+     "En papillon",
+     "En libellule",
+     "En coccinelle",
+     "En abeille"
+    ],
+    "correct": 0
+   },
+   "answer": "En papillon",
+   "level": "facile",
+   "fact": "Ce changement s'appelle la métamorphose, et il se passe dans la chrysalide."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel groupe sanguin est donneur universel de globules rouges ?",
+    "choices": [
+     "AB positif",
+     "A positif",
+     "O négatif",
+     "B négatif"
+    ],
+    "correct": 2
+   },
+   "answer": "O négatif",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel oiseau a la plus grande envergure d'ailes ?",
+    "choices": [
+     "Le condor des Andes",
+     "L'albatros hurleur",
+     "Le pélican",
+     "L'aigle royal"
+    ],
+    "correct": 1
+   },
+   "answer": "L'albatros hurleur",
+   "level": "impossible",
+   "fact": "L'albatros hurleur peut dépasser 3 mètres d'envergure et planer pendant des heures."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel élément chimique a pour symbole Ti ?",
+    "choices": [
+     "Le tungstène",
+     "Le thallium",
+     "Le titane",
+     "Le tantale"
+    ],
+    "correct": 2
+   },
+   "answer": "Le titane",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est l'élément le plus abondant de l'écorce terrestre ?",
+    "choices": [
+     "Le silicium",
+     "Le fer",
+     "L'oxygène",
+     "L'aluminium"
+    ],
+    "correct": 2
+   },
+   "answer": "L'oxygène",
+   "level": "impossible",
+   "fact": "L'oxygène représente près de la moitié de la masse de l'écorce terrestre."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal porte une carapace sur son dos ?",
+    "choices": [
+     "Le lapin",
+     "La tortue",
+     "Le chat",
+     "La poule"
+    ],
+    "correct": 1
+   },
+   "answer": "La tortue",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle substance donne leur couleur verte aux feuilles ?",
+    "choices": [
+     "La mélanine",
+     "L'hémoglobine",
+     "La chlorophylle",
+     "La kératine"
+    ],
+    "correct": 2
+   },
+   "answer": "La chlorophylle",
+   "level": "moyen",
+   "fact": "En automne, la chlorophylle disparaît des feuilles, qui révèlent alors leurs couleurs jaunes et orangées."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal produit la soie ?",
+    "choices": [
+     "L'abeille",
+     "La fourmi",
+     "Le ver à soie",
+     "Le scarabée"
+    ],
+    "correct": 2
+   },
+   "answer": "Le ver à soie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la formule chimique du gaz hilarant ?",
+    "choices": [
+     "NO2",
+     "N2",
+     "CO",
+     "N2O"
+    ],
+    "correct": 3
+   },
+   "answer": "N2O",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel oiseau pond les plus gros œufs ?",
+    "choices": [
+     "L'émeu",
+     "Le casoar",
+     "L'albatros",
+     "L'autruche"
+    ],
+    "correct": 3
+   },
+   "answer": "L'autruche",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel arbre a sa feuille sur le drapeau du Canada ?",
+    "choices": [
+     "Le chêne",
+     "Le bouleau",
+     "L'érable",
+     "Le peuplier"
+    ],
+    "correct": 2
+   },
+   "answer": "L'érable",
+   "level": "moyen",
+   "fact": "Le sirop d'érable se fabrique avec la sève de l'érable."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le petit de la grenouille ?",
+    "choices": [
+     "Le têtard",
+     "L'alevin",
+     "Le chiot",
+     "Le poussin"
+    ],
+    "correct": 0
+   },
+   "answer": "Le têtard",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de litres de sang un adulte a-t-il environ ?",
+    "choices": [
+     "5",
+     "2",
+     "10",
+     "15"
+    ],
+    "correct": 0
+   },
+   "answer": "5",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle la science qui étudie les insectes ?",
+    "choices": [
+     "L'ornithologie",
+     "L'ichtyologie",
+     "La mycologie",
+     "L'entomologie"
+    ],
+    "correct": 3
+   },
+   "answer": "L'entomologie",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de paires de chromosomes possède un chien ?",
+    "choices": [
+     "39",
+     "23",
+     "32",
+     "24"
+    ],
+    "correct": 0
+   },
+   "answer": "39",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal possède une trompe ?",
+    "choices": [
+     "La girafe",
+     "Le zèbre",
+     "Le lion",
+     "L'éléphant"
+    ],
+    "correct": 3
+   },
+   "answer": "L'éléphant",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit muscle du corps humain ?",
+    "choices": [
+     "Le masséter",
+     "Le deltoïde",
+     "Le soléaire",
+     "Le stapédius"
+    ],
+    "correct": 3
+   },
+   "answer": "Le stapédius",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel gaz rejetons-nous en expirant en plus grande quantité qu'en inspirant ?",
+    "choices": [
+     "L'hélium",
+     "L'hydrogène",
+     "Le dioxyde de carbone",
+     "Le néon"
+    ],
+    "correct": 2
+   },
+   "answer": "Le dioxyde de carbone",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le muscle le plus long du corps humain ?",
+    "choices": [
+     "Le sartorius",
+     "Le grand fessier",
+     "Le biceps",
+     "Le quadriceps"
+    ],
+    "correct": 0
+   },
+   "answer": "Le sartorius",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle partie de la fleur produit le pollen ?",
+    "choices": [
+     "L'étamine",
+     "Le pistil",
+     "Le sépale",
+     "La racine"
+    ],
+    "correct": 0
+   },
+   "answer": "L'étamine",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel minéral est le plus dur de l'échelle de Mohs ?",
+    "choices": [
+     "Le quartz",
+     "Le diamant",
+     "Le corindon",
+     "La topaze"
+    ],
+    "correct": 1
+   },
+   "answer": "Le diamant",
+   "level": "difficile",
+   "fact": "Le diamant est fait de carbone pur, comme la mine d'un crayon à papier."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand des primates ?",
+    "choices": [
+     "Le chimpanzé",
+     "L'orang-outan",
+     "Le babouin",
+     "Le gorille"
+    ],
+    "correct": 3
+   },
+   "answer": "Le gorille",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus gros muscle du corps humain ?",
+    "choices": [
+     "Le quadriceps",
+     "Le grand fessier",
+     "Le deltoïde",
+     "Le biceps"
+    ],
+    "correct": 1
+   },
+   "answer": "Le grand fessier",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel savant a élaboré la théorie de la relativité ?",
+    "choices": [
+     "Isaac Newton",
+     "Louis Pasteur",
+     "Albert Einstein",
+     "Marie Curie"
+    ],
+    "correct": 2
+   },
+   "answer": "Albert Einstein",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de paires d'ailes ont les mouches ?",
+    "choices": [
+     "2",
+     "1",
+     "3",
+     "0"
+    ],
+    "correct": 1
+   },
+   "answer": "1",
+   "level": "difficile",
+   "fact": "Les mouches n'ont qu'une paire d'ailes : l'autre s'est transformée en petits balanciers."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel animal le chien est-il un descendant ?",
+    "choices": [
+     "Le renard",
+     "Le chacal",
+     "Le coyote",
+     "Le loup"
+    ],
+    "correct": 3
+   },
+   "answer": "Le loup",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal est réputé pour sa grande lenteur ?",
+    "choices": [
+     "Le paresseux",
+     "Le guépard",
+     "Le cerf",
+     "Le lièvre"
+    ],
+    "correct": 0
+   },
+   "answer": "Le paresseux",
+   "level": "facile",
+   "fact": "Le paresseux ne descend de son arbre qu'environ une fois par semaine."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pH de l'eau pure ?",
+    "choices": [
+     "1",
+     "10",
+     "7",
+     "14"
+    ],
+    "correct": 2
+   },
+   "answer": "7",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sens utilise-t-on avec le nez ?",
+    "choices": [
+     "L'odorat",
+     "Le goût",
+     "Le toucher",
+     "L'ouïe"
+    ],
+    "correct": 0
+   },
+   "answer": "L'odorat",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mammifère terrestre a la gestation la plus longue ?",
+    "choices": [
+     "La girafe",
+     "Le rhinocéros",
+     "L'éléphant",
+     "Le chameau"
+    ],
+    "correct": 2
+   },
+   "answer": "L'éléphant",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal a des rayures noires et blanches ?",
+    "choices": [
+     "Le cheval",
+     "L'âne",
+     "La girafe",
+     "Le zèbre"
+    ],
+    "correct": 3
+   },
+   "answer": "Le zèbre",
+   "level": "facile",
+   "fact": "Chaque zèbre a des rayures uniques, un peu comme une empreinte digitale."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel moine est considéré comme le père de la génétique ?",
+    "choices": [
+     "Charles Darwin",
+     "Gregor Mendel",
+     "Louis Pasteur",
+     "Carl von Linné"
+    ],
+    "correct": 1
+   },
+   "answer": "Gregor Mendel",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel matériau le verre est-il principalement fabriqué ?",
+    "choices": [
+     "Du sable",
+     "De l'argile",
+     "Du bois",
+     "De la pierre"
+    ],
+    "correct": 0
+   },
+   "answer": "Du sable",
+   "level": "moyen",
+   "fact": "Le verre se recycle à l'infini sans perdre en qualité."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel organe stocke la bile ?",
+    "choices": [
+     "Le foie",
+     "Le rein",
+     "Le pancréas",
+     "La vésicule biliaire"
+    ],
+    "correct": 3
+   },
+   "answer": "La vésicule biliaire",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel élément chimique a pour symbole Sn ?",
+    "choices": [
+     "Le sodium",
+     "L'étain",
+     "Le soufre",
+     "Le silicium"
+    ],
+    "correct": 1
+   },
+   "answer": "L'étain",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel os du corps humain n'est relié à aucun autre os ?",
+    "choices": [
+     "Le sternum",
+     "La clavicule",
+     "L'os hyoïde",
+     "Le coccyx"
+    ],
+    "correct": 2
+   },
+   "answer": "L'os hyoïde",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En combien de temps la Terre tourne-t-elle sur elle-même ?",
+    "choices": [
+     "12 heures",
+     "24 heures",
+     "48 heures",
+     "365 jours"
+    ],
+    "correct": 1
+   },
+   "answer": "24 heures",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces animaux est un amphibien ?",
+    "choices": [
+     "Le lézard",
+     "Le serpent",
+     "La grenouille",
+     "La tortue"
+    ],
+    "correct": 2
+   },
+   "answer": "La grenouille",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel oiseau ne vole pas et vit en Antarctique ?",
+    "choices": [
+     "Le cygne",
+     "Le pélican",
+     "Le manchot",
+     "Le flamant"
+    ],
+    "correct": 2
+   },
+   "answer": "Le manchot",
+   "level": "facile",
+   "fact": "Chez les manchots empereurs, c'est le papa qui couve l'œuf sur ses pieds."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal change de couleur pour se camoufler ?",
+    "choices": [
+     "Le crocodile",
+     "Le lapin",
+     "Le hérisson",
+     "Le caméléon"
+    ],
+    "correct": 3
+   },
+   "answer": "Le caméléon",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel arbre produit des pommes ?",
+    "choices": [
+     "Le poirier",
+     "Le cerisier",
+     "Le prunier",
+     "Le pommier"
+    ],
+    "correct": 3
+   },
+   "answer": "Le pommier",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays est célèbre pour les pierogi ?",
+    "choices": [
+     "L'Espagne",
+     "La Grèce",
+     "Le Portugal",
+     "La Pologne"
+    ],
+    "correct": 3
+   },
+   "answer": "La Pologne",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient le risotto ?",
+    "choices": [
+     "L'Espagne",
+     "L'Italie",
+     "La Grèce",
+     "La Suisse"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Italie",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sport associe ski de fond et tir à la carabine ?",
+    "choices": [
+     "Le triathlon",
+     "Le biathlon",
+     "Le pentathlon",
+     "Le décathlon"
+    ],
+    "correct": 1
+   },
+   "answer": "Le biathlon",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sport se joue sur la glace avec un palet ?",
+    "choices": [
+     "Le hockey sur glace",
+     "Le curling",
+     "Le tennis",
+     "Le judo"
+    ],
+    "correct": 0
+   },
+   "answer": "Le hockey sur glace",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs une équipe de hockey sur glace aligne-t-elle sur la glace ?",
+    "choices": [
+     "6",
+     "5",
+     "7",
+     "11"
+    ],
+    "correct": 0
+   },
+   "answer": "6",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays est célèbre pour la paella ?",
+    "choices": [
+     "L'Espagne",
+     "Le Portugal",
+     "La France",
+     "L'Italie"
+    ],
+    "correct": 0
+   },
+   "answer": "L'Espagne",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle couleur de carton signifie l'expulsion au football ?",
+    "choices": [
+     "Rouge",
+     "Jaune",
+     "Vert",
+     "Bleu"
+    ],
+    "correct": 0
+   },
+   "answer": "Rouge",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui invente le stéthoscope en 1816 ?",
+    "choices": [
+     "René Laennec",
+     "Louis Pasteur",
+     "Claude Bernard",
+     "Ambroise Paré"
+    ],
+    "correct": 0
+   },
+   "answer": "René Laennec",
+   "level": "difficile",
+   "fact": "Laennec a inventé le stéthoscope avec un simple rouleau de papier."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle épice jaune donne sa couleur au curry ?",
+    "choices": [
+     "Le paprika",
+     "La cannelle",
+     "Le curcuma",
+     "Le poivre"
+    ],
+    "correct": 2
+   },
+   "answer": "Le curcuma",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient le sushi ?",
+    "choices": [
+     "La Chine",
+     "La Corée",
+     "Le Vietnam",
+     "Le Japon"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Japon",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la longueur d'un tour de piste d'athlétisme ?",
+    "choices": [
+     "200 m",
+     "400 m",
+     "500 m",
+     "300 m"
+    ],
+    "correct": 1
+   },
+   "answer": "400 m",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est l'ingrédient principal du tzatziki ?",
+    "choices": [
+     "La tomate",
+     "La crème de coco",
+     "Le fromage frais de chèvre",
+     "Le yaourt"
+    ],
+    "correct": 3
+   },
+   "answer": "Le yaourt",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle couleur obtient-on en mélangeant rouge et blanc ?",
+    "choices": [
+     "Orange",
+     "Violet",
+     "Marron",
+     "Rose"
+    ],
+    "correct": 3
+   },
+   "answer": "Rose",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville accueille les Jeux olympiques d'été de 2024 ?",
+    "choices": [
+     "Paris",
+     "Rome",
+     "Madrid",
+     "Berlin"
+    ],
+    "correct": 0
+   },
+   "answer": "Paris",
+   "level": "moyen",
+   "fact": "Paris accueille les Jeux olympiques d'été pour la troisième fois en 2024, après 1900 et 1924."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle distance mesure un semi-marathon ?",
+    "choices": [
+     "20 km",
+     "25 km",
+     "21,1 km",
+     "30 km"
+    ],
+    "correct": 2
+   },
+   "answer": "21,1 km",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel ingrédient principal sert à faire le pain ?",
+    "choices": [
+     "Le riz",
+     "Le sucre",
+     "Le lait",
+     "La farine"
+    ],
+    "correct": 3
+   },
+   "answer": "La farine",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jeux faut-il gagner pour remporter un set au tennis, sauf cas particulier ?",
+    "choices": [
+     "4",
+     "6",
+     "5",
+     "8"
+    ],
+    "correct": 1
+   },
+   "answer": "6",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui invente la dynamite ?",
+    "choices": [
+     "Louis Pasteur",
+     "Gustave Eiffel",
+     "Alfred Nobel",
+     "Rudolf Diesel"
+    ],
+    "correct": 2
+   },
+   "answer": "Alfred Nobel",
+   "level": "difficile",
+   "fact": "Alfred Nobel a créé les prix Nobel avec l'argent gagné grâce à ses inventions."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel instrument en cuivre est joué en soufflant ?",
+    "choices": [
+     "Le violon",
+     "La trompette",
+     "La harpe",
+     "Le piano"
+    ],
+    "correct": 1
+   },
+   "answer": "La trompette",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de trous compte un parcours de golf standard ?",
+    "choices": [
+     "18",
+     "9",
+     "12",
+     "24"
+    ],
+    "correct": 0
+   },
+   "answer": "18",
+   "level": "moyen",
+   "fact": "Le nombre de 18 trous vient du célèbre parcours de Saint Andrews, en Écosse."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel instrument de musique est inventé par Adolphe Sax ?",
+    "choices": [
+     "Le saxophone",
+     "La clarinette",
+     "La trompette",
+     "Le hautbois"
+    ],
+    "correct": 0
+   },
+   "answer": "Le saxophone",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quelle couleur est le maillot du leader du Tour de France ?",
+    "choices": [
+     "Vert",
+     "Rouge",
+     "Bleu",
+     "Jaune"
+    ],
+    "correct": 3
+   },
+   "answer": "Jaune",
+   "level": "moyen",
+   "fact": "Le maillot jaune a été créé en 1919, car le journal organisateur était imprimé sur du papier jaune."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Français invente l'écriture en relief pour les aveugles ?",
+    "choices": [
+     "Denis Diderot",
+     "Louis Lumière",
+     "Blaise Pascal",
+     "Louis Braille"
+    ],
+    "correct": 3
+   },
+   "answer": "Louis Braille",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui met au point le daguerréotype, ancêtre de la photographie ?",
+    "choices": [
+     "Louis Lumière",
+     "Louis Daguerre",
+     "Étienne-Jules Marey",
+     "Gustave Eiffel"
+    ],
+    "correct": 1
+   },
+   "answer": "Louis Daguerre",
+   "level": "difficile",
+   "fact": "Les premiers portraits au daguerréotype demandaient de rester immobile pendant plusieurs minutes."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui invente le paratonnerre ?",
+    "choices": [
+     "Isaac Newton",
+     "Benjamin Franklin",
+     "Alessandro Volta",
+     "Galilée"
+    ],
+    "correct": 1
+   },
+   "answer": "Benjamin Franklin",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Italien réalise les premières liaisons radio transatlantiques ?",
+    "choices": [
+     "Volta",
+     "Galilée",
+     "Fermi",
+     "Marconi"
+    ],
+    "correct": 3
+   },
+   "answer": "Marconi",
+   "level": "difficile",
+   "fact": "Marconi a reçu le prix Nobel de physique en 1909 pour ses travaux sur la radio."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la largeur d'un but de football ?",
+    "choices": [
+     "6,50 m",
+     "8 m",
+     "7 m",
+     "7,32 m"
+    ],
+    "correct": 3
+   },
+   "answer": "7,32 m",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fromage est réputé pour ses gros trous ?",
+    "choices": [
+     "Le brie",
+     "Le camembert",
+     "L'emmental",
+     "Le roquefort"
+    ],
+    "correct": 2
+   },
+   "answer": "L'emmental",
+   "level": "facile",
+   "fact": "Les trous de l'emmental sont dus à des bulles de gaz formées pendant l'affinage."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit la pièce « Roméo et Juliette » ?",
+    "choices": [
+     "Molière",
+     "Racine",
+     "Shakespeare",
+     "Corneille"
+    ],
+    "correct": 2
+   },
+   "answer": "Shakespeare",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui met au point le premier vaccin, contre la variole, en 1796 ?",
+    "choices": [
+     "Louis Pasteur",
+     "Robert Koch",
+     "Edward Jenner",
+     "Alexander Fleming"
+    ],
+    "correct": 2
+   },
+   "answer": "Edward Jenner",
+   "level": "impossible",
+   "fact": "Jenner a eu l'idée du vaccin en observant des fermières qui avaient attrapé la maladie des vaches."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient la poutine ?",
+    "choices": [
+     "La Suède",
+     "L'Australie",
+     "La Suisse",
+     "Le Canada"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Canada",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé la « Symphonie fantastique » ?",
+    "choices": [
+     "Hector Berlioz",
+     "Gabriel Fauré",
+     "Camille Saint-Saëns",
+     "César Franck"
+    ],
+    "correct": 0
+   },
+   "answer": "Hector Berlioz",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient la pizza ?",
+    "choices": [
+     "La Grèce",
+     "L'Espagne",
+     "L'Italie",
+     "L'Allemagne"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Italie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quoi fabrique-t-on le chocolat ?",
+    "choices": [
+     "Du café",
+     "Des fèves de cacao",
+     "De la vanille",
+     "Des noisettes"
+    ],
+    "correct": 1
+   },
+   "answer": "Des fèves de cacao",
+   "level": "facile",
+   "fact": "Les fèves de cacao poussent dans de grosses cabosses sur le cacaoyer."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Le Cri » ?",
+    "choices": [
+     "Edvard Munch",
+     "Gustav Klimt",
+     "Egon Schiele",
+     "Paul Gauguin"
+    ],
+    "correct": 0
+   },
+   "answer": "Edvard Munch",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on la zone de gazon ras où se trouve le trou, au golf ?",
+    "choices": [
+     "Un court",
+     "Un green",
+     "Un ring",
+     "Une piste"
+    ],
+    "correct": 1
+   },
+   "answer": "Un green",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient le taco ?",
+    "choices": [
+     "L'Argentine",
+     "L'Espagne",
+     "Le Mexique",
+     "Le Canada"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Mexique",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de points vaut un lancer franc au basket ?",
+    "choices": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "correct": 0
+   },
+   "answer": "1",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle céréale sert à fabriquer la polenta ?",
+    "choices": [
+     "Le blé",
+     "Le maïs",
+     "Le riz",
+     "L'avoine"
+    ],
+    "correct": 1
+   },
+   "answer": "Le maïs",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé la suite « Les Planètes » ?",
+    "choices": [
+     "Edward Elgar",
+     "Benjamin Britten",
+     "Jean Sibelius",
+     "Gustav Holst"
+    ],
+    "correct": 3
+   },
+   "answer": "Gustav Holst",
+   "level": "impossible",
+   "fact": "Dans « Les Planètes » de Holst, il n'y a pas la Terre, et Pluton n'était pas encore découverte."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel appareil de la cuisine garde les aliments au froid ?",
+    "choices": [
+     "Le four",
+     "Le mixeur",
+     "Le réfrigérateur",
+     "Le grille-pain"
+    ],
+    "correct": 2
+   },
+   "answer": "Le réfrigérateur",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En peinture, quelle est la couleur complémentaire du rouge ?",
+    "choices": [
+     "Le bleu",
+     "Le jaune",
+     "L'orange",
+     "Le vert"
+    ],
+    "correct": 3
+   },
+   "answer": "Le vert",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel plat péruvien est du poisson cru mariné au citron vert ?",
+    "choices": [
+     "Le gaspacho",
+     "Le sashimi",
+     "Le tartare",
+     "Le ceviche"
+    ],
+    "correct": 3
+   },
+   "answer": "Le ceviche",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quoi est fait le fromage ?",
+    "choices": [
+     "De farine",
+     "D'œufs",
+     "De lait",
+     "De riz"
+    ],
+    "correct": 2
+   },
+   "answer": "De lait",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel plat éthiopien est une grande galette spongieuse ?",
+    "choices": [
+     "Le naan",
+     "Le chapati",
+     "L'injera",
+     "Le pita"
+    ],
+    "correct": 2
+   },
+   "answer": "L'injera",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel plat est un classique du Royaume-Uni avec du poisson et des frites ?",
+    "choices": [
+     "Le fish and chips",
+     "Le tajine",
+     "Le couscous",
+     "Le ceviche"
+    ],
+    "correct": 0
+   },
+   "answer": "Le fish and chips",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le terrain de tennis ?",
+    "choices": [
+     "Un stade",
+     "Une piste",
+     "Un ring",
+     "Un court"
+    ],
+    "correct": 3
+   },
+   "answer": "Un court",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs compte une équipe de water-polo dans l'eau ?",
+    "choices": [
+     "6",
+     "9",
+     "11",
+     "7"
+    ],
+    "correct": 3
+   },
+   "answer": "7",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la hauteur d'un but de football ?",
+    "choices": [
+     "2,44 m",
+     "2 m",
+     "2,75 m",
+     "3 m"
+    ],
+    "correct": 0
+   },
+   "answer": "2,44 m",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle région du monde le couscous est-il un plat traditionnel ?",
+    "choices": [
+     "La Scandinavie",
+     "Le Maghreb",
+     "L'Amérique du Sud",
+     "L'Océanie"
+    ],
+    "correct": 1
+   },
+   "answer": "Le Maghreb",
+   "level": "facile",
+   "fact": "Le couscous est inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2020."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quels frères réalisent le premier vol motorisé en 1903 ?",
+    "choices": [
+     "Les frères Montgolfier",
+     "Les frères Grimm",
+     "Les frères Goncourt",
+     "Les frères Wright"
+    ],
+    "correct": 3
+   },
+   "answer": "Les frères Wright",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de cordes possède un violon ?",
+    "choices": [
+     "5",
+     "4",
+     "6",
+     "3"
+    ],
+    "correct": 1
+   },
+   "answer": "4",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien d'anneaux compte le symbole olympique ?",
+    "choices": [
+     "4",
+     "6",
+     "5",
+     "7"
+    ],
+    "correct": 2
+   },
+   "answer": "5",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de touches possède un piano standard ?",
+    "choices": [
+     "66",
+     "100",
+     "88",
+     "76"
+    ],
+    "correct": 2
+   },
+   "answer": "88",
+   "level": "facile",
+   "fact": "Un piano standard compte 52 touches blanches et 36 touches noires."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quelle matière fabrique-t-on le papier ?",
+    "choices": [
+     "Le verre",
+     "Le métal",
+     "Le plastique",
+     "Le bois"
+    ],
+    "correct": 3
+   },
+   "answer": "Le bois",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel sport marque-t-on un ippon ?",
+    "choices": [
+     "Le judo",
+     "Le tennis",
+     "Le golf",
+     "Le rugby"
+    ],
+    "correct": 0
+   },
+   "answer": "Le judo",
+   "level": "moyen",
+   "fact": "Le mot ippon veut dire « un point » en japonais."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « La Ronde de nuit » ?",
+    "choices": [
+     "Vermeer",
+     "Rubens",
+     "Van Dyck",
+     "Rembrandt"
+    ],
+    "correct": 3
+   },
+   "answer": "Rembrandt",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel outil sert à planter un clou ?",
+    "choices": [
+     "Le marteau",
+     "La scie",
+     "Le tournevis",
+     "La pince"
+    ],
+    "correct": 0
+   },
+   "answer": "Le marteau",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient le goulasch ?",
+    "choices": [
+     "La Hongrie",
+     "Le Portugal",
+     "La Belgique",
+     "L'Irlande"
+    ],
+    "correct": 0
+   },
+   "answer": "La Hongrie",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de pièces possède chaque joueur au début d'une partie d'échecs ?",
+    "choices": [
+     "12",
+     "8",
+     "20",
+     "16"
+    ],
+    "correct": 3
+   },
+   "answer": "16",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sport associe natation, vélo et course à pied ?",
+    "choices": [
+     "Le biathlon",
+     "Le pentathlon",
+     "Le triathlon",
+     "Le décathlon"
+    ],
+    "correct": 2
+   },
+   "answer": "Le triathlon",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quelle matière fabrique-t-on les pneus de voiture ?",
+    "choices": [
+     "Le verre",
+     "Le caoutchouc",
+     "Le bois",
+     "Le coton"
+    ],
+    "correct": 1
+   },
+   "answer": "Le caoutchouc",
+   "level": "facile",
+   "fact": "Le caoutchouc naturel vient de la sève d'un arbre, l'hévéa."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de quilles y a-t-il au bowling ?",
+    "choices": [
+     "8",
+     "9",
+     "10",
+     "12"
+    ],
+    "correct": 2
+   },
+   "answer": "10",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel compositeur écrit la « Neuvième Symphonie » avec l'« Ode à la joie » ?",
+    "choices": [
+     "Mozart",
+     "Beethoven",
+     "Brahms",
+     "Bach"
+    ],
+    "correct": 1
+   },
+   "answer": "Beethoven",
+   "level": "difficile",
+   "fact": "Beethoven était presque sourd quand il a composé sa Neuvième Symphonie."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a rénové les Jeux olympiques modernes ?",
+    "choices": [
+     "Jules Rimet",
+     "Henri Desgrange",
+     "Paul Bocuse",
+     "Pierre de Coubertin"
+    ],
+    "correct": 3
+   },
+   "answer": "Pierre de Coubertin",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays est célèbre pour le kimchi ?",
+    "choices": [
+     "La Chine",
+     "La Thaïlande",
+     "La Corée",
+     "La Mongolie"
+    ],
+    "correct": 2
+   },
+   "answer": "La Corée",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+    "choices": [
+     "2 ans",
+     "3 ans",
+     "5 ans",
+     "4 ans"
+    ],
+    "correct": 3
+   },
+   "answer": "4 ans",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quelle plante fabrique-t-on le tofu ?",
+    "choices": [
+     "Le maïs",
+     "Le blé",
+     "Le soja",
+     "Le sarrasin"
+    ],
+    "correct": 2
+   },
+   "answer": "Le soja",
+   "level": "moyen",
+   "fact": "Le tofu se fabrique avec du lait de soja caillé."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sport se pratique avec un ballon ovale ?",
+    "choices": [
+     "Le football",
+     "Le rugby",
+     "Le volley",
+     "Le handball"
+    ],
+    "correct": 1
+   },
+   "answer": "Le rugby",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle couleur obtient-on en mélangeant rouge et jaune ?",
+    "choices": [
+     "Orange",
+     "Vert",
+     "Violet",
+     "Marron"
+    ],
+    "correct": 0
+   },
+   "answer": "Orange",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé « Clair de lune » ?",
+    "choices": [
+     "Frédéric Chopin",
+     "Franz Liszt",
+     "Claude Debussy",
+     "Erik Satie"
+    ],
+    "correct": 2
+   },
+   "answer": "Claude Debussy",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Le Jardin des délices » ?",
+    "choices": [
+     "Jérôme Bosch",
+     "Pieter Bruegel",
+     "Rubens",
+     "Vermeer"
+    ],
+    "correct": 0
+   },
+   "answer": "Jérôme Bosch",
+   "level": "impossible",
+   "fact": "Jérôme Bosch tire son nom de sa ville, Bois-le-Duc, aux Pays-Bas."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs défendent sur un terrain de baseball ?",
+    "choices": [
+     "7",
+     "9",
+     "11",
+     "8"
+    ],
+    "correct": 1
+   },
+   "answer": "9",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui invente la pile électrique en 1800 ?",
+    "choices": [
+     "Thomas Edison",
+     "Michael Faraday",
+     "Alessandro Volta",
+     "Benjamin Franklin"
+    ],
+    "correct": 2
+   },
+   "answer": "Alessandro Volta",
+   "level": "difficile",
+   "fact": "L'unité de tension électrique, le volt, porte le nom d'Alessandro Volta."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « La Liberté guidant le peuple » ?",
+    "choices": [
+     "Gustave Courbet",
+     "Eugène Delacroix",
+     "Édouard Manet",
+     "Jacques-Louis David"
+    ],
+    "correct": 1
+   },
+   "answer": "Eugène Delacroix",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville accueille les Jeux olympiques d'été de 1900 et 1924 ?",
+    "choices": [
+     "Paris",
+     "Londres",
+     "Anvers",
+     "Amsterdam"
+    ],
+    "correct": 0
+   },
+   "answer": "Paris",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quel produit laitier fabrique-t-on le beurre ?",
+    "choices": [
+     "Le yaourt",
+     "Le fromage blanc",
+     "Le petit-suisse",
+     "La crème"
+    ],
+    "correct": 3
+   },
+   "answer": "La crème",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle pièce du jeu d'échecs se déplace en L ?",
+    "choices": [
+     "Le fou",
+     "La tour",
+     "Le cavalier",
+     "La reine"
+    ],
+    "correct": 2
+   },
+   "answer": "Le cavalier",
+   "level": "moyen",
+   "fact": "Le cavalier est la seule pièce des échecs qui peut sauter par-dessus les autres."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de boules a chaque joueur en tête-à-tête à la pétanque ?",
+    "choices": [
+     "2",
+     "4",
+     "3",
+     "6"
+    ],
+    "correct": 2
+   },
+   "answer": "3",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui invente le moteur diesel ?",
+    "choices": [
+     "Karl Benz",
+     "Rudolf Diesel",
+     "Henry Ford",
+     "Nicolaus Otto"
+    ],
+    "correct": 1
+   },
+   "answer": "Rudolf Diesel",
+   "level": "impossible",
+   "fact": "Rudolf Diesel a donné son nom au moteur, mais aussi au carburant qu'il utilise."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la hauteur d'un filet de volley masculin ?",
+    "choices": [
+     "2,24 m",
+     "2,43 m",
+     "2,60 m",
+     "2,10 m"
+    ],
+    "correct": 1
+   },
+   "answer": "2,43 m",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Les Époux Arnolfini » ?",
+    "choices": [
+     "Rembrandt",
+     "Dürer",
+     "Holbein",
+     "Jan van Eyck"
+    ],
+    "correct": 3
+   },
+   "answer": "Jan van Eyck",
+   "level": "impossible",
+   "fact": "Jan van Eyck a contribué à populariser la peinture à l'huile."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel objet porte-t-on au poignet pour lire l'heure ?",
+    "choices": [
+     "La montre",
+     "Le bracelet",
+     "La bague",
+     "Le collier"
+    ],
+    "correct": 0
+   },
+   "answer": "La montre",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelles pâtes sont longues et fines ?",
+    "choices": [
+     "Les lasagnes",
+     "Les spaghettis",
+     "Les raviolis",
+     "Les gnocchis"
+    ],
+    "correct": 1
+   },
+   "answer": "Les spaghettis",
+   "level": "facile",
+   "fact": "Le mot spaghetti vient de l'italien « spago », qui veut dire ficelle."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Les Ménines » ?",
+    "choices": [
+     "Goya",
+     "Le Greco",
+     "Vélasquez",
+     "Murillo"
+    ],
+    "correct": 2
+   },
+   "answer": "Vélasquez",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient le tajine ?",
+    "choices": [
+     "Le Japon",
+     "Le Maroc",
+     "Le Pérou",
+     "La Norvège"
+    ],
+    "correct": 1
+   },
+   "answer": "Le Maroc",
+   "level": "moyen",
+   "fact": "Le tajine porte le même nom que le plat en terre cuite à couvercle conique."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la masse du poids en athlétisme masculin ?",
+    "choices": [
+     "5 kg",
+     "7,26 kg",
+     "10 kg",
+     "6,5 kg"
+    ],
+    "correct": 1
+   },
+   "answer": "7,26 kg",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de points vaut un panier normal au basket ?",
+    "choices": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "correct": 1
+   },
+   "answer": "2",
+   "level": "facile",
+   "fact": "Le basket a été inventé en 1891, avec des paniers à pêches accrochés au mur."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la hauteur des haies au 110 m haies ?",
+    "choices": [
+     "0,914 m",
+     "1,25 m",
+     "1,067 m",
+     "0,762 m"
+    ],
+    "correct": 2
+   },
+   "answer": "1,067 m",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de notes comporte la gamme de do ?",
+    "choices": [
+     "7",
+     "5",
+     "8",
+     "12"
+    ],
+    "correct": 0
+   },
+   "answer": "7",
+   "level": "facile",
+   "fact": "Les noms des notes viennent des premières syllabes d'un vieil hymne latin."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé l'opéra « Carmen » ?",
+    "choices": [
+     "Jacques Offenbach",
+     "Claude Debussy",
+     "Georges Bizet",
+     "Gabriel Fauré"
+    ],
+    "correct": 2
+   },
+   "answer": "Georges Bizet",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de minutes dure un match de rugby à XV ?",
+    "choices": [
+     "80",
+     "70",
+     "90",
+     "60"
+    ],
+    "correct": 0
+   },
+   "answer": "80",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui dépose le brevet du téléphone en 1876 ?",
+    "choices": [
+     "Graham Bell",
+     "Thomas Edison",
+     "Nikola Tesla",
+     "Samuel Morse"
+    ],
+    "correct": 0
+   },
+   "answer": "Graham Bell",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle longueur mesure un bassin olympique de natation ?",
+    "choices": [
+     "25 m",
+     "50 m",
+     "100 m",
+     "75 m"
+    ],
+    "correct": 1
+   },
+   "answer": "50 m",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien d'épreuves comporte le décathlon ?",
+    "choices": [
+     "7",
+     "8",
+     "12",
+     "10"
+    ],
+    "correct": 3
+   },
+   "answer": "10",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quel légume fait-on les frites ?",
+    "choices": [
+     "La pomme de terre",
+     "La carotte",
+     "Le navet",
+     "Le poireau"
+    ],
+    "correct": 0
+   },
+   "answer": "La pomme de terre",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « La Naissance de Vénus » ?",
+    "choices": [
+     "Raphaël",
+     "Botticelli",
+     "Titien",
+     "Giotto"
+    ],
+    "correct": 1
+   },
+   "answer": "Botticelli",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé « Le Carnaval des animaux » ?",
+    "choices": [
+     "Maurice Ravel",
+     "Erik Satie",
+     "Hector Berlioz",
+     "Camille Saint-Saëns"
+    ],
+    "correct": 3
+   },
+   "answer": "Camille Saint-Saëns",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Allemand invente l'imprimerie à caractères mobiles en Europe ?",
+    "choices": [
+     "Diesel",
+     "Daimler",
+     "Gutenberg",
+     "Röntgen"
+    ],
+    "correct": 2
+   },
+   "answer": "Gutenberg",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quel mode est conjugué le verbe dans « Mange ! » ?",
+    "choices": [
+     "À l'indicatif",
+     "À l'impératif",
+     "Au subjonctif",
+     "Au conditionnel"
+    ],
+    "correct": 1
+   },
+   "answer": "À l'impératif",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Laos ?",
+    "choices": [
+     "Hanoï",
+     "Phnom Penh",
+     "Vientiane",
+     "Rangoun"
+    ],
+    "correct": 2
+   },
+   "answer": "Vientiane",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Vietnam ?",
+    "choices": [
+     "Hô Chi Minh-Ville",
+     "Bangkok",
+     "Hanoï",
+     "Phnom Penh"
+    ],
+    "correct": 2
+   },
+   "answer": "Hanoï",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fleuve traverse Londres ?",
+    "choices": [
+     "La Seine",
+     "Le Rhin",
+     "Le Tibre",
+     "La Tamise"
+    ],
+    "correct": 3
+   },
+   "answer": "La Tamise",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de planètes compte le système solaire ?",
+    "choices": [
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "correct": 1
+   },
+   "answer": "8",
+   "level": "facile",
+   "fact": "Pluton a été reclassée planète naine en 2006."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle figure de style est « fort comme un lion » ?",
+    "choices": [
+     "Une métaphore",
+     "Une hyperbole",
+     "Une comparaison",
+     "Une litote"
+    ],
+    "correct": 2
+   },
+   "answer": "Une comparaison",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de secondes y a-t-il dans une heure ?",
+    "choices": [
+     "360",
+     "3 600",
+     "6 000",
+     "1 800"
+    ],
+    "correct": 1
+   },
+   "answer": "3 600",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on la Lune quand elle est entièrement éclairée ?",
+    "choices": [
+     "La pleine lune",
+     "Le croissant",
+     "Le premier quartier",
+     "La nouvelle lune"
+    ],
+    "correct": 0
+   },
+   "answer": "La pleine lune",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien d'arêtes possède un cube ?",
+    "choices": [
+     "12",
+     "8",
+     "6",
+     "10"
+    ],
+    "correct": 0
+   },
+   "answer": "12",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle figure de style rapproche deux termes opposés, comme « une obscure clarté » ?",
+    "choices": [
+     "La métaphore",
+     "L'oxymore",
+     "La litote",
+     "L'anaphore"
+    ],
+    "correct": 1
+   },
+   "answer": "L'oxymore",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus haute montagne du monde ?",
+    "choices": [
+     "Le mont Blanc",
+     "L'Everest",
+     "Le K2",
+     "Le Kilimandjaro"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Everest",
+   "level": "facile",
+   "fact": "L'Everest culmine à environ 8 849 mètres au-dessus du niveau de la mer."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la somme des nombres entiers de 1 à 100 ?",
+    "choices": [
+     "5 000",
+     "4 950",
+     "5 050",
+     "10 100"
+    ],
+    "correct": 2
+   },
+   "answer": "5 050",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la moitié de 90 ?",
+    "choices": [
+     "40",
+     "45",
+     "50",
+     "35"
+    ],
+    "correct": 1
+   },
+   "answer": "45",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle le phénomène où la Lune cache le Soleil ?",
+    "choices": [
+     "Une éclipse lunaire",
+     "Une éclipse solaire",
+     "Une aurore",
+     "Un équinoxe"
+    ],
+    "correct": 1
+   },
+   "answer": "Une éclipse solaire",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus grande lune de Saturne ?",
+    "choices": [
+     "Titan",
+     "Encelade",
+     "Rhéa",
+     "Japet"
+    ],
+    "correct": 0
+   },
+   "answer": "Titan",
+   "level": "impossible",
+   "fact": "Titan est la seule lune du système solaire à avoir une atmosphère épaisse."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Nigeria ?",
+    "choices": [
+     "Lagos",
+     "Accra",
+     "Kano",
+     "Abuja"
+    ],
+    "correct": 3
+   },
+   "answer": "Abuja",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la racine carrée de 144 ?",
+    "choices": [
+     "14",
+     "11",
+     "12",
+     "16"
+    ],
+    "correct": 2
+   },
+   "answer": "12",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est l'âge approximatif de l'univers ?",
+    "choices": [
+     "4,5 milliards d'années",
+     "1 milliard d'années",
+     "100 milliards d'années",
+     "13,8 milliards d'années"
+    ],
+    "correct": 3
+   },
+   "answer": "13,8 milliards d'années",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle figure de style est « cet homme est un roc » ?",
+    "choices": [
+     "Une comparaison",
+     "Une litote",
+     "Une antithèse",
+     "Une métaphore"
+    ],
+    "correct": 3
+   },
+   "answer": "Une métaphore",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de nombres premiers y a-t-il en dessous de 20 ?",
+    "choices": [
+     "7",
+     "9",
+     "10",
+     "8"
+    ],
+    "correct": 3
+   },
+   "answer": "8",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que vaut le nombre romain XL ?",
+    "choices": [
+     "60",
+     "90",
+     "14",
+     "40"
+    ],
+    "correct": 3
+   },
+   "answer": "40",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 2 puissance 5 ?",
+    "choices": [
+     "25",
+     "10",
+     "64",
+     "32"
+    ],
+    "correct": 3
+   },
+   "answer": "32",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 9 × 9 ?",
+    "choices": [
+     "72",
+     "99",
+     "81",
+     "90"
+    ],
+    "correct": 2
+   },
+   "answer": "81",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quel temps est conjugué « il mangea » ?",
+    "choices": [
+     "Au passé simple",
+     "À l'imparfait",
+     "Au futur",
+     "Au présent"
+    ],
+    "correct": 0
+   },
+   "answer": "Au passé simple",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est surnommée la planète bleue ?",
+    "choices": [
+     "La Terre",
+     "Neptune",
+     "Uranus",
+     "Mars"
+    ],
+    "correct": 0
+   },
+   "answer": "La Terre",
+   "level": "facile",
+   "fact": "La Terre est bleue vue de l'espace, car les océans couvrent environ 70 % de sa surface."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le féminin de « favori » ?",
+    "choices": [
+     "Favorie",
+     "Favoritte",
+     "Favorise",
+     "Favorite"
+    ],
+    "correct": 3
+   },
+   "answer": "Favorite",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle le plus haut volcan du système solaire ?",
+    "choices": [
+     "Mauna Kea",
+     "Etna",
+     "Kilimandjaro",
+     "Olympus Mons"
+    ],
+    "correct": 3
+   },
+   "answer": "Olympus Mons",
+   "level": "difficile",
+   "fact": "Olympus Mons, sur Mars, est environ deux fois et demie plus haut que l'Everest."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle le télescope spatial lancé en 1990 ?",
+    "choices": [
+     "Kepler",
+     "Spitzer",
+     "Hubble",
+     "Planck"
+    ],
+    "correct": 2
+   },
+   "answer": "Hubble",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouve le Grand Canyon ?",
+    "choices": [
+     "Les États-Unis",
+     "Le Mexique",
+     "Le Canada",
+     "L'Australie"
+    ],
+    "correct": 0
+   },
+   "answer": "Les États-Unis",
+   "level": "facile",
+   "fact": "Le Grand Canyon a été creusé par le fleuve Colorado pendant des millions d'années."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel savant observe quatre lunes de Jupiter en 1610 ?",
+    "choices": [
+     "Copernic",
+     "Galilée",
+     "Kepler",
+     "Newton"
+    ],
+    "correct": 1
+   },
+   "answer": "Galilée",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jours terrestres dure une année sur Mars ?",
+    "choices": [
+     "365",
+     "687",
+     "480",
+     "780"
+    ],
+    "correct": 1
+   },
+   "answer": "687",
+   "level": "impossible",
+   "fact": "Une année martienne dure presque deux années terrestres."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète tourne sur elle-même presque couchée sur le côté ?",
+    "choices": [
+     "Uranus",
+     "Neptune",
+     "Saturne",
+     "Mars"
+    ],
+    "correct": 0
+   },
+   "answer": "Uranus",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de secondes y a-t-il dans une minute ?",
+    "choices": [
+     "100",
+     "60",
+     "30",
+     "120"
+    ],
+    "correct": 1
+   },
+   "answer": "60",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle un polygone à huit côtés ?",
+    "choices": [
+     "Un octogone",
+     "Un hexagone",
+     "Un pentagone",
+     "Un décagone"
+    ],
+    "correct": 0
+   },
+   "answer": "Un octogone",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est l'étoile la plus proche du Soleil ?",
+    "choices": [
+     "Sirius",
+     "Bételgeuse",
+     "Vega",
+     "Proxima du Centaure"
+    ],
+    "correct": 3
+   },
+   "answer": "Proxima du Centaure",
+   "level": "difficile",
+   "fact": "La lumière de Proxima du Centaure met un peu plus de quatre ans à nous parvenir."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle la sonde lancée en 1977 aujourd'hui la plus éloignée de la Terre ?",
+    "choices": [
+     "Pioneer 10",
+     "Cassini",
+     "Voyager 1",
+     "Galileo"
+    ],
+    "correct": 2
+   },
+   "answer": "Voyager 1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la France ?",
+    "choices": [
+     "Paris",
+     "Lyon",
+     "Marseille",
+     "Toulouse"
+    ],
+    "correct": 0
+   },
+   "answer": "Paris",
+   "level": "facile",
+   "fact": "La tour Eiffel était prévue pour ne rester que 20 ans à Paris."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Tanzanie ?",
+    "choices": [
+     "Dodoma",
+     "Dar es Salam",
+     "Nairobi",
+     "Kampala"
+    ],
+    "correct": 0
+   },
+   "answer": "Dodoma",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de syllabes compte le mot « papillon » ?",
+    "choices": [
+     "2",
+     "4",
+     "3",
+     "5"
+    ],
+    "correct": 2
+   },
+   "answer": "3",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de zéros compte le nombre un million ?",
+    "choices": [
+     "5",
+     "7",
+     "6",
+     "9"
+    ],
+    "correct": 2
+   },
+   "answer": "6",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de Madagascar ?",
+    "choices": [
+     "Toamasina",
+     "Antananarivo",
+     "Maputo",
+     "Moroni"
+    ],
+    "correct": 1
+   },
+   "answer": "Antananarivo",
+   "level": "impossible",
+   "fact": "Madagascar est la quatrième plus grande île du monde."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le féminin du mot « chanteur » ?",
+    "choices": [
+     "Chanteuse",
+     "Chanteure",
+     "Chanteresse",
+     "Chanteuze"
+    ],
+    "correct": 0
+   },
+   "answer": "Chanteuse",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fleuve traverse Le Caire ?",
+    "choices": [
+     "Le Congo",
+     "Le Niger",
+     "Le Nil",
+     "Le Zambèze"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Nil",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est surnommée l'étoile du Berger ?",
+    "choices": [
+     "Mars",
+     "Jupiter",
+     "Vénus",
+     "Mercure"
+    ],
+    "correct": 2
+   },
+   "answer": "Vénus",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la somme des angles d'un quadrilatère ?",
+    "choices": [
+     "180°",
+     "360°",
+     "270°",
+     "540°"
+    ],
+    "correct": 1
+   },
+   "answer": "360°",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un nombre divisible par 2 ?",
+    "choices": [
+     "Un nombre impair",
+     "Un nombre premier",
+     "Un nombre pair",
+     "Un nombre carré"
+    ],
+    "correct": 2
+   },
+   "answer": "Un nombre pair",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le contraire de « chaud » ?",
+    "choices": [
+     "Froid",
+     "Tiède",
+     "Sec",
+     "Doux"
+    ],
+    "correct": 0
+   },
+   "answer": "Froid",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle notre galaxie ?",
+    "choices": [
+     "La Voie lactée",
+     "Andromède",
+     "Le Grand Nuage",
+     "Orion"
+    ],
+    "correct": 0
+   },
+   "answer": "La Voie lactée",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 2 puissance 10 ?",
+    "choices": [
+     "1 024",
+     "512",
+     "2 048",
+     "100"
+    ],
+    "correct": 0
+   },
+   "answer": "1 024",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 15 % de 200 ?",
+    "choices": [
+     "15",
+     "20",
+     "30",
+     "45"
+    ],
+    "correct": 2
+   },
+   "answer": "30",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un mot qui se lit dans les deux sens ?",
+    "choices": [
+     "Un synonyme",
+     "Un palindrome",
+     "Un anagramme",
+     "Un acronyme"
+    ],
+    "correct": 1
+   },
+   "answer": "Un palindrome",
+   "level": "moyen",
+   "fact": "Radar, kayak et ressasser se lisent dans les deux sens."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de lunes la planète Mars possède-t-elle ?",
+    "choices": [
+     "2",
+     "0",
+     "1",
+     "4"
+    ],
+    "correct": 0
+   },
+   "answer": "2",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle monnaie utilise-t-on en France ?",
+    "choices": [
+     "Le dollar",
+     "La livre",
+     "L'euro",
+     "Le franc suisse"
+    ],
+    "correct": 2
+   },
+   "answer": "L'euro",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus grande planète du système solaire ?",
+    "choices": [
+     "Jupiter",
+     "Saturne",
+     "Neptune",
+     "La Terre"
+    ],
+    "correct": 0
+   },
+   "answer": "Jupiter",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année est fondée l'Académie française ?",
+    "choices": [
+     "1789",
+     "1635",
+     "1500",
+     "1715"
+    ],
+    "correct": 1
+   },
+   "answer": "1635",
+   "level": "impossible",
+   "fact": "L'Académie française a été fondée en 1635 sous Richelieu pour veiller sur la langue."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien d'heures y a-t-il dans une semaine ?",
+    "choices": [
+     "144",
+     "168",
+     "156",
+     "192"
+    ],
+    "correct": 1
+   },
+   "answer": "168",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Maroc ?",
+    "choices": [
+     "Casablanca",
+     "Rabat",
+     "Marrakech",
+     "Fès"
+    ],
+    "correct": 1
+   },
+   "answer": "Rabat",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le résultat de 3 + 4 × 2 ?",
+    "choices": [
+     "14",
+     "10",
+     "24",
+     "11"
+    ],
+    "correct": 3
+   },
+   "answer": "11",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la somme des angles d'un triangle ?",
+    "choices": [
+     "180°",
+     "90°",
+     "270°",
+     "360°"
+    ],
+    "correct": 0
+   },
+   "answer": "180°",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 100 ÷ 4 ?",
+    "choices": [
+     "20",
+     "25",
+     "40",
+     "50"
+    ],
+    "correct": 1
+   },
+   "answer": "25",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur quel continent se trouve l'Égypte ?",
+    "choices": [
+     "L'Asie",
+     "L'Afrique",
+     "L'Europe",
+     "L'Océanie"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Afrique",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Irlande ?",
+    "choices": [
+     "Belfast",
+     "Cork",
+     "Galway",
+     "Dublin"
+    ],
+    "correct": 3
+   },
+   "answer": "Dublin",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le masculin de « lionne » ?",
+    "choices": [
+     "Lioneau",
+     "Lionon",
+     "Tigre",
+     "Lion"
+    ],
+    "correct": 3
+   },
+   "answer": "Lion",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel nombre est écrit MCMXC en chiffres romains ?",
+    "choices": [
+     "1990",
+     "1890",
+     "1900",
+     "2090"
+    ],
+    "correct": 0
+   },
+   "answer": "1990",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est la plus chaude du système solaire ?",
+    "choices": [
+     "Mercure",
+     "Mars",
+     "Jupiter",
+     "Vénus"
+    ],
+    "correct": 3
+   },
+   "answer": "Vénus",
+   "level": "moyen",
+   "fact": "Vénus est plus chaude que Mercure, pourtant plus proche du Soleil, à cause de son atmosphère."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la distance moyenne entre la Terre et la Lune ?",
+    "choices": [
+     "384 000 km",
+     "38 400 km",
+     "3 840 000 km",
+     "150 000 km"
+    ],
+    "correct": 0
+   },
+   "answer": "384 000 km",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est l'aire d'un carré de 5 cm de côté ?",
+    "choices": [
+     "20 cm²",
+     "25 cm²",
+     "10 cm²",
+     "15 cm²"
+    ],
+    "correct": 1
+   },
+   "answer": "25 cm²",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel du mot « bijou » ?",
+    "choices": [
+     "Bijous",
+     "Bijoues",
+     "Bijoutx",
+     "Bijoux"
+    ],
+    "correct": 3
+   },
+   "answer": "Bijoux",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le carré de l'unité imaginaire i ?",
+    "choices": [
+     "-1",
+     "1",
+     "0",
+     "i"
+    ],
+    "correct": 0
+   },
+   "answer": "-1",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la nature du mot « rapidement » ?",
+    "choices": [
+     "Un adjectif",
+     "Un verbe",
+     "Un nom",
+     "Un adverbe"
+    ],
+    "correct": 3
+   },
+   "answer": "Un adverbe",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est l'étoile la plus brillante du ciel nocturne ?",
+    "choices": [
+     "Polaris",
+     "Vega",
+     "Bételgeuse",
+     "Sirius"
+    ],
+    "correct": 3
+   },
+   "answer": "Sirius",
+   "level": "impossible",
+   "fact": "Sirius est surnommée l'étoile du Chien, car elle fait partie de la constellation du Grand Chien."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un astre à longue queue lumineuse ?",
+    "choices": [
+     "Une étoile filante",
+     "Un satellite",
+     "Une galaxie",
+     "Une comète"
+    ],
+    "correct": 3
+   },
+   "answer": "Une comète",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays est aussi un continent ?",
+    "choices": [
+     "Le Canada",
+     "L'Australie",
+     "La Chine",
+     "L'Inde"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Australie",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Royaume-Uni ?",
+    "choices": [
+     "Londres",
+     "Manchester",
+     "Édimbourg",
+     "Liverpool"
+    ],
+    "correct": 0
+   },
+   "answer": "Londres",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui est le premier humain dans l'espace, en 1961 ?",
+    "choices": [
+     "Neil Armstrong",
+     "Buzz Aldrin",
+     "Youri Gagarine",
+     "Alan Shepard"
+    ],
+    "correct": 2
+   },
+   "answer": "Youri Gagarine",
+   "level": "moyen",
+   "fact": "Youri Gagarine a fait le tour de la Terre en environ 108 minutes, le 12 avril 1961."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien vaut 5 factorielle (5!) ?",
+    "choices": [
+     "25",
+     "60",
+     "120",
+     "720"
+    ],
+    "correct": 2
+   },
+   "answer": "120",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel astre change de forme au fil du mois dans le ciel ?",
+    "choices": [
+     "Le Soleil",
+     "Vénus",
+     "Sirius",
+     "La Lune"
+    ],
+    "correct": 3
+   },
+   "answer": "La Lune",
+   "level": "facile",
+   "fact": "La Lune s'éloigne de la Terre d'environ quatre centimètres par an."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de côtés a un carré ?",
+    "choices": [
+     "3",
+     "5",
+     "6",
+     "4"
+    ],
+    "correct": 3
+   },
+   "answer": "4",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit continent ?",
+    "choices": [
+     "L'Europe",
+     "L'Océanie",
+     "L'Antarctique",
+     "L'Amérique du Sud"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Océanie",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus grande lune de Neptune ?",
+    "choices": [
+     "Titan",
+     "Triton",
+     "Charon",
+     "Ganymède"
+    ],
+    "correct": 1
+   },
+   "answer": "Triton",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville est connue pour sa tour penchée ?",
+    "choices": [
+     "Rome",
+     "Florence",
+     "Pise",
+     "Milan"
+    ],
+    "correct": 2
+   },
+   "answer": "Pise",
+   "level": "facile",
+   "fact": "La tour de Pise penche depuis sa construction, car son sol est trop mou."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui est le premier homme à marcher sur la Lune ?",
+    "choices": [
+     "Youri Gagarine",
+     "Buzz Aldrin",
+     "Michael Collins",
+     "Neil Armstrong"
+    ],
+    "correct": 3
+   },
+   "answer": "Neil Armstrong",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le participe passé du verbe « venir » ?",
+    "choices": [
+     "Venant",
+     "Venit",
+     "Venu",
+     "Venn"
+    ],
+    "correct": 2
+   },
+   "answer": "Venu",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle la figure de style qui dit moins pour suggérer plus ?",
+    "choices": [
+     "La litote",
+     "L'hyperbole",
+     "L'antithèse",
+     "L'ellipse"
+    ],
+    "correct": 0
+   },
+   "answer": "La litote",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel astronome place le Soleil au centre de l'univers connu ?",
+    "choices": [
+     "Ptolémée",
+     "Aristote",
+     "Copernic",
+     "Tycho Brahe"
+    ],
+    "correct": 2
+   },
+   "answer": "Copernic",
+   "level": "difficile",
+   "fact": "Copernic a publié sa théorie en 1543, l'année de sa mort."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jours compte le mois de juin ?",
+    "choices": [
+     "30",
+     "31",
+     "29",
+     "28"
+    ],
+    "correct": 0
+   },
+   "answer": "30",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 15 + 27 ?",
+    "choices": [
+     "32",
+     "43",
+     "52",
+     "42"
+    ],
+    "correct": 3
+   },
+   "answer": "42",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la planète la plus éloignée du Soleil ?",
+    "choices": [
+     "Uranus",
+     "Neptune",
+     "Saturne",
+     "Jupiter"
+    ],
+    "correct": 1
+   },
+   "answer": "Neptune",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on les mots qui se prononcent pareil mais s'écrivent différemment ?",
+    "choices": [
+     "Des synonymes",
+     "Des antonymes",
+     "Des homophones",
+     "Des paronymes"
+    ],
+    "correct": 2
+   },
+   "answer": "Des homophones",
+   "level": "difficile",
+   "fact": "« Vert », « verre » et « ver » sont des homophones."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de degrés compte un angle droit ?",
+    "choices": [
+     "45°",
+     "180°",
+     "60°",
+     "90°"
+    ],
+    "correct": 3
+   },
+   "answer": "90°",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Autour de quel astre la Terre tourne-t-elle ?",
+    "choices": [
+     "La Lune",
+     "Mars",
+     "Le Soleil",
+     "Jupiter"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Soleil",
+   "level": "facile",
+   "fact": "Le Soleil représente à lui seul presque toute la masse du système solaire."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le double de 35 ?",
+    "choices": [
+     "70",
+     "65",
+     "75",
+     "60"
+    ],
+    "correct": 0
+   },
+   "answer": "70",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le féminin du mot « acteur » ?",
+    "choices": [
+     "Acteuse",
+     "Actrix",
+     "Actoresse",
+     "Actrice"
+    ],
+    "correct": 3
+   },
+   "answer": "Actrice",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle langue parle-t-on en Espagne ?",
+    "choices": [
+     "Le portugais",
+     "L'italien",
+     "Le grec",
+     "L'espagnol"
+    ],
+    "correct": 3
+   },
+   "answer": "L'espagnol",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète a le jour le plus court du système solaire ?",
+    "choices": [
+     "Mercure",
+     "Jupiter",
+     "Mars",
+     "Vénus"
+    ],
+    "correct": 1
+   },
+   "answer": "Jupiter",
+   "level": "difficile",
+   "fact": "Sur Jupiter, un jour dure moins de dix heures."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le périmètre d'un carré de 4 cm de côté ?",
+    "choices": [
+     "8 cm",
+     "12 cm",
+     "16 cm",
+     "4 cm"
+    ],
+    "correct": 2
+   },
+   "answer": "16 cm",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de lettres compte « anticonstitutionnellement » ?",
+    "choices": [
+     "25",
+     "21",
+     "27",
+     "30"
+    ],
+    "correct": 0
+   },
+   "answer": "25",
+   "level": "impossible",
+   "fact": "« Anticonstitutionnellement » est souvent cité comme le plus long mot de la langue française."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel du mot « journal » ?",
+    "choices": [
+     "Journals",
+     "Journaux",
+     "Journales",
+     "Journaus"
+    ],
+    "correct": 1
+   },
+   "answer": "Journaux",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on une étoile qui explose ?",
+    "choices": [
+     "Une comète",
+     "Une nébuleuse",
+     "Une supernova",
+     "Un astéroïde"
+    ],
+    "correct": 2
+   },
+   "answer": "Une supernova",
+   "level": "moyen",
+   "fact": "Une supernova peut briller autant qu'une galaxie entière pendant quelques semaines."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de temps la lumière du Soleil met-elle pour arriver sur Terre ?",
+    "choices": [
+     "8 secondes",
+     "8 heures",
+     "8 minutes",
+     "1 jour"
+    ],
+    "correct": 2
+   },
+   "answer": "8 minutes",
+   "level": "moyen"
+  }
+ ]
+}

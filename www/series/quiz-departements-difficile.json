@@ -1,0 +1,271 @@
+{
+  "path": "/quiz-departements-difficile",
+  "theme": "geographie",
+  "title": "Quiz départements difficile : 20 questions",
+  "description": "Quiz difficile sur les départements français : sous-préfectures, fleuves éponymes et anciennes provinces. 20 questions pour les passionnés de géographie.",
+  "h1": "Quiz départements difficile : sous-préfectures, fleuves et provinces",
+  "intro": "Tu connais les numéros et les préfectures ? Passons à la vitesse supérieure ! Ce quiz de 20 questions explore les coulisses de la géographie administrative : sous-préfectures célèbres, cours d'eau qui ont donné leur nom aux départements et anciennes provinces de l'Ancien Régime. Les huit premières questions restent abordables, les huit suivantes réclament de la culture, et les quatre dernières sont réservées aux experts. Compte environ 5 secondes par question, ne triche pas avec une carte, et découvre jusqu'où va ta connaissance de la France !",
+  "questions": [
+    {
+      "q": "Dunkerque est une sous-préfecture de quel département ?",
+      "choices": [
+        "Le Pas-de-Calais",
+        "Le Nord",
+        "La Somme",
+        "L'Aisne"
+      ],
+      "answer": 1,
+      "explication": "Dunkerque, grand port de la mer du Nord, est une sous-préfecture du département du Nord, dont la préfecture est Lille.",
+      "level": "facile"
+    },
+    {
+      "q": "Reims est une sous-préfecture de quel département ?",
+      "choices": [
+        "L'Aisne",
+        "Les Ardennes",
+        "L'Aube",
+        "La Marne"
+      ],
+      "answer": 3,
+      "explication": "Reims, ville du sacre des rois de France, est la plus grande ville de la Marne mais seulement une sous-préfecture.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle ancienne province avait Rennes pour capitale ?",
+      "choices": [
+        "La Bretagne",
+        "La Normandie",
+        "L'Anjou",
+        "Le Maine"
+      ],
+      "answer": 0,
+      "explication": "Rennes fut la capitale du duché de Bretagne, réuni à la France en 1532.",
+      "level": "facile"
+    },
+    {
+      "q": "Le Havre est une sous-préfecture de quel département ?",
+      "choices": [
+        "Le Calvados",
+        "L'Eure",
+        "La Seine-Maritime",
+        "La Manche"
+      ],
+      "answer": 2,
+      "explication": "Le Havre, premier port de France pour les conteneurs, dépend de la Seine-Maritime, dont la préfecture est Rouen.",
+      "level": "facile"
+    },
+    {
+      "q": "Mulhouse est une sous-préfecture de quel département ?",
+      "choices": [
+        "Le Bas-Rhin",
+        "Le Territoire de Belfort",
+        "Le Haut-Rhin",
+        "Le Doubs"
+      ],
+      "answer": 2,
+      "explication": "Mulhouse est la plus grande ville du Haut-Rhin, dont la préfecture est Colmar.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle ancienne province avait Nancy pour capitale ?",
+      "choices": [
+        "La Lorraine",
+        "L'Alsace",
+        "La Champagne",
+        "La Franche-Comté"
+      ],
+      "answer": 0,
+      "explication": "Nancy fut la capitale des ducs de Lorraine, dont la place Stanislas est l'un des joyaux.",
+      "level": "facile"
+    },
+    {
+      "q": "Grasse, célèbre pour ses parfums, est sous-préfecture de quel département ?",
+      "choices": [
+        "Le Var",
+        "Le Vaucluse",
+        "Les Bouches-du-Rhône",
+        "Les Alpes-Maritimes"
+      ],
+      "answer": 3,
+      "explication": "Grasse est la capitale mondiale du parfum et une sous-préfecture des Alpes-Maritimes, dont la préfecture est Nice.",
+      "level": "facile"
+    },
+    {
+      "q": "Dans quelle ancienne province se trouve Strasbourg ?",
+      "choices": [
+        "La Lorraine",
+        "L'Alsace",
+        "La Franche-Comté",
+        "La Champagne"
+      ],
+      "answer": 1,
+      "explication": "Strasbourg est la capitale historique de l'Alsace, aujourd'hui intégrée à la région Grand Est.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle ancienne province avait Dijon pour capitale ?",
+      "choices": [
+        "La Bourgogne",
+        "La Franche-Comté",
+        "La Champagne",
+        "Le Nivernais"
+      ],
+      "answer": 0,
+      "explication": "Dijon fut la capitale des ducs de Bourgogne, un des États les plus puissants d'Europe au XVe siècle.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle ville fut la capitale historique de la Provence ?",
+      "choices": [
+        "Marseille",
+        "Avignon",
+        "Aix-en-Provence",
+        "Toulon"
+      ],
+      "answer": 2,
+      "explication": "Aix-en-Provence fut la capitale des comtes de Provence, puis le siège du parlement de Provence créé en 1501.",
+      "level": "moyen"
+    },
+    {
+      "q": "De quel cours d'eau le département du Gard tient-il son nom ?",
+      "choices": [
+        "Le Rhône",
+        "Le Gardon",
+        "L'Hérault",
+        "La Cèze"
+      ],
+      "answer": 1,
+      "explication": "Le Gard doit son nom au Gardon, appelé aussi Gard, qui traverse notamment le pont du Gard.",
+      "level": "moyen"
+    },
+    {
+      "q": "Cognac, ville célèbre pour son eau-de-vie, est sous-préfecture de quel département ?",
+      "choices": [
+        "La Charente-Maritime",
+        "La Dordogne",
+        "La Gironde",
+        "La Charente"
+      ],
+      "answer": 3,
+      "explication": "Cognac est une sous-préfecture de la Charente, dont la préfecture est Angoulême.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle ancienne province avait Rouen pour capitale ?",
+      "choices": [
+        "La Picardie",
+        "Le Maine",
+        "Le Perche",
+        "La Normandie"
+      ],
+      "answer": 3,
+      "explication": "Rouen, siège de l'Échiquier puis du parlement de Normandie, était la capitale historique de la province.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quel département se trouve la sous-préfecture de Saint-Malo ?",
+      "choices": [
+        "Les Côtes-d'Armor",
+        "L'Ille-et-Vilaine",
+        "Le Finistère",
+        "La Manche"
+      ],
+      "answer": 1,
+      "explication": "Saint-Malo, la cité corsaire, est une sous-préfecture d'Ille-et-Vilaine, dont la préfecture est Rennes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Grenoble fut la capitale de quelle ancienne province ?",
+      "choices": [
+        "La Savoie",
+        "Le Lyonnais",
+        "Le Dauphiné",
+        "Le Vivarais"
+      ],
+      "answer": 2,
+      "explication": "Le Dauphiné, dont Grenoble était la capitale, a été cédé à la France en 1349 par le dauphin Humbert II.",
+      "level": "moyen"
+    },
+    {
+      "q": "Lorient est une sous-préfecture de quel département ?",
+      "choices": [
+        "Le Morbihan",
+        "Le Finistère",
+        "Les Côtes-d'Armor",
+        "La Loire-Atlantique"
+      ],
+      "answer": 0,
+      "explication": "Lorient, ancienne ville de la Compagnie des Indes, est une sous-préfecture du Morbihan, dont la préfecture est Vannes.",
+      "level": "moyen"
+    },
+    {
+      "q": "L'Aveyron, qui donne son nom au département, est un affluent de quelle rivière ?",
+      "choices": [
+        "Le Lot",
+        "La Garonne",
+        "Le Tarn",
+        "La Dordogne"
+      ],
+      "answer": 2,
+      "explication": "L'Aveyron, rivière qui donne son nom au département, se jette dans le Tarn près de Montauban.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle ville était la capitale de l'ancienne province du Béarn ?",
+      "choices": [
+        "Pau",
+        "Tarbes",
+        "Bayonne",
+        "Oloron-Sainte-Marie"
+      ],
+      "answer": 0,
+      "explication": "Pau fut la capitale du Béarn et le lieu de naissance d'Henri IV en 1553.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel département porte le nom d'un fleuve qui ne le traverse plus depuis le rattachement de Nice en 1860 ?",
+      "choices": [
+        "L'Aude",
+        "Le Var",
+        "Le Gard",
+        "Les Alpes-Maritimes"
+      ],
+      "answer": 1,
+      "explication": "Le fleuve Var coule désormais dans les Alpes-Maritimes, département formé en 1860 avec le comté de Nice et l'arrondissement de Grasse, détaché du Var.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel département, érigé en 1922, correspond à la part du Haut-Rhin restée française en 1871 ?",
+      "choices": [
+        "La Moselle",
+        "Le Doubs",
+        "La Haute-Saône",
+        "Le Territoire de Belfort"
+      ],
+      "answer": 3,
+      "explication": "Resté français après la guerre de 1870 grâce à la résistance de Belfort, le territoire devient département en 1922.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelle est la différence entre préfecture et sous-préfecture ?",
+      "La préfecture est le chef-lieu du département, où siège le préfet. Une sous-préfecture est le chef-lieu d'un arrondissement, où siège un sous-préfet, représentant de l'État à l'échelon local. Un département compte en général un à six arrondissements, et certaines sous-préfectures, comme Reims ou Le Havre, sont plus peuplées que leur préfecture."
+    ],
+    [
+      "Pourquoi les départements portent-ils des noms de fleuves ?",
+      "Lors de leur création en 1790, la Révolution a voulu rompre avec les provinces et leurs noms féodaux. Elle a donc choisi des noms neutres, tirés surtout de la géographie : rivières, fleuves et montagnes. C'est le cas pour le Rhône, la Seine, la Loire, la Marne ou le Cantal."
+    ],
+    [
+      "Que sont les anciennes provinces françaises ?",
+      "Les provinces étaient les grandes divisions du royaume de France sous l'Ancien Régime : Bretagne, Normandie, Bourgogne, Languedoc, Provence, Dauphiné et bien d'autres. Supprimées en 1790, elles restent très vivantes dans la mémoire collective, les identités régionales, la gastronomie et le vocabulaire géographique."
+    ]
+  ],
+  "related": [
+    "/quiz-departements",
+    "/quiz-departements-numeros",
+    "/quiz-prefectures",
+    "/quiz-regions-de-france",
+    "/quiz-geographie-france"
+  ]
+}

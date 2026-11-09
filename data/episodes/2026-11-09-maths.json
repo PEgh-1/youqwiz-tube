@@ -1,0 +1,2081 @@
+{
+ "id": "2026-11-09-maths",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "theme": 1,
+ "style": {
+  "pattern": "confetti",
+  "timer": "digits",
+  "reveal": "zoom",
+  "card": "tilt",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Prêt pour le quiz du jour ? 🔥",
+   "voice": "Prêt pour le quiz du jour ? C'est parti !"
+  },
+  "introCta": "🔥 Garde ta série le plus longtemps possible",
+  "subscribe": {
+   "title": "Un quiz par jour, gratuit",
+   "sub": "abonne-toi pour ne pas rater le prochain 🔔",
+   "voice": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tranquille pour commencer ☕",
+    "voice": "Niveau facile. Tranquille pour commencer."
+   },
+   "moyen": {
+    "card": "Les choses sérieuses commencent 💪",
+    "voice": "Niveau moyen. Les choses sérieuses commencent."
+   },
+   "difficile": {
+    "card": "Ici, beaucoup abandonnent 😅",
+    "voice": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère."
+   },
+   "impossible": {
+    "card": "Dernier niveau : le boss 👑",
+    "voice": "Dernier niveau : le boss. Bonne chance."
+   }
+  },
+  "scoreVoice": "C'est l'heure des comptes. Ton score, en commentaire !",
+  "outro": {
+   "title": "Ton score en commentaire 👇",
+   "voice": "Un nouveau quiz chaque jour. Abonne-toi, active la cloche, et à demain !"
+  },
+  "packshot": {
+   "headline": "Teste tes amis : qui te connaît VRAIMENT ?",
+   "sub": "ton quiz perso en 2 minutes, gratuit 🎁",
+   "cta": "👉 youqwiz.com",
+   "voice": "Teste tes amis : qui te connaît vraiment ? Crée ton quiz perso en deux minutes, gratuit, sur youqwiz point com."
+  }
+ },
+ "title": "Peux-tu deviner 106 CALCULS ? 🧮➕✖️ Quiz de facile à IMPOSSIBLE",
+ "question": "Calcule en 5 secondes ! 🧮",
+ "intro": {
+  "hook": "106 CALCULS en 5 secondes",
+  "sub": "Du facile à l'impossible, en 5 secondes 🔥"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "text",
+    "value": "2 + 6"
+   },
+   "answer": "8",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f9147d1ffa6f1dee.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/0-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 + 11"
+   },
+   "answer": "41",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/09e018a2a776167f.mp3",
+     "sec": 0.679184
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/1-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4 × 3"
+   },
+   "answer": "12",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/5fc40c959373f096.mp3",
+     "sec": 0.757551
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/2-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 + 5"
+   },
+   "answer": "10",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/5cdbd9339956266f.mp3",
+     "sec": 1.123265
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/3-a.mp3",
+     "sec": 1.018776
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 × 2"
+   },
+   "answer": "10",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/aaf247ab4f1f702f.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/4-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "8 ÷ 2"
+   },
+   "answer": "4",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/5-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 × 3"
+   },
+   "answer": "15",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/6-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3 × 5"
+   },
+   "answer": "15",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/7-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 × 4"
+   },
+   "answer": "20",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/79dd841704908868.mp3",
+     "sec": 0.914286
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/8-a.mp3",
+     "sec": 0.679184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 + 20"
+   },
+   "answer": "70",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/9-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "37 − 7"
+   },
+   "answer": "30",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/62330ebed2eb73dc.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/10-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 + 30"
+   },
+   "answer": "90",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/11-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "40 + 20"
+   },
+   "answer": "60",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9bcee5801f302aaf.mp3",
+     "sec": 0.548571
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/12-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "15 − 11"
+   },
+   "answer": "4",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d98ab482e19196b9.mp3",
+     "sec": 0.940408
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/13-a.mp3",
+     "sec": 0.626939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "70 + 20"
+   },
+   "answer": "90",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/973e52669bfbe4f3.mp3",
+     "sec": 1.149388
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/14-a.mp3",
+     "sec": 1.201633
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "18 − 15"
+   },
+   "answer": "3",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/aaf247ab4f1f702f.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/15-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "48 ÷ 6"
+   },
+   "answer": "8",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/748deefcf65c611b.mp3",
+     "sec": 1.123265
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/16-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "7 × 8"
+   },
+   "answer": "56",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/17-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 + 30"
+   },
+   "answer": "80",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/18-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3 × 8"
+   },
+   "answer": "24",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cb317c697e9c4c91.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/19-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 − 15"
+   },
+   "answer": "15",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0f3094441587bcd0.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/20-a.mp3",
+     "sec": 1.044898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 − 5"
+   },
+   "answer": "11",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/21-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "80 + 90"
+   },
+   "answer": "170",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/22-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "27 + 5"
+   },
+   "answer": "32",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6039a3a195e7a4b8.mp3",
+     "sec": 0.862041
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/23-a.mp3",
+     "sec": 1.227755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 ÷ 8"
+   },
+   "answer": "2",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/59fcebac743839c7.mp3",
+     "sec": 1.906939
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/24-a.mp3",
+     "sec": 0.757551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "7 + 2 + 4"
+   },
+   "answer": "13",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a986dde5203dd6d4.mp3",
+     "sec": 0.809796
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/25-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "18 × 6"
+   },
+   "answer": "108",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/26-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "98 + 78"
+   },
+   "answer": "176",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/79c3a5bbebee0584.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/27-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "57 + 30"
+   },
+   "answer": "87",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/28-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3 + 7 + 9"
+   },
+   "answer": "19",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/67ac45941432fa13.mp3",
+     "sec": 2.507755
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/29-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6 + 2 + 6"
+   },
+   "answer": "14",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b39607db11a8981a.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/30-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "139 − 22"
+   },
+   "answer": "117",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/31-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "12 × 7"
+   },
+   "answer": "84",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/32-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "121 ÷ 11"
+   },
+   "answer": "11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/baabbeb2fc1897a0.mp3",
+     "sec": 1.07102
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/33-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "11 × 4"
+   },
+   "answer": "44",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/34-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 × 8"
+   },
+   "answer": "128",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/640c6b4a72768679.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/35-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "10 % de 400"
+   },
+   "answer": "40",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/640c6b4a72768679.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/36-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "72 − 19"
+   },
+   "answer": "53",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd872ace5ca74d3f.mp3",
+     "sec": 1.123265
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/37-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "54 + 39"
+   },
+   "answer": "93",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9e3903a64a19ff80.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/38-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6²"
+   },
+   "answer": "36",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ca25fc5fd29c9624.mp3",
+     "sec": 3.474286
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/39-a.mp3",
+     "sec": 0.888163
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "10²"
+   },
+   "answer": "100",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b39607db11a8981a.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/40-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 + 4 + 9"
+   },
+   "answer": "18",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/41-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 % de 50"
+   },
+   "answer": "25",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9e3903a64a19ff80.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/42-a.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "72 ÷ 8"
+   },
+   "answer": "9",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8647687546abc8d0.mp3",
+     "sec": 0.888163
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/43-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "18 × 8"
+   },
+   "answer": "144",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e6f2e6e99beb584f.mp3",
+     "sec": 0.757551
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/44-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "66 ÷ 11"
+   },
+   "answer": "6",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/45-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "150 − 15"
+   },
+   "answer": "135",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/46-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "2 + 6 + 7"
+   },
+   "answer": "15",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/13736d3a3d725b8f.mp3",
+     "sec": 0.731429
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/47-a.mp3",
+     "sec": 0.888163
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "138 − 13"
+   },
+   "answer": "125",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a2f03a892e23a199.mp3",
+     "sec": 1.436735
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/48-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "70 + 70"
+   },
+   "answer": "140",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/bb72e5256ca03dd6.mp3",
+     "sec": 3.004082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/49-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "44 + 95"
+   },
+   "answer": "139",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/50-a.mp3",
+     "sec": 1.854694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 % de 1000"
+   },
+   "answer": "500",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/51-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 + 3 + 8"
+   },
+   "answer": "16",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/52-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25 % de 500"
+   },
+   "answer": "125",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b39607db11a8981a.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/53-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "7²"
+   },
+   "answer": "49",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9e3903a64a19ff80.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/54-a.mp3",
+     "sec": 1.253878
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5²"
+   },
+   "answer": "25",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/116ecb4246caf656.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/55-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25 % de 400"
+   },
+   "answer": "100",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b39607db11a8981a.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/56-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "49 + 48"
+   },
+   "answer": "97",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/79c3a5bbebee0584.mp3",
+     "sec": 1.097143
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/57-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "15 × 13"
+   },
+   "answer": "195",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/540554a85f830723.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/58-a.mp3",
+     "sec": 1.724082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "456 ÷ 24"
+   },
+   "answer": "19",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/c02ed759699ae8a2.mp3",
+     "sec": 3.160816
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/59-a.mp3",
+     "sec": 1.044898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "414 ÷ 18"
+   },
+   "answer": "23",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ed0c9eb9b5b20ae9.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/60-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "594 − 264"
+   },
+   "answer": "330",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4be59503c94d3e61.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/61-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "43 + 30 + 60"
+   },
+   "answer": "133",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3ddaea8a1e528160.mp3",
+     "sec": 0.966531
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/62-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "608 − 194"
+   },
+   "answer": "414",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ed0c9eb9b5b20ae9.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/63-a.mp3",
+     "sec": 1.332245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "349 − 254"
+   },
+   "answer": "95",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/540554a85f830723.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/64-a.mp3",
+     "sec": 0.940408
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "308 ÷ 22"
+   },
+   "answer": "14",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ed0c9eb9b5b20ae9.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/65-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5 % de 120"
+   },
+   "answer": "6",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/c4f994d358693aba.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/66-a.mp3",
+     "sec": 0.992653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 % de 360"
+   },
+   "answer": "108",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ed0c9eb9b5b20ae9.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/67-a.mp3",
+     "sec": 1.07102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 % de 750"
+   },
+   "answer": "450",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3a8b5967e25cefc5.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/68-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25 × 19"
+   },
+   "answer": "475",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/382af21e2ed2b216.mp3",
+     "sec": 2.586122
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/69-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "21 + 57 + 31"
+   },
+   "answer": "109",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4be59503c94d3e61.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/70-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "40 + 16 + 10"
+   },
+   "answer": "66",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4be59503c94d3e61.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/71-a.mp3",
+     "sec": 1.17551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "624 ÷ 24"
+   },
+   "answer": "26",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3f5e77e39d727885.mp3",
+     "sec": 1.306122
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/72-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "13²"
+   },
+   "answer": "169",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e7fa566b9afaeb62.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/73-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "432 ÷ 24"
+   },
+   "answer": "18",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3f5e77e39d727885.mp3",
+     "sec": 1.306122
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/74-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "723 − 232"
+   },
+   "answer": "491",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4be59503c94d3e61.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/75-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "22 + 29 + 29"
+   },
+   "answer": "80",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d1b9b63b773fdcbc.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/76-a.mp3",
+     "sec": 0.966531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "118 + 396"
+   },
+   "answer": "514",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3a8b5967e25cefc5.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/77-a.mp3",
+     "sec": 1.149388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20²"
+   },
+   "answer": "400",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a089d97a8f51aa09.mp3",
+     "sec": 1.38449
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/78-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "933 − 107"
+   },
+   "answer": "826",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0f1403e9eabf624f.mp3",
+     "sec": 2.45551
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/79-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "612 − 130"
+   },
+   "answer": "482",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e7fa566b9afaeb62.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/80-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 % de 640"
+   },
+   "answer": "192",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/540554a85f830723.mp3",
+     "sec": 0.992653
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/81-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3³"
+   },
+   "answer": "27",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4be59503c94d3e61.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/82-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4³"
+   },
+   "answer": "64",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/c4f994d358693aba.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/83-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "8³"
+   },
+   "answer": "512",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/8d4560111bb871f8.mp3",
+     "sec": 0.914286
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/84-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 × 13"
+   },
+   "answer": "260",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd249d8462acaf72.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/85-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 % de 750"
+   },
+   "answer": "225",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4be59503c94d3e61.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/86-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "471 + 480"
+   },
+   "answer": "951",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d1b9b63b773fdcbc.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/87-a.mp3",
+     "sec": 1.593469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 % de 360"
+   },
+   "answer": "216",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d1b9b63b773fdcbc.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/88-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "53 + 34 + 49"
+   },
+   "answer": "136",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0a912759f1593293.mp3",
+     "sec": 2.56
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/89-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "441 ÷ 21"
+   },
+   "answer": "21",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd249d8462acaf72.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/90-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "19²"
+   },
+   "answer": "361",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4be59503c94d3e61.mp3",
+     "sec": 1.48898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/91-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "37 + 49 + 34"
+   },
+   "answer": "120",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fdcc8ac81d8d8251.mp3",
+     "sec": 1.018776
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/92-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "814 + 977"
+   },
+   "answer": "1 791",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/96fc40a179b51b4c.mp3",
+     "sec": 1.854694
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/93-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "48 × 21"
+   },
+   "answer": "1 008",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3a8b5967e25cefc5.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/94-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16³"
+   },
+   "answer": "4 096",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3a8b5967e25cefc5.mp3",
+     "sec": 2.298776
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/95-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3943 − 584"
+   },
+   "answer": "3 359",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/96fc40a179b51b4c.mp3",
+     "sec": 1.854694
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/96-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "260 + 212 + 227"
+   },
+   "answer": "699",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cedc1487ca2c8c78.mp3",
+     "sec": 0.705306
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/97-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "32²"
+   },
+   "answer": "1 024",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/978fa25e44cec694.mp3",
+     "sec": 2.612245
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/98-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4818 − 516"
+   },
+   "answer": "4 302",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/dee5a288b99ea11a.mp3",
+     "sec": 2.35102
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/99-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "1394 ÷ 34"
+   },
+   "answer": "41",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9c337124be44e9a5.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/100-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3144 − 667"
+   },
+   "answer": "2 477",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/01570ffd17d336a2.mp3",
+     "sec": 1.332245
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/101-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "1280 − 536"
+   },
+   "answer": "744",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e7fa566b9afaeb62.mp3",
+     "sec": 1.227755
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/102-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "17³"
+   },
+   "answer": "4 913",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/45e17bb8ef8f79ec.mp3",
+     "sec": 1.541224
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/103-a.mp3",
+     "sec": 2.586122
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "44 × 25"
+   },
+   "answer": "1 100",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd249d8462acaf72.mp3",
+     "sec": 1.044898
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/104-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "19³"
+   },
+   "answer": "6 859",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/e129d0b4a209d3e7.mp3",
+     "sec": 1.149388
+    },
+    "a": {
+     "src": "tts/2026-11-09-maths/105-a.mp3",
+     "sec": 2.690612
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Aujourd'hui : 106 CALCULS. Tu as 5 secondes par image, ta série compte double. Niveaux : 25 facile, 33 moyens, 35 difficiles, 13 impossible. Compte tes points et dis ton score en commentaire 👇\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com\n🔔 Pense à t'abonner, ça aide la chaîne.\n\n#quiz #maths #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:12 Niveau facile\n03:17 Niveau moyen\n07:30 Niveau difficile\n12:38 Niveau impossible\n15:01 Ton score\n15:11 Crée ton quiz sur youqwiz.com",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "maths",
+   "calcul mental",
+   "mathématiques",
+   "quiz maths",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Trouve",
+   "line2": "106 CALCULS",
+   "emoji": "🧮",
+   "sticker": "NIVEAU GÉNIE",
+   "layouts": [
+    3,
+    1
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Personne n'a la dernière 🤯 106 CALCULS en 5 secondes #Shorts",
+  "shortDescription": "La réponse + 106 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 12.1,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 197.73333333333332,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 450.93333333333334,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 758.1333333333333,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 901.3,
+    "title": "Ton score"
+   },
+   {
+    "at": 911.3,
+    "title": "Crée ton quiz sur youqwiz.com"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/79e983548aa33e64.mp3",
+   "sec": 2.507755
+  },
+  "level_moyen": {
+   "src": "tts-cache/e50717286acc9c69.mp3",
+   "sec": 3.082449
+  },
+  "level_difficile": {
+   "src": "tts-cache/6a4168170b804047.mp3",
+   "sec": 5.067755
+  },
+  "level_impossible": {
+   "src": "tts-cache/8ac2527051bc60b4.mp3",
+   "sec": 3.056327
+  },
+  "score": {
+   "src": "tts-cache/820f73e32119a666.mp3",
+   "sec": 2.612245
+  },
+  "subscribe": {
+   "src": "tts-cache/12be9853171c1ac2.mp3",
+   "sec": 3.63102
+  },
+  "outro": {
+   "src": "tts-cache/016fd4dcdfef3fb6.mp3",
+   "sec": 4.075102
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  },
+  "preroll": {
+   "src": "tts-cache/aed67214f4421778.mp3",
+   "sec": 2.298776
+  },
+  "packshot": {
+   "src": "tts-cache/ce5834bb526cae38.mp3",
+   "sec": 7.131429
+  }
+ }
+}

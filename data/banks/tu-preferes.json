@@ -1,0 +1,5469 @@
+{
+ "question": "Tu préfères… ?",
+ "hook": "TU PRÉFÈRES… ? {n} CHOIX IMPOSSIBLES",
+ "emoji": "😨🔥🤔",
+ "slug": "tu-preferes",
+ "noun": "CHOIX IMPOSSIBLES",
+ "timing": {
+  "question": 8,
+  "reveal": 0,
+  "fixed": true
+ },
+ "tags": [
+  "tu préfères",
+  "dilemmes",
+  "choix impossibles"
+ ],
+ "items": [
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne plus jamais manger de chocolat 🍫",
+     "Ne plus jamais manger de fromage 🧀"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre sans Internet 📵",
+     "Vivre sans musique 🎵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Savoir voler 🕊️",
+     "Être invisible 👻"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir toujours chaud 🔥",
+     "Avoir toujours froid 🧊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Parler toutes les langues 🗣️",
+     "Jouer de tous les instruments 🎸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vacances à la mer 🏖️",
+     "Vacances à la montagne 🏔️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Pizza pour toujours 🍕",
+     "Burger pour toujours 🍔"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Lire dans les pensées 🧠",
+     "Voir le futur 🔮"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un chien 🐶",
+     "Un chat 🐱"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dormir 2 h de moins 😴",
+     "Manger 2 fois moins 🍽️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne plus jamais faire la queue ⏳",
+     "Ne plus jamais avoir d'embouteillages 🚗"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une maison au bord de la plage 🏡",
+     "Un appartement au centre de Paris 🗼"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Rencontrer ton acteur préféré 🎬",
+     "Rencontrer ton chanteur préféré 🎤"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Remonter dans le temps ⏪",
+     "Aller dans le futur ⏩"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre 100 ans en bonne santé 💪",
+     "Vivre 50 ans avec 100 millions 💰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être le plus drôle 😂",
+     "Être le plus intelligent 🧠"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Perdre ton téléphone 📱",
+     "Perdre ton portefeuille 👛"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger un plat très piquant 🌶️",
+     "Manger un plat très sucré 🍭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Chanter devant 1 000 personnes 🎤",
+     "Danser devant 1 000 personnes 💃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre sans voiture 🚗",
+     "Vivre sans télévision 📺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un week-end sans parler 🤐",
+     "Un week-end sans manger 🍽️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Petit-déjeuner salé 🥓",
+     "Petit-déjeuner sucré 🥐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Toujours en retard ⏰",
+     "Toujours 1 h en avance 🕐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un été sans glace 🍦",
+     "Un hiver sans chocolat chaud ☕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir 10 frères et sœurs 👨‍👩‍👧‍👦",
+     "Être enfant unique 🧍"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne plus jamais aller au restaurant 🍽️",
+     "Ne plus jamais aller au cinéma 🎬"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Savoir cuisiner comme un chef 👨‍🍳",
+     "Savoir chanter comme une star 🌟"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un voyage sur Mars 🚀",
+     "Un tour du monde 🌍"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une piscine 🏊",
+     "Avoir un jardin géant 🌳"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Pouvoir parler aux animaux 🐾",
+     "Pouvoir respirer sous l'eau 🐠"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Recevoir 1 € chaque seconde pendant 1 jour 💶",
+     "Recevoir 50 000 € tout de suite 💰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne plus jamais être malade 🤒",
+     "Ne plus jamais être fatigué 😴"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Travailler 2 jours par semaine 🗓️",
+     "Être à la retraite à 40 ans 🏖️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre à la campagne 🌾",
+     "Vivre en ville 🏙️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger la même chose toute la vie 🍝",
+     "Changer de ville tous les ans 🚚"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Toujours dire la vérité 🙊",
+     "Ne plus jamais pouvoir parler 🤐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des vacances d'hiver à Noël 🎄",
+     "Des vacances d'été sans fin ☀️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un cheval 🐴",
+     "Une moto 🏍️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être très grand 📏",
+     "Être très petit 🤏"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Oublier ton nom 😵",
+     "Oublier ton adresse 🏠"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des bras de 2 mètres 🦒",
+     "Avoir des jambes de 2 mètres 🦵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Éternuer des paillettes ✨",
+     "Roter des bulles de savon 🫧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dormir dans un nid d'oiseau 🪹",
+     "Dormir dans une niche de chien 🐕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un perroquet qui répète tout 🦜",
+     "Avoir un chat qui te juge 😾"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger des spaghettis sans fourchette 🍝",
+     "Manger une soupe avec une fourchette 🥄"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Marcher à reculons toute la journée 🔙",
+     "Parler à l'envers toute la journée 🙃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un hoquet permanent 😖",
+     "Avoir un fou rire permanent 🤣"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Se laver avec de l'eau glacée 🥶",
+     "Se laver avec de l'eau bouillante 🥵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre dans une cabane perchée 🌲",
+     "Vivre dans une péniche 🚣"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des pieds de canard 🦆",
+     "Avoir un nez d'éléphant 🐘"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un déjeuner de crêpes à volonté 🥞",
+     "Un dîner de frites à volonté 🍟"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une télécommande qui fige le temps ⏸️",
+     "Avoir une télécommande qui rembobine ⏪"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Crier à chaque fois que tu souris 😁",
+     "Sourire à chaque fois que tu cries 😱"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Nager avec des dauphins 🐬",
+     "Marcher avec des pingouins 🐧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un robot qui range ta chambre 🤖",
+     "Avoir un robot qui fait tes devoirs 📚"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Habiter dans un phare 🗼",
+     "Habiter dans un moulin 🌬️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des cheveux qui changent de couleur 🌈",
+     "Avoir des cheveux qui poussent d'un mètre par jour 💇"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne manger que des bonbons le lundi 🍬",
+     "Ne manger que des glaces le mardi 🍨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des chaussettes toujours mouillées 🧦",
+     "Avoir un pantalon toujours trop court 👖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Parler comme un pirate 🏴‍☠️",
+     "Marcher comme un robot 🤖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire le tour du monde en ballon 🎈",
+     "Faire le tour du monde en bateau ⛵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un toboggan dans ta maison 🛝",
+     "Avoir un trampoline dans ta chambre 🤸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une glace qui ne fond jamais 🍦",
+     "Un chocolat chaud qui ne refroidit jamais ☕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être un géant pendant 1 jour 🏔️",
+     "Être minuscule pendant 1 jour 🐜"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une journée sans écran 📵",
+     "Une journée sans bonbons 🍭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un ami dragon 🐉",
+     "Avoir un ami dinosaure 🦖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Jouer dans la neige tout l'été ⛄",
+     "Se baigner dans la mer tout l'hiver 🏊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Cuisiner pour 50 personnes 🍳",
+     "Ranger 50 paires de chaussures 👟"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un pique-nique sous la pluie 🌧️",
+     "Un barbecue sous la neige 🌨️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un singe comme domestique 🐒",
+     "Avoir un lama comme jardinier 🦙"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Voyager dans une fusée 🚀",
+     "Voyager dans un sous-marin 🌊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Mettre un déguisement tous les jours 🎭",
+     "Porter un pyjama partout 🛌"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un chapeau qui parle 🎩",
+     "Avoir des lunettes qui chantent 👓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Entendre une chanson en boucle 🎶",
+     "Voir le même dessin animé en boucle 📺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne dormir que dans un hamac 🏝️",
+     "Ne dormir que sur un canapé 🛋️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger des pommes de terre à chaque repas 🥔",
+     "Manger des carottes à chaque repas 🥕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un nez qui s'allume 🔴",
+     "Avoir des oreilles qui bougent 👂"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une rentrée en pyjama 🧸",
+     "Un anniversaire en maillot de bain 🩱"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Courir aussi vite qu'un guépard 🐆",
+     "Sauter aussi haut qu'un kangourou 🦘"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre sur une île déserte 🏝️",
+     "Vivre dans une grande ville 🌆"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Écrire avec le pied 🦶",
+     "Dessiner avec le nez 👃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un hamster géant 🐹",
+     "Avoir une tortue qui parle 🐢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Toujours porter un chapeau de fête 🎉",
+     "Toujours porter une écharpe de 5 mètres 🧣"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Tomber dans un tas de feuilles 🍂",
+     "Tomber dans un tas de confettis 🎊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Boire du jus d'orange tous les matins 🍊",
+     "Boire du lait chaud tous les matins 🥛"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un gâteau géant 🎂",
+     "Faire un bonhomme de neige géant ☃️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Habiter près d'un manège 🎠",
+     "Habiter près d'une patinoire ⛸️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Perdre une chaussette à chaque lessive 🧦",
+     "Perdre un stylo chaque jour 🖊️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un jour de plus par semaine 📅",
+     "Avoir une heure de plus par jour ⏰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Toujours trouver une pièce par terre 🪙",
+     "Toujours trouver un bonbon dans ta poche 🍬"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire du vélo sous la pluie 🚲",
+     "Faire du roller sur du gravier 🛼"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des fourmis dans les jambes 🐜",
+     "Avoir des papillons dans le ventre 🦋"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un livre qui se lit tout seul 📖",
+     "Un stylo qui écrit tout seul ✒️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Rire comme un cochon 🐷",
+     "Pleurer comme une fontaine ⛲"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Regarder les étoiles toute la nuit 🌌",
+     "Regarder le soleil se lever tous les jours 🌅"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un lit en forme de voiture 🚗",
+     "Avoir un lit en forme de bateau 🛶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger de la pastèque pour toujours 🍉",
+     "Manger du melon pour toujours 🍈"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire de la peinture avec les doigts 🎨",
+     "Faire de la musique avec des casseroles 🥁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une cabane dans les arbres 🌳",
+     "Un tunnel secret sous ta maison 🕳️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une grosse voix de géant 🗣️",
+     "Avoir une voix de souris 🐭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Passer l'été à la campagne 🌻",
+     "Passer l'été en ville 🏙️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des lunettes de vision nocturne 🌙",
+     "Avoir des lunettes de vision loupe 🔍"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un parapluie qui vole ☂️",
+     "Des bottes qui sautent 👢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un sac à dos sans fond 🎒",
+     "Une poche magique 👖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire du camping en forêt ⛺",
+     "Dormir dans un igloo ❄️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Prendre un bain de mousse géant 🛁",
+     "Prendre une douche de pétales 🌸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un balai volant 🧹",
+     "Avoir un tapis volant 🧞"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger des bonbons qui piquent 🍬",
+     "Manger des bonbons qui font des bulles 🫧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Parler aux plantes 🌱",
+     "Parler aux nuages ☁️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un vélo à six roues 🚲",
+     "Avoir une trottinette à moteur 🛴"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Voir un feu d'artifice tous les soirs 🎆",
+     "Voir un arc-en-ciel tous les jours 🌈"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir 4 bras pour jouer 🤹",
+     "Avoir 3 yeux pour tout voir 👀"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Jouer au ballon avec un éléphant 🐘",
+     "Jouer à cache-cache avec un caméléon 🦎"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une soirée karaoké en famille 🎤",
+     "Une soirée jeux de société 🎲"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une grand-mère qui cuisine bien 👵",
+     "Avoir un grand-père qui raconte des blagues 👴"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Partir en vacances avec ta famille 👪",
+     "Partir en vacances avec tes amis 🧑‍🤝‍🧑"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire la grasse matinée tous les jours 🛏️",
+     "Se lever à l'aube tous les jours 🐓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une cour d'école en sable 🏖️",
+     "Une cour d'école en trampolines 🤸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une classe sous un arbre 🌳",
+     "Une classe dans un bus 🚌"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des devoirs en chantant 🎵",
+     "Des devoirs en dansant 💃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un cartable qui pèse 20 kilos 🎒",
+     "Un cartable qui parle tout le temps 🗣️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un super stylo magique 🖍️",
+     "Avoir une gomme qui efface les erreurs de la vie 🧽"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir toujours le dernier mot 🏆",
+     "Avoir toujours raison 🎓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Aller à l'école en trottinette 🛴",
+     "Aller à l'école en tyrolienne 🪂"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un maître qui blague tout le temps 😜",
+     "Une maîtresse qui chante tout le temps 🎶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger à la cantine tous les jours 🍽️",
+     "Manger un sandwich tous les jours 🥪"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire une dictée de 3 pages ✍️",
+     "Apprendre 3 poésies par cœur 📜"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un stylo à quatre couleurs 🖊️",
+     "Avoir une règle qui mesure tout 📏"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des vacances de 6 mois 🏖️",
+     "Avoir des week-ends de 4 jours 📆"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Gagner un concours de pâtisserie 🧁",
+     "Gagner un concours de danse 🕺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Sauter à la corde 100 fois 🪢",
+     "Faire 100 pirouettes 🌀"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Rire en classe sans pouvoir s'arrêter 😆",
+     "Avoir le hoquet pendant la récréation 😮"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un casier rempli de bonbons 🍭",
+     "Avoir un casier rempli de livres 📚"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dessiner comme un artiste 🖌️",
+     "Jouer du piano comme un pro 🎹"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un tour de magie parfait 🪄",
+     "Faire un saut périlleux parfait 🤾"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Porter un uniforme tous les jours 👔",
+     "Porter un déguisement tous les jours 🦸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger des pâtes tous les midis 🍝",
+     "Manger du riz tous les soirs 🍚"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une raclette tous les week-ends 🧀",
+     "Une fondue tous les week-ends 🫕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un croissant géant 🥐",
+     "Une pizza géante 🍕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des frites sans ketchup 🍟",
+     "Une crêpe sans sucre 🥞"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un gâteau sans chocolat 🎂",
+     "Une glace sans cornet 🍨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Du pain sans beurre 🍞",
+     "Du beurre sans pain 🧈"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une tarte aux pommes tous les dimanches 🥧",
+     "Une gaufre tous les samedis 🧇"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des bonbons acides à volonté 🍋",
+     "Des bonbons moelleux à volonté 🍬"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger avec des baguettes 🥢",
+     "Manger avec les mains 🙌"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Boire un smoothie vert 🥬",
+     "Boire un smoothie rose 🍓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un œuf à la coque tous les matins 🥚",
+     "Des céréales tous les matins 🥣"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un pop-corn salé au cinéma 🍿",
+     "Un pop-corn sucré au cinéma 🎬"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger un citron entier 🍋",
+     "Manger un piment entier 🌶️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une soupe tous les soirs 🍲",
+     "Une salade tous les midis 🥗"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des tomates cerises à volonté 🍅",
+     "Des raisins à volonté 🍇"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un hot-dog géant 🌭",
+     "Un sandwich géant 🥪"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un kebab de bonbons 🍢",
+     "Une brochette de fruits 🍡"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un melon sucré 🍈",
+     "Une banane bien mûre 🍌"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Toujours manger froid 🧊",
+     "Toujours manger brûlant 🔥"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des mangues pour toujours 🥭",
+     "Des fraises pour toujours 🍓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des cookies chauds 🍪",
+     "Des muffins tièdes 🧁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger du fromage au petit-déjeuner 🧀",
+     "Manger du chocolat au dîner 🍫"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Du pain perdu le dimanche 🍞",
+     "Des pancakes le samedi 🥞"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jus de pomme pétillant 🍎",
+     "Une limonade maison 🍋"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des macarons à tous les goûters 🍬",
+     "Des éclairs à tous les goûters 🍰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un sirop de menthe toute l'année 🌿",
+     "Un sirop de grenadine toute l'année 🍒"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un week-end à Paris 🗼",
+     "Un week-end à Rome 🏛️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un voyage en train 🚆",
+     "Un voyage en avion ✈️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une semaine dans un château 🏰",
+     "Une semaine dans une grotte 🪨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un safari en Afrique 🦁",
+     "Une croisière en Antarctique 🧊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dormir sous une tente 🏕️",
+     "Dormir dans un hôtel de luxe 🏨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une randonnée de 20 km 🥾",
+     "Une journée à la plage 🏖️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Visiter un volcan 🌋",
+     "Visiter une forêt tropicale 🌴"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire du ski toute la semaine ⛷️",
+     "Faire du surf toute la semaine 🏄"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Voir les pyramides d'Égypte 🔺",
+     "Voir la tour Eiffel illuminée 🗼"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Partir à l'aventure sans carte 🧭",
+     "Partir avec un itinéraire précis 🗺️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un road trip en camping-car 🚐",
+     "Un séjour dans une cabane 🛖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Passer Noël au soleil 🌞",
+     "Passer Noël dans la neige 🎅"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre dans un pays toujours chaud 🏜️",
+     "Vivre dans un pays toujours froid 🏔️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Prendre le bateau pour aller à l'école 🚤",
+     "Prendre un téléphérique pour aller à l'école 🚡"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un voyage dans le passé 🦕",
+     "Un voyage dans le futur 🛸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dormir une nuit dans une cabane perchée 🌲",
+     "Dormir une nuit dans un château hanté 👻"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Visiter un zoo géant 🦓",
+     "Visiter un aquarium géant 🐠"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une balade en montgolfière 🎈",
+     "Une balade en traîneau 🛷"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Explorer l'espace 🌠",
+     "Explorer le fond de l'océan 🐙"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Traverser un désert à dos de chameau 🐫",
+     "Traverser une forêt à cheval 🐎"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Passer un mois à la montagne 🏔️",
+     "Passer un mois à la mer 🌊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Habiter au Japon 🗾",
+     "Habiter au Canada 🍁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être le chef d'une île 👑",
+     "Être le roi d'un château 🏰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Pouvoir voyager n'importe où en un clin d'œil 🚪",
+     "Pouvoir arrêter le temps quand tu veux ⏱️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être super fort 💪",
+     "Être super rapide ⚡"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Contrôler la météo ⛈️",
+     "Contrôler les animaux 🦁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Voir à travers les murs 🧱",
+     "Entendre à des kilomètres 👂"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Changer de forme comme tu veux 🦎",
+     "Te téléporter où tu veux 🌀"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Pouvoir parler à tes jouets 🧸",
+     "Pouvoir donner vie à tes dessins ✏️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire pousser des fleurs partout 🌷",
+     "Faire apparaître de la neige 🌨️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une mémoire parfaite 🧠",
+     "Avoir une imagination sans limite 💭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être un super-héros secret 🦸",
+     "Être un génie célèbre 🧑‍🔬"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Respirer sous l'eau comme un poisson 🐟",
+     "Voler comme un oiseau 🦅"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des super-pouvoirs une heure par jour ⏳",
+     "Avoir un seul vœu par an 🧞"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Rendre tout le monde heureux 😊",
+     "Rendre tout le monde généreux 🎁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Lancer des boules de neige à l'infini ⛄",
+     "Lancer des bulles de savon à l'infini 🫧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Savoir tout sur les dinosaures 🦖",
+     "Savoir tout sur les étoiles ⭐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un double qui fait tes corvées 👯",
+     "Avoir un clone qui va à l'école à ta place 🧑‍🎓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Grandir de 10 cm en une nuit 📏",
+     "Rétrécir de 10 cm en une nuit 🤏"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Devenir invisible quand tu éternues 🤧",
+     "Devenir transparent quand tu ris 😂"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un pouvoir mais le garder secret 🤫",
+     "Avoir un pouvoir connu de tous 📣"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Transformer l'eau en limonade 🥤",
+     "Transformer les feuilles en billets 🍃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Parler aux oiseaux 🐦",
+     "Parler aux poissons 🐟"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Voler seulement la nuit 🌙",
+     "Voler seulement sous la pluie 🌧️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une cape qui brille 🦸",
+     "Avoir un masque qui change de couleur 🎭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Disposer d'un bouton pause 🔘",
+     "Disposer d'un bouton avance rapide ⏩"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger sans jamais grossir 🍰",
+     "Dormir sans jamais être fatigué 🛌"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire fondre la glace avec les mains 🔥",
+     "Geler l'eau avec les doigts ❄️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être aussi fort qu'un gorille 🦍",
+     "Être aussi malin qu'un renard 🦊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une vue d'aigle 🦅",
+     "Avoir un odorat de chien 🐶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être poli en toutes circonstances 🎩",
+     "Être drôle en toutes circonstances 🤡"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire apparaître un goûter quand tu veux 🍪",
+     "Faire disparaître un devoir quand tu veux 📝"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Pouvoir sauter par-dessus les maisons 🏠",
+     "Pouvoir courir sur l'eau 🏃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Flotter dans les airs 🎈",
+     "Rebondir comme une balle ⚽"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Contrôler les rêves 💤",
+     "Contrôler les couleurs 🎨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Prédire la météo à coup sûr ☀️",
+     "Deviner le dessert du soir 🍨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des pouvoirs comme un magicien 🧙",
+     "Avoir des pouvoirs comme une fée 🧚"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une baguette magique 🪄",
+     "Avoir une lampe magique 🪔"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Pouvoir te dédoubler une fois par jour 🪞",
+     "Pouvoir arrêter la pluie quand tu veux ☔"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un mégaphone intégré 📢",
+     "Avoir un projecteur dans les yeux 🔦"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Disparaître quand tu as honte 😳",
+     "Voler quand tu es content 😄"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire des étincelles avec les doigts ✨",
+     "Faire des arcs-en-ciel avec les mains 🌈"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Parler aux fantômes 👻",
+     "Parler aux robots 🤖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Rencontrer un extraterrestre 👽",
+     "Rencontrer un dragon 🐲"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un ami licorne 🦄",
+     "Avoir un ami sirène 🧜"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre dans un conte de fées 📖",
+     "Vivre dans une bande dessinée 💬"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Visiter un château de glace 🧊",
+     "Visiter un palais de sable 🏖️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une chasse au trésor sur une île 🗝️",
+     "Une enquête dans un manoir 🕵️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Découvrir un trésor enfoui 💎",
+     "Découvrir une nouvelle espèce animale 🔬"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ranger ta chambre tous les jours 🧹",
+     "Faire la vaisselle tous les jours 🍽️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Sortir les poubelles sous la pluie 🗑️",
+     "Étendre le linge dans le froid 🧺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Passer l'aspirateur pendant 1 h 🧼",
+     "Repasser une montagne de linge 👕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire les courses avec une liste interminable 🛒",
+     "Cuisiner sans recette 🍳"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Se brosser les dents 5 min 🪥",
+     "Se coiffer 5 min 💈"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un réveil qui chante 🎶",
+     "Avoir un réveil qui miaule 🐱"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un lit trop mou ☁️",
+     "Un lit trop dur 🪨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une douche tiède 🚿",
+     "Un bain trop chaud 🛁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir toujours les mains froides 🧤",
+     "Avoir toujours les pieds chauds 🧦"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Se lever en retard 🏃",
+     "Se coucher en avance 🌙"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Perdre tes clés 🔑",
+     "Perdre tes lunettes 👓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir toujours sommeil 🥱",
+     "Avoir toujours faim 😋"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un manteau trop grand 🧥",
+     "Des chaussures trop petites 👞"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Marcher pieds nus dans l'herbe 🌿",
+     "Marcher pieds nus sur le sable chaud 🏖️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Porter un pull qui gratte 🧶",
+     "Porter une écharpe qui chatouille 🧣"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Prendre le bus bondé 🚌",
+     "Marcher 1 heure à pied 🚶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un chauffeur personnel 🚘",
+     "Avoir un chef cuisinier à la maison 👨‍🍳"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jardin potager 🥕",
+     "Un jardin de fleurs 🌺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un canapé confortable 🛋️",
+     "Un fauteuil à bascule 🪑"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une grande cuisine 🍳",
+     "Avoir un grand salon 🛋️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une maison sur un arbre 🌲",
+     "Une maison sur l'eau 🛶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une vue sur la mer 🌊",
+     "Une vue sur la montagne ⛰️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une cheminée au salon 🔥",
+     "Un jacuzzi dans le jardin 🛁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Habiter à côté d'une boulangerie 🥖",
+     "Habiter à côté d'un parc 🌳"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un grenier plein de trésors 📦",
+     "Une cave pleine de surprises 🕯️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Passer Noël chez ta grand-mère 🎄",
+     "Passer Pâques chez ton oncle 🐣"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un repas de famille de 30 personnes 🍽️",
+     "Un pique-nique à deux 🧺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un frère qui chante faux 🎤",
+     "Une sœur qui parle tout le temps 🗣️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un papa qui fait des blagues nulles 🤡",
+     "Une maman qui fait des câlins géants 🤗"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un grand-père qui dort au salon 😴",
+     "Une grand-mère qui tricote des pulls 🧶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un cousin qui te fait des farces 🃏",
+     "Une cousine qui t'invente des histoires 📚"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des photos de famille tous les jours 📸",
+     "Un album de famille géant 🖼️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une soirée pyjama avec les cousins 🛏️",
+     "Un week-end chez les grands-parents 🏡"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un anniversaire surprise 🎁",
+     "Un anniversaire en grande fête 🎈"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Recevoir 10 cadeaux petits 🎀",
+     "Recevoir 1 cadeau géant 📦"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un repas de Noël sans dinde 🦃",
+     "Un repas de Noël sans bûche 🪵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un goûter sans gâteau 🍰",
+     "Un petit-déjeuner sans tartine 🥖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un chien qui ronfle 🐕",
+     "Un chat qui ronronne trop fort 🐈"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un poisson rouge qui parle 🐠",
+     "Un oiseau qui danse 🕊️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un poney dans le jardin 🐴",
+     "Avoir des poules dans le jardin 🐔"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un lapin géant 🐰",
+     "Une tortue centenaire 🐢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un hérisson qui dort sur ton lit 🦔",
+     "Une grenouille dans ta salle de bain 🐸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une araignée qui fait des toiles 🕷️",
+     "Une coccinelle qui se pose sur ton nez 🐞"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un escargot coursier 🐌",
+     "Une limace messagère 🐛"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un canard dans ta baignoire 🦆",
+     "Un cygne dans ta piscine 🦢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un ours en peluche vivant 🧸",
+     "Un éléphant en peluche géante 🐘"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un zèbre à rayures roses 🦓",
+     "Un tigre à pois verts 🐯"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une vache qui chante 🐮",
+     "Un cochon qui danse 🐷"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un chien qui parle 🐶",
+     "Avoir un chat qui fait la cuisine 🐱"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un pingouin à la maison 🐧",
+     "Un koala dans ton armoire 🐨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un renard comme meilleur ami 🦊",
+     "Un loup comme gardien 🐺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un panda qui fait des galipettes 🐼",
+     "Un ouistiti qui fait des grimaces 🙈"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une grenouille porte-bonheur 🍀",
+     "Avoir un trèfle à quatre feuilles toujours dans ta poche ☘️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des sandales en hiver 🩴",
+     "Des bottes en été 🥾"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un tee-shirt rose fluo 👚",
+     "Un pantalon à pois 🔵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des chaussettes dépareillées 🧦",
+     "Un bonnet à pompon géant 🧢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un déguisement de fraise 🍓",
+     "Un déguisement de champignon 🍄"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un pyjama de dinosaure 🦕",
+     "Un pyjama de licorne 🦄"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Porter un chapeau de cow-boy 🤠",
+     "Porter une couronne de princesse 👑"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un selfie avec un chameau 🐪",
+     "Faire un selfie avec un panda 🐼"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger de la glace en plein hiver 🍦",
+     "Boire un chocolat chaud en plein été 🍫"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un éclat de rire dans un moment sérieux 🤭",
+     "Un fou rire dans un musée 🖼️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un oreiller qui ronfle 🛌",
+     "Une couverture qui chante 🎶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Trouver un trésor sous ton lit 💰",
+     "Trouver un passage secret dans ton placard 🚪"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un voisin qui joue de la trompette 🎺",
+     "Un voisin qui fait de la batterie 🥁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un voisin qui élève des abeilles 🐝",
+     "Un voisin qui possède un paon 🦚"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un ascenseur qui parle 🛗",
+     "Un escalier qui chante 🪜"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un frigo qui raconte des blagues 🧊",
+     "Une machine à laver qui danse 🫧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un four qui sent toujours bon 🍪",
+     "Une cuisine qui sent toujours le café ☕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un grille-pain qui fait des tartines roses 🍞",
+     "Une bouilloire qui siffle des chansons 🫖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un ballon qui rebondit à l'infini 🏀",
+     "Un cerf-volant qui ne retombe jamais 🪁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jeu de société qui dure 8 heures 🎲",
+     "Un puzzle de 5 000 pièces 🧩"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Gagner à tous les jeux de cartes 🃏",
+     "Gagner à tous les jeux de dés 🎲"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Perdre toujours aux échecs ♟️",
+     "Perdre toujours aux dames 🔴"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Jouer aux billes sans arrêt 🔮",
+     "Jouer à la marelle sans arrêt 🏁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un château de cartes géant 🏯",
+     "Faire une tour de cubes géante 🧱"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Jouer à cache-cache dans un supermarché 🛒",
+     "Jouer à chat dans un musée 🏛️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un bras de fer avec un géant 💪",
+     "Une course contre un lièvre 🐇"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un concours de grimaces 😝",
+     "Faire un concours de blagues 😂"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une bataille d'oreillers 🛏️",
+     "Une bataille de boules de neige ❄️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une chasse aux œufs 🥚",
+     "Une chasse aux bonbons 🍬"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un tournoi de pétanque 🎯",
+     "Un tournoi de ping-pong 🏓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un après-midi de peinture 🖼️",
+     "Un après-midi de pâte à modeler 🧸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Construire une cabane en carton 📦",
+     "Construire un château de sable 🏰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un bricolage avec des pailles 🥤",
+     "Un bricolage avec des bouchons 🍾"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dessiner sur un mur entier 🖍️",
+     "Colorier un livre géant 📔"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Lire une BD par jour 📚",
+     "Écouter un conte par soir 🎧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Savoir siffler très fort 😗",
+     "Savoir faire des claquements de doigts parfaits 🫰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Réussir à faire le grand écart 🤸",
+     "Réussir à tenir sur une main 🤹"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un double salto 🌀",
+     "Faire une roue parfaite 🎡"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Jouer de la flûte à bec 🪈",
+     "Jouer du tambour 🥁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Chanter sous la douche 🚿",
+     "Danser dans la cuisine 💃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Siffler en marchant 🚶",
+     "Fredonner en mangeant 🎵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un spectacle de marionnettes 🎎",
+     "Faire un spectacle de magie 🎩"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Réciter l'alphabet à l'envers 🔤",
+     "Compter jusqu'à 1 000 d'un trait 🔢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un bureau dans la jungle 🌴",
+     "Avoir un bureau sur un nuage ☁️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être pompier 🚒",
+     "Être pilote d'avion 🛩️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être boulanger 🥖",
+     "Être pâtissier 🍰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être vétérinaire 🩺",
+     "Être jardinier 🌻"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être astronaute 👩‍🚀",
+     "Être explorateur sous-marin 🤿"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être professeur 🍎",
+     "Être écrivain ✍️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être facteur 📮",
+     "Être capitaine de bateau ⚓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être clown de cirque 🤡",
+     "Être magicien de cirque 🎪"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être architecte 📐",
+     "Être inventeur 💡"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être chef d'orchestre 🎼",
+     "Être photographe 📷"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être détective 🔎",
+     "Être archéologue 🏺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Travailler la nuit 🦉",
+     "Travailler le matin très tôt 🐓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Travailler à la maison 🖥️",
+     "Travailler dehors 🌤️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un patron rigolo 😄",
+     "Avoir des collègues gourmands 🍩"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une réunion de 5 heures 🗓️",
+     "Avoir un trajet de 2 heures 🚉"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un emploi du temps sans lundi 📆",
+     "Un emploi du temps sans vendredi 🗓️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un bureau avec un toboggan 🛝",
+     "Avoir un bureau avec un hamac 🌴"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Taper à la machine à écrire ⌨️",
+     "Écrire à la plume 🪶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Utiliser un vieux téléphone à cadran ☎️",
+     "Utiliser un pigeon voyageur 🕊️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Parler à voix haute dans un train 🚆",
+     "Chanter dans un ascenseur 🛗"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être toujours le premier de la classe 🥇",
+     "Être le plus populaire de la classe 🌟"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir la meilleure note en maths ➕",
+     "Avoir la meilleure note en dessin 🎨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Aimer la lecture 📖",
+     "Aimer le sport 🏃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Apprendre une langue en dormant 😴",
+     "Apprendre à jouer en un jour 🎹"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Savoir tout sans étudier 🎓",
+     "Étudier sans jamais se fatiguer 📚"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un cours de sciences avec des explosions 🧪",
+     "Un cours d'histoire avec des costumes 👑"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une sortie scolaire au musée 🖼️",
+     "Une sortie scolaire au zoo 🦒"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une récréation de 2 heures 🛝",
+     "Une pause déjeuner de 3 heures 🍽️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un cours de cuisine 🍳",
+     "Avoir un cours de cirque 🎪"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un exposé devant la classe 🎤",
+     "Faire une affiche géante 🗞️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un tableau interactif géant 🖥️",
+     "Avoir un tableau noir avec des craies colorées 🖍️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Passer le permis de conduire 🚗",
+     "Passer le permis bateau 🚤"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Gagner une médaille d'or 🥇",
+     "Gagner un trophée de champion 🏆"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Jouer au football toute la journée ⚽",
+     "Jouer au tennis toute la journée 🎾"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire du judo 🥋",
+     "Faire de la natation 🏊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire du basket 🏀",
+     "Faire du volley 🏐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire de l'escalade 🧗",
+     "Faire du vélo 🚴"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire du patin à glace ⛸️",
+     "Faire du ski nautique 🌊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Courir un marathon 🏃",
+     "Nager dans un lac glacé 🥶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Jouer au golf sur la lune 🌕",
+     "Jouer au bowling sur la glace 🎳"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être arbitre d'un match ⚽",
+     "Être entraîneur d'une équipe 📣"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire du yoga au lever du soleil 🧘",
+     "Faire du trampoline à minuit 🌛"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Battre un record de saut 🦘",
+     "Battre un record de vitesse 💨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire une randonnée en pleine nuit 🔦",
+     "Faire du camping au sommet d'une colline ⛰️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une pêche à la ligne tranquille 🎣",
+     "Une promenade en forêt 🍄"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une balade à dos d'âne 🫏",
+     "Une balade en poney 🐴"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Cueillir des champignons 🍄",
+     "Cueillir des fraises 🍓"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Observer des oiseaux 🔭",
+     "Observer des étoiles filantes 🌠"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ramasser des coquillages 🐚",
+     "Ramasser des pommes de pin 🌰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Construire un igloo ❄️",
+     "Construire un barrage dans la rivière 💧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Sauter dans les flaques 💦",
+     "Sauter dans les feuilles mortes 🍁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire une chasse au papillon 🦋",
+     "Faire une chasse aux grenouilles 🐸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Monter à un arbre géant 🌲",
+     "Descendre dans une grotte mystérieuse 🕳️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Attraper des lucioles ✨",
+     "Entendre des grillons 🦗"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un potager sur le toit 🥬",
+     "Avoir une serre pleine de fleurs 🌼"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un arbre qui donne des bonbons 🍭",
+     "Un arbre qui donne des gâteaux 🍪"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un buisson de bonbons 🍬",
+     "Une rivière de chocolat 🍫"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une pluie de confettis 🎊",
+     "Une neige de sucre glace ❄️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un lac de limonade 🍋",
+     "Un océan de lait fraise 🥛"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un nuage de barbe à papa ☁️",
+     "Une montagne de crème glacée 🍨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une forêt de guimauves 🌳",
+     "Une plage de sucre 🏖️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un soleil toujours souriant ☀️",
+     "Une lune qui chante 🌙"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un arc-en-ciel à chevaucher 🌈",
+     "Une étoile à attraper ⭐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Habiter sur la lune 🌕",
+     "Habiter sur une étoile 🌟"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Rencontrer le Père Noël 🎅",
+     "Rencontrer la petite souris 🐭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Voler avec un traîneau 🛷",
+     "Voler avec une citrouille 🎃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un renne comme animal 🦌",
+     "Avoir un lutin comme assistant 🧝"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une nuit de Noël en pyjama rouge 🎄",
+     "Un réveillon avec des feux de Bengale 🎇"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ouvrir tous les cadeaux d'un coup 🎁",
+     "Les ouvrir un par un pendant une semaine 📅"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un calendrier de l'Avent géant 🍫",
+     "Un sapin de 10 mètres 🌲"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une galette des rois avec 3 fèves 👑",
+     "Une bûche de 2 mètres 🪵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un anniversaire par mois 🎂",
+     "Un seul cadeau par an 🎁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Des crêpes à la Chandeleur 🥞",
+     "Un poisson d'avril chaque jour 🐟"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une kermesse d'école 🎡",
+     "Un carnaval de rue 🎭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un pique-nique au parc 🌳",
+     "Un goûter au bord de l'eau 💧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un feu de camp 🏕️",
+     "Une veillée contes 📖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un tour de manège sans fin 🎠",
+     "Une grande roue géante 🎡"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un grand huit 🎢",
+     "Un bateau pirate 🏴‍☠️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger de la barbe à papa 🍥",
+     "Manger des churros 🥨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un ballon rouge 🎈",
+     "Un cerf-volant bleu 🪁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Gagner un nounours à la fête foraine 🧸",
+     "Gagner un poisson rouge à la kermesse 🐠"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une photo drôle 📸",
+     "Une photo parfaite 🖼️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour sans lumière 💡",
+     "Un jour sans bruit 🔇"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un monde sans couleurs ⚫",
+     "Un monde sans sons 🔕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un monde sans nuages 🌤️",
+     "Un monde sans pluie 🏜️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un monde sans frontières 🌍",
+     "Un monde sans horloges 🕰️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un monde où tout est en pâte à modeler 🧸",
+     "Un monde où tout est en bonbons 🍭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un monde où l'on vole 🕊️",
+     "Un monde où l'on nage dans l'air 🐟"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un monde de géants 🏔️",
+     "Un monde de lilliputiens 🐜"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un monde en noir et blanc 🎞️",
+     "Un monde en couleurs fluo 🌈"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un monde rempli de chats 🐱",
+     "Un monde rempli de chiens 🐶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un monde sans réveil ⏰",
+     "Un monde sans devoirs 📚"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une planète de glace 🧊",
+     "Une planète de sable 🏜️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un robot-cuisinier 🤖",
+     "Un robot-copain 🦾"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une voiture qui vole 🚗",
+     "Un vélo qui nage 🚲"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une voiture électrique 🔋",
+     "Une voiture solaire ☀️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un train qui roule sous l'eau 🚇",
+     "Un bus qui vole 🚌"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un hélicoptère personnel 🚁",
+     "Un petit sous-marin personnel 🌊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un nez de clown 🤡",
+     "Avoir des oreilles de lapin 🐰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une queue de singe 🐒",
+     "Avoir des ailes de papillon 🦋"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une crinière de lion 🦁",
+     "Avoir une carapace de tortue 🐢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un bec de toucan 🦜",
+     "Avoir une trompe de tapir 🐽"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir des écailles de poisson 🐟",
+     "Avoir de la fourrure de panda 🐼"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ronronner quand tu es content 🐱",
+     "Aboyer quand tu es surpris 🐕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dormir à l'envers comme une chauve-souris 🦇",
+     "Dormir debout comme un cheval 🐎"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Hiberner tout l'hiver 🐻",
+     "Migrer tout l'hiver vers le sud 🦢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre dans un terrier 🐇",
+     "Vivre dans un nid 🐦"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger comme un ogre 🍖",
+     "Manger comme un oiseau 🐤"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Courir comme un lièvre 🐇",
+     "Nager comme un poisson 🐠"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir la patience d'un escargot 🐌",
+     "Avoir la mémoire d'un éléphant 🐘"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être fier comme un coq 🐓",
+     "Être rusé comme un renard 🦊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un cœur de lion 🦁",
+     "Avoir une tête de linotte 🐦"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être gourmand comme un ours 🍯",
+     "Être paresseux comme un koala 💤"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être doux comme un agneau 🐑",
+     "Être têtu comme une mule 🫏"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire le singe pendant un an 🙊",
+     "Faire l'autruche pendant un an 🪹"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Vivre une heure de gloire 🌟",
+     "Vivre dans l'ombre mais heureux 🌳"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un discours devant un stade 🏟️",
+     "Faire un solo de guitare 🎸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Sauver un chaton 🐱",
+     "Sauver un chiot 🐶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Gagner à la loterie 🎰",
+     "Gagner un voyage 🧳"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Recevoir une lettre d'un ami 💌",
+     "Recevoir un appel d'un grand-parent 📞"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Écrire un livre 📘",
+     "Composer une chanson 🎼"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une bibliothèque géante 📚",
+     "Avoir un cinéma à la maison 🍿"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un parc d'attractions chez toi 🎢",
+     "Avoir un zoo chez toi 🦒"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une salle de jeux 🕹️",
+     "Avoir un atelier de bricolage 🔧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un jardin avec un labyrinthe 🌿",
+     "Avoir une cabane avec un toboggan 🛝"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un bassin avec des poissons 🐟",
+     "Avoir un balcon avec des oiseaux 🐤"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un déjeuner sur l'herbe 🌾",
+     "Un dîner aux chandelles 🕯️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un petit pull chaud 🧶",
+     "Un grand plaid moelleux 🛋️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un thé à la menthe 🍵",
+     "Un lait à la vanille 🥛"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une tisane au miel 🍯",
+     "Une infusion de fruits 🍑"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Du pain frais le matin 🥖",
+     "Des croissants chauds le dimanche 🥐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Cueillir des pommes 🍎",
+     "Ramasser des noix 🌰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire des confitures 🍓",
+     "Faire des conserves 🥫"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire du pain maison 🍞",
+     "Faire des pâtes fraîches 🍝"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Préparer un gâteau d'anniversaire 🎂",
+     "Préparer un buffet de fête 🍽️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Décorer un sapin 🎄",
+     "Décorer une citrouille 🎃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Illuminer la maison 💡",
+     "Peindre les volets 🎨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Planter un arbre 🌱",
+     "Arroser un potager 🚿"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Tondre la pelouse 🌿",
+     "Ramasser les feuilles 🍂"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Réparer un vélo 🔧",
+     "Laver une voiture 🚗"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Bricoler une étagère 🔨",
+     "Peindre un mur 🖌️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Repeindre ta chambre en jaune 🌼",
+     "Repeindre ta chambre en bleu 🌊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Choisir un tapis à rayures 🦓",
+     "Choisir un tapis à fleurs 🌸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un rideau qui brille ✨",
+     "Avoir une lampe en forme de lune 🌙"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un mur de livres 📖",
+     "Un mur de photos 🖼️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dormir avec la fenêtre ouverte 🪟",
+     "Dormir avec une veilleuse 🕯️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Écouter la pluie sur le toit 🌧️",
+     "Écouter le vent dans les arbres 🍃"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une nuit d'orage à l'abri 🌩️",
+     "Une nuit étoilée dehors ⭐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une tempête de neige à la maison 🏠",
+     "Un matin de brouillard 🌫️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un lever de soleil à la montagne 🌄",
+     "Un coucher de soleil à la mer 🌇"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une rando en été ☀️",
+     "Une rando en automne 🍂"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un printemps toute l'année 🌷",
+     "Un automne toute l'année 🍁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un hiver toute l'année ⛄",
+     "Un été toute l'année 🌞"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger des cerises au printemps 🍒",
+     "Manger des châtaignes en automne 🌰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une balade sous la neige 🌨️",
+     "Une balade sous les étoiles 🌌"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un bain de soleil 🕶️",
+     "Un bain de mer 🌊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un mois sans bonbons 🍬",
+     "Un mois sans dessert 🍮"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un mois sans jeux 🎮",
+     "Un mois sans musique 🎧"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un mois sans sortir 🏠",
+     "Un mois sans dormir chez toi 🏕️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un mois sans lire 📚",
+     "Un mois sans dessiner ✏️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un mois sans télé 📺",
+     "Un mois sans téléphone 📞"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une semaine sans rire 😐",
+     "Une semaine sans pleurer 😢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une semaine sans soleil 🌥️",
+     "Une semaine sans pluie 🌵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une semaine sans voiture 🚗",
+     "Une semaine sans ascenseur 🛗"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour sans chaussures 👟",
+     "Un jour sans chaussettes 🧦"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour sans lumière 🔦",
+     "Un jour sans électricité 🔌"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à parler en chuchotant 🤫",
+     "Un jour à tout dire en chantant 🎤"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à faire le contraire de ce qu'on te dit 🔄",
+     "Un jour à dire oui à tout 👍"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à marcher sur les mains 🙃",
+     "Un jour à sauter à cloche-pied 🦵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à porter ses habits à l'envers 👕",
+     "Un jour à manger à l'envers 🍽️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à rire de tout 😆",
+     "Un jour à s'étonner de tout 😲"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à saluer tout le monde 👋",
+     "Un jour à sourire à tout le monde 😊"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à raconter des histoires 📖",
+     "Un jour à jouer la comédie 🎭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à jouer au chef 👨‍🍳",
+     "Un jour à jouer à l'explorateur 🧭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à jouer au roi 👑",
+     "Un jour à jouer au robot 🤖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à imiter un animal 🦁",
+     "Un jour à parler avec un accent rigolo 🗣️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à danser partout 🕺",
+     "Un jour à chanter partout 🎶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un jour à lancer des blagues 😜",
+     "Un jour à faire des compliments 💐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un super-chat 🐱",
+     "Avoir un super-chien 🐕"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Cuisiner avec un chef étoilé 👨‍🍳",
+     "Jouer avec un champion 🏅"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Être invité à un bal masqué 🎭",
+     "Être invité à un pique-nique royal 🧺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dîner avec un roi 🤴",
+     "Goûter avec une reine 👸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un château de sable géant 🏰",
+     "Avoir un cerf-volant géant 🪁"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une cabane au bord du lac 🛖",
+     "Un chalet dans la forêt 🪵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une caravane au bord de la mer 🚐",
+     "Une tente au pied d'une colline ⛺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un tour du monde en train 🚂",
+     "Faire un tour d'Europe en vélo 🚴"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Marcher sur la Grande Muraille 🧱",
+     "Naviguer sur le Nil ⛵"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Gravir une montagne 🏔️",
+     "Descendre une rivière en canoë 🛶"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Plonger dans un récif de corail 🪸",
+     "Voler au-dessus des nuages ☁️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Passer une nuit dans un phare 🔦",
+     "Passer une nuit dans un moulin 🌾"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dormir dans un tipi 🏕️",
+     "Dormir dans une yourte 🛖"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Visiter un château 🏰",
+     "Visiter une mine 💎"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger un plat du monde 🌍",
+     "Cuisiner un plat de ta région 🍲"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Découvrir un marché de Noël 🎄",
+     "Découvrir un marché aux fleurs 💐"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Écouter un orchestre 🎻",
+     "Écouter un groupe de rock 🎸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Aller au théâtre 🎭",
+     "Aller au cirque 🎪"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Voir un spectacle de marionnettes 🧸",
+     "Voir un spectacle de danse 🩰"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Regarder un dessin animé d'avant 📼",
+     "Regarder un dessin animé d'aujourd'hui 📺"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Lire un livre d'aventures 🗺️",
+     "Lire un livre drôle 🤭"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Jouer au loto en famille 🎱",
+     "Jouer aux dominos en famille 🁢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Gagner un concours de rire 😂",
+     "Gagner un concours de grimaces 🤪"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Dire une blague à un roi 🤴",
+     "Chanter une chanson à une reine 👸"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Jongler avec trois balles 🤹",
+     "Marcher sur des échasses 🦩"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Faire un tour de monocycle 🎪",
+     "Marcher sur un fil 🪢"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un chapeau melon 🎩",
+     "Avoir un béret 🧑‍🎨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Cuisiner des crêpes sans les retourner 🥞",
+     "Retourner des crêpes sans les cuisiner 🍳"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un petit pas pour toi, un grand pas pour le monde 👣",
+     "Un grand pas pour toi, un petit pas pour le monde 🌍"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un parapluie géant ☂️",
+     "Avoir un imperméable à pois 🌧️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Manger une pomme d'amour 🍎",
+     "Manger une gaufre au sucre 🧇"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Ne jamais perdre une partie de cartes 🃏",
+     "Ne jamais rater un tir au ballon 🥅"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir une trottinette dorée 🛴",
+     "Avoir des patins à roulettes argentés 🛼"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un hamster coureur 🐹",
+     "Un perroquet bavard 🦜"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Chanter sous la pluie 🎵",
+     "Danser dans le vent 💨"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un train miniature dans ta chambre 🚂",
+     "Un circuit de voitures dans le salon 🏎️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Habiter dans une bibliothèque 📚",
+     "Habiter dans un musée 🏛️"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un pantalon en chocolat 🍫",
+     "Un chapeau en barbe à papa 🍥"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Un tableau qui bouge 🖼️",
+     "Une statue qui parle 🗿"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Une vague de fous rires 🌊",
+     "Une pluie de câlins 🤗"
+    ]
+   },
+   "answer": ""
+  },
+  {
+   "prompt": {
+    "type": "choices",
+    "value": [
+     "Avoir un nuage rien que pour toi ☁️",
+     "Avoir un rayon de soleil rien que pour toi 🌞"
+    ]
+   },
+   "answer": ""
+  }
+ ]
+}

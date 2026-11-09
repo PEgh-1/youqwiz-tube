@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-rugby",
+  "theme": "sport",
+  "title": "Quiz rugby : 20 questions sur le ballon ovale",
+  "description": "Quiz rugby gratuit : 20 questions sur les règles, les Coupes du monde, le Tournoi des Six Nations et les légendes. Teste-toi en 5 s par question.",
+  "h1": "Quiz rugby : connais-tu bien le ballon ovale ?",
+  "intro": "Mêlées, essais, transformations et haka : ce quiz rugby te met à l'épreuve sur les règles du jeu, l'histoire des Coupes du monde, le Tournoi des Six Nations et quelques légendes du ballon ovale. Les huit premières questions sont à la portée de tous les supporters, les suivantes demandent un peu plus de mémoire, et les quatre dernières sont réservées aux vrais connaisseurs. Tu as 5 secondes pour répondre à chaque question, puis une explication te permet de retenir l'essentiel. Prends ton élan, plaque le chrono et essaie de marquer un score de grand chelem !",
+  "questions": [
+    {
+      "q": "Combien de joueurs compte une équipe de rugby à XV sur le terrain ?",
+      "choices": [
+        "13",
+        "11",
+        "15",
+        "12"
+      ],
+      "answer": 2,
+      "explication": "Le rugby à XV aligne quinze joueurs par équipe : huit avants et sept arrières.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de points vaut un essai au rugby à XV ?",
+      "choices": [
+        "5 points",
+        "3 points",
+        "4 points",
+        "7 points"
+      ],
+      "answer": 0,
+      "explication": "Un essai rapporte 5 points, auxquels peut s'ajouter une transformation de 2 points.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la forme du ballon de rugby ?",
+      "choices": [
+        "Ronde",
+        "Carrée",
+        "Triangulaire",
+        "Ovale"
+      ],
+      "answer": 3,
+      "explication": "Le ballon ovale est la signature du rugby et se transmet à la main ou au pied.",
+      "level": "facile"
+    },
+    {
+      "q": "Laquelle de ces nations participe au Tournoi des Six Nations ?",
+      "choices": [
+        "L'Espagne",
+        "L'Italie",
+        "L'Argentine",
+        "L'Afrique du Sud"
+      ],
+      "answer": 1,
+      "explication": "Le Tournoi réunit la France, l'Angleterre, l'Écosse, l'Irlande, le pays de Galles et l'Italie.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle équipe nationale réalise le haka avant ses matchs ?",
+      "choices": [
+        "Les Springboks",
+        "Les Wallabies",
+        "Les Pumas",
+        "Les All Blacks de Nouvelle-Zélande"
+      ],
+      "answer": 3,
+      "explication": "Le haka est une danse maorie exécutée par les All Blacks avant chaque match international.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le surnom de l'équipe nationale d'Afrique du Sud ?",
+      "choices": [
+        "Les Wallabies",
+        "Les Springboks",
+        "Les Lions",
+        "Les Pumas"
+      ],
+      "answer": 1,
+      "explication": "Les Springboks tirent leur nom d'une antilope, emblème de l'équipe.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de points rapporte une transformation réussie ?",
+      "choices": [
+        "2 points",
+        "1 point",
+        "3 points",
+        "5 points"
+      ],
+      "answer": 0,
+      "explication": "La transformation, tentée après un essai, vaut 2 points.",
+      "level": "facile"
+    },
+    {
+      "q": "Combien de points rapporte une pénalité réussie ?",
+      "choices": [
+        "2 points",
+        "5 points",
+        "3 points",
+        "1 point"
+      ],
+      "answer": 2,
+      "explication": "Une pénalité bottée entre les poteaux vaut 3 points, comme un drop.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle équipe a remporté la première Coupe du monde de rugby, en 1987 ?",
+      "choices": [
+        "L'Australie",
+        "La Nouvelle-Zélande",
+        "La France",
+        "L'Afrique du Sud"
+      ],
+      "answer": 1,
+      "explication": "Les All Blacks ont gagné la première édition, co-organisée avec l'Australie.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle équipe a gagné la Coupe du monde 2007, disputée en France ?",
+      "choices": [
+        "L'Angleterre",
+        "La Nouvelle-Zélande",
+        "L'Australie",
+        "L'Afrique du Sud"
+      ],
+      "answer": 3,
+      "explication": "Les Springboks ont battu l'Angleterre 15-6 en finale au Stade de France.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment s'appelle le trophée remis au vainqueur de la Coupe du monde de rugby ?",
+      "choices": [
+        "La Coupe Jules Rimet",
+        "La Coupe Calcutta",
+        "La Coupe Webb Ellis",
+        "Le Bouclier de Brennus"
+      ],
+      "answer": 2,
+      "explication": "Le trophée porte le nom de William Webb Ellis, héros de la légende du rugby.",
+      "level": "moyen"
+    },
+    {
+      "q": "Contre quelle équipe l'Afrique du Sud a-t-elle gagné la finale du Mondial 1995, à domicile ?",
+      "choices": [
+        "La Nouvelle-Zélande",
+        "L'Australie",
+        "L'Angleterre",
+        "La France"
+      ],
+      "answer": 0,
+      "explication": "Les Springboks se sont imposés 15-12 en prolongation, un moment resté célèbre avec Nelson Mandela.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la nationalité du célèbre ailier Jonah Lomu ?",
+      "choices": [
+        "Néo-Zélandaise",
+        "Australienne",
+        "Sud-africaine",
+        "Britannique"
+      ],
+      "answer": 0,
+      "explication": "Jonah Lomu a marqué les Coupes du monde des années 1990 avec les All Blacks.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel poste porte le numéro 9 au rugby à XV ?",
+      "choices": [
+        "Talonneur",
+        "Ailier",
+        "Demi de mêlée",
+        "Centre"
+      ],
+      "answer": 2,
+      "explication": "Le numéro 9 est le demi de mêlée, lien entre les avants et les trois-quarts.",
+      "level": "moyen"
+    },
+    {
+      "q": "Combien de joueurs compte une équipe de rugby à XIII ?",
+      "choices": [
+        "15",
+        "13",
+        "12",
+        "10"
+      ],
+      "answer": 1,
+      "explication": "Le rugby à XIII, dérivé du rugby à XV, se joue à treize joueurs par équipe.",
+      "level": "moyen"
+    },
+    {
+      "q": "Comment appelle-t-on la victoire d'une équipe contre tous ses adversaires dans le Tournoi des Six Nations ?",
+      "choices": [
+        "Le triplé",
+        "La Triple Couronne",
+        "Le carton plein",
+        "Le Grand Chelem"
+      ],
+      "answer": 3,
+      "explication": "Gagner tous ses matchs du Tournoi donne un Grand Chelem.",
+      "level": "moyen"
+    },
+    {
+      "q": "Dans quelle école, selon la légende, William Webb Ellis a-t-il pris le ballon à la main en 1823 ?",
+      "choices": [
+        "Eton College",
+        "Harrow School",
+        "Winchester College",
+        "Rugby School"
+      ],
+      "answer": 3,
+      "explication": "La légende situe l'invention du rugby à Rugby School, en Angleterre, même si l'histoire est incertaine.",
+      "level": "expert"
+    },
+    {
+      "q": "En quelle année le rugby à VII est-il revenu aux Jeux olympiques ?",
+      "choices": [
+        "2016",
+        "2008",
+        "2012",
+        "2020"
+      ],
+      "answer": 0,
+      "explication": "Le rugby à VII a fait son retour aux Jeux de Rio en 2016.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle équipe a remporté la Coupe du monde 2003 en Australie, grâce à un drop en prolongation ?",
+      "choices": [
+        "L'Australie",
+        "L'Angleterre",
+        "La Nouvelle-Zélande",
+        "La France"
+      ],
+      "answer": 1,
+      "explication": "Jonny Wilkinson a inscrit le drop victorieux en finale contre l'Australie.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel est le score de la finale de la Coupe du monde 2011 entre la Nouvelle-Zélande et la France ?",
+      "choices": [
+        "12-9",
+        "15-12",
+        "8-7",
+        "10-6"
+      ],
+      "answer": 2,
+      "explication": "Les All Blacks se sont imposés d'un seul point, 8-7, face à une équipe de France combative.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelles sont les règles de base du rugby ?",
+      "Le rugby se joue avec un ballon ovale, que l'on fait avancer en courant ou en bottant, mais jamais avec une passe vers l'avant. On marque un essai en aplatissant le ballon dans l'en-but adverse. Les plaquages sont autorisés selon des règles précises de sécurité."
+    ],
+    [
+      "Quelle est la différence entre le rugby à XV et à XIII ?",
+      "Le rugby à XV se joue à quinze joueurs avec des mêlées, des regroupements et des touches. Le rugby à XIII compte treize joueurs et limite la possession à un nombre de plaquages avant de rendre le ballon. Les deux disciplines partagent la même origine britannique."
+    ],
+    [
+      "Qui participe au Tournoi des Six Nations ?",
+      "Le Tournoi réunit la France, l'Angleterre, l'Écosse, l'Irlande, le pays de Galles et l'Italie. Chaque équipe affronte les cinq autres lors d'une compétition disputée chaque année, de la fin de l'hiver au début du printemps. Le vainqueur est l'équipe qui totalise le plus de points au classement final."
+    ]
+  ],
+  "related": [
+    "/quiz-sport",
+    "/quiz-football",
+    "/quiz-jeux-olympiques",
+    "/quiz-tour-de-france"
+  ]
+}

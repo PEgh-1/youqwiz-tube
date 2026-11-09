@@ -1,0 +1,513 @@
+{
+ "_comment": "Variantes d'habillage, de voix et de métadonnées (03/11/2026) : tirées par épisode pour que deux vidéos ne se ressemblent jamais. {theme} = nom du thème du jour, {n} = nombre de questions, {noun} = sujet de la banque, {weekday} = jour.",
+ "preroll": [
+  {
+   "text": "Content de te revoir ! 👋",
+   "voice": "Hé, content de te revoir ! C'est l'heure du quiz !"
+  },
+  {
+   "text": "Prêt pour le quiz du jour ? 🔥",
+   "voice": "Prêt pour le quiz du jour ? Allez, c'est parti !"
+  },
+  {
+   "text": "Aujourd'hui : {theme} 🎯",
+   "voice": "Aujourd'hui : {theme} ! Tu vas adorer !"
+  },
+  {
+   "text": "Installe-toi bien 🛋️",
+   "voice": "Installe-toi bien, ça démarre dans trois secondes !"
+  },
+  {
+   "text": "Nouveau défi ! 💪",
+   "voice": "Nouveau défi ! Tu vas faire mieux qu'hier ? On parie !"
+  },
+  {
+   "text": "Bon {weekday} ! ☀️",
+   "voice": "Bon {weekday} ! Au programme : {theme} !"
+  },
+  {
+   "text": "Le quiz du jour est là 🎁",
+   "voice": "Le quiz du jour est là ! Compte bien tes points !"
+  },
+  {
+   "text": "Tu reviens ? Bravo 🏆",
+   "voice": "Tu reviens ? Bravo ! Les champions jouent tous les jours !"
+  }
+ ],
+ "introCta": [
+  "🏆 Compte tes points, dis ton score en commentaire",
+  "✍️ Note tes points, on compare à la fin",
+  "👇 Ton score en commentaire, le meilleur passe lundi",
+  "🔥 Garde ta série le plus longtemps possible",
+  "🧠 Sans tricher, sans pause, on y va",
+  "🎯 Objectif : finir sans perdre ta série"
+ ],
+ "subscribe": [
+  {
+   "title": "Abonne-toi et active la cloche",
+   "sub": "pour être prévenu gratuitement du prochain quiz 🎁",
+   "voice": "Abonne-toi et active la cloche, pour être prévenu gratuitement du prochain quiz !"
+  },
+  {
+   "title": "Un quiz par jour, gratuit",
+   "sub": "abonne-toi pour ne pas rater le prochain 🔔",
+   "voice": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain."
+  },
+  {
+   "title": "Tu aimes ? Abonne-toi 👇",
+   "sub": "ça aide la chaîne et ça ne coûte rien 🙏",
+   "voice": "Si tu aimes, abonne-toi. Ça aide la chaîne, et ça ne coûte rien."
+  },
+  {
+   "title": "Rejoins les joueurs YouQwiz",
+   "sub": "abonne-toi, le prochain quiz arrive demain 🔔",
+   "voice": "Rejoins les joueurs YouQwiz : abonne-toi, le prochain quiz arrive demain."
+  },
+  {
+   "title": "Pas encore abonné ? 👀",
+   "sub": "un clic, et tu ne rates plus rien 🔔",
+   "voice": "Pas encore abonné ? Un clic, et tu ne rates plus rien."
+  }
+ ],
+ "levels": {
+  "facile": [
+   {
+    "card": "On s'échauffe 🔥",
+    "voice": "Niveau facile. On s'échauffe !"
+   },
+   {
+    "card": "Tranquille pour commencer ☕",
+    "voice": "Niveau facile. Tranquille pour commencer."
+   },
+   {
+    "card": "Tout le monde peut les avoir 😎",
+    "voice": "Niveau facile. Tout le monde peut les avoir. Enfin, presque."
+   },
+   {
+    "card": "Premier niveau, zéro pression 🙂",
+    "voice": "Premier niveau, zéro pression. On démarre."
+   }
+  ],
+  "moyen": [
+   {
+    "card": "Ça se corse 👀",
+    "voice": "Niveau moyen. Ça se corse !"
+   },
+   {
+    "card": "Là, il faut réfléchir 🤔",
+    "voice": "Niveau moyen. Là, il faut réfléchir un peu."
+   },
+   {
+    "card": "Les choses sérieuses commencent 💪",
+    "voice": "Niveau moyen. Les choses sérieuses commencent."
+   },
+   {
+    "card": "Attention aux pièges ⚠️",
+    "voice": "Niveau moyen. Attention, il y a des pièges."
+   }
+  ],
+  "difficile": [
+   {
+    "card": "Accroche-toi 😰",
+    "voice": "Niveau difficile. Accroche-toi !"
+   },
+   {
+    "card": "Ici, beaucoup abandonnent 😅",
+    "voice": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère."
+   },
+   {
+    "card": "Respect si tu continues 🔥",
+    "voice": "Niveau difficile. Respect si tu continues sans faute."
+   },
+   {
+    "card": "Concentration maximale 🧠",
+    "voice": "Niveau difficile. Concentration maximale."
+   }
+  ],
+  "impossible": [
+   {
+    "card": "Seuls les génies 🧠",
+    "voice": "Niveau impossible. Seuls les génies…"
+   },
+   {
+    "card": "Personne ne les a tous 🤯",
+    "voice": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire."
+   },
+   {
+    "card": "Dernier niveau : le boss 👑",
+    "voice": "Dernier niveau : le boss. Bonne chance."
+   },
+   {
+    "card": "Même moi je sèche 😈",
+    "voice": "Niveau impossible. Même moi, je sèche sur certains."
+   }
+  ]
+ },
+ "score": [
+  "Compte tes points et écris ton score en commentaire : le meilleur score est félicité dès demain !",
+  "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !",
+  "C'est l'heure des comptes ! Ton score en commentaire : le meilleur de la journée est félicité demain, et le champion de la semaine passe lundi !",
+  "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !"
+ ],
+ "outro": [
+  {
+   "title": "Ton score en commentaire 👇 le meilleur est félicité demain 🏆",
+   "voice": "Écris ton score en commentaire, le meilleur est félicité dès demain. Abonne-toi, et à demain !"
+  },
+  {
+   "title": "Ton score en commentaire 👇 le meilleur est félicité demain",
+   "voice": "Un nouveau quiz chaque jour. Abonne-toi, active la cloche, et à demain !"
+  },
+  {
+   "title": "À demain pour un nouveau quiz 👋",
+   "voice": "À demain pour un nouveau quiz. Pense à t'abonner !"
+  },
+  {
+   "title": "Partage à quelqu'un qui doit faire mieux 😏",
+   "voice": "Partage cette vidéo à quelqu'un qui pense faire mieux que toi. On verra."
+  },
+  {
+   "title": "Merci d'avoir joué 🙏",
+   "voice": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure."
+  },
+  {
+   "title": "Bravo d'être allé jusqu'au bout 🏁",
+   "voice": "Bravo d'être allé jusqu'au bout. Abonne-toi et à demain !"
+  }
+ ],
+ "outroChoice": [
+  {
+   "title": "Tes choix en commentaire 👇",
+   "voice": "Dis tes choix les plus difficiles en commentaire. À demain !"
+  },
+  {
+   "title": "Qui a fait les mêmes choix ? 🤔",
+   "voice": "Qui a fait les mêmes choix que toi ? Regarde les commentaires. À demain !"
+  },
+  {
+   "title": "Partage à un ami indécis 😏",
+   "voice": "Partage à un ami indécis, on compare vos réponses. À demain !"
+  }
+ ],
+ "packshot": {
+  "generic": [
+   {
+    "headline": "Crée GRATUITEMENT tes quiz personnalisés",
+    "sub": "à partager avec tes amis 🎉",
+    "cta": "👉 youqwiz.com",
+    "voice": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com."
+   },
+   {
+    "headline": "Défie tes proches sur youqwiz.com",
+    "sub": "le quiz du jour, en version interactive 🎮",
+    "cta": "👉 youqwiz.com",
+    "voice": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
+   },
+   {
+    "headline": "Teste tes amis : qui te connaît VRAIMENT ?",
+    "sub": "ton quiz perso en 2 minutes, gratuit 🎁",
+    "cta": "👉 youqwiz.com",
+    "voice": "Teste tes amis : qui te connaît vraiment ? Crée ton quiz perso en deux minutes, gratuit, sur youqwiz point com."
+   }
+  ],
+  "byPillar": {
+   "generations": [
+    {
+     "headline": "Un quiz pour toute la famille",
+     "sub": "papy, mamie, petits-enfants : à qui la meilleure mémoire ? 👵👴",
+     "cta": "👉 youqwiz.com",
+     "voice": "Sur youqwiz point com, crée un quiz pour toute la famille. Papy, mamie, les petits-enfants : à qui la meilleure mémoire ?"
+    }
+   ],
+   "choix": [
+    {
+     "headline": "Tes amis feraient les mêmes choix ?",
+     "sub": "crée ton quiz « Tu préfères » et compare 😏",
+     "cta": "👉 youqwiz.com",
+     "voice": "Tes amis feraient les mêmes choix que toi ? Crée ton quiz Tu préfères sur youqwiz point com, et compare."
+    }
+   ],
+   "culture": [
+    {
+     "headline": "Qui est le plus cultivé de ta bande ?",
+     "sub": "lance le quiz du jour sur youqwiz.com 🧠",
+     "cta": "👉 youqwiz.com",
+     "voice": "Qui est le plus cultivé de ta bande ? Lance le quiz du jour sur youqwiz point com."
+    }
+   ],
+   "devine": [
+    {
+     "headline": "Défi : envoie ce quiz à quelqu'un",
+     "sub": "et compare vos scores sur youqwiz.com 🏆",
+     "cta": "👉 youqwiz.com",
+     "voice": "Défi : envoie ce quiz à quelqu'un et compare vos scores sur youqwiz point com."
+    }
+   ],
+   "emojis": [
+    {
+     "headline": "Crée ton propre quiz en émojis",
+     "sub": "gratuit, en 2 minutes, à partager 🧩",
+     "cta": "👉 youqwiz.com",
+     "voice": "Crée ton propre quiz en émojis, gratuit, en deux minutes, sur youqwiz point com."
+    }
+   ],
+   "site": [
+    {
+     "headline": "Ces quiz viennent de youqwiz.com",
+     "sub": "joue aux suivants avant tout le monde 🎮",
+     "cta": "👉 youqwiz.com",
+     "voice": "Ces quiz viennent de youqwiz point com. Joue aux suivants avant tout le monde."
+    }
+   ]
+  }
+ },
+ "relances": {
+  "devine": {
+   "first": [
+    "Allez, on s'échauffe ! Première question !",
+    "C'est parti ! Première image, facile !",
+    "Top départ ! On commence en douceur !",
+    "Première question, montre-moi ce que tu vaux !"
+   ],
+   "generic": [
+    "Celui-là ?",
+    "Et celui-ci ?",
+    "Alors ?",
+    "Facile, non ?",
+    "Tu le connais ?",
+    "Hop, le suivant !",
+    "À toi.",
+    "Vite, vite !",
+    "Je t'écoute.",
+    "Tu l'as ?",
+    "Réfléchis bien.",
+    "Concentre-toi.",
+    "On continue.",
+    "Suivant !",
+    "Ça te dit quelque chose ?",
+    "Regarde bien.",
+    "Pas de panique.",
+    "Encore un.",
+    "Et maintenant ?",
+    "Tu vois ce que c'est ?"
+   ],
+   "hard": [
+    "Attention, celui-là piège tout le monde.",
+    "Là, ça devient sérieux.",
+    "Peu de gens l'ont.",
+    "Accroche-toi.",
+    "Je parie que tu sèches.",
+    "Celui-là, il est vicieux.",
+    "Prends ton temps, enfin, pas trop.",
+    "Respect si tu l'as."
+   ],
+   "milestone": [
+    "Déjà la question {n} ! Tu tiens le rythme ?",
+    "Question {n}. Ta série tient toujours ?",
+    "On passe la question {n}. Compte bien tes points."
+   ],
+   "last": [
+    "Dernière question !",
+    "Allez, la dernière.",
+    "On termine en beauté."
+   ],
+   "question_share": 0.35
+  },
+  "qcmPre": [
+   "Attention, question piège.",
+   "Celle-ci est pour les experts.",
+   "Facile, celle-là. Enfin, je crois.",
+   "Réfléchis bien avant de répondre.",
+   "Nouvelle question.",
+   "On continue.",
+   "Question suivante.",
+   "Beaucoup se trompent ici."
+  ],
+  "qcmPreShare": 0.3,
+  "answerQcm": [
+   "Réponse : {a} !",
+   "C'était {a}.",
+   "Eh oui : {a} !",
+   "La bonne réponse, c'est {a}.",
+   "Bravo si tu avais dit {a}.",
+   "{a}, évidemment !"
+  ],
+  "answerDevine": [
+   "{a} !",
+   "C'est {a}.",
+   "Bravo si tu as dit {a}.",
+   "Eh oui, {a} !",
+   "Réponse : {a}."
+  ],
+  "answerIntrus": [
+   "{a} !",
+   "L'intrus était en {a}.",
+   "C'était la {a}.",
+   "Tu l'as vu ? {a} !"
+  ],
+  "factLead": [
+   "Petit bonus :",
+   "Au passage,",
+   "Et pour la culture :",
+   "Détail amusant :",
+   "Tu savais ?",
+   "Pour briller en société :"
+  ]
+ },
+ "titles": {
+  "devine": [
+   "{hook} en 5 secondes {emoji} | Facile, Moyen, Difficile, Impossible",
+   "Peux-tu deviner {n} {noun} ? {emoji} Quiz de facile à IMPOSSIBLE",
+   "{n} {noun} à deviner {emoji} Seuls les génies font un sans-faute",
+   "Tu as 5 secondes par {noun1} ⏱️ {emoji} Quiz {noun}",
+   "{hook} {emoji} 99 % échouent au dernier niveau",
+   "Quiz {noun} {emoji} Combien tu en trouves sur {n} ?",
+   "{n} {noun} en 5 secondes chrono {emoji} Test de rapidité",
+   "Défi {noun} {emoji} {n} questions, 4 niveaux, un seul génie"
+  ],
+  "choix": [
+   "TU PRÉFÈRES…? {n} CHOIX IMPOSSIBLES {emoji} Niveau EXTRÊME !",
+   "Tu préfères… ? {n} dilemmes que personne n'ose trancher {emoji}",
+   "{n} choix impossibles {emoji} Tu préfères quoi ?",
+   "Tu préfères… ? Édition {n} questions {emoji} Choisis sans réfléchir !",
+   "Personne n'est d'accord sur ces {n} choix {emoji} Tu préfères… ?",
+   "Tu préfères… ? {n} dilemmes de FOUS {emoji} Jamais vu !",
+   "{n} dilemmes impossibles {emoji} Réponds en 5 secondes !"
+  ],
+  "culture": [
+   "{hook} {emoji} Es-tu un EXPERT ? | Facile à Impossible",
+   "{n} questions de {subject} {emoji} Presque personne n'a tout bon",
+   "Quiz {subject} {emoji} Quel est ton niveau ? ({n} questions)",
+   "{n} questions que 90 % des Français ratent {emoji} Quiz {subject}",
+   "Peux-tu réussir ce quiz de {subject} ? {emoji} {n} questions, 4 niveaux",
+   "{hook} {emoji} Teste tes connaissances en {n} questions",
+   "Ton cerveau est en forme si tu réussis ce quiz {emoji} {n} questions",
+   "Quiz {subject} {emoji} {n} questions, du CP au niveau GÉNIE"
+  ],
+  "generations": [
+   "{hook} {emoji} {n} questions souvenirs | Quiz Générations",
+   "Te rappelles-tu de tout ça ? {emoji} {n} souvenirs des années 60 à 90",
+   "Quiz nostalgie : {n} questions que seuls les anciens réussissent {emoji}",
+   "Si tu as vécu ça, tu auras tout bon {emoji} {n} souvenirs",
+   "Quiz Générations {emoji} {n} questions pour tester ta mémoire",
+   "{n} souvenirs d'avant {emoji} Tes enfants ne comprendront rien",
+   "Seuls ceux nés avant 1975 réussiront {emoji} {n} questions souvenirs"
+  ],
+  "emojis": [
+   "{hook} {emoji} {n} niveaux | Facile, Moyen, Difficile, Impossible",
+   "Peux-tu deviner {n} {noun} ? {emoji} Quiz rébus de facile à impossible",
+   "{n} {noun} {emoji} Seuls les génies trouvent tout",
+   "Quiz {noun} {emoji} {n} énigmes en 5 secondes",
+   "{hook} {emoji} Ton cerveau va chauffer",
+   "{n} {noun} à résoudre {emoji} Combien tu en trouves ?",
+   "Devine {n} {noun} en 5 secondes {emoji} Rébus et devinettes"
+  ],
+  "site": [
+   "{n} QUESTIONS de la SEMAINE {emoji} Les quiz du jour youqwiz.com | Facile à Impossible",
+   "Les {n} questions de la semaine {emoji} Tu les as toutes ? youqwiz.com",
+   "Récap de la semaine : {n} questions {emoji} Les quiz du jour de youqwiz.com"
+  ]
+ },
+ "descriptionIntro": {
+  "devine": [
+   "{n} {noun} à deviner en 5 secondes chacun, du plus facile au plus impossible.",
+   "Aujourd'hui : {n} {noun}. Tu as 5 secondes par image, ta série compte double.",
+   "Un quiz {noun} en {n} questions, 4 niveaux : facile, moyen, difficile, impossible."
+  ],
+  "choix": [
+   "{n} dilemmes impossibles : tu choisis quoi ? Sans réfléchir, 5 secondes.",
+   "Tu préfères… ? {n} choix que personne n'arrive à trancher.",
+   "{n} questions « Tu préfères », de la vie de tous les jours aux super-pouvoirs."
+  ],
+  "culture": [
+   "{n} questions de {subject}, 4 réponses, une seule bonne. Compte tes points.",
+   "Quiz {subject} en {n} questions, du niveau facile au niveau génie.",
+   "{n} questions pour tester ta culture : la plupart des gens ratent le dernier niveau."
+  ],
+  "generations": [
+   "{n} questions souvenirs : objets, émissions, habitudes d'avant. Tu te rappelles de tout ?",
+   "Un quiz nostalgie en {n} questions pour ceux qui ont connu cette époque.",
+   "{n} souvenirs des années 60 à 90, à faire en famille."
+  ],
+  "emojis": [
+   "{n} {noun} : trouve la réponse cachée en 5 secondes.",
+   "Un quiz {noun} en {n} énigmes, du facile à l'impossible.",
+   "{n} rébus en émojis à résoudre, ta série compte."
+  ],
+  "site": [
+   "Les {n} questions de la semaine, tirées des quiz du jour de youqwiz.com.",
+   "Récap de la semaine : {n} questions des quiz du jour."
+  ]
+ },
+ "descriptionCta": [
+  "🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com",
+  "🎮 Crée ton propre quiz gratuit en 2 minutes : https://youqwiz.com",
+  "🎮 Compare ton score avec tes amis sur https://youqwiz.com",
+  "🎮 Le même quiz, en version jouable : https://youqwiz.com"
+ ],
+ "descriptionSub": [
+  "🔔 Un nouveau quiz chaque jour, abonne-toi !",
+  "🔔 Abonne-toi : un quiz par jour à 17 h 30.",
+  "🔔 Nouveau quiz tous les jours, active la cloche.",
+  "🔔 Pense à t'abonner, ça aide la chaîne."
+ ],
+ "shortTitles": [
+  "99 % échouent à la 8e 😱 {hook} #Shorts",
+  "Tu tiens combien de questions ? 😱 {hook} #Shorts",
+  "Personne n'a la dernière 🤯 {hook} #Shorts",
+  "3 secondes par question ⏱️ {hook} #Shorts",
+  "Seuls les génies finissent 🧠 {hook} #Shorts",
+  "La 8e est impossible 😱 {hook} #Shorts"
+ ],
+ "shortDescriptions": [
+  "La réponse + {n} questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "Tu veux la réponse ? Elle est dans la vidéo complète ({n} questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "Vidéo complète avec les {n} questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz"
+ ],
+ "thumbStickers": [
+  "99 % ÉCHOUENT",
+  "IMPOSSIBLE ?",
+  "TU AS TOUT BON ?",
+  "PERSONNE N'Y ARRIVE",
+  "NIVEAU GÉNIE",
+  "{n} QUESTIONS",
+  "5 SECONDES !"
+ ],
+ "thumbLine1": {
+  "devine": [
+   "Devine",
+   "Trouve",
+   "Reconnais"
+  ],
+  "choix": [
+   "Tu préfères",
+   "Choisis",
+   "Dilemme"
+  ],
+  "culture": [
+   "Culture G",
+   "Quiz",
+   "Ton niveau ?"
+  ],
+  "generations": [
+   "Nés avant 1975 ?",
+   "Souvenirs",
+   "Tu te rappelles ?"
+  ],
+  "emojis": [
+   "Trouve",
+   "Devine",
+   "Décode"
+  ],
+  "site": [
+   "Les quiz",
+   "Récap"
+  ]
+ },
+ "introVoiceTail": [
+  "Prêt ? C'est parti !",
+  "Attache ta ceinture, c'est parti !",
+  "À toi de jouer !",
+  "Allez, montre-moi ce que tu vaux !"
+ ]
+}

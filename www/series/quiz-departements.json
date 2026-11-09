@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-departements",
+  "theme": "geographie",
+  "title": "Quiz départements français : 20 questions",
+  "description": "Quiz départements français : numéros, préfectures et localisation en 20 questions, des plus connus aux plus pointus. Teste ta culture de la France !",
+  "h1": "Quiz départements : connais-tu les départements français ?",
+  "intro": "Quel est le numéro du Nord ? Quelle est la préfecture du Finistère ? Ce quiz de 20 questions met à l'épreuve ta connaissance des départements français, de leurs numéros et de leurs préfectures. On démarre avec les grands classiques, Paris, Lyon, Marseille ou Toulouse, puis on passe aux départements où la plus grande ville n'est pas la préfecture, avant de finir sur des chefs-lieux que seuls les passionnés connaissent. Compte environ cinq secondes par question et profite des explications pour retenir de petites histoires sur chaque territoire. Que tu sois écolier, voyageur ou fan de plaques d'immatriculation, tu devrais y trouver ton compte.",
+  "questions": [
+    {
+      "q": "Quel numéro porte le département de Paris ?",
+      "choices": [
+        "57",
+        "75",
+        "95",
+        "77"
+      ],
+      "answer": 1,
+      "explication": "Le 75 est hérité de l'ancien département de la Seine, dont Paris a repris le numéro lors du redécoupage de 1968.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel département porte le numéro 59 ?",
+      "choices": [
+        "Le Pas-de-Calais",
+        "La Somme",
+        "L'Aisne",
+        "Le Nord"
+      ],
+      "answer": 3,
+      "explication": "Le Nord a pour préfecture Lille, grande métropole des Hauts-de-France.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel département porte le numéro 13 ?",
+      "choices": [
+        "Les Bouches-du-Rhône",
+        "Le Var",
+        "Le Vaucluse",
+        "Le Gard"
+      ],
+      "answer": 0,
+      "explication": "Les Bouches-du-Rhône ont pour préfecture Marseille, deuxième ville de France.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel est le numéro du département du Rhône ?",
+      "choices": [
+        "38",
+        "42",
+        "69",
+        "01"
+      ],
+      "answer": 2,
+      "explication": "Le Rhône a pour préfecture Lyon.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture de la Gironde ?",
+      "choices": [
+        "Arcachon",
+        "Libourne",
+        "Bordeaux",
+        "Mérignac"
+      ],
+      "answer": 2,
+      "explication": "Bordeaux est aussi capitale de la région Nouvelle-Aquitaine.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture de la Loire-Atlantique ?",
+      "choices": [
+        "Nantes",
+        "Saint-Nazaire",
+        "Angers",
+        "La Baule"
+      ],
+      "answer": 0,
+      "explication": "Nantes est la préfecture de la Loire-Atlantique et la plus grande ville des Pays de la Loire.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture des Alpes-Maritimes ?",
+      "choices": [
+        "Cannes",
+        "Antibes",
+        "Menton",
+        "Nice"
+      ],
+      "answer": 3,
+      "explication": "Nice est la préfecture du 06, un département qui touche la frontière italienne.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture de la Haute-Garonne ?",
+      "choices": [
+        "Albi",
+        "Toulouse",
+        "Tarbes",
+        "Montauban"
+      ],
+      "answer": 1,
+      "explication": "Toulouse, la « ville rose », est aussi la capitale de la région Occitanie.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle est la préfecture du Finistère ?",
+      "choices": [
+        "Quimper",
+        "Brest",
+        "Morlaix",
+        "Lorient"
+      ],
+      "answer": 0,
+      "explication": "Brest est la plus grande ville du Finistère, mais la préfecture est Quimper.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture du Calvados ?",
+      "choices": [
+        "Bayeux",
+        "Lisieux",
+        "Caen",
+        "Deauville"
+      ],
+      "answer": 2,
+      "explication": "Caen est la préfecture du Calvados, connue pour son abbaye aux Hommes.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel département porte le numéro 33 ?",
+      "choices": [
+        "La Dordogne",
+        "La Gironde",
+        "Les Landes",
+        "Le Lot-et-Garonne"
+      ],
+      "answer": 1,
+      "explication": "Le 33 est le département viticole de Bordeaux.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture du Pas-de-Calais ?",
+      "choices": [
+        "Calais",
+        "Boulogne-sur-Mer",
+        "Lens",
+        "Arras"
+      ],
+      "answer": 3,
+      "explication": "Calais est plus connue, mais la préfecture du Pas-de-Calais est Arras.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture du Var ?",
+      "choices": [
+        "Fréjus",
+        "Saint-Tropez",
+        "Hyères",
+        "Toulon"
+      ],
+      "answer": 3,
+      "explication": "Le Var a pour préfecture Toulon, grand port militaire de la Méditerranée.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture du Doubs ?",
+      "choices": [
+        "Montbéliard",
+        "Besançon",
+        "Belfort",
+        "Pontarlier"
+      ],
+      "answer": 1,
+      "explication": "Besançon, capitale historique de la Franche-Comté, est dominée par une citadelle de Vauban classée à l'Unesco.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture du Vaucluse ?",
+      "choices": [
+        "Orange",
+        "Carpentras",
+        "Avignon",
+        "Cavaillon"
+      ],
+      "answer": 2,
+      "explication": "Avignon est la ville des papes et préfecture du Vaucluse.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel département porte le numéro 2A ?",
+      "choices": [
+        "La Corse-du-Sud",
+        "La Haute-Corse",
+        "Le Var",
+        "Les Alpes-Maritimes"
+      ],
+      "answer": 0,
+      "explication": "La Corse a deux départements, 2A (Corse-du-Sud, préfecture Ajaccio) et 2B (Haute-Corse, préfecture Bastia).",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle est la préfecture de la Lozère ?",
+      "choices": [
+        "Florac",
+        "Mende",
+        "Marvejols",
+        "Millau"
+      ],
+      "answer": 1,
+      "explication": "Mende est la préfecture du département le moins peuplé de France métropolitaine.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la préfecture de la Creuse ?",
+      "choices": [
+        "Aubusson",
+        "Montluçon",
+        "Guéret",
+        "Felletin"
+      ],
+      "answer": 2,
+      "explication": "Aubusson est célèbre pour ses tapisseries, mais la préfecture est Guéret.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel département d'outre-mer porte le numéro 976 ?",
+      "choices": [
+        "Mayotte",
+        "La Réunion",
+        "La Guyane",
+        "La Martinique"
+      ],
+      "answer": 0,
+      "explication": "La Réunion est le 974, Mayotte le 976 depuis sa départementalisation en 2011.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle est la préfecture du Tarn ?",
+      "choices": [
+        "Castres",
+        "Gaillac",
+        "Carmaux",
+        "Albi"
+      ],
+      "answer": 3,
+      "explication": "Albi, plus grande ville du Tarn devant Castres, en est la préfecture ; c'est la ville natale de Toulouse-Lautrec.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Combien y a-t-il de départements en France ?",
+      "La France compte 101 départements : 96 en métropole, Corse comprise avec ses deux départements 2A et 2B, et 5 outre-mer (Guadeloupe, Martinique, Guyane, La Réunion et Mayotte). Les départements ont été créés en 1790, pendant la Révolution française, pour remplacer les anciennes provinces."
+    ],
+    [
+      "Comment sont numérotés les départements ?",
+      "À l'origine, les numéros suivent l'ordre alphabétique des noms de 1790, d'où l'Ain en 01 et l'Aisne en 02. Depuis, des changements de nom et de découpage ont brouillé cet ordre, par exemple avec le 75 de Paris. Les départements d'outre-mer portent des numéros à trois chiffres commençant par 97, comme le 974 de La Réunion."
+    ],
+    [
+      "Quelle différence entre préfecture et sous-préfecture ?",
+      "La préfecture est le chef-lieu du département, où siège le préfet, représentant de l'État. Les sous-préfectures sont des villes secondaires, dirigées par un sous-préfet, qui administrent chacune un arrondissement. Ce n'est pas toujours la plus grande ville qui est préfecture, comme le montrent Arras ou Quimper."
+    ]
+  ],
+  "related": [
+    "/quiz-regions-de-france",
+    "/quiz-geographie-france",
+    "/quiz-capitales",
+    "/quiz-geographie"
+  ]
+}

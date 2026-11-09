@@ -1,0 +1,22 @@
+name: Pages SEO youqwiz.com (agent SEO)
+
+# Pousse www/seo_pages_agent.json vers le site par un POST signé (clé SITE_SYNC_KEY, comme les quiz du jour).
+# Le serveur n'accepte que des données (pas de code) : chemins /quiz-… ou /culture-generale/x/y, HTML limité.
+on:
+  push:
+    branches: [main]
+    paths: ['www/seo_pages_agent.json', 'www/series/**']
+  workflow_dispatch:
+
+concurrency: deploy-site
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/site/push-seo.mjs
+        env:
+          SITE_SYNC_KEY: ${{ secrets.SITE_SYNC_KEY }}

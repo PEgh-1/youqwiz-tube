@@ -1,0 +1,2601 @@
+{
+ "id": "2026-11-11-culture-generale",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "theme": 2,
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "reveal": "pop",
+  "card": "square",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Nouveau défi ! 💪",
+   "voice": "Nouveau défi ! Tu vas faire mieux qu'hier ? On parie !"
+  },
+  "introCta": "🏆 Compte tes points, dis ton score en commentaire",
+  "subscribe": {
+   "title": "Rejoins les joueurs YouQwiz",
+   "sub": "abonne-toi, le prochain quiz arrive demain 🔔",
+   "voice": "Rejoins les joueurs YouQwiz : abonne-toi, le prochain quiz arrive demain."
+  },
+  "levels": {
+   "facile": {
+    "card": "On s'échauffe 🔥",
+    "voice": "Niveau facile. On s'échauffe !"
+   },
+   "moyen": {
+    "card": "Les choses sérieuses commencent 💪",
+    "voice": "Niveau moyen. Les choses sérieuses commencent."
+   },
+   "difficile": {
+    "card": "Concentration maximale 🧠",
+    "voice": "Niveau difficile. Concentration maximale."
+   },
+   "impossible": {
+    "card": "Seuls les génies 🧠",
+    "voice": "Niveau impossible. Seuls les génies…"
+   }
+  },
+  "scoreVoice": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "Ton score en commentaire 👇 le meilleur est félicité demain 🏆",
+   "voice": "Écris ton score en commentaire, le meilleur est félicité dès demain. Abonne-toi, et à demain !"
+  },
+  "packshot": {
+   "headline": "Crée GRATUITEMENT tes quiz personnalisés",
+   "sub": "à partager avec tes amis 🎉",
+   "cta": "👉 youqwiz.com",
+   "voice": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com."
+  }
+ },
+ "title": "94 questions de CULTURE GÉNÉRALE 🧠📚✅ Presque personne n'a tout bon",
+ "question": "",
+ "intro": {
+  "hook": "94 QUESTIONS de CULTURE GÉNÉRALE",
+  "sub": "4 réponses, une seule bonne 🧠"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de couleurs compte l'arc-en-ciel ?",
+    "choices": [
+     "7",
+     "5",
+     "6",
+     "9"
+    ],
+    "correct": 0
+   },
+   "answer": "7",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/0-q.mp3",
+     "sec": 2.429388
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/0-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sport se joue sur la glace avec un palet ?",
+    "choices": [
+     "Le hockey sur glace",
+     "Le curling",
+     "Le tennis",
+     "Le judo"
+    ],
+    "correct": 0
+   },
+   "answer": "Le hockey sur glace",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/1-q.mp3",
+     "sec": 2.716735
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/1-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal nous donne la laine ?",
+    "choices": [
+     "La vache",
+     "Le mouton",
+     "Le cheval",
+     "Le cochon"
+    ],
+    "correct": 1
+   },
+   "answer": "Le mouton",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/2-q.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/2-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel oiseau ne vole pas et vit en Antarctique ?",
+    "choices": [
+     "Le cygne",
+     "Le pélican",
+     "Le manchot",
+     "Le flamant"
+    ],
+    "correct": 2
+   },
+   "answer": "Le manchot",
+   "level": "facile",
+   "fact": "Chez les manchots empereurs, c'est le papa qui couve l'œuf sur ses pieds.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/3-q.mp3",
+     "sec": 5.485714
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/3-a.mp3",
+     "sec": 1.959184
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/3-f.mp3",
+     "sec": 5.694694
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal respire avec des branchies ?",
+    "choices": [
+     "Le poisson",
+     "La baleine",
+     "Le dauphin",
+     "Le phoque"
+    ],
+    "correct": 0
+   },
+   "answer": "Le poisson",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/4-q.mp3",
+     "sec": 2.142041
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/4-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal fait « miaou » ?",
+    "choices": [
+     "Le chien",
+     "Le chat",
+     "La vache",
+     "Le mouton"
+    ],
+    "correct": 1
+   },
+   "answer": "Le chat",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/5-q.mp3",
+     "sec": 2.194286
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/5-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le petit du chien ?",
+    "choices": [
+     "Le chiot",
+     "Le chaton",
+     "Le veau",
+     "L'agneau"
+    ],
+    "correct": 0
+   },
+   "answer": "Le chiot",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/6-q.mp3",
+     "sec": 2.246531
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/6-a.mp3",
+     "sec": 2.089796
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel outil sert à planter un clou ?",
+    "choices": [
+     "Le marteau",
+     "La scie",
+     "Le tournevis",
+     "La pince"
+    ],
+    "correct": 0
+   },
+   "answer": "Le marteau",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/7-q.mp3",
+     "sec": 3.526531
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/7-a.mp3",
+     "sec": 2.429388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de cordes possède une guitare classique ?",
+    "choices": [
+     "4",
+     "5",
+     "6",
+     "8"
+    ],
+    "correct": 2
+   },
+   "answer": "6",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/8-q.mp3",
+     "sec": 2.533878
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/8-a.mp3",
+     "sec": 1.828571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle forme a un ballon de football ?",
+    "choices": [
+     "Un cube",
+     "Un cylindre",
+     "Un cône",
+     "Une sphère"
+    ],
+    "correct": 3
+   },
+   "answer": "Une sphère",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/9-q.mp3",
+     "sec": 4.440816
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/9-a.mp3",
+     "sec": 1.593469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la France ?",
+    "choices": [
+     "Paris",
+     "Lyon",
+     "Marseille",
+     "Toulouse"
+    ],
+    "correct": 0
+   },
+   "answer": "Paris",
+   "level": "facile",
+   "fact": "La tour Eiffel était prévue pour ne rester que 20 ans à Paris.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/10-q.mp3",
+     "sec": 1.724082
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/10-a.mp3",
+     "sec": 1.959184
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/10-f.mp3",
+     "sec": 4.519184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fleuve traverse Paris ?",
+    "choices": [
+     "La Loire",
+     "La Seine",
+     "La Garonne",
+     "Le Rhône"
+    ],
+    "correct": 1
+   },
+   "answer": "La Seine",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/11-q.mp3",
+     "sec": 2.011429
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/11-a.mp3",
+     "sec": 1.671837
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle langue parle-t-on en Espagne ?",
+    "choices": [
+     "Le portugais",
+     "L'italien",
+     "Le grec",
+     "L'espagnol"
+    ],
+    "correct": 3
+   },
+   "answer": "L'espagnol",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/12-q.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/12-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle monnaie utilise-t-on en France ?",
+    "choices": [
+     "Le dollar",
+     "La livre",
+     "L'euro",
+     "Le franc suisse"
+    ],
+    "correct": 2
+   },
+   "answer": "L'euro",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/13-q.mp3",
+     "sec": 2.037551
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/13-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle articulation se trouve au milieu de la jambe ?",
+    "choices": [
+     "Le coude",
+     "Le genou",
+     "La cheville",
+     "Le poignet"
+    ],
+    "correct": 1
+   },
+   "answer": "Le genou",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/14-q.mp3",
+     "sec": 3.082449
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/14-a.mp3",
+     "sec": 1.750204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quelle matière fabrique-t-on les pneus de voiture ?",
+    "choices": [
+     "Le verre",
+     "Le caoutchouc",
+     "Le bois",
+     "Le coton"
+    ],
+    "correct": 1
+   },
+   "answer": "Le caoutchouc",
+   "level": "facile",
+   "fact": "Le caoutchouc naturel vient de la sève d'un arbre, l'hévéa.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/15-q.mp3",
+     "sec": 2.76898
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/15-a.mp3",
+     "sec": 1.880816
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/15-f.mp3",
+     "sec": 5.067755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fruit est l'ingrédient principal du guacamole ?",
+    "choices": [
+     "Le citron vert",
+     "La banane",
+     "La tomate",
+     "L'avocat"
+    ],
+    "correct": 3
+   },
+   "answer": "L'avocat",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/16-q.mp3",
+     "sec": 5.459592
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/16-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de mois compte une année ?",
+    "choices": [
+     "10",
+     "11",
+     "13",
+     "12"
+    ],
+    "correct": 3
+   },
+   "answer": "12",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/17-q.mp3",
+     "sec": 2.168163
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/17-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de lettres compte l'alphabet français ?",
+    "choices": [
+     "26",
+     "24",
+     "25",
+     "28"
+    ],
+    "correct": 0
+   },
+   "answer": "26",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/18-q.mp3",
+     "sec": 2.66449
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/18-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand continent du monde ?",
+    "choices": [
+     "L'Afrique",
+     "L'Europe",
+     "L'Asie",
+     "L'Amérique du Nord"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Asie",
+   "level": "facile",
+   "fact": "L'Asie abrite à elle seule près de 60 % des habitants de la planète.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/19-q.mp3",
+     "sec": 2.142041
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/19-a.mp3",
+     "sec": 1.619592
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/19-f.mp3",
+     "sec": 5.955918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le contraire de « chaud » ?",
+    "choices": [
+     "Froid",
+     "Tiède",
+     "Sec",
+     "Doux"
+    ],
+    "correct": 0
+   },
+   "answer": "Froid",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/20-q.mp3",
+     "sec": 1.959184
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/20-a.mp3",
+     "sec": 1.515102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jours compte février une année normale ?",
+    "choices": [
+     "29",
+     "30",
+     "28",
+     "31"
+    ],
+    "correct": 2
+   },
+   "answer": "28",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/21-q.mp3",
+     "sec": 3.317551
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/21-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays a la forme d'une botte sur la carte ?",
+    "choices": [
+     "Le Portugal",
+     "L'Italie",
+     "L'Espagne",
+     "La Grèce"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Italie",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/22-q.mp3",
+     "sec": 2.899592
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/22-a.mp3",
+     "sec": 1.48898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi de France était surnommé le Roi-Soleil ?",
+    "choices": [
+     "Louis XIV",
+     "Louis XVI",
+     "Louis XIII",
+     "Henri IV"
+    ],
+    "correct": 0
+   },
+   "answer": "Louis XIV",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/23-q.mp3",
+     "sec": 3.265306
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/23-a.mp3",
+     "sec": 2.35102
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la formule chimique de l'eau ?",
+    "choices": [
+     "NaCl",
+     "H2O",
+     "O2",
+     "CO2"
+    ],
+    "correct": 1
+   },
+   "answer": "H2O",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/24-q.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/24-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays est célèbre pour le kimchi ?",
+    "choices": [
+     "La Chine",
+     "La Thaïlande",
+     "La Corée",
+     "La Mongolie"
+    ],
+    "correct": 2
+   },
+   "answer": "La Corée",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/25-q.mp3",
+     "sec": 2.115918
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/25-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fleuve traverse Le Caire ?",
+    "choices": [
+     "Le Congo",
+     "Le Niger",
+     "Le Nil",
+     "Le Zambèze"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Nil",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/26-q.mp3",
+     "sec": 3.343673
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/26-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays est célèbre pour les pierogi ?",
+    "choices": [
+     "L'Espagne",
+     "La Grèce",
+     "Le Portugal",
+     "La Pologne"
+    ],
+    "correct": 3
+   },
+   "answer": "La Pologne",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/27-q.mp3",
+     "sec": 4.91102
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/27-a.mp3",
+     "sec": 2.298776
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit « Le Rouge et le Noir » ?",
+    "choices": [
+     "Flaubert",
+     "Balzac",
+     "Stendhal",
+     "Zola"
+    ],
+    "correct": 2
+   },
+   "answer": "Stendhal",
+   "level": "moyen",
+   "fact": "Stendhal est le pseudonyme d'Henri Beyle, qui l'a emprunté à une ville allemande, Stendal.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/28-q.mp3",
+     "sec": 2.377143
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/28-a.mp3",
+     "sec": 1.959184
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/28-f.mp3",
+     "sec": 6.243265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel animal le chien est-il un descendant ?",
+    "choices": [
+     "Le renard",
+     "Le chacal",
+     "Le coyote",
+     "Le loup"
+    ],
+    "correct": 3
+   },
+   "answer": "Le loup",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/29-q.mp3",
+     "sec": 2.899592
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/29-a.mp3",
+     "sec": 2.194286
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quelle couleur est le maillot du leader du Tour de France ?",
+    "choices": [
+     "Vert",
+     "Rouge",
+     "Bleu",
+     "Jaune"
+    ],
+    "correct": 3
+   },
+   "answer": "Jaune",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/30-q.mp3",
+     "sec": 5.590204
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/30-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien d'os compte le squelette d'un adulte ?",
+    "choices": [
+     "106",
+     "206",
+     "306",
+     "156"
+    ],
+    "correct": 1
+   },
+   "answer": "206",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/31-q.mp3",
+     "sec": 7.392653
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/31-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel courant artistique Claude Monet a-t-il illustré ?",
+    "choices": [
+     "L'impressionnisme",
+     "Le cubisme",
+     "Le surréalisme",
+     "Le fauvisme"
+    ],
+    "correct": 0
+   },
+   "answer": "L'impressionnisme",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/32-q.mp3",
+     "sec": 3.552653
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/32-a.mp3",
+     "sec": 2.612245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sport associe ski de fond et tir à la carabine ?",
+    "choices": [
+     "Le triathlon",
+     "Le biathlon",
+     "Le pentathlon",
+     "Le décathlon"
+    ],
+    "correct": 1
+   },
+   "answer": "Le biathlon",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/33-q.mp3",
+     "sec": 5.903673
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/33-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit continent ?",
+    "choices": [
+     "L'Europe",
+     "L'Océanie",
+     "L'Antarctique",
+     "L'Amérique du Sud"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Océanie",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/34-q.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/34-a.mp3",
+     "sec": 1.645714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est surnommée la planète rouge ?",
+    "choices": [
+     "Vénus",
+     "Jupiter",
+     "Mars",
+     "Mercure"
+    ],
+    "correct": 2
+   },
+   "answer": "Mars",
+   "level": "moyen",
+   "fact": "Mars est rouge à cause de la rouille, de l'oxyde de fer, présent dans son sol.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/35-q.mp3",
+     "sec": 2.951837
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/35-a.mp3",
+     "sec": 1.149388
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/35-f.mp3",
+     "sec": 6.844082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle mer baigne la ville de Marseille ?",
+    "choices": [
+     "La mer Baltique",
+     "La Méditerranée",
+     "La mer du Nord",
+     "La mer Noire"
+    ],
+    "correct": 1
+   },
+   "answer": "La Méditerranée",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/36-q.mp3",
+     "sec": 4.989388
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/36-a.mp3",
+     "sec": 1.828571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le participe passé du verbe « prendre » ?",
+    "choices": [
+     "Pris",
+     "Prit",
+     "Prendu",
+     "Prenant"
+    ],
+    "correct": 0
+   },
+   "answer": "Pris",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/37-q.mp3",
+     "sec": 5.982041
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/37-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville accueille les Jeux olympiques d'été de 2024 ?",
+    "choices": [
+     "Paris",
+     "Rome",
+     "Madrid",
+     "Berlin"
+    ],
+    "correct": 0
+   },
+   "answer": "Paris",
+   "level": "moyen",
+   "fact": "Paris accueille les Jeux olympiques d'été pour la troisième fois en 2024, après 1900 et 1924.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/38-q.mp3",
+     "sec": 3.787755
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/38-a.mp3",
+     "sec": 1.802449
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/38-f.mp3",
+     "sec": 8.437551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle le processus par lequel les plantes fabriquent leur nourriture ?",
+    "choices": [
+     "La digestion",
+     "La photosynthèse",
+     "La fermentation",
+     "La respiration"
+    ],
+    "correct": 1
+   },
+   "answer": "La photosynthèse",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/39-q.mp3",
+     "sec": 4.022857
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/39-a.mp3",
+     "sec": 2.063673
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la somme des angles d'un triangle ?",
+    "choices": [
+     "180°",
+     "90°",
+     "270°",
+     "360°"
+    ],
+    "correct": 0
+   },
+   "answer": "180°",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/40-q.mp3",
+     "sec": 2.403265
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/40-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 12 × 12 ?",
+    "choices": [
+     "124",
+     "132",
+     "144",
+     "164"
+    ],
+    "correct": 2
+   },
+   "answer": "144",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/41-q.mp3",
+     "sec": 1.802449
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/41-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel navigateur atteint les Antilles en 1492 ?",
+    "choices": [
+     "Magellan",
+     "Christophe Colomb",
+     "Vasco de Gama",
+     "Jacques Cartier"
+    ],
+    "correct": 1
+   },
+   "answer": "Christophe Colomb",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/42-q.mp3",
+     "sec": 3.709388
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/42-a.mp3",
+     "sec": 2.011429
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la Révolution française commence-t-elle ?",
+    "choices": [
+     "1715",
+     "1789",
+     "1804",
+     "1848"
+    ],
+    "correct": 1
+   },
+   "answer": "1789",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/43-q.mp3",
+     "sec": 3.709388
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/43-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle figure de style est « fort comme un lion » ?",
+    "choices": [
+     "Une métaphore",
+     "Une hyperbole",
+     "Une comparaison",
+     "Une litote"
+    ],
+    "correct": 2
+   },
+   "answer": "Une comparaison",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/44-q.mp3",
+     "sec": 3.056327
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/44-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Allemand invente l'imprimerie à caractères mobiles en Europe ?",
+    "choices": [
+     "Diesel",
+     "Daimler",
+     "Gutenberg",
+     "Röntgen"
+    ],
+    "correct": 2
+   },
+   "answer": "Gutenberg",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/45-q.mp3",
+     "sec": 4.231837
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/45-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un astre à longue queue lumineuse ?",
+    "choices": [
+     "Une étoile filante",
+     "Un satellite",
+     "Une galaxie",
+     "Une comète"
+    ],
+    "correct": 3
+   },
+   "answer": "Une comète",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/46-q.mp3",
+     "sec": 3.657143
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/46-a.mp3",
+     "sec": 2.873469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand lac d'Afrique ?",
+    "choices": [
+     "Le lac Tchad",
+     "Le lac Victoria",
+     "Le lac Malawi",
+     "Le lac Nasser"
+    ],
+    "correct": 1
+   },
+   "answer": "Le lac Victoria",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/47-q.mp3",
+     "sec": 5.146122
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/47-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un mot qui se lit dans les deux sens ?",
+    "choices": [
+     "Un synonyme",
+     "Un palindrome",
+     "Un anagramme",
+     "Un acronyme"
+    ],
+    "correct": 1
+   },
+   "answer": "Un palindrome",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/48-q.mp3",
+     "sec": 4.754286
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/48-a.mp3",
+     "sec": 1.959184
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs compte une équipe de water-polo dans l'eau ?",
+    "choices": [
+     "6",
+     "9",
+     "11",
+     "7"
+    ],
+    "correct": 3
+   },
+   "answer": "7",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/49-q.mp3",
+     "sec": 3.291429
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/49-a.mp3",
+     "sec": 1.410612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs compte une équipe de volley sur le terrain ?",
+    "choices": [
+     "5",
+     "7",
+     "6",
+     "8"
+    ],
+    "correct": 2
+   },
+   "answer": "6",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/50-q.mp3",
+     "sec": 3.030204
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/50-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand reptile du monde ?",
+    "choices": [
+     "Le crocodile marin",
+     "Le dragon de Komodo",
+     "L'anaconda",
+     "La tortue luth"
+    ],
+    "correct": 0
+   },
+   "answer": "Le crocodile marin",
+   "level": "moyen",
+   "fact": "Le crocodile marin peut mesurer plus de 5 mètres de long.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/51-q.mp3",
+     "sec": 2.246531
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/51-a.mp3",
+     "sec": 2.115918
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/51-f.mp3",
+     "sec": 6.269388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand pays d'Amérique du Sud ?",
+    "choices": [
+     "L'Argentine",
+     "Le Pérou",
+     "Le Brésil",
+     "La Colombie"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Brésil",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/52-q.mp3",
+     "sec": 2.272653
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/52-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que mesure un baromètre ?",
+    "choices": [
+     "La température",
+     "La vitesse du vent",
+     "La pression de l'air",
+     "L'humidité"
+    ],
+    "correct": 2
+   },
+   "answer": "La pression de l'air",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/53-q.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/53-a.mp3",
+     "sec": 2.037551
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pH de l'eau pure ?",
+    "choices": [
+     "1",
+     "10",
+     "7",
+     "14"
+    ],
+    "correct": 2
+   },
+   "answer": "7",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/54-q.mp3",
+     "sec": 2.063673
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/54-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel astronome place le Soleil au centre de l'univers connu ?",
+    "choices": [
+     "Ptolémée",
+     "Aristote",
+     "Copernic",
+     "Tycho Brahe"
+    ],
+    "correct": 2
+   },
+   "answer": "Copernic",
+   "level": "difficile",
+   "fact": "Copernic a publié sa théorie en 1543, l'année de sa mort.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/55-q.mp3",
+     "sec": 5.32898
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/55-a.mp3",
+     "sec": 2.194286
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/55-f.mp3",
+     "sec": 6.452245
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel minéral est le plus dur de l'échelle de Mohs ?",
+    "choices": [
+     "Le quartz",
+     "Le diamant",
+     "Le corindon",
+     "La topaze"
+    ],
+    "correct": 1
+   },
+   "answer": "Le diamant",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/56-q.mp3",
+     "sec": 5.537959
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/56-a.mp3",
+     "sec": 2.115918
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé « Le Boléro » ?",
+    "choices": [
+     "Claude Debussy",
+     "Maurice Ravel",
+     "Erik Satie",
+     "Georges Bizet"
+    ],
+    "correct": 1
+   },
+   "answer": "Maurice Ravel",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/57-q.mp3",
+     "sec": 2.35102
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/57-a.mp3",
+     "sec": 2.977959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique du sodium ?",
+    "choices": [
+     "So",
+     "Na",
+     "S",
+     "Sn"
+    ],
+    "correct": 1
+   },
+   "answer": "Na",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/58-q.mp3",
+     "sec": 4.414694
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/58-a.mp3",
+     "sec": 0.626939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel nombre est écrit MCMXC en chiffres romains ?",
+    "choices": [
+     "1990",
+     "1890",
+     "1900",
+     "2090"
+    ],
+    "correct": 0
+   },
+   "answer": "1990",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/59-q.mp3",
+     "sec": 7.157551
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/59-a.mp3",
+     "sec": 2.403265
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de sets faut-il gagner en Grand Chelem masculin ?",
+    "choices": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "correct": 1
+   },
+   "answer": "3",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/60-q.mp3",
+     "sec": 3.239184
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/60-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien vaut 5 factorielle (5!) ?",
+    "choices": [
+     "25",
+     "60",
+     "120",
+     "720"
+    ],
+    "correct": 2
+   },
+   "answer": "120",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/61-q.mp3",
+     "sec": 3.63102
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/61-a.mp3",
+     "sec": 1.933061
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit os du corps humain ?",
+    "choices": [
+     "Le radius",
+     "Le marteau",
+     "Le cubitus",
+     "L'étrier"
+    ],
+    "correct": 3
+   },
+   "answer": "L'étrier",
+   "level": "difficile",
+   "fact": "L'étrier, un minuscule os de l'oreille, mesure environ trois millimètres.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/62-q.mp3",
+     "sec": 4.231837
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/62-a.mp3",
+     "sec": 1.933061
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/62-f.mp3",
+     "sec": 5.720816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
+    "choices": [
+     "L'argon",
+     "Le gaz carbonique",
+     "L'oxygène",
+     "L'azote"
+    ],
+    "correct": 3
+   },
+   "answer": "L'azote",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/63-q.mp3",
+     "sec": 3.082449
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/63-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la distance moyenne entre la Terre et la Lune ?",
+    "choices": [
+     "384 000 km",
+     "38 400 km",
+     "3 840 000 km",
+     "150 000 km"
+    ],
+    "correct": 0
+   },
+   "answer": "384 000 km",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/64-q.mp3",
+     "sec": 3.970612
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/64-a.mp3",
+     "sec": 2.925714
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de cavités (chambres) compte le cœur humain ?",
+    "choices": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ],
+    "correct": 2
+   },
+   "answer": "4",
+   "level": "difficile",
+   "fact": "Le cœur bat environ 100 000 fois par jour sans jamais se reposer.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/65-q.mp3",
+     "sec": 7.079184
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/65-a.mp3",
+     "sec": 1.750204
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/65-f.mp3",
+     "sec": 6.60898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel moine est considéré comme le père de la génétique ?",
+    "choices": [
+     "Charles Darwin",
+     "Gregor Mendel",
+     "Louis Pasteur",
+     "Carl von Linné"
+    ],
+    "correct": 1
+   },
+   "answer": "Gregor Mendel",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/66-q.mp3",
+     "sec": 3.369796
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/66-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui met au point le daguerréotype, ancêtre de la photographie ?",
+    "choices": [
+     "Louis Lumière",
+     "Louis Daguerre",
+     "Étienne-Jules Marey",
+     "Gustave Eiffel"
+    ],
+    "correct": 1
+   },
+   "answer": "Louis Daguerre",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/67-q.mp3",
+     "sec": 4.022857
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/67-a.mp3",
+     "sec": 2.246531
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle épice est la plus chère du monde au poids ?",
+    "choices": [
+     "Le poivre",
+     "La cannelle",
+     "Le safran",
+     "La vanille"
+    ],
+    "correct": 2
+   },
+   "answer": "Le safran",
+   "level": "difficile",
+   "fact": "Le safran vient d'une petite fleur, le crocus, et se récolte à la main.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/68-q.mp3",
+     "sec": 2.821224
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/68-a.mp3",
+     "sec": 2.115918
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/68-f.mp3",
+     "sec": 5.590204
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique du plomb ?",
+    "choices": [
+     "Pb",
+     "Pl",
+     "Po",
+     "Pm"
+    ],
+    "correct": 0
+   },
+   "answer": "Pb",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/69-q.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/69-a.mp3",
+     "sec": 1.462857
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle longueur mesure un bassin olympique de natation ?",
+    "choices": [
+     "25 m",
+     "50 m",
+     "100 m",
+     "75 m"
+    ],
+    "correct": 1
+   },
+   "answer": "50 m",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/70-q.mp3",
+     "sec": 2.821224
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/70-a.mp3",
+     "sec": 2.168163
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique du potassium ?",
+    "choices": [
+     "K",
+     "P",
+     "Po",
+     "Pt"
+    ],
+    "correct": 0
+   },
+   "answer": "K",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/71-q.mp3",
+     "sec": 3.84
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/71-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle unité mesure l'intensité du courant électrique ?",
+    "choices": [
+     "Le volt",
+     "Le watt",
+     "L'ohm",
+     "L'ampère"
+    ],
+    "correct": 3
+   },
+   "answer": "L'ampère",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/72-q.mp3",
+     "sec": 4.806531
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/72-a.mp3",
+     "sec": 2.324898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a rénové les Jeux olympiques modernes ?",
+    "choices": [
+     "Jules Rimet",
+     "Henri Desgrange",
+     "Paul Bocuse",
+     "Pierre de Coubertin"
+    ],
+    "correct": 3
+   },
+   "answer": "Pierre de Coubertin",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/73-q.mp3",
+     "sec": 2.35102
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/73-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Guernica » ?",
+    "choices": [
+     "Francisco de Goya",
+     "Pablo Picasso",
+     "Salvador Dalí",
+     "Joan Miró"
+    ],
+    "correct": 1
+   },
+   "answer": "Pablo Picasso",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/74-q.mp3",
+     "sec": 1.410612
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/74-a.mp3",
+     "sec": 1.619592
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle hormone est surnommée l'hormone du sommeil ?",
+    "choices": [
+     "L'insuline",
+     "La mélatonine",
+     "L'adrénaline",
+     "Le cortisol"
+    ],
+    "correct": 1
+   },
+   "answer": "La mélatonine",
+   "level": "difficile",
+   "fact": "La mélatonine est fabriquée par une petite glande du cerveau, l'épiphyse.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/75-q.mp3",
+     "sec": 2.925714
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/75-a.mp3",
+     "sec": 1.933061
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/75-f.mp3",
+     "sec": 6.269388
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que vaut le nombre romain XL ?",
+    "choices": [
+     "60",
+     "90",
+     "14",
+     "40"
+    ],
+    "correct": 3
+   },
+   "answer": "40",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/76-q.mp3",
+     "sec": 2.168163
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/76-a.mp3",
+     "sec": 1.802449
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle la figure de style qui dit moins pour suggérer plus ?",
+    "choices": [
+     "La litote",
+     "L'hyperbole",
+     "L'antithèse",
+     "L'ellipse"
+    ],
+    "correct": 0
+   },
+   "answer": "La litote",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/77-q.mp3",
+     "sec": 4.257959
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/77-a.mp3",
+     "sec": 1.567347
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel plat péruvien est du poisson cru mariné au citron vert ?",
+    "choices": [
+     "Le gaspacho",
+     "Le sashimi",
+     "Le tartare",
+     "Le ceviche"
+    ],
+    "correct": 3
+   },
+   "answer": "Le ceviche",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/78-q.mp3",
+     "sec": 4.362449
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/78-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel physicien découvre la radioactivité en 1896 ?",
+    "choices": [
+     "Pierre Curie",
+     "Rutherford",
+     "Niels Bohr",
+     "Henri Becquerel"
+    ],
+    "correct": 3
+   },
+   "answer": "Henri Becquerel",
+   "level": "impossible",
+   "fact": "Henri Becquerel a découvert la radioactivité par hasard, en étudiant des sels d'uranium.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/79-q.mp3",
+     "sec": 6.50449
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/79-a.mp3",
+     "sec": 2.35102
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/79-f.mp3",
+     "sec": 7.444898
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle l'étude des champignons ?",
+    "choices": [
+     "L'algologie",
+     "La mycologie",
+     "La bryologie",
+     "L'entomologie"
+    ],
+    "correct": 1
+   },
+   "answer": "La mycologie",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/80-q.mp3",
+     "sec": 4.284082
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/80-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel élément chimique a pour numéro atomique 79 ?",
+    "choices": [
+     "L'argent",
+     "L'or",
+     "Le platine",
+     "Le mercure"
+    ],
+    "correct": 1
+   },
+   "answer": "L'or",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/81-q.mp3",
+     "sec": 4.675918
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/81-a.mp3",
+     "sec": 2.507755
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de paires de chromosomes possède un chien ?",
+    "choices": [
+     "39",
+     "23",
+     "32",
+     "24"
+    ],
+    "correct": 0
+   },
+   "answer": "39",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/82-q.mp3",
+     "sec": 2.977959
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/82-a.mp3",
+     "sec": 1.593469
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Tanzanie ?",
+    "choices": [
+     "Dodoma",
+     "Dar es Salam",
+     "Nairobi",
+     "Kampala"
+    ],
+    "correct": 0
+   },
+   "answer": "Dodoma",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/83-q.mp3",
+     "sec": 2.35102
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/83-a.mp3",
+     "sec": 1.828571
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année Constantinople tombe-t-elle aux mains des Ottomans ?",
+    "choices": [
+     "1453",
+     "1204",
+     "1517",
+     "1492"
+    ],
+    "correct": 0
+   },
+   "answer": "1453",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/84-q.mp3",
+     "sec": 6.112653
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/84-a.mp3",
+     "sec": 2.272653
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la masse du poids en athlétisme masculin ?",
+    "choices": [
+     "5 kg",
+     "7,26 kg",
+     "10 kg",
+     "6,5 kg"
+    ],
+    "correct": 1
+   },
+   "answer": "7,26 kg",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/85-q.mp3",
+     "sec": 2.977959
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/85-a.mp3",
+     "sec": 3.004082
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus grande lune de Neptune ?",
+    "choices": [
+     "Titan",
+     "Triton",
+     "Charon",
+     "Ganymède"
+    ],
+    "correct": 1
+   },
+   "answer": "Triton",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/86-q.mp3",
+     "sec": 2.377143
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/86-a.mp3",
+     "sec": 1.906939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel philosophe a écrit « Le Contrat social » ?",
+    "choices": [
+     "Montesquieu",
+     "Jean-Jacques Rousseau",
+     "Voltaire",
+     "Diderot"
+    ],
+    "correct": 1
+   },
+   "answer": "Jean-Jacques Rousseau",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/87-q.mp3",
+     "sec": 5.537959
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/87-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de nombres premiers y a-t-il en dessous de 20 ?",
+    "choices": [
+     "7",
+     "9",
+     "10",
+     "8"
+    ],
+    "correct": 3
+   },
+   "answer": "8",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/88-q.mp3",
+     "sec": 3.213061
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/88-a.mp3",
+     "sec": 1.697959
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel élément chimique a pour symbole Ti ?",
+    "choices": [
+     "Le tungstène",
+     "Le thallium",
+     "Le titane",
+     "Le tantale"
+    ],
+    "correct": 2
+   },
+   "answer": "Le titane",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/89-q.mp3",
+     "sec": 4.754286
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/89-a.mp3",
+     "sec": 1.776327
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est l'étoile la plus brillante du ciel nocturne ?",
+    "choices": [
+     "Polaris",
+     "Vega",
+     "Bételgeuse",
+     "Sirius"
+    ],
+    "correct": 3
+   },
+   "answer": "Sirius",
+   "level": "impossible",
+   "fact": "Sirius est surnommée l'étoile du Chien, car elle fait partie de la constellation du Grand Chien.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/90-q.mp3",
+     "sec": 5.564082
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/90-a.mp3",
+     "sec": 1.697959
+    },
+    "f": {
+     "src": "tts/2026-11-11-culture-generale/90-f.mp3",
+     "sec": 6.530612
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jours terrestres dure une année sur Mars ?",
+    "choices": [
+     "365",
+     "687",
+     "480",
+     "780"
+    ],
+    "correct": 1
+   },
+   "answer": "687",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/91-q.mp3",
+     "sec": 3.395918
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/91-a.mp3",
+     "sec": 1.880816
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Bhoutan ?",
+    "choices": [
+     "Vientiane",
+     "Thimphou",
+     "Dacca",
+     "Katmandou"
+    ],
+    "correct": 1
+   },
+   "answer": "Thimphou",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/92-q.mp3",
+     "sec": 1.645714
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/92-a.mp3",
+     "sec": 1.906939
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la largeur d'un but de football ?",
+    "choices": [
+     "6,50 m",
+     "8 m",
+     "7 m",
+     "7,32 m"
+    ],
+    "correct": 3
+   },
+   "answer": "7,32 m",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-11-culture-generale/93-q.mp3",
+     "sec": 5.720816
+    },
+    "a": {
+     "src": "tts/2026-11-11-culture-generale/93-a.mp3",
+     "sec": 2.716735
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Quiz CULTURE GÉNÉRALE en 94 questions, du niveau facile au niveau génie. Niveaux : 25 facile, 29 moyens, 25 difficiles, 15 impossible. 15 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Crée ton propre quiz gratuit en 2 minutes : https://youqwiz.com/quiz-du-jour/2026-11-11-culture-generale\n🔔 Abonne-toi : un quiz par jour à 17 h 30.\n\n#quiz #culturegenerale #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:13 Niveau facile\n05:30 Niveau moyen\n12:36 Niveau difficile\n19:21 Niveau impossible\n23:53 Ton score\n24:05 Crée ton quiz sur youqwiz.com",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "culture generale",
+   "culture générale",
+   "quiz culture générale",
+   "test de connaissances",
+   "devinette",
+   "facile à impossible",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Ton niveau ?",
+   "line2": "94 QUESTIONS",
+   "emoji": "✅",
+   "sticker": "5 SECONDES !",
+   "layouts": [
+    3,
+    2
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Tu tiens combien de questions ? 😱 94 QUESTIONS de CULTURE GÉNÉRALE #Shorts",
+  "shortDescription": "La réponse + 94 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 13.766666666666667,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 330.56666666666666,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 756.7666666666667,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 1161.1666666666667,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 1433.3666666666666,
+    "title": "Ton score"
+   },
+   {
+    "at": 1445.2666666666667,
+    "title": "Crée ton quiz sur youqwiz.com"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/7be58f74e39cf17f.mp3",
+   "sec": 2.194286
+  },
+  "level_moyen": {
+   "src": "tts-cache/e50717286acc9c69.mp3",
+   "sec": 3.082449
+  },
+  "level_difficile": {
+   "src": "tts-cache/61b9e62b2cbb1c5d.mp3",
+   "sec": 3.787755
+  },
+  "level_impossible": {
+   "src": "tts-cache/d5d6978ec142b85a.mp3",
+   "sec": 3.082449
+  },
+  "score": {
+   "src": "tts-cache/ef0ff38ad795df4b.mp3",
+   "sec": 4.832653
+  },
+  "subscribe": {
+   "src": "tts-cache/8fdfaefd173281d1.mp3",
+   "sec": 4.362449
+  },
+  "outro": {
+   "src": "tts-cache/3453b61e098bbad5.mp3",
+   "sec": 5.564082
+  },
+  "cliff": {
+   "src": "tts-cache/7fdb66295bb6a000.mp3",
+   "sec": 4.127347
+  },
+  "preroll": {
+   "src": "tts-cache/0cd70df1fb5eee89.mp3",
+   "sec": 2.795102
+  },
+  "intro": {
+   "src": "tts/2026-11-11-culture-generale/intro.mp3",
+   "sec": 4.832653
+  },
+  "packshot": {
+   "src": "tts-cache/5b2b85a2218c046e.mp3",
+   "sec": 5.172245
+  }
+ }
+}

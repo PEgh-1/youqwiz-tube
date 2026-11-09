@@ -1,0 +1,270 @@
+{
+  "path": "/quiz-histoire-de-france",
+  "theme": "histoire",
+  "title": "Quiz histoire de France : 20 questions",
+  "description": "Quiz histoire de France : 20 questions sur les grandes dates et les personnages, de Clovis à la Ve République. Facile à expert, gratuit.",
+  "h1": "Quiz histoire de France : connais-tu les grandes dates ?",
+  "intro": "De Clovis à Charles de Gaulle, ce quiz d'histoire de France revisite les grands rendez-vous de notre passé : batailles, couronnements, révolutions, textes fondateurs et personnages marquants. Tu y retrouveras les souvenirs d'école et peut-être quelques surprises. Les 20 questions progressent doucement : huit faciles, huit moyennes et quatre pour les experts. Compte à peu près 5 secondes par question, et lis l'explication après chaque réponse pour retenir l'essentiel. Tu peux le refaire autant de fois que tu veux, seul ou en famille. Prêt à remonter le temps ? Lance le quiz et vois combien de dates tu as gardées en tête !",
+  "questions": [
+    {
+      "q": "Quel roi des Francs est baptisé à Reims vers 496 ?",
+      "choices": [
+        "Charlemagne",
+        "Pépin le Bref",
+        "Clovis",
+        "Dagobert"
+      ],
+      "answer": 2,
+      "explication": "Clovis se convertit au christianisme, un choix qui rapproche les Francs de l'Église et marque les débuts du royaume.",
+      "level": "facile"
+    },
+    {
+      "q": "Que se passe-t-il le 14 juillet 1789 ?",
+      "choices": [
+        "La prise de la Bastille",
+        "Le sacre de Napoléon",
+        "La proclamation de la République",
+        "La fuite du roi à Varennes"
+      ],
+      "answer": 0,
+      "explication": "Les Parisiens s'emparent de la forteresse royale de la Bastille, un événement devenu le symbole de la Révolution.",
+      "level": "facile"
+    },
+    {
+      "q": "Quelle ville assiégée par les Anglais Jeanne d'Arc délivre-t-elle en 1429 ?",
+      "choices": [
+        "Reims",
+        "Orléans",
+        "Rouen",
+        "Paris"
+      ],
+      "answer": 1,
+      "explication": "La délivrance d'Orléans, en mai 1429, redonne espoir au camp du dauphin Charles et ouvre la voie à son sacre à Reims.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel roi installe la cour au château de Versailles ?",
+      "choices": [
+        "Louis XIII",
+        "Henri IV",
+        "François Ier",
+        "Louis XIV"
+      ],
+      "answer": 3,
+      "explication": "Louis XIV fait de Versailles le centre du pouvoir : la cour s'y installe de façon durable en 1682.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel général devient empereur des Français en 1804 ?",
+      "choices": [
+        "Louis XVIII",
+        "Charles X",
+        "Napoléon III",
+        "Napoléon Bonaparte"
+      ],
+      "answer": 3,
+      "explication": "Napoléon Bonaparte est sacré empereur à Notre-Dame de Paris le 2 décembre 1804.",
+      "level": "facile"
+    },
+    {
+      "q": "Qui lance l'appel du 18 juin 1940 depuis Londres ?",
+      "choices": [
+        "Philippe Pétain",
+        "Charles de Gaulle",
+        "Jean Moulin",
+        "Georges Clemenceau"
+      ],
+      "answer": 1,
+      "explication": "Sur les ondes de la BBC, le général de Gaulle appelle les Français à poursuivre le combat contre l'Allemagne.",
+      "level": "facile"
+    },
+    {
+      "q": "Pour quelle occasion la tour Eiffel est-elle construite ?",
+      "choices": [
+        "L'Exposition universelle de 1889",
+        "Les Jeux olympiques de 1900",
+        "Le centenaire de Napoléon",
+        "L'inauguration du métro"
+      ],
+      "answer": 0,
+      "explication": "Elle devait être démontée au bout de vingt ans mais elle est restée, notamment grâce à son utilité pour la radio.",
+      "level": "facile"
+    },
+    {
+      "q": "En quelle année a lieu le Débarquement en Normandie ?",
+      "choices": [
+        "1940",
+        "1942",
+        "1944",
+        "1945"
+      ],
+      "answer": 2,
+      "explication": "Le 6 juin 1944, les troupes alliées débarquent sur les plages de Normandie et ouvrent la voie à la libération de la France.",
+      "level": "facile"
+    },
+    {
+      "q": "Quel roi signe l'édit de Nantes en 1598 ?",
+      "choices": [
+        "Henri IV",
+        "Louis XIII",
+        "Henri III",
+        "Charles IX"
+      ],
+      "answer": 0,
+      "explication": "Cet édit accorde une tolérance aux protestants et clôt plus de trente ans de guerres de Religion.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel souverain est couronné empereur à Rome à Noël de l'an 800 ?",
+      "choices": [
+        "Clovis",
+        "Hugues Capet",
+        "Charlemagne",
+        "Louis le Pieux"
+      ],
+      "answer": 2,
+      "explication": "Le pape Léon III couronne Charlemagne empereur, relançant une dignité impériale en Occident.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel roi de France bat les Suisses à Marignan en 1515 ?",
+      "choices": [
+        "Louis XII",
+        "François Ier",
+        "Henri II",
+        "Charles VIII"
+      ],
+      "answer": 1,
+      "explication": "Cette victoire, au début de son règne, assoit le prestige du jeune roi en Italie.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel homme politique est le principal artisan de l'abolition de l'esclavage en 1848 ?",
+      "choices": [
+        "Jean Jaurès",
+        "Jules Ferry",
+        "Alphonse de Lamartine",
+        "Victor Schœlcher"
+      ],
+      "answer": 3,
+      "explication": "Sous-secrétaire d'État à la Marine, Schœlcher fait signer le décret d'abolition définitive dans les colonies françaises.",
+      "level": "moyen"
+    },
+    {
+      "q": "En quelle année Napoléon est-il vaincu à Waterloo ?",
+      "choices": [
+        "1805",
+        "1815",
+        "1812",
+        "1830"
+      ],
+      "answer": 1,
+      "explication": "Après les Cent-Jours, la défaite de juin 1815 met fin à son règne. Il est exilé à Sainte-Hélène.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel ministre est associé aux lois sur l'école gratuite, laïque et obligatoire ?",
+      "choices": [
+        "Victor Hugo",
+        "Léon Gambetta",
+        "Georges Clemenceau",
+        "Jules Ferry"
+      ],
+      "answer": 3,
+      "explication": "Les lois de 1881-1882 rendent l'école primaire gratuite, puis laïque et obligatoire.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel écrivain publie « J'accuse » en 1898 dans l'affaire Dreyfus ?",
+      "choices": [
+        "Victor Hugo",
+        "Marcel Proust",
+        "Émile Zola",
+        "Alexandre Dumas"
+      ],
+      "answer": 2,
+      "explication": "Sa lettre ouverte au président de la République, parue dans L'Aurore, dénonce l'injustice faite au capitaine Dreyfus.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quelle mesure sociale marque le Front populaire en 1936 ?",
+      "choices": [
+        "Les congés payés",
+        "La Sécurité sociale",
+        "Le droit de vote des femmes",
+        "La retraite à 60 ans"
+      ],
+      "answer": 0,
+      "explication": "Deux semaines de congés payés sont accordées aux salariés, et beaucoup de Français découvrent alors les vacances.",
+      "level": "moyen"
+    },
+    {
+      "q": "Quel texte de 1539 impose le français dans les actes officiels ?",
+      "choices": [
+        "L'édit de Nantes",
+        "Le Concordat",
+        "Le Code civil",
+        "L'ordonnance de Villers-Cotterêts"
+      ],
+      "answer": 3,
+      "explication": "Signée par François Ier, elle remplace le latin par le français dans les actes de justice et d'administration.",
+      "level": "expert"
+    },
+    {
+      "q": "Quel traité de 843 partage l'empire de Charlemagne entre ses petits-fils ?",
+      "choices": [
+        "Le traité de Troyes",
+        "Le traité de Verdun",
+        "Le traité de Rome",
+        "Le traité de Paris"
+      ],
+      "answer": 1,
+      "explication": "Il crée trois royaumes, dont la Francie occidentale, ancêtre de la France.",
+      "level": "expert"
+    },
+    {
+      "q": "En quelle année Louis XIV révoque-t-il l'édit de Nantes ?",
+      "choices": [
+        "1598",
+        "1643",
+        "1685",
+        "1715"
+      ],
+      "answer": 2,
+      "explication": "L'édit de Fontainebleau supprime la tolérance envers les protestants, dont beaucoup quittent le royaume.",
+      "level": "expert"
+    },
+    {
+      "q": "Quelle victoire de Philippe Auguste date de 1214 ?",
+      "choices": [
+        "La bataille de Bouvines",
+        "La bataille de Crécy",
+        "La bataille d'Azincourt",
+        "La bataille de Poitiers"
+      ],
+      "answer": 0,
+      "explication": "À Bouvines, le roi bat une coalition menée par l'empereur germanique et renforce l'autorité royale.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Quelles sont les grandes périodes de l'histoire de France ?",
+      "On distingue l'Antiquité (Gaulois et Romains), le Moyen Âge (Francs, Capétiens), les Temps modernes (de la Renaissance à la Révolution) et l'époque contemporaine (depuis 1789). Ces repères aident à situer chaque événement, de Vercingétorix à la Ve République. Chaque période a ses grands noms."
+    ],
+    [
+      "Quelles sont les dates à connaître en histoire de France ?",
+      "Quelques repères suffisent pour commencer : 496 (baptême de Clovis), 800 (Charlemagne empereur), 987 (Hugues Capet), 1515 (Marignan), 1789 (Révolution), 1804 (sacre de Napoléon), 1914-1918, 1940-1944 et 1958 (naissance de la Ve République). Retenir ces jalons permet ensuite de situer presque tout le reste."
+    ],
+    [
+      "Combien de temps faut-il pour faire ce quiz ?",
+      "Compte environ deux minutes : vingt questions à raison de cinq secondes chacune. Les explications après chaque réponse demandent un peu plus de temps si tu veux les lire attentivement. Tu peux recommencer à volonté pour battre ton score et tester tes proches. Tu peux aussi l'utiliser comme un petit jeu de révision."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-seconde-guerre-mondiale",
+    "/quiz-revolution-francaise",
+    "/quiz-rois-de-france"
+  ]
+}
