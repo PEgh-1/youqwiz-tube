@@ -35,32 +35,44 @@ const ep2 = hardCount >= 3 && ep.meta.short2
 const propsFile2 = `${outDir}/props-short2.json`;
 if (ep2) writeJson(propsFile2, { episode: ep2 });
 const props2 = `--props="${propsFile2}"`;
+// 3e Short (16 h) : 8 questions du milieu, distinctes des deux autres Shorts (les 8 premières et les 8 dernières).
+const midCount = Math.min(8, Math.max(0, ep.items.length - 16));
+const midStart = Math.floor((ep.items.length - midCount) / 2);
+const midItems = ep.items.slice(midStart, midStart + midCount).map((it, k) => ({ ...it, level: levelOf(midStart + k) }));
+const ep3 = midCount >= 3 && ep.meta.short3
+  ? { ...ep, items: midItems, meta: { ...ep.meta, thumbnail: { ...ep.meta.thumbnail, sticker: ep.meta.short3.sticker }, shortLine: (ep.meta.short3.line ?? "").replace("8", String(midCount)) || undefined, totalItems: ep.items.length } }
+  : null;
+const propsFile3 = `${outDir}/props-short3.json`;
+if (ep3) writeJson(propsFile3, { episode: ep3 });
+const props3 = `--props="${propsFile3}"`;
 
 // Durées attendues, telles que Remotion les calcule (source de vérité pour le contrôle qualité).
 const listing = execSync(`npx remotion compositions src/index.ts ${props}`, { cwd: p(), stdio: ["ignore", "pipe", "ignore"] }).toString();
 const expected = {};
 for (const m of listing.matchAll(/^(\S+)\s+\d+\s+\d+x\d+\s+\d+ \(([\d.]+) sec\)/gm)) expected[m[1]] = Number(m[2]);
 if (!expected[comp] || !expected[shortComp]) throw new Error(`durées introuvables pour ${comp}/${shortComp} : ${listing}`);
-let expectedShort2 = null;
-if (ep2) {
-  const listing2 = execSync(`npx remotion compositions src/index.ts ${props2}`, { cwd: p(), stdio: ["ignore", "pipe", "ignore"] }).toString();
-  const m2 = listing2.match(new RegExp(`^${shortComp}\\s+\\d+\\s+\\d+x\\d+\\s+\\d+ \\(([\\d.]+) sec\\)`, "m"));
-  expectedShort2 = m2 ? Number(m2[1]) : null;
-}
-console.log(`durées attendues : longue ${expected[comp]} s, Short ${expected[shortComp]} s${ep2 ? `, Short 2 ${expectedShort2} s` : ""}`);
+const shortDuration = (propsArg) => {
+  const listing = execSync(`npx remotion compositions src/index.ts ${propsArg}`, { cwd: p(), stdio: ["ignore", "pipe", "ignore"] }).toString();
+  const m = listing.match(new RegExp(`^${shortComp}\\s+\\d+\\s+\\d+x\\d+\\s+\\d+ \\(([\\d.]+) sec\\)`, "m"));
+  return m ? Number(m[1]) : null;
+};
+const expectedShort2 = ep2 ? shortDuration(props2) : null;
+const expectedShort3 = ep3 ? shortDuration(props3) : null;
+console.log(`durées attendues : longue ${expected[comp]} s, Short ${expected[shortComp]} s${ep2 ? `, Short 2 ${expectedShort2} s` : ""}${ep3 ? `, Short 3 ${expectedShort3} s` : ""}`);
 if (process.env.RENDER_DRY) { console.log("RENDER_DRY : pas de rendu"); process.exit(0); }
 
 run(`npx remotion render src/index.ts ${comp} "${outDir}/long.mp4" ${props} --log=error`);
 run(`npx remotion render src/index.ts ${shortComp} "${outDir}/short.mp4" ${props} --log=error`);
 if (ep2) run(`npx remotion render src/index.ts ${shortComp} "${outDir}/short2.mp4" ${props2} --log=error`);
+if (ep3) run(`npx remotion render src/index.ts ${shortComp} "${outDir}/short3.mp4" ${props3} --log=error`);
 run(`npx remotion still src/index.ts ThumbA "${outDir}/thumbA.png" ${props} --log=error`);
 run(`npx remotion still src/index.ts ThumbB "${outDir}/thumbB.png" ${props} --log=error`);
 
 writeJson(`${outDir}/manifest.json`, {
   id: ep.id,
   title: ep.title,
-  files: { long: `${outDir}/long.mp4`, short: `${outDir}/short.mp4`, ...(ep2 ? { short2: `${outDir}/short2.mp4` } : {}), thumbA: `${outDir}/thumbA.png`, thumbB: `${outDir}/thumbB.png` },
-  expected: { long: expected[comp], short: expected[shortComp], ...(ep2 ? { short2: expectedShort2 } : {}) },
+  files: { long: `${outDir}/long.mp4`, short: `${outDir}/short.mp4`, ...(ep2 ? { short2: `${outDir}/short2.mp4` } : {}), ...(ep3 ? { short3: `${outDir}/short3.mp4` } : {}), thumbA: `${outDir}/thumbA.png`, thumbB: `${outDir}/thumbB.png` },
+  expected: { long: expected[comp], short: expected[shortComp], ...(ep2 ? { short2: expectedShort2 } : {}), ...(ep3 ? { short3: expectedShort3 } : {}) },
   renderedAt: new Date().toISOString(),
 });
 console.log(`rendu terminé : ${outDir}`);

@@ -30,8 +30,12 @@ export const Background: React.FC<{ theme: Theme; confetti?: number; pattern?: S
   const { width, height } = useVideoConfig();
   const step = Math.floor(frame / 60);
   const n = pattern === "dots" ? confetti * 3 : pattern === "stripes" ? 14 : confetti;
+  // Shorts v2 (09/11/2026) : en vertical, le décor dérive lentement (sinus, sans décalage cumulé) pour un fond vivant.
+  const vertical = height > width;
+  const drift = vertical ? `translate(${Math.sin(frame / 110) * 22}px, ${Math.cos(frame / 140) * 16}px) scale(1.06)` : undefined;
   return (
     <AbsoluteFill style={{ background: theme.bg }}>
+      <AbsoluteFill style={{ transform: drift }}>
       {pattern === "stripes"
         ? Array.from({ length: n }).map((_, i) => (
             <div key={i} style={{ position: "absolute", left: -200 + i * (width / 6), top: -200, width: 70, height: height + 400, background: theme.confetti[i % theme.confetti.length], opacity: 0.16, transform: `rotate(-18deg) translateX(${(step % 2) * 4}px)` }} />
@@ -54,8 +58,88 @@ export const Background: React.FC<{ theme: Theme; confetti?: number; pattern?: S
             }
             return <div key={i} style={{ position: "absolute", left: x * width + (step % 2) * 6, top: y * height, width: 16 + (i % 3) * 8, height: 9 + (i % 4) * 5, background: c, borderRadius: i % 2 ? 999 : 4, transform: `rotate(${(i * 37) % 360}deg)`, opacity: 0.8 }} />;
           })}
+      </AbsoluteFill>
     </AbsoluteFill>
   );
+};
+
+// ---------- Shorts v2 (09/11/2026) : sous-titres karaoké, bandeau d'accroche, effets sonores ----------
+// Sous-titres de la voix off, mot à mot : le mot en cours est coloré et grossi, les suivants sont estompés. Le minutage
+// est proportionnel au nombre de caractères (pas de timestamps ElevenLabs) ; au-delà de 9 mots, fenêtre glissante.
+export const Karaoke: React.FC<{ clip?: VoiceClip; theme: Theme; size?: number; width?: number; from?: number }> = ({ clip, theme, size = 56, width = 960, from = 0 }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  if (!clip?.text) return null;
+  const words = clip.text.replace(/\s+/g, " ").trim().split(" ").filter(Boolean);
+  if (!words.length) return null;
+  const weights = words.map((w) => w.replace(/[^\p{L}\p{N}]/gu, "").length + 1.2);
+  const total = weights.reduce((a, b) => a + b, 0);
+  const t = Math.max(0, (frame - from) / fps);
+  let acc = 0, cur = -1;
+  for (let i = 0; i < words.length; i++) { acc += weights[i]; if (t < (acc / total) * clip.sec) { cur = i; break; } }
+  if (cur < 0) cur = t >= clip.sec ? words.length - 1 : 0;
+  const win = 9;
+  const start = words.length > win ? Math.min(Math.max(0, cur - 3), words.length - win) : 0;
+  const shown = words.slice(start, start + win);
+  return (
+    <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: `${size * 0.1}px ${size * 0.28}px`, maxWidth: width, padding: "0 20px", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: size, lineHeight: 1.1, textAlign: "center" }}>
+      {shown.map((w, k) => {
+        const i = start + k;
+        const on = i === cur, done = i < cur;
+        return (
+          <span key={i} style={{ color: on ? theme.accent : WHITE, opacity: done || on ? 1 : 0.45, textShadow: `5px 5px 0 ${INK}`, transform: `scale(${on ? 1.12 : 1})`, display: "inline-block", transition: "none" }}>
+            {w}
+          </span>
+        );
+      })}
+    </div>
+  );
+};
+
+// Bandeau d'accroche affiché sur la première question d'un Short (remplace l'ancienne carte d'accroche de 1,5 s) :
+// autocollant + ligne, entre en rebond puis sort vers le haut après `until` images.
+export const HookBanner: React.FC<{ theme: Theme; sticker?: string; line?: string; n: number; until?: number; lang?: Lang }> = ({ theme, sticker: st, line, n, until = 75, lang }) => {
+  const T = tr({ lang });
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const sticker = st ?? T.shortSticker;
+  const pop = spring({ frame, fps, config: { damping: 9, stiffness: 150 } });
+  const out = interpolate(frame, [until - 10, until], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  if (frame > until) return null;
+  return (
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14, transform: `translateY(${(1 - pop) * -120 - out * 320}px) scale(${0.7 + pop * 0.3})`, opacity: 1 - out }}>
+      <div style={{ background: "#FF3B3B", color: WHITE, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: sticker.length > 14 ? 60 : 76, padding: "12px 34px", borderRadius: 24, border: `8px solid ${INK}`, boxShadow: `10px 10px 0 ${INK}`, lineHeight: 1, whiteSpace: "nowrap", transform: "rotate(-2deg)" }}>
+        {sticker}
+      </div>
+      <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 48, color: WHITE, textShadow: `5px 5px 0 ${INK}`, textAlign: "center", padding: "0 40px", lineHeight: 1.05 }}>
+        <Rich text={line ?? T.nthQuestion(n)} size={48} />
+      </div>
+    </div>
+  );
+};
+
+// Effets sonores d'un Short, par question : jingle discret sur la 1re, « pop » d'entrée, montée de tension sur la dernière.
+export const ShortFx: React.FC<{ index: number; last: boolean; dur: number }> = ({ index, last, dur }) => {
+  const { fps } = useVideoConfig();
+  const riserFrames = Math.round(1.6 * fps);
+  return (
+    <>
+      {index === 0 && has("jingle") && <Audio src={staticFile("audio/jingle.mp3")} volume={0.3} />}
+      {has("pop") && <Audio src={staticFile("audio/pop.mp3")} volume={0.5} />}
+      {last && has("riser") && dur > riserFrames && (
+        <Sequence from={dur - riserFrames} durationInFrames={riserFrames}>
+          <Audio src={staticFile("audio/riser.mp3")} volume={0.55} />
+        </Sequence>
+      )}
+    </>
+  );
+};
+
+// Zoom lent pendant la question (vertical) et secousse à la révélation : à appliquer sur le conteneur de la carte.
+export const shortMotion = (frame: number, dur: number, reveal: boolean, vertical: boolean): string => {
+  if (!vertical) return "";
+  if (reveal) return frame < 8 ? ` translate(${Math.sin(frame * 7) * 7}px, ${Math.cos(frame * 5) * 5}px)` : "";
+  return ` scale(${1 + 0.05 * Math.min(1, frame / Math.max(1, dur))})`;
 };
 
 // ---------- Explosion de confettis (révélation, score) ----------

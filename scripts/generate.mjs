@@ -289,6 +289,8 @@ const episode = {
     shortDescription: fill(pick(V.shortDescriptions)),
     // 2e Short quotidien (09/11/2026) : les questions les plus dures de l'épisode, publié à 19 h, titre et accroche distincts.
     short2: { title: fill(pick(V.shortTitlesHard)).slice(0, 100), description: fill(pick(V.shortDescriptions)), ...pick(V.shortHardHooks) },
+    // 3e Short (16 h, 09/11/2026) : les 8 questions du milieu (moyen-difficile).
+    short3: { title: fill(pick(V.shortTitlesMid)).slice(0, 100), description: fill(pick(V.shortDescriptions)), ...pick(V.shortMidHooks) },
     // Relais Instagram / Facebook / TikTok (Metricool) : légende et hashtags prêts à l'emploi pour la tâche quotidienne.
     social: { caption: fill(pick(V.socialCaptions)), hashtags: [...new Set([...V.socialHashtags, bank.slug.replace(/-/g, ""), ...(bank.tags ?? []).slice(0, 3).map((t) => t.replace(/[^\p{L}\p{N}]/gu, "").toLowerCase())])].filter(Boolean).slice(0, 10) },
   },

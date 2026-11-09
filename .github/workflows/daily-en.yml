@@ -147,7 +147,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           ID=$(node -pe 'require("./data-en/state/current.json").id')
-          FILES="out/$ID/short.mp4"; [ -f "out/$ID/short2.mp4" ] && FILES="$FILES out/$ID/short2.mp4"
+          FILES="out/$ID/short.mp4"; for k in 2 3; do [ -f "out/$ID/short$k.mp4" ] && FILES="$FILES out/$ID/short$k.mp4"; done
           gh release delete "$ID" -y --cleanup-tag 2>/dev/null || true
           gh release create "$ID" $FILES --title "$ID" --notes "Shorts de l'épisode $ID (relais réseaux sociaux)." --latest=false
           # ménage : releases de plus de 10 jours

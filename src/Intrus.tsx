@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, Emoji, Fonts, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, Streak, Ticks, Voice, quipFor, styleOf, themeOf, tiltFor } from "./components";
+import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, Emoji, Fonts, HookBanner, Karaoke, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, ShortFx, Streak, Ticks, Voice, quipFor, shortMotion, styleOf, themeOf, tiltFor } from "./components";
 import { Score } from "./DevineEn3s";
 import { emojiToCode, splitEmojis } from "./emoji";
 import { FONT_BODY, FONT_DISPLAY, BAD, INK, LEVELS, OK, WHITE } from "./theme";
@@ -43,6 +43,7 @@ export const Intrus: React.FC<IntrusProps> = ({ episode, vertical = false }) => 
   const { segments } = buildTimeline(episode, fps, vertical ? SHORT_OPTS(episode) : {});
   // Compteur « x / n » : en Short, le nombre réel de questions de la timeline (jusqu'à 8, limité par les 58 s), pas shortItems.
   const n = vertical ? segments.filter((s) => s.kind === "question").length : episode.items.length;
+  const lastQ = Math.max(...segments.filter((s) => s.kind === "question").map((s) => (s as { index: number }).index));
 
   return (
     <AbsoluteFill style={{ fontFamily: FONT_BODY, color: INK }}>
@@ -54,6 +55,7 @@ export const Intrus: React.FC<IntrusProps> = ({ episode, vertical = false }) => 
         if (s.kind === "question")
           return (
             <Sequence key={k} from={s.from} durationInFrames={s.dur} name={`Q${s.index + 1}`}>
+              {vertical && <ShortFx index={s.index} last={s.index === lastQ} dur={s.dur} />}
               <Voice clip={episode.items[s.index].voice?.q} />
               <Ticks episode={episode} index={s.index} dur={s.dur} />
               <Stage episode={episode} index={s.index} total={n} reveal={false} dur={s.dur} vertical={vertical} />
@@ -103,6 +105,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   const impossible = level === "impossible";
   const sc = vertical ? 0.8 : 1;
   const L = layout(vertical);
+  const karaoke = reveal ? item.voice?.a : item.voice?.q; // Shorts v2 : voix off mot à mot à la place de la consigne
   const enter = spring({ frame, fps, config: { damping: 13, stiffness: 160 } });
   const tilt = tiltFor(episode, index, 0.35);
   const brk = streakBreakIndex(episode);
@@ -141,12 +144,18 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       )}
 
       {/* Question */}
-      <div style={{ position: "absolute", top: vertical ? 240 : 128, left: 0, right: 0, textAlign: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: (vertical ? 70 : 82) * sc, color: INK, textShadow: `5px 5px 0 ${WHITE}`, padding: "0 80px" }}>
-        <Rich text={episode.question} size={(vertical ? 70 : 82) * sc} />
+      <div style={{ position: "absolute", top: vertical ? (index === 0 && !reveal ? 160 : 240) : 128, left: 0, right: 0, display: "flex", justifyContent: "center", textAlign: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: (vertical ? 70 : 82) * sc, color: INK, textShadow: `5px 5px 0 ${WHITE}`, padding: "0 80px" }}>
+        {vertical && index === 0 && !reveal ? (
+          <HookBanner theme={theme} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} n={total} until={dur - 6} lang={episode.lang} />
+        ) : vertical && karaoke?.text ? (
+          <Karaoke clip={karaoke} theme={theme} size={56} width={960} from={reveal ? Math.round((impossible ? 0.8 : 0) * fps) + Math.round(VOICE_LEAD * fps) : 0} />
+        ) : (
+          <Rich text={episode.question} size={(vertical ? 70 : 82) * sc} />
+        )}
       </div>
 
       {/* Carte : grille d'émojis */}
-      <div style={{ transform: `scale(${reveal ? 1 : enter})`, marginTop: L.marginTop }}>
+      <div style={{ transform: `scale(${reveal ? 1 : enter})${shortMotion(frame, dur, reveal, vertical)}`, marginTop: L.marginTop }}>
         <Card tilt={tilt} shape={style.card} border={showAnswer ? OK : INK} style={{ boxSizing: "border-box", width: L.cardW, height: L.cardH, padding: L.pad }}>
           <div style={{ display: "grid", gridTemplateColumns: `repeat(${L.cols}, ${L.cellW}px)`, gridTemplateRows: `repeat(${L.rows}, ${L.cellH}px)` }}>
             {cells.map((c, i) => {

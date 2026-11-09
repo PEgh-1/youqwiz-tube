@@ -42,15 +42,16 @@ const publishAt = parisToUtc(nextDate, rotation.publishHour);
 const shortPublishAt = parisToUtc(nextDate, rotation.shortPublishHour);
 // 2e Short (09/11/2026) : les questions les plus dures, en soirée (rotation.shortPublishHour2, 19 h par défaut).
 const short2PublishAt = parisToUtc(nextDate, rotation.shortPublishHour2 ?? "19:00");
+const short3PublishAt = parisToUtc(nextDate, rotation.shortPublishHour3 ?? "16:00"); // 3e Short : questions du milieu
 
 const { YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN } = process.env;
 const channel = readJson(p("data/state/channel.json"), { playlists: {} });
 const YT_PLAYLIST_ID = channel.playlists?.[ep.pillar] ?? process.env.YT_PLAYLIST_ID;
 const SHORTS_PLAYLIST_ID = channel.playlists?.shorts;
 const dry = !(YT_CLIENT_ID && YT_CLIENT_SECRET && YT_REFRESH_TOKEN);
-console.log(`${dry ? "[simulation] " : ""}programmation : longue ${publishAt} · short ${shortPublishAt}${manifest.files.short2 ? ` · short 2 ${short2PublishAt}` : ""}`);
+console.log(`${dry ? "[simulation] " : ""}programmation : longue ${publishAt} · short ${shortPublishAt}${manifest.files.short2 ? ` · short 2 ${short2PublishAt}` : ""}${manifest.files.short3 ? ` · short 3 ${short3PublishAt}` : ""}`);
 
-const result = { id: ep.id, date: nextDate, publishAt, shortPublishAt, ...(manifest.files.short2 ? { short2PublishAt } : {}), dry };
+const result = { id: ep.id, date: nextDate, publishAt, shortPublishAt, ...(manifest.files.short2 ? { short2PublishAt } : {}), ...(manifest.files.short3 ? { short3PublishAt } : {}), dry };
 // Reprise : si un run précédent a déjà envoyé la longue (puis planté), on ne la renvoie pas.
 queue.pending ??= {};
 const pending = queue.pending[ep.id] ?? {};
@@ -130,7 +131,19 @@ if (!dry) {
       try { await yt.playlistItems.insert({ part: ["snippet"], requestBody: { snippet: { playlistId: SHORTS_PLAYLIST_ID, resourceId: { kind: "youtube#video", videoId: result.shortId2 } } } }); } catch (e) { console.warn(`playlist shorts (2) : ${e.message}`); }
     }
   }
-  console.log(`envoyé : longue ${result.longId} · short ${result.shortId}${result.shortId2 ? ` · short 2 ${result.shortId2}` : ""}`);
+  if (manifest.files.short3 && ep.meta.short3) {
+    savePending();
+    result.shortId3 = pending.shortId3 ??= await insert(manifest.files.short3, {
+      title: ep.meta.short3.title.slice(0, 100),
+      description: ep.meta.short3.description.replaceAll("{n}", String(ep.items.length)).replaceAll("{url}", `https://youtu.be/${result.longId}`),
+      tags: ["shorts", "quiz", "youqwiz", ...(ep.meta.tags ?? []).slice(4, 7)],
+      publishAt: short3PublishAt,
+    });
+    if (SHORTS_PLAYLIST_ID) {
+      try { await yt.playlistItems.insert({ part: ["snippet"], requestBody: { snippet: { playlistId: SHORTS_PLAYLIST_ID, resourceId: { kind: "youtube#video", videoId: result.shortId3 } } } }); } catch (e) { console.warn(`playlist shorts (3) : ${e.message}`); }
+    }
+  }
+  console.log(`envoyé : longue ${result.longId} · short ${result.shortId}${result.shortId2 ? ` · short 2 ${result.shortId2}` : ""}${result.shortId3 ? ` · short 3 ${result.shortId3}` : ""}`);
 }
 
 queue.lastScheduled = queue.lastScheduled && queue.lastScheduled > nextDate ? queue.lastScheduled : nextDate;
