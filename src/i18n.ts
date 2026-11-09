@@ -74,6 +74,7 @@ const fr = {
   nextQuizSub: "Choisis ton prochain défi en cliquant sur une vidéo 👇",
   nextQuizSubscribe: "🔔 ou abonne-toi pour le quiz de demain",
   chapterInterlude: "Petite pause",
+  chapterNext: "Prochain quiz",
   // ----- Short : accroche et cliffhanger -----
   shortSticker: "99 % ÉCHOUENT",
   nthQuestion: (n: number) => `à la ${n}e question 😱`,
@@ -174,6 +175,7 @@ const en: typeof fr = {
   nextQuizSub: "Pick your next challenge by clicking a video 👇",
   nextQuizSubscribe: "🔔 or subscribe for tomorrow's quiz",
   chapterInterlude: "Quick break",
+  chapterNext: "Next quiz",
   shortSticker: "99% FAIL",
   nthQuestion: (n) => `by question ${n} 😱`,
   secondsPerQuestion: "⏱️ 3 seconds per question",

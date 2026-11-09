@@ -212,7 +212,7 @@ export const chaptersOf = (ep: Episode, fps: number): { at: number; title: strin
       count++;
     }
     if (s.kind === "score") out.push({ at: s.from / fps, title: T.chapterScore });
-    if (s.kind === "packshot") out.push({ at: s.from / fps, title: T.chapterPackshot });
+    if (s.kind === "packshot") out.push({ at: s.from / fps, title: ep.variants?.nextQuizVoice ? T.chapterNext : T.chapterPackshot });
   }
   // YouTube exige des chapitres d'au moins 10 s : on fusionne les trop courts avec le précédent.
   return out.filter((c, i) => i === 0 || c.at - out[i - 1].at >= 10);
