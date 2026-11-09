@@ -11,13 +11,18 @@ import { argv, p, readJson, rng, writeJson } from "./lib.mjs";
 
 const { ELEVENLABS_API_KEY, ELEVENLABS_VOICE_ID } = process.env;
 // Décision du 02/11/2026 : Eleven v3 avec tags d'émotion (voix Nicolas, réglages « D » validés à l'écoute).
+// 09/11/2026 (respirations audibles, ton qui saute d'une phrase à l'autre) : stabilité v3 « naturelle » (0,5) au lieu de
+// « créative » (0,3), palette de tags réduite à deux registres (cheerful partout, excited sur intro/score/relances-clés),
+// contexte previous_text/next_text entre question et réponse, puis porte anti-souffle + normalisation de niveau (ffmpeg).
 const MODEL = process.env.ELEVENLABS_MODEL || "eleven_v3";
 const V3 = MODEL === "eleven_v3";
 const SETTINGS = V3
-  ? { stability: 0.3, similarity_boost: 0.8, style: 0.7, use_speaker_boost: true }
+  ? { stability: 0.5, similarity_boost: 0.8, style: 0.5, use_speaker_boost: true }
   : { stability: 0.45, similarity_boost: 0.75, style: 0.35, use_speaker_boost: true, speed: 1.05 };
-// tag d'émotion v3 (ignoré par les autres modèles)
-const tag = (t, text) => (V3 ? `[${t}] ${text}` : text);
+// tag d'émotion v3 (ignoré par les autres modèles) — « curious » et « mischievously » rabattus sur « cheerful » : un seul ton de base
+const TAG_MAP = { curious: "cheerful", mischievously: "cheerful" };
+const tag = (t, text) => (V3 ? `[${TAG_MAP[t] ?? t}] ${text}` : text);
+const untag = (t) => String(t).replace(/^\[[a-z]+\]\s*/i, "");
 const current = readJson(p("data/state/current.json"));
 const file = argv("episode", current?.file);
 const ep = readJson(file);
@@ -39,38 +44,42 @@ const pick = (arr) => arr[Math.floor(rand() * arr.length)];
 const clean = (s) => String(s).replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, "").replace(/\s+/g, " ").trim();
 const duration = (f) => Number(execSync(`ffprobe -v error -show_entries format=duration -of csv=p=0 "${f}"`).toString());
 
-async function synth(text, outFile) {
+async function synth(text, outFile, ctx = {}) {
   if (existsSync(outFile)) return;
   chars += text.length;
   calls++;
   if (dry) return writeFileSync(outFile, "");
+  // previous_text / next_text : la phrase voisine (sans tag) donne la continuité de ton entre question et réponse.
+  const context = { ...(ctx.prev ? { previous_text: untag(ctx.prev) } : {}), ...(ctx.next ? { next_text: untag(ctx.next) } : {}) };
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${ELEVENLABS_VOICE_ID}?output_format=mp3_44100_128`, {
     method: "POST",
     headers: { "xi-api-key": ELEVENLABS_API_KEY, "Content-Type": "application/json" },
-    body: JSON.stringify({ text, model_id: MODEL, ...(V3 ? {} : { language_code: V.tts?.languageCode ?? "fr" }), voice_settings: SETTINGS }),
+    body: JSON.stringify({ text, model_id: MODEL, ...(V3 ? {} : { language_code: V.tts?.languageCode ?? "fr" }), voice_settings: SETTINGS, ...context }),
   });
   if (!res.ok) throw new Error(`ElevenLabs ${res.status} : ${(await res.text()).slice(0, 200)}`);
   writeFileSync(outFile, Buffer.from(await res.arrayBuffer()));
   trim(outFile);
 }
-// Coupe les silences de début/fin (v3 ajoute souvent 0,1-0,5 s) pour que la voix tombe pile sur l'image.
+// Coupe les silences de début/fin (v3 ajoute souvent 0,1-0,5 s) pour que la voix tombe pile sur l'image, atténue les
+// respirations (porte : tout ce qui est sous -32 dB entre les mots est ramené vers le silence) et égalise le niveau entre
+// les clips (loudnorm -16 LUFS) pour que la voix garde le même volume d'une phrase à l'autre.
 function trim(file) {
   const tmp = file.replace(/\.mp3$/, ".trim.mp3");
   try {
-    execSync(`ffmpeg -y -loglevel error -i "${file}" -af "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse" -ar 44100 -b:a 128k "${tmp}"`);
+    execSync(`ffmpeg -y -loglevel error -i "${file}" -af "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse,agate=threshold=0.025:ratio=4:attack=6:release=150:knee=4,loudnorm=I=-16:TP=-1.5:LRA=7" -ar 44100 -b:a 128k "${tmp}"`);
     execSync(`mv "${tmp}" "${file}"`);
   } catch (e) { console.warn(`trim ${file} : ${e.message.slice(0, 80)}`); }
 }
 // ligne générique : cache par hachage du texte (partagée entre tous les épisodes)
 async function generic(text) {
-  const h = createHash("sha1").update(`${ELEVENLABS_VOICE_ID}|${MODEL}|trim1|${text}`).digest("hex").slice(0, 16);
+  const h = createHash("sha1").update(`${ELEVENLABS_VOICE_ID}|${MODEL}|trim2|${text}`).digest("hex").slice(0, 16); // trim2 = réglages du 09/11/2026
   const f = `${cacheDir}/${h}.mp3`;
   await synth(text, f);
   return { src: `tts-cache/${h}.mp3`, sec: dry ? 1.5 : duration(f) };
 }
-async function specific(text, name) {
+async function specific(text, name, ctx) {
   const f = `${epDir}/${name}.mp3`;
-  await synth(text, f);
+  await synth(text, f, ctx);
   return { src: `tts/${ep.id}/${name}.mp3`, sec: dry ? 2 : duration(f) };
 }
 
@@ -101,7 +110,7 @@ const T = {
 };
 const legacyPool = isIntrus ? T.intrusPool : new RegExp(T.rebusIds).test(ep.id) ? T.rebusPool : R.devine.generic;
 const levelOf = (it, i) => it.level ?? ["facile", "moyen", "difficile", "impossible"][Math.min(3, Math.floor((i / ep.items.length) * 4))];
-const LEVEL_TAG = { facile: "cheerful", moyen: "curious", difficile: "excited", impossible: "mischievously" };
+const LEVEL_TAG = { facile: "cheerful", moyen: "cheerful", difficile: "cheerful", impossible: "excited" }; // 09/11/2026 : un ton de base, l'excitation réservée aux moments-clés
 
 // Relance en mode Devine / Intrus : première, dernière, jalon (10, 20…), niveau dur, vraie question (1 fois sur 3), sinon générique.
 function devinePrompt(it, i) {
@@ -131,8 +140,9 @@ for (let i = 0; i < ep.items.length; i++) {
     it.voice.q = await specific(tag("curious", `${lead}${T.choiceQuestion.replace("{a}", a).replace("{b}", b)}`), `${i}-q`);
   } else if (isQcm) {
     const pre = rand() < (R.qcmPreShare ?? 0.3) ? `${pick(R.qcmPre)} ` : "";
-    it.voice.q = await specific(tag(LEVEL_TAG[levelOf(it, i)], `${pre}${clean(it.prompt.value)}`), `${i}-q`);
-    it.voice.a = await specific(tag("cheerful", answerLine(clean(it.answer))), `${i}-a`);
+    const qText = tag(LEVEL_TAG[levelOf(it, i)], `${pre}${clean(it.prompt.value)}`), aText = tag("cheerful", answerLine(clean(it.answer)));
+    it.voice.q = await specific(qText, `${i}-q`, { next: aText });
+    it.voice.a = await specific(aText, `${i}-a`, { prev: qText });
   } else if (isIntrus) {
     it.voice.q = await generic(devinePrompt(it, i));
     it.voice.a = await generic(tag("cheerful", answerLine(clean(it.answer))));

@@ -452,6 +452,11 @@ export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean
 
 // ---------- Packshot final (10 s) : CTA site variable + zone libre pour les écrans de fin YouTube ----------
 // Le tiers droit reste vide (hors mascotte) : YouTube y placera « vidéo suivante » et « s'abonner ».
+// Packshot final (16:9). Les écrans de fin sont posés avec le 1er modèle YouTube « 1 vidéo + 1 élément S'abonner » :
+// vidéo suggérée en BAS À GAUCHE (≈ 32 % de la largeur, x 44→665, y 570→913) et bouton S'abonner en BAS À DROITE
+// (rond ≈ 300 px, x 1580→1880, y 585→885) — mesuré sur une vidéo publiée le 09/11/2026. Le packshot laisse donc ces deux
+// zones vides (gabarits pointillés) : textes en haut, appel à l'action et mascotte dans la bande libre du milieu-bas.
+const END_SCREEN = { video: { left: 44, top: 570, width: 621, height: 349 }, subscribe: { left: 1580, top: 585, size: 300 } };
 export const Packshot: React.FC<{ theme: Theme; headline?: string; sub?: string; cta?: string; lang?: Lang }> = ({ theme, headline: h, sub: s, cta: c, lang }) => {
   const T = tr({ lang });
   const headline = h ?? T.packshotHeadline, sub = s ?? T.packshotSub, cta = c ?? T.packshotCta;
@@ -462,30 +467,35 @@ export const Packshot: React.FC<{ theme: Theme; headline?: string; sub?: string;
   const hop = Math.abs(Math.sin(frame / 7)) * 18;
   const words = headline.split(" ");
   const strong = words.find((w) => w.length > 3 && w === w.toUpperCase() && /[A-ZÉ]/.test(w));
-  const hsize = headline.length > 40 ? 72 : 92;
+  const hsize = headline.length > 40 ? 66 : 84;
+  const { video, subscribe } = END_SCREEN;
+  const midLeft = video.left + video.width + 40, midRight = subscribe.left - 40; // bande libre entre les deux éléments YouTube
   return (
-    <AbsoluteFill style={{ justifyContent: "center", padding: "0 0 0 90px" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: 34, width: 1000, opacity: pop, transform: `translateY(${(1 - pop) * 40}px)` }}>
-        <Logo theme={theme} size={90} />
-        <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: hsize, color: WHITE, textShadow: `7px 7px 0 ${INK}`, lineHeight: 1.02 }}>
+    <AbsoluteFill>
+      <div style={{ position: "absolute", left: 90, top: 48, display: "flex", flexDirection: "column", gap: 24, width: 1740, opacity: pop, transform: `translateY(${(1 - pop) * 40}px)` }}>
+        <Logo theme={theme} size={78} />
+        <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: hsize, color: WHITE, textShadow: `6px 6px 0 ${INK}`, lineHeight: 1.02, maxWidth: 1380 }}>
           {words.map((w, i) => (
-            <span key={i} style={w === strong ? { color: theme.accent, textShadow: `7px 7px 0 ${INK}` } : undefined}>
+            <span key={i} style={w === strong ? { color: theme.accent, textShadow: `6px 6px 0 ${INK}` } : undefined}>
               {w}{i < words.length - 1 ? " " : ""}
             </span>
           ))}
         </div>
-        <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: 44, color: INK, background: WHITE, borderRadius: 24, padding: "14px 28px", alignSelf: "flex-start", border: `5px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, maxWidth: 1000, whiteSpace: "normal", lineHeight: 1.15 }}>
-          <Rich text={sub} size={44} />
-        </div>
-        <div style={{ transform: `scale(${pulse})`, transformOrigin: "left center" }}>
-          <Pill size={64} bg={theme.accent} fg={WHITE} tilt={-2}>{cta}</Pill>
+        <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: 40, color: INK, background: WHITE, borderRadius: 24, padding: "12px 26px", alignSelf: "flex-start", border: `5px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, maxWidth: 1380, whiteSpace: "normal", lineHeight: 1.15 }}>
+          <Rich text={sub} size={40} />
         </div>
       </div>
-      <div style={{ position: "absolute", right: 60, bottom: 20 - hop }}>
+      <div style={{ position: "absolute", right: 70, top: 60 + hop / 2 }}>
+        <Mascot which="chat" size={320} mood="cheer" />
+      </div>
+      <div style={{ position: "absolute", left: midLeft, top: video.top + 40, width: midRight - midLeft, display: "flex", justifyContent: "center", transform: `scale(${pulse})` }}>
+        <Pill size={60} bg={theme.accent} fg={WHITE} tilt={-2}>{cta}</Pill>
+      </div>
+      <div style={{ position: "absolute", left: (midLeft + midRight) / 2 - 150, bottom: 10 - hop }}>
         <Mascot which="poussin" size={300} mood="cheer" />
       </div>
-      <div style={{ position: "absolute", left: 1180, top: 110, width: 640, height: 360, borderRadius: 24, border: `4px dashed rgba(255,255,255,0.35)` }} />
-      <div style={{ position: "absolute", left: 1180, top: 500, width: 220, height: 220, borderRadius: 110, border: `4px dashed rgba(255,255,255,0.35)` }} />
+      <div style={{ position: "absolute", left: video.left, top: video.top, width: video.width, height: video.height, borderRadius: 24, border: `4px dashed rgba(255,255,255,0.35)` }} />
+      <div style={{ position: "absolute", left: subscribe.left, top: subscribe.top, width: subscribe.size, height: subscribe.size, borderRadius: subscribe.size / 2, border: `4px dashed rgba(255,255,255,0.35)` }} />
     </AbsoluteFill>
   );
 };
