@@ -1,0 +1,576 @@
+{
+ "slug": "animaux",
+ "theme": "les animaux du monde",
+ "items": [
+  {
+   "type": "vf",
+   "q": "Le poulpe possède un squelette.",
+   "answer": false,
+   "fact": "Le poulpe n'a aucun os : seul son bec est dur, et il se faufile dans les moindres trous.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'araignée est un insecte.",
+   "answer": false,
+   "fact": "Elle a 8 pattes, alors qu'un insecte en a 6 : c'est un arachnide.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les chauves-souris sont des oiseaux.",
+   "answer": false,
+   "fact": "Ce sont les seuls mammifères capables de voler vraiment, grâce à leurs ailes en peau.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Une fourmi peut soulever jusqu'à 50 fois son poids.",
+   "answer": true,
+   "fact": "Cette force vient de son corps minuscule, avec des muscles très efficaces.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le koala dort jusqu'à 20 heures par jour.",
+   "answer": true,
+   "fact": "Les feuilles d'eucalyptus donnent peu d'énergie, alors il économise ses forces en dormant.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal a des rayures noires et blanches ?",
+   "choices": [
+    "Le lion",
+    "Le zèbre",
+    "La girafe"
+   ],
+   "correct": 1,
+   "fact": "Les rayures de chaque zèbre sont uniques, comme nos empreintes digitales.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le lion est le roi de la jungle.",
+   "answer": false,
+   "fact": "Le lion vit dans la savane, et on ne le trouve presque jamais dans la jungle.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus grand félin du monde ?",
+   "choices": [
+    "Le tigre",
+    "Le lion",
+    "Le jaguar"
+   ],
+   "correct": 0,
+   "fact": "Le tigre de Sibérie est le plus grand de tous : il peut approcher 300 kilos.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel petit renard du désert a de très grandes oreilles ?",
+   "choices": [
+    "Le renard roux",
+    "Le fennec",
+    "Le loup"
+   ],
+   "correct": 1,
+   "fact": "Ses grandes oreilles l'aident à évacuer la chaleur du désert.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mammifère peut vivre plus de 200 ans ?",
+   "choices": [
+    "Éléphant",
+    "Dauphin",
+    "Baleine boréale"
+   ],
+   "correct": 2,
+   "fact": "Certaines baleines boréales ont dépassé l'âge de 200 ans, ce qui est un record chez les mammifères.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'éléphant est le plus grand animal terrestre.",
+   "answer": true,
+   "fact": "Un éléphant d'Afrique adulte peut peser plus de 5 tonnes, soit autant que 4 voitures.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "L'ornithorynque pond des œufs.",
+   "answer": true,
+   "fact": "C'est un mammifère qui pond des œufs, comme l'échidné, son cousin australien.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La bosse du chameau est une réserve d'eau.",
+   "answer": false,
+   "fact": "Sa bosse est une réserve de graisse, qui lui donne de l'énergie dans le désert.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Les empreintes digitales du koala ressemblent à celles des humains.",
+   "answer": true,
+   "fact": "Elles sont si proches des nôtres qu'on peut les confondre, même au microscope.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel minuscule animal a survécu dans le vide spatial ?",
+   "choices": [
+    "Le cafard",
+    "Le tardigrade",
+    "La fourmi"
+   ],
+   "correct": 1,
+   "fact": "En 2007, des tardigrades ont survécu à plusieurs jours dans le vide de l'espace.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal marin casse des coquillages avec une pierre ?",
+   "choices": [
+    "Le phoque",
+    "L'otarie",
+    "La loutre de mer"
+   ],
+   "correct": 2,
+   "fact": "Elle pose la pierre sur son ventre et frappe le coquillage dessus.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les escargots n'ont aucune dent.",
+   "answer": false,
+   "fact": "Un escargot peut avoir plus de 10 000 minuscules dents sur sa langue.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "L'hippopotame peut courir plus vite qu'un humain.",
+   "answer": true,
+   "fact": "Malgré son poids, un hippopotame peut courir à environ 30 kilomètres à l'heure.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le papillon goûte avec ses pattes.",
+   "answer": true,
+   "fact": "Les papillons ont des capteurs de goût sur leurs pattes, pour reconnaître les bonnes plantes.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le panda géant mange surtout de la viande.",
+   "answer": false,
+   "fact": "Il mange surtout du bambou, parfois plus de 10 kilos par jour.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle couleur a la langue de la girafe ?",
+   "choices": [
+    "Rose",
+    "Bleu-noir",
+    "Jaune"
+   ],
+   "correct": 1,
+   "fact": "Sa langue mesure environ 45 centimètres, et sa teinte sombre la protège sans doute du soleil.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel insecte fabrique le miel ?",
+   "choices": [
+    "La guêpe",
+    "La mouche",
+    "L'abeille"
+   ],
+   "correct": 2,
+   "fact": "Une ruche peut abriter plus de 50 000 abeilles en été, toutes au service de la reine.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le colibri peut voler en arrière.",
+   "answer": true,
+   "fact": "Il bat des ailes plus de 50 fois par seconde, ce qui lui permet de faire du surplace.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le crabe avance toujours droit devant lui.",
+   "answer": false,
+   "fact": "Les crabes se déplacent de côté, car leurs pattes articulées plient mieux dans ce sens.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La girafe a 7 vertèbres au cou, comme l'humain.",
+   "answer": true,
+   "fact": "Comme nous, elle a 7 vertèbres au cou, mais les siennes sont immenses.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal est le plus grand du monde ?",
+   "choices": [
+    "Baleine bleue",
+    "Éléphant d'Afrique",
+    "Girafe"
+   ],
+   "correct": 0,
+   "fact": "La baleine bleue peut peser autant que 30 éléphants, et elle se nourrit surtout de minuscules crevettes.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel oiseau peut tourner la tête sur 270 degrés ?",
+   "choices": [
+    "Le perroquet",
+    "Le canard",
+    "Le hibou"
+   ],
+   "correct": 2,
+   "fact": "Ses yeux ne bougent pas dans leurs orbites, alors il tourne toute la tête.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel oiseau est le symbole de la paix ?",
+   "choices": [
+    "La colombe",
+    "Le cygne",
+    "Le moineau"
+   ],
+   "correct": 0,
+   "fact": "Picasso a dessiné une colombe pour l'affiche d'un congrès pour la paix en 1949.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal porte son petit le plus longtemps avant la naissance ?",
+   "choices": [
+    "La baleine",
+    "L'éléphant",
+    "La girafe"
+   ],
+   "correct": 1,
+   "fact": "Une éléphante porte son petit pendant environ 22 mois, la plus longue gestation des animaux terrestres.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de pattes a un insecte ?",
+   "choices": [
+    "8",
+    "6",
+    "4"
+   ],
+   "correct": 1,
+   "fact": "Le corps d'un insecte se divise en 3 parties : la tête, le thorax et l'abdomen.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le guépard est l'animal terrestre le plus rapide.",
+   "answer": true,
+   "fact": "Il peut atteindre 100 kilomètres à l'heure en 3 secondes environ.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal a une trompe ?",
+   "choices": [
+    "L'éléphant",
+    "La girafe",
+    "L'hippopotame"
+   ],
+   "correct": 0,
+   "fact": "Sa trompe compte des dizaines de milliers de muscles et peut ramasser un petit objet.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le seul mammifère capable de voler ?",
+   "choices": [
+    "La chauve-souris",
+    "L'écureuil volant",
+    "Le pangolin"
+   ],
+   "correct": 0,
+   "fact": "Les chauves-souris se repèrent dans le noir grâce aux échos de leurs cris.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal mange presque uniquement de l'eucalyptus ?",
+   "choices": [
+    "Le panda",
+    "Le lémurien",
+    "Le koala"
+   ],
+   "correct": 2,
+   "fact": "Ces feuilles sont toxiques pour la plupart des animaux, mais pas pour lui.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mammifère est célèbre pour sa lenteur ?",
+   "choices": [
+    "Le paresseux",
+    "Le koala",
+    "Le hérisson"
+   ],
+   "correct": 0,
+   "fact": "Le paresseux ne descend de son arbre qu'environ une fois par semaine.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le hérisson passe l'hiver en hibernation.",
+   "answer": true,
+   "fact": "Pendant son sommeil, son cœur passe de 190 à environ 20 battements par minute.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal a un squelette fait de cartilage ?",
+   "choices": [
+    "Le requin",
+    "Le dauphin",
+    "Le thon"
+   ],
+   "correct": 0,
+   "fact": "Le cartilage du requin est la matière qui forme aussi notre nez et nos oreilles.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les manchots vivent au pôle Nord.",
+   "answer": false,
+   "fact": "Les manchots vivent dans l'hémisphère Sud, alors que les ours blancs habitent le Nord.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel oiseau migrateur vole souvent en forme de V ?",
+   "choices": [
+    "L'oie",
+    "Le corbeau",
+    "Le moineau"
+   ],
+   "correct": 0,
+   "fact": "En volant en V, les oies économisent de l'énergie grâce aux courants d'air.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La baleine bleue est le plus grand animal de la planète.",
+   "answer": true,
+   "fact": "Elle peut mesurer jusqu'à 30 mètres, c'est le plus gros animal ayant jamais vécu.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les chats sont très sensibles au goût sucré.",
+   "answer": false,
+   "fact": "Les chats n'ont pas de récepteur du goût sucré, contrairement aux chiens.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal a une poche ventrale pour ses petits ?",
+   "choices": [
+    "Le panda",
+    "Le kangourou",
+    "Le singe"
+   ],
+   "correct": 1,
+   "fact": "Le petit kangourou reste dans la poche de sa mère pendant 6 à 8 mois.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel oiseau pond le plus gros œuf ?",
+   "choices": [
+    "L'aigle",
+    "L'autruche",
+    "Le cygne"
+   ],
+   "correct": 1,
+   "fact": "Un œuf d'autruche pèse autant qu'environ 25 œufs de poule, ce qui en fait le plus gros du monde.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La langue d'un caméléon peut dépasser 2 fois la longueur de son corps.",
+   "answer": true,
+   "fact": "Il la projette en une fraction de seconde pour attraper un insecte.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal marin peut refaire un bras perdu ?",
+   "choices": [
+    "Le dauphin",
+    "Le phoque",
+    "L'étoile de mer"
+   ],
+   "correct": 2,
+   "fact": "Certaines étoiles de mer refont un bras entier, voire un corps à partir d'un seul bras.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal transporte sa maison sur son dos ?",
+   "choices": [
+    "Le crabe",
+    "Le hérisson",
+    "L'escargot"
+   ],
+   "correct": 2,
+   "fact": "La coquille de l'escargot grandit avec lui, et il ne peut jamais la quitter.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal peut dormir debout ?",
+   "choices": [
+    "Le chien",
+    "Le lapin",
+    "Le cheval"
+   ],
+   "correct": 2,
+   "fact": "Un système de verrouillage de ses pattes permet au cheval de dormir debout.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un dauphin dort avec tout son cerveau endormi.",
+   "answer": false,
+   "fact": "Un seul côté du cerveau dort à la fois, pour qu'il puisse remonter respirer.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Une tortue géante peut vivre plus de 150 ans.",
+   "answer": true,
+   "fact": "La tortue Jonathan, qui vit à Sainte-Hélène, est née vers 1832.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle le petit de la vache ?",
+   "choices": [
+    "Le poulain",
+    "Le veau",
+    "L'agneau"
+   ],
+   "correct": 1,
+   "fact": "Un veau tient debout dans l'heure qui suit sa naissance et boit alors le lait de sa mère.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus gros rongeur du monde ?",
+   "choices": [
+    "Le capybara",
+    "Le castor",
+    "Le porc-épic"
+   ],
+   "correct": 0,
+   "fact": "Le capybara peut peser jusqu'à 65 kilos et il vit en Amérique du Sud.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal a des pupilles rectangulaires ?",
+   "choices": [
+    "Le chat",
+    "La chèvre",
+    "Le loup"
+   ],
+   "correct": 1,
+   "fact": "Ces pupilles lui offrent un champ de vision très large pour repérer les dangers.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel oiseau marin peut voler des semaines sans se poser ?",
+   "choices": [
+    "La mouette",
+    "Le pigeon",
+    "La frégate"
+   ],
+   "correct": 2,
+   "fact": "Des frégates ont été suivies en vol pendant plus de 2 mois sans jamais se poser.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La chauve-souris bourdon est l'un des plus petits mammifères.",
+   "answer": true,
+   "fact": "Elle pèse à peine 2 grammes, c'est-à-dire moins qu'un trombone.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal fabrique des toiles ?",
+   "choices": [
+    "La fourmi",
+    "Le cafard",
+    "L'araignée"
+   ],
+   "correct": 2,
+   "fact": "À poids égal, la soie d'araignée est plus résistante qu'un fil d'acier.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le dauphin est un poisson.",
+   "answer": false,
+   "fact": "Le dauphin est un mammifère : il respire de l'air et allaite ses petits.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Une abeille produit une pleine cuillère de miel dans sa vie.",
+   "answer": false,
+   "fact": "Une abeille ouvrière produit environ un douzième de cuillère à café de miel dans sa vie.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "À sa naissance, un bébé kangourou est plus grand qu'une main.",
+   "answer": false,
+   "fact": "Il mesure à peine 2 centimètres et rejoint aussitôt la poche de sa mère.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal marin possède 3 cœurs ?",
+   "choices": [
+    "Le poulpe",
+    "Le dauphin",
+    "Le requin"
+   ],
+   "correct": 0,
+   "fact": "2 de ses cœurs servent aux branchies, et le 3e au reste du corps.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Les flamants roses naissent roses.",
+   "answer": false,
+   "fact": "Ils naissent gris et deviennent roses grâce aux pigments des crevettes et des algues.",
+   "level": "difficile"
+  }
+ ]
+}

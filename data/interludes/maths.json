@@ -1,0 +1,576 @@
+{
+ "slug": "maths",
+ "theme": "les nombres et les formes",
+ "items": [
+  {
+   "type": "vf",
+   "q": "Les Romains n'avaient aucun signe pour le zéro.",
+   "answer": true,
+   "fact": "Pour écrire 13, ils alignaient un X puis 3 barres, sans aucun symbole pour le zéro.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel chiffre romain correspond à 50 ?",
+   "choices": [
+    "C",
+    "L",
+    "D"
+   ],
+   "correct": 1,
+   "fact": "Le C vaut 100, le D vaut 500 et le M vaut 1 000 : c'est le plus grand chiffre romain.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on un angle de 90 degrés ?",
+   "choices": [
+    "Angle plat",
+    "Angle aigu",
+    "Angle droit"
+   ],
+   "correct": 2,
+   "fact": "Le coin d'une feuille de papier forme un angle droit, comme les murs d'une pièce.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de faces a un dodécaèdre ?",
+   "choices": [
+    "10",
+    "12",
+    "20"
+   ],
+   "correct": 1,
+   "fact": "Dodéca veut dire 12 en grec, et les faces d'un dodécaèdre sont des pentagones.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire le préfixe « méga » ?",
+   "choices": [
+    "Mille",
+    "Un milliard",
+    "Un million"
+   ],
+   "correct": 2,
+   "fact": "Méga vient d'un mot grec qui veut dire grand, et kilo veut dire 1 000.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre d'or vaut environ 3,14.",
+   "answer": false,
+   "fact": "Il vaut environ 1,618 et il est lié à la suite de Fibonacci, alors que 3,14 est la valeur de pi.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de zéros a un milliard ?",
+   "choices": [
+    "6",
+    "9",
+    "12"
+   ],
+   "correct": 1,
+   "fact": "En français, un milliard vaut 1 000 millions, tout comme le billion américain.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Un cube a 6 faces.",
+   "answer": true,
+   "fact": "Un cube a aussi 12 arêtes et 8 sommets, c'est la forme d'un dé.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre 100 est un nombre carré.",
+   "answer": true,
+   "fact": "Un nombre carré, comme 1, 4, 9 ou 16, peut se dessiner avec des points rangés en carré.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Une bande de Möbius n'a qu'une seule face.",
+   "answer": true,
+   "fact": "Si tu traces un trait au milieu, tu reviens à ton point de départ sans jamais lever le crayon.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mathématicien indien était l'ami de Hardy ?",
+   "choices": [
+    "Ramanujan",
+    "Fibonacci",
+    "Pascal"
+   ],
+   "correct": 0,
+   "fact": "Autodidacte, il a envoyé ses calculs à un professeur de Cambridge, qui l'a invité en Angleterre.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien y a-t-il de nombres premiers ?",
+   "choices": [
+    "Mille",
+    "Une infinité",
+    "Un million"
+   ],
+   "correct": 1,
+   "fact": "Euclide a prouvé il y a plus de 2 000 ans qu'il y en a toujours un de plus à trouver.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre 13 porte bonheur dans le monde entier.",
+   "answer": false,
+   "fact": "En France, le 13 porte bonheur, alors que les Italiens redoutent plutôt le 17.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle suite commence par 1, 1, 2, 3, 5, 8 ?",
+   "choices": [
+    "Fibonacci",
+    "Pythagore",
+    "Euclide"
+   ],
+   "correct": 0,
+   "fact": "Fibonacci était un mathématicien italien du 13e siècle, qui a popularisé les chiffres arabes en Europe.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre pi est un nombre qui se termine après quelques décimales.",
+   "answer": false,
+   "fact": "Ses décimales sont infinies et ne se répètent jamais : c'est un nombre irrationnel.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le symbole de l'infini ressemble à un 8 debout.",
+   "answer": false,
+   "fact": "Il ressemble à un 8 couché, et il a été inventé par John Wallis en 1655.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La somme des angles d'un triangle est de 180 degrés.",
+   "answer": true,
+   "fact": "C'est vrai pour tous les triangles plats, des plus petits aux plus gigantesques.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de dimensions a un cube ?",
+   "choices": [
+    "3",
+    "2",
+    "4"
+   ],
+   "correct": 0,
+   "fact": "Un cube a 3 dimensions : longueur, largeur et hauteur, comme toutes les boîtes.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de dimensions a un tesseract ?",
+   "choices": [
+    "5",
+    "3",
+    "4"
+   ],
+   "correct": 2,
+   "fact": "Un tesseract est un cube à 4 dimensions, qu'on ne peut dessiner qu'en projection.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus petit nombre premier ?",
+   "choices": [
+    "1",
+    "2",
+    "3"
+   ],
+   "correct": 1,
+   "fact": "Les nombres premiers sont les briques qui permettent de fabriquer tous les autres nombres.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel solide ressemble à un ballon de football ?",
+   "choices": [
+    "Le cube",
+    "Le cône",
+    "La sphère"
+   ],
+   "correct": 2,
+   "fact": "Un ballon de football est fait de 32 pièces : 12 pentagones et 20 hexagones.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on un polygone à 12 côtés ?",
+   "choices": [
+    "Décagone",
+    "Dodécagone",
+    "Hexagone"
+   ],
+   "correct": 1,
+   "fact": "L'ancienne pièce britannique de 3 pence avait la forme d'un polygone à 12 côtés.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Un cercle a des angles.",
+   "answer": false,
+   "fact": "Un cercle n'a ni angle ni côté : c'est juste une courbe fermée et parfaitement ronde.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le zéro a été inventé par les Romains.",
+   "answer": false,
+   "fact": "Le plus ancien zéro écrit connu se trouve dans un manuscrit indien appelé Bakhshali.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel chiffre romain correspond à 10 ?",
+   "choices": [
+    "X",
+    "V",
+    "L"
+   ],
+   "correct": 0,
+   "fact": "Les chiffres romains I, V, X, L, C, D et M suffisent à écrire tous les nombres.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de côtés a un octogone ?",
+   "choices": [
+    "6",
+    "10",
+    "8"
+   ],
+   "correct": 2,
+   "fact": "Le panneau stop a la forme d'un octogone, ce qui le rend reconnaissable de loin.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel nombre est surnommé le nombre d'or ?",
+   "choices": [
+    "1,618",
+    "3,14",
+    "2,718"
+   ],
+   "correct": 0,
+   "fact": "Il est noté avec la lettre grecque phi et on le cherche dans l'art et l'architecture.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Un nombre pair se termine par 1, 3, 5, 7 ou 9.",
+   "answer": false,
+   "fact": "Un nombre pair se termine par 0, 2, 4, 6 ou 8 : il peut se partager en 2 parts égales.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel solide ressemble à une boîte de conserve ?",
+   "choices": [
+    "Le cylindre",
+    "Le cône",
+    "La pyramide"
+   ],
+   "correct": 0,
+   "fact": "Le cylindre résiste bien à la pression, c'est pourquoi on l'utilise pour les conserves.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre zéro est un nombre pair.",
+   "answer": true,
+   "fact": "Zéro est pair, car on peut le partager en 2 groupes égaux, de 0 chacun.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mathématicien grec a un théorème sur le triangle rectangle ?",
+   "choices": [
+    "Archimède",
+    "Pythagore",
+    "Euclide"
+   ],
+   "correct": 1,
+   "fact": "Les Babyloniens connaissaient déjà cette relation plus de 1 000 ans avant Pythagore.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre 0,999 répété à l'infini est égal à 1.",
+   "answer": true,
+   "fact": "Ce fait surprenant vient de ce que 1 divisé par 3 donne 0,333 répété sans fin.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Il existe un nombre plus grand que tous les autres.",
+   "answer": false,
+   "fact": "On peut toujours ajouter 1 à un nombre, donc il n'existe pas de plus grand nombre.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre 6 est un nombre parfait.",
+   "answer": true,
+   "fact": "Ses diviseurs 1, 2 et 3 donnent 6 quand on les additionne, d'où son nom.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien contient une douzaine ?",
+   "choices": [
+    "10",
+    "15",
+    "12"
+   ],
+   "correct": 2,
+   "fact": "On compte en douzaines car 12 se divise facilement par 2, 3, 4 et 6.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de couleurs suffisent à colorier n'importe quelle carte ?",
+   "choices": [
+    "4",
+    "3",
+    "6"
+   ],
+   "correct": 0,
+   "fact": "Ce théorème a été prouvé en 1976 avec l'aide d'un ordinateur, une grande première.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de faces a un dé classique ?",
+   "choices": [
+    "4",
+    "6",
+    "8"
+   ],
+   "correct": 1,
+   "fact": "Les faces opposées d'un dé additionnent toujours 7 : le 1 est en face du 6.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un pentagone a 6 côtés.",
+   "answer": false,
+   "fact": "Un pentagone a 5 côtés, et un hexagone en a 6 : penta veut dire 5 en grec.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre 7 est un nombre premier.",
+   "answer": true,
+   "fact": "Un nombre premier n'est divisible que par 1 et par lui-même, comme 2, 3, 5 et 7.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de jours compte une année ordinaire ?",
+   "choices": [
+    "360",
+    "365",
+    "366"
+   ],
+   "correct": 1,
+   "fact": "L'année dure en réalité 365 jours et presque 6 heures, d'où les années bissextiles.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Une année bissextile a 365 jours.",
+   "answer": false,
+   "fact": "Elle a 366 jours, avec un 29 février, et revient en général tous les 4 ans.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle forme a la base de la Grande Pyramide ?",
+   "choices": [
+    "Un cercle",
+    "Un triangle",
+    "Un carré"
+   ],
+   "correct": 2,
+   "fact": "Sa base est presque parfaitement carrée, avec des côtés d'environ 230 mètres.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre 1 est un nombre premier.",
+   "answer": false,
+   "fact": "Un nombre premier doit avoir exactement 2 diviseurs, alors que le 1 n'en a qu'un seul.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de zéros a un million ?",
+   "choices": [
+    "6",
+    "5",
+    "7"
+   ],
+   "correct": 0,
+   "fact": "Un million de secondes, c'est environ 11 jours et demi, alors qu'un milliard fait plus de 31 ans.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les abeilles construisent leurs alvéoles en forme d'hexagones.",
+   "answer": true,
+   "fact": "Cette forme permet de ranger le plus de cases possible avec le moins de cire.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de côtés a un hexagone ?",
+   "choices": [
+    "6",
+    "5",
+    "8"
+   ],
+   "correct": 0,
+   "fact": "Un flocon de neige a toujours 6 branches, comme un hexagone.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La France est surnommée l'Octogone.",
+   "answer": false,
+   "fact": "Elle est surnommée l'Hexagone, à cause de sa forme qui rappelle un polygone à 6 côtés.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel philosophe français a donné son nom aux coordonnées cartésiennes ?",
+   "choices": [
+    "Blaise Pascal",
+    "René Descartes",
+    "Pierre Fermat"
+   ],
+   "correct": 1,
+   "fact": "Les coordonnées servent à repérer un point avec 2 nombres, comme sur un plan de ville.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien d'axes de symétrie a un carré ?",
+   "choices": [
+    "2",
+    "8",
+    "4"
+   ],
+   "correct": 2,
+   "fact": "Un carré a 4 axes de symétrie, tandis qu'un cercle en possède une infinité.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre pi commence par 3,14.",
+   "answer": true,
+   "fact": "On fête le jour de pi le 14 mars, car la date s'écrit 3/14 dans le calendrier américain.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les chiffres que nous utilisons viennent de Grèce.",
+   "answer": false,
+   "fact": "Ils viennent d'Inde, et on les appelle chiffres arabes car les Arabes les ont transmis à l'Europe.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de côtés a un heptagone ?",
+   "choices": [
+    "7",
+    "6",
+    "9"
+   ],
+   "correct": 0,
+   "fact": "Les pièces britanniques de 50 pence ont 7 côtés, ce qui les rend faciles à reconnaître au toucher.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Dans la suite de Fibonacci, chaque nombre est la somme des 2 précédents.",
+   "answer": true,
+   "fact": "Cette suite apparaît dans les spirales des pommes de pin et des tournesols.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre 10 est un nombre premier.",
+   "answer": false,
+   "fact": "Le nombre 10 est divisible par 2 et par 5, donc il n'est pas un nombre premier.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre 1729 est surnommé le nombre du taxi.",
+   "answer": true,
+   "fact": "Le mathématicien Hardy est monté dans un taxi numéro 1729, et son ami Ramanujan a vu que ce nombre était fascinant.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel peuple comptait en base 60 ?",
+   "choices": [
+    "Les Romains",
+    "Les Vikings",
+    "Les Babyloniens"
+   ],
+   "correct": 2,
+   "fact": "On leur doit les 60 minutes d'une heure et les 60 secondes d'une minute.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Des ordinateurs ont calculé plus de 100 000 milliards de décimales de pi.",
+   "answer": true,
+   "fact": "Ce record a été battu en 2022, avec des calculs qui ont duré plusieurs mois.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le nombre 2 est le seul nombre premier pair.",
+   "answer": true,
+   "fact": "Tous les autres nombres pairs sont divisibles par 2, donc ils ne sont pas premiers.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle figure a 4 côtés égaux et 4 angles droits ?",
+   "choices": [
+    "Le losange",
+    "Le rectangle",
+    "Le carré"
+   ],
+   "correct": 2,
+   "fact": "Le losange a 4 côtés égaux, mais ses angles ne sont pas droits.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Un googol est un nombre avec 10 zéros.",
+   "answer": false,
+   "fact": "Il en a 100, et ce nom a été inventé en 1920 par un enfant de 9 ans, neveu d'un mathématicien.",
+   "level": "moyen"
+  }
+ ]
+}

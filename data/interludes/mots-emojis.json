@@ -1,0 +1,576 @@
+{
+ "slug": "mots-emojis",
+ "theme": "les mots et les émojis",
+ "items": [
+  {
+   "type": "vf",
+   "q": "Le mot « anticonstitutionnellement » compte 25 lettres.",
+   "answer": true,
+   "fact": "C'est l'un des plus longs mots courants du dictionnaire, souvent cité pour sa longueur.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « pyjama » vient d'une langue d'Asie.",
+   "answer": true,
+   "fact": "Il désignait à l'origine un pantalon large et léger porté en Inde.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « café » vient du japonais.",
+   "answer": false,
+   "fact": "Il vient de l'arabe qahwa, passé par le turc puis l'italien avant d'arriver en français.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel peuple a inventé le premier alphabet utilisé encore aujourd'hui ?",
+   "choices": [
+    "Les Phéniciens",
+    "Les Romains",
+    "Les Mayas"
+   ],
+   "correct": 0,
+   "fact": "L'alphabet phénicien a donné naissance à l'alphabet grec, puis à l'alphabet latin.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « bonjour » est un palindrome.",
+   "answer": false,
+   "fact": "Un palindrome se lit dans les 2 sens : kayak, radar, rotor ou ressasser.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « hasard » vient du grec.",
+   "answer": false,
+   "fact": "Il vient d'un mot arabe qui désignait un jeu de dés, avant de vouloir dire chance en français.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot émoji vient de l'anglais.",
+   "answer": false,
+   "fact": "Il vient du japonais : e veut dire image, et moji veut dire lettre.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle langue compte le plus de locuteurs natifs ?",
+   "choices": [
+    "L'anglais",
+    "Le mandarin",
+    "L'espagnol"
+   ],
+   "correct": 1,
+   "fact": "Le mandarin compte plus de 900 millions de locuteurs natifs.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays les émojis sont-ils nés ?",
+   "choices": [
+    "Japon",
+    "Corée du Sud",
+    "États-Unis"
+   ],
+   "correct": 0,
+   "fact": "Aujourd'hui, il existe plus de 3 600 émojis différents, et de nouveaux arrivent chaque année.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle la langue des mains en France ?",
+   "choices": [
+    "La langue des signes",
+    "Le morse",
+    "Le braille"
+   ],
+   "correct": 0,
+   "fact": "La langue des signes française est reconnue officiellement depuis 2005.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le pluriel de « un œil » ?",
+   "choices": [
+    "Des yeux",
+    "Des œils",
+    "Des yeuxs"
+   ],
+   "correct": 0,
+   "fact": "Œil est l'un des rares mots dont le pluriel n'a aucune lettre commune avec le singulier.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les hiéroglyphes sont une écriture faite d'images.",
+   "answer": true,
+   "fact": "Les Égyptiens de l'Antiquité écrivaient avec plus de 700 signes qui représentaient des objets.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on l'écriture des anciens Égyptiens ?",
+   "choices": [
+    "Le cunéiforme",
+    "Les runes",
+    "Les hiéroglyphes"
+   ],
+   "correct": 2,
+   "fact": "Champollion a déchiffré les hiéroglyphes en 1822, grâce à la pierre de Rosette.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle langue a l'alphabet le plus long du monde ?",
+   "choices": [
+    "Le russe",
+    "L'arabe",
+    "Le khmer"
+   ],
+   "correct": 2,
+   "fact": "Le khmer, langue du Cambodge, compte 74 lettres, soit près de 3 fois plus que le français.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Dans beaucoup de langues, le mot « maman » contient la lettre m.",
+   "answer": true,
+   "fact": "On retrouve ce son m dans des centaines de langues du monde, car c'est un des premiers sons des bébés.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Il existe des émojis de drapeaux.",
+   "answer": true,
+   "fact": "Chaque drapeau est formé de 2 lettres spéciales : F et R donnent par exemple la France.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment dit-on « chat » en espagnol ?",
+   "choices": [
+    "Katze",
+    "Gatto",
+    "Gato"
+   ],
+   "correct": 2,
+   "fact": "Chat, gato et gatto viennent tous du même mot latin, cattus, qui désignait déjà le chat.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « délice » est masculin au singulier et féminin au pluriel.",
+   "answer": true,
+   "fact": "Délice, amour et orgue sont masculins au singulier, mais deviennent féminins au pluriel.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot kayak se lit pareil dans les deux sens.",
+   "answer": true,
+   "fact": "Un mot qui se lit dans les 2 sens s'appelle un palindrome, comme radar ou rotor.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans « haricot », quelle lettre est une consonne muette ?",
+   "choices": [
+    "Le h",
+    "Le c",
+    "Le t"
+   ],
+   "correct": 0,
+   "fact": "En français, le h ne se prononce presque jamais, sauf dans quelques mots comme hop.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Lequel de ces mots vient de l'italien ?",
+   "choices": [
+    "Karaoké",
+    "Robot",
+    "Carnaval"
+   ],
+   "correct": 2,
+   "fact": "Piano, opéra, balcon et banque nous viennent aussi de l'italien.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel peuple écrivait sur des tablettes d'argile en cunéiforme ?",
+   "choices": [
+    "Les Sumériens",
+    "Les Gaulois",
+    "Les Vikings"
+   ],
+   "correct": 0,
+   "fact": "Les Sumériens écrivaient ainsi il y a plus de 5 000 ans, avec un roseau taillé sur de l'argile.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on une devinette faite d'images ?",
+   "choices": [
+    "Une charade",
+    "Une anagramme",
+    "Un rébus"
+   ],
+   "correct": 2,
+   "fact": "Le mot rébus vient du latin et veut dire par les choses, c'est-à-dire avec des images.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mot est un palindrome ?",
+   "choices": [
+    "Radar",
+    "Café",
+    "Rouge"
+   ],
+   "correct": 0,
+   "fact": "Le mot radar est un acronyme anglais de radio detection and ranging.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "L'écriture chinoise utilise un alphabet de 26 lettres.",
+   "answer": false,
+   "fact": "Elle utilise des milliers de caractères, et il en faut environ 3 000 pour lire un journal.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de lettres compte l'alphabet français ?",
+   "choices": [
+    "24",
+    "28",
+    "26"
+   ],
+   "correct": 2,
+   "fact": "Les lettres k et w sont rares en français et viennent surtout de mots étrangers.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on un mot qui se lit dans les 2 sens ?",
+   "choices": [
+    "Anagramme",
+    "Palindrome",
+    "Acronyme"
+   ],
+   "correct": 1,
+   "fact": "Niche et chien sont des anagrammes : elles ont les mêmes lettres, dans le désordre.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La phrase « Ésope reste ici et se repose » se lit pareil à l'envers.",
+   "answer": true,
+   "fact": "C'est un palindrome si on ignore les espaces et les accents.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Environ combien de langues existe-t-il dans le monde ?",
+   "choices": [
+    "Environ 7 000",
+    "Environ 700",
+    "Environ 70 000"
+   ],
+   "correct": 0,
+   "fact": "Beaucoup sont menacées, et la plupart ne sont parlées que par quelques milliers de personnes.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « alphabet » vient des mots alpha et gamma.",
+   "answer": false,
+   "fact": "Il vient de alpha et bêta, les 2 premières lettres de l'alphabet grec.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « chocolat » vient d'un mot aztèque.",
+   "answer": true,
+   "fact": "Il vient du nahuatl xocolatl, nom d'une boisson amère des Aztèques.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "De quelle ville italienne vient le mot « jean » ?",
+   "choices": [
+    "Venise",
+    "Gênes",
+    "Naples"
+   ],
+   "correct": 1,
+   "fact": "Le mot jean vient de Gênes, et le mot denim vient de Nîmes : 2 villes pour un pantalon.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « kiosque » vient de l'italien.",
+   "answer": false,
+   "fact": "Il vient du turc, où il désignait à l'origine un pavillon de jardin.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « zéro » vient du chinois.",
+   "answer": false,
+   "fact": "Il vient de l'arabe sifr, un mot qui a aussi donné le mot chiffre.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le signe @ s'appelle arobase en français.",
+   "answer": true,
+   "fact": "En espagnol et en portugais, il s'appelle arroba, qui est une ancienne unité de poids.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Lequel de ces mots vient de l'arabe ?",
+   "choices": [
+    "Sucre",
+    "Vélo",
+    "Stylo"
+   ],
+   "correct": 0,
+   "fact": "Sucre, coton, café et algèbre sont tous des mots venus de l'arabe.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « tomate » vient du grec.",
+   "answer": false,
+   "fact": "Il vient du nahuatl tomatl, la langue des Aztèques, comme chocolat et avocat.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le premier émoji a été dessiné en Chine.",
+   "answer": false,
+   "fact": "Shigetaka Kurita les a imaginés au Japon, pour un service de messagerie mobile, vers 1999.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Chaque marque de téléphone invente ses propres émojis sans accord commun.",
+   "answer": false,
+   "fact": "Le consortium Unicode fixe la liste officielle, puis chaque marque dessine sa version.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel système d'écriture utilise des points en relief ?",
+   "choices": [
+    "Le morse",
+    "Le braille",
+    "Les runes"
+   ],
+   "correct": 1,
+   "fact": "Louis Braille a mis au point son système à 15 ans, vers 1824.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle langue a l'un des plus petits alphabets du monde ?",
+   "choices": [
+    "Le rotokas",
+    "Le russe",
+    "Le finnois"
+   ],
+   "correct": 0,
+   "fact": "Le rotokas, parlé en Papouasie-Nouvelle-Guinée, n'a que 12 lettres.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « robot » vient du japonais.",
+   "answer": false,
+   "fact": "Il vient du tchèque robota, qui veut dire travail forcé, et il est apparu au théâtre en 1920.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « salaire » est lié au sel.",
+   "answer": true,
+   "fact": "Il vient du latin salarium, lié au sel, qui était très précieux dans l'Antiquité.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le premier smiley tapé au clavier date de 1962.",
+   "answer": false,
+   "fact": "Il date de 1982 : Scott Fahlman l'a tapé sur un forum universitaire le 19 septembre.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « avion » a été inventé par un Français.",
+   "answer": true,
+   "fact": "Clément Ader l'a créé vers 1875 à partir du mot latin avis, qui veut dire oiseau.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire le mot émoji en japonais ?",
+   "choices": [
+    "Visage joyeux",
+    "Petit sourire",
+    "Image et lettre"
+   ],
+   "correct": 2,
+   "fact": "Il n'a aucun rapport avec le mot émotion, malgré la ressemblance.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « ski » vient du portugais.",
+   "answer": false,
+   "fact": "Il vient d'un mot du vieux norrois qui désignait une bûche fendue.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « quarantaine » vient du nombre 40.",
+   "answer": true,
+   "fact": "Au Moyen Âge, les navires suspects devaient attendre 40 jours avant d'entrer dans le port de Venise.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « oiseau » contient toutes les voyelles sauf le u.",
+   "answer": false,
+   "fact": "Il les contient toutes : a, e, i, o et u, avec une seule consonne, le s.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Il existe une journée mondiale de l'émoji.",
+   "answer": true,
+   "fact": "Elle a lieu le 17 juillet, une date qui apparaît sur l'émoji du calendrier.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle le signe @ ?",
+   "choices": [
+    "Dièse",
+    "Arobase",
+    "Esperluette"
+   ],
+   "correct": 1,
+   "fact": "Le signe qui ressemble à un et s'appelle esperluette, un joli mot rare.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment dit-on « merci » en italien ?",
+   "choices": [
+    "Gracias",
+    "Danke",
+    "Grazie"
+   ],
+   "correct": 2,
+   "fact": "Grazie et gracias viennent du même mot latin, gratia, qui voulait dire faveur ou reconnaissance.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "L'alphabet français compte 26 lettres.",
+   "answer": true,
+   "fact": "L'alphabet grec en compte 24 et l'alphabet arabe en compte 28.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment dit-on « bonjour » en espagnol ?",
+   "choices": [
+    "Ciao",
+    "Hola",
+    "Hallo"
+   ],
+   "correct": 1,
+   "fact": "L'espagnol est parlé par plus de 450 millions de personnes dans le monde.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle langue s'écrit de droite à gauche ?",
+   "choices": [
+    "Le russe",
+    "L'arabe",
+    "Le grec"
+   ],
+   "correct": 1,
+   "fact": "L'hébreu s'écrit aussi de droite à gauche, tout comme l'arabe.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Lequel de ces mots vient du japonais ?",
+   "choices": [
+    "Pizza",
+    "Karaoké",
+    "Chalet"
+   ],
+   "correct": 1,
+   "fact": "Karaoké veut dire orchestre vide en japonais : on chante sans les musiciens, avec la seule musique.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "En quelle année a été créée la première série d'émojis ?",
+   "choices": [
+    "2009",
+    "1989",
+    "1999"
+   ],
+   "correct": 2,
+   "fact": "Elle comptait 176 symboles, dessinés sur une grille minuscule de 12 sur 12 pixels.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la lettre la plus fréquente en français ?",
+   "choices": [
+    "Le A",
+    "Le S",
+    "Le E"
+   ],
+   "correct": 2,
+   "fact": "Le e représente environ 15 pour cent des lettres d'un texte en français.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quelle langue dit-on « arigato » pour merci ?",
+   "choices": [
+    "Chinois",
+    "Japonais",
+    "Coréen"
+   ],
+   "correct": 1,
+   "fact": "Pour être poli, on dit arigato gozaimasu, la version longue.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel code utilise des points et des traits ?",
+   "choices": [
+    "Le braille",
+    "Le morse",
+    "Le binaire"
+   ],
+   "correct": 1,
+   "fact": "En morse, la lettre e est un simple point, car c'est la lettre la plus fréquente en anglais.",
+   "level": "difficile"
+  }
+ ]
+}

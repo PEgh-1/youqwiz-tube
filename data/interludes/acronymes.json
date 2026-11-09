@@ -1,0 +1,576 @@
+{
+ "slug": "acronymes",
+ "theme": "les sigles et acronymes",
+ "items": [
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne le contrat de travail sans date de fin ?",
+   "choices": [
+    "CDD",
+    "CAF",
+    "CDI"
+   ],
+   "correct": 2,
+   "fact": "Le contrat à durée indéterminée est la forme la plus courante de contrat de travail en France.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne un message court sur téléphone ?",
+   "choices": [
+    "SOS",
+    "SUV",
+    "SMS"
+   ],
+   "correct": 2,
+   "fact": "Le tout 1er message, envoyé en 1992, disait joyeux Noël en anglais.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "NASA veut dire national aeronautics and space administration.",
+   "answer": true,
+   "fact": "Cette agence a été créée en 1958 et a envoyé des astronautes sur la Lune en 1969.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "OVNI veut dire objet volant non identifié.",
+   "answer": true,
+   "fact": "Ce sigle se prononce comme un mot, c'est pourquoi on l'écrit souvent en minuscules : ovni.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle sert à appeler à l'aide en mer ?",
+   "choices": [
+    "SOS",
+    "OK",
+    "PS"
+   ],
+   "correct": 0,
+   "fact": "Ce signal a été adopté officiellement en 1906 par une convention internationale.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Ok vient d'une blague de journal américain de 1839.",
+   "answer": true,
+   "fact": "Des journalistes écrivaient mal les mots exprès, et oll korrect est devenu ok.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "WC veut dire west coast.",
+   "answer": false,
+   "fact": "Il veut dire water closet, ce qui signifie cabinet d'eau en anglais.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "QR code veut dire question réponse.",
+   "answer": false,
+   "fact": "Il veut dire quick response, et il peut contenir plus de 7 000 chiffres dans un petit carré.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Radar veut dire radio detecting and rotating.",
+   "answer": false,
+   "fact": "Il veut dire radio detection and ranging : il envoie des ondes qui rebondissent sur les objets.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne le numéro des secours médicaux, le 15 ?",
+   "choices": [
+    "SNCF",
+    "SAMU",
+    "ONU"
+   ],
+   "correct": 1,
+   "fact": "Il existe aussi le 18 pour les pompiers et le 17 pour la police.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne la molécule qui contient nos gènes ?",
+   "choices": [
+    "IRM",
+    "LED",
+    "ADN"
+   ],
+   "correct": 2,
+   "fact": "Nous partageons presque tous nos gènes avec les chimpanzés, environ 99 pour cent.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "SMS veut dire short mail system.",
+   "answer": false,
+   "fact": "Il veut dire short message service, et les messages y sont limités à 160 caractères.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "LED veut dire light emitting diode.",
+   "answer": true,
+   "fact": "Une ampoule de ce type consomme environ 10 fois moins qu'une ampoule à incandescence.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne un produit d'origine certifiée, comme certains fromages ?",
+   "choices": [
+    "QR",
+    "AOC",
+    "CDD"
+   ],
+   "correct": 1,
+   "fact": "Le roquefort a obtenu la première appellation d'origine en 1925.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "TVA veut dire taxe sur les voyages aériens.",
+   "answer": false,
+   "fact": "Il veut dire taxe sur la valeur ajoutée, une taxe incluse dans le prix affiché en magasin.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "ADN veut dire acide dentaire naturel.",
+   "answer": false,
+   "fact": "Il veut dire acide désoxyribonucléique, et déroulé, celui d'une cellule humaine mesure environ 2 mètres.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne un objet volant non identifié ?",
+   "choices": [
+    "OMS",
+    "OVNI",
+    "ONU"
+   ],
+   "correct": 1,
+   "fact": "Dans les années 1950, ce mot est devenu courant partout dans le monde.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire le T de « TVA » ?",
+   "choices": [
+    "Temps",
+    "Transport",
+    "Taxe"
+   ],
+   "correct": 2,
+   "fact": "La taxe sur la valeur ajoutée est appliquée à chaque étape de la fabrication d'un produit.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "IRM veut dire imagerie par résonance magnétique.",
+   "answer": true,
+   "fact": "Cet appareil photographie l'intérieur du corps avec un aimant très puissant, sans rayons dangereux.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "TGV veut dire train à gros voyageurs.",
+   "answer": false,
+   "fact": "Il veut dire train à grande vitesse, et le 1er a roulé entre Paris et Lyon en 1981.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne le vélo à gros pneus pour la campagne ?",
+   "choices": [
+    "VTT",
+    "GPS",
+    "PDG"
+   ],
+   "correct": 0,
+   "fact": "Ce vélo a des pneus larges et plusieurs vitesses pour rouler sur les chemins et la boue.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Scuba veut dire self-contained underwater breathing apparatus.",
+   "answer": true,
+   "fact": "Ce sigle anglais désigne l'équipement des plongeurs qui respirent avec une bouteille d'air.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle abréviation désigne la Suisse sur les voitures ?",
+   "choices": [
+    "SU",
+    "CH",
+    "SW"
+   ],
+   "correct": 1,
+   "fact": "Le nom latin du pays, Confoederatio Helvetica, évite de choisir entre ses 4 langues nationales.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "SOS veut dire sauvez nos âmes.",
+   "answer": false,
+   "fact": "Il ne veut rien dire : en morse, il s'envoie par 3 points, 3 traits puis 3 points, un rythme facile à repérer.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Sonar veut dire sound navigation and ranging.",
+   "answer": true,
+   "fact": "Les dauphins et les chauves-souris font la même chose naturellement avec leurs cris.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "ONG veut dire organisation nationale générale.",
+   "answer": false,
+   "fact": "Il veut dire organisation non gouvernementale : ce sont des associations qui aident, par exemple la nature.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne l'intelligence artificielle en français ?",
+   "choices": [
+    "IA",
+    "IT",
+    "IP"
+   ],
+   "correct": 0,
+   "fact": "Le terme intelligence artificielle est né en 1956, lors d'une conférence aux États-Unis.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel appareil de détection par ondes radio est un acronyme ?",
+   "choices": [
+    "Boussole",
+    "Compas",
+    "Radar"
+   ],
+   "correct": 2,
+   "fact": "Le sonar est son cousin, qui fonctionne sous l'eau avec des sons plutôt que des ondes radio.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le nom français de l'équipement de plongée scuba ?",
+   "choices": [
+    "Scaphandre autonome",
+    "Sous-marin",
+    "Bouée"
+   ],
+   "correct": 0,
+   "fact": "Jacques Cousteau et Émile Gagnan ont mis au point le détendeur moderne en 1943.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne les écrans à cristaux liquides ?",
+   "choices": [
+    "ADN",
+    "PDG",
+    "LCD"
+   ],
+   "correct": 2,
+   "fact": "Les cristaux liquides ont été découverts en 1888 par un botaniste autrichien.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne le patron d'une entreprise ?",
+   "choices": [
+    "DRH",
+    "PDG",
+    "CDI"
+   ],
+   "correct": 1,
+   "fact": "Le président dirige le conseil et le directeur gère l'entreprise, mais c'est parfois la même personne.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Lequel de ces mots est un acronyme ?",
+   "choices": [
+    "Café",
+    "Laser",
+    "Vélo"
+   ],
+   "correct": 1,
+   "fact": "Laser signifie amplification de la lumière par émission stimulée de rayonnement.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "PDG veut dire patron des grandes entreprises.",
+   "answer": false,
+   "fact": "Il veut dire président-directeur général, le titre de la personne qui dirige une entreprise.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle veut dire post-scriptum ?",
+   "choices": [
+    "PC",
+    "PS",
+    "PV"
+   ],
+   "correct": 1,
+   "fact": "On l'ajoute à la fin d'une lettre pour un oubli ou pour un petit mot en plus.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "DJ veut dire disc-jockey.",
+   "answer": true,
+   "fact": "Un jockey guide un cheval, et un disc-jockey guide les disques de la soirée.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "CD veut dire compact disc.",
+   "answer": true,
+   "fact": "Le 1er disque de ce type vendu au public date de 1982, et il lisait la musique avec un laser.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "RSVP veut dire rendez-vous si possible.",
+   "answer": false,
+   "fact": "Il veut dire répondez s'il vous plaît, et on le trouve sur les invitations, même en anglais.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire le V de « TGV » ?",
+   "choices": [
+    "Voyage",
+    "Vitesse",
+    "Voiture"
+   ],
+   "correct": 1,
+   "fact": "Ce train à grande vitesse roule régulièrement à 300 kilomètres à l'heure.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "BCBG veut dire bon chic bon genre.",
+   "answer": true,
+   "fact": "Cette expression des années 1980 décrit un style classique et élégant.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire le A de « laser » ?",
+   "choices": [
+    "Atome",
+    "Air",
+    "Amplification"
+   ],
+   "correct": 2,
+   "fact": "Le tout 1er laser a fonctionné en 1960, avec un cristal de rubis.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "USB veut dire union des services de bureau.",
+   "answer": false,
+   "fact": "Il veut dire universal serial bus, une prise créée en 1996 pour remplacer toutes sortes de câbles.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne le diplôme de fin de lycée ?",
+   "choices": [
+    "CAP",
+    "BAC",
+    "BTS"
+   ],
+   "correct": 1,
+   "fact": "Le baccalauréat a été créé en 1808, sous Napoléon, et il compte aujourd'hui des millions de candidats.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne l'agence spatiale américaine ?",
+   "choices": [
+    "ESA",
+    "CNES",
+    "NASA"
+   ],
+   "correct": 2,
+   "fact": "Ce sigle se prononce comme un mot, nasa, et non lettre par lettre.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne les toilettes ?",
+   "choices": [
+    "WC",
+    "PC",
+    "DC"
+   ],
+   "correct": 0,
+   "fact": "Cette abréviation vient des cabinets à chasse d'eau apparus en Angleterre au 19e siècle.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "NB vient du latin et veut dire notez bien.",
+   "answer": true,
+   "fact": "On l'utilise pour attirer l'attention sur un détail, comme une petite flèche vers l'information importante.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Laser est un acronyme anglais qui désigne une lumière amplifiée.",
+   "answer": true,
+   "fact": "Ce nom est devenu un mot comme les autres, que l'on écrit sans majuscules.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne le petit carré noir et blanc à scanner ?",
+   "choices": [
+    "ADN",
+    "QR code",
+    "WC"
+   ],
+   "correct": 1,
+   "fact": "Ce code a été inventé au Japon, en 1994, pour suivre des pièces de voiture.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Wi-Fi veut dire wireless fidelity.",
+   "answer": false,
+   "fact": "Ce nom n'a pas de vrai sens : il a été inventé pour sonner comme hi-fi.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne l'organisation mondiale pour la santé ?",
+   "choices": [
+    "OMS",
+    "ONU",
+    "OTAN"
+   ],
+   "correct": 0,
+   "fact": "Elle a été créée en 1948, son siège est à Genève, en Suisse, et elle veille sur la santé du monde.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne l'examen qui photographie le corps avec un aimant ?",
+   "choices": [
+    "ADN",
+    "TGV",
+    "IRM"
+   ],
+   "correct": 2,
+   "fact": "Le 1er appareil de ce type pour examiner les humains date de 1977.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "SAMU veut dire service d'accueil des malades urgents.",
+   "answer": false,
+   "fact": "Il veut dire service d'aide médicale urgente, et on le joint en composant le 15.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel organisme français compte les habitants du pays ?",
+   "choices": [
+    "IGN",
+    "SAMU",
+    "INSEE"
+   ],
+   "correct": 2,
+   "fact": "Il a été créé en 1946 et publie chaque année le nombre d'habitants de la France.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "GPS veut dire global positioning system.",
+   "answer": true,
+   "fact": "Il a d'abord été créé pour l'armée américaine, avant d'être ouvert au grand public.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne le train à grande vitesse ?",
+   "choices": [
+    "TGV",
+    "TER",
+    "RER"
+   ],
+   "correct": 0,
+   "fact": "Le record de vitesse sur rail en France est de 574 kilomètres à l'heure, établi en 2007.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne le disque à lecture laser ?",
+   "choices": [
+    "CD",
+    "USB",
+    "TV"
+   ],
+   "correct": 0,
+   "fact": "Le 1er disque de ce type vendu au public date de 1982, et il tenait dans la main.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne le système de repérage par satellites ?",
+   "choices": [
+    "GPS",
+    "DVD",
+    "SMS"
+   ],
+   "correct": 0,
+   "fact": "Il utilise une trentaine de satellites qui tournent autour de la Terre.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "VTT veut dire véhicule tout terrain.",
+   "answer": false,
+   "fact": "Il veut dire vélo tout terrain, avec des pneus larges et plusieurs vitesses pour les chemins.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "IGN veut dire institut géographique national.",
+   "answer": true,
+   "fact": "Cet institut fabrique des cartes de France très précises depuis 1940.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "AOC veut dire appellation d'origine contrôlée.",
+   "answer": true,
+   "fact": "Cette étiquette garantit qu'un produit, comme un fromage, vient d'un lieu précis.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne une ampoule économique ?",
+   "choices": [
+    "LED",
+    "LCD",
+    "USB"
+   ],
+   "correct": 0,
+   "fact": "Une ampoule de ce type peut durer plus de 15 000 heures, soit plusieurs années d'usage.",
+   "level": "moyen"
+  }
+ ]
+}

@@ -1,0 +1,576 @@
+{
+ "slug": "films-emojis",
+ "theme": "le cinéma",
+ "items": [
+  {
+   "type": "vf",
+   "q": "Un clap sert à nettoyer l'objectif de la caméra.",
+   "answer": false,
+   "fact": "Il sert à caler l'image sur le son, grâce à un claquement bien visible et audible.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le panneau Hollywood se trouve à New York.",
+   "answer": false,
+   "fact": "Il domine Los Angeles depuis 1923, mais il disait d'abord Hollywoodland.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Festival de Cannes existe depuis 1946.",
+   "answer": true,
+   "fact": "Il devait commencer en 1939, mais la guerre a obligé à reporter la première édition.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Dans un film d'animation, il y a forcément de vrais acteurs.",
+   "answer": false,
+   "fact": "Dans l'animation, les personnages sont dessinés, modelés ou créés par ordinateur.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Voyage dans la Lune date de 1902.",
+   "answer": true,
+   "fact": "Dans ce film, une fusée se plante dans l'œil de la Lune, une des images les plus célèbres du cinéma.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays remet les Goyas, des prix de cinéma ?",
+   "choices": [
+    "Espagne",
+    "Italie",
+    "Mexique"
+   ],
+   "correct": 0,
+   "fact": "Les Goyas portent le nom du peintre Francisco de Goya et récompensent le cinéma espagnol.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quelle ville se trouvent les studios de Cinecittà ?",
+   "choices": [
+    "Milan",
+    "Rome",
+    "Naples"
+   ],
+   "correct": 1,
+   "fact": "Créés en 1937, ces studios ont accueilli des films géants, dont de grands péplums.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Fantasmagorie, l'un des plus vieux dessins animés, date de 1958.",
+   "answer": false,
+   "fact": "Il date de 1908 : c'est un dessin tracé à la main, en blanc sur fond noir.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Nollywood est le nom du cinéma nigérian.",
+   "answer": true,
+   "fact": "C'est l'une des plus grosses industries du monde pour le nombre de films produits chaque année.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Charlie Chaplin a aussi composé la musique de certains de ses films.",
+   "answer": true,
+   "fact": "Il savait jouer de plusieurs instruments et écrivait lui-même les airs de ses films.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays tournait-on beaucoup de westerns spaghetti ?",
+   "choices": [
+    "Suisse",
+    "Norvège",
+    "Italie"
+   ],
+   "correct": 2,
+   "fact": "Ces westerns étaient souvent tournés en Espagne, dans le désert d'Almería.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel acteur français a gagné un Oscar en 2012 ?",
+   "choices": [
+    "Jean Dujardin",
+    "Gérard Depardieu",
+    "Omar Sy"
+   ],
+   "correct": 0,
+   "fact": "Il l'a reçu pour un film muet en noir et blanc, une première pour un acteur français.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'expression « le 7e art » désigne la musique.",
+   "answer": false,
+   "fact": "Elle désigne le cinéma, expression lancée par le critique Ricciotto Canudo en 1911.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Il existait des films en couleur avant 1950.",
+   "answer": true,
+   "fact": "Dès les années 1900, la société Pathé coloriait des films au pochoir, image par image.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "L'Arroseur arrosé est considéré comme une des premières comédies du cinéma.",
+   "answer": true,
+   "fact": "Ce film de 1895 montre un jardinier qui reçoit un jet d'eau en pleine figure.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle l'appareil qui filme les images ?",
+   "choices": [
+    "Le projecteur",
+    "Le micro",
+    "La caméra"
+   ],
+   "correct": 2,
+   "fact": "Les premières caméras fonctionnaient avec une manivelle tournée à la main.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le pop-corn est une friandise typique des salles de cinéma.",
+   "answer": true,
+   "fact": "Il s'est imposé dans les cinémas américains pendant la crise économique des années 1930.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les Césars récompensent le cinéma français.",
+   "answer": true,
+   "fact": "Cette cérémonie, créée en 1976, porte le nom du sculpteur César.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a reçu sa première Palme d'or en 2019 ?",
+   "choices": [
+    "Japon",
+    "Inde",
+    "Corée du Sud"
+   ],
+   "correct": 2,
+   "fact": "Ce film a aussi décroché l'Oscar du meilleur film, une première pour un film non anglophone.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le premier film Lumière dure plus de 10 minutes.",
+   "answer": false,
+   "fact": "La Sortie de l'usine Lumière à Lyon dure environ 46 secondes.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les films muets étaient projetés sans aucune musique.",
+   "answer": false,
+   "fact": "Un pianiste ou un orchestre jouait souvent dans la salle pendant la projection.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mouvement français a filmé dans la rue avec peu de moyens ?",
+   "choices": [
+    "Le Nouveau Roman",
+    "La Nouvelle Vague",
+    "Le Surréalisme"
+   ],
+   "correct": 1,
+   "fact": "La Nouvelle Vague a marqué le cinéma des années 1960 dans le monde entier.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La statuette des Oscars est en bois.",
+   "answer": false,
+   "fact": "Elle est en bronze plaqué or et mesure environ 34 centimètres.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Les frères Lumière ont inventé le cinéma en France.",
+   "answer": true,
+   "fact": "La première séance publique payante a eu lieu à Paris, le 28 décembre 1895.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle comédie du Nord est le plus gros succès français ?",
+   "choices": [
+    "Les Visiteurs",
+    "La Grande Vadrouille",
+    "Les Ch'tis"
+   ],
+   "correct": 2,
+   "fact": "Sorti en 2008, il a attiré plus de 20 millions de spectateurs, devant La Grande Vadrouille.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le film Bienvenue chez les Ch'tis se passe dans le Nord de la France.",
+   "answer": true,
+   "fact": "Sorti en 2008, il a fait connaître le parler ch'ti à toute la France.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un acteur étranger a souvent la même voix française pendant des années.",
+   "answer": true,
+   "fact": "Les films étrangers sont doublés en français, souvent avec le même comédien de doublage.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle la récompense du Festival de Cannes ?",
+   "choices": [
+    "L'Ours d'or",
+    "La Palme d'or",
+    "Le Lion d'or"
+   ],
+   "correct": 1,
+   "fact": "La Palme d'or porte le nom de la palme, emblème de la ville de Cannes, depuis 1955.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "En quelle année a eu lieu la première séance Lumière ?",
+   "choices": [
+    "1895",
+    "1905",
+    "1885"
+   ],
+   "correct": 0,
+   "fact": "Cette séance a duré environ 20 minutes et présentait une dizaine de courts films.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays produit le plus de films par an ?",
+   "choices": [
+    "États-Unis",
+    "Chine",
+    "Inde"
+   ],
+   "correct": 2,
+   "fact": "L'Inde produit plus de 1 500 films par an, dans une vingtaine de langues.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on l'animation de figurines image par image ?",
+   "choices": [
+    "Le stop motion",
+    "Le direct",
+    "Le ralenti"
+   ],
+   "correct": 0,
+   "fact": "Pour obtenir 1 seconde de film, il faut parfois prendre 24 photos, une par une.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que crie le réalisateur pour arrêter une scène ?",
+   "choices": [
+    "Coupez !",
+    "Pause !",
+    "Stop !"
+   ],
+   "correct": 0,
+   "fact": "Sur un tournage, on dit d'abord moteur, puis action, et coupez à la fin.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel cinéaste est surnommé le maître du suspense ?",
+   "choices": [
+    "Orson Welles",
+    "Stanley Kubrick",
+    "Alfred Hitchcock"
+   ],
+   "correct": 2,
+   "fact": "Il apparaît brièvement dans la plupart de ses films, comme un petit clin d'œil.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les acteurs font toujours eux-mêmes toutes les cascades.",
+   "answer": false,
+   "fact": "Ce sont les cascadeurs qui les font, après des années d'entraînement pour tomber de haut ou courir dans le feu.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appellent les récompenses du cinéma américain ?",
+   "choices": [
+    "Les Césars",
+    "Les Molières",
+    "Les Oscars"
+   ],
+   "correct": 2,
+   "fact": "La première cérémonie a eu lieu en 1929, devant seulement 270 personnes.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Bollywood est le nom du cinéma chinois.",
+   "answer": false,
+   "fact": "C'est le cinéma indien, dont le nom est un mélange de Bombay et de Hollywood.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel réalisateur a tourné Mon oncle et Playtime ?",
+   "choices": [
+    "Jean Renoir",
+    "Jacques Tati",
+    "Claude Lelouch"
+   ],
+   "correct": 1,
+   "fact": "Pour Playtime, Tati a fait construire un immense décor de ville, surnommé Tativille.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le plus ancien festival de cinéma du monde est celui de Cannes.",
+   "answer": false,
+   "fact": "C'est celui de Venise, créé en 1932, alors que Cannes n'a démarré qu'en 1946.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les Oscars se déroulent à Cannes.",
+   "answer": false,
+   "fact": "Les Oscars sont remis à Los Angeles, alors que le Festival de Cannes se tient sur la Côte d'Azur.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal est la récompense du festival de Venise ?",
+   "choices": [
+    "Un lion",
+    "Un ours",
+    "Un aigle"
+   ],
+   "correct": 0,
+   "fact": "Le Lion d'or de Venise est remis depuis 1949, et le festival est le plus ancien du monde.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on celui qui fabrique les bruits d'un film ?",
+   "choices": [
+    "Le doubleur",
+    "Le monteur",
+    "Le bruiteur"
+   ],
+   "correct": 2,
+   "fact": "Le bruiteur imite le bruit de pas dans la neige en pressant de la fécule de maïs.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle la liste de noms qui défile à la fin d'un film ?",
+   "choices": [
+    "Le prologue",
+    "L'épilogue",
+    "Le générique"
+   ],
+   "correct": 2,
+   "fact": "Le générique de certains films dure plus de 10 minutes, car des centaines de personnes y travaillent.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Georges Méliès a construit un studio de verre à Montreuil.",
+   "answer": true,
+   "fact": "Il l'a construit en 1897 pour tourner ses films avec la lumière du jour et ses trucages.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on l'extrait qui annonce un film ?",
+   "choices": [
+    "Le générique",
+    "La bande-annonce",
+    "L'entracte"
+   ],
+   "correct": 1,
+   "fact": "En anglais, on dit trailer car à l'origine elle passait après le film.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quelle ville a eu lieu la première projection payante ?",
+   "choices": [
+    "Paris",
+    "Lyon",
+    "Marseille"
+   ],
+   "correct": 0,
+   "fact": "Elle s'est tenue au Grand Café, boulevard des Capucines, devant une trentaine de spectateurs.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La Grande Vadrouille a détenu le record d'entrées en France pendant plus de 30 ans.",
+   "answer": true,
+   "fact": "Sorti en 1966, il a gardé ce record jusqu'à l'arrivée de Titanic, en 1998.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel État américain se trouve Hollywood ?",
+   "choices": [
+    "Floride",
+    "Californie",
+    "Texas"
+   ],
+   "correct": 1,
+   "fact": "Un studio y a ouvert en 1911, et le cinéma s'y est installé pour le soleil et les paysages variés.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Trois films se partagent le record de 11 Oscars.",
+   "answer": true,
+   "fact": "3 films ont chacun remporté 11 statuettes, dont Ben-Hur en 1960 et Titanic en 1998.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on un film sans son ?",
+   "choices": [
+    "Un film noir",
+    "Un film muet",
+    "Un film court"
+   ],
+   "correct": 1,
+   "fact": "Au temps du muet, des cartons de texte entre les images racontaient les dialogues.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel genre de film mélange histoire, chansons et danses ?",
+   "choices": [
+    "Comédie musicale",
+    "Western",
+    "Film policier"
+   ],
+   "correct": 0,
+   "fact": "Le tout 1er long métrage parlant, sorti en 1927, contenait déjà des chansons.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Un clap marque le début de chaque prise sur un tournage.",
+   "answer": true,
+   "fact": "Le claquement du clap aide à caler les images sur le son enregistré.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le métier de celui qui écrit l'histoire d'un film ?",
+   "choices": [
+    "Le scénariste",
+    "Le cascadeur",
+    "Le monteur"
+   ],
+   "correct": 0,
+   "fact": "Un scénario de film compte en général entre 90 et 120 pages.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le cinématographe a été inventé au Japon.",
+   "answer": false,
+   "fact": "Il a été inventé à Lyon en 1895 par Louis et Auguste Lumière.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "De quel pays vient le cinéaste Akira Kurosawa ?",
+   "choices": [
+    "Chine",
+    "Japon",
+    "Corée du Sud"
+   ],
+   "correct": 1,
+   "fact": "Ses films de samouraïs ont inspiré des westerns américains, ce qui montre l'influence du Japon.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Festival de Cannes a lieu en hiver.",
+   "answer": false,
+   "fact": "Il a lieu chaque année en mai, et la récompense suprême est la Palme d'or.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien d'images par seconde dans un film de cinéma classique ?",
+   "choices": [
+    "12",
+    "24",
+    "60"
+   ],
+   "correct": 1,
+   "fact": "Cette cadence de 24 images par seconde est un standard depuis la fin des années 1920.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel métier dirige les acteurs sur un tournage ?",
+   "choices": [
+    "Le scénariste",
+    "Le cascadeur",
+    "Le réalisateur"
+   ],
+   "correct": 2,
+   "fact": "Le réalisateur choisit où poser la caméra et ce que les acteurs doivent jouer.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le cinéma parlant existe depuis les débuts du cinéma.",
+   "answer": false,
+   "fact": "Les premiers films étaient muets, et le cinéma parlant n'est apparu qu'en 1927.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle friandise mange-t-on souvent au cinéma ?",
+   "choices": [
+    "Du pop-corn",
+    "De la soupe",
+    "De la raclette"
+   ],
+   "correct": 0,
+   "fact": "Un grain de pop-corn éclate à environ 180 degrés, quand l'eau qu'il contient devient vapeur.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pionnier a envoyé des voyageurs sur la Lune en 1902 ?",
+   "choices": [
+    "Louis Lumière",
+    "Georges Méliès",
+    "Jacques Tati"
+   ],
+   "correct": 1,
+   "fact": "Méliès était magicien avant de devenir cinéaste, et il a inventé de nombreux trucages.",
+   "level": "moyen"
+  }
+ ]
+}

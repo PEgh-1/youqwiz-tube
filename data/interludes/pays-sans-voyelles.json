@@ -1,0 +1,576 @@
+{
+ "slug": "pays-sans-voyelles",
+ "theme": "les pays du monde",
+ "items": [
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouve la cité de Petra ?",
+   "choices": [
+    "Égypte",
+    "Syrie",
+    "Jordanie"
+   ],
+   "correct": 2,
+   "fact": "Petra est surnommée la ville rose à cause de la couleur de ses falaises.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le Lesotho est entièrement entouré par l'Afrique du Sud.",
+   "answer": true,
+   "fact": "Ce petit royaume se trouve tout entier à plus de 1 000 mètres d'altitude.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Madagascar est une île.",
+   "answer": true,
+   "fact": "Madagascar est la 4e plus grande île du monde, et les lémuriens y vivent à l'état sauvage.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le Japon est un archipel de milliers d'îles.",
+   "answer": true,
+   "fact": "L'archipel japonais compte plus de 14 000 îles, dont 4 très grandes.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Canada est le plus grand pays du monde.",
+   "answer": false,
+   "fact": "Le Canada est seulement 2e, derrière la Russie, mais il a la plus longue côte du monde.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "En Nouvelle-Zélande, les moutons sont plus nombreux que les habitants.",
+   "answer": true,
+   "fact": "Les moutons y sont environ 5 fois plus nombreux que les habitants.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays est célèbre pour ses champs de tulipes ?",
+   "choices": [
+    "Danemark",
+    "Belgique",
+    "Pays-Bas"
+   ],
+   "correct": 2,
+   "fact": "Les Pays-Bas cultivent des milliards de bulbes de fleurs chaque année.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La Suisse n'a pas d'accès à la mer.",
+   "answer": true,
+   "fact": "La Suisse n'a pas de mer, mais elle possède pourtant des bateaux de commerce à son pavillon.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus petit pays d'Afrique ?",
+   "choices": [
+    "Seychelles",
+    "Gambie",
+    "Maurice"
+   ],
+   "correct": 0,
+   "fact": "Les Seychelles comptent 115 îles pour à peine 455 kilomètres carrés.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays compte environ 130 volcans actifs ?",
+   "choices": [
+    "Suisse",
+    "Indonésie",
+    "Norvège"
+   ],
+   "correct": 1,
+   "fact": "L'Indonésie fait partie de la ceinture de feu du Pacifique, où les volcans sont nombreux.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le Vatican est le plus petit pays du monde.",
+   "answer": true,
+   "fact": "Il fait 0,44 kilomètre carré, soit environ 60 terrains de football.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La Bolivie n'a qu'une seule capitale.",
+   "answer": false,
+   "fact": "La Paz accueille le gouvernement, et Sucre est la capitale constitutionnelle.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'Égypte possède des pyramides.",
+   "answer": true,
+   "fact": "La pyramide de Khéops est restée la plus haute construction du monde plus de 3 800 ans.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Kazakhstan est le plus grand pays du monde sans accès à la mer.",
+   "answer": true,
+   "fact": "Il est environ 5 fois plus grand que la France, mais il compte bien moins d'habitants.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Brésil est le plus grand pays d'Amérique du Sud.",
+   "answer": true,
+   "fact": "Il couvre presque la moitié du continent sud-américain et touche presque tous ses voisins.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la capitale de l'Australie ?",
+   "choices": [
+    "Sydney",
+    "Melbourne",
+    "Canberra"
+   ],
+   "correct": 2,
+   "fact": "Canberra a été choisie à mi-chemin entre Sydney et Melbourne pour calmer leur rivalité.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la capitale du Canada ?",
+   "choices": [
+    "Ottawa",
+    "Toronto",
+    "Montréal"
+   ],
+   "correct": 0,
+   "fact": "Ottawa a été choisie en 1857 comme compromis entre les régions anglophone et francophone.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouve le Kilimandjaro ?",
+   "choices": [
+    "Kenya",
+    "Tanzanie",
+    "Éthiopie"
+   ],
+   "correct": 1,
+   "fact": "Avec 5 895 mètres, le Kilimandjaro est le plus haut sommet d'Afrique.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Paris est la capitale de l'Italie.",
+   "answer": false,
+   "fact": "La capitale italienne est Rome, qu'on surnomme la Ville éternelle.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la capitale de l'Espagne ?",
+   "choices": [
+    "Madrid",
+    "Barcelone",
+    "Séville"
+   ],
+   "correct": 0,
+   "fact": "Madrid est la plus haute capitale de l'Union européenne, à environ 650 mètres d'altitude.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "L'Islande est un pays chauffé par ses volcans.",
+   "answer": true,
+   "fact": "La plupart des maisons islandaises sont chauffées grâce à l'eau chaude du sous-sol.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouve le désert d'Atacama ?",
+   "choices": [
+    "Pérou",
+    "Argentine",
+    "Chili"
+   ],
+   "correct": 2,
+   "fact": "C'est le désert non polaire le plus sec du monde, avec des zones sans pluie pendant des années.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'Espagne est séparée de l'Afrique par la mer.",
+   "answer": true,
+   "fact": "Un détroit large d'environ 14 kilomètres sépare l'Espagne du Maroc, à Gibraltar.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la capitale du Brésil ?",
+   "choices": [
+    "Rio de Janeiro",
+    "Brasília",
+    "São Paulo"
+   ],
+   "correct": 1,
+   "fact": "Brasília a été construite en moins de 4 ans, puis inaugurée en 1960.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a la forme d'une botte ?",
+   "choices": [
+    "Grèce",
+    "Italie",
+    "Portugal"
+   ],
+   "correct": 1,
+   "fact": "La Sicile, tout au bout de la botte, est la plus grande île de la Méditerranée.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Chili est un pays très large d'est en ouest.",
+   "answer": false,
+   "fact": "Il s'étire sur plus de 4 000 kilomètres du nord au sud, mais fait environ 180 kilomètres de large.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La Finlande compte moins de 10 000 lacs.",
+   "answer": false,
+   "fact": "Surnommée le pays des 1 000 lacs, la Finlande en compte en réalité plus de 180 000.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a pour capitale Oulan-Bator ?",
+   "choices": [
+    "Mongolie",
+    "Kirghizistan",
+    "Ouzbékistan"
+   ],
+   "correct": 0,
+   "fact": "Oulan-Bator est la capitale la plus froide du monde, jusqu'à moins 40 degrés en hiver.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays est une île-continent peuplée de kangourous ?",
+   "choices": [
+    "Nouvelle-Zélande",
+    "Afrique du Sud",
+    "Australie"
+   ],
+   "correct": 2,
+   "fact": "Les kangourous y sont plus nombreux que les habitants : environ 40 millions contre 27 millions.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Maroc a des côtes sur la mer Méditerranée.",
+   "answer": true,
+   "fact": "Il possède aussi des côtes sur l'océan Atlantique, ce qui est rare en Afrique.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La Chine est le pays le plus peuplé du monde.",
+   "answer": false,
+   "fact": "L'Inde a dépassé la Chine en 2023, avec plus de 1,4 milliard d'habitants.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouve la ville de Tombouctou ?",
+   "choices": [
+    "Niger",
+    "Mauritanie",
+    "Mali"
+   ],
+   "correct": 2,
+   "fact": "Tombouctou fut un grand centre de savoir au Moyen Âge, riche en manuscrits anciens.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays est le plus peuplé d'Afrique ?",
+   "choices": [
+    "Égypte",
+    "Nigeria",
+    "Éthiopie"
+   ],
+   "correct": 1,
+   "fact": "Le Nigeria compte plus de 220 millions d'habitants, et c'est le 6e pays le plus peuplé du monde.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la capitale de la Suisse ?",
+   "choices": [
+    "Zurich",
+    "Berne",
+    "Genève"
+   ],
+   "correct": 1,
+   "fact": "Berne a été fondée en 1191, et son emblème est l'ours, qu'on peut visiter dans un parc.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la capitale de la Turquie ?",
+   "choices": [
+    "Ankara",
+    "Istanbul",
+    "Izmir"
+   ],
+   "correct": 0,
+   "fact": "Ankara est capitale depuis 1923, mais Istanbul reste la plus grande ville.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays d'Amérique du Sud parle portugais ?",
+   "choices": [
+    "Brésil",
+    "Chili",
+    "Pérou"
+   ],
+   "correct": 0,
+   "fact": "Le Brésil compte plus de 200 millions d'habitants qui parlent portugais.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Londres est la capitale de l'Irlande.",
+   "answer": false,
+   "fact": "La capitale de l'Irlande est Dublin, une ville traversée par la rivière Liffey.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La Mongolie est le pays le plus densément peuplé du monde.",
+   "answer": false,
+   "fact": "C'est l'inverse : elle compte environ 2 habitants au kilomètre carré, un record de faible densité.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays possède les plus longues côtes du monde ?",
+   "choices": [
+    "Russie",
+    "Canada",
+    "Australie"
+   ],
+   "correct": 1,
+   "fact": "Le Canada a plus de 200 000 kilomètres de côtes, un record mondial.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'Indonésie compte moins de 1 000 îles.",
+   "answer": false,
+   "fact": "L'Indonésie est le plus grand archipel du monde, avec environ 17 000 îles.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays d'Asie compte environ 7 600 îles ?",
+   "choices": [
+    "Philippines",
+    "Cambodge",
+    "Thaïlande"
+   ],
+   "correct": 0,
+   "fact": "Seules environ 2 000 de ces îles sont habitées, les autres sont désertes ou minuscules.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays porte un nom qui signifie le pays des hommes intègres ?",
+   "choices": [
+    "Bénin",
+    "Burkina Faso",
+    "Mali"
+   ],
+   "correct": 1,
+   "fact": "Burkina Faso est le nom choisi par le pays en 1984, à la place de Haute-Volta.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'équateur traverse l'Argentine.",
+   "answer": false,
+   "fact": "L'équateur traverse 13 pays au total, dont le Brésil, le Kenya et l'Indonésie.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouve le Taj Mahal ?",
+   "choices": [
+    "Pakistan",
+    "Inde",
+    "Népal"
+   ],
+   "correct": 1,
+   "fact": "Ce palais de marbre blanc a été achevé vers 1653, après plus de 20 ans de travaux.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "L'Afrique du Sud a 3 capitales.",
+   "answer": true,
+   "fact": "Pretoria, Le Cap et Bloemfontein se partagent les pouvoirs du pays.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'Australie est à la fois un pays et un continent.",
+   "answer": true,
+   "fact": "C'est le seul pays du monde qui occupe un continent entier à lui tout seul.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la capitale de la Grèce ?",
+   "choices": [
+    "Sparte",
+    "Thessalonique",
+    "Athènes"
+   ],
+   "correct": 2,
+   "fact": "Athènes est habitée depuis plus de 3 000 ans, c'est l'une des plus anciennes villes du monde.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouve la ville de Marrakech ?",
+   "choices": [
+    "Tunisie",
+    "Algérie",
+    "Maroc"
+   ],
+   "correct": 2,
+   "fact": "Sa place Jemaa el-Fna est animée jour et nuit par les conteurs et les musiciens.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouvent les pyramides de Gizeh ?",
+   "choices": [
+    "Égypte",
+    "Mexique",
+    "Soudan"
+   ],
+   "correct": 0,
+   "fact": "La Grande Pyramide a été construite il y a environ 4 500 ans.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus grand pays du monde ?",
+   "choices": [
+    "Russie",
+    "Canada",
+    "Chine"
+   ],
+   "correct": 0,
+   "fact": "La Russie est si étendue qu'elle traverse 11 fuseaux horaires.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Singapour est plus grand que le Luxembourg.",
+   "answer": false,
+   "fact": "Singapour fait environ 735 kilomètres carrés, soit 3,5 fois moins que le Luxembourg.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le plus haut sommet du monde se trouve au Népal.",
+   "answer": true,
+   "fact": "L'Everest culmine à 8 849 mètres, sur la frontière entre le Népal et la Chine.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouve le Colisée ?",
+   "choices": [
+    "Italie",
+    "Grèce",
+    "Espagne"
+   ],
+   "correct": 0,
+   "fact": "Le Colisée de Rome pouvait accueillir environ 50 000 spectateurs.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La Nouvelle-Zélande est dans l'hémisphère Nord.",
+   "answer": false,
+   "fact": "Elle est dans l'hémisphère Sud, et ses saisons sont inversées par rapport à celles de la France.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la capitale du Japon ?",
+   "choices": [
+    "Kyoto",
+    "Tokyo",
+    "Osaka"
+   ],
+   "correct": 1,
+   "fact": "Kyoto a été capitale pendant plus de 1 000 ans, avant que Tokyo ne la remplace en 1868.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La Turquie est située sur deux continents.",
+   "answer": true,
+   "fact": "Istanbul est coupée en 2 par le Bosphore, entre l'Europe et l'Asie.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouve la Grande Muraille ?",
+   "choices": [
+    "Mongolie",
+    "Inde",
+    "Chine"
+   ],
+   "correct": 2,
+   "fact": "Avec toutes ses branches, la muraille s'étend sur plus de 20 000 kilomètres.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays est entièrement entouré par l'Italie ?",
+   "choices": [
+    "Monaco",
+    "Andorre",
+    "Saint-Marin"
+   ],
+   "correct": 2,
+   "fact": "Saint-Marin est l'un des plus petits pays d'Europe, avec environ 34 000 habitants.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le Portugal a une frontière avec la France.",
+   "answer": false,
+   "fact": "Le Portugal n'a qu'un seul voisin sur terre, l'Espagne, avec une frontière vieille de plus de 700 ans.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le Canada compte plus de lacs que n'importe quel autre pays.",
+   "answer": true,
+   "fact": "Plus de 2 millions de lacs, selon les estimations, ce qui en fait le champion du monde.",
+   "level": "moyen"
+  }
+ ]
+}
