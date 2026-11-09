@@ -51,11 +51,25 @@ async function synth(text, outFile, ctx = {}) {
   if (dry) return writeFileSync(outFile, "");
   // previous_text / next_text : la phrase voisine (sans tag) donne la continuité de ton entre question et réponse.
   const context = { ...(ctx.prev ? { previous_text: untag(ctx.prev) } : {}), ...(ctx.next ? { next_text: untag(ctx.next) } : {}) };
-  const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${ELEVENLABS_VOICE_ID}?output_format=mp3_44100_128`, {
-    method: "POST",
-    headers: { "xi-api-key": ELEVENLABS_API_KEY, "Content-Type": "application/json" },
-    body: JSON.stringify({ text, model_id: MODEL, ...(V3 ? {} : { language_code: V.tts?.languageCode ?? "fr" }), voice_settings: SETTINGS, ...context }),
-  });
+  // 09/11/2026 : délai de 90 s par appel et 3 tentatives (un run est resté 2 h bloqué sur une connexion muette).
+  let res, lastErr;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${ELEVENLABS_VOICE_ID}?output_format=mp3_44100_128`, {
+        method: "POST",
+        headers: { "xi-api-key": ELEVENLABS_API_KEY, "Content-Type": "application/json" },
+        body: JSON.stringify({ text, model_id: MODEL, ...(V3 ? {} : { language_code: V.tts?.languageCode ?? "fr" }), voice_settings: SETTINGS, ...context }),
+        signal: AbortSignal.timeout(90_000),
+      });
+      if (res.status === 429 || res.status >= 500) throw new Error(`ElevenLabs ${res.status}`);
+      break;
+    } catch (e) {
+      lastErr = e; res = undefined;
+      console.warn(`ElevenLabs tentative ${attempt}/3 : ${e.message.slice(0, 80)}`);
+      await new Promise((r) => setTimeout(r, 5000 * attempt));
+    }
+  }
+  if (!res) throw lastErr;
   if (!res.ok) throw new Error(`ElevenLabs ${res.status} : ${(await res.text()).slice(0, 200)}`);
   writeFileSync(outFile, Buffer.from(await res.arrayBuffer()));
   trim(outFile);
