@@ -1,5 +1,5 @@
 {
- "_comment": "Variantes d'habillage, de voix et de métadonnées (03/11/2026) : tirées par épisode pour que deux vidéos ne se ressemblent jamais. {theme} = nom du thème du jour, {n} = nombre de questions, {noun} = sujet de la banque, {weekday} = jour.",
+ "_comment": "Variantes d'habillage, de voix et de métadonnées (03/11/2026) : tirées par épisode pour que deux vidéos ne se ressemblent jamais. {theme} = nom du thème du jour, {n} = nombre de questions, {noun} = sujet de la banque, {weekday} = jour. 09/11/2026 : shortTitlesHard/shortHardHooks (sticker + ligne) = 2e Short quotidien (questions les plus dures, 19 h) ; socialCaptions/socialHashtags = relais Instagram/Facebook/TikTok via Metricool.",
  "preroll": [
   {
    "text": "Content de te revoir ! 👋",
@@ -509,5 +509,47 @@
   "Attache ta ceinture, c'est parti !",
   "À toi de jouer !",
   "Allez, montre-moi ce que tu vaux !"
+ ],
+ "shortTitlesHard": [
+  "Niveau IMPOSSIBLE 🔥 {hook} #Shorts",
+  "Seuls 1 % ont la dernière 😱 {hook} #Shorts",
+  "Les plus dures de {theme} ⚠️ 3 secondes chrono #Shorts",
+  "Mode EXPERT activé 🧠🔥 {hook} #Shorts",
+  "Tu n'auras pas celle-là 🤯 {hook} #Shorts",
+  "Le boss final de {theme} 👑 #Shorts"
+ ],
+ "socialCaptions": [
+  "{hook} 🧠 Tu tiens combien de questions ? Réponds en commentaire 👇",
+  "Quiz du jour : {hook} ⏱️ 3 secondes par question, personne ne finit 😱",
+  "{n} {noun} à deviner aujourd'hui sur YouQwiz 🎯 Ton score en commentaire !",
+  "Seuls les vrais experts passent la 8e 😏 {hook}"
+ ],
+ "socialHashtags": [
+  "quiz",
+  "quizfrancais",
+  "culturegenerale",
+  "jeu",
+  "challenge",
+  "devinette",
+  "youqwiz",
+  "pourtoi"
+ ],
+ "shortHardHooks": [
+  {
+   "sticker": "1 % RÉUSSISSENT",
+   "line": "aux 8 questions les plus dures 🔥"
+  },
+  {
+   "sticker": "NIVEAU IMPOSSIBLE",
+   "line": "personne ne finit ce Short 😱"
+  },
+  {
+   "sticker": "PERSONNE N'Y ARRIVE",
+   "line": "sur les 8 plus dures 🧠"
+  },
+  {
+   "sticker": "MODE EXPERT",
+   "line": "les 8 questions que personne n'a 👑"
+  }
  ]
 }

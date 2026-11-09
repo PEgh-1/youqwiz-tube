@@ -30,6 +30,8 @@ for (const [k, f] of Object.entries(manifest.files)) {
     if (k === "long" && expectedLong && Math.abs(dur - expectedLong) > 2) errors.push(`long : durée ${dur.toFixed(1)} s, attendu ${expectedLong.toFixed(1)} s`);
     if (k === "short" && expectedShort && Math.abs(dur - expectedShort) > 2) errors.push(`short : durée ${dur.toFixed(1)} s, attendu ${expectedShort.toFixed(1)} s`);
     if (k === "short" && dur > 60) errors.push(`short : ${dur.toFixed(1)} s > 60 s`);
+    if (k === "short2" && manifest.expected?.short2 && Math.abs(dur - manifest.expected.short2) > 2) errors.push(`short2 : durée ${dur.toFixed(1)} s, attendu ${manifest.expected.short2.toFixed(1)} s`);
+    if (k === "short2" && dur > 60) errors.push(`short2 : ${dur.toFixed(1)} s > 60 s`);
     if (k === "long" && dur < 60) errors.push(`long : ${dur.toFixed(1)} s, trop court pour une vidéo longue`);
     if (k === "long" && dur < 600 && process.env.GITHUB_ACTIONS) console.log(`::warning title=Durée::${dur.toFixed(0)} s, sous la cible de 10 min (banque trop petite)`);
     if (k === "long" && dur > 2400) errors.push(`long : ${dur.toFixed(0)} s > 40 min`);
@@ -39,6 +41,7 @@ for (const [k, f] of Object.entries(manifest.files)) {
 const bad = findBlacklisted(`${ep.title} ${ep.meta.description} ${ep.items.map((i) => i.answer).join(" ")}`);
 if (bad.length) errors.push(`liste noire : ${bad.join(", ")}`);
 if (ep.title.length > 100) errors.push(`titre trop long (${ep.title.length} > 100)`);
+if (ep.meta?.short2 && ep.meta.short2.title === ep.meta.shortTitle) errors.push("les deux Shorts ont le même titre");
 if (new Set(ep.items.map((i) => JSON.stringify(i.prompt))).size !== ep.items.length) errors.push("doublons dans les items");
 
 // Anti-répétition (03/11/2026) : l'épisode est comparé aux 30 précédents.

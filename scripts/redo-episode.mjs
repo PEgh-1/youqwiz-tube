@@ -16,7 +16,7 @@ const oauth = new google.auth.OAuth2(YT_CLIENT_ID, YT_CLIENT_SECRET);
 oauth.setCredentials({ refresh_token: YT_REFRESH_TOKEN });
 const yt = google.youtube({ version: "v3", auth: oauth });
 // Vérifie TOUTES les vidéos avant de supprimer quoi que ce soit (sinon une longue privée part alors que le Short est déjà public).
-const ids = [r.longId, r.shortId].filter(Boolean);
+const ids = [r.longId, r.shortId, r.shortId2].filter(Boolean);
 const infos = (await yt.videos.list({ part: ["status"], id: ids })).data.items ?? [];
 for (const info of infos) if (info.status.privacyStatus !== "private") throw new Error(`${info.id} n'est pas privée (${info.status.privacyStatus}) : rien n'a été supprimé`);
 for (const vid of ids) {

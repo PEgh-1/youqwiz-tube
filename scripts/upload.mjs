@@ -40,15 +40,17 @@ if (taken.has(nextDate) && !queue.pending?.[ep.id]) nextDate = addDays(queue.las
 while (taken.has(nextDate)) nextDate = addDays(nextDate, 1);
 const publishAt = parisToUtc(nextDate, rotation.publishHour);
 const shortPublishAt = parisToUtc(nextDate, rotation.shortPublishHour);
+// 2e Short (09/11/2026) : les questions les plus dures, en soirée (rotation.shortPublishHour2, 19 h par défaut).
+const short2PublishAt = parisToUtc(nextDate, rotation.shortPublishHour2 ?? "19:00");
 
 const { YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN } = process.env;
 const channel = readJson(p("data/state/channel.json"), { playlists: {} });
 const YT_PLAYLIST_ID = channel.playlists?.[ep.pillar] ?? process.env.YT_PLAYLIST_ID;
 const SHORTS_PLAYLIST_ID = channel.playlists?.shorts;
 const dry = !(YT_CLIENT_ID && YT_CLIENT_SECRET && YT_REFRESH_TOKEN);
-console.log(`${dry ? "[simulation] " : ""}programmation : longue ${publishAt} · short ${shortPublishAt}`);
+console.log(`${dry ? "[simulation] " : ""}programmation : longue ${publishAt} · short ${shortPublishAt}${manifest.files.short2 ? ` · short 2 ${short2PublishAt}` : ""}`);
 
-const result = { id: ep.id, date: nextDate, publishAt, shortPublishAt, dry };
+const result = { id: ep.id, date: nextDate, publishAt, shortPublishAt, ...(manifest.files.short2 ? { short2PublishAt } : {}), dry };
 // Reprise : si un run précédent a déjà envoyé la longue (puis planté), on ne la renvoie pas.
 queue.pending ??= {};
 const pending = queue.pending[ep.id] ?? {};
@@ -112,9 +114,23 @@ if (!dry) {
   if (SHORTS_PLAYLIST_ID && !pending.shortPlaylist) {
     try {
       await yt.playlistItems.insert({ part: ["snippet"], requestBody: { snippet: { playlistId: SHORTS_PLAYLIST_ID, resourceId: { kind: "youtube#video", videoId: result.shortId } } } });
+      pending.shortPlaylist = true;
+      savePending();
     } catch (e) { console.warn(`playlist shorts : ${e.message}`); }
   }
-  console.log(`envoyé : longue ${result.longId} · short ${result.shortId}`);
+  if (manifest.files.short2 && ep.meta.short2) {
+    savePending();
+    result.shortId2 = pending.shortId2 ??= await insert(manifest.files.short2, {
+      title: ep.meta.short2.title.slice(0, 100),
+      description: ep.meta.short2.description.replaceAll("{n}", String(ep.items.length)).replaceAll("{url}", `https://youtu.be/${result.longId}`),
+      tags: ["shorts", "quiz", "youqwiz", "impossible", ...(ep.meta.tags ?? []).slice(7, 10)],
+      publishAt: short2PublishAt,
+    });
+    if (SHORTS_PLAYLIST_ID) {
+      try { await yt.playlistItems.insert({ part: ["snippet"], requestBody: { snippet: { playlistId: SHORTS_PLAYLIST_ID, resourceId: { kind: "youtube#video", videoId: result.shortId2 } } } }); } catch (e) { console.warn(`playlist shorts (2) : ${e.message}`); }
+    }
+  }
+  console.log(`envoyé : longue ${result.longId} · short ${result.shortId}${result.shortId2 ? ` · short 2 ${result.shortId2}` : ""}`);
 }
 
 queue.lastScheduled = queue.lastScheduled && queue.lastScheduled > nextDate ? queue.lastScheduled : nextDate;

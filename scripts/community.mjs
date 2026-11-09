@@ -98,15 +98,19 @@ if (mode === "post") {
   }
   // Shorts : commentaire avec le lien vers la vidéo complète (le Short sort à 12 h, la longue à 17 h 30 : on poste après 17 h 30)
   for (const r of queue.published) {
-    if (!r.shortId || !r.longId || r.shortCommentId) continue;
+    if (!r.longId) continue;
     const t = Date.parse(r.publishAt);
     if (t > now || now - t > 36 * 3600e3) continue;
-    try {
-      const res = await yt.commentThreads.insert({ part: ["snippet"], requestBody: { snippet: { videoId: r.shortId, topLevelComment: { snippet: { textOriginal: `🎬 La réponse + toutes les questions ici 👉 https://youtu.be/${r.longId}\n🎮 Joue au quiz complet : https://youqwiz.com/quiz-du-jour/${r.id}` } } } } });
-      r.shortCommentId = res.data.id;
-      n++;
-    } catch (e) {
-      console.warn(`${r.id} (short) : ${e.message}`);
+    // 2e Short (19 h) : même commentaire, posté après sa sortie.
+    for (const [vid, key, after] of [[r.shortId, "shortCommentId", t], [r.shortId2, "short2CommentId", Date.parse(r.short2PublishAt ?? r.publishAt)]]) {
+      if (!vid || r[key] || after > now) continue;
+      try {
+        const res = await yt.commentThreads.insert({ part: ["snippet"], requestBody: { snippet: { videoId: vid, topLevelComment: { snippet: { textOriginal: `🎬 La réponse + toutes les questions ici 👉 https://youtu.be/${r.longId}\n🎮 Joue au quiz complet : https://youqwiz.com/quiz-du-jour/${r.id}` } } } } });
+        r[key] = res.data.id;
+        n++;
+      } catch (e) {
+        console.warn(`${r.id} (${key}) : ${e.message}`);
+      }
     }
   }
   writeJson(p("data/state/queue.json"), queue);

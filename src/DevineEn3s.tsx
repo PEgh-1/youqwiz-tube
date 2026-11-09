@@ -15,7 +15,8 @@ export const DevineEn3s: React.FC<DevineProps> = ({ episode, vertical = false })
   const theme = themeOf(episode);
   const style = styleOf(episode);
   const { segments } = buildTimeline(episode, fps, vertical ? SHORT_OPTS(episode) : {});
-  const n = Math.min(episode.items.length, vertical ? episode.meta.shortItems ?? 5 : episode.items.length);
+  // Compteur « x / n » : en Short, le nombre réel de questions de la timeline (jusqu'à 8, limité par les 58 s), pas shortItems.
+  const n = vertical ? segments.filter((s) => s.kind === "question").length : episode.items.length;
   const isChoice = episode.timing.reveal <= 0;
 
   return (
@@ -97,7 +98,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   const showAnswer = reveal && (!impossible || frame >= Math.round(0.8 * fps));
   const choiceFrames = 5 * fps; // choix : 5 s pour choisir, puis relance « Et toi ? »
   const askPhase = isChoice && frame >= choiceFrames;
-  const hud = vertical ? 38 : 36;
+  const hud = vertical ? 34 : 36; // vertical : 3 pastilles sur une ligne (le niveau est sur le coin de la carte)
   const factAt = Math.round(factStart(episode, index) * fps);
   const showFact = reveal && !vertical && !!item.fact && frame >= factAt;
   // Question affichée : pour l'alphabet, la catégorie est dans la carte ; la consigne reste générique.
@@ -114,10 +115,10 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
         </div>
       )}
       {/* HUD */}
-      <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, flexWrap: vertical ? "wrap" : "nowrap", justifyContent: "center" }}>
+      <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, flexWrap: "nowrap", justifyContent: "center" }}>
         <Pill size={hud}>{`🎯 ${index + 1} / ${total}`}</Pill>
         {!vertical && <Progress value={(index + (reveal ? 1 : 0)) / total} theme={theme} />}
-        {!isChoice && <LevelBadge level={level} size={hud} />}
+        {!isChoice && !vertical && <LevelBadge level={level} size={hud} />}
         {!isChoice && <Streak value={streak} size={hud} />}
         {!isChoice && <Pill size={hud} bg={WHITE} fg={INK}>{`⭐ ${points}`}</Pill>}
       </div>

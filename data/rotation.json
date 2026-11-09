@@ -1,8 +1,9 @@
 {
- "_comment": "Rotation hebdo validée le 30/10/2026 : Devine ×2, Culture générale ×1, Générations/60+ ×1 (test), Choix entre proches ×2, Émojis/intrus ×1. 31/10 : samedi = Spécial youqwiz.com, repli Tu préfères. 03/11/2026 : durée variable 10-20 min (targetSeconds min/max), gabarit Versus pour les choix, nouvelles banques (alphabet, maths, vocabulaire, acronymes, films-emojis, noël en saison), habillage et textes variables (data/variants.json).",
+ "_comment": "Rotation hebdo validée le 30/10/2026 : Devine ×2, Culture générale ×1, Générations/60+ ×1 (test), Choix entre proches ×2, Émojis/intrus ×1. 31/10 : samedi = Spécial youqwiz.com, repli Tu préfères. 03/11/2026 : durée variable 10-20 min (targetSeconds min/max), gabarit Versus pour les choix, nouvelles banques (alphabet, maths, vocabulaire, acronymes, films-emojis, noël en saison), habillage et textes variables (data/variants.json). 09/11/2026 : 2e Short quotidien à 19 h (shortPublishHour2), questions les plus dures.",
  "timezone": "Europe/Paris",
  "publishHour": "17:30",
  "shortPublishHour": "12:00",
+ "shortPublishHour2": "19:00",
  "bufferDays": 7,
  "targetSeconds": {
   "min": 600,
@@ -10,6 +11,10 @@
  },
  "maxSeconds": 2400,
  "week": {
+  "0": {
+   "pillar": "generations",
+   "label": "dimanche"
+  },
   "1": {
    "pillar": "devine",
    "label": "lundi"
@@ -33,10 +38,6 @@
   "6": {
    "pillar": "site",
    "label": "samedi"
-  },
-  "0": {
-   "pillar": "generations",
-   "label": "dimanche"
   }
  },
  "pillars": {

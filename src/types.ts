@@ -66,6 +66,13 @@ export type Episode = {
     shortItems?: number;
     shortTitle?: string;
     shortDescription?: string;
+    /** 2e Short quotidien (09/11/2026) : questions les plus dures, 19 h. */
+    short2?: { title: string; description: string; sticker: string; line: string };
+    /** Surcharges posées par scripts/render.mjs pour le rendu du 2e Short. */
+    shortLine?: string;
+    totalItems?: number;
+    /** Relais Instagram / Facebook / TikTok (Metricool). */
+    social?: { caption: string; hashtags: string[] };
     chapters?: { at: number; title: string }[];
   };
 };

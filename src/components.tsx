@@ -563,7 +563,8 @@ export const LevelCard: React.FC<{ episode: Episode; level: Level; vertical?: bo
 };
 
 // ---------- Short : accroche 1,5 s ----------
-export const ShortHook: React.FC<{ theme: Theme; hook: string; n: number; sticker?: string }> = ({ theme, hook, n, sticker = "99 % ÉCHOUENT" }) => {
+// 2e Short (09/11/2026) : `line` remplace « à la Ne question » (ex. « aux 8 questions les plus dures 🔥 »).
+export const ShortHook: React.FC<{ theme: Theme; hook: string; n: number; sticker?: string; line?: string }> = ({ theme, hook, n, sticker = "99 % ÉCHOUENT", line }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 7, stiffness: 220 } });
@@ -577,7 +578,7 @@ export const ShortHook: React.FC<{ theme: Theme; hook: string; n: number; sticke
           {sticker}
         </div>
         <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 88, color: WHITE, textShadow: `7px 7px 0 ${INK}`, textAlign: "center", lineHeight: 1.05, opacity: pop, maxWidth: 960 }}>
-          <Rich text={`à la ${n}e question 😱`} size={88} />
+          <Rich text={line ?? `à la ${n}e question 😱`} size={line && line.length > 26 ? 72 : 88} />
         </div>
         <Pill size={46} tilt={2}>⏱️ 3 secondes par question</Pill>
       </div>
@@ -742,7 +743,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Cliffhanger">
         {has("whoosh") && <Audio src={staticFile("audio/whoosh.mp3")} volume={0.7} />}
         <Voice clip={episode.voice?.cliff} from={6} />
-        <CliffCard theme={theme} total={episode.items.length} isChoice={isChoice} />
+        <CliffCard theme={theme} total={episode.meta.totalItems ?? episode.items.length} isChoice={isChoice} />
       </Sequence>
     );
   if (s.kind === "intro")
@@ -750,7 +751,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Intro">
         {has("jingle") && <Audio src={staticFile("audio/jingle.mp3")} volume={episode.voice?.intro ? 0.45 : 0.8} />}
         {!vertical && <Voice clip={episode.voice?.intro} from={10} />}
-        {vertical ? <ShortHook theme={theme} hook={episode.intro.hook} n={Math.min(8, episode.items.length)} sticker={episode.meta.thumbnail.sticker} /> : <IntroCard episode={episode} vertical={vertical} k={k} />}
+        {vertical ? <ShortHook theme={theme} hook={episode.intro.hook} n={Math.min(8, episode.items.length)} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} /> : <IntroCard episode={episode} vertical={vertical} k={k} />}
       </Sequence>
     );
   if (s.kind === "level")

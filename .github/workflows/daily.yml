@@ -133,6 +133,21 @@ jobs:
           SAME_DAY: ${{ inputs.reuse != '' && '1' || '' }}
         run: node scripts/upload.mjs
 
+      # Relais réseaux (09/11/2026) : les Shorts (mp4) sont attachés à une release GitHub nommée comme l'épisode ;
+      # le cron du site (site/pull-episodes.php) les copie dans youqwiz.com/media/shorts/, d'où Metricool les publie.
+      - name: Publier les Shorts en release (relais Instagram / Facebook / TikTok, non bloquant)
+        if: ${{ steps.gen.outputs.skip != 'true' && inputs.skip_upload != 'true' }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ID=$(node -pe 'require("./data/state/current.json").id')
+          FILES="out/$ID/short.mp4"; [ -f "out/$ID/short2.mp4" ] && FILES="$FILES out/$ID/short2.mp4"
+          gh release delete "$ID" -y --cleanup-tag 2>/dev/null || true
+          gh release create "$ID" $FILES --title "$ID" --notes "Shorts de l'épisode $ID (relais réseaux sociaux)." --latest=false
+          # ménage : releases de plus de 10 jours
+          gh release list --limit 100 --json tagName,createdAt --jq '.[] | select(.createdAt < (now - 864000 | todate)) | .tagName' | xargs -r -n1 gh release delete -y --cleanup-tag
+
       - name: Publier le quiz jouable sur youqwiz.com (non bloquant)
         if: ${{ steps.gen.outputs.skip != 'true' && inputs.skip_upload != 'true' }}
         env:
