@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { HookBanner, Karaoke, ShortFx, shortMotion, AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactCard, Fonts, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, PromptView, Reveal, Rich, Streak, Ticks, Voice, quipFor, styleOf, themeOf, tiltFor } from "./components";
+import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactCard, Fonts, HookBanner, Karaoke, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, PromptView, Reveal, Rich, ShortFx, Streak, Ticks, Voice, quipFor, shortHookOf, shortMotion, styleOf, themeOf, tiltFor } from "./components";
 import { FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, RANKS, WHITE } from "./theme";
 import { tr } from "./i18n";
 import { SHORT_OPTS, buildTimeline, factStart, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD } from "./timeline";
@@ -102,6 +102,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   const choiceFrames = 5 * fps; // choix : 5 s pour choisir, puis relance « Et toi ? »
   const askPhase = isChoice && frame >= choiceFrames;
   const hud = vertical ? 34 : 36; // vertical : 3 pastilles sur une ligne (le niveau est sur le coin de la carte)
+  const bannerOn = vertical && index === 0 && !reveal && frame <= dur - 6; // Shorts v2 : le bandeau d'accroche remplace le HUD sur la 1re question
   const factAt = Math.round(factStart(episode, index) * fps);
   const showFact = reveal && !vertical && !!item.fact && frame >= factAt;
   // Question affichée : pour l'alphabet, la catégorie est dans la carte ; la consigne reste générique.
@@ -115,11 +116,11 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
     <AbsoluteFill style={{ alignItems: "center", justifyContent: vertical ? "flex-start" : "center" }}>
       {vertical && (
         <div style={{ position: "absolute", top: index === 0 && !reveal ? 40 : 70, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-          {index === 0 && !reveal ? <HookBanner theme={theme} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} n={total} until={dur - 6} lang={episode.lang} /> : <Logo theme={theme} size={78} />}
+          {index === 0 && !reveal ? <HookBanner theme={theme} sticker={shortHookOf(episode).sticker} line={shortHookOf(episode).line} n={total} until={dur - 6} lang={episode.lang} /> : <Logo theme={theme} size={78} />}
         </div>
       )}
       {/* HUD */}
-      <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, flexWrap: "nowrap", justifyContent: "center" }}>
+      <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, flexWrap: "nowrap", justifyContent: "center", opacity: bannerOn ? 0 : 1 }}>
         <Pill size={hud}>{`🎯 ${index + 1} / ${total}`}</Pill>
         {!vertical && <Progress value={(index + (reveal ? 1 : 0)) / total} theme={theme} />}
         {!isChoice && !vertical && <LevelBadge level={level} size={hud} lang={episode.lang} />}

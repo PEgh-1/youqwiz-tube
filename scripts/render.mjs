@@ -30,7 +30,7 @@ const hardCount = Math.min(8, Math.max(0, ep.items.length - (ep.meta.shortItems 
 const levelOf = (i) => ep.items[i].level ?? ["facile", "moyen", "difficile", "impossible"][Math.min(3, Math.floor((i / ep.items.length) * 4))];
 const hardItems = ep.items.slice(ep.items.length - hardCount).map((it, k) => ({ ...it, level: levelOf(ep.items.length - hardCount + k) }));
 const ep2 = hardCount >= 3 && ep.meta.short2
-  ? { ...ep, items: hardItems, meta: { ...ep.meta, thumbnail: { ...ep.meta.thumbnail, sticker: ep.meta.short2.sticker }, shortLine: (ep.meta.short2.line ?? "").replace("8", String(hardCount)) || undefined, totalItems: ep.items.length } }
+  ? { ...ep, items: hardItems, meta: { ...ep.meta, thumbnail: { ...ep.meta.thumbnail, sticker: ep.meta.short2.sticker }, shortHook: { sticker: ep.meta.short2.sticker, line: (ep.meta.short2.line ?? "").replace("8", String(hardCount)) }, shortLine: (ep.meta.short2.line ?? "").replace("8", String(hardCount)) || undefined, totalItems: ep.items.length } }
   : null;
 const propsFile2 = `${outDir}/props-short2.json`;
 if (ep2) writeJson(propsFile2, { episode: ep2 });
@@ -40,7 +40,7 @@ const midCount = Math.min(8, Math.max(0, ep.items.length - 16));
 const midStart = Math.floor((ep.items.length - midCount) / 2);
 const midItems = ep.items.slice(midStart, midStart + midCount).map((it, k) => ({ ...it, level: levelOf(midStart + k) }));
 const ep3 = midCount >= 3 && ep.meta.short3
-  ? { ...ep, items: midItems, meta: { ...ep.meta, thumbnail: { ...ep.meta.thumbnail, sticker: ep.meta.short3.sticker }, shortLine: (ep.meta.short3.line ?? "").replace("8", String(midCount)) || undefined, totalItems: ep.items.length } }
+  ? { ...ep, items: midItems, meta: { ...ep.meta, thumbnail: { ...ep.meta.thumbnail, sticker: ep.meta.short3.sticker }, shortHook: { sticker: ep.meta.short3.sticker, line: (ep.meta.short3.line ?? "").replace("8", String(midCount)) }, shortLine: (ep.meta.short3.line ?? "").replace("8", String(midCount)) || undefined, totalItems: ep.items.length } }
   : null;
 const propsFile3 = `${outDir}/props-short3.json`;
 if (ep3) writeJson(propsFile3, { episode: ep3 });
