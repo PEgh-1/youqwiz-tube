@@ -1,6 +1,7 @@
 // Timeline d'un épisode. Sans dépendance Remotion : importée aussi par scripts/chapters.mjs (Node 22, types effacés).
 import { LEVEL_ORDER, LEVEL_POINTS, LEVEL_SECONDS, answerSeconds } from "./levels.ts";
 import type { Episode, Level } from "./types.ts";
+import { tr } from "./i18n.ts";
 
 export type Segment =
   | { kind: "preroll"; from: number; dur: number }
@@ -149,18 +150,19 @@ export const totalPoints = (ep: Episode, upTo = ep.items.length): number =>
 // Chapitres YouTube (secondes → titre) déduits de la timeline de la vidéo longue : intro, un par niveau, score.
 export const chaptersOf = (ep: Episode, fps: number): { at: number; title: string }[] => {
   const { segments } = buildTimeline(ep, fps);
-  const out: { at: number; title: string }[] = [{ at: 0, title: "Intro" }];
-  const names: Record<Level, string> = { facile: "Niveau facile", moyen: "Niveau moyen", difficile: "Niveau difficile", impossible: "Niveau impossible" };
+  const T = tr(ep);
+  const out: { at: number; title: string }[] = [{ at: 0, title: T.chapterIntro }];
+  const names: Record<Level, string> = T.chapterLevel;
   const choice = ep.timing.reveal <= 0;
   let count = 0;
   for (const s of segments) {
     if (s.kind === "level") out.push({ at: s.from / fps, title: names[s.level] });
     if (choice && s.kind === "question") {
-      if (count % 10 === 0) out.push({ at: s.from / fps, title: `Choix ${count + 1} à ${Math.min(count + 10, ep.items.length)}` });
+      if (count % 10 === 0) out.push({ at: s.from / fps, title: T.chapterChoices(count + 1, Math.min(count + 10, ep.items.length)) });
       count++;
     }
-    if (s.kind === "score") out.push({ at: s.from / fps, title: "Ton score" });
-    if (s.kind === "packshot") out.push({ at: s.from / fps, title: "Crée ton quiz sur youqwiz.com" });
+    if (s.kind === "score") out.push({ at: s.from / fps, title: T.chapterScore });
+    if (s.kind === "packshot") out.push({ at: s.from / fps, title: T.chapterPackshot });
   }
   // YouTube exige des chapitres d'au moins 10 s : on fusionne les trop courts avec le précédent.
   return out.filter((c, i) => i === 0 || c.at - out[i - 1].at >= 10);

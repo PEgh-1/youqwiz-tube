@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { AUDIO, Background, Emoji, Fonts, LevelBadge, Logo, Mascot, Packshot, Pill, Pop, Rich } from "./components";
 import { FONT_BODY, FONT_DISPLAY, INK, THEMES, WHITE } from "./theme";
+import { tr, type Lang } from "./i18n";
 
 const theme = THEMES[0];
 
@@ -37,7 +38,8 @@ export const Avatar: React.FC<{ variant?: number }> = ({ variant = 0 }) => (
 );
 
 // ---------- Bannière 2560×1440 : zone sûre 1546×423 centrée (tous écrans) ----------
-export const Banner: React.FC<{ variant?: number }> = ({ variant = 0 }) => {
+export const Banner: React.FC<{ variant?: number; lang?: Lang }> = ({ variant = 0, lang }) => {
+  const T = tr({ lang });
   const safeW = 1546, safeH = 423;
   const left = (2560 - safeW) / 2, top = (1440 - safeH) / 2;
   return (
@@ -56,11 +58,11 @@ export const Banner: React.FC<{ variant?: number }> = ({ variant = 0 }) => {
       <div style={{ position: "absolute", left, top, width: safeW, height: safeH, display: "flex", flexDirection: variant === 0 ? "row" : "column", alignItems: "center", justifyContent: "center", gap: variant === 0 ? 36 : 14 }}>
         <Logo theme={theme} size={variant === 0 ? 120 : 120} />
         <div style={{ display: "flex", flexDirection: "column", gap: 16, alignItems: variant === 0 ? "flex-start" : "center" }}>
-          <div style={{ fontWeight: 800, fontSize: variant === 0 ? 52 : 56, color: WHITE, textShadow: `5px 5px 0 ${INK}`, lineHeight: 1.05, whiteSpace: "nowrap" }}>Un quiz par jour · de facile à impossible</div>
+          <div style={{ fontWeight: 800, fontSize: variant === 0 ? 52 : 56, color: WHITE, textShadow: `5px 5px 0 ${INK}`, lineHeight: 1.05, whiteSpace: "nowrap" }}>{T.bannerTagline}</div>
           <div style={{ display: "flex", gap: 14 }}>
-            <Pill size={30} tilt={-2}>⏱️ 5 secondes</Pill>
-            <Pill size={30} bg={theme.accent} fg={WHITE} tilt={2}>🔔 Nouveau quiz à 17h30</Pill>
-            <Pill size={30} tilt={-1}>🎮 youqwiz.com</Pill>
+            <Pill size={30} tilt={-2}>{T.bannerSeconds}</Pill>
+            <Pill size={30} bg={theme.accent} fg={WHITE} tilt={2}>{T.bannerNew}</Pill>
+            <Pill size={30} tilt={-1}>{T.bannerSite}</Pill>
           </div>
         </div>
       </div>
@@ -78,29 +80,22 @@ export const Watermark: React.FC = () => (
   </AbsoluteFill>
 );
 
-// ---------- Bande-annonce 30 s ----------
-const PILLARS = [
-  { emoji: "🐯", title: "Devine en 5 secondes", sub: "Animaux, drapeaux, pays…" },
-  { emoji: "🤔", title: "Tu préfères… ?", sub: "Des choix impossibles" },
-  { emoji: "🧠", title: "Culture générale", sub: "4 réponses, une seule bonne" },
-  { emoji: "👀", title: "Trouve l'intrus", sub: "11 pareils, 1 différent" },
-  { emoji: "📼", title: "Quiz Générations", sub: "Nés avant 1975 ?" },
-];
-
-export const Trailer: React.FC = () => {
+// ---------- Bande-annonce 30 s (piliers : i18n.ts trailerPillars) ----------
+export const Trailer: React.FC<{ lang?: Lang }> = ({ lang }) => {
+  const PILLARS = tr({ lang }).trailerPillars;
   const { fps } = useVideoConfig();
   const introDur = 4 * fps, cardDur = Math.round(2.8 * fps), packDur = 10 * fps;
   let t = 0;
   const seq: { from: number; dur: number; node: React.ReactNode; name: string }[] = [];
-  seq.push({ from: t, dur: introDur, name: "Accroche", node: <Hook /> });
+  seq.push({ from: t, dur: introDur, name: "Accroche", node: <Hook lang={lang} /> });
   t += introDur;
   PILLARS.forEach((p, i) => {
-    seq.push({ from: t, dur: cardDur, name: p.title, node: <PillarCard {...p} index={i} /> });
+    seq.push({ from: t, dur: cardDur, name: p.title, node: <PillarCard {...p} index={i} total={PILLARS.length} lang={lang} /> });
     t += cardDur;
   });
-  seq.push({ from: t, dur: 2 * fps, name: "Rythme", node: <Rhythm /> });
+  seq.push({ from: t, dur: 2 * fps, name: "Rythme", node: <Rhythm lang={lang} /> });
   t += 2 * fps;
-  seq.push({ from: t, dur: packDur, name: "Packshot", node: <Packshot theme={theme} /> });
+  seq.push({ from: t, dur: packDur, name: "Packshot", node: <Packshot theme={theme} lang={lang} /> });
   return (
     <AbsoluteFill style={{ fontFamily: FONT_BODY, color: INK }}>
       <Fonts />
@@ -120,7 +115,8 @@ export const Trailer: React.FC = () => {
 };
 export const TRAILER_FRAMES = (fps: number) => 4 * fps + 5 * Math.round(2.8 * fps) + 2 * fps + 10 * fps;
 
-const Hook: React.FC = () => {
+const Hook: React.FC<{ lang?: Lang }> = ({ lang }) => {
+  const T = tr({ lang });
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 9, stiffness: 140 } });
@@ -131,11 +127,11 @@ const Hook: React.FC = () => {
       </div>
       <Pop delay={12}>
         <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 110, color: WHITE, textShadow: `8px 8px 0 ${INK}`, textAlign: "center", lineHeight: 1 }}>
-          <Rich text="Tu te crois fort ? 😏" size={110} />
+          <Rich text={T.trailerHook} size={110} />
         </div>
       </Pop>
       <Pop delay={24}>
-        <Pill size={50} bg={theme.accent} fg={WHITE} tilt={-2}>Un nouveau quiz chaque jour à 17h30</Pill>
+        <Pill size={50} bg={theme.accent} fg={WHITE} tilt={-2}>{T.trailerDaily}</Pill>
       </Pop>
       <div style={{ position: "absolute", left: 80, bottom: 30 }}><Mascot which="chat" size={340} mood="idle" /></div>
       <div style={{ position: "absolute", right: 80, bottom: 30 }}><Mascot which="poussin" size={300} mood="cheer" /></div>
@@ -143,7 +139,7 @@ const Hook: React.FC = () => {
   );
 };
 
-const PillarCard: React.FC<{ emoji: string; title: string; sub: string; index: number }> = ({ emoji, title, sub, index }) => {
+const PillarCard: React.FC<{ emoji: string; title: string; sub: string; index: number; total: number; lang?: Lang }> = ({ emoji, title, sub, index, total, lang }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const th = THEMES[index % THEMES.length];
@@ -157,27 +153,28 @@ const PillarCard: React.FC<{ emoji: string; title: string; sub: string; index: n
           <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 96, color: INK, lineHeight: 1 }}>{title}</div>
           <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: 48, color: th.accent }}>{sub}</div>
           <div style={{ display: "flex", gap: 12 }}>
-            <LevelBadge level="facile" size={30} />
-            <LevelBadge level="impossible" size={30} tilt={2} />
+            <LevelBadge level="facile" size={30} lang={lang} />
+            <LevelBadge level="impossible" size={30} tilt={2} lang={lang} />
           </div>
         </div>
       </div>
       <div style={{ position: "absolute", top: 40, left: 60 }}><Logo theme={theme} size={54} /></div>
-      <div style={{ position: "absolute", top: 40, right: 60 }}><Pill size={36}>{`${index + 1} / ${PILLARS.length}`}</Pill></div>
+      <div style={{ position: "absolute", top: 40, right: 60 }}><Pill size={36}>{`${index + 1} / ${total}`}</Pill></div>
     </AbsoluteFill>
   );
 };
 
-const Rhythm: React.FC = () => {
+const Rhythm: React.FC<{ lang?: Lang }> = ({ lang }) => {
+  const T = tr({ lang });
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const s = interpolate(frame % fps, [0, fps], [1.15, 1]);
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 30 }}>
       <div style={{ transform: `scale(${s})`, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 150, color: WHITE, textShadow: `9px 9px 0 ${INK}` }}>
-        <Rich text="⏱️ 5 secondes" size={150} />
+        <Rich text={T.trailerSeconds} size={150} />
       </div>
-      <Pill size={54} tilt={-2}>Compte tes points · dis ton score en commentaire 👇</Pill>
+      <Pill size={54} tilt={-2}>{T.trailerCount}</Pill>
     </AbsoluteFill>
   );
 };

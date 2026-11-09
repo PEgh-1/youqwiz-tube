@@ -1,6 +1,7 @@
 import { staticFile } from "remotion";
 import type { Level, Pillar, Style } from "./types";
 import { LEVEL_LABEL, LEVEL_POINTS, LEVEL_SECONDS } from "./levels";
+import { STRINGS } from "./i18n";
 
 // Charte « Pop sticker » (30/10/2026) — encre commune ; 03/11/2026 : six palettes, chaque pilier a les siennes.
 export const INK = "#1A1030";
@@ -38,31 +39,28 @@ export const PILLAR_STYLE: Record<Pillar, { themes: Theme["name"][]; patterns: S
 };
 export const DEFAULT_STYLE: Style = { pattern: "confetti", timer: "ring", reveal: "pop", card: "round", music: 0 };
 
+// label et card : textes français de référence (src/i18n.ts) ; les gabarits affichent tr(episode).levelLabel / levelCard selon la langue.
 export const LEVELS: Record<Level, { label: string; color: string; emoji: string; seconds: number; points: number; card: string }> = {
-  facile: { label: LEVEL_LABEL.facile, color: "#2ECC71", emoji: "😎", seconds: LEVEL_SECONDS.facile, points: LEVEL_POINTS.facile, card: "On s'échauffe 🔥" },
-  moyen: { label: LEVEL_LABEL.moyen, color: "#F39C12", emoji: "🤔", seconds: LEVEL_SECONDS.moyen, points: LEVEL_POINTS.moyen, card: "Ça se corse 👀" },
-  difficile: { label: LEVEL_LABEL.difficile, color: "#FF4D8D", emoji: "😰", seconds: LEVEL_SECONDS.difficile, points: LEVEL_POINTS.difficile, card: "Accroche-toi 😰" },
-  impossible: { label: LEVEL_LABEL.impossible, color: "#1A1030", emoji: "🤯", seconds: LEVEL_SECONDS.impossible, points: LEVEL_POINTS.impossible, card: "Seuls les génies 🧠" },
+  facile: { label: LEVEL_LABEL.facile, color: "#2ECC71", emoji: "😎", seconds: LEVEL_SECONDS.facile, points: LEVEL_POINTS.facile, card: STRINGS.fr.levelCard.facile },
+  moyen: { label: LEVEL_LABEL.moyen, color: "#F39C12", emoji: "🤔", seconds: LEVEL_SECONDS.moyen, points: LEVEL_POINTS.moyen, card: STRINGS.fr.levelCard.moyen },
+  difficile: { label: LEVEL_LABEL.difficile, color: "#FF4D8D", emoji: "😰", seconds: LEVEL_SECONDS.difficile, points: LEVEL_POINTS.difficile, card: STRINGS.fr.levelCard.difficile },
+  impossible: { label: LEVEL_LABEL.impossible, color: "#1A1030", emoji: "🤯", seconds: LEVEL_SECONDS.impossible, points: LEVEL_POINTS.impossible, card: STRINGS.fr.levelCard.impossible },
 };
 
+// Rangs du score : seuils et émojis ; libellés affichés via tr(episode).ranks (ici le français de référence).
 export const RANKS = [
-  { min: 0, label: "Débutant", emoji: "🐣" },
-  { min: 0.4, label: "Bon joueur", emoji: "😎" },
-  { min: 0.7, label: "Expert", emoji: "🧠" },
-  { min: 0.9, label: "Génie", emoji: "👑" },
+  { min: 0, label: STRINGS.fr.ranks[0], emoji: "🐣" },
+  { min: 0.4, label: STRINGS.fr.ranks[1], emoji: "😎" },
+  { min: 0.7, label: STRINGS.fr.ranks[2], emoji: "🧠" },
+  { min: 0.9, label: STRINGS.fr.ranks[3], emoji: "👑" },
 ];
 
 export const FONT_DISPLAY = "'Baloo 2', 'Fredoka', sans-serif";
 export const FONT_LOGO = "'Lilita One', 'Baloo 2', sans-serif";
 export const FONT_BODY = "'Fredoka', 'Baloo 2', sans-serif";
 
-// Répliques de la mascotte (par niveau), tirées de façon déterministe.
-export const QUIPS: Record<Level, string[]> = {
-  facile: ["Facile… non ? 👀", "Même mamie l'a 😏", "Trop simple, avoue 😎", "On démarre doucement ☕", "Allez, celui-là est cadeau 🎁", "Je l'ai eu les yeux fermés 😴", "Pas besoin d'indice ici 🙂", "Un point facile, prends-le 👍"],
-  moyen: ["Là, on réfléchit 🤔", "Hésite pas trop…", "Je te sens hésiter 😏", "Un indice ? Non. 😜", "Ça se complique un peu 👀", "Tu sèches déjà ? 😅", "Réponds avant le bip ⏱️", "Celui-là, il est sournois 🙃"],
-  difficile: ["Ouh, ça pique 😰", "Respect si tu l'as 🔥", "Concentre-toi…", "Là, c'est sérieux 👊", "Beaucoup abandonnent ici 😬", "Tu tiens le coup ? 💪", "Je parie que tu l'as pas 😏", "Allez, un effort 🧠"],
-  impossible: ["Personne ne l'a 🤯", "Seuls les génies 🧠", "Même moi je sèche 😅", "Bonne chance… 😈", "Ne triche pas 👀", "Si tu l'as, dis-le en commentaire 👑", "Ça, c'est le boss final 🐉", "Avoue, tu devines 🎲"],
-};
+// Répliques de la mascotte (par niveau) : désormais dans src/i18n.ts (quips), par langue ; alias français conservé.
+export const QUIPS: Record<Level, string[]> = STRINGS.fr.quips;
 
 export const fontFaces = () => `
 @font-face { font-family: 'Baloo 2'; font-weight: 800; src: url(${staticFile("fonts/baloo-2-800.woff2")}) format('woff2'); }

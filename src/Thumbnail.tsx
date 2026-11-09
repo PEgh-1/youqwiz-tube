@@ -3,6 +3,7 @@ import { AbsoluteFill } from "remotion";
 import { Emoji, Flag, Fonts, Logo, Mascot, PromptView, flagCode, themeOf } from "./components";
 import { FONT_DISPLAY, INK, LEVELS, WHITE } from "./theme";
 import type { Episode, Item, Level } from "./types";
+import { tr } from "./i18n";
 
 // Miniature 1280×720 « choc » v2 (05/11/2026) — taux de clic :
 //  - fond saturé de la charte + rayons, vignettage léger ;
@@ -93,15 +94,15 @@ const ItemView: React.FC<{ it: Item; ep: Episode; w: number; h: number }> = ({ i
     const n = pictos(p.value).length || 1;
     return <Emoji value={p.value} size={Math.min(h * 0.82, (w * 0.9) / n)} />;
   }
-  return <PromptView prompt={p} theme={themeOf(ep)} big={h * 0.7} maxW={w * 0.92} maxH={h * 0.85} />;
+  return <PromptView prompt={p} theme={themeOf(ep)} big={h * 0.7} maxW={w * 0.92} maxH={h * 0.85} lang={ep.lang} />;
 };
 
-const Tile: React.FC<{ level: Level; children: React.ReactNode; w: number; h: number; style?: React.CSSProperties; glow?: boolean }> = ({ level, children, w, h, style, glow }) => {
+const Tile: React.FC<{ level: Level; children: React.ReactNode; w: number; h: number; style?: React.CSSProperties; glow?: boolean; label?: string }> = ({ level, children, w, h, style, glow, label }) => {
   const L = LEVELS[level];
   const band = level === "impossible" ? RED : L.color;
   return (
     <div style={{ position: "absolute", width: w, height: h, background: WHITE, borderRadius: 26, border: `8px solid ${INK}`, boxShadow: glow ? `0 0 0 8px ${RED}, 0 0 50px 14px ${RED}AA, 12px 12px 0 8px ${INK}` : `10px 10px 0 ${INK}`, overflow: "hidden", display: "flex", flexDirection: "column", ...style }}>
-      <div style={{ background: band, color: WHITE, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 32, textAlign: "center", padding: "3px 0", borderBottom: `6px solid ${INK}`, ...outline(3) }}>{L.label}</div>
+      <div style={{ background: band, color: WHITE, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 32, textAlign: "center", padding: "3px 0", borderBottom: `6px solid ${INK}`, ...outline(3) }}>{label ?? L.label}</div>
       <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center" }}>{children}</div>
     </div>
   );
@@ -120,13 +121,13 @@ const DevineLadder: React.FC<{ ep: Episode; mood: "dare" | "shock" }> = ({ ep, m
         const it = pick(lv[l].length ? lv[l] : ep.items, ep.id.length + i * 3);
         const imp = l === "impossible";
         return (
-          <Tile key={l} level={l} w={W} h={H} glow={imp} style={{ left: x0 + i * (W + gap), top: imp ? 360 : 378 + (i % 2) * 8, transform: `rotate(${imp ? 4 : (i % 2 ? 2 : -2)}deg) scale(${imp ? 1.1 : 1})`, zIndex: imp ? 5 : 2 }}>
+          <Tile key={l} level={l} w={W} h={H} glow={imp} label={tr(ep).levelLabel[l]} style={{ left: x0 + i * (W + gap), top: imp ? 360 : 378 + (i % 2) * 8, transform: `rotate(${imp ? 4 : (i % 2 ? 2 : -2)}deg) scale(${imp ? 1.1 : 1})`, zIndex: imp ? 5 : 2 }}>
             <ItemView it={it} ep={ep} w={W - 26} h={H - 66} />
           </Tile>
         );
       })}
       <Shock which="poussin" size={400} mood={mood} style={{ right: -30, top: -10 }} />
-      <Sticker text={t.sticker ?? "99 % ÉCHOUENT"} size={46} style={{ left: 50, top: 214, transform: "rotate(-4deg)" }} />
+      <Sticker text={t.sticker ?? tr(ep).thumbSticker} size={46} style={{ left: 50, top: 214, transform: "rotate(-4deg)" }} />
     </>
   );
 };
@@ -144,7 +145,7 @@ const DevineCloseup: React.FC<{ ep: Episode; mood: "dare" | "shock" }> = ({ ep, 
       <Ring w={780} h={650} style={{ left: -15, top: 65 }} />
       <Title ep={ep} left={740} top={30} width={530} max={130} wrap />
       <Shock which="chat" size={470} mood={mood} style={{ right: 0, bottom: -60 }} />
-      <Sticker text={t.sticker ?? "99 % ÉCHOUENT"} size={42} style={{ left: 60, top: 36, transform: "rotate(-5deg)" }} />
+      <Sticker text={t.sticker ?? tr(ep).thumbSticker} size={42} style={{ left: 60, top: 36, transform: "rotate(-5deg)" }} />
     </>
   );
 };
@@ -182,8 +183,8 @@ const Versus: React.FC<{ ep: Episode; variant: number; mood: "dare" | "shock" }>
           </React.Fragment>
         );
       })}
-      <div style={{ position: "absolute", left: 0, right: 0, top: 16, textAlign: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 104, color: YELLOW, ...outline(9) }}>TU PRÉFÈRES ?</div>
-      <div style={{ position: "absolute", zIndex: 5, left: 640 - 85, top: 260, width: 170, height: 170, borderRadius: 999, background: YELLOW, border: `10px solid ${INK}`, boxShadow: `10px 10px 0 ${INK}`, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 84, color: INK, transform: "rotate(-8deg)" }}>OU</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 16, textAlign: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 104, color: YELLOW, ...outline(9) }}>{tr(ep).thumbVersusTitle}</div>
+      <div style={{ position: "absolute", zIndex: 5, left: 640 - 85, top: 260, width: 170, height: 170, borderRadius: 999, background: YELLOW, border: `10px solid ${INK}`, boxShadow: `10px 10px 0 ${INK}`, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 84, color: INK, transform: "rotate(-8deg)" }}>{tr(ep).or}</div>
       <Shock which="chat" size={220} mood={mood} bubble={false} style={{ left: 640 - 200, bottom: -80 }} />
       <Shock which="poussin" size={200} mood={mood} bubble={false} flip style={{ left: 640 - 5, bottom: -70 }} />
     </>
@@ -215,7 +216,7 @@ const QcmCard: React.FC<{ ep: Episode; variant: number; mood: "dare" | "shock" }
       <Ring w={bw + 60} h={bh + 60} style={{ left: x0 - 30 + (ringOn % 2) * (bw + gx), top: y0 - 30 + Math.floor(ringOn / 2) * (bh + gy) }} />
       <div style={{ position: "absolute", zIndex: 3, left: 900, top: 240, width: 170, height: 170, borderRadius: 999, background: YELLOW, border: `10px solid ${INK}`, boxShadow: `10px 10px 0 ${INK}`, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 100, color: INK, transform: "rotate(10deg)" }}>?</div>
       <Shock which="poussin" size={430} mood={mood} bubble={false} style={{ right: -30, bottom: -60 }} />
-      <Sticker text={t.sticker ?? (variant ? "TU AS TOUT BON ?" : "99 % SE TROMPENT")} size={40} style={{ right: 16, top: 140, transform: "rotate(6deg)" }} />
+      <Sticker text={t.sticker ?? (variant ? tr(ep).thumbQcmStickerB : tr(ep).thumbQcmStickerA)} size={40} style={{ right: 16, top: 140, transform: "rotate(6deg)" }} />
     </>
   );
 };
@@ -235,7 +236,7 @@ const IntrusGrid: React.FC<{ ep: Episode; variant: number; mood: "dare" | "shock
       </div>
       <Title ep={ep} left={720} top={50} width={550} max={136} wrap />
       <Shock which="chat" size={470} mood={mood} style={{ right: 0, bottom: -60 }} />
-      <Sticker text={t.sticker ?? (variant ? "IMPOSSIBLE ?" : "1 SEUL DIFFÉRENT")} size={38} style={{ left: 60, top: 30, transform: "rotate(-5deg)" }} />
+      <Sticker text={t.sticker ?? (variant ? tr(ep).thumbIntrusStickerB : tr(ep).thumbIntrusStickerA)} size={38} style={{ left: 60, top: 30, transform: "rotate(-5deg)" }} />
     </>
   );
 };

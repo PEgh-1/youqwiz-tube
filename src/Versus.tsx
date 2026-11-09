@@ -4,6 +4,7 @@ import { AUDIO, Background, Bubble, CommonSegment, Fonts, Logo, Mascot, MusicBed
 import { FONT_BODY, FONT_DISPLAY, INK, WHITE } from "./theme";
 import { SHORT_OPTS, buildTimeline } from "./timeline";
 import type { Episode } from "./types";
+import { tr } from "./i18n";
 
 const has = (k: string) => AUDIO[k] === true;
 export type VersusProps = { episode: Episode; vertical?: boolean };
@@ -57,10 +58,9 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
   const progress = Math.min(1, frame / choiceFrames);
   const secondsLeft = Math.max(0, Math.ceil((choiceFrames - frame) / fps));
   const hud = vertical ? 36 : 36;
-  const QUIPS_L = ["Moi, à gauche 😏", "Facile : la gauche !", "Gauche, sans hésiter 👈", "Je prends la première 🙋"];
-  const QUIPS_R = ["Non, la droite ! 👉", "Moi je dis droite 😎", "La deuxième, évidemment 🤷", "Droite, et je ne change pas 💪"];
-  const quipL = quipFor(episode, QUIPS_L, index);
-  const quipR = quipFor(episode, QUIPS_R, index * 7 + 1);
+  const T = tr(episode);
+  const quipL = quipFor(episode, T.versusQuipsLeft, index);
+  const quipR = quipFor(episode, T.versusQuipsRight, index * 7 + 1);
   const fontFor = (s: string) => {
     const n = s.length;
     const base = vertical ? 70 : 82;
@@ -87,7 +87,7 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
       <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, justifyContent: "center" }}>
         <Pill size={hud}>{`🎯 ${index + 1} / ${total}`}</Pill>
         {!vertical && <Progress value={index / total} theme={theme} />}
-        <Pill size={hud} bg={theme.accent} fg={WHITE}>Tu préfères… ?</Pill>
+        <Pill size={hud} bg={theme.accent} fg={WHITE}>{T.wouldYouRather}</Pill>
       </div>
       {!vertical && (
         <div style={{ position: "absolute", top: 118, left: 60 }}>
@@ -103,7 +103,7 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
       <div style={{ position: "absolute", top: vertical ? 420 + paneH + 10 : 230 + paneH / 2 - 50, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
         <Pop delay={6}>
           <div style={{ width: 120, height: 120, borderRadius: 999, background: theme.accent, border: `8px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, color: WHITE, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 56, display: "flex", alignItems: "center", justifyContent: "center", transform: `rotate(${Math.sin(frame / 6) * 6}deg)` }}>
-            OU
+            {T.or}
           </div>
         </Pop>
       </div>
@@ -114,12 +114,12 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
           <div style={{ width: vertical ? 900 : 860, height: 44, background: WHITE, border: `6px solid ${INK}`, borderRadius: 999, boxShadow: `6px 6px 0 ${INK}`, overflow: "hidden", position: "relative" }}>
             <div style={{ position: "absolute", left: `${progress * 50}%`, right: `${progress * 50}%`, top: 0, bottom: 0, background: secondsLeft <= 1 ? "#FF3B3B" : theme.accent }} />
           </div>
-          <Pill size={40} bg={INK} fg={WHITE}>{`⏱️ ${secondsLeft} · choisis vite !`}</Pill>
+          <Pill size={40} bg={INK} fg={WHITE}>{T.pickFast(secondsLeft)}</Pill>
         </div>
       ) : (
         <div style={{ position: "absolute", bottom: vertical ? 330 : 60, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
           <Pop>
-            <Pill size={vertical ? 44 : 52} bg={theme.accent} fg={WHITE} tilt={-2} style={{ whiteSpace: "normal", textAlign: "center", maxWidth: 1100 }}>Et toi ? Dis-le en commentaire 👇</Pill>
+            <Pill size={vertical ? 44 : 52} bg={theme.accent} fg={WHITE} tilt={-2} style={{ whiteSpace: "normal", textAlign: "center", maxWidth: 1100 }}>{T.andYou}</Pill>
           </Pop>
         </div>
       )}
@@ -129,11 +129,11 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
         <>
           <div style={{ position: "absolute", left: 40, bottom: 20, display: "flex", alignItems: "flex-end", gap: 8 }}>
             <Mascot which="chat" size={240} mood={askPhase ? "cheer" : "idle"} />
-            <div style={{ marginBottom: 210 }}><Bubble size={30}>{askPhase ? "Alors ? 👀" : quipL}</Bubble></div>
+            <div style={{ marginBottom: 210 }}><Bubble size={30}>{askPhase ? T.soWhat : quipL}</Bubble></div>
           </div>
           <div style={{ position: "absolute", right: 40, bottom: 20, display: "flex", alignItems: "flex-end", flexDirection: "row-reverse", gap: 8 }}>
             <Mascot which="poussin" size={220} mood={askPhase ? "cheer" : "idle"} />
-            <div style={{ marginBottom: 210 }}><Bubble size={30} tilt={2}>{askPhase ? "Moi je sais 😏" : quipR}</Bubble></div>
+            <div style={{ marginBottom: 210 }}><Bubble size={30} tilt={2}>{askPhase ? T.iKnow : quipR}</Bubble></div>
           </div>
         </>
       )}

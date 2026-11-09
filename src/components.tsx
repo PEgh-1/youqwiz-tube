@@ -3,6 +3,7 @@ import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, us
 import { emojiToCode, splitEmojis } from "./emoji";
 import { DEFAULT_STYLE, FONT_BODY, FONT_DISPLAY, INK, LEVELS, STREAK, THEMES, Theme, WHITE, fontFaces } from "./theme";
 import type { Episode, Level, Prompt, Style, VoiceClip } from "./types";
+import { tr, type Lang } from "./i18n";
 import type { Segment } from "./timeline";
 import mascots from "./mascots.json";
 import audioManifest from "./audio.json";
@@ -132,12 +133,12 @@ export const Pill: React.FC<{ children: React.ReactNode; bg?: string; fg?: strin
   </div>
 );
 
-export const LevelBadge: React.FC<{ level: Level; size?: number; tilt?: number }> = ({ level, size = 34, tilt = 0 }) => {
+export const LevelBadge: React.FC<{ level: Level; size?: number; tilt?: number; lang?: Lang }> = ({ level, size = 34, tilt = 0, lang }) => {
   const l = LEVELS[level];
   return (
     <Pill bg={l.color} fg={WHITE} size={size} tilt={tilt}>
       <Emoji value={l.emoji} size={size} />
-      {l.label}
+      {tr({ lang }).levelLabel[level]}
     </Pill>
   );
 };
@@ -313,7 +314,7 @@ export const FitText: React.FC<{ text: string; big: number; W: number; H: number
 };
 
 // ---------- Rendu d'un prompt ----------
-export const PromptView: React.FC<{ prompt: Prompt; theme: Theme; big: number; vertical?: boolean; maxW?: number; maxH?: number }> = ({ prompt, theme, big, vertical = false, maxW, maxH }) => {
+export const PromptView: React.FC<{ prompt: Prompt; theme: Theme; big: number; vertical?: boolean; maxW?: number; maxH?: number; lang?: Lang }> = ({ prompt, theme, big, vertical = false, maxW, maxH, lang }) => {
   if (prompt.type === "emoji") {
     const fc = flagCode(prompt.value);
     if (fc) return <Flag code={fc} size={Math.min(big, maxW ? maxW / 1.5 : big, maxH ? maxH / 1.125 : big)} />;
@@ -346,7 +347,7 @@ export const PromptView: React.FC<{ prompt: Prompt; theme: Theme; big: number; v
     <div style={{ display: "flex", flexDirection: vertical ? "column" : "row", gap: vertical ? 18 : 30, alignItems: "center", justifyContent: "center" }}>
       {prompt.value.map((v, i) => (
         <React.Fragment key={i}>
-          {i > 0 && <Pill bg={theme.accent} fg={WHITE} size={40} tilt={-6}>OU</Pill>}
+          {i > 0 && <Pill bg={theme.accent} fg={WHITE} size={40} tilt={-6}>{tr({ lang }).or}</Pill>}
           <div style={{ width: boxW, height: boxH, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: fontFor(v), color: INK, background: i === 0 ? "#E3F7F5" : "#FFF3CC", border: `7px solid ${INK}`, boxShadow: `9px 9px 0 ${INK}`, padding: "18px 28px", borderRadius: 30, textAlign: "center", lineHeight: 1.12, transform: `rotate(${i === 0 ? -1.5 : 1.5}deg)`, overflow: "hidden", overflowWrap: "anywhere" }}>
             <Rich text={v} size={fontFor(v)} />
           </div>
@@ -386,14 +387,14 @@ export const Bubble: React.FC<{ children: React.ReactNode; size?: number; tilt?:
 );
 
 // ---------- Fait bonus (après la réponse) ----------
-export const FactCard: React.FC<{ text: string; theme: Theme; vertical?: boolean }> = ({ text, theme, vertical = false }) => {
+export const FactCard: React.FC<{ text: string; theme: Theme; vertical?: boolean; lang?: Lang }> = ({ text, theme, vertical = false, lang }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const s = spring({ frame, fps, config: { damping: 12, stiffness: 150 } });
   const size = vertical ? 38 : 40;
   return (
     <div style={{ transform: `translateY(${(1 - s) * 80}px) rotate(-1deg)`, opacity: s, display: "flex", alignItems: "center", gap: 18, maxWidth: vertical ? 940 : 1280 }}>
-      <Pill size={size * 0.9} bg={theme.accent} fg={WHITE} tilt={-6}>💡 Le savais-tu ?</Pill>
+      <Pill size={size * 0.9} bg={theme.accent} fg={WHITE} tilt={-6}>{tr({ lang }).didYouKnow}</Pill>
       <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: size, color: INK, background: WHITE, border: `6px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, padding: `${size * 0.4}px ${size * 0.7}px`, borderRadius: 24, lineHeight: 1.18, whiteSpace: "normal" }}>
         <Rich text={text} size={size} />
       </div>
@@ -412,16 +413,17 @@ export const Logo: React.FC<{ theme: Theme; size?: number }> = ({ theme, size = 
   </div>
 );
 
-export const Streak: React.FC<{ value: number; size?: number }> = ({ value, size = 34 }) => (
+export const Streak: React.FC<{ value: number; size?: number; lang?: Lang }> = ({ value, size = 34, lang }) => (
   <Pill bg={INK} fg={STREAK} size={size}>
     <Emoji value="🔥" size={size} />
-    SÉRIE ×{value}
+    {tr({ lang }).streak(value)}
   </Pill>
 );
 
 // ---------- Pré-roll (3 s, texte variable) ----------
 // Voix off : clip générique de l'épisode (episode.voice.preroll) ; à défaut public/audio/preroll.mp3.
-export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean }> = ({ theme, text = "Content de te revoir ! 👋", vertical = false }) => {
+export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean; lang?: Lang }> = ({ theme, text: textProp, vertical = false, lang }) => {
+  const text = textProp ?? tr({ lang }).prerollDefault;
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 9, stiffness: 140 } });
@@ -449,7 +451,9 @@ export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean
 
 // ---------- Packshot final (10 s) : CTA site variable + zone libre pour les écrans de fin YouTube ----------
 // Le tiers droit reste vide (hors mascotte) : YouTube y placera « vidéo suivante » et « s'abonner ».
-export const Packshot: React.FC<{ theme: Theme; headline?: string; sub?: string; cta?: string }> = ({ theme, headline = "Crée GRATUITEMENT tes quiz personnalisés", sub = "à partager avec tes amis 🎉", cta = "👉 youqwiz.com" }) => {
+export const Packshot: React.FC<{ theme: Theme; headline?: string; sub?: string; cta?: string; lang?: Lang }> = ({ theme, headline: h, sub: s, cta: c, lang }) => {
+  const T = tr({ lang });
+  const headline = h ?? T.packshotHeadline, sub = s ?? T.packshotSub, cta = c ?? T.packshotCta;
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 10, stiffness: 120 } });
@@ -496,17 +500,18 @@ export const Voice: React.FC<{ clip?: VoiceClip; from?: number; volume?: number 
 };
 
 // ---------- Champion de la semaine (4 s après l'intro) ----------
-export const ChampionCard: React.FC<{ theme: Theme; name: string; score: number }> = ({ theme, name, score }) => {
+export const ChampionCard: React.FC<{ theme: Theme; name: string; score: number; lang?: Lang }> = ({ theme, name, score, lang }) => {
+  const T = tr({ lang });
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 9, stiffness: 140 } });
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 28 }}>
       <div style={{ transform: `scale(${0.7 + pop * 0.3})`, opacity: pop, display: "flex", flexDirection: "column", alignItems: "center", gap: 24 }}>
-        <Pill size={44} bg={INK} fg={STREAK} tilt={-2}>🏆 Champion de la semaine</Pill>
+        <Pill size={44} bg={INK} fg={STREAK} tilt={-2}>{T.championTitle}</Pill>
         <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 120, color: WHITE, textShadow: `8px 8px 0 ${INK}`, lineHeight: 1 }}>{name}</div>
-        <Pill size={56} bg={theme.accent} fg={WHITE} tilt={2}>{`⭐ ${score.toLocaleString("fr-FR")} points`}</Pill>
-        <Pill size={36}>Dis ton score en commentaire pour être le prochain 👇</Pill>
+        <Pill size={56} bg={theme.accent} fg={WHITE} tilt={2}>{T.championPoints(score)}</Pill>
+        <Pill size={36}>{T.championCta}</Pill>
       </div>
       <div style={{ position: "absolute", left: 80, bottom: 30 }}><Mascot which="chat" size={320} mood="cheer" /></div>
       <div style={{ position: "absolute", right: 80, bottom: 30 }}><Mascot which="poussin" size={280} mood="cheer" /></div>
@@ -516,7 +521,9 @@ export const ChampionCard: React.FC<{ theme: Theme; name: string; score: number 
 };
 
 // ---------- Abonnement (3 s, texte variable) : bouton + cloche qui sonne ----------
-export const SubscribeCard: React.FC<{ theme: Theme; vertical?: boolean; title?: string; sub?: string }> = ({ theme, vertical = false, title = "Abonne-toi et active la cloche", sub = "pour être prévenu gratuitement du prochain quiz 🎁" }) => {
+export const SubscribeCard: React.FC<{ theme: Theme; vertical?: boolean; title?: string; sub?: string; lang?: Lang }> = ({ theme, vertical = false, title: t, sub: s, lang }) => {
+  const T = tr({ lang });
+  const title = t ?? T.subscribeTitle, sub = s ?? T.subscribeSub;
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 9, stiffness: 150 } });
@@ -527,7 +534,7 @@ export const SubscribeCard: React.FC<{ theme: Theme; vertical?: boolean; title?:
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 34 * sc }}>
       <div style={{ display: "flex", alignItems: "center", gap: 30 * sc, transform: `scale(${0.7 + pop * 0.3})`, opacity: pop }}>
         <div style={{ background: click > 0.5 ? "#8E8E8E" : "#FF0033", color: WHITE, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 64 * sc, padding: `${18 * sc}px ${44 * sc}px`, borderRadius: 999, border: `6px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, transform: `scale(${1 - (click > 0.5 && click < 0.9 ? 0.08 : 0)})` }}>
-          {click > 0.5 ? "ABONNÉ ✓" : "S'ABONNER"}
+          {click > 0.5 ? T.subscribedButton : T.subscribeButton}
         </div>
         <div style={{ transform: `rotate(${ring}deg)`, transformOrigin: "top center" }}>
           <Emoji value="🔔" size={120 * sc} />
@@ -544,11 +551,12 @@ export const SubscribeCard: React.FC<{ theme: Theme; vertical?: boolean; title?:
 
 // ---------- Carte de niveau (texte variable par épisode) ----------
 export const LevelCard: React.FC<{ episode: Episode; level: Level; vertical?: boolean; k?: number }> = ({ episode, level, vertical = false, k = 1 }) => {
-  const card = episode.variants?.levels?.[level]?.card ?? LEVELS[level].card;
+  const T = tr(episode);
+  const card = episode.variants?.levels?.[level]?.card ?? T.levelCard[level];
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 36 }}>
       <Pop>
-        <LevelBadge level={level} size={(vertical ? 64 : 80) * k} tilt={-3} />
+        <LevelBadge level={level} size={(vertical ? 64 : 80) * k} tilt={-3} lang={episode.lang} />
       </Pop>
       <Pop delay={5}>
         <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: (vertical ? 80 : 96) * k * (card.length > 24 ? 0.8 : 1), color: WHITE, textShadow: `6px 6px 0 ${INK}`, textAlign: "center", padding: "0 60px", lineHeight: 1.05 }}>
@@ -556,7 +564,7 @@ export const LevelCard: React.FC<{ episode: Episode; level: Level; vertical?: bo
         </div>
       </Pop>
       <Pop delay={10}>
-        <Pill size={(vertical ? 36 : 44) * k}>⏱️ Temps adapté à chaque question · {LEVELS[level].points} points</Pill>
+        <Pill size={(vertical ? 36 : 44) * k}>{T.levelTime(LEVELS[level].points)}</Pill>
       </Pop>
     </AbsoluteFill>
   );
@@ -564,7 +572,9 @@ export const LevelCard: React.FC<{ episode: Episode; level: Level; vertical?: bo
 
 // ---------- Short : accroche 1,5 s ----------
 // 2e Short (09/11/2026) : `line` remplace « à la Ne question » (ex. « aux 8 questions les plus dures 🔥 »).
-export const ShortHook: React.FC<{ theme: Theme; hook: string; n: number; sticker?: string; line?: string }> = ({ theme, hook, n, sticker = "99 % ÉCHOUENT", line }) => {
+export const ShortHook: React.FC<{ theme: Theme; hook: string; n: number; sticker?: string; line?: string; lang?: Lang }> = ({ theme, hook, n, sticker: st, line, lang }) => {
+  const T = tr({ lang });
+  const sticker = st ?? T.shortSticker;
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 7, stiffness: 220 } });
@@ -578,9 +588,9 @@ export const ShortHook: React.FC<{ theme: Theme; hook: string; n: number; sticke
           {sticker}
         </div>
         <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 88, color: WHITE, textShadow: `7px 7px 0 ${INK}`, textAlign: "center", lineHeight: 1.05, opacity: pop, maxWidth: 960 }}>
-          <Rich text={line ?? `à la ${n}e question 😱`} size={line && line.length > 26 ? 72 : 88} />
+          <Rich text={line ?? T.nthQuestion(n)} size={line && line.length > 26 ? 72 : 88} />
         </div>
-        <Pill size={46} tilt={2}>⏱️ 3 secondes par question</Pill>
+        <Pill size={46} tilt={2}>{T.secondsPerQuestion}</Pill>
       </div>
       <div style={{ position: "absolute", bottom: 380, display: "flex", gap: 40, alignItems: "flex-end" }}>
         <Mascot which="chat" size={320} mood="shock" />
@@ -591,7 +601,8 @@ export const ShortHook: React.FC<{ theme: Theme; hook: string; n: number; sticke
 };
 
 // ---------- Short : cliffhanger (4 s) ----------
-export const CliffCard: React.FC<{ theme: Theme; total: number; isChoice?: boolean }> = ({ theme, total, isChoice = false }) => {
+export const CliffCard: React.FC<{ theme: Theme; total: number; isChoice?: boolean; lang?: Lang }> = ({ theme, total, isChoice = false, lang }) => {
+  const T = tr({ lang });
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 9, stiffness: 160 } });
@@ -603,15 +614,15 @@ export const CliffCard: React.FC<{ theme: Theme; total: number; isChoice?: boole
       </div>
       <div style={{ position: "absolute", top: 400, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 34, padding: "0 50px" }}>
         <div style={{ transform: `scale(${0.6 + pop * 0.4})`, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 110, color: WHITE, textShadow: `8px 8px 0 ${INK}`, textAlign: "center", lineHeight: 1 }}>
-          <Rich text={isChoice ? "Et toi ? 🤔" : "La réponse ? 🤫"} size={110} />
+          <Rich text={isChoice ? T.cliffAndYou : T.cliffAnswer} size={110} />
         </div>
         <Pill size={50} bg={theme.accent} fg={WHITE} tilt={-2} style={{ whiteSpace: "normal", textAlign: "center", maxWidth: 940, lineHeight: 1.15 }}>
-          {`${isChoice ? "Les" : "Elle est dans la vidéo complète avec les"} ${total} ${isChoice ? "dilemmes dans la vidéo complète" : "questions"} 🎬`}
+          {isChoice ? T.cliffBodyChoice(total) : T.cliffBody(total)}
         </Pill>
         <div style={{ transform: `scale(${pulse})` }}>
-          <Pill size={48} bg={INK} fg={WHITE} tilt={1} style={{ whiteSpace: "normal", textAlign: "center", maxWidth: 940 }}>👉 Lien dans le commentaire épinglé</Pill>
+          <Pill size={48} bg={INK} fg={WHITE} tilt={1} style={{ whiteSpace: "normal", textAlign: "center", maxWidth: 940 }}>{T.cliffLink}</Pill>
         </div>
-        <Pill size={40} tilt={-1} style={{ whiteSpace: "normal", textAlign: "center", maxWidth: 940 }}>🎮 Crée ton quiz GRATUIT sur youqwiz.com</Pill>
+        <Pill size={40} tilt={-1} style={{ whiteSpace: "normal", textAlign: "center", maxWidth: 940 }}>{T.cliffCreate}</Pill>
       </div>
       <div style={{ position: "absolute", bottom: 380, left: 60 }}><Mascot which="poussin" size={280} mood="shock" /></div>
       <div style={{ position: "absolute", bottom: 380, right: 60 }}><Mascot which="chat" size={300} mood="cheer" /></div>
@@ -655,7 +666,7 @@ export const IntroCard: React.FC<{ episode: Episode; vertical: boolean; k?: numb
       </Pop>
       <Pop delay={(vertical ? 0 : 2 * fps) + 12}>
         <Pill size={(vertical ? 36 : 44) * sc * k} tilt={2} style={{ whiteSpace: "normal", textAlign: "center" }}>
-          {episode.variants?.introCta ?? "🏆 Compte tes points, dis ton score en commentaire"}
+          {episode.variants?.introCta ?? tr(episode).introCtaDefault}
         </Pill>
       </Pop>
       <div style={{ position: "absolute", left: 50, bottom: 30 }}>
@@ -675,7 +686,8 @@ export const OutroCard: React.FC<{ episode: Episode; vertical: boolean; isChoice
   const theme = themeOf(episode);
   const sc = vertical ? 0.8 : 1;
   const pulse = 1 + Math.sin(frame / 6) * 0.03;
-  const title = episode.variants?.outro?.title ?? (isChoice ? "Tes choix en commentaire 👇" : "Ton score en commentaire 👇");
+  const T = tr(episode);
+  const title = episode.variants?.outro?.title ?? (isChoice ? T.outroChoices : T.outroScore);
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 40 * sc, padding: 80 }}>
       <Pop>
@@ -684,7 +696,7 @@ export const OutroCard: React.FC<{ episode: Episode; vertical: boolean; isChoice
         </div>
       </Pop>
       <Pop delay={8}>
-        <Pill size={44 * sc * k} tilt={-2} style={{ whiteSpace: "normal", textAlign: "center" }}>{vertical ? "La suite sur la chaîne 🎬" : "🔔 Abonne-toi et active la cloche : prochain quiz offert chaque jour"}</Pill>
+        <Pill size={44 * sc * k} tilt={-2} style={{ whiteSpace: "normal", textAlign: "center" }}>{vertical ? T.outroShort : T.outroSubscribe}</Pill>
       </Pop>
       <Pop delay={16}>
         <div style={{ transform: `scale(${pulse})` }}>
@@ -711,7 +723,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
     return (
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Pré-roll">
         {episode.voice?.preroll ? <Voice clip={episode.voice.preroll} from={8} /> : has("preroll") && <Audio src={staticFile("audio/preroll.mp3")} volume={1} />}
-        <Preroll theme={theme} text={v?.preroll?.text} vertical={vertical} />
+        <Preroll theme={theme} text={v?.preroll?.text} vertical={vertical} lang={episode.lang} />
       </Sequence>
     );
   if (s.kind === "packshot")
@@ -719,7 +731,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Packshot">
         {episode.voice?.packshot ? <Voice clip={episode.voice.packshot} from={14} /> : has("packshot") && <Audio src={staticFile("audio/packshot.mp3")} volume={1} />}
         {has("fanfare") && <Audio src={staticFile("audio/fanfare.mp3")} volume={0.5} />}
-        <Packshot theme={theme} headline={v?.packshot?.headline} sub={v?.packshot?.sub} cta={v?.packshot?.cta} />
+        <Packshot theme={theme} headline={v?.packshot?.headline} sub={v?.packshot?.sub} cta={v?.packshot?.cta} lang={episode.lang} />
       </Sequence>
     );
   if (s.kind === "champion")
@@ -727,7 +739,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Champion">
         {has("fanfare") && <Audio src={staticFile("audio/fanfare.mp3")} volume={0.5} />}
         <Voice clip={episode.voice?.champion} />
-        <ChampionCard theme={theme} name={episode.champion!.name} score={episode.champion!.score} />
+        <ChampionCard theme={theme} name={episode.champion!.name} score={episode.champion!.score} lang={episode.lang} />
       </Sequence>
     );
   if (s.kind === "subscribe")
@@ -735,7 +747,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Abonnement">
         {has("ding") && <Audio src={staticFile("audio/ding.mp3")} volume={0.6} />}
         <Voice clip={episode.voice?.subscribe} from={4} />
-        <SubscribeCard theme={theme} vertical={vertical} title={v?.subscribe?.title} sub={v?.subscribe?.sub} />
+        <SubscribeCard theme={theme} vertical={vertical} title={v?.subscribe?.title} sub={v?.subscribe?.sub} lang={episode.lang} />
       </Sequence>
     );
   if (s.kind === "cliff")
@@ -743,7 +755,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Cliffhanger">
         {has("whoosh") && <Audio src={staticFile("audio/whoosh.mp3")} volume={0.7} />}
         <Voice clip={episode.voice?.cliff} from={6} />
-        <CliffCard theme={theme} total={episode.meta.totalItems ?? episode.items.length} isChoice={isChoice} />
+        <CliffCard theme={theme} total={episode.meta.totalItems ?? episode.items.length} isChoice={isChoice} lang={episode.lang} />
       </Sequence>
     );
   if (s.kind === "intro")
@@ -751,7 +763,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Intro">
         {has("jingle") && <Audio src={staticFile("audio/jingle.mp3")} volume={episode.voice?.intro ? 0.45 : 0.8} />}
         {!vertical && <Voice clip={episode.voice?.intro} from={10} />}
-        {vertical ? <ShortHook theme={theme} hook={episode.intro.hook} n={Math.min(8, episode.items.length)} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} /> : <IntroCard episode={episode} vertical={vertical} k={k} />}
+        {vertical ? <ShortHook theme={theme} hook={episode.intro.hook} n={Math.min(8, episode.items.length)} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} lang={episode.lang} /> : <IntroCard episode={episode} vertical={vertical} k={k} />}
       </Sequence>
     );
   if (s.kind === "level")

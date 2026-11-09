@@ -46,6 +46,8 @@ export type Episode = {
   id: string;
   pillar: Pillar;
   template: "DevineEn3s" | "QuizQCM" | "Intrus" | "Versus";
+  /** Langue des textes fixes des gabarits (src/i18n.ts) : absent = "fr" ; "en" pour la chaîne YouQwiz English. */
+  lang?: "fr" | "en";
   theme: number; // index dans THEMES
   style?: Style;
   variants?: Variants;

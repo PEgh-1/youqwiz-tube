@@ -1,7 +1,8 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactCard, Fonts, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, PromptView, Reveal, Rich, Streak, Ticks, Voice, quipFor, styleOf, themeOf, tiltFor } from "./components";
-import { FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, QUIPS, RANKS, WHITE } from "./theme";
+import { FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, RANKS, WHITE } from "./theme";
+import { tr } from "./i18n";
 import { SHORT_OPTS, buildTimeline, factStart, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD } from "./timeline";
 import type { Episode } from "./types";
 
@@ -93,8 +94,8 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   const brk = streakBreakIndex(episode);
   const streak = index < brk ? index + (reveal ? 1 : 0) : index - brk + (reveal ? 1 : 0);
   const points = totalPoints(episode, index + (reveal ? 1 : 0));
-  const CHOICE_QUIPS = ["Dur, hein ? 😅", "Choisis vite !", "Moi je sais 😏", "Les deux ? Interdit 😜", "Sans tricher 👀", "Ton cœur ou ta raison ? 💭", "Vite, ça compte ! ⏱️"];
-  const quip = isChoice ? quipFor(episode, CHOICE_QUIPS, index) : quipFor(episode, QUIPS[level], index);
+  const T = tr(episode);
+  const quip = isChoice ? quipFor(episode, T.choiceQuips, index) : quipFor(episode, T.quips[level], index);
   const showAnswer = reveal && (!impossible || frame >= Math.round(0.8 * fps));
   const choiceFrames = 5 * fps; // choix : 5 s pour choisir, puis relance « Et toi ? »
   const askPhase = isChoice && frame >= choiceFrames;
@@ -102,7 +103,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   const factAt = Math.round(factStart(episode, index) * fps);
   const showFact = reveal && !vertical && !!item.fact && frame >= factAt;
   // Question affichée : pour l'alphabet, la catégorie est dans la carte ; la consigne reste générique.
-  const question = isLetter ? "Nomme-en un qui commence par…" : episode.question;
+  const question = isLetter ? T.letterQuestion : episode.question;
   // 08/11/2026 : en 16:9, barre de temps « slider » chevauchée par la mascotte opposée à celle du bas gauche ; les Shorts gardent l'anneau.
   const timerPos = vertical ? { position: "absolute" as const, left: 60, bottom: 330 } : { position: "absolute" as const, right: 60, bottom: 18 };
   const rider: "chat" | "poussin" = askPhase ? "chat" : "poussin";
@@ -118,8 +119,8 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, flexWrap: "nowrap", justifyContent: "center" }}>
         <Pill size={hud}>{`🎯 ${index + 1} / ${total}`}</Pill>
         {!vertical && <Progress value={(index + (reveal ? 1 : 0)) / total} theme={theme} />}
-        {!isChoice && !vertical && <LevelBadge level={level} size={hud} />}
-        {!isChoice && <Streak value={streak} size={hud} />}
+        {!isChoice && !vertical && <LevelBadge level={level} size={hud} lang={episode.lang} />}
+        {!isChoice && <Streak value={streak} size={hud} lang={episode.lang} />}
         {!isChoice && <Pill size={hud} bg={WHITE} fg={INK}>{`⭐ ${points}`}</Pill>}
       </div>
       {!vertical && (
@@ -137,11 +138,11 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       <div style={{ transform: `scale(${reveal ? 1 + 0.04 * Math.sin(frame / 3) * (frame < 8 ? 1 : 0) : enter})`, marginTop: vertical ? 530 : showFact ? 70 : 110 }}>
         <Card tilt={tilt} shape={style.card} border={showAnswer ? OK : INK} style={{ width: vertical ? 980 : isChoice ? 1520 : 1100, height: vertical ? 880 : 560, gap: 24, padding: 40 }}>
           {!showAnswer || isChoice ? (
-            <PromptView prompt={item.prompt} theme={theme} big={big} vertical={vertical} />
+            <PromptView prompt={item.prompt} theme={theme} big={big} vertical={vertical} lang={episode.lang} />
           ) : (
             <div style={{ display: "flex", flexDirection: vertical ? "column" : "row", alignItems: "center", gap: 50 }}>
               <div style={{ opacity: 0.9 }}>
-                <PromptView prompt={item.prompt} theme={theme} big={big * 0.75} vertical={vertical} maxW={vertical ? 860 : 500} maxH={vertical ? 420 : 440} />
+                <PromptView prompt={item.prompt} theme={theme} big={big * 0.75} vertical={vertical} maxW={vertical ? 860 : 500} maxH={vertical ? 420 : 440} lang={episode.lang} />
               </div>
               <Reveal kind={style.reveal}>
                 <Pill bg={OK} fg={WHITE} size={vertical ? 76 : isLetter ? 56 : 84} tilt={2} style={{ whiteSpace: "normal", textAlign: "center", maxWidth: vertical ? 860 : 720, lineHeight: 1.05 }}>
@@ -151,17 +152,17 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
             </div>
           )}
           {reveal && impossible && !showAnswer && (
-            <div style={{ position: "absolute", bottom: 30, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 56, color: theme.accent }}><Rich text="Alors… 🥁" size={56} /></div>
+            <div style={{ position: "absolute", bottom: 30, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 56, color: theme.accent }}><Rich text={T.drumroll} size={56} /></div>
           )}
           {item.hint && !reveal && <Pill size={32} bg={theme.soft}>{`💡 ${item.hint}`}</Pill>}
           {!isChoice && (
             <div style={{ position: "absolute", top: -34, right: -40 }}>
-              <LevelBadge level={level} size={30} tilt={10} />
+              <LevelBadge level={level} size={30} tilt={10} lang={episode.lang} />
             </div>
           )}
           {reveal && index === brk - 1 && !isChoice && (
             <div style={{ position: "absolute", bottom: -36, left: -40 }}>
-              <Pill size={34} bg="#FF3B3B" fg={WHITE} tilt={-8}>💔 Série perdue ? Dis-le en commentaire</Pill>
+              <Pill size={34} bg="#FF3B3B" fg={WHITE} tilt={-8}>{T.streakLost}</Pill>
             </div>
           )}
         </Card>
@@ -172,7 +173,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       {showFact && (
         <div style={{ position: "absolute", bottom: 54, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
           <Sequence from={factAt} layout="none">
-            <FactCard text={item.fact!} theme={theme} />
+            <FactCard text={item.fact!} theme={theme} lang={episode.lang} />
           </Sequence>
         </div>
       )}
@@ -191,7 +192,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       {!reveal && isChoice && askPhase && (
         <div style={vertical ? { position: "absolute", bottom: 360, left: 60 } : { position: "absolute", bottom: 80, right: 110 }}>
           <Pop>
-            <Pill size={vertical ? 44 : 48} bg={theme.accent} fg={WHITE} tilt={-3} style={vertical ? { whiteSpace: "normal", textAlign: "center", maxWidth: 700 } : undefined}>Et toi ? Dis-le en commentaire 👇</Pill>
+            <Pill size={vertical ? 44 : 48} bg={theme.accent} fg={WHITE} tilt={-3} style={vertical ? { whiteSpace: "normal", textAlign: "center", maxWidth: 700 } : undefined}>{T.andYou}</Pill>
           </Pop>
         </div>
       )}
@@ -202,7 +203,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
           <Mascot which={reveal || askPhase ? "poussin" : "chat"} size={vertical ? 230 : 260} mood={reveal ? (impossible && !showAnswer ? "shock" : "cheer") : askPhase ? "cheer" : "idle"} />
           {!vertical && (
             <div style={{ marginBottom: 170 }}>
-              <Bubble size={34}>{reveal ? (impossible ? "Avoue, tu l'avais pas 😏" : `+${LEVELS[level].points} points 🎉`) : askPhase ? "Moi je sais ce que je prends 😏" : quip}</Bubble>
+              <Bubble size={34}>{reveal ? (impossible ? T.admitIt : T.pointsWon(LEVELS[level].points)) : askPhase ? T.iKnowWhatIPick : quip}</Bubble>
             </div>
           )}
         </div>
@@ -216,12 +217,14 @@ export const Score: React.FC<{ episode: Episode; k?: number }> = ({ episode, k =
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const theme = themeOf(episode);
+  const T = tr(episode);
   const max = totalPoints(episode);
   const shown = Math.round(interpolate(frame, [0, 2 * fps], [0, max], { extrapolateRight: "clamp" }));
   return (
-    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 30 }}>
+    // 09/11/2026 : bloc remonté (paddingBottom) et mascottes réduites pour que la rangée des rangs ne passe plus sous les mascottes.
+    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 30, paddingBottom: 230 }}>
       <Pop>
-        <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 96 * k, color: WHITE, textShadow: `7px 7px 0 ${INK}` }}>Ton score ?</div>
+        <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 96 * k, color: WHITE, textShadow: `7px 7px 0 ${INK}` }}>{T.yourScore}</div>
       </Pop>
       <Pop delay={4}>
         <Pill size={120 * Math.min(k, 1.1)} bg={WHITE} fg={theme.accent} tilt={-2}>{`⭐ ${shown} / ${max}`}</Pill>
@@ -230,17 +233,17 @@ export const Score: React.FC<{ episode: Episode; k?: number }> = ({ episode, k =
         <div style={{ display: "flex", gap: 24 }}>
           {RANKS.map((r, i) => (
             <Pill key={i} size={34 * k} bg={i === RANKS.length - 1 ? theme.soft : WHITE} tilt={(i % 2 ? 1 : -1) * 2}>
-              {`${r.emoji} ${r.label}${i > 0 ? ` ≥ ${Math.round(max * r.min)}` : ""}`}
+              {`${r.emoji} ${T.ranks[i] ?? r.label}${i > 0 ? ` ≥ ${Math.round(max * r.min)}` : ""}`}
             </Pill>
           ))}
         </div>
       </Pop>
       {frame < 25 && <Burst theme={theme} x={960} y={400} n={60} />}
-      <div style={{ position: "absolute", left: 60, bottom: 30 }}>
-        <Mascot which="chat" size={320} mood="cheer" />
+      <div style={{ position: "absolute", left: 80, bottom: 24 }}>
+        <Mascot which="chat" size={290} mood="cheer" />
       </div>
-      <div style={{ position: "absolute", right: 60, bottom: 30 }}>
-        <Mascot which="poussin" size={280} mood="cheer" />
+      <div style={{ position: "absolute", right: 80, bottom: 24 }}>
+        <Mascot which="poussin" size={250} mood="cheer" />
       </div>
     </AbsoluteFill>
   );

@@ -2,7 +2,8 @@ import React from "react";
 import { AbsoluteFill, Audio, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactCard, Fonts, LevelBadge, Logo, Mascot, MusicBed, Pill, Progress, Rich, Streak, Ticks, Voice, quipFor, styleOf, themeOf, tiltFor } from "./components";
 import { Score } from "./DevineEn3s";
-import { FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, QUIPS, WHITE } from "./theme";
+import { FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, WHITE } from "./theme";
+import { tr } from "./i18n";
 import { SHORT_OPTS, buildTimeline, factStart, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD } from "./timeline";
 import type { Episode } from "./types";
 
@@ -107,7 +108,8 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   const streak = index < brk ? index + (reveal ? 1 : 0) : index - brk + (reveal ? 1 : 0);
   const points = totalPoints(episode, index + (reveal ? 1 : 0));
   const slow = !!episode.timing.slow;
-  const quips = slow ? ["Ça te rappelle quelque chose ? 😏", "Tu t'en souviens, hein ? 📺", "Dis pas que tu as oublié ! 😄", "C'était le bon temps 🥰", "Demande à ta mémoire 🧠", "Les jeunes ne savent pas 😎"] : QUIPS[level];
+  const T = tr(episode);
+  const quips = slow ? T.slowQuips : T.quips[level];
   const quip = quipFor(episode, quips, index);
   const delay = Math.round(0.8 * fps);
   const showAnswer = reveal && (!impossible || frame >= delay);
@@ -144,8 +146,8 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, flexWrap: "nowrap", justifyContent: "center" }}>
         <Pill size={hud}>{`🎯 ${index + 1} / ${total}`}</Pill>
         {!vertical && <Progress value={(index + (reveal ? 1 : 0)) / total} theme={theme} />}
-        {!vertical && <LevelBadge level={level} size={hud} />}
-        <Streak value={streak} size={hud} />
+        {!vertical && <LevelBadge level={level} size={hud} lang={episode.lang} />}
+        <Streak value={streak} size={hud} lang={episode.lang} />
         <Pill size={hud} bg={WHITE} fg={INK}>{`⭐ ${points}`}</Pill>
       </div>
       {!vertical && (
@@ -161,7 +163,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
             <Rich text={prompt.value} size={qSize} />
           </div>
           <div style={{ position: "absolute", top: -34, right: -30 }}>
-            <LevelBadge level={level} size={30} tilt={10} />
+            <LevelBadge level={level} size={30} tilt={10} lang={episode.lang} />
           </div>
         </Card>
       </div>
@@ -182,7 +184,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       {showAnswer && frame < delay + 20 && <Burst theme={theme} x={cx(prompt.correct)} y={cy(prompt.correct)} n={44} />}
       {reveal && impossible && !showAnswer && (
         <div style={{ position: "absolute", top: vertical ? 1580 : 880, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 56 * k, color: WHITE, textShadow: `5px 5px 0 ${INK}` }}>
-          <Rich text="Alors… 🥁" size={56 * k} />
+          <Rich text={T.drumroll} size={56 * k} />
         </div>
       )}
 
@@ -190,7 +192,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       {showFact && (
         <div style={{ position: "absolute", bottom: 40, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
           <Sequence from={factAt} layout="none">
-            <FactCard text={item.fact!} theme={theme} />
+            <FactCard text={item.fact!} theme={theme} lang={episode.lang} />
           </Sequence>
         </div>
       )}
@@ -203,7 +205,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       )}
       {reveal && index === brk - 1 && !showFact && (
         <div style={{ position: "absolute", right: vertical ? 40 : 110, bottom: vertical ? 150 : 70 }}>
-          <Pill size={34} bg="#FF3B3B" fg={WHITE} tilt={-6} style={vertical ? { whiteSpace: "normal", textAlign: "center", maxWidth: 620 } : undefined}>💔 Série perdue ? Dis-le en commentaire</Pill>
+          <Pill size={34} bg="#FF3B3B" fg={WHITE} tilt={-6} style={vertical ? { whiteSpace: "normal", textAlign: "center", maxWidth: 620 } : undefined}>{T.streakLost}</Pill>
         </div>
       )}
 
@@ -213,7 +215,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
           <Mascot which={reveal ? "poussin" : "chat"} size={vertical ? 220 : 190} mood={reveal ? (impossible && !showAnswer ? "shock" : "cheer") : "idle"} />
           {!vertical && (
             <div style={{ marginBottom: 90 }}>
-              <Bubble size={32 * k}>{reveal ? (impossible ? "Avoue, tu l'avais pas 😏" : slow ? `Bravo ! +${LEVELS[level].points} points 🎉` : `+${LEVELS[level].points} points 🎉`) : quip}</Bubble>
+              <Bubble size={32 * k}>{reveal ? (impossible ? T.admitIt : slow ? T.pointsWonSlow(LEVELS[level].points) : T.pointsWon(LEVELS[level].points)) : quip}</Bubble>
             </div>
           )}
         </div>

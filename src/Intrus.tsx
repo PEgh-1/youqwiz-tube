@@ -3,7 +3,8 @@ import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurr
 import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, Emoji, Fonts, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, Streak, Ticks, Voice, quipFor, styleOf, themeOf, tiltFor } from "./components";
 import { Score } from "./DevineEn3s";
 import { emojiToCode, splitEmojis } from "./emoji";
-import { FONT_BODY, FONT_DISPLAY, BAD, INK, LEVELS, OK, QUIPS, WHITE } from "./theme";
+import { FONT_BODY, FONT_DISPLAY, BAD, INK, LEVELS, OK, WHITE } from "./theme";
+import { tr } from "./i18n";
 import { SHORT_OPTS, buildTimeline, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD } from "./timeline";
 import type { Episode } from "./types";
 
@@ -107,7 +108,8 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   const brk = streakBreakIndex(episode);
   const streak = index < brk ? index + (reveal ? 1 : 0) : index - brk + (reveal ? 1 : 0);
   const points = totalPoints(episode, index + (reveal ? 1 : 0));
-  const quip = quipFor(episode, QUIPS[level], index);
+  const T = tr(episode);
+  const quip = quipFor(episode, T.quips[level], index);
   const delay = Math.round(0.8 * fps);
   const showAnswer = reveal && (!impossible || frame >= delay);
   const hud = vertical ? 30 : 36;
@@ -128,8 +130,8 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       <div style={{ position: "absolute", top: vertical ? 60 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, flexWrap: "nowrap", justifyContent: "center" }}>
         <Pill size={hud}>{`🎯 ${index + 1} / ${total}`}</Pill>
         {!vertical && <Progress value={(index + (reveal ? 1 : 0)) / total} theme={theme} />}
-        {!vertical && <LevelBadge level={level} size={hud} />}
-        <Streak value={streak} size={hud} />
+        {!vertical && <LevelBadge level={level} size={hud} lang={episode.lang} />}
+        <Streak value={streak} size={hud} lang={episode.lang} />
         <Pill size={hud} bg={WHITE} fg={INK}>{`⭐ ${points}`}</Pill>
       </div>
       {!vertical && (
@@ -177,7 +179,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
           )}
           {reveal && impossible && !showAnswer && (
             <div style={{ position: "absolute", bottom: -52, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-              <Pill size={52 * sc} bg={theme.accent} fg={WHITE} tilt={-3}>Alors… 🥁</Pill>
+              <Pill size={52 * sc} bg={theme.accent} fg={WHITE} tilt={-3}>{T.drumroll}</Pill>
             </div>
           )}
           {showAnswer && (
@@ -189,11 +191,11 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
           )}
           {/* sticker de niveau collé sur la carte */}
           <div style={{ position: "absolute", top: -34, right: -40 }}>
-            <LevelBadge level={level} size={30} tilt={10} />
+            <LevelBadge level={level} size={30} tilt={10} lang={episode.lang} />
           </div>
           {reveal && index === brk - 1 && (
             <div style={{ position: "absolute", top: -36, left: -40 }}>
-              <Pill size={30} bg={BAD} fg={WHITE} tilt={-8}>💔 Série perdue ? Dis-le en commentaire</Pill>
+              <Pill size={30} bg={BAD} fg={WHITE} tilt={-8}>{T.streakLost}</Pill>
             </div>
           )}
         </Card>
@@ -212,7 +214,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
         <Mascot which={reveal ? "poussin" : "chat"} size={vertical ? 210 : 260} mood={reveal ? (impossible && !showAnswer ? "shock" : "cheer") : "idle"} />
         {!vertical && (
           <div style={{ marginBottom: 6 }}>
-            <Bubble size={34}>{reveal ? (impossible ? "Avoue, tu l'avais pas 😏" : `+${LEVELS[level].points} points 🎉`) : quip}</Bubble>
+            <Bubble size={34}>{reveal ? (impossible ? T.admitIt : T.pointsWon(LEVELS[level].points)) : quip}</Bubble>
           </div>
         )}
       </div>
