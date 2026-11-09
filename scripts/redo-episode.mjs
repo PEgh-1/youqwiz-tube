@@ -27,4 +27,13 @@ for (const vid of ids) {
 queue.published = queue.published.filter((x) => x.id !== id);
 delete queue.pending?.[id];
 writeJson(p("data/state/queue.json"), queue);
+// 09/11/2026 : les questions de cet épisode jamais publié redeviennent disponibles (sauf --keep-items, utilisé par le
+// mode « reuse » du workflow qui reprend le même contenu).
+if (!process.argv.includes("--keep-items")) {
+  const used = readJson(p("data/state/used.json"), { items: {}, banks: {} });
+  let freed = 0;
+  for (const [k, d] of Object.entries(used.items)) if (d === r.date) { delete used.items[k]; freed++; }
+  if (freed) writeJson(p("data/state/used.json"), used);
+  console.log(`items libérés : ${freed}`);
+}
 console.log(`file : ${id} retiré ; relancer generate --date ${r.date}`);

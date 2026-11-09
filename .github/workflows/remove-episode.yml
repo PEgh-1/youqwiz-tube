@@ -1,0 +1,44 @@
+# Retire des épisodes programmés (vidéos encore privées) sans les refaire : suppression YouTube, sortie de la file,
+# questions libérées, état commité. Le run quotidien les régénère ensuite à J-3 avec du contenu neuf.
+# 09/11/2026 : créé pour passer l'avance de 7 à 3 jours (13 → 16 nov. retirés).
+name: Retirer des épisodes programmés
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Identifiants d'épisodes séparés par des espaces (ex. 2026-11-13-films-emojis 2026-11-14-tu-preferes)"
+        required: true
+        type: string
+      channel:
+        description: "fr ou en"
+        default: "fr"
+        type: string
+concurrency:
+  group: video-du-jour${{ inputs.channel == 'en' && '-en' || '' }}
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CHANNEL: ${{ inputs.channel }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Supprimer les vidéos privées et sortir de la file
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ inputs.channel == 'en' && secrets.YT_REFRESH_TOKEN_EN || secrets.YT_REFRESH_TOKEN }}
+        run: |
+          for id in ${{ inputs.ids }}; do node scripts/redo-episode.mjs --id "$id"; done
+      - name: Sauvegarder l'état
+        run: |
+          D=${{ inputs.channel == 'en' && 'data-en' || 'data' }}
+          node scripts/save-state.mjs --paths "$D/state" --message "état : retrait de ${{ inputs.ids }}"
