@@ -1,0 +1,1738 @@
+{
+ "question": "Name {cat} starting with…",
+ "hook": "Name {n} WORDS starting with…",
+ "emoji": "🔤🧠⏱️",
+ "slug": "alphabet",
+ "noun": "WORDS",
+ "timing": {
+  "question": 6,
+  "reveal": 2
+ },
+ "tags": [
+  "alphabet",
+  "word game",
+  "name a word",
+  "categories game"
+ ],
+ "items": [
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "an animal"
+   },
+   "answer": "Alligator, Ant, Antelope, Armadillo, Ape",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "an animal"
+   },
+   "answer": "Bear, Bee, Butterfly, Bat, Buffalo",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "an animal"
+   },
+   "answer": "Cat, Cow, Camel, Crocodile, Cheetah",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "an animal"
+   },
+   "answer": "Dog, Duck, Dolphin, Donkey, Deer",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "an animal"
+   },
+   "answer": "Elephant, Eagle, Eel, Elk, Emu",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "an animal"
+   },
+   "answer": "Frog, Fox, Fish, Flamingo, Falcon",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "an animal"
+   },
+   "answer": "Giraffe, Goat, Gorilla, Goose, Gecko",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "an animal"
+   },
+   "answer": "Horse, Hippo, Hamster, Hawk, Hedgehog",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "an animal"
+   },
+   "answer": "Iguana, Impala, Ibis",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "an animal"
+   },
+   "answer": "Jaguar, Jellyfish, Jackal",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "an animal"
+   },
+   "answer": "Kangaroo, Koala, Kiwi, Kingfisher",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "an animal"
+   },
+   "answer": "Lion, Leopard, Lizard, Llama, Lobster",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "an animal"
+   },
+   "answer": "Monkey, Mouse, Moose, Mole, Meerkat",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "an animal"
+   },
+   "answer": "Narwhal, Newt, Nightingale",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "an animal"
+   },
+   "answer": "Octopus, Owl, Otter, Ostrich, Orca",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "an animal"
+   },
+   "answer": "Penguin, Pig, Panda, Parrot, Peacock",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "an animal"
+   },
+   "answer": "Quail, Quokka, Quetzal",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "an animal"
+   },
+   "answer": "Rabbit, Rat, Raccoon, Rhino, Reindeer",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "an animal"
+   },
+   "answer": "Snake, Shark, Sheep, Squirrel, Seal",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "an animal"
+   },
+   "answer": "Tiger, Turtle, Toucan, Toad, Turkey",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "an animal"
+   },
+   "answer": "Uakari, Urial, Umbrellabird",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "an animal"
+   },
+   "answer": "Vulture, Viper, Vole",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "an animal"
+   },
+   "answer": "Whale, Wolf, Walrus, Wombat, Weasel",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "an animal"
+   },
+   "answer": "Xerus, Xenops, X-ray tetra",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "an animal"
+   },
+   "answer": "Yak, Yabby, Yellowjacket",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "an animal"
+   },
+   "answer": "Zebra, Zebu, Zorilla",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "a country"
+   },
+   "answer": "Australia, Argentina, Austria, Albania, Algeria",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "a country"
+   },
+   "answer": "Brazil, Belgium, Bolivia, Bulgaria, Bahamas",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "a country"
+   },
+   "answer": "Canada, China, Chile, Cuba, Colombia",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "a country"
+   },
+   "answer": "Denmark, Djibouti, Dominica",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "a country"
+   },
+   "answer": "Egypt, Ecuador, Estonia, Ethiopia, El Salvador",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "a country"
+   },
+   "answer": "France, Finland, Fiji",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "a country"
+   },
+   "answer": "Germany, Greece, Ghana, Guatemala, Georgia",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "a country"
+   },
+   "answer": "Hungary, Haiti, Honduras",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "a country"
+   },
+   "answer": "Italy, India, Ireland, Iceland, Iran",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "a country"
+   },
+   "answer": "Japan, Jordan, Jamaica",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "a country"
+   },
+   "answer": "Kenya, Kuwait, Kazakhstan, Kiribati",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "a country"
+   },
+   "answer": "Lebanon, Libya, Latvia, Lithuania, Luxembourg",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "a country"
+   },
+   "answer": "Mexico, Morocco, Mali, Malta, Madagascar",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "a country"
+   },
+   "answer": "Norway, Nigeria, Nepal, Netherlands, New Zealand",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "a country"
+   },
+   "answer": "Portugal, Poland, Peru, Panama, Paraguay",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "a country"
+   },
+   "answer": "Russia, Romania, Rwanda",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "a country"
+   },
+   "answer": "Spain, Sweden, Switzerland, Serbia, Senegal",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "a country"
+   },
+   "answer": "Turkey, Thailand, Tunisia, Tanzania, Togo",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "a country"
+   },
+   "answer": "Uganda, Ukraine, Uruguay, Uzbekistan",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "a country"
+   },
+   "answer": "Venezuela, Vietnam, Vanuatu",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "a city"
+   },
+   "answer": "Amsterdam, Athens, Atlanta, Austin, Auckland",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "a city"
+   },
+   "answer": "Berlin, Boston, Barcelona, Beijing, Bangkok",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "a city"
+   },
+   "answer": "Chicago, Cairo, Cape Town, Copenhagen, Cardiff",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "a city"
+   },
+   "answer": "Dallas, Dublin, Denver, Dubai, Detroit",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "a city"
+   },
+   "answer": "Edinburgh, Edmonton, Eindhoven",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "a city"
+   },
+   "answer": "Florence, Frankfurt, Fort Worth",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "a city"
+   },
+   "answer": "Glasgow, Geneva, Guangzhou, Granada",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "a city"
+   },
+   "answer": "Houston, Hamburg, Helsinki, Honolulu, Hanoi",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "a city"
+   },
+   "answer": "Istanbul, Indianapolis, Islamabad",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "a city"
+   },
+   "answer": "Jakarta, Jerusalem, Johannesburg, Jacksonville",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "a city"
+   },
+   "answer": "Kyoto, Kansas City, Kyiv, Karachi, Kuala Lumpur",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "a city"
+   },
+   "answer": "London, Los Angeles, Lisbon, Liverpool, Las Vegas",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "a city"
+   },
+   "answer": "Madrid, Moscow, Miami, Manchester, Milan",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "a city"
+   },
+   "answer": "New York, Naples, Nashville, Nairobi, Nice",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "a city"
+   },
+   "answer": "Oslo, Orlando, Oxford, Ottawa, Osaka",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "a city"
+   },
+   "answer": "Paris, Prague, Phoenix, Perth, Philadelphia",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "a city"
+   },
+   "answer": "Quebec City, Quito, Qingdao",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "a city"
+   },
+   "answer": "Rome, Rio de Janeiro, Reykjavik, Riga, Rotterdam",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "a city"
+   },
+   "answer": "Sydney, Seattle, San Francisco, Seoul, Singapore",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "a city"
+   },
+   "answer": "Tokyo, Toronto, Tampa, Tehran, Tel Aviv",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "a city"
+   },
+   "answer": "Utrecht, Ulaanbaatar, Udaipur",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "a city"
+   },
+   "answer": "Vienna, Venice, Vancouver, Valencia",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "a city"
+   },
+   "answer": "Washington, Warsaw, Wellington, Winnipeg",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "a city"
+   },
+   "answer": "Xi'an, Xiamen, Xalapa",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "a city"
+   },
+   "answer": "Yokohama, York, Yerevan, Yangon",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "a city"
+   },
+   "answer": "Zurich, Zagreb, Zaragoza",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "a first name"
+   },
+   "answer": "Amy, Adam, Alice, Andrew, Anna",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "a first name"
+   },
+   "answer": "Ben, Bella, Brian, Betty, Brandon",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "a first name"
+   },
+   "answer": "Charlie, Chloe, Chris, Claire, Connor",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "a first name"
+   },
+   "answer": "David, Daisy, Daniel, Diana, Dylan",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "a first name"
+   },
+   "answer": "Emma, Ethan, Emily, Eric, Eleanor",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "a first name"
+   },
+   "answer": "Fiona, Frank, Freddie, Felix, Faith",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "a first name"
+   },
+   "answer": "George, Grace, Gary, Gemma, Gabriel",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "a first name"
+   },
+   "answer": "Hannah, Harry, Henry, Holly, Hugo",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "a first name"
+   },
+   "answer": "Isabella, Ian, Ivy, Isaac, Imogen",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "a first name"
+   },
+   "answer": "James, Jack, Jessica, John, Julia",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "a first name"
+   },
+   "answer": "Kate, Kevin, Katie, Kyle, Karen",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "a first name"
+   },
+   "answer": "Lucy, Liam, Laura, Leo, Lily",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "a first name"
+   },
+   "answer": "Mary, Michael, Megan, Max, Mia",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "a first name"
+   },
+   "answer": "Nick, Nora, Nathan, Nina, Noah",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "a first name"
+   },
+   "answer": "Oliver, Olivia, Oscar, Owen, Ophelia",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "a first name"
+   },
+   "answer": "Peter, Paul, Polly, Patrick, Penny",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "a first name"
+   },
+   "answer": "Quinn, Quentin, Queenie",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "a first name"
+   },
+   "answer": "Rachel, Robert, Ruby, Ryan, Rose",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "a first name"
+   },
+   "answer": "Sarah, Sam, Sophie, Steven, Scott",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "a first name"
+   },
+   "answer": "Tom, Tina, Theo, Tara, Tyler",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "a first name"
+   },
+   "answer": "Ursula, Uma, Ulysses, Uriah",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "a first name"
+   },
+   "answer": "Victoria, Vincent, Violet, Vanessa, Victor",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "a first name"
+   },
+   "answer": "William, Wendy, Walter, Willow, Wyatt",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "a first name"
+   },
+   "answer": "Xavier, Xander, Ximena",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "a first name"
+   },
+   "answer": "Yvonne, Yasmin, Yusuf, Yolanda",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "a first name"
+   },
+   "answer": "Zoe, Zach, Zara, Zane",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "a job"
+   },
+   "answer": "Actor, Artist, Astronaut, Architect, Accountant",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "a job"
+   },
+   "answer": "Baker, Banker, Builder, Butcher, Barber",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "a job"
+   },
+   "answer": "Chef, Carpenter, Cashier, Coach, Cleaner",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "a job"
+   },
+   "answer": "Doctor, Dentist, Driver, Detective, Designer",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "a job"
+   },
+   "answer": "Electrician, Engineer, Editor, Economist",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "a job"
+   },
+   "answer": "Firefighter, Farmer, Florist, Fisherman, Flight attendant",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "a job"
+   },
+   "answer": "Gardener, Guard, Grocer, Geologist, Guitarist",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "a job"
+   },
+   "answer": "Hairdresser, Housekeeper, Hunter, Historian",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "a job"
+   },
+   "answer": "Illustrator, Inventor, Interpreter, Instructor",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "a job"
+   },
+   "answer": "Judge, Journalist, Janitor, Jeweler, Jockey",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "a job"
+   },
+   "answer": "Karate teacher, Kitchen assistant, Kindergarten teacher",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "a job"
+   },
+   "answer": "Lawyer, Librarian, Lifeguard, Lumberjack, Lecturer",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "a job"
+   },
+   "answer": "Mechanic, Musician, Mayor, Magician, Manager",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "a job"
+   },
+   "answer": "Nurse, Newsreader, Navigator, Notary",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "a job"
+   },
+   "answer": "Optician, Office worker, Orthodontist, Operator",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "a job"
+   },
+   "answer": "Pilot, Plumber, Police officer, Painter, Photographer",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "a job"
+   },
+   "answer": "Quarry worker, Quilter, Quantity surveyor",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "a job"
+   },
+   "answer": "Receptionist, Reporter, Researcher, Roofer, Ranger",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "a job"
+   },
+   "answer": "Scientist, Singer, Surgeon, Sailor, Secretary",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "a job"
+   },
+   "answer": "Teacher, Tailor, Taxi driver, Translator, Tiler",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "a job"
+   },
+   "answer": "Umpire, Usher, Upholsterer, Underwriter",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "a job"
+   },
+   "answer": "Vet, Violinist, Vendor, Valet, Videographer",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "a job"
+   },
+   "answer": "Waiter, Welder, Writer, Window cleaner, Weaver",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "X",
+    "category": "a job"
+   },
+   "answer": "X-ray technician, Xylophonist, Xylographer",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "a job"
+   },
+   "answer": "Yoga instructor, Yacht captain, Youth worker",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "a job"
+   },
+   "answer": "Zookeeper, Zoologist, Zumba instructor",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Apple, Apricot, Avocado, Asparagus, Artichoke",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Banana, Blueberry, Broccoli, Beet, Blackberry",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Carrot, Cherry, Cucumber, Cabbage, Cauliflower",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Date, Dragon fruit, Damson",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Eggplant, Endive, Elderberry",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Fig, Fennel, Fava bean",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Grape, Grapefruit, Garlic, Guava, Gooseberry",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Honeydew, Huckleberry, Habanero",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Jalapeño, Jackfruit, Jicama",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Kiwi, Kale, Kumquat, Kohlrabi",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Lemon, Lime, Lettuce, Leek, Lychee",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Mango, Melon, Mushroom, Mandarin, Mulberry",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Nectarine, Napa cabbage, Nashi pear",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Orange, Onion, Olive, Okra",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Pear, Peach, Pineapple, Potato, Pumpkin",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Raspberry, Radish, Rhubarb, Red cabbage",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Strawberry, Spinach, Squash, Sweet potato, Satsuma",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Tomato, Tangerine, Turnip, Tamarind, Tangelo",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Watermelon, Watercress, White cabbage",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "a fruit or vegetable"
+   },
+   "answer": "Yam, Yellow pepper, Yellow squash",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "a household object"
+   },
+   "answer": "Armchair, Alarm clock, Air conditioner, Antenna",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "a household object"
+   },
+   "answer": "Bed, Bathtub, Blanket, Broom, Bookshelf",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "a household object"
+   },
+   "answer": "Chair, Couch, Curtain, Cup, Carpet",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "a household object"
+   },
+   "answer": "Door, Desk, Dishwasher, Drawer, Doormat",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "E",
+    "category": "a household object"
+   },
+   "answer": "Eggcup, Extension cord, Eraser",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "a household object"
+   },
+   "answer": "Fridge, Fork, Fan, Freezer, Frying pan",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "a household object"
+   },
+   "answer": "Glass, Grater, Garden hose, Gloves",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "a household object"
+   },
+   "answer": "Hairdryer, Hanger, Heater, Hammer, Hat stand",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "a household object"
+   },
+   "answer": "Iron, Ironing board, Ice tray",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "a household object"
+   },
+   "answer": "Jar, Jug, Jewelry box",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "a household object"
+   },
+   "answer": "Kettle, Knife, Key, Kitchen sink, Keyboard",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "a household object"
+   },
+   "answer": "Lamp, Lock, Laptop, Ladder, Laundry basket",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "a household object"
+   },
+   "answer": "Mirror, Mug, Microwave, Mop, Mattress",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "a household object"
+   },
+   "answer": "Napkin, Needle, Nightstand, Notebook",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "a household object"
+   },
+   "answer": "Oven, Ottoman, Oven mitt, Oil lamp",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "a household object"
+   },
+   "answer": "Pillow, Plate, Pan, Painting, Plant pot",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Q",
+    "category": "a household object"
+   },
+   "answer": "Quilt, Quiche dish, Quartz clock",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "a household object"
+   },
+   "answer": "Radio, Rug, Refrigerator, Remote control, Rolling pin",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "a household object"
+   },
+   "answer": "Sofa, Sink, Spoon, Stove, Shower",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "a household object"
+   },
+   "answer": "Table, TV, Toaster, Towel, Teapot",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "a household object"
+   },
+   "answer": "Umbrella, Utensil, Umbrella stand",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "a household object"
+   },
+   "answer": "Vase, Vacuum cleaner, Venetian blind",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "a household object"
+   },
+   "answer": "Washing machine, Wardrobe, Window, Wastebasket",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "a household object"
+   },
+   "answer": "Yoga mat, Yo-yo, Yarn",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "A",
+    "category": "a sport"
+   },
+   "answer": "Archery, Athletics, Aerobics, American football",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "B",
+    "category": "a sport"
+   },
+   "answer": "Baseball, Basketball, Boxing, Badminton, Bowling",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "C",
+    "category": "a sport"
+   },
+   "answer": "Cricket, Cycling, Curling, Canoeing, Climbing",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "D",
+    "category": "a sport"
+   },
+   "answer": "Diving, Darts, Dodgeball, Dressage",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "F",
+    "category": "a sport"
+   },
+   "answer": "Football, Fencing, Frisbee, Figure skating, Fishing",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "G",
+    "category": "a sport"
+   },
+   "answer": "Golf, Gymnastics, Go-karting, Gaelic football",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "H",
+    "category": "a sport"
+   },
+   "answer": "Hockey, Handball, Horse riding, Hiking, High jump",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "I",
+    "category": "a sport"
+   },
+   "answer": "Ice hockey, Ice skating, Ice climbing",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "J",
+    "category": "a sport"
+   },
+   "answer": "Judo, Javelin, Jogging, Jiu-jitsu, Jet skiing",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "K",
+    "category": "a sport"
+   },
+   "answer": "Karate, Kayaking, Kickboxing, Kitesurfing, Korfball",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "L",
+    "category": "a sport"
+   },
+   "answer": "Lacrosse, Luge, Long jump",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "M",
+    "category": "a sport"
+   },
+   "answer": "Marathon, Mountain biking, Motocross, Martial arts",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "N",
+    "category": "a sport"
+   },
+   "answer": "Netball, Nordic skiing, Nine-ball",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "O",
+    "category": "a sport"
+   },
+   "answer": "Orienteering, Obstacle racing, Open-water swimming",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "P",
+    "category": "a sport"
+   },
+   "answer": "Polo, Ping-pong, Pole vault, Pilates, Paddleboarding",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "R",
+    "category": "a sport"
+   },
+   "answer": "Rugby, Running, Rowing, Roller skating, Racquetball",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "S",
+    "category": "a sport"
+   },
+   "answer": "Soccer, Swimming, Skiing, Surfing, Skateboarding",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "T",
+    "category": "a sport"
+   },
+   "answer": "Tennis, Table tennis, Triathlon, Taekwondo, Trampolining",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "U",
+    "category": "a sport"
+   },
+   "answer": "Ultimate frisbee, Ultramarathon, Underwater hockey",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "V",
+    "category": "a sport"
+   },
+   "answer": "Volleyball, Vaulting, Vert skating",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "W",
+    "category": "a sport"
+   },
+   "answer": "Wrestling, Water polo, Weightlifting, Windsurfing, Wakeboarding",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Y",
+    "category": "a sport"
+   },
+   "answer": "Yoga, Yachting, Yacht racing",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "letter",
+    "value": "Z",
+    "category": "a sport"
+   },
+   "answer": "Zorbing, Zumba, Zip-lining",
+   "level": "difficile"
+  }
+ ]
+}

@@ -330,7 +330,8 @@ export const PromptView: React.FC<{ prompt: Prompt; theme: Theme; big: number; v
         <div style={{ width: s, height: s, borderRadius: 999, background: theme.accent, border: `10px solid ${INK}`, boxShadow: `12px 12px 0 ${INK}`, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: s * 0.66, color: WHITE, transform: "rotate(-4deg)" }}>
           {prompt.value}
         </div>
-        <Pill size={Math.min(52, s * 0.16)} bg={theme.soft} tilt={2}>{prompt.category}</Pill>
+        {/* Vignettes de miniature (maxW < 500) : la catégorie ne tient pas à côté de la lettre, elle débordait de la case (09/11/2026). */}
+        {(!maxW || maxW >= 500) && <Pill size={Math.min(52, s * 0.16)} bg={theme.soft} tilt={2}>{prompt.category}</Pill>}
       </div>
     );
   }

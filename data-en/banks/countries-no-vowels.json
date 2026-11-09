@@ -1,0 +1,1414 @@
+{
+ "question": "Which country is this, without its vowels?",
+ "hook": "Guess {n} COUNTRIES with NO VOWELS",
+ "emoji": "🌍🚩✅",
+ "slug": "countries-no-vowels",
+ "noun": "COUNTRIES with NO VOWELS",
+ "tags": [
+  "countries",
+  "geography",
+  "country quiz",
+  "no vowels"
+ ],
+ "items": [
+  {
+   "prompt": {
+    "type": "text",
+    "value": "FR_NC_"
+   },
+   "answer": "France",
+   "fact": "France has more time zones than any other country, thanks to its overseas territories."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G_RM_N_"
+   },
+   "answer": "Germany",
+   "fact": "Germany shares its borders with nine countries."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_T_L_"
+   },
+   "answer": "Italy",
+   "fact": "Italy surrounds two tiny independent states: Vatican City and San Marino."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "SP__N"
+   },
+   "answer": "Spain"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_RT_G_L"
+   },
+   "answer": "Portugal"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_LG__M"
+   },
+   "answer": "Belgium"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "SW_TZ_RL_ND"
+   },
+   "answer": "Switzerland",
+   "fact": "Switzerland has four national languages, including Romansh."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_TH_RL_NDS"
+   },
+   "answer": "Netherlands",
+   "fact": "A big part of the Netherlands lies below sea level."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_N_T_D K_NGD_M"
+   },
+   "answer": "United Kingdom"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_R_L_ND"
+   },
+   "answer": "Ireland"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_N_T_D ST_T_S"
+   },
+   "answer": "United States"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_N_D_"
+   },
+   "answer": "Canada",
+   "fact": "Canada has the longest coastline in the world."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_X_C_"
+   },
+   "answer": "Mexico",
+   "fact": "Mexico City was built on top of an ancient lake."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "BR_Z_L"
+   },
+   "answer": "Brazil",
+   "fact": "Brazil is named after brazilwood, a tree that gave a red dye."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_RG_NT_N_"
+   },
+   "answer": "Argentina",
+   "fact": "Argentina's name comes from the Latin word argentum, meaning “silver”."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "CH_L_"
+   },
+   "answer": "Chile",
+   "fact": "Chile is a very long, thin country, over 4,000 kilometers from north to south."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_R_"
+   },
+   "answer": "Peru"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_L_MB__"
+   },
+   "answer": "Colombia",
+   "fact": "Colombia is named after the explorer Christopher Columbus."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_B_"
+   },
+   "answer": "Cuba"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "J_P_N"
+   },
+   "answer": "Japan",
+   "fact": "Japan is made up of more than six thousand islands."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "CH_N_"
+   },
+   "answer": "China"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__TH K_R__"
+   },
+   "answer": "South Korea"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_ND__"
+   },
+   "answer": "India",
+   "fact": "India has been the most populous country in the world since 2023."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "TH__L_ND"
+   },
+   "answer": "Thailand"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "V__TN_M"
+   },
+   "answer": "Vietnam"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_ND_N_S__"
+   },
+   "answer": "Indonesia",
+   "fact": "Indonesia has more than seventeen thousand islands."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "__STR_L__"
+   },
+   "answer": "Australia",
+   "fact": "Australia is both a country and a continent."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_W Z__L_ND"
+   },
+   "answer": "New Zealand",
+   "fact": "New Zealand has far more sheep than people."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_G_PT"
+   },
+   "answer": "Egypt",
+   "fact": "Egypt's Great Pyramid was the tallest structure in the world for almost 4,000 years."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_R_CC_"
+   },
+   "answer": "Morocco"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_LG_R__"
+   },
+   "answer": "Algeria",
+   "fact": "Algeria is the largest country in Africa."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_N_S__"
+   },
+   "answer": "Tunisia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_N_G_L"
+   },
+   "answer": "Senegal"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_V_R_ C__ST"
+   },
+   "answer": "Ivory Coast"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_G_R__"
+   },
+   "answer": "Nigeria"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "K_N__"
+   },
+   "answer": "Kenya"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__TH _FR_C_"
+   },
+   "answer": "South Africa",
+   "fact": "South Africa has three capital cities: Pretoria, Cape Town and Bloemfontein."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_D_G_SC_R"
+   },
+   "answer": "Madagascar"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "R_SS__"
+   },
+   "answer": "Russia",
+   "fact": "Russia is the largest country in the world and spans eleven time zones."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_KR__N_"
+   },
+   "answer": "Ukraine"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_L_ND"
+   },
+   "answer": "Poland"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "SW_D_N"
+   },
+   "answer": "Sweden"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_RW__"
+   },
+   "answer": "Norway"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "F_NL_ND"
+   },
+   "answer": "Finland",
+   "fact": "Finland has around 188,000 lakes."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "D_NM_RK"
+   },
+   "answer": "Denmark"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_C_L_ND"
+   },
+   "answer": "Iceland",
+   "fact": "Iceland has no mosquitoes, even though it is full of lakes."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "GR__C_"
+   },
+   "answer": "Greece",
+   "fact": "Greece has well over a thousand islands scattered across the Aegean and Ionian seas."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_RK__"
+   },
+   "answer": "Turkey",
+   "fact": "Istanbul, in Turkey, is a city that sits on both Europe and Asia."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "__STR__"
+   },
+   "answer": "Austria"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "CZ_CH R_P_BL_C"
+   },
+   "answer": "Czech Republic"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "H_NG_R_"
+   },
+   "answer": "Hungary"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "R_M_N__"
+   },
+   "answer": "Romania"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "CR__T__"
+   },
+   "answer": "Croatia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__D_ _R_B__"
+   },
+   "answer": "Saudi Arabia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_N_T_D _R_B _M_R_T_S"
+   },
+   "answer": "United Arab Emirates"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_SR__L"
+   },
+   "answer": "Israel"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_R_N"
+   },
+   "answer": "Iran"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_K_ST_N"
+   },
+   "answer": "Pakistan"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_NG_L__"
+   },
+   "answer": "Mongolia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_P_L"
+   },
+   "answer": "Nepal"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "PH_L_PP_N_S"
+   },
+   "answer": "Philippines",
+   "fact": "The Philippines are named after King Philip II of Spain."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_L__S__"
+   },
+   "answer": "Malaysia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "J_M__C_"
+   },
+   "answer": "Jamaica"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_X_MB__RG"
+   },
+   "answer": "Luxembourg",
+   "fact": "Luxembourg is the only grand duchy in the world."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_N_C_"
+   },
+   "answer": "Monaco",
+   "fact": "Monaco is the second smallest country in the world."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "Q_T_R"
+   },
+   "answer": "Qatar"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_TH__P__"
+   },
+   "answer": "Ethiopia",
+   "fact": "Ethiopia uses a calendar with thirteen months."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "GH_N_"
+   },
+   "answer": "Ghana"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_M_R__N"
+   },
+   "answer": "Cameroon",
+   "fact": "Cameroon's name comes from the Portuguese word “camarões”, meaning “shrimp”."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_NGL_D_SH"
+   },
+   "answer": "Bangladesh"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_ND_RR_"
+   },
+   "answer": "Andorra",
+   "fact": "Andorra is the only country where Catalan is the sole official language."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_FGH_N_ST_N"
+   },
+   "answer": "Afghanistan"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_NT_G__ _ND B_RB_D_"
+   },
+   "answer": "Antigua and Barbuda"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_LB_N__"
+   },
+   "answer": "Albania"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_RM_N__"
+   },
+   "answer": "Armenia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_NG_L_"
+   },
+   "answer": "Angola"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_Z_RB__J_N"
+   },
+   "answer": "Azerbaijan"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_SN__ _ND H_RZ_G_V_N_"
+   },
+   "answer": "Bosnia and Herzegovina"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_RB_D_S"
+   },
+   "answer": "Barbados"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_RK_N_ F_S_"
+   },
+   "answer": "Burkina Faso"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_LG_R__"
+   },
+   "answer": "Bulgaria"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_HR__N"
+   },
+   "answer": "Bahrain"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_R_ND_"
+   },
+   "answer": "Burundi"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_N_N"
+   },
+   "answer": "Benin"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "BR_N__"
+   },
+   "answer": "Brunei"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_L_V__"
+   },
+   "answer": "Bolivia",
+   "fact": "Bolivia is named after Simón Bolívar, a hero of South American independence."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_H_M_S"
+   },
+   "answer": "Bahamas"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "BH_T_N"
+   },
+   "answer": "Bhutan",
+   "fact": "Bhutan measures the “Gross National Happiness” of its people."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_TSW_N_"
+   },
+   "answer": "Botswana"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_L_R_S"
+   },
+   "answer": "Belarus"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_L_Z_"
+   },
+   "answer": "Belize"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "DR C_NG_"
+   },
+   "answer": "DR Congo"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_NTR_L _FR_C_N R_P_BL_C"
+   },
+   "answer": "Central African Republic"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "R_P_BL_C _F TH_ C_NG_"
+   },
+   "answer": "Republic of the Congo"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_ST_ R_C_"
+   },
+   "answer": "Costa Rica",
+   "fact": "Costa Rica means “rich coast” in Spanish."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_P_ V_RD_"
+   },
+   "answer": "Cape Verde"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_PR_S"
+   },
+   "answer": "Cyprus"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "DJ_B__T_"
+   },
+   "answer": "Djibouti"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "D_M_N_C_"
+   },
+   "answer": "Dominica"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "D_M_N_C_N R_P_BL_C"
+   },
+   "answer": "Dominican Republic"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_C__D_R"
+   },
+   "answer": "Ecuador",
+   "fact": "Ecuador is named after the imaginary line that cuts the Earth in two: the equator."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_ST_N__"
+   },
+   "answer": "Estonia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_R_TR__"
+   },
+   "answer": "Eritrea"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "F_J_"
+   },
+   "answer": "Fiji"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_CR_N_S__"
+   },
+   "answer": "Micronesia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G_B_N"
+   },
+   "answer": "Gabon"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "GR_N_D_"
+   },
+   "answer": "Grenada"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G__RG__"
+   },
+   "answer": "Georgia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G_MB__"
+   },
+   "answer": "Gambia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G__N__"
+   },
+   "answer": "Guinea"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_Q__T_R__L G__N__"
+   },
+   "answer": "Equatorial Guinea"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G__T_M_L_"
+   },
+   "answer": "Guatemala"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G__N__-B_SS__"
+   },
+   "answer": "Guinea-Bissau"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G___N_"
+   },
+   "answer": "Guyana"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "H_ND_R_S"
+   },
+   "answer": "Honduras"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "H__T_"
+   },
+   "answer": "Haiti"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_R_Q"
+   },
+   "answer": "Iraq"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "J_RD_N"
+   },
+   "answer": "Jordan"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "K_RG_ZST_N"
+   },
+   "answer": "Kyrgyzstan"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_MB_D__"
+   },
+   "answer": "Cambodia",
+   "fact": "In Cambodia, the Tonlé Sap is a river that changes its flow direction with the seasons."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "K_R_B_T_"
+   },
+   "answer": "Kiribati"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_M_R_S"
+   },
+   "answer": "Comoros"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__NT K_TTS _ND N_V_S"
+   },
+   "answer": "Saint Kitts and Nevis"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_RTH K_R__"
+   },
+   "answer": "North Korea"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "K_W__T"
+   },
+   "answer": "Kuwait"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "K_Z_KHST_N"
+   },
+   "answer": "Kazakhstan",
+   "fact": "Kazakhstan is the largest landlocked country in the world."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L__S"
+   },
+   "answer": "Laos"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_B_N_N"
+   },
+   "answer": "Lebanon"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__NT L_C__"
+   },
+   "answer": "Saint Lucia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L__CHT_NST__N"
+   },
+   "answer": "Liechtenstein",
+   "fact": "Liechtenstein is one of only two doubly landlocked countries in the world."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "SR_ L_NK_"
+   },
+   "answer": "Sri Lanka",
+   "fact": "Sri Lanka means “resplendent island”."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_B_R__"
+   },
+   "answer": "Liberia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_S_TH_"
+   },
+   "answer": "Lesotho"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_TH__N__"
+   },
+   "answer": "Lithuania"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_TV__"
+   },
+   "answer": "Latvia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_B__"
+   },
+   "answer": "Libya"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_LD_V_"
+   },
+   "answer": "Moldova"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_NT_N_GR_"
+   },
+   "answer": "Montenegro"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_RSH_LL _SL_NDS"
+   },
+   "answer": "Marshall Islands"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_RTH M_C_D_N__"
+   },
+   "answer": "North Macedonia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_L_"
+   },
+   "answer": "Mali"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M__R_T_N__"
+   },
+   "answer": "Mauritania"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_LT_"
+   },
+   "answer": "Malta"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M__R_T__S"
+   },
+   "answer": "Mauritius"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_LD_V_S"
+   },
+   "answer": "Maldives",
+   "fact": "The highest natural point in the Maldives is less than three meters above sea level."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_L_W_"
+   },
+   "answer": "Malawi"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_Z_MB_Q__"
+   },
+   "answer": "Mozambique"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_M_B__"
+   },
+   "answer": "Namibia",
+   "fact": "Namibia is named after the Namib Desert, one of the oldest deserts in the world."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_G_R"
+   },
+   "answer": "Niger"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N_C_R_G__"
+   },
+   "answer": "Nicaragua"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "N__R_"
+   },
+   "answer": "Nauru",
+   "fact": "Nauru is the smallest island country in the world."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_M_N"
+   },
+   "answer": "Oman"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_N_M_"
+   },
+   "answer": "Panama"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_P__ N_W G__N__"
+   },
+   "answer": "Papua New Guinea"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_L__"
+   },
+   "answer": "Palau"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_R_G___"
+   },
+   "answer": "Paraguay"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_RB__"
+   },
+   "answer": "Serbia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "RW_ND_"
+   },
+   "answer": "Rwanda"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_L_M_N _SL_NDS"
+   },
+   "answer": "Solomon Islands"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__CH_LL_S"
+   },
+   "answer": "Seychelles",
+   "fact": "The Seychelles are home to the coco de mer, which has the biggest seed in the world."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_D_N"
+   },
+   "answer": "Sudan"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_NG_P_R_"
+   },
+   "answer": "Singapore",
+   "fact": "Singapore is a city, an island and a country all at once."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "SL_V_N__"
+   },
+   "answer": "Slovenia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "SL_V_K__"
+   },
+   "answer": "Slovakia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__RR_ L__N_"
+   },
+   "answer": "Sierra Leone"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_N M_R_N_"
+   },
+   "answer": "San Marino"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_M_L__"
+   },
+   "answer": "Somalia"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_R_N_M_"
+   },
+   "answer": "Suriname"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__TH S_D_N"
+   },
+   "answer": "South Sudan",
+   "fact": "South Sudan is the youngest country in the world, born in 2011."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__ T_M_ _ND PR_NC_P_"
+   },
+   "answer": "Sao Tome and Principe"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_L S_LV_D_R"
+   },
+   "answer": "El Salvador"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_R__"
+   },
+   "answer": "Syria"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_SW_T_N_"
+   },
+   "answer": "Eswatini"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "CH_D"
+   },
+   "answer": "Chad"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_G_"
+   },
+   "answer": "Togo"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_J_K_ST_N"
+   },
+   "answer": "Tajikistan"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_M_R-L_ST_"
+   },
+   "answer": "Timor-Leste"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_RKM_N_ST_N"
+   },
+   "answer": "Turkmenistan"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_NG_"
+   },
+   "answer": "Tonga"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "TR_N_D_D _ND T_B_G_"
+   },
+   "answer": "Trinidad and Tobago"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_V_L_"
+   },
+   "answer": "Tuvalu"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_NZ_N__"
+   },
+   "answer": "Tanzania",
+   "fact": "Tanzania is home to Mount Kilimanjaro, the highest peak in Africa."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_G_ND_"
+   },
+   "answer": "Uganda"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_R_G___"
+   },
+   "answer": "Uruguay"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_ZB_K_ST_N"
+   },
+   "answer": "Uzbekistan"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "V_T_C_N C_T_"
+   },
+   "answer": "Vatican City",
+   "fact": "Vatican City is the smallest country in the world, at under one square kilometer."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__NT V_NC_NT _ND TH_ GR_N_D_N_S"
+   },
+   "answer": "Saint Vincent and the Grenadines"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "V_N_Z__L_"
+   },
+   "answer": "Venezuela",
+   "fact": "Venezuela is home to Angel Falls, the tallest waterfall in the world."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "V_N__T_"
+   },
+   "answer": "Vanuatu"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_M__"
+   },
+   "answer": "Samoa"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "__M_N"
+   },
+   "answer": "Yemen"
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "Z_MB__"
+   },
+   "answer": "Zambia",
+   "fact": "Victoria Falls lies on the border between Zambia and Zimbabwe."
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "Z_MB_BW_"
+   },
+   "answer": "Zimbabwe"
+  }
+ ]
+}

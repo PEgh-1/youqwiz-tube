@@ -1,0 +1,1507 @@
+{
+ "question": "Which WORD is hiding behind these emojis?",
+ "hook": "Guess {n} WORDS in EMOJIS",
+ "emoji": "😀🧩❓",
+ "slug": "words-emojis",
+ "noun": "WORDS in EMOJIS",
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "tags": [
+  "emojis",
+  "rebus",
+  "emoji puzzles",
+  "word quiz"
+ ],
+ "rankNote": "Editorial ranking by how obvious the rebus is (1 = most obvious), ordered by level then clarity inside each level.",
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌞🌻"
+   },
+   "answer": "Sunflower",
+   "level": "facile",
+   "rank": 1,
+   "fact": "A young sunflower turns its flower to follow the sun across the sky during the day."
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔥🚛"
+   },
+   "answer": "Fire truck",
+   "level": "facile",
+   "rank": 2
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "❄️⛄"
+   },
+   "answer": "Snowman",
+   "level": "facile",
+   "rank": 3
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌧️☂️"
+   },
+   "answer": "Umbrella",
+   "level": "facile",
+   "rank": 4
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏖️☀️"
+   },
+   "answer": "Vacation",
+   "level": "facile",
+   "rank": 5
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎂🕯️"
+   },
+   "answer": "Birthday",
+   "level": "facile",
+   "rank": 6
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎄🎁"
+   },
+   "answer": "Christmas",
+   "level": "facile",
+   "rank": 7
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐰🥚"
+   },
+   "answer": "Easter",
+   "level": "facile",
+   "rank": 8
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎃👻"
+   },
+   "answer": "Halloween",
+   "level": "facile",
+   "rank": 9
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💍❤️"
+   },
+   "answer": "Wedding ring",
+   "level": "facile",
+   "rank": 10
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎬🍿"
+   },
+   "answer": "Movie",
+   "level": "facile",
+   "rank": 11
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⛺🔥"
+   },
+   "answer": "Campfire",
+   "level": "facile",
+   "rank": 12
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝🍯"
+   },
+   "answer": "Honey",
+   "level": "facile",
+   "rank": 13
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌊🏄"
+   },
+   "answer": "Surfing",
+   "level": "facile",
+   "rank": 14
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📚🏫"
+   },
+   "answer": "School",
+   "level": "facile",
+   "rank": 15
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌽🍿"
+   },
+   "answer": "Popcorn",
+   "level": "facile",
+   "rank": 16
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥐☕"
+   },
+   "answer": "Breakfast",
+   "level": "facile",
+   "rank": 17
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍕🇮🇹"
+   },
+   "answer": "Pizza",
+   "level": "facile",
+   "rank": 18
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🗼🇫🇷"
+   },
+   "answer": "Eiffel Tower",
+   "level": "facile",
+   "rank": 19
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍫🥛"
+   },
+   "answer": "Hot chocolate",
+   "level": "facile",
+   "rank": 20
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍓🍰"
+   },
+   "answer": "Strawberry cake",
+   "level": "facile",
+   "rank": 21
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🥧"
+   },
+   "answer": "Apple pie",
+   "level": "facile",
+   "rank": 22
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥔🍟"
+   },
+   "answer": "French fries",
+   "level": "facile",
+   "rank": 23
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚀🌕"
+   },
+   "answer": "Moon landing",
+   "level": "facile",
+   "rank": 24
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚂🛤️"
+   },
+   "answer": "Train",
+   "level": "facile",
+   "rank": 25
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏊🌊"
+   },
+   "answer": "Swimming",
+   "level": "facile",
+   "rank": 26
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚽🥅"
+   },
+   "answer": "Goal",
+   "level": "facile",
+   "rank": 27
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎹🎶"
+   },
+   "answer": "Piano",
+   "level": "facile",
+   "rank": 28
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎤🎶"
+   },
+   "answer": "Singer",
+   "level": "facile",
+   "rank": 29
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎨🖌️"
+   },
+   "answer": "Painter",
+   "level": "facile",
+   "rank": 30
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏥🚑"
+   },
+   "answer": "Hospital",
+   "level": "facile",
+   "rank": 31
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌳🍎"
+   },
+   "answer": "Apple tree",
+   "level": "facile",
+   "rank": 32
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌴🥥"
+   },
+   "answer": "Coconut tree",
+   "level": "facile",
+   "rank": 33
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐒🍌"
+   },
+   "answer": "Banana",
+   "level": "facile",
+   "rank": 34
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦷🪥"
+   },
+   "answer": "Toothbrush",
+   "level": "facile",
+   "rank": 35
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚿🧼"
+   },
+   "answer": "Shower",
+   "level": "facile",
+   "rank": 36
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛏️😴"
+   },
+   "answer": "Bedtime",
+   "level": "facile",
+   "rank": 37
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔑🚪"
+   },
+   "answer": "Key",
+   "level": "facile",
+   "rank": 38
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎆🎇"
+   },
+   "answer": "Fireworks",
+   "level": "facile",
+   "rank": 39
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧜🌊"
+   },
+   "answer": "Mermaid",
+   "level": "facile",
+   "rank": 40
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐶🏠"
+   },
+   "answer": "Doghouse",
+   "level": "facile",
+   "rank": 41
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌙⭐"
+   },
+   "answer": "Starry night",
+   "level": "facile",
+   "rank": 42
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔥🐶"
+   },
+   "answer": "Hot dog",
+   "level": "facile",
+   "rank": 43
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⭐🐟"
+   },
+   "answer": "Starfish",
+   "level": "facile",
+   "rank": 44
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐄🤠"
+   },
+   "answer": "Cowboy",
+   "level": "facile",
+   "rank": 45
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐱🐟"
+   },
+   "answer": "Catfish",
+   "level": "facile",
+   "rank": 46
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌊🐴"
+   },
+   "answer": "Seahorse",
+   "level": "facile",
+   "rank": 47
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏖️🏰"
+   },
+   "answer": "Sandcastle",
+   "level": "facile",
+   "rank": 48
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🗺️💰"
+   },
+   "answer": "Treasure map",
+   "level": "facile",
+   "rank": 49
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💰🐷"
+   },
+   "answer": "Piggy bank",
+   "level": "facile",
+   "rank": 50
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎧🎵"
+   },
+   "answer": "Headphones",
+   "level": "facile",
+   "rank": 51
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍯🌙"
+   },
+   "answer": "Honeymoon",
+   "level": "moyen",
+   "rank": 52
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📖🐛"
+   },
+   "answer": "Bookworm",
+   "level": "moyen",
+   "rank": 53
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☕🍰"
+   },
+   "answer": "Cupcake",
+   "level": "moyen",
+   "rank": 54
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌧️🏹"
+   },
+   "answer": "Rainbow",
+   "level": "moyen",
+   "rank": 55
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧈🪰"
+   },
+   "answer": "Butterfly",
+   "level": "moyen",
+   "rank": 56,
+   "fact": "A butterfly tastes with its feet."
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌲🍎"
+   },
+   "answer": "Pineapple",
+   "level": "moyen",
+   "rank": 57
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌞👓"
+   },
+   "answer": "Sunglasses",
+   "level": "moyen",
+   "rank": 58
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦷🧴"
+   },
+   "answer": "Toothpaste",
+   "level": "moyen",
+   "rank": 59
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👁️⚽"
+   },
+   "answer": "Eyeball",
+   "level": "moyen",
+   "rank": 60
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐴👟"
+   },
+   "answer": "Horseshoe",
+   "level": "moyen",
+   "rank": 61
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔦🏠"
+   },
+   "answer": "Lighthouse",
+   "level": "moyen",
+   "rank": 62
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚫📋"
+   },
+   "answer": "Blackboard",
+   "level": "moyen",
+   "rank": 63
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🟢🏠"
+   },
+   "answer": "Greenhouse",
+   "level": "moyen",
+   "rank": 64
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧺🏀"
+   },
+   "answer": "Basketball",
+   "level": "moyen",
+   "rank": 65
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☁️🏢"
+   },
+   "answer": "Skyscraper",
+   "level": "moyen",
+   "rank": 66
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥇🐟"
+   },
+   "answer": "Goldfish",
+   "level": "moyen",
+   "rank": 67
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔵🐦"
+   },
+   "answer": "Bluebird",
+   "level": "moyen",
+   "rank": 68
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌧️🧥"
+   },
+   "answer": "Raincoat",
+   "level": "moyen",
+   "rank": 69
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌶️🌿"
+   },
+   "answer": "Peppermint",
+   "level": "moyen",
+   "rank": 70
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛋️🥔"
+   },
+   "answer": "Couch potato",
+   "level": "moyen",
+   "rank": 71
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍬🦷"
+   },
+   "answer": "Sweet tooth",
+   "level": "moyen",
+   "rank": 72
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🟢👍"
+   },
+   "answer": "Green thumb",
+   "level": "moyen",
+   "rank": 73
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐶❤️"
+   },
+   "answer": "Puppy love",
+   "level": "moyen",
+   "rank": 74
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻🤗"
+   },
+   "answer": "Bear hug",
+   "level": "moyen",
+   "rank": 75
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔥🥔"
+   },
+   "answer": "Hot potato",
+   "level": "moyen",
+   "rank": 76
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧠💡"
+   },
+   "answer": "Bright idea",
+   "level": "moyen",
+   "rank": 77
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝🏃"
+   },
+   "answer": "Busy bee",
+   "level": "moyen",
+   "rank": 78
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦⏰"
+   },
+   "answer": "Early bird",
+   "level": "moyen",
+   "rank": 79
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌙🦉"
+   },
+   "answer": "Night owl",
+   "level": "moyen",
+   "rank": 80
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧊🔨"
+   },
+   "answer": "Break the ice",
+   "level": "moyen",
+   "rank": 81
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥧👍"
+   },
+   "answer": "Easy as pie",
+   "level": "moyen",
+   "rank": 82
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧩🍰"
+   },
+   "answer": "Piece of cake",
+   "level": "moyen",
+   "rank": 83
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎯💯"
+   },
+   "answer": "Bullseye",
+   "level": "moyen",
+   "rank": 84
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧱👂"
+   },
+   "answer": "Walls have ears",
+   "level": "moyen",
+   "rank": 85
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⛷️🏔️"
+   },
+   "answer": "Skiing",
+   "level": "moyen",
+   "rank": 86
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤿🐠"
+   },
+   "answer": "Scuba diving",
+   "level": "moyen",
+   "rank": 87
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏹🎯"
+   },
+   "answer": "Archery",
+   "level": "moyen",
+   "rank": 88
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔧🚗"
+   },
+   "answer": "Mechanic",
+   "level": "moyen",
+   "rank": 89
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚰🔧"
+   },
+   "answer": "Plumber",
+   "level": "moyen",
+   "rank": 90
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💉🏥"
+   },
+   "answer": "Nurse",
+   "level": "moyen",
+   "rank": 91
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✂️💇"
+   },
+   "answer": "Hairdresser",
+   "level": "moyen",
+   "rank": 92
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎓📚"
+   },
+   "answer": "Teacher",
+   "level": "moyen",
+   "rank": 93
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥖🔥"
+   },
+   "answer": "Baker",
+   "level": "moyen",
+   "rank": 94
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟🎣"
+   },
+   "answer": "Fisherman",
+   "level": "moyen",
+   "rank": 95
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌾🚜"
+   },
+   "answer": "Farmer",
+   "level": "moyen",
+   "rank": 96
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✈️🧑"
+   },
+   "answer": "Pilot",
+   "level": "moyen",
+   "rank": 97
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔬🧪"
+   },
+   "answer": "Scientist",
+   "level": "moyen",
+   "rank": 98
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚀🧑‍🚀"
+   },
+   "answer": "Astronaut",
+   "level": "moyen",
+   "rank": 99
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐕🩺"
+   },
+   "answer": "Vet",
+   "level": "moyen",
+   "rank": 100
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌧️🐱🐶"
+   },
+   "answer": "Raining cats and dogs",
+   "level": "difficile",
+   "rank": 101
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍒🎂"
+   },
+   "answer": "Cherry on top",
+   "level": "difficile",
+   "rank": 102
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐘🚪"
+   },
+   "answer": "Elephant in the room",
+   "level": "difficile",
+   "rank": 103
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☁️🤒"
+   },
+   "answer": "Under the weather",
+   "level": "difficile",
+   "rank": 104
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥚🧺"
+   },
+   "answer": "All eggs in one basket",
+   "level": "difficile",
+   "rank": 105
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⏳💰"
+   },
+   "answer": "Time is money",
+   "level": "difficile",
+   "rank": 106
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔥💨"
+   },
+   "answer": "No smoke without fire",
+   "level": "difficile",
+   "rank": 107
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐺🐑👕"
+   },
+   "answer": "Wolf in sheep's clothing",
+   "level": "difficile",
+   "rank": 108
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐑⚫"
+   },
+   "answer": "Black sheep",
+   "level": "difficile",
+   "rank": 109
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐱👅"
+   },
+   "answer": "Cat got your tongue",
+   "level": "difficile",
+   "rank": 110
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐱🛍️"
+   },
+   "answer": "Let the cat out of the bag",
+   "level": "difficile",
+   "rank": 111
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫘💦"
+   },
+   "answer": "Spill the beans",
+   "level": "difficile",
+   "rank": 112
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎👁️"
+   },
+   "answer": "Apple of my eye",
+   "level": "difficile",
+   "rank": 113
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟🏜️"
+   },
+   "answer": "Fish out of water",
+   "level": "difficile",
+   "rank": 114
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦁🍰"
+   },
+   "answer": "Lion's share",
+   "level": "difficile",
+   "rank": 115
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥒🧊"
+   },
+   "answer": "Cool as a cucumber",
+   "level": "difficile",
+   "rank": 116
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔵🌕"
+   },
+   "answer": "Once in a blue moon",
+   "level": "difficile",
+   "rank": 117
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧠☁️"
+   },
+   "answer": "Head in the clouds",
+   "level": "difficile",
+   "rank": 118
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥶🦶"
+   },
+   "answer": "Cold feet",
+   "level": "difficile",
+   "rank": 119
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😭🐺"
+   },
+   "answer": "Cry wolf",
+   "level": "difficile",
+   "rank": 120
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✋🐴"
+   },
+   "answer": "Hold your horses",
+   "level": "difficile",
+   "rank": 121
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😴🪵"
+   },
+   "answer": "Sleep like a log",
+   "level": "difficile",
+   "rank": 122
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦅👁️"
+   },
+   "answer": "Eagle eye",
+   "level": "difficile",
+   "rank": 123
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪙💭"
+   },
+   "answer": "Penny for your thoughts",
+   "level": "difficile",
+   "rank": 124
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥜🐚"
+   },
+   "answer": "In a nutshell",
+   "level": "difficile",
+   "rank": 125
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥧☁️"
+   },
+   "answer": "Pie in the sky",
+   "level": "difficile",
+   "rank": 126
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐢🏁"
+   },
+   "answer": "Slow and steady wins the race",
+   "level": "difficile",
+   "rank": 127
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👩‍🏫🐶"
+   },
+   "answer": "Teacher's pet",
+   "level": "difficile",
+   "rank": 128
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪨🐦🐦"
+   },
+   "answer": "Two birds, one stone",
+   "level": "difficile",
+   "rank": 129
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌅✨"
+   },
+   "answer": "Rise and shine",
+   "level": "difficile",
+   "rank": 130
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦋😬"
+   },
+   "answer": "Butterflies in your stomach",
+   "level": "difficile",
+   "rank": 131
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐷🍔"
+   },
+   "answer": "Pig out",
+   "level": "difficile",
+   "rank": 132
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛏️🌾"
+   },
+   "answer": "Hit the hay",
+   "level": "difficile",
+   "rank": 133
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☀️🍳"
+   },
+   "answer": "Sunny side up",
+   "level": "difficile",
+   "rank": 134
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐜🦗"
+   },
+   "answer": "The Ant and the Grasshopper",
+   "level": "difficile",
+   "rank": 135
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦊🍇"
+   },
+   "answer": "The Fox and the Grapes",
+   "level": "difficile",
+   "rank": 136
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦁🐭"
+   },
+   "answer": "The Lion and the Mouse",
+   "level": "difficile",
+   "rank": 137
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐢🐇"
+   },
+   "answer": "The Tortoise and the Hare",
+   "level": "difficile",
+   "rank": 138
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦆😢"
+   },
+   "answer": "The Ugly Duckling",
+   "level": "difficile",
+   "rank": 139
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📦😱"
+   },
+   "answer": "Pandora's box",
+   "level": "difficile",
+   "rank": 140
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👦😭🐺"
+   },
+   "answer": "The Boy Who Cried Wolf",
+   "level": "impossible",
+   "rank": 141
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐺👧🔴"
+   },
+   "answer": "Little Red Riding Hood",
+   "level": "impossible",
+   "rank": 142
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐱👢"
+   },
+   "answer": "Puss in Boots",
+   "level": "impossible",
+   "rank": 143
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👸🛏️🫛"
+   },
+   "answer": "The Princess and the Pea",
+   "level": "impossible",
+   "rank": 144
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐷🐷🐷🏠"
+   },
+   "answer": "The Three Little Pigs",
+   "level": "impossible",
+   "rank": 145
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥣🐻🐻🐻"
+   },
+   "answer": "Goldilocks and the Three Bears",
+   "level": "impossible",
+   "rank": 146
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍬🏠🧙"
+   },
+   "answer": "Hansel and Gretel",
+   "level": "impossible",
+   "rank": 147
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫘🌱☁️"
+   },
+   "answer": "Jack and the Beanstalk",
+   "level": "impossible",
+   "rank": 148
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐴🛡️"
+   },
+   "answer": "Trojan horse",
+   "level": "impossible",
+   "rank": 149
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦢🎶"
+   },
+   "answer": "Swan song",
+   "level": "impossible",
+   "rank": 150
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👑👆💰"
+   },
+   "answer": "Midas touch",
+   "level": "impossible",
+   "rank": 151
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐭🏙️🐭🌾"
+   },
+   "answer": "Town Mouse and Country Mouse",
+   "level": "impossible",
+   "rank": 152
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪿🥚🥇"
+   },
+   "answer": "The Goose That Laid the Golden Eggs",
+   "level": "impossible",
+   "rank": 153
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪨🔄🌿"
+   },
+   "answer": "A rolling stone gathers no moss",
+   "level": "impossible",
+   "rank": 154
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔵☁️"
+   },
+   "answer": "Out of the blue",
+   "level": "impossible",
+   "rank": 155
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤩🌙"
+   },
+   "answer": "Over the moon",
+   "level": "impossible",
+   "rank": 156
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐔🚪"
+   },
+   "answer": "Chicken out",
+   "level": "impossible",
+   "rank": 157
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📏👍"
+   },
+   "answer": "Rule of thumb",
+   "level": "impossible",
+   "rank": 158
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😬🎶"
+   },
+   "answer": "Face the music",
+   "level": "impossible",
+   "rank": 159
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐕😴"
+   },
+   "answer": "Let sleeping dogs lie",
+   "level": "impossible",
+   "rank": 160
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏔️🐭"
+   },
+   "answer": "Make a mountain out of a molehill",
+   "level": "impossible",
+   "rank": 161
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐎🎁👄"
+   },
+   "answer": "Don't look a gift horse in the mouth",
+   "level": "impossible",
+   "rank": 162
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦅🏞️"
+   },
+   "answer": "Bird's-eye view",
+   "level": "impossible",
+   "rank": 163
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍭😴"
+   },
+   "answer": "Sweet dreams",
+   "level": "impossible",
+   "rank": 164
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎩🐇"
+   },
+   "answer": "Rabbit out of a hat",
+   "level": "impossible",
+   "rank": 165
+  }
+ ]
+}

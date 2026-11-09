@@ -248,7 +248,7 @@ const isQcm = siteBank ? true : conf.templates?.[bankName] === "QuizQCM" || (!co
 const isSite = !!siteBank;
 const isIntrus = conf.templates?.[bankName] === "Intrus";
 const titlePool = V.titles[isSite ? "site" : pillar] ?? V.titles.devine;
-const usedTitles = new Set(readdirSync(p("data/episodes")).map((f) => readJson(p("data/episodes", f))?.title).filter(Boolean));
+const usedTitles = new Set(readdirSync(p("data/episodes")).filter((f) => f.endsWith(".json")).map((f) => readJson(p("data/episodes", f))?.title).filter(Boolean));
 const titleCandidates = shuffle(titlePool, rand).map(fill).map((t) => t.replace(/\s+/g, " ").trim());
 const title = titleCandidates.find((t) => !usedTitles.has(t) && t.length <= 100) ?? `${titleCandidates[0]} (${WEEKDAYS[dow]})`.slice(0, 100);
 const sub = isChoice ? pick(S.subChoice) : isQcm ? (pillar === "generations" ? pick(S.subGenerations) : pick(S.subQcm)) : isIntrus ? pick(S.subIntrus) : pick(S.subDevine);

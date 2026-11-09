@@ -1,0 +1,1666 @@
+{
+ "question": "",
+ "hook": "{n} ACRONYMS & ABBREVIATIONS: do you know them?",
+ "emoji": "💬🔤🤔",
+ "slug": "acronyms",
+ "noun": "ACRONYMS",
+ "tags": [
+  "acronyms",
+  "abbreviations",
+  "slang",
+  "text speak"
+ ],
+ "subject": "ACRONYMS",
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “LOL” stand for?",
+    "choices": [
+     "Laughing out loud",
+     "Lots of love",
+     "Living on land",
+     "Late online lunch"
+    ],
+    "correct": 0
+   },
+   "answer": "Laughing out loud",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “BRB” stand for?",
+    "choices": [
+     "Bring real bread",
+     "Be right back",
+     "Back right behind",
+     "Be really bored"
+    ],
+    "correct": 1
+   },
+   "answer": "Be right back",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “BFF” stand for?",
+    "choices": [
+     "Big fun fest",
+     "Brother from France",
+     "Best friends forever",
+     "Be fast, friend"
+    ],
+    "correct": 2
+   },
+   "answer": "Best friends forever",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “ASAP” stand for?",
+    "choices": [
+     "All stars and planets",
+     "Always say a prayer",
+     "At school at present",
+     "As soon as possible"
+    ],
+    "correct": 3
+   },
+   "answer": "As soon as possible",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “DIY” stand for?",
+    "choices": [
+     "Do it yourself",
+     "Do it yesterday",
+     "Daily improvement year",
+     "Don't ignore yourself"
+    ],
+    "correct": 0
+   },
+   "answer": "Do it yourself",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “FAQ” stand for?",
+    "choices": [
+     "Fast and quick",
+     "Frequently asked questions",
+     "Fun answers quiz",
+     "Find a quote"
+    ],
+    "correct": 1
+   },
+   "answer": "Frequently asked questions",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “ETA” stand for?",
+    "choices": [
+     "Every train arrives",
+     "Early to arrive",
+     "Estimated time of arrival",
+     "Extra travel allowance"
+    ],
+    "correct": 2
+   },
+   "answer": "Estimated time of arrival",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “PIN” stand for?",
+    "choices": [
+     "Private internet network",
+     "Phone in need",
+     "Protected inner note",
+     "Personal identification number"
+    ],
+    "correct": 3
+   },
+   "answer": "Personal identification number",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “ATM” stand for?",
+    "choices": [
+     "Automated teller machine",
+     "Automatic time monitor",
+     "All-time money",
+     "Advanced transfer method"
+    ],
+    "correct": 0
+   },
+   "answer": "Automated teller machine",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “VIP” stand for?",
+    "choices": [
+     "Very intense party",
+     "Very important person",
+     "Visit in private",
+     "Valued in public"
+    ],
+    "correct": 1
+   },
+   "answer": "Very important person",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “UFO” stand for?",
+    "choices": [
+     "Unknown fast orbit",
+     "United flying orbs",
+     "Unidentified flying object",
+     "Ultra fast oval"
+    ],
+    "correct": 2
+   },
+   "answer": "Unidentified flying object",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “DNA” stand for?",
+    "choices": [
+     "Dynamic nuclear atom",
+     "Double nitrogen acid",
+     "Dense natural alloy",
+     "Deoxyribonucleic acid"
+    ],
+    "correct": 3
+   },
+   "answer": "Deoxyribonucleic acid",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “CEO” stand for?",
+    "choices": [
+     "Chief executive officer",
+     "Central energy office",
+     "Chief economic observer",
+     "Company entry officer"
+    ],
+    "correct": 0
+   },
+   "answer": "Chief executive officer",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “IQ” stand for?",
+    "choices": [
+     "Inner question",
+     "Intelligence quotient",
+     "Instant quiz",
+     "Intellect quantity"
+    ],
+    "correct": 1
+   },
+   "answer": "Intelligence quotient",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “GPS” stand for?",
+    "choices": [
+     "General Path Service",
+     "Great Places Scanner",
+     "Global Positioning System",
+     "Global Planet Signal"
+    ],
+    "correct": 2
+   },
+   "answer": "Global Positioning System",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “USB” stand for?",
+    "choices": [
+     "Ultra Speed Battery",
+     "United System Block",
+     "Universal Storage Box",
+     "Universal Serial Bus"
+    ],
+    "correct": 3
+   },
+   "answer": "Universal Serial Bus",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "In computing, what does “PC” stand for?",
+    "choices": [
+     "Personal computer",
+     "Portable circuit",
+     "Public console",
+     "Power cable"
+    ],
+    "correct": 0
+   },
+   "answer": "Personal computer",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “WWW” stand for?",
+    "choices": [
+     "World Wide Window",
+     "World Wide Web",
+     "Wide Web Wire",
+     "Web Without Walls"
+    ],
+    "correct": 1
+   },
+   "answer": "World Wide Web",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “AI” stand for?",
+    "choices": [
+     "Automated internet",
+     "Advanced input",
+     "Artificial intelligence",
+     "Active interface"
+    ],
+    "correct": 2
+   },
+   "answer": "Artificial intelligence",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “DJ” stand for?",
+    "choices": [
+     "Digital joystick",
+     "Dance junior",
+     "Daily journal",
+     "Disc jockey"
+    ],
+    "correct": 3
+   },
+   "answer": "Disc jockey",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “TBH” stand for?",
+    "choices": [
+     "To be honest",
+     "Today's best hit",
+     "Take a break, hon",
+     "Try, be happy"
+    ],
+    "correct": 0
+   },
+   "answer": "To be honest",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “IMO” stand for?",
+    "choices": [
+     "I move on",
+     "In my opinion",
+     "Instant message online",
+     "Is mostly OK"
+    ],
+    "correct": 1
+   },
+   "answer": "In my opinion",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “BTW” stand for?",
+    "choices": [
+     "Be there when",
+     "Better than water",
+     "By the way",
+     "Back to work"
+    ],
+    "correct": 2
+   },
+   "answer": "By the way",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “FYI” stand for?",
+    "choices": [
+     "Fun yet interesting",
+     "Forward your inbox",
+     "From you, instantly",
+     "For your information"
+    ],
+    "correct": 3
+   },
+   "answer": "For your information",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “IDK” stand for?",
+    "choices": [
+     "I don't know",
+     "I did kick",
+     "It's definitely OK",
+     "In due kindness"
+    ],
+    "correct": 0
+   },
+   "answer": "I don't know",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “JK” stand for?",
+    "choices": [
+     "Just kind",
+     "Just kidding",
+     "Jump and kick",
+     "Joy and kindness"
+    ],
+    "correct": 1
+   },
+   "answer": "Just kidding",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “UK” stand for?",
+    "choices": [
+     "Union of Kingdoms",
+     "Upper Kingdom",
+     "United Kingdom",
+     "United Kings"
+    ],
+    "correct": 2
+   },
+   "answer": "United Kingdom",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “UN” stand for?",
+    "choices": [
+     "Unified Network",
+     "Union of Neighbors",
+     "Universal Nations",
+     "United Nations"
+    ],
+    "correct": 3
+   },
+   "answer": "United Nations",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “EU” stand for?",
+    "choices": [
+     "European Union",
+     "Eastern Union",
+     "Europe United",
+     "Euro Unit"
+    ],
+    "correct": 0
+   },
+   "answer": "European Union",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "On a TV, what does “HD” stand for?",
+    "choices": [
+     "Hyper display",
+     "High definition",
+     "Home delivery",
+     "Hi-fi data"
+    ],
+    "correct": 1
+   },
+   "answer": "High definition",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “SMS” stand for?",
+    "choices": [
+     "Simple Mail System",
+     "Speedy Message Signal",
+     "Short Message Service",
+     "Smart Mobile Software"
+    ],
+    "correct": 2
+   },
+   "answer": "Short Message Service",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “HR” stand for?",
+    "choices": [
+     "High rank",
+     "Home room",
+     "Hourly rate",
+     "Human resources"
+    ],
+    "correct": 3
+   },
+   "answer": "Human resources",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “RSVP” on an invitation mean?",
+    "choices": [
+     "Please reply",
+     "Reserve seats very promptly",
+     "Ready, set, very polite",
+     "Return soon, valued person"
+    ],
+    "correct": 0
+   },
+   "answer": "Please reply",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “PhD” stand for?",
+    "choices": [
+     "Public health degree",
+     "Doctor of Philosophy",
+     "Professor of high duty",
+     "Primary higher diploma"
+    ],
+    "correct": 1
+   },
+   "answer": "Doctor of Philosophy",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "NASA is short for National Aeronautics and Space…?",
+    "choices": [
+     "Association",
+     "Agency",
+     "Administration",
+     "Academy"
+    ],
+    "correct": 2
+   },
+   "answer": "Administration",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “FBI” stand for?",
+    "choices": [
+     "Federal Bureau of Intelligence",
+     "Foreign Bureau of Inspection",
+     "First Bureau of Investigators",
+     "Federal Bureau of Investigation"
+    ],
+    "correct": 3
+   },
+   "answer": "Federal Bureau of Investigation",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “NATO” stand for?",
+    "choices": [
+     "North Atlantic Treaty Organization",
+     "National Atlantic Trade Office",
+     "North American Trade Organization",
+     "Northern Allied Treaty Order"
+    ],
+    "correct": 0
+   },
+   "answer": "North Atlantic Treaty Organization",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “HTML” stand for?",
+    "choices": [
+     "High Tech Machine Language",
+     "HyperText Markup Language",
+     "HyperText Media Links",
+     "Home Tool Markup Library"
+    ],
+    "correct": 1
+   },
+   "answer": "HyperText Markup Language",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “PDF” stand for?",
+    "choices": [
+     "Printed Data File",
+     "Personal Digital Folder",
+     "Portable Document Format",
+     "Public Document Form"
+    ],
+    "correct": 2
+   },
+   "answer": "Portable Document Format",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “CPU” stand for?",
+    "choices": [
+     "Computer power usage",
+     "Core program utility",
+     "Central printing unit",
+     "Central processing unit"
+    ],
+    "correct": 3
+   },
+   "answer": "Central processing unit",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “RAM” stand for?",
+    "choices": [
+     "Random access memory",
+     "Rapid access module",
+     "Read and move",
+     "Remote area memory"
+    ],
+    "correct": 0
+   },
+   "answer": "Random access memory",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “URL” stand for?",
+    "choices": [
+     "Universal Remote Link",
+     "Uniform Resource Locator",
+     "User Requested Location",
+     "United Resource Line"
+    ],
+    "correct": 1
+   },
+   "answer": "Uniform Resource Locator",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “GIF” stand for?",
+    "choices": [
+     "General Image File",
+     "Graphic Internet Frame",
+     "Graphics Interchange Format",
+     "Great Image Format"
+    ],
+    "correct": 2
+   },
+   "answer": "Graphics Interchange Format",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “LED” stand for?",
+    "choices": [
+     "Low-energy display",
+     "Liquid electric device",
+     "Laser emission dot",
+     "Light-emitting diode"
+    ],
+    "correct": 3
+   },
+   "answer": "Light-emitting diode",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “LCD” stand for?",
+    "choices": [
+     "Liquid crystal display",
+     "Low color display",
+     "Light control diode",
+     "Laser crystal device"
+    ],
+    "correct": 0
+   },
+   "answer": "Liquid crystal display",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “DVD” stand for?",
+    "choices": [
+     "Double video drive",
+     "Digital versatile disc",
+     "Digital video drive",
+     "Direct visual disc"
+    ],
+    "correct": 1
+   },
+   "answer": "Digital versatile disc",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “FOMO” stand for?",
+    "choices": [
+     "Fun on my own",
+     "Fast online mobile office",
+     "Fear of missing out",
+     "Forgot my outfit"
+    ],
+    "correct": 2
+   },
+   "answer": "Fear of missing out",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “YOLO” stand for?",
+    "choices": [
+     "You owe lots, okay",
+     "Your online life option",
+     "Yes, only love often",
+     "You only live once"
+    ],
+    "correct": 3
+   },
+   "answer": "You only live once",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “TTYL” stand for?",
+    "choices": [
+     "Talk to you later",
+     "Text to your lawyer",
+     "Try to yell loudly",
+     "Thanks, take your leave"
+    ],
+    "correct": 0
+   },
+   "answer": "Talk to you later",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “NVM” stand for?",
+    "choices": [
+     "No very much",
+     "Never mind",
+     "Not very modern",
+     "New voice message"
+    ],
+    "correct": 1
+   },
+   "answer": "Never mind",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “AFK” stand for?",
+    "choices": [
+     "After five, kids",
+     "Always for kindness",
+     "Away from keyboard",
+     "Alert for key"
+    ],
+    "correct": 2
+   },
+   "answer": "Away from keyboard",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “GG” stand for?",
+    "choices": [
+     "Great guy",
+     "Get going",
+     "Go get 'em",
+     "Good game"
+    ],
+    "correct": 3
+   },
+   "answer": "Good game",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “SMH” stand for?",
+    "choices": [
+     "Shaking my head",
+     "So much happiness",
+     "Send me home",
+     "Super mega hype"
+    ],
+    "correct": 0
+   },
+   "answer": "Shaking my head",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “TMI” stand for?",
+    "choices": [
+     "Time of my interest",
+     "Too much information",
+     "Try my idea",
+     "Tell me instantly"
+    ],
+    "correct": 1
+   },
+   "answer": "Too much information",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “IRL” stand for?",
+    "choices": [
+     "In recent languages",
+     "It's really loud",
+     "In real life",
+     "Internet radio link"
+    ],
+    "correct": 2
+   },
+   "answer": "In real life",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “DM” stand for?",
+    "choices": [
+     "Digital mail",
+     "Daily memo",
+     "Dear me",
+     "Direct message"
+    ],
+    "correct": 3
+   },
+   "answer": "Direct message",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “TL;DR” stand for?",
+    "choices": [
+     "Too long; didn't read",
+     "Time left; do repeat",
+     "Talk later; don't reply",
+     "Total loss; do recover"
+    ],
+    "correct": 0
+   },
+   "answer": "Too long; didn't read",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “AKA” stand for?",
+    "choices": [
+     "Always keep asking",
+     "Also known as",
+     "A kind answer",
+     "Another known alias"
+    ],
+    "correct": 1
+   },
+   "answer": "Also known as",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “ROFL” stand for?",
+    "choices": [
+     "Running out for lunch",
+     "Really old fun lines",
+     "Rolling on the floor laughing",
+     "Right on, friends, love"
+    ],
+    "correct": 2
+   },
+   "answer": "Rolling on the floor laughing",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “OOTD” stand for?",
+    "choices": [
+     "Out of the dark",
+     "Online order to deliver",
+     "One on one talk daily",
+     "Outfit of the day"
+    ],
+    "correct": 3
+   },
+   "answer": "Outfit of the day",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “TGIF” stand for?",
+    "choices": [
+     "Thank goodness it's Friday",
+     "Today's good in February",
+     "The great ice festival",
+     "Time to go in fast"
+    ],
+    "correct": 0
+   },
+   "answer": "Thank goodness it's Friday",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “WFH” stand for?",
+    "choices": [
+     "Wait for help",
+     "Work from home",
+     "Walk for health",
+     "Wi-Fi from here"
+    ],
+    "correct": 1
+   },
+   "answer": "Work from home",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “TBA” stand for?",
+    "choices": [
+     "To be advertised",
+     "Time before arrival",
+     "To be announced",
+     "Tickets by auction"
+    ],
+    "correct": 2
+   },
+   "answer": "To be announced",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “N/A” stand for?",
+    "choices": [
+     "Not at all",
+     "Never asked",
+     "No answer",
+     "Not applicable"
+    ],
+    "correct": 3
+   },
+   "answer": "Not applicable",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “PM” stand for in “3 PM”?",
+    "choices": [
+     "Post meridiem",
+     "Past midnight",
+     "Prime morning",
+     "Per minute"
+    ],
+    "correct": 0
+   },
+   "answer": "Post meridiem",
+   "level": "moyen"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “ICYMI” stand for?",
+    "choices": [
+     "I can see my image",
+     "In case you missed it",
+     "If you must ignore",
+     "It could yield more impact"
+    ],
+    "correct": 1
+   },
+   "answer": "In case you missed it",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “FWIW” stand for?",
+    "choices": [
+     "From where it's written",
+     "Fully wonderful, in widescreen",
+     "For what it's worth",
+     "Fine with it, whatever"
+    ],
+    "correct": 2
+   },
+   "answer": "For what it's worth",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “IIRC” stand for?",
+    "choices": [
+     "I intend to reply carefully",
+     "It is really cool",
+     "In issue of regular cases",
+     "If I recall correctly"
+    ],
+    "correct": 3
+   },
+   "answer": "If I recall correctly",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “OOO” stand for?",
+    "choices": [
+     "Out of office",
+     "One on one",
+     "Out of order",
+     "On our own"
+    ],
+    "correct": 0
+   },
+   "answer": "Out of office",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “EOD” stand for?",
+    "choices": [
+     "Every other day",
+     "End of day",
+     "Early online delivery",
+     "Edit on demand"
+    ],
+    "correct": 1
+   },
+   "answer": "End of day",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “TBC” stand for?",
+    "choices": [
+     "To be calculated",
+     "Tickets by credit",
+     "To be confirmed",
+     "Time before closing"
+    ],
+    "correct": 2
+   },
+   "answer": "To be confirmed",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “PTO” stand for?",
+    "choices": [
+     "Please turn over",
+     "Part-time only",
+     "Public transport option",
+     "Paid time off"
+    ],
+    "correct": 3
+   },
+   "answer": "Paid time off",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “CV” stand for?",
+    "choices": [
+     "Curriculum vitae",
+     "Career value",
+     "Certified volunteer",
+     "Computer version"
+    ],
+    "correct": 0
+   },
+   "answer": "Curriculum vitae",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “Q&A” stand for?",
+    "choices": [
+     "Quick and accurate",
+     "Questions and answers",
+     "Queue and arrive",
+     "Quotes and advice"
+    ],
+    "correct": 1
+   },
+   "answer": "Questions and answers",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “R&D” stand for?",
+    "choices": [
+     "Rest and digest",
+     "Read and decide",
+     "Research and development",
+     "Rapid and daily"
+    ],
+    "correct": 2
+   },
+   "answer": "Research and development",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “AWOL” stand for?",
+    "choices": [
+     "All work, only luck",
+     "Always worth our love",
+     "Asleep without light",
+     "Absent without leave"
+    ],
+    "correct": 3
+   },
+   "answer": "Absent without leave",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “VAT” stand for?",
+    "choices": [
+     "Value-added tax",
+     "Variable annual tariff",
+     "Valid at time",
+     "Vendor access token"
+    ],
+    "correct": 0
+   },
+   "answer": "Value-added tax",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “GDP” stand for?",
+    "choices": [
+     "General daily profit",
+     "Gross domestic product",
+     "Global development plan",
+     "Government debt payment"
+    ],
+    "correct": 1
+   },
+   "answer": "Gross domestic product",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “e.g.” stand for?",
+    "choices": [
+     "Every good guess",
+     "Extra general guidance",
+     "Exempli gratia (for example)",
+     "Evidence given, again"
+    ],
+    "correct": 2
+   },
+   "answer": "Exempli gratia (for example)",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “i.e.” stand for?",
+    "choices": [
+     "In extra form",
+     "Interesting example",
+     "Item explained",
+     "Id est (that is)"
+    ],
+    "correct": 3
+   },
+   "answer": "Id est (that is)",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "SCUBA is short for Self-contained Underwater Breathing…?",
+    "choices": [
+     "Apparatus",
+     "Appliance",
+     "Assistant",
+     "Adventure"
+    ],
+    "correct": 0
+   },
+   "answer": "Apparatus",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “RADAR” stand for?",
+    "choices": [
+     "Rapid air direction and reading",
+     "Radio detection and ranging",
+     "Radio dial and range",
+     "Remote aerial detection and recording"
+    ],
+    "correct": 1
+   },
+   "answer": "Radio detection and ranging",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “SONAR” stand for?",
+    "choices": [
+     "Sea object navigation and radar",
+     "Seafloor noise and reflection",
+     "Sound navigation and ranging",
+     "Submarine optical navigation and range"
+    ],
+    "correct": 2
+   },
+   "answer": "Sound navigation and ranging",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “GMT” stand for?",
+    "choices": [
+     "Global Meridian Time",
+     "Great Midnight Timer",
+     "General Morning Time",
+     "Greenwich Mean Time"
+    ],
+    "correct": 3
+   },
+   "answer": "Greenwich Mean Time",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “CPR” stand for?",
+    "choices": [
+     "Cardiopulmonary resuscitation",
+     "Cardiac pressure response",
+     "Critical pulse recovery",
+     "Core pulse regulation"
+    ],
+    "correct": 0
+   },
+   "answer": "Cardiopulmonary resuscitation",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “MRI” stand for?",
+    "choices": [
+     "Medical radiation instrument",
+     "Magnetic resonance imaging",
+     "Modern radio imaging",
+     "Muscle response index"
+    ],
+    "correct": 1
+   },
+   "answer": "Magnetic resonance imaging",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “BMI” stand for?",
+    "choices": [
+     "Basic muscle intake",
+     "Bone and marrow index",
+     "Body mass index",
+     "Blood movement indicator"
+    ],
+    "correct": 2
+   },
+   "answer": "Body mass index",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “SUV” stand for?",
+    "choices": [
+     "Super urban van",
+     "Speed and utility vehicle",
+     "Safe usage vehicle",
+     "Sport utility vehicle"
+    ],
+    "correct": 3
+   },
+   "answer": "Sport utility vehicle",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “GPA” stand for?",
+    "choices": [
+     "Grade point average",
+     "General pass award",
+     "Great performance award",
+     "Graduate placement angle"
+    ],
+    "correct": 0
+   },
+   "answer": "Grade point average",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “CCTV” stand for?",
+    "choices": [
+     "Central city TV",
+     "Closed-circuit television",
+     "Camera and control TV",
+     "Closed channel TV"
+    ],
+    "correct": 1
+   },
+   "answer": "Closed-circuit television",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “VPN” stand for?",
+    "choices": [
+     "Very public network",
+     "Verified phone number",
+     "Virtual private network",
+     "Variable port node"
+    ],
+    "correct": 2
+   },
+   "answer": "Virtual private network",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “IOU” stand for?",
+    "choices": [
+     "I own unit",
+     "Instant online update",
+     "It's our understanding",
+     "I owe you"
+    ],
+    "correct": 3
+   },
+   "answer": "I owe you",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does the “C” in UNESCO stand for?",
+    "choices": [
+     "Cultural",
+     "Creative",
+     "Cooperative",
+     "Civil"
+    ],
+    "correct": 0
+   },
+   "answer": "Cultural",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does the “A” in LASER stand for?",
+    "choices": [
+     "Acceleration",
+     "Amplification",
+     "Adjustment",
+     "Attraction"
+    ],
+    "correct": 1
+   },
+   "answer": "Amplification",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “UTC” stand for?",
+    "choices": [
+     "Universal Time Clock",
+     "United Time Convention",
+     "Coordinated Universal Time",
+     "Uniform Time Calculation"
+    ],
+    "correct": 2
+   },
+   "answer": "Coordinated Universal Time",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What is the playful 1830s origin of “OK”?",
+    "choices": [
+     "Only Kidding",
+     "Officially Known",
+     "Ordered and Kept",
+     "Oll korrect (a joke “all correct”)"
+    ],
+    "correct": 3
+   },
+   "answer": "Oll korrect (a joke “all correct”)",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “ASMR” stand for?",
+    "choices": [
+     "Autonomous sensory meridian response",
+     "Audible soft music relaxation",
+     "Automatic sound memory recorder",
+     "Auditory stress and mood relief"
+    ],
+    "correct": 0
+   },
+   "answer": "Autonomous sensory meridian response",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “SIM” stand for?",
+    "choices": [
+     "Secure internet memory",
+     "Subscriber identity module",
+     "Signal in mobile",
+     "Standard integrated modem"
+    ],
+    "correct": 1
+   },
+   "answer": "Subscriber identity module",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “BCC” stand for?",
+    "choices": [
+     "Better close contact",
+     "Basic computer code",
+     "Blind carbon copy",
+     "Bulk chain copy"
+    ],
+    "correct": 2
+   },
+   "answer": "Blind carbon copy",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “APR” stand for?",
+    "choices": [
+     "Average payment return",
+     "Account payable record",
+     "Added profit ratio",
+     "Annual percentage rate"
+    ],
+    "correct": 3
+   },
+   "answer": "Annual percentage rate",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “NB” stand for in a written note?",
+    "choices": [
+     "Nota bene",
+     "New business",
+     "No bother",
+     "Not blank"
+    ],
+    "correct": 0
+   },
+   "answer": "Nota bene",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “ESA” stand for?",
+    "choices": [
+     "Earth Science Academy",
+     "European Space Agency",
+     "European Satellite Alliance",
+     "Extra-terrestrial Search Agency"
+    ],
+    "correct": 1
+   },
+   "answer": "European Space Agency",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “PTA” stand for?",
+    "choices": [
+     "Public transport authority",
+     "Primary training academy",
+     "Parent-teacher association",
+     "Pupil talent award"
+    ],
+    "correct": 2
+   },
+   "answer": "Parent-teacher association",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “NGO” stand for?",
+    "choices": [
+     "National growth office",
+     "New global operation",
+     "Network of general officers",
+     "Non-governmental organization"
+    ],
+    "correct": 3
+   },
+   "answer": "Non-governmental organization",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “OAP” stand for?",
+    "choices": [
+     "Old-age pensioner",
+     "Out and about, please",
+     "Official art prize",
+     "Over-all pass"
+    ],
+    "correct": 0
+   },
+   "answer": "Old-age pensioner",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “MIA” stand for?",
+    "choices": [
+     "Made in America",
+     "Missing in action",
+     "Mostly in attendance",
+     "Music in audio"
+    ],
+    "correct": 1
+   },
+   "answer": "Missing in action",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “B2B” stand for?",
+    "choices": [
+     "Back to basics",
+     "Buyer to buyer",
+     "Business to business",
+     "Brand to brand"
+    ],
+    "correct": 2
+   },
+   "answer": "Business to business",
+   "level": "impossible"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “ISS” stand for?",
+    "choices": [
+     "Inner Solar System",
+     "Intercontinental Sky Shuttle",
+     "Integrated Satellite Service",
+     "International Space Station"
+    ],
+    "correct": 3
+   },
+   "answer": "International Space Station",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “ER” stand for?",
+    "choices": [
+     "Emergency room",
+     "Extra recovery",
+     "Early response",
+     "Expert reception"
+    ],
+    "correct": 0
+   },
+   "answer": "Emergency room",
+   "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "What does “TLC” stand for?",
+    "choices": [
+     "Total living cost",
+     "Tender loving care",
+     "Take little care",
+     "Time to leave carefully"
+    ],
+    "correct": 1
+   },
+   "answer": "Tender loving care",
+   "level": "moyen"
+  }
+ ]
+}

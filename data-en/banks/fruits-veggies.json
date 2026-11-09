@@ -1,0 +1,321 @@
+{
+ "question": "Which fruit or veggie is this?",
+ "hook": "Guess {n} FRUITS and VEGGIES",
+ "emoji": "🍎🍌🥦",
+ "slug": "fruits-veggies",
+ "noun": "FRUITS and VEGGIES",
+ "tags": [
+  "fruits",
+  "vegetables",
+  "fruit quiz",
+  "veggies"
+ ],
+ "rankNote": "Editorial ranking by familiarity (1 = most obvious), carried over from the French bank; re-numbered after removing the eggplant emoji and adding a green apple.",
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎"
+   },
+   "answer": "Apple",
+   "fact": "An apple floats on water because about a quarter of it is air.",
+   "rank": 1
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍌"
+   },
+   "answer": "Banana",
+   "fact": "Botanically, a banana is a berry, but a strawberry is not.",
+   "rank": 2
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍓"
+   },
+   "answer": "Strawberry",
+   "fact": "The tiny seeds on the outside of a strawberry are actually its true fruits.",
+   "rank": 3
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥕"
+   },
+   "answer": "Carrot",
+   "rank": 4
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍅"
+   },
+   "answer": "Tomato",
+   "fact": "To botanists, a tomato is a fruit, even if we eat it like a vegetable.",
+   "rank": 5
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍊"
+   },
+   "answer": "Orange",
+   "rank": 6
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍋"
+   },
+   "answer": "Lemon",
+   "rank": 7
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍒"
+   },
+   "answer": "Cherry",
+   "rank": 8
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍏"
+   },
+   "answer": "Green apple",
+   "rank": 9
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍇"
+   },
+   "answer": "Grapes",
+   "rank": 10
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍉"
+   },
+   "answer": "Watermelon",
+   "rank": 11
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍍"
+   },
+   "answer": "Pineapple",
+   "fact": "A pineapple takes about two years to grow.",
+   "rank": 12
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍐"
+   },
+   "answer": "Pear",
+   "rank": 13
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍑"
+   },
+   "answer": "Peach",
+   "rank": 14
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥝"
+   },
+   "answer": "Kiwi",
+   "fact": "The kiwi fruit comes from China and is named after New Zealand's kiwi bird.",
+   "rank": 15
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌽"
+   },
+   "answer": "Corn",
+   "rank": 16
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥦"
+   },
+   "answer": "Broccoli",
+   "rank": 17
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍄"
+   },
+   "answer": "Mushroom",
+   "rank": 18
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥔"
+   },
+   "answer": "Potato",
+   "fact": "Potatoes come from the Andes mountains in South America.",
+   "rank": 19
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥑"
+   },
+   "answer": "Avocado",
+   "rank": 20
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥒"
+   },
+   "answer": "Cucumber",
+   "rank": 21
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌶️"
+   },
+   "answer": "Chili pepper",
+   "fact": "How hot a chili pepper is gets measured on the Scoville scale.",
+   "rank": 22
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫑"
+   },
+   "answer": "Bell pepper",
+   "rank": 23
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥥"
+   },
+   "answer": "Coconut",
+   "rank": 24
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍈"
+   },
+   "answer": "Melon",
+   "rank": 25
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥭"
+   },
+   "answer": "Mango",
+   "rank": 26
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥬"
+   },
+   "answer": "Lettuce",
+   "rank": 27
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧅"
+   },
+   "answer": "Onion",
+   "rank": 28
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧄"
+   },
+   "answer": "Garlic",
+   "rank": 29
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥜"
+   },
+   "answer": "Peanut",
+   "fact": "A peanut isn't a true nut: it grows underground.",
+   "rank": 30
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌰"
+   },
+   "answer": "Chestnut",
+   "rank": 31
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫒"
+   },
+   "answer": "Olive",
+   "rank": 32
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫐"
+   },
+   "answer": "Blueberry",
+   "rank": 33
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫛"
+   },
+   "answer": "Peas",
+   "rank": 34
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫘"
+   },
+   "answer": "Beans",
+   "rank": 35
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍠"
+   },
+   "answer": "Sweet potato",
+   "rank": 36
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥗"
+   },
+   "answer": "Salad",
+   "rank": 37
+  }
+ ]
+}

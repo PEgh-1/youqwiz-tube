@@ -1,0 +1,874 @@
+{
+ "question": "Which animal is this?",
+ "hook": "Guess {n} ANIMALS",
+ "emoji": "🐯🦓🐙",
+ "slug": "animals",
+ "noun": "ANIMALS",
+ "tags": [
+  "animals",
+  "animal quiz",
+  "guess the animal"
+ ],
+ "rankNote": "Editorial ranking by emoji readability / how familiar the animal is (1 = most obvious), carried over from the French bank.",
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐯"
+   },
+   "answer": "Tiger",
+   "fact": "A tiger has stripes on its skin too, not just on its fur.",
+   "rank": 4
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐘"
+   },
+   "answer": "Elephant",
+   "fact": "An elephant uses its trunk to drink, breathe and even pick things up.",
+   "rank": 1
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦒"
+   },
+   "answer": "Giraffe",
+   "fact": "A giraffe's long neck has only seven bones, just like yours.",
+   "rank": 3
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐧"
+   },
+   "answer": "Penguin",
+   "fact": "In emperor penguins, it's the dad who keeps the egg warm on his feet.",
+   "rank": 27
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦁"
+   },
+   "answer": "Lion",
+   "rank": 2
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐼"
+   },
+   "answer": "Panda",
+   "rank": 10
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐨"
+   },
+   "answer": "Koala",
+   "fact": "A koala can sleep up to twenty hours a day.",
+   "rank": 26
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦓"
+   },
+   "answer": "Zebra",
+   "fact": "Every zebra has its own unique stripes, a bit like your fingerprints.",
+   "rank": 11
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐙"
+   },
+   "answer": "Octopus",
+   "fact": "An octopus has three hearts and blue blood.",
+   "rank": 31
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦔"
+   },
+   "answer": "Hedgehog",
+   "fact": "A hedgehog has about five thousand spines on its back.",
+   "rank": 54
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦦"
+   },
+   "answer": "Otter",
+   "fact": "Sea otters hold paws while they sleep so they don't drift apart.",
+   "rank": 83
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦥"
+   },
+   "answer": "Sloth",
+   "fact": "A sloth can take up to a month to digest a single meal.",
+   "rank": 84
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦩"
+   },
+   "answer": "Flamingo",
+   "fact": "Flamingos are pink because of the tiny shrimp and algae they eat.",
+   "rank": 40
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦜"
+   },
+   "answer": "Parrot",
+   "rank": 39
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐊"
+   },
+   "answer": "Crocodile",
+   "fact": "A crocodile can't stick its tongue out.",
+   "rank": 28
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦎"
+   },
+   "answer": "Lizard",
+   "rank": 61
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦇"
+   },
+   "answer": "Bat",
+   "fact": "Bats are the only mammals that can truly fly.",
+   "rank": 62
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦡"
+   },
+   "answer": "Badger",
+   "rank": 99
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦨"
+   },
+   "answer": "Skunk",
+   "rank": 100
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦫"
+   },
+   "answer": "Beaver",
+   "fact": "A beaver's teeth never wear out, because they keep growing all its life.",
+   "rank": 82
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐮"
+   },
+   "answer": "Cow",
+   "rank": 5
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐷"
+   },
+   "answer": "Pig",
+   "rank": 6
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐸"
+   },
+   "answer": "Frog",
+   "fact": "A frog drinks by soaking up water through its skin.",
+   "rank": 20
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐵"
+   },
+   "answer": "Monkey",
+   "rank": 12
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐔"
+   },
+   "answer": "Chicken",
+   "rank": 9
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦"
+   },
+   "answer": "Bird",
+   "rank": 74
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐺"
+   },
+   "answer": "Wolf",
+   "rank": 24
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦊"
+   },
+   "answer": "Fox",
+   "rank": 23
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻"
+   },
+   "answer": "Bear",
+   "rank": 22
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐰"
+   },
+   "answer": "Rabbit",
+   "rank": 7
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐭"
+   },
+   "answer": "Mouse",
+   "rank": 21
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐹"
+   },
+   "answer": "Hamster",
+   "rank": 56
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐴"
+   },
+   "answer": "Horse",
+   "rank": 8
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦄"
+   },
+   "answer": "Unicorn",
+   "rank": 49
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝"
+   },
+   "answer": "Bee",
+   "fact": "A honeybee beats its wings more than two hundred times per second.",
+   "rank": 29
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐛"
+   },
+   "answer": "Caterpillar",
+   "rank": 59
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦋"
+   },
+   "answer": "Butterfly",
+   "fact": "A butterfly tastes food with its feet.",
+   "rank": 15
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐌"
+   },
+   "answer": "Snail",
+   "fact": "A snail has thousands of tiny teeth on its tongue.",
+   "rank": 16
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐞"
+   },
+   "answer": "Ladybug",
+   "rank": 30
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐜"
+   },
+   "answer": "Ant",
+   "rank": 58
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦗"
+   },
+   "answer": "Cricket",
+   "rank": 96
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕷️"
+   },
+   "answer": "Spider",
+   "rank": 57
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦂"
+   },
+   "answer": "Scorpion",
+   "rank": 60
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐢"
+   },
+   "answer": "Turtle",
+   "rank": 13
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐍"
+   },
+   "answer": "Snake",
+   "rank": 14
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦕"
+   },
+   "answer": "Diplodocus",
+   "rank": 91
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦖"
+   },
+   "answer": "T. rex",
+   "rank": 51
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐳"
+   },
+   "answer": "Whale",
+   "rank": 18
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐬"
+   },
+   "answer": "Dolphin",
+   "fact": "A dolphin sleeps with only half of its brain at a time.",
+   "rank": 17
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦭"
+   },
+   "answer": "Seal",
+   "rank": 75
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟"
+   },
+   "answer": "Fish",
+   "rank": 48
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐠"
+   },
+   "answer": "Tropical fish",
+   "rank": 79
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐡"
+   },
+   "answer": "Pufferfish",
+   "rank": 80
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦈"
+   },
+   "answer": "Shark",
+   "fact": "A shark keeps growing new teeth throughout its life.",
+   "rank": 19
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦀"
+   },
+   "answer": "Crab",
+   "rank": 46
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦞"
+   },
+   "answer": "Lobster",
+   "rank": 76
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦐"
+   },
+   "answer": "Shrimp",
+   "rank": 47
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦑"
+   },
+   "answer": "Squid",
+   "fact": "The giant squid has the biggest eyes in the whole animal kingdom.",
+   "rank": 77
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐪"
+   },
+   "answer": "Dromedary",
+   "fact": "A dromedary has just one hump, while the Bactrian camel has two.",
+   "rank": 63
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐫"
+   },
+   "answer": "Two-hump camel",
+   "rank": 64
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦙"
+   },
+   "answer": "Llama",
+   "rank": 65
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦘"
+   },
+   "answer": "Kangaroo",
+   "fact": "A newborn kangaroo is barely bigger than a jelly bean.",
+   "rank": 25
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦃"
+   },
+   "answer": "Turkey",
+   "rank": 71
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦚"
+   },
+   "answer": "Peacock",
+   "rank": 42
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦢"
+   },
+   "answer": "Swan",
+   "rank": 41
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦉"
+   },
+   "answer": "Owl",
+   "fact": "An owl can turn its head about two hundred and seventy degrees.",
+   "rank": 37
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦅"
+   },
+   "answer": "Eagle",
+   "rank": 38
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦆"
+   },
+   "answer": "Duck",
+   "rank": 32
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐓"
+   },
+   "answer": "Rooster",
+   "rank": 33
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐐"
+   },
+   "answer": "Goat",
+   "rank": 36
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐑"
+   },
+   "answer": "Sheep",
+   "rank": 35
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐏"
+   },
+   "answer": "Ram",
+   "rank": 89
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦌"
+   },
+   "answer": "Deer",
+   "rank": 67
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦬"
+   },
+   "answer": "Bison",
+   "rank": 87
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦏"
+   },
+   "answer": "Rhino",
+   "fact": "A rhino's horn is made of keratin, just like your fingernails.",
+   "rank": 43
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦛"
+   },
+   "answer": "Hippo",
+   "rank": 44
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐃"
+   },
+   "answer": "Water buffalo",
+   "rank": 101
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦧"
+   },
+   "answer": "Orangutan",
+   "fact": "The word orangutan means “person of the forest” in Malay.",
+   "rank": 86
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦍"
+   },
+   "answer": "Gorilla",
+   "rank": 45
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐿️"
+   },
+   "answer": "Squirrel",
+   "rank": 55
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦝"
+   },
+   "answer": "Raccoon",
+   "rank": 85
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦤"
+   },
+   "answer": "Dodo",
+   "fact": "The dodo lived on the island of Mauritius and died out in the 1600s.",
+   "rank": 102
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪲"
+   },
+   "answer": "Beetle",
+   "rank": 94
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪰"
+   },
+   "answer": "Fly",
+   "rank": 92
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦟"
+   },
+   "answer": "Mosquito",
+   "rank": 93
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪱"
+   },
+   "answer": "Worm",
+   "rank": 95
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐉"
+   },
+   "answer": "Dragon",
+   "rank": 50
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐣"
+   },
+   "answer": "Chick",
+   "rank": 34
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕊️"
+   },
+   "answer": "Dove",
+   "rank": 72
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦣"
+   },
+   "answer": "Mammoth",
+   "rank": 90
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐂"
+   },
+   "answer": "Ox",
+   "rank": 68
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐀"
+   },
+   "answer": "Rat",
+   "rank": 69
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦪"
+   },
+   "answer": "Oyster",
+   "rank": 81
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪳"
+   },
+   "answer": "Cockroach",
+   "rank": 97
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦠"
+   },
+   "answer": "Microbe",
+   "rank": 98
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦‍⬛"
+   },
+   "answer": "Crow",
+   "rank": 73
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐈‍⬛"
+   },
+   "answer": "Black cat",
+   "rank": 53
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻‍❄️"
+   },
+   "answer": "Polar bear",
+   "rank": 52
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪿"
+   },
+   "answer": "Goose",
+   "rank": 70
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫏"
+   },
+   "answer": "Donkey",
+   "rank": 66
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🫎"
+   },
+   "answer": "Moose",
+   "rank": 88
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪼"
+   },
+   "answer": "Jellyfish",
+   "rank": 78
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪸"
+   },
+   "answer": "Coral",
+   "rank": 103
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐲"
+   },
+   "answer": "Chinese dragon",
+   "rank": 104
+  }
+ ]
+}

@@ -1,0 +1,1118 @@
+{
+ "question": "Which MOVIE is hiding behind these emojis? 🎬",
+ "hook": "Guess {n} MOVIES in EMOJIS",
+ "emoji": "🎬🍿🧩",
+ "slug": "movies-emojis",
+ "noun": "MOVIES in EMOJIS",
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "tags": [
+  "movies",
+  "cinema",
+  "movies in emojis",
+  "emoji quiz"
+ ],
+ "rankNote": "Editorial ranking by fame among US/UK audiences, ordered by level then fame inside each level (1 = best known).",
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚢🧊"
+   },
+   "answer": "Titanic",
+   "level": "facile",
+   "rank": 1
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦖🏝️"
+   },
+   "answer": "Jurassic Park",
+   "level": "facile",
+   "rank": 2
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦈🏖️"
+   },
+   "answer": "Jaws",
+   "level": "facile",
+   "rank": 3
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔵🌿🐉"
+   },
+   "answer": "Avatar",
+   "level": "facile",
+   "rank": 4
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗⏰"
+   },
+   "answer": "Back to the Future",
+   "level": "facile",
+   "rank": 5
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👽📞🏠"
+   },
+   "answer": "E.T. the Extra-Terrestrial",
+   "level": "facile",
+   "rank": 6
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💍🧙🌋"
+   },
+   "answer": "The Lord of the Rings",
+   "level": "facile",
+   "rank": 7
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚔️🏟️"
+   },
+   "answer": "Gladiator",
+   "level": "facile",
+   "rank": 8
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕶️💊"
+   },
+   "answer": "The Matrix",
+   "level": "facile",
+   "rank": 9
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏠👦😱"
+   },
+   "answer": "Home Alone",
+   "level": "facile",
+   "rank": 10
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦍🏙️"
+   },
+   "answer": "King Kong",
+   "level": "facile",
+   "rank": 11
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏝️🏐"
+   },
+   "answer": "Cast Away",
+   "level": "facile",
+   "rank": 12
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦😱"
+   },
+   "answer": "The Birds",
+   "level": "facile",
+   "rank": 13
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪐🐒"
+   },
+   "answer": "Planet of the Apes",
+   "level": "facile",
+   "rank": 14
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚫👻"
+   },
+   "answer": "Ghostbusters",
+   "level": "facile",
+   "rank": 15
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎲🦁🌴"
+   },
+   "answer": "Jumanji",
+   "level": "facile",
+   "rank": 16
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☄️🌍💥"
+   },
+   "answer": "Armageddon",
+   "level": "facile",
+   "rank": 17
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌪️🚗"
+   },
+   "answer": "Twister",
+   "level": "facile",
+   "rank": 18
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💃🕺"
+   },
+   "answer": "Dirty Dancing",
+   "level": "facile",
+   "rank": 19
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👩‍👧🎶"
+   },
+   "answer": "Mamma Mia!",
+   "level": "facile",
+   "rank": 20
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎈🌍📅"
+   },
+   "answer": "Around the World in 80 Days",
+   "level": "facile",
+   "rank": 21
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐧🧊🚶"
+   },
+   "answer": "March of the Penguins",
+   "level": "facile",
+   "rank": 22
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👽🚀😱"
+   },
+   "answer": "Alien",
+   "level": "facile",
+   "rank": 23
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤖🔙"
+   },
+   "answer": "The Terminator",
+   "level": "facile",
+   "rank": 24
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛸🎆🇺🇸"
+   },
+   "answer": "Independence Day",
+   "level": "facile",
+   "rank": 25
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌪️👠🧙"
+   },
+   "answer": "The Wizard of Oz",
+   "level": "facile",
+   "rank": 26
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕴️⚫👽"
+   },
+   "answer": "Men in Black",
+   "level": "facile",
+   "rank": 27
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧛🦇"
+   },
+   "answer": "Dracula",
+   "level": "facile",
+   "rank": 28
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥊🏆"
+   },
+   "answer": "Rocky",
+   "level": "facile",
+   "rank": 29
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏺🧟"
+   },
+   "answer": "The Mummy",
+   "level": "facile",
+   "rank": 30
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐋🆓"
+   },
+   "answer": "Free Willy",
+   "level": "facile",
+   "rank": 31
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏔️🎶"
+   },
+   "answer": "The Sound of Music",
+   "level": "facile",
+   "rank": 32
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛵🎶"
+   },
+   "answer": "Grease",
+   "level": "facile",
+   "rank": 33
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✈️🔝"
+   },
+   "answer": "Top Gun",
+   "level": "facile",
+   "rank": 34
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚌💨💣"
+   },
+   "answer": "Speed",
+   "level": "facile",
+   "rank": 35
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👠👩"
+   },
+   "answer": "Pretty Woman",
+   "level": "facile",
+   "rank": 36
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥋👦"
+   },
+   "answer": "The Karate Kid",
+   "level": "moyen",
+   "rank": 37
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕺🌟🎶"
+   },
+   "answer": "Saturday Night Fever",
+   "level": "moyen",
+   "rank": 38
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎭💚"
+   },
+   "answer": "The Mask",
+   "level": "moyen",
+   "rank": 39
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☀️🔁⏰"
+   },
+   "answer": "Groundhog Day",
+   "level": "moyen",
+   "rank": 40
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤵🍝💍"
+   },
+   "answer": "The Godfather",
+   "level": "moyen",
+   "rank": 41
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💭🌀🛌"
+   },
+   "answer": "Inception",
+   "level": "moyen",
+   "rank": 42
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌌🚀⏳"
+   },
+   "answer": "Interstellar",
+   "level": "moyen",
+   "rank": 43
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚢🪖🏖️"
+   },
+   "answer": "Dunkirk",
+   "level": "moyen",
+   "rank": 44
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌨️🗽"
+   },
+   "answer": "The Day After Tomorrow",
+   "level": "moyen",
+   "rank": 45
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌋🔥"
+   },
+   "answer": "Volcano",
+   "level": "moyen",
+   "rank": 46
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👨👨👨👶"
+   },
+   "answer": "Three Men and a Baby",
+   "level": "moyen",
+   "rank": 47
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧝⛰️🐉"
+   },
+   "answer": "The Hobbit",
+   "level": "moyen",
+   "rank": 48
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏠📺"
+   },
+   "answer": "The Truman Show",
+   "level": "moyen",
+   "rank": 49
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌧️💃"
+   },
+   "answer": "Singin' in the Rain",
+   "level": "moyen",
+   "rank": 50
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏃🪶"
+   },
+   "answer": "Forrest Gump",
+   "level": "moyen",
+   "rank": 51
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👨👵"
+   },
+   "answer": "Mrs. Doubtfire",
+   "level": "moyen",
+   "rank": 52
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎹👦"
+   },
+   "answer": "Big",
+   "level": "moyen",
+   "rank": 53
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚗🇮🇹💰"
+   },
+   "answer": "The Italian Job",
+   "level": "moyen",
+   "rank": 54
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚙️🏭"
+   },
+   "answer": "Modern Times",
+   "level": "moyen",
+   "rank": 55
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👞💃"
+   },
+   "answer": "Footloose",
+   "level": "moyen",
+   "rank": 56
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✈️🤪"
+   },
+   "answer": "Airplane!",
+   "level": "moyen",
+   "rank": 57
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚀🌙🆘"
+   },
+   "answer": "Apollo 13",
+   "level": "moyen",
+   "rank": 58
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌍🧑‍🚀🌀"
+   },
+   "answer": "Gravity",
+   "level": "moyen",
+   "rank": 59
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪐🥔"
+   },
+   "answer": "The Martian",
+   "level": "moyen",
+   "rank": 60
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐋⚓"
+   },
+   "answer": "Moby Dick",
+   "level": "moyen",
+   "rank": 61
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏹🟢"
+   },
+   "answer": "Robin Hood",
+   "level": "moyen",
+   "rank": 62
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐴🏛️"
+   },
+   "answer": "Troy",
+   "level": "moyen",
+   "rank": 63
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👑🐍"
+   },
+   "answer": "Cleopatra",
+   "level": "moyen",
+   "rank": 64
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎄👻"
+   },
+   "answer": "A Christmas Carol",
+   "level": "moyen",
+   "rank": 65
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔍🎩"
+   },
+   "answer": "Sherlock Holmes",
+   "level": "moyen",
+   "rank": 66
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥣🧒"
+   },
+   "answer": "Oliver Twist",
+   "level": "moyen",
+   "rank": 67
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌧️👨"
+   },
+   "answer": "Rain Man",
+   "level": "moyen",
+   "rank": 68
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏍️🔒"
+   },
+   "answer": "The Great Escape",
+   "level": "moyen",
+   "rank": 69
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤠🔫🏜️"
+   },
+   "answer": "The Magnificent Seven",
+   "level": "moyen",
+   "rank": 70
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⚔️⚔️⚔️🪶"
+   },
+   "answer": "The Three Musketeers",
+   "level": "moyen",
+   "rank": 71
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💃🐺"
+   },
+   "answer": "Dances with Wolves",
+   "level": "moyen",
+   "rank": 72
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎹🌙"
+   },
+   "answer": "Casablanca",
+   "level": "difficile",
+   "rank": 73
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪟👀"
+   },
+   "answer": "Rear Window",
+   "level": "difficile",
+   "rank": 74
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😵🌀"
+   },
+   "answer": "Vertigo",
+   "level": "difficile",
+   "rank": 75
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌬️🏃"
+   },
+   "answer": "Gone with the Wind",
+   "level": "difficile",
+   "rank": 76
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏛️🐎"
+   },
+   "answer": "Ben-Hur",
+   "level": "difficile",
+   "rank": 77
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎩💚"
+   },
+   "answer": "The Great Gatsby",
+   "level": "difficile",
+   "rank": 78
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "✈️🏃"
+   },
+   "answer": "Catch Me If You Can",
+   "level": "difficile",
+   "rank": 79
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤒🏫🚗"
+   },
+   "answer": "Ferris Bueller's Day Off",
+   "level": "difficile",
+   "rank": 80
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦🪺✈️"
+   },
+   "answer": "One Flew Over the Cuckoo's Nest",
+   "level": "difficile",
+   "rank": 81
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌉🌊"
+   },
+   "answer": "The Bridge on the River Kwai",
+   "level": "difficile",
+   "rank": 82
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⛏️💰"
+   },
+   "answer": "The Gold Rush",
+   "level": "difficile",
+   "rank": 83
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏙️🤖"
+   },
+   "answer": "Metropolis",
+   "level": "difficile",
+   "rank": 84
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💰😱🚚"
+   },
+   "answer": "The Wages of Fear",
+   "level": "difficile",
+   "rank": 85
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔒🕳️"
+   },
+   "answer": "The Shawshank Redemption",
+   "level": "difficile",
+   "rank": 86
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏝️💰🗺️"
+   },
+   "answer": "Treasure Island",
+   "level": "difficile",
+   "rank": 87
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌍⬇️🦖"
+   },
+   "answer": "Journey to the Center of the Earth",
+   "level": "difficile",
+   "rank": 88
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🗡️🇯🇵"
+   },
+   "answer": "The Last Samurai",
+   "level": "difficile",
+   "rank": 89
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐛🔬"
+   },
+   "answer": "Microcosmos",
+   "level": "difficile",
+   "rank": 90
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦆🌍"
+   },
+   "answer": "Winged Migration",
+   "level": "difficile",
+   "rank": 91
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👵🚲🏙️"
+   },
+   "answer": "The Triplets of Belleville",
+   "level": "difficile",
+   "rank": 92
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏃💨"
+   },
+   "answer": "Breathless",
+   "level": "difficile",
+   "rank": 93
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏃‍♂️🔍"
+   },
+   "answer": "The Fugitive",
+   "level": "difficile",
+   "rank": 94
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌙🚀"
+   },
+   "answer": "A Trip to the Moon",
+   "level": "difficile",
+   "rank": 95
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎈🔴"
+   },
+   "answer": "The Red Balloon",
+   "level": "difficile",
+   "rank": 96
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😇👹🤠"
+   },
+   "answer": "The Good, the Bad and the Ugly",
+   "level": "difficile",
+   "rank": 97
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤠🌵⏳"
+   },
+   "answer": "Once Upon a Time in the West",
+   "level": "difficile",
+   "rank": 98
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☂️🚢"
+   },
+   "answer": "The Umbrellas of Cherbourg",
+   "level": "difficile",
+   "rank": 99
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📜⭕👻"
+   },
+   "answer": "Dead Poets Society",
+   "level": "difficile",
+   "rank": 100
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔥🎷"
+   },
+   "answer": "Some Like It Hot",
+   "level": "difficile",
+   "rank": 101
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧭✈️"
+   },
+   "answer": "North by Northwest",
+   "level": "difficile",
+   "rank": 102
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏜️🐪"
+   },
+   "answer": "Lawrence of Arabia",
+   "level": "difficile",
+   "rank": 103
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌹👩🎩"
+   },
+   "answer": "My Fair Lady",
+   "level": "difficile",
+   "rank": 104
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👊👊👊👊"
+   },
+   "answer": "The 400 Blows",
+   "level": "impossible",
+   "rank": 105
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "😒😤"
+   },
+   "answer": "Contempt",
+   "level": "impossible",
+   "rank": 106
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪄🏰"
+   },
+   "answer": "Grand Illusion",
+   "level": "impossible",
+   "rank": 107
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👶☁️🎭"
+   },
+   "answer": "Children of Paradise",
+   "level": "impossible",
+   "rank": 108
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⭕🔴"
+   },
+   "answer": "The Red Circle",
+   "level": "impossible",
+   "rank": 109
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌍👌"
+   },
+   "answer": "A Perfect World",
+   "level": "impossible",
+   "rank": 110
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤫🎩"
+   },
+   "answer": "The Discreet Charm of the Bourgeoisie",
+   "level": "impossible",
+   "rank": 111
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📏🎲"
+   },
+   "answer": "The Rules of the Game",
+   "level": "impossible",
+   "rank": 112
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👀🚫🙂"
+   },
+   "answer": "Eyes Without a Face",
+   "level": "impossible",
+   "rank": 113
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚲🦹"
+   },
+   "answer": "Bicycle Thieves",
+   "level": "impossible",
+   "rank": 114
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💡🏙️"
+   },
+   "answer": "City Lights",
+   "level": "impossible",
+   "rank": 115
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦴🚀"
+   },
+   "answer": "2001: A Space Odyssey",
+   "level": "impossible",
+   "rank": 116
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🗡️7️⃣"
+   },
+   "answer": "Seven Samurai",
+   "level": "impossible",
+   "rank": 117
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛷🌹"
+   },
+   "answer": "Citizen Kane",
+   "level": "impossible",
+   "rank": 118
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏚️🦇"
+   },
+   "answer": "Nosferatu",
+   "level": "impossible",
+   "rank": 119
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕰️🧗"
+   },
+   "answer": "Safety Last!",
+   "level": "impossible",
+   "rank": 120
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎖️🚂"
+   },
+   "answer": "The General",
+   "level": "impossible",
+   "rank": 121
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏙️🕺💃"
+   },
+   "answer": "West Side Story",
+   "level": "impossible",
+   "rank": 122
+  }
+ ]
+}

@@ -47,7 +47,7 @@ items.forEach((it, idx) => {
     if (typeof it.prompt.category !== "string" || !it.prompt.category) return err("letter : category manquante (ex. « un animal »)");
     if (typeof it.answer !== "string" || it.answer.split(",").length < 2) return err("letter : answer = au moins 2 réponses acceptées séparées par des virgules");
   }
-  if (bankName === "maths" && t === "text" && !/^[\d\s+\-−×÷=%?.,()½¼¾²³]+( de \d+)?$/.test(it.prompt.value ?? "")) return err("maths : expression uniquement chiffres et opérateurs");
+  if (bankName === "maths" && t === "text" && !/^[\d\s+\-−×÷=%?.,()½¼¾²³]+( (de|of) \d+)?$/.test(it.prompt.value ?? "")) return err("maths : expression uniquement chiffres et opérateurs");
   if (it.fact !== undefined && (typeof it.fact !== "string" || it.fact.length < 20 || it.fact.length > 160)) return err("fact : 20 à 160 caractères");
   if (t === "emoji") {
     if (typeof it.prompt.value !== "string" || !it.prompt.value) return err("value vide");

@@ -1,0 +1,1617 @@
+{
+ "question": "Which country does this flag belong to?",
+ "hook": "Guess {n} FLAGS of the WORLD",
+ "emoji": "🚩🌍🧠",
+ "slug": "flags",
+ "noun": "FLAGS",
+ "tags": [
+  "flags",
+  "flag quiz",
+  "countries of the world",
+  "geography"
+ ],
+ "notes": "",
+ "rankNote": "rank = difficulty order (1 = easiest), here by decreasing population of the country; generate.mjs sorts the episode by ascending rank",
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇳"
+   },
+   "answer": "China",
+   "rank": 1
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇳"
+   },
+   "answer": "India",
+   "fact": "The wheel in the middle of India's flag has twenty-four spokes.",
+   "rank": 2
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇸"
+   },
+   "answer": "United States",
+   "fact": "The US flag has fifty stars, one for each state.",
+   "rank": 3
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇩"
+   },
+   "answer": "Indonesia",
+   "rank": 4
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇷"
+   },
+   "answer": "Brazil",
+   "fact": "The twenty-seven stars on Brazil's flag stand for its states and the federal district.",
+   "rank": 5
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇰"
+   },
+   "answer": "Pakistan",
+   "rank": 6
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇬"
+   },
+   "answer": "Nigeria",
+   "rank": 7
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇩"
+   },
+   "answer": "Bangladesh",
+   "fact": "The red disc on Bangladesh's flag is placed slightly toward the hoist side.",
+   "rank": 8
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇺"
+   },
+   "answer": "Russia",
+   "rank": 9
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇯🇵"
+   },
+   "answer": "Japan",
+   "fact": "The red disc on Japan's flag represents the sun.",
+   "rank": 10
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇽"
+   },
+   "answer": "Mexico",
+   "fact": "Mexico's flag shows an eagle perched on a cactus, from an Aztec legend.",
+   "rank": 11
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇭"
+   },
+   "answer": "Philippines",
+   "rank": 12
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇳"
+   },
+   "answer": "Vietnam",
+   "rank": 13
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇹"
+   },
+   "answer": "Ethiopia",
+   "rank": 14
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇬"
+   },
+   "answer": "Egypt",
+   "rank": 15
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇪"
+   },
+   "answer": "Germany",
+   "rank": 16
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇷"
+   },
+   "answer": "Iran",
+   "rank": 17
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇷"
+   },
+   "answer": "Turkey",
+   "rank": 18
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇩"
+   },
+   "answer": "DR Congo",
+   "rank": 19
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇫🇷"
+   },
+   "answer": "France",
+   "rank": 20
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇭"
+   },
+   "answer": "Thailand",
+   "fact": "The blue stripe in the middle of Thailand's flag is twice as wide as the others.",
+   "rank": 21
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇧"
+   },
+   "answer": "United Kingdom",
+   "fact": "The flag of the United Kingdom is nicknamed the Union Jack.",
+   "rank": 22
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇹"
+   },
+   "answer": "Italy",
+   "fact": "Italy's green, white and red flag is nicknamed il Tricolore.",
+   "rank": 23
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇿🇦"
+   },
+   "answer": "South Africa",
+   "rank": 24
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇲"
+   },
+   "answer": "Myanmar",
+   "rank": 25
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇷"
+   },
+   "answer": "South Korea",
+   "rank": 26
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇴"
+   },
+   "answer": "Colombia",
+   "rank": 27
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇿"
+   },
+   "answer": "Tanzania",
+   "rank": 28
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇸"
+   },
+   "answer": "Spain",
+   "rank": 29
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇦"
+   },
+   "answer": "Ukraine",
+   "rank": 30
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇷"
+   },
+   "answer": "Argentina",
+   "fact": "Argentina's flag has a sun in the middle, called the Sun of May.",
+   "rank": 31
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇪"
+   },
+   "answer": "Kenya",
+   "rank": 32
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇿"
+   },
+   "answer": "Algeria",
+   "rank": 33
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇱"
+   },
+   "answer": "Poland",
+   "fact": "Poland's flag is white on top and red below, the opposite of Indonesia's.",
+   "rank": 34
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇩"
+   },
+   "answer": "Sudan",
+   "rank": 35
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇶"
+   },
+   "answer": "Iraq",
+   "rank": 36
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇦"
+   },
+   "answer": "Canada",
+   "fact": "Canada's flag shows a maple leaf with eleven points.",
+   "rank": 37
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇬"
+   },
+   "answer": "Uganda",
+   "fact": "Uganda's flag shows a grey crowned crane in the middle.",
+   "rank": 38
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇦"
+   },
+   "answer": "Morocco",
+   "fact": "Morocco's flag is red with a green five-pointed star.",
+   "rank": 39
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇪"
+   },
+   "answer": "Peru",
+   "rank": 40
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇦"
+   },
+   "answer": "Saudi Arabia",
+   "rank": 41
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇿"
+   },
+   "answer": "Uzbekistan",
+   "rank": 42
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇾"
+   },
+   "answer": "Malaysia",
+   "fact": "Malaysia's flag has fourteen red and white stripes.",
+   "rank": 43
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇪"
+   },
+   "answer": "Venezuela",
+   "rank": 44
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇵"
+   },
+   "answer": "Nepal",
+   "fact": "Nepal's flag is the only national flag in the world that is not rectangular.",
+   "rank": 45
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇭"
+   },
+   "answer": "Ghana",
+   "fact": "Ghana's flag has a black star, a symbol of African freedom.",
+   "rank": 46
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇫"
+   },
+   "answer": "Afghanistan",
+   "rank": 47
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇾🇪"
+   },
+   "answer": "Yemen",
+   "rank": 48
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇿"
+   },
+   "answer": "Mozambique",
+   "rank": 49
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇵"
+   },
+   "answer": "North Korea",
+   "rank": 50
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇴"
+   },
+   "answer": "Angola",
+   "rank": 51
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇮"
+   },
+   "answer": "Ivory Coast",
+   "rank": 52
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇺"
+   },
+   "answer": "Australia",
+   "fact": "Australia's flag features the Southern Cross, a constellation of the southern sky.",
+   "rank": 53
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇾"
+   },
+   "answer": "Syria",
+   "rank": 54
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇬"
+   },
+   "answer": "Madagascar",
+   "rank": 55
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇲"
+   },
+   "answer": "Cameroon",
+   "rank": 56
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇰"
+   },
+   "answer": "Sri Lanka",
+   "rank": 57
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇴"
+   },
+   "answer": "Romania",
+   "rank": 58
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇱"
+   },
+   "answer": "Chile",
+   "rank": 59
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇿"
+   },
+   "answer": "Kazakhstan",
+   "rank": 60
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇫"
+   },
+   "answer": "Burkina Faso",
+   "rank": 61
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇪"
+   },
+   "answer": "Niger",
+   "rank": 62
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇱"
+   },
+   "answer": "Netherlands",
+   "rank": 63
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇨"
+   },
+   "answer": "Ecuador",
+   "rank": 64
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇹"
+   },
+   "answer": "Guatemala",
+   "fact": "Guatemala's flag shows a quetzal, the country's national bird.",
+   "rank": 65
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇼"
+   },
+   "answer": "Malawi",
+   "rank": 66
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇱"
+   },
+   "answer": "Mali",
+   "rank": 67
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇭"
+   },
+   "answer": "Cambodia",
+   "rank": 68
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇿🇲"
+   },
+   "answer": "Zambia",
+   "rank": 69
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇳"
+   },
+   "answer": "Senegal",
+   "rank": 70
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇩"
+   },
+   "answer": "Chad",
+   "fact": "The flags of Chad and Romania are almost identical.",
+   "rank": 71
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇿🇼"
+   },
+   "answer": "Zimbabwe",
+   "fact": "Zimbabwe's flag shows the Zimbabwe Bird, a stone bird that is the national symbol.",
+   "rank": 72
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇸"
+   },
+   "answer": "South Sudan",
+   "rank": 73
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇪"
+   },
+   "answer": "Belgium",
+   "rank": 74
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇺"
+   },
+   "answer": "Cuba",
+   "rank": 75
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇼"
+   },
+   "answer": "Rwanda",
+   "rank": 76
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇷"
+   },
+   "answer": "Greece",
+   "fact": "Greece's flag has nine stripes, five blue and four white.",
+   "rank": 77
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇳"
+   },
+   "answer": "Tunisia",
+   "rank": 78
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇴"
+   },
+   "answer": "Somalia",
+   "rank": 79
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇹"
+   },
+   "answer": "Haiti",
+   "rank": 80
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇳"
+   },
+   "answer": "Guinea",
+   "rank": 81
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇿"
+   },
+   "answer": "Czech Republic",
+   "rank": 82
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇹"
+   },
+   "answer": "Portugal",
+   "rank": 83
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇴"
+   },
+   "answer": "Dominican Republic",
+   "rank": 84
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇴"
+   },
+   "answer": "Bolivia",
+   "rank": 85
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇯"
+   },
+   "answer": "Benin",
+   "rank": 86
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇪"
+   },
+   "answer": "Sweden",
+   "rank": 87
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇺"
+   },
+   "answer": "Hungary",
+   "rank": 88
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇿"
+   },
+   "answer": "Azerbaijan",
+   "rank": 89
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇮"
+   },
+   "answer": "Burundi",
+   "rank": 90
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇾"
+   },
+   "answer": "Belarus",
+   "rank": 91
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇪"
+   },
+   "answer": "United Arab Emirates",
+   "rank": 92
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇳"
+   },
+   "answer": "Honduras",
+   "rank": 93
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇹"
+   },
+   "answer": "Austria",
+   "rank": 94
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇱"
+   },
+   "answer": "Israel",
+   "rank": 95
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇭"
+   },
+   "answer": "Switzerland",
+   "fact": "Switzerland's flag is square, just like the flag of Vatican City.",
+   "rank": 96
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇯"
+   },
+   "answer": "Tajikistan",
+   "rank": 97
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇬"
+   },
+   "answer": "Papua New Guinea",
+   "fact": "Papua New Guinea's flag shows a bird of paradise.",
+   "rank": 98
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇬"
+   },
+   "answer": "Bulgaria",
+   "rank": 99
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇸"
+   },
+   "answer": "Serbia",
+   "rank": 100
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇬"
+   },
+   "answer": "Togo",
+   "rank": 101
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇾"
+   },
+   "answer": "Paraguay",
+   "rank": 102
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇦"
+   },
+   "answer": "Laos",
+   "rank": 103
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇯🇴"
+   },
+   "answer": "Jordan",
+   "rank": 104
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇷"
+   },
+   "answer": "Eritrea",
+   "rank": 105
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇻"
+   },
+   "answer": "El Salvador",
+   "rank": 106
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇪"
+   },
+   "answer": "Ireland",
+   "rank": 107
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇾"
+   },
+   "answer": "Libya",
+   "rank": 108
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇱"
+   },
+   "answer": "Sierra Leone",
+   "rank": 109
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇮"
+   },
+   "answer": "Nicaragua",
+   "fact": "Nicaragua's flag shows a rainbow in the middle of its emblem.",
+   "rank": 110
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇲"
+   },
+   "answer": "Turkmenistan",
+   "rank": 111
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇬"
+   },
+   "answer": "Kyrgyzstan",
+   "rank": 112
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇰"
+   },
+   "answer": "Denmark",
+   "fact": "Denmark's flag is considered the oldest national flag still in use.",
+   "rank": 113
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇫🇮"
+   },
+   "answer": "Finland",
+   "rank": 114
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇬"
+   },
+   "answer": "Singapore",
+   "rank": 115
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇰"
+   },
+   "answer": "Slovakia",
+   "rank": 116
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇴"
+   },
+   "answer": "Norway",
+   "rank": 117
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇷"
+   },
+   "answer": "Costa Rica",
+   "rank": 118
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇫"
+   },
+   "answer": "Central African Republic",
+   "rank": 119
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇬"
+   },
+   "answer": "Republic of the Congo",
+   "rank": 120
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇿"
+   },
+   "answer": "New Zealand",
+   "fact": "New Zealand's flag shows four red stars of the Southern Cross.",
+   "rank": 121
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇪"
+   },
+   "answer": "Georgia",
+   "rank": 122
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇷"
+   },
+   "answer": "Liberia",
+   "fact": "Liberia's flag looks a lot like the American flag, but with just one star.",
+   "rank": 123
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇷"
+   },
+   "answer": "Croatia",
+   "rank": 124
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇧"
+   },
+   "answer": "Lebanon",
+   "rank": 125
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇴🇲"
+   },
+   "answer": "Oman",
+   "rank": 126
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇦"
+   },
+   "answer": "Bosnia and Herzegovina",
+   "rank": 127
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇦"
+   },
+   "answer": "Panama",
+   "rank": 128
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇩"
+   },
+   "answer": "Moldova",
+   "rank": 129
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇷"
+   },
+   "answer": "Mauritania",
+   "rank": 130
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇾"
+   },
+   "answer": "Uruguay",
+   "fact": "Uruguay's flag has a Sun of May too, just like Argentina's.",
+   "rank": 131
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇼"
+   },
+   "answer": "Kuwait",
+   "rank": 132
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇲"
+   },
+   "answer": "Armenia",
+   "rank": 133
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇳"
+   },
+   "answer": "Mongolia",
+   "rank": 134
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇹"
+   },
+   "answer": "Lithuania",
+   "rank": 135
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇱"
+   },
+   "answer": "Albania",
+   "fact": "Albania's flag shows a black double-headed eagle on a red background.",
+   "rank": 136
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇯🇲"
+   },
+   "answer": "Jamaica",
+   "fact": "Jamaica's flag is the only national flag with no red, white or blue.",
+   "rank": 137
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇶🇦"
+   },
+   "answer": "Qatar",
+   "fact": "Qatar's flag has a nine-point serrated edge, which makes it unique.",
+   "rank": 138
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇦"
+   },
+   "answer": "Namibia",
+   "rank": 139
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇸"
+   },
+   "answer": "Lesotho",
+   "fact": "Lesotho's flag shows a traditional hat called the mokorotlo.",
+   "rank": 140
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇮"
+   },
+   "answer": "Slovenia",
+   "rank": 141
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇰"
+   },
+   "answer": "North Macedonia",
+   "rank": 142
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇼"
+   },
+   "answer": "Botswana",
+   "rank": 143
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇻"
+   },
+   "answer": "Latvia",
+   "rank": 144
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇲"
+   },
+   "answer": "Gambia",
+   "rank": 145
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇼"
+   },
+   "answer": "Guinea-Bissau",
+   "rank": 146
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇦"
+   },
+   "answer": "Gabon",
+   "rank": 147
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇶"
+   },
+   "answer": "Equatorial Guinea",
+   "rank": 148
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇹"
+   },
+   "answer": "Trinidad and Tobago",
+   "rank": 149
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇭"
+   },
+   "answer": "Bahrain",
+   "rank": 150
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇪"
+   },
+   "answer": "Estonia",
+   "rank": 151
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇺"
+   },
+   "answer": "Mauritius",
+   "rank": 152
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇱"
+   },
+   "answer": "Timor-Leste",
+   "rank": 153
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇿"
+   },
+   "answer": "Eswatini",
+   "rank": 154
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇯"
+   },
+   "answer": "Djibouti",
+   "rank": 155
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇫🇯"
+   },
+   "answer": "Fiji",
+   "fact": "Fiji's flag carries the British Union Jack in one corner.",
+   "rank": 156
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇾"
+   },
+   "answer": "Cyprus",
+   "fact": "Cyprus's flag shows the island in copper, a metal named after Cyprus.",
+   "rank": 157
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇾"
+   },
+   "answer": "Guyana",
+   "rank": 158
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇲"
+   },
+   "answer": "Comoros",
+   "fact": "The flag of the Comoros has four stars and four stripes for its four islands.",
+   "rank": 159
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇹"
+   },
+   "answer": "Bhutan",
+   "fact": "Bhutan's flag shows a dragon, because the country's name means “Land of the Thunder Dragon”.",
+   "rank": 160
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇪"
+   },
+   "answer": "Montenegro",
+   "rank": 161
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇧"
+   },
+   "answer": "Solomon Islands",
+   "rank": 162
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇺"
+   },
+   "answer": "Luxembourg",
+   "fact": "Luxembourg's flag looks like the Dutch one, but with a lighter blue.",
+   "rank": 163
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇷"
+   },
+   "answer": "Suriname",
+   "rank": 164
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇻"
+   },
+   "answer": "Cape Verde",
+   "fact": "Cape Verde's flag draws a circle of ten stars, one for each island.",
+   "rank": 165
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇹"
+   },
+   "answer": "Malta",
+   "rank": 166
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇳"
+   },
+   "answer": "Brunei",
+   "rank": 167
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇿"
+   },
+   "answer": "Belize",
+   "fact": "Belize's flag is one of the very few in the world to show people.",
+   "rank": 168
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇻"
+   },
+   "answer": "Maldives",
+   "rank": 169
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇸"
+   },
+   "answer": "Iceland",
+   "rank": 170
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇸"
+   },
+   "answer": "Bahamas",
+   "rank": 171
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇧"
+   },
+   "answer": "Barbados",
+   "rank": 172
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇺"
+   },
+   "answer": "Vanuatu",
+   "rank": 173
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇼🇸"
+   },
+   "answer": "Samoa",
+   "rank": 174
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇹"
+   },
+   "answer": "Sao Tome and Principe",
+   "rank": 175
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇨"
+   },
+   "answer": "Saint Lucia",
+   "rank": 176
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇨"
+   },
+   "answer": "Saint Vincent and the Grenadines",
+   "rank": 177
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇮"
+   },
+   "answer": "Kiribati",
+   "fact": "Kiribati's flag shows a frigatebird soaring over the rising sun.",
+   "rank": 178
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇩"
+   },
+   "answer": "Grenada",
+   "fact": "Grenada's flag has a nutmeg on it, because the island grows so many.",
+   "rank": 179
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇴"
+   },
+   "answer": "Tonga",
+   "rank": 180
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇫🇲"
+   },
+   "answer": "Micronesia",
+   "fact": "The flag of Micronesia has four stars, one for each of its states.",
+   "rank": 181
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇨"
+   },
+   "answer": "Seychelles",
+   "rank": 182
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇬"
+   },
+   "answer": "Antigua and Barbuda",
+   "rank": 183
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇩"
+   },
+   "answer": "Andorra",
+   "rank": 184
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇲"
+   },
+   "answer": "Dominica",
+   "fact": "Dominica's flag is one of the few flags in the world to include purple.",
+   "rank": 185
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇭"
+   },
+   "answer": "Marshall Islands",
+   "fact": "The flag of the Marshall Islands has a big star with twenty-four points.",
+   "rank": 186
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇳"
+   },
+   "answer": "Saint Kitts and Nevis",
+   "rank": 187
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇮"
+   },
+   "answer": "Liechtenstein",
+   "rank": 188
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇨"
+   },
+   "answer": "Monaco",
+   "rank": 189
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇲"
+   },
+   "answer": "San Marino",
+   "rank": 190
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇼"
+   },
+   "answer": "Palau",
+   "fact": "Palau's flag shows a yellow full moon on a blue background.",
+   "rank": 191
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇻"
+   },
+   "answer": "Tuvalu",
+   "fact": "Tuvalu's flag has nine stars, one for each of its nine islands.",
+   "rank": 192
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇷"
+   },
+   "answer": "Nauru",
+   "rank": 193
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇦"
+   },
+   "answer": "Vatican City",
+   "fact": "Vatican City's flag is one of only two square national flags in the world.",
+   "rank": 194
+  }
+ ]
+}
