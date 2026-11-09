@@ -85,6 +85,7 @@ jobs:
 
       - name: Voix off (ElevenLabs, optionnel)
         if: ${{ steps.gen.outputs.skip != 'true' }}
+        timeout-minutes: 30
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
