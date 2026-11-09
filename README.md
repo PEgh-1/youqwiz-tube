@@ -73,14 +73,12 @@ Mise en route : créer la chaîne de marque sur le même compte Google, obtenir 
 (choisir la chaîne anglaise à l'écran de consentement) → secret `YT_REFRESH_TOKEN_EN` ; choisir une voix ElevenLabs
 anglophone → `ELEVENLABS_VOICE_ID_EN` ; puis lancer « Video of the day (EN) » à la main pour constituer l'avance.
 
-## Relais réseaux sociaux (Shorts)
+## Shorts et relais réseaux sociaux
 
-Chaque épisode a deux Shorts : le premier (12 h, premières questions) et le second (19 h, les 8 questions les plus
-dures, `shortPublishHour2`). Le workflow les attache à une release GitHub nommée comme l'épisode ; le cron du site
-(`site/pull-episodes.php`, copie versionnée du script serveur) les copie dans `youqwiz.com/media/shorts/<id>.mp4` et
-`<id>-2.mp4`, d'où une tâche Claude quotidienne les programme sur Instagram, Facebook et TikTok via Metricool.
-
-## File tampon
-
-Chaque exécution programme la vidéo au prochain jour libre. Pour constituer de l'avance, lancer le workflow
-« Vidéo du jour » à la main (`workflow_dispatch`) ; le cron quotidien maintient ensuite l'avance.
+Chaque épisode a trois Shorts : 12 h (premières questions), 16 h (les 8 questions du milieu, `shortPublishHour3`) et 19 h
+(les 8 plus dures, `shortPublishHour2`). Montage v2 (09/11/2026) : la 1re question démarre tout de suite sous un bandeau
+d'accroche, la voix off s'affiche mot à mot (texte des clips écrit par `tts.mjs`), zoom lent et secousse, décor qui
+dérive, jingle/pop/montée de tension (`prepare-assets.mjs` synthétise les sons). Le workflow attache les trois mp4 à une
+release GitHub nommée comme l'épisode ; le cron du site (`site/pull-episodes.php`) les copie dans
+`youqwiz.com/media/shorts/<id>.mp4`, `<id>-3.mp4` et `<id>-2.mp4`, d'où une tâche Claude quotidienne les programme sur
+Instagram, Facebook et TikTok via Metricool.
