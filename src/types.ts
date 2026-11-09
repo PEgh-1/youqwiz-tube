@@ -72,6 +72,8 @@ export type Episode = {
     short2?: { title: string; description: string; sticker: string; line: string };
     /** 3e Short quotidien (16 h) : questions du milieu (moyen-difficile). */
     short3?: { title: string; description: string; sticker: string; line: string };
+    /** Accroche du Short (sticker rouge + ligne) : generate.mjs pour le Short 1, render.mjs pour les Shorts 2 et 3. */
+    shortHook?: { sticker: string; line: string };
     /** Surcharges posées par scripts/render.mjs pour le rendu du 2e Short. */
     shortLine?: string;
     totalItems?: number;

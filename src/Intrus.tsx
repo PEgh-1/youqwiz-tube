@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, Emoji, Fonts, HookBanner, Karaoke, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, ShortFx, Streak, Ticks, Voice, quipFor, shortMotion, styleOf, themeOf, tiltFor } from "./components";
+import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, Emoji, Fonts, HookBanner, Karaoke, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, ShortFx, Streak, Ticks, Voice, quipFor, shortHookOf, shortMotion, styleOf, themeOf, tiltFor } from "./components";
 import { Score } from "./DevineEn3s";
 import { emojiToCode, splitEmojis } from "./emoji";
 import { FONT_BODY, FONT_DISPLAY, BAD, INK, LEVELS, OK, WHITE } from "./theme";
@@ -146,7 +146,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       {/* Question */}
       <div style={{ position: "absolute", top: vertical ? (index === 0 && !reveal ? 160 : 240) : 128, left: 0, right: 0, display: "flex", justifyContent: "center", textAlign: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: (vertical ? 70 : 82) * sc, color: INK, textShadow: `5px 5px 0 ${WHITE}`, padding: "0 80px" }}>
         {vertical && index === 0 && !reveal ? (
-          <HookBanner theme={theme} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} n={total} until={dur - 6} lang={episode.lang} />
+          <HookBanner theme={theme} sticker={shortHookOf(episode).sticker} line={shortHookOf(episode).line} n={total} until={dur - 6} lang={episode.lang} />
         ) : vertical && karaoke?.text ? (
           <Karaoke clip={karaoke} theme={theme} size={56} width={960} from={reveal ? Math.round((impossible ? 0.8 : 0) * fps) + Math.round(VOICE_LEAD * fps) : 0} />
         ) : (

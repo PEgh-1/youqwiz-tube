@@ -70,7 +70,10 @@ export const Karaoke: React.FC<{ clip?: VoiceClip; theme: Theme; size?: number; 
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   if (!clip?.text) return null;
-  const words = clip.text.replace(/\s+/g, " ").trim().split(" ").filter(Boolean);
+  const raw = clip.text.replace(/\s+/g, " ").trim().split(" ").filter(Boolean);
+  // la ponctuation isolée (« ! », « ? », « … ») reste collée au mot précédent
+  const words: string[] = [];
+  for (const w of raw) { if (/^[!?…:;.,]+$/.test(w) && words.length) words[words.length - 1] += `\u202f${w}`; else words.push(w); }
   if (!words.length) return null;
   const weights = words.map((w) => w.replace(/[^\p{L}\p{N}]/gu, "").length + 1.2);
   const total = weights.reduce((a, b) => a + b, 0);
@@ -82,12 +85,12 @@ export const Karaoke: React.FC<{ clip?: VoiceClip; theme: Theme; size?: number; 
   const start = words.length > win ? Math.min(Math.max(0, cur - 3), words.length - win) : 0;
   const shown = words.slice(start, start + win);
   return (
-    <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: `${size * 0.1}px ${size * 0.28}px`, maxWidth: width, padding: "0 20px", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: size, lineHeight: 1.1, textAlign: "center" }}>
+    <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", maxWidth: width, padding: "0 20px", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: size, lineHeight: 1.15, textAlign: "center" }}>
       {shown.map((w, k) => {
         const i = start + k;
         const on = i === cur, done = i < cur;
         return (
-          <span key={i} style={{ color: on ? theme.accent : WHITE, opacity: done || on ? 1 : 0.45, textShadow: `5px 5px 0 ${INK}`, transform: `scale(${on ? 1.12 : 1})`, display: "inline-block", transition: "none" }}>
+          <span key={i} style={{ color: on ? theme.accent : WHITE, opacity: done || on ? 1 : 0.45, textShadow: `5px 5px 0 ${INK}`, transform: `scale(${on ? 1.12 : 1})`, display: "inline-block", margin: `0 ${size * 0.16}px`, whiteSpace: "nowrap" }}>
             {w}
           </span>
         );
@@ -108,15 +111,18 @@ export const HookBanner: React.FC<{ theme: Theme; sticker?: string; line?: strin
   if (frame > until) return null;
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14, transform: `translateY(${(1 - pop) * -120 - out * 320}px) scale(${0.7 + pop * 0.3})`, opacity: 1 - out }}>
-      <div style={{ background: "#FF3B3B", color: WHITE, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: sticker.length > 14 ? 60 : 76, padding: "12px 34px", borderRadius: 24, border: `8px solid ${INK}`, boxShadow: `10px 10px 0 ${INK}`, lineHeight: 1, whiteSpace: "nowrap", transform: "rotate(-2deg)" }}>
+      <div style={{ background: "#FF3B3B", color: WHITE, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: sticker.length > 14 ? 58 : 72, padding: "10px 32px", borderRadius: 24, border: `8px solid ${INK}`, boxShadow: `10px 10px 0 ${INK}`, lineHeight: 1, whiteSpace: "nowrap", transform: "rotate(-2deg)" }}>
         {sticker}
       </div>
-      <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 48, color: WHITE, textShadow: `5px 5px 0 ${INK}`, textAlign: "center", padding: "0 40px", lineHeight: 1.05 }}>
-        <Rich text={line ?? T.nthQuestion(n)} size={48} />
+      <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 44, color: WHITE, textShadow: `5px 5px 0 ${INK}`, textAlign: "center", padding: "0 40px", lineHeight: 1.05 }}>
+        <Rich text={line ?? T.nthQuestion(n)} size={44} />
       </div>
     </div>
   );
 };
+
+// Accroche du Short : paire (sticker, ligne) posée par generate.mjs (meta.shortHook) ou par render.mjs pour les Shorts 2 et 3.
+export const shortHookOf = (ep: Episode): { sticker?: string; line?: string } => ep.meta.shortHook ?? { sticker: ep.meta.thumbnail.sticker, line: ep.meta.shortLine };
 
 // Effets sonores d'un Short, par question : jingle discret sur la 1re, « pop » d'entrée, montée de tension sur la dernière.
 export const ShortFx: React.FC<{ index: number; last: boolean; dur: number }> = ({ index, last, dur }) => {

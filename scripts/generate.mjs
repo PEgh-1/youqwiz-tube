@@ -287,6 +287,8 @@ const episode = {
     shortItems: isChoice ? 4 : 5,
     shortTitle: fill(pick(V.shortTitles)).slice(0, 100),
     shortDescription: fill(pick(V.shortDescriptions)),
+    // Accroche du Short 1 (bandeau sur la 1re question) : paire sticker + ligne cohérente.
+    shortHook: pick(V.shortHooks ?? [{ sticker: "99 % ÉCHOUENT", line: "à la 8e question 😱" }]),
     // 2e Short quotidien (09/11/2026) : les questions les plus dures de l'épisode, publié à 19 h, titre et accroche distincts.
     short2: { title: fill(pick(V.shortTitlesHard)).slice(0, 100), description: fill(pick(V.shortDescriptions)), ...pick(V.shortHardHooks) },
     // 3e Short (16 h, 09/11/2026) : les 8 questions du milieu (moyen-difficile).

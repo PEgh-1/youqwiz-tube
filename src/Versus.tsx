@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { AUDIO, Background, Bubble, CommonSegment, Fonts, HookBanner, Karaoke, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, ShortFx, Ticks, Voice, quipFor, shortMotion, styleOf, themeOf } from "./components";
+import { AUDIO, Background, Bubble, CommonSegment, Fonts, HookBanner, Karaoke, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, ShortFx, Ticks, Voice, quipFor, shortHookOf, shortMotion, styleOf, themeOf } from "./components";
 import { FONT_BODY, FONT_DISPLAY, INK, WHITE } from "./theme";
 import { SHORT_OPTS, buildTimeline } from "./timeline";
 import type { Episode } from "./types";
@@ -60,6 +60,7 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
   const progress = Math.min(1, frame / choiceFrames);
   const secondsLeft = Math.max(0, Math.ceil((choiceFrames - frame) / fps));
   const hud = vertical ? 36 : 36;
+  const bannerOn = vertical && index === 0 && frame <= dur - 6; // Shorts v2 : le bandeau d'accroche remplace le HUD sur la 1re question
   const T = tr(episode);
   const quipL = quipFor(episode, T.versusQuipsLeft, index);
   const quipR = quipFor(episode, T.versusQuipsRight, index * 7 + 1);
@@ -83,10 +84,10 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
     <AbsoluteFill style={{ alignItems: "center" }}>
       {vertical && (
         <div style={{ position: "absolute", top: index === 0 ? 40 : 70, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
-          {index === 0 ? <HookBanner theme={theme} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} n={total} until={dur - 6} lang={episode.lang} /> : <Logo theme={theme} size={78} />}
+          {index === 0 ? <HookBanner theme={theme} sticker={shortHookOf(episode).sticker} line={shortHookOf(episode).line} n={total} until={dur - 6} lang={episode.lang} /> : <Logo theme={theme} size={78} />}
         </div>
       )}
-      <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, justifyContent: "center" }}>
+      <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, justifyContent: "center", opacity: bannerOn ? 0 : 1 }}>
         <Pill size={hud}>{`🎯 ${index + 1} / ${total}`}</Pill>
         {!vertical && <Progress value={index / total} theme={theme} />}
         <Pill size={hud} bg={theme.accent} fg={WHITE}>{T.wouldYouRather}</Pill>
