@@ -1,0 +1,576 @@
+{
+ "slug": "intrus",
+ "theme": "l'observation et les couleurs",
+ "items": [
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces façons de se déplacer.",
+   "choices": [
+    "Escalier",
+    "Vélo",
+    "Bateau"
+   ],
+   "correct": 0,
+   "fact": "Un escalier ne roule ni ne flotte : c'est lui qui reste sur place pendant qu'on le monte.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces petites bêtes.",
+   "choices": [
+    "Araignée",
+    "Abeille",
+    "Fourmi"
+   ],
+   "correct": 0,
+   "fact": "L'araignée a 8 pattes et pas d'antennes, alors que les 2 autres sont des insectes à 6 pattes.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les chiots dalmatiens naissent avec leurs taches.",
+   "answer": false,
+   "fact": "Ils naissent tout blancs, et les taches n'apparaissent qu'après quelques semaines.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces animaux de la mer.",
+   "choices": [
+    "Requin",
+    "Dauphin",
+    "Baleine"
+   ],
+   "correct": 0,
+   "fact": "Le requin est un poisson qui respire avec des branchies, contrairement aux 2 mammifères.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Un échiquier compte 100 cases.",
+   "answer": false,
+   "fact": "Il en compte 64, soit 32 cases claires et 32 cases sombres, rangées en 8 lignes.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces animaux à sang froid.",
+   "choices": [
+    "Lézard",
+    "Chien",
+    "Serpent"
+   ],
+   "correct": 1,
+   "fact": "Les reptiles se réchauffent au soleil, car leur corps ne fabrique pas assez de chaleur.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Une banane verte devient jaune en mûrissant.",
+   "answer": true,
+   "fact": "La chlorophylle disparaît peu à peu et laisse apparaître la couleur jaune cachée dessous.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les yeux d'un chat brillent dans le noir grâce à une couche réfléchissante.",
+   "answer": true,
+   "fact": "Cette couche, au fond de l'œil, renvoie la lumière et l'aide à mieux voir la nuit.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces animaux qui volent.",
+   "choices": [
+    "Aigle",
+    "Chauve-souris",
+    "Moineau"
+   ],
+   "correct": 1,
+   "fact": "La chauve-souris vole, mais c'est un mammifère et non un oiseau comme les 2 autres.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces objets ronds.",
+   "choices": [
+    "Roue",
+    "Livre",
+    "Ballon"
+   ],
+   "correct": 1,
+   "fact": "La roue a été inventée il y a environ 5 500 ans, en Mésopotamie.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces éléments de l'air.",
+   "choices": [
+    "Oxygène",
+    "Azote",
+    "Fer"
+   ],
+   "correct": 2,
+   "fact": "L'air contient environ 78 pour cent d'azote et 21 pour cent d'oxygène.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Chaque œil possède un point aveugle.",
+   "answer": true,
+   "fact": "À cet endroit, le nerf optique quitte l'œil, et notre cerveau comble le vide sans qu'on s'en rende compte.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces lieux de Paris.",
+   "choices": [
+    "Louvre",
+    "Tour Eiffel",
+    "Colisée"
+   ],
+   "correct": 2,
+   "fact": "Le Colisée est à Rome, et il a été inauguré en l'an 80, bien avant la tour Eiffel de 1889.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces aliments de la terre.",
+   "choices": [
+    "Carotte",
+    "Pomme",
+    "Poire"
+   ],
+   "correct": 0,
+   "fact": "La carotte est une racine, alors que la pomme et la poire sont des fruits d'arbres.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces mots du calendrier.",
+   "choices": [
+    "Hiver",
+    "Été",
+    "Lundi"
+   ],
+   "correct": 2,
+   "fact": "Hiver et été sont des saisons, alors que lundi est un jour de la semaine.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un arc-en-ciel compte 7 couleurs.",
+   "answer": true,
+   "fact": "En réalité, il y a une infinité de nuances, mais on en nomme 7 depuis Newton.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces couleurs de l'arc-en-ciel.",
+   "choices": [
+    "Rouge",
+    "Rose",
+    "Vert"
+   ],
+   "correct": 1,
+   "fact": "Le rose n'est pas dans l'arc-en-ciel : c'est un mélange de rouge et de blanc.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Les 3 couleurs primaires en peinture sont le rouge, le vert et le blanc.",
+   "answer": false,
+   "fact": "Ce sont le rouge, le jaune et le bleu, avec lesquels on peut obtenir presque toutes les autres couleurs.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le panneau stop est un octogone rouge.",
+   "answer": true,
+   "fact": "Sa forme à 8 côtés est unique parmi les panneaux, ce qui le rend reconnaissable même de dos.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces instruments de musique.",
+   "choices": [
+    "Violon",
+    "Flûte",
+    "Fourchette"
+   ],
+   "correct": 2,
+   "fact": "Les 2 autres instruments produisent des notes, alors qu'une fourchette sert surtout à manger.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces symboles.",
+   "choices": [
+    "Z",
+    "I",
+    "X"
+   ],
+   "correct": 0,
+   "fact": "Les chiffres romains utilisent seulement 7 lettres : I, V, X, L, C, D et M.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces fleuves.",
+   "choices": [
+    "Nil",
+    "Seine",
+    "Loire"
+   ],
+   "correct": 0,
+   "fact": "Le Nil, en Afrique, mesure plus de 6 fois la longueur de la Loire.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces nombres premiers.",
+   "choices": [
+    "3",
+    "7",
+    "9"
+   ],
+   "correct": 2,
+   "fact": "Le 9 est divisible par 3, alors que 3 et 7 ne sont divisibles que par 1 et par eux-mêmes.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces astres.",
+   "choices": [
+    "Lune",
+    "Mars",
+    "Vénus"
+   ],
+   "correct": 0,
+   "fact": "La Lune tourne autour de la Terre : c'est un satellite, alors que les 2 autres sont des planètes.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces matières.",
+   "choices": [
+    "Diamant",
+    "Fer",
+    "Cuivre"
+   ],
+   "correct": 0,
+   "fact": "Le diamant est fait de carbone pur, comme la mine d'un crayon à papier.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces animaux de la ferme.",
+   "choices": [
+    "Vache",
+    "Zèbre",
+    "Mouton"
+   ],
+   "correct": 1,
+   "fact": "Le zèbre n'a jamais vraiment été domestiqué, car il est trop nerveux pour être monté.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces oiseaux.",
+   "choices": [
+    "Pigeon",
+    "Autruche",
+    "Manchot"
+   ],
+   "correct": 0,
+   "fact": "Le pigeon vole très bien, parfois à près de 100 kilomètres à l'heure, contrairement aux 2 autres.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Un papillon peut avoir des ailes transparentes.",
+   "answer": true,
+   "fact": "Le papillon aux ailes de verre d'Amérique centrale est presque invisible quand il vole.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces pays.",
+   "choices": [
+    "France",
+    "Italie",
+    "Brésil"
+   ],
+   "correct": 2,
+   "fact": "Le Brésil est seul à ne pas être en Europe, et il est plus de 13 fois plus grand que la France.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La pièce de 1 euro est faite d'un seul métal.",
+   "answer": false,
+   "fact": "Elle est faite de 2 métaux, avec un centre argenté et un anneau doré, pour la rendre plus difficile à copier.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces mois de 31 jours.",
+   "choices": [
+    "Janvier",
+    "Avril",
+    "Mars"
+   ],
+   "correct": 1,
+   "fact": "Avril compte seulement 30 jours, et on peut s'en souvenir en comptant sur les jointures de ses poings.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La Lune brille grâce à sa propre lumière.",
+   "answer": false,
+   "fact": "Elle réfléchit seulement la lumière du Soleil, comme un immense miroir couvert de poussière.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un ballon de rugby est rond comme un ballon de football.",
+   "answer": false,
+   "fact": "Le ballon de rugby est ovale, ce qui lui donne des rebonds très imprévisibles.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Plus ses pieds sont bleus, plus un fou à pieds bleus est en forme.",
+   "answer": true,
+   "fact": "Plus la couleur est éclatante, plus l'oiseau est en bonne santé et séduisant pour les femelles.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les abeilles voient les mêmes couleurs que nous.",
+   "answer": false,
+   "fact": "Elles voient l'ultraviolet mais ne distinguent pas le rouge.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le ciel est bleu parce qu'il reflète la mer.",
+   "answer": false,
+   "fact": "La lumière bleue du Soleil est la plus dispersée par l'air, voilà pourquoi le ciel est bleu.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Toutes les girafes ont des taches identiques.",
+   "answer": false,
+   "fact": "Chaque girafe a un motif de taches unique, un peu comme nos empreintes digitales.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le bleu est une couleur rare chez les animaux.",
+   "answer": true,
+   "fact": "Les ailes bleues d'un papillon morpho viennent de la structure de leurs écailles, pas d'un pigment.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces pierres précieuses.",
+   "choices": [
+    "Rubis",
+    "Quartz",
+    "Saphir"
+   ],
+   "correct": 1,
+   "fact": "Seules 4 pierres sont dites précieuses : le diamant, le rubis, le saphir et l'émeraude.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces instruments.",
+   "choices": [
+    "Violon",
+    "Guitare",
+    "Trompette"
+   ],
+   "correct": 2,
+   "fact": "La trompette est un cuivre : on souffle dedans, alors que les 2 autres ont des cordes.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Dans de nombreux sondages, le jaune est la couleur préférée dans le monde.",
+   "answer": false,
+   "fact": "C'est en général le bleu qui arrive en tête, devant le vert et le rouge.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces planètes.",
+   "choices": [
+    "Jupiter",
+    "Mars",
+    "Saturne"
+   ],
+   "correct": 1,
+   "fact": "Mars est une petite planète rocheuse, alors que les 2 autres sont des planètes géantes gazeuses.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "L'œil humain ne distingue que 100 couleurs.",
+   "answer": false,
+   "fact": "On estime qu'il distingue environ 1 million de nuances différentes.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces animaux d'Australie.",
+   "choices": [
+    "Kangourou",
+    "Koala",
+    "Lémurien"
+   ],
+   "correct": 2,
+   "fact": "Les lémuriens ne vivent qu'à Madagascar, une île au large de l'Afrique.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les chats voient moins bien que nous dans la pénombre.",
+   "answer": false,
+   "fact": "Ils ont besoin de 6 fois moins de lumière que nous pour bien voir.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le noir n'est pas dans l'arc-en-ciel.",
+   "answer": true,
+   "fact": "Le noir est l'absence de lumière, alors que l'arc-en-ciel est fait de lumière décomposée.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le soleil couchant paraît rouge parce que sa lumière traverse plus d'air.",
+   "answer": true,
+   "fact": "Quand il est bas, sa lumière traverse plus d'air, le bleu se disperse et il reste le rouge.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces fromages.",
+   "choices": [
+    "Camembert",
+    "Brie",
+    "Roquefort"
+   ],
+   "correct": 2,
+   "fact": "Le roquefort est fabriqué avec du lait de brebis, alors que les 2 autres le sont avec du lait de vache.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces fruits.",
+   "choices": [
+    "Cerise",
+    "Pêche",
+    "Pomme"
+   ],
+   "correct": 2,
+   "fact": "La pomme a des pépins, alors que la cerise et la pêche ont un noyau.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les pandas géants ont des taches noires autour des yeux.",
+   "answer": true,
+   "fact": "Elles pourraient les aider à se reconnaître entre eux et à paraître plus impressionnants.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot orange désignait d'abord la couleur, puis le fruit.",
+   "answer": false,
+   "fact": "C'est l'inverse : c'est le fruit qui a donné son nom à la couleur, et non le contraire.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le poulpe peut changer de couleur et de texture en un éclair.",
+   "answer": true,
+   "fact": "En moins d'une seconde, il peut même faire apparaître des bosses sur sa peau.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les taureaux sont attirés par la couleur rouge.",
+   "answer": false,
+   "fact": "Ce sont les mouvements de la cape qui les excitent, car ils ne voient pas bien le rouge.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces formes.",
+   "choices": [
+    "Cercle",
+    "Carré",
+    "Hexagone"
+   ],
+   "correct": 0,
+   "fact": "Un cercle n'a pas de côté droit, c'est la seule forme courbe du lot.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces sports.",
+   "choices": [
+    "Football",
+    "Natation",
+    "Basket"
+   ],
+   "correct": 1,
+   "fact": "La natation se joue sans ballon, mais elle est au programme des Jeux olympiques depuis 1896.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les chiens ne voient qu'en noir et blanc.",
+   "answer": false,
+   "fact": "Ils voient surtout du bleu et du jaune, mais ils distinguent mal le rouge et le vert.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Trouve l'intrus parmi ces plantes du potager.",
+   "choices": [
+    "Radis",
+    "Fraise",
+    "Navet"
+   ],
+   "correct": 1,
+   "fact": "La fraise est un fruit, alors que le radis et le navet sont des racines que l'on mange.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le blanc absorbe plus de chaleur que le noir.",
+   "answer": false,
+   "fact": "C'est le noir qui absorbe le plus de chaleur, c'est pourquoi on porte des vêtements clairs en été.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les feuilles jaunes d'automne étaient déjà jaunes en été.",
+   "answer": true,
+   "fact": "Le vert de la chlorophylle masque le jaune pendant l'été, puis il disparaît à l'automne.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Il existe des grenouilles dont la peau est presque transparente.",
+   "answer": true,
+   "fact": "Chez la grenouille de verre, on voit son cœur battre à travers la peau du ventre.",
+   "level": "difficile"
+  }
+ ]
+}

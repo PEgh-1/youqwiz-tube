@@ -1,0 +1,576 @@
+{
+ "slug": "vocabulaire",
+ "theme": "les mots français",
+ "items": [
+  {
+   "type": "vf",
+   "q": "« Pamplemousse » s'écrit avec un seul p.",
+   "answer": false,
+   "fact": "Il s'écrit avec 2 p et vient du néerlandais pompelmoes, un mot qui désignait un gros agrume.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "On écrit « des yeux bleu clair », sans s à clair.",
+   "answer": true,
+   "fact": "Un adjectif de couleur composé reste invariable : bleu clair, vert foncé.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'écrit cet animal à corne ?",
+   "choices": [
+    "Rinocéros",
+    "Rhynocéros",
+    "Rhinocéros"
+   ],
+   "correct": 2,
+   "fact": "Rhinocéros vient du grec et veut dire nez à corne, car sa corne pousse sur son nez.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le féminin de « tigre » est « tigrette ».",
+   "answer": false,
+   "fact": "Le féminin de tigre est tigresse, comme lion donne lionne et prince donne princesse.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire « avoir la main verte » ?",
+   "choices": [
+    "Être malade",
+    "Avoir peur",
+    "Jardiner avec talent"
+   ],
+   "correct": 2,
+   "fact": "On le dit d'une personne dont les plantes semblent toujours en pleine forme.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le sens du mot « loquace » ?",
+   "choices": [
+    "Silencieux",
+    "Timide",
+    "Bavard"
+   ],
+   "correct": 2,
+   "fact": "Loquace vient du latin loqui, qui veut dire parler, comme dans le mot éloquent.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le contraire de « courageux » ?",
+   "choices": [
+    "Joyeux",
+    "Peureux",
+    "Heureux"
+   ],
+   "correct": 1,
+   "fact": "Le mot courage vient de cœur, car on pensait que c'était là qu'il se trouvait.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Une hyperbole est une petite phrase très courte.",
+   "answer": false,
+   "fact": "C'est une exagération volontaire, comme dans j'ai attendu une éternité.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire « avoir un chat dans la gorge » ?",
+   "choices": [
+    "Avoir la voix enrouée",
+    "Avoir faim",
+    "Avoir peur"
+   ],
+   "correct": 0,
+   "fact": "En anglais, on dit plutôt avoir une grenouille dans la gorge.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "« Hôpital » s'écrit sans accent circonflexe.",
+   "answer": false,
+   "fact": "Il porte un accent qui remplace le s qu'on trouvait autrefois dans hospital.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "« Chaussette » s'écrit avec 2 s et 2 t.",
+   "answer": true,
+   "fact": "Son nom vient du latin calceus, qui désignait un soulier ou une chaussure.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le féminin de « acteur » ?",
+   "choices": [
+    "Actrice",
+    "Acteuse",
+    "Actrisse"
+   ],
+   "correct": 0,
+   "fact": "Les mots en teur font souvent trice au féminin, comme directeur et directrice.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on un discours que l'on tient tout seul ?",
+   "choices": [
+    "Un dialogue",
+    "Un monologue",
+    "Un trialogue"
+   ],
+   "correct": 1,
+   "fact": "Mono veut dire seul en grec, et logue vient d'un mot qui veut dire parole.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "« Sinécure » désigne un travail très pénible.",
+   "answer": false,
+   "fact": "C'est un poste bien payé qui demande très peu de travail, un rêve pour beaucoup de gens.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « enfant » est toujours masculin.",
+   "answer": false,
+   "fact": "Il est masculin ou féminin selon l'enfant : on dit un enfant ou une enfant, c'est un nom épicène.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "« Opiniâtre » veut dire timide.",
+   "answer": false,
+   "fact": "Une personne opiniâtre est têtue et s'accroche à son idée jusqu'au bout.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on un habitant de Tourcoing ?",
+   "choices": [
+    "Un Tourquennois",
+    "Un Tourcoinois",
+    "Un Tourcois"
+   ],
+   "correct": 0,
+   "fact": "Pour Lille, on dit un Lillois, et pour Roubaix, un Roubaisien.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "« Coccinelle » s'écrit avec un seul c.",
+   "answer": false,
+   "fact": "Il s'écrit avec 2 c et 2 l, et il vient du latin coccineus, qui veut dire écarlate.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel métier fait le pain ?",
+   "choices": [
+    "Boucher",
+    "Boulanger",
+    "Pâtissier"
+   ],
+   "correct": 1,
+   "fact": "Les premiers boulangers de Paris étaient regroupés dans une corporation dès le Moyen Âge.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un gentilé est le nom des habitants d'un lieu.",
+   "answer": true,
+   "fact": "Parisien, Lillois et Marseillais sont des gentilés, et chaque ville a le sien.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "« Abricot » s'écrit avec 2 b.",
+   "answer": false,
+   "fact": "Abricot vient de l'arabe et s'écrit avec un seul b et un seul c.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « oignon » peut s'écrire sans le i.",
+   "answer": true,
+   "fact": "Depuis la réforme de l'orthographe de 1990, on peut aussi écrire ognon.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "« Cacophonie » désigne un mélange de sons désagréables.",
+   "answer": true,
+   "fact": "Le mot vient du grec et veut dire un mauvais son, comme un orchestre qui s'accorde mal.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « bonheur » est formé de bon et de heur.",
+   "answer": true,
+   "fact": "Heur est un vieux mot qui veut dire chance, comme dans malheur.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mot est correctement écrit ?",
+   "choices": [
+    "Rythme",
+    "Rithme",
+    "Ritme"
+   ],
+   "correct": 0,
+   "fact": "Le mot rythme vient du grec rhuthmos, et il garde un h au milieu.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le pluriel de « cheval » est « chevals ».",
+   "answer": false,
+   "fact": "Les mots en al font souvent leur pluriel en aux : des chevaux, des journaux, des animaux.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le sens du mot « ingénu » ?",
+   "choices": [
+    "Naïf",
+    "Rusé",
+    "Méchant"
+   ],
+   "correct": 0,
+   "fact": "Ingénu vient du latin et désignait à l'origine une personne née libre.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mot est un synonyme d'« immense » ?",
+   "choices": [
+    "Fragile",
+    "Gigantesque",
+    "Rapide"
+   ],
+   "correct": 1,
+   "fact": "Gigantesque vient des géants, êtres énormes de la mythologie grecque.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « girafe » s'écrit avec 2 f.",
+   "answer": false,
+   "fact": "Girafe s'écrit avec un seul f, et son nom vient de l'arabe zarafa.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire « coûter les yeux de la tête » ?",
+   "choices": [
+    "Coûter très peu",
+    "Coûter très cher",
+    "Être gratuit"
+   ],
+   "correct": 1,
+   "fact": "Cette expression exagère volontairement le prix, c'est une hyperbole.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Un hapax est un mot qui n'apparaît qu'une seule fois dans un texte.",
+   "answer": true,
+   "fact": "Le mot hapax vient du grec et veut dire une seule fois, ce qui le rend très rare.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire « ubiquité » ?",
+   "choices": [
+    "Être partout",
+    "Être invisible",
+    "Être rapide"
+   ],
+   "correct": 0,
+   "fact": "Ubi veut dire où en latin, et l'ubiquité est le pouvoir d'être partout à la fois.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle le petit de la grenouille ?",
+   "choices": [
+    "Un alevin",
+    "Un poussin",
+    "Un têtard"
+   ],
+   "correct": 2,
+   "fact": "Le têtard respire par des branchies, puis ses poumons se développent.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « après-midi » est uniquement masculin.",
+   "answer": false,
+   "fact": "On peut dire un après-midi ou une après-midi : les 2 sont corrects.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle la peur des araignées ?",
+   "choices": [
+    "Claustrophobie",
+    "Arachnophobie",
+    "Agoraphobie"
+   ],
+   "correct": 1,
+   "fact": "Arachné est une jeune femme transformée en araignée dans la mythologie grecque.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mot veut dire « très beau » ?",
+   "choices": [
+    "Minuscule",
+    "Magnifique",
+    "Maladroit"
+   ],
+   "correct": 1,
+   "fact": "Magnifique vient du latin magnus, qui veut dire grand, et qui a aussi donné magnat.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un homonyme s'écrit ou se prononce comme un autre mot, mais n'a pas le même sens.",
+   "answer": true,
+   "fact": "Le mot avocat désigne à la fois un métier et un fruit, mais les 2 n'ont aucun rapport.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle le petit du chien ?",
+   "choices": [
+    "Louveteau",
+    "Chaton",
+    "Chiot"
+   ],
+   "correct": 2,
+   "fact": "Le petit du loup est un louveteau et celui du renard est un renardeau.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un oxymore est une expression qui rime.",
+   "answer": false,
+   "fact": "C'est une expression qui associe 2 contraires, comme un silence assourdissant.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelle-t-on un mot de même sens qu'un autre ?",
+   "choices": [
+    "Un antonyme",
+    "Un homonyme",
+    "Un synonyme"
+   ],
+   "correct": 2,
+   "fact": "Antonyme veut dire contraire, et homonyme veut dire même nom.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire le mot « minuscule » ?",
+   "choices": [
+    "Très fort",
+    "Très long",
+    "Très petit"
+   ],
+   "correct": 2,
+   "fact": "Minuscule vient du latin et veut dire un peu plus petit, et c'est devenu très petit.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « bonbon » vient du mot « bon » répété 2 fois.",
+   "answer": true,
+   "fact": "C'était un mot d'enfant au 16e siècle, qui est devenu très courant.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire « pérenne » ?",
+   "choices": [
+    "Qui passe",
+    "Qui dure",
+    "Qui change"
+   ],
+   "correct": 1,
+   "fact": "Les plantes pérennes repoussent chaque année sans qu'on doive les replanter.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire « il pleut des cordes » ?",
+   "choices": [
+    "Il pleut un peu",
+    "Il ne pleut pas",
+    "Il pleut beaucoup"
+   ],
+   "correct": 2,
+   "fact": "En anglais, on dit qu'il pleut des chats et des chiens, une image tout aussi drôle.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "« Dormir » est un verbe du 3e groupe.",
+   "answer": true,
+   "fact": "Dormir, comme partir et venir, fait partie des verbes irréguliers du français.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Par quel mot court désigne-t-on une voiture ?",
+   "choices": [
+    "Auto",
+    "Autre",
+    "Autel"
+   ],
+   "correct": 0,
+   "fact": "Automobile veut dire qui se meut seul, c'est-à-dire sans qu'on le tire.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un mot-valise est un mot très long.",
+   "answer": false,
+   "fact": "C'est un mot qui mélange 2 mots, comme courriel, formé de courrier et d'électronique.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "« Éphémère » veut dire qui dure très longtemps.",
+   "answer": false,
+   "fact": "Éphémère vient du grec et veut dire pour un jour, comme la vie du papillon du même nom.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mot désigne un groupe de loups ?",
+   "choices": [
+    "Une meute",
+    "Un essaim",
+    "Un troupeau"
+   ],
+   "correct": 0,
+   "fact": "Un groupe d'abeilles est un essaim, et un groupe de moutons est un troupeau.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire « avoir le cafard » ?",
+   "choices": [
+    "Être triste",
+    "Avoir faim",
+    "Être fatigué"
+   ],
+   "correct": 0,
+   "fact": "Cette expression du 19e siècle compare les idées noires à l'insecte du même nom.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle un livre qui explique le sens des mots ?",
+   "choices": [
+    "Un atlas",
+    "Un dictionnaire",
+    "Un album"
+   ],
+   "correct": 1,
+   "fact": "Le 1er grand dictionnaire de l'Académie française est paru en 1694.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle le petit de l'ours ?",
+   "choices": [
+    "Ourseau",
+    "Oursin",
+    "Ourson"
+   ],
+   "correct": 2,
+   "fact": "L'oursin est un animal de mer aux piquants, sans rapport avec l'ourson.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « clavier » vient du mot clé.",
+   "answer": true,
+   "fact": "Un clavier désignait à l'origine un anneau où l'on accrochait des clés.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire « procrastiner » ?",
+   "choices": [
+    "Se dépêcher",
+    "Se reposer",
+    "Remettre à demain"
+   ],
+   "correct": 2,
+   "fact": "Le mot vient du latin cras, qui veut dire demain, et de pro, qui veut dire en avant.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Un pléonasme est une répétition inutile, comme monter en haut.",
+   "answer": true,
+   "fact": "On en fait souvent sans s'en rendre compte, par exemple en disant voire même.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Dans « elle s'est lavé les mains », lavé ne s'accorde pas.",
+   "answer": true,
+   "fact": "Il ne s'accorde pas, car le complément, les mains, est placé après le verbe.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle orthographe est la bonne ?",
+   "choices": [
+    "Dévelloper",
+    "Développer",
+    "Développé"
+   ],
+   "correct": 1,
+   "fact": "Développer s'écrit avec 2 p et un seul l, comme envelopper s'écrit avec 2 p.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que désigne le mot « aquarelle » ?",
+   "choices": [
+    "Peinture à l'eau",
+    "Un poisson",
+    "Une rivière"
+   ],
+   "correct": 0,
+   "fact": "Aqua veut dire eau en latin, comme dans le mot aquarium ou dans le mot aquatique.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le féminin de « chat » est « chate ».",
+   "answer": false,
+   "fact": "Le féminin de chat est chatte, avec 2 t, comme le féminin de chien est chienne avec 2 n.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "On écrit « quatre-vingts » avec un s quand il n'y a rien derrière.",
+   "answer": true,
+   "fact": "On écrit 80 en lettres avec un s final, mais ce s disparaît dès qu'un autre nombre suit, comme dans 81.",
+   "level": "difficile"
+  }
+ ]
+}
