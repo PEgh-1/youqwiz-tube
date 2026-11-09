@@ -52,6 +52,7 @@ async function synth(text, outFile, ctx = {}) {
   // previous_text / next_text : la phrase voisine (sans tag) donne la continuité de ton entre question et réponse.
   const context = { ...(ctx.prev ? { previous_text: untag(ctx.prev) } : {}), ...(ctx.next ? { next_text: untag(ctx.next) } : {}) };
   // 09/11/2026 : délai de 90 s par appel et 3 tentatives (un run est resté 2 h bloqué sur une connexion muette).
+  const t0 = Date.now();
   let res, lastErr;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
@@ -73,7 +74,12 @@ async function synth(text, outFile, ctx = {}) {
   if (!res.ok) throw new Error(`ElevenLabs ${res.status} : ${(await res.text()).slice(0, 200)}`);
   writeFileSync(outFile, Buffer.from(await res.arrayBuffer()));
   trim(outFile);
+  // Journal de progression (09/11/2026, run resté muet 2 h) : un point tous les 10 clips, et chaque appel lent.
+  const ms = Date.now() - t0;
+  if (ms > 20_000) console.warn(`ElevenLabs lent : ${(ms / 1000).toFixed(0)} s pour ${text.length} caractères`);
+  if (calls % 10 === 0) console.log(`voix off : ${calls} clips, ${((Date.now() - T0) / 60000).toFixed(1)} min écoulées`);
 }
+const T0 = Date.now();
 // Coupe les silences de début/fin (v3 ajoute souvent 0,1-0,5 s) pour que la voix tombe pile sur l'image, atténue les
 // respirations (porte : tout ce qui est sous -32 dB entre les mots est ramené vers le silence) et égalise le niveau entre
 // les clips (loudnorm -16 LUFS) pour que la voix garde le même volume d'une phrase à l'autre.
