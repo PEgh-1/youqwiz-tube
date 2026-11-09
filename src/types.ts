@@ -22,6 +22,21 @@ export type Item = {
   fact?: string;
 };
 
+/** Intermède (vidéo longue v2, 09/11/2026) : toutes les 8 à 10 questions, une mini-question d'un autre type (vrai/faux ou 3 choix)
+ *  suivie d'une anecdote, pour casser la monotonie (data/interludes/<banque>.json). Sans points. */
+export type Interlude = {
+  type: "vf" | "qcm3";
+  q: string;
+  /** vrai/faux */
+  answer?: boolean;
+  /** 3 choix */
+  choices?: string[];
+  correct?: number;
+  fact: string;
+  level?: Level;
+  voice?: { q?: VoiceClip; a?: VoiceClip; f?: VoiceClip };
+};
+
 /** Habillage tiré par épisode (03/11/2026) : motif de fond, chrono, animation de révélation, forme des cartes, piste musicale. */
 export type Style = {
   pattern: "confetti" | "dots" | "stripes" | "bubbles" | "stars";
@@ -40,6 +55,12 @@ export type Variants = {
   scoreVoice: string;
   outro: { title: string; voice: string };
   packshot: { headline: string; sub: string; cta: string; voice: string };
+  /** Vidéo longue v2 : règle du jeu lue et affichée sur la carte d'intro (ex. « Devine les 60 drapeaux… »). */
+  rule?: string;
+  /** Texte lu de la règle (peut différer du texte affiché). */
+  ruleVoice?: string;
+  /** Vidéo longue v2 : voix de la carte finale « Prochain quiz » (2 vidéos + S'abonner). */
+  nextQuizVoice?: string;
 };
 
 export type Episode = {
@@ -55,6 +76,8 @@ export type Episode = {
   question: string; // question affichée pour chaque item (ex. « Quel est cet animal ? »)
   intro: { hook: string; sub: string };
   items: Item[];
+  /** Intermèdes (vidéo longue seulement), insérés toutes les 8 à 10 questions dans l'ordre du tableau. */
+  interludes?: Interlude[];
   // question = durée de base (facile) ; fixed = même durée partout (choix) ; slow = +1 s (générations)
   timing: { question: number; reveal: number; fixed?: boolean; slow?: boolean };
   /** Lignes génériques (cartes de niveau, relances, score) : clé → clip. */

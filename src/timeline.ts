@@ -14,7 +14,9 @@ export type Segment =
   | { kind: "question"; from: number; dur: number; index: number }
   | { kind: "reveal"; from: number; dur: number; index: number }
   | { kind: "score"; from: number; dur: number }
-  | { kind: "outro"; from: number; dur: number };
+  | { kind: "outro"; from: number; dur: number }
+  /** Intermède (vidéo longue v2) : `ask` = durée de la phase question (frames), le reste révèle réponse + anecdote. */
+  | { kind: "interlude"; from: number; dur: number; index: number; ask: number };
 
 // Décalage de la voix de réponse après l'apparition de la réponse (s) — volontairement court pour rester calé sur l'image.
 export const VOICE_LEAD = 0.1;
@@ -60,7 +62,45 @@ export const revealSeconds = (ep: Episode, i: number, short = false): number => 
 
 // Options du Short « explosif » : hook 1,5 s, 6 questions rapides + 1 cliffhanger sans réponse, carte finale 4 s.
 // Shorts v2 (09/11/2026) : plus de carte d'accroche, la 1re question démarre tout de suite (accroche en bandeau sur Q1).
-export const SHORT_OPTS = (ep: Episode) => ({ preroll: 0, packshot: 0, subscribe: 0, intro: 0, outro: 0, levelCard: 0, score: 0, maxItems: 8, short: true, cliff: 4, maxSeconds: 58 });
+export const SHORT_OPTS = (ep: Episode) => ({ preroll: 0, packshot: 0, subscribe: 0, intro: 0, outro: 0, levelCard: 0, score: 0, maxItems: 8, short: true, cliff: 4, maxSeconds: 58, interludes: false });
+
+// ---------- Vidéo longue v2 (09/11/2026, inspirée des quiz « à transitions ») ----------
+// Transition « déchirure » entre deux scènes : 0,8 s à cheval sur la frontière (recouvre la fin de la scène sortante et le début
+// de l'entrante), portée par une mascotte qui alterne. C'est un calque posé par-dessus la timeline : il n'allonge pas la vidéo.
+export const WIPE_SECONDS = 0.8;
+// Scènes qui reçoivent une transition d'entrée : questions, cartes de niveau, intermèdes (jamais la toute première scène).
+export const wipeScenes = (segments: Segment[]): { from: number; index: number }[] =>
+  segments.filter((s) => (s.kind === "question" || s.kind === "level" || s.kind === "interlude") && s.from > 0).map((s, i) => ({ from: s.from, index: i }));
+// Variante de décor (angle du dégradé, position du motif) : change à chaque scène, sous la transition → jamais de saut visible.
+export const sceneVariant = (segments: Segment[], frame: number): number => {
+  let v = 0;
+  for (const s of segments) {
+    if (s.from > frame) break;
+    if (s.kind === "question" || s.kind === "level" || s.kind === "interlude") v++;
+  }
+  return v;
+};
+// Intermèdes : un toutes les `step` questions (8 à 10 selon le nombre total, répartis régulièrement), jamais après la dernière.
+export const interludeStep = (n: number): number => {
+  if (n < 12) return 0;
+  const count = Math.max(1, Math.round(n / 9));
+  return Math.min(10, Math.max(8, Math.round(n / (count + 1))));
+};
+export const interludeAfter = (ep: Episode, i: number): number | null => {
+  if (!ep.interludes?.length) return null;
+  const step = interludeStep(ep.items.length);
+  if (!step || i >= ep.items.length - 1 || (i + 1) % step !== 0) return null;
+  const k = (i + 1) / step - 1;
+  return k < ep.interludes.length ? k : null;
+};
+// Durées d'un intermède : question lue + 3 s de réflexion ; révélation = réponse lue + anecdote lue + respiration.
+export const interludeSeconds = (ep: Episode, k: number): { ask: number; total: number } => {
+  const it = ep.interludes![k];
+  const ask = Math.max(5, Math.ceil(((it.voice?.q?.sec ?? 3) + 3) * 2) / 2);
+  const a = it.voice?.a?.sec ?? 1.5, f = it.voice?.f?.sec ?? 4;
+  const reveal = Math.max(4, Math.ceil((0.3 + a + 0.4 + f + 0.8) * 2) / 2);
+  return { ask, total: ask + reveal };
+};
 
 // Question où la série « se perd » (une fois par vidéo, vers les deux tiers), pour relancer l'attention.
 export const streakBreakIndex = (ep: Episode): number => Math.floor(ep.items.length * 0.62);
@@ -68,7 +108,7 @@ export const streakBreakIndex = (ep: Episode): number => Math.floor(ep.items.len
 export const buildTimeline = (
   ep: Episode,
   fps: number,
-  opts: { preroll?: number; intro?: number; outro?: number; packshot?: number; subscribe?: number; levelCard?: number; score?: number; maxItems?: number; short?: boolean; cliff?: number; maxSeconds?: number } = {},
+  opts: { preroll?: number; intro?: number; outro?: number; packshot?: number; subscribe?: number; levelCard?: number; score?: number; maxItems?: number; short?: boolean; cliff?: number; maxSeconds?: number; interludes?: boolean } = {},
 ): { segments: Segment[]; total: number } => {
   // Short : on retire des questions tant que la durée dépasse le plafond (60 s YouTube, marge 2 s).
   if (opts.maxSeconds) {
@@ -130,6 +170,13 @@ export const buildTimeline = (
     if (r > 0) {
       segments.push({ kind: "reveal", from: t, dur: r, index: i });
       t += r;
+    }
+    // Intermède (vidéo longue, hors « tu préfères ») toutes les 8 à 10 questions.
+    const k = !short && ep.timing.reveal > 0 && (opts.interludes ?? true) ? interludeAfter(ep, i) : null;
+    if (k !== null) {
+      const d = interludeSeconds(ep, k);
+      segments.push({ kind: "interlude", from: t, dur: sec(d.total), index: k, ask: sec(d.ask) });
+      t += sec(d.total);
     }
   }
   if (score > 0 && ep.timing.reveal > 0) {

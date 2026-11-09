@@ -1,9 +1,10 @@
 import React from "react";
 import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { emojiToCode, splitEmojis } from "./emoji";
-import { DEFAULT_STYLE, FONT_BODY, FONT_DISPLAY, INK, LEVELS, STREAK, THEMES, Theme, WHITE, fontFaces } from "./theme";
+import { DEFAULT_STYLE, FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, STREAK, THEMES, Theme, WHITE, fontFaces } from "./theme";
 import type { Episode, Level, Prompt, Style, VoiceClip } from "./types";
 import { tr, type Lang } from "./i18n";
+import { WIPE_SECONDS } from "./timeline";
 import type { Segment } from "./timeline";
 import mascots from "./mascots.json";
 import audioManifest from "./audio.json";
@@ -25,23 +26,26 @@ export const musicFile = (ep: Episode): string | null => {
 };
 
 // ---------- Fond : dégradé de la palette + motif (confettis, pois, rayures, bulles, étoiles) ----------
-export const Background: React.FC<{ theme: Theme; confetti?: number; pattern?: Style["pattern"] }> = ({ theme, confetti = 18, pattern = "confetti" }) => {
+// `variant` (vidéo longue v2) : à chaque scène, l'angle du dégradé tourne et le motif se déplace — le changement se fait sous la transition.
+export const Background: React.FC<{ theme: Theme; confetti?: number; pattern?: Style["pattern"]; variant?: number }> = ({ theme, confetti = 18, pattern = "confetti", variant = 0 }) => {
   const frame = useCurrentFrame();
   const { width, height } = useVideoConfig();
   const step = Math.floor(frame / 60);
+  const bg = variant ? theme.bg.replace(/^linear-gradient\(\d+deg/, `linear-gradient(${(135 + variant * 47) % 360}deg`) : theme.bg;
+  const shift = variant * 131;
   const n = pattern === "dots" ? confetti * 3 : pattern === "stripes" ? 14 : confetti;
   // Shorts v2 (09/11/2026) : en vertical, le décor dérive lentement (sinus, sans décalage cumulé) pour un fond vivant.
   const vertical = height > width;
   const drift = vertical ? `translate(${Math.sin(frame / 110) * 22}px, ${Math.cos(frame / 140) * 16}px) scale(1.06)` : undefined;
   return (
-    <AbsoluteFill style={{ background: theme.bg }}>
+    <AbsoluteFill style={{ background: bg }}>
       <AbsoluteFill style={{ transform: drift }}>
       {pattern === "stripes"
         ? Array.from({ length: n }).map((_, i) => (
             <div key={i} style={{ position: "absolute", left: -200 + i * (width / 6), top: -200, width: 70, height: height + 400, background: theme.confetti[i % theme.confetti.length], opacity: 0.16, transform: `rotate(-18deg) translateX(${(step % 2) * 4}px)` }} />
           ))
         : Array.from({ length: n }).map((_, i) => {
-            const x = ((i * 977) % 1000) / 1000, y = ((i * 613) % 1000) / 1000;
+            const x = ((i * 977 + shift) % 1000) / 1000, y = ((i * 613 + shift * 3) % 1000) / 1000;
             const c = theme.confetti[i % theme.confetti.length];
             if (pattern === "dots") return <div key={i} style={{ position: "absolute", left: x * width, top: y * height, width: 14 + (i % 3) * 6, height: 14 + (i % 3) * 6, borderRadius: 999, background: c, opacity: 0.45 }} />;
             if (pattern === "bubbles") {
@@ -592,6 +596,173 @@ export const Packshot: React.FC<{ theme: Theme; headline?: string; sub?: string;
   );
 };
 
+// ---------- Vidéo longue v2 (09/11/2026) : transition « déchirure » portée par une mascotte ----------
+// Un pan de couleur de la palette, au bord déchiré, balaie l'écran (0,4 s pour couvrir, 0,4 s pour découvrir) ; au milieu, la
+// mascotte (chat / poussin en alternance) surgit au centre. Calque posé à cheval sur la frontière de deux scènes (cf. timeline.ts).
+const TEAR = Array.from({ length: 13 }, (_, i) => ((i * 7919) % 100) / 100); // dents pseudo-aléatoires, stables d'un rendu à l'autre
+export const Wipe: React.FC<{ theme: Theme; index: number; dur: number }> = ({ theme, index, dur }) => {
+  const frame = useCurrentFrame();
+  const { fps, width, height } = useVideoConfig();
+  const p = Math.min(1, frame / dur);
+  const ltr = index % 2 === 0;
+  const which: "chat" | "poussin" = ltr ? "chat" : "poussin";
+  const color = index % 2 === 0 ? theme.accent : INK; // couleurs franches : la mascotte ressort, pas de pan délavé
+  const ease = (x: number) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+  // bord avant (recouvre) : -10 % → 110 % sur la 1re moitié ; bord arrière (découvre) : -10 % → 110 % sur la 2e moitié
+  const lead = -0.12 + ease(Math.min(1, p * 2)) * 1.24;
+  const trail = p < 0.5 ? -0.12 : -0.12 + ease((p - 0.5) * 2) * 1.24;
+  const edge = (x: number, amp: number) => TEAR.map((t, i) => `${((ltr ? x : 1 - x) * 100 + (t - 0.5) * amp * 100).toFixed(2)}% ${(i / (TEAR.length - 1)) * 100}%`);
+  const right = edge(lead, 0.06), left = edge(trail, 0.06).reverse();
+  const poly = `polygon(${[...right, ...left].join(",")})`;
+  const mid = spring({ frame: frame - dur * 0.28, fps, config: { damping: 9, stiffness: 160 } });
+  const out = p > 0.72 ? 1 - (p - 0.72) / 0.28 : 1;
+  const bob = Math.sin(frame / 2) * 6;
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      <div style={{ position: "absolute", inset: -20, background: color, clipPath: poly, boxShadow: `0 0 0 12px ${INK}` }} />
+      {/* liseré blanc du bord avant */}
+      <div style={{ position: "absolute", inset: -20, background: WHITE, opacity: 0.35, clipPath: `polygon(${[...edge(lead + (ltr ? 0.012 : -0.012), 0.06), ...edge(lead, 0.06).reverse()].join(",")})` }} />
+      <div style={{ position: "absolute", left: width / 2 - 170, top: height / 2 - 190, transform: `scale(${mid * out}) rotate(${(ltr ? -1 : 1) * (8 - mid * 8) + bob}deg)`, opacity: Math.max(0, out) }}>
+        <Mascot which={which} size={340} mood="cheer" />
+      </div>
+    </AbsoluteFill>
+  );
+};
+// Toutes les transitions d'un gabarit (16:9) : une Sequence par changement de scène, à cheval sur la frontière.
+export const WipeLayer: React.FC<{ theme: Theme; scenes: { from: number; index: number }[] }> = ({ theme, scenes }) => {
+  const { fps } = useVideoConfig();
+  const dur = Math.round(WIPE_SECONDS * fps);
+  return (
+    <>
+      {scenes.map((w) => (
+        <Sequence key={w.from} from={w.from - Math.round(dur / 2)} durationInFrames={dur} name={`Transition ${w.index + 1}`} layout="none">
+          {has("whoosh") && <Audio src={staticFile("audio/whoosh.mp3")} volume={0.5} />}
+          {has("pop") && (
+            <Sequence from={Math.round(dur * 0.3)} layout="none">
+              <Audio src={staticFile("audio/pop.mp3")} volume={0.6} />
+            </Sequence>
+          )}
+          <Wipe theme={theme} index={w.index} dur={dur} />
+        </Sequence>
+      ))}
+    </>
+  );
+};
+
+// ---------- Vidéo longue v2 : intermède (vrai/faux ou 3 choix + anecdote), sans points ----------
+export const InterludeCard: React.FC<{ episode: Episode; k: number; ask: number; dur: number }> = ({ episode, k, ask, dur }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const theme = themeOf(episode);
+  const T = tr(episode);
+  const it = episode.interludes![k];
+  const reveal = frame >= ask;
+  const rf = frame - ask;
+  const showAnswer = reveal && rf >= Math.round(0.3 * fps);
+  const factAt = ask + Math.round((0.3 + (it.voice?.a?.sec ?? 1.5) + 0.4) * fps);
+  const showFact = frame >= factAt;
+  const enter = spring({ frame, fps, config: { damping: 12, stiffness: 150 } });
+  const vf = it.type === "vf";
+  const choices = vf ? [T.interludeTrue, T.interludeFalse] : (it.choices ?? []).slice(0, 3);
+  const correct = vf ? (it.answer ? 0 : 1) : it.correct ?? 0;
+  const qSize = it.q.length > 70 ? 58 : 66;
+  const pillW = vf ? 520 : 540, gap = 36;
+  const rowW = choices.length * pillW + (choices.length - 1) * gap;
+  return (
+    <AbsoluteFill style={{ alignItems: "center" }}>
+      <div style={{ position: "absolute", top: 40, left: 60 }}>
+        <Logo theme={theme} size={48} />
+      </div>
+      <div style={{ position: "absolute", top: 44, left: 0, right: 0, display: "flex", justifyContent: "center", gap: 26, transform: `scale(${enter})` }}>
+        <Pill size={40} bg={INK} fg={WHITE} tilt={-2}>{T.interludeTitle}</Pill>
+        <Pill size={40} bg={theme.accent} fg={WHITE} tilt={2}>{vf ? T.interludeVf : T.interludeChoice}</Pill>
+      </div>
+      <div style={{ position: "absolute", top: 150, left: 200, right: 200, transform: `scale(${enter})` }}>
+        <Card shape="round" style={{ minHeight: 250, padding: "28px 60px" }}>
+          <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: qSize, color: INK, textAlign: "center", lineHeight: 1.08 }}>
+            <Rich text={it.q} size={qSize} />
+          </div>
+        </Card>
+      </div>
+      <div style={{ position: "absolute", top: showFact ? 450 : 470, left: (1920 - rowW) / 2, display: "flex", gap }}>
+        {choices.map((c, i) => {
+          const pop = spring({ frame: frame - 8 - i * 4, fps, config: { damping: 12, stiffness: 170 } });
+          const good = showAnswer && i === correct;
+          const grey = showAnswer && i !== correct;
+          const bg = good ? OK : grey ? "#D8D8E0" : vf ? (i === 0 ? "#DFF8E8" : "#FFE1E1") : WHITE;
+          const fg = good ? WHITE : grey ? "#8A8A9C" : INK;
+          const wiggle = good ? 1 + 0.05 * Math.sin(frame / 2.5) * (rf < 30 ? 1 : 0) : 1;
+          return (
+            <div key={i} style={{ transform: `scale(${pop * wiggle})` }}>
+              <Pill bg={bg} fg={fg} size={vf ? 60 : 44} style={{ width: pillW, height: vf ? 150 : 140, boxSizing: "border-box", justifyContent: "center", whiteSpace: "normal", textAlign: "center", lineHeight: 1.05 }}>
+                {vf ? `${i === 0 ? "✅" : "❌"} ${c}` : `${["A", "B", "C"][i]} · ${c}`}
+              </Pill>
+            </div>
+          );
+        })}
+      </div>
+      {showAnswer && rf < 28 && <Burst theme={theme} x={(1920 - rowW) / 2 + correct * (pillW + gap) + pillW / 2} y={540} n={44} />}
+      {showFact && (
+        <div style={{ position: "absolute", bottom: 60, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+          <Sequence from={factAt} layout="none">
+            <FactCard text={it.fact} theme={theme} lang={episode.lang} />
+          </Sequence>
+        </div>
+      )}
+      {!reveal && (
+        <div style={{ position: "absolute", right: 60, bottom: 18 }}>
+          <Countdown frame={frame} totalFrames={ask} theme={theme} size={200} kind="slider" rider="poussin" width={620} />
+        </div>
+      )}
+      {!showFact && (
+        <div style={{ position: "absolute", left: 60, bottom: 30, display: "flex", alignItems: "flex-end", gap: 10 }}>
+          <Mascot which={reveal ? "chat" : "poussin"} size={220} mood={reveal ? "cheer" : "idle"} />
+          <div style={{ marginBottom: 120 }}>
+            <Bubble size={32}>{reveal ? T.interludeBack : T.interludeNoPoints}</Bubble>
+          </div>
+        </div>
+      )}
+    </AbsoluteFill>
+  );
+};
+
+// ---------- Vidéo longue v2 : carte finale « Prochain quiz » (2 vidéos + S'abonner, modèle YouTube « 2 vidéos + élément S'abonner ») ----------
+// Géométrie à vérifier en posant l'écran de fin dans YouTube Studio ; les gabarits pointillés guident l'œil vers les éléments.
+export const NEXT_SCREEN = { videos: [{ left: 272, top: 380, width: 621, height: 349 }, { left: 1027, top: 380, width: 621, height: 349 }], subscribe: { left: 840, top: 775, size: 240 } };
+export const NextQuizCard: React.FC<{ theme: Theme; lang?: Lang }> = ({ theme, lang }) => {
+  const T = tr({ lang });
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const pop = spring({ frame, fps, config: { damping: 10, stiffness: 120 } });
+  const hop = Math.abs(Math.sin(frame / 7)) * 18;
+  const point = Math.sin(frame / 8) * 6;
+  const { videos, subscribe } = NEXT_SCREEN;
+  return (
+    <AbsoluteFill>
+      <div style={{ position: "absolute", top: 40, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 18, opacity: pop, transform: `translateY(${(1 - pop) * 40}px)` }}>
+        <Logo theme={theme} size={64} />
+        <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 112, color: WHITE, textShadow: `8px 8px 0 ${INK}`, lineHeight: 1, letterSpacing: 2 }}>{T.nextQuiz}</div>
+        <Pill size={40} bg={theme.accent} fg={WHITE} tilt={-1}>{T.nextQuizSub}</Pill>
+      </div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: subscribe.top + subscribe.size + 14, display: "flex", justifyContent: "center" }}>
+        <Pill size={30} tilt={1}>{T.nextQuizSubscribe}</Pill>
+      </div>
+      {videos.map((v, i) => (
+        <div key={i} style={{ position: "absolute", left: v.left, top: v.top, width: v.width, height: v.height, borderRadius: 24, border: `5px dashed rgba(255,255,255,0.55)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ fontSize: 90, opacity: 0.5, transform: `scale(${1 + Math.sin(frame / 6 + i) * 0.05})` }}>▶️</div>
+        </div>
+      ))}
+      <div style={{ position: "absolute", left: subscribe.left, top: subscribe.top, width: subscribe.size, height: subscribe.size, borderRadius: subscribe.size / 2, border: `5px dashed rgba(255,255,255,0.55)` }} />
+      <div style={{ position: "absolute", left: 30, bottom: 10 - hop, transform: `rotate(${point}deg)`, transformOrigin: "bottom center" }}>
+        <Mascot which="chat" size={300} mood="cheer" />
+      </div>
+      <div style={{ position: "absolute", right: 30, bottom: 10 - hop, transform: `rotate(${-point}deg)`, transformOrigin: "bottom center" }}>
+        <Mascot which="poussin" size={260} mood="cheer" />
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 // ---------- Voix off : clip optionnel ----------
 export const Voice: React.FC<{ clip?: VoiceClip; from?: number; volume?: number }> = ({ clip, from = 0, volume = 1 }) => {
   if (!clip) return null;
@@ -751,7 +922,8 @@ export const IntroCard: React.FC<{ episode: Episode; vertical: boolean; k?: numb
       </AbsoluteFill>
     );
   const f = vertical ? frame : frame - 2 * fps;
-  const hookSize = (vertical ? 108 : 140) * sc * (k > 1 ? 0.9 : 1) * (episode.intro.hook.length > 34 ? 0.82 : 1);
+  const rule = episode.variants?.rule;
+  const hookSize = (vertical ? 108 : 140) * sc * (k > 1 ? 0.9 : 1) * (episode.intro.hook.length > 34 ? 0.82 : 1) * (rule ? 0.82 : 1);
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 30 * sc, padding: 80 }}>
       <div style={{ position: "absolute", top: 40, left: 60 }}>
@@ -762,11 +934,20 @@ export const IntroCard: React.FC<{ episode: Episode; vertical: boolean; k?: numb
           <Rich text={episode.intro.hook} size={hookSize} />
         </div>
       </Pop>
-      <Pop delay={(vertical ? 0 : 2 * fps) + 6}>
-        <Pill size={(vertical ? 44 : 56) * sc * k} tilt={-2} bg={theme.soft} style={{ whiteSpace: "normal", textAlign: "center" }}>
-          {episode.intro.sub}
-        </Pill>
-      </Pop>
+      {/* Vidéo longue v2 : la règle du jeu (lue par la voix) remplace le sous-titre quand l'épisode en a une. */}
+      {rule && !vertical ? (
+        <Pop delay={2 * fps + 6}>
+          <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: 42 * k, color: INK, background: WHITE, border: `6px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, padding: "16px 34px", borderRadius: 26, textAlign: "center", lineHeight: 1.2, maxWidth: 1380, whiteSpace: "normal" }}>
+            <Rich text={rule} size={42 * k} />
+          </div>
+        </Pop>
+      ) : (
+        <Pop delay={(vertical ? 0 : 2 * fps) + 6}>
+          <Pill size={(vertical ? 44 : 56) * sc * k} tilt={-2} bg={theme.soft} style={{ whiteSpace: "normal", textAlign: "center" }}>
+            {episode.intro.sub}
+          </Pill>
+        </Pop>
+      )}
       <Pop delay={(vertical ? 0 : 2 * fps) + 12}>
         <Pill size={(vertical ? 36 : 44) * sc * k} tilt={2} style={{ whiteSpace: "normal", textAlign: "center" }}>
           {episode.variants?.introCta ?? tr(episode).introCtaDefault}
@@ -832,9 +1013,17 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
   if (s.kind === "packshot")
     return (
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Packshot">
-        {episode.voice?.packshot ? <Voice clip={episode.voice.packshot} from={14} /> : has("packshot") && <Audio src={staticFile("audio/packshot.mp3")} volume={1} />}
+        {episode.voice?.nextQuiz ? <Voice clip={episode.voice.nextQuiz} from={14} /> : episode.voice?.packshot ? <Voice clip={episode.voice.packshot} from={14} /> : has("packshot") && <Audio src={staticFile("audio/packshot.mp3")} volume={1} />}
         {has("fanfare") && <Audio src={staticFile("audio/fanfare.mp3")} volume={0.5} />}
-        <Packshot theme={theme} headline={v?.packshot?.headline} sub={v?.packshot?.sub} cta={v?.packshot?.cta} lang={episode.lang} />
+        {/* Vidéo longue v2 : carte « Prochain quiz » (2 vidéos + S'abonner) dès que l'épisode porte sa voix ; sinon l'ancien packshot site. */}
+        {episode.voice?.nextQuiz || episode.variants?.nextQuizVoice ? <NextQuizCard theme={theme} lang={episode.lang} /> : <Packshot theme={theme} headline={v?.packshot?.headline} sub={v?.packshot?.sub} cta={v?.packshot?.cta} lang={episode.lang} />}
+      </Sequence>
+    );
+  if (s.kind === "interlude")
+    return (
+      <Sequence key={index} from={s.from} durationInFrames={s.dur} name={`Intermède ${s.index + 1}`}>
+        <InterludeAudio episode={episode} k={s.index} ask={s.ask} />
+        <InterludeCard episode={episode} k={s.index} ask={s.ask} dur={s.dur} />
       </Sequence>
     );
   if (s.kind === "champion")
@@ -906,6 +1095,28 @@ export const Ticks: React.FC<{ episode: Episode; index: number; dur: number; unt
           </Sequence>
         ) : null,
       )}
+    </>
+  );
+};
+// Son d'un intermède : question lue, tic-tac après la lecture, ding + réponse lue à la révélation, puis l'anecdote.
+export const InterludeAudio: React.FC<{ episode: Episode; k: number; ask: number }> = ({ episode, k, ask }) => {
+  const { fps } = useVideoConfig();
+  const v = episode.interludes?.[k]?.voice;
+  const start = Math.ceil((v?.q?.sec ?? 0) + 0.2);
+  return (
+    <>
+      <Voice clip={v?.q} from={6} />
+      {has("tick") &&
+        Array.from({ length: Math.max(0, Math.ceil(ask / fps) - start) }).map((_, i) => (
+          <Sequence key={i} from={(start + i) * fps} durationInFrames={Math.min(fps, ask - (start + i) * fps)}>
+            <Audio src={staticFile("audio/tick.mp3")} volume={0.25} />
+          </Sequence>
+        ))}
+      <Sequence from={ask} layout="none">
+        {has("ding") && <Audio src={staticFile("audio/ding.mp3")} volume={0.45} />}
+        <Voice clip={v?.a} from={Math.round(0.3 * fps)} />
+      </Sequence>
+      <Voice clip={v?.f} from={ask + Math.round((0.3 + (v?.a?.sec ?? 1.5) + 0.4) * fps)} />
     </>
   );
 };
