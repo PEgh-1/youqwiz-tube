@@ -48,15 +48,17 @@ const rand = rng(`${ep.id}-voice`);
 const pick = (arr) => arr[Math.floor(rand() * arr.length)];
 
 const clean = (s) => String(s).replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, "").replace(/\s+/g, " ").trim();
-const duration = (f) => Number(execSync(`ffprobe -v error -show_entries format=duration -of csv=p=0 "${f}"`).toString());
+const duration = (f) => Number(execSync(`ffprobe -v error -show_entries format=duration -of csv=p=0 "${f}"`, { timeout: 30_000, stdio: ["ignore", "pipe", "pipe"] }).toString());
 
 async function synth(text, outFile, ctx = {}) {
   if (existsSync(outFile)) return;
   chars += text.length;
   calls++;
   if (dry) return writeFileSync(outFile, "");
+  if (calls <= 3 || process.env.TTS_VERBOSE) console.log(`clip ${calls} (${MODEL}) : ${text.length} car. → ${outFile.split("/").slice(-2).join("/")}`);
   // previous_text / next_text : la phrase voisine (sans tag) donne la continuité de ton entre question et réponse.
-  const context = { ...(ctx.prev ? { previous_text: untag(ctx.prev) } : {}), ...(ctx.next ? { next_text: untag(ctx.next) } : {}) };
+  // (refusé par eleven_v3 : « unsupported_model », 09/11/2026 → seulement pour les autres modèles)
+  const context = V3 ? {} : { ...(ctx.prev ? { previous_text: untag(ctx.prev) } : {}), ...(ctx.next ? { next_text: untag(ctx.next) } : {}) };
   // 09/11/2026 : délai de 90 s par appel et 3 tentatives (un run est resté 2 h bloqué sur une connexion muette).
   const t0 = Date.now();
   let res, lastErr;
@@ -79,7 +81,9 @@ async function synth(text, outFile, ctx = {}) {
   if (!res) throw lastErr;
   if (!res.ok) throw new Error(`ElevenLabs ${res.status} : ${(await res.text()).slice(0, 200)}`);
   writeFileSync(outFile, Buffer.from(await res.arrayBuffer()));
+  if (calls <= 3 || process.env.TTS_VERBOSE) console.log(`  reçu ${(Date.now() - t0) / 1000} s, ${res.headers.get("content-length") ?? "?"} octets, ffmpeg…`);
   trim(outFile);
+  if (calls <= 3 || process.env.TTS_VERBOSE) console.log(`  coupé`);
   // Journal de progression et détection de lenteur (bascule sur le modèle de secours).
   const sec = (Date.now() - t0) / 1000;
   slow.push(sec);
@@ -95,7 +99,8 @@ let slow = [];
 function trim(file) {
   const tmp = file.replace(/\.mp3$/, ".trim.mp3");
   try {
-    execSync(`ffmpeg -y -loglevel error -i "${file}" -af "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse,agate=threshold=0.025:ratio=4:attack=6:release=150:knee=4,loudnorm=I=-16:TP=-1.5:LRA=7" -ar 44100 -b:a 128k "${tmp}"`);
+    // 09/11/2026 : -nostdin, délai de 60 s et entrée standard fermée (un run est resté bloqué sans rien produire).
+    execSync(`ffmpeg -y -nostdin -loglevel error -i "${file}" -af "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse,agate=threshold=0.025:ratio=4:attack=6:release=150:knee=4,loudnorm=I=-16:TP=-1.5:LRA=7" -ar 44100 -b:a 128k "${tmp}"`, { timeout: 60_000, stdio: ["ignore", "pipe", "pipe"] });
     execSync(`mv "${tmp}" "${file}"`);
   } catch (e) { console.warn(`trim ${file} : ${e.message.slice(0, 80)}`); }
 }

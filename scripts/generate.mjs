@@ -38,7 +38,9 @@ if (process.env.REUSE_EPISODE) {
     // on garde le texte affiché (déjà rempli) et on reprend la nouvelle voix, en recopiant les valeurs déjà résolues ({theme}, {weekday})
     const vals = {}; const re = new RegExp("^" + samePre.text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\\\{([a-z]+)\\\}/g, "(?<$1>.+)") + "$");
     const m = ep.variants.preroll.text.match(re); if (m?.groups) Object.assign(vals, m.groups);
-    ep.variants.preroll.voice = samePre.voice.replace(/\{([a-z]+)\}/g, (_, k) => vals[k] ?? ep.variants.preroll.text);
+    // {theme} absent du texte affiché (ex. « Bon mardi ! ») → sujet de la banque (le 10/11/2026, la voix disait « Au programme : Bon mardi ! »)
+    const themeLbl = (bank?.subject ?? bank?.noun ?? "").toLowerCase().replace(/^(les |des )/, "") || "le quiz du jour";
+    ep.variants.preroll.voice = samePre.voice.replace(/\{([a-z]+)\}/g, (_, k) => vals[k] ?? (k === "theme" ? themeLbl : k === "n" ? String(ep.items.length) : ep.variants.preroll.text));
   }
   ep.variants.scoreVoice = pick0(V0.score);
   if (ep.pillar !== "choix") ep.variants.outro = pick0(V0.outro);
