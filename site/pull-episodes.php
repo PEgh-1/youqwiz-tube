@@ -13,7 +13,7 @@ declare(strict_types=1);
  * Même format de fichier que l'API (episode, longId, shortId, publishAt, receivedAt) + source/sourceSha ; index.json reconstruit à l'identique.
  * Les épisodes déjà publiés et identiques ne sont pas retéléchargés ; ceux à venir sont comparés par sha (refonte détectée).
  * 09/11/2026 : shortId2 / short2PublishAt (2e Short à 19 h) et téléchargement des mp4 depuis la release GitHub de l'épisode
- * (https://github.com/PEgh-1/youqwiz-tube/releases/download/<id>/short.mp4) vers youqwiz.com/media/shorts/<id>.mp4 et <id>-2.mp4.
+ * (https://github.com/PEgh-1/youqwiz-tube/releases/download/<id>/short.mp4) vers youqwiz.com/media/shorts/<id>.mp4, <id>-2.mp4 et <id>-3.mp4 (3e Short, 16 h).
  */
 const REPO = 'PEgh-1/youqwiz-tube';
 const BRANCH = 'main';
@@ -76,17 +76,19 @@ foreach ($queue['published'] as $r) {
     if (!$pub || $pub < $now - KEEP_DAYS * 86400) continue;
     $shortId = preg_replace('/[^A-Za-z0-9_-]/', '', (string)($r['shortId'] ?? ''));
     $shortId2 = preg_replace('/[^A-Za-z0-9_-]/', '', (string)($r['shortId2'] ?? ''));
+    $shortId3 = preg_replace('/[^A-Za-z0-9_-]/', '', (string)($r['shortId3'] ?? ''));
 
     // Shorts mp4 (relais réseaux) : téléchargés une fois par identifiant YouTube ; un nouvel identifiant (refonte) remplace le fichier.
     if (is_dir(MEDIA_DIR)) {
         $side = MEDIA_DIR . "/$id.json";
         $have = is_file($side) ? (json_decode((string)file_get_contents($side), true) ?: []) : [];
-        $want = array_filter(['short' => $shortId, 'short2' => $shortId2]);
+        $want = array_filter(['short' => $shortId, 'short2' => $shortId2, 'short3' => $shortId3]);
         $got = $have;
         foreach ($want as $k => $vid) {
-            $dest = MEDIA_DIR . '/' . $id . ($k === 'short2' ? '-2' : '') . '.mp4';
+            $suffix = $k === 'short2' ? '-2' : ($k === 'short3' ? '-3' : '');
+            $dest = MEDIA_DIR . '/' . $id . $suffix . '.mp4';
             if (($have[$k] ?? '') === $vid && is_file($dest)) continue;
-            $url = 'https://github.com/' . REPO . '/releases/download/' . $id . '/' . ($k === 'short2' ? 'short2' : 'short') . '.mp4';
+            $url = 'https://github.com/' . REPO . '/releases/download/' . $id . '/' . $k . '.mp4';
             if (fetchMedia($url, $dest)) { $got[$k] = $vid; $media[] = basename($dest); }
             else unset($got[$k]);
         }
@@ -99,6 +101,7 @@ foreach ($queue['published'] as $r) {
         && ($local['longId'] ?? '') === $r['longId']
         && ($local['shortId'] ?? '') === $shortId
         && ($local['shortId2'] ?? '') === $shortId2
+        && ($local['shortId3'] ?? '') === $shortId3
         && ($local['publishAt'] ?? '') === $r['publishAt'];
     // Déjà publié et même enregistrement : rien à faire (le contenu d'un épisode public ne change plus).
     if ($sameRecord && $pub <= $now) continue;
@@ -120,8 +123,10 @@ foreach ($queue['published'] as $r) {
         'longId' => preg_replace('/[^A-Za-z0-9_-]/', '', (string)$r['longId']),
         'shortId' => $shortId,
         'shortId2' => $shortId2,
+        'shortId3' => $shortId3,
         'publishAt' => (string)$r['publishAt'],
         'short2PublishAt' => (string)($r['short2PublishAt'] ?? ''),
+        'short3PublishAt' => (string)($r['short3PublishAt'] ?? ''),
         'receivedAt' => gmdate('c'),
         'source' => 'github-pull',
         'sourceSha' => $sha,

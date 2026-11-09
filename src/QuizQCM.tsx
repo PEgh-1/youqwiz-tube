@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactCard, Fonts, LevelBadge, Logo, Mascot, MusicBed, Pill, Progress, Rich, Streak, Ticks, Voice, quipFor, styleOf, themeOf, tiltFor } from "./components";
+import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactCard, Fonts, HookBanner, LevelBadge, Logo, Mascot, MusicBed, Pill, Progress, Rich, ShortFx, Streak, Ticks, Voice, quipFor, shortMotion, styleOf, themeOf, tiltFor } from "./components";
 import { Score } from "./DevineEn3s";
 import { FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, WHITE } from "./theme";
 import { tr } from "./i18n";
@@ -21,6 +21,7 @@ export const QuizQCM: React.FC<QcmProps> = ({ episode, vertical = false }) => {
   const { segments } = buildTimeline(episode, fps, vertical ? SHORT_OPTS(episode) : {});
   // Compteur « x / n » : en Short, le nombre réel de questions de la timeline (jusqu'à 8, limité par les 58 s), pas shortItems.
   const n = vertical ? segments.filter((s) => s.kind === "question").length : episode.items.length;
+  const lastQ = Math.max(...segments.filter((s) => s.kind === "question").map((s) => (s as { index: number }).index));
   const slow = !!episode.timing.slow;
   const k = slow ? 1.15 : 1; // typographie +15 % pour le pilier générations
 
@@ -34,6 +35,7 @@ export const QuizQCM: React.FC<QcmProps> = ({ episode, vertical = false }) => {
         if (s.kind === "question")
           return (
             <Sequence key={i} from={s.from} durationInFrames={s.dur} name={`Q${s.index + 1}`}>
+              {vertical && <ShortFx index={s.index} last={s.index === lastQ} dur={s.dur} />}
               <Voice clip={episode.items[s.index].voice?.q} />
               <Ticks episode={episode} index={s.index} dur={s.dur} />
               <Stage episode={episode} index={s.index} total={n} reveal={false} dur={s.dur} vertical={vertical} k={k} />
@@ -138,8 +140,8 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
       {vertical && (
-        <div style={{ position: "absolute", top: 70 }}>
-          <Logo theme={theme} size={78} />
+        <div style={{ position: "absolute", top: index === 0 && !reveal ? 40 : 70, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+          {index === 0 && !reveal ? <HookBanner theme={theme} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} n={total} until={dur - 6} lang={episode.lang} /> : <Logo theme={theme} size={78} />}
         </div>
       )}
       {/* HUD */}
@@ -157,7 +159,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       )}
 
       {/* Question */}
-      <div style={{ position: "absolute", top: vertical ? 300 : 175, left: vertical ? 60 : 180, right: vertical ? 60 : 180, transform: `scale(${reveal ? 1 : enter})` }}>
+      <div style={{ position: "absolute", top: vertical ? 300 : 175, left: vertical ? 60 : 180, right: vertical ? 60 : 180, transform: `scale(${reveal ? 1 : enter})${shortMotion(frame, dur, reveal, vertical)}` }}>
         <Card tilt={tilt} shape={style.card} style={{ height: vertical ? 420 : 250, padding: "20px 50px" }}>
           <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: qSize, color: INK, textAlign: "center", lineHeight: 1.08 }}>
             <Rich text={prompt.value} size={qSize} />

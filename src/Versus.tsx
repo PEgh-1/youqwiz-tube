@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { AUDIO, Background, Bubble, CommonSegment, Fonts, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, Ticks, Voice, quipFor, styleOf, themeOf } from "./components";
+import { AUDIO, Background, Bubble, CommonSegment, Fonts, HookBanner, Karaoke, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, ShortFx, Ticks, Voice, quipFor, shortMotion, styleOf, themeOf } from "./components";
 import { FONT_BODY, FONT_DISPLAY, INK, WHITE } from "./theme";
 import { SHORT_OPTS, buildTimeline } from "./timeline";
 import type { Episode } from "./types";
@@ -18,6 +18,7 @@ export const Versus: React.FC<VersusProps> = ({ episode, vertical = false }) => 
   const { segments } = buildTimeline(episode, fps, vertical ? SHORT_OPTS(episode) : {});
   // Compteur « x / n » : en Short, le nombre réel de questions de la timeline (jusqu'à 8, limité par les 58 s), pas shortItems.
   const n = vertical ? segments.filter((s) => s.kind === "question").length : episode.items.length;
+  const lastQ = Math.max(...segments.filter((s) => s.kind === "question").map((s) => (s as { index: number }).index));
   return (
     <AbsoluteFill style={{ fontFamily: FONT_BODY, color: INK }}>
       <Fonts />
@@ -27,6 +28,7 @@ export const Versus: React.FC<VersusProps> = ({ episode, vertical = false }) => 
         if (s.kind === "question")
           return (
             <Sequence key={k} from={s.from} durationInFrames={s.dur} name={`C${s.index + 1}`}>
+              {vertical && <ShortFx index={s.index} last={s.index === lastQ} dur={s.dur} />}
               <Voice clip={episode.items[s.index].voice?.q} />
               {s.dur > 5 * fps && has("ding") && (
                 <Sequence from={5 * fps} durationInFrames={s.dur - 5 * fps}>
@@ -80,8 +82,8 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
   return (
     <AbsoluteFill style={{ alignItems: "center" }}>
       {vertical && (
-        <div style={{ position: "absolute", top: 70 }}>
-          <Logo theme={theme} size={78} />
+        <div style={{ position: "absolute", top: index === 0 ? 40 : 70, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+          {index === 0 ? <HookBanner theme={theme} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} n={total} until={dur - 6} lang={episode.lang} /> : <Logo theme={theme} size={78} />}
         </div>
       )}
       <div style={{ position: "absolute", top: vertical ? 190 : 34, left: 60, right: 60, display: "flex", alignItems: "center", gap: 24, justifyContent: "center" }}>
@@ -89,6 +91,11 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
         {!vertical && <Progress value={index / total} theme={theme} />}
         <Pill size={hud} bg={theme.accent} fg={WHITE}>{T.wouldYouRather}</Pill>
       </div>
+      {vertical && item.voice?.q?.text && (
+        <div style={{ position: "absolute", top: 278, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+          <Karaoke clip={item.voice.q} theme={theme} size={46} width={960} />
+        </div>
+      )}
       {!vertical && (
         <div style={{ position: "absolute", top: 118, left: 60 }}>
           <Logo theme={theme} size={48} />
@@ -96,7 +103,7 @@ const Duel: React.FC<{ episode: Episode; index: number; total: number; dur: numb
       )}
 
       {/* Les deux camps + le OU central */}
-      <div style={{ position: "absolute", top: vertical ? 420 : 230, left: 0, right: 0, display: "flex", flexDirection: vertical ? "column" : "row", alignItems: "center", justifyContent: "center", gap: vertical ? 70 : 60 }}>
+      <div style={{ position: "absolute", top: vertical ? 420 : 230, left: 0, right: 0, display: "flex", flexDirection: vertical ? "column" : "row", alignItems: "center", justifyContent: "center", gap: vertical ? 70 : 60, transform: shortMotion(frame, choiceFrames, askPhase, vertical) || undefined }}>
         {pane(0)}
         {pane(1)}
       </div>

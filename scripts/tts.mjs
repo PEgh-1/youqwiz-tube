@@ -75,12 +75,12 @@ async function generic(text) {
   const h = createHash("sha1").update(`${ELEVENLABS_VOICE_ID}|${MODEL}|trim2|${text}`).digest("hex").slice(0, 16); // trim2 = réglages du 09/11/2026
   const f = `${cacheDir}/${h}.mp3`;
   await synth(text, f);
-  return { src: `tts-cache/${h}.mp3`, sec: dry ? 1.5 : duration(f) };
+  return { src: `tts-cache/${h}.mp3`, sec: dry ? 1.5 : duration(f), text: untag(text) };
 }
 async function specific(text, name, ctx) {
   const f = `${epDir}/${name}.mp3`;
   await synth(text, f, ctx);
-  return { src: `tts/${ep.id}/${name}.mp3`, sec: dry ? 2 : duration(f) };
+  return { src: `tts/${ep.id}/${name}.mp3`, sec: dry ? 2 : duration(f), text: untag(text) };
 }
 
 // --- lignes par pilier ---

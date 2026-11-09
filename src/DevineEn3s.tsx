@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactCard, Fonts, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, PromptView, Reveal, Rich, Streak, Ticks, Voice, quipFor, styleOf, themeOf, tiltFor } from "./components";
+import { HookBanner, Karaoke, ShortFx, shortMotion, AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactCard, Fonts, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, PromptView, Reveal, Rich, Streak, Ticks, Voice, quipFor, styleOf, themeOf, tiltFor } from "./components";
 import { FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, RANKS, WHITE } from "./theme";
 import { tr } from "./i18n";
 import { SHORT_OPTS, buildTimeline, factStart, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD } from "./timeline";
@@ -18,6 +18,7 @@ export const DevineEn3s: React.FC<DevineProps> = ({ episode, vertical = false })
   const { segments } = buildTimeline(episode, fps, vertical ? SHORT_OPTS(episode) : {});
   // Compteur « x / n » : en Short, le nombre réel de questions de la timeline (jusqu'à 8, limité par les 58 s), pas shortItems.
   const n = vertical ? segments.filter((s) => s.kind === "question").length : episode.items.length;
+  const lastQ = Math.max(...segments.filter((s) => s.kind === "question").map((s) => (s as { index: number }).index));
   const isChoice = episode.timing.reveal <= 0;
 
   return (
@@ -30,6 +31,7 @@ export const DevineEn3s: React.FC<DevineProps> = ({ episode, vertical = false })
         if (s.kind === "question")
           return (
             <Sequence key={k} from={s.from} durationInFrames={s.dur} name={`Q${s.index + 1}`}>
+              {vertical && <ShortFx index={s.index} last={s.index === lastQ} dur={s.dur} />}
               <Voice clip={episode.items[s.index].voice?.q} />
               {isChoice && s.dur > 5 * fps && has("ding") && (
                 <Sequence from={5 * fps} durationInFrames={s.dur - 5 * fps}>
@@ -107,12 +109,13 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   // 08/11/2026 : en 16:9, barre de temps « slider » chevauchée par la mascotte opposée à celle du bas gauche ; les Shorts gardent l'anneau.
   const timerPos = vertical ? { position: "absolute" as const, left: 60, bottom: 330 } : { position: "absolute" as const, right: 60, bottom: 18 };
   const rider: "chat" | "poussin" = askPhase ? "chat" : "poussin";
+  const karaoke = reveal ? item.voice?.a : item.voice?.q; // Shorts v2 : la voix off s'affiche mot à mot à la place de la consigne
 
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: vertical ? "flex-start" : "center" }}>
       {vertical && (
-        <div style={{ position: "absolute", top: 70 }}>
-          <Logo theme={theme} size={78} />
+        <div style={{ position: "absolute", top: index === 0 && !reveal ? 40 : 70, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+          {index === 0 && !reveal ? <HookBanner theme={theme} sticker={episode.meta.thumbnail.sticker} line={episode.meta.shortLine} n={total} until={dur - 6} lang={episode.lang} /> : <Logo theme={theme} size={78} />}
         </div>
       )}
       {/* HUD */}
@@ -130,12 +133,12 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       )}
 
       {/* Question */}
-      <div style={{ position: "absolute", top: vertical ? 290 : 128, left: 0, right: 0, textAlign: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: vertical ? 80 : 82, color: INK, textShadow: `5px 5px 0 ${WHITE}`, padding: "0 60px", lineHeight: 1.05 }}>
-        <Rich text={question} size={vertical ? 80 : 82} />
+      <div style={{ position: "absolute", top: vertical ? 290 : 128, left: 0, right: 0, display: "flex", justifyContent: "center", textAlign: "center", fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: vertical ? 80 : 82, color: INK, textShadow: `5px 5px 0 ${WHITE}`, padding: "0 60px", lineHeight: 1.05 }}>
+        {vertical && karaoke?.text ? <Karaoke clip={karaoke} theme={theme} size={62} width={960} from={reveal ? Math.round((impossible ? 0.8 : 0) * fps) + Math.round(VOICE_LEAD * fps) : 0} /> : <Rich text={question} size={vertical ? 80 : 82} />}
       </div>
 
       {/* Carte */}
-      <div style={{ transform: `scale(${reveal ? 1 + 0.04 * Math.sin(frame / 3) * (frame < 8 ? 1 : 0) : enter})`, marginTop: vertical ? 530 : showFact ? 70 : 110 }}>
+      <div style={{ transform: `scale(${reveal ? 1 + 0.04 * Math.sin(frame / 3) * (frame < 8 ? 1 : 0) : enter})${shortMotion(frame, dur, reveal, vertical)}`, marginTop: vertical ? 530 : showFact ? 70 : 110 }}>
         <Card tilt={tilt} shape={style.card} border={showAnswer ? OK : INK} style={{ width: vertical ? 980 : isChoice ? 1520 : 1100, height: vertical ? 880 : 560, gap: 24, padding: 40 }}>
           {!showAnswer || isChoice ? (
             <PromptView prompt={item.prompt} theme={theme} big={big} vertical={vertical} lang={episode.lang} />

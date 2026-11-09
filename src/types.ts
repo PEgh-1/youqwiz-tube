@@ -9,7 +9,7 @@ export type Prompt =
   | { type: "letter"; value: string; category: string } // « nomme un animal qui commence par M »
   | { type: "qcm"; value: string; choices: string[]; correct: number }; // question + 4 choix + index de la bonne
 
-export type VoiceClip = { src: string; sec: number };
+export type VoiceClip = { src: string; sec: number; /** texte lu (sans tag d'émotion), pour les sous-titres karaoké des Shorts (09/11/2026) */ text?: string };
 
 export type Item = {
   /** Voix off (optionnelle) : question lue au début, réponse lue à la révélation, fait bonus après la réponse. */
@@ -70,6 +70,8 @@ export type Episode = {
     shortDescription?: string;
     /** 2e Short quotidien (09/11/2026) : questions les plus dures, 19 h. */
     short2?: { title: string; description: string; sticker: string; line: string };
+    /** 3e Short quotidien (16 h) : questions du milieu (moyen-difficile). */
+    short3?: { title: string; description: string; sticker: string; line: string };
     /** Surcharges posées par scripts/render.mjs pour le rendu du 2e Short. */
     shortLine?: string;
     totalItems?: number;

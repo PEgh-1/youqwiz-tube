@@ -102,7 +102,7 @@ if (mode === "post") {
     const t = Date.parse(r.publishAt);
     if (t > now || now - t > 36 * 3600e3) continue;
     // 2e Short (19 h) : même commentaire, posté après sa sortie.
-    for (const [vid, key, after] of [[r.shortId, "shortCommentId", t], [r.shortId2, "short2CommentId", Date.parse(r.short2PublishAt ?? r.publishAt)]]) {
+    for (const [vid, key, after] of [[r.shortId, "shortCommentId", t], [r.shortId2, "short2CommentId", Date.parse(r.short2PublishAt ?? r.publishAt)], [r.shortId3, "short3CommentId", Date.parse(r.short3PublishAt ?? r.publishAt)]]) {
       if (!vid || r[key] || after > now) continue;
       try {
         const res = await yt.commentThreads.insert({ part: ["snippet"], requestBody: { snippet: { videoId: vid, topLevelComment: { snippet: { textOriginal: `🎬 La réponse + toutes les questions ici 👉 https://youtu.be/${r.longId}\n🎮 Joue au quiz complet : https://youqwiz.com/quiz-du-jour/${r.id}` } } } } });

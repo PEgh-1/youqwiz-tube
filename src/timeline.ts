@@ -59,7 +59,8 @@ export const revealSeconds = (ep: Episode, i: number, short = false): number => 
 };
 
 // Options du Short « explosif » : hook 1,5 s, 6 questions rapides + 1 cliffhanger sans réponse, carte finale 4 s.
-export const SHORT_OPTS = (ep: Episode) => ({ preroll: 0, packshot: 0, subscribe: 0, intro: 1.5, outro: 0, levelCard: 0, score: 0, maxItems: 8, short: true, cliff: 4, maxSeconds: 58 });
+// Shorts v2 (09/11/2026) : plus de carte d'accroche, la 1re question démarre tout de suite (accroche en bandeau sur Q1).
+export const SHORT_OPTS = (ep: Episode) => ({ preroll: 0, packshot: 0, subscribe: 0, intro: 0, outro: 0, levelCard: 0, score: 0, maxItems: 8, short: true, cliff: 4, maxSeconds: 58 });
 
 // Question où la série « se perd » (une fois par vidéo, vers les deux tiers), pour relancer l'attention.
 export const streakBreakIndex = (ep: Episode): number => Math.floor(ep.items.length * 0.62);
@@ -95,8 +96,10 @@ export const buildTimeline = (
     segments.push({ kind: "preroll", from: t, dur: preroll });
     t += preroll;
   }
-  segments.push({ kind: "intro", from: t, dur: intro });
-  t += intro;
+  if (intro > 0) {
+    segments.push({ kind: "intro", from: t, dur: intro });
+    t += intro;
+  }
   if (ep.champion && preroll > 0) {
     segments.push({ kind: "champion", from: t, dur: sec(4) });
     t += sec(4);
