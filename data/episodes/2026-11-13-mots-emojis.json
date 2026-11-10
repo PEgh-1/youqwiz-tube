@@ -1,0 +1,1492 @@
+{
+ "id": "2026-11-13-mots-emojis",
+ "pillar": "emojis",
+ "template": "DevineEn3s",
+ "theme": 5,
+ "style": {
+  "pattern": "stars",
+  "timer": "pie",
+  "reveal": "zoom",
+  "card": "round",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Installe-toi bien 🛋️",
+   "voice": "Installe-toi bien, ça démarre dans trois secondes !"
+  },
+  "introCta": "✍️ Note tes points, on compare à la fin",
+  "subscribe": {
+   "title": "Pas encore abonné ? 👀",
+   "sub": "un clic, et tu ne rates plus rien 🔔",
+   "voice": "Pas encore abonné ? Un clic, et tu ne rates plus rien."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tranquille pour commencer ☕",
+    "voice": "Niveau facile. Tranquille pour commencer."
+   },
+   "moyen": {
+    "card": "Ça se corse 👀",
+    "voice": "Niveau moyen. Ça se corse !"
+   },
+   "difficile": {
+    "card": "Respect si tu continues 🔥",
+    "voice": "Niveau difficile. Respect si tu continues sans faute."
+   },
+   "impossible": {
+    "card": "Même moi je sèche 😈",
+    "voice": "Niveau impossible. Même moi, je sèche sur certains."
+   }
+  },
+  "scoreVoice": "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !",
+  "outro": {
+   "title": "À demain pour un nouveau quiz 👋",
+   "voice": "À demain pour un nouveau quiz. Pense à t'abonner !"
+  },
+  "packshot": {
+   "headline": "Crée GRATUITEMENT tes quiz personnalisés",
+   "sub": "à partager avec tes amis 🎉",
+   "cta": "👉 youqwiz.com",
+   "voice": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com."
+  },
+  "rule": "50 mots cachés dans des émojis 🧩 Décode-les avant la fin du chrono, du facile à l'impossible ⭐",
+  "ruleVoice": "50 mots cachés derrière des émojis, du niveau facile au niveau impossible. Décode chaque mot avant la fin du chrono, puis la réponse s'affiche. Compte tes points !",
+  "nextQuizVoice": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !"
+ },
+ "title": "Quiz MOTS en ÉMOJIS 😀🧩❓ 50 énigmes en 5 secondes",
+ "question": "Quel MOT se cache derrière ces émojis ?",
+ "intro": {
+  "hook": "Devine 50 MOTS en ÉMOJIS",
+  "sub": "en 5 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎂🕯️"
+   },
+   "answer": "Anniversaire",
+   "level": "facile",
+   "rank": 2,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a42d4d3959844afd.mp3",
+     "sec": 1.959184,
+     "text": "Top départ ! On commence en douceur !"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/0-a.mp3",
+     "sec": 2.115918,
+     "text": "Réponse : Anniversaire."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍕🇮🇹"
+   },
+   "answer": "Pizza",
+   "level": "facile",
+   "rank": 3,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f2a222916183a32f.mp3",
+     "sec": 2.403265,
+     "text": "Quel mot se cache ici ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/1-a.mp3",
+     "sec": 0.757551,
+     "text": "C'est Pizza."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🗼🇫🇷"
+   },
+   "answer": "Tour Eiffel",
+   "level": "facile",
+   "fact": "La tour Eiffel, bâtie pour l'Exposition universelle de 1889, devait être démontée au bout de vingt ans.",
+   "rank": 5,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f2a222916183a32f.mp3",
+     "sec": 2.403265,
+     "text": "Quel mot se cache ici ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/2-a.mp3",
+     "sec": 1.123265,
+     "text": "C'est Tour Eiffel."
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/2-f.mp3",
+     "sec": 8.124082,
+     "text": "Tu savais ? La tour Eiffel, bâtie pour l'Exposition universelle de 1889, devait être démontée au bout de vingt ans."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "📚🏫"
+   },
+   "answer": "École",
+   "level": "facile",
+   "rank": 6,
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc23be1df7b48c87.mp3",
+     "sec": 1.17551,
+     "text": "Et celui-ci ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/3-a.mp3",
+     "sec": 0.809796,
+     "text": "École !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥔🍟"
+   },
+   "answer": "Frites",
+   "level": "facile",
+   "rank": 7,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/4-a.mp3",
+     "sec": 1.567347,
+     "text": "Eh oui, Frites !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏖️☀️"
+   },
+   "answer": "Vacances",
+   "level": "facile",
+   "fact": "Le mot « vacances » vient du latin « vacare », qui veut dire être vide, libre de toute occupation.",
+   "rank": 17,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/5-a.mp3",
+     "sec": 1.149388,
+     "text": "Vacances !"
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/5-f.mp3",
+     "sec": 7.706122,
+     "text": "Au passage, Le mot « vacances » vient du latin « vacare », qui veut dire être vide, libre de toute occupation."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🎹🎶"
+   },
+   "answer": "Piano",
+   "level": "facile",
+   "rank": 21,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f2a222916183a32f.mp3",
+     "sec": 2.403265,
+     "text": "Quel mot se cache ici ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/6-a.mp3",
+     "sec": 1.097143,
+     "text": "Piano !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🚿🧼"
+   },
+   "answer": "Douche",
+   "level": "facile",
+   "rank": 27,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f2a222916183a32f.mp3",
+     "sec": 2.403265,
+     "text": "Quel mot se cache ici ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/7-a.mp3",
+     "sec": 0.992653,
+     "text": "Douche !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔑🚪"
+   },
+   "answer": "Clé",
+   "level": "facile",
+   "rank": 29,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7edaeb3130dd0977.mp3",
+     "sec": 0.914286,
+     "text": "Décode-moi ça."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/8-a.mp3",
+     "sec": 1.018776,
+     "text": "Eh oui, Clé !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "♟️👑"
+   },
+   "answer": "Échecs",
+   "level": "facile",
+   "fact": "« Échec et mat » vient du persan « shah mat », qui signifie que le roi est mort.",
+   "rank": 30,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f4bd16036310ea66.mp3",
+     "sec": 2.690612,
+     "text": "Question 10. Ta série tient toujours ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/9-a.mp3",
+     "sec": 2.194286,
+     "text": "Bravo si tu as dit Échecs."
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/9-f.mp3",
+     "sec": 6.243265,
+     "text": "Petit bonus : « Échec et mat » vient du persan « shah mat », qui signifie que le roi est mort."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "⌚⏱️"
+   },
+   "answer": "Chronomètre",
+   "level": "facile",
+   "rank": 33,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/10-a.mp3",
+     "sec": 1.38449,
+     "text": "Eh oui, Chronomètre !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝🏠"
+   },
+   "answer": "Ruche",
+   "level": "facile",
+   "rank": 39,
+   "voice": {
+    "q": {
+     "src": "tts-cache/77664a8c53e2cf46.mp3",
+     "sec": 1.227755,
+     "text": "Devine le mot !"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/11-a.mp3",
+     "sec": 1.645714,
+     "text": "Eh oui, Ruche !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍎🥧"
+   },
+   "answer": "Tarte aux pommes",
+   "level": "facile",
+   "rank": 44,
+   "voice": {
+    "q": {
+     "src": "tts-cache/77664a8c53e2cf46.mp3",
+     "sec": 1.227755,
+     "text": "Devine le mot !"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/12-a.mp3",
+     "sec": 1.48898,
+     "text": "C'est Tarte aux pommes."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💍❤️"
+   },
+   "answer": "Alliance",
+   "level": "facile",
+   "rank": 50,
+   "voice": {
+    "q": {
+     "src": "tts-cache/acff2b1e93c246a6.mp3",
+     "sec": 1.854694,
+     "text": "Quel titre se cache là ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/13-a.mp3",
+     "sec": 1.906939,
+     "text": "Réponse : Alliance."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🛒🍎"
+   },
+   "answer": "Courses",
+   "level": "facile",
+   "rank": 62,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/14-a.mp3",
+     "sec": 1.018776,
+     "text": "C'est Courses."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🍓🍰"
+   },
+   "answer": "Fraisier",
+   "level": "facile",
+   "rank": 63,
+   "voice": {
+    "q": {
+     "src": "tts-cache/77664a8c53e2cf46.mp3",
+     "sec": 1.227755,
+     "text": "Devine le mot !"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/15-a.mp3",
+     "sec": 1.802449,
+     "text": "Réponse : Fraisier."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌳🍎"
+   },
+   "answer": "Pommier",
+   "level": "facile",
+   "rank": 64,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/16-a.mp3",
+     "sec": 1.880816,
+     "text": "Bravo si tu as dit Pommier."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌳🍒"
+   },
+   "answer": "Cerisier",
+   "level": "facile",
+   "rank": 65,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/17-a.mp3",
+     "sec": 2.115918,
+     "text": "Bravo si tu as dit Cerisier."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌧️☀️"
+   },
+   "answer": "Arc-en-ciel",
+   "level": "moyen",
+   "fact": "Newton a décidé de compter sept couleurs dans l'arc-en-ciel, alors que le spectre est continu.",
+   "rank": 70,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/18-a.mp3",
+     "sec": 2.194286,
+     "text": "Réponse : Arc-en-ciel."
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/18-f.mp3",
+     "sec": 7.47102,
+     "text": "Petit bonus : Newton a décidé de compter sept couleurs dans l'arc-en-ciel, alors que le spectre est continu."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐮🥛"
+   },
+   "answer": "Lait",
+   "level": "moyen",
+   "rank": 76,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/19-a.mp3",
+     "sec": 0.757551,
+     "text": "C'est Lait."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥩🍟"
+   },
+   "answer": "Steak-frites",
+   "level": "moyen",
+   "rank": 81,
+   "voice": {
+    "q": {
+     "src": "tts-cache/77664a8c53e2cf46.mp3",
+     "sec": 1.227755,
+     "text": "Devine le mot !"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/20-a.mp3",
+     "sec": 1.07102,
+     "text": "C'est Steak-frites."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💉🏥"
+   },
+   "answer": "Infirmier",
+   "level": "moyen",
+   "rank": 85,
+   "voice": {
+    "q": {
+     "src": "tts-cache/4c0789a9abf060ae.mp3",
+     "sec": 1.724082,
+     "text": "Alors, ça te parle ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/21-a.mp3",
+     "sec": 1.906939,
+     "text": "Bravo si tu as dit Infirmier."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🥖🔥"
+   },
+   "answer": "Boulanger",
+   "level": "moyen",
+   "rank": 87,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f2a222916183a32f.mp3",
+     "sec": 2.403265,
+     "text": "Quel mot se cache ici ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/22-a.mp3",
+     "sec": 1.724082,
+     "text": "Eh oui, Boulanger !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟🎣"
+   },
+   "answer": "Pêcheur",
+   "level": "moyen",
+   "rank": 89,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/23-a.mp3",
+     "sec": 2.272653,
+     "text": "Bravo si tu as dit Pêcheur."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏗️🧱"
+   },
+   "answer": "Maçon",
+   "level": "moyen",
+   "rank": 92,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/24-a.mp3",
+     "sec": 1.07102,
+     "text": "Maçon !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔧🚗"
+   },
+   "answer": "Mécanicien",
+   "level": "moyen",
+   "rank": 93,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/25-a.mp3",
+     "sec": 1.933061,
+     "text": "Réponse : Mécanicien."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏔️🧀"
+   },
+   "answer": "Suisse",
+   "level": "moyen",
+   "fact": "La Suisse compte quatre langues nationales : l'allemand, le français, l'italien et le romanche.",
+   "rank": 123,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7edaeb3130dd0977.mp3",
+     "sec": 0.914286,
+     "text": "Décode-moi ça."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/26-a.mp3",
+     "sec": 1.959184,
+     "text": "Eh oui, Suisse !"
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/26-f.mp3",
+     "sec": 7.157551,
+     "text": "Détail amusant : La Suisse compte quatre langues nationales : l'allemand, le français, l'italien et le romanche."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏛️🇬🇷"
+   },
+   "answer": "Athènes",
+   "level": "moyen",
+   "rank": 126,
+   "voice": {
+    "q": {
+     "src": "tts-cache/acff2b1e93c246a6.mp3",
+     "sec": 1.854694,
+     "text": "Quel titre se cache là ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/27-a.mp3",
+     "sec": 2.037551,
+     "text": "Bravo si tu as dit Athènes."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🗿🌊"
+   },
+   "answer": "Île de Pâques",
+   "level": "moyen",
+   "rank": 128,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/28-a.mp3",
+     "sec": 1.854694,
+     "text": "Réponse : Île de Pâques."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔍🕵️"
+   },
+   "answer": "Détective",
+   "level": "difficile",
+   "rank": 147,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/29-a.mp3",
+     "sec": 1.541224,
+     "text": "Eh oui, Détective !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🌅🐓"
+   },
+   "answer": "Chant du coq",
+   "level": "difficile",
+   "rank": 152,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/30-a.mp3",
+     "sec": 2.403265,
+     "text": "Bravo si tu as dit Chant du coq."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔥🧊"
+   },
+   "answer": "Le chaud et le froid",
+   "level": "difficile",
+   "rank": 154,
+   "voice": {
+    "q": {
+     "src": "tts-cache/4c0789a9abf060ae.mp3",
+     "sec": 1.724082,
+     "text": "Alors, ça te parle ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/31-a.mp3",
+     "sec": 1.802449,
+     "text": "C'est Le chaud et le froid."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧠☁️"
+   },
+   "answer": "Avoir la tête dans les nuages",
+   "level": "difficile",
+   "rank": 159,
+   "voice": {
+    "q": {
+     "src": "tts-cache/77664a8c53e2cf46.mp3",
+     "sec": 1.227755,
+     "text": "Devine le mot !"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/32-a.mp3",
+     "sec": 1.985306,
+     "text": "Avoir la tête dans les nuages !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "❤️✋"
+   },
+   "answer": "Avoir le cœur sur la main",
+   "level": "difficile",
+   "rank": 165,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7c7f1b3c83f7431c.mp3",
+     "sec": 1.044898,
+     "text": "Respect si tu l'as."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/33-a.mp3",
+     "sec": 1.802449,
+     "text": "C'est Avoir le cœur sur la main."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦶🍽️"
+   },
+   "answer": "Mettre les pieds dans le plat",
+   "level": "difficile",
+   "rank": 167,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/34-a.mp3",
+     "sec": 2.272653,
+     "text": "Eh oui, Mettre les pieds dans le plat !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🔄🍯"
+   },
+   "answer": "Tourner autour du pot",
+   "level": "difficile",
+   "rank": 170,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/35-a.mp3",
+     "sec": 1.462857,
+     "text": "Tourner autour du pot !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "☁️⬇️"
+   },
+   "answer": "Tomber des nues",
+   "level": "difficile",
+   "rank": 173,
+   "voice": {
+    "q": {
+     "src": "tts-cache/eb4f7ad3d2886173.mp3",
+     "sec": 1.645714,
+     "text": "Là, ça devient sérieux."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/36-a.mp3",
+     "sec": 1.854694,
+     "text": "Tomber des nues !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐭🏙️🐭🌾"
+   },
+   "answer": "Le rat des villes et le rat des champs",
+   "level": "difficile",
+   "fact": "Cette fable vient du poète latin Horace, que La Fontaine a adapté en vers français.",
+   "rank": 179,
+   "voice": {
+    "q": {
+     "src": "tts-cache/77664a8c53e2cf46.mp3",
+     "sec": 1.227755,
+     "text": "Devine le mot !"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/37-a.mp3",
+     "sec": 2.612245,
+     "text": "Eh oui, Le rat des villes et le rat des champs !"
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/37-f.mp3",
+     "sec": 6.164898,
+     "text": "Tu savais ? Cette fable vient du poète latin Horace, que La Fontaine a adapté en vers français."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐺🐕"
+   },
+   "answer": "Le loup et le chien",
+   "level": "difficile",
+   "rank": 182,
+   "voice": {
+    "q": {
+     "src": "tts-cache/03bc6c40c8a8b106.mp3",
+     "sec": 1.645714,
+     "text": "Peu de gens l'ont."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/38-a.mp3",
+     "sec": 2.272653,
+     "text": "Eh oui, Le loup et le chien !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "💰😢"
+   },
+   "answer": "L'argent ne fait pas le bonheur",
+   "level": "difficile",
+   "rank": 184,
+   "voice": {
+    "q": {
+     "src": "tts-cache/26ae9547d0b12e2a.mp3",
+     "sec": 2.821224,
+     "text": "Déjà la question 40 ! Tu tiens le rythme ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/39-a.mp3",
+     "sec": 1.880816,
+     "text": "L'argent ne fait pas le bonheur !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🤝💪"
+   },
+   "answer": "L'union fait la force",
+   "level": "difficile",
+   "fact": "« L'union fait la force » est la devise de la Belgique.",
+   "rank": 185,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a47cd34e448c4362.mp3",
+     "sec": 1.149388,
+     "text": "Accroche-toi."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/40-a.mp3",
+     "sec": 1.776327,
+     "text": "C'est L'union fait la force."
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/40-f.mp3",
+     "sec": 4.754286,
+     "text": "Pour briller en société : « L'union fait la force » est la devise de la Belgique."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🏃🕐"
+   },
+   "answer": "Rien ne sert de courir",
+   "level": "difficile",
+   "rank": 186,
+   "voice": {
+    "q": {
+     "src": "tts-cache/529070f88943b5f8.mp3",
+     "sec": 2.037551,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/41-a.mp3",
+     "sec": 1.854694,
+     "text": "C'est Rien ne sert de courir."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐟🌷"
+   },
+   "answer": "Poisson d'avril",
+   "level": "impossible",
+   "rank": 189,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1d17f2ba3d7b43d2.mp3",
+     "sec": 1.880816,
+     "text": "Quel titre se cache là ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/42-a.mp3",
+     "sec": 2.507755,
+     "text": "Réponse : Poisson d'avril."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐱🐭"
+   },
+   "answer": "Le chat et la souris",
+   "level": "impossible",
+   "rank": 195,
+   "voice": {
+    "q": {
+     "src": "tts-cache/9ec48b05e9557631.mp3",
+     "sec": 2.690612,
+     "text": "Quel MOT se cache derrière ces émojis ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/43-a.mp3",
+     "sec": 2.533878,
+     "text": "Bravo si tu as dit Le chat et la souris."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "👸🛏️🫛"
+   },
+   "answer": "La princesse au petit pois",
+   "level": "impossible",
+   "fact": "Ce conte a été écrit par le Danois Hans Christian Andersen et publié en 1835.",
+   "rank": 205,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e887fe24276b822d.mp3",
+     "sec": 2.403265,
+     "text": "Attention, celui-là piège tout le monde."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/44-a.mp3",
+     "sec": 3.056327,
+     "text": "Bravo si tu as dit La princesse au petit pois."
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/44-f.mp3",
+     "sec": 7.392653,
+     "text": "Petit bonus : Ce conte a été écrit par le Danois Hans Christian Andersen et publié en 1835."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧔🔵"
+   },
+   "answer": "La Barbe bleue",
+   "level": "impossible",
+   "rank": 206,
+   "voice": {
+    "q": {
+     "src": "tts-cache/fb165443c84fc2a3.mp3",
+     "sec": 1.567347,
+     "text": "Je parie que tu sèches."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/45-a.mp3",
+     "sec": 1.959184,
+     "text": "C'est La Barbe bleue."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪨🐦🐦"
+   },
+   "answer": "Faire d'une pierre deux coups",
+   "level": "impossible",
+   "rank": 212,
+   "voice": {
+    "q": {
+     "src": "tts-cache/271691e641d21a4b.mp3",
+     "sec": 1.17551,
+     "text": "Et celui-ci ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/46-a.mp3",
+     "sec": 1.645714,
+     "text": "C'est Faire d'une pierre deux coups."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🧱👂"
+   },
+   "answer": "Les murs ont des oreilles",
+   "level": "impossible",
+   "rank": 214,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7c7f1b3c83f7431c.mp3",
+     "sec": 1.044898,
+     "text": "Respect si tu l'as."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/47-a.mp3",
+     "sec": 2.76898,
+     "text": "Réponse : Les murs ont des oreilles."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦅🏛️"
+   },
+   "answer": "Aigle impérial",
+   "level": "impossible",
+   "rank": 222,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e8123cb1d6281fb4.mp3",
+     "sec": 1.697959,
+     "text": "Celui-là, il est vicieux."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/48-a.mp3",
+     "sec": 2.272653,
+     "text": "Réponse : Aigle impérial."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦢🎶"
+   },
+   "answer": "Chant du cygne",
+   "level": "impossible",
+   "fact": "Selon une vieille légende, le cygne chanterait une dernière fois juste avant de mourir.",
+   "rank": 225,
+   "voice": {
+    "q": {
+     "src": "tts-cache/056b624df7c81d37.mp3",
+     "sec": 1.410612,
+     "text": "On termine en beauté."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/49-a.mp3",
+     "sec": 1.854694,
+     "text": "Eh oui, Chant du cygne !"
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/49-f.mp3",
+     "sec": 6.844082,
+     "text": "Petit bonus : Selon une vieille légende, le cygne chanterait une dernière fois juste avant de mourir."
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "Le mot « quarantaine » vient du nombre 40.",
+   "answer": true,
+   "fact": "Au Moyen Âge, les navires suspects devaient attendre 40 jours avant d'entrer dans le port de Venise.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-13-mots-emojis/i0-q.mp3",
+     "sec": 7.235918,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : Le mot « quarantaine » vient du nombre 40."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/i0-a.mp3",
+     "sec": 0.862041,
+     "text": "Vrai !"
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/i0-f.mp3",
+     "sec": 7.288163,
+     "text": "Détail amusant : Au Moyen Âge, les navires suspects devaient attendre 40 jours avant d'entrer dans le port de Venise."
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Lequel de ces mots vient du japonais ?",
+   "choices": [
+    "Pizza",
+    "Karaoké",
+    "Chalet"
+   ],
+   "correct": 1,
+   "fact": "Karaoké veut dire orchestre vide en japonais : on chante sans les musiciens, avec la seule musique.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-13-mots-emojis/i1-q.mp3",
+     "sec": 9.16898,
+     "text": "Petite pause ! Lequel de ces mots vient du japonais : Pizza, Karaoké, ou Chalet ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/i1-a.mp3",
+     "sec": 2.037551,
+     "text": "Réponse : Karaoké."
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/i1-f.mp3",
+     "sec": 8.202449,
+     "text": "Petit bonus : Karaoké veut dire orchestre vide en japonais : on chante sans les musiciens, avec la seule musique."
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le premier smiley tapé au clavier date de 1962.",
+   "answer": false,
+   "fact": "Il date de 1982 : Scott Fahlman l'a tapé sur un forum universitaire le 19 septembre.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-13-mots-emojis/i2-q.mp3",
+     "sec": 7.079184,
+     "text": "Intermède ! Vrai ou faux : Le premier smiley tapé au clavier date de 1962."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/i2-a.mp3",
+     "sec": 0.679184,
+     "text": "Faux !"
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/i2-f.mp3",
+     "sec": 8.045714,
+     "text": "Et pour la culture : Il date de 1982 : Scott Fahlman l'a tapé sur un forum universitaire le 19 septembre."
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle la langue des mains en France ?",
+   "choices": [
+    "La langue des signes",
+    "Le morse",
+    "Le braille"
+   ],
+   "correct": 0,
+   "fact": "La langue des signes française est reconnue officiellement depuis 2005.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-13-mots-emojis/i3-q.mp3",
+     "sec": 8.280816,
+     "text": "Intermède ! Comment s'appelle la langue des mains en France : La langue des signes, Le morse, ou Le braille ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/i3-a.mp3",
+     "sec": 2.194286,
+     "text": "C'est La langue des signes !"
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/i3-f.mp3",
+     "sec": 5.773061,
+     "text": "Et pour la culture : La langue des signes française est reconnue officiellement depuis 2005."
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « hasard » vient du grec.",
+   "answer": false,
+   "fact": "Il vient d'un mot arabe qui désignait un jeu de dés, avant de vouloir dire chance en français.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-13-mots-emojis/i4-q.mp3",
+     "sec": 5.799184,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : Le mot « hasard » vient du grec."
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/i4-a.mp3",
+     "sec": 0.626939,
+     "text": "C'est faux !"
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/i4-f.mp3",
+     "sec": 6.687347,
+     "text": "Et pour la culture : Il vient d'un mot arabe qui désignait un jeu de dés, avant de vouloir dire chance en français."
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel système d'écriture utilise des points en relief ?",
+   "choices": [
+    "Le morse",
+    "Le braille",
+    "Les runes"
+   ],
+   "correct": 1,
+   "fact": "Louis Braille a mis au point son système à 15 ans, vers 1824.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-13-mots-emojis/i5-q.mp3",
+     "sec": 9.038367,
+     "text": "Une question à côté, pour le plaisir : Quel système d'écriture utilise des points en relief : Le morse, Le braille, ou Les runes ?"
+    },
+    "a": {
+     "src": "tts/2026-11-13-mots-emojis/i5-a.mp3",
+     "sec": 1.332245,
+     "text": "Eh oui : Le braille !"
+    },
+    "f": {
+     "src": "tts/2026-11-13-mots-emojis/i5-f.mp3",
+     "sec": 6.426122,
+     "text": "Petit bonus : Louis Braille a mis au point son système à 15 ans, vers 1824."
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Crée ton quiz gratuit sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Un quiz MOTS en ÉMOJIS en 50 énigmes, du facile à l'impossible. Niveaux : 18 facile, 11 moyens, 13 difficiles, 8 impossible. 9 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com/quiz-du-jour/2026-11-13-mots-emojis\n🔔 Pense à t'abonner, ça aide la chaîne.\n\n#quiz #motsemojis #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:22 Niveau facile\n04:40 Niveau moyen\n07:27 Niveau difficile\n11:15 Niveau impossible\n14:04 Ton score\n14:15 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "mots emojis",
+   "émojis",
+   "rébus",
+   "devinettes",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Devine",
+   "line2": "50 MOTS en ÉMOJIS",
+   "emoji": "❓",
+   "sticker": "PERSONNE N'Y ARRIVE",
+   "layouts": [
+    1,
+    0
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Seuls les génies finissent 🧠 Devine 50 MOTS en ÉMOJIS #Shorts",
+  "shortDescription": "La réponse + 50 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "TU TIENS 8 QUESTIONS ?",
+   "line": "3 secondes chacune ⏱️"
+  },
+  "short2": {
+   "title": "Seuls 1 % ont la dernière 😱 Devine 50 MOTS en ÉMOJIS #Shorts",
+   "description": "La réponse + 50 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "MODE EXPERT",
+   "line": "les 8 questions que personne n'a 👑"
+  },
+  "short3": {
+   "title": "8 questions, 3 secondes chacune ⏱️ Devine 50 MOTS en ÉMOJIS #Shorts",
+   "description": "La réponse + 50 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU TIENS ?",
+   "line": "le milieu fait mal 😅"
+  },
+  "social": {
+   "caption": "Quiz du jour : Devine 50 MOTS en ÉMOJIS ⏱️ 3 secondes par question, personne ne finit 😱",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "motsemojis",
+    "émojis"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 22.9,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 280.7,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 447.8,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 675.2333333333333,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 844.1666666666666,
+    "title": "Ton score"
+   },
+   {
+    "at": 855.9,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/c414222f08394f2d.mp3",
+   "sec": 2.194286,
+   "text": "Niveau facile. Tranquille pour commencer."
+  },
+  "level_moyen": {
+   "src": "tts-cache/730451bda4c3602f.mp3",
+   "sec": 1.985306,
+   "text": "Niveau moyen. Ça se corse !"
+  },
+  "level_difficile": {
+   "src": "tts-cache/6b070d6103657e4f.mp3",
+   "sec": 3.317551,
+   "text": "Niveau difficile. Respect si tu continues sans faute."
+  },
+  "level_impossible": {
+   "src": "tts-cache/e7f89944ec94451a.mp3",
+   "sec": 3.317551,
+   "text": "Niveau impossible. Même moi, je sèche sur certains."
+  },
+  "score": {
+   "src": "tts-cache/51fec6d2d9688621.mp3",
+   "sec": 5.877551,
+   "text": "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !"
+  },
+  "subscribe": {
+   "src": "tts-cache/689d3355d6254031.mp3",
+   "sec": 2.977959,
+   "text": "Pas encore abonné ? Un clic, et tu ne rates plus rien."
+  },
+  "outro": {
+   "src": "tts-cache/00383e5fc7f4ef4d.mp3",
+   "sec": 2.690612,
+   "text": "À demain pour un nouveau quiz. Pense à t'abonner !"
+  },
+  "cliff": {
+   "src": "tts-cache/da7c9febdc79e0c3.mp3",
+   "sec": 3.787755,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !"
+  },
+  "preroll": {
+   "src": "tts-cache/8ce576fcf029aee6.mp3",
+   "sec": 2.76898,
+   "text": "Installe-toi bien, ça démarre dans trois secondes !"
+  },
+  "intro": {
+   "src": "tts/2026-11-13-mots-emojis/intro.mp3",
+   "sec": 15.307755,
+   "text": "Devine 50 Mots en ÉMojis ! 50 mots cachés derrière des émojis, du niveau facile au niveau impossible. Décode chaque mot avant la fin du chrono, puis la réponse s'affiche. Compte tes points ! Allez, montre-moi ce que tu vaux !"
+  },
+  "packshot": {
+   "src": "tts-cache/ccd17b3d226fc6bf.mp3",
+   "sec": 5.642449,
+   "text": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com."
+  },
+  "nextQuiz": {
+   "src": "tts-cache/45616791c4626308.mp3",
+   "sec": 4.91102,
+   "text": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !"
+  }
+ }
+}
