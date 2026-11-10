@@ -728,36 +728,45 @@ export const InterludeCard: React.FC<{ episode: Episode; k: number; ask: number;
 
 // ---------- Vidéo longue v2 : carte finale « Prochain quiz » (2 vidéos + S'abonner, modèle YouTube « 2 vidéos + élément S'abonner ») ----------
 // Géométrie à vérifier en posant l'écran de fin dans YouTube Studio ; les gabarits pointillés guident l'œil vers les éléments.
-export const NEXT_SCREEN = { videos: [{ left: 272, top: 380, width: 621, height: 349 }, { left: 1027, top: 380, width: 621, height: 349 }], subscribe: { left: 840, top: 775, size: 240 } };
+// Mesuré dans YouTube Studio le 10/11/2026 : modèle « 2 vidéos » (éléments remontés en haut de la zone autorisée, y 141→490)
+// + élément « S'abonner » ajouté et glissé en bas au centre (rond de 296 px, y 619→915). Zone autorisée par YouTube : y 141→915.
+// Pose : scripts/endscreen-v2.playwright.js.
+export const NEXT_SCREEN = { videos: [{ left: 45, top: 141, width: 619, height: 349 }, { left: 1014, top: 141, width: 619, height: 349 }], subscribe: { left: 813, top: 619, size: 296 } };
 export const NextQuizCard: React.FC<{ theme: Theme; lang?: Lang }> = ({ theme, lang }) => {
   const T = tr({ lang });
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const pop = spring({ frame, fps, config: { damping: 10, stiffness: 120 } });
-  const hop = Math.abs(Math.sin(frame / 7)) * 18;
+  const hop = Math.abs(Math.sin(frame / 7)) * 14;
   const point = Math.sin(frame / 8) * 6;
   const { videos, subscribe } = NEXT_SCREEN;
+  const gapTop = videos[0].top + videos[0].height; // 490 : bande libre entre les vidéos et le rond S'abonner (490→619)
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", top: 40, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 18, opacity: pop, transform: `translateY(${(1 - pop) * 40}px)` }}>
-        <Logo theme={theme} size={64} />
-        <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 112, color: WHITE, textShadow: `8px 8px 0 ${INK}`, lineHeight: 1, letterSpacing: 2 }}>{T.nextQuiz}</div>
-        <Pill size={40} bg={theme.accent} fg={WHITE} tilt={-1}>{T.nextQuizSub}</Pill>
-      </div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: subscribe.top + subscribe.size + 14, display: "flex", justifyContent: "center" }}>
-        <Pill size={30} tilt={1}>{T.nextQuizSubscribe}</Pill>
+      {/* Bandeau du haut (0→141) : logo + titre sur une ligne */}
+      <div style={{ position: "absolute", top: 22, left: 0, right: 0, display: "flex", alignItems: "center", justifyContent: "center", gap: 40, opacity: pop, transform: `translateY(${(1 - pop) * 30}px)` }}>
+        <Logo theme={theme} size={56} />
+        <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 92, color: WHITE, textShadow: `7px 7px 0 ${INK}`, lineHeight: 1, letterSpacing: 2 }}>{T.nextQuiz}</div>
       </div>
       {videos.map((v, i) => (
         <div key={i} style={{ position: "absolute", left: v.left, top: v.top, width: v.width, height: v.height, borderRadius: 24, border: `5px dashed rgba(255,255,255,0.55)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
           <div style={{ fontSize: 90, opacity: 0.5, transform: `scale(${1 + Math.sin(frame / 6 + i) * 0.05})` }}>▶️</div>
         </div>
       ))}
+      {/* Bande du milieu (490→619) : consigne */}
+      <div style={{ position: "absolute", top: gapTop + 28, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+        <Pill size={38} bg={theme.accent} fg={WHITE} tilt={-1}>{T.nextQuizSub}</Pill>
+      </div>
       <div style={{ position: "absolute", left: subscribe.left, top: subscribe.top, width: subscribe.size, height: subscribe.size, borderRadius: subscribe.size / 2, border: `5px dashed rgba(255,255,255,0.55)` }} />
-      <div style={{ position: "absolute", left: 30, bottom: 10 - hop, transform: `rotate(${point}deg)`, transformOrigin: "bottom center" }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: subscribe.top + subscribe.size + 18, display: "flex", justifyContent: "center" }}>
+        <Pill size={30} tilt={1}>{T.nextQuizSubscribe}</Pill>
+      </div>
+      {/* Mascottes de part et d'autre du rond, dans la bande du bas, sans toucher les éléments YouTube */}
+      <div style={{ position: "absolute", left: 300, top: 640 - hop, transform: `rotate(${point}deg)`, transformOrigin: "bottom center" }}>
         <Mascot which="chat" size={300} mood="cheer" />
       </div>
-      <div style={{ position: "absolute", right: 30, bottom: 10 - hop, transform: `rotate(${-point}deg)`, transformOrigin: "bottom center" }}>
-        <Mascot which="poussin" size={260} mood="cheer" />
+      <div style={{ position: "absolute", right: 300, top: 660 - hop, transform: `rotate(${-point}deg)`, transformOrigin: "bottom center" }}>
+        <Mascot which="poussin" size={270} mood="cheer" />
       </div>
     </AbsoluteFill>
   );
