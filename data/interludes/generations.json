@@ -1,0 +1,576 @@
+{
+ "slug": "generations",
+ "theme": "les souvenirs d'avant",
+ "items": [
+  {
+   "type": "vf",
+   "q": "Le Minitel est arrivé après le web grand public.",
+   "answer": false,
+   "fact": "Le Minitel date de 1982, et il a précédé le web grand public de plus de 10 ans.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sport a fait vibrer la France grâce à Yannick Noah en 1983 ?",
+   "choices": [
+    "Le tennis",
+    "Le rugby",
+    "Le judo"
+   ],
+   "correct": 0,
+   "fact": "Cette année-là, il a gagné Roland-Garros, une victoire française attendue depuis 1946.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le Concorde traversait l'Atlantique en 10 heures.",
+   "answer": false,
+   "fact": "Il reliait Paris à New York en environ 3 heures 30, à plus de 2 fois la vitesse du son.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel système de télévision couleur la France a-t-elle choisi ?",
+   "choices": [
+    "Le SECAM",
+    "Le PAL",
+    "Le NTSC"
+   ],
+   "correct": 0,
+   "fact": "Ce système a été inventé par un ingénieur français, Henri de France, dans les années 1950.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Sur quoi enregistrait-on ses chansons préférées à la radio ?",
+   "choices": [
+    "Une cassette audio",
+    "Une clé USB",
+    "Un disque dur"
+   ],
+   "correct": 0,
+   "fact": "On appuyait sur pause entre 2 chansons pour ne pas enregistrer la publicité.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que mettait-on dans un magnétoscope ?",
+   "choices": [
+    "Un CD",
+    "Une cassette vidéo",
+    "Une disquette"
+   ],
+   "correct": 1,
+   "fact": "Une cassette vidéo durait en général 3 heures, selon la vitesse d'enregistrement.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle était la monnaie de l'Italie avant l'euro ?",
+   "choices": [
+    "Le franc",
+    "La peseta",
+    "La lire"
+   ],
+   "correct": 2,
+   "fact": "Un euro valait environ 1 936 lires, alors on payait un café en milliers de lires.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle émission de télé mettait en scène des vachettes ?",
+   "choices": [
+    "Intervilles",
+    "Fort Boyard",
+    "Thalassa"
+   ],
+   "correct": 0,
+   "fact": "Cette émission a commencé en 1962 et opposait des villes de France et d'Europe.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Les cassettes vidéo devaient être rembobinées après le film.",
+   "answer": true,
+   "fact": "Sans rembobinage, le film suivant commençait au milieu, ce qui énervait toute la famille.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel tunnel relie la France et l'Angleterre ?",
+   "choices": [
+    "Le tunnel du Mont-Blanc",
+    "Le tunnel de Fréjus",
+    "Le tunnel sous la Manche"
+   ],
+   "correct": 2,
+   "fact": "Il a été inauguré en 1994, et il se traverse en train en environ 35 minutes.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La mini-jupe est devenue à la mode dans les années 1920.",
+   "answer": false,
+   "fact": "Elle s'est imposée dans les années 1960, popularisée par la styliste britannique Mary Quant.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Les Jeux olympiques d'hiver de 1992 ont eu lieu à Chamonix.",
+   "answer": false,
+   "fact": "Ils ont eu lieu à Albertville, en Savoie, et à plusieurs stations voisines.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "En quelle année l'euro est-il arrivé dans les portefeuilles ?",
+   "choices": [
+    "2002",
+    "1999",
+    "2005"
+   ],
+   "correct": 0,
+   "fact": "L'euro existait depuis 1999, mais seulement sur le papier, avant les billets et les pièces.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Qui chantait La Bohème, en 1965 ?",
+   "choices": [
+    "Jacques Brel",
+    "Yves Montand",
+    "Charles Aznavour"
+   ],
+   "correct": 2,
+   "fact": "Il a composé plus de 1 000 chansons au cours de sa carrière.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel moyen utilisait-on pour envoyer un message urgent par écrit ?",
+   "choices": [
+    "Un mail",
+    "Un SMS",
+    "Un télégramme"
+   ],
+   "correct": 2,
+   "fact": "En France, le dernier télégramme a été envoyé en 2018, après plus de 150 ans de service.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "En quelle année a été inaugurée la Pyramide du Louvre ?",
+   "choices": [
+    "1989",
+    "1979",
+    "1999"
+   ],
+   "correct": 0,
+   "fact": "Cette pyramide de verre mesure environ 21 mètres de haut, et elle sert d'entrée au musée.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le baladeur à cassette est apparu dans les années 1950.",
+   "answer": false,
+   "fact": "Il est apparu à la fin des années 1970, et il a permis d'écouter sa musique partout.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle forme avaient les téléviseurs avant les écrans plats ?",
+   "choices": [
+    "Un fin rectangle",
+    "Une sphère",
+    "Un gros cube"
+   ],
+   "correct": 2,
+   "fact": "Leur tube pouvait peser plus de 30 kilos pour un grand écran.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle était la monnaie de l'Allemagne avant l'euro ?",
+   "choices": [
+    "Le mark",
+    "Le florin",
+    "Le schilling"
+   ],
+   "correct": 0,
+   "fact": "Un euro vaut environ 2 marks allemands, plus précisément 1,95583.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le disque vinyle de 33 tours tournait à 100 tours par minute.",
+   "answer": false,
+   "fact": "Il tournait à 33 tours par minute, alors que les 45 tours étaient plus petits et plus rapides.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La télévision en couleur est arrivée en France dans les années 1930.",
+   "answer": false,
+   "fact": "Elle est arrivée à la fin des années 1960, d'abord sur une seule chaîne.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelait-on les petits disques noirs à 2 chansons ?",
+   "choices": [
+    "Les CD",
+    "Les DVD",
+    "Les 45 tours"
+   ],
+   "correct": 2,
+   "fact": "Ils étaient vendus avec une pochette illustrée, et il fallait les retourner pour la 2e chanson.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le jeu télévisé Intervilles mettait en scène des vachettes.",
+   "answer": true,
+   "fact": "Les équipes d'une ville devaient notamment éviter des vachettes pendant les jeux.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Les billes, la toupie et le yo-yo étaient des jeux populaires dans les cours de récré.",
+   "answer": true,
+   "fact": "Ces jouets coûtaient peu et se glissaient facilement dans la poche d'un tablier.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel instrument électronique a marqué la musique des années 1980 ?",
+   "choices": [
+    "Le piano",
+    "Le synthétiseur",
+    "Le violon"
+   ],
+   "correct": 1,
+   "fact": "Les synthétiseurs ont donné sa couleur si particulière à la musique pop de l'époque.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Pour composer un numéro, on tournait le cadran avec son doigt.",
+   "answer": true,
+   "fact": "Plus le chiffre était grand, plus le cadran mettait de temps à revenir en place.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment regardait-on les photos de vacances en famille ?",
+   "choices": [
+    "En diapositives",
+    "Sur tablette",
+    "Sur smartphone"
+   ],
+   "correct": 0,
+   "fact": "On accrochait un drap blanc au mur pour y projeter les photos.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Avant l'euro, la monnaie française était la livre.",
+   "answer": false,
+   "fact": "C'était le franc, et les derniers francs ont cessé d'être utilisés début 2002.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Minitel a été lancé en France en 1995.",
+   "answer": false,
+   "fact": "Il a été lancé en 1982, et il a continué à fonctionner jusqu'en 2012.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel appareil servait à taper des lettres, avant l'ordinateur ?",
+   "choices": [
+    "Un clavier",
+    "Une machine à écrire",
+    "Un scanner"
+   ],
+   "correct": 1,
+   "fact": "On tapait avec un ruban encreur, et une petite cloche sonnait en fin de ligne.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Dans les années 1970, la télévision française proposait 10 chaînes.",
+   "answer": false,
+   "fact": "Il n'y en avait que 3, et une 4e chaîne n'est arrivée qu'en novembre 1984.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le pont de Normandie a été inauguré en 1965.",
+   "answer": false,
+   "fact": "Il a été inauguré en 1995, et il était alors le plus long pont à haubans du monde.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "En 1998, la France a gagné la Coupe du monde en battant l'Italie.",
+   "answer": false,
+   "fact": "La France a battu le Brésil 3 à 0 en finale, au Stade de France.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Les télécartes sont apparues dans les cabines téléphoniques en 1953.",
+   "answer": false,
+   "fact": "Elles sont apparues en 1983, et elles ont remplacé les pièces et les jetons.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel jeu télévisé demande de trouver le mot le plus long ?",
+   "choices": [
+    "Intervilles",
+    "Chiffres et lettres",
+    "Fort Boyard"
+   ],
+   "correct": 1,
+   "fact": "Cette émission existe depuis 1965, c'est l'une des plus anciennes de la télévision française.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Les magnétoscopes servaient à imprimer des photos.",
+   "answer": false,
+   "fact": "Ils servaient à enregistrer et à lire des films sur cassette, et on programmait l'heure d'avance.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les caméscopes enregistraient les vidéos de famille sur des cassettes.",
+   "answer": true,
+   "fact": "Pour les regarder, on branchait la caméra directement à la télévision du salon.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "En quelle année l'homme a-t-il marché sur la Lune ?",
+   "choices": [
+    "1959",
+    "1969",
+    "1979"
+   ],
+   "correct": 1,
+   "fact": "Des centaines de millions de personnes ont suivi ces images floues en direct.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment appelait-on les petites boules de verre des enfants ?",
+   "choices": [
+    "Des perles",
+    "Des billes",
+    "Des dés"
+   ],
+   "correct": 1,
+   "fact": "Les billes de verre étaient fabriquées à la main avant d'être produites en usine.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le lecteur de disques laser est arrivé dans les magasins français en 1983.",
+   "answer": true,
+   "fact": "Ces disques brillants se rayaient moins que les vinyles, mais coûtaient bien plus cher.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La ceinture de sécurité est devenue obligatoire à l'arrière en 1990.",
+   "answer": true,
+   "fact": "Elle l'était déjà à l'avant depuis 1973 sur les routes, mais pas encore pour les places arrière.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le premier téléphone portable pesait plus de 1 kilo.",
+   "answer": true,
+   "fact": "Ce modèle de 1983 était surnommé la brique à cause de sa taille et de son poids.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le boulevard périphérique de Paris a été achevé en 1973.",
+   "answer": true,
+   "fact": "Il fait environ 35 kilomètres de long et fait le tour de Paris, sans jamais entrer dans la ville.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La Fête de la musique existe depuis 1982.",
+   "answer": true,
+   "fact": "Elle a lieu chaque 21 juin, et elle a été imitée dans plus de 100 pays.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Où louait-on des films pour la soirée, dans les années 1980 ?",
+   "choices": [
+    "Une bibliothèque",
+    "Un vidéoclub",
+    "Une librairie"
+   ],
+   "correct": 1,
+   "fact": "Il y avait un vidéoclub dans presque tous les quartiers, et il fallait rembobiner les cassettes avant de les rendre.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "En quelle année est sorti le film La Grande Vadrouille ?",
+   "choices": [
+    "1976",
+    "1966",
+    "1956"
+   ],
+   "correct": 1,
+   "fact": "Il a attiré plus de 17 millions de spectateurs dans les salles françaises.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le baby-foot était présent dans beaucoup de cafés.",
+   "answer": true,
+   "fact": "Les parties se jouaient à 2 contre 2, avec des barres que l'on faisait tourner.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "En quelle année la télévision en couleur est-elle arrivée en France ?",
+   "choices": [
+    "1957",
+    "1977",
+    "1967"
+   ],
+   "correct": 2,
+   "fact": "La couleur est apparue sur la 2e chaîne en octobre 1967, pour quelques heures d'émission par jour.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'heure d'été a été instaurée de façon durable en France en 1976.",
+   "answer": true,
+   "fact": "Elle a été instaurée pour économiser l'énergie, après la crise du pétrole.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel jeu se jouait avec une corde dans la cour d'école ?",
+   "choices": [
+    "La corde à sauter",
+    "Le ping-pong",
+    "Le baby-foot"
+   ],
+   "correct": 0,
+   "fact": "Les enfants chantaient souvent des comptines pour rythmer les sauts.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment composait-on un numéro sur un vieux téléphone ?",
+   "choices": [
+    "Avec un cadran",
+    "Avec des touches",
+    "Avec la voix"
+   ],
+   "correct": 0,
+   "fact": "Le chiffre 0 était le plus long à composer, car le cadran faisait presque un tour.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel appareil affichait un annuaire sur un écran avant internet ?",
+   "choices": [
+    "Le fax",
+    "Le Minitel",
+    "La radio"
+   ],
+   "correct": 1,
+   "fact": "Dans les années 1980, des millions de foyers l'ont reçu gratuitement.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les téléviseurs avaient autrefois un écran à tube cathodique.",
+   "answer": true,
+   "fact": "Ils étaient profonds et lourds, avec un écran légèrement bombé.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "De quelle matière étaient les disques 33 tours ?",
+   "choices": [
+    "Le bois",
+    "Le verre",
+    "Le vinyle"
+   ],
+   "correct": 2,
+   "fact": "Un disque vinyle n'a qu'un seul sillon en spirale, du bord vers le centre.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le réseau de téléphone mobile Radiocom 2000 est apparu en 1986.",
+   "answer": true,
+   "fact": "Ses premiers appareils étaient lourds comme une petite valise.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle fusée européenne a décollé de Guyane dès 1979 ?",
+   "choices": [
+    "Soyouz",
+    "Apollo",
+    "Ariane"
+   ],
+   "correct": 2,
+   "fact": "Ariane 1 a décollé de Kourou, en Guyane, le 24 décembre 1979.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Dans les cours d'école, les enfants jouaient souvent à la marelle.",
+   "answer": true,
+   "fact": "On dessinait le jeu à la craie sur le sol, de la terre jusqu'au ciel.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "On enregistrait les chansons de la radio sur des cassettes audio.",
+   "answer": true,
+   "fact": "Il fallait être prompt pour appuyer sur le bouton avant que l'animateur ne parle par-dessus.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de centimes y avait-il dans un franc ?",
+   "choices": [
+    "10",
+    "1 000",
+    "100"
+   ],
+   "correct": 2,
+   "fact": "Comme l'euro d'aujourd'hui, le franc se divisait en 100 centimes, ce qui rendait les comptes simples.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel appareil photo sans pellicule est arrivé dans les années 1990 ?",
+   "choices": [
+    "Le caméscope",
+    "L'appareil numérique",
+    "Le télescope"
+   ],
+   "correct": 1,
+   "fact": "Les premiers appareils numériques pour le grand public sont arrivés vers 1995.",
+   "level": "difficile"
+  }
+ ]
+}

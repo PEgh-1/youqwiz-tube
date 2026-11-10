@@ -712,5 +712,119 @@
    "sticker": "ARE YOU A GENIUS?",
    "line": "8 questions to find out 🧠"
   }
- ]
+ ],
+ "rules": {
+  "_comment": "Long video v2 (09/11/2026): game rule shown on the intro card and read aloud after the hook. Per bank, else per template (devine, qcm, intrus, versus).",
+  "flags": [
+   {
+    "text": "{n} flags, from easy to impossible 🌍 Name the country before the timer runs out and count your points ⭐",
+    "voice": "{n} flags of the world, ranked from easy to impossible. For each one, name the country before the timer runs out, then the answer pops up. Count your points!"
+   }
+  ],
+  "animals": [
+   {
+    "text": "{n} animals, from easy to impossible 🐾 Guess which one before the timer runs out ⭐",
+    "voice": "{n} animals, from easy to impossible. Guess which animal it is before the timer runs out, then the answer pops up. Count your points!"
+   }
+  ],
+  "countries-no-vowels": [
+   {
+    "text": "{n} countries without their vowels 🔤 Find them before the timer runs out, from easy to impossible ⭐",
+    "voice": "{n} country names, but with the vowels removed! Find each country before the timer runs out, from easy to impossible. Count your points!"
+   }
+  ],
+  "alphabet": [
+   {
+    "text": "{n} letters 🔤 Name something from the category that starts with the letter, before the timer runs out ⭐",
+    "voice": "{n} letters, from easy to impossible. Each time, name something from the category that starts with the letter shown, before the timer runs out. Count your points!"
+   }
+  ],
+  "qcm": [
+   {
+    "text": "{n} questions, 4 answers, only one right 🧠 Answer before the timer runs out, from easy to impossible ⭐",
+    "voice": "{n} questions about {theme}, from easy to impossible. Each time, four answers, only one is right: pick before the timer runs out. Count your points!"
+   }
+  ],
+  "devine": [
+   {
+    "text": "{n} questions, from easy to impossible 🔥 Find the answer before the timer runs out and count your points ⭐",
+    "voice": "{n} questions, from easy to impossible. Find the answer before the timer runs out, then it pops up. Count your points!"
+   }
+  ],
+  "versus": [
+   {
+    "text": "{n} dilemmas 🤔 5 seconds to choose, no right answer: tell us your picks in the comments 👇",
+    "voice": "{n} impossible dilemmas! Each time, five seconds to choose, and there is no right answer. Tell us your picks in the comments!"
+   }
+  ],
+  "fruits-veggies": [
+   {
+    "text": "{n} fruits and vegetables, from easy to impossible 🍓 Guess which one before the timer runs out ⭐",
+    "voice": "{n} fruits and vegetables, from easy to impossible. Guess what it is before the timer runs out, then the answer pops up. Count your points!"
+   }
+  ],
+  "maths": [
+   {
+    "text": "{n} mental math problems, from easy to impossible 🧮 Find the result before the timer runs out ⭐",
+    "voice": "{n} mental math problems, from easy to impossible. Find the result before the timer runs out, then the answer pops up. Count your points!"
+   }
+  ],
+  "words-emojis": [
+   {
+    "text": "{n} words hidden in emojis 🧩 Decode them before the timer runs out, from easy to impossible ⭐",
+    "voice": "{n} words hidden behind emojis, from easy to impossible. Decode each word before the timer runs out, then the answer pops up. Count your points!"
+   }
+  ],
+  "movies-emojis": [
+   {
+    "text": "{n} movies hidden in emojis 🎬 Find the title before the timer runs out, from easy to impossible ⭐",
+    "voice": "{n} movies hidden behind emojis, from easy to impossible. Find the title before the timer runs out, then the answer pops up. Count your points!"
+   }
+  ],
+  "odd-one-out": [
+   {
+    "text": "{n} grids 👀 Only one emoji is different: spot it before the timer runs out, from easy to impossible ⭐",
+    "voice": "{n} emoji grids, from easy to impossible. In each one, a single emoji is different from the others: spot the odd one out before the timer runs out. Count your points!"
+   }
+  ],
+  "intrus": [
+   {
+    "text": "{n} grids 👀 Only one emoji is different: spot it before the timer runs out, from easy to impossible ⭐",
+    "voice": "{n} emoji grids, from easy to impossible. In each one, a single emoji is different from the others: spot the odd one out before the timer runs out. Count your points!"
+   }
+  ]
+ },
+ "nextQuiz": [
+  "Pick your next challenge by clicking one of the two videos!",
+  "What's next? Another quiz is waiting: click one of the videos!",
+  "Want more? Click a video for your next quiz, or subscribe for tomorrow's!",
+  "Don't stop now: your next quiz is right here, click one of the videos!"
+ ],
+ "interludes": {
+  "_comment": "Long video v2: interludes every 8-10 questions (data-en/interludes/<bank>.json).",
+  "lead": [
+   "Quick break!",
+   "Let's catch our breath.",
+   "Interlude!",
+   "A little bonus between two questions:",
+   "A side question, just for fun:"
+  ],
+  "vfRead": "True or false: {q}",
+  "qcm3Read": "{q} {a}, {b}, or {c}?",
+  "vfTrue": [
+   "That's true!",
+   "True!",
+   "Yep, that's true."
+  ],
+  "vfFalse": [
+   "That's false!",
+   "False!",
+   "Nope, that's false."
+  ],
+  "answer3": [
+   "It's {a}!",
+   "Answer: {a}.",
+   "Yep: {a}!"
+  ]
+ }
 }

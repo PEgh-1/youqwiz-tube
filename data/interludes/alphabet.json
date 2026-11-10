@@ -1,0 +1,576 @@
+{
+ "slug": "alphabet",
+ "theme": "l'alphabet et les lettres",
+ "items": [
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre se prononce comme « thé » ?",
+   "choices": [
+    "S",
+    "T",
+    "C"
+   ],
+   "correct": 1,
+   "fact": "En français, thé, tes et la lettre t se prononcent exactement de la même façon.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre grecque a la forme d'un triangle ?",
+   "choices": [
+    "Delta",
+    "Sigma",
+    "Pi"
+   ],
+   "correct": 0,
+   "fact": "Un delta est aussi la zone en triangle où un fleuve se jette dans la mer.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel mot contient les 5 voyelles a, e, i, o et u ?",
+   "choices": [
+    "Bouteille",
+    "Équation",
+    "Chocolat"
+   ],
+   "correct": 1,
+   "fact": "Dialogue et éducation contiennent eux aussi les 5 voyelles à la fois.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle langue utilise l'alphabet cyrillique ?",
+   "choices": [
+    "Le grec",
+    "L'arabe",
+    "Le russe"
+   ],
+   "correct": 2,
+   "fact": "On retrouve cet alphabet aussi en Bulgarie, en Serbie et en Ukraine.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre commence le mot « xylophone » ?",
+   "choices": [
+    "X",
+    "Z",
+    "S"
+   ],
+   "correct": 0,
+   "fact": "Xylophone vient du grec et veut dire son du bois, ce qui décrit bien ses lames en bois.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le roman La Disparition ne contient pas une seule fois la lettre e.",
+   "answer": true,
+   "fact": "Ce roman de 1969 évite le e, qui est pourtant la lettre la plus fréquente du français.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre est muette à la fin de « sirop » ?",
+   "choices": [
+    "Le o",
+    "Le s",
+    "Le p"
+   ],
+   "correct": 2,
+   "fact": "Le p de sirop reste muet, comme celui de trop et celui de beaucoup.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel signe relie les mots de « arc-en-ciel » ?",
+   "choices": [
+    "La virgule",
+    "Le trait d'union",
+    "Le tilde"
+   ],
+   "correct": 1,
+   "fact": "Le mot arc-en-ciel s'écrit avec 2 traits d'union pour relier ses 3 parties.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le ñ est très courant en italien.",
+   "answer": false,
+   "fact": "Le ñ vient de l'espagnol, comme dans mañana, où il est né d'un double n.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la dernière lettre de l'alphabet français ?",
+   "choices": [
+    "Y",
+    "Z",
+    "X"
+   ],
+   "correct": 1,
+   "fact": "Le Z avait disparu de l'alphabet latin, puis il est revenu pour écrire des mots grecs.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de lettres compte l'alphabet arabe ?",
+   "choices": [
+    "26",
+    "28",
+    "32"
+   ],
+   "correct": 1,
+   "fact": "L'arabe s'écrit de droite à gauche et la forme des lettres change selon leur place dans le mot.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La lettre M vient d'un signe égyptien qui représentait de l'eau.",
+   "answer": true,
+   "fact": "Les vagues dessinées en zigzag ont donné le M, et le mot mem veut dire eau en phénicien.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La lettre S est la plus utilisée en français.",
+   "answer": false,
+   "fact": "C'est le e, qui revient dans environ 1 lettre sur 7 d'un texte écrit en français.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre a été ajoutée à l'alphabet au Moyen Âge ?",
+   "choices": [
+    "X",
+    "Q",
+    "W"
+   ],
+   "correct": 2,
+   "fact": "Le W est apparu au 7e siècle en Angleterre, formé de 2 V collés.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La lettre W s'appelle double v en français.",
+   "answer": true,
+   "fact": "Son nom vient de sa forme, qui ressemble à 2 V accolés l'un à l'autre.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre s'appelle aussi i grec ?",
+   "choices": [
+    "K",
+    "M",
+    "Y"
+   ],
+   "correct": 2,
+   "fact": "Le y s'appelle ainsi parce qu'il vient de l'alphabet grec, où il se nomme upsilon.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire « mettre les points sur les i » ?",
+   "choices": [
+    "Faire des fautes",
+    "Dessiner",
+    "Préciser les choses"
+   ],
+   "correct": 2,
+   "fact": "Cette expression vient de l'écriture, où l'on ajoute le point du i en dernier.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "En français, la lettre Q est toujours suivie d'un U.",
+   "answer": false,
+   "fact": "Il y a des exceptions : dans le mot coq, le q termine simplement le mot, sans être suivi d'un u.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La lettre Y est à la fois une voyelle et une consonne.",
+   "answer": true,
+   "fact": "Dans yaourt, c'est une consonne, et dans stylo, c'est une voyelle.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le tréma existe aussi en espagnol.",
+   "answer": true,
+   "fact": "On le trouve dans pingüino, qui veut dire manchot, mais il est très rare.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot NB vient du latin et veut dire notez bien.",
+   "answer": true,
+   "fact": "On l'utilise pour attirer l'attention sur un détail, comme une petite flèche vers l'info importante.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de fois la lettre n est-elle dans « anticonstitutionnellement » ?",
+   "choices": [
+    "5",
+    "3",
+    "7"
+   ],
+   "correct": 0,
+   "fact": "Dans ce mot de 25 lettres, les lettres n et t reviennent 5 fois chacune.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre grecque sert à écrire le nombre 3,14 ?",
+   "choices": [
+    "Delta",
+    "Pi",
+    "Oméga"
+   ],
+   "correct": 1,
+   "fact": "Les décimales de pi ne s'arrêtent jamais et ne se répètent pas.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "L'alphabet hébreu compte 30 lettres.",
+   "answer": false,
+   "fact": "Il en compte 22, qui sont toutes des consonnes, et il s'écrit de droite à gauche.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La lettre Z est la moins utilisée en français.",
+   "answer": false,
+   "fact": "La lettre la plus rare en français est le w, suivie de près par le k.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le chiffre zéro et la lettre O se ressemblent beaucoup.",
+   "answer": true,
+   "fact": "En informatique, on barre parfois le zéro pour éviter de le confondre avec la lettre O, ce qui évite des erreurs.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre se prononce comme la pie, un oiseau noir et blanc ?",
+   "choices": [
+    "Q",
+    "B",
+    "P"
+   ],
+   "correct": 2,
+   "fact": "La pie est un oiseau très malin, capable de se reconnaître dans un miroir.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre se prononce comme « eau » ?",
+   "choices": [
+    "O",
+    "A",
+    "E"
+   ],
+   "correct": 0,
+   "fact": "Eau, haut, os et la lettre o se prononcent tous exactement de la même façon.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Dans l'alphabet phonétique des pilotes, la lettre A se dit Alfa.",
+   "answer": true,
+   "fact": "Alfa, Bravo, Charlie : cet alphabet sert à épeler sans erreur, même avec un mauvais son.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle langue utilise la lettre ø, comme dans smørrebrød ?",
+   "choices": [
+    "Le polonais",
+    "Le danois",
+    "Le turc"
+   ],
+   "correct": 1,
+   "fact": "Le ø est une lettre danoise et norvégienne, qui se prononce presque comme eu.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La lettre J existe depuis l'Antiquité romaine.",
+   "answer": false,
+   "fact": "Au Moyen Âge, le j n'était qu'une variante du i, et il a été distingué vers le 16e siècle.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la 3e lettre de l'alphabet ?",
+   "choices": [
+    "C",
+    "B",
+    "D"
+   ],
+   "correct": 0,
+   "fact": "En latin, la lettre c servait à la fois pour le son k et pour le son g.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle langue européenne utilise la lettre ß ?",
+   "choices": [
+    "L'allemand",
+    "Le suédois",
+    "Le polonais"
+   ],
+   "correct": 0,
+   "fact": "Le ß s'appelle eszett, et il se prononce comme un double s dans le mot Straße.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "En grec, la première lettre est oméga.",
+   "answer": false,
+   "fact": "La première lettre est alpha et la dernière est oméga, d'où l'expression d'alpha à oméga.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'alphabet russe compte 26 lettres.",
+   "answer": false,
+   "fact": "Il en compte 33, et certaines ressemblent à nos lettres mais se lisent autrement.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel alphabet est utilisé pour écrire le coréen ?",
+   "choices": [
+    "Les kanji",
+    "Le hangeul",
+    "Le devanagari"
+   ],
+   "correct": 1,
+   "fact": "Il a été créé en 1443 par le roi Sejong, pour que tout le monde puisse apprendre à lire.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le géorgien utilise un alphabet qui n'existe nulle part ailleurs.",
+   "answer": true,
+   "fact": "Cet alphabet est employé seulement en Géorgie, et ses lettres sont très arrondies.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot abécédaire vient des 4 premières lettres de l'alphabet.",
+   "answer": true,
+   "fact": "Il est formé en prononçant a, b, c, d, les 4 premières lettres de la liste.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de lettres compte l'alphabet russe ?",
+   "choices": [
+    "26",
+    "30",
+    "33"
+   ],
+   "correct": 2,
+   "fact": "2 de ces lettres ne se prononcent pas : le signe dur et le signe mou.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Autrefois, la lettre U et la lettre V étaient la même.",
+   "answer": true,
+   "fact": "Pendant longtemps, u et v étaient une même lettre, et on les a séparées au 16e siècle.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Un pangramme est une phrase qui contient toutes les lettres de l'alphabet.",
+   "answer": true,
+   "fact": "Voix ambiguë d'un cœur qui au zéphyr préfère les jattes de kiwis en est un en français.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La lettre K est très fréquente dans les mots français.",
+   "answer": false,
+   "fact": "Le k est rare en français : il vient surtout de mots étrangers comme kiwi, kayak ou koala.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Aucun mot français ne s'écrit sans voyelle.",
+   "answer": false,
+   "fact": "Quelques interjections comme psst ou hmm n'ont pas de vraie voyelle.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les Romains écrivaient en minuscules.",
+   "answer": false,
+   "fact": "Les Romains n'écrivaient qu'en majuscules, et les minuscules sont nées au Moyen Âge.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal a inspiré la forme de la lettre A ?",
+   "choices": [
+    "Le bœuf",
+    "Le cheval",
+    "Le chat"
+   ],
+   "correct": 0,
+   "fact": "Retournée, la lettre A ressemble à une tête de bœuf avec ses 2 cornes.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "L'alphabet français compte 5 voyelles.",
+   "answer": false,
+   "fact": "Avec le y, il compte 6 voyelles et 20 consonnes, pour un total de 26 lettres.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de lettres compte l'alphabet grec ?",
+   "choices": [
+    "24",
+    "26",
+    "22"
+   ],
+   "correct": 0,
+   "fact": "D'alpha à oméga, ces 24 lettres sont très utilisées en mathématiques et en sciences.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel signe met-on sous le c de « garçon » ?",
+   "choices": [
+    "Le tilde",
+    "Le tréma",
+    "La cédille"
+   ],
+   "correct": 2,
+   "fact": "Le mot cédille vient d'un mot espagnol qui veut dire petit z.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "En français, le tréma se place sur e, i ou u.",
+   "answer": true,
+   "fact": "Il sert à prononcer la voyelle séparément, comme dans Noël ou dans maïs.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot « chat » compte plus de voyelles que de consonnes.",
+   "answer": false,
+   "fact": "Le mot chat compte 1 seule voyelle, le a, et 3 consonnes : c, h et t.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Dans le mot « œuf », le o et le e sont collés.",
+   "answer": true,
+   "fact": "Cette lettre double s'appelle un e dans l'o, et elle existe aussi dans bœuf et cœur.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel signe place-t-on sur le e de « Noël » ?",
+   "choices": [
+    "Une cédille",
+    "Un tréma",
+    "Un accent aigu"
+   ],
+   "correct": 1,
+   "fact": "Le tréma indique qu'il faut prononcer le e séparément du o, comme dans le mot Noël.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel accent porte le a du mot « là » ?",
+   "choices": [
+    "Accent grave",
+    "Accent aigu",
+    "Circonflexe"
+   ],
+   "correct": 0,
+   "fact": "L'accent grave de là le distingue du mot la, sans accent, comme dans la maison.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le braille utilise des cases de 8 points.",
+   "answer": false,
+   "fact": "Chaque lettre braille est formée dans une cellule de 6 points, sur 2 colonnes de 3.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'alphabet hawaïen compte 26 lettres.",
+   "answer": false,
+   "fact": "Il n'en compte que 13 : 5 voyelles, 7 consonnes et un signe qui marque une petite pause.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre a la forme d'un cercle ?",
+   "choices": [
+    "O",
+    "I",
+    "L"
+   ],
+   "correct": 0,
+   "fact": "La lettre O vient d'un signe phénicien qui représentait un œil.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de caractères de base compte le hiragana ?",
+   "choices": [
+    "26",
+    "100",
+    "46"
+   ],
+   "correct": 2,
+   "fact": "Le japonais mélange hiragana, katakana et des milliers de kanji venus de Chine.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre porte un petit point sur sa tête ?",
+   "choices": [
+    "L",
+    "I",
+    "T"
+   ],
+   "correct": 1,
+   "fact": "Ce point est apparu au Moyen Âge pour éviter de confondre le i avec les traits voisins.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de lettres comptait l'alphabet des Romains ?",
+   "choices": [
+    "26",
+    "20",
+    "23"
+   ],
+   "correct": 2,
+   "fact": "Il lui manquait le J, le U et le W, qui sont arrivés bien plus tard.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Dans le mot « homme », le h ne se prononce pas.",
+   "answer": true,
+   "fact": "Le h de homme est muet, mais le h aspiré de hibou empêche de faire la liaison.",
+   "level": "facile"
+  }
+ ]
+}

@@ -202,11 +202,29 @@ ep.voice = {
 // Pré-roll et packshot : voix variables de l'épisode (cache générique) ; sans variante, les mp3 statiques de public/audio servent.
 if (vr.preroll?.voice) ep.voice.preroll = await generic(tag("excited", clean(vr.preroll.voice))); // 08/11/2026 : début plus enjoué
 // 08/11/2026 : la carte d'intro est lue à voix haute (titre/accroche + relance), au lieu du jingle seul.
+// Vidéo longue v2 (09/11/2026) : accroche, puis la règle du jeu expliquée posément, puis la relance.
 if (ep.intro?.hook) {
   const hook = clean(ep.intro.hook).replace(/\b([A-ZÉÈÀÇ]{3,})\b/g, (m) => m.charAt(0) + m.slice(1).toLowerCase());
-  ep.voice.intro = await specific(tag("excited", `${hook.replace(/[!?.…]+$/, "")} ! ${pick(V.introVoiceTail ?? T.introTail)}`), "intro");
+  const rule = vr.ruleVoice ? ` ${clean(vr.ruleVoice)}` : "";
+  ep.voice.intro = await specific(tag("excited", `${hook.replace(/[!?.…]+$/, "")} !${rule} ${pick(V.introVoiceTail ?? T.introTail)}`), "intro");
 }
 if (vr.packshot?.voice) ep.voice.packshot = await generic(tag("cheerful", clean(vr.packshot.voice)));
+// Carte finale « Prochain quiz » (2 vidéos + S'abonner) : remplace la voix du packshot quand l'épisode la porte.
+if (vr.nextQuizVoice) ep.voice.nextQuiz = await generic(tag("cheerful", clean(vr.nextQuizVoice)));
+// Intermèdes : amorce + question lue, réponse lue, anecdote (clips propres à l'épisode).
+const I = V.interludes ?? {};
+for (let k = 0; k < (ep.interludes?.length ?? 0); k++) {
+  const it = ep.interludes[k];
+  const lead = pick(I.lead ?? ["Petite pause !"]);
+  const qText = it.type === "vf"
+    ? `${lead} ${(I.vfRead ?? "Vrai ou faux : {q}").replace("{q}", clean(it.q))}`
+    : `${lead} ${(I.qcm3Read ?? "{q} {a}, {b}, ou {c} ?").replace("{q}", clean(it.q).replace(/\s*\?$/, " :")).replace("{a}", clean(it.choices?.[0] ?? "")).replace("{b}", clean(it.choices?.[1] ?? "")).replace("{c}", clean(it.choices?.[2] ?? ""))}`;
+  const aText = it.type === "vf" ? pick(it.answer ? I.vfTrue ?? ["C'est vrai !"] : I.vfFalse ?? ["C'est faux !"]) : pick(I.answer3 ?? ["C'est {a} !"]).replaceAll("{a}", clean(it.choices?.[it.correct ?? 0] ?? ""));
+  it.voice = {};
+  it.voice.q = await specific(tag("cheerful", qText), `i${k}-q`, { next: aText });
+  it.voice.a = await specific(tag("cheerful", aText), `i${k}-a`, { prev: qText });
+  it.voice.f = await specific(tag("cheerful", `${pick(R.factLead)} ${clean(it.fact)}`), `i${k}-f`, { prev: aText });
+}
 if (ep.champion) ep.voice.champion = await specific(tag("excited", T.champion.replace("{name}", clean(ep.champion.name)).replace("{score}", String(ep.champion.score))), "champion");
 
 }
@@ -229,6 +247,7 @@ if (process.env.GITHUB_ACTIONS) console.log(`::notice title=Voix::${calls} clips
 } catch (e) {
   const msg = (e.message || String(e)).replace(/sk_[A-Za-z0-9]+/g, "sk_***").slice(0, 300);
   for (const it of ep.items) delete it.voice;
+  for (const it of ep.interludes ?? []) delete it.voice;
   delete ep.voice;
   writeJson(file, ep);
   console.warn(`voix off indisponible, épisode muet : ${msg}`);

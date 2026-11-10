@@ -1,11 +1,11 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, Emoji, Fonts, HookBanner, Karaoke, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, ShortFx, Streak, Ticks, Voice, quipFor, shortHookOf, shortMotion, styleOf, themeOf, tiltFor } from "./components";
+import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, Emoji, Fonts, HookBanner, Karaoke, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, Rich, ShortFx, Streak, Ticks, Voice, quipFor, shortHookOf, shortMotion, styleOf, themeOf, tiltFor, WipeLayer } from "./components";
 import { Score } from "./DevineEn3s";
 import { emojiToCode, splitEmojis } from "./emoji";
 import { FONT_BODY, FONT_DISPLAY, BAD, INK, LEVELS, OK, WHITE } from "./theme";
 import { tr } from "./i18n";
-import { SHORT_OPTS, buildTimeline, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD } from "./timeline";
+import { SHORT_OPTS, buildTimeline, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD, sceneVariant, wipeScenes } from "./timeline";
 import type { Episode } from "./types";
 
 const has = (k: string) => AUDIO[k] === true;
@@ -41,6 +41,7 @@ export const Intrus: React.FC<IntrusProps> = ({ episode, vertical = false }) => 
   const theme = themeOf(episode);
   const style = styleOf(episode);
   const { segments } = buildTimeline(episode, fps, vertical ? SHORT_OPTS(episode) : {});
+  const frame = useCurrentFrame(); // vidéo longue v2 : variante de décor par scène
   // Compteur « x / n » : en Short, le nombre réel de questions de la timeline (jusqu'à 8, limité par les 58 s), pas shortItems.
   const n = vertical ? segments.filter((s) => s.kind === "question").length : episode.items.length;
   const lastQ = Math.max(...segments.filter((s) => s.kind === "question").map((s) => (s as { index: number }).index));
@@ -48,7 +49,7 @@ export const Intrus: React.FC<IntrusProps> = ({ episode, vertical = false }) => 
   return (
     <AbsoluteFill style={{ fontFamily: FONT_BODY, color: INK }}>
       <Fonts />
-      <Background theme={theme} confetti={vertical ? 22 : 34} pattern={style.pattern} />
+      <Background theme={theme} confetti={vertical ? 22 : 34} pattern={style.pattern} variant={vertical ? 0 : sceneVariant(segments, frame)} />
       <MusicBed episode={episode} />
 
       {segments.map((s, k) => {
@@ -78,6 +79,7 @@ export const Intrus: React.FC<IntrusProps> = ({ episode, vertical = false }) => 
           );
         return <CommonSegment key={k} index={k} s={s} episode={episode} vertical={vertical} />;
       })}
+      {!vertical && <WipeLayer theme={theme} scenes={wipeScenes(segments)} />}
     </AbsoluteFill>
   );
 };

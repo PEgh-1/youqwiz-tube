@@ -1,0 +1,576 @@
+{
+ "slug": "fruits-legumes",
+ "theme": "les fruits et légumes",
+ "items": [
+  {
+   "type": "vf",
+   "q": "Le concombre est botaniquement un légume.",
+   "answer": false,
+   "fact": "Comme la tomate et la courgette, le concombre est un fruit, car il renferme des graines.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "L'olive est mangeable directement sur l'arbre.",
+   "answer": false,
+   "fact": "Fraîche, l'olive est extrêmement amère : il faut la traiter longtemps avant de la manger.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La banane la plus vendue dans le monde est la variété Cavendish.",
+   "answer": true,
+   "fact": "Cette variété représente la grande majorité des bananes qui voyagent dans le monde.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel légume les Irlandais sculptaient-ils avant les citrouilles ?",
+   "choices": [
+    "Le chou",
+    "La betterave",
+    "Le navet"
+   ],
+   "correct": 2,
+   "fact": "Ils ont adopté la citrouille quand elle est arrivée d'Amérique, car elle est plus facile à sculpter.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel légume est à la base de la choucroute ?",
+   "choices": [
+    "Le chou",
+    "Le navet",
+    "Le radis"
+   ],
+   "correct": 0,
+   "fact": "Choucroute vient de l'allemand Sauerkraut, qui veut dire chou aigre.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le kiwi est originaire de Chine.",
+   "answer": true,
+   "fact": "On l'appelait la groseille de Chine, avant qu'il soit rebaptisé d'après l'oiseau néo-zélandais.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La fraise est un faux fruit.",
+   "answer": true,
+   "fact": "La partie rouge est un support charnu, et les vrais fruits sont les petits grains jaunes.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La rhubarbe est un fruit.",
+   "answer": false,
+   "fact": "On mange ses tiges, comme un légume, car ses feuilles sont toxiques à cause de l'acide oxalique.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le melon et le concombre font partie de la même famille.",
+   "answer": true,
+   "fact": "Melon, concombre, courgette et pastèque appartiennent tous à la famille des cucurbitacées.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "L'avocat est un fruit.",
+   "answer": true,
+   "fact": "Il contient un gros noyau, et c'est l'un des fruits les plus riches en matières grasses.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Lequel de ces fruits est une baie au sens botanique ?",
+   "choices": [
+    "La banane",
+    "La fraise",
+    "La framboise"
+   ],
+   "correct": 0,
+   "fact": "La banane est une baie, alors que la fraise et la framboise n'en sont pas.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La pastèque contient plus de 90 pour cent d'eau.",
+   "answer": true,
+   "fact": "C'est un des fruits les plus hydratants, avec une chair presque entièrement faite d'eau.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le brocoli est un bouton de fleur.",
+   "answer": true,
+   "fact": "Ce que l'on mange, ce sont des boutons de fleurs, cueillis avant qu'ils s'ouvrent.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel légume rouge sert aussi à fabriquer du sucre ?",
+   "choices": [
+    "La carotte",
+    "Le radis",
+    "La betterave"
+   ],
+   "correct": 2,
+   "fact": "Une variété, la betterave sucrière, fournit une grande partie du sucre blanc de France.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "De quel pays vient le kiwi à l'origine ?",
+   "choices": [
+    "Nouvelle-Zélande",
+    "Australie",
+    "Chine"
+   ],
+   "correct": 2,
+   "fact": "Il a été rebaptisé kiwi en 1959, d'après l'oiseau emblème néo-zélandais.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le durian sent si fort qu'il est interdit dans certains hôtels.",
+   "answer": true,
+   "fact": "Son odeur est tellement puissante qu'il est interdit dans des hôtels et transports d'Asie du Sud-Est.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "De quel continent vient la pomme de terre ?",
+   "choices": [
+    "Europe",
+    "Afrique",
+    "Amérique du Sud"
+   ],
+   "correct": 2,
+   "fact": "Elle est cultivée dans la cordillère des Andes depuis plus de 7 000 ans.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le maïs est une céréale.",
+   "answer": true,
+   "fact": "Un épi de maïs porte en général environ 16 rangées de grains bien alignés.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit tropical a des feuilles piquantes ?",
+   "choices": [
+    "L'ananas",
+    "La mangue",
+    "La papaye"
+   ],
+   "correct": 0,
+   "fact": "Le mot ananas vient d'une langue d'Amérique du Sud et veut dire fruit parfumé.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel gros légume orange sert à faire de la soupe en automne ?",
+   "choices": [
+    "L'aubergine",
+    "Le potiron",
+    "Le concombre"
+   ],
+   "correct": 1,
+   "fact": "Certains potirons ont dépassé 1 000 kilos, c'est plus d'une tonne.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La chair de la myrtille est bleue.",
+   "answer": false,
+   "fact": "Sa peau est bleue, mais sa chair est claire, même si son jus colore tout en violet.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le bananier est un grand arbre.",
+   "answer": false,
+   "fact": "C'est une immense herbe : son faux tronc est fait de feuilles enroulées les unes dans les autres.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "L'artichaut est un bouton de fleur.",
+   "answer": true,
+   "fact": "Ce que l'on mange est le bouton d'une sorte de chardon, avant qu'il ne fleurisse.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit sert à fabriquer le guacamole ?",
+   "choices": [
+    "La mangue",
+    "Le kiwi",
+    "L'avocat"
+   ],
+   "correct": 2,
+   "fact": "Le mot guacamole vient d'un mot aztèque qui signifie sauce d'avocat.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle plante est la base du tofu ?",
+   "choices": [
+    "Le soja",
+    "Le blé",
+    "Le riz"
+   ],
+   "correct": 0,
+   "fact": "Le soja est cultivé en Chine depuis plus de 3 000 ans, et il sert aussi à faire du lait végétal.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel légume fait pleurer quand on le coupe ?",
+   "choices": [
+    "L'oignon",
+    "La carotte",
+    "Le poireau"
+   ],
+   "correct": 0,
+   "fact": "Il libère un gaz qui irrite les yeux, et les yeux fabriquent alors des larmes pour se protéger.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quelle région française pousse la mirabelle célèbre ?",
+   "choices": [
+    "Bretagne",
+    "Lorraine",
+    "Alsace"
+   ],
+   "correct": 1,
+   "fact": "La mirabelle de Lorraine est une prune jaune protégée par une indication géographique.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le cacao se trouve dans un gros fruit appelé cabosse.",
+   "answer": true,
+   "fact": "Chaque cabosse contient entre 30 et 50 fèves, qui servent à faire le chocolat.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "L'ananas pousse au sommet d'un arbre.",
+   "answer": false,
+   "fact": "L'ananas pousse au ras du sol, au centre d'une plante aux feuilles piquantes.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La mangue est le fruit national de la Chine.",
+   "answer": false,
+   "fact": "C'est celui de l'Inde, qui produit près de la moitié des mangues de la planète.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le haricot vert se mange avec sa gousse.",
+   "answer": true,
+   "fact": "Il est cueilli jeune, avant que les graines n'aient eu le temps de grossir à l'intérieur.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel agrume est vert et très acide ?",
+   "choices": [
+    "Le citron vert",
+    "L'orange",
+    "Le pamplemousse"
+   ],
+   "correct": 0,
+   "fact": "Au 19e siècle, les marins mangeaient des agrumes pour éviter le scorbut grâce à la vitamine C.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit rouge est fait de petits grains collés ?",
+   "choices": [
+    "La fraise",
+    "La framboise",
+    "La cerise"
+   ],
+   "correct": 1,
+   "fact": "La framboise est un assemblage de dizaines de petits fruits soudés ensemble.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le melon pousse sur un arbre.",
+   "answer": false,
+   "fact": "C'est une plante rampante : le melon pousse au ras du sol, et la pastèque fait comme lui.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le citron contient plus de sucre que la fraise.",
+   "answer": false,
+   "fact": "Le citron contient très peu de sucre, environ 2,5 grammes pour 100 grammes de fruit.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le poivron rouge est un poivron vert qui a mûri.",
+   "answer": true,
+   "fact": "Le poivron vert est cueilli avant maturité, puis il vire au jaune, à l'orange et au rouge.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel légume est surnommé l'asperge du pauvre ?",
+   "choices": [
+    "Le céleri",
+    "Le poireau",
+    "Le fenouil"
+   ],
+   "correct": 1,
+   "fact": "Le poireau est l'emblème du pays de Galles, où l'on en porte le jour de la fête nationale.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel légume ressemble à un petit arbre vert ?",
+   "choices": [
+    "Le poireau",
+    "Le brocoli",
+    "Le céleri"
+   ],
+   "correct": 1,
+   "fact": "Les Romains mangeaient déjà du brocoli il y a plus de 2 000 ans.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La tomate est originaire d'Italie.",
+   "answer": false,
+   "fact": "Elle vient d'Amérique et n'est arrivée en Europe qu'au 16e siècle, avec les explorateurs.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit séché donne le pruneau ?",
+   "choices": [
+    "Le raisin",
+    "La prune",
+    "La figue"
+   ],
+   "correct": 1,
+   "fact": "Le pruneau d'Agen est fabriqué avec des prunes d'Ente séchées dans le Sud-Ouest.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La pomme de terre est une racine.",
+   "answer": false,
+   "fact": "C'est un tubercule, c'est-à-dire une tige souterraine gonflée, et non une racine.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit pousse sur un palmier dans le désert ?",
+   "choices": [
+    "La banane",
+    "La noix de coco",
+    "La datte"
+   ],
+   "correct": 2,
+   "fact": "Un dattier peut produire plus de 100 kilos de dattes en une seule année.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus gros des agrumes ?",
+   "choices": [
+    "Le pomelo",
+    "L'orange",
+    "Le citron"
+   ],
+   "correct": 0,
+   "fact": "Le pomelo peut peser plus d'un kilo, parfois jusqu'à 2 kilos.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "De quelle couleur est l'intérieur d'un kiwi ?",
+   "choices": [
+    "Orange",
+    "Vert",
+    "Rouge"
+   ],
+   "correct": 1,
+   "fact": "Le kiwi contient plus de vitamine C que l'orange, à poids égal.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "L'ananas met environ 2 ans à pousser.",
+   "answer": true,
+   "fact": "Il lui faut 18 à 24 mois pour donner un seul fruit, et la plante n'en donne qu'un par cycle.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel légume sert à faire les frites ?",
+   "choices": [
+    "La pomme de terre",
+    "La carotte",
+    "Le navet"
+   ],
+   "correct": 0,
+   "fact": "Belges et Français se disputent depuis longtemps l'invention des frites.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit exotique dessine une étoile quand on le coupe ?",
+   "choices": [
+    "Le litchi",
+    "La carambole",
+    "La goyave"
+   ],
+   "correct": 1,
+   "fact": "Coupée en tranches, la carambole forme une étoile à 5 branches.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel légume est la base du houmous ?",
+   "choices": [
+    "Le haricot",
+    "Le pois chiche",
+    "La lentille"
+   ],
+   "correct": 1,
+   "fact": "Le pois chiche est cultivé depuis plus de 7 000 ans, c'est l'une des plus vieilles légumineuses.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit s'appelle pomodoro en italien ?",
+   "choices": [
+    "Le poivron",
+    "La pomme",
+    "La tomate"
+   ],
+   "correct": 2,
+   "fact": "Pomodoro vient de pomo d'oro, qui veut dire pomme d'or, nom que les Italiens donnaient à ce fruit venu d'Amérique.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Manger des carottes permet de voir dans le noir.",
+   "answer": false,
+   "fact": "Cette idée vient d'une histoire lancée par les Britanniques en 1940 pour cacher leurs radars.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit contient le plus de vitamine C ?",
+   "choices": [
+    "L'orange",
+    "Le cassis",
+    "La pomme"
+   ],
+   "correct": 1,
+   "fact": "Le cassis contient environ 3 fois plus de vitamine C que l'orange.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays produit le plus de pommes de terre ?",
+   "choices": [
+    "Chine",
+    "Irlande",
+    "Pérou"
+   ],
+   "correct": 0,
+   "fact": "La Chine produit environ un quart des pommes de terre cultivées dans le monde.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel petit légume vert se cache dans une gousse ?",
+   "choices": [
+    "Le haricot",
+    "Le poireau",
+    "Le petit pois"
+   ],
+   "correct": 2,
+   "fact": "Au 19e siècle, Gregor Mendel a découvert les bases de l'hérédité avec des petits pois.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit est la base de la tarte Tatin ?",
+   "choices": [
+    "La poire",
+    "La pêche",
+    "La pomme"
+   ],
+   "correct": 2,
+   "fact": "Elle porte le nom des sœurs Tatin, qui tenaient un hôtel en Sologne.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les premières carottes cultivées étaient orange.",
+   "answer": false,
+   "fact": "Les premières carottes étaient violettes ou jaunes, et l'orange est venue bien plus tard.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La fraise porte ses graines à l'extérieur.",
+   "answer": true,
+   "fact": "Elle en porte environ 200 sur sa peau, ce qui est très rare chez les fruits.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La noix de coco est une noix.",
+   "answer": false,
+   "fact": "Botaniquement, c'est une drupe, comme la pêche, l'olive et la cerise.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays est le plus gros producteur de bananes ?",
+   "choices": [
+    "Inde",
+    "Brésil",
+    "Équateur"
+   ],
+   "correct": 0,
+   "fact": "L'Inde produit plus de bananes que tout autre pays, mais elle en exporte très peu.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit fait partie de la famille des roses ?",
+   "choices": [
+    "La banane",
+    "Le citron",
+    "La pomme"
+   ],
+   "correct": 2,
+   "fact": "Pommes, poires, cerises et fraises sont toutes de la famille des rosacées.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La tomate est un fruit.",
+   "answer": true,
+   "fact": "Elle contient des graines, comme le concombre, la courgette et l'aubergine, donc c'est botaniquement un fruit.",
+   "level": "facile"
+  }
+ ]
+}

@@ -26,8 +26,9 @@ on:
         description: "Refaire un épisode déjà envoyé (id, ex. 2026-11-03-tu-preferes) : supprime les vidéos privées puis re-rend"
         required: false
 
+# Un rendu de test (skip_upload) ne bloque pas la production du jour : groupe séparé.
 concurrency:
-  group: video-du-jour
+  group: ${{ inputs.skip_upload == 'true' && 'test-sans-upload' || 'video-du-jour' }}
   cancel-in-progress: false
 
 jobs:
@@ -148,6 +149,17 @@ jobs:
           gh release create "$ID" $FILES --title "$ID" --notes "Shorts de l'épisode $ID (relais réseaux sociaux)." --latest=false
           # ménage : releases de plus de 10 jours
           gh release list --limit 100 --json tagName,createdAt --jq '.[] | select(.createdAt < (now - 864000 | todate)) | .tagName' | xargs -r -n1 gh release delete -y --cleanup-tag
+
+      # Rendu de test (skip_upload) : la vidéo longue est déposée en pré-release « test-<id> » pour contrôle visuel, puis supprimée à la main.
+      - name: Publier la vidéo test en pré-release (contrôle visuel)
+        if: ${{ steps.gen.outputs.skip != 'true' && inputs.skip_upload == 'true' }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ID=$(node -pe 'require("./data/state/current.json").id')
+          gh release delete "test-$ID" -y --cleanup-tag 2>/dev/null || true
+          gh release create "test-$ID" "out/$ID/long.mp4" "out/$ID/thumbA.png" --title "TEST $ID" --notes "Rendu de test (branche ${{ github.ref_name }}), à supprimer." --prerelease --latest=false
 
       - name: Publier le quiz jouable sur youqwiz.com (non bloquant)
         if: ${{ steps.gen.outputs.skip != 'true' && inputs.skip_upload != 'true' }}

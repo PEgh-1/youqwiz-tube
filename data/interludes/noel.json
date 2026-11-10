@@ -1,0 +1,576 @@
+{
+ "slug": "noel",
+ "theme": "les traditions de Noël",
+ "items": [
+  {
+   "type": "qcm3",
+   "q": "Quelle plante porte des boules blanches et se suspend à Noël ?",
+   "choices": [
+    "Le gui",
+    "Le houx",
+    "Le lierre"
+   ],
+   "correct": 0,
+   "fact": "Le gui pousse sur les arbres, sans toucher le sol, accroché aux branches.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les marrons glacés sont une spécialité de Noël en France.",
+   "answer": true,
+   "fact": "Les marrons sont cuits dans du sucre avant d'être glacés, un travail qui prend plusieurs jours.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "En Australie, Noël se fête en plein hiver.",
+   "answer": false,
+   "fact": "C'est l'été là-bas, et beaucoup de familles font un barbecue ou vont à la plage.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Au Mexique, on casse des piñatas pendant les fêtes de fin d'année.",
+   "answer": true,
+   "fact": "On casse une grosse figurine remplie de bonbons, souvent en forme d'étoile.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quelle ville d'Alsace trouve-t-on une trace de sapin décoré en 1521 ?",
+   "choices": [
+    "Sélestat",
+    "Colmar",
+    "Strasbourg"
+   ],
+   "correct": 0,
+   "fact": "Un document de 1521 y mentionne des gardes payés pour surveiller les sapins de la forêt avant Noël.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le sapin de Noël est une tradition venue d'Espagne.",
+   "answer": false,
+   "fact": "Il vient d'Alsace, où une trace écrite de sapins de Noël date déjà du 16e siècle.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays est célèbre pour son marché de Noël de Nuremberg ?",
+   "choices": [
+    "Espagne",
+    "Allemagne",
+    "Grèce"
+   ],
+   "correct": 1,
+   "fact": "Ce marché attire chaque année environ 2 millions de visiteurs.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment dit-on « Joyeux Noël » en anglais ?",
+   "choices": [
+    "Happy Birthday",
+    "Good Morning",
+    "Merry Christmas"
+   ],
+   "correct": 2,
+   "fact": "Le mot merry veut dire joyeux, et il vient d'un très vieux mot de l'anglais.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "En Norvège, on cache les balais le soir de Noël.",
+   "answer": true,
+   "fact": "Selon une vieille croyance, il fallait empêcher des sorcières de les voler.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Petit Papa Noël est une chanson connue depuis 1946.",
+   "answer": true,
+   "fact": "Elle a été chantée par Tino Rossi et reste l'un des plus grands succès de Noël.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le houx est une plante associée à Noël.",
+   "answer": true,
+   "fact": "Ses feuilles piquantes et ses baies rouges servent souvent à décorer les maisons.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que dit-on en France en s'embrassant sous le gui ?",
+   "choices": [
+    "Au gui l'an neuf",
+    "Au feu les pompiers",
+    "À la une"
+   ],
+   "correct": 0,
+   "fact": "Cette tradition vient des Gaulois, qui prêtaient au gui des pouvoirs porte-bonheur.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle chanson de Noël parle de clochettes ?",
+   "choices": [
+    "Vive le vent",
+    "Frère Jacques",
+    "Au clair de la lune"
+   ],
+   "correct": 0,
+   "fact": "L'air original, Jingle Bells, a été écrit aux États-Unis en 1857.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le grand repas de Noël a lieu le soir du 24 dans beaucoup de pays.",
+   "answer": true,
+   "fact": "On l'appelle le réveillon en France, car on reste éveillé tard dans la nuit.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle ville allemande a le plus ancien marché de Noël, depuis 1434 ?",
+   "choices": [
+    "Berlin",
+    "Munich",
+    "Dresde"
+   ],
+   "correct": 2,
+   "fact": "On y vend depuis le Moyen Âge le stollen, un gâteau lourd aux fruits secs.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les petits Français posent leurs chaussures dans le jardin pour Noël.",
+   "answer": false,
+   "fact": "Ils les posent près de la cheminée ou au pied du sapin pour recevoir les cadeaux.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les guirlandes lumineuses électriques existent depuis 1782.",
+   "answer": false,
+   "fact": "Elles existent depuis 1882, quand un ami de l'inventeur Edison a illuminé son sapin.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel dessert roulé mange-t-on à Noël en France ?",
+   "choices": [
+    "La bûche",
+    "La galette",
+    "Le flan"
+   ],
+   "correct": 0,
+   "fact": "La galette des rois, elle, se mange plutôt en janvier, après les fêtes de fin d'année.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "En Islande, on s'offre des chaussettes la veille de Noël.",
+   "answer": false,
+   "fact": "On s'offre plutôt des livres, puis on les lit ensemble en buvant du chocolat chaud.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel gâteau italien en forme de dôme est typique de Noël ?",
+   "choices": [
+    "Le stollen",
+    "La bûche",
+    "Le panettone"
+   ],
+   "correct": 2,
+   "fact": "Il est parfumé aux fruits confits et aux raisins secs, et il est né à Milan.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quels petits biscuits alsaciens prépare-t-on pour Noël ?",
+   "choices": [
+    "Les canelés",
+    "Les macarons",
+    "Les bredele"
+   ],
+   "correct": 2,
+   "fact": "Ces petits sablés se préparent en famille avec des emporte-pièces en forme d'étoile.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le mot Noël vient du mot grec nikê.",
+   "answer": false,
+   "fact": "Il vient du mot latin natalis, qui veut dire naissance et qui a donné le mot natal.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "De quelle couleur est le manteau du père Noël ?",
+   "choices": [
+    "Vert",
+    "Bleu",
+    "Rouge"
+   ],
+   "correct": 2,
+   "fact": "Dans certaines vieilles images, il portait un manteau vert ou bleu.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quelle région se trouve le village du père Noël en Finlande ?",
+   "choices": [
+    "La Sibérie",
+    "La Laponie",
+    "L'Alaska"
+   ],
+   "correct": 1,
+   "fact": "Ce village, près de Rovaniemi, est traversé par le cercle polaire.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "De quel pays vient le nom Santa Claus ?",
+   "choices": [
+    "Pays-Bas",
+    "Irlande",
+    "Danemark"
+   ],
+   "correct": 0,
+   "fact": "Santa Claus vient du néerlandais Sinterklaas, importé à New York par des colons.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La dinde est originaire d'Europe.",
+   "answer": false,
+   "fact": "Elle est originaire d'Amérique et n'est arrivée en Europe qu'au 16e siècle.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Que met-on souvent au sommet du sapin ?",
+   "choices": [
+    "Un ballon",
+    "Une pomme",
+    "Une étoile"
+   ],
+   "correct": 2,
+   "fact": "Certaines familles y mettent plutôt un ange ou une pointe en verre brillante.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Seuls les rennes mâles portent des bois.",
+   "answer": false,
+   "fact": "Chez les rennes, les mâles et les femelles portent des bois, ce qui est rare chez les cervidés.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le père Noël possède un bureau de poste officiel en Finlande.",
+   "answer": true,
+   "fact": "Il reçoit chaque année des centaines de milliers de lettres venues du monde entier.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "En France, on s'embrasse sous le gui au moment du nouvel an.",
+   "answer": true,
+   "fact": "On dit à cette occasion une formule rimée, une tradition qui existe depuis très longtemps.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de cases y a-t-il dans un calendrier de l'Avent ?",
+   "choices": [
+    "12",
+    "31",
+    "24"
+   ],
+   "correct": 2,
+   "fact": "On ouvre une case chaque jour du 1er au 24 décembre, jusqu'à la veille de Noël.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment dit-on « Joyeux Noël » en espagnol ?",
+   "choices": [
+    "Feliz Navidad",
+    "Buon Natale",
+    "Frohe Weihnachten"
+   ],
+   "correct": 0,
+   "fact": "En italien, on dit Buon Natale, ce qui veut dire bon Noël, en gardant le même mot latin.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La bûche de Noël est un plat salé.",
+   "answer": false,
+   "fact": "C'est un gâteau roulé qui rappelle la vraie bûche que l'on faisait brûler dans la cheminée.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le père Noël habite au pôle Sud, selon la tradition.",
+   "answer": false,
+   "fact": "Les Finlandais disent qu'il habite en Laponie, tout au nord de l'Europe, au pays de la neige.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle gentille sorcière apporte des cadeaux en Italie ?",
+   "choices": [
+    "Baba Yaga",
+    "La Befana",
+    "Morgane"
+   ],
+   "correct": 1,
+   "fact": "Elle vole sur un balai et passe dans les cheminées la nuit du 5 au 6 janvier.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "La première carte de Noël date de 1743.",
+   "answer": false,
+   "fact": "Elle date de 1843 et a été imaginée à Londres par un homme qui n'avait pas le temps d'écrire.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel ballet de Tchaïkovski se joue souvent à Noël ?",
+   "choices": [
+    "Le Lac des cygnes",
+    "La Belle au bois dormant",
+    "Casse-Noisette"
+   ],
+   "correct": 2,
+   "fact": "Ce ballet est inspiré d'un conte allemand et il a été créé à Saint-Pétersbourg en 1892.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le ballet Casse-Noisette a été créé en 1892.",
+   "answer": true,
+   "fact": "Cette œuvre de Tchaïkovski est jouée dans le monde entier pendant les fêtes.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de desserts compte la tradition provençale ?",
+   "choices": [
+    "7",
+    "13",
+    "24"
+   ],
+   "correct": 1,
+   "fact": "Ils comprennent notamment des fruits secs, du nougat et de la pâte de coing.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "En Provence, on mange 13 desserts à Noël.",
+   "answer": true,
+   "fact": "Ils comprennent des fruits secs, des fruits frais, de la pâte de coing et du nougat.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le père Noël s'appelle Father Christmas au Royaume-Uni.",
+   "answer": true,
+   "fact": "Aux États-Unis, on dit plutôt Santa Claus, un nom qui vient du néerlandais.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Par où le père Noël entre-t-il dans les maisons ?",
+   "choices": [
+    "La fenêtre",
+    "La cheminée",
+    "Le garage"
+   ],
+   "correct": 1,
+   "fact": "Beaucoup de maisons ont aujourd'hui un chauffage sans cheminée, mais la légende reste vivante.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un calendrier de l'Avent compte 31 cases.",
+   "answer": false,
+   "fact": "Il compte en général 24 cases, une pour chaque jour avant Noël.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal tire le traîneau du père Noël ?",
+   "choices": [
+    "Les rennes",
+    "Les chevaux",
+    "Les ânes"
+   ],
+   "correct": 0,
+   "fact": "Le renne est le seul cervidé domestiqué au monde, élevé surtout dans le nord de l'Europe.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit glissait-on autrefois dans les chaussettes de Noël ?",
+   "choices": [
+    "Une banane",
+    "Une pomme",
+    "Une orange"
+   ],
+   "correct": 2,
+   "fact": "Les oranges étaient un cadeau précieux en hiver, il y a longtemps.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "En Inde, certaines familles décorent un manguier ou un bananier à Noël.",
+   "answer": true,
+   "fact": "Faute de sapin, on utilise des arbres locaux pour garder la tradition.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quelle ville trouve-t-on le célèbre sapin de la place Rockefeller ?",
+   "choices": [
+    "New York",
+    "Chicago",
+    "Los Angeles"
+   ],
+   "correct": 0,
+   "fact": "Le premier sapin y a été dressé en 1931 par des ouvriers d'un chantier.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "En Catalogne, une bûche appelée Tió de Nadal donne des cadeaux.",
+   "answer": true,
+   "fact": "Les enfants la couvrent d'une couverture et chantent pour qu'elle laisse des cadeaux.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle plante a des feuilles piquantes et des baies rouges ?",
+   "choices": [
+    "Le gui",
+    "Le houx",
+    "Le lierre"
+   ],
+   "correct": 1,
+   "fact": "Le houx reste vert toute l'année, même en plein hiver, ce qui en fait une plante de fête.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel dessert est traditionnel à Noël en Grande-Bretagne ?",
+   "choices": [
+    "Un flan",
+    "Un pudding",
+    "Une glace"
+   ],
+   "correct": 1,
+   "fact": "Ce gâteau cuit à la vapeur contient des fruits secs et se prépare des semaines à l'avance.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle le repas de la nuit du 24 décembre ?",
+   "choices": [
+    "Le réveillon",
+    "Le goûter",
+    "Le brunch"
+   ],
+   "correct": 0,
+   "fact": "Réveillon vient du verbe réveiller, car on reste éveillé tard dans la nuit.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel plat de fête est souvent servi avec des marrons ?",
+   "choices": [
+    "La pizza",
+    "La dinde",
+    "Le couscous"
+   ],
+   "correct": 1,
+   "fact": "Le marron est récolté en automne, juste avant les fêtes de fin d'année.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle plante à feuilles rouges est appelée étoile de Noël ?",
+   "choices": [
+    "La rose",
+    "La tulipe",
+    "Le poinsettia"
+   ],
+   "correct": 2,
+   "fact": "Cette plante vient du Mexique, où ses feuilles rouges forment une étoile.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Sur quelle île voit-on des millions de crabes rouges migrer ?",
+   "choices": [
+    "Madagascar",
+    "L'île Christmas",
+    "Tahiti"
+   ],
+   "correct": 1,
+   "fact": "Elle s'appelle l'île Christmas, et ces crabes quittent la forêt pour pondre dans la mer.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "En Ukraine, certains sapins sont décorés avec des toiles d'araignée.",
+   "answer": true,
+   "fact": "Cette décoration porte bonheur, d'après une vieille légende du pays.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Chaque année, la Norvège offre un grand sapin à la ville de Londres.",
+   "answer": true,
+   "fact": "Ce cadeau remercie le Royaume-Uni de son aide pendant la guerre, depuis 1947.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Qui a chanté Petit Papa Noël en 1946 ?",
+   "choices": [
+    "Maurice Chevalier",
+    "Tino Rossi",
+    "Charles Trenet"
+   ],
+   "correct": 1,
+   "fact": "Cette chanson s'est vendue à des millions d'exemplaires et reste un classique.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Au Japon, le plat traditionnel de Noël est la raclette.",
+   "answer": false,
+   "fact": "C'est plutôt le poulet frit, une habitude née d'une campagne de publicité des années 1970.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le calendrier de l'Avent imprimé est né en Allemagne.",
+   "answer": true,
+   "fact": "Un imprimeur allemand en a créé un en 1908, avec une petite image à chaque case.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Les premiers marchés de Noël allemands datent du 20e siècle.",
+   "answer": false,
+   "fact": "Ils remontent au Moyen Âge : celui de Dresde existe depuis 1434.",
+   "level": "moyen"
+  }
+ ]
+}

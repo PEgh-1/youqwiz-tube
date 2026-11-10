@@ -1,0 +1,576 @@
+{
+ "slug": "culture-generale",
+ "theme": "la culture générale",
+ "items": [
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle notre galaxie ?",
+   "choices": [
+    "La Voie lactée",
+    "Andromède",
+    "Orion"
+   ],
+   "correct": 0,
+   "fact": "Notre galaxie contient des centaines de milliards d'étoiles.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel explorateur est parti en 1519 pour faire le tour du monde ?",
+   "choices": [
+    "Christophe Colomb",
+    "Magellan",
+    "Vasco de Gama"
+   ],
+   "correct": 1,
+   "fact": "Magellan n'a pas fini le voyage, et c'est son équipage qui a bouclé le tour du monde en 1522.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le papier a été inventé en Égypte.",
+   "answer": false,
+   "fact": "Il a été inventé en Chine il y a environ 2 000 ans, alors que les Égyptiens utilisaient le papyrus.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Un kilo de plumes pèse moins qu'un kilo de plomb.",
+   "answer": false,
+   "fact": "Un kilo reste un kilo, mais les plumes prennent bien plus de place que le plomb.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel compositeur a écrit Les Quatre Saisons ?",
+   "choices": [
+    "Mozart",
+    "Bach",
+    "Vivaldi"
+   ],
+   "correct": 2,
+   "fact": "Vivaldi a composé cette œuvre vers 1720, avec un poème pour chaque saison.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le Soleil est une étoile.",
+   "answer": true,
+   "fact": "Il est si grand qu'on pourrait y loger plus d'un million de planètes comme la Terre.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel savant a découvert les lois de la gravité ?",
+   "choices": [
+    "Galilée",
+    "Isaac Newton",
+    "Albert Einstein"
+   ],
+   "correct": 1,
+   "fact": "Newton a aussi montré que la lumière blanche contient toutes les couleurs de l'arc-en-ciel.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel métal est liquide à température ambiante ?",
+   "choices": [
+    "Le fer",
+    "Le mercure",
+    "L'or"
+   ],
+   "correct": 1,
+   "fact": "Il est très toxique, c'est pourquoi on remplace les thermomètres qui en contenaient.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "De quel animal vient la laine ?",
+   "choices": [
+    "La vache",
+    "Le mouton",
+    "Le cochon"
+   ],
+   "correct": 1,
+   "fact": "Un mouton peut produire environ 4 kilos de laine par an, qu'on récolte en le tondant.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel écrivain a créé Les Misérables ?",
+   "choices": [
+    "Victor Hugo",
+    "Émile Zola",
+    "Jules Verne"
+   ],
+   "correct": 0,
+   "fact": "Hugo a écrit ce roman pendant son exil à Guernesey, et il est paru en 1862.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "On entend le tonnerre avant de voir l'éclair.",
+   "answer": false,
+   "fact": "La lumière va bien plus vite que le son, et le son met environ 3 secondes pour parcourir 1 kilomètre.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Qui a inventé l'imprimerie en Europe, vers 1450 ?",
+   "choices": [
+    "Gutenberg",
+    "Diderot",
+    "Colbert"
+   ],
+   "correct": 0,
+   "fact": "Ses lettres en métal mobiles ont permis d'imprimer des livres en grande quantité.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel peintre a réalisé la série Les Tournesols ?",
+   "choices": [
+    "Monet",
+    "Van Gogh",
+    "Cézanne"
+   ],
+   "correct": 1,
+   "fact": "Il a peint cette série à Arles, en 1888 et 1889, pour décorer la chambre d'un ami.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel gaz respire-t-on pour vivre ?",
+   "choices": [
+    "L'hélium",
+    "Le gaz carbonique",
+    "L'oxygène"
+   ],
+   "correct": 2,
+   "fact": "Les arbres et les algues produisent l'oxygène de l'air que nous respirons.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La tour Eiffel change de taille selon la température.",
+   "answer": true,
+   "fact": "Elle peut grandir d'environ 15 centimètres en été, car le fer se dilate avec la chaleur.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "fact": "La peau d'un adulte couvre environ 2 mètres carrés, et elle se renouvelle sans cesse.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la vitesse de la lumière, environ ?",
+   "choices": [
+    "300 000 km/s",
+    "3 000 km/s",
+    "30 000 km/s"
+   ],
+   "correct": 0,
+   "fact": "À cette vitesse, la lumière ferait 7 fois et demie le tour de la Terre en 1 seconde.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel savant a inventé la pasteurisation ?",
+   "choices": [
+    "Pierre Fermat",
+    "Louis Pasteur",
+    "Gustave Eiffel"
+   ],
+   "correct": 1,
+   "fact": "Elle chauffe doucement le lait pour tuer les microbes, une méthode née dans les années 1860.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le cerveau humain continue de fonctionner la nuit.",
+   "answer": true,
+   "fact": "Pendant le sommeil, il trie les souvenirs de la journée et prépare le lendemain.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le Sahara est le plus grand désert chaud du monde.",
+   "answer": true,
+   "fact": "Il a presque la taille des États-Unis et s'étend sur plusieurs pays d'Afrique.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel organe pompe le sang dans le corps ?",
+   "choices": [
+    "Le foie",
+    "Le cœur",
+    "Le rein"
+   ],
+   "correct": 1,
+   "fact": "Un cœur d'adulte pompe environ 7 000 litres de sang par jour.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les requins sont apparus après les dinosaures.",
+   "answer": false,
+   "fact": "Ils existent depuis plus de 400 millions d'années, bien avant les premiers dinosaures.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le premier satellite artificiel s'appelait Spoutnik.",
+   "answer": true,
+   "fact": "Lancé en 1957, il émettait des bips que des radioamateurs captaient partout sur Terre.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Napoléon était très petit.",
+   "answer": false,
+   "fact": "Il mesurait environ 1 mètre 69, ce qui était plutôt grand pour son époque.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les poissons dorment les yeux fermés.",
+   "answer": false,
+   "fact": "La plupart n'ont pas de paupières, donc ils dorment les yeux ouverts.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le français n'est parlé que sur un seul continent.",
+   "answer": false,
+   "fact": "Il est parlé sur tous les continents, comme langue officielle en Afrique, au Canada et en Suisse.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien y a-t-il de planètes dans le système solaire ?",
+   "choices": [
+    "8",
+    "9",
+    "7"
+   ],
+   "correct": 0,
+   "fact": "Pluton a été classée parmi les planètes naines en 2006, et elle n'est plus la 9e planète.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Nous n'utilisons que 10 pour cent de notre cerveau.",
+   "answer": false,
+   "fact": "Nous utilisons tout notre cerveau, même pendant que nous dormons.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les bananes poussent vers le haut.",
+   "answer": true,
+   "fact": "Les régimes de bananes se redressent vers le ciel, d'où leur forme courbe.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la formule de l'eau ?",
+   "choices": [
+    "H2O",
+    "CO2",
+    "O2"
+   ],
+   "correct": 0,
+   "fact": "Une molécule d'eau est faite de 2 atomes d'hydrogène et de 1 atome d'oxygène.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le satellite naturel de la Terre ?",
+   "choices": [
+    "Mars",
+    "Vénus",
+    "La Lune"
+   ],
+   "correct": 2,
+   "fact": "La Lune s'éloigne de la Terre d'environ 4 centimètres chaque année.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Un adulte a 206 os.",
+   "answer": true,
+   "fact": "Un bébé en a environ 300, car certains os se soudent au fil de la croissance.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Qui a peint la Joconde ?",
+   "choices": [
+    "Picasso",
+    "Monet",
+    "Léonard de Vinci"
+   ],
+   "correct": 2,
+   "fact": "Ce tableau est exposé au Louvre et ne mesure qu'environ 77 centimètres de haut.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les ongles poussent plus vite que les cheveux.",
+   "answer": false,
+   "fact": "Les cheveux poussent d'environ 1 centimètre par mois, les ongles d'environ 3 millimètres.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "L'eau bout à 100 degrés au niveau de la mer.",
+   "answer": true,
+   "fact": "En montagne, elle bout plus tôt, car la pression de l'air est plus faible.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la plus grande île du monde ?",
+   "choices": [
+    "Madagascar",
+    "Le Groenland",
+    "Bornéo"
+   ],
+   "correct": 1,
+   "fact": "Le Groenland est recouvert de glace sur environ 80 pour cent de sa surface.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel instrument sert à mesurer la température ?",
+   "choices": [
+    "Le thermomètre",
+    "Le baromètre",
+    "Le chronomètre"
+   ],
+   "correct": 0,
+   "fact": "Le 1er thermomètre à mercure date de 1714, il a été mis au point par Fahrenheit.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de dents a un adulte ?",
+   "choices": [
+    "28",
+    "36",
+    "32"
+   ],
+   "correct": 2,
+   "fact": "Les dents de sagesse sont les dernières à pousser, en général entre 17 et 25 ans.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle scientifique a reçu 2 prix Nobel dans 2 sciences ?",
+   "choices": [
+    "Ada Lovelace",
+    "Rosalind Franklin",
+    "Marie Curie"
+   ],
+   "correct": 2,
+   "fact": "Elle a reçu le prix Nobel de physique en 1903, puis celui de chimie en 1911.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "L'Atlantique est le plus grand océan du monde.",
+   "answer": false,
+   "fact": "C'est le Pacifique, qui couvre environ un tiers de la surface de la Terre.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus petit os du corps humain ?",
+   "choices": [
+    "Le fémur",
+    "La rotule",
+    "L'étrier"
+   ],
+   "correct": 2,
+   "fact": "L'étrier, caché dans l'oreille, mesure environ 3 millimètres, soit la taille d'un grain de riz.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle planète tourne sur le côté ?",
+   "choices": [
+    "Neptune",
+    "Mars",
+    "Uranus"
+   ],
+   "correct": 2,
+   "fact": "Uranus est inclinée à 98 degrés, comme une boule qui roulerait sur son orbite.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le cœur humain a 6 cavités.",
+   "answer": false,
+   "fact": "Il en a 4 : 2 oreillettes et 2 ventricules, et il bat environ 100 000 fois par jour.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de temps met la lumière du Soleil pour arriver sur Terre ?",
+   "choices": [
+    "8 secondes",
+    "8 minutes",
+    "8 heures"
+   ],
+   "correct": 1,
+   "fact": "On voit toujours le Soleil tel qu'il était il y a 8 minutes.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le diamant est la matière naturelle la plus dure.",
+   "answer": true,
+   "fact": "Seul un autre diamant peut le rayer, ce qui en fait un matériau idéal pour couper.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus long fleuve de France ?",
+   "choices": [
+    "La Seine",
+    "La Loire",
+    "Le Rhône"
+   ],
+   "correct": 1,
+   "fact": "La Loire coule sur environ 1 000 kilomètres, de l'Ardèche jusqu'à l'océan Atlantique.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Même des jumeaux identiques ont des empreintes digitales différentes.",
+   "answer": true,
+   "fact": "Les empreintes se forment dans le ventre de la mère et ne sont jamais identiques.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La Grande Muraille de Chine est visible à l'œil nu depuis la Lune.",
+   "answer": false,
+   "fact": "Trop fine, elle est même très difficile à repérer depuis les stations en orbite basse.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+   "choices": [
+    "Italie",
+    "Angleterre",
+    "France"
+   ],
+   "correct": 2,
+   "fact": "Elle a été fabriquée à Paris, puis inaugurée à New York en 1886.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Vu depuis l'espace, le Soleil est blanc.",
+   "answer": true,
+   "fact": "C'est l'atmosphère qui le fait paraître jaune, surtout quand il est bas dans le ciel.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Il y a de l'or dans l'eau de mer.",
+   "answer": true,
+   "fact": "Il y en a une quantité minuscule, impossible à extraire de façon rentable.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le miel peut se conserver très longtemps.",
+   "answer": true,
+   "fact": "Il est si peu humide que les microbes ne s'y développent presque pas.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel élément chimique a pour symbole Au ?",
+   "choices": [
+    "L'or",
+    "L'argent",
+    "L'aluminium"
+   ],
+   "correct": 0,
+   "fact": "Le symbole Au vient du mot latin aurum, qui veut dire or, et qui a aussi donné le mot auréole.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "La Lune est plus grosse que la Terre.",
+   "answer": false,
+   "fact": "Elle est environ 4 fois plus petite en diamètre que la Terre.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le corps humain contient beaucoup d'eau.",
+   "answer": true,
+   "fact": "L'eau représente environ 60 pour cent du poids d'un adulte, et un peu plus chez un bébé.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le mont Blanc est le plus haut sommet des Alpes.",
+   "answer": true,
+   "fact": "Il culmine à environ 4 806 mètres, et sa hauteur change un peu selon la neige.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "L'Antarctique est la région la plus pluvieuse du monde.",
+   "answer": false,
+   "fact": "Il y tombe très peu de précipitations, c'est donc le plus grand désert du monde.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la plus grande planète du système solaire ?",
+   "choices": [
+    "Jupiter",
+    "Saturne",
+    "La Terre"
+   ],
+   "correct": 0,
+   "fact": "Jupiter est si grande que toutes les autres planètes pourraient tenir dedans.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "La Terre tourne autour du Soleil.",
+   "answer": true,
+   "fact": "Un tour complet dure environ 365 jours et 6 heures, d'où les années bissextiles.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Qui a écrit Le Petit Prince ?",
+   "choices": [
+    "Jules Verne",
+    "Victor Hugo",
+    "Saint-Exupéry"
+   ],
+   "correct": 2,
+   "fact": "Cet aviateur a écrit ce conte en 1943, et il a été traduit dans des centaines de langues.",
+   "level": "difficile"
+  }
+ ]
+}

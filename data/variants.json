@@ -594,5 +594,119 @@
    "sticker": "ES-TU UN GÉNIE ?",
    "line": "8 questions pour le savoir 🧠"
   }
- ]
+ ],
+ "rules": {
+  "_comment": "Vidéo longue v2 (09/11/2026) : règle du jeu affichée sur la carte d'intro et lue par la voix après l'accroche. Par banque, sinon par gabarit (devine, qcm, intrus, versus). {n} = nombre de questions.",
+  "drapeaux": [
+   {
+    "text": "{n} drapeaux, du facile à l'impossible 🌍 Trouve le pays avant la fin du chrono et compte tes points ⭐",
+    "voice": "{n} drapeaux du monde, classés du niveau facile au niveau impossible. Pour chacun, trouve le pays avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+   }
+  ],
+  "animaux": [
+   {
+    "text": "{n} animaux, du facile à l'impossible 🐾 Devine lequel c'est avant la fin du chrono et compte tes points ⭐",
+    "voice": "{n} animaux, du niveau facile au niveau impossible. Devine de quel animal il s'agit avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+   }
+  ],
+  "fruits-legumes": [
+   {
+    "text": "{n} fruits et légumes, du facile à l'impossible 🍓 Devine lequel c'est avant la fin du chrono ⭐",
+    "voice": "{n} fruits et légumes, du niveau facile au niveau impossible. Devine de quoi il s'agit avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+   }
+  ],
+  "pays-sans-voyelles": [
+   {
+    "text": "{n} pays sans leurs voyelles 🔤 Retrouve-les avant la fin du chrono, du facile à l'impossible ⭐",
+    "voice": "{n} noms de pays, mais sans leurs voyelles ! Retrouve chaque pays avant la fin du chrono, du niveau facile au niveau impossible. Compte tes points !"
+   }
+  ],
+  "maths": [
+   {
+    "text": "{n} calculs mentaux, du facile à l'impossible 🧮 Trouve le résultat avant la fin du chrono ⭐",
+    "voice": "{n} calculs de tête, du niveau facile au niveau impossible. Trouve le résultat avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+   }
+  ],
+  "alphabet": [
+   {
+    "text": "{n} lettres 🔤 Trouve un mot de la catégorie qui commence par la lettre, avant la fin du chrono ⭐",
+    "voice": "{n} lettres, du niveau facile au niveau impossible. À chaque fois, trouve un mot de la catégorie qui commence par la lettre affichée, avant la fin du chrono. Compte tes points !"
+   }
+  ],
+  "mots-emojis": [
+   {
+    "text": "{n} mots cachés dans des émojis 🧩 Décode-les avant la fin du chrono, du facile à l'impossible ⭐",
+    "voice": "{n} mots cachés derrière des émojis, du niveau facile au niveau impossible. Décode chaque mot avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+   }
+  ],
+  "films-emojis": [
+   {
+    "text": "{n} films cachés dans des émojis 🎬 Retrouve le titre avant la fin du chrono, du facile à l'impossible ⭐",
+    "voice": "{n} films cachés derrière des émojis, du niveau facile au niveau impossible. Retrouve le titre avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+   }
+  ],
+  "intrus": [
+   {
+    "text": "{n} grilles 👀 Un seul émoji est différent : trouve-le avant la fin du chrono, du facile à l'impossible ⭐",
+    "voice": "{n} grilles d'émojis, du niveau facile au niveau impossible. Dans chacune, un seul est différent des autres : trouve l'intrus avant la fin du chrono. Compte tes points !"
+   }
+  ],
+  "qcm": [
+   {
+    "text": "{n} questions, 4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono, du facile à l'impossible ⭐",
+    "voice": "{n} questions de {theme}, du niveau facile au niveau impossible. À chaque fois, quatre réponses, une seule est bonne : choisis avant la fin du chrono. Compte tes points !"
+   }
+  ],
+  "generations": [
+   {
+    "text": "{n} souvenirs, 4 réponses, une seule bonne 📼 Fouille ta mémoire avant la fin du chrono ⭐",
+    "voice": "{n} souvenirs des années soixante à quatre-vingt-dix, du niveau facile au niveau impossible. Quatre réponses, une seule est bonne : fouille ta mémoire avant la fin du chrono. Compte tes points !"
+   }
+  ],
+  "devine": [
+   {
+    "text": "{n} questions, du facile à l'impossible 🔥 Trouve la réponse avant la fin du chrono et compte tes points ⭐",
+    "voice": "{n} questions, du niveau facile au niveau impossible. Trouve la réponse avant la fin du chrono, puis elle s'affiche. Compte tes points !"
+   }
+  ],
+  "versus": [
+   {
+    "text": "{n} dilemmes 🤔 5 secondes pour choisir, pas de bonne réponse : dis tes choix en commentaire 👇",
+    "voice": "{n} dilemmes impossibles ! À chaque fois, cinq secondes pour choisir, et il n'y a pas de bonne réponse. Dis tes choix en commentaire !"
+   }
+  ]
+ },
+ "nextQuiz": [
+  "Choisis ton prochain défi en cliquant sur une des deux vidéos !",
+  "Et maintenant ? Un autre quiz t'attend : clique sur une des vidéos !",
+  "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !",
+  "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !"
+ ],
+ "interludes": {
+  "_comment": "Vidéo longue v2 : intermèdes toutes les 8 à 10 questions (data/interludes/<banque>.json). lead = amorce lue, vfTrue/vfFalse = réponse lue, answer3 = réponse lue des 3 choix.",
+  "lead": [
+   "Petite pause !",
+   "On souffle une seconde.",
+   "Intermède !",
+   "Petit bonus entre deux questions :",
+   "Une question à côté, pour le plaisir :"
+  ],
+  "vfRead": "Vrai ou faux : {q}",
+  "qcm3Read": "{q} {a}, {b}, ou {c} ?",
+  "vfTrue": [
+   "C'est vrai !",
+   "Vrai !",
+   "Eh oui, c'est vrai."
+  ],
+  "vfFalse": [
+   "C'est faux !",
+   "Faux !",
+   "Eh non, c'est faux."
+  ],
+  "answer3": [
+   "C'est {a} !",
+   "Réponse : {a}.",
+   "Eh oui : {a} !"
+  ]
+ }
 }

@@ -5,6 +5,7 @@
 import { existsSync, readdirSync } from "node:fs";
 import { BLACKLIST, argv, findBlacklisted, p, readJson, rng, shuffle, todayParis, writeJson } from "./lib.mjs";
 import { LEVEL_ORDER, answerSeconds } from "../src/levels.ts";
+import { interludeStep } from "../src/timeline.ts";
 
 const rotation = readJson(p("data/rotation.json"));
 const V = readJson(p("data/variants.json"));
@@ -16,6 +17,7 @@ if (process.env.REUSE_EPISODE) {
   const ep = readJson(file);
   if (!ep) throw new Error(`épisode ${id} introuvable`);
   for (const it of ep.items) delete it.voice;
+  for (const it of ep.interludes ?? []) delete it.voice;
   delete ep.voice;
   // Ré-ordonnancement par difficulté (rank) si la banque en fournit un (ex. drapeaux par population, 06/11/2026) :
   // on recolle d'abord le rank de la banque (les épisodes générés avant le reclassement n'en ont pas).
@@ -42,6 +44,18 @@ if (process.env.REUSE_EPISODE) {
   }
   ep.variants.scoreVoice = pick0(V0.score);
   if (ep.pillar !== "choix") ep.variants.outro = pick0(V0.outro);
+  // Vidéo longue v2 (09/11/2026) : règle lue à l'intro et carte finale « Prochain quiz » aussi pour un épisode ré-utilisé.
+  if (V0.rules) {
+    const slug = ep.bank ?? id.split("-").slice(3).join("-");
+    const kind = ep.template === "QuizQCM" ? (ep.pillar === "generations" ? "generations" : "qcm") : ep.template === "Versus" ? "versus" : ep.template === "Intrus" ? "intrus" : "devine";
+    const rules = V0.rules[slug] ?? V0.rules[kind] ?? V0.rules.devine;
+    const r = pick0(rules);
+    const lbl = (bank?.subject ?? bank?.noun ?? "").toLowerCase().replace(/^(les |des )/, "");
+    const fill0 = (t) => t.replaceAll("{n}", String(ep.items.length)).replaceAll("{theme}", lbl);
+    ep.variants.rule = fill0(r.text);
+    ep.variants.ruleVoice = fill0(r.voice);
+  }
+  if (V0.nextQuiz) ep.variants.nextQuizVoice = pick0(V0.nextQuiz);
   if (ep.meta?.description) ep.meta.description = ep.meta.description.replace("Compte tes points et dis ton score en commentaire 👇", "Compte tes points et dis ton score en commentaire 👇 Le meilleur score est félicité dès le lendemain 🏆");
   // Shorts v2 (3 par jour) et relais réseaux : un épisode généré avant le 09/11/2026 n'a pas short2/short3/shortHook/social →
   // les 10-12 nov. refaits dans la nuit du 09 au 10 n'ont eu qu'un seul Short. On complète ici ce qui manque.
@@ -163,9 +177,12 @@ const avgItemSeconds = (bank) => {
   });
   return per.reduce((a, b) => a + b, 0) / per.length;
 };
-const OVERHEAD = 3 + 5 + 4 * 1.5 + 5 + 5 + 10; // pré-roll, intro, cartes de niveau, score, outro, packshot
-const neededFor = (bank, target = TARGET) => Math.ceil((target - OVERHEAD) / avgItemSeconds(bank));
-const maxFor = (bank) => Math.floor((MAX_SECONDS - OVERHEAD) / avgItemSeconds(bank));
+const OVERHEAD = 3 + 12 + 4 * 1.5 + 5 + 5 + 10; // pré-roll, intro (+ règle lue, v2), cartes de niveau, score, outro, packshot
+// Vidéo longue v2 : un intermède (~15 s) toutes les ~9 questions, soit ~1,7 s de plus par item (hors « tu préfères »).
+const INTERLUDE_PER_ITEM = 15 / 9;
+const perItem = (bank) => avgItemSeconds(bank) + ((bank.timing?.reveal ?? 2) > 0 && existsSync(p(`data/interludes/${bank.slug}.json`)) ? INTERLUDE_PER_ITEM : 0);
+const neededFor = (bank, target = TARGET) => Math.ceil((target - OVERHEAD) / perItem(bank));
+const maxFor = (bank) => Math.floor((MAX_SECONDS - OVERHEAD) / perItem(bank));
 
 // 3. Banque : la moins utilisée récemment, pondérée (saison incluse) ; on écarte celles trop petites pour la durée cible.
 const mmdd = date.slice(5);
@@ -255,6 +272,30 @@ const variants = {
   outro: pick(outroPool),
   packshot: choose(packPool, prevSame ? packPool.find((x) => x.headline === prevSame.variants?.packshot?.headline) : undefined),
 };
+// Vidéo longue v2 (09/11/2026) : règle du jeu (carte d'intro, lue après l'accroche) et voix de la carte finale « Prochain quiz ».
+{
+  const kind = isChoice ? "versus" : conf.templates?.[bankName] === "Intrus" ? "intrus" : (conf.templates?.[bankName] ?? conf.template) === "QuizQCM" ? (pillar === "generations" ? "generations" : "qcm") : "devine";
+  const r = pick(V.rules?.[bank.slug] ?? V.rules?.[kind] ?? V.rules?.devine ?? [{ text: "", voice: "" }]);
+  if (r.text) { variants.rule = fill(r.text); variants.ruleVoice = fill(r.voice); }
+  if (V.nextQuiz) variants.nextQuizVoice = pick(V.nextQuiz);
+}
+// Intermèdes (vidéo longue v2) : toutes les 8 à 10 questions, en alternant vrai/faux et 3 choix, d'abord ceux jamais publiés.
+let interludes;
+{
+  const step = isChoice ? 0 : interludeStep(count);
+  const file = p(`data/interludes/${bank.slug}.json`);
+  if (step && existsSync(file)) {
+    const want = Math.floor((count - 1) / step);
+    const all = readJson(file)?.items ?? [];
+    const ikey = (it) => `interlude:${bank.slug}:${it.q}`;
+    const byType = (t) => { const xs = all.filter((it) => it.type === t); const fresh = xs.filter((it) => !state.items[ikey(it)]); return shuffle(fresh.length ? fresh : xs, rand).concat(shuffle(xs.filter((it) => !fresh.includes(it)), rand)); };
+    const vf = byType("vf"), q3 = byType("qcm3");
+    interludes = [];
+    for (let i = 0; i < want; i++) { const src = i % 2 === 0 ? vf : q3; const it = src.shift() ?? (i % 2 === 0 ? q3 : vf).shift(); if (it) interludes.push({ ...it }); }
+    for (const it of interludes) state.items[ikey(it)] = date;
+    if (!interludes.length) interludes = undefined;
+  }
+}
 
 // 7. Titre (formule par pilier, jamais identique à un titre déjà produit), description, tags, miniature.
 const hook = bank.hook.replace("{n}", String(count));
@@ -290,6 +331,7 @@ const episode = {
   question: bank.question,
   intro: { hook: hook.replace(/\s+/g, " "), sub },
   items,
+  ...(interludes ? { interludes } : {}),
   timing: bank.timing ?? { question: 3, reveal: 2 },
   ...(champion ? { champion } : {}),
   ...(S.lang !== "fr" ? { lang: S.lang } : {}),
@@ -313,7 +355,7 @@ const episode = {
 };
 
 // 8. Garde-fou liste noire.
-const bad = findBlacklisted([episode.title, episode.meta.description, ...items.map((i) => `${JSON.stringify(i.prompt)} ${i.answer} ${i.fact ?? ""}`)].join(" "));
+const bad = findBlacklisted([episode.title, episode.meta.description, ...items.map((i) => `${JSON.stringify(i.prompt)} ${i.answer} ${i.fact ?? ""}`), ...(interludes ?? []).map((i) => `${i.q} ${(i.choices ?? []).join(" ")} ${i.fact}`)].join(" "));
 if (bad.length) throw new Error(`termes interdits dans l'épisode : ${bad.join(", ")}`);
 
 // 9. Écriture + état.
@@ -323,4 +365,4 @@ for (const it of items) state.items[`${bankName}:${key(it)}`] = date;
 state.banks[bankName] = date;
 writeJson(p("data/state/used.json"), state);
 writeJson(p("data/state/current.json"), { id: episode.id, file: out, date, pillar, bank: bankName });
-console.log(`épisode : ${episode.id} — ${count} items (${facts} faits), cible ${TARGET} s, ${themeName}/${style.pattern}/${style.timer}/${style.reveal} — ${title}`);
+console.log(`épisode : ${episode.id} — ${count} items (${facts} faits, ${interludes?.length ?? 0} intermèdes), cible ${TARGET} s, ${themeName}/${style.pattern}/${style.timer}/${style.reveal} — ${title}`);

@@ -1,0 +1,576 @@
+{
+ "slug": "drapeaux",
+ "theme": "les drapeaux du monde",
+ "items": [
+  {
+   "type": "vf",
+   "q": "Le drapeau du Qatar a un bord en dents de scie.",
+   "answer": true,
+   "fact": "Blanc et grenat avec 9 pointes, c'est le drapeau national le plus allongé du monde.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien d'étoiles compte le drapeau néo-zélandais ?",
+   "choices": [
+    "Trois",
+    "Quatre",
+    "Cinq"
+   ],
+   "correct": 1,
+   "fact": "Ces 4 étoiles rouges bordées de blanc dessinent la constellation de la Croix du Sud.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Espagne est bleu et jaune.",
+   "answer": false,
+   "fact": "Il est rouge et jaune, et la bande jaune du milieu est 2 fois plus large que les rouges.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle bande est la plus large sur le drapeau colombien ?",
+   "choices": [
+    "La jaune",
+    "La bleue",
+    "La rouge"
+   ],
+   "correct": 0,
+   "fact": "La bande jaune du haut occupe la moitié du drapeau, soit 2 fois plus que les autres.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de la Norvège porte une croix décalée vers le mât.",
+   "answer": true,
+   "fact": "Comme chez tous ses voisins nordiques, la croix n'est pas centrée mais décalée.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a le drapeau appelé Dannebrog ?",
+   "choices": [
+    "Norvège",
+    "Islande",
+    "Danemark"
+   ],
+   "correct": 2,
+   "fact": "Ce nom veut dire l'étoffe des Danois, et ce drapeau a plus de 600 ans.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Portugal est vert et jaune.",
+   "answer": false,
+   "fact": "Il est vert et rouge, avec une sphère armillaire, un ancien instrument de navigation.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal figure sur le drapeau du pays de Galles ?",
+   "choices": [
+    "Un lion",
+    "Un cheval",
+    "Un dragon"
+   ],
+   "correct": 2,
+   "fact": "Le dragon rouge est l'emblème du pays de Galles depuis le Moyen Âge, et il flotte toujours.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de la Suisse est plus long que haut.",
+   "answer": false,
+   "fact": "Il est carré, comme celui du Vatican : ce sont les 2 seuls drapeaux nationaux carrés du monde.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle est la couleur de la bande du milieu du drapeau allemand ?",
+   "choices": [
+    "Noir",
+    "Or",
+    "Rouge"
+   ],
+   "correct": 2,
+   "fact": "Ces 3 couleurs flottaient déjà sur le Parlement de Francfort en 1848.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle forme a le drapeau du Népal ?",
+   "choices": [
+    "Un carré",
+    "Un rectangle",
+    "Deux triangles"
+   ],
+   "correct": 2,
+   "fact": "Ses 2 pointes évoquent les sommets de l'Himalaya, et c'est un cas unique au monde.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a la carte de son île sur son drapeau ?",
+   "choices": [
+    "Sri Lanka",
+    "Madagascar",
+    "Chypre"
+   ],
+   "correct": 2,
+   "fact": "Le drapeau chypriote montre l'île en couleur cuivre, avec 2 branches d'olivier.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Canada porte une feuille d'érable.",
+   "answer": true,
+   "fact": "Cette feuille à 11 pointes est devenue l'emblème du drapeau canadien en 1965.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal est perché sur le drapeau mexicain ?",
+   "choices": [
+    "Un faucon",
+    "Un aigle",
+    "Un lion"
+   ],
+   "correct": 1,
+   "fact": "Il rappelle la légende de la fondation de Mexico, bâtie sur un lac.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal tient une épée sur le drapeau du Sri Lanka ?",
+   "choices": [
+    "Un tigre",
+    "Un lion",
+    "Un éléphant"
+   ],
+   "correct": 1,
+   "fact": "Ce lion doré vient d'un drapeau de l'ancien royaume de Kandy.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a une feuille d'érable sur son drapeau ?",
+   "choices": [
+    "Canada",
+    "Australie",
+    "Suède"
+   ],
+   "correct": 0,
+   "fact": "Le Canada a adopté ce drapeau le 15 février 1965, après de longs débats.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de la Grèce est composé de 9 bandes horizontales.",
+   "answer": true,
+   "fact": "Des bandes bleues et blanches alternent, avec une croix blanche sur fond bleu en haut.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a un losange jaune sur son drapeau vert ?",
+   "choices": [
+    "Portugal",
+    "Bolivie",
+    "Brésil"
+   ],
+   "correct": 2,
+   "fact": "Les 27 étoiles du globe bleu représentent les 26 États et le district fédéral.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Sur le drapeau polonais, le rouge est en haut et le blanc en bas.",
+   "answer": false,
+   "fact": "Le blanc est en haut, et si on l'inverse, on obtient le drapeau de l'Indonésie.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de la France est bleu, blanc et rouge.",
+   "answer": true,
+   "fact": "Le bleu et le rouge sont les couleurs de Paris, le blanc celle de la royauté.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de Monaco est vert et blanc.",
+   "answer": false,
+   "fact": "Il est rouge et blanc, presque identique à celui de l'Indonésie.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a un drapeau avec 50 étoiles ?",
+   "choices": [
+    "Brésil",
+    "États-Unis",
+    "Australie"
+   ],
+   "correct": 1,
+   "fact": "Le drapeau américain a changé 27 fois, la dernière en 1960 pour l'arrivée d'Hawaï.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de la Jamaïque ne contient ni rouge, ni blanc, ni bleu.",
+   "answer": true,
+   "fact": "Noir, vert et or : c'est le seul drapeau national sans rouge, blanc ni bleu.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle couleur ne figure pas sur le drapeau français ?",
+   "choices": [
+    "Vert",
+    "Bleu",
+    "Rouge"
+   ],
+   "correct": 0,
+   "fact": "Le drapeau tricolore a été adopté en 1794 et son ordre actuel date de 1830.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Mexique est vert, blanc et rouge.",
+   "answer": true,
+   "fact": "Il a le même trio de couleurs que l'Italie, avec un aigle au centre en plus.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle couleur est en haut du drapeau néerlandais ?",
+   "choices": [
+    "Rouge",
+    "Bleu",
+    "Orange"
+   ],
+   "correct": 0,
+   "fact": "À l'origine, la bande du haut était orange, la couleur de la famille d'Orange.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Japon porte un cercle bleu sur fond blanc.",
+   "answer": false,
+   "fact": "Son cercle est rouge : il représente le soleil, car le Japon est le pays du Soleil-Levant.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Brésil est bleu, blanc et rouge.",
+   "answer": false,
+   "fact": "Il est vert avec un losange jaune, et un globe bleu au centre qui porte une devise.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Autriche est rouge, blanc, rouge.",
+   "answer": true,
+   "fact": "Il est réputé être l'un des plus anciens drapeaux nationaux d'Europe.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel oiseau violet figure sur le drapeau de la Dominique ?",
+   "choices": [
+    "Un colibri",
+    "Un aigle",
+    "Un perroquet"
+   ],
+   "correct": 2,
+   "fact": "C'est l'un des rares drapeaux nationaux qui contiennent du violet.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Allemagne est rouge, blanc et bleu.",
+   "answer": false,
+   "fact": "Il est noir, rouge et or, de haut en bas, en 3 bandes horizontales.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a une croix jaune sur un drapeau bleu ?",
+   "choices": [
+    "Suède",
+    "Norvège",
+    "Finlande"
+   ],
+   "correct": 0,
+   "fact": "Ces couleurs rappellent les armoiries royales : 3 couronnes d'or sur fond bleu.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays d'Afrique a un bouclier et 2 lances sur son drapeau ?",
+   "choices": [
+    "Kenya",
+    "Ghana",
+    "Égypte"
+   ],
+   "correct": 0,
+   "fact": "Le bouclier au centre du drapeau kényan s'inspire de ceux du peuple massaï.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelles sont les couleurs du drapeau du Tchad ?",
+   "choices": [
+    "Vert, jaune, rouge",
+    "Noir, jaune, rouge",
+    "Bleu, jaune, rouge"
+   ],
+   "correct": 2,
+   "fact": "Il est presque identique à celui de la Roumanie, à une nuance de bleu près.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel drapeau a trois bandes verticales vertes, blanches et rouges ?",
+   "choices": [
+    "Hongrie",
+    "Pays-Bas",
+    "Italie"
+   ],
+   "correct": 2,
+   "fact": "Les 3 couleurs italiennes sont apparues sur un drapeau dès 1797.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Pérou a 3 bandes horizontales.",
+   "answer": false,
+   "fact": "Rouge, blanc, rouge, ses bandes sont verticales, contrairement à celles de l'Autriche.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a un drapeau bleu ciel et blanc avec un soleil ?",
+   "choices": [
+    "Chili",
+    "Argentine",
+    "Grèce"
+   ],
+   "correct": 1,
+   "fact": "Le soleil du drapeau argentin s'appelle le Soleil de Mai et il possède un visage.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a un drapeau noir, rouge et or ?",
+   "choices": [
+    "Allemagne",
+    "Pays-Bas",
+    "Suède"
+   ],
+   "correct": 0,
+   "fact": "Ces couleurs viennent de l'uniforme d'un corps de volontaires de 1813.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Les bandes du drapeau belge sont verticales.",
+   "answer": true,
+   "fact": "Noir, jaune et rouge : ces couleurs viennent des armoiries du duché de Brabant.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de la Chine compte dix étoiles.",
+   "answer": false,
+   "fact": "Il en compte 5, jaunes sur fond rouge : une grande et 4 petites disposées en arc.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a une croix bleue sur un drapeau blanc ?",
+   "choices": [
+    "Grèce",
+    "Finlande",
+    "Islande"
+   ],
+   "correct": 1,
+   "fact": "La Finlande a adopté ce drapeau en 1918, quelques mois après son indépendance.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel arbre figure sur le drapeau du Liban ?",
+   "choices": [
+    "Le chêne",
+    "Le cèdre",
+    "Le palmier"
+   ],
+   "correct": 1,
+   "fact": "Le cèdre du Liban est un arbre qui peut vivre plus de 1 000 ans.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a un cercle rouge sur un drapeau blanc ?",
+   "choices": [
+    "Pologne",
+    "Japon",
+    "Norvège"
+   ],
+   "correct": 1,
+   "fact": "Le drapeau japonais s'appelle le Hinomaru, ce qui veut dire le cercle du soleil.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle constellation figure sur le drapeau australien ?",
+   "choices": [
+    "La Croix du Sud",
+    "La Grande Ourse",
+    "Orion"
+   ],
+   "correct": 0,
+   "fact": "Une grande étoile à 7 branches représente aussi les États et les territoires.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de la Turquie est vert avec une étoile.",
+   "answer": false,
+   "fact": "Il est rouge, orné d'un croissant et d'une étoile blancs, comme un ciel de nuit.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Italie est bleu, blanc et rouge.",
+   "answer": false,
+   "fact": "Il est vert, blanc et rouge, rangé en 3 bandes verticales de même largeur.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle lettre dessine la bande verte du drapeau sud-africain ?",
+   "choices": [
+    "Un X",
+    "Un Y",
+    "Un T"
+   ],
+   "correct": 1,
+   "fact": "Ce drapeau a été adopté en 1994 et il compte 6 couleurs différentes.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Irlande est vert, blanc et orange.",
+   "answer": true,
+   "fact": "Il ressemble à celui de la Côte d'Ivoire, mais avec l'ordre des couleurs inversé.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Afrique du Sud compte 6 couleurs.",
+   "answer": true,
+   "fact": "Adopté en 1994, il réunit noir, blanc, rouge, bleu, vert et jaune.",
+   "level": "moyen"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays du Pacifique a un disque jaune décalé sur fond bleu ?",
+   "choices": [
+    "Bangladesh",
+    "Palaos",
+    "Japon"
+   ],
+   "correct": 1,
+   "fact": "Son disque est volontairement décalé, comme la lune, pour ne pas copier le drapeau japonais.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Estonie est vert, rouge et noir.",
+   "answer": false,
+   "fact": "Il est bleu, noir et blanc, en 3 bandes horizontales, le bleu en haut.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Islande est bleu avec une croix rouge bordée de blanc.",
+   "answer": true,
+   "fact": "L'Islande utilise ce drapeau à croix nordique depuis 1915, et il est officiel depuis 1944.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau des États-Unis compte 50 étoiles.",
+   "answer": true,
+   "fact": "Chaque étoile représente un État, et les 13 bandes rappellent les premières colonies.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Inde porte une roue bleue en son centre.",
+   "answer": true,
+   "fact": "Cette roue de 24 rayons s'appelle la roue de la loi, et elle est dessinée en bleu marine.",
+   "level": "moyen"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Royaume-Uni s'appelle l'Union Jack.",
+   "answer": true,
+   "fact": "Il superpose les drapeaux de l'Angleterre, de l'Écosse et de l'Irlande.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel monument figure sur le drapeau du Cambodge ?",
+   "choices": [
+    "Angkor Wat",
+    "Le Taj Mahal",
+    "Borobudur"
+   ],
+   "correct": 0,
+   "fact": "C'est le seul drapeau national du monde qui représente un bâtiment.",
+   "level": "difficile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a une croix blanche sur fond rouge ?",
+   "choices": [
+    "Suède",
+    "Italie",
+    "Suisse"
+   ],
+   "correct": 2,
+   "fact": "Le Danemark aussi porte une croix blanche sur fond rouge, mais son drapeau est rectangulaire.",
+   "level": "facile"
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de couleurs a le drapeau belge ?",
+   "choices": [
+    "Trois",
+    "Deux",
+    "Quatre"
+   ],
+   "correct": 0,
+   "fact": "Noir, jaune et rouge : un trio qui vient des armoiries du duché de Brabant.",
+   "level": "facile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Liechtenstein n'a jamais porté de couronne.",
+   "answer": false,
+   "fact": "Une couronne a été ajoutée en 1937, car son drapeau était identique à celui d'Haïti.",
+   "level": "difficile"
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Bhoutan porte un dragon.",
+   "answer": true,
+   "fact": "Son dragon blanc fait écho au nom du pays, qui signifie le pays du dragon tonnerre.",
+   "level": "difficile"
+  }
+ ]
+}

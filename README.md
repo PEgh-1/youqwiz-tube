@@ -14,7 +14,8 @@ generate  →  tts  →  chapters  →  render  →  qc  →  upload
 
 - `data/rotation.json` : rotation hebdomadaire des thèmes, heures de publication, poids des banques, durée cible.
 - `data/banks/*.json` : banques de questions (animaux, drapeaux, pays sans voyelles, culture générale, tu préfères…).
-- `data/variants.json` : textes de l'habillage (pré-roll, accroche, cartes, score, outro, packshot).
+- `data/variants.json` : textes de l'habillage (pré-roll, accroche, règle du jeu, cartes, score, outro, « prochain quiz »).
+- `data/interludes/*.json` : intermèdes (vrai/faux, 3 choix + anecdote) insérés toutes les 8 à 10 questions.
 - `data/episodes/<date>-<slug>.json` : l'épisode généré (questions, titre, description, tags, miniature).
 - `data/state/` : items déjà publiés et file de programmation (commités par le bot).
 - `src/` : gabarits Remotion (`DevineEn3s`, `DevineShort`, `Versus`, `QuizQCM`, `Intrus`, `Thumbnail`).
@@ -25,6 +26,17 @@ generate  →  tts  →  chapters  →  render  →  qc  →  upload
 Chaque épisode a son propre habillage (palette, motif, chrono, animation, piste musicale), ses propres textes et une
 durée cible de 10 à 20 min. Le contrôle qualité (`scripts/qc.mjs`) vérifie notamment l'unicité des titres et
 descriptions.
+
+## Vidéo longue v2 (09/11/2026)
+
+Inspirée des chaînes de quiz « à transitions » : la carte d'intro explique la règle du jeu (texte par banque dans
+`data/variants.json` → `rules`, lu par la voix après l'accroche) ; chaque changement de scène (question, carte de niveau,
+intermède) passe par une transition « déchirure » de 0,8 s portée par le chat ou le poussin en alternance, et le décor
+change d'angle et de motif sous la transition (`Wipe`, `WipeLayer`, `sceneVariant` dans `src/`) ; toutes les 8 à 10
+questions, un intermède sans points (vrai/faux ou 3 choix + anecdote, `data/interludes/<banque>.json`, 60 par banque)
+casse le rythme ; la vidéo se termine par une carte « Prochain quiz » (2 vidéos + S'abonner) à la place du packshot
+site. Les Shorts ne sont pas concernés. Un rendu de test se lance avec `skip_upload=true` : la vidéo longue est déposée
+en pré-release `test-<id>` (à supprimer après contrôle) et ne bloque pas la production du jour.
 
 ## Musique de fond
 
