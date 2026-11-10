@@ -4,7 +4,11 @@
 // L'API ne sait pas épingler : l'épinglage est fait à la main / par Claude (navigateur).
 // 08/11/2026 : le meilleur score de la veille est félicité dans le commentaire du jour + réponse à son commentaire.
 import { google } from "googleapis";
-import { p, readJson, todayParis, writeJson } from "./lib.mjs";
+import { CHANNEL, p, readJson, todayParis, writeJson } from "./lib.mjs";
+
+// Page jouable de l'épisode sur youqwiz.com : /quiz-du-jour/<id> (FR), /en/daily-quiz/<id> (CHANNEL=en, 10/11/2026).
+const EN = CHANNEL === "en";
+const quizPage = (id) => (EN ? `https://youqwiz.com/en/daily-quiz/${id}` : `https://youqwiz.com/quiz-du-jour/${id}`);
 
 const { YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN } = process.env;
 if (!(YT_CLIENT_ID && YT_CLIENT_SECRET && YT_REFRESH_TOKEN)) throw new Error("secrets YT_* absents");
@@ -17,6 +21,7 @@ const mode = process.argv.includes("--leaderboard") ? "leaderboard" : "post";
 
 // Commentaire épinglé : trois formulations par pilier, tirées selon l'épisode (03/11/2026 : variation).
 const COMMENT = (ep, champion) => {
+  if (EN) return COMMENT_EN(ep, champion);
   const isChoice = ep?.pillar === "choix";
   const h = [...String(ep?.id ?? "")].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
   const openers = isChoice
@@ -25,9 +30,22 @@ const COMMENT = (ep, champion) => {
   // 08/11/2026 : le meilleur score de la veille est félicité ici chaque jour ; le champion de la semaine reste cité dans la vidéo du lundi.
   const second = isChoice ? "Le choix le plus commenté de la semaine est cité dans la vidéo du lundi." : "Le meilleur score d'hier est félicité ici chaque jour, et le champion de la semaine est cité dans la vidéo du lundi, avec ton pseudo 👑";
   const crown = champion ? `👑 Champion d'hier : ${champion.name} avec ${champion.score.toLocaleString("fr-FR")} pts — bravo ! Qui fait mieux aujourd'hui ?` : null;
-  const page = `https://youqwiz.com/quiz-du-jour/${ep?.id ?? ""}`;
+  const page = quizPage(ep?.id ?? "");
   const ctas = [`🎮 Joue à ce quiz en version interactive et défie tes proches : ${page}`, `🎮 Le même quiz, jouable sur ton téléphone : ${page}`, `🎮 Compare ton score avec tes amis sur ${page}`];
   return [openers[h % openers.length], second, ...(crown ? ["", crown] : []), "", ctas[(h >> 3) % ctas.length], "🔔 Un nouveau quiz chaque jour à 17h30 — abonne-toi !"].join("\n");
+};
+// Chaîne anglaise (CHANNEL=en) : même structure, liens vers youqwiz.com/en/.
+const COMMENT_EN = (ep, champion) => {
+  const isChoice = ep?.pillar === "choix";
+  const h = [...String(ep?.id ?? "")].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
+  const openers = isChoice
+    ? ["🤔 Your toughest picks? Tell us here 👇", "😅 Which one made you hesitate the longest? 👇", "👀 What did you pick for question 10? Tell us here 👇"]
+    : ["🏆 YOUR SCORE? Write it in the comments (e.g. \"3,400 pts\") 👇", "🧠 How many points? Drop your score here (e.g. \"2,800 pts\") 👇", "⭐ Comment your score (e.g. \"4,100 pts\") and your favorite question 👇"];
+  const second = isChoice ? "The most commented pick of the week gets a shout-out in Monday's video." : "Yesterday's best score gets a shout-out here every day 👑";
+  const crown = champion ? `👑 Yesterday's champion: ${champion.name} with ${champion.score.toLocaleString("en-US")} pts. Who can beat that today?` : null;
+  const page = quizPage(ep?.id ?? "");
+  const ctas = [`🎮 Play this quiz online and challenge your friends: ${page}`, `🎮 Same quiz, playable on your phone: ${page}`, `🎮 Compare your score with your friends at ${page}`];
+  return [openers[h % openers.length], second, ...(crown ? ["", crown] : []), "", ctas[(h >> 3) % ctas.length], "🎯 More free quizzes: https://youqwiz.com/en/", "🔔 A new quiz every day at 6 PM ET, subscribe!"].join("\n");
 };
 
 // Scores valides trouvés dans les commentaires d'une liste de vidéos (hors « tu préfères », hors chaîne elle-même).
@@ -84,7 +102,7 @@ if (mode === "post") {
         const prev = queue.published.find((x) => x.id === daily.episode);
         if (prev && !prev.dailyChampion) {
           try {
-            await yt.comments.insert({ part: ["snippet"], requestBody: { snippet: { parentId: daily.threadId, textOriginal: `🏆 Bravo ${daily.name}, meilleur score d'hier avec ${daily.score.toLocaleString("fr-FR")} pts ! Tu es félicité dans le commentaire épinglé du quiz du jour 👉 https://youtu.be/${r.longId}` } } });
+            await yt.comments.insert({ part: ["snippet"], requestBody: { snippet: { parentId: daily.threadId, textOriginal: EN ? `🏆 Well done ${daily.name}, yesterday's best score with ${daily.score.toLocaleString("en-US")} pts! You get a shout-out in the pinned comment of today's quiz 👉 https://youtu.be/${r.longId}` : `🏆 Bravo ${daily.name}, meilleur score d'hier avec ${daily.score.toLocaleString("fr-FR")} pts ! Tu es félicité dans le commentaire épinglé du quiz du jour 👉 https://youtu.be/${r.longId}` } } });
             prev.dailyChampion = { name: daily.name, score: daily.score, congratulatedIn: r.id };
             console.log(`${daily.episode} : champion ${daily.name} félicité`);
           } catch (e) {
@@ -105,7 +123,7 @@ if (mode === "post") {
     for (const [vid, key, after] of [[r.shortId, "shortCommentId", t], [r.shortId2, "short2CommentId", Date.parse(r.short2PublishAt ?? r.publishAt)], [r.shortId3, "short3CommentId", Date.parse(r.short3PublishAt ?? r.publishAt)]]) {
       if (!vid || r[key] || after > now) continue;
       try {
-        const res = await yt.commentThreads.insert({ part: ["snippet"], requestBody: { snippet: { videoId: vid, topLevelComment: { snippet: { textOriginal: `🎬 La réponse + toutes les questions ici 👉 https://youtu.be/${r.longId}\n🎮 Joue au quiz complet : https://youqwiz.com/quiz-du-jour/${r.id}` } } } } });
+        const res = await yt.commentThreads.insert({ part: ["snippet"], requestBody: { snippet: { videoId: vid, topLevelComment: { snippet: { textOriginal: EN ? `🎬 The answer + all the questions here 👉 https://youtu.be/${r.longId}\n🎮 Play the full quiz: ${quizPage(r.id)}` : `🎬 La réponse + toutes les questions ici 👉 https://youtu.be/${r.longId}\n🎮 Joue au quiz complet : ${quizPage(r.id)}` } } } } });
         r[key] = res.data.id;
         n++;
       } catch (e) {

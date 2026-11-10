@@ -1,5 +1,5 @@
 {
- "_comment": "YouQwiz English (09/11/2026) — same structure as data/variants.json, in English. The site youqwiz.com is French-only: no call to action points to it; packshots and CTAs push the channel (subscribe, comment your score). {theme} = today's topic, {n} = number of questions, {noun} = bank subject, {weekday} = day. 'strings' = texts used by scripts/generate.mjs, 'tts' = texts used by scripts/tts.mjs.",
+ "_comment": "YouQwiz English (09/11/2026) — same structure as data/variants.json, in English. 10/11/2026: youqwiz.com has an English version (/en/): the description links to the playable episode (strings.quizPath + id, which replaces 'https://youqwiz.com' in descriptionCta) and the Short descriptions link to https://youqwiz.com/en/; in-video packshots and CTAs still push the channel (subscribe, comment your score). {theme} = today's topic, {n} = number of questions, {noun} = bank subject, {weekday} = day. 'strings' = texts used by scripts/generate.mjs, 'tts' = texts used by scripts/tts.mjs.",
  "lang": "en",
  "strings": {
   "lang": "en",
@@ -53,7 +53,7 @@
    "Beat your score tomorrow, subscribe",
    "Comment your score and challenge a friend"
   ],
-  "quizPath": "https://www.youtube.com/@youqwiz_en",
+  "quizPath": "https://youqwiz.com/en/daily-quiz/",
   "hashtags": {
    "generations": " #nostalgia",
    "choice": " #wouldyourather",
@@ -558,10 +558,10 @@
   ]
  },
  "descriptionCta": [
-  "🏆 Comment your score and see who beats it",
-  "😏 Send this quiz to someone who thinks they can beat you",
-  "🧠 Play along with family or friends and compare your scores",
-  "🎯 Keep your streak alive and tell us how far you got"
+  "🎮 Play this quiz on your phone and challenge your friends: https://youqwiz.com",
+  "🎮 Same quiz, playable online: https://youqwiz.com",
+  "🏆 Compare your score with your friends at https://youqwiz.com",
+  "😏 Send this quiz to someone who thinks they can beat you: https://youqwiz.com"
  ],
  "descriptionSub": [
   "🔔 A new quiz every day, subscribe!",
@@ -578,9 +578,9 @@
   "Question 8 is impossible 😱 {hook} #Shorts"
  ],
  "shortDescriptions": [
-  "The answer + {n} questions in the full video 🎬 {url}\n🔔 A new quiz every day, subscribe!\n#shorts #quiz #youqwiz",
-  "Want the answer? It's in the full video ({n} questions) 🎬 {url}\n🔔 Subscribe for tomorrow's quiz\n#shorts #quiz #youqwiz",
-  "Full video with all {n} questions 👉 {url}\n😏 Challenge your friends in the comments\n#shorts #quiz #youqwiz"
+  "The answer + {n} questions in the full video 🎬 {url}\n🎮 Play it online: https://youqwiz.com/en/\n🔔 A new quiz every day, subscribe!\n#shorts #quiz #youqwiz",
+  "Want the answer? It's in the full video ({n} questions) 🎬 {url}\n🎮 Free quizzes to play with friends: https://youqwiz.com/en/\n🔔 Subscribe for tomorrow's quiz\n#shorts #quiz #youqwiz",
+  "Full video with all {n} questions 👉 {url}\n😏 Challenge your friends on https://youqwiz.com/en/\n#shorts #quiz #youqwiz"
  ],
  "thumbStickers": [
   "99% FAIL",
