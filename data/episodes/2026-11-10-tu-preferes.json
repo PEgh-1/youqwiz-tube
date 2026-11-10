@@ -13,7 +13,7 @@
  "variants": {
   "preroll": {
    "text": "Bon mardi ! ☀️",
-   "voice": "Bon mardi ! Au programme : Bon mardi ! ☀️ !"
+   "voice": "Bon mardi ! Au programme : choix impossibles !"
   },
   "introCta": "✍️ Note tes points, on compare à la fin",
   "subscribe": {
@@ -70,7 +70,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/0-q.mp3",
-     "sec": 8.777143
+     "sec": 5.250612,
+     "text": "Premier choix. Tu préfères… Une cabane dans les arbres, ou Un tunnel secret sous ta maison ?"
     }
    }
   },
@@ -86,7 +87,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/1-q.mp3",
-     "sec": 5.773061
+     "sec": 4.858776,
+     "text": "Tu préfères… Boire du jus d'orange tous les matins, ou Boire du lait chaud tous les matins ?"
     }
    }
   },
@@ -102,7 +104,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/2-q.mp3",
-     "sec": 4.336327
+     "sec": 3.657143,
+     "text": "Tu préfères… Parler comme un pirate, ou Marcher comme un robot ?"
     }
    }
   },
@@ -118,7 +121,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/3-q.mp3",
-     "sec": 4.91102
+     "sec": 3.657143,
+     "text": "Tu préfères… Un train qui roule sous l'eau, ou Un bus qui vole ?"
     }
    }
   },
@@ -134,7 +138,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/4-q.mp3",
-     "sec": 5.955918
+     "sec": 4.597551,
+     "text": "Tu préfères… Faire une dictée de 3 pages, ou Apprendre 3 poésies par cœur ?"
     }
    }
   },
@@ -150,7 +155,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/5-q.mp3",
-     "sec": 6.086531
+     "sec": 4.519184,
+     "text": "Tu préfères… Utiliser un vieux téléphone à cadran, ou Utiliser un pigeon voyageur ?"
     }
    }
   },
@@ -166,7 +172,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/6-q.mp3",
-     "sec": 5.067755
+     "sec": 4.649796,
+     "text": "Tu préfères… Disparaître quand tu as honte, ou Voler quand tu es content ?"
     }
    }
   },
@@ -182,7 +189,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/7-q.mp3",
-     "sec": 4.728163
+     "sec": 4.153469,
+     "text": "Tu préfères… Être fier comme un coq, ou Être rusé comme un renard ?"
     }
    }
   },
@@ -198,7 +206,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/8-q.mp3",
-     "sec": 3.787755
+     "sec": 3.134694,
+     "text": "Tu préfères… Parler aux plantes, ou Parler aux nuages ?"
     }
    }
   },
@@ -214,7 +223,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/9-q.mp3",
-     "sec": 7.88898
+     "sec": 6.321633,
+     "text": "Choix numéro 10. Tu préfères… Ne jamais perdre une partie de cartes, ou Ne jamais rater un tir au ballon ?"
     }
    }
   },
@@ -230,7 +240,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/10-q.mp3",
-     "sec": 3.892245
+     "sec": 3.343673,
+     "text": "Tu préfères… Faire de l'escalade, ou Faire du vélo ?"
     }
    }
   },
@@ -246,7 +257,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/11-q.mp3",
-     "sec": 4.754286
+     "sec": 4.388571,
+     "text": "Tu préfères… Rendre tout le monde heureux, ou Rendre tout le monde généreux ?"
     }
    }
   },
@@ -262,7 +274,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/12-q.mp3",
-     "sec": 5.146122
+     "sec": 3.526531,
+     "text": "Tu préfères… Avoir un super-chat, ou Avoir un super-chien ?"
     }
    }
   },
@@ -278,7 +291,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/13-q.mp3",
-     "sec": 3.787755
+     "sec": 3.291429,
+     "text": "Tu préfères… Faire du pain maison, ou Faire des pâtes fraîches ?"
     }
    }
   },
@@ -294,7 +308,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/14-q.mp3",
-     "sec": 4.362449
+     "sec": 3.186939,
+     "text": "Tu préfères… Un mois sans lire, ou Un mois sans dessiner ?"
     }
    }
   },
@@ -310,7 +325,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/15-q.mp3",
-     "sec": 5.381224
+     "sec": 4.440816,
+     "text": "Tu préfères… Une tempête de neige à la maison, ou Un matin de brouillard ?"
     }
    }
   },
@@ -326,7 +342,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/16-q.mp3",
-     "sec": 3.970612
+     "sec": 2.76898,
+     "text": "Tu préfères… Savoir voler, ou Être invisible ?"
     }
    }
   },
@@ -342,7 +359,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/17-q.mp3",
-     "sec": 4.493061
+     "sec": 3.578776,
+     "text": "Tu préfères… Manger avec des baguettes, ou Manger avec les mains ?"
     }
    }
   },
@@ -358,7 +376,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/18-q.mp3",
-     "sec": 5.407347
+     "sec": 3.526531,
+     "text": "Tu préfères… Ramasser des coquillages, ou Ramasser des pommes de pin ?"
     }
    }
   },
@@ -374,7 +393,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/19-q.mp3",
-     "sec": 7.549388
+     "sec": 5.929796,
+     "text": "Choix numéro 20. Tu préfères… Avoir un jardin avec un labyrinthe, ou Avoir une cabane avec un toboggan ?"
     }
    }
   },
@@ -390,7 +410,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/20-q.mp3",
-     "sec": 4.675918
+     "sec": 4.127347,
+     "text": "Tu préfères… Un été sans glace, ou Un hiver sans chocolat chaud ?"
     }
    }
   },
@@ -406,7 +427,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/21-q.mp3",
-     "sec": 6.086531
+     "sec": 5.198367,
+     "text": "Tu préfères… Un ballon qui rebondit à l'infini, ou Un cerf-volant qui ne retombe jamais ?"
     }
    }
   },
@@ -422,7 +444,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/22-q.mp3",
-     "sec": 4.153469
+     "sec": 3.422041,
+     "text": "Tu préfères… Écrire avec le pied, ou Dessiner avec le nez ?"
     }
    }
   },
@@ -438,7 +461,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/23-q.mp3",
-     "sec": 4.91102
+     "sec": 3.813878,
+     "text": "Tu préfères… Une cheminée au salon, ou Un jacuzzi dans le jardin ?"
     }
    }
   },
@@ -454,7 +478,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/24-q.mp3",
-     "sec": 4.545306
+     "sec": 4.310204,
+     "text": "Tu préfères… Construire un igloo, ou Construire un barrage dans la rivière ?"
     }
    }
   },
@@ -470,7 +495,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/25-q.mp3",
-     "sec": 4.075102
+     "sec": 3.239184,
+     "text": "Tu préfères… Remonter dans le temps, ou Aller dans le futur ?"
     }
    }
   },
@@ -486,7 +512,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/26-q.mp3",
-     "sec": 5.877551
+     "sec": 4.545306,
+     "text": "Tu préfères… Une récréation de 2 heures, ou Une pause déjeuner de 3 heures ?"
     }
    }
   },
@@ -502,7 +529,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/27-q.mp3",
-     "sec": 5.955918
+     "sec": 5.250612,
+     "text": "Tu préfères… Un grand-père qui dort au salon, ou Une grand-mère qui tricote des pulls ?"
     }
    }
   },
@@ -518,7 +546,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/28-q.mp3",
-     "sec": 6.948571
+     "sec": 6.948571,
+     "text": "Tu préfères… Avoir des cheveux qui changent de couleur, ou Avoir des cheveux qui poussent d'un mètre par jour ?"
     }
    }
   },
@@ -534,7 +563,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/29-q.mp3",
-     "sec": 7.627755
+     "sec": 5.903673,
+     "text": "Choix numéro 30. Tu préfères… Avoir un château de sable géant, ou Avoir un cerf-volant géant ?"
     }
    }
   },
@@ -550,7 +580,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/30-q.mp3",
-     "sec": 4.284082
+     "sec": 3.604898,
+     "text": "Tu préfères… Être facteur, ou Être capitaine de bateau ?"
     }
    }
   },
@@ -566,7 +597,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/31-q.mp3",
-     "sec": 5.720816
+     "sec": 5.067755,
+     "text": "Tu préfères… Faire une randonnée en pleine nuit, ou Faire du camping au sommet d'une colline ?"
     }
    }
   },
@@ -582,7 +614,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/32-q.mp3",
-     "sec": 4.179592
+     "sec": 3.892245,
+     "text": "Tu préfères… Une semaine sans rire, ou Une semaine sans pleurer ?"
     }
    }
   },
@@ -598,7 +631,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/33-q.mp3",
-     "sec": 5.146122
+     "sec": 4.153469,
+     "text": "Tu préfères… Ne plus jamais être malade, ou Ne plus jamais être fatigué ?"
     }
    }
   },
@@ -614,7 +648,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/34-q.mp3",
-     "sec": 5.877551
+     "sec": 3.526531,
+     "text": "Tu préfères… Des devoirs en chantant, ou Des devoirs en dansant ?"
     }
    }
   },
@@ -630,7 +665,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/35-q.mp3",
-     "sec": 5.250612
+     "sec": 4.649796,
+     "text": "Tu préfères… Mettre un déguisement tous les jours, ou Porter un pyjama partout ?"
     }
    }
   },
@@ -646,7 +682,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/36-q.mp3",
-     "sec": 4.597551
+     "sec": 5.093878,
+     "text": "Tu préfères… Une soirée karaoké en famille, ou Une soirée jeux de société ?"
     }
    }
   },
@@ -662,7 +699,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/37-q.mp3",
-     "sec": 6.112653
+     "sec": 5.929796,
+     "text": "Tu préfères… Avoir une télécommande qui fige le temps, ou Avoir une télécommande qui rembobine ?"
     }
    }
   },
@@ -678,7 +716,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/38-q.mp3",
-     "sec": 4.780408
+     "sec": 4.127347,
+     "text": "Tu préfères… Dormir sous une tente, ou Dormir dans un hôtel de luxe ?"
     }
    }
   },
@@ -694,7 +733,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/39-q.mp3",
-     "sec": 7.627755
+     "sec": 5.903673,
+     "text": "Choix numéro 40. Tu préfères… Ne plus jamais aller au restaurant, ou Ne plus jamais aller au cinéma ?"
     }
    }
   },
@@ -710,7 +750,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/40-q.mp3",
-     "sec": 5.955918
+     "sec": 4.858776,
+     "text": "Tu préfères… Avoir un robot qui range ta chambre, ou Avoir un robot qui fait tes devoirs ?"
     }
    }
   },
@@ -726,7 +767,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/41-q.mp3",
-     "sec": 4.675918
+     "sec": 4.127347,
+     "text": "Tu préfères… Un pantalon en chocolat, ou Un chapeau en barbe à papa ?"
     }
    }
   },
@@ -742,7 +784,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/42-q.mp3",
-     "sec": 5.485714
+     "sec": 4.675918,
+     "text": "Tu préfères… Ne dormir que dans un hamac, ou Ne dormir que sur un canapé ?"
     }
    }
   },
@@ -758,7 +801,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/43-q.mp3",
-     "sec": 5.250612
+     "sec": 4.493061,
+     "text": "Tu préfères… Un pop-corn salé au cinéma, ou Un pop-corn sucré au cinéma ?"
     }
    }
   },
@@ -774,7 +818,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/44-q.mp3",
-     "sec": 4.284082
+     "sec": 3.317551,
+     "text": "Tu préfères… Un monde de géants, ou Un monde de lilliputiens ?"
     }
    }
   },
@@ -790,7 +835,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/45-q.mp3",
-     "sec": 5.22449
+     "sec": 4.963265,
+     "text": "Tu préfères… Une maison au bord de la plage, ou Un appartement au centre de Paris ?"
     }
    }
   },
@@ -806,7 +852,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/46-q.mp3",
-     "sec": 6.19102
+     "sec": 5.146122,
+     "text": "Tu préfères… Une nuit de Noël en pyjama rouge, ou Un réveillon avec des feux de Bengale ?"
     }
    }
   },
@@ -822,7 +869,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/47-q.mp3",
-     "sec": 4.440816
+     "sec": 3.552653,
+     "text": "Tu préfères… Habiter dans un phare, ou Habiter dans un moulin ?"
     }
    }
   },
@@ -838,7 +886,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/48-q.mp3",
-     "sec": 7.026939
+     "sec": 6.164898,
+     "text": "Tu préfères… Recevoir 1 € chaque seconde pendant 1 jour, ou Recevoir 50 000 € tout de suite ?"
     }
    }
   },
@@ -854,7 +903,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/49-q.mp3",
-     "sec": 7.47102
+     "sec": 5.668571,
+     "text": "Choix numéro 50. Tu préfères… Jouer au loto en famille, ou Jouer aux dominos en famille 🁢 ?"
     }
    }
   },
@@ -870,7 +920,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/50-q.mp3",
-     "sec": 3.918367
+     "sec": 2.951837,
+     "text": "Tu préfères… Être vétérinaire, ou Être jardinier ?"
     }
    }
   },
@@ -886,7 +937,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/51-q.mp3",
-     "sec": 5.198367
+     "sec": 4.127347,
+     "text": "Tu préfères… Une galette des rois avec 3 fèves, ou Une bûche de 2 mètres ?"
     }
    }
   },
@@ -902,7 +954,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/52-q.mp3",
-     "sec": 4.780408
+     "sec": 4.414694,
+     "text": "Tu préfères… Avoir un hamster géant, ou Avoir une tortue qui parle ?"
     }
    }
   },
@@ -918,7 +971,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/53-q.mp3",
-     "sec": 3.892245
+     "sec": 3.395918,
+     "text": "Tu préfères… Gagner à la loterie, ou Gagner un voyage ?"
     }
    }
   },
@@ -934,7 +988,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/54-q.mp3",
-     "sec": 3.892245
+     "sec": 3.892245,
+     "text": "Tu préfères… Des frites sans ketchup, ou Une crêpe sans sucre ?"
     }
    }
   },
@@ -950,7 +1005,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/55-q.mp3",
-     "sec": 4.127347
+     "sec": 2.795102,
+     "text": "Tu préfères… Sauver un chaton, ou Sauver un chiot ?"
     }
    }
   },
@@ -966,7 +1022,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/56-q.mp3",
-     "sec": 5.564082
+     "sec": 4.884898,
+     "text": "Tu préfères… Savoir siffler très fort, ou Savoir faire des claquements de doigts parfaits ?"
     }
    }
   },
@@ -982,7 +1039,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/57-q.mp3",
-     "sec": 5.485714
+     "sec": 4.780408,
+     "text": "Tu préfères… Découvrir un trésor enfoui, ou Découvrir une nouvelle espèce animale ?"
     }
    }
   },
@@ -998,7 +1056,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/58-q.mp3",
-     "sec": 4.440816
+     "sec": 3.239184,
+     "text": "Tu préfères… Lire dans les pensées, ou Voir le futur ?"
     }
    }
   },
@@ -1014,7 +1073,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/59-q.mp3",
-     "sec": 6.844082
+     "sec": 4.728163,
+     "text": "Choix numéro 60. Tu préfères… Un jour sans lumière, ou Un jour sans électricité ?"
     }
    }
   },
@@ -1030,7 +1090,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/60-q.mp3",
-     "sec": 3.94449
+     "sec": 3.056327,
+     "text": "Tu préfères… Un bain de soleil, ou Un bain de mer ?"
     }
    }
   },
@@ -1046,7 +1107,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/61-q.mp3",
-     "sec": 6.556735
+     "sec": 5.041633,
+     "text": "Tu préfères… Regarder les étoiles toute la nuit, ou Regarder le soleil se lever tous les jours ?"
     }
    }
   },
@@ -1062,7 +1124,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/62-q.mp3",
-     "sec": 6.112653
+     "sec": 6.19102,
+     "text": "Tu préfères… Avoir une grand-mère qui cuisine bien, ou Avoir un grand-père qui raconte des blagues ?"
     }
    }
   },
@@ -1078,7 +1141,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/63-q.mp3",
-     "sec": 4.623673
+     "sec": 3.186939,
+     "text": "Tu préfères… Un mois sans jeux, ou Un mois sans musique ?"
     }
    }
   },
@@ -1094,7 +1158,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/64-q.mp3",
-     "sec": 4.440816
+     "sec": 3.134694,
+     "text": "Tu préfères… Une voiture qui vole, ou Un vélo qui nage ?"
     }
    }
   },
@@ -1110,7 +1175,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/65-q.mp3",
-     "sec": 4.597551
+     "sec": 4.231837,
+     "text": "Tu préfères… Gagner à tous les jeux de cartes, ou Gagner à tous les jeux de dés ?"
     }
    }
   },
@@ -1126,7 +1192,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/66-q.mp3",
-     "sec": 6.034286
+     "sec": 4.780408,
+     "text": "Tu préfères… Faire fondre la glace avec les mains, ou Geler l'eau avec les doigts ?"
     }
    }
   },
@@ -1142,7 +1209,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/67-q.mp3",
-     "sec": 4.545306
+     "sec": 4.022857,
+     "text": "Tu préfères… Un ascenseur qui parle, ou Un escalier qui chante ?"
     }
    }
   },
@@ -1158,7 +1226,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/68-q.mp3",
-     "sec": 6.347755
+     "sec": 4.884898,
+     "text": "Tu préfères… Cuisiner des crêpes sans les retourner, ou Retourner des crêpes sans les cuisiner ?"
     }
    }
   },
@@ -1174,7 +1243,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/69-q.mp3",
-     "sec": 7.967347
+     "sec": 6.112653,
+     "text": "Choix numéro 70. Tu préfères… Sortir les poubelles sous la pluie, ou Étendre le linge dans le froid ?"
     }
    }
   },
@@ -1190,7 +1260,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/70-q.mp3",
-     "sec": 6.452245
+     "sec": 4.91102,
+     "text": "Tu préfères… Un cousin qui te fait des farces, ou Une cousine qui t'invente des histoires ?"
     }
    }
   },
@@ -1206,7 +1277,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/71-q.mp3",
-     "sec": 5.32898
+     "sec": 4.623673,
+     "text": "Tu préfères… Partir à l'aventure sans carte, ou Partir avec un itinéraire précis ?"
     }
    }
   },
@@ -1222,7 +1294,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/72-q.mp3",
-     "sec": 5.694694
+     "sec": 4.493061,
+     "text": "Tu préfères… Manger à la cantine tous les jours, ou Manger un sandwich tous les jours ?"
     }
    }
   },
@@ -1238,7 +1311,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/73-q.mp3",
-     "sec": 5.929796
+     "sec": 4.388571,
+     "text": "Tu préfères… Pouvoir sauter par-dessus les maisons, ou Pouvoir courir sur l'eau ?"
     }
    }
   },
@@ -1254,7 +1328,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/74-q.mp3",
-     "sec": 4.963265
+     "sec": 3.604898,
+     "text": "Tu préfères… Manger de la barbe à papa, ou Manger des churros ?"
     }
    }
   },
@@ -1270,7 +1345,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/75-q.mp3",
-     "sec": 6.50449
+     "sec": 5.067755,
+     "text": "Tu préfères… Trouver un trésor sous ton lit, ou Trouver un passage secret dans ton placard ?"
     }
    }
   },
@@ -1286,7 +1362,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/76-q.mp3",
-     "sec": 5.564082
+     "sec": 4.440816,
+     "text": "Tu préfères… Porter un chapeau de cow-boy, ou Porter une couronne de princesse ?"
     }
    }
   },
@@ -1302,7 +1379,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/77-q.mp3",
-     "sec": 4.754286
+     "sec": 3.578776,
+     "text": "Tu préfères… Une maison sur un arbre, ou Une maison sur l'eau ?"
     }
    }
   },
@@ -1318,7 +1396,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/78-q.mp3",
-     "sec": 4.884898
+     "sec": 4.310204,
+     "text": "Tu préfères… Avoir une salle de jeux, ou Avoir un atelier de bricolage ?"
     }
    }
   },
@@ -1334,7 +1413,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/79-q.mp3",
-     "sec": 7.549388
+     "sec": 5.903673,
+     "text": "Choix numéro 80. Tu préfères… Découvrir un marché de Noël, ou Découvrir un marché aux fleurs ?"
     }
    }
   },
@@ -1350,7 +1430,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/80-q.mp3",
-     "sec": 5.642449
+     "sec": 4.545306,
+     "text": "Tu préfères… Un jour à raconter des histoires, ou Un jour à jouer la comédie ?"
     }
    }
   },
@@ -1366,7 +1447,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/81-q.mp3",
-     "sec": 5.642449
+     "sec": 4.310204,
+     "text": "Tu préfères… Dire une blague à un roi, ou Chanter une chanson à une reine ?"
     }
    }
   },
@@ -1382,7 +1464,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/82-q.mp3",
-     "sec": 4.728163
+     "sec": 4.858776,
+     "text": "Tu préfères… Un monde en noir et blanc, ou Un monde en couleurs fluo ?"
     }
    }
   },
@@ -1398,7 +1481,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/83-q.mp3",
-     "sec": 6.60898
+     "sec": 3.813878,
+     "text": "Tu préfères… Chanter sous la douche, ou Danser dans la cuisine ?"
     }
    }
   },
@@ -1414,7 +1498,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/84-q.mp3",
-     "sec": 4.362449
+     "sec": 4.022857,
+     "text": "Tu préfères… Sauter dans les flaques, ou Sauter dans les feuilles mortes ?"
     }
    }
   },
@@ -1430,7 +1515,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/85-q.mp3",
-     "sec": 5.564082
+     "sec": 5.32898,
+     "text": "Tu préfères… Crier à chaque fois que tu souris, ou Sourire à chaque fois que tu cries ?"
     }
    }
   },
@@ -1446,7 +1532,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/86-q.mp3",
-     "sec": 5.067755
+     "sec": 4.780408,
+     "text": "Tu préfères… Avoir 4 bras pour jouer, ou Avoir 3 yeux pour tout voir ?"
     }
    }
   },
@@ -1462,7 +1549,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/87-q.mp3",
-     "sec": 5.22449
+     "sec": 3.94449,
+     "text": "Tu préfères… Choisir un tapis à rayures, ou Choisir un tapis à fleurs ?"
     }
    }
   },
@@ -1478,7 +1566,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/88-q.mp3",
-     "sec": 5.32898
+     "sec": 5.041633,
+     "text": "Tu préfères… Une tarte aux pommes tous les dimanches, ou Une gaufre tous les samedis ?"
     }
    }
   },
@@ -1494,7 +1583,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/89-q.mp3",
-     "sec": 7.967347
+     "sec": 5.564082,
+     "text": "Choix numéro 90. Tu préfères… Un jour à jouer au chef, ou Un jour à jouer à l'explorateur ?"
     }
    }
   },
@@ -1510,7 +1600,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/90-q.mp3",
-     "sec": 3.552653
+     "sec": 2.899592,
+     "text": "Tu préfères… Faire du basket, ou Faire du volley ?"
     }
    }
   },
@@ -1526,7 +1617,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/91-q.mp3",
-     "sec": 5.877551
+     "sec": 5.198367,
+     "text": "Tu préfères… Être invité à un bal masqué, ou Être invité à un pique-nique royal ?"
     }
    }
   },
@@ -1542,7 +1634,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/92-q.mp3",
-     "sec": 8.280816
+     "sec": 4.310204,
+     "text": "Tu préfères… Des mangues pour toujours, ou Des fraises pour toujours ?"
     }
    }
   },
@@ -1558,7 +1651,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/93-q.mp3",
-     "sec": 5.851429
+     "sec": 4.310204,
+     "text": "Tu préfères… Ne plus jamais manger de chocolat, ou Ne plus jamais manger de fromage ?"
     }
    }
   },
@@ -1574,7 +1668,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/94-q.mp3",
-     "sec": 4.493061
+     "sec": 3.813878,
+     "text": "Tu préfères… Avoir un ami dragon, ou Avoir un ami dinosaure ?"
     }
    }
   },
@@ -1590,7 +1685,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/95-q.mp3",
-     "sec": 5.537959
+     "sec": 4.858776,
+     "text": "Tu préfères… Avoir un rideau qui brille, ou Avoir une lampe en forme de lune ?"
     }
    }
   },
@@ -1606,7 +1702,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/96-q.mp3",
-     "sec": 4.780408
+     "sec": 4.728163,
+     "text": "Tu préfères… Savoir tout sur les dinosaures, ou Savoir tout sur les étoiles ?"
     }
    }
   },
@@ -1622,7 +1719,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/97-q.mp3",
-     "sec": 5.877551
+     "sec": 4.832653,
+     "text": "Tu préfères… Une soirée pyjama avec les cousins, ou Un week-end chez les grands-parents ?"
     }
    }
   },
@@ -1638,7 +1736,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/98-q.mp3",
-     "sec": 5.642449
+     "sec": 4.884898,
+     "text": "Tu préfères… Un panda qui fait des galipettes, ou Un ouistiti qui fait des grimaces ?"
     }
    }
   },
@@ -1654,7 +1753,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/99-q.mp3",
-     "sec": 6.347755
+     "sec": 4.728163,
+     "text": "Choix numéro 100. Tu préfères… Une photo drôle, ou Une photo parfaite ?"
     }
    }
   },
@@ -1670,7 +1770,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/100-q.mp3",
-     "sec": 4.440816
+     "sec": 4.022857,
+     "text": "Tu préfères… Taper à la machine à écrire, ou Écrire à la plume ?"
     }
    }
   },
@@ -1686,7 +1787,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/101-q.mp3",
-     "sec": 4.858776
+     "sec": 4.597551,
+     "text": "Tu préfères… Faire du ski toute la semaine, ou Faire du surf toute la semaine ?"
     }
    }
   },
@@ -1702,7 +1804,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/102-q.mp3",
-     "sec": 5.172245
+     "sec": 4.414694,
+     "text": "Tu préfères… Prédire la météo à coup sûr, ou Deviner le dessert du soir ?"
     }
    }
   },
@@ -1718,7 +1821,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/103-q.mp3",
-     "sec": 4.649796
+     "sec": 4.571429,
+     "text": "Tu préfères… Des vacances d'hiver à Noël, ou Des vacances d'été sans fin ?"
     }
    }
   },
@@ -1734,7 +1838,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/104-q.mp3",
-     "sec": 5.564082
+     "sec": 4.858776,
+     "text": "Tu préfères… Prendre un bain de mousse géant, ou Prendre une douche de pétales ?"
     }
    }
   },
@@ -1750,7 +1855,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/105-q.mp3",
-     "sec": 4.754286
+     "sec": 4.597551,
+     "text": "Tu préfères… Faire des étincelles avec les doigts, ou Faire des arcs-en-ciel avec les mains ?"
     }
    }
   },
@@ -1766,7 +1872,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/106-q.mp3",
-     "sec": 5.955918
+     "sec": 4.675918,
+     "text": "Tu préfères… Avoir une cape qui brille, ou Avoir un masque qui change de couleur ?"
     }
    }
   },
@@ -1782,7 +1889,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/107-q.mp3",
-     "sec": 5.093878
+     "sec": 3.474286,
+     "text": "Tu préfères… Être super fort, ou Être super rapide ?"
     }
    }
   },
@@ -1798,7 +1906,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/108-q.mp3",
-     "sec": 5.067755
+     "sec": 3.448163,
+     "text": "Tu préfères… Passer Noël au soleil, ou Passer Noël dans la neige ?"
     }
    }
   },
@@ -1814,7 +1923,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/109-q.mp3",
-     "sec": 9.116735
+     "sec": 5.746939,
+     "text": "Choix numéro 110. Tu préfères… Faire le singe pendant un an, ou Faire l'autruche pendant un an ?"
     }
    }
   },
@@ -1830,7 +1940,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/110-q.mp3",
-     "sec": 4.519184
+     "sec": 3.474286,
+     "text": "Tu préfères… Planter un arbre, ou Arroser un potager ?"
     }
    }
   },
@@ -1846,7 +1957,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/111-q.mp3",
-     "sec": 6.530612
+     "sec": 4.91102,
+     "text": "Tu préfères… Lancer des boules de neige à l'infini, ou Lancer des bulles de savon à l'infini ?"
     }
    }
   },
@@ -1862,7 +1974,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/112-q.mp3",
-     "sec": 5.825306
+     "sec": 4.675918,
+     "text": "Tu préfères… Apprendre une langue en dormant, ou Apprendre à jouer en un jour ?"
     }
    }
   },
@@ -1878,7 +1991,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/113-q.mp3",
-     "sec": 3.63102
+     "sec": 3.369796,
+     "text": "Tu préfères… Écrire un livre, ou Composer une chanson ?"
     }
    }
   },
@@ -1894,7 +2008,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/114-q.mp3",
-     "sec": 3.787755
+     "sec": 3.030204,
+     "text": "Tu préfères… Vivre à la campagne, ou Vivre en ville ?"
     }
    }
   },
@@ -1910,7 +2025,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/115-q.mp3",
-     "sec": 4.179592
+     "sec": 3.291429,
+     "text": "Tu préfères… Une kermesse d'école, ou Un carnaval de rue ?"
     }
    }
   },
@@ -1926,7 +2042,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/116-q.mp3",
-     "sec": 4.179592
+     "sec": 2.76898,
+     "text": "Tu préfères… Illuminer la maison, ou Peindre les volets ?"
     }
    }
   },
@@ -1942,7 +2059,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/117-q.mp3",
-     "sec": 3.578776
+     "sec": 3.108571,
+     "text": "Tu préfères… Faire du judo, ou Faire de la natation ?"
     }
    }
   },
@@ -1958,7 +2076,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/118-q.mp3",
-     "sec": 6.922449
+     "sec": 4.649796,
+     "text": "Tu préfères… Traverser un désert à dos de chameau, ou Traverser une forêt à cheval ?"
     }
    }
   },
@@ -1974,7 +2093,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/119-q.mp3",
-     "sec": 6.530612
+     "sec": 5.746939,
+     "text": "Choix numéro 120. Tu préfères… Des tomates cerises à volonté, ou Des raisins à volonté ?"
     }
    }
   },
@@ -1990,7 +2110,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/120-q.mp3",
-     "sec": 5.773061
+     "sec": 4.284082,
+     "text": "Tu préfères… Faire du yoga au lever du soleil, ou Faire du trampoline à minuit ?"
     }
    }
   },
@@ -2006,7 +2127,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/121-q.mp3",
-     "sec": 5.459592
+     "sec": 3.892245,
+     "text": "Tu préfères… Visiter un volcan, ou Visiter une forêt tropicale ?"
     }
    }
   },
@@ -2022,7 +2144,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/122-q.mp3",
-     "sec": 4.91102
+     "sec": 4.257959,
+     "text": "Tu préfères… Cuisiner avec un chef étoilé, ou Jouer avec un champion ?"
     }
    }
   },
@@ -2038,7 +2161,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/123-q.mp3",
-     "sec": 5.511837
+     "sec": 4.257959,
+     "text": "Tu préfères… Avoir des pieds de canard, ou Avoir un nez d'éléphant ?"
     }
    }
   },
@@ -2054,7 +2178,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/124-q.mp3",
-     "sec": 7.288163
+     "sec": 3.186939,
+     "text": "Tu préfères… Un melon sucré, ou Une banane bien mûre ?"
     }
    }
   },
@@ -2070,7 +2195,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/125-q.mp3",
-     "sec": 6.530612
+     "sec": 4.545306,
+     "text": "Tu préfères… Pouvoir te dédoubler une fois par jour, ou Pouvoir arrêter la pluie quand tu veux ?"
     }
    }
   },
@@ -2086,7 +2212,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/126-q.mp3",
-     "sec": 5.799184
+     "sec": 4.780408,
+     "text": "Tu préfères… Un four qui sent toujours bon, ou Une cuisine qui sent toujours le café ?"
     }
    }
   },
@@ -2102,7 +2229,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/127-q.mp3",
-     "sec": 4.362449
+     "sec": 3.291429,
+     "text": "Tu préfères… Un robot-cuisinier, ou Un robot-copain ?"
     }
    }
   },
@@ -2118,7 +2246,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/128-q.mp3",
-     "sec": 4.284082
+     "sec": 4.231837,
+     "text": "Tu préfères… Avoir une vue d'aigle, ou Avoir un odorat de chien ?"
     }
    }
   },
@@ -2134,7 +2263,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/129-q.mp3",
-     "sec": 8.359184
+     "sec": 6.269388,
+     "text": "Choix numéro 130. Tu préfères… Une glace qui ne fond jamais, ou Un chocolat chaud qui ne refroidit jamais ?"
     }
    }
   },
@@ -2150,7 +2280,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/130-q.mp3",
-     "sec": 5.172245
+     "sec": 4.362449,
+     "text": "Tu préfères… Faire le tour du monde en ballon, ou Faire le tour du monde en bateau ?"
     }
    }
   },
@@ -2166,7 +2297,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/131-q.mp3",
-     "sec": 5.642449
+     "sec": 4.310204,
+     "text": "Tu préfères… Dormir dans un nid d'oiseau, ou Dormir dans une niche de chien ?"
     }
    }
   },
@@ -2182,7 +2314,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/132-q.mp3",
-     "sec": 5.564082
+     "sec": 4.597551,
+     "text": "Tu préfères… Un jour à lancer des blagues, ou Un jour à faire des compliments ?"
     }
    }
   },
@@ -2198,7 +2331,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/133-q.mp3",
-     "sec": 4.91102
+     "sec": 4.022857,
+     "text": "Tu préfères… Nager avec des dauphins, ou Marcher avec des pingouins ?"
     }
    }
   },
@@ -2214,7 +2348,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/134-q.mp3",
-     "sec": 5.32898
+     "sec": 4.780408,
+     "text": "Tu préfères… Passer l'aspirateur pendant 1 h, ou Repasser une montagne de linge ?"
     }
    }
   },
@@ -2230,7 +2365,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/135-q.mp3",
-     "sec": 4.04898
+     "sec": 3.422041,
+     "text": "Tu préfères… Cueillir des champignons, ou Cueillir des fraises ?"
     }
    }
   },
@@ -2246,7 +2382,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/136-q.mp3",
-     "sec": 3.63102
+     "sec": 3.291429,
+     "text": "Tu préfères… Faire des confitures, ou Faire des conserves ?"
     }
    }
   },
@@ -2262,7 +2399,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/137-q.mp3",
-     "sec": 4.989388
+     "sec": 3.996735,
+     "text": "Tu préfères… Manger un citron entier, ou Manger un piment entier ?"
     }
    }
   },
@@ -2278,7 +2416,8 @@
    "voice": {
     "q": {
      "src": "tts/2026-11-10-tu-preferes/138-q.mp3",
-     "sec": 5.485714
+     "sec": 4.127347,
+     "text": "Tu préfères… Un anniversaire surprise, ou Un anniversaire en grande fête ?"
     }
    }
   }
@@ -2293,7 +2432,7 @@
   "text": "Crée ton quiz gratuit sur youqwiz.com"
  },
  "meta": {
-  "description": "Tu préfères… ? 139 choix que personne n'arrive à trancher. Dis tes choix en commentaire, on compare.\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com/quiz-du-jour/2026-11-10-tu-preferes\n🔔 Nouveau quiz tous les jours, active la cloche.\n\n#quiz #tupreferes #youqwiz #tupreferes\n\n⏱️ Chapitres\n00:00 Intro\n00:11 Niveau facile\n01:54 Choix 11 à 20\n03:28 Choix 21 à 30\n05:09 Choix 31 à 40\n05:58 Niveau moyen\n06:52 Choix 41 à 50\n08:34 Choix 51 à 60\n10:06 Choix 61 à 70\n11:47 Niveau difficile\n13:33 Choix 81 à 90\n15:12 Choix 91 à 100\n16:51 Choix 101 à 110\n17:41 Niveau impossible\n18:37 Choix 111 à 120\n20:11 Choix 121 à 130\n21:50 Choix 131 à 139\n23:24 Crée ton quiz sur youqwiz.com",
+  "description": "Tu préfères… ? 139 choix que personne n'arrive à trancher. Dis tes choix en commentaire, on compare.\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com/quiz-du-jour/2026-11-10-tu-preferes\n🔔 Nouveau quiz tous les jours, active la cloche.\n\n#quiz #tupreferes #youqwiz #tupreferes\n\n⏱️ Chapitres\n00:00 Intro\n00:11 Niveau facile\n01:52 Choix 11 à 20\n03:26 Choix 21 à 30\n05:07 Choix 31 à 40\n05:56 Niveau moyen\n06:50 Choix 41 à 50\n08:32 Choix 51 à 60\n10:04 Choix 61 à 70\n11:45 Niveau difficile\n13:30 Choix 81 à 90\n15:10 Choix 91 à 100\n16:47 Choix 101 à 110\n17:37 Niveau impossible\n18:31 Choix 111 à 120\n20:05 Choix 121 à 130\n21:43 Choix 131 à 139\n23:17 Crée ton quiz sur youqwiz.com",
   "tags": [
    "quiz",
    "quiz français",
@@ -2327,119 +2466,130 @@
     "title": "Intro"
    },
    {
-    "at": 11.933333333333334,
+    "at": 11.533333333333333,
     "title": "Niveau facile"
    },
    {
-    "at": 114.73333333333333,
+    "at": 112.96666666666667,
     "title": "Choix 11 à 20"
    },
    {
-    "at": 208.23333333333332,
+    "at": 206.46666666666667,
     "title": "Choix 21 à 30"
    },
    {
-    "at": 309.23333333333335,
+    "at": 307.46666666666664,
     "title": "Choix 31 à 40"
    },
    {
-    "at": 358.23333333333335,
+    "at": 356.46666666666664,
     "title": "Niveau moyen"
    },
    {
-    "at": 412.8333333333333,
+    "at": 410.6666666666667,
     "title": "Choix 41 à 50"
    },
    {
-    "at": 514.3333333333334,
+    "at": 512.1666666666666,
     "title": "Choix 51 à 60"
    },
    {
-    "at": 606.8333333333334,
+    "at": 604.6666666666666,
     "title": "Choix 61 à 70"
    },
    {
-    "at": 707.8333333333334,
+    "at": 705.6666666666666,
     "title": "Niveau difficile"
    },
    {
-    "at": 813,
+    "at": 810.7666666666667,
     "title": "Choix 81 à 90"
    },
    {
-    "at": 912.5,
+    "at": 910.2666666666667,
     "title": "Choix 91 à 100"
    },
    {
-    "at": 1011,
+    "at": 1007.7666666666667,
     "title": "Choix 101 à 110"
    },
    {
-    "at": 1061,
+    "at": 1057.7666666666667,
     "title": "Niveau impossible"
    },
    {
-    "at": 1117.5333333333333,
+    "at": 1111.5,
     "title": "Choix 111 à 120"
    },
    {
-    "at": 1211.0333333333333,
+    "at": 1205,
     "title": "Choix 121 à 130"
    },
    {
-    "at": 1310.5333333333333,
+    "at": 1303.5,
     "title": "Choix 131 à 139"
    },
    {
-    "at": 1404.0333333333333,
+    "at": 1397,
     "title": "Crée ton quiz sur youqwiz.com"
    }
   ]
  },
  "voice": {
   "level_facile": {
-   "src": "tts-cache/7be58f74e39cf17f.mp3",
-   "sec": 2.194286
+   "src": "tts-cache/8fb36700b7e20a9a.mp3",
+   "sec": 1.802449,
+   "text": "Niveau facile. On s'échauffe !"
   },
   "level_moyen": {
-   "src": "tts-cache/265b53abeb3bb0fa.mp3",
-   "sec": 1.985306
+   "src": "tts-cache/c406c29cd1b149e6.mp3",
+   "sec": 1.567347,
+   "text": "Niveau moyen. Ça se corse !"
   },
   "level_difficile": {
-   "src": "tts-cache/ae94e203a5bded47.mp3",
-   "sec": 2.063673
+   "src": "tts-cache/48b2d54a57d089e9.mp3",
+   "sec": 1.985306,
+   "text": "Niveau difficile. Accroche-toi !"
   },
   "level_impossible": {
-   "src": "tts-cache/71d84d022b7a2083.mp3",
-   "sec": 4.91102
+   "src": "tts-cache/e98f6627551c197b.mp3",
+   "sec": 3.604898,
+   "text": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire."
   },
   "score": {
-   "src": "tts-cache/fb629f6d42c7057f.mp3",
-   "sec": 5.720816
+   "src": "tts-cache/c81b8a1863b0ba25.mp3",
+   "sec": 5.485714,
+   "text": "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !"
   },
   "subscribe": {
-   "src": "tts-cache/9b584cc1fca8f4fc.mp3",
-   "sec": 2.977959
+   "src": "tts-cache/0adbf5eb46af83cf.mp3",
+   "sec": 2.873469,
+   "text": "Pas encore abonné ? Un clic, et tu ne rates plus rien."
   },
   "outro": {
-   "src": "tts-cache/4d84977e7d815c42.mp3",
-   "sec": 3.474286
+   "src": "tts-cache/6a40f095c2113c0e.mp3",
+   "sec": 3.108571,
+   "text": "Dis tes choix les plus difficiles en commentaire. À demain !"
   },
   "cliff": {
-   "src": "tts-cache/7fdb66295bb6a000.mp3",
-   "sec": 4.127347
+   "src": "tts-cache/03ab2a6d3854f308.mp3",
+   "sec": 4.127347,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !"
   },
   "preroll": {
-   "src": "tts-cache/06b83cae54b0f90f.mp3",
-   "sec": 2.821224
+   "src": "tts-cache/370f32960561a93f.mp3",
+   "sec": 2.507755,
+   "text": "Bon mardi ! Au programme : choix impossibles !"
   },
   "intro": {
    "src": "tts/2026-11-10-tu-preferes/intro.mp3",
-   "sec": 3.787755
+   "sec": 3.578776,
+   "text": "TU Préfères… ? 139 Choix Impossibles ! À toi de jouer !"
   },
   "packshot": {
-   "src": "tts-cache/72d277617320c213.mp3",
-   "sec": 4.989388
+   "src": "tts-cache/63c6b1aae03262c1.mp3",
+   "sec": 4.91102,
+   "text": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
   }
  }
 }

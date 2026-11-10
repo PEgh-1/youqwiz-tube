@@ -57,6 +57,18 @@ if (process.env.REUSE_EPISODE) {
   }
   if (V0.nextQuiz) ep.variants.nextQuizVoice = pick0(V0.nextQuiz);
   if (ep.meta?.description) ep.meta.description = ep.meta.description.replace("Compte tes points et dis ton score en commentaire 👇", "Compte tes points et dis ton score en commentaire 👇 Le meilleur score est félicité dès le lendemain 🏆");
+  // Shorts v2 (3 par jour) et relais réseaux : un épisode généré avant le 09/11/2026 n'a pas short2/short3/shortHook/social →
+  // les 10-12 nov. refaits dans la nuit du 09 au 10 n'ont eu qu'un seul Short. On complète ici ce qui manque.
+  {
+    const lbl = (bank?.subject ?? bank?.noun ?? "").toLowerCase().replace(/^(les |des )/, "");
+    const n = String(ep.items.length);
+    const fillM = (t) => String(t).replaceAll("{theme}", lbl).replaceAll("{subject}", bank?.subject ?? bank?.noun ?? "").replaceAll("{n}", n).replaceAll("{noun}", bank?.noun ?? "").replaceAll("{noun1}", (bank?.noun ?? "").toLowerCase().replace(/s$/, "")).replaceAll("{hook}", ep.intro?.hook ?? "").replaceAll("{emoji}", bank?.emoji ?? "");
+    ep.meta ??= {};
+    if (!ep.meta.shortHook && V0.shortHooks) ep.meta.shortHook = pick0(V0.shortHooks);
+    if (!ep.meta.short2 && V0.shortTitlesHard && ep.pillar !== "choix") ep.meta.short2 = { title: fillM(pick0(V0.shortTitlesHard)).slice(0, 100), description: fillM(pick0(V0.shortDescriptions)), ...pick0(V0.shortHardHooks) };
+    if (!ep.meta.short3 && V0.shortTitlesMid && ep.pillar !== "choix") ep.meta.short3 = { title: fillM(pick0(V0.shortTitlesMid)).slice(0, 100), description: fillM(pick0(V0.shortDescriptions)), ...pick0(V0.shortMidHooks) };
+    if (!ep.meta.social && V0.socialCaptions) ep.meta.social = { caption: fillM(pick0(V0.socialCaptions)), hashtags: [...new Set([...(V0.socialHashtags ?? []), (bank?.slug ?? "").replace(/-/g, "")])].filter(Boolean).slice(0, 10) };
+  }
   writeJson(file, ep);
   writeJson(p("data/state/current.json"), { id: ep.id, file, date: ep.date ?? id.slice(0, 10), pillar: ep.pillar, bank: ep.bank });
   console.log(`épisode ré-utilisé : ${id}`);
