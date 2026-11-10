@@ -1,0 +1,273 @@
+{
+  "path": "/hard-soccer-quiz",
+  "alt": {
+    "fr": "/quiz-football-difficile"
+  },
+  "theme": "sport",
+  "title": "Hard Soccer Quiz: 20 Tough Questions for True Fans",
+  "description": "Think you know soccer history? Try 20 tough questions on European Cups, Ballon d'Or winners, and the rules of the game. With a fun fact after each answer.",
+  "h1": "Hard Soccer Quiz: Only True Fans Will Ace This",
+  "intro": "Ready for a real challenge? This hard soccer quiz digs deep into the history of the beautiful game. You'll face questions on European Cup finals, Ballon d'Or winners, famous continental tournaments, and the rules that shaped modern soccer. Even the \"easy\" questions here assume some knowledge, the middle eight require serious recall, and the last four are expert-level trivia that only the most devoted fans will know. You have about five seconds per question, and each answer includes a short fact to expand your soccer wisdom. It's free and fast. Show us what you've got!",
+  "questions": [
+    {
+      "q": "Which Liberian forward won the Ballon d'Or in 1995?",
+      "choices": [
+        "Abedi Pelé",
+        "Samuel Eto'o",
+        "Didier Drogba",
+        "George Weah"
+      ],
+      "answer": 3,
+      "explication": "Weah, who starred for AC Milan, was the first African player to win the Ballon d'Or.",
+      "level": "facile"
+    },
+    {
+      "q": "Which English club beat Bayern Munich in the 1999 Champions League final with two goals in stoppage time?",
+      "choices": [
+        "Liverpool",
+        "Arsenal",
+        "Manchester United",
+        "Chelsea"
+      ],
+      "answer": 2,
+      "explication": "Teddy Sheringham and Ole Gunnar Solskjær scored in the 91st and 93rd minutes to complete a famous comeback.",
+      "level": "facile"
+    },
+    {
+      "q": "How far must defenders stand from the ball at a free kick?",
+      "choices": [
+        "10 yards (9.15 m)",
+        "5 yards",
+        "8 yards",
+        "12 yards"
+      ],
+      "answer": 0,
+      "explication": "Referees often use vanishing spray to mark the line for the wall.",
+      "level": "facile"
+    },
+    {
+      "q": "Which Dutch player won the Ballon d'Or in 1971, 1973, and 1974?",
+      "choices": [
+        "Johan Neeskens",
+        "Marco van Basten",
+        "Johan Cruyff",
+        "Ruud Gullit"
+      ],
+      "answer": 2,
+      "explication": "Cruyff was the star of Ajax and of the \"Total Football\" Dutch national team of the 1970s.",
+      "level": "facile"
+    },
+    {
+      "q": "Which team won Euro 1988, with a famous volley by Marco van Basten in the final?",
+      "choices": [
+        "The Soviet Union",
+        "Italy",
+        "The Netherlands",
+        "West Germany"
+      ],
+      "answer": 2,
+      "explication": "The Dutch beat the Soviet Union 2-0 in Munich, and van Basten's volley is often named one of the greatest goals ever.",
+      "level": "facile"
+    },
+    {
+      "q": "Which nation shocked the soccer world by winning Euro 2004 in Portugal?",
+      "choices": [
+        "Portugal",
+        "The Czech Republic",
+        "Spain",
+        "Greece"
+      ],
+      "answer": 3,
+      "explication": "Greece was a 150-to-1 outsider before the tournament and beat Portugal 1-0 in the final.",
+      "level": "facile"
+    },
+    {
+      "q": "Which club won the first Premier League season, in 1992-93?",
+      "choices": [
+        "Manchester United",
+        "Blackburn Rovers",
+        "Aston Villa",
+        "Arsenal"
+      ],
+      "answer": 0,
+      "explication": "It was United's first league title in 26 years, and the club went on to dominate the new league.",
+      "level": "facile"
+    },
+    {
+      "q": "Which national team is nicknamed \"La Albiceleste\"?",
+      "choices": [
+        "Uruguay",
+        "Argentina",
+        "Paraguay",
+        "Chile"
+      ],
+      "answer": 1,
+      "explication": "The name refers to the team's white and sky-blue striped shirts.",
+      "level": "facile"
+    },
+    {
+      "q": "In which city was the 1960 European Cup final, a 7-3 win for Real Madrid, played?",
+      "choices": [
+        "Brussels",
+        "Stuttgart",
+        "Vienna",
+        "Glasgow"
+      ],
+      "answer": 3,
+      "explication": "The match at Hampden Park is often called one of the best finals ever, with Ferenc Puskás scoring four and Alfredo Di Stéfano three.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Scottish forward at Manchester United won the Ballon d'Or in 1964?",
+      "choices": [
+        "Denis Law",
+        "Bobby Charlton",
+        "George Best",
+        "Kenny Dalglish"
+      ],
+      "answer": 0,
+      "explication": "As of 2026, Law is still the only Scottish player to have won the Ballon d'Or.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Scottish club became the first British team to win the European Cup, in 1967?",
+      "choices": [
+        "Rangers",
+        "Manchester United",
+        "Celtic",
+        "Liverpool"
+      ],
+      "answer": 2,
+      "explication": "Celtic beat Inter Milan 2-1 in Lisbon with a team made up entirely of players born within about 30 miles of Glasgow.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Benfica striker won the Ballon d'Or in 1965?",
+      "choices": [
+        "António Simões",
+        "Eusébio",
+        "Mário Coluna",
+        "José Augusto"
+      ],
+      "answer": 1,
+      "explication": "Born in Mozambique, Eusébio was nicknamed the Black Panther and was the top scorer at the 1966 World Cup.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which club won the European Cup in both 1989 and 1990?",
+      "choices": [
+        "Inter Milan",
+        "Juventus",
+        "Barcelona",
+        "AC Milan"
+      ],
+      "answer": 3,
+      "explication": "Milan, under coach Arrigo Sacchi, had a Dutch trio of Gullit, van Basten, and Rijkaard.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which rule change in 1992 stopped goalkeepers from doing what?",
+      "choices": [
+        "Kicking the ball downfield",
+        "Leaving the penalty area",
+        "Picking up a deliberate back-pass from a teammate",
+        "Heading the ball"
+      ],
+      "answer": 2,
+      "explication": "The back-pass rule was introduced to reduce time-wasting and make the game faster.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which team was called up at the last minute and went on to win Euro 1992?",
+      "choices": [
+        "Sweden",
+        "Denmark",
+        "Germany",
+        "The Netherlands"
+      ],
+      "answer": 1,
+      "explication": "Denmark replaced Yugoslavia, which was excluded because of the conflict in the Balkans, and beat Germany 2-0 in the final.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which club won three straight European Cups from 1971 to 1973?",
+      "choices": [
+        "Ajax",
+        "Inter Milan",
+        "Bayern Munich",
+        "Benfica"
+      ],
+      "answer": 0,
+      "explication": "Ajax won with a style known as Total Football, built around Johan Cruyff.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Real Madrid forward won the Ballon d'Or in both 1957 and 1959?",
+      "choices": [
+        "Ferenc Puskás",
+        "Alfredo Di Stéfano",
+        "Francisco Gento",
+        "Raymond Kopa"
+      ],
+      "answer": 1,
+      "explication": "Born in Argentina, Di Stéfano starred for Real Madrid and also played for Spain's national team.",
+      "level": "expert"
+    },
+    {
+      "q": "Which German club won three consecutive European Cups from 1974 to 1976?",
+      "choices": [
+        "Borussia Mönchengladbach",
+        "Hamburger SV",
+        "Borussia Dortmund",
+        "Bayern Munich"
+      ],
+      "answer": 3,
+      "explication": "Bayern's side featured Franz Beckenbauer, Gerd Müller, and Sepp Maier.",
+      "level": "expert"
+    },
+    {
+      "q": "Which Hungarian forward from Ferencváros won the Ballon d'Or in 1967?",
+      "choices": [
+        "Ferenc Puskás",
+        "Flórián Albert",
+        "Lajos Tichy",
+        "Nándor Hidegkuti"
+      ],
+      "answer": 1,
+      "explication": "Albert was nicknamed \"The Emperor\" and was the first Ballon d'Or winner from Hungary.",
+      "level": "expert"
+    },
+    {
+      "q": "Which team won the first European Championship, in 1960?",
+      "choices": [
+        "The Soviet Union",
+        "Yugoslavia",
+        "Czechoslovakia",
+        "France"
+      ],
+      "answer": 0,
+      "explication": "The Soviets beat Yugoslavia 2-1 after extra time in the final in Paris.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "How is this hard soccer quiz different from the main soccer quiz?",
+      "It skips the basic rules and focuses on trivia about European Cups, the Ballon d'Or, and continental tournaments. Even the first questions assume you follow the sport. If you are newer to soccer, start with our regular soccer quiz and come back for a harder test later."
+    ],
+    [
+      "Can I use this hard soccer quiz for a trivia night?",
+      "Yes. Because the questions range from classics to deep cuts, it works well for pub quizzes, family game nights, or office breaks. Each answer includes a short fact that you can share with the group. You can replay as often as you like."
+    ],
+    [
+      "What score counts as great?",
+      "Getting 10 correct is already a strong result on this quiz, since the questions are tough. A score of 15 or more means you know soccer history very well, and 18 or higher puts you among true experts. Review the explanations to learn what you missed."
+    ]
+  ],
+  "related": [
+    "/soccer-quiz",
+    "/fifa-world-cup-quiz",
+    "/sports-quiz",
+    "/olympics-quiz"
+  ]
+}

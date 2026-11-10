@@ -2,10 +2,11 @@ name: Pages SEO youqwiz.com (agent SEO)
 
 # Pousse www/seo_pages_agent.json vers le site par un POST signé (clé SITE_SYNC_KEY, comme les quiz du jour).
 # Le serveur n'accepte que des données (pas de code) : chemins /quiz-… ou /culture-generale/x/y, HTML limité.
+# 10/11/2026 : séries anglaises www/series-en/*.json poussées dans un second corps "lang": "en" (youqwiz.com/en/…).
 on:
   push:
     branches: [main]
-    paths: ['www/seo_pages_agent.json', 'www/series/**']
+    paths: ['www/seo_pages_agent.json', 'www/series/**', 'www/series-en/**', 'www/seo_pages_agent_en.json']
   workflow_dispatch:
 
 concurrency: deploy-site

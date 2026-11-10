@@ -1,0 +1,273 @@
+{
+  "path": "/solar-system-quiz",
+  "alt": {
+    "fr": "/quiz-systeme-solaire"
+  },
+  "theme": "sciences",
+  "title": "Solar System Quiz: 20 Questions on Planets and More",
+  "description": "Test your knowledge of the solar system with 20 free questions on planets, moons, comets, and asteroids. Easy to expert, with a fun fact after each answer.",
+  "h1": "Solar System Quiz: Can You Name Every Planet?",
+  "intro": "From scorching Mercury to icy Neptune, our solar system is full of surprises. This solar system quiz asks 20 questions about planets, dwarf planets, comets, asteroids, and the Sun itself. It begins gently, with questions most people know, then moves on to trickier orbits, atmospheres, and discoveries, and ends with four expert questions for serious astronomy buffs. You have about five seconds per question, and every answer comes with a short explanation so you learn something even when you miss. It's free, quick, and fun to play with friends. Let's explore our cosmic neighborhood!",
+  "questions": [
+    {
+      "q": "How long does Earth take to orbit the Sun?",
+      "choices": [
+        "One year",
+        "One month",
+        "One day",
+        "Ten years"
+      ],
+      "answer": 0,
+      "explication": "Earth travels around the Sun in about 365.25 days, which is why we add a leap day every four years.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the smallest planet in the solar system?",
+      "choices": [
+        "Mars",
+        "Mercury",
+        "Venus",
+        "Neptune"
+      ],
+      "answer": 1,
+      "explication": "Mercury is only about 40% wider than Earth's Moon, with a diameter of about 4,880 km (3,030 miles).",
+      "level": "facile"
+    },
+    {
+      "q": "Which planet comes right after Earth when moving away from the Sun?",
+      "choices": [
+        "Venus",
+        "Jupiter",
+        "Mars",
+        "Mercury"
+      ],
+      "answer": 2,
+      "explication": "Mars is the fourth planet from the Sun, just beyond Earth's orbit.",
+      "level": "facile"
+    },
+    {
+      "q": "Which of these is a terrestrial, or rocky, planet?",
+      "choices": [
+        "Jupiter",
+        "Saturn",
+        "Neptune",
+        "Venus"
+      ],
+      "answer": 3,
+      "explication": "Mercury, Venus, Earth, and Mars are the four rocky planets. The others are gas or ice giants.",
+      "level": "facile"
+    },
+    {
+      "q": "Since 2006, Pluto has been classified as a…",
+      "choices": [
+        "Dwarf planet",
+        "Planet",
+        "Star",
+        "Comet"
+      ],
+      "answer": 0,
+      "explication": "The International Astronomical Union created the dwarf planet category in 2006 because Pluto has not cleared its orbit of other objects.",
+      "level": "facile"
+    },
+    {
+      "q": "What is a small body of ice and dust that grows a glowing tail near the Sun called?",
+      "choices": [
+        "A comet",
+        "A shooting star",
+        "A satellite",
+        "A black hole"
+      ],
+      "answer": 0,
+      "explication": "Heat from the Sun turns a comet's ice into gas and dust, forming a tail that can stretch millions of kilometers.",
+      "level": "facile"
+    },
+    {
+      "q": "Which belt of rocky bodies lies between Mars and Jupiter?",
+      "choices": [
+        "The Kuiper Belt",
+        "The Oort Cloud",
+        "The asteroid belt",
+        "The Milky Way"
+      ],
+      "answer": 2,
+      "explication": "The main asteroid belt holds millions of rocky objects, but they are so spread out that spacecraft pass through easily.",
+      "level": "facile"
+    },
+    {
+      "q": "About how long does Earth take to spin once on its axis?",
+      "choices": [
+        "About 12 hours",
+        "About 7 days",
+        "About 1 year",
+        "About 24 hours"
+      ],
+      "answer": 3,
+      "explication": "One rotation gives us a day and a night. Strictly speaking, it takes 23 hours and 56 minutes relative to the stars.",
+      "level": "facile"
+    },
+    {
+      "q": "Which planet spins in the opposite direction to most of the others?",
+      "choices": [
+        "Mars",
+        "Jupiter",
+        "Mercury",
+        "Venus"
+      ],
+      "answer": 3,
+      "explication": "Venus rotates backward, so on its surface the Sun would rise in the west. It also spins very slowly, taking about 243 Earth days per turn.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which planet rotates tipped almost completely on its side?",
+      "choices": [
+        "Uranus",
+        "Mars",
+        "Saturn",
+        "Mercury"
+      ],
+      "answer": 0,
+      "explication": "Uranus is tilted about 98 degrees, so it rolls around the Sun like a ball, with each pole facing the Sun for decades.",
+      "level": "moyen"
+    },
+    {
+      "q": "On which planet can you find the Great Red Spot?",
+      "choices": [
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Neptune"
+      ],
+      "answer": 1,
+      "explication": "The Great Red Spot is a giant storm that has been observed for well over a century and is wider than Earth.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which planet was predicted by mathematics before it was observed?",
+      "choices": [
+        "Mars",
+        "Saturn",
+        "Venus",
+        "Neptune"
+      ],
+      "answer": 3,
+      "explication": "Calculations by Urbain Le Verrier and John Couch Adams pointed astronomers to the right spot, and Neptune was seen in 1846.",
+      "level": "moyen"
+    },
+    {
+      "q": "What gas makes up most of the Sun?",
+      "choices": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Iron vapor"
+      ],
+      "answer": 2,
+      "explication": "The Sun is about 73% hydrogen and 25% helium by mass, and it fuses hydrogen into helium to produce its energy.",
+      "level": "moyen"
+    },
+    {
+      "q": "What happens when the Moon passes between the Sun and Earth?",
+      "choices": [
+        "A lunar eclipse",
+        "A solstice",
+        "An aurora",
+        "A solar eclipse"
+      ],
+      "answer": 3,
+      "explication": "During a total solar eclipse, the Moon fully covers the Sun's disk and the sky briefly darkens.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which gas makes up most of Mars's atmosphere?",
+      "choices": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "answer": 1,
+      "explication": "Mars's thin atmosphere is about 95% carbon dioxide, which is why humans could not breathe there.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the region of icy bodies beyond Neptune called?",
+      "choices": [
+        "The asteroid belt",
+        "The Kuiper Belt",
+        "The Milky Way",
+        "Saturn's rings"
+      ],
+      "answer": 1,
+      "explication": "The Kuiper Belt is home to Pluto and many other dwarf planets and icy objects.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which planet is less dense than water?",
+      "choices": [
+        "Saturn",
+        "Jupiter",
+        "Earth",
+        "Mars"
+      ],
+      "answer": 0,
+      "explication": "Saturn's average density is about 0.69 g/cm³, so in a bathtub big enough it would float.",
+      "level": "expert"
+    },
+    {
+      "q": "Which probe, launched in 1977, entered interstellar space in 2012?",
+      "choices": [
+        "Apollo 11",
+        "Sputnik",
+        "Voyager 1",
+        "Hubble"
+      ],
+      "answer": 2,
+      "explication": "Voyager 1 crossed the heliopause in August 2012 and remains the farthest human-made object from Earth.",
+      "level": "expert"
+    },
+    {
+      "q": "Who proposed in 1543 a model placing the Sun at the center of the known universe?",
+      "choices": [
+        "Ptolemy",
+        "Nicolaus Copernicus",
+        "Isaac Newton",
+        "Albert Einstein"
+      ],
+      "answer": 1,
+      "explication": "Copernicus published his heliocentric model in De revolutionibus orbium coelestium, shortly before his death.",
+      "level": "expert"
+    },
+    {
+      "q": "In which region of the solar system is the dwarf planet Ceres found?",
+      "choices": [
+        "The Kuiper Belt",
+        "Neptune's orbit",
+        "The asteroid belt",
+        "Earth's orbit"
+      ],
+      "answer": 2,
+      "explication": "Ceres is the largest object in the asteroid belt and the only dwarf planet in the inner solar system.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What is the difference between a planet and a dwarf planet?",
+      "Both orbit the Sun and are round, but a full planet has also cleared its orbital neighborhood of other large objects. Pluto and Ceres share their paths with many similar bodies, so astronomers classify them as dwarf planets. Since 2006, the solar system officially has eight planets."
+    ],
+    [
+      "How many planets are rocky and how many are giants?",
+      "Four planets are rocky: Mercury, Venus, Earth, and Mars. The other four are giants. Jupiter and Saturn are mostly hydrogen and helium gas, while Uranus and Neptune are called ice giants because they contain large amounts of water, ammonia, and methane. This quiz asks about both kinds."
+    ],
+    [
+      "Is this solar system quiz suitable for school?",
+      "Yes, it works well as a quick warm-up or review in a classroom or at home. The first questions match elementary-level science, and the later ones go a bit deeper into orbits, atmospheres, and history. Each answer includes a short explanation that students can read and discuss together."
+    ]
+  ],
+  "related": [
+    "/space-quiz",
+    "/science-quiz",
+    "/physics-quiz",
+    "/geography-quiz"
+  ]
+}

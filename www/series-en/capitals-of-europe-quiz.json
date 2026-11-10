@@ -1,0 +1,274 @@
+{
+  "path": "/capitals-of-europe-quiz",
+  "alt": {
+    "fr": "/quiz-capitales-europe"
+  },
+  "theme": "geographie",
+  "title": "European Capitals Quiz: 20 Questions",
+  "description": "Test your knowledge of European capitals with 20 questions, from Dublin and Athens to Vilnius and Valletta. Free, fast and fun geography quiz.",
+  "h1": "European Capitals Quiz: Can You Name Them All?",
+  "intro": "Europe may be small, but it is packed with capitals that are easy to mix up. In this European capitals quiz, you will answer 20 questions on cities from Dublin and Stockholm to Zagreb and Valletta. We begin with big, familiar capitals, then take you through central and eastern Europe, and finish with tougher ones such as Ljubljana, Vilnius and Tirana. You get about five seconds per question, so trust your gut. After each answer, a short explanation tells you something about the city or country. Ready for a trip across the continent? Let's see how many you can get right.",
+  "questions": [
+    {
+      "q": "What is the capital of Ireland?",
+      "choices": [
+        "Cork",
+        "Dublin",
+        "Galway",
+        "Limerick"
+      ],
+      "answer": 1,
+      "explication": "Dublin sits on the River Liffey and has been Ireland's capital for centuries.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Greece?",
+      "choices": [
+        "Thessaloniki",
+        "Patras",
+        "Sparta",
+        "Athens"
+      ],
+      "answer": 3,
+      "explication": "Athens is one of the oldest cities in the world, with a recorded history of more than 3,000 years.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Austria?",
+      "choices": [
+        "Vienna",
+        "Salzburg",
+        "Graz",
+        "Innsbruck"
+      ],
+      "answer": 0,
+      "explication": "Vienna was the capital of the Habsburg Empire and is famed for its music and coffeehouses.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Poland?",
+      "choices": [
+        "Kraków",
+        "Gdańsk",
+        "Warsaw",
+        "Wrocław"
+      ],
+      "answer": 2,
+      "explication": "Warsaw became the capital in 1596. Kraków was the capital before that.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Sweden?",
+      "choices": [
+        "Gothenburg",
+        "Malmö",
+        "Uppsala",
+        "Stockholm"
+      ],
+      "answer": 3,
+      "explication": "Stockholm is built on 14 islands where Lake Mälaren meets the Baltic Sea.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Norway?",
+      "choices": [
+        "Bergen",
+        "Oslo",
+        "Trondheim",
+        "Stavanger"
+      ],
+      "answer": 1,
+      "explication": "Oslo lies at the head of the Oslofjord. It was called Christiania from 1624 until 1925.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Denmark?",
+      "choices": [
+        "Aarhus",
+        "Odense",
+        "Copenhagen",
+        "Aalborg"
+      ],
+      "answer": 2,
+      "explication": "Copenhagen's name means 'merchants' harbor.'",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Finland?",
+      "choices": [
+        "Helsinki",
+        "Tampere",
+        "Turku",
+        "Oulu"
+      ],
+      "answer": 0,
+      "explication": "Helsinki, on the Gulf of Finland, became the capital in 1812. Turku was the earlier capital.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Hungary?",
+      "choices": [
+        "Budapest",
+        "Debrecen",
+        "Szeged",
+        "Pécs"
+      ],
+      "answer": 0,
+      "explication": "Budapest was formed in 1873 by merging the cities of Buda, Pest and Óbuda.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of the Czech Republic?",
+      "choices": [
+        "Brno",
+        "Ostrava",
+        "Prague",
+        "Plzeň"
+      ],
+      "answer": 2,
+      "explication": "Prague is known as the 'City of a Hundred Spires' and has a well-preserved medieval center.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Romania?",
+      "choices": [
+        "Cluj-Napoca",
+        "Bucharest",
+        "Timișoara",
+        "Iași"
+      ],
+      "answer": 1,
+      "explication": "Bucharest became the capital of Romania in 1862 and is the country's largest city.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Russia?",
+      "choices": [
+        "Saint Petersburg",
+        "Novosibirsk",
+        "Kazan",
+        "Moscow"
+      ],
+      "answer": 3,
+      "explication": "Moscow is the capital of Russia. Saint Petersburg was the imperial capital until 1918.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Croatia?",
+      "choices": [
+        "Split",
+        "Dubrovnik",
+        "Zagreb",
+        "Rijeka"
+      ],
+      "answer": 2,
+      "explication": "Zagreb lies inland, on the Sava River. Dubrovnik and Split are better-known coastal tourist cities.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Serbia?",
+      "choices": [
+        "Belgrade",
+        "Novi Sad",
+        "Niš",
+        "Kragujevac"
+      ],
+      "answer": 0,
+      "explication": "Belgrade sits where the Sava and Danube rivers meet.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Bulgaria?",
+      "choices": [
+        "Plovdiv",
+        "Varna",
+        "Burgas",
+        "Sofia"
+      ],
+      "answer": 3,
+      "explication": "Sofia is one of the oldest capitals in Europe, with roots going back more than 2,000 years.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Slovakia?",
+      "choices": [
+        "Košice",
+        "Bratislava",
+        "Žilina",
+        "Nitra"
+      ],
+      "answer": 1,
+      "explication": "Bratislava sits on the Danube, close to both Austria and Hungary.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Slovenia?",
+      "choices": [
+        "Maribor",
+        "Ljubljana",
+        "Celje",
+        "Kranj"
+      ],
+      "answer": 1,
+      "explication": "Ljubljana is a small, green capital known for its riverside old town.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the capital of Lithuania?",
+      "choices": [
+        "Kaunas",
+        "Klaipėda",
+        "Šiauliai",
+        "Vilnius"
+      ],
+      "answer": 3,
+      "explication": "Vilnius has been the capital since the 14th century, apart from some interruptions. Kaunas was the temporary capital between the wars.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the capital of Albania?",
+      "choices": [
+        "Tirana",
+        "Durrës",
+        "Shkodër",
+        "Vlorë"
+      ],
+      "answer": 0,
+      "explication": "Tirana became the capital in 1920 and is known for its colorfully painted buildings.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the capital of Malta?",
+      "choices": [
+        "Mdina",
+        "Sliema",
+        "Valletta",
+        "Rabat"
+      ],
+      "answer": 2,
+      "explication": "Valletta, founded in 1566 by the Knights of St John, is one of the smallest capitals in the European Union.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "How many capitals are in Europe?",
+      "Europe has around 44 to 50 countries depending on how you count transcontinental ones like Russia, Turkey and Kazakhstan, and a similar number of capitals. A few, such as Vatican City and Monaco, are city-states, so their capital is effectively the whole country."
+    ],
+    [
+      "Which European capitals are most often confused?",
+      "People often mix up Bratislava and Ljubljana, Budapest and Bucharest, or Vienna and Warsaw. Some also think Zurich is the Swiss capital, when it is Bern, or that Istanbul is Turkey's capital, when it is Ankara. Practice and a map help."
+    ],
+    [
+      "Is Amsterdam the capital of the Netherlands?",
+      "Yes, Amsterdam is the constitutional capital of the Netherlands. However, the government, parliament and royal working palace are located in The Hague, which makes things confusing. This quiz focuses on more straightforward capitals, so Amsterdam is not one of the questions."
+    ]
+  ],
+  "related": [
+    "/world-capitals-quiz",
+    "/hard-capitals-quiz",
+    "/capitals-of-africa-quiz",
+    "/capitals-of-asia-quiz",
+    "/geography-quiz"
+  ]
+}

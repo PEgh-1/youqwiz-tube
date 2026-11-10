@@ -1,0 +1,274 @@
+{
+  "path": "/dinosaur-quiz",
+  "alt": {
+    "fr": "/quiz-dinosaures"
+  },
+  "theme": "animaux",
+  "title": "Dinosaur Quiz: 20 Prehistoric Questions",
+  "description": "Take our dinosaur quiz: 20 questions on T. rex, Triceratops, fossils, the Mesozoic and the asteroid that ended the age of dinosaurs.",
+  "h1": "Dinosaur Quiz: How Much Do You Know About Prehistory?",
+  "intro": "Roar! Whether you grew up with a plastic T. rex or still get a thrill from visiting a natural history museum, this dinosaur quiz is for you. Its 20 questions cover famous dinosaurs, fossils, the Mesozoic Era and the Ice Age giants that came afterward. We start with the dinosaurs everyone knows, then move to prehistoric periods, extinction theories and some surprising relatives, such as the birds in your backyard. Each question gives you about five seconds, so go with your gut. A short explanation follows each answer so you learn something new every time. Ready to dig in?",
+  "questions": [
+    {
+      "q": "Which meat-eating dinosaur is nicknamed the 'tyrant lizard king'?",
+      "choices": [
+        "Diplodocus",
+        "Tyrannosaurus rex",
+        "Stegosaurus",
+        "Triceratops"
+      ],
+      "answer": 1,
+      "explication": "Tyrannosaurus rex means 'tyrant lizard king.' It lived in North America about 68 to 66 million years ago.",
+      "level": "facile"
+    },
+    {
+      "q": "What does the word 'dinosaur' mean?",
+      "choices": [
+        "big bird",
+        "flying dragon",
+        "ancient animal",
+        "terrible lizard"
+      ],
+      "answer": 3,
+      "explication": "The word comes from the Greek deinos (terrible) and sauros (lizard), coined by Richard Owen in 1842.",
+      "level": "facile"
+    },
+    {
+      "q": "Which dinosaur had three horns on its face?",
+      "choices": [
+        "Triceratops",
+        "Stegosaurus",
+        "Velociraptor",
+        "Ankylosaurus"
+      ],
+      "answer": 0,
+      "explication": "Triceratops means 'three-horned face' and had a large bony frill behind its head.",
+      "level": "facile"
+    },
+    {
+      "q": "Which dinosaur is known for the plates along its back?",
+      "choices": [
+        "Diplodocus",
+        "Tyrannosaurus",
+        "Stegosaurus",
+        "Iguanodon"
+      ],
+      "answer": 2,
+      "explication": "Stegosaurus also had spikes on its tail, called the thagomizer.",
+      "level": "facile"
+    },
+    {
+      "q": "About how long ago did the non-avian dinosaurs go extinct?",
+      "choices": [
+        "6 million years ago",
+        "6,000 years ago",
+        "66 million years ago",
+        "660 million years ago"
+      ],
+      "answer": 2,
+      "explication": "A mass extinction about 66 million years ago wiped out all dinosaurs except the lineage that led to birds.",
+      "level": "facile"
+    },
+    {
+      "q": "What do we call the remains of ancient life preserved in rock?",
+      "choices": [
+        "fossils",
+        "minerals",
+        "crystals",
+        "meteorites"
+      ],
+      "answer": 0,
+      "explication": "Fossils can be bones, shells, footprints or even leaf imprints, and they are our main source of information about prehistoric life.",
+      "level": "facile"
+    },
+    {
+      "q": "What do we call scientists who study fossils and ancient life?",
+      "choices": [
+        "geologists",
+        "archaeologists",
+        "astronomers",
+        "paleontologists"
+      ],
+      "answer": 3,
+      "explication": "Paleontologists study prehistoric life through fossils, while archaeologists study human history through objects and ruins.",
+      "level": "facile"
+    },
+    {
+      "q": "Which giant, hairy relative of the elephant lived during the Ice Age?",
+      "choices": [
+        "Triceratops",
+        "the woolly mammoth",
+        "Diplodocus",
+        "Pterodactyl"
+      ],
+      "answer": 1,
+      "explication": "Woolly mammoths lived long after the dinosaurs, and the last populations survived until about 4,000 years ago.",
+      "level": "facile"
+    },
+    {
+      "q": "Which plant-eating dinosaur had a very long neck and tail?",
+      "choices": [
+        "Velociraptor",
+        "Triceratops",
+        "Ankylosaurus",
+        "Diplodocus"
+      ],
+      "answer": 3,
+      "explication": "Diplodocus could reach about 85 feet in length. Its whip-like tail may have made loud cracking sounds.",
+      "level": "moyen"
+    },
+    {
+      "q": "Modern birds descend from which group of dinosaurs?",
+      "choices": [
+        "sauropods",
+        "theropods",
+        "stegosaurs",
+        "ceratopsians"
+      ],
+      "answer": 1,
+      "explication": "Birds are living theropods, the group that also includes T. rex and Velociraptor.",
+      "level": "moyen"
+    },
+    {
+      "q": "What era is known as the age of the dinosaurs?",
+      "choices": [
+        "the Paleozoic",
+        "the Cenozoic",
+        "the Mesozoic",
+        "the Quaternary"
+      ],
+      "answer": 2,
+      "explication": "The Mesozoic Era lasted from about 252 to 66 million years ago and is divided into the Triassic, Jurassic and Cretaceous.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which dinosaur had a tail ending in a bony club?",
+      "choices": [
+        "Ankylosaurus",
+        "Diplodocus",
+        "Tyrannosaurus",
+        "Iguanodon"
+      ],
+      "answer": 0,
+      "explication": "Ankylosaurus was a heavily armored herbivore whose tail club could deliver powerful blows.",
+      "level": "moyen"
+    },
+    {
+      "q": "The Pteranodon, which flew in the age of dinosaurs, was...",
+      "choices": [
+        "a flying reptile but not a dinosaur",
+        "a feathered dinosaur",
+        "an ancestor of bats",
+        "a fish"
+      ],
+      "answer": 0,
+      "explication": "Pterosaurs such as Pteranodon were flying reptiles related to dinosaurs but belonging to a separate group.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which event is linked to the extinction at the end of the Cretaceous?",
+      "choices": [
+        "a million-year ice age",
+        "a worldwide disease",
+        "an asteroid impact",
+        "the Sun going dark"
+      ],
+      "answer": 2,
+      "explication": "A huge asteroid struck what is now Mexico's Yucatán Peninsula, forming the Chicxulub crater.",
+      "level": "moyen"
+    },
+    {
+      "q": "Smilodon, from the Ice Age, was...",
+      "choices": [
+        "an ancestor of wolves",
+        "a saber-toothed cat",
+        "a marine reptile",
+        "a meat-eating dinosaur"
+      ],
+      "answer": 1,
+      "explication": "Smilodon, often called the saber-toothed tiger, was a big cat with huge upper canines. It was not a dinosaur.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which is the most recent period of the Mesozoic Era?",
+      "choices": [
+        "the Triassic",
+        "the Jurassic",
+        "the Permian",
+        "the Cretaceous"
+      ],
+      "answer": 3,
+      "explication": "The order is Triassic, Jurassic, Cretaceous. The Permian came before the Mesozoic, in the Paleozoic.",
+      "level": "moyen"
+    },
+    {
+      "q": "What was the single supercontinent that existed when the first dinosaurs appeared?",
+      "choices": [
+        "Laurasia",
+        "Pangaea",
+        "Atlantis",
+        "Gondwana"
+      ],
+      "answer": 1,
+      "explication": "Pangaea began to break apart during the Jurassic, eventually forming the continents we know today.",
+      "level": "expert"
+    },
+    {
+      "q": "Which Jurassic fossil shows a mix of feathers and dinosaur features?",
+      "choices": [
+        "Archaeopteryx",
+        "Pteranodon",
+        "Smilodon",
+        "the mammoth"
+      ],
+      "answer": 0,
+      "explication": "Archaeopteryx, found in German limestone in 1861, had feathers, teeth and a bony tail, making it a famous link between dinosaurs and birds.",
+      "level": "expert"
+    },
+    {
+      "q": "Trilobites were...",
+      "choices": [
+        "aquatic dinosaurs",
+        "armored fish",
+        "mollusks",
+        "marine arthropods"
+      ],
+      "answer": 3,
+      "explication": "Trilobites were sea creatures with segmented bodies that thrived long before dinosaurs, in the Paleozoic Era.",
+      "level": "expert"
+    },
+    {
+      "q": "Which dinosaur is recognized by its dome-shaped skull?",
+      "choices": [
+        "Stegosaurus",
+        "Triceratops",
+        "Pachycephalosaurus",
+        "Diplodocus"
+      ],
+      "answer": 2,
+      "explication": "Pachycephalosaurus means 'thick-headed lizard' and had a skull roof up to about 9 inches thick.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "When did the dinosaurs go extinct?",
+      "Non-avian dinosaurs died out about 66 million years ago, at the end of the Cretaceous Period. The main cause is thought to be a giant asteroid impact in what is now Mexico, combined with volcanic activity. Birds, which are living dinosaurs, survived."
+    ],
+    [
+      "Are birds really dinosaurs?",
+      "Yes. Scientists consider birds to be living dinosaurs, descended from small feathered theropods, the group that also included Velociraptor. When we say dinosaurs went extinct, we mean the non-avian ones. Your backyard sparrow is technically a dinosaur. Fossils from China and elsewhere show many dinosaurs wearing feathers, long before any bird took to the air."
+    ],
+    [
+      "Were woolly mammoths and saber-toothed cats dinosaurs?",
+      "No. Mammoths and saber-toothed cats were mammals that lived during the Ice Age, tens of millions of years after the non-avian dinosaurs had disappeared. Dinosaurs and Ice Age mammals never met, though people often picture them together. The mammoth, for example, lived alongside early humans, who left cave paintings of it that we can still see today."
+    ]
+  ],
+  "related": [
+    "/animal-quiz",
+    "/hard-animal-quiz",
+    "/ocean-animals-quiz",
+    "/science-quiz",
+    "/space-quiz"
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "path": "/easy-general-knowledge-quiz",
+  "alt": {
+    "fr": "/quiz-culture-generale-facile"
+  },
+  "theme": "culture-generale",
+  "title": "Easy General Knowledge Quiz: 20 Questions",
+  "description": "A fun, easy general knowledge quiz with 20 questions on geography, science, art, history and more. Perfect for beginners, kids and families.",
+  "h1": "Easy General Knowledge Quiz: Can You Get Them All?",
+  "intro": "Looking for a relaxed quiz that is fun for the whole family? This easy general knowledge quiz offers 20 friendly questions on geography, science, art, literature and history. You will recognize most of the answers from school or everyday life, such as the Red Planet, the number of days in a leap year or the first person on the Moon. A few questions get slightly trickier toward the end, but nothing too scary. You have about five seconds per question, so keep a quick pace. Each answer comes with a short explanation, so you can learn a bit more. Can you score a perfect 20?",
+  "questions": [
+    {
+      "q": "How many sides does a hexagon have?",
+      "choices": [
+        "4",
+        "6",
+        "5",
+        "8"
+      ],
+      "answer": 1,
+      "explication": "Hex means six in Greek, so a hexagon has six sides. Honeycomb cells are hexagons.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the largest ocean in the world?",
+      "choices": [
+        "the Atlantic Ocean",
+        "the Indian Ocean",
+        "the Arctic Ocean",
+        "the Pacific Ocean"
+      ],
+      "answer": 3,
+      "explication": "The Pacific covers about a third of Earth's surface, more than all the land combined.",
+      "level": "facile"
+    },
+    {
+      "q": "Who painted the Mona Lisa?",
+      "choices": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Raphael",
+        "Claude Monet"
+      ],
+      "answer": 0,
+      "explication": "Leonardo painted the Mona Lisa in the early 1500s. It hangs in the Louvre museum in Paris.",
+      "level": "facile"
+    },
+    {
+      "q": "Which planet is nicknamed the Red Planet?",
+      "choices": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Mercury"
+      ],
+      "answer": 0,
+      "explication": "Mars looks red because its soil contains iron oxide, or rust.",
+      "level": "facile"
+    },
+    {
+      "q": "Which animal is known as the 'king of the jungle'?",
+      "choices": [
+        "the tiger",
+        "the bear",
+        "the eagle",
+        "the lion"
+      ],
+      "answer": 3,
+      "explication": "Lions are not actually found in jungles, but they live in groups called prides and are still called the king of beasts.",
+      "level": "facile"
+    },
+    {
+      "q": "Which river flows through London?",
+      "choices": [
+        "the Seine",
+        "the Danube",
+        "the Hudson",
+        "the Thames"
+      ],
+      "answer": 3,
+      "explication": "The River Thames runs for about 215 miles and flows through the heart of London.",
+      "level": "facile"
+    },
+    {
+      "q": "Which is the largest planet in our solar system?",
+      "choices": [
+        "Saturn",
+        "Neptune",
+        "Earth",
+        "Jupiter"
+      ],
+      "answer": 3,
+      "explication": "Jupiter is so big that more than 1,000 Earths could fit inside it.",
+      "level": "facile"
+    },
+    {
+      "q": "Who wrote the play 'Romeo and Juliet'?",
+      "choices": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Mark Twain",
+        "Jane Austen"
+      ],
+      "answer": 1,
+      "explication": "Shakespeare wrote Romeo and Juliet in the 1590s, and it remains one of the most famous love stories ever told.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Italy?",
+      "choices": [
+        "Milan",
+        "Venice",
+        "Rome",
+        "Naples"
+      ],
+      "answer": 2,
+      "explication": "Rome is called the Eternal City and is home to the Colosseum and the Vatican.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many players does a soccer team have on the field at one time?",
+      "choices": [
+        "11",
+        "9",
+        "10",
+        "12"
+      ],
+      "answer": 0,
+      "explication": "Each team plays with 11 players, including the goalkeeper.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the largest land mammal?",
+      "choices": [
+        "the giraffe",
+        "the white rhinoceros",
+        "the African elephant",
+        "the hippopotamus"
+      ],
+      "answer": 2,
+      "explication": "African elephants can weigh up to about 6 tons.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which gas do humans need to breathe in order to live?",
+      "choices": [
+        "oxygen",
+        "nitrogen",
+        "carbon dioxide",
+        "helium"
+      ],
+      "answer": 0,
+      "explication": "Oxygen makes up about 21 percent of air. Our bodies use it to turn food into energy.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many days are in a leap year?",
+      "choices": [
+        "365",
+        "364",
+        "366",
+        "367"
+      ],
+      "answer": 2,
+      "explication": "Leap years add February 29 to keep the calendar in step with the Earth's orbit around the Sun.",
+      "level": "moyen"
+    },
+    {
+      "q": "In what year did Christopher Columbus make his first voyage across the Atlantic to the Americas?",
+      "choices": [
+        "1492",
+        "1392",
+        "1592",
+        "1776"
+      ],
+      "answer": 0,
+      "explication": "Columbus landed in the Bahamas in October 1492, on a voyage funded by the Spanish crown.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which famous statue stands in New York Harbor?",
+      "choices": [
+        "the Sphinx",
+        "Christ the Redeemer",
+        "the Little Mermaid",
+        "the Statue of Liberty"
+      ],
+      "answer": 3,
+      "explication": "The Statue of Liberty was a gift from France, dedicated in 1886.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the currency of Japan?",
+      "choices": [
+        "the yuan",
+        "the yen",
+        "the won",
+        "the rupee"
+      ],
+      "answer": 1,
+      "explication": "The yen has been Japan's currency since 1871.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who was the first person to walk on the Moon, in 1969?",
+      "choices": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "John Glenn"
+      ],
+      "answer": 1,
+      "explication": "Armstrong stepped onto the Moon on July 20, 1969, during the Apollo 11 mission. Buzz Aldrin followed shortly after.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the chemical formula for water?",
+      "choices": [
+        "CO₂",
+        "H₂O",
+        "O₂",
+        "NaCl"
+      ],
+      "answer": 1,
+      "explication": "Each water molecule contains two hydrogen atoms and one oxygen atom.",
+      "level": "expert"
+    },
+    {
+      "q": "Which country is the largest in the world by area?",
+      "choices": [
+        "Canada",
+        "China",
+        "Russia",
+        "the United States"
+      ],
+      "answer": 2,
+      "explication": "Russia covers more than 6.6 million square miles, spanning eleven time zones.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the highest mountain above sea level?",
+      "choices": [
+        "K2",
+        "Kilimanjaro",
+        "Mount Everest",
+        "Mont Blanc"
+      ],
+      "answer": 2,
+      "explication": "Everest, on the border of Nepal and China, stands about 29,000 feet above sea level.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Who is this quiz for?",
+      "It is designed for everyone: kids, families, students and adults who want a relaxed challenge. The questions cover widely known facts in geography, science, art, history and literature, so you don't need special expertise to do well. Parents can play along with kids, and teachers can use it as a quick classroom warm-up."
+    ],
+    [
+      "How long does the quiz take?",
+      "About two minutes. There are 20 multiple-choice questions, and we suggest around five seconds for each, though you can take as long as you like. After every answer you will see a short explanation, which adds a little time but helps you learn."
+    ],
+    [
+      "What is the best way to improve my general knowledge?",
+      "Read widely, watch documentaries, visit museums and play quizzes like this one regularly. Pay attention to the explanations after each answer, because short facts stick better when you see them in context. Trying a harder quiz after an easy one is a good next step."
+    ]
+  ],
+  "related": [
+    "/hard-general-knowledge-quiz",
+    "/world-capitals-quiz",
+    "/world-flags-quiz",
+    "/science-quiz",
+    "/world-history-quiz"
+  ]
+}

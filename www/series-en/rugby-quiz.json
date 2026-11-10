@@ -1,0 +1,273 @@
+{
+  "path": "/rugby-quiz",
+  "alt": {
+    "fr": "/quiz-rugby"
+  },
+  "theme": "sport",
+  "title": "Rugby Quiz: 20 Questions from Easy to Expert",
+  "description": "Play our free rugby quiz: 20 questions on rules, scoring, World Cups, and national teams. Easy to expert levels, with a fun fact after each answer.",
+  "h1": "Rugby Quiz: How Well Do You Know the Game?",
+  "intro": "From the haka to the Six Nations, rugby is full of tradition and drama. This rugby quiz tests your knowledge of the rules, scoring, positions, famous teams, and Rugby World Cup history. The first eight questions are easy for casual fans, the middle eight dig into World Cup finals and legends, and the last four are tough expert questions. You get about five seconds per question, and every answer comes with a short explanation. It's free and fun to play with friends, and whether you follow union, league, or sevens, there's something here for you. Ready to run with it?",
+  "questions": [
+    {
+      "q": "How many players are on the field for a rugby union team?",
+      "choices": [
+        "13",
+        "11",
+        "12",
+        "15"
+      ],
+      "answer": 3,
+      "explication": "A rugby union team has eight forwards and seven backs.",
+      "level": "facile"
+    },
+    {
+      "q": "How many points is a try worth in rugby union?",
+      "choices": [
+        "5 points",
+        "3 points",
+        "4 points",
+        "7 points"
+      ],
+      "answer": 0,
+      "explication": "A try is scored by grounding the ball in the opponent's in-goal area.",
+      "level": "facile"
+    },
+    {
+      "q": "What shape is a rugby ball?",
+      "choices": [
+        "Round",
+        "Oval",
+        "Square",
+        "Triangular"
+      ],
+      "answer": 1,
+      "explication": "The oval shape makes the ball easier to carry under the arm and to pass over long distances.",
+      "level": "facile"
+    },
+    {
+      "q": "Which of these nations plays in the Six Nations Championship?",
+      "choices": [
+        "Spain",
+        "Italy",
+        "Argentina",
+        "South Africa"
+      ],
+      "answer": 1,
+      "explication": "The Six Nations includes England, France, Ireland, Italy, Scotland, and Wales.",
+      "level": "facile"
+    },
+    {
+      "q": "Which national team performs the haka before its matches?",
+      "choices": [
+        "The Springboks",
+        "The Wallabies",
+        "The All Blacks of New Zealand",
+        "The Pumas"
+      ],
+      "answer": 2,
+      "explication": "The All Blacks' best-known haka is \"Ka Mate,\" a Māori war dance.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the nickname of South Africa's national team?",
+      "choices": [
+        "The Wallabies",
+        "The Springboks",
+        "The Lions",
+        "The Pumas"
+      ],
+      "answer": 1,
+      "explication": "The Springbok, a type of antelope, appears on the team's green and gold jersey.",
+      "level": "facile"
+    },
+    {
+      "q": "How many points is a successful conversion worth?",
+      "choices": [
+        "2 points",
+        "1 point",
+        "3 points",
+        "5 points"
+      ],
+      "answer": 0,
+      "explication": "A conversion is a kick at goal taken after a try, from a spot in line with where the ball was grounded.",
+      "level": "facile"
+    },
+    {
+      "q": "How many points is a successful penalty kick worth?",
+      "choices": [
+        "2 points",
+        "5 points",
+        "1 point",
+        "3 points"
+      ],
+      "answer": 3,
+      "explication": "A drop goal is also worth three points in rugby union.",
+      "level": "facile"
+    },
+    {
+      "q": "Which team won the first Rugby World Cup, in 1987?",
+      "choices": [
+        "Australia",
+        "New Zealand",
+        "France",
+        "South Africa"
+      ],
+      "answer": 1,
+      "explication": "The All Blacks beat France 29-9 in the final in Auckland.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which team won the 2007 Rugby World Cup, played in France?",
+      "choices": [
+        "England",
+        "New Zealand",
+        "South Africa",
+        "Australia"
+      ],
+      "answer": 2,
+      "explication": "The Springboks beat England 15-6 in the final in Paris.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the trophy awarded to the Rugby World Cup winner called?",
+      "choices": [
+        "The Jules Rimet Trophy",
+        "The Calcutta Cup",
+        "The Bledisloe Cup",
+        "The Webb Ellis Cup"
+      ],
+      "answer": 3,
+      "explication": "The trophy is named after William Webb Ellis, who according to legend invented the sport.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which team did South Africa beat in the 1995 World Cup final at home?",
+      "choices": [
+        "Australia",
+        "England",
+        "New Zealand",
+        "France"
+      ],
+      "answer": 2,
+      "explication": "The Springboks won 15-12 in extra time, and President Nelson Mandela presented the trophy wearing a Springbok jersey.",
+      "level": "moyen"
+    },
+    {
+      "q": "What nationality was the famous winger Jonah Lomu?",
+      "choices": [
+        "New Zealander",
+        "Australian",
+        "South African",
+        "British"
+      ],
+      "answer": 0,
+      "explication": "Lomu burst onto the world stage at the 1995 World Cup, scoring seven tries in five games.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which position wears the number 9 in rugby union?",
+      "choices": [
+        "Hooker",
+        "Wing",
+        "Center",
+        "Scrum-half"
+      ],
+      "answer": 3,
+      "explication": "The scrum-half links the forwards and the backs by feeding the scrum and passing the ball out.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many players are on a rugby league team?",
+      "choices": [
+        "15",
+        "12",
+        "10",
+        "13"
+      ],
+      "answer": 3,
+      "explication": "Rugby league split from rugby union in 1895, and it features a different tackle and play-the-ball system.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is it called when a team wins all its matches in the Six Nations?",
+      "choices": [
+        "A hat trick",
+        "A Triple Crown",
+        "A Grand Slam",
+        "A clean sweep"
+      ],
+      "answer": 2,
+      "explication": "A Triple Crown is awarded to a British or Irish team that beats the three other home nations.",
+      "level": "moyen"
+    },
+    {
+      "q": "At which school did William Webb Ellis, according to legend, first pick up the ball and run in 1823?",
+      "choices": [
+        "Rugby School",
+        "Eton College",
+        "Harrow School",
+        "Winchester College"
+      ],
+      "answer": 0,
+      "explication": "The story is probably a myth, but the school gave the sport its name.",
+      "level": "expert"
+    },
+    {
+      "q": "In which year did rugby sevens make its Olympic debut?",
+      "choices": [
+        "2008",
+        "2012",
+        "2016",
+        "2020"
+      ],
+      "answer": 2,
+      "explication": "Rugby sevens debuted at the Rio de Janeiro Games, where Fiji won the men's gold medal and Australia won the women's.",
+      "level": "expert"
+    },
+    {
+      "q": "Which team won the 2003 Rugby World Cup in Australia, thanks to a late drop goal in extra time?",
+      "choices": [
+        "Australia",
+        "England",
+        "New Zealand",
+        "France"
+      ],
+      "answer": 1,
+      "explication": "Jonny Wilkinson's drop goal in the final seconds gave England a 20-17 win over Australia.",
+      "level": "expert"
+    },
+    {
+      "q": "What was the score in the 2011 Rugby World Cup final between New Zealand and France?",
+      "choices": [
+        "8-7",
+        "12-9",
+        "15-12",
+        "10-6"
+      ],
+      "answer": 0,
+      "explication": "New Zealand's narrow win at Eden Park in Auckland gave the All Blacks their first title since 1987.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What is the difference between rugby union and rugby league?",
+      "Rugby union has 15 players per side and features rucks, mauls, and lineouts. Rugby league has 13 players, and play restarts after each tackle with a limited number of tackles per possession. Both share the oval ball and the try, but they use different rules and scoring."
+    ],
+    [
+      "How often is the Rugby World Cup held?",
+      "The men's Rugby World Cup takes place every four years, starting in 1987. The Women's Rugby World Cup also runs every four years. Winners of the men's tournament receive the Webb Ellis Cup, named after the player said to have invented the game."
+    ],
+    [
+      "What is the Six Nations?",
+      "The Six Nations is an annual rugby union tournament played in the early part of the year by England, France, Ireland, Italy, Scotland, and Wales. Each team plays the others once. A team that wins all five matches achieves a Grand Slam."
+    ]
+  ],
+  "related": [
+    "/sports-quiz",
+    "/soccer-quiz",
+    "/olympics-quiz",
+    "/fifa-world-cup-quiz"
+  ]
+}

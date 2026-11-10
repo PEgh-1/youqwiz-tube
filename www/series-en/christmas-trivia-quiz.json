@@ -1,0 +1,273 @@
+{
+  "path": "/christmas-trivia-quiz",
+  "alt": {
+    "fr": "/quiz-noel"
+  },
+  "theme": "noel",
+  "title": "Christmas Trivia Quiz: 20 Festive Questions",
+  "description": "Play our free Christmas trivia quiz: 20 questions on Santa, carols, movies, and traditions worldwide. Easy to expert, with a fun fact each time.",
+  "h1": "Christmas Trivia Quiz: How Merry Is Your Knowledge?",
+  "intro": "Deck the halls and grab a mug of something warm, because it's time for Christmas trivia! This quiz has 20 festive questions on Santa Claus, carols, classic stories, holiday films, and traditions from around the world. The first eight are easy enough for the whole family, the middle eight dig into stories and customs, and the last four are expert-level questions for real Christmas buffs. You get about five seconds per question, and every answer includes a fun fact to share at the dinner table. It's free to play as often as you like. Ho, ho, ho, let's begin!",
+  "questions": [
+    {
+      "q": "On which date is Christmas Day celebrated in most countries?",
+      "choices": [
+        "December 24",
+        "January 6",
+        "December 31",
+        "December 25"
+      ],
+      "answer": 3,
+      "explication": "December 24 is Christmas Eve, and in many countries families open presents on that evening.",
+      "level": "facile"
+    },
+    {
+      "q": "Who traditionally delivers presents to children on Christmas Eve in many English-speaking countries?",
+      "choices": [
+        "The Easter Bunny",
+        "Santa Claus",
+        "The Tooth Fairy",
+        "Jack Frost"
+      ],
+      "answer": 1,
+      "explication": "Santa Claus is based on Saint Nicholas, a fourth-century bishop known for his generosity.",
+      "level": "facile"
+    },
+    {
+      "q": "Which animals pull Santa's sleigh?",
+      "choices": [
+        "Horses",
+        "Huskies",
+        "Reindeer",
+        "Polar bears"
+      ],
+      "answer": 2,
+      "explication": "In the classic poem, Santa has eight reindeer, and Rudolph joined the team in a 1939 story.",
+      "level": "facile"
+    },
+    {
+      "q": "Which kind of tree is traditionally decorated at Christmas?",
+      "choices": [
+        "A fir tree",
+        "An oak",
+        "A palm",
+        "A birch"
+      ],
+      "answer": 0,
+      "explication": "Evergreen trees stay green all winter, which made them a symbol of life and hope.",
+      "level": "facile"
+    },
+    {
+      "q": "Which green character tries to steal Christmas in a Dr. Seuss story?",
+      "choices": [
+        "Shrek",
+        "The Hulk",
+        "The Grinch",
+        "Oscar the Grouch"
+      ],
+      "answer": 2,
+      "explication": "\"How the Grinch Stole Christmas!\" was published in 1957, and the Grinch's heart famously grows three sizes at the end.",
+      "level": "facile"
+    },
+    {
+      "q": "Where do children traditionally hang their stockings for Santa?",
+      "choices": [
+        "On the fireplace mantel",
+        "On the roof",
+        "In the garden",
+        "Under the bed"
+      ],
+      "answer": 0,
+      "explication": "Legend says Saint Nicholas once dropped gold coins down a chimney and they landed in stockings hung to dry.",
+      "level": "facile"
+    },
+    {
+      "q": "Under which plant is it a tradition to kiss at Christmas?",
+      "choices": [
+        "Holly",
+        "Ivy",
+        "Mistletoe",
+        "Lavender"
+      ],
+      "answer": 2,
+      "explication": "The mistletoe tradition is believed to date back to ancient Norse and Celtic customs.",
+      "level": "facile"
+    },
+    {
+      "q": "In the carol \"The Twelve Days of Christmas,\" what does the true love send on the first day?",
+      "choices": [
+        "Two turtle doves",
+        "Three French hens",
+        "A partridge in a pear tree",
+        "Four calling birds"
+      ],
+      "answer": 2,
+      "explication": "The gifts are repeated and added to each day, so by the twelfth day, you've sent 364 items in total.",
+      "level": "facile"
+    },
+    {
+      "q": "Which 1843 novella by Charles Dickens features the miser Ebenezer Scrooge?",
+      "choices": [
+        "A Christmas Carol",
+        "Oliver Twist",
+        "David Copperfield",
+        "Great Expectations"
+      ],
+      "answer": 0,
+      "explication": "Dickens wrote the book in just a few weeks, and it helped revive Christmas traditions in Victorian Britain.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Tchaikovsky ballet begins at a Christmas Eve party?",
+      "choices": [
+        "Swan Lake",
+        "The Sleeping Beauty",
+        "The Nutcracker",
+        "Giselle"
+      ],
+      "answer": 2,
+      "explication": "The Nutcracker premiered in St. Petersburg in 1892 and has become a holiday tradition around the world.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which country is often credited as the birthplace of the decorated Christmas tree?",
+      "choices": [
+        "Spain",
+        "Germany",
+        "Portugal",
+        "Ireland"
+      ],
+      "answer": 1,
+      "explication": "Decorated fir trees appear in German records from the 1500s, and the custom spread through Europe and America.",
+      "level": "moyen"
+    },
+    {
+      "q": "On which date is Saint Nicholas Day celebrated in many European countries?",
+      "choices": [
+        "December 24",
+        "November 1",
+        "December 25",
+        "December 6"
+      ],
+      "answer": 3,
+      "explication": "In Germany and Belgium, children find small gifts on the morning of December 6, while Dutch families exchange presents on the evening of December 5.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is December 26 called in the United Kingdom and many Commonwealth countries?",
+      "choices": [
+        "Twelfth Night",
+        "Boxing Day",
+        "Epiphany",
+        "Yule Day"
+      ],
+      "answer": 1,
+      "explication": "The name probably comes from the custom of giving gift boxes to servants and tradespeople.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which 1990 film is a boy named Kevin accidentally left home alone at Christmas?",
+      "choices": [
+        "Home Alone",
+        "Elf",
+        "The Santa Clause",
+        "Jingle All the Way"
+      ],
+      "answer": 0,
+      "explication": "Home Alone was a huge hit, and it became one of the top-grossing live-action comedies of its time.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which New York landmark has displayed a famous giant Christmas tree since the 1930s?",
+      "choices": [
+        "Rockefeller Center",
+        "Times Square",
+        "Grand Central Terminal",
+        "The Empire State Building"
+      ],
+      "answer": 0,
+      "explication": "The tree is usually a Norway spruce, and the lighting ceremony is broadcast on television each year.",
+      "level": "moyen"
+    },
+    {
+      "q": "According to the Gospel of Matthew, which gifts did the Magi bring to the infant Jesus?",
+      "choices": [
+        "Gold, silver, and pearls",
+        "Frankincense, wheat, and wine",
+        "Myrrh, silk, and ivory",
+        "Gold, frankincense, and myrrh"
+      ],
+      "answer": 3,
+      "explication": "The Gospel does not say how many wise men there were. The tradition of three comes from the three gifts.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country was the carol \"Silent Night\" first performed, in 1818?",
+      "choices": [
+        "Germany",
+        "Austria",
+        "Switzerland",
+        "Poland"
+      ],
+      "answer": 1,
+      "explication": "Joseph Mohr wrote the lyrics and Franz Gruber composed the music for the church in Oberndorf.",
+      "level": "expert"
+    },
+    {
+      "q": "From which country does the poinsettia, the red Christmas plant, originate?",
+      "choices": [
+        "Norway",
+        "Mexico",
+        "India",
+        "Italy"
+      ],
+      "answer": 1,
+      "explication": "The poinsettia is native to Mexico, and the American diplomat Joel Poinsett brought it to the U.S. in the 1820s.",
+      "level": "expert"
+    },
+    {
+      "q": "In \"A Christmas Carol,\" who is Scrooge's deceased business partner?",
+      "choices": [
+        "Bob Cratchit",
+        "Mr. Fezziwig",
+        "Tiny Tim",
+        "Jacob Marley"
+      ],
+      "answer": 3,
+      "explication": "Marley's ghost visits Scrooge on Christmas Eve, weighed down by chains he forged in life.",
+      "level": "expert"
+    },
+    {
+      "q": "In which year was the first commercially produced Christmas card sent, in London?",
+      "choices": [
+        "1793",
+        "1871",
+        "1901",
+        "1843"
+      ],
+      "answer": 3,
+      "explication": "Sir Henry Cole commissioned the card, and about a thousand copies were printed.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What is the origin of Christmas?",
+      "Christmas celebrates the birth of Jesus in the Christian tradition. The date of December 25 was chosen by the early church, and many customs, such as evergreen decorations, gift-giving, and feasting, mix Christian practices with older winter festivals in Europe. Today, many people around the world celebrate it in both religious and secular ways."
+    ],
+    [
+      "Is this Christmas trivia quiz suitable for kids?",
+      "Yes. The first eight questions are about familiar topics like Santa, reindeer, and decorations, so children can play along with adults. The middle section is good for teens. You can also read the answers aloud to younger kids to turn it into a family game."
+    ],
+    [
+      "Do you have other Christmas quizzes?",
+      "Yes. You can try our hard Christmas quiz for deeper history and our Christmas traditions quiz, which explores festive customs and foods from around the world. Each has 20 questions that range from easy to expert, with short explanations after every answer."
+    ]
+  ],
+  "related": [
+    "/hard-christmas-quiz",
+    "/christmas-traditions-quiz",
+    "/food-trivia-quiz",
+    "/world-history-quiz"
+  ]
+}

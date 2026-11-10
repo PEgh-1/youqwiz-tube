@@ -1,0 +1,294 @@
+{
+ "path": "/hard-flags-quiz",
+ "alt": {
+  "fr": "/quiz-drapeaux-difficile"
+ },
+ "theme": "geographie",
+ "title": "Hard Flags Quiz: 20 Look-Alike Flags",
+ "description": "A hard flag quiz with look-alikes: Australia vs New Zealand, Chad vs Romania, Norway vs Iceland and more. Can you tell them apart?",
+ "h1": "Hard Flags Quiz: Can You Tell the Twins Apart?",
+ "intro": "Some flags look so alike that even seasoned travelers hesitate. This hard flags quiz is built around those look-alikes: Australia and New Zealand, Norway and Iceland, Mali and Guinea, Colombia and Ecuador, and many more. Across 20 questions, you will see one flag at a time and have to choose the right country from four tempting options, often including its near twin. The first questions are on the easier side, while the final ones feature rarely seen flags, so only careful observers will make it through. You get about five seconds per question. Each answer comes with a short explanation that spells out the difference. Good luck.",
+ "questions": [
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "New Zealand",
+    "Australia",
+    "Fiji",
+    "United Kingdom"
+   ],
+   "answer": 1,
+   "explication": "Australia's flag has a large seven-pointed Commonwealth Star under the Union Jack, plus the Southern Cross with white stars. New Zealand's has just four red stars.",
+   "level": "facile",
+   "flag": "au"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Australia",
+    "Fiji",
+    "Tuvalu",
+    "New Zealand"
+   ],
+   "answer": 3,
+   "explication": "New Zealand's flag shows four red stars with white borders. Australia's flag has five white stars and a big Commonwealth Star.",
+   "level": "facile",
+   "flag": "nz"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Netherlands",
+    "Luxembourg",
+    "France",
+    "Russia"
+   ],
+   "answer": 0,
+   "explication": "The Dutch flag has red on top, white in the middle and blue at the bottom. Luxembourg's has a lighter blue.",
+   "level": "facile",
+   "flag": "nl"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Netherlands",
+    "France",
+    "Luxembourg",
+    "Croatia"
+   ],
+   "answer": 2,
+   "explication": "Luxembourg's flag has the same colors as the Dutch flag but with a lighter sky blue.",
+   "level": "facile",
+   "flag": "lu"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Belgium",
+    "Andorra",
+    "Moldova",
+    "Romania"
+   ],
+   "answer": 3,
+   "explication": "Romania's vertical tricolor is blue, yellow and red. Chad's is nearly identical, and Andorra and Moldova add a coat of arms.",
+   "level": "facile",
+   "flag": "ro"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Germany",
+    "Belgium",
+    "Romania",
+    "Uganda"
+   ],
+   "answer": 1,
+   "explication": "Belgium's flag has vertical black, yellow and red stripes, with the black near the pole. Germany's has horizontal stripes of the same colors.",
+   "level": "facile",
+   "flag": "be"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Singapore",
+    "Poland",
+    "Indonesia",
+    "Austria"
+   ],
+   "answer": 2,
+   "explication": "Indonesia's flag has a red band over a white band. Monaco's is the same, but with slightly different proportions.",
+   "level": "facile",
+   "flag": "id"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Italy",
+    "Ireland",
+    "Mexico",
+    "Hungary"
+   ],
+   "answer": 0,
+   "explication": "Italy's flag has green, white and red vertical stripes with the green near the pole. Ireland's is green, white and orange, and Mexico's has an emblem.",
+   "level": "facile",
+   "flag": "it"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Ivory Coast",
+    "Ireland",
+    "Italy",
+    "India"
+   ],
+   "answer": 0,
+   "explication": "The Ivory Coast has orange near the pole, then white, then green. Ireland's has green near the pole, and Italy's has red as its third color.",
+   "level": "moyen",
+   "flag": "ci"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Guinea",
+    "Senegal",
+    "Mali",
+    "Ghana"
+   ],
+   "answer": 2,
+   "explication": "Mali's flag has green, yellow and red vertical stripes with no emblem. Senegal's adds a green star, and Guinea's reverses the order.",
+   "level": "moyen",
+   "flag": "ml"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Mali",
+    "Guinea",
+    "Cameroon",
+    "Bolivia"
+   ],
+   "answer": 1,
+   "explication": "Guinea's vertical stripes are red, yellow and green, from the pole outward, the reverse of Mali's.",
+   "level": "moyen",
+   "flag": "gn"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Latvia",
+    "Poland",
+    "Peru",
+    "Austria"
+   ],
+   "answer": 3,
+   "explication": "Austria's flag has three horizontal stripes of red, white and red. Latvia's has a much thinner white stripe, and Peru's is vertical.",
+   "level": "moyen",
+   "flag": "at"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Austria",
+    "Poland",
+    "Latvia",
+    "Peru"
+   ],
+   "answer": 2,
+   "explication": "Latvia's flag is dark carmine red with a narrow white stripe. Austria's has three equal stripes.",
+   "level": "moyen",
+   "flag": "lv"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Norway",
+    "Iceland",
+    "Denmark",
+    "Sweden"
+   ],
+   "answer": 0,
+   "explication": "Norway's flag is red with a blue cross edged in white. Iceland's reverses the colors, with a blue field and a red cross.",
+   "level": "moyen",
+   "flag": "no"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Norway",
+    "Finland",
+    "Sweden",
+    "Iceland"
+   ],
+   "answer": 3,
+   "explication": "Iceland's flag has a blue field with a red cross edged in white. Norway's colors are reversed.",
+   "level": "moyen",
+   "flag": "is"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Ecuador",
+    "Colombia",
+    "Venezuela",
+    "Bolivia"
+   ],
+   "answer": 1,
+   "explication": "Colombia's flag has a yellow stripe that takes up half the flag, over blue and red stripes with no emblem.",
+   "level": "moyen",
+   "flag": "co"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Colombia",
+    "Ecuador",
+    "Venezuela",
+    "Bolivia"
+   ],
+   "answer": 1,
+   "explication": "Ecuador's flag looks like Colombia's but has a coat of arms with a condor and Mount Chimborazo in the center.",
+   "level": "expert",
+   "flag": "ec"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Slovakia",
+    "Russia",
+    "Serbia",
+    "Slovenia"
+   ],
+   "answer": 3,
+   "explication": "Slovenia's flag has the same stripes as Russia and Slovakia but is easy to identify by its coat of arms with Mount Triglav in the upper left.",
+   "level": "expert",
+   "flag": "si"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Slovakia",
+    "Slovenia",
+    "Czech Republic",
+    "Croatia"
+   ],
+   "answer": 0,
+   "explication": "Slovakia's flag has white, blue and red stripes and a coat of arms with a double cross. Slovenia's coat of arms is smaller and shows a mountain.",
+   "level": "expert",
+   "flag": "sk"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Egypt",
+    "Syria",
+    "Yemen",
+    "Iraq"
+   ],
+   "answer": 2,
+   "explication": "Yemen's flag is a plain tricolor of red, white and black. Egypt's has an eagle and Iraq's has green Arabic script.",
+   "level": "expert",
+   "flag": "ye"
+  }
+ ],
+ "faq": [
+  [
+   "Which flags are the most commonly confused?",
+   "The most commonly confused pairs are Australia and New Zealand, Romania and Chad, Indonesia and Monaco, Norway and Iceland, and Colombia and Ecuador. The key is often a tiny detail, such as a star count, a stripe order or a shade of blue."
+  ],
+  [
+   "What is the best way to tell similar flags apart?",
+   "Learn one distinguishing feature for each pair, such as the number of stars, the direction of stripes, the order of colors or the presence of an emblem. Then practice with quizzes like this one, which explain the difference after each answer."
+  ],
+  [
+   "Are Indonesia and Monaco flags identical?",
+   "They are very similar. Both flags are red over white. The main difference is their proportions: Indonesia's is 2:3 while Monaco's is 4:5, which makes it slightly squarer. Poland's flag is the reverse, with white over red. Because of this, the two flags are often confused, and the difference matters mainly in official contexts and sporting events."
+  ]
+ ],
+ "related": [
+  "/world-flags-quiz",
+  "/flags-of-europe-quiz",
+  "/flags-of-africa-quiz",
+  "/flags-of-asia-quiz",
+  "/geography-quiz"
+ ]
+}

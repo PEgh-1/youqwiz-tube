@@ -1,0 +1,274 @@
+{
+  "path": "/ocean-animals-quiz",
+  "alt": {
+    "fr": "/quiz-animaux-marins"
+  },
+  "theme": "animaux",
+  "title": "Ocean Animals Quiz: 20 Questions About Sea Life",
+  "description": "Dive into our ocean animals quiz: 20 questions on whales, sharks, octopuses, corals and more. Free, quick and packed with surprising sea facts.",
+  "h1": "Ocean Animals Quiz: What Do You Know About Sea Life?",
+  "intro": "Grab your snorkel and dive in. This ocean animals quiz covers 20 questions about the creatures of the sea, from clownfish and seahorses to whales, sharks and corals. We start with familiar favorites and slowly sink toward deeper waters, where you will need to know your echinoderms from your cnidarians. Each question gives you about five seconds, so go with your instincts. After every answer, a short explanation tells you what makes the animal special, whether it is an octopus with eight arms or a father seahorse carrying the babies. It is a fun quiz for kids, students and anyone who loves the sea. How deep can you go?",
+  "questions": [
+    {
+      "q": "How many arms does an octopus have?",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 1,
+      "explication": "Octopus means 'eight feet' in Greek. The animal has eight arms lined with suckers.",
+      "level": "facile"
+    },
+    {
+      "q": "Which sea animal produces pearls?",
+      "choices": [
+        "the crab",
+        "the sea urchin",
+        "the jellyfish",
+        "the oyster"
+      ],
+      "answer": 3,
+      "explication": "Pearls form when an oyster coats an irritant, such as a grain of sand, with layers of shimmering nacre.",
+      "level": "facile"
+    },
+    {
+      "q": "A shark is a...",
+      "choices": [
+        "fish",
+        "mammal",
+        "reptile",
+        "mollusk"
+      ],
+      "answer": 0,
+      "explication": "Sharks are fish. They breathe through gills and have skeletons made of cartilage instead of bone.",
+      "level": "facile"
+    },
+    {
+      "q": "Which sea animal walks sideways along the bottom?",
+      "choices": [
+        "the starfish",
+        "the flounder",
+        "the crab",
+        "the lobster"
+      ],
+      "answer": 2,
+      "explication": "Crabs have legs that bend sideways, so scuttling sideways is the easiest way for them to move.",
+      "level": "facile"
+    },
+    {
+      "q": "Which transparent sea animal has stinging tentacles?",
+      "choices": [
+        "the sea urchin",
+        "the mussel",
+        "the jellyfish",
+        "the herring"
+      ],
+      "answer": 2,
+      "explication": "Jellyfish tentacles are covered in stinging cells that stun prey and defend against predators.",
+      "level": "facile"
+    },
+    {
+      "q": "Which marine mammal is famous for its songs?",
+      "choices": [
+        "the humpback whale",
+        "the seal",
+        "the hammerhead shark",
+        "the tuna"
+      ],
+      "answer": 0,
+      "explication": "Male humpback whales sing long, complex songs that can travel for miles underwater.",
+      "level": "facile"
+    },
+    {
+      "q": "Among seahorses, who carries the babies before birth?",
+      "choices": [
+        "the female",
+        "both take turns",
+        "nobody, the eggs float freely",
+        "the male"
+      ],
+      "answer": 3,
+      "explication": "The female deposits her eggs in the male's brood pouch, and he carries them until they hatch.",
+      "level": "facile"
+    },
+    {
+      "q": "Which sea animal lives inside two shells and clings to rocks?",
+      "choices": [
+        "the squid",
+        "the mussel",
+        "the hermit crab",
+        "the ray"
+      ],
+      "answer": 1,
+      "explication": "Mussels attach themselves to rocks with strong threads and filter food from the water between their two shells.",
+      "level": "facile"
+    },
+    {
+      "q": "Which animal does the clownfish live with in a partnership?",
+      "choices": [
+        "the sea turtle",
+        "the sea urchin",
+        "the shark",
+        "the sea anemone"
+      ],
+      "answer": 3,
+      "explication": "Clownfish are protected by the anemone's stinging tentacles and in return keep it clean and chase away its enemies.",
+      "level": "moyen"
+    },
+    {
+      "q": "The orca belongs to which family?",
+      "choices": [
+        "sharks",
+        "dolphins",
+        "baleen whales",
+        "seals"
+      ],
+      "answer": 1,
+      "explication": "Despite the name 'killer whale,' the orca is the largest member of the dolphin family.",
+      "level": "moyen"
+    },
+    {
+      "q": "What tiny crustacean do many whales feed on?",
+      "choices": [
+        "lobster",
+        "brown shrimp",
+        "krill",
+        "langoustine"
+      ],
+      "answer": 2,
+      "explication": "Krill are shrimp-like creatures that gather in enormous swarms and form the base of the Antarctic food web.",
+      "level": "moyen"
+    },
+    {
+      "q": "What does the whale shark mainly eat?",
+      "choices": [
+        "plankton",
+        "tuna",
+        "seals",
+        "whales"
+      ],
+      "answer": 0,
+      "explication": "The whale shark, the largest fish in the sea, filters tiny plankton from the water with its huge mouth.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which sea animal can regrow a lost arm?",
+      "choices": [
+        "the starfish",
+        "the dolphin",
+        "the sea turtle",
+        "the tuna"
+      ],
+      "answer": 0,
+      "explication": "Sea stars can regenerate lost arms, and some species can regrow an entire body from a single arm.",
+      "level": "moyen"
+    },
+    {
+      "q": "The narwhal is famous for its long spiral 'tusk.' What is it really?",
+      "choices": [
+        "a horn",
+        "a fishbone",
+        "a tooth",
+        "a fin"
+      ],
+      "answer": 2,
+      "explication": "The narwhal's tusk is an elongated upper left tooth that grows through the lip and can reach about 10 feet.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which plant-eating marine mammal is nicknamed the 'sea cow'?",
+      "choices": [
+        "the walrus",
+        "the manatee",
+        "the sea lion",
+        "the dolphin"
+      ],
+      "answer": 1,
+      "explication": "Manatees graze slowly on seagrass in warm shallow waters and can eat around 10 percent of their body weight daily.",
+      "level": "moyen"
+    },
+    {
+      "q": "Coral is...",
+      "choices": [
+        "a plant",
+        "a mineral",
+        "an alga",
+        "an animal"
+      ],
+      "answer": 3,
+      "explication": "Corals are tiny animals called polyps, which build the hard skeletons that form reefs.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the bulge on a dolphin's forehead that focuses its echolocation clicks?",
+      "choices": [
+        "the swim bladder",
+        "the melon",
+        "the blowhole",
+        "the lateral line"
+      ],
+      "answer": 1,
+      "explication": "The melon is a fatty organ that acts like an acoustic lens, directing the clicks dolphins use to 'see' with sound.",
+      "level": "expert"
+    },
+    {
+      "q": "Which cephalopod has a coiled, chambered outer shell?",
+      "choices": [
+        "the nautilus",
+        "the octopus",
+        "the squid",
+        "the cuttlefish"
+      ],
+      "answer": 0,
+      "explication": "The nautilus is a living fossil that has changed little in hundreds of millions of years and uses its shell chambers to control buoyancy.",
+      "level": "expert"
+    },
+    {
+      "q": "Sea urchins, sea stars and sea cucumbers all belong to which group?",
+      "choices": [
+        "crustaceans",
+        "cnidarians",
+        "annelids",
+        "echinoderms"
+      ],
+      "answer": 3,
+      "explication": "Echinoderms, meaning 'spiny skin,' have radial body symmetry, usually with five parts.",
+      "level": "expert"
+    },
+    {
+      "q": "What unusual ability does the clownfish have?",
+      "choices": [
+        "it lives over 100 years",
+        "it breathes out of water",
+        "it can change sex",
+        "it has no fins"
+      ],
+      "answer": 2,
+      "explication": "Clownfish are born male, and the dominant one in a group can become female.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Is a whale a fish?",
+      "No. Whales are mammals. They breathe air through blowholes, are warm-blooded, give birth to live young and nurse them with milk. Fish breathe underwater using gills. Dolphins and porpoises are also mammals, not fish. Sharks, rays and tuna are fish, while dolphins, whales and seals belong to the mammal group."
+    ],
+    [
+      "What is the biggest ocean animal?",
+      "The blue whale is the largest animal on Earth, and it lives in the ocean. It can be about 100 feet long. The biggest fish is the whale shark, which can grow to over 40 feet and eats mostly plankton, so it is harmless to humans."
+    ],
+    [
+      "How hard is this ocean animals quiz?",
+      "It starts easy, with questions most kids can answer, and moves up to medium and expert levels. The last four questions cover topics like echolocation and echinoderms, so they can challenge adults too. Each answer includes a short explanation that helps you learn as you go."
+    ]
+  ],
+  "related": [
+    "/animal-quiz",
+    "/hard-animal-quiz",
+    "/dinosaur-quiz",
+    "/human-body-quiz",
+    "/science-quiz"
+  ]
+}

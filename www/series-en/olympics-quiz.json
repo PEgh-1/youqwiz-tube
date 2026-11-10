@@ -1,0 +1,274 @@
+{
+  "path": "/olympics-quiz",
+  "alt": {
+    "fr": "/quiz-jeux-olympiques"
+  },
+  "theme": "sport",
+  "title": "Olympics Quiz: 20 Questions from Easy to Expert",
+  "description": "Test your Olympic knowledge with 20 free questions on host cities, legends, symbols, and history. Easy to expert levels, with facts after each answer.",
+  "h1": "Olympics Quiz: Go for Gold with 20 Questions",
+  "intro": "From ancient Olympia to the modern Games, the Olympics bring together athletes from around the world. This Olympics quiz tests your knowledge of host cities, symbols, legendary athletes, and key moments in history. The first eight questions are warm-ups for casual fans, the middle eight reach into Olympic history, and the last four are expert-level trivia. You get about five seconds per question, and each answer includes a short explanation. It's free and quick to play, and it's a fun challenge to share with friends or family. On your marks, get set, play!",
+  "questions": [
+    {
+      "q": "How many rings are in the Olympic symbol?",
+      "choices": [
+        "Five",
+        "Four",
+        "Six",
+        "Seven"
+      ],
+      "answer": 0,
+      "explication": "The five interlocking rings represent the union of the five inhabited continents, as originally conceived.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country was the birthplace of the ancient Olympic Games?",
+      "choices": [
+        "Italy",
+        "Egypt",
+        "Turkey",
+        "Greece"
+      ],
+      "answer": 3,
+      "explication": "The ancient Games were held at Olympia from 776 BC in honor of Zeus.",
+      "level": "facile"
+    },
+    {
+      "q": "In which city were the first modern Olympic Games held, in 1896?",
+      "choices": [
+        "Paris",
+        "Athens",
+        "London",
+        "Rome"
+      ],
+      "answer": 1,
+      "explication": "Some 240 athletes from 14 nations competed in Athens in 1896.",
+      "level": "facile"
+    },
+    {
+      "q": "What does the Olympic motto \"Citius, Altius, Fortius\" mean?",
+      "choices": [
+        "Farther, braver, wiser",
+        "Together, forever, victorious",
+        "Courage, strength, honor",
+        "Faster, higher, stronger"
+      ],
+      "answer": 3,
+      "explication": "Pierre de Coubertin proposed the Latin motto in 1894, borrowing it from his friend Father Henri Didon.",
+      "level": "facile"
+    },
+    {
+      "q": "How often are the Summer Olympics held?",
+      "choices": [
+        "Every two years",
+        "Every four years",
+        "Every three years",
+        "Every five years"
+      ],
+      "answer": 1,
+      "explication": "The Games have been postponed or canceled only a few times, due to world wars and, in 2020, the pandemic.",
+      "level": "facile"
+    },
+    {
+      "q": "In which place in Greece is the Olympic flame lit?",
+      "choices": [
+        "Olympia",
+        "Athens",
+        "Delphi",
+        "Sparta"
+      ],
+      "answer": 0,
+      "explication": "The flame is lit by the rays of the sun focused with a mirror, then carried by torch to the host city.",
+      "level": "facile"
+    },
+    {
+      "q": "Which medal is awarded for third place?",
+      "choices": [
+        "Silver",
+        "Gold",
+        "Bronze",
+        "Copper"
+      ],
+      "answer": 2,
+      "explication": "Gold, silver, and bronze medals were first awarded at the 1904 Olympics.",
+      "level": "facile"
+    },
+    {
+      "q": "Which city hosted the 2024 Summer Olympics?",
+      "choices": [
+        "Tokyo",
+        "London",
+        "Los Angeles",
+        "Paris"
+      ],
+      "answer": 3,
+      "explication": "Paris hosted its third Summer Games, exactly 100 years after the 1924 Games.",
+      "level": "facile"
+    },
+    {
+      "q": "Who founded the modern Olympic Games?",
+      "choices": [
+        "Pierre de Coubertin",
+        "Napoleon Bonaparte",
+        "Jules Rimet",
+        "Avery Brundage"
+      ],
+      "answer": 0,
+      "explication": "Coubertin, a French educator, founded the International Olympic Committee in 1894.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which city hosted the 2008 Summer Olympics?",
+      "choices": [
+        "Athens",
+        "Sydney",
+        "Beijing",
+        "Seoul"
+      ],
+      "answer": 2,
+      "explication": "The opening ceremony took place on August 8, 2008, at the \"Bird's Nest\" stadium.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which city hosted the 2016 Summer Games, the first in South America?",
+      "choices": [
+        "Buenos Aires",
+        "Lima",
+        "Rio de Janeiro",
+        "Bogotá"
+      ],
+      "answer": 2,
+      "explication": "The Games took place at the Maracanã and other venues around the city.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many gold medals did Jesse Owens win at the 1936 Berlin Games?",
+      "choices": [
+        "Two",
+        "Four",
+        "Three",
+        "Five"
+      ],
+      "answer": 1,
+      "explication": "Owens won the 100 m, 200 m, long jump, and 4×100 m relay.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which color does not appear on the Olympic rings?",
+      "choices": [
+        "Orange",
+        "Blue",
+        "Black",
+        "Red"
+      ],
+      "answer": 0,
+      "explication": "The rings are blue, yellow, black, green, and red, drawn on a white background.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which city hosted the first Winter Olympics, in 1924?",
+      "choices": [
+        "Innsbruck",
+        "Chamonix",
+        "Oslo",
+        "Lake Placid"
+      ],
+      "answer": 1,
+      "explication": "The 1924 Games in the French Alps were originally called International Winter Sports Week.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which city hosted the 1980 Summer Olympics, boycotted by the United States?",
+      "choices": [
+        "Montreal",
+        "Los Angeles",
+        "Moscow",
+        "Seoul"
+      ],
+      "answer": 2,
+      "explication": "The boycott was led by the U.S. after the Soviet invasion of Afghanistan, and dozens of other countries joined it.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which U.S. city hosted the 1996 Summer Olympics?",
+      "choices": [
+        "Los Angeles",
+        "Dallas",
+        "Chicago",
+        "Atlanta"
+      ],
+      "answer": 3,
+      "explication": "The 1996 Games marked the 100th anniversary of the modern Olympics.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which gymnast earned the first perfect 10 in Olympic history, in 1976?",
+      "choices": [
+        "Olga Korbut",
+        "Nadia Comăneci",
+        "Simone Biles",
+        "Larisa Latynina"
+      ],
+      "answer": 1,
+      "explication": "Comăneci was just 14 at the Montreal Games, and the scoreboard could not show a 10, so it read 1.00.",
+      "level": "expert"
+    },
+    {
+      "q": "Which city hosted the 1992 Summer Olympics?",
+      "choices": [
+        "Barcelona",
+        "Atlanta",
+        "Seoul",
+        "Sydney"
+      ],
+      "answer": 0,
+      "explication": "The 1992 Games are remembered for the debut of the \"Dream Team,\" the U.S. basketball squad of NBA stars.",
+      "level": "expert"
+    },
+    {
+      "q": "Who won the first Olympic marathon, in 1896?",
+      "choices": [
+        "Dorando Pietri",
+        "Abebe Bikila",
+        "Spyridon Louis",
+        "Emil Zátopek"
+      ],
+      "answer": 2,
+      "explication": "Louis, a Greek water carrier, won in front of a delighted home crowd and became a national hero.",
+      "level": "expert"
+    },
+    {
+      "q": "Which city hosted the Summer Games in 1908, 1948, and 2012?",
+      "choices": [
+        "Paris",
+        "Athens",
+        "Los Angeles",
+        "London"
+      ],
+      "answer": 3,
+      "explication": "London was the first city to host the Summer Games three times.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What is the origin of the Olympic Games?",
+      "The ancient Olympic Games began in Olympia, Greece, in 776 BC and continued for about 1,200 years. The modern Games were revived by Pierre de Coubertin, with the first edition held in Athens in 1896. Today the Summer and Winter Games are the world's largest multi-sport events."
+    ],
+    [
+      "How many Olympic Games have taken place?",
+      "The modern Summer Olympics have been held in most Olympic years since 1896, apart from the cancellations of 1916, 1940, and 1944. Winter Games began in 1924. Since 1994, the Winter Games have been held two years apart from the Summer Games."
+    ],
+    [
+      "Does this quiz include Winter Olympics questions?",
+      "Yes, a few of them. The quiz is mostly about the Summer Games and general Olympic history, but you'll find a question on the first Winter Olympics in 1924. For more variety across different sports, you can also try our general sports quiz, which covers many of the games on the Olympic program."
+    ]
+  ],
+  "related": [
+    "/sports-quiz",
+    "/soccer-quiz",
+    "/fifa-world-cup-quiz",
+    "/rugby-quiz",
+    "/world-history-quiz"
+  ]
+}

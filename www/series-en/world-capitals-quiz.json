@@ -1,0 +1,274 @@
+{
+  "path": "/world-capitals-quiz",
+  "alt": {
+    "fr": "/quiz-capitales"
+  },
+  "theme": "geographie",
+  "title": "World Capitals Quiz: 20 Questions",
+  "description": "Test your geography with our world capitals quiz: 20 questions from Paris and Tokyo to Canberra and Ouagadougou. Free, fast and fun.",
+  "h1": "World Capitals Quiz: How Many Capitals Can You Name?",
+  "intro": "Do you know your capitals, or do you mix up Canberra and Sydney like everybody else? This world capitals quiz asks 20 questions about national capitals on every continent. We begin with the famous ones, such as London, Rome and Tokyo, then move to capitals that often trip people up, like Ottawa, Brasília and Ankara. The final questions hit lesser-known capitals in Africa and Asia. You get about five seconds per question, so trust your instincts. After each answer, a short note tells you why that city is the capital and what makes it interesting. Ready to take a trip around the world?",
+  "questions": [
+    {
+      "q": "What is the capital of France?",
+      "choices": [
+        "Lyon",
+        "Paris",
+        "Marseille",
+        "Versailles"
+      ],
+      "answer": 1,
+      "explication": "Paris has been the capital for centuries and is France's largest city.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Italy?",
+      "choices": [
+        "Milan",
+        "Naples",
+        "Venice",
+        "Rome"
+      ],
+      "answer": 3,
+      "explication": "Rome is the capital of Italy and was once the center of the Roman Empire.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Spain?",
+      "choices": [
+        "Madrid",
+        "Barcelona",
+        "Seville",
+        "Valencia"
+      ],
+      "answer": 0,
+      "explication": "Madrid sits near the geographic center of Spain and has been the capital since 1561, with a short break.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Germany?",
+      "choices": [
+        "Munich",
+        "Hamburg",
+        "Berlin",
+        "Frankfurt"
+      ],
+      "answer": 2,
+      "explication": "Berlin became the capital of reunified Germany in 1990.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of the United Kingdom?",
+      "choices": [
+        "Manchester",
+        "Edinburgh",
+        "London",
+        "Liverpool"
+      ],
+      "answer": 2,
+      "explication": "London is the capital of both England and the United Kingdom, and sits on the River Thames.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Japan?",
+      "choices": [
+        "Tokyo",
+        "Kyoto",
+        "Osaka",
+        "Hiroshima"
+      ],
+      "answer": 0,
+      "explication": "Tokyo became the capital in 1868. Kyoto held that role for over a thousand years before.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Portugal?",
+      "choices": [
+        "Porto",
+        "Coimbra",
+        "Faro",
+        "Lisbon"
+      ],
+      "answer": 3,
+      "explication": "Lisbon is Portugal's capital and largest city, on the Tagus River.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Belgium?",
+      "choices": [
+        "Antwerp",
+        "Brussels",
+        "Liège",
+        "Bruges"
+      ],
+      "answer": 1,
+      "explication": "Brussels is Belgium's capital and also the main seat of the European Union's institutions.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Australia?",
+      "choices": [
+        "Canberra",
+        "Sydney",
+        "Melbourne",
+        "Perth"
+      ],
+      "answer": 0,
+      "explication": "Canberra was purpose-built as a compromise between rivals Sydney and Melbourne.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Canada?",
+      "choices": [
+        "Toronto",
+        "Montreal",
+        "Ottawa",
+        "Vancouver"
+      ],
+      "answer": 2,
+      "explication": "Ottawa was chosen as the capital in 1857 and sits on the border of Ontario and Quebec.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Brazil?",
+      "choices": [
+        "Rio de Janeiro",
+        "Brasília",
+        "São Paulo",
+        "Salvador"
+      ],
+      "answer": 1,
+      "explication": "Brasília was built in the late 1950s and inaugurated as the capital in 1960. Rio was the capital before that.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Turkey?",
+      "choices": [
+        "Istanbul",
+        "Izmir",
+        "Antalya",
+        "Ankara"
+      ],
+      "answer": 3,
+      "explication": "Ankara became the capital in 1923, when the Republic of Turkey was founded. Istanbul is bigger.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Switzerland?",
+      "choices": [
+        "Zurich",
+        "Geneva",
+        "Basel",
+        "Bern"
+      ],
+      "answer": 3,
+      "explication": "Bern is Switzerland's 'federal city.' Zurich and Geneva are better known but are not the capital.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Morocco?",
+      "choices": [
+        "Casablanca",
+        "Rabat",
+        "Marrakesh",
+        "Fez"
+      ],
+      "answer": 1,
+      "explication": "Rabat is the political capital of Morocco, while Casablanca is the largest city.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Egypt?",
+      "choices": [
+        "Alexandria",
+        "Luxor",
+        "Cairo",
+        "Aswan"
+      ],
+      "answer": 2,
+      "explication": "Cairo is the largest city in the Arab world and lies on the Nile near the pyramids of Giza.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of India?",
+      "choices": [
+        "New Delhi",
+        "Mumbai",
+        "Kolkata",
+        "Bangalore"
+      ],
+      "answer": 0,
+      "explication": "New Delhi, built in the early 20th century, serves as India's capital and lies within the wider Delhi area.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of New Zealand?",
+      "choices": [
+        "Auckland",
+        "Wellington",
+        "Christchurch",
+        "Queenstown"
+      ],
+      "answer": 1,
+      "explication": "Wellington, at the southern tip of the North Island, is New Zealand's capital, though Auckland is larger.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the capital of Nigeria?",
+      "choices": [
+        "Lagos",
+        "Kano",
+        "Abuja",
+        "Ibadan"
+      ],
+      "answer": 2,
+      "explication": "Abuja replaced Lagos as Nigeria's capital in 1991. It was planned in the 1970s near the country's center.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the capital of Mongolia?",
+      "choices": [
+        "Ulaanbaatar",
+        "Astana",
+        "Bishkek",
+        "Tashkent"
+      ],
+      "answer": 0,
+      "explication": "Ulaanbaatar is one of the coldest national capitals in the world, and home to nearly half of Mongolia's people.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the capital of Burkina Faso?",
+      "choices": [
+        "Bamako",
+        "Niamey",
+        "Dakar",
+        "Ouagadougou"
+      ],
+      "answer": 3,
+      "explication": "Ouagadougou is the capital of Burkina Faso, a landlocked country in West Africa.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What is the capital of Australia?",
+      "The capital of Australia is Canberra, not Sydney or Melbourne. It was founded in 1913 as a compromise between those two rival cities and sits roughly halfway between them in the Australian Capital Territory. That is why many people guess Sydney, the biggest city, and get this classic question wrong."
+    ],
+    [
+      "Which capitals do people most often get wrong?",
+      "Common mix-ups include Canberra (not Sydney), Ottawa (not Toronto), Brasília (not Rio de Janeiro), Ankara (not Istanbul), Bern (not Zurich) and Rabat (not Casablanca). In each case, a larger or more famous city is mistaken for the capital. Learning the 'surprising' capitals first is a good way to improve your score quickly."
+    ],
+    [
+      "How many countries have a capital?",
+      "Every one of the 193 United Nations member states has a capital, and a few have more than one. South Africa has three: Pretoria, Cape Town and Bloemfontein. Some countries, like Bolivia, split government functions between two cities."
+    ]
+  ],
+  "related": [
+    "/capitals-of-europe-quiz",
+    "/capitals-of-africa-quiz",
+    "/capitals-of-asia-quiz",
+    "/capitals-of-the-americas-quiz",
+    "/geography-quiz"
+  ]
+}

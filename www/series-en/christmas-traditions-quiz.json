@@ -1,0 +1,273 @@
+{
+  "path": "/christmas-traditions-quiz",
+  "alt": {
+    "fr": "/quiz-noel-traditions"
+  },
+  "theme": "noel",
+  "title": "Christmas Traditions Quiz: Customs Around the World",
+  "description": "Test your knowledge of Christmas traditions worldwide with 20 free questions on foods, markets, and customs. Easy to expert, with a fact each time.",
+  "h1": "Christmas Traditions Quiz: Celebrations Around the World",
+  "intro": "Christmas looks different in every country, and this quiz takes you on a festive world tour. You'll answer 20 questions about holiday foods, markets, gift-bringers, and customs from Finland to the Philippines, with a few stops in Italy, Germany, Mexico, and Japan along the way. The first eight are easy, the middle eight add more global traditions, and the last four are expert challenges for the true holiday traveler. You get about five seconds per question, and each answer includes a short explanation to teach you something new. It's free, quick, and perfect for the season. Pack your sleigh and let's go!",
+  "questions": [
+    {
+      "q": "In which Finnish city, on the Arctic Circle, is Santa Claus Village located?",
+      "choices": [
+        "Rovaniemi",
+        "Helsinki",
+        "Tampere",
+        "Oulu"
+      ],
+      "answer": 0,
+      "explication": "Visitors to the village can meet Santa all year and cross the Arctic Circle line.",
+      "level": "facile"
+    },
+    {
+      "q": "What vehicle does Santa ride to deliver presents?",
+      "choices": [
+        "A hot air balloon",
+        "A steam train",
+        "A sleigh",
+        "A canoe"
+      ],
+      "answer": 2,
+      "explication": "The sleigh is pulled by flying reindeer in the classic story.",
+      "level": "facile"
+    },
+    {
+      "q": "Which fruit is traditionally tucked into Christmas stockings?",
+      "choices": [
+        "An orange",
+        "A banana",
+        "A pineapple",
+        "A watermelon"
+      ],
+      "answer": 0,
+      "explication": "Oranges were once a rare, expensive treat in winter, which made them a special gift.",
+      "level": "facile"
+    },
+    {
+      "q": "Which creamy drink made with milk, eggs, sugar, and spices is a Christmas favorite in North America?",
+      "choices": [
+        "Eggnog",
+        "Lemonade",
+        "Iced tea",
+        "Root beer"
+      ],
+      "answer": 0,
+      "explication": "Eggnog is often flavored with nutmeg and sometimes served with rum or brandy.",
+      "level": "facile"
+    },
+    {
+      "q": "What does Christmas celebrate in the Christian tradition?",
+      "choices": [
+        "The resurrection of Jesus",
+        "The Ascension",
+        "Pentecost",
+        "The birth of Jesus"
+      ],
+      "answer": 3,
+      "explication": "The word Christmas comes from \"Christ's Mass.\"",
+      "level": "facile"
+    },
+    {
+      "q": "Which Christian holiday on January 6 commemorates the visit of the Three Kings?",
+      "choices": [
+        "Candlemas",
+        "The Assumption",
+        "All Saints' Day",
+        "Epiphany"
+      ],
+      "answer": 3,
+      "explication": "In many countries, Epiphany marks the end of the Christmas season and brings its own special foods.",
+      "level": "facile"
+    },
+    {
+      "q": "What do children often leave out for Santa's reindeer?",
+      "choices": [
+        "Bananas",
+        "Pizza",
+        "Carrots",
+        "Chocolate bars"
+      ],
+      "answer": 2,
+      "explication": "Many families also leave milk and cookies for Santa.",
+      "level": "facile"
+    },
+    {
+      "q": "What are Santa's little helpers in stories called?",
+      "choices": [
+        "Mermaids",
+        "Elves",
+        "Garden gnomes",
+        "Giants"
+      ],
+      "answer": 1,
+      "explication": "Santa's elves are said to make toys at his workshop at the North Pole.",
+      "level": "facile"
+    },
+    {
+      "q": "In which country did the cardboard Advent calendar become popular in the early 20th century?",
+      "choices": [
+        "Italy",
+        "Germany",
+        "Sweden",
+        "Spain"
+      ],
+      "answer": 1,
+      "explication": "The first printed Advent calendars appeared in Germany in the early 1900s.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the name of the hot spiced wine served at German Christmas markets?",
+      "choices": [
+        "Gewürztraminer",
+        "Eiswein",
+        "Schnapps",
+        "Glühwein"
+      ],
+      "answer": 3,
+      "explication": "Glühwein is made from red wine heated with cinnamon, cloves, citrus, and sugar.",
+      "level": "moyen"
+    },
+    {
+      "q": "From which Italian city does panettone originate?",
+      "choices": [
+        "Naples",
+        "Rome",
+        "Milan",
+        "Turin"
+      ],
+      "answer": 2,
+      "explication": "Panettone is a tall, sweet bread with candied fruit and raisins, traditionally eaten at Christmas.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country is carp a traditional dish on Christmas Eve?",
+      "choices": [
+        "Spain",
+        "Poland",
+        "Portugal",
+        "Ireland"
+      ],
+      "answer": 1,
+      "explication": "Many Polish families serve carp as part of the 12-dish Christmas Eve supper, Wigilia. Carp is also a Christmas Eve tradition in the Czech Republic and Slovakia.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which fast-food meal became a Christmas tradition in Japan?",
+      "choices": [
+        "Fried chicken",
+        "Hamburgers",
+        "Sushi",
+        "Pizza"
+      ],
+      "answer": 0,
+      "explication": "A 1974 advertising campaign by KFC made it a popular Christmas dinner in Japan.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who brings gifts to Italian children on the night of January 5 to 6?",
+      "choices": [
+        "Krampus",
+        "The Grinch",
+        "The Sugar Plum Fairy",
+        "La Befana"
+      ],
+      "answer": 3,
+      "explication": "La Befana is a kindly witch who flies on a broomstick and fills stockings with sweets.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country is Saint Lucia's Day, with candlelit processions, celebrated on December 13?",
+      "choices": [
+        "Portugal",
+        "Sweden",
+        "Spain",
+        "Ireland"
+      ],
+      "answer": 1,
+      "explication": "A girl wearing a crown of candles leads the procession in a white dress.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the name of the nine-night Mexican festivities that reenact Mary and Joseph's search for shelter?",
+      "choices": [
+        "Dia de los Muertos",
+        "La Quinceañera",
+        "Las Posadas",
+        "Cinco de Mayo"
+      ],
+      "answer": 2,
+      "explication": "Las Posadas runs from December 16 to 24 and includes processions, songs, and piñatas.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which German city is famous for its Christkindlesmarkt?",
+      "choices": [
+        "Nuremberg",
+        "Hamburg",
+        "Cologne",
+        "Bremen"
+      ],
+      "answer": 0,
+      "explication": "The market opens with a prologue spoken by a Christkind angel from the balcony of the Frauenkirche.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the name of the star-shaped lanterns that are a symbol of Christmas in the Philippines?",
+      "choices": [
+        "Piñatas",
+        "Kimonos",
+        "Diyas",
+        "Parols"
+      ],
+      "answer": 3,
+      "explication": "Parols are traditionally made from bamboo and paper, and the city of San Fernando is nicknamed the Christmas Capital of the Philippines for its giant lanterns.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the name of the fruit bread dusted with powdered sugar that is a specialty of Dresden?",
+      "choices": [
+        "Lebkuchen",
+        "Panettone",
+        "Stollen",
+        "Kugelhopf"
+      ],
+      "answer": 2,
+      "explication": "Dresden Stollen has its own festival and a protected name.",
+      "level": "expert"
+    },
+    {
+      "q": "How many Yule Lads visit children in Iceland in the days before Christmas?",
+      "choices": [
+        "Seven",
+        "Thirteen",
+        "Nine",
+        "Twelve"
+      ],
+      "answer": 1,
+      "explication": "One Yule Lad arrives each night starting on December 12, leaving a small gift in a shoe set by the window.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Which Christmas traditions are the most widespread?",
+      "Gift-giving, decorated trees, special meals, carols, and gatherings with family are common in many countries. Beyond that, customs vary widely: some places feast on Christmas Eve, others on Christmas Day, and others celebrate in January. This quiz samples traditions from Europe, the Americas, and Asia."
+    ],
+    [
+      "Why do countries celebrate Christmas on different days?",
+      "Most Western churches celebrate on December 25, while many Orthodox churches use the Julian calendar and celebrate on January 7. Some families celebrate mainly on Christmas Eve, as in Poland and Germany, and others on Epiphany, January 6. The mix creates a long holiday season."
+    ],
+    [
+      "Is this quiz good for a family game night?",
+      "Yes. The first eight questions are easy for children, and the later ones challenge adults. Read the questions aloud, take turns answering, and share the fun facts that come with each answer. It's a gentle, entertaining way to learn how other cultures celebrate the season together."
+    ]
+  ],
+  "related": [
+    "/christmas-trivia-quiz",
+    "/hard-christmas-quiz",
+    "/food-trivia-quiz",
+    "/geography-quiz"
+  ]
+}

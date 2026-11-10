@@ -1,0 +1,274 @@
+{
+  "path": "/geography-quiz",
+  "alt": {
+    "fr": "/quiz-geographie"
+  },
+  "theme": "geographie",
+  "title": "Geography Quiz: 20 Questions from Easy to Expert",
+  "description": "Test your world geography with 20 free questions on oceans, mountains, rivers, deserts, and countries. Easy to expert, with a fact after each answer.",
+  "h1": "Geography Quiz: How Well Do You Know the World?",
+  "intro": "Grab your mental atlas! This geography quiz takes you across oceans, mountains, rivers, deserts, and countries on every continent. The first questions cover world-famous landmarks, the middle section digs into straits, rivers, and borders, and the final four will challenge even keen map lovers. You have about five seconds per question, so go with your gut, and read the short explanation after each answer to pick up a new fact. It's free, fast, and a great way to refresh what you learned in school or discover something new. Let's see how far your knowledge travels!",
+  "questions": [
+    {
+      "q": "What is the largest ocean in the world?",
+      "choices": [
+        "The Atlantic Ocean",
+        "The Indian Ocean",
+        "The Arctic Ocean",
+        "The Pacific Ocean"
+      ],
+      "answer": 3,
+      "explication": "The Pacific covers about a third of Earth's surface, more than all the land combined.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the highest mountain in the world?",
+      "choices": [
+        "Mount Everest",
+        "K2",
+        "Mont Blanc",
+        "Mount Kilimanjaro"
+      ],
+      "answer": 0,
+      "explication": "Everest, on the border of Nepal and Tibet, rises about 8,849 meters (29,032 feet) above sea level.",
+      "level": "facile"
+    },
+    {
+      "q": "Which river flows through Cairo?",
+      "choices": [
+        "The Congo",
+        "The Nile",
+        "The Niger",
+        "The Zambezi"
+      ],
+      "answer": 1,
+      "explication": "The Nile flows north through Egypt into the Mediterranean and has supported civilizations for thousands of years.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the largest hot desert in the world?",
+      "choices": [
+        "The Gobi",
+        "The Kalahari",
+        "The Sahara",
+        "The Atacama"
+      ],
+      "answer": 2,
+      "explication": "The Sahara spans much of North Africa and is roughly the size of the United States.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country is the largest in the world by area?",
+      "choices": [
+        "Canada",
+        "Russia",
+        "China",
+        "The United States"
+      ],
+      "answer": 1,
+      "explication": "Russia covers more than 17 million square kilometers (6.6 million square miles) across Eastern Europe and northern Asia.",
+      "level": "facile"
+    },
+    {
+      "q": "On which continent is Brazil located?",
+      "choices": [
+        "South America",
+        "Africa",
+        "North America",
+        "Asia"
+      ],
+      "answer": 0,
+      "explication": "Brazil takes up about half of South America and is the only country there where Portuguese is the main language.",
+      "level": "facile"
+    },
+    {
+      "q": "Which sea separates southern Europe from northern Africa?",
+      "choices": [
+        "The Red Sea",
+        "The North Sea",
+        "The Mediterranean Sea",
+        "The Black Sea"
+      ],
+      "answer": 2,
+      "explication": "The Mediterranean touches three continents: Europe, Africa, and Asia.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country is shaped like a boot?",
+      "choices": [
+        "Spain",
+        "Greece",
+        "Portugal",
+        "Italy"
+      ],
+      "answer": 3,
+      "explication": "The Italian peninsula looks like a boot kicking the island of Sicily.",
+      "level": "facile"
+    },
+    {
+      "q": "Which mountain range traditionally marks the boundary between Europe and Asia?",
+      "choices": [
+        "The Alps",
+        "The Andes",
+        "The Ural Mountains",
+        "The Appalachians"
+      ],
+      "answer": 2,
+      "explication": "The Urals run north to south through Russia for about 2,500 km (1,550 miles).",
+      "level": "moyen"
+    },
+    {
+      "q": "Which river flows through Vienna, Budapest, and Belgrade?",
+      "choices": [
+        "The Rhine",
+        "The Danube",
+        "The Elbe",
+        "The Vistula"
+      ],
+      "answer": 1,
+      "explication": "The Danube passes through ten countries, more than any other river in the world.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which strait separates Spain from Morocco?",
+      "choices": [
+        "The Bosphorus",
+        "The Strait of Magellan",
+        "The Strait of Gibraltar",
+        "The Strait of Messina"
+      ],
+      "answer": 2,
+      "explication": "At its narrowest point the strait is only about 13 km (8 miles) wide, linking the Atlantic Ocean and the Mediterranean.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the highest mountain in Africa?",
+      "choices": [
+        "Mount Kenya",
+        "Mount Kilimanjaro",
+        "Mount Cameroon",
+        "Mount Stanley"
+      ],
+      "answer": 1,
+      "explication": "Kilimanjaro, in Tanzania, is a dormant volcano rising 5,895 meters (19,341 feet).",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the smallest country in the world?",
+      "choices": [
+        "Monaco",
+        "San Marino",
+        "Vatican City",
+        "Liechtenstein"
+      ],
+      "answer": 2,
+      "explication": "Vatican City covers only about 0.44 square kilometers (0.17 square miles), smaller than most city parks.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which large desert lies in Mongolia and northern China?",
+      "choices": [
+        "The Gobi Desert",
+        "The Sahara",
+        "The Namib",
+        "The Thar"
+      ],
+      "answer": 0,
+      "explication": "The Gobi is a cold desert, with winter temperatures that can drop far below freezing.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which ocean borders the east coast of Africa?",
+      "choices": [
+        "The Atlantic Ocean",
+        "The Pacific Ocean",
+        "The Arctic Ocean",
+        "The Indian Ocean"
+      ],
+      "answer": 3,
+      "explication": "The Indian Ocean is bordered by Africa, Asia, Australia, and the Southern Ocean.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which of these countries has no sea coast?",
+      "choices": [
+        "Hungary",
+        "Greece",
+        "Portugal",
+        "Spain"
+      ],
+      "answer": 0,
+      "explication": "Hungary is landlocked, as are more than 40 other countries.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which is the deepest known ocean trench?",
+      "choices": [
+        "The Philippine Trench",
+        "The Mariana Trench",
+        "The Puerto Rico Trench",
+        "The Java Trench"
+      ],
+      "answer": 1,
+      "explication": "The Challenger Deep, in the Mariana Trench, plunges to about 10,900 meters (35,800 feet) below the surface.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the longest river in Europe?",
+      "choices": [
+        "The Danube",
+        "The Rhine",
+        "The Loire",
+        "The Volga"
+      ],
+      "answer": 3,
+      "explication": "The Volga flows about 3,530 km (2,194 miles) through Russia into the Caspian Sea.",
+      "level": "expert"
+    },
+    {
+      "q": "In which country is Lake Baikal, the world's deepest lake?",
+      "choices": [
+        "Russia",
+        "China",
+        "Kazakhstan",
+        "Mongolia"
+      ],
+      "answer": 0,
+      "explication": "Lake Baikal in Siberia is more than 1,600 meters (5,300 feet) deep and holds about a fifth of the world's unfrozen fresh water.",
+      "level": "expert"
+    },
+    {
+      "q": "In which country is Aconcagua, the highest peak in the Americas?",
+      "choices": [
+        "Chile",
+        "Peru",
+        "Bolivia",
+        "Argentina"
+      ],
+      "answer": 3,
+      "explication": "Aconcagua rises about 6,960 meters (22,830 feet) in the Andes, near the border with Chile.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What does this geography quiz cover?",
+      "The quiz covers physical and political geography across all continents: oceans, mountains, rivers, deserts, seas, straits, and countries. The questions are a mix of famous landmarks and trickier facts, so both beginners and keen map fans will find something to enjoy."
+    ],
+    [
+      "Do I need to know capitals and flags?",
+      "Not for this quiz. It focuses on natural features such as oceans, mountains, rivers, and deserts, plus the locations of well-known countries. If you enjoy capitals or flags, we have separate quizzes dedicated to those topics. This one is a good starting point for general world geography."
+    ],
+    [
+      "Are the answers up to date?",
+      "We only use stable facts, such as the location of major rivers, so you won't be tested on numbers that change often. Where measurements are given in the explanations, they are rounded approximations that agree with standard references."
+    ]
+  ],
+  "related": [
+    "/world-capitals-quiz",
+    "/world-flags-quiz",
+    "/hard-capitals-quiz",
+    "/world-history-quiz",
+    "/ancient-history-quiz"
+  ]
+}

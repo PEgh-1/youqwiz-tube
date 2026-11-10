@@ -1,0 +1,273 @@
+{
+  "path": "/sports-quiz",
+  "alt": {
+    "fr": "/quiz-sport"
+  },
+  "theme": "sport",
+  "title": "Sports Quiz: 20 Questions from Easy to Expert",
+  "description": "Play our free sports quiz: 20 questions on tennis, golf, basketball, baseball, and more. Easy to expert levels, with a fun fact after every answer.",
+  "h1": "Sports Quiz: How Well Do You Know the Games?",
+  "intro": "Do you know your birdies from your bogeys and your strikes from your spares? This sports quiz covers a wide range of sports and traditions, from basketball and baseball to golf, tennis, martial arts, and more. The first eight questions are easy for any casual fan, the middle eight test your knowledge of rules and history, and the last four are tough expert questions. You get about five seconds per question, and each answer comes with a short explanation. It's free and fast, and a great way to challenge your friends. Warm up your brain and start playing!",
+  "questions": [
+    {
+      "q": "What is the official distance of a marathon?",
+      "choices": [
+        "40 km (24.9 miles)",
+        "45 km (28 miles)",
+        "50 km (31 miles)",
+        "42.195 km (26.2 miles)"
+      ],
+      "answer": 3,
+      "explication": "The distance was set at the 1908 London Olympics and became standard in 1921.",
+      "level": "facile"
+    },
+    {
+      "q": "In which sport do players score a touchdown?",
+      "choices": [
+        "Baseball",
+        "Basketball",
+        "Ice hockey",
+        "American football"
+      ],
+      "answer": 3,
+      "explication": "A touchdown is worth six points, and the scoring team can then try for an extra point or a two-point conversion.",
+      "level": "facile"
+    },
+    {
+      "q": "In which sport did Michael Jordan become a global star?",
+      "choices": [
+        "Basketball",
+        "Tennis",
+        "Soccer",
+        "Ice hockey"
+      ],
+      "answer": 0,
+      "explication": "Jordan won six NBA championships with the Chicago Bulls in the 1990s.",
+      "level": "facile"
+    },
+    {
+      "q": "How many players from one basketball team are on the court at once?",
+      "choices": [
+        "Six",
+        "Seven",
+        "Four",
+        "Five"
+      ],
+      "answer": 3,
+      "explication": "A team's roster can include more players, but only five can play at any one time.",
+      "level": "facile"
+    },
+    {
+      "q": "In which sport do players hit a shuttlecock?",
+      "choices": [
+        "Squash",
+        "Table tennis",
+        "Badminton",
+        "Golf"
+      ],
+      "answer": 2,
+      "explication": "Smashes in badminton can send the shuttlecock flying at over 400 km/h (250 mph), the fastest of any racket sport.",
+      "level": "facile"
+    },
+    {
+      "q": "How many players does an indoor volleyball team have on the court?",
+      "choices": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "answer": 1,
+      "explication": "Players rotate positions each time their team wins the serve.",
+      "level": "facile"
+    },
+    {
+      "q": "Which swimming stroke is swum on your back?",
+      "choices": [
+        "Backstroke",
+        "Breaststroke",
+        "Butterfly",
+        "Freestyle"
+      ],
+      "answer": 0,
+      "explication": "Backstroke is the only competitive swimming stroke in which the swimmer starts in the water.",
+      "level": "facile"
+    },
+    {
+      "q": "How many holes are on a standard golf course?",
+      "choices": [
+        "9",
+        "12",
+        "24",
+        "18"
+      ],
+      "answer": 3,
+      "explication": "The tradition of 18 holes goes back to the Old Course at St Andrews in Scotland.",
+      "level": "facile"
+    },
+    {
+      "q": "Which Grand Slam tennis tournament is played on grass?",
+      "choices": [
+        "The French Open",
+        "Wimbledon",
+        "The U.S. Open",
+        "The Australian Open"
+      ],
+      "answer": 1,
+      "explication": "Wimbledon, held in London since 1877, is the oldest tennis tournament in the world.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country is sumo wrestling the traditional sport?",
+      "choices": [
+        "China",
+        "South Korea",
+        "Japan",
+        "Thailand"
+      ],
+      "answer": 2,
+      "explication": "Sumo has religious roots in Shinto, and professional tournaments are held six times a year.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many players does a baseball team have in the field at one time?",
+      "choices": [
+        "Nine",
+        "Seven",
+        "Eight",
+        "Ten"
+      ],
+      "answer": 0,
+      "explication": "The fielding team has a pitcher, catcher, four infielders, and three outfielders.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which country is the birthplace of cricket?",
+      "choices": [
+        "Australia",
+        "England",
+        "India",
+        "South Africa"
+      ],
+      "answer": 1,
+      "explication": "Cricket developed in southeastern England, and the earliest known reference dates to the 16th century.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which sport is the Ryder Cup contested?",
+      "choices": [
+        "Tennis",
+        "Rugby",
+        "Golf",
+        "Sailing"
+      ],
+      "answer": 2,
+      "explication": "The Ryder Cup pits a team from Europe against a team from the United States.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many sets must a man win to take a best-of-five Grand Slam match?",
+      "choices": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "answer": 1,
+      "explication": "Men's Grand Slam matches are best of five sets, while women's matches are best of three.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is it called when a bowler knocks down all ten pins with the first ball?",
+      "choices": [
+        "A spare",
+        "An ace",
+        "A strike",
+        "A birdie"
+      ],
+      "answer": 2,
+      "explication": "A spare means knocking all the pins down using two balls in a frame.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which sport is the Stanley Cup awarded?",
+      "choices": [
+        "Basketball",
+        "Ice hockey",
+        "Baseball",
+        "American football"
+      ],
+      "answer": 1,
+      "explication": "The Stanley Cup is one of the oldest trophies in North American professional sports, first awarded in 1893.",
+      "level": "moyen"
+    },
+    {
+      "q": "In judo, which score immediately ends the contest?",
+      "choices": [
+        "Waza-ari",
+        "Yuko",
+        "Shido",
+        "Ippon"
+      ],
+      "answer": 3,
+      "explication": "An ippon is awarded for a clean throw, a 20-second hold, or a submission.",
+      "level": "expert"
+    },
+    {
+      "q": "Who invented basketball in 1891?",
+      "choices": [
+        "James Naismith",
+        "Pierre de Coubertin",
+        "Abner Doubleday",
+        "William Webb Ellis"
+      ],
+      "answer": 0,
+      "explication": "Naismith, a Canadian physical education teacher, first used peach baskets as goals.",
+      "level": "expert"
+    },
+    {
+      "q": "How many minutes are in a quarter of an NBA game?",
+      "choices": [
+        "10",
+        "15",
+        "12",
+        "8"
+      ],
+      "answer": 2,
+      "explication": "An NBA game lasts 48 minutes in regulation, compared with 40 minutes in international FIBA play.",
+      "level": "expert"
+    },
+    {
+      "q": "Who founded judo in 1882?",
+      "choices": [
+        "Jigoro Kano",
+        "Gichin Funakoshi",
+        "Morihei Ueshiba",
+        "Bruce Lee"
+      ],
+      "answer": 0,
+      "explication": "Kano developed judo from jujutsu and made it part of Japanese education. It became an Olympic sport in 1964.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What sports does this quiz cover?",
+      "The questions span team and individual sports, including basketball, baseball, American football, golf, tennis, cricket, swimming, ice hockey, and martial arts. It focuses on rules, traditions, and history rather than current stars, so everyone from casual viewers to avid fans can enjoy it."
+    ],
+    [
+      "Is this sports quiz suitable for kids?",
+      "Yes. Many early questions ask about rules and famous sports that children know, such as basketball and swimming. Parents and teachers can use it as an icebreaker or a family game. The explanations give a short fact after each answer, which makes it easy to learn together."
+    ],
+    [
+      "Do you have quizzes on specific sports?",
+      "Yes. You can also try our soccer quiz, hard soccer quiz, FIFA World Cup quiz, rugby quiz, and Olympics quiz. Each one goes deeper into a single sport or tournament, with 20 questions that range from easy to expert and a short explanation after every answer."
+    ]
+  ],
+  "related": [
+    "/olympics-quiz",
+    "/soccer-quiz",
+    "/rugby-quiz",
+    "/fifa-world-cup-quiz"
+  ]
+}

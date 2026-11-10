@@ -1,0 +1,274 @@
+{
+  "path": "/soccer-quiz",
+  "alt": {
+    "fr": "/quiz-football"
+  },
+  "theme": "sport",
+  "title": "Soccer Quiz: 20 Questions from Easy to Expert",
+  "description": "Play our free soccer quiz: 20 questions on rules, World Cups, legends, and famous clubs. Easy to expert levels, with a fun fact after every answer.",
+  "h1": "Soccer Quiz: How Well Do You Know the Beautiful Game?",
+  "intro": "Whether you play on weekends or only watch the big tournaments, this soccer quiz is for you. Twenty questions take you from the basic rules to World Cup history, legendary players, and famous clubs from around the globe. The first eight are warm-ups for any casual fan, the next eight dig into history and stadiums, and the final four are for true soccer nerds. You get about five seconds per question, and every answer comes with a short fact. It's free and quick, and it's fun to challenge a friend. Kick off whenever you're ready!",
+  "questions": [
+    {
+      "q": "How many players does each team have on the field, including the goalkeeper?",
+      "choices": [
+        "9",
+        "10",
+        "12",
+        "11"
+      ],
+      "answer": 3,
+      "explication": "Each side starts with 11 players, and a match cannot continue if a team falls below seven.",
+      "level": "facile"
+    },
+    {
+      "q": "How many minutes does a soccer match last, not counting stoppage time?",
+      "choices": [
+        "80 minutes",
+        "100 minutes",
+        "120 minutes",
+        "90 minutes"
+      ],
+      "answer": 3,
+      "explication": "A match has two 45-minute halves. Knockout games that are tied can go to 30 minutes of extra time.",
+      "level": "facile"
+    },
+    {
+      "q": "What is it called when one player scores three goals in a single match?",
+      "choices": [
+        "A hat trick",
+        "A triple play",
+        "A grand slam",
+        "A birdie"
+      ],
+      "answer": 0,
+      "explication": "The term comes from cricket, where a bowler who took three wickets in a row earned a hat from the club.",
+      "level": "facile"
+    },
+    {
+      "q": "What color card means a player is sent off the field?",
+      "choices": [
+        "Yellow",
+        "Green",
+        "Blue",
+        "Red"
+      ],
+      "answer": 3,
+      "explication": "Two yellow cards in one match also lead to a red card, and the team plays on with one fewer player.",
+      "level": "facile"
+    },
+    {
+      "q": "Which player is allowed to use their hands inside their own penalty area?",
+      "choices": [
+        "The goalkeeper",
+        "The central defender",
+        "The striker",
+        "The captain"
+      ],
+      "answer": 0,
+      "explication": "Outfield players who touch the ball with their hands or arms deliberately give away a free kick or penalty.",
+      "level": "facile"
+    },
+    {
+      "q": "In which country was the 2018 World Cup played?",
+      "choices": [
+        "Qatar",
+        "Russia",
+        "Brazil",
+        "South Africa"
+      ],
+      "answer": 1,
+      "explication": "France won the 2018 tournament, beating Croatia 4-2 in the final in Moscow.",
+      "level": "facile"
+    },
+    {
+      "q": "How many points does a team earn for a win in most leagues?",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 1,
+      "explication": "A draw earns one point and a loss earns none. Three points for a win became standard in the 1980s and 1990s.",
+      "level": "facile"
+    },
+    {
+      "q": "Which South American nation has won the World Cup five times, in 1958, 1962, 1970, 1994, and 2002?",
+      "choices": [
+        "Argentina",
+        "Uruguay",
+        "Colombia",
+        "Brazil"
+      ],
+      "answer": 3,
+      "explication": "Brazil is the only country that has played in every men's World Cup tournament through 2026.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country won the first World Cup in 1930?",
+      "choices": [
+        "Brazil",
+        "Argentina",
+        "Uruguay",
+        "Italy"
+      ],
+      "answer": 2,
+      "explication": "Uruguay hosted the tournament and beat neighboring Argentina 4-2 in the final in Montevideo.",
+      "level": "moyen"
+    },
+    {
+      "q": "Against which team did Diego Maradona score his \"Hand of God\" goal in 1986?",
+      "choices": [
+        "England",
+        "West Germany",
+        "Belgium",
+        "Italy"
+      ],
+      "answer": 0,
+      "explication": "In the same match, Maradona also scored a famous solo goal, voted the Goal of the Century.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which club won the first European Cup in 1956?",
+      "choices": [
+        "AC Milan",
+        "Benfica",
+        "Ajax",
+        "Real Madrid"
+      ],
+      "answer": 3,
+      "explication": "Real Madrid won the first five editions of the competition, from 1956 to 1960.",
+      "level": "moyen"
+    },
+    {
+      "q": "How far from the goal line is the penalty spot?",
+      "choices": [
+        "10 yards",
+        "12 yards (about 11 m)",
+        "8 yards",
+        "15 yards"
+      ],
+      "answer": 1,
+      "explication": "The spot is the same distance in every professional league, and only the goalkeeper may stand between the kicker and the goal.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which stadium is the historic home of Real Madrid?",
+      "choices": [
+        "Camp Nou",
+        "The Allianz Arena",
+        "The Santiago Bernabéu",
+        "Anfield"
+      ],
+      "answer": 2,
+      "explication": "The stadium opened in 1947 and has been renovated several times since.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which country won the first Women's World Cup in 1991?",
+      "choices": [
+        "Norway",
+        "The United States",
+        "Germany",
+        "China"
+      ],
+      "answer": 1,
+      "explication": "The U.S. beat Norway 2-1 in the final in Guangzhou, China.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which magazine created the Ballon d'Or award in 1956?",
+      "choices": [
+        "World Soccer",
+        "FourFourTwo",
+        "France Football",
+        "Sports Illustrated"
+      ],
+      "answer": 2,
+      "explication": "The award began as a prize for the best player in Europe and was later opened to players from any country.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country is the famous club Boca Juniors based?",
+      "choices": [
+        "Argentina",
+        "Brazil",
+        "Uruguay",
+        "Chile"
+      ],
+      "answer": 0,
+      "explication": "Boca Juniors is based in Buenos Aires and plays at the stadium known as La Bombonera.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which player won three World Cups, in 1958, 1962, and 1970?",
+      "choices": [
+        "Pelé",
+        "Diego Maradona",
+        "Johan Cruyff",
+        "Franz Beckenbauer"
+      ],
+      "answer": 0,
+      "explication": "Pelé is the only player to have won three men's World Cups (as of the 2026 tournament). He was just 17 when he won his first.",
+      "level": "expert"
+    },
+    {
+      "q": "Who received the very first Ballon d'Or, in 1956?",
+      "choices": [
+        "Alfredo Di Stéfano",
+        "Raymond Kopa",
+        "Stanley Matthews",
+        "Lev Yashin"
+      ],
+      "answer": 2,
+      "explication": "Matthews was 41 years old when he won the award, and he played top-flight soccer until he was 50.",
+      "level": "expert"
+    },
+    {
+      "q": "Which goalkeeper won the Ballon d'Or in 1963?",
+      "choices": [
+        "Gordon Banks",
+        "Dino Zoff",
+        "Lev Yashin",
+        "Sepp Maier"
+      ],
+      "answer": 2,
+      "explication": "Yashin, nicknamed the Black Spider, was the first goalkeeper to win the Ballon d'Or.",
+      "level": "expert"
+    },
+    {
+      "q": "Which nation won the 1966 World Cup on home soil?",
+      "choices": [
+        "Portugal",
+        "England",
+        "The Soviet Union",
+        "Hungary"
+      ],
+      "answer": 1,
+      "explication": "England beat West Germany 4-2 after extra time in the final at Wembley Stadium.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What does this soccer quiz cover?",
+      "The 20 questions mix basic rules, World Cup history, famous clubs, stadiums, and legendary players from all continents. Beginners can handle the first eight questions, while the harder ones reward fans who follow the history of the game. There is also a bit of women's soccer."
+    ],
+    [
+      "Do I need to know the latest results?",
+      "No. We only ask about facts that will not change, such as past World Cup winners, historic awards, and the rules of the game. You will not need to know who is leading a league table this season, so the quiz stays fair and fun year after year."
+    ],
+    [
+      "Is it called soccer or football?",
+      "Both names are correct. In the United States and Canada people usually say soccer, while most of the world says football. The word soccer actually came from England in the late 1800s as a short form of association football, which separated the sport from rugby football."
+    ]
+  ],
+  "related": [
+    "/hard-soccer-quiz",
+    "/fifa-world-cup-quiz",
+    "/sports-quiz",
+    "/olympics-quiz",
+    "/rugby-quiz"
+  ]
+}

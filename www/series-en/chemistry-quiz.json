@@ -1,0 +1,274 @@
+{
+ "path": "/chemistry-quiz",
+ "alt": {
+  "fr": "/quiz-chimie"
+ },
+ "theme": "sciences",
+ "title": "Chemistry Quiz: 20 Questions on the Elements",
+ "description": "Take our free chemistry quiz: 20 questions on elements, symbols, molecules and reactions, from H2O to the periodic table. Easy to expert.",
+ "h1": "Chemistry Quiz: How Well Do You Know the Elements?",
+ "intro": "Whether you loved chemistry class or barely survived it, this chemistry quiz is a friendly way to test what you remember. You will answer 20 questions on element symbols, common molecules, mixtures, reactions and the periodic table. We begin with easy ones like the symbols for oxygen and iron, move on to metals, gases and acids, and finish with expert questions that cover tungsten, the most abundant element in the universe and what defines an element. Each question gets about five seconds, so go with your gut. A short explanation follows every answer. How many elements can you identify?",
+ "questions": [
+  {
+   "q": "What is the chemical symbol for oxygen?",
+   "choices": [
+    "Ox",
+    "O",
+    "Og",
+    "Oy"
+   ],
+   "answer": 1,
+   "explication": "Oxygen's symbol is simply O. It makes up about 21 percent of Earth's atmosphere.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the chemical symbol for iron?",
+   "choices": [
+    "F",
+    "Fr",
+    "Fi",
+    "Fe"
+   ],
+   "answer": 3,
+   "explication": "Fe comes from ferrum, the Latin word for iron.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the chemical symbol for calcium?",
+   "choices": [
+    "Ca",
+    "C",
+    "Cl",
+    "Ka"
+   ],
+   "answer": 0,
+   "explication": "Calcium is essential for bones and teeth, and its symbol is Ca.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the chemical formula for carbon dioxide?",
+   "choices": [
+    "CO",
+    "C₂O",
+    "CO₂",
+    "O₂"
+   ],
+   "answer": 2,
+   "explication": "Carbon dioxide has one carbon atom and two oxygen atoms. We exhale it, and plants absorb it.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the chemical symbol for nitrogen?",
+   "choices": [
+    "Nt",
+    "Ni",
+    "N",
+    "Na"
+   ],
+   "answer": 2,
+   "explication": "Nitrogen, symbol N, makes up about 78 percent of the air we breathe.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the chemical symbol for hydrogen?",
+   "choices": [
+    "H",
+    "Hy",
+    "Hg",
+    "He"
+   ],
+   "answer": 0,
+   "explication": "Hydrogen, with the symbol H, is the lightest element. Hg is mercury and He is helium.",
+   "level": "facile"
+  },
+  {
+   "q": "Which element forms the basis of organic molecules, including those in living things?",
+   "choices": [
+    "iron",
+    "silver",
+    "helium",
+    "carbon"
+   ],
+   "answer": 3,
+   "explication": "Carbon atoms can bond to each other in long chains and rings, which is why they form the backbone of life's molecules.",
+   "level": "facile"
+  },
+  {
+   "q": "What do we call a mixture with uniform composition throughout, like sugar dissolved in water?",
+   "choices": [
+    "a heterogeneous mixture",
+    "a homogeneous mixture",
+    "a suspension",
+    "an emulsion"
+   ],
+   "answer": 1,
+   "explication": "In a homogeneous mixture, such as a solution, you can't see the separate parts.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the chemical symbol for lead?",
+   "choices": [
+    "Pl",
+    "Po",
+    "Pu",
+    "Pb"
+   ],
+   "answer": 3,
+   "explication": "Pb comes from the Latin plumbum, which is also the root of the word 'plumber.'",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the chemical symbol for copper?",
+   "choices": [
+    "Co",
+    "Cu",
+    "Cr",
+    "Ca"
+   ],
+   "answer": 1,
+   "explication": "Cu comes from the Latin cuprum, after Cyprus, where copper was mined in ancient times.",
+   "level": "moyen"
+  },
+  {
+   "q": "Which light, non-flammable gas is used to fill some balloons?",
+   "choices": [
+    "hydrogen",
+    "oxygen",
+    "helium",
+    "nitrogen"
+   ],
+   "answer": 2,
+   "explication": "Helium is safe for balloons because it doesn't burn, unlike hydrogen.",
+   "level": "moyen"
+  },
+  {
+   "q": "Which metal has the chemical symbol Zn?",
+   "choices": [
+    "zinc",
+    "tin",
+    "zirconium",
+    "sodium"
+   ],
+   "answer": 0,
+   "explication": "Zinc is used to galvanize steel and protect it from rust.",
+   "level": "moyen"
+  },
+  {
+   "q": "Which chemical reaction forms rust?",
+   "choices": [
+    "the oxidation of iron",
+    "the melting of iron",
+    "the burning of carbon",
+    "the dissolving of salt"
+   ],
+   "answer": 0,
+   "explication": "Iron reacts with oxygen and moisture to form iron oxide, which we call rust.",
+   "level": "moyen"
+  },
+  {
+   "q": "How many hydrogen atoms are in a molecule of methane, CH₄?",
+   "choices": [
+    "1",
+    "2",
+    "4",
+    "6"
+   ],
+   "answer": 2,
+   "explication": "Methane has one carbon atom bonded to four hydrogen atoms. It's the main component of natural gas.",
+   "level": "moyen"
+  },
+  {
+   "q": "Which acid gives lemons their sour taste?",
+   "choices": [
+    "sulfuric acid",
+    "citric acid",
+    "hydrochloric acid",
+    "acetic acid"
+   ],
+   "answer": 1,
+   "explication": "Citric acid is found in citrus fruits. Acetic acid is the acid in vinegar.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the name of the family of elements that includes helium, neon and argon?",
+   "choices": [
+    "the alkali metals",
+    "the halogens",
+    "the transition metals",
+    "the noble gases"
+   ],
+   "answer": 3,
+   "explication": "Noble gases rarely react with other elements because their outer electron shells are full.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the chemical symbol for tungsten?",
+   "choices": [
+    "T",
+    "W",
+    "Tu",
+    "Tn"
+   ],
+   "answer": 1,
+   "explication": "W comes from wolfram, the old German name for tungsten, which has the highest melting point of all metals.",
+   "level": "expert"
+  },
+  {
+   "q": "Which element is the most abundant in the universe?",
+   "choices": [
+    "hydrogen",
+    "oxygen",
+    "carbon",
+    "iron"
+   ],
+   "answer": 0,
+   "explication": "Hydrogen makes up about three quarters of all ordinary matter in the universe, followed by helium.",
+   "level": "expert"
+  },
+  {
+   "q": "Which scientist published the first widely accepted periodic table of the elements in 1869?",
+   "choices": [
+    "Antoine Lavoisier",
+    "John Dalton",
+    "Niels Bohr",
+    "Dmitri Mendeleev"
+   ],
+   "answer": 3,
+   "explication": "Mendeleev arranged elements by atomic weight and left gaps for undiscovered ones, correctly predicting their properties.",
+   "level": "expert"
+  },
+  {
+   "q": "Which particle determines the identity of a chemical element?",
+   "choices": [
+    "the electron",
+    "the neutron",
+    "the proton",
+    "the photon"
+   ],
+   "answer": 2,
+   "explication": "The number of protons in the nucleus, the atomic number, defines the element. Carbon always has six.",
+   "level": "expert"
+  }
+ ],
+ "faq": [
+  [
+   "What is the chemical symbol for gold?",
+   "Gold's chemical symbol is Au, from the Latin word aurum. Silver is Ag, from argentum. Many symbols come from Latin or other older names, which is why Fe is iron, Pb is lead and Na is sodium. So it is worth learning the Latin roots when you study the periodic table."
+  ],
+  [
+   "How many elements are on the periodic table?",
+   "There are 118 confirmed elements on the periodic table. About 90 of them occur naturally on Earth, and the rest were created in laboratories. They are arranged in order of atomic number, which is the number of protons in each atom's nucleus."
+  ],
+  [
+   "Is this chemistry quiz suitable for students?",
+   "Yes. It covers topics from basic school chemistry, including symbols, simple molecules, mixtures, rust and the periodic table. It is a good quick review before a test, and each answer comes with a short explanation to help you remember. Whether you are in high school or just brushing up, you can replay it as many times as you like."
+  ]
+ ],
+ "related": [
+  "/human-body-quiz",
+  "/hard-general-knowledge-quiz",
+  "/easy-general-knowledge-quiz",
+  "/science-quiz",
+  "/physics-quiz"
+ ]
+}

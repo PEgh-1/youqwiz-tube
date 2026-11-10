@@ -1,0 +1,273 @@
+{
+  "path": "/food-trivia-quiz",
+  "alt": {
+    "fr": "/quiz-cuisine"
+  },
+  "theme": "cuisine-et-gastronomie",
+  "title": "Food Trivia Quiz: 20 Questions on World Cuisine",
+  "description": "Take our free food trivia quiz: 20 questions on dishes, ingredients, spices, and cooking worldwide. Easy to expert, with a fact after each answer.",
+  "h1": "Food Trivia Quiz: A Tasty Tour of World Cuisine",
+  "intro": "Are you a foodie with a global appetite? This food trivia quiz takes you around the world, from Japanese sushi and Italian pizza to Peruvian ceviche and Ethiopian injera. You'll answer 20 questions about famous dishes, key ingredients, spices, and cooking terms. The first eight are easy even for casual cooks, the middle eight go deeper into world cuisines, and the last four are tough expert questions for serious food lovers. You get about five seconds per question, and each answer comes with a short fact to share at your next meal. It's free and fun. Grab a snack and begin!",
+  "questions": [
+    {
+      "q": "Which country is the home of sushi?",
+      "choices": [
+        "China",
+        "Japan",
+        "Thailand",
+        "South Korea"
+      ],
+      "answer": 1,
+      "explication": "Sushi began as a way to preserve fish in fermented rice, and in Japan it evolved into the dishes we know today.",
+      "level": "facile"
+    },
+    {
+      "q": "In which Italian city did pizza originate?",
+      "choices": [
+        "Rome",
+        "Milan",
+        "Florence",
+        "Naples"
+      ],
+      "answer": 3,
+      "explication": "The art of the Neapolitan pizza maker was added to UNESCO's cultural heritage list in 2017.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the main ingredient in guacamole?",
+      "choices": [
+        "Tomato",
+        "Cucumber",
+        "Green pepper",
+        "Avocado"
+      ],
+      "answer": 3,
+      "explication": "The name comes from the Aztec word ahuacamolli, meaning avocado sauce.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country's cuisine gave us tacos and enchiladas?",
+      "choices": [
+        "Spain",
+        "Peru",
+        "Mexico",
+        "Brazil"
+      ],
+      "answer": 2,
+      "explication": "Tacos are made with corn or wheat tortillas, and the fillings vary widely by region.",
+      "level": "facile"
+    },
+    {
+      "q": "What is hummus mainly made from?",
+      "choices": [
+        "Chickpeas",
+        "Black beans",
+        "Potatoes",
+        "Peas"
+      ],
+      "answer": 0,
+      "explication": "Hummus blends chickpeas with tahini, lemon juice, and garlic, and it's popular across the Middle East.",
+      "level": "facile"
+    },
+    {
+      "q": "Botanically speaking, what is a tomato?",
+      "choices": [
+        "A fruit",
+        "A vegetable",
+        "A root",
+        "A herb"
+      ],
+      "answer": 0,
+      "explication": "A tomato develops from a flower and contains seeds, which makes it a berry. In cooking, it's treated as a vegetable.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the dish dal, a staple in India, made from?",
+      "choices": [
+        "Rice",
+        "Potatoes",
+        "Spinach",
+        "Lentils"
+      ],
+      "answer": 3,
+      "explication": "Dal is a soup or stew made from dried split pulses such as lentils, usually flavored with spices.",
+      "level": "facile"
+    },
+    {
+      "q": "Which cheese traditionally tops a pizza Margherita?",
+      "choices": [
+        "Mozzarella",
+        "Cheddar",
+        "Parmesan",
+        "Swiss"
+      ],
+      "answer": 0,
+      "explication": "According to legend, the pizza was named after Queen Margherita of Italy, and its red, white, and green colors match the Italian flag.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country is the home of kimchi, a spicy fermented vegetable dish?",
+      "choices": [
+        "Japan",
+        "China",
+        "Vietnam",
+        "Korea"
+      ],
+      "answer": 3,
+      "explication": "Kimchi is usually made from napa cabbage, chili, garlic, and ginger, and Koreans eat it with almost every meal.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which Spanish region did paella originate?",
+      "choices": [
+        "Valencia",
+        "Madrid",
+        "Catalonia",
+        "Andalusia"
+      ],
+      "answer": 0,
+      "explication": "Traditional Valencian paella includes rice, saffron, green beans, and rabbit or chicken.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which country is the home of pho, a noodle soup?",
+      "choices": [
+        "Vietnam",
+        "Thailand",
+        "China",
+        "Cambodia"
+      ],
+      "answer": 0,
+      "explication": "Pho is made with a long-simmered broth, rice noodles, herbs, and beef or chicken.",
+      "level": "moyen"
+    },
+    {
+      "q": "Saffron threads come from the dried stigmas of which flower?",
+      "choices": [
+        "The poppy",
+        "The tulip",
+        "The crocus",
+        "The lily"
+      ],
+      "answer": 2,
+      "explication": "It takes roughly 150,000 flowers to produce one kilogram of saffron, which is why it's so expensive.",
+      "level": "moyen"
+    },
+    {
+      "q": "Vanilla comes from the seed pods of which type of plant?",
+      "choices": [
+        "A palm",
+        "An orchid",
+        "A fern",
+        "A cactus"
+      ],
+      "answer": 1,
+      "explication": "Vanilla is the best-known orchid crop, and each flower must be pollinated by hand outside its native Mexico.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which country is the home of poutine, made of fries, cheese curds, and gravy?",
+      "choices": [
+        "The United States",
+        "Canada",
+        "The United Kingdom",
+        "Belgium"
+      ],
+      "answer": 1,
+      "explication": "Poutine originated in rural Quebec in the 1950s.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which country is most closely associated with ceviche, raw fish cured in citrus juice?",
+      "choices": [
+        "Argentina",
+        "Spain",
+        "Peru",
+        "Thailand"
+      ],
+      "answer": 2,
+      "explication": "Peruvians celebrate a national ceviche day each June, and the dish is typically served with sweet potato and corn.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which rich Mexican sauce, often made with chili peppers and sometimes chocolate, is served over chicken or turkey?",
+      "choices": [
+        "Chimichurri",
+        "Mole",
+        "Guacamole",
+        "Pico de gallo"
+      ],
+      "answer": 1,
+      "explication": "Mole poblano can include more than 20 ingredients, from chilies to nuts and spices.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which year did Japanese chemist Kikunae Ikeda identify umami as a basic taste?",
+      "choices": [
+        "1888",
+        "1928",
+        "1908",
+        "1948"
+      ],
+      "answer": 2,
+      "explication": "Ikeda isolated the taste from kombu seaweed broth and traced it to glutamate.",
+      "level": "expert"
+    },
+    {
+      "q": "Which grain is the main ingredient of Ethiopian injera?",
+      "choices": [
+        "Wheat",
+        "Rice",
+        "Corn",
+        "Teff"
+      ],
+      "answer": 3,
+      "explication": "Teff is a tiny, gluten-free grain, and injera is a spongy, slightly sour flatbread used to scoop up stews.",
+      "level": "expert"
+    },
+    {
+      "q": "Which French chef organized professional kitchens into stations, known as the brigade system?",
+      "choices": [
+        "Julia Child",
+        "Paul Bocuse",
+        "Auguste Escoffier",
+        "Anthony Bourdain"
+      ],
+      "answer": 2,
+      "explication": "Escoffier's system, developed in the late 1800s, is still used in restaurant kitchens around the world.",
+      "level": "expert"
+    },
+    {
+      "q": "Which North African cooking pot has a cone-shaped lid?",
+      "choices": [
+        "The wok",
+        "The tagine",
+        "The tandoor",
+        "The Dutch oven"
+      ],
+      "answer": 1,
+      "explication": "The cone shape lets steam condense and drip back into the food, keeping stews moist.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What does this food trivia quiz cover?",
+      "It samples cuisines from every continent, including Japan, Italy, Mexico, India, Peru, Ethiopia, and Morocco. Questions cover famous dishes, key ingredients, spices, and cooking terms. You do not need to be a chef. Curiosity about food and travel is enough to enjoy it."
+    ],
+    [
+      "Are there quizzes about wine and holiday foods too?",
+      "Yes. If you enjoy food trivia, try our wine quiz for grapes, regions, and tasting terms, or our Christmas traditions quiz for festive dishes, markets, and customs around the world. Each one has 20 questions that range from easy to expert, with short explanations after every answer."
+    ],
+    [
+      "Do I need to be a good cook to play?",
+      "Not at all. Many questions rely on common sense and a little curiosity about world cultures. The explanations after each answer teach you something new, such as where a dish comes from or what is in it, which makes the quiz a good conversation starter at the dinner table."
+    ]
+  ],
+  "related": [
+    "/wine-quiz",
+    "/christmas-traditions-quiz",
+    "/geography-quiz",
+    "/easy-general-knowledge-quiz"
+  ]
+}

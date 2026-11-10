@@ -1,0 +1,273 @@
+{
+  "path": "/space-quiz",
+  "alt": {
+    "fr": "/quiz-espace"
+  },
+  "theme": "sciences",
+  "title": "Space Quiz: 20 Questions to Test Your Knowledge",
+  "description": "Take our free space quiz: 20 questions on planets, stars, galaxies, and space exploration. From easy to expert, with fun facts after every answer.",
+  "h1": "Space Quiz: How Well Do You Know the Universe?",
+  "intro": "Ready to blast off? This space quiz takes you on a tour of planets, moons, stars, galaxies, and the great milestones of space exploration. It starts with friendly warm-ups, builds through some trickier questions, and finishes with a few expert challenges for true stargazers. You get about five seconds per question, so trust your instincts. After every answer you'll learn a quick fact to share at your next dinner party or stargazing night. No signup needed, and you can play as many times as you like. Good luck, space cadet!",
+  "questions": [
+    {
+      "q": "Which planet is closest to the Sun?",
+      "choices": [
+        "Venus",
+        "Mercury",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": 1,
+      "explication": "Mercury orbits the Sun at an average distance of about 58 million km (36 million miles) and completes a lap in just 88 Earth days.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the star at the center of our solar system?",
+      "choices": [
+        "Sirius",
+        "The Moon",
+        "Venus",
+        "The Sun"
+      ],
+      "answer": 3,
+      "explication": "The Sun holds about 99.8% of the solar system's mass, and its gravity keeps every planet in orbit.",
+      "level": "facile"
+    },
+    {
+      "q": "Which planet is known as the Red Planet?",
+      "choices": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "answer": 1,
+      "explication": "Iron oxide, better known as rust, covers the surface of Mars and gives it a reddish color.",
+      "level": "facile"
+    },
+    {
+      "q": "How many planets are in our solar system?",
+      "choices": [
+        "Eight",
+        "Seven",
+        "Nine",
+        "Ten"
+      ],
+      "answer": 0,
+      "explication": "Since 2006, when Pluto was reclassified as a dwarf planet, astronomers count eight planets.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the name of Earth's natural satellite?",
+      "choices": [
+        "The Moon",
+        "Phobos",
+        "Titan",
+        "Europa"
+      ],
+      "answer": 0,
+      "explication": "The Moon is Earth's only natural satellite, orbiting about 384,000 km (239,000 miles) away.",
+      "level": "facile"
+    },
+    {
+      "q": "Which is the largest planet in the solar system?",
+      "choices": [
+        "Saturn",
+        "Neptune",
+        "Jupiter",
+        "Earth"
+      ],
+      "answer": 2,
+      "explication": "Jupiter is so huge that more than 1,300 Earths could fit inside it.",
+      "level": "facile"
+    },
+    {
+      "q": "Which planet is famous for its spectacular rings?",
+      "choices": [
+        "Mars",
+        "Saturn",
+        "Mercury",
+        "Venus"
+      ],
+      "answer": 1,
+      "explication": "Saturn's rings are made mostly of ice particles, ranging from tiny grains to boulder-size chunks.",
+      "level": "facile"
+    },
+    {
+      "q": "Who was the first person to walk on the Moon in 1969?",
+      "choices": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "John Glenn"
+      ],
+      "answer": 1,
+      "explication": "Neil Armstrong stepped onto the lunar surface on July 20, 1969, during NASA's Apollo 11 mission.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the name of the galaxy that contains Earth?",
+      "choices": [
+        "Andromeda",
+        "Triangulum",
+        "The Milky Way",
+        "Whirlpool"
+      ],
+      "answer": 2,
+      "explication": "The Milky Way is a spiral galaxy with hundreds of billions of stars, and our Sun is just one of them.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who became the first human in space in 1961?",
+      "choices": [
+        "Neil Armstrong",
+        "Alan Shepard",
+        "Yuri Gagarin",
+        "John Glenn"
+      ],
+      "answer": 2,
+      "explication": "Yuri Gagarin orbited Earth once aboard Vostok 1 on April 12, 1961, in a flight of under two hours.",
+      "level": "moyen"
+    },
+    {
+      "q": "About how long does sunlight take to reach Earth?",
+      "choices": [
+        "8 seconds",
+        "8 hours",
+        "8 days",
+        "8 minutes"
+      ],
+      "answer": 3,
+      "explication": "Light crosses the roughly 150 million km (93 million miles) between the Sun and Earth in about 8 minutes and 20 seconds.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which star is closest to our Sun?",
+      "choices": [
+        "Sirius",
+        "Betelgeuse",
+        "Polaris",
+        "Proxima Centauri"
+      ],
+      "answer": 3,
+      "explication": "Proxima Centauri is about 4.2 light-years away, yet it is too dim to see with the naked eye.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which planet is farthest from the Sun?",
+      "choices": [
+        "Neptune",
+        "Uranus",
+        "Saturn",
+        "Pluto"
+      ],
+      "answer": 0,
+      "explication": "Neptune orbits about 4.5 billion km from the Sun, roughly 30 times farther than Earth.",
+      "level": "moyen"
+    },
+    {
+      "q": "What does a light-year measure?",
+      "choices": [
+        "Time",
+        "Speed",
+        "Mass",
+        "Distance"
+      ],
+      "answer": 3,
+      "explication": "A light-year is the distance light travels in one year: nearly 9.5 trillion km (about 5.9 trillion miles).",
+      "level": "moyen"
+    },
+    {
+      "q": "What was the first artificial satellite, launched in 1957?",
+      "choices": [
+        "Sputnik 1",
+        "Apollo 11",
+        "Hubble",
+        "Vostok 1"
+      ],
+      "answer": 0,
+      "explication": "The Soviet Union launched Sputnik 1 on October 4, 1957, kicking off the space race.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the largest moon of Saturn?",
+      "choices": [
+        "Europa",
+        "Titan",
+        "Phobos",
+        "Triton"
+      ],
+      "answer": 1,
+      "explication": "Titan is the only moon known to have a thick atmosphere, and it has lakes of liquid methane and ethane.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which planet has the hottest surface in the solar system?",
+      "choices": [
+        "Mercury",
+        "Mars",
+        "Venus",
+        "Jupiter"
+      ],
+      "answer": 2,
+      "explication": "Venus's dense carbon dioxide atmosphere traps heat, pushing surface temperatures to around 465 °C (870 °F), hotter even than Mercury.",
+      "level": "expert"
+    },
+    {
+      "q": "How many moons does Mars have?",
+      "choices": [
+        "None",
+        "One",
+        "Two",
+        "Four"
+      ],
+      "answer": 2,
+      "explication": "Mars has two small moons, Phobos and Deimos, which may be captured asteroids.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the tallest volcano in the solar system?",
+      "choices": [
+        "Olympus Mons",
+        "Mount Etna",
+        "Mount Vesuvius",
+        "Mount Kilimanjaro"
+      ],
+      "answer": 0,
+      "explication": "Olympus Mons on Mars rises about 22 km (14 miles), roughly two and a half times the height of Mount Everest.",
+      "level": "expert"
+    },
+    {
+      "q": "Which astronomer observed Jupiter's four largest moons with a telescope in 1610?",
+      "choices": [
+        "Copernicus",
+        "Kepler",
+        "Isaac Newton",
+        "Galileo Galilei"
+      ],
+      "answer": 3,
+      "explication": "Galileo spotted Io, Europa, Ganymede, and Callisto, now called the Galilean moons, which showed that not everything orbits Earth.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Is this space quiz good for kids?",
+      "Yes. The first eight questions use familiar topics such as the planets, the Moon, and the first astronauts, so children can play along. Parents can read the short explanation after each answer together with younger players. The harder questions are a fun challenge for older kids and adults who want to push their knowledge further."
+    ],
+    [
+      "What topics does the space quiz cover?",
+      "You'll meet planets and moons, stars and galaxies, plus landmark moments in space exploration such as Sputnik, the first human in space, and the Apollo Moon landing. The questions mix everyday astronomy with a few surprising facts, so beginners and space fans can both enjoy it."
+    ],
+    [
+      "Can I replay the quiz to improve my score?",
+      "Absolutely. You can replay the quiz as often as you like for free, with no account needed. Each explanation teaches you something new, so a second run is a great way to lock in the facts. Challenge friends or family to see who finishes with the best score."
+    ]
+  ],
+  "related": [
+    "/solar-system-quiz",
+    "/science-quiz",
+    "/physics-quiz",
+    "/20th-century-history-quiz"
+  ]
+}

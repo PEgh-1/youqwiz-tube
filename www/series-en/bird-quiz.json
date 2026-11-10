@@ -1,0 +1,274 @@
+{
+  "path": "/bird-quiz",
+  "alt": {
+    "fr": "/quiz-oiseaux"
+  },
+  "theme": "animaux",
+  "title": "Bird Quiz: 20 Questions from Easy to Expert",
+  "description": "Take our free bird quiz: 20 questions on owls, eagles, penguins, migration, and more. Easy to expert levels, with a fun fact after every answer.",
+  "h1": "Bird Quiz: How Well Do You Know Our Feathered Friends?",
+  "intro": "From tiny hummingbirds to giant ostriches, birds are among the most fascinating animals on Earth. This bird quiz has 20 questions about familiar backyard visitors, famous flyers, record-breakers, and the science behind feathers and flight. The first eight are easy for everyone, the middle eight ask for a bit more bird knowledge, and the last four are expert challenges for serious birders. You get about five seconds per question, and each answer includes a short explanation so you learn something new even when you miss. It's free, quick, and fun to share. Spread your wings and begin!",
+  "questions": [
+    {
+      "q": "Which bird is a symbol of peace?",
+      "choices": [
+        "The crow",
+        "The dove",
+        "The eagle",
+        "The sparrow"
+      ],
+      "answer": 1,
+      "explication": "The dove carrying an olive branch comes from the Bible story of Noah's Ark.",
+      "level": "facile"
+    },
+    {
+      "q": "Which nocturnal bird has large round eyes and hoots?",
+      "choices": [
+        "The pigeon",
+        "The duck",
+        "The chickadee",
+        "The owl"
+      ],
+      "answer": 3,
+      "explication": "Owls have forward-facing eyes and can turn their heads up to about 270 degrees.",
+      "level": "facile"
+    },
+    {
+      "q": "Which bird is famous for mimicking human speech?",
+      "choices": [
+        "The heron",
+        "The pelican",
+        "The parrot",
+        "The pheasant"
+      ],
+      "answer": 2,
+      "explication": "Parrots copy sounds they hear, and African gray parrots are among the best at it.",
+      "level": "facile"
+    },
+    {
+      "q": "Which farmyard bird crows at sunrise?",
+      "choices": [
+        "The rooster",
+        "The duck",
+        "The goose",
+        "The turkey"
+      ],
+      "answer": 0,
+      "explication": "Roosters crow throughout the day to mark their territory, not only at dawn.",
+      "level": "facile"
+    },
+    {
+      "q": "Which large white bird glides gracefully on lakes and ponds?",
+      "choices": [
+        "The swan",
+        "The crow",
+        "The falcon",
+        "The vulture"
+      ],
+      "answer": 0,
+      "explication": "Swans mate for life and can be fiercely protective of their young, called cygnets.",
+      "level": "facile"
+    },
+    {
+      "q": "Which small garden bird with an orange-red breast is a favorite on British Christmas cards?",
+      "choices": [
+        "The woodpecker",
+        "The sparrow",
+        "The robin",
+        "The blackbird"
+      ],
+      "answer": 2,
+      "explication": "The European robin is fiercely territorial, and males and females both sing.",
+      "level": "facile"
+    },
+    {
+      "q": "Which bird fans out a colorful tail to attract a mate?",
+      "choices": [
+        "The woodpecker",
+        "The peacock",
+        "The guinea fowl",
+        "The crane"
+      ],
+      "answer": 1,
+      "explication": "Only the male, called the peacock, has the dazzling train. The female is called a peahen.",
+      "level": "facile"
+    },
+    {
+      "q": "Which bird provides most of the eggs we eat?",
+      "choices": [
+        "The quail",
+        "The goose",
+        "The turkey",
+        "The chicken"
+      ],
+      "answer": 3,
+      "explication": "A hen can lay about 250 to 300 eggs in a year.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the largest living bird?",
+      "choices": [
+        "The ostrich",
+        "The emu",
+        "The condor",
+        "The pelican"
+      ],
+      "answer": 0,
+      "explication": "An ostrich can stand up to 2.7 meters (9 feet) tall and run at about 70 km/h (45 mph).",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the world's smallest bird?",
+      "choices": [
+        "The house sparrow",
+        "The hummingbird (bee hummingbird)",
+        "The wren",
+        "The chickadee"
+      ],
+      "answer": 1,
+      "explication": "The bee hummingbird, from Cuba, is about 5.5 cm (2 inches) long and weighs less than a dime.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which bird lays its eggs in the nests of other species?",
+      "choices": [
+        "The magpie",
+        "The cuckoo",
+        "The jay",
+        "The pigeon"
+      ],
+      "answer": 1,
+      "explication": "Many cuckoo chicks push the host's eggs out of the nest to get all the food.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which bird of prey is the national emblem of the United States?",
+      "choices": [
+        "The peregrine falcon",
+        "The great horned owl",
+        "The bald eagle",
+        "The turkey vulture"
+      ],
+      "answer": 2,
+      "explication": "Despite the name, the bald eagle is not bald. Its head is covered with white feathers.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which flightless bird from New Zealand has a long, thin beak?",
+      "choices": [
+        "The toucan",
+        "The hummingbird",
+        "The stork",
+        "The kiwi"
+      ],
+      "answer": 3,
+      "explication": "The kiwi is the national symbol of New Zealand, and it hunts for insects with nostrils at the tip of its beak.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which migratory bird builds a cup-shaped nest of mud under eaves and bridges?",
+      "choices": [
+        "The pigeon",
+        "The barn swallow",
+        "The sparrow",
+        "The robin"
+      ],
+      "answer": 1,
+      "explication": "Barn swallows travel thousands of miles between North America and South America each year.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which tropical bird is known for its enormous, colorful bill?",
+      "choices": [
+        "The pigeon",
+        "The heron",
+        "The pheasant",
+        "The toucan"
+      ],
+      "answer": 3,
+      "explication": "The toucan's bill is large but light, and it helps the bird reach fruit and regulate its body heat.",
+      "level": "moyen"
+    },
+    {
+      "q": "What are feathers mainly made of?",
+      "choices": [
+        "Calcium",
+        "Chitin",
+        "Keratin",
+        "Cellulose"
+      ],
+      "answer": 2,
+      "explication": "Keratin is the same protein that makes up human hair and nails.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which bird makes the longest migration, traveling from one polar region to the other each year?",
+      "choices": [
+        "The Arctic tern",
+        "The barn swallow",
+        "The white stork",
+        "The homing pigeon"
+      ],
+      "answer": 0,
+      "explication": "An Arctic tern can travel up to about 70,000 km (44,000 miles) in a year and sees more daylight than any other animal.",
+      "level": "expert"
+    },
+    {
+      "q": "Which bird is the fastest when diving?",
+      "choices": [
+        "The golden eagle",
+        "The hummingbird",
+        "The peregrine falcon",
+        "The vulture"
+      ],
+      "answer": 2,
+      "explication": "The peregrine can exceed 320 km/h (200 mph) in a dive, called a stoop.",
+      "level": "expert"
+    },
+    {
+      "q": "On which island did the extinct dodo live?",
+      "choices": [
+        "Madagascar",
+        "Corsica",
+        "Tahiti",
+        "Mauritius"
+      ],
+      "answer": 3,
+      "explication": "The dodo went extinct in the late 1600s, after humans and their introduced animals arrived.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the bony ridge on a bird's breastbone, where its flight muscles attach, called?",
+      "choices": [
+        "The keel",
+        "The femur",
+        "The furcula",
+        "The pygostyle"
+      ],
+      "answer": 0,
+      "explication": "Strong fliers have a deep keel, while flightless birds like ostriches have a flat breastbone.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What topics does this bird quiz cover?",
+      "The questions cover familiar birds such as owls, parrots, and swans, record-breakers such as the ostrich and the peregrine falcon, migration, extinct species like the dodo, and the biology of feathers and flight. Birders and casual nature lovers can enjoy the mix of easy and challenging questions."
+    ],
+    [
+      "Is the bird quiz good for kids?",
+      "Yes. The first eight questions use well-known birds and simple facts, so kids can play along. Parents can read the short explanations aloud, which often include fun details such as how fast birds fly or how far they migrate. It's a nice way to spark curiosity about nature."
+    ],
+    [
+      "Can I learn bird facts from this quiz?",
+      "Yes. Every answer comes with a short explanation that adds a detail, such as how far an Arctic tern flies or why a toucan has a big bill. If you enjoy animal trivia, you can also try our animal quiz, hard animal quiz, and ocean animals quiz."
+    ]
+  ],
+  "related": [
+    "/animal-quiz",
+    "/hard-animal-quiz",
+    "/ocean-animals-quiz",
+    "/dinosaur-quiz",
+    "/science-quiz"
+  ]
+}

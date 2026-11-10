@@ -1,0 +1,273 @@
+{
+  "path": "/vocabulary-quiz",
+  "alt": {
+    "fr": "/quiz-vocabulaire"
+  },
+  "theme": "langue",
+  "title": "Vocabulary Quiz: 20 English Words to Test You",
+  "description": "Test your English vocabulary with 20 free questions on word meanings, synonyms, and antonyms. Easy to expert levels, with an explanation after each answer.",
+  "h1": "Vocabulary Quiz: How Strong Is Your English?",
+  "intro": "Words are powerful, and a rich vocabulary helps you read, write, and speak with confidence. This vocabulary quiz asks 20 questions about the meanings of English words, along with synonyms and antonyms. The first eight use everyday words, the middle eight introduce more advanced terms you might meet in books and news, and the last four are tough words that even confident readers can find tricky. You get about five seconds per question, and every answer comes with a short explanation and often an example. It's free, quick, and good for students, writers, and word lovers. Let's see how many words you really know!",
+  "questions": [
+    {
+      "q": "Which word means the same as \"enormous\"?",
+      "choices": [
+        "Huge",
+        "Tiny",
+        "Narrow",
+        "Plain"
+      ],
+      "answer": 0,
+      "explication": "Enormous describes something extremely large, such as an enormous mountain or an enormous crowd.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the opposite of \"ancient\"?",
+      "choices": [
+        "Old",
+        "Broken",
+        "Modern",
+        "Quiet"
+      ],
+      "answer": 2,
+      "explication": "Ancient means very old, especially from the distant past, while modern describes something recent or current.",
+      "level": "facile"
+    },
+    {
+      "q": "What does \"brief\" mean?",
+      "choices": [
+        "Very loud",
+        "Short in length or time",
+        "Extremely heavy",
+        "Hard to see"
+      ],
+      "answer": 1,
+      "explication": "A brief meeting lasts only a short time. It can also mean using few words.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the opposite of \"generous\"?",
+      "choices": [
+        "Kind",
+        "Wealthy",
+        "Honest",
+        "Stingy"
+      ],
+      "answer": 3,
+      "explication": "A stingy person is unwilling to spend or give, while a generous person gives freely.",
+      "level": "facile"
+    },
+    {
+      "q": "What is a \"gale\"?",
+      "choices": [
+        "A very strong wind",
+        "A gentle rain",
+        "A loud noise",
+        "A type of cloud"
+      ],
+      "answer": 0,
+      "explication": "Gales are strong enough to break tree branches and make walking difficult.",
+      "level": "facile"
+    },
+    {
+      "q": "What does \"nocturnal\" describe?",
+      "choices": [
+        "Something very old",
+        "Something shiny",
+        "Something active at night",
+        "Something silent"
+      ],
+      "answer": 2,
+      "explication": "Owls, bats, and hedgehogs are nocturnal animals.",
+      "level": "facile"
+    },
+    {
+      "q": "Which word is a synonym for \"weary\"?",
+      "choices": [
+        "Eager",
+        "Tired",
+        "Careful",
+        "Cheerful"
+      ],
+      "answer": 1,
+      "explication": "Weary means worn out, either physically or from boredom or worry.",
+      "level": "facile"
+    },
+    {
+      "q": "What is an orchard?",
+      "choices": [
+        "A piece of land planted with fruit trees",
+        "A field of wheat",
+        "A pond for fish",
+        "A garden of vegetables"
+      ],
+      "answer": 0,
+      "explication": "Apples, cherries, and peaches are often grown in orchards.",
+      "level": "facile"
+    },
+    {
+      "q": "What does \"ephemeral\" mean?",
+      "choices": [
+        "Lasting forever",
+        "Extremely large",
+        "Very noisy",
+        "Lasting for a very short time"
+      ],
+      "answer": 3,
+      "explication": "A rainbow or a soap bubble is ephemeral. The word comes from a Greek term meaning \"lasting a day.\"",
+      "level": "moyen"
+    },
+    {
+      "q": "Which word best describes someone who is \"benevolent\"?",
+      "choices": [
+        "Angry and impatient",
+        "Kind and well-meaning",
+        "Shy and quiet",
+        "Clever and sly"
+      ],
+      "answer": 1,
+      "explication": "A benevolent donor, for example, gives money to help others.",
+      "level": "moyen"
+    },
+    {
+      "q": "Someone described as \"taciturn\" is…",
+      "choices": [
+        "A person who talks constantly",
+        "A person who is very funny",
+        "A person who is always in a hurry",
+        "A person who says very little"
+      ],
+      "answer": 3,
+      "explication": "Taciturn people tend to be reserved and speak only when necessary.",
+      "level": "moyen"
+    },
+    {
+      "q": "What does \"frugal\" mean?",
+      "choices": [
+        "Extremely wealthy",
+        "Fond of luxury",
+        "Careful about spending money or using resources",
+        "Easily frightened"
+      ],
+      "answer": 2,
+      "explication": "A frugal person avoids waste. Frugal can also describe a plain, inexpensive meal.",
+      "level": "moyen"
+    },
+    {
+      "q": "What does \"ubiquitous\" mean?",
+      "choices": [
+        "Extremely rare",
+        "Present or found everywhere",
+        "Hard to understand",
+        "Brightly colored"
+      ],
+      "answer": 1,
+      "explication": "Smartphones have become ubiquitous, meaning you see them everywhere.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is a euphemism?",
+      "choices": [
+        "An exaggeration for effect",
+        "A word that sounds like its meaning",
+        "A mild word used in place of a harsh or unpleasant one",
+        "A very long sentence"
+      ],
+      "answer": 2,
+      "explication": "Saying someone \"passed away\" instead of \"died\" is a euphemism.",
+      "level": "moyen"
+    },
+    {
+      "q": "A statement that is \"ambiguous\" is one that…",
+      "choices": [
+        "Is clearly false",
+        "Is very short",
+        "Is spoken loudly",
+        "Can be understood in more than one way"
+      ],
+      "answer": 3,
+      "explication": "The sentence \"I saw her duck\" is ambiguous because duck could be a bird or an action.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which word is a synonym for \"candid\"?",
+      "choices": [
+        "Frank",
+        "Sweet",
+        "Secretive",
+        "Careful"
+      ],
+      "answer": 0,
+      "explication": "A candid answer is honest and direct, even if it is not what the listener hopes to hear.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is a \"sycophant\"?",
+      "choices": [
+        "A person who flatters others to gain advantage",
+        "A person who studies insects",
+        "A person who tells jokes",
+        "A person who collects antiques"
+      ],
+      "answer": 0,
+      "explication": "The word comes from a Greek term for an informer. Today it means a flatterer or \"yes-man.\"",
+      "level": "expert"
+    },
+    {
+      "q": "What is a \"sinecure\"?",
+      "choices": [
+        "A cure for a disease",
+        "A type of musical instrument",
+        "A strict set of rules",
+        "A job that pays well but requires little work"
+      ],
+      "answer": 3,
+      "explication": "The word comes from Latin sine cura, meaning \"without care,\" originally describing church posts with no duties.",
+      "level": "expert"
+    },
+    {
+      "q": "A \"perfunctory\" action is one that is…",
+      "choices": [
+        "Done with great care",
+        "Done in secret",
+        "Done with minimal effort or interest",
+        "Done by force"
+      ],
+      "answer": 2,
+      "explication": "A perfunctory glance or greeting is quick and routine, without real attention.",
+      "level": "expert"
+    },
+    {
+      "q": "What does \"recalcitrant\" mean?",
+      "choices": [
+        "Eager to please",
+        "Stubbornly resisting authority or control",
+        "Easily confused",
+        "Extremely generous"
+      ],
+      "answer": 1,
+      "explication": "A recalcitrant child, or a recalcitrant mule, refuses to follow instructions.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "How can I improve my English vocabulary?",
+      "Read widely, keep a notebook of new words, and use them in your own sentences. Learning word roots, prefixes, and suffixes helps you guess meanings. Quizzes like this one add quick practice, and the explanations often give an example of how to use each word."
+    ],
+    [
+      "Is this vocabulary quiz good for English learners?",
+      "The first eight questions use common words and suit intermediate learners. The later ones include advanced words that even native speakers find challenging. Reading the explanations is a good way to learn how words are used in context. You can replay the quiz as often as you like."
+    ],
+    [
+      "What kinds of words does the quiz include?",
+      "The quiz mixes everyday words, synonyms and antonyms, and less common terms such as ephemeral, ubiquitous, and sycophant. The questions are designed so that there is one clearly correct meaning. Each explanation gives a little context, which makes the words easier to remember."
+    ]
+  ],
+  "related": [
+    "/easy-general-knowledge-quiz",
+    "/hard-general-knowledge-quiz",
+    "/science-quiz",
+    "/world-history-quiz"
+  ]
+}

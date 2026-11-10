@@ -1,0 +1,273 @@
+{
+  "path": "/hard-christmas-quiz",
+  "alt": {
+    "fr": "/quiz-noel-difficile"
+  },
+  "theme": "noel",
+  "title": "Hard Christmas Quiz: 20 Tough Holiday Questions",
+  "description": "Think you're a Christmas expert? Try 20 tough questions on holiday history, music, films, and origins. With a surprising fact after each answer.",
+  "h1": "Hard Christmas Quiz: For Real Holiday History Buffs",
+  "intro": "If the usual Christmas trivia feels too easy, this one is for you. The hard Christmas quiz explores the origins of the holiday, from Roman festivals to Victorian innovations, along with famous music, films, and unusual moments in history. Even the first eight questions expect some knowledge, the middle eight dig into dates and names, and the last four are for truly dedicated experts. You'll have about five seconds per question, and every answer comes with a short explanation that adds to your holiday wisdom. It's free and quick, so gather your family and see who knows the most. Good luck!",
+  "questions": [
+    {
+      "q": "In which city is the celebration of Christmas on December 25 first recorded, in the fourth century?",
+      "choices": [
+        "Rome",
+        "Jerusalem",
+        "Constantinople",
+        "Bethlehem"
+      ],
+      "answer": 0,
+      "explication": "A Roman calendar compiled in 354 lists December 25 as the date of Christ's birth, reflecting a celebration recorded in Rome around 336.",
+      "level": "facile"
+    },
+    {
+      "q": "Which English king was crowned on Christmas Day in 1066?",
+      "choices": [
+        "Harold II",
+        "William the Conqueror",
+        "Richard I",
+        "Henry VIII"
+      ],
+      "answer": 1,
+      "explication": "William was crowned at Westminster Abbey just weeks after his victory at Hastings.",
+      "level": "facile"
+    },
+    {
+      "q": "Which Roman winter festival, held in December, is often compared with Christmas?",
+      "choices": [
+        "Lupercalia",
+        "Bacchanalia",
+        "Saturnalia",
+        "The Panathenaea"
+      ],
+      "answer": 2,
+      "explication": "Saturnalia involved feasting, gift-giving, and a temporary reversal of social roles.",
+      "level": "facile"
+    },
+    {
+      "q": "Which bishop of Myra, in present-day Turkey, inspired the figure of Santa Claus?",
+      "choices": [
+        "Saint Nicholas",
+        "Saint Martin",
+        "Saint Augustine",
+        "Saint Basil"
+      ],
+      "answer": 0,
+      "explication": "Nicholas was known for his secret gifts to the poor, and the name Santa Claus comes from the Dutch Sinterklaas.",
+      "level": "facile"
+    },
+    {
+      "q": "Which traditional British Christmas dessert is often set aflame with brandy?",
+      "choices": [
+        "Trifle",
+        "Christmas pudding",
+        "Apple crumble",
+        "Scones"
+      ],
+      "answer": 1,
+      "explication": "The pudding is typically made weeks in advance, and sometimes a coin is hidden inside for luck.",
+      "level": "facile"
+    },
+    {
+      "q": "Which 1823 poem helped popularize the names and images of Santa's reindeer?",
+      "choices": [
+        "A Christmas Carol",
+        "A Visit from St. Nicholas",
+        "The Legend of Sleepy Hollow",
+        "The Raven"
+      ],
+      "answer": 1,
+      "explication": "The poem, also known as \"The Night Before Christmas,\" begins with the famous line about a stirring mouse.",
+      "level": "facile"
+    },
+    {
+      "q": "Which 19th-century American cartoonist shaped the image of Santa Claus in Harper's Weekly?",
+      "choices": [
+        "Thomas Nast",
+        "Norman Rockwell",
+        "Haddon Sundblom",
+        "Walt Disney"
+      ],
+      "answer": 0,
+      "explication": "Nast's drawings gave Santa a round figure, a white beard, and a workshop at the North Pole.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the name of the period of preparation before Christmas observed by many Christians?",
+      "choices": [
+        "Lent",
+        "Pentecost",
+        "Advent",
+        "Ordinary Time"
+      ],
+      "answer": 2,
+      "explication": "Advent begins on the fourth Sunday before Christmas, and many people use Advent calendars to count the days.",
+      "level": "facile"
+    },
+    {
+      "q": "Which German city's Striezelmarkt, dated to 1434, is among the oldest Christmas markets?",
+      "choices": [
+        "Leipzig",
+        "Dresden",
+        "Munich",
+        "Frankfurt"
+      ],
+      "answer": 1,
+      "explication": "A decree of Elector Frederick II of Saxony in 1434 permitted the first market in Dresden. Today's market is named after the Striezel, a traditional fruit bread now better known as Stollen.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which group in power banned Christmas celebrations in England in 1647?",
+      "choices": [
+        "The Puritan-led Parliament",
+        "The Stuart monarchy",
+        "The Church of England under Henry VIII",
+        "The Restoration court"
+      ],
+      "answer": 0,
+      "explication": "The ban sparked riots, and Christmas returned when the monarchy was restored in 1660.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which illustrator drew the Santa Claus used in Coca-Cola advertisements starting in 1931?",
+      "choices": [
+        "Thomas Nast",
+        "Norman Rockwell",
+        "Walt Disney",
+        "Haddon Sundblom"
+      ],
+      "answer": 3,
+      "explication": "Sundblom's warm, jolly Santa helped make the red suit an enduring image of Christmas.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country did Saint Francis of Assisi stage a living nativity scene in 1223?",
+      "choices": [
+        "France",
+        "Spain",
+        "Italy",
+        "Germany"
+      ],
+      "answer": 2,
+      "explication": "The event in Greccio is considered the origin of the tradition of the Christmas crèche.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which work did Johann Sebastian Bach compose in 1734 for the Christmas season?",
+      "choices": [
+        "The St. Matthew Passion",
+        "The Mass in B Minor",
+        "The Goldberg Variations",
+        "The Christmas Oratorio"
+      ],
+      "answer": 3,
+      "explication": "Bach wrote the oratorio as a series of six cantatas to be performed on separate feast days from Christmas to Epiphany.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Frank Capra film, released in 1946, became a Christmas classic?",
+      "choices": [
+        "Miracle on 34th Street",
+        "Holiday Inn",
+        "The Bishop's Wife",
+        "It's a Wonderful Life"
+      ],
+      "answer": 3,
+      "explication": "The film wasn't a big hit at first, but repeated TV broadcasts later turned it into a holiday favorite.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which space mission read from the Book of Genesis on Christmas Eve 1968?",
+      "choices": [
+        "Apollo 11",
+        "Apollo 13",
+        "Apollo 8",
+        "Gemini 7"
+      ],
+      "answer": 2,
+      "explication": "The crew was orbiting the Moon when they broadcast the reading to a worldwide audience.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which U.S. president signed the law that made Christmas a federal holiday in 1870?",
+      "choices": [
+        "Abraham Lincoln",
+        "Andrew Johnson",
+        "Ulysses S. Grant",
+        "Theodore Roosevelt"
+      ],
+      "answer": 2,
+      "explication": "Congress made Christmas a legal holiday for federal employees in Washington, D.C., and it later applied nationwide.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which year did the famous Christmas truce occur along parts of the Western Front?",
+      "choices": [
+        "1915",
+        "1916",
+        "1917",
+        "1914"
+      ],
+      "answer": 3,
+      "explication": "Soldiers from opposing sides stopped fighting, sang carols, and in some places exchanged small gifts.",
+      "level": "expert"
+    },
+    {
+      "q": "Which German-born prince consort helped popularize the Christmas tree in Britain?",
+      "choices": [
+        "Philip",
+        "George",
+        "Edward",
+        "Albert"
+      ],
+      "answer": 3,
+      "explication": "An 1848 illustration of Queen Victoria, Albert, and their children around a tree made the custom fashionable.",
+      "level": "expert"
+    },
+    {
+      "q": "According to Dutch tradition, from which country does Sinterklaas arrive each year?",
+      "choices": [
+        "Germany",
+        "Spain",
+        "Italy",
+        "Norway"
+      ],
+      "answer": 1,
+      "explication": "In Dutch tradition, Sinterklaas arrives by steamboat from Spain in mid-November, although the real Saint Nicholas was a bishop in present-day Turkey.",
+      "level": "expert"
+    },
+    {
+      "q": "Which country gives London a Christmas tree for Trafalgar Square each year?",
+      "choices": [
+        "Norway",
+        "Denmark",
+        "Sweden",
+        "Finland"
+      ],
+      "answer": 0,
+      "explication": "The gift began in 1947 as thanks for British support to Norway during World War II.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Why is Christmas on December 25?",
+      "The Bible doesn't give the date of Jesus's birth. By the fourth century the church in Rome was celebrating on December 25. Scholars debate why that date was chosen, with theories linking it to calculations of the conception of Jesus and to Roman winter festivals."
+    ],
+    [
+      "Who invented Santa Claus?",
+      "Santa Claus has many roots. He grew out of Saint Nicholas, a bishop from Myra, and the Dutch figure Sinterklaas. In the 19th century, a famous 1823 poem and the drawings of Thomas Nast gave him his modern look, and later advertising spread the image."
+    ],
+    [
+      "How hard is this Christmas quiz?",
+      "It's designed for people who already know the basics. Getting around 10 correct is a solid result, while 15 or more means you know a lot about holiday history. If you want something gentler, try our Christmas trivia quiz first, then come back for this one."
+    ]
+  ],
+  "related": [
+    "/christmas-trivia-quiz",
+    "/christmas-traditions-quiz",
+    "/world-history-quiz",
+    "/middle-ages-quiz"
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "path": "/science-quiz",
+  "alt": {
+    "fr": "/quiz-sciences"
+  },
+  "theme": "sciences",
+  "title": "Science Quiz: 20 Questions from Easy to Expert",
+  "description": "Take our free science quiz with 20 questions on chemistry, physics, and the natural world. Easy to expert levels, with a fun fact after every answer.",
+  "h1": "Science Quiz: How Much Do You Really Know?",
+  "intro": "Think you remember your school science lessons? This science quiz mixes chemistry, physics, and general knowledge in 20 questions that move from easy to expert. You'll recall chemical symbols, famous discoveries, units of measurement, and a few facts about the world around you. Each question gives you about five seconds, so there's no time to overthink, and every answer comes with a short explanation to help you learn. Whether you're a student, a trivia fan, or simply curious, this is a quick and friendly way to test yourself. Put on your lab coat and begin!",
+  "questions": [
+    {
+      "q": "What is the chemical formula of water?",
+      "choices": [
+        "H₂O",
+        "CO₂",
+        "O₂",
+        "NaCl"
+      ],
+      "answer": 0,
+      "explication": "Each water molecule contains two hydrogen atoms bonded to one oxygen atom.",
+      "level": "facile"
+    },
+    {
+      "q": "Which gas do we breathe in to stay alive?",
+      "choices": [
+        "Helium",
+        "Oxygen",
+        "Hydrogen",
+        "Neon"
+      ],
+      "answer": 1,
+      "explication": "Oxygen makes up about 21% of the air. Our cells use it to release energy from food.",
+      "level": "facile"
+    },
+    {
+      "q": "At what temperature does water boil at sea-level pressure?",
+      "choices": [
+        "50 °C (122 °F)",
+        "80 °C (176 °F)",
+        "120 °C (248 °F)",
+        "100 °C (212 °F)"
+      ],
+      "answer": 3,
+      "explication": "At high altitudes, the lower air pressure makes water boil at a lower temperature.",
+      "level": "facile"
+    },
+    {
+      "q": "In which state of matter is ice?",
+      "choices": [
+        "Liquid",
+        "Solid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": 1,
+      "explication": "Ice is solid water. When it warms above 0 °C (32 °F), it melts into a liquid.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the hardest naturally occurring material?",
+      "choices": [
+        "Gold",
+        "Iron",
+        "Diamond",
+        "Quartz"
+      ],
+      "answer": 2,
+      "explication": "Diamond is made of carbon atoms arranged in a rigid crystal structure, which makes it extremely hard.",
+      "level": "facile"
+    },
+    {
+      "q": "Which force pulls us toward the ground?",
+      "choices": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Pressure"
+      ],
+      "answer": 2,
+      "explication": "Gravity is the attraction between masses. On Earth it gives everything weight.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the chemical symbol for gold?",
+      "choices": [
+        "Go",
+        "Au",
+        "Ag",
+        "Gd"
+      ],
+      "answer": 1,
+      "explication": "Au comes from aurum, the Latin word for gold. Ag, silver, comes from argentum.",
+      "level": "facile"
+    },
+    {
+      "q": "Which metal is liquid at room temperature?",
+      "choices": [
+        "Lead",
+        "Copper",
+        "Mercury",
+        "Aluminum"
+      ],
+      "answer": 2,
+      "explication": "Mercury melts at −39 °C (−38 °F), so it stays liquid in everyday conditions.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the chemical symbol for sodium?",
+      "choices": [
+        "Na",
+        "So",
+        "S",
+        "Sd"
+      ],
+      "answer": 0,
+      "explication": "Na comes from natrium, the Latin name for sodium. Table salt is sodium chloride, NaCl.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which of these can sound not travel?",
+      "choices": [
+        "Water",
+        "Air",
+        "Steel",
+        "A vacuum"
+      ],
+      "answer": 3,
+      "explication": "Sound needs matter to carry its vibrations, so space is silent.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the pH of a neutral solution at 25 °C?",
+      "choices": [
+        "0",
+        "10",
+        "14",
+        "7"
+      ],
+      "answer": 3,
+      "explication": "Pure water has a pH of 7. Lower values are acidic, and higher values are basic.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who formulated the law of universal gravitation?",
+      "choices": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Marie Curie"
+      ],
+      "answer": 0,
+      "explication": "Newton published his law in 1687 in the Principia, showing that the force that makes apples fall also keeps the Moon in orbit.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which particle carries a negative electric charge?",
+      "choices": [
+        "The electron",
+        "The proton",
+        "The neutron",
+        "The nucleus"
+      ],
+      "answer": 0,
+      "explication": "Electrons orbit the nucleus, and their movement through wires is what we call electric current.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the SI unit of force?",
+      "choices": [
+        "The watt",
+        "The newton",
+        "The joule",
+        "The pascal"
+      ],
+      "answer": 1,
+      "explication": "One newton is the force needed to accelerate a 1 kg mass by 1 meter per second squared.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which gas is the most abundant in Earth's atmosphere?",
+      "choices": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Argon",
+        "Nitrogen"
+      ],
+      "answer": 3,
+      "explication": "Nitrogen makes up about 78% of the air, while oxygen makes up about 21%.",
+      "level": "moyen"
+    },
+    {
+      "q": "What does the ampere measure?",
+      "choices": [
+        "Electric current",
+        "Voltage",
+        "Resistance",
+        "Power"
+      ],
+      "answer": 0,
+      "explication": "One ampere corresponds to a flow of about 6.24 quintillion electrons per second.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the atomic number of carbon?",
+      "choices": [
+        "4",
+        "8",
+        "6",
+        "12"
+      ],
+      "answer": 2,
+      "explication": "Carbon has six protons in its nucleus. The number 12 is its most common mass number.",
+      "level": "expert"
+    },
+    {
+      "q": "Which scientist discovered penicillin in 1928?",
+      "choices": [
+        "Louis Pasteur",
+        "Marie Curie",
+        "Alexander Fleming",
+        "Robert Koch"
+      ],
+      "answer": 2,
+      "explication": "Fleming noticed that mold on a lab dish killed nearby bacteria, which led to the first widely used antibiotic.",
+      "level": "expert"
+    },
+    {
+      "q": "Who created the first widely recognized periodic table in 1869?",
+      "choices": [
+        "Antoine Lavoisier",
+        "Niels Bohr",
+        "John Dalton",
+        "Dmitri Mendeleev"
+      ],
+      "answer": 3,
+      "explication": "Mendeleev left gaps for elements not yet discovered, and later discoveries confirmed his predictions.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the chemical symbol for potassium?",
+      "choices": [
+        "P",
+        "K",
+        "Po",
+        "Pt"
+      ],
+      "answer": 1,
+      "explication": "K comes from kalium, the medieval Latin name linked to potash, the plant ash from which potassium was first isolated.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What does this science quiz cover?",
+      "The quiz mixes basic chemistry, physics, and general science. You'll see questions about chemical symbols, states of matter, gases, famous scientists, and units of measurement. Early questions suit beginners, while the last few ask for more precise knowledge, like atomic numbers and historic discoveries."
+    ],
+    [
+      "Can I use this quiz to study for a science test?",
+      "It makes a good warm-up, but it is a general-knowledge quiz rather than a full course review. The explanations clarify key ideas, so you can spot topics to study further. Replay it a few times to check how much you retain."
+    ],
+    [
+      "Is the science quiz free to play?",
+      "Yes, it is completely free and requires no account. Just start the quiz, answer the 20 questions, and read each explanation. You can replay as often as you like, and you can try our other science quizzes on space, physics, and more for extra practice."
+    ]
+  ],
+  "related": [
+    "/physics-quiz",
+    "/chemistry-quiz",
+    "/human-body-quiz",
+    "/space-quiz",
+    "/solar-system-quiz"
+  ]
+}

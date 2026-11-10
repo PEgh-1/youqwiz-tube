@@ -1,0 +1,274 @@
+{
+  "path": "/capitals-of-africa-quiz",
+  "alt": {
+    "fr": "/quiz-capitales-afrique"
+  },
+  "theme": "geographie",
+  "title": "African Capitals Quiz: 20 Questions",
+  "description": "Take our quiz on the capitals of Africa: 20 questions from Cairo and Nairobi to Windhoek and Praia. Test your African geography for free.",
+  "h1": "African Capitals Quiz: Do You Know Africa's Capitals?",
+  "intro": "Africa has 54 countries, and each one has a capital with its own story. In this African capitals quiz, you will answer 20 questions that go from familiar cities, such as Nairobi, Accra and Addis Ababa, to lesser-known capitals like Gaborone, Windhoek and Praia. The questions get harder as you go, so geography fans will have to dig deep for the last few. You have about five seconds per question, so don't overthink it. After each answer, a quick explanation tells you something about the city or the country. Test yourself, then challenge your friends to beat your score.",
+  "questions": [
+    {
+      "q": "What is the capital of Algeria?",
+      "choices": [
+        "Oran",
+        "Algiers",
+        "Constantine",
+        "Annaba"
+      ],
+      "answer": 1,
+      "explication": "Algiers sits on the Mediterranean coast and is the country's largest city.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Tunisia?",
+      "choices": [
+        "Sfax",
+        "Sousse",
+        "Bizerte",
+        "Tunis"
+      ],
+      "answer": 3,
+      "explication": "Tunis lies near the ruins of ancient Carthage on the Mediterranean coast.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Senegal?",
+      "choices": [
+        "Dakar",
+        "Saint-Louis",
+        "Thiès",
+        "Touba"
+      ],
+      "answer": 0,
+      "explication": "Dakar is on the Cap-Vert peninsula, the westernmost point of mainland Africa.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Kenya?",
+      "choices": [
+        "Mombasa",
+        "Kisumu",
+        "Nairobi",
+        "Nakuru"
+      ],
+      "answer": 2,
+      "explication": "Nairobi was founded as a railway depot around 1899 and is now East Africa's major hub.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Ethiopia?",
+      "choices": [
+        "Gondar",
+        "Axum",
+        "Harar",
+        "Addis Ababa"
+      ],
+      "answer": 3,
+      "explication": "Addis Ababa means 'new flower' in Amharic, and the city hosts the African Union's headquarters.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Ghana?",
+      "choices": [
+        "Kumasi",
+        "Accra",
+        "Tamale",
+        "Takoradi"
+      ],
+      "answer": 1,
+      "explication": "Accra lies on the Gulf of Guinea and has been Ghana's capital since 1877, during British colonial rule.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of the Democratic Republic of the Congo?",
+      "choices": [
+        "Lubumbashi",
+        "Goma",
+        "Kinshasa",
+        "Kisangani"
+      ],
+      "answer": 2,
+      "explication": "Kinshasa sits on the Congo River, facing Brazzaville, the capital of the neighboring Republic of the Congo.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Gabon?",
+      "choices": [
+        "Libreville",
+        "Port-Gentil",
+        "Franceville",
+        "Lambaréné"
+      ],
+      "answer": 0,
+      "explication": "Libreville means 'free town' in French and sits on the Atlantic coast.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the capital of Mali?",
+      "choices": [
+        "Bamako",
+        "Timbuktu",
+        "Gao",
+        "Sikasso"
+      ],
+      "answer": 0,
+      "explication": "Bamako lies on the Niger River and is one of the fastest-growing cities in Africa.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Niger?",
+      "choices": [
+        "Zinder",
+        "Agadez",
+        "Niamey",
+        "Maradi"
+      ],
+      "answer": 2,
+      "explication": "Niamey is on the Niger River, in the southwest of the country.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Guinea?",
+      "choices": [
+        "Kankan",
+        "Conakry",
+        "Labé",
+        "Nzérékoré"
+      ],
+      "answer": 1,
+      "explication": "Conakry sits on a peninsula on the Atlantic coast and is Guinea's largest city.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Angola?",
+      "choices": [
+        "Benguela",
+        "Huambo",
+        "Lobito",
+        "Luanda"
+      ],
+      "answer": 3,
+      "explication": "Luanda was founded by Portuguese settlers in 1576 and is a major Atlantic port.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Mozambique?",
+      "choices": [
+        "Beira",
+        "Nampula",
+        "Maputo",
+        "Matola"
+      ],
+      "answer": 2,
+      "explication": "Maputo, on the Indian Ocean, was called Lourenço Marques until 1976.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Zambia?",
+      "choices": [
+        "Lusaka",
+        "Ndola",
+        "Kitwe",
+        "Livingstone"
+      ],
+      "answer": 0,
+      "explication": "Lusaka sits on a high plateau in the south-central part of Zambia and has been the capital since 1935.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Zimbabwe?",
+      "choices": [
+        "Bulawayo",
+        "Mutare",
+        "Gweru",
+        "Harare"
+      ],
+      "answer": 3,
+      "explication": "Harare was named Salisbury until 1982, when it received its current name.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Uganda?",
+      "choices": [
+        "Entebbe",
+        "Kampala",
+        "Jinja",
+        "Gulu"
+      ],
+      "answer": 1,
+      "explication": "Kampala is Uganda's capital and largest city. Entebbe, home to the main airport, is often mistaken for it.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the capital of Namibia?",
+      "choices": [
+        "Swakopmund",
+        "Windhoek",
+        "Walvis Bay",
+        "Lüderitz"
+      ],
+      "answer": 1,
+      "explication": "Windhoek lies in the middle of Namibia, on a high plateau, and is the country's largest city.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the capital of Botswana?",
+      "choices": [
+        "Francistown",
+        "Maun",
+        "Kasane",
+        "Gaborone"
+      ],
+      "answer": 3,
+      "explication": "Gaborone, close to the South African border, became the capital in 1965, ahead of Botswana's independence in 1966.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the capital of Rwanda?",
+      "choices": [
+        "Kigali",
+        "Butare",
+        "Gisenyi",
+        "Ruhengeri"
+      ],
+      "answer": 0,
+      "explication": "Kigali is in the center of Rwanda and is known for being clean and well organized.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the capital of Cape Verde (Cabo Verde)?",
+      "choices": [
+        "Mindelo",
+        "Espargos",
+        "Praia",
+        "Tarrafal"
+      ],
+      "answer": 2,
+      "explication": "Praia is on the island of Santiago. Its name is Portuguese for 'beach.'",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "How many countries are in Africa?",
+      "Africa has 54 countries recognized by the United Nations. Some lists include Western Sahara, whose status is disputed, bringing the number to 55 or so. Most of these countries have a single capital, though South Africa famously has three. Our African flags quiz is a good companion if you enjoy the continent's geography."
+    ],
+    [
+      "Which African capitals are the largest?",
+      "Cairo, the capital of Egypt, is one of the biggest cities in Africa, alongside Lagos in Nigeria and Kinshasa in the Democratic Republic of the Congo. Lagos is not a capital, but Cairo and Kinshasa are. Capitals are often smaller and less famous than business hubs, which is why this quiz includes many that surprise people."
+    ],
+    [
+      "Is Lagos the capital of Nigeria?",
+      "No. Lagos is Nigeria's largest city and economic center, but the capital has been Abuja since 1991. The government moved to Abuja because it is more central and was considered more neutral among the country's many regions and ethnic groups."
+    ]
+  ],
+  "related": [
+    "/world-capitals-quiz",
+    "/hard-capitals-quiz",
+    "/capitals-of-europe-quiz",
+    "/capitals-of-asia-quiz",
+    "/geography-quiz"
+  ]
+}

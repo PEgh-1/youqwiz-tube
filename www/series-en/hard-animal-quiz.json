@@ -1,0 +1,274 @@
+{
+  "path": "/hard-animal-quiz",
+  "alt": {
+    "fr": "/quiz-animaux-difficile"
+  },
+  "theme": "animaux",
+  "title": "Hard Animal Quiz: 20 Expert Wildlife Questions",
+  "description": "A hard animal quiz for real wildlife fans: 20 tricky questions on anatomy, records and animal oddities, from the giraffe to the tardigrade.",
+  "h1": "Hard Animal Quiz: Are You a Wildlife Expert?",
+  "intro": "Ready for a real challenge? This hard animal quiz skips the usual lions and tigers and goes straight to the surprising stuff: blue blood, vomeronasal organs, immortal jellyfish and the longest pregnancy of any land mammal. The questions start at a fair level for keen nature lovers and finish with tough expert picks that stump even biology students. You get about five seconds per question, so there is no time for second-guessing. Each answer comes with a short explanation, which makes this a great way to pick up facts for your next trivia night. Think you can make it to the end without a slip? Give it a go.",
+  "questions": [
+    {
+      "q": "Which bird lays the largest egg?",
+      "choices": [
+        "the eagle",
+        "the ostrich",
+        "the swan",
+        "the pelican"
+      ],
+      "answer": 1,
+      "explication": "An ostrich egg weighs around 3 pounds, roughly equal to two dozen chicken eggs.",
+      "level": "facile"
+    },
+    {
+      "q": "How many humps does a dromedary camel have?",
+      "choices": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "explication": "The dromedary has one hump, while the Bactrian camel has two. The humps store fat, not water.",
+      "level": "facile"
+    },
+    {
+      "q": "How many neck vertebrae does a giraffe have?",
+      "choices": [
+        "7",
+        "14",
+        "9",
+        "12"
+      ],
+      "answer": 0,
+      "explication": "A giraffe has the same number of neck bones as a human: seven. They are just enormously elongated.",
+      "level": "facile"
+    },
+    {
+      "q": "Which animal eats mostly ants and termites using a very long tongue?",
+      "choices": [
+        "the lizard",
+        "the hedgehog",
+        "the giant anteater",
+        "the rabbit"
+      ],
+      "answer": 2,
+      "explication": "The giant anteater can flick its sticky tongue, which can be over two feet long, up to 150 times a minute.",
+      "level": "facile"
+    },
+    {
+      "q": "Which animal has fingerprints remarkably similar to humans'?",
+      "choices": [
+        "the cat",
+        "the wolf",
+        "the koala",
+        "the horse"
+      ],
+      "answer": 2,
+      "explication": "Koalas have fingerprints so similar to ours that they could, in theory, be confused at a crime scene.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the largest living primate?",
+      "choices": [
+        "the gorilla",
+        "the orangutan",
+        "the chimpanzee",
+        "the baboon"
+      ],
+      "answer": 0,
+      "explication": "Gorillas are the largest primates, and adult males of the eastern species can weigh over 400 pounds.",
+      "level": "facile"
+    },
+    {
+      "q": "Which bird can fly backward?",
+      "choices": [
+        "the sparrow",
+        "the pigeon",
+        "the chickadee",
+        "the hummingbird"
+      ],
+      "answer": 3,
+      "explication": "Hummingbirds beat their wings in a figure-eight pattern, which lets them hover and even fly backward.",
+      "level": "facile"
+    },
+    {
+      "q": "Which mammal is famous for being the slowest?",
+      "choices": [
+        "the koala",
+        "the sloth",
+        "the armadillo",
+        "the hedgehog"
+      ],
+      "answer": 1,
+      "explication": "Sloths move so slowly that algae grow on their fur. Their low-energy diet of leaves explains their pace.",
+      "level": "facile"
+    },
+    {
+      "q": "Which pigment makes octopus blood blue?",
+      "choices": [
+        "hemoglobin",
+        "melanin",
+        "chlorophyll",
+        "hemocyanin"
+      ],
+      "answer": 3,
+      "explication": "Octopus blood uses copper-based hemocyanin to carry oxygen, which turns it blue. Our blood uses iron-based hemoglobin, which makes it red.",
+      "level": "moyen"
+    },
+    {
+      "q": "About how long is the gestation period of an African elephant?",
+      "choices": [
+        "about 9 months",
+        "about 22 months",
+        "about 12 months",
+        "about 3 years"
+      ],
+      "answer": 1,
+      "explication": "Elephants carry their young for nearly two years, the longest pregnancy of any land animal.",
+      "level": "moyen"
+    },
+    {
+      "q": "The axolotl is famous for its ability to...",
+      "choices": [
+        "fly",
+        "change sex",
+        "regenerate lost limbs",
+        "produce silk"
+      ],
+      "answer": 2,
+      "explication": "Axolotls can regrow legs, tails and even parts of their heart and brain, which makes them a prized subject in medical research.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which marsupial is native to the United States and Canada?",
+      "choices": [
+        "the Virginia opossum",
+        "the kangaroo",
+        "the armadillo",
+        "the wombat"
+      ],
+      "answer": 0,
+      "explication": "The Virginia opossum is the only marsupial found north of Mexico. Females carry their young in a pouch.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many functional wings does a fly have?",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "0"
+      ],
+      "answer": 0,
+      "explication": "Flies belong to the order Diptera, meaning 'two wings.' Their second pair has evolved into tiny balance organs called halteres.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many stomach compartments does a cow have?",
+      "choices": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "answer": 2,
+      "explication": "Cows have one stomach with four chambers: rumen, reticulum, omasum and abomasum, which helps them digest tough grass.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which animal is the fastest on Earth, reaching over 200 mph in a dive?",
+      "choices": [
+        "the cheetah",
+        "the peregrine falcon",
+        "the golden eagle",
+        "the sailfish"
+      ],
+      "answer": 1,
+      "explication": "A peregrine falcon in a hunting dive, called a stoop, can top 200 miles per hour.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the largest rodent in the world?",
+      "choices": [
+        "the beaver",
+        "the porcupine",
+        "the muskrat",
+        "the capybara"
+      ],
+      "answer": 3,
+      "explication": "The capybara, native to South America, can weigh over 100 pounds and spends much of its time in water.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which organ lets a snake 'taste' the air with its forked tongue?",
+      "choices": [
+        "the swim bladder",
+        "the vomeronasal organ",
+        "the organ of Corti",
+        "the cloaca"
+      ],
+      "answer": 1,
+      "explication": "The tongue collects scent particles and delivers them to the vomeronasal (Jacobson's) organ in the roof of the mouth.",
+      "level": "expert"
+    },
+    {
+      "q": "The tardigrade, or water bear, is famous for...",
+      "choices": [
+        "surviving extreme conditions",
+        "its gigantic size",
+        "its speed",
+        "its songs"
+      ],
+      "answer": 0,
+      "explication": "Tardigrades are microscopic animals that can survive freezing, intense radiation and even the vacuum of space.",
+      "level": "expert"
+    },
+    {
+      "q": "Which jellyfish is nicknamed 'the immortal jellyfish'?",
+      "choices": [
+        "the box jellyfish",
+        "the golden jellyfish",
+        "the Portuguese man o' war",
+        "Turritopsis dohrnii"
+      ],
+      "answer": 3,
+      "explication": "Turritopsis dohrnii can revert to an earlier stage of its life cycle when stressed, potentially avoiding death by aging.",
+      "level": "expert"
+    },
+    {
+      "q": "Which of these land animals can live the longest?",
+      "choices": [
+        "the Asian elephant",
+        "the grizzly bear",
+        "the giant tortoise",
+        "the chimpanzee"
+      ],
+      "answer": 2,
+      "explication": "Giant tortoises often live well over 100 years, and some individuals are believed to have passed 150.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What is the hardest animal quiz question?",
+      "That depends on who you ask, but the expert questions here, such as the vomeronasal organ and the immortal jellyfish, trip up most players. The medium questions on elephant pregnancy length and the number of stomach chambers in a cow also catch many people out."
+    ],
+    [
+      "Do giraffes really have only seven neck bones?",
+      "Yes. Almost all mammals, from mice to giraffes to humans, have seven neck vertebrae. A giraffe's are just extremely long, with each one measuring around 10 inches. The few exceptions are sloths and manatees, which have a different number. So the number of bones is the same, even though a giraffe's neck can be around six feet long."
+    ],
+    [
+      "Is this quiz suitable for kids?",
+      "The questions are tougher than a typical kids' quiz, but curious older children and teens who love animals can have fun with it. For a gentler start, try our regular animal quiz first and come back here when you want a challenge."
+    ]
+  ],
+  "related": [
+    "/animal-quiz",
+    "/ocean-animals-quiz",
+    "/dinosaur-quiz",
+    "/human-body-quiz",
+    "/science-quiz"
+  ]
+}

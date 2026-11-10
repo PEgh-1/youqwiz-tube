@@ -1,0 +1,273 @@
+{
+  "path": "/fifa-world-cup-quiz",
+  "alt": {
+    "fr": "/quiz-football-coupe-du-monde"
+  },
+  "theme": "sport",
+  "title": "FIFA World Cup Quiz: 20 Questions on Soccer History",
+  "description": "Take our free FIFA World Cup quiz: 20 questions on winners, hosts, legends, and records from every era. Easy to expert, with a fact after each answer.",
+  "h1": "FIFA World Cup Quiz: Do You Know the Tournament?",
+  "intro": "Every four years the whole planet stops to watch the World Cup, and this quiz celebrates its history. You'll answer 20 questions about past winners, host countries, legendary players, and unforgettable finals, from Uruguay in 1930 to the 2026 tournament in North America. The first eight are easy for recent tournaments, the next eight reach further back in time, and the last four are expert questions for dedicated fans. You get about five seconds per question, and every answer includes a quick fact. It's free and fun to play with friends. Let's go to the final!",
+  "questions": [
+    {
+      "q": "Which country won the 2014 World Cup?",
+      "choices": [
+        "Germany",
+        "Argentina",
+        "The Netherlands",
+        "Brazil"
+      ],
+      "answer": 0,
+      "explication": "Germany beat Argentina 1-0 in extra time in Rio de Janeiro, with Mario Götze scoring the winning goal.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country hosted the 2010 World Cup, the first on the African continent?",
+      "choices": [
+        "Egypt",
+        "Morocco",
+        "Nigeria",
+        "South Africa"
+      ],
+      "answer": 3,
+      "explication": "The opening match was played at Soccer City stadium in Johannesburg.",
+      "level": "facile"
+    },
+    {
+      "q": "Which team won the 2010 World Cup?",
+      "choices": [
+        "Spain",
+        "The Netherlands",
+        "Germany",
+        "Uruguay"
+      ],
+      "answer": 0,
+      "explication": "Andrés Iniesta scored the only goal in extra time of the final against the Netherlands.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country won the 2022 World Cup?",
+      "choices": [
+        "France",
+        "Argentina",
+        "Croatia",
+        "Morocco"
+      ],
+      "answer": 1,
+      "explication": "Argentina beat France on penalties after a thrilling 3-3 draw, and Lionel Messi lifted the trophy.",
+      "level": "facile"
+    },
+    {
+      "q": "Which team won the 2026 World Cup, hosted by the United States, Canada, and Mexico?",
+      "choices": [
+        "Argentina",
+        "Spain",
+        "France",
+        "Brazil"
+      ],
+      "answer": 1,
+      "explication": "Spain beat defending champion Argentina 1-0 after extra time in the final at MetLife Stadium on July 19, 2026, with Ferran Torres scoring. It was Spain's second title, after 2010.",
+      "level": "facile"
+    },
+    {
+      "q": "Which team won the 2018 World Cup in Russia?",
+      "choices": [
+        "France",
+        "Croatia",
+        "Belgium",
+        "England"
+      ],
+      "answer": 0,
+      "explication": "France beat Croatia 4-2 in the final in Moscow, its second World Cup title.",
+      "level": "facile"
+    },
+    {
+      "q": "Which team won the 2006 World Cup, after a final decided on penalties?",
+      "choices": [
+        "Italy",
+        "France",
+        "Germany",
+        "Portugal"
+      ],
+      "answer": 0,
+      "explication": "Italy beat France 5-3 on penalties after a 1-1 draw in Berlin.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country co-hosted the 2002 World Cup with South Korea?",
+      "choices": [
+        "China",
+        "Japan",
+        "Australia",
+        "Thailand"
+      ],
+      "answer": 1,
+      "explication": "It was the first World Cup held in Asia and the first with two host nations.",
+      "level": "facile"
+    },
+    {
+      "q": "Which team won the 1954 final in the \"Miracle of Bern\"?",
+      "choices": [
+        "Hungary",
+        "Austria",
+        "West Germany",
+        "Brazil"
+      ],
+      "answer": 2,
+      "explication": "West Germany came from 2-0 down to beat the heavily favored Hungarians 3-2.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which team won the 1990 World Cup in Italy?",
+      "choices": [
+        "West Germany",
+        "Argentina",
+        "Italy",
+        "England"
+      ],
+      "answer": 0,
+      "explication": "West Germany beat Argentina 1-0 with a penalty by Andreas Brehme.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which country won the very first World Cup, in 1930?",
+      "choices": [
+        "Argentina",
+        "Uruguay",
+        "Italy",
+        "Brazil"
+      ],
+      "answer": 1,
+      "explication": "Uruguay hosted the first tournament, which had just 13 teams.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which host country won the 1978 World Cup?",
+      "choices": [
+        "The Netherlands",
+        "Brazil",
+        "Argentina",
+        "Italy"
+      ],
+      "answer": 2,
+      "explication": "Argentina beat the Netherlands 3-1 after extra time in Buenos Aires.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many goals did Just Fontaine score at the 1958 World Cup?",
+      "choices": [
+        "10",
+        "11",
+        "13",
+        "15"
+      ],
+      "answer": 2,
+      "explication": "The French striker scored 13 goals in just six matches, and the record still stands after the 2026 tournament, where the top scorer finished with 10.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which country hosted the World Cup in both 1970 and 1986?",
+      "choices": [
+        "Spain",
+        "Brazil",
+        "The United States",
+        "Mexico"
+      ],
+      "answer": 3,
+      "explication": "Mexico was the first country to host the men's World Cup twice, and it became the first to host three times as a 2026 co-host.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which team won the 1982 World Cup in Spain, with Paolo Rossi as top scorer?",
+      "choices": [
+        "West Germany",
+        "Poland",
+        "Italy",
+        "Brazil"
+      ],
+      "answer": 2,
+      "explication": "Italy beat West Germany 3-1 in the final in Madrid, and Rossi scored six goals.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which country won the 1994 World Cup, held in the United States?",
+      "choices": [
+        "Italy",
+        "Sweden",
+        "The Netherlands",
+        "Brazil"
+      ],
+      "answer": 3,
+      "explication": "Brazil beat Italy on penalties in the final at the Rose Bowl in Pasadena.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which English player scored a hat trick in the 1966 World Cup final?",
+      "choices": [
+        "Bobby Charlton",
+        "Gary Lineker",
+        "Geoff Hurst",
+        "Martin Peters"
+      ],
+      "answer": 2,
+      "explication": "Hurst was the first player to score a hat trick in a men's World Cup final. Kylian Mbappé matched it in 2022, and as of 2026 they remain the only two.",
+      "level": "expert"
+    },
+    {
+      "q": "Which country retained the World Cup title in 1938?",
+      "choices": [
+        "Hungary",
+        "Brazil",
+        "France",
+        "Italy"
+      ],
+      "answer": 3,
+      "explication": "Italy had won in 1934, and it beat Hungary 4-2 in the final in Paris.",
+      "level": "expert"
+    },
+    {
+      "q": "How many World Cup finals did the Netherlands lose, in 1974, 1978, and 2010?",
+      "choices": [
+        "One",
+        "Three",
+        "Two",
+        "Four"
+      ],
+      "answer": 1,
+      "explication": "The Dutch lost to West Germany, Argentina, and Spain, and they have never won the tournament (as of the 2026 tournament).",
+      "level": "expert"
+    },
+    {
+      "q": "Which nation took part in every men's World Cup from 1930 to 2026?",
+      "choices": [
+        "Germany",
+        "Italy",
+        "Argentina",
+        "Brazil"
+      ],
+      "answer": 3,
+      "explication": "Brazil is the only country to have played in every edition of the tournament through 2026.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Who has won the most World Cups?",
+      "Brazil holds the record with five men's World Cup titles, won in 1958, 1962, 1970, 1994, and 2002. As of the 2026 final on July 19, 2026, Germany and Italy have four titles each, Argentina has three, and Spain won its second in 2026. Because new tournaments can change the standings, check an official source for the very latest numbers."
+    ],
+    [
+      "How often is the World Cup held?",
+      "The men's World Cup is held every four years. The first edition took place in 1930 in Uruguay, and the tournament was not held in 1942 or 1946 because of World War II. The Women's World Cup began in 1991 and is also held every four years."
+    ],
+    [
+      "Does this quiz include the most recent tournament?",
+      "We stick to stable facts, so the quiz covers well-established results through the 2026 tournament, won by Spain, and earlier history rather than anything that might still change. It is a great way to test your knowledge of past winners, hosts, and legends, and the explanations add context."
+    ]
+  ],
+  "related": [
+    "/soccer-quiz",
+    "/hard-soccer-quiz",
+    "/sports-quiz",
+    "/olympics-quiz"
+  ]
+}

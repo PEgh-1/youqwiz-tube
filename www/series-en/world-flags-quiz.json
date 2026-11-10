@@ -1,0 +1,294 @@
+{
+ "path": "/world-flags-quiz",
+ "alt": {
+  "fr": "/quiz-drapeaux"
+ },
+ "theme": "geographie",
+ "title": "World Flags Quiz: 20 Flags to Identify",
+ "description": "Take our world flags quiz: identify 20 national flags, from the famous to the rare. Free, fast and fun geography challenge for flag fans.",
+ "h1": "World Flags Quiz: Can You Name These Flags?",
+ "intro": "Think you know your flags? This world flags quiz shows you 20 national flags, one per question, and you have to pick the right country. We start with the most famous ones, the flags you see at sporting events and embassies, then gradually raise the difficulty. The last questions feature rare and look-alike flags that can stump even geography fans. You have about five seconds for each question, so trust your instincts, because your first idea is often right. After every answer, a short explanation shares a detail about the flag. Ready to travel the world in about two minutes?",
+ "questions": [
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Netherlands",
+    "France",
+    "Luxembourg",
+    "Russia"
+   ],
+   "answer": 1,
+   "explication": "France's blue, white and red vertical tricolor dates from the French Revolution and inspired many other tricolor flags.",
+   "level": "facile",
+   "flag": "fr"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Mexico",
+    "Hungary",
+    "Ireland",
+    "Italy"
+   ],
+   "answer": 3,
+   "explication": "Italy's green, white and red vertical tricolor was first used in the 1790s. Mexico's flag has the same colors but adds a coat of arms in the center.",
+   "level": "facile",
+   "flag": "it"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Germany",
+    "Belgium",
+    "Austria",
+    "Netherlands"
+   ],
+   "answer": 0,
+   "explication": "Germany's black, red and gold horizontal tricolor goes back to the revolution of 1848 and was adopted by West Germany in 1949.",
+   "level": "facile",
+   "flag": "de"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Portugal",
+    "Italy",
+    "Spain",
+    "Greece"
+   ],
+   "answer": 2,
+   "explication": "Spain's red and yellow flag has a wide central yellow stripe and the national coat of arms on the left side.",
+   "level": "facile",
+   "flag": "es"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Australia",
+    "United States",
+    "United Kingdom",
+    "New Zealand"
+   ],
+   "answer": 2,
+   "explication": "The Union Jack combines the crosses of St George, St Andrew and St Patrick into a single design.",
+   "level": "facile",
+   "flag": "gb"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "United States",
+    "Liberia",
+    "Malaysia",
+    "Cuba"
+   ],
+   "answer": 0,
+   "explication": "The Stars and Stripes has 13 stripes for the original colonies and 50 stars for the current states.",
+   "level": "facile",
+   "flag": "us"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Bangladesh",
+    "South Korea",
+    "Palau",
+    "Japan"
+   ],
+   "answer": 3,
+   "explication": "Japan's flag, a red disc on a white field, is called the Hinomaru, meaning 'circle of the sun.'",
+   "level": "facile",
+   "flag": "jp"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Portugal",
+    "Brazil",
+    "Colombia",
+    "Bolivia"
+   ],
+   "answer": 1,
+   "explication": "Brazil's flag shows a blue globe with the motto 'Ordem e Progresso' (Order and Progress) on a green field with a yellow diamond.",
+   "level": "facile",
+   "flag": "br"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Canada",
+    "Peru",
+    "Austria",
+    "Switzerland"
+   ],
+   "answer": 0,
+   "explication": "Canada's red maple leaf flag was adopted in 1965 and replaced the Red Ensign.",
+   "level": "moyen",
+   "flag": "ca"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Denmark",
+    "Georgia",
+    "Switzerland",
+    "Tonga"
+   ],
+   "answer": 2,
+   "explication": "Switzerland's white cross on a red field is one of only two square national flags. The other belongs to Vatican City.",
+   "level": "moyen",
+   "flag": "ch"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Norway",
+    "Sweden",
+    "Finland",
+    "Denmark"
+   ],
+   "answer": 1,
+   "explication": "Sweden's flag is blue with a yellow Nordic cross, and its colors come from the country's coat of arms.",
+   "level": "moyen",
+   "flag": "se"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Uruguay",
+    "Honduras",
+    "Greece",
+    "Argentina"
+   ],
+   "answer": 3,
+   "explication": "Argentina's flag has light blue and white stripes and the golden Sun of May in the center.",
+   "level": "moyen",
+   "flag": "ar"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Italy",
+    "Iran",
+    "Hungary",
+    "Mexico"
+   ],
+   "answer": 3,
+   "explication": "Mexico's flag is a green, white and red vertical tricolor with an eagle on a cactus eating a snake in the center, based on an Aztec legend.",
+   "level": "moyen",
+   "flag": "mx"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Tunisia",
+    "Turkey",
+    "Pakistan",
+    "Algeria"
+   ],
+   "answer": 1,
+   "explication": "Turkey's red flag with a white crescent and star is based on the flag of the Ottoman Empire.",
+   "level": "moyen",
+   "flag": "tr"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Niger",
+    "Ireland",
+    "India",
+    "Ivory Coast"
+   ],
+   "answer": 2,
+   "explication": "India's saffron, white and green flag carries a blue wheel with 24 spokes, the Ashoka Chakra, at its center.",
+   "level": "moyen",
+   "flag": "in"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Ireland",
+    "Ivory Coast",
+    "Italy",
+    "India"
+   ],
+   "answer": 0,
+   "explication": "Ireland's flag is a green, white and orange vertical tricolor, with the white standing for peace between the green and orange traditions.",
+   "level": "moyen",
+   "flag": "ie"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Bhutan",
+    "Nepal",
+    "Sri Lanka",
+    "Cambodia"
+   ],
+   "answer": 1,
+   "explication": "Nepal's flag is the only national flag that is not a rectangle. It is made of two stacked triangular pennants.",
+   "level": "expert",
+   "flag": "np"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Wales",
+    "Mongolia",
+    "Bhutan",
+    "Cambodia"
+   ],
+   "answer": 2,
+   "explication": "Bhutan's flag features a white dragon, the Druk, on a yellow and orange field. Bhutan is known as the 'Land of the Thunder Dragon.'",
+   "level": "expert",
+   "flag": "bt"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Mozambique",
+    "Angola",
+    "Zimbabwe",
+    "Kenya"
+   ],
+   "answer": 0,
+   "explication": "Mozambique's flag is one of the very few that shows a rifle, together with a book and a hoe, in its emblem.",
+   "level": "expert",
+   "flag": "mz"
+  },
+  {
+   "q": "Which country does this flag belong to?",
+   "choices": [
+    "Malta",
+    "Jordan",
+    "Albania",
+    "Cyprus"
+   ],
+   "answer": 3,
+   "explication": "Cyprus's flag shows a copper-colored outline of the island above two olive branches. The island's name is linked to copper.",
+   "level": "expert",
+   "flag": "cy"
+  }
+ ],
+ "faq": [
+  [
+   "How many national flags are there in the world?",
+   "There are 193 United Nations member states, each with its own national flag, plus observer states such as the Vatican City and Palestine. Dependent territories, regions and organizations have flags too, so the total number of flags depends on how you count."
+  ],
+  [
+   "Which countries have a square flag?",
+   "Only two sovereign countries have square national flags: Switzerland and Vatican City. Nearly all other national flags are rectangles. Nepal is the only country with a flag that is not a rectangle or a square, since it consists of two stacked pennants."
+  ],
+  [
+   "What is the study of flags called?",
+   "The study of flags is called vexillology, and a person who studies or designs flags is a vexillologist. The word comes from the Latin vexillum, a flag or banner used by the Roman army. Vexillology covers flag history, symbolism and design."
+  ]
+ ],
+ "related": [
+  "/hard-flags-quiz",
+  "/flags-of-europe-quiz",
+  "/flags-of-asia-quiz",
+  "/flags-of-africa-quiz",
+  "/geography-quiz"
+ ]
+}

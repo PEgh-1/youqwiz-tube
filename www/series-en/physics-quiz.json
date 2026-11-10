@@ -1,0 +1,273 @@
+{
+  "path": "/physics-quiz",
+  "alt": {
+    "fr": "/quiz-physique"
+  },
+  "theme": "sciences",
+  "title": "Physics Quiz: 20 Questions from Easy to Expert",
+  "description": "Play our free physics quiz: 20 questions on units, forces, light, energy, and famous physicists. Easy to expert, with an explanation after each answer.",
+  "h1": "Physics Quiz: Are You a Natural Born Physicist?",
+  "intro": "Physics explains everything from falling apples to glowing stars, and this quiz lets you see how much of it you remember. You'll answer 20 questions about units of measurement, forces, light, electricity, energy, and the great scientists who shaped our understanding of the universe. The early questions are friendly, the middle ones ask for a bit more recall, and the last four are real expert challenges. You get about five seconds per question, and each answer comes with a quick explanation. No equations to solve, just curiosity. Ready to put your physics knowledge to the test?",
+  "questions": [
+    {
+      "q": "What is the SI unit of length?",
+      "choices": [
+        "The meter",
+        "The kilometer",
+        "The centimeter",
+        "The liter"
+      ],
+      "answer": 0,
+      "explication": "The meter is defined using the speed of light: the distance light travels in a vacuum in 1/299,792,458 of a second.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the SI unit of mass?",
+      "choices": [
+        "The gram",
+        "The ton",
+        "The newton",
+        "The kilogram"
+      ],
+      "answer": 3,
+      "explication": "The kilogram is the base unit of mass, and since 2019 it has been defined using the Planck constant rather than a physical object.",
+      "level": "facile"
+    },
+    {
+      "q": "Which physicist is famous for the equation E = mc²?",
+      "choices": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "answer": 0,
+      "explication": "Einstein's 1905 equation shows that mass and energy are equivalent, which is the basis for nuclear power.",
+      "level": "facile"
+    },
+    {
+      "q": "Which instrument measures temperature?",
+      "choices": [
+        "A barometer",
+        "A hygrometer",
+        "An anemometer",
+        "A thermometer"
+      ],
+      "answer": 3,
+      "explication": "A barometer measures air pressure, a hygrometer measures humidity, and an anemometer measures wind speed.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the SI unit of time?",
+      "choices": [
+        "The minute",
+        "The hour",
+        "The day",
+        "The second"
+      ],
+      "answer": 3,
+      "explication": "The second is defined by the vibrations of a cesium atom, which makes atomic clocks incredibly precise.",
+      "level": "facile"
+    },
+    {
+      "q": "Which travels faster, light or sound?",
+      "choices": [
+        "Sound",
+        "Light",
+        "They travel at the same speed",
+        "It depends on the day"
+      ],
+      "answer": 1,
+      "explication": "That is why you see lightning before you hear thunder: light is nearly a million times faster than sound in air.",
+      "level": "facile"
+    },
+    {
+      "q": "Which force resists the sliding of two surfaces in contact?",
+      "choices": [
+        "Gravity",
+        "Buoyancy",
+        "Friction",
+        "Surface tension"
+      ],
+      "answer": 2,
+      "explication": "Friction turns motion into heat, which is why rubbing your hands together warms them up.",
+      "level": "facile"
+    },
+    {
+      "q": "What phenomenon splits white light into a rainbow of colors as it passes through a prism?",
+      "choices": [
+        "Reflection",
+        "Diffraction",
+        "Absorption",
+        "Dispersion"
+      ],
+      "answer": 3,
+      "explication": "Each color bends by a slightly different amount in glass, so white light spreads into a spectrum.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the SI unit of energy?",
+      "choices": [
+        "The joule",
+        "The watt",
+        "The newton",
+        "The pascal"
+      ],
+      "answer": 0,
+      "explication": "One joule is the energy needed to lift a small apple about one meter.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the SI unit of power?",
+      "choices": [
+        "The joule",
+        "The watt",
+        "The volt",
+        "The ampere"
+      ],
+      "answer": 1,
+      "explication": "One watt equals one joule per second. The unit honors the Scottish engineer James Watt.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the unit of frequency?",
+      "choices": [
+        "The decibel",
+        "The watt",
+        "The hertz",
+        "The lumen"
+      ],
+      "answer": 2,
+      "explication": "One hertz means one cycle per second. It is named after the German physicist Heinrich Hertz.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which relationship does Ohm's law describe?",
+      "choices": [
+        "E = mc²",
+        "F = m × a",
+        "V = I × R",
+        "v = d ÷ t"
+      ],
+      "answer": 2,
+      "explication": "Ohm's law links voltage (V), current (I), and resistance (R) in an electrical circuit.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which law states that an object keeps moving at constant velocity unless a force acts on it?",
+      "choices": [
+        "Newton's third law",
+        "Newton's first law",
+        "Archimedes' principle",
+        "Hooke's law"
+      ],
+      "answer": 1,
+      "explication": "Also called the law of inertia, it explains why passengers lurch forward when a car brakes suddenly.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which scientist discovered radioactivity in 1896?",
+      "choices": [
+        "Henri Becquerel",
+        "Louis Pasteur",
+        "James Watt",
+        "Alessandro Volta"
+      ],
+      "answer": 0,
+      "explication": "Becquerel noticed that uranium salts fogged photographic plates, and Marie and Pierre Curie soon built on his discovery.",
+      "level": "moyen"
+    },
+    {
+      "q": "About how fast does light travel in a vacuum?",
+      "choices": [
+        "300,000 km/s",
+        "3,000 km/s",
+        "30,000 km/s",
+        "3 million km/s"
+      ],
+      "answer": 0,
+      "explication": "The exact value is 299,792 km/s (about 186,000 miles per second), the ultimate speed limit of the universe.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who discovered X-rays in 1895?",
+      "choices": [
+        "Marie Curie",
+        "Niels Bohr",
+        "Max Planck",
+        "Wilhelm Röntgen"
+      ],
+      "answer": 3,
+      "explication": "Röntgen received the first Nobel Prize in Physics in 1901 for his discovery.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the SI unit of pressure?",
+      "choices": [
+        "The bar",
+        "The newton",
+        "The pascal",
+        "The joule"
+      ],
+      "answer": 2,
+      "explication": "One pascal is one newton per square meter. It is named after the French scientist Blaise Pascal.",
+      "level": "expert"
+    },
+    {
+      "q": "Which physicist proposed the idea of energy quanta in 1900?",
+      "choices": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Max Planck",
+        "James Clerk Maxwell"
+      ],
+      "answer": 2,
+      "explication": "Planck's idea that energy comes in discrete packets launched quantum theory.",
+      "level": "expert"
+    },
+    {
+      "q": "What is absolute zero in degrees Celsius?",
+      "choices": [
+        "−100 °C",
+        "−273.15 °C",
+        "−273 °F",
+        "0 °C"
+      ],
+      "answer": 1,
+      "explication": "Absolute zero (0 kelvin) is the lowest possible temperature, at which particles have minimal thermal motion.",
+      "level": "expert"
+    },
+    {
+      "q": "Which physicist discovered the atomic nucleus in 1911?",
+      "choices": [
+        "Niels Bohr",
+        "Ernest Rutherford",
+        "Albert Einstein",
+        "Max Planck"
+      ],
+      "answer": 1,
+      "explication": "Rutherford's team found that a few particles bounced back off thin gold foil, showing that most of an atom's mass sits in a tiny core.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What topics does this physics quiz cover?",
+      "The 20 questions cover everyday physics: SI units, forces, light and sound, electricity, energy, and famous discoveries by physicists such as Einstein, Newton, Becquerel, and Rutherford. You do not need to solve equations. A basic school-level science background is enough for the easier questions."
+    ],
+    [
+      "Is the physics quiz good for students?",
+      "Yes. It works as a quick revision tool for middle school and high school students, or as a refresher for adults. The explanations after each answer help clarify concepts, and the final expert questions offer a challenge for anyone who wants to go beyond the basics."
+    ],
+    [
+      "How long does the quiz take?",
+      "Plan on about two to three minutes. Each question gives you roughly five seconds, so you answer quickly and rely on what you already know. After each answer you can read a short explanation, and you can restart the quiz at any time to try for a higher score."
+    ]
+  ],
+  "related": [
+    "/science-quiz",
+    "/chemistry-quiz",
+    "/space-quiz",
+    "/solar-system-quiz"
+  ]
+}

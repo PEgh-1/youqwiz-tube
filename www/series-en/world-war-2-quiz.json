@@ -1,0 +1,273 @@
+{
+  "path": "/world-war-2-quiz",
+  "alt": {
+    "fr": "/quiz-seconde-guerre-mondiale"
+  },
+  "theme": "histoire",
+  "title": "World War 2 Quiz: 20 Questions, Easy to Expert",
+  "description": "Test your knowledge of World War II with 20 free questions on battles, leaders, and turning points. Easy to expert levels, with a fact after each answer.",
+  "h1": "World War 2 Quiz: Test Your Knowledge of 1939-1945",
+  "intro": "World War II was the largest conflict in human history, touching every continent. This World War 2 quiz covers its leaders, major battles, turning points, and the end of the war in 1945. The first questions deal with well-known events, the middle questions require a bit more detail, and the final four are for serious history buffs. You'll get about five seconds per question, and each answer includes a brief, factual explanation. It's free and quick, and it works well as a refresher or a classroom warm-up. Take a deep breath and begin!",
+  "questions": [
+    {
+      "q": "Which country did Nazi Germany invade on September 1, 1939?",
+      "choices": [
+        "Poland",
+        "France",
+        "Czechoslovakia",
+        "Austria"
+      ],
+      "answer": 0,
+      "explication": "The invasion of Poland led Britain and France to declare war on Germany two days later.",
+      "level": "facile"
+    },
+    {
+      "q": "Who led Nazi Germany from 1933 to 1945?",
+      "choices": [
+        "Benito Mussolini",
+        "Adolf Hitler",
+        "Francisco Franco",
+        "Joseph Stalin"
+      ],
+      "answer": 1,
+      "explication": "Hitler became chancellor in January 1933 and took his own life in Berlin on April 30, 1945.",
+      "level": "facile"
+    },
+    {
+      "q": "On what date did the Allied landings in Normandy (D-Day) begin?",
+      "choices": [
+        "May 8, 1945",
+        "September 1, 1939",
+        "June 6, 1944",
+        "July 14, 1944"
+      ],
+      "answer": 2,
+      "explication": "More than 150,000 Allied troops crossed the English Channel on D-Day, the largest seaborne invasion in history.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country attacked the American naval base at Pearl Harbor in December 1941?",
+      "choices": [
+        "Japan",
+        "Germany",
+        "Italy",
+        "The Soviet Union"
+      ],
+      "answer": 0,
+      "explication": "The attack on December 7, 1941, brought the United States into the war the next day.",
+      "level": "facile"
+    },
+    {
+      "q": "On what date did Germany surrender in Europe?",
+      "choices": [
+        "November 11, 1918",
+        "June 6, 1944",
+        "September 2, 1945",
+        "May 8, 1945"
+      ],
+      "answer": 3,
+      "explication": "May 8 is celebrated as Victory in Europe Day (V-E Day).",
+      "level": "facile"
+    },
+    {
+      "q": "Which book is the diary of a Jewish teenager hiding in Amsterdam?",
+      "choices": [
+        "The Little Prince",
+        "If This Is a Man",
+        "The Book Thief",
+        "The Diary of Anne Frank"
+      ],
+      "answer": 3,
+      "explication": "Anne Frank wrote the diary while hiding from the Nazis from 1942 to 1944. It was published after the war by her father.",
+      "level": "facile"
+    },
+    {
+      "q": "Who became Prime Minister of the United Kingdom in May 1940?",
+      "choices": [
+        "Neville Chamberlain",
+        "Winston Churchill",
+        "Clement Attlee",
+        "Anthony Eden"
+      ],
+      "answer": 1,
+      "explication": "Churchill took office as German forces advanced through Western Europe and led Britain through the war.",
+      "level": "facile"
+    },
+    {
+      "q": "In what year did World War II end?",
+      "choices": [
+        "1943",
+        "1944",
+        "1946",
+        "1945"
+      ],
+      "answer": 3,
+      "explication": "Germany surrendered in May and Japan formally surrendered on September 2, 1945.",
+      "level": "facile"
+    },
+    {
+      "q": "Which battle ended with the surrender of the German Sixth Army in early 1943?",
+      "choices": [
+        "Kursk",
+        "Verdun",
+        "Midway",
+        "Stalingrad"
+      ],
+      "answer": 3,
+      "explication": "The Soviet victory at Stalingrad was a turning point on the Eastern Front and cost both sides enormous casualties.",
+      "level": "moyen"
+    },
+    {
+      "q": "What was the code name for the 1940 evacuation of Allied soldiers from Dunkirk?",
+      "choices": [
+        "Operation Dynamo",
+        "Operation Overlord",
+        "Operation Barbarossa",
+        "Operation Torch"
+      ],
+      "answer": 0,
+      "explication": "Naval ships and hundreds of small civilian boats rescued more than 330,000 soldiers from the beaches.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which two Japanese cities were hit by atomic bombs in August 1945?",
+      "choices": [
+        "Tokyo and Osaka",
+        "Kyoto and Kobe",
+        "Hiroshima and Nagasaki",
+        "Yokohama and Nagoya"
+      ],
+      "answer": 2,
+      "explication": "The bombs were dropped on August 6 and 9, and Japan announced its surrender on August 15.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which leaders met at the Yalta Conference in February 1945?",
+      "choices": [
+        "Roosevelt, Churchill, and Stalin",
+        "Truman, Attlee, and Stalin",
+        "Roosevelt, de Gaulle, and Hitler",
+        "Churchill, Mussolini, and Stalin"
+      ],
+      "answer": 0,
+      "explication": "The \"Big Three\" discussed the postwar order, including the occupation of Germany and the creation of the United Nations.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which three countries formed the core of the Axis powers?",
+      "choices": [
+        "Germany, Spain, and Japan",
+        "Germany, Italy, and the Soviet Union",
+        "Germany, Italy, and Japan",
+        "Italy, Japan, and Turkey"
+      ],
+      "answer": 2,
+      "explication": "The three signed the Tripartite Pact in September 1940.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which battle in Egypt in late 1942 turned the tide in North Africa?",
+      "choices": [
+        "El Alamein",
+        "Tobruk",
+        "Kasserine Pass",
+        "Anzio"
+      ],
+      "answer": 0,
+      "explication": "British forces under General Montgomery defeated Rommel's army at El Alamein, and the Axis began its retreat from Egypt.",
+      "level": "moyen"
+    },
+    {
+      "q": "About how many Jews were murdered by Nazi Germany and its collaborators in the Holocaust?",
+      "choices": [
+        "About one million",
+        "About three million",
+        "About ten million",
+        "About six million"
+      ],
+      "answer": 3,
+      "explication": "The Holocaust was the systematic, state-sponsored persecution and murder of European Jews, and Nazis also targeted Roma, disabled people, and others.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which month of 1944 was Paris liberated from German occupation?",
+      "choices": [
+        "June",
+        "May",
+        "August",
+        "November"
+      ],
+      "answer": 2,
+      "explication": "Allied and Free French forces entered Paris on August 25, 1944, after an uprising by the Resistance.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which agreement signed in August 1939 between Germany and the Soviet Union preceded the invasion of Poland?",
+      "choices": [
+        "The Munich Agreement",
+        "The Molotov-Ribbentrop Pact",
+        "The Treaty of Versailles",
+        "The Tripartite Pact"
+      ],
+      "answer": 1,
+      "explication": "A secret protocol divided Eastern Europe into spheres of influence. The pact collapsed when Germany invaded the USSR in 1941.",
+      "level": "expert"
+    },
+    {
+      "q": "Which air campaign of summer 1940 pitted the Luftwaffe against the Royal Air Force?",
+      "choices": [
+        "The Battle of Midway",
+        "The Battle of Britain",
+        "The Battle of the Bulge",
+        "The Battle of Stalingrad"
+      ],
+      "answer": 1,
+      "explication": "The RAF's success in defending British airspace prevented a German invasion of the United Kingdom.",
+      "level": "expert"
+    },
+    {
+      "q": "What was the code name for the German invasion of the USSR in June 1941?",
+      "choices": [
+        "Operation Overlord",
+        "Operation Market Garden",
+        "Operation Barbarossa",
+        "Operation Torch"
+      ],
+      "answer": 2,
+      "explication": "Launched on June 22, 1941, it was the largest invasion in military history.",
+      "level": "expert"
+    },
+    {
+      "q": "Which June 1942 naval battle saw the U.S. sink four Japanese aircraft carriers?",
+      "choices": [
+        "Guadalcanal",
+        "Midway",
+        "Okinawa",
+        "Iwo Jima"
+      ],
+      "answer": 1,
+      "explication": "The Japanese loss at Midway shifted the balance of power in the Pacific in favor of the United States.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "When did World War II start and end?",
+      "The war began on September 1, 1939, with Germany's invasion of Poland. It ended in Europe on May 8, 1945, when Germany surrendered, and in Asia on September 2, 1945, when Japan formally surrendered aboard the USS Missouri in Tokyo Bay. Fighting spread across Europe, Asia, Africa, and the Pacific."
+    ],
+    [
+      "Which countries were the main Allies and Axis powers?",
+      "The principal Allies were the United Kingdom, the Soviet Union, the United States, and China, joined by many other nations. The main Axis powers were Germany, Italy, and Japan. Dozens of other countries took part, and soldiers from colonies and dominions made up a large share of the Allied armies."
+    ],
+    [
+      "Is this quiz suitable for classroom use?",
+      "Yes. The questions are factual and neutral and focus on events, dates, and people rather than graphic detail. Teachers can use it as a warm-up or a review. The explanations give extra context, and students can retake the quiz to improve their score."
+    ]
+  ],
+  "related": [
+    "/world-war-1-quiz",
+    "/20th-century-history-quiz",
+    "/world-history-quiz",
+    "/middle-ages-quiz"
+  ]
+}

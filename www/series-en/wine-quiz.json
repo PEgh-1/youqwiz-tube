@@ -1,0 +1,273 @@
+{
+  "path": "/wine-quiz",
+  "alt": {
+    "fr": "/quiz-vin"
+  },
+  "theme": "regions-et-terroirs",
+  "title": "Wine Quiz: 20 Questions from Easy to Expert",
+  "description": "Test your wine knowledge with 20 free questions on grapes, regions, tasting terms, and history. Easy to expert, with a short explanation after each answer.",
+  "h1": "Wine Quiz: How Much Do You Know About Wine?",
+  "intro": "Whether you love a good bottle or are just starting to explore, this wine quiz will test your knowledge in a friendly way. You'll answer 20 questions about grape varieties, famous wine regions around the world, tasting vocabulary, and a little wine history. The first eight are easy for any casual drinker, the middle eight go into regions and styles from France to Argentina and New Zealand, and the last four are expert-level challenges. You get about five seconds per question, and every answer includes a short explanation. It's free and quick to play. Cheers, and good luck!",
+  "questions": [
+    {
+      "q": "Which fruit is used to make most of the world's wine?",
+      "choices": [
+        "Grapes",
+        "Apples",
+        "Cherries",
+        "Figs"
+      ],
+      "answer": 0,
+      "explication": "Most wine is made from Vitis vinifera, a species of grape with thousands of varieties.",
+      "level": "facile"
+    },
+    {
+      "q": "Which French region gives its name to the famous sparkling wine Champagne?",
+      "choices": [
+        "Champagne",
+        "Burgundy",
+        "Alsace",
+        "The Loire"
+      ],
+      "answer": 0,
+      "explication": "Only sparkling wine from the Champagne region can legally be called Champagne in the European Union.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the title for a restaurant professional who specializes in wine?",
+      "choices": [
+        "A maître d'",
+        "A barista",
+        "A sommelier",
+        "A bartender"
+      ],
+      "answer": 2,
+      "explication": "A sommelier chooses wines for the cellar and advises diners on pairings.",
+      "level": "facile"
+    },
+    {
+      "q": "What does the vintage on a wine label tell you?",
+      "choices": [
+        "The grape variety",
+        "The age of the barrel",
+        "The year the grapes were harvested",
+        "The alcohol content"
+      ],
+      "answer": 2,
+      "explication": "Weather varies from year to year, so vintages can differ greatly in quality.",
+      "level": "facile"
+    },
+    {
+      "q": "In which U.S. state is Napa Valley?",
+      "choices": [
+        "Oregon",
+        "California",
+        "Washington",
+        "New York"
+      ],
+      "answer": 1,
+      "explication": "Napa Valley is one of the world's most famous wine regions, known especially for Cabernet Sauvignon.",
+      "level": "facile"
+    },
+    {
+      "q": "In which Italian region is Chianti produced?",
+      "choices": [
+        "Piedmont",
+        "Tuscany",
+        "Veneto",
+        "Sicily"
+      ],
+      "answer": 1,
+      "explication": "Chianti is made mainly from the Sangiovese grape.",
+      "level": "facile"
+    },
+    {
+      "q": "How is rosé wine typically made?",
+      "choices": [
+        "White grapes are mixed with food coloring",
+        "Red and white wines are blended at random",
+        "Grapes are frozen before pressing",
+        "Dark grapes are left briefly in contact with their skins"
+      ],
+      "answer": 3,
+      "explication": "The skins give the wine its pink color, and the longer the contact, the deeper the shade.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country does the sparkling wine Prosecco come from?",
+      "choices": [
+        "Spain",
+        "France",
+        "Italy",
+        "Portugal"
+      ],
+      "answer": 2,
+      "explication": "Prosecco is made mostly from the Glera grape in northeastern Italy.",
+      "level": "facile"
+    },
+    {
+      "q": "Which country is best known for Malbec?",
+      "choices": [
+        "Chile",
+        "Spain",
+        "South Africa",
+        "Argentina"
+      ],
+      "answer": 3,
+      "explication": "Malbec originated in France but has become the signature red of Mendoza, Argentina.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which grape produces the great red wines of Burgundy?",
+      "choices": [
+        "Merlot",
+        "Syrah",
+        "Cabernet Sauvignon",
+        "Pinot Noir"
+      ],
+      "answer": 3,
+      "explication": "Pinot Noir is thin-skinned and sensitive to climate, which makes it hard to grow.",
+      "level": "moyen"
+    },
+    {
+      "q": "The Marlborough region of New Zealand is famous for which white grape?",
+      "choices": [
+        "Sauvignon Blanc",
+        "Riesling",
+        "Chardonnay",
+        "Pinot Grigio"
+      ],
+      "answer": 0,
+      "explication": "Marlborough Sauvignon Blanc is known for its bright, grassy, tropical-fruit flavors.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country is sherry produced, around the town of Jerez?",
+      "choices": [
+        "Portugal",
+        "Spain",
+        "Italy",
+        "Greece"
+      ],
+      "answer": 1,
+      "explication": "Sherry is a fortified wine, which means a spirit is added to increase its alcohol content.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country's Mosel region is Riesling a signature grape?",
+      "choices": [
+        "Germany",
+        "Italy",
+        "Spain",
+        "Portugal"
+      ],
+      "answer": 0,
+      "explication": "Mosel Rieslings are known for their steep slate vineyards and light, aromatic style.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country is the Douro Valley, the home of port wine?",
+      "choices": [
+        "Spain",
+        "Italy",
+        "Portugal",
+        "Greece"
+      ],
+      "answer": 2,
+      "explication": "Port is a sweet fortified wine, and the Douro is one of the oldest legally demarcated wine regions in the world.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which country is the Barossa Valley, known for its Shiraz?",
+      "choices": [
+        "New Zealand",
+        "Australia",
+        "South Africa",
+        "Chile"
+      ],
+      "answer": 1,
+      "explication": "Barossa has some of the oldest Shiraz vines in the world, some more than a century old.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which red grape is the main variety in Rioja wines?",
+      "choices": [
+        "Malbec",
+        "Grenache",
+        "Pinot Noir",
+        "Tempranillo"
+      ],
+      "answer": 3,
+      "explication": "Rioja wines are often aged in oak, and labels such as Crianza and Reserva tell you how long.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which insect devastated European vineyards starting in the 1860s?",
+      "choices": [
+        "The Colorado beetle",
+        "The gypsy moth",
+        "The codling moth",
+        "Phylloxera"
+      ],
+      "answer": 3,
+      "explication": "The pest was imported from North America, and vines were saved by grafting them onto resistant American rootstocks.",
+      "level": "expert"
+    },
+    {
+      "q": "In which year was the famous classification of Bordeaux wines created?",
+      "choices": [
+        "1789",
+        "1900",
+        "1855",
+        "1936"
+      ],
+      "answer": 2,
+      "explication": "Napoleon III requested the ranking for the Exposition Universelle in Paris, and it has changed only once for the top level.",
+      "level": "expert"
+    },
+    {
+      "q": "What process creates the bubbles in Champagne made by the traditional method?",
+      "choices": [
+        "Adding carbonated water",
+        "A second fermentation in the bottle",
+        "Fermenting in open tanks",
+        "Freezing the juice"
+      ],
+      "answer": 1,
+      "explication": "Yeast and sugar are added to the finished wine, and the trapped carbon dioxide dissolves to form bubbles.",
+      "level": "expert"
+    },
+    {
+      "q": "In which country is Tokaji, a famous sweet wine made from grapes affected by noble rot?",
+      "choices": [
+        "Hungary",
+        "Austria",
+        "Greece",
+        "Bulgaria"
+      ],
+      "answer": 0,
+      "explication": "Tokaji Aszú has been prized for centuries and was called \"the wine of kings\" by Louis XIV.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Do I need to be an expert to enjoy this wine quiz?",
+      "Not at all. The first eight questions cover basic wine knowledge that most people will know, and the explanations teach you more as you go. The harder questions give wine fans something to chew on. It's a relaxed way to learn about grapes, regions, and styles."
+    ],
+    [
+      "Which wine regions does the quiz cover?",
+      "The quiz covers major regions around the globe, including France, Italy, Spain, Portugal, Germany, Hungary, the United States, Argentina, Australia, and New Zealand. France appears often, as it has shaped wine language and classification, but it does not dominate the quiz."
+    ],
+    [
+      "Is this wine quiz for adults only?",
+      "The quiz is about wine knowledge, geography, and history, so it is intended for adults of legal drinking age and wine-curious learners. Nothing in the quiz encourages drinking. If you enjoy food and drink trivia, our food trivia quiz is a good next step."
+    ]
+  ],
+  "related": [
+    "/food-trivia-quiz",
+    "/christmas-traditions-quiz",
+    "/geography-quiz",
+    "/world-history-quiz"
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "path": "/ancient-history-quiz",
+  "alt": {
+    "fr": "/quiz-antiquite"
+  },
+  "theme": "histoire",
+  "title": "Ancient History Quiz: Egypt, Greece and Rome",
+  "description": "Test your knowledge of ancient history with 20 questions on Egypt, Greece, Rome and Carthage, from pharaohs and gladiators to emperors and famous battles.",
+  "h1": "Ancient History Quiz: Egypt, Greece and Rome",
+  "intro": "From the banks of the Nile to the hills of Rome, the ancient world is full of pharaohs, philosophers, generals and legends. This ancient history quiz offers 20 questions on Egypt, Greece, Rome and Carthage, beginning with famous names and monuments and ending with tricky details about battles and imperial decrees. You will have about five seconds for each question, so trust what you remember from school, museums and documentaries. After every answer, a short explanation fills in the story and the date. Perfect for history buffs, students and anyone who loves a good toga party. Let's see whether you would have made it as a Roman senator.",
+  "questions": [
+    {
+      "q": "Which river made ancient Egyptian civilization possible?",
+      "choices": [
+        "the Nile",
+        "the Tigris",
+        "the Danube",
+        "the Jordan"
+      ],
+      "answer": 0,
+      "explication": "Yearly floods of the Nile left fertile soil along its banks, supporting Egyptian farming for thousands of years.",
+      "level": "facile"
+    },
+    {
+      "q": "What was the title of the ruler of ancient Egypt?",
+      "choices": [
+        "satrap",
+        "consul",
+        "pharaoh",
+        "caliph"
+      ],
+      "answer": 2,
+      "explication": "Pharaohs were both kings and religious leaders, believed to be linked to the gods.",
+      "level": "facile"
+    },
+    {
+      "q": "In which place were the ancient Olympic Games held?",
+      "choices": [
+        "Olympia",
+        "Delphi",
+        "Sparta",
+        "Corinth"
+      ],
+      "answer": 0,
+      "explication": "The ancient Games were held every four years at Olympia, in honor of Zeus, starting in 776 BC according to tradition.",
+      "level": "facile"
+    },
+    {
+      "q": "According to legend, which twin brothers founded Rome?",
+      "choices": [
+        "Aeneas and Ulysses",
+        "Castor and Pollux",
+        "Brutus and Cassius",
+        "Romulus and Remus"
+      ],
+      "answer": 3,
+      "explication": "The legend says Romulus and Remus were raised by a she-wolf, and Romulus founded Rome in 753 BC.",
+      "level": "facile"
+    },
+    {
+      "q": "Which Roman general conquered Gaul between 58 and 51 BC?",
+      "choices": [
+        "Augustus",
+        "Julius Caesar",
+        "Nero",
+        "Scipio"
+      ],
+      "answer": 1,
+      "explication": "Caesar described his campaigns in 'Commentaries on the Gallic War,' which was also a political tool back in Rome.",
+      "level": "facile"
+    },
+    {
+      "q": "What name do we give to the writing system found on ancient Egyptian monuments?",
+      "choices": [
+        "cuneiform",
+        "runes",
+        "hieroglyphs",
+        "Chinese characters"
+      ],
+      "answer": 2,
+      "explication": "Hieroglyphs combined pictures and sound symbols. Egyptians used them on temple walls and tombs.",
+      "level": "facile"
+    },
+    {
+      "q": "Which giant amphitheater in Rome hosted gladiator fights?",
+      "choices": [
+        "the Pantheon",
+        "the Colosseum",
+        "the Capitol",
+        "the Parthenon"
+      ],
+      "answer": 1,
+      "explication": "The Colosseum, finished in AD 80, could hold tens of thousands of spectators.",
+      "level": "facile"
+    },
+    {
+      "q": "Which queen led a major revolt against Roman rule in Britain around AD 60?",
+      "choices": [
+        "Boudica",
+        "Cleopatra",
+        "Zenobia",
+        "Dido"
+      ],
+      "answer": 0,
+      "explication": "Boudica, queen of the Iceni, led an uprising that burned the Roman towns of Colchester, London and St Albans.",
+      "level": "facile"
+    },
+    {
+      "q": "Which pharaoh is famous for his almost intact tomb, discovered in 1922?",
+      "choices": [
+        "Ramses II",
+        "Khufu",
+        "Akhenaten",
+        "Tutankhamun"
+      ],
+      "answer": 3,
+      "explication": "Howard Carter found Tutankhamun's tomb in the Valley of the Kings, filled with golden treasures.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which object, found in 1799, helped Champollion decipher hieroglyphs?",
+      "choices": [
+        "the Code of Hammurabi",
+        "the Rosetta Stone",
+        "the Phaistos Disc",
+        "the Mesha Stele"
+      ],
+      "answer": 1,
+      "explication": "The Rosetta Stone carries the same decree in hieroglyphs, Demotic and Greek, and Champollion cracked the code in 1822.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Greek poet is traditionally credited with the Iliad and the Odyssey?",
+      "choices": [
+        "Hesiod",
+        "Sophocles",
+        "Homer",
+        "Virgil"
+      ],
+      "answer": 2,
+      "explication": "Homer's epics about the Trojan War and Odysseus' journey home were learned and recited across Greece.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Greek city-state was famous for its strict military training?",
+      "choices": [
+        "Corinth",
+        "Sparta",
+        "Thebes",
+        "Argos"
+      ],
+      "answer": 1,
+      "explication": "Spartan boys began military training, the agoge, at around age seven.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who was the first Roman emperor, beginning in 27 BC?",
+      "choices": [
+        "Augustus",
+        "Julius Caesar",
+        "Nero",
+        "Trajan"
+      ],
+      "answer": 0,
+      "explication": "Octavian took the name Augustus in 27 BC and ended the Roman Republic's long period of civil war.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which people did the Athenians defeat at Marathon in 490 BC?",
+      "choices": [
+        "the Carthaginians",
+        "the Macedonians",
+        "the Romans",
+        "the Persians"
+      ],
+      "answer": 3,
+      "explication": "Athens won a famous victory over a Persian invasion force at Marathon, which gave us the name of the long-distance race.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Carthaginian general crossed the Alps with elephants to attack Rome?",
+      "choices": [
+        "Hamilcar",
+        "Scipio",
+        "Hannibal",
+        "Pyrrhus"
+      ],
+      "answer": 2,
+      "explication": "Hannibal marched into Italy in 218 BC during the Second Punic War and defeated Roman armies for years.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which city did Rome destroy in 146 BC at the end of the Third Punic War?",
+      "choices": [
+        "Tyre",
+        "Syracuse",
+        "Alexandria",
+        "Carthage"
+      ],
+      "answer": 3,
+      "explication": "Rome razed Carthage, in what is now Tunisia, ending the Third Punic War and the power of its great rival.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which battle in 216 BC saw Hannibal crush a much larger Roman army?",
+      "choices": [
+        "Zama",
+        "Cannae",
+        "Actium",
+        "Marathon"
+      ],
+      "answer": 1,
+      "explication": "At Cannae, Hannibal's forces surrounded and destroyed a Roman army, one of the worst defeats in Roman history.",
+      "level": "expert"
+    },
+    {
+      "q": "Which emperor built a wall across northern Britain, beginning around AD 122?",
+      "choices": [
+        "Hadrian",
+        "Trajan",
+        "Claudius",
+        "Marcus Aurelius"
+      ],
+      "answer": 0,
+      "explication": "Hadrian's Wall, about 73 miles long, marked the northern frontier of the Roman province of Britannia.",
+      "level": "expert"
+    },
+    {
+      "q": "Which naval battle of 31 BC pitted Octavian against Mark Antony and Cleopatra?",
+      "choices": [
+        "Salamis",
+        "Pharsalus",
+        "Zama",
+        "Actium"
+      ],
+      "answer": 3,
+      "explication": "Octavian's victory at Actium left him as the sole ruler of the Roman world and led to his rise as Augustus.",
+      "level": "expert"
+    },
+    {
+      "q": "Which emperor issued the AD 212 decree granting Roman citizenship to almost all free men in the empire?",
+      "choices": [
+        "Constantine",
+        "Diocletian",
+        "Caracalla",
+        "Theodosius"
+      ],
+      "answer": 2,
+      "explication": "Caracalla's decree, the Constitutio Antoniniana, extended citizenship across the empire.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Who was the first emperor of Rome?",
+      "Augustus, born Octavian, was the first Roman emperor. He took that title in 27 BC after years of civil war following the assassination of his adoptive father Julius Caesar. Julius Caesar himself was a dictator, never officially an emperor. The imperial period he began lasted for centuries in the west and over a thousand years in the east."
+    ],
+    [
+      "What are the most famous civilizations of the ancient world?",
+      "Ancient Egypt, Greece and Rome are the most famous, but Mesopotamia, Persia, Carthage and the civilizations of India and China also shaped the world. This quiz focuses on the Mediterranean world, from Egyptian pharaohs and Greek city-states to the Roman Republic and Empire."
+    ],
+    [
+      "Is this ancient history quiz hard?",
+      "It starts with well-known names such as Julius Caesar, the Nile and the Colosseum, then moves to medium and expert questions about battles, decrees and dates. Most people with a basic school knowledge of history can get through the first half comfortably."
+    ]
+  ],
+  "related": [
+    "/world-history-quiz",
+    "/middle-ages-quiz",
+    "/hard-general-knowledge-quiz",
+    "/easy-general-knowledge-quiz"
+  ]
+}

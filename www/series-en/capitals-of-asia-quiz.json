@@ -1,0 +1,274 @@
+{
+ "path": "/capitals-of-asia-quiz",
+ "alt": {
+  "fr": "/quiz-capitales-asie"
+ },
+ "theme": "geographie",
+ "title": "Asian Capitals Quiz: 20 Questions",
+ "description": "Take our Asian capitals quiz: 20 questions from Seoul and Bangkok to Bishkek and Malé. Test your Asian geography for free in two minutes.",
+ "h1": "Asian Capitals Quiz: Can You Name Asia's Capitals?",
+ "intro": "Asia is the largest continent on Earth, with dozens of countries and capitals that range from the world-famous to the little-known. This Asian capitals quiz has 20 questions covering East Asia, Southeast Asia, South Asia, the Middle East and Central Asia. You will start with cities such as Seoul and Bangkok, move on to capitals like Kathmandu and Phnom Penh, and finish with tongue-twisters such as Dushanbe and Ashgabat. You get about five seconds for each question, so keep moving. Each answer includes a short explanation to help you remember. See how far across Asia you can go.",
+ "questions": [
+  {
+   "q": "What is the capital of South Korea?",
+   "choices": [
+    "Busan",
+    "Seoul",
+    "Incheon",
+    "Daegu"
+   ],
+   "answer": 1,
+   "explication": "Seoul, on the Han River, has been Korea's capital for over 600 years.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the capital of Thailand?",
+   "choices": [
+    "Chiang Mai",
+    "Phuket",
+    "Pattaya",
+    "Bangkok"
+   ],
+   "answer": 3,
+   "explication": "Bangkok's ceremonial Thai name is one of the longest place names in the world.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the capital of Saudi Arabia?",
+   "choices": [
+    "Riyadh",
+    "Jeddah",
+    "Mecca",
+    "Medina"
+   ],
+   "answer": 0,
+   "explication": "Riyadh is in the heart of the Arabian Peninsula. Mecca and Medina are the two holiest cities of Islam.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the capital of Iran?",
+   "choices": [
+    "Isfahan",
+    "Shiraz",
+    "Tehran",
+    "Tabriz"
+   ],
+   "answer": 2,
+   "explication": "Tehran has been Iran's capital since 1796 and lies at the foot of the Alborz mountains.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the capital of Iraq?",
+   "choices": [
+    "Basra",
+    "Mosul",
+    "Erbil",
+    "Baghdad"
+   ],
+   "answer": 3,
+   "explication": "Baghdad, on the Tigris River, was founded in 762 and became a great center of learning.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the capital of Syria?",
+   "choices": [
+    "Aleppo",
+    "Damascus",
+    "Homs",
+    "Latakia"
+   ],
+   "answer": 1,
+   "explication": "Damascus is among the oldest continuously inhabited cities in the world.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the capital of Lebanon?",
+   "choices": [
+    "Tripoli",
+    "Sidon",
+    "Beirut",
+    "Tyre"
+   ],
+   "answer": 2,
+   "explication": "Beirut is a Mediterranean port and Lebanon's largest city.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the capital of Jordan?",
+   "choices": [
+    "Amman",
+    "Aqaba",
+    "Irbid",
+    "Zarqa"
+   ],
+   "answer": 0,
+   "explication": "Amman is built on hills and was once called Philadelphia in antiquity.",
+   "level": "facile"
+  },
+  {
+   "q": "What is the capital of Bangladesh?",
+   "choices": [
+    "Dhaka",
+    "Chittagong",
+    "Sylhet",
+    "Khulna"
+   ],
+   "answer": 0,
+   "explication": "Dhaka is one of the most densely populated cities in the world.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the capital of Afghanistan?",
+   "choices": [
+    "Kandahar",
+    "Herat",
+    "Kabul",
+    "Mazar-i-Sharif"
+   ],
+   "answer": 2,
+   "explication": "Kabul lies in a valley about 5,900 feet above sea level.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the capital of Nepal?",
+   "choices": [
+    "Pokhara",
+    "Kathmandu",
+    "Biratnagar",
+    "Janakpur"
+   ],
+   "answer": 1,
+   "explication": "Kathmandu lies in a valley in the Himalayas and is rich in temples and ancient palaces.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the capital of Cambodia?",
+   "choices": [
+    "Siem Reap",
+    "Battambang",
+    "Sihanoukville",
+    "Phnom Penh"
+   ],
+   "answer": 3,
+   "explication": "Phnom Penh is where the Mekong and Tonlé Sap rivers meet. Siem Reap is the gateway to Angkor Wat.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the capital of Laos?",
+   "choices": [
+    "Luang Prabang",
+    "Savannakhet",
+    "Vientiane",
+    "Pakse"
+   ],
+   "answer": 2,
+   "explication": "Vientiane sits on the Mekong River, across from Thailand.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the capital of North Korea?",
+   "choices": [
+    "Pyongyang",
+    "Hamhung",
+    "Kaesong",
+    "Wonsan"
+   ],
+   "answer": 0,
+   "explication": "Pyongyang is the capital and largest city of North Korea.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the capital of Qatar?",
+   "choices": [
+    "Al Khor",
+    "Al Wakrah",
+    "Lusail",
+    "Doha"
+   ],
+   "answer": 3,
+   "explication": "Doha is Qatar's capital and the center of the country's population and economy.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the capital of Uzbekistan?",
+   "choices": [
+    "Samarkand",
+    "Tashkent",
+    "Bukhara",
+    "Khiva"
+   ],
+   "answer": 1,
+   "explication": "Tashkent is the capital and largest city of Uzbekistan. Samarkand and Bukhara are famed Silk Road cities.",
+   "level": "moyen"
+  },
+  {
+   "q": "What is the capital of Kyrgyzstan?",
+   "choices": [
+    "Osh",
+    "Bishkek",
+    "Karakol",
+    "Naryn"
+   ],
+   "answer": 1,
+   "explication": "Bishkek sits at the foot of the Tian Shan mountains.",
+   "level": "expert"
+  },
+  {
+   "q": "What is the capital of Tajikistan?",
+   "choices": [
+    "Khujand",
+    "Kulob",
+    "Bokhtar",
+    "Dushanbe"
+   ],
+   "answer": 3,
+   "explication": "Dushanbe means 'Monday' in Tajik, named after the market that once took place there on that day.",
+   "level": "expert"
+  },
+  {
+   "q": "What is the capital of Turkmenistan?",
+   "choices": [
+    "Ashgabat",
+    "Türkmenbaşy",
+    "Mary",
+    "Daşoguz"
+   ],
+   "answer": 0,
+   "explication": "Ashgabat lies between the Karakum Desert and the Kopet Dag mountains.",
+   "level": "expert"
+  },
+  {
+   "q": "What is the capital of the Maldives?",
+   "choices": [
+    "Addu",
+    "Fuvahmulah",
+    "Malé",
+    "Kulhudhuffushi"
+   ],
+   "answer": 2,
+   "explication": "Malé is a densely packed island city, and the capital of the Maldives.",
+   "level": "expert"
+  }
+ ],
+ "faq": [
+  [
+   "How many countries are in Asia?",
+   "Asia has around 48 or 49 countries, depending on how you count transcontinental nations such as Turkey, Russia and Kazakhstan. This quiz focuses on capitals in East, Southeast, South, Central and West Asia, so it spans the whole continent. Most Asian capitals are well known, but a few, like Dushanbe and Ashgabat, surprise even geography fans."
+  ],
+  [
+   "Is Dubai the capital of the United Arab Emirates?",
+   "No. Abu Dhabi is the capital of the United Arab Emirates, while Dubai is the largest and best-known city. It is a common mistake. The country is a federation of seven emirates, and Abu Dhabi is the largest of them by area."
+  ],
+  [
+   "What is the capital of Myanmar?",
+   "Myanmar's capital is Naypyidaw, which replaced Yangon (Rangoon) in 2006. Yangon remains the largest city. Naypyidaw is an example of a planned capital built far from the old commercial center, like Brasília or Canberra. Many players still guess Yangon, so the country is a classic trick question in geography quizzes."
+  ]
+ ],
+ "related": [
+  "/world-capitals-quiz",
+  "/hard-capitals-quiz",
+  "/capitals-of-europe-quiz",
+  "/capitals-of-africa-quiz",
+  "/geography-quiz"
+ ]
+}

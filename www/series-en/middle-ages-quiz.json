@@ -1,0 +1,273 @@
+{
+  "path": "/middle-ages-quiz",
+  "alt": {
+    "fr": "/quiz-moyen-age"
+  },
+  "theme": "histoire",
+  "title": "Middle Ages Quiz: 20 Questions on Medieval History",
+  "description": "Test your knowledge of the Middle Ages with 20 free questions on knights, castles, crusades, plagues, and kings. Easy to expert, with a fact each time.",
+  "h1": "Middle Ages Quiz: Knights, Castles, and Crusades",
+  "intro": "Step back about a thousand years for this medieval history quiz. You'll meet knights and castles, kings and popes, crusaders and merchants, and the Black Death that reshaped Europe. The first questions cover the famous names and events most people know, the middle section tests your recall of battles, rulers, and inventions, and the last four dive into expert territory. You have about five seconds for each question, and each answer comes with a short explanation that adds a detail or two. It's free and quick to play, whether you love history or just enjoy a good challenge. Ready to charge into battle?",
+  "questions": [
+    {
+      "q": "What name is given to the Christian military expeditions to the Holy Land that began in 1096?",
+      "choices": [
+        "The Crusades",
+        "The Reconquista",
+        "The Viking raids",
+        "The Hundred Years' War"
+      ],
+      "answer": 0,
+      "explication": "The First Crusade ended with the capture of Jerusalem in 1099, and further crusades continued for about two centuries.",
+      "level": "facile"
+    },
+    {
+      "q": "Which embroidered cloth tells the story of the Norman conquest of England in 1066?",
+      "choices": [
+        "The Bayeux Tapestry",
+        "The Unicorn Tapestries",
+        "The Lady and the Unicorn",
+        "The Devonshire Hunting Tapestries"
+      ],
+      "answer": 0,
+      "explication": "The Bayeux Tapestry is about 70 meters (230 feet) long and shows the events leading up to the Battle of Hastings.",
+      "level": "facile"
+    },
+    {
+      "q": "Which Duke of Normandy became king of England after the Battle of Hastings?",
+      "choices": [
+        "Richard the Lionheart",
+        "William the Conqueror",
+        "Henry V",
+        "Edward the Confessor"
+      ],
+      "answer": 1,
+      "explication": "William was crowned at Westminster Abbey on Christmas Day 1066.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the ceremony that makes a young man a knight called?",
+      "choices": [
+        "Coronation",
+        "Baptism",
+        "Dubbing",
+        "Pilgrimage"
+      ],
+      "answer": 2,
+      "explication": "A candidate was typically tapped on the shoulder with a sword, after swearing an oath to serve and protect.",
+      "level": "facile"
+    },
+    {
+      "q": "Which epidemic devastated Europe starting in 1347?",
+      "choices": [
+        "Cholera",
+        "The Black Death",
+        "Smallpox",
+        "The Spanish flu"
+      ],
+      "answer": 1,
+      "explication": "The plague, spread by fleas on rats, killed an estimated third or more of Europe's population within a few years.",
+      "level": "facile"
+    },
+    {
+      "q": "What name is given to the conflict between England and France from 1337 to 1453?",
+      "choices": [
+        "The Thirty Years' War",
+        "The Wars of the Roses",
+        "The Peasants' Revolt",
+        "The Hundred Years' War"
+      ],
+      "answer": 3,
+      "explication": "It was actually a series of wars that lasted 116 years, and it shaped both nations' identities.",
+      "level": "facile"
+    },
+    {
+      "q": "Which architectural style, with pointed arches and flying buttresses, defines great medieval cathedrals?",
+      "choices": [
+        "Baroque",
+        "Neoclassical",
+        "Gothic",
+        "Art Deco"
+      ],
+      "answer": 2,
+      "explication": "Gothic builders used ribbed vaults and flying buttresses to make cathedrals taller and fill them with light through huge stained-glass windows.",
+      "level": "facile"
+    },
+    {
+      "q": "What was the fortified home of a medieval lord called?",
+      "choices": [
+        "A villa",
+        "A castle",
+        "An abbey",
+        "A pavilion"
+      ],
+      "answer": 1,
+      "explication": "Castles served as both homes and defensive strongholds, with thick walls, towers, and often a moat.",
+      "level": "facile"
+    },
+    {
+      "q": "Which pope called for the First Crusade in 1095?",
+      "choices": [
+        "Gregory VII",
+        "Innocent III",
+        "Urban II",
+        "John XXII"
+      ],
+      "answer": 2,
+      "explication": "Urban II made his speech at the Council of Clermont, promising spiritual rewards to those who took up the cross.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Frankish leader won the Battle of Tours (Poitiers) around 732?",
+      "choices": [
+        "Pepin the Short",
+        "Charlemagne",
+        "Clovis",
+        "Charles Martel"
+      ],
+      "answer": 3,
+      "explication": "Charles Martel stopped an Umayyad advance north of the Pyrenees. His grandson was Charlemagne.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which English king was nicknamed the Lionheart?",
+      "choices": [
+        "Henry II",
+        "King John",
+        "Richard I",
+        "Edward III"
+      ],
+      "answer": 2,
+      "explication": "Richard I spent most of his reign abroad, especially on the Third Crusade.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which invention by Johannes Gutenberg around 1450 changed how books were made?",
+      "choices": [
+        "The movable-type printing press",
+        "Gunpowder",
+        "The compass",
+        "Paper"
+      ],
+      "answer": 0,
+      "explication": "Gutenberg's press made books cheaper and helped ideas spread rapidly across Europe.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who founded the Mongol Empire in 1206?",
+      "choices": [
+        "Kublai Khan",
+        "Attila",
+        "Tamerlane",
+        "Genghis Khan"
+      ],
+      "answer": 3,
+      "explication": "Born Temüjin, he united the Mongol tribes and took the title Genghis Khan, founding what became the largest contiguous land empire in history.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which 1415 battle saw English archers defeat a much larger French army?",
+      "choices": [
+        "Hastings",
+        "Agincourt",
+        "Bannockburn",
+        "Bosworth"
+      ],
+      "answer": 1,
+      "explication": "Henry V's longbowmen cut down heavily armored French knights struggling through muddy ground.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Venetian merchant described his travels across Asia in a famous book?",
+      "choices": [
+        "Ibn Battuta",
+        "Christopher Columbus",
+        "Vasco da Gama",
+        "Marco Polo"
+      ],
+      "answer": 3,
+      "explication": "Marco Polo's account of his journey to the court of Kublai Khan inspired generations of explorers.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which city in southern France hosted the popes from 1309 to 1377?",
+      "choices": [
+        "Marseille",
+        "Lyon",
+        "Arles",
+        "Avignon"
+      ],
+      "answer": 3,
+      "explication": "Seven successive popes lived in Avignon before the papacy returned to Rome.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which 1085 survey of England was commissioned by William the Conqueror?",
+      "choices": [
+        "The Magna Carta",
+        "The Anglo-Saxon Chronicle",
+        "The Domesday Book",
+        "The Canterbury Tales"
+      ],
+      "answer": 2,
+      "explication": "The survey recorded land, livestock, and owners across England, mainly for tax purposes.",
+      "level": "expert"
+    },
+    {
+      "q": "At which 1071 battle did the Seljuk Turks defeat the Byzantine emperor Romanos IV?",
+      "choices": [
+        "Manzikert",
+        "Hattin",
+        "Lepanto",
+        "Las Navas de Tolosa"
+      ],
+      "answer": 0,
+      "explication": "The defeat opened Anatolia to Turkish settlement and led to the Byzantine request for help that preceded the First Crusade.",
+      "level": "expert"
+    },
+    {
+      "q": "Which 1122 agreement ended the Investiture Controversy?",
+      "choices": [
+        "The Concordat of Bologna",
+        "The Concordat of Worms",
+        "The Peace of Constance",
+        "The Golden Bull"
+      ],
+      "answer": 1,
+      "explication": "The agreement between Pope Calixtus II and Emperor Henry V settled the dispute over who could appoint bishops.",
+      "level": "expert"
+    },
+    {
+      "q": "Which 1453 battle effectively ended the Hundred Years' War?",
+      "choices": [
+        "Castillon",
+        "Patay",
+        "Formigny",
+        "Rouvray"
+      ],
+      "answer": 0,
+      "explication": "French artillery destroyed an English army at Castillon in July 1453, leaving England with only Calais on the continent.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Which centuries does the Middle Ages cover?",
+      "Historians usually place the Middle Ages between the fall of the Western Roman Empire in 476 and the late 1400s, around the Ottoman capture of Constantinople in 1453 or the voyages of Columbus in 1492. Our quiz focuses mostly on Europe but includes events with global reach, such as the Mongol conquests."
+    ],
+    [
+      "Were the Middle Ages really the Dark Ages?",
+      "Not really. The phrase \"Dark Ages\" is mostly out of favor among historians. The period saw the rise of universities, Gothic cathedrals, trade networks, and the printing press near its end. Life could be hard, but medieval society was creative and varied. This quiz includes inventions as well as wars."
+    ],
+    [
+      "Is this medieval quiz hard?",
+      "It starts with famous topics like knights, castles, and the Black Death, so most people can score well on the first eight questions. The middle questions ask about specific people and battles, and the last four are expert-level. A score above 15 means you know your medieval history well."
+    ]
+  ],
+  "related": [
+    "/world-history-quiz",
+    "/ancient-history-quiz",
+    "/world-war-1-quiz",
+    "/20th-century-history-quiz"
+  ]
+}

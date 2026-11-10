@@ -1,0 +1,274 @@
+{
+  "path": "/hard-general-knowledge-quiz",
+  "alt": {
+    "fr": "/quiz-culture-generale-difficile"
+  },
+  "theme": "culture-generale",
+  "title": "Hard General Knowledge Quiz: 20 Questions",
+  "description": "A hard general knowledge quiz with 20 challenging questions on history, science, art, literature and geography. Can you score above 15?",
+  "h1": "Hard General Knowledge Quiz: Are You a Trivia Master?",
+  "intro": "If you win at trivia night, this hard general knowledge quiz is for you. It has 20 challenging questions spanning history, science, art, music, literature, philosophy and geography. We start with questions a well-read person should handle, like who painted Guernica, then move into treaties, theorems, physicists and explorers that will stretch even seasoned quizzers. You get about five seconds per question, which is not much, so decide quickly. After each answer, a short explanation fills in the story behind the fact. Get 15 or more right and you can call yourself a trivia master. Good luck.",
+  "questions": [
+    {
+      "q": "What is the capital of Australia?",
+      "choices": [
+        "Sydney",
+        "Canberra",
+        "Melbourne",
+        "Perth"
+      ],
+      "answer": 1,
+      "explication": "Canberra was purpose-built as the capital in the early 20th century as a compromise between Sydney and Melbourne.",
+      "level": "facile"
+    },
+    {
+      "q": "Who painted 'Guernica' in 1937?",
+      "choices": [
+        "Pablo Picasso",
+        "Salvador Dalí",
+        "Joan Miró",
+        "Georges Braque"
+      ],
+      "answer": 0,
+      "explication": "Picasso painted Guernica in response to the bombing of the Spanish town of Guernica during the Spanish Civil War.",
+      "level": "facile"
+    },
+    {
+      "q": "In what year did the Berlin Wall fall?",
+      "choices": [
+        "1985",
+        "1991",
+        "1987",
+        "1989"
+      ],
+      "answer": 3,
+      "explication": "The Berlin Wall opened on November 9, 1989, and Germany reunified in 1990.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the chemical symbol for gold?",
+      "choices": [
+        "Or",
+        "Au",
+        "Ag",
+        "Go"
+      ],
+      "answer": 1,
+      "explication": "Au comes from the Latin aurum. Ag, silver, comes from argentum.",
+      "level": "facile"
+    },
+    {
+      "q": "Who wrote the novel 'War and Peace'?",
+      "choices": [
+        "Fyodor Dostoevsky",
+        "Anton Chekhov",
+        "Leo Tolstoy",
+        "Ivan Turgenev"
+      ],
+      "answer": 2,
+      "explication": "Tolstoy's epic, published in the 1860s, follows Russian families during the Napoleonic Wars.",
+      "level": "facile"
+    },
+    {
+      "q": "Which scientist discovered penicillin in 1928?",
+      "choices": [
+        "Louis Pasteur",
+        "Marie Curie",
+        "Alexander Fleming",
+        "Robert Koch"
+      ],
+      "answer": 2,
+      "explication": "Fleming noticed that mold on a lab dish killed bacteria nearby, leading to the first widely used antibiotic.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the smallest country in the world by area?",
+      "choices": [
+        "Monaco",
+        "Vatican City",
+        "San Marino",
+        "Liechtenstein"
+      ],
+      "answer": 1,
+      "explication": "Vatican City covers about 0.17 square miles, within the city of Rome.",
+      "level": "facile"
+    },
+    {
+      "q": "Who composed the 'Boléro,' first performed in 1928?",
+      "choices": [
+        "Maurice Ravel",
+        "Claude Debussy",
+        "Erik Satie",
+        "Camille Saint-Saëns"
+      ],
+      "answer": 0,
+      "explication": "Ravel's Boléro repeats a single melody over a steady rhythm while growing steadily louder.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the longest river in Europe?",
+      "choices": [
+        "the Danube",
+        "the Rhine",
+        "the Volga",
+        "the Dnieper"
+      ],
+      "answer": 2,
+      "explication": "The Volga flows for about 2,200 miles through Russia and into the Caspian Sea.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which 1648 treaties ended the Thirty Years' War?",
+      "choices": [
+        "the Treaty of Versailles",
+        "the Treaty of Utrecht",
+        "the Peace of Westphalia",
+        "the Treaty of Tordesillas"
+      ],
+      "answer": 2,
+      "explication": "The Peace of Westphalia is often seen as the beginning of the modern system of sovereign states.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Roman emperor made Byzantium his capital and renamed it Constantinople?",
+      "choices": [
+        "Augustus",
+        "Justinian",
+        "Diocletian",
+        "Constantine I"
+      ],
+      "answer": 3,
+      "explication": "Constantine dedicated the city in AD 330. Today it is Istanbul.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which philosopher wrote the 'Critique of Pure Reason'?",
+      "choices": [
+        "Immanuel Kant",
+        "Georg Hegel",
+        "David Hume",
+        "Arthur Schopenhauer"
+      ],
+      "answer": 0,
+      "explication": "Kant's work, first published in 1781, is one of the most influential in Western philosophy.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which 1066 battle did William of Normandy defeat King Harold of England?",
+      "choices": [
+        "the Battle of Hastings",
+        "the Battle of Agincourt",
+        "the Battle of Bosworth",
+        "the Battle of Crécy"
+      ],
+      "answer": 0,
+      "explication": "The victory at Hastings made William the Conqueror king of England and changed the country's history.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who composed 'The Four Seasons'?",
+      "choices": [
+        "Johann Sebastian Bach",
+        "Wolfgang Amadeus Mozart",
+        "George Frideric Handel",
+        "Antonio Vivaldi"
+      ],
+      "answer": 3,
+      "explication": "Vivaldi's set of four violin concertos, published around 1725, each depict a season.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the only even prime number?",
+      "choices": [
+        "0",
+        "2",
+        "4",
+        "1"
+      ],
+      "answer": 1,
+      "explication": "All other even numbers are divisible by 2, so they can't be prime. Two is the only exception.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Russian chemist published a periodic classification of the elements in 1869?",
+      "choices": [
+        "Antoine Lavoisier",
+        "Dmitri Shostakovich",
+        "Ivan Pavlov",
+        "Dmitri Mendeleev"
+      ],
+      "answer": 3,
+      "explication": "Mendeleev arranged the known elements and left gaps for those not yet discovered.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which 17th-century mathematician claimed in a book's margin to have a proof of a theorem that went unproven for over 350 years?",
+      "choices": [
+        "Blaise Pascal",
+        "René Descartes",
+        "Pierre de Fermat",
+        "Évariste Galois"
+      ],
+      "answer": 2,
+      "explication": "Fermat's Last Theorem was finally proven by Andrew Wiles in 1994.",
+      "level": "expert"
+    },
+    {
+      "q": "Which physicist formulated the uncertainty principle in 1927?",
+      "choices": [
+        "Niels Bohr",
+        "Werner Heisenberg",
+        "Max Planck",
+        "Erwin Schrödinger"
+      ],
+      "answer": 1,
+      "explication": "Heisenberg's principle says that we can't know both a particle's position and momentum with perfect precision.",
+      "level": "expert"
+    },
+    {
+      "q": "Which 1494 treaty divided the newly discovered world between Spain and Portugal?",
+      "choices": [
+        "the Treaty of Tordesillas",
+        "the Treaty of Vienna",
+        "the Peace of Westphalia",
+        "the Treaty of Paris"
+      ],
+      "answer": 0,
+      "explication": "The treaty drew a line in the Atlantic, giving Spain lands to the west and Portugal lands to the east.",
+      "level": "expert"
+    },
+    {
+      "q": "Which Portuguese navigator was the first to round the Cape of Good Hope, in 1488?",
+      "choices": [
+        "Vasco da Gama",
+        "Ferdinand Magellan",
+        "Christopher Columbus",
+        "Bartolomeu Dias"
+      ],
+      "answer": 3,
+      "explication": "Dias's voyage opened the way for Vasco da Gama to reach India by sea in 1498.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What makes a general knowledge quiz hard?",
+      "Difficult quizzes usually test dates, names and details that go beyond common school knowledge, such as specific treaties, scientists and composers. This quiz mixes history, science, arts and geography so that no single subject is enough to score high. Expert questions may also need you to connect a name to a date, which is harder than simply recognizing a famous fact."
+    ],
+    [
+      "How should I prepare for trivia night?",
+      "Read widely, follow the news, and review key dates and names in history, geography, science and the arts. Practicing with quizzes like this one helps you spot patterns. Don't spend too long on any one question, because sometimes your first instinct is correct."
+    ],
+    [
+      "What is a good score on this quiz?",
+      "Getting 10 out of 20 is solid, and 15 or more puts you among the strongest quizzers. The final four expert questions are the toughest, so don't be discouraged if you miss them. Replay the quiz after reading the explanations to improve your score."
+    ]
+  ],
+  "related": [
+    "/easy-general-knowledge-quiz",
+    "/ancient-history-quiz",
+    "/hard-capitals-quiz",
+    "/world-history-quiz",
+    "/science-quiz"
+  ]
+}

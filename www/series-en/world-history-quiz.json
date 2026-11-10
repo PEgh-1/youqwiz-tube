@@ -1,0 +1,274 @@
+{
+  "path": "/world-history-quiz",
+  "alt": {
+    "fr": "/quiz-histoire"
+  },
+  "theme": "histoire",
+  "title": "World History Quiz: 20 Questions, Easy to Expert",
+  "description": "Take our free world history quiz: 20 questions on ancient empires, explorers, revolutions, and treaties. Easy to expert, with a fact after each answer.",
+  "h1": "World History Quiz: How Much Do You Remember?",
+  "intro": "From the pyramids of Egypt to the fall of the Berlin Wall, history is full of dramatic turning points. This world history quiz covers ancient civilizations, great explorers, empires, revolutions, and landmark treaties from every part of the globe. The early questions cover events most of us learned in school, the middle ones ask for key dates and names, and the last four are tough expert challenges. You'll have about five seconds per question, and each answer comes with a short explanation to deepen your understanding. It's free and quick to play. Ready to travel through time?",
+  "questions": [
+    {
+      "q": "Which ancient civilization built the pyramids at Giza?",
+      "choices": [
+        "The Mayans",
+        "The Romans",
+        "The Egyptians",
+        "The Greeks"
+      ],
+      "answer": 2,
+      "explication": "The Great Pyramid of Giza was built around 2560 BC as a tomb for the pharaoh Khufu.",
+      "level": "facile"
+    },
+    {
+      "q": "Which navigator, sailing for Spain, reached the Americas in 1492?",
+      "choices": [
+        "Vasco da Gama",
+        "Ferdinand Magellan",
+        "James Cook",
+        "Christopher Columbus"
+      ],
+      "answer": 3,
+      "explication": "Columbus landed in the Bahamas on October 12, 1492, while trying to find a western sea route to Asia.",
+      "level": "facile"
+    },
+    {
+      "q": "In which year did World War I begin?",
+      "choices": [
+        "1905",
+        "1918",
+        "1914",
+        "1939"
+      ],
+      "answer": 2,
+      "explication": "The war began in the summer of 1914 after the assassination of Archduke Franz Ferdinand and lasted until 1918.",
+      "level": "facile"
+    },
+    {
+      "q": "Which wall, a symbol of the Cold War, fell in November 1989?",
+      "choices": [
+        "Hadrian's Wall",
+        "The Berlin Wall",
+        "The Great Wall of China",
+        "The Atlantic Wall"
+      ],
+      "answer": 1,
+      "explication": "The Berlin Wall fell on November 9, 1989, and Germany was reunified in October 1990.",
+      "level": "facile"
+    },
+    {
+      "q": "Which Roman city was buried by the eruption of Mount Vesuvius in AD 79?",
+      "choices": [
+        "Carthage",
+        "Alexandria",
+        "Pompeii",
+        "Athens"
+      ],
+      "answer": 2,
+      "explication": "Ash and pumice preserved Pompeii so well that archaeologists can still see everyday life from nearly 2,000 years ago.",
+      "level": "facile"
+    },
+    {
+      "q": "In which Greek city-state was democracy born?",
+      "choices": [
+        "Sparta",
+        "Corinth",
+        "Athens",
+        "Thebes"
+      ],
+      "answer": 2,
+      "explication": "Around 508 BC, the reforms of Cleisthenes gave Athenian citizens a direct role in making laws.",
+      "level": "facile"
+    },
+    {
+      "q": "Which ship carried the Pilgrims from England to North America in 1620?",
+      "choices": [
+        "The Mayflower",
+        "The Santa Maria",
+        "The Endeavour",
+        "The Beagle"
+      ],
+      "answer": 0,
+      "explication": "The Mayflower carried about 100 passengers to Plymouth, Massachusetts, after a voyage of more than two months.",
+      "level": "facile"
+    },
+    {
+      "q": "In which country did the Renaissance begin in the 14th and 15th centuries?",
+      "choices": [
+        "Spain",
+        "Italy",
+        "England",
+        "Poland"
+      ],
+      "answer": 1,
+      "explication": "The Renaissance took off in Italian city-states like Florence, funded by wealthy patrons such as the Medici family.",
+      "level": "facile"
+    },
+    {
+      "q": "Who founded Constantinople as the new capital of the Roman Empire in 330?",
+      "choices": [
+        "Emperor Augustus",
+        "Emperor Nero",
+        "Charlemagne",
+        "Emperor Constantine"
+      ],
+      "answer": 3,
+      "explication": "Constantinople, today's Istanbul, later became the capital of the Byzantine Empire for over a thousand years.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which year did the Western Roman Empire fall?",
+      "choices": [
+        "410",
+        "800",
+        "1453",
+        "476"
+      ],
+      "answer": 3,
+      "explication": "In 476 the Germanic leader Odoacer deposed Romulus Augustulus, the last Western Roman emperor.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which year did King John of England seal the Magna Carta?",
+      "choices": [
+        "1215",
+        "1066",
+        "1315",
+        "1415"
+      ],
+      "answer": 0,
+      "explication": "The Magna Carta limited the king's power and became a cornerstone of constitutional law.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which year did the Ottomans capture Constantinople?",
+      "choices": [
+        "1453",
+        "1204",
+        "1492",
+        "1517"
+      ],
+      "answer": 0,
+      "explication": "Sultan Mehmed II took the city after a siege of about 53 days, ending the Byzantine Empire.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which statesman, nicknamed the Iron Chancellor, led the unification of Germany in 1871?",
+      "choices": [
+        "Konrad Adenauer",
+        "Helmut Kohl",
+        "Otto von Bismarck",
+        "Frederick the Great"
+      ],
+      "answer": 2,
+      "explication": "Bismarck united the German states through diplomacy and three short wars, with Prussia at the center.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which year did the Russian Revolution bring the Bolsheviks to power?",
+      "choices": [
+        "1905",
+        "1917",
+        "1914",
+        "1923"
+      ],
+      "answer": 1,
+      "explication": "The Bolsheviks, led by Vladimir Lenin, seized power in October 1917 (November in the modern calendar).",
+      "level": "moyen"
+    },
+    {
+      "q": "In which year did India gain independence from Britain?",
+      "choices": [
+        "1919",
+        "1947",
+        "1935",
+        "1962"
+      ],
+      "answer": 1,
+      "explication": "India became independent on August 15, 1947, and the subcontinent was partitioned into India and Pakistan.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which city was Rome's great rival in the Punic Wars?",
+      "choices": [
+        "Carthage",
+        "Syracuse",
+        "Corinth",
+        "Troy"
+      ],
+      "answer": 0,
+      "explication": "Carthage, in present-day Tunisia, was destroyed by Rome in 146 BC after the Third Punic War.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which 1648 treaties ended the Thirty Years' War?",
+      "choices": [
+        "The Treaty of Versailles",
+        "The Peace of Westphalia",
+        "The Treaty of Utrecht",
+        "The Congress of Vienna"
+      ],
+      "answer": 1,
+      "explication": "The Peace of Westphalia is often seen as the start of the modern system of sovereign states.",
+      "level": "expert"
+    },
+    {
+      "q": "In which year did Alexander the Great die in Babylon?",
+      "choices": [
+        "356 BC",
+        "146 BC",
+        "44 BC",
+        "323 BC"
+      ],
+      "answer": 3,
+      "explication": "Alexander died at about age 32, and his empire soon split among his generals.",
+      "level": "expert"
+    },
+    {
+      "q": "Which 1494 treaty divided the newly discovered lands between Spain and Portugal?",
+      "choices": [
+        "The Treaty of Lisbon",
+        "The Treaty of Madrid",
+        "The Treaty of Seville",
+        "The Treaty of Tordesillas"
+      ],
+      "answer": 3,
+      "explication": "The line drawn west of the Cape Verde islands is why Brazil speaks Portuguese while most of Latin America speaks Spanish.",
+      "level": "expert"
+    },
+    {
+      "q": "Who became the first emperor of China after unifying the country in 221 BC?",
+      "choices": [
+        "Qin Shi Huang",
+        "Confucius",
+        "Kublai Khan",
+        "Sun Tzu"
+      ],
+      "answer": 0,
+      "explication": "Qin Shi Huang standardized writing, weights, and measures, and linked earlier defensive walls that became forerunners of the Great Wall.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What periods does this world history quiz cover?",
+      "The 20 questions span ancient times to the late 20th century, with events from Europe, Asia, Africa, and the Americas. You'll see questions about early civilizations, explorers, empires, revolutions, and major treaties. We also have dedicated quizzes on medieval history, the world wars, and the 20th century."
+    ],
+    [
+      "Do I need to memorize dates to do well?",
+      "Some questions ask for a year, but the wrong answers are usually far enough apart that you can reason your way to the right one. Knowing the order of events helps more than memorizing exact dates, and the explanation after each answer gives you extra context."
+    ],
+    [
+      "Is the quiz suitable for students?",
+      "Yes. The early questions follow what most school curricula cover, so students can use it as a quick review or a fun warm-up before class. The harder questions offer a challenge for history buffs. It's free to replay, so students can try again and improve their scores."
+    ]
+  ],
+  "related": [
+    "/middle-ages-quiz",
+    "/ancient-history-quiz",
+    "/world-war-1-quiz",
+    "/world-war-2-quiz",
+    "/20th-century-history-quiz"
+  ]
+}

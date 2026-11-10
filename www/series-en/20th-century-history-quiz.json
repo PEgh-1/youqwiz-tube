@@ -1,0 +1,273 @@
+{
+  "path": "/20th-century-history-quiz",
+  "alt": {
+    "fr": "/quiz-xxe-siecle"
+  },
+  "theme": "histoire",
+  "title": "20th Century History Quiz: 20 Questions",
+  "description": "Take our free 20th century history quiz: 20 questions on the space race, Cold War, decolonization, and more. Easy to expert, with facts after each answer.",
+  "h1": "20th Century History Quiz: From Sputnik to Soviet Collapse",
+  "intro": "The 20th century brought world wars, revolutions, independence movements, the Cold War, and the first steps into space. This quiz focuses on the second half of the century, with 20 questions about the leaders, events, and turning points that shaped the modern world. The early questions are famous moments you may remember from school, the middle ones ask for key names and dates, and the final four are expert challenges. You get about five seconds per question, and every answer includes a short, factual explanation. It's free and fast. Ready to travel through the century?",
+  "questions": [
+    {
+      "q": "Which Soviet cosmonaut became the first person in space in 1961?",
+      "choices": [
+        "Yuri Gagarin",
+        "Alan Shepard",
+        "Alexei Leonov",
+        "Gherman Titov"
+      ],
+      "answer": 0,
+      "explication": "Gagarin completed a single orbit of Earth aboard Vostok 1 on April 12, 1961.",
+      "level": "facile"
+    },
+    {
+      "q": "Which satellite launched by the USSR in 1957 was the first artificial satellite?",
+      "choices": [
+        "Explorer 1",
+        "Vostok 1",
+        "Apollo 11",
+        "Sputnik 1"
+      ],
+      "answer": 3,
+      "explication": "Sputnik 1 was a metal sphere about the size of a beach ball, and its launch started the space race.",
+      "level": "facile"
+    },
+    {
+      "q": "Which crisis in October 1962 brought the world close to nuclear war?",
+      "choices": [
+        "The Cuban Missile Crisis",
+        "The Suez Crisis",
+        "The Berlin Blockade",
+        "The Korean War"
+      ],
+      "answer": 0,
+      "explication": "The U.S. and USSR stood off over Soviet missiles in Cuba for 13 days until a deal was reached.",
+      "level": "facile"
+    },
+    {
+      "q": "Which anti-apartheid leader was freed in 1990 after 27 years in prison?",
+      "choices": [
+        "Desmond Tutu",
+        "Steve Biko",
+        "Nelson Mandela",
+        "Kwame Nkrumah"
+      ],
+      "answer": 2,
+      "explication": "Mandela was released on February 11, 1990, and became South Africa's president in 1994.",
+      "level": "facile"
+    },
+    {
+      "q": "Which U.S. mission landed the first humans on the Moon in July 1969?",
+      "choices": [
+        "Apollo 8",
+        "Apollo 13",
+        "Apollo 11",
+        "Gemini 4"
+      ],
+      "answer": 2,
+      "explication": "Neil Armstrong and Buzz Aldrin walked on the Moon while Michael Collins orbited above.",
+      "level": "facile"
+    },
+    {
+      "q": "Which international organization was founded in 1945 to maintain peace?",
+      "choices": [
+        "The United Nations",
+        "NATO",
+        "The League of Nations",
+        "The European Union"
+      ],
+      "answer": 0,
+      "explication": "The UN was founded after World War II with 51 original member states.",
+      "level": "facile"
+    },
+    {
+      "q": "Which civil rights leader delivered the \"I Have a Dream\" speech in 1963?",
+      "choices": [
+        "Martin Luther King Jr.",
+        "Malcolm X",
+        "Rosa Parks",
+        "Barack Obama"
+      ],
+      "answer": 0,
+      "explication": "King spoke to more than 200,000 people at the March on Washington on August 28, 1963.",
+      "level": "facile"
+    },
+    {
+      "q": "Which leader is best known for the 1930 Salt March in India?",
+      "choices": [
+        "Jawaharlal Nehru",
+        "Muhammad Ali Jinnah",
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi"
+      ],
+      "answer": 3,
+      "explication": "Gandhi led thousands on a march of about 390 km (240 miles) to protest British salt taxes.",
+      "level": "facile"
+    },
+    {
+      "q": "Which U.S. president was assassinated in Dallas in 1963?",
+      "choices": [
+        "Lyndon B. Johnson",
+        "John F. Kennedy",
+        "Richard Nixon",
+        "Dwight Eisenhower"
+      ],
+      "answer": 1,
+      "explication": "Kennedy was shot on November 22, 1963, and Lyndon Johnson was sworn in as president the same day.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which Soviet leader launched the reforms known as perestroika and glasnost?",
+      "choices": [
+        "Leonid Brezhnev",
+        "Nikita Khrushchev",
+        "Boris Yeltsin",
+        "Mikhail Gorbachev"
+      ],
+      "answer": 3,
+      "explication": "Gorbachev's reforms of the late 1980s aimed to restructure the economy and open up public debate.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which 1957 treaty created the European Economic Community?",
+      "choices": [
+        "The Maastricht Treaty",
+        "The Treaty of Rome",
+        "The Treaty of Paris",
+        "The Treaty of Lisbon"
+      ],
+      "answer": 1,
+      "explication": "Six countries signed it in Rome: France, West Germany, Italy, Belgium, the Netherlands, and Luxembourg.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which Soviet republic was the Chernobyl nuclear plant, the site of a 1986 accident?",
+      "choices": [
+        "Belarus",
+        "Russia",
+        "Ukraine",
+        "Lithuania"
+      ],
+      "answer": 2,
+      "explication": "The plant is located in northern Ukraine, near the border with Belarus.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who proclaimed the People's Republic of China in 1949?",
+      "choices": [
+        "Chiang Kai-shek",
+        "Mao Zedong",
+        "Deng Xiaoping",
+        "Sun Yat-sen"
+      ],
+      "answer": 1,
+      "explication": "Mao announced the new state in Beijing on October 1, 1949, after the Communists won the civil war.",
+      "level": "moyen"
+    },
+    {
+      "q": "Who was the first woman in space, in 1963?",
+      "choices": [
+        "Svetlana Savitskaya",
+        "Sally Ride",
+        "Peggy Whitson",
+        "Valentina Tereshkova"
+      ],
+      "answer": 3,
+      "explication": "Tereshkova orbited Earth 48 times aboard Vostok 6 in June 1963.",
+      "level": "moyen"
+    },
+    {
+      "q": "In which year was the Soviet Union dissolved?",
+      "choices": [
+        "1985",
+        "1989",
+        "1993",
+        "1991"
+      ],
+      "answer": 3,
+      "explication": "The USSR formally ceased to exist on December 26, 1991, giving rise to 15 independent countries.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which war began in June 1950 when North Korean forces crossed into South Korea?",
+      "choices": [
+        "The Vietnam War",
+        "The Gulf War",
+        "The Korean War",
+        "The Suez Crisis"
+      ],
+      "answer": 2,
+      "explication": "An armistice in July 1953 ended the fighting, but no peace treaty was signed.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which 1955 conference gathered newly independent Asian and African nations in Indonesia?",
+      "choices": [
+        "The Yalta Conference",
+        "The Bandung Conference",
+        "The Geneva Conference",
+        "The Helsinki Conference"
+      ],
+      "answer": 1,
+      "explication": "Leaders from 29 countries discussed cooperation and opposition to colonialism, helping lay the groundwork for the Non-Aligned Movement.",
+      "level": "expert"
+    },
+    {
+      "q": "Which country experienced the Carnation Revolution in 1974?",
+      "choices": [
+        "Portugal",
+        "Spain",
+        "Greece",
+        "Italy"
+      ],
+      "answer": 0,
+      "explication": "A largely bloodless military coup ended decades of dictatorship and led to the independence of Portugal's African colonies.",
+      "level": "expert"
+    },
+    {
+      "q": "Which canal did Egypt's Nasser nationalize in 1956, sparking an international crisis?",
+      "choices": [
+        "The Panama Canal",
+        "The Suez Canal",
+        "The Kiel Canal",
+        "The Corinth Canal"
+      ],
+      "answer": 1,
+      "explication": "Britain, France, and Israel responded militarily, but pressure from the U.S. and USSR forced them to withdraw.",
+      "level": "expert"
+    },
+    {
+      "q": "Which British colony, once called the Gold Coast, became independent in 1957?",
+      "choices": [
+        "Nigeria",
+        "Kenya",
+        "Ghana",
+        "Senegal"
+      ],
+      "answer": 2,
+      "explication": "Ghana, led by Kwame Nkrumah, was the first sub-Saharan African colony to gain independence from European rule in the postwar era.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "Which events does this 20th century quiz focus on?",
+      "Most questions come from the second half of the century: the space race, the Cold War, civil rights, decolonization, and the collapse of the Soviet Union. A few touch on earlier events. For the world wars, try our dedicated World War 1 and World War 2 quizzes."
+    ],
+    [
+      "What was the Cold War?",
+      "The Cold War was a long period of political and military rivalry between the United States and the Soviet Union and their allies, roughly from 1947 to 1991. It was \"cold\" because the two superpowers never fought each other directly, but they competed through arms races, alliances, proxy wars, and the space race."
+    ],
+    [
+      "Can I use this quiz in class?",
+      "Yes. The questions are factual and cover widely taught topics, so the quiz works well as a review or warm-up. Students can read the short explanation after each answer, then replay the quiz to improve. It's free and requires no signup."
+    ]
+  ],
+  "related": [
+    "/world-war-2-quiz",
+    "/world-war-1-quiz",
+    "/world-history-quiz",
+    "/space-quiz"
+  ]
+}

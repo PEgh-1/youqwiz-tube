@@ -1,0 +1,294 @@
+{
+  "path": "/flags-of-asia-quiz",
+  "alt": {
+    "fr": "/quiz-drapeaux-asie"
+  },
+  "theme": "geographie",
+  "title": "Asian Flags Quiz: 20 Flags to Identify",
+  "description": "Test your knowledge of Asian flags: identify 20 national flags from China, Japan and India to Bhutan and Uzbekistan. Free, fast quiz.",
+  "h1": "Asian Flags Quiz: Can You Name These Flags?",
+  "intro": "Asia is home to some of the most distinctive flags in the world, from Japan's simple red disc to the cedar of Lebanon. In this Asian flags quiz, you will look at 20 flags, one by one, and try to name the country. We start with well-known flags, such as China, South Korea and Thailand, then move on to flags from South Asia, Southeast Asia and the Middle East that are easy to confuse. The last questions feature Central Asian and Middle Eastern flags that challenge even experts. You have about five seconds per question. Every answer comes with a short explanation. Ready?",
+  "questions": [
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Vietnam",
+        "China",
+        "North Korea",
+        "Mongolia"
+      ],
+      "answer": 1,
+      "explication": "China's red flag has one large yellow star and four smaller ones.",
+      "level": "facile",
+      "flag": "cn"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Japan",
+        "North Korea",
+        "China",
+        "South Korea"
+      ],
+      "answer": 3,
+      "explication": "South Korea's flag is called the Taegukgi, with a red and blue taeguk circle and four black trigrams.",
+      "level": "facile",
+      "flag": "kr"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Thailand",
+        "Laos",
+        "Cambodia",
+        "Myanmar"
+      ],
+      "answer": 0,
+      "explication": "Thailand's flag has five horizontal stripes: red, white, blue, white and red, with the blue stripe twice as wide.",
+      "level": "facile",
+      "flag": "th"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "China",
+        "North Korea",
+        "Vietnam",
+        "Laos"
+      ],
+      "answer": 2,
+      "explication": "Vietnam's flag is red with a gold five-pointed star.",
+      "level": "facile",
+      "flag": "vn"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Pakistan",
+        "Iran",
+        "Iraq",
+        "Saudi Arabia"
+      ],
+      "answer": 3,
+      "explication": "Saudi Arabia's green flag carries the Arabic shahada, or statement of faith, and a sword.",
+      "level": "facile",
+      "flag": "sa"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Jordan",
+        "Israel",
+        "Lebanon",
+        "Syria"
+      ],
+      "answer": 1,
+      "explication": "Israel's flag has a blue Star of David between two blue stripes on a white field.",
+      "level": "facile",
+      "flag": "il"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Iraq",
+        "Tajikistan",
+        "Iran",
+        "Pakistan"
+      ],
+      "answer": 2,
+      "explication": "Iran's flag has green, white and red stripes with an emblem in the center.",
+      "level": "facile",
+      "flag": "ir"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Philippines",
+        "Thailand",
+        "Malaysia",
+        "Cambodia"
+      ],
+      "answer": 0,
+      "explication": "The Philippines' flag has a white triangle with a sun and three stars, with blue and red stripes.",
+      "level": "facile",
+      "flag": "ph"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Bangladesh",
+        "Japan",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "answer": 0,
+      "explication": "Bangladesh's flag is a red disc on a dark green field.",
+      "level": "moyen",
+      "flag": "bd"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Thailand",
+        "Cambodia",
+        "Malaysia",
+        "Myanmar"
+      ],
+      "answer": 2,
+      "explication": "Malaysia's flag has 14 stripes, a crescent and a 14-pointed star in the corner.",
+      "level": "moyen",
+      "flag": "my"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Malaysia",
+        "Singapore",
+        "Indonesia",
+        "Philippines"
+      ],
+      "answer": 1,
+      "explication": "Singapore's flag has a red band over a white band, with a white crescent and five stars.",
+      "level": "moyen",
+      "flag": "sg"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Kuwait",
+        "Jordan",
+        "Oman",
+        "United Arab Emirates"
+      ],
+      "answer": 3,
+      "explication": "The United Arab Emirates' flag combines red, green, white and black, the pan-Arab colors.",
+      "level": "moyen",
+      "flag": "ae"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Bhutan",
+        "Myanmar",
+        "Sri Lanka",
+        "Nepal"
+      ],
+      "answer": 2,
+      "explication": "Sri Lanka's flag shows a gold lion holding a sword on a maroon panel.",
+      "level": "moyen",
+      "flag": "lk"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Cambodia",
+        "Thailand",
+        "Laos",
+        "Myanmar"
+      ],
+      "answer": 0,
+      "explication": "Cambodia's flag features the temple of Angkor Wat, which makes it one of the few flags to show a building.",
+      "level": "moyen",
+      "flag": "kh"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Thailand",
+        "Cambodia",
+        "Vietnam",
+        "Laos"
+      ],
+      "answer": 3,
+      "explication": "Laos's flag has a white disc in the center of a blue band between two red stripes.",
+      "level": "moyen",
+      "flag": "la"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Kuwait",
+        "Jordan",
+        "United Arab Emirates",
+        "Iraq"
+      ],
+      "answer": 1,
+      "explication": "Jordan's flag has black, white and green stripes, a red triangle and a white seven-pointed star.",
+      "level": "moyen",
+      "flag": "jo"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Bahrain",
+        "Qatar",
+        "Kuwait",
+        "Oman"
+      ],
+      "answer": 1,
+      "explication": "Qatar's flag is maroon with a white serrated edge, which has nine points.",
+      "level": "expert",
+      "flag": "qa"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Tajikistan",
+        "Turkmenistan",
+        "Kyrgyzstan",
+        "Uzbekistan"
+      ],
+      "answer": 3,
+      "explication": "Uzbekistan's flag has blue, white and green stripes, a crescent and twelve stars.",
+      "level": "expert",
+      "flag": "uz"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Mongolia",
+        "Laos",
+        "Kyrgyzstan",
+        "North Korea"
+      ],
+      "answer": 0,
+      "explication": "Mongolia's flag has red and blue vertical stripes, with the yellow Soyombo symbol on the left.",
+      "level": "expert",
+      "flag": "mn"
+    },
+    {
+      "q": "Which country does this flag belong to?",
+      "choices": [
+        "Syria",
+        "Jordan",
+        "Lebanon",
+        "Iraq"
+      ],
+      "answer": 2,
+      "explication": "Lebanon's flag has a green cedar tree on a white stripe between two red stripes.",
+      "level": "expert",
+      "flag": "lb"
+    }
+  ],
+  "faq": [
+    [
+      "Which Asian flags use a crescent?",
+      "Several Asian flags include a crescent, including those of Turkey, Pakistan, Malaysia, Singapore, Uzbekistan and the Maldives. The crescent has a long history in the Middle East and Central Asia and is often linked with Islam, though some flags use it for other reasons."
+    ],
+    [
+      "How can I tell the Middle Eastern flags apart?",
+      "Many Middle Eastern flags use the pan-Arab colors of red, green, white and black, which makes them look alike. Check the arrangement: Jordan has a red triangle and a star, the UAE has a red vertical band, and Iraq's flag carries green Arabic script in its white stripe."
+    ],
+    [
+      "What is the oldest flag in Asia?",
+      "Japan's Hinomaru, a red disc on white, is among the oldest national symbols in Asia, although it was only given formal legal status as the national flag in 1999. Many Asian flags are far newer, and several changed after independence in the 20th century."
+    ]
+  ],
+  "related": [
+    "/world-flags-quiz",
+    "/hard-flags-quiz",
+    "/flags-of-europe-quiz",
+    "/flags-of-africa-quiz",
+    "/geography-quiz"
+  ]
+}

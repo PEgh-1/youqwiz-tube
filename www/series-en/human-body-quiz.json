@@ -1,0 +1,274 @@
+{
+  "path": "/human-body-quiz",
+  "alt": {
+    "fr": "/quiz-corps-humain"
+  },
+  "theme": "sciences",
+  "title": "Human Body Quiz: 20 Questions on Anatomy",
+  "description": "Test what you know about the human body with 20 questions on organs, bones, muscles and the brain. Free, quick and easy to hard.",
+  "h1": "Human Body Quiz: How Well Do You Know Your Anatomy?",
+  "intro": "Your body is full of surprises, and this human body quiz will put your knowledge to the test. You will answer 20 questions about organs, bones, muscles, blood and the brain. We start with basics anyone should know, such as how many lungs you have and which organ pumps your blood, then move on to the smallest bone, the organs that make insulin and bile, and expert details like the parts of the eye. You have about five seconds per question, so stay quick. Every answer comes with a short explanation, so you will learn something even when you guess wrong. Ready to check your anatomy?",
+  "questions": [
+    {
+      "q": "How many lungs do we have?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explication": "Humans have two lungs. The left one is slightly smaller to make room for the heart.",
+      "level": "facile"
+    },
+    {
+      "q": "Which organ pumps blood around the body?",
+      "choices": [
+        "the liver",
+        "the brain",
+        "the stomach",
+        "the heart"
+      ],
+      "answer": 3,
+      "explication": "The heart beats about 100,000 times a day, pushing blood through thousands of miles of blood vessels.",
+      "level": "facile"
+    },
+    {
+      "q": "How many traditional senses do we have?",
+      "choices": [
+        "5",
+        "3",
+        "4",
+        "7"
+      ],
+      "answer": 0,
+      "explication": "The classic five senses are sight, hearing, smell, taste and touch, although scientists identify others, such as balance.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the largest organ of the human body?",
+      "choices": [
+        "the liver",
+        "the lungs",
+        "the skin",
+        "the intestine"
+      ],
+      "answer": 2,
+      "explication": "Skin covers the whole body, weighs several pounds in an adult and protects against germs and water loss.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the thighbone called?",
+      "choices": [
+        "the tibia",
+        "the humerus",
+        "the radius",
+        "the femur"
+      ],
+      "answer": 3,
+      "explication": "The femur is the longest and strongest bone in the human body.",
+      "level": "facile"
+    },
+    {
+      "q": "How many teeth does an adult have, wisdom teeth included?",
+      "choices": [
+        "28",
+        "32",
+        "30",
+        "36"
+      ],
+      "answer": 1,
+      "explication": "A full adult set has 32 teeth, and many people have their wisdom teeth removed.",
+      "level": "facile"
+    },
+    {
+      "q": "Which organ does the skull protect?",
+      "choices": [
+        "the heart",
+        "the liver",
+        "the brain",
+        "the stomach"
+      ],
+      "answer": 2,
+      "explication": "The skull forms a strong bony shell around the brain, which controls thought, movement and the senses.",
+      "level": "facile"
+    },
+    {
+      "q": "Which blood cells carry oxygen?",
+      "choices": [
+        "red blood cells",
+        "white blood cells",
+        "platelets",
+        "neurons"
+      ],
+      "answer": 0,
+      "explication": "Red blood cells contain hemoglobin, an iron-rich protein that binds oxygen and gives blood its red color.",
+      "level": "facile"
+    },
+    {
+      "q": "How many bones does an adult skeleton have?",
+      "choices": [
+        "106",
+        "306",
+        "206",
+        "406"
+      ],
+      "answer": 2,
+      "explication": "Babies are born with around 300 bones, but many fuse together, leaving 206 in adults.",
+      "level": "moyen"
+    },
+    {
+      "q": "What is the smallest bone in the human body?",
+      "choices": [
+        "the stapes",
+        "the kneecap",
+        "the radius",
+        "the sternum"
+      ],
+      "answer": 0,
+      "explication": "The stapes, or stirrup, is deep in the middle ear and is about the size of a grain of rice.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which organ produces bile?",
+      "choices": [
+        "the stomach",
+        "the pancreas",
+        "the spleen",
+        "the liver"
+      ],
+      "answer": 3,
+      "explication": "Bile helps digest fats. The liver makes it and the gallbladder stores it.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which organ produces insulin?",
+      "choices": [
+        "the liver",
+        "the pancreas",
+        "the kidneys",
+        "the stomach"
+      ],
+      "answer": 1,
+      "explication": "The pancreas makes insulin to control blood sugar. People with type 1 diabetes can't make enough.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many chambers does the human heart have?",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explication": "The heart has two atria on top and two ventricles below, which keep oxygen-rich and oxygen-poor blood separate.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which organs filter the blood and make urine?",
+      "choices": [
+        "the lungs",
+        "the liver",
+        "the kidneys",
+        "the spleen"
+      ],
+      "answer": 2,
+      "explication": "Each kidney contains about a million tiny filters, and together they filter nearly 50 gallons of fluid from the blood each day.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which vitamin does the body make with the help of sunlight?",
+      "choices": [
+        "vitamin A",
+        "vitamin D",
+        "vitamin C",
+        "vitamin B12"
+      ],
+      "answer": 1,
+      "explication": "When sunlight hits the skin, the body produces vitamin D, which helps absorb calcium for strong bones.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which muscle plays a key role in breathing?",
+      "choices": [
+        "the biceps",
+        "the deltoid",
+        "the trapezius",
+        "the diaphragm"
+      ],
+      "answer": 3,
+      "explication": "The dome-shaped diaphragm below the lungs contracts to pull air in.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many pairs of ribs do humans typically have?",
+      "choices": [
+        "10",
+        "12",
+        "14",
+        "8"
+      ],
+      "answer": 1,
+      "explication": "Most people have 12 pairs of ribs, which protect the heart and lungs.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the transparent outer layer at the front of the eye called?",
+      "choices": [
+        "the retina",
+        "the iris",
+        "the lens",
+        "the cornea"
+      ],
+      "answer": 3,
+      "explication": "The cornea covers the iris and pupil and does most of the eye's focusing.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the largest muscle in the human body?",
+      "choices": [
+        "the gluteus maximus",
+        "the biceps",
+        "the pectoralis major",
+        "the deltoid"
+      ],
+      "answer": 0,
+      "explication": "The gluteus maximus in the buttock is the biggest muscle by mass and helps you stand, climb and run.",
+      "level": "expert"
+    },
+    {
+      "q": "Which part of the brain coordinates movement and balance?",
+      "choices": [
+        "the hippocampus",
+        "the frontal lobe",
+        "the cerebellum",
+        "the brainstem"
+      ],
+      "answer": 2,
+      "explication": "The cerebellum sits at the back of the brain and fine-tunes your movements and posture.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "How many bones are in the human body?",
+      "An adult human has 206 bones. Babies are born with about 300 softer bones and cartilage, and many of these gradually fuse together as the child grows. About half of the adult's bones are in the hands and feet. So the total changes over a lifetime, and 206 is the figure for a fully grown adult."
+    ],
+    [
+      "What is the largest organ in the human body?",
+      "The skin is the largest organ. It covers about 20 square feet in an adult and protects against germs, regulates temperature and gives us the sense of touch. Among the internal organs, the liver is the biggest, weighing roughly three pounds in an adult."
+    ],
+    [
+      "Is this quiz good for school students?",
+      "Yes. It covers the basics of human biology taught in school, including organs, bones, blood and the brain, and then adds expert questions for a challenge. Short explanations after each answer make it a useful review tool. Students can replay it before exams until all 20 answers feel natural."
+    ]
+  ],
+  "related": [
+    "/chemistry-quiz",
+    "/animal-quiz",
+    "/hard-animal-quiz",
+    "/easy-general-knowledge-quiz",
+    "/science-quiz"
+  ]
+}

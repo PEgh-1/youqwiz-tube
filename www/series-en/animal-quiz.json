@@ -1,0 +1,274 @@
+{
+  "path": "/animal-quiz",
+  "alt": {
+    "fr": "/quiz-animaux"
+  },
+  "theme": "animaux",
+  "title": "Animal Quiz: 20 Fun Questions About Wildlife",
+  "description": "Take our free animal quiz: 20 questions on mammals, birds, insects and more, from easy to expert. Test your wildlife knowledge in about two minutes.",
+  "h1": "Animal Quiz: How Well Do You Know the Animal Kingdom?",
+  "intro": "Think you know your creatures great and small? This animal quiz takes you through 20 questions about mammals, birds, insects and amphibians, starting with the animals every kid can name and building toward some real head-scratchers. You will meet record-breakers, strange anatomy and a few surprises about how animals live, move and eat. Plan on about five seconds per question, so trust your gut: the first answer that comes to mind is often right. After every question, a short explanation teaches you something new to share at dinner. Whether you are a zoo regular, a nature-documentary fan or just curious, give it a try and see how far you get.",
+  "questions": [
+    {
+      "q": "What is the heaviest land animal?",
+      "choices": [
+        "the giraffe",
+        "the African elephant",
+        "the rhinoceros",
+        "the hippopotamus"
+      ],
+      "answer": 1,
+      "explication": "The African elephant can weigh over 6 tons, making it the heaviest animal living on land.",
+      "level": "facile"
+    },
+    {
+      "q": "What is a baby cow called?",
+      "choices": [
+        "a foal",
+        "a lamb",
+        "a kid",
+        "a calf"
+      ],
+      "answer": 3,
+      "explication": "A baby cow is a calf. Foals are baby horses, lambs are baby sheep and kids are baby goats.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the fastest land animal?",
+      "choices": [
+        "the cheetah",
+        "the lion",
+        "the horse",
+        "the antelope"
+      ],
+      "answer": 0,
+      "explication": "The cheetah can sprint at around 60 to 70 miles per hour in short bursts, faster than any other land animal.",
+      "level": "facile"
+    },
+    {
+      "q": "How many legs does a spider have?",
+      "choices": [
+        "6",
+        "4",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "explication": "Spiders have eight legs, which is one way to tell them apart from insects, which have six.",
+      "level": "facile"
+    },
+    {
+      "q": "Which mammal is the only one capable of true flight?",
+      "choices": [
+        "the flying squirrel",
+        "the hummingbird",
+        "the penguin",
+        "the bat"
+      ],
+      "answer": 3,
+      "explication": "Bats are the only mammals that truly fly. Flying squirrels just glide, and hummingbirds are birds, not mammals.",
+      "level": "facile"
+    },
+    {
+      "q": "Which insect makes honey?",
+      "choices": [
+        "the wasp",
+        "the bee",
+        "the ant",
+        "the butterfly"
+      ],
+      "answer": 1,
+      "explication": "Honeybees turn flower nectar into honey and store it in their hives as food for the colony.",
+      "level": "facile"
+    },
+    {
+      "q": "What is the largest animal on Earth?",
+      "choices": [
+        "the elephant",
+        "the whale shark",
+        "the blue whale",
+        "the sperm whale"
+      ],
+      "answer": 2,
+      "explication": "The blue whale can reach about 100 feet long and is the largest animal known to have ever lived.",
+      "level": "facile"
+    },
+    {
+      "q": "What does a tadpole turn into?",
+      "choices": [
+        "a frog",
+        "a lizard",
+        "a fish",
+        "a snake"
+      ],
+      "answer": 0,
+      "explication": "Tadpoles are the larvae of frogs and toads. They lose their tails and grow legs as they mature.",
+      "level": "facile"
+    },
+    {
+      "q": "How many hearts does an octopus have?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 2,
+      "explication": "An octopus has three hearts: two pump blood through the gills and one circulates it to the rest of the body.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which animal carries its baby in a pouch?",
+      "choices": [
+        "the kangaroo",
+        "the lion",
+        "the panda",
+        "the monkey"
+      ],
+      "answer": 0,
+      "explication": "Kangaroos are marsupials. A newborn joey is tiny and finishes developing inside its mother's pouch.",
+      "level": "moyen"
+    },
+    {
+      "q": "A dolphin is a...",
+      "choices": [
+        "fish",
+        "reptile",
+        "amphibian",
+        "mammal"
+      ],
+      "answer": 3,
+      "explication": "Dolphins breathe air, are warm-blooded and nurse their young with milk, which makes them mammals.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which flightless bird lives in Antarctica?",
+      "choices": [
+        "the ostrich",
+        "the penguin",
+        "the kiwi",
+        "the flamingo"
+      ],
+      "answer": 1,
+      "explication": "Penguins can't fly, but they are superb swimmers. The emperor penguin breeds on Antarctic ice in winter.",
+      "level": "moyen"
+    },
+    {
+      "q": "How many legs does an insect have?",
+      "choices": [
+        "6",
+        "4",
+        "8",
+        "10"
+      ],
+      "answer": 0,
+      "explication": "All adult insects have six legs, attached to the middle section of the body, the thorax.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which animal is famous for changing color?",
+      "choices": [
+        "the giraffe",
+        "the tiger",
+        "the chameleon",
+        "the panda"
+      ],
+      "answer": 2,
+      "explication": "Chameleons shift color to communicate and to regulate their temperature, and sometimes to blend in.",
+      "level": "moyen"
+    },
+    {
+      "q": "What does the giant panda mainly eat?",
+      "choices": [
+        "fish",
+        "bamboo",
+        "honey",
+        "fruit"
+      ],
+      "answer": 1,
+      "explication": "Giant pandas spend much of the day chewing bamboo, and an adult can eat more than 20 pounds of it daily.",
+      "level": "moyen"
+    },
+    {
+      "q": "What do you call a group of wolves?",
+      "choices": [
+        "a swarm",
+        "a school",
+        "a herd",
+        "a pack"
+      ],
+      "answer": 3,
+      "explication": "Wolves live and hunt in family groups called packs, usually led by a breeding pair.",
+      "level": "moyen"
+    },
+    {
+      "q": "Which living bird has the largest wingspan?",
+      "choices": [
+        "the golden eagle",
+        "the wandering albatross",
+        "the Andean condor",
+        "the white stork"
+      ],
+      "answer": 1,
+      "explication": "The wandering albatross has a wingspan that can top 11 feet, the largest of any living bird, which lets it glide over the ocean for hours.",
+      "level": "expert"
+    },
+    {
+      "q": "Which of these animals is a mammal that lays eggs?",
+      "choices": [
+        "the kangaroo",
+        "the dolphin",
+        "the bat",
+        "the platypus"
+      ],
+      "answer": 3,
+      "explication": "The platypus, found in Australia, is one of the few egg-laying mammals, called monotremes.",
+      "level": "expert"
+    },
+    {
+      "q": "What is the largest living species of cat?",
+      "choices": [
+        "the tiger",
+        "the lion",
+        "the leopard",
+        "the jaguar"
+      ],
+      "answer": 0,
+      "explication": "Tigers are the largest living cats, and the Siberian (Amur) tiger is the biggest subspecies, with males weighing up to about 600 pounds.",
+      "level": "expert"
+    },
+    {
+      "q": "Which leaves do koalas eat almost exclusively?",
+      "choices": [
+        "oak",
+        "bamboo",
+        "eucalyptus",
+        "palm"
+      ],
+      "answer": 2,
+      "explication": "Koalas eat almost nothing but eucalyptus leaves, which are toxic to most animals, and sleep up to 20 hours a day.",
+      "level": "expert"
+    }
+  ],
+  "faq": [
+    [
+      "What is the largest animal in the world?",
+      "The blue whale is the largest animal alive today and the largest known to have ever existed. It can grow to roughly 100 feet long and weigh about 150 tons. On land, the African elephant takes the title, weighing up to around 6 tons."
+    ],
+    [
+      "Is a dolphin a fish or a mammal?",
+      "A dolphin is a mammal. Unlike fish, dolphins breathe air through a blowhole, are warm-blooded, give birth to live young and nurse them with milk. They have to come to the surface regularly to breathe, even though they spend their whole lives in the water."
+    ],
+    [
+      "How many questions are in this animal quiz?",
+      "The quiz has 20 multiple-choice questions that get harder as you go: eight easy ones, eight medium and four expert. Each question has four possible answers and a short explanation, so you learn something even when you miss. It takes about two minutes, and you can replay it anytime."
+    ]
+  ],
+  "related": [
+    "/hard-animal-quiz",
+    "/ocean-animals-quiz",
+    "/dinosaur-quiz",
+    "/human-body-quiz",
+    "/science-quiz"
+  ]
+}
