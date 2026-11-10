@@ -26,3 +26,10 @@ Règles :
 - `flag` : seulement pour les questions de drapeaux, code ISO 3166-1 alpha-2 en minuscules (le site affiche le drapeau, la question ne le décrit donc pas).
 - `title` ≤ 55 caractères (le site ajoute « | YouQwiz »). 3 questions de FAQ. 3 à 5 liens `related` vers d'autres séries.
 - Aucun texte copié d'un site tiers.
+
+## Version anglaise
+- Dossier : `www/series-en/<slug>.json`, même structure, textes en anglais (`title` sans « | YouQwiz », ≤ 55 caractères).
+- `path` : chemin public **sans** `/en`, en minuscules, `^/[a-z0-9][a-z0-9-]{2,90}$` (ex. `"/capitals-of-europe-quiz"` → `youqwiz.com/en/capitals-of-europe-quiz`).
+- `alt` : `{"fr": "/quiz-…"}`, chemin de la série française équivalente (sert au hreflang ; le lien inverse est déduit côté site). Facultatif.
+- `related` : chemins anglais sans `/en`. `level` : `facile|moyen|expert` ou `easy|medium|hard`.
+- Pas de traduction mot à mot : on part de la requête anglaise (volumes US/UK), pas de la série française. Aucune série franco-française.

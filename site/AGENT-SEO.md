@@ -30,3 +30,12 @@ type, title (sans « | YouQwiz »), description, h1, kicker, intro, exemple_noms
 - 32 séries en ligne. Le push sur main publie aussi les séries.
 - L'agent peut ajouter au plus 1 série par semaine, prise dans le CSV des volumes, sans doublon.
 - Il relit chaque fait avant publication et retire toute question au moindre doute.
+
+## Version anglaise (depuis le 10/11/2026)
+- Séries anglaises : un fichier par série dans `www/series-en/<slug>.json` (44 en ligne). Même format que le français, en anglais (voir `site/SERIES-FORMAT.md`).
+- `path` = chemin public **sans** `/en` (ex. `/flag-quiz` → publiée sur `https://youqwiz.com/en/flag-quiz`). Pas de `/quiz-` imposé : on suit la requête anglaise.
+- `alt.fr` = chemin de la série française équivalente (`/quiz-…`, doit exister dans `www/series/`) ; facultatif si aucune équivalence.
+- Le push sur main (`www/series-en/**`) publie aussi les séries anglaises (corps séparé `"lang": "en"`) et contrôle `https://youqwiz.com/en/<chemin>`.
+- Règles : pas de traduction mot à mot d'une série française (mots-clés, exemples et unités pour un public anglophone) ; aucune série franco-française
+  (départements, histoire de France, variété française…) ; mêmes exigences de faits stables que le français.
+- Pages anglaises « crée ton quiz » : pas encore ouvertes (fichier prévu `www/seo_pages_agent_en.json`, à ne créer qu'après validation).

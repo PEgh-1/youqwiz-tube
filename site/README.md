@@ -41,3 +41,18 @@ Filet de sécurité : le serveur va chercher lui-même les épisodes.
   (jeton fine-grained lecture seule, dépôt youqwiz-tube, permission Contents) dans le même dossier.
 - Cron cPanel : `*/15 * * * * /usr/local/bin/php /home/<compte>/youqwiz-data/pull-episodes.php >> /home/<compte>/youqwiz-data/pull.log 2>&1`.
 - Le POST direct reste en place (immédiat quand il passe) ; le cron rattrape le reste dans le quart d'heure. Journal : `pull.log`.
+
+## Version anglaise (10/11/2026)
+Le site sert une version anglaise sous `/en/` (code serveur : `src/pages_episodes.php`, `src/pages_series.php`).
+- **Quiz du jour** : `daily-en.yml` (chaîne « YouQwiz English », `CHANNEL=en`) lance `scripts/publish-site.mjs`, qui lit `data-en/` et envoie
+  `"lang": "en"` en tête du corps signé (même `SITE_SYNC_KEY`, même URL). Le français n'envoie pas de champ `lang` (absent = `fr`).
+  Stockage serveur : `youqwiz-data/en/{id}.json` et `en/index.json` ; page : `https://youqwiz.com/en/daily-quiz/<id>`, visible à `publishAt` (6 PM ET).
+- **Liens depuis YouTube (chaîne anglaise)** : description → `https://youqwiz.com/en/daily-quiz/<id>` (`data-en/variants.json` → `strings.quizPath`),
+  descriptions des Shorts → `https://youqwiz.com/en/`, commentaires de `scripts/community.mjs` lancé avec `CHANNEL=en` → page anglaise de l'épisode.
+- **Rapatriement** : `pull-episodes.php` (copie déployée) et `cron/pull-episodes.php` font une passe par chaîne : `data/` → dossier racine (français),
+  `data-en/` → sous-dossier `en/` (`"lang": "en"`), index reconstruit dossier par dossier. Shorts mp4 : français seulement
+  (les releases GitHub anglaises sont nommées `en-<id>` pour ne jamais écraser une release française de même id).
+- **Séries anglaises** : `www/series-en/*.json`, poussées par `scripts/site/push-seo.mjs` dans un second corps `"lang": "en"`
+  (fichier serveur `youqwiz-data/series_agent_en.json`). Chemins sans `/en`, lien `alt.fr` vers la série française (hreflang).
+  Règles : pas de traduction mot à mot (sujets et mots-clés choisis pour un public anglophone), pas de série franco-française
+  (département, histoire de France, chanson française…). Format : `SERIES-FORMAT.md`.
