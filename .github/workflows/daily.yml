@@ -147,8 +147,8 @@ jobs:
           FILES="out/$ID/short.mp4"; for k in 2 3; do [ -f "out/$ID/short$k.mp4" ] && FILES="$FILES out/$ID/short$k.mp4"; done
           gh release delete "$ID" -y --cleanup-tag 2>/dev/null || true
           gh release create "$ID" $FILES --title "$ID" --notes "Shorts de l'épisode $ID (relais réseaux sociaux)." --latest=false
-          # ménage : releases de plus de 10 jours
-          gh release list --limit 100 --json tagName,createdAt --jq '.[] | select(.createdAt < (now - 864000 | todate)) | .tagName' | xargs -r -n1 gh release delete -y --cleanup-tag
+          # ménage : releases de plus de 10 jours, et rendus de test (test-*) de plus d'un jour
+          gh release list --limit 100 --json tagName,createdAt --jq '.[] | select(.createdAt < (now - 864000 | todate) or (.tagName | startswith("test-")) and .createdAt < (now - 86400 | todate)) | .tagName' | xargs -r -n1 gh release delete -y --cleanup-tag
 
       # Rendu de test (skip_upload) : la vidéo longue est déposée en pré-release « test-<id> » pour contrôle visuel, puis supprimée à la main.
       - name: Publier la vidéo test en pré-release (contrôle visuel)
