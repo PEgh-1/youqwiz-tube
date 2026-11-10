@@ -1,5 +1,6 @@
 # Chaîne anglaise « YouQwiz English » (09/11/2026) : même chaîne de production que daily.yml avec CHANNEL=en
 # (données dans data-en/), jeton YouTube et voix ElevenLabs propres (secrets *_EN), horaires New York (18 h ET).
+# 10/11/2026 : le quiz jouable est publié sur youqwiz.com/en/daily-quiz/<id> (même clé SITE_SYNC_KEY que le français).
 name: Video of the day (EN)
 
 on:
@@ -140,6 +141,8 @@ jobs:
 
       # Relais réseaux (09/11/2026) : les Shorts (mp4) sont attachés à une release GitHub nommée comme l'épisode ;
       # le cron du site (site/pull-episodes.php) les copie dans youqwiz.com/media/shorts/, d'où Metricool les publie.
+      # 10/11/2026 : tag préfixé « en-<id> » (les releases FR portent l'id nu) : un id anglais identique à un id français
+      # ne supprime plus la release française. Le cron du site ne télécharge pas encore les Shorts anglais (pas de relais EN).
       - name: Publier les Shorts en release (relais Instagram / Facebook / TikTok, non bloquant)
         if: ${{ steps.gen.outputs.skip != 'true' && inputs.skip_upload != 'true' }}
         continue-on-error: true
@@ -148,12 +151,19 @@ jobs:
         run: |
           ID=$(node -pe 'require("./data-en/state/current.json").id')
           FILES="out/$ID/short.mp4"; for k in 2 3; do [ -f "out/$ID/short$k.mp4" ] && FILES="$FILES out/$ID/short$k.mp4"; done
-          gh release delete "$ID" -y --cleanup-tag 2>/dev/null || true
-          gh release create "$ID" $FILES --title "$ID" --notes "Shorts de l'épisode $ID (relais réseaux sociaux)." --latest=false
+          TAG="en-$ID"
+          gh release delete "$TAG" -y --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" $FILES --title "$TAG" --notes "Shorts de l'épisode anglais $ID (relais réseaux sociaux)." --latest=false
           # ménage : releases de plus de 10 jours
           gh release list --limit 100 --json tagName,createdAt --jq '.[] | select(.createdAt < (now - 864000 | todate)) | .tagName' | xargs -r -n1 gh release delete -y --cleanup-tag
 
-      # (pas de publication sur youqwiz.com : le site est en français)
+      # Site (10/11/2026) : youqwiz.com/en/daily-quiz/<id>. CHANNEL=en (niveau job) → publish-site.mjs lit data-en/ et envoie "lang": "en".
+      - name: Publier le quiz jouable sur youqwiz.com/en/daily-quiz (non bloquant)
+        if: ${{ steps.gen.outputs.skip != 'true' && inputs.skip_upload != 'true' }}
+        env:
+          SITE_SYNC_KEY: ${{ secrets.SITE_SYNC_KEY }}
+          SITE_SYNC_URL: ${{ secrets.SITE_SYNC_URL }}
+        run: node scripts/publish-site.mjs
 
       - name: Sauvegarder l'état (items utilisés, file de publication)
         if: ${{ !cancelled() && steps.gen.outputs.skip != 'true' && inputs.skip_upload != 'true' }}

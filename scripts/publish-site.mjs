@@ -1,10 +1,12 @@
 // Envoie l'épisode du jour à youqwiz.com (page jouable /quiz-du-jour/<id>, visible à l'heure de la vidéo).
+// Chaîne anglaise (CHANNEL=en, 10/11/2026) : épisodes lus dans data-en/, champ « lang »: "en" en tête du corps → /en/daily-quiz/<id>.
+// Le français n'envoie pas de champ « lang » (absent = fr côté serveur) : corps identique à l'historique.
 // POST signé HMAC-SHA256 vers SITE_SYNC_URL (défaut https://youqwiz.com/api/episodes.php) avec SITE_SYNC_KEY.
 // Non bloquant : une erreur est signalée (warning) mais ne fait pas échouer la publication YouTube.
 // Usage : node scripts/publish-site.mjs [--id <episode>]  (défaut : épisode courant) · --all : renvoie toute la file publiée
 import { createHmac } from "node:crypto";
 import { existsSync } from "node:fs";
-import { argv, p, readJson } from "./lib.mjs";
+import { argv, p, readJson, CHANNEL } from "./lib.mjs";
 
 const { SITE_SYNC_KEY, SITE_SYNC_URL: _u } = process.env;
 const SITE_SYNC_URL = _u || "https://youqwiz.com/api/episodes";
@@ -24,7 +26,7 @@ for (const id of ids) {
   const ep = readJson(f);
   for (const it of ep.items) delete it.voice;
   delete ep.voice; delete ep.variants;
-  const body = JSON.stringify({ episode: ep, longId: r.longId, shortId: r.shortId ?? "", publishAt: r.publishAt });
+  const body = JSON.stringify({ ...(CHANNEL !== "fr" ? { lang: CHANNEL } : {}), episode: ep, longId: r.longId, shortId: r.shortId ?? "", publishAt: r.publishAt });
   const sig = "sha256=" + createHmac("sha256", SITE_SYNC_KEY).update(body).digest("hex");
   try {
     // 3 tentatives : l'hébergeur (o2switch) renvoie parfois un 503 HTML passager
@@ -46,5 +48,5 @@ for (const id of ids) {
 }
 if (process.env.GITHUB_ACTIONS) {
   if (ko) console.log(`::warning title=Site::${ko} épisode(s) non envoyé(s) à youqwiz.com (relancer : node scripts/publish-site.mjs --all)`);
-  else if (ok) console.log(`::notice title=Site::${ok} épisode(s) en ligne sur youqwiz.com/quiz-du-jour`);
+  else if (ok) console.log(`::notice title=Site::${ok} épisode(s) en ligne sur youqwiz.com${CHANNEL === "fr" ? "/quiz-du-jour" : `/${CHANNEL}/daily-quiz`}`);
 }
