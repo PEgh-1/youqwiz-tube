@@ -16,13 +16,14 @@ mkdirSync(`public/short-v3/${ep.id}`, { recursive: true });
 
 const bank = ep.bank ?? ep.id.split("-").slice(3).join("-");
 const dilemma = ep.items[0].prompt.type === "choices";
-const skin = dilemma ? "duel" : ep.pillar === "emojis" || /emojis/.test(bank) ? "pop" : ep.items[0].prompt.type === "qcm" ? "reclame" : "plateau";
+const skin = dilemma ? "duel" : ep.pillar === "emojis" || /emojis/.test(bank) ? "pop" : ep.pillar === "generations" ? "album" : ep.items[0].prompt.type === "qcm" ? "reclame" : "plateau";
 // Textes LUS : orthographe phonétique voulue (« YouQwiz point com »), consigne de jeu en FRANÇAIS (sinon v3 prononce à l'anglaise).
 const SKIN = {
-  reclame: { tu: false, tag: "[annonceur de réclame radio des années 30, voix nasillarde, très enjoué, débit rapide]", title: "Le quiz express ! Offert par YouQwiz point com !", retro: true },
-  plateau: { tu: true, tag: "[animateur de jeu télévisé, très enjoué, dynamique, sourire dans la voix]", title: "Le défi du jour ! Offert par YouQwiz point com !" },
-  pop: { tu: true, tag: "[ton joueur et complice, amusé, plein d'entrain]", title: "Décode les émojis ! Offert par YouQwiz point com !" },
-  duel: { tu: true, tag: "[ton malicieux et taquin, enjoué]", title: "Le dilemme du jour ! Offert par YouQwiz point com !" },
+  reclame: { tu: false, tag: "[annonceur de réclame radio des années 30, voix nasillarde, très enjoué, débit rapide]", title: "Le quiz express ! YouQwiz point com !", retro: true },
+  plateau: { tu: true, tag: "[animateur de jeu télévisé, très enjoué, dynamique, sourire dans la voix]", title: "Trois secondes chrono ! Sans propositions, trouve vite !" },
+  pop: { tu: true, tag: "[ton joueur et complice, amusé, plein d'entrain]", title: "Décode si tu peux ! Devine ce qui se cache !" },
+  duel: { tu: true, tag: "[ton malicieux et taquin, enjoué]", title: "Choisis ton camp ! Et dis-le en commentaire !" },
+  album: { tu: true, tag: "[ton chaleureux et complice, souriant, un peu nostalgique, débit posé]", title: "T'as connu ça ? Une seule bonne réponse !" },
 }[skin];
 const ASK = {
   "pays-sans-voyelles": "Quel est ce pays sans voyelles ?", drapeaux: "À quel pays appartient ce drapeau ?", animaux: "Quel est cet animal ?", "fruits-legumes": "Quel est ce fruit ou ce légume ?",
@@ -51,7 +52,8 @@ const num = (a) => (/^-?[\d\s\u202f\u00a0]+([.,]\d+)?$/.test(a) ? Number(a.repla
 const fmt = (v) => String(v).replace(".", ",").replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 function propositions(i) {
   const it = ep.items[i], p = it.prompt;
-  if (p.type === "choices" || p.type === "letter") return {};
+  // 11/11/2026 (soir) : pas de propositions pour devine et émojis (elles rendent le jeu trop facile) : question, chrono, réponse.
+  if (p.type === "choices" || p.type === "letter" || skin === "plateau" || skin === "pop") return {};
   let wrong;
   if (p.type === "qcm") wrong = shuffle(p.choices.filter((_, k) => k !== p.correct)).slice(0, 2);
   else if (num(it.answer) !== null) { const v = num(it.answer), d = v >= 1000 ? 100 : 10; wrong = shuffle([v + d, v - d, v + 1, v - 1, v + 2, v + d / 10 * 2].filter((w) => w !== v && w >= 0)).slice(0, 2).map(fmt); }
