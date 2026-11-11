@@ -13,7 +13,13 @@ const v = await get();
 if (!v) throw new Error(`vidéo ${id} introuvable`);
 if (v.status.privacyStatus !== "private") { console.log(`${id} (« ${v.snippet.title} ») : déjà ${v.status.privacyStatus}, non modifiée`); process.exit(0); }
 const { publishAt, ...status } = v.status;
-await yt.videos.update({ part: ["status"], requestBody: { id, status: { ...status, privacyStatus: "private" } } });
-const after = await get();
+// L'API ne retire pas une date en l'omettant : on tente null, sinon on repousse très loin (2030) — la vidéo reste privée.
+const FAR = "2030-01-01T11:00:00Z";
+await yt.videos.update({ part: ["status"], requestBody: { id, status: { ...status, privacyStatus: "private", publishAt: null } } }).catch((e) => console.log(`  null refusé : ${e.message}`));
+let after = await get();
+if (after.status.publishAt && after.status.publishAt !== FAR) {
+  await yt.videos.update({ part: ["status"], requestBody: { id, status: { ...status, privacyStatus: "private", publishAt: FAR } } });
+  after = await get();
+}
 console.log(`${id} (« ${v.snippet.title} ») : était programmée ${publishAt ?? "(sans date)"} → ${after.status.privacyStatus}, date ${after.status.publishAt ?? "retirée"}`);
-if (after.status.publishAt) { console.log(`::error title=Suspension::${id} garde une date de publication`); process.exit(1); }
+if (after.status.publishAt && after.status.publishAt.slice(0, 4) !== "2030") { console.log(`::error title=Suspension::${id} reste programmée le ${after.status.publishAt}`); process.exit(1); }
