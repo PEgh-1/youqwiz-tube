@@ -17,6 +17,8 @@ export type Minute = {
   /** baseline dite à voix haute après le titre (sinon seulement en bandeau) */
   sayBaseline?: boolean;
   comment?: string;
+  /** appel final : le site (défaut) ou la chaîne YouTube (abonnement + grand quiz du soir) */
+  cta?: "site" | "youtube";
   voice?: { hook?: VoiceClip; title?: VoiceClip; choices?: VoiceClip; answer?: VoiceClip; fact?: VoiceClip; outro?: VoiceClip; /** réponse + anecdote dites d'une traite (un seul clip `answer`) : seconde où commence l'anecdote */ answerSplit?: number };
 };
 
@@ -198,24 +200,25 @@ const Outro: React.FC<{ m: Minute }> = ({ m }) => {
   const a = spring({ frame, fps, config: { damping: 10, stiffness: 150 } });
   const b = spring({ frame: frame - 14, fps, config: { damping: 9, stiffness: 140 } });
   const c = spring({ frame: frame - 30, fps, config: { damping: 8, stiffness: 160 } });
+  const yt = m.cta === "youtube";
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", top: 400, left: 60, right: 60, transform: `scale(${a}) rotate(-3deg)` }}>
         <div style={poster(124, RED, BROWN)}>Ça vous a plu ?</div>
       </div>
       <div style={{ position: "absolute", top: 640, left: 80, right: 80, opacity: a }}>
-        <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: 52, color: BROWN, textAlign: "center", lineHeight: 1.15 }}>Retrouvez nos derniers quiz sur</div>
+        <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: 52, color: BROWN, textAlign: "center", lineHeight: 1.15 }}>{yt ? "Chaque soir à 17 h 30, le grand quiz sur" : "Retrouvez nos derniers quiz sur"}</div>
       </div>
       <div style={{ position: "absolute", top: 800, left: 60, right: 60, transform: `scale(${b})` }}>
         <div style={{ background: CREAM, border: `9px solid ${BROWN}`, boxShadow: `14px 14px 0 ${RED}`, borderRadius: 20, padding: "22px 10px" }}>
-          <div style={{ ...poster(128, BROWN, MUSTARD), textTransform: "none" }}>YouQwiz.com</div>
+          <div style={{ ...poster(yt ? 96 : 128, BROWN, MUSTARD), textTransform: "none" }}>{yt ? "YouTube · YouQwiz" : "YouQwiz.com"}</div>
         </div>
       </div>
       <div style={{ position: "absolute", top: 730, right: 50, transform: `scale(${c}) rotate(14deg)` }}>
-        <div style={{ border: `8px double ${RED}`, color: RED, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: 58, padding: "2px 22px", letterSpacing: 4, background: "rgba(244,231,198,0.92)", borderRadius: 10 }}>GRATUIT</div>
+        <div style={{ border: `8px double ${RED}`, color: RED, fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: yt ? 46 : 58, padding: "2px 22px", letterSpacing: 4, background: "rgba(244,231,198,0.92)", borderRadius: 10 }}>{yt ? "ABONNEZ-VOUS" : "GRATUIT"}</div>
       </div>
       <div style={{ position: "absolute", top: 1110, left: 90, right: 90, opacity: c }}>
-        <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontStyle: "italic", fontSize: 44, color: CREAM, background: TEAL, border: `6px solid ${BROWN}`, borderRadius: 50, padding: "16px 30px", textAlign: "center" }}>{nb(m.comment ?? "Vous le saviez ? Dites-le en commentaire !")}</div>
+        <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontStyle: "italic", fontSize: 44, color: CREAM, background: TEAL, border: `6px solid ${BROWN}`, borderRadius: 50, padding: "16px 30px", textAlign: "center" }}>{nb(yt ? "Et tous nos quiz, gratuits, sur YouQwiz.com" : m.comment ?? "Vous le saviez ? Dites-le en commentaire !")}</div>
       </div>
       <Sepia style={{ position: "absolute", left: 110, top: 1270 }}><Mascot which="chat" size={300} mood="cheer" /></Sepia>
       <Sepia style={{ position: "absolute", right: 110, top: 1290 }}><Mascot which="poussin" size={270} mood="cheer" /></Sepia>

@@ -1,11 +1,11 @@
 {
  "_comment": "Pilotes de « La minute culture générale » (11/11/2026). voice : A = voix de la chaîne, B = voix candidate (MINUTE_VOICE_B).",
  "outro": "Ça vous a plu ? Retrouvez gratuitement nos derniers quiz sur YouQwiz point com !",
- "title": "La minute culture générale, offerte par YouQwiz point com !",
+ "title": "La minute culture générale ! Offerte par YouQwiz point com !",
  "baseline": "Aujourd'hui, scroller va vous rendre plus malin !",
  "jobs": [
   {
-   "name": "v2-peau-voixA-nasillarde",
+   "name": "v3-1-nasillard",
    "voice": "A",
    "sayBaseline": true,
    "hook": "Quel est le plus grand organe du corps humain ?",
@@ -20,9 +20,11 @@
    "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
   },
   {
-   "name": "v2-peau-voixA-tres-nasillarde",
+   "name": "v3-2-tres-nasillard-enjoue",
+   "pitch": 1.11,
+   "nasal": 11,
+   "stability": 0.0,
    "voice": "A",
-   "pitch": 1.12,
    "sayBaseline": true,
    "hook": "Quel est le plus grand organe du corps humain ?",
    "choices": [
@@ -36,23 +38,12 @@
    "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
   },
   {
-   "name": "v2-peau-voixC-nasillarde",
-   "voice": "C",
-   "sayBaseline": true,
-   "hook": "Quel est le plus grand organe du corps humain ?",
-   "choices": [
-    "La peau",
-    "Le foie",
-    "Le cœur"
-   ],
-   "correct": 0,
-   "answer": "La peau, parfaitement !",
-   "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
-   "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
-  },
-  {
-   "name": "v2-peau-voixD-nasillarde",
-   "voice": "D",
+   "name": "v3-3-reclame-extreme",
+   "pitch": 1.15,
+   "nasal": 13,
+   "stability": 0.0,
+   "cta": "youtube",
+   "voice": "A",
    "sayBaseline": true,
    "hook": "Quel est le plus grand organe du corps humain ?",
    "choices": [
@@ -65,5 +56,6 @@
    "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
    "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
   }
- ]
+ ],
+ "outroYoutube": "Ça vous a plu ? Abonnez-vous ! Chaque soir, le grand quiz vous attend sur la chaîne YouTube YouQwiz !"
 }
