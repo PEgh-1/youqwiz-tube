@@ -108,9 +108,9 @@ const outroText = SKIN.tu
 
 const N = sets[0].length, NTH = N === 2 ? "2e" : "3e";
 const SLOTS = [
-  { hour: "12 h", at: "12:20", title: dilemma ? `${N} dilemmes impossibles à trancher 🤯 Tu préfères… ? #Shorts` : `${N} ${noun}, de plus en plus durs : tu les as tous ? 🧐 #Shorts` },
-  { hour: "16 h", at: "16:20", title: dilemma ? `Tu préfères… ? ${N} choix, 3 secondes ⏱️ #Shorts` : `${N} ${noun}, 3 secondes chacun ⏱️ #Shorts` },
-  { hour: "19 h", at: "19:20", title: dilemma ? `Le ${NTH} dilemme divise tout le monde 😱 Tu préfères… ? #Shorts` : `Seuls les champions ont le ${NTH} 🏆 ${noun} #Shorts` },
+  { hour: "12 h", at: "12:00", title: dilemma ? `${N} dilemmes impossibles à trancher 🤯 Tu préfères… ? #Shorts` : `${N} ${noun}, de plus en plus durs : tu les as tous ? 🧐 #Shorts` },
+  { hour: "16 h", at: "16:00", title: dilemma ? `Tu préfères… ? ${N} choix, 3 secondes ⏱️ #Shorts` : `${N} ${noun}, 3 secondes chacun ⏱️ #Shorts` },
+  { hour: "19 h", at: "19:00", title: dilemma ? `Le ${NTH} dilemme divise tout le monde 😱 Tu préfères… ? #Shorts` : `Seuls les champions ont le ${NTH} 🏆 ${noun} #Shorts` },
 ];
 const report = [];
 for (const [k, set] of sets.entries()) {

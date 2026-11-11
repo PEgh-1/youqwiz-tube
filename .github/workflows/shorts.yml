@@ -2,7 +2,7 @@ name: Shorts extraits (quotidien)
 
 # Shorts extraits de l'épisode du jour (12/11/2026) : 3 Shorts rendus le matin même avec les gabarits par pilier
 # (scripts/short-v3.mjs), déposés en release « shorts-<date> » avec leur fiche data/shorts/<date>.json. La publication
-# (YouTube, Instagram, Facebook, TikTok à 12 h 20, 16 h 20 et 19 h 20) est programmée par la tâche planifiée Claude de midi
+# (YouTube, Instagram, Facebook, TikTok à 12 h, 16 h et 19 h) est programmée par la tâche planifiée Claude de midi
 # via Metricool, comme pour la Minute culture : aucun quota d'envoi YouTube consommé ici. Pilier émojis : pas de Short.
 on:
   schedule:
