@@ -17,7 +17,7 @@ export type Minute = {
   /** baseline dite à voix haute après le titre (sinon seulement en bandeau) */
   sayBaseline?: boolean;
   comment?: string;
-  voice?: { hook?: VoiceClip; title?: VoiceClip; choices?: VoiceClip; answer?: VoiceClip; fact?: VoiceClip; outro?: VoiceClip };
+  voice?: { hook?: VoiceClip; title?: VoiceClip; choices?: VoiceClip; answer?: VoiceClip; fact?: VoiceClip; outro?: VoiceClip; /** réponse + anecdote dites d'une traite (un seul clip `answer`) : seconde où commence l'anecdote */ answerSplit?: number };
 };
 
 const has = (k: string) => Boolean((audioManifest as Record<string, unknown>)[k]);
@@ -27,14 +27,15 @@ export const BASELINE = "Aujourd'hui, scroller va vous rendre plus malin";
 export const minuteTimeline = (m: Minute, fps: number) => {
   const s = (x: number) => Math.round(x * fps);
   const v = m.voice ?? {};
-  const hook = s((v.hook?.sec ?? 3) + 0.35);
-  const sting = s(Math.max(1.8, (v.title?.sec ?? 2.6) + 0.25));
-  const read = s((v.choices?.sec ?? 2.6) + 0.2);
+  const hook = s((v.hook?.sec ?? 3) + 0.2);
+  const sting = s(Math.max(1.8, (v.title?.sec ?? 2.6) + 0.15));
+  const read = s((v.choices?.sec ?? 2.6) + 0.1);
   const think = s(3);
-  const answerAt = s(0.25);
-  const factAt = answerAt + s((v.answer?.sec ?? 1.6) + 0.35);
-  const reveal = factAt + s((v.fact?.sec ?? 5) + 0.6);
-  const outro = s((v.outro?.sec ?? 4.5) + 0.9);
+  const answerAt = s(0.15);
+  const joined = v.answerSplit !== undefined && v.answer;
+  const factAt = answerAt + s(joined ? v.answerSplit! : (v.answer?.sec ?? 1.6) + 0.3);
+  const reveal = joined ? answerAt + s(v.answer!.sec + 0.45) : factAt + s((v.fact?.sec ?? 5) + 0.45);
+  const outro = s((v.outro?.sec ?? 4.5) + 0.8);
   const t0 = 0, t1 = hook, t2 = t1 + sting, t3 = t2 + read + think, t4 = t3 + reveal;
   return { hook: { from: t0, dur: hook }, sting: { from: t1, dur: sting }, choices: { from: t2, dur: read + think, read, think }, reveal: { from: t3, dur: reveal, answerAt, factAt }, outro: { from: t4, dur: outro }, total: t4 + outro };
 };

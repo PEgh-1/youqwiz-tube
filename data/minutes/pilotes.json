@@ -4,9 +4,66 @@
  "title": "La minute culture générale, offerte par YouQwiz point com !",
  "baseline": "Aujourd'hui, scroller va vous rendre plus malin !",
  "jobs": [
-  { "name": "pilote1-mercure-voixA", "voice": "A", "sayBaseline": true, "hook": "Quel métal est liquide à température ambiante ?", "choices": ["Le fer", "Le mercure", "L'or"], "correct": 1, "answer": "Le mercure, naturellement !", "fact": "Très toxique, il a disparu de nos thermomètres. Prudence !" },
-  { "name": "pilote1-mercure-voixB", "voice": "B", "sayBaseline": true, "hook": "Quel métal est liquide à température ambiante ?", "choices": ["Le fer", "Le mercure", "L'or"], "correct": 1, "answer": "Le mercure, naturellement !", "fact": "Très toxique, il a disparu de nos thermomètres. Prudence !" },
-  { "name": "pilote2-peau-voixA", "voice": "A", "hook": "Quel est le plus grand organe du corps humain ?", "choices": ["La peau", "Le foie", "Le cœur"], "correct": 0, "answer": "La peau, parfaitement !", "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !", "comment": "Vous aviez trouvé ? Dites-le en commentaire !" },
-  { "name": "pilote3-magellan-voixB", "voice": "B", "hook": "Qui est parti en 1519 pour faire le tour du monde ?", "choices": ["Christophe Colomb", "Magellan", "Vasco de Gama"], "correct": 1, "answer": "Magellan, bien sûr !", "fact": "Il n'acheva jamais le voyage : c'est son équipage qui boucla le tour du monde, en 1522.", "comment": "Colomb, Magellan… qui vous a piégé ? Dites-le en commentaire !" }
+  {
+   "name": "v2-peau-voixA-nasillarde",
+   "voice": "A",
+   "sayBaseline": true,
+   "hook": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "answer": "La peau, parfaitement !",
+   "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
+   "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
+  },
+  {
+   "name": "v2-peau-voixA-tres-nasillarde",
+   "voice": "A",
+   "pitch": 1.12,
+   "sayBaseline": true,
+   "hook": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "answer": "La peau, parfaitement !",
+   "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
+   "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
+  },
+  {
+   "name": "v2-peau-voixC-nasillarde",
+   "voice": "C",
+   "sayBaseline": true,
+   "hook": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "answer": "La peau, parfaitement !",
+   "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
+   "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
+  },
+  {
+   "name": "v2-peau-voixD-nasillarde",
+   "voice": "D",
+   "sayBaseline": true,
+   "hook": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "answer": "La peau, parfaitement !",
+   "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
+   "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
+  }
  ]
 }
