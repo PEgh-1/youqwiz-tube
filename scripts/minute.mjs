@@ -7,7 +7,8 @@ const conf = JSON.parse(readFileSync("data/minutes/pilotes.json", "utf8"));
 const only = process.argv.includes("--only") ? process.argv[process.argv.indexOf("--only") + 1] : null;
 const KEY = process.env.ELEVENLABS_API_KEY;
 const VOICES = { A: process.env.ELEVENLABS_VOICE_ID, B: process.env.MINUTE_VOICE_B || "JBFqnCBsd6RMkjVDRZzb", C: process.env.MINUTE_VOICE_C || "IKne3meq5aSn9XLyUdCD", D: process.env.MINUTE_VOICE_D || "TX3LPaxmHKxFdv7VOQHJ" };
-const TAG = process.env.MINUTE_TAG ?? "[very nasal, jolly, over-the-top cheerful 1930s French radio advertisement announcer, singsong, fast]";
+// Consigne de jeu en FRANÇAIS : avec une consigne en anglais, v3 disait « minute » à l'anglaise (« minite », 11/11/2026).
+const TAG = process.env.MINUTE_TAG ?? "[annonceur de réclame radio des années 30, voix nasillarde, très enjoué, débit rapide]";
 const sh = (c, o = {}) => execSync(c, { stdio: ["ignore", "pipe", "pipe"], timeout: 120_000, ...o }).toString();
 mkdirSync("out/minute", { recursive: true });
 mkdirSync("public/minute", { recursive: true });
