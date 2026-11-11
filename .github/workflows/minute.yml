@@ -1,0 +1,65 @@
+name: Minute culture (quotidien)
+
+# « La minute culture générale » : 2 Shorts par jour (matin, soir), rendus la veille à 16 h 10 UTC, déposés en release
+# « minute-<date> » avec leur fiche data/minutes/<date>.json. La publication (YouTube, Instagram, Facebook, TikTok) est
+# programmée par la tâche planifiée Claude du matin via Metricool : aucun quota d'envoi YouTube consommé ici.
+on:
+  schedule:
+    - cron: "10 16 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date de diffusion (YYYY-MM-DD, vide = demain)"
+        required: false
+
+concurrency:
+  group: minute-culture
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Dépendances (+ ffmpeg)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm ci
+          npx remotion browser ensure
+      - name: Sons
+        env:
+          MUSIC_URL: ""
+        run: node scripts/prepare-assets.mjs
+      - name: Voix + rendu des 2 minutes
+        id: render
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          REMOTION_CONCURRENCY: 2
+        run: |
+          D="${{ inputs.date }}"; [ -z "$D" ] && D=$(TZ=Europe/Paris date -d tomorrow +%F)
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+          node scripts/minute.mjs --date "$D"
+          ls out/minute/$D-1.mp4 out/minute/$D-2.mp4
+          grep -q "minute/$D-1-hook.mp3" out/minute/$D-1.json || { echo "::error::minute sans voix"; exit 1; }
+      - name: Release minute-<date>
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          D=${{ steps.render.outputs.date }}
+          gh release delete "minute-$D" -y --cleanup-tag 2>/dev/null || true
+          gh release create "minute-$D" out/minute/$D-*.mp4 --title "Minute culture $D" --notes "La minute culture générale du $D (relais réseaux)." --latest=false
+          gh release list --limit 100 --json tagName,createdAt --jq '.[] | select((.tagName | startswith("minute-")) and .createdAt < (now - 864000 | todate)) | .tagName' | xargs -r -n1 gh release delete -y --cleanup-tag
+      - name: Enregistrer la fiche du jour
+        run: |
+          git config user.name "youqwiz-bot"; git config user.email "bot@youqwiz.com"
+          git add data/minutes
+          git commit -m "minute culture : ${{ steps.render.outputs.date }}" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done

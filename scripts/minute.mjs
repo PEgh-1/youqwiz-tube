@@ -51,6 +51,34 @@ async function clip(text, voiceKey, file, pitch = PITCH, nasal = 8) {
   return { src: `minute/${file}.mp3`, sec, text };
 }
 
+// ---------- Production (11/11/2026) : node scripts/minute.mjs --date AAAA-MM-JJ → 2 minutes du jour (matin, soir) ----------
+// Sujet = thème du quiz du soir (banque de l'épisode de cette date), tiré des intermèdes « 3 choix » jamais utilisés ; fin
+// « chaîne YouTube ». Écrit data/minutes/<date>.json (titres, légendes, fichiers) lu par la tâche de publication (Metricool).
+const date = process.argv.includes("--date") ? process.argv[process.argv.indexOf("--date") + 1] : null;
+if (date) {
+  const rj = (f, d) => (existsSync(f) ? JSON.parse(readFileSync(f, "utf8")) : d);
+  const queue = rj("data/state/queue.json", { published: [] });
+  const entry = queue.published.filter((r) => r.date === date).at(-1);
+  const ep = entry ? rj(`data/episodes/${entry.id}.json`, null) : null;
+  const slug = ep?.bank ?? (entry ? entry.id.split("-").slice(3).join("-") : "culture-generale");
+  const usedFile = "data/minutes/used.json";
+  const used = rj(usedFile, {});
+  const pool = (b) => (rj(`data/interludes/${b}.json`, { items: [] }).items ?? []).filter((it) => it.type === "qcm3" && it.q.length <= 80 && it.fact.length <= 110 && !used[it.q]).map((it) => ({ ...it, bank: b }));
+  let items = pool(slug);
+  if (items.length < 2) items = items.concat(pool("culture-generale"));
+  let seed = [...date].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
+  const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
+  items = items.map((it) => [rnd(), it]).sort((x, y) => x[0] - y[0]).map((x) => x[1]).slice(0, 2);
+  const ANS = ["{a}, parfaitement !", "{a}, naturellement !", "{a}, bien sûr !", "Eh oui : {a} !"];
+  const bare = (t) => t.replace(/^(Le |La |Les |L')/, (m) => m);
+  conf.jobs = items.map((it, i) => ({ name: `${date}-${i + 1}`, voice: "A", sayBaseline: true, cta: "youtube", hook: it.q, choices: it.choices, correct: it.correct, answer: ANS[Math.floor(rnd() * ANS.length)].replace("{a}", bare(it.choices[it.correct])), fact: it.fact, bank: it.bank }));
+  for (const it of items) used[it.q] = date;
+  writeFileSync(usedFile, JSON.stringify(used, null, 1) + "\n");
+  const tags = ["culturegenerale", "quiz", "lesaviezvous", "minuteculture", "youqwiz", "shorts"];
+  writeFileSync(`data/minutes/${date}.json`, JSON.stringify({ date, episode: entry?.id ?? null, longId: entry?.longId ?? null, minutes: conf.jobs.map((j, i) => ({ slot: i + 1, file: `${j.name}.mp4`, url: `https://github.com/PEgh-1/youqwiz-tube/releases/download/minute-${date}/${j.name}.mp4`, question: j.hook, answer: j.choices[j.correct], title: `La minute culture générale : ${j.hook}`.slice(0, 92), caption: `🎙️ La minute culture générale, offerte par YouQwiz.com\n${j.hook}\nA) ${j.choices[0]}  B) ${j.choices[1]}  C) ${j.choices[2]}\n\nVous en voulez encore ? Abonnez-vous : chaque soir à 17 h 30, le grand quiz sur la chaîne YouTube YouQwiz. Tous nos quiz, gratuits : youqwiz.com`, hashtags: tags })) }, null, 1) + "\n");
+  console.log(`minutes du ${date} : thème ${slug}, ${conf.jobs.length} sujets`);
+}
+
 for (const j of conf.jobs) {
   if (only && j.name !== only) continue;
   console.log(`▶ ${j.name}`);
