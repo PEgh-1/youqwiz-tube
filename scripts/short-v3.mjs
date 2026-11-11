@@ -42,7 +42,8 @@ const by = Object.fromEntries(LV.map((l) => [l, []]));
 ep.items.forEach((_, i) => by[levelOf(i)].push(i));
 const spread = (list, c) => Array.from({ length: c }, (_, j) => list[Math.min(list.length - 1, Math.floor(((j + 0.5) * list.length) / c))]);
 const P = { facile: spread(by.facile, 3), difficile: spread(by.difficile.length ? by.difficile : by.moyen, 3), impossible: spread(by.impossible.length ? by.impossible : by.difficile, 3) };
-const sets = [0, 1, 2].map((k) => [[P.facile[k], "facile"], [P.difficile[k], "difficile"], [P.impossible[k], "impossible"]].filter(([i]) => i !== undefined));
+// 12/11/2026 : « T'as connu ça ? » (générations) passe à 2 questions par Short (54 s à 3 questions, trop près de la limite de 59 s).
+const sets = [0, 1, 2].map((k) => [[P.facile[k], "facile"], [P.difficile[k], "difficile"], [P.impossible[k], "impossible"]].filter(([i]) => i !== undefined).slice(0, skin === "album" ? 2 : 3));
 
 let seed = [...ep.id].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
 const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
@@ -105,10 +106,11 @@ const outroText = SKIN.tu
   ? "Tu en veux encore ? Abonne-toi ! Chaque soir, le grand quiz t'attend sur la chaîne YouTube YouQwiz, et sur YouQwiz point com !"
   : "Vous en voulez encore ? Abonnez-vous ! Chaque soir, le grand quiz vous attend sur la chaîne YouTube YouQwiz, et sur YouQwiz point com !";
 
+const N = sets[0].length, NTH = N === 2 ? "2e" : "3e";
 const SLOTS = [
-  { hour: "12 h", title: dilemma ? `3 dilemmes impossibles à trancher 🤯 Tu préfères… ? #Shorts` : `3 ${noun}, de plus en plus durs : tu as les trois ? 🧐 #Shorts` },
-  { hour: "16 h", title: dilemma ? `Tu préfères… ? 3 choix, 3 secondes ⏱️ #Shorts` : `3 ${noun}, 3 secondes chacun ⏱️ #Shorts` },
-  { hour: "19 h", title: dilemma ? `Le 3e dilemme divise tout le monde 😱 Tu préfères… ? #Shorts` : `Seuls les champions ont le 3e 🏆 ${noun} #Shorts` },
+  { hour: "12 h", at: "12:20", title: dilemma ? `${N} dilemmes impossibles à trancher 🤯 Tu préfères… ? #Shorts` : `${N} ${noun}, de plus en plus durs : tu les as tous ? 🧐 #Shorts` },
+  { hour: "16 h", at: "16:20", title: dilemma ? `Tu préfères… ? ${N} choix, 3 secondes ⏱️ #Shorts` : `${N} ${noun}, 3 secondes chacun ⏱️ #Shorts` },
+  { hour: "19 h", at: "19:20", title: dilemma ? `Le ${NTH} dilemme divise tout le monde 😱 Tu préfères… ? #Shorts` : `Seuls les champions ont le ${NTH} 🏆 ${noun} #Shorts` },
 ];
 const report = [];
 for (const [k, set] of sets.entries()) {
@@ -143,3 +145,16 @@ for (const [k, set] of sets.entries()) {
   report.push({ slot: k + 1, hour: SLOTS[k].hour, skin, file: `${name}.mp4`, seconds: sec, title: SLOTS[k].title.slice(0, 100), questions: items.map((it, j) => ({ n: set[j][0] + 1, level: it.level, choices: it.choices, answer: it.answer })) });
 }
 writeFileSync(`out/short-v3/${ep.id}.json`, JSON.stringify({ episode: ep.id, shorts: report }, null, 1) + "\n");
+// Production (12/11/2026) : --date <AAAA-MM-JJ> écrit la fiche data/shorts/<date>.json lue par la tâche planifiée Claude de midi,
+// qui programme les Shorts via Metricool (YouTube, Instagram, Facebook, TikTok), comme pour la Minute culture.
+const date = arg("date");
+if (date && !only && report.length) {
+  const tags = ["quiz", "quizfrancais", "youqwiz", bank.replaceAll("-", ""), dilemma ? "tupreferes" : "culturegenerale"];
+  mkdirSync("data/shorts", { recursive: true });
+  writeFileSync(`data/shorts/${date}.json`, JSON.stringify({ date, episode: ep.id, longId: arg("long") || null, skin, shorts: report.map((r, k) => {
+    const title = r.title.replace(/\s*#Shorts$/i, "");
+    return { slot: r.slot, at: SLOTS[k].at, file: r.file, url: `https://github.com/PEgh-1/youqwiz-tube/releases/download/shorts-${date}/${r.file}`, seconds: Math.round(r.seconds), title,
+      caption: `${title}\n\nLe grand quiz complet (${ep.items.length} questions) ce soir à 17 h 30 sur la chaîne YouTube YouQwiz 🎬 et sur youqwiz.com`, hashtags: tags };
+  }) }, null, 1) + "\n");
+  console.log(`fiche : data/shorts/${date}.json`);
+}

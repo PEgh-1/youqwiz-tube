@@ -1,0 +1,75 @@
+name: Shorts extraits (quotidien)
+
+# Shorts extraits de l'épisode du jour (12/11/2026) : 3 Shorts rendus le matin même avec les gabarits par pilier
+# (scripts/short-v3.mjs), déposés en release « shorts-<date> » avec leur fiche data/shorts/<date>.json. La publication
+# (YouTube, Instagram, Facebook, TikTok à 12 h 20, 16 h 20 et 19 h 20) est programmée par la tâche planifiée Claude de midi
+# via Metricool, comme pour la Minute culture : aucun quota d'envoi YouTube consommé ici. Pilier émojis : pas de Short.
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date de diffusion (YYYY-MM-DD, vide = aujourd'hui)"
+        required: false
+
+concurrency:
+  group: shorts-extraits
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Dépendances (+ ffmpeg)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm ci
+          npx remotion browser ensure
+      - name: Sons
+        env:
+          MUSIC_URL: ""
+        run: |
+          node scripts/prepare-assets.mjs
+          [ -f public/audio/crackle.mp3 ] || ffmpeg -y -nostdin -loglevel error -f lavfi -i "anoisesrc=c=pink:a=0.05:d=20" -af "highpass=f=1200,lowpass=f=4500,volume=0.35" -b:a 96k public/audio/crackle.mp3
+          node -e 'const f="src/audio.json",m=JSON.parse(require("fs").readFileSync(f));m.crackle=true;require("fs").writeFileSync(f,JSON.stringify(m,null,2)+"\n")'
+      - name: Voix + rendu des 3 Shorts
+        id: render
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          REMOTION_CONCURRENCY: 2
+        run: |
+          D="${{ inputs.date }}"; [ -z "$D" ] && D=$(TZ=Europe/Paris date +%F)
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+          read -r ID LONG <<< "$(D=$D node -e 'const q=require("./data/state/queue.json");const e=(q.published||[]).filter(r=>r.date===process.env.D).pop();console.log(e?e.id+" "+(e.longId||""):"")')"
+          if [ -z "$ID" ]; then echo "::warning::pas d'épisode programmé le $D"; echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          node scripts/short-v3.mjs --episode "data/episodes/$ID.json" --date "$D" --long "$LONG"
+          C=$(ls out/short-v3/$ID-*.mp4 2>/dev/null | wc -l); echo "count=$C" >> "$GITHUB_OUTPUT"; echo "id=$ID" >> "$GITHUB_OUTPUT"
+          [ "$C" = "0" ] && exit 0
+          [ -f "data/shorts/$D.json" ] || { echo "::error::fiche absente"; exit 1; }
+          grep -q '"src":"short-v3/' "out/short-v3/$ID-1.json" || { echo "::error::Short sans voix"; exit 1; }
+      - name: Release shorts-<date>
+        if: ${{ steps.render.outputs.count != '0' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          D=${{ steps.render.outputs.date }}
+          gh release delete "shorts-$D" -y --cleanup-tag 2>/dev/null || true
+          gh release create "shorts-$D" out/short-v3/${{ steps.render.outputs.id }}-*.mp4 --title "Shorts extraits $D" --notes "Shorts extraits du $D (${{ steps.render.outputs.id }}), publiés via Metricool." --latest=false
+          gh release list --limit 100 --json tagName,createdAt --jq '.[] | select((.tagName | startswith("shorts-")) and .createdAt < (now - 864000 | todate)) | .tagName' | xargs -r -n1 gh release delete -y --cleanup-tag
+      - name: Enregistrer la fiche du jour
+        if: ${{ steps.render.outputs.count != '0' }}
+        run: |
+          git config user.name "youqwiz-bot"; git config user.email "bot@youqwiz.com"
+          git add data/shorts
+          git commit -m "shorts extraits : ${{ steps.render.outputs.date }}" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
