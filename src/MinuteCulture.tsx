@@ -1,6 +1,6 @@
 // « La minute culture générale, offerte par YouQwiz.com » (pilote du 11/11/2026) : Short 9:16 quotidien façon réclame des
 // années 30-40. Déroulé : accroche (la question, tout de suite) → virgule sonore avec le titre → 3 choix + décompte « amorce de
-// film » → réponse + anecdote → « Ça vous a plu ? … YouQwiz.com ». Habillage : papier crème, rayons, grain, rayures, vignette.
+// film » → réponse + anecdote → « Vous en voulez encore ? … YouQwiz.com ». Habillage : papier crème, rayons, grain, rayures, vignette.
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import audioManifest from "./audio.json";
@@ -204,7 +204,7 @@ const Outro: React.FC<{ m: Minute }> = ({ m }) => {
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", top: 400, left: 60, right: 60, transform: `scale(${a}) rotate(-3deg)` }}>
-        <div style={poster(124, RED, BROWN)}>Ça vous a plu ?</div>
+        <div style={poster(104, RED, BROWN)}>{nb("Vous en voulez encore ?")}</div>
       </div>
       <div style={{ position: "absolute", top: 640, left: 80, right: 80, opacity: a }}>
         <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: 52, color: BROWN, textAlign: "center", lineHeight: 1.15 }}>{yt ? "Chaque soir à 17 h 30, le grand quiz sur" : "Retrouvez nos derniers quiz sur"}</div>
