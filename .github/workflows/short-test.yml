@@ -1,0 +1,48 @@
+# Pilotes des Shorts extraits v3 « Le quiz express » : rend les 3 Shorts d'un épisode (voix réelle) sans rien mettre en ligne.
+name: Shorts v3 (pilotes)
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Identifiant d'épisode (ex. 2026-11-12-pays-sans-voyelles)"
+        required: true
+        type: string
+concurrency:
+  group: short-test
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Dépendances (+ ffmpeg)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm ci
+          npx remotion browser ensure
+      - name: Sons
+        env:
+          MUSIC_URL: ""
+        run: |
+          node scripts/prepare-assets.mjs
+          [ -f public/audio/crackle.mp3 ] || ffmpeg -y -nostdin -loglevel error -f lavfi -i "anoisesrc=c=pink:a=0.05:d=20" -af "highpass=f=1200,lowpass=f=4500,volume=0.35" -b:a 96k public/audio/crackle.mp3
+          node -e 'const f="src/audio.json",m=JSON.parse(require("fs").readFileSync(f));m.crackle=true;require("fs").writeFileSync(f,JSON.stringify(m,null,2)+"\n")'
+      - name: Voix + rendu
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          REMOTION_CONCURRENCY: 2
+        run: node scripts/short-v3.mjs --episode "data/episodes/${{ inputs.episode }}.json"
+      - name: Pré-release de contrôle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete test-short-v3 -y --cleanup-tag 2>/dev/null || true
+          gh release create test-short-v3 out/short-v3/*.mp4 out/short-v3/${{ inputs.episode }}.json --title "TEST Shorts v3 — ${{ inputs.episode }}" --notes "Pilotes « Le quiz express », rien n'est publié. À supprimer après contrôle." --prerelease --latest=false

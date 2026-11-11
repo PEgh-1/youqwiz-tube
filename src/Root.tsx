@@ -7,6 +7,8 @@ import { Avatar, Banner, TRAILER_FRAMES, Trailer, Watermark } from "./Channel";
 import { Intrus } from "./Intrus";
 import { MinuteCulture, minuteTimeline } from "./MinuteCulture";
 import type { Minute } from "./MinuteCulture";
+import { ShortReclame, reclameTimeline } from "./ShortReclame";
+import type { Reclame } from "./ShortReclame";
 import { QuizQCM } from "./QuizQCM";
 import { Versus } from "./Versus";
 import cultureSample from "../data/episodes/sample-culture.json";
@@ -56,6 +58,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="QuizQCMShort" component={QuizQCM} fps={FPS} width={1080} height={1920} durationInFrames={300} defaultProps={{ episode: cultureEpisode, vertical: true }} calculateMetadata={({ props }) => ({ durationInFrames: buildTimeline(props.episode, FPS, SHORT(props.episode)).total })} />
     {/* « La minute culture générale » : Short quotidien façon réclame des années 30-40 (pilote 11/11/2026) */}
     <Composition id="MinuteCulture" component={MinuteCulture} fps={FPS} width={1080} height={1920} durationInFrames={900} defaultProps={{ minute: { id: "exemple", hook: "Quel métal est liquide à température ambiante ?", choices: ["Le fer", "Le mercure", "L'or"], correct: 1, fact: "Très toxique, il a disparu de nos thermomètres. Prudence !" } as Minute }} calculateMetadata={({ props }) => ({ durationInFrames: minuteTimeline(props.minute, FPS).total })} />
+    {/* Shorts extraits v3 « Le quiz express » : 5 questions qui montent, univers réclame (11/11/2026) */}
+    <Composition id="ShortReclame" component={ShortReclame} fps={FPS} width={1080} height={1920} durationInFrames={900} defaultProps={{ reclame: { id: "exemple", noun: "pays sans voyelles", question: "Quel est ce pays ?", dare: "Irez-vous jusqu'au bout ?", items: [{ prompt: { type: "text", value: "_T_L__" }, answer: "Italie", level: "facile" }], outro: { head: "Combien sur 5 ?", sub: "Dites-le en commentaire !" } } as Reclame }} calculateMetadata={({ props }) => ({ durationInFrames: reclameTimeline(props.reclame, FPS).total })} />
     {/* Miniatures (2 variantes pour le test A/B YouTube) */}
     <Still id="ThumbA" component={Thumbnail} width={1280} height={720} defaultProps={{ episode: defaultEpisode, variant: 0 }} />
     <Still id="ThumbB" component={Thumbnail} width={1280} height={720} defaultProps={{ episode: defaultEpisode, variant: 1 }} />

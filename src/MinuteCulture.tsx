@@ -23,7 +23,7 @@ export type Minute = {
 };
 
 const has = (k: string) => Boolean((audioManifest as Record<string, unknown>)[k]);
-const CREAM = "#F4E7C6", PAPER = "#EBD9AE", BROWN = "#2B1B12", RED = "#C8372D", MUSTARD = "#E0A526", TEAL = "#1F6F78";
+export const CREAM = "#F4E7C6", PAPER = "#EBD9AE", BROWN = "#2B1B12", RED = "#C8372D", MUSTARD = "#E0A526", TEAL = "#1F6F78";
 export const BASELINE = "Aujourd'hui, scroller va vous rendre plus malin";
 
 export const minuteTimeline = (m: Minute, fps: number) => {
@@ -43,7 +43,7 @@ export const minuteTimeline = (m: Minute, fps: number) => {
 };
 
 // ---------- décor ----------
-const Rays: React.FC = () => {
+export const Rays: React.FC = () => {
   const frame = useCurrentFrame();
   const n = 24;
   return (
@@ -54,7 +54,7 @@ const Rays: React.FC = () => {
   );
 };
 // Grain, rayures verticales, poussières et scintillement de vieux film (au-dessus de tout).
-const FilmWear: React.FC = () => {
+export const FilmWear: React.FC = () => {
   const frame = useCurrentFrame();
   const r = (k: number) => { const x = Math.sin((Math.floor(frame / 2) + 1) * 12.9898 * (k + 1)) * 43758.5453; return x - Math.floor(x); };
   const flick = 0.04 + r(1) * 0.05;
@@ -71,7 +71,7 @@ const FilmWear: React.FC = () => {
     </AbsoluteFill>
   );
 };
-const poster = (size: number, color = BROWN, shadow = MUSTARD): React.CSSProperties => ({ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: size, color, lineHeight: 1.02, textTransform: "uppercase", letterSpacing: 1, textShadow: `5px 5px 0 ${shadow}`, textAlign: "center" });
+export const poster = (size: number, color = BROWN, shadow = MUSTARD): React.CSSProperties => ({ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: size, color, lineHeight: 1.02, textTransform: "uppercase", letterSpacing: 1, textShadow: `5px 5px 0 ${shadow}`, textAlign: "center" });
 // Bandeau permanent du haut : le titre de la rubrique.
 const Masthead: React.FC<{ big?: number }> = () => (
   <div style={{ position: "absolute", top: 150, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
@@ -79,13 +79,13 @@ const Masthead: React.FC<{ big?: number }> = () => (
     <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontSize: 32, color: BROWN, fontStyle: "italic", marginTop: 6 }}>offerte par <b style={{ color: RED, fontStyle: "normal" }}>YouQwiz.com</b></div>
   </div>
 );
-const BaselineBar: React.FC = () => (
+export const BaselineBar: React.FC = () => (
   <div style={{ position: "absolute", bottom: 290, left: 60, right: 60, display: "flex", justifyContent: "center" }}>
     <div style={{ fontFamily: FONT_BODY, fontWeight: 600, fontStyle: "italic", fontSize: 34, color: CREAM, background: BROWN, padding: "10px 30px", borderRadius: 40, border: `4px solid ${MUSTARD}`, textAlign: "center" }}>{`«\u00a0${BASELINE}\u00a0»`}</div>
   </div>
 );
-const nb = (t: string) => t.replace(/ ([?!:;»])/g, "\u00a0$1").replace(/« /g, "«\u00a0");
-const Sepia: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => <div style={{ filter: "sepia(0.65) saturate(0.85) contrast(1.05)", ...style }}>{children}</div>;
+export const nb = (t: string) => t.replace(/ ([?!:;»])/g, "\u00a0$1").replace(/« /g, "«\u00a0");
+export const Sepia: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => <div style={{ filter: "sepia(0.65) saturate(0.85) contrast(1.05)", ...style }}>{children}</div>;
 
 // ---------- scènes ----------
 const Hook: React.FC<{ m: Minute }> = ({ m }) => {
