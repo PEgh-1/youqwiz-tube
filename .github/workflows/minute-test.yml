@@ -1,0 +1,42 @@
+name: Minute culture (pilotes)
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: minute-test
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Dépendances (+ ffmpeg)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          npm ci
+          npx remotion browser ensure
+      - name: Sons
+        env:
+          MUSIC_URL: ""
+        run: node scripts/prepare-assets.mjs
+      - name: Voix + rendu des pilotes
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          REMOTION_CONCURRENCY: 2
+        run: node scripts/minute.mjs
+      - name: Pré-release de contrôle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete test-minute -y --cleanup-tag 2>/dev/null || true
+          gh release create test-minute out/minute/*.mp4 --title "TEST minute culture" --notes "Pilotes « La minute culture générale » (branche ${{ github.ref_name }}), à supprimer." --prerelease --latest=false

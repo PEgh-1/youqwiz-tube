@@ -5,6 +5,8 @@ import { Thumbnail } from "./Thumbnail";
 import { Mockup } from "./Mockups";
 import { Avatar, Banner, TRAILER_FRAMES, Trailer, Watermark } from "./Channel";
 import { Intrus } from "./Intrus";
+import { MinuteCulture, minuteTimeline } from "./MinuteCulture";
+import type { Minute } from "./MinuteCulture";
 import { QuizQCM } from "./QuizQCM";
 import { Versus } from "./Versus";
 import cultureSample from "../data/episodes/sample-culture.json";
@@ -52,6 +54,8 @@ export const RemotionRoot: React.FC = () => (
     {/* QCM (culture générale, générations) */}
     <Composition id="QuizQCM" component={QuizQCM} fps={FPS} width={1920} height={1080} durationInFrames={300} defaultProps={{ episode: cultureEpisode, vertical: false }} calculateMetadata={({ props }) => ({ durationInFrames: buildTimeline(props.episode, FPS).total })} />
     <Composition id="QuizQCMShort" component={QuizQCM} fps={FPS} width={1080} height={1920} durationInFrames={300} defaultProps={{ episode: cultureEpisode, vertical: true }} calculateMetadata={({ props }) => ({ durationInFrames: buildTimeline(props.episode, FPS, SHORT(props.episode)).total })} />
+    {/* « La minute culture générale » : Short quotidien façon réclame des années 30-40 (pilote 11/11/2026) */}
+    <Composition id="MinuteCulture" component={MinuteCulture} fps={FPS} width={1080} height={1920} durationInFrames={900} defaultProps={{ minute: { id: "exemple", hook: "Quel métal est liquide à température ambiante ?", choices: ["Le fer", "Le mercure", "L'or"], correct: 1, fact: "Très toxique, il a disparu de nos thermomètres. Prudence !" } as Minute }} calculateMetadata={({ props }) => ({ durationInFrames: minuteTimeline(props.minute, FPS).total })} />
     {/* Miniatures (2 variantes pour le test A/B YouTube) */}
     <Still id="ThumbA" component={Thumbnail} width={1280} height={720} defaultProps={{ episode: defaultEpisode, variant: 0 }} />
     <Still id="ThumbB" component={Thumbnail} width={1280} height={720} defaultProps={{ episode: defaultEpisode, variant: 1 }} />
