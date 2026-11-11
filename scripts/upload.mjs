@@ -101,6 +101,8 @@ if (!dry) {
     pending.playlist = true;
     savePending();
   }
+  // 11/11/2026 : rotation.shortsPaused = Shorts extraits suspendus (refonte v3 « réclame ») : la longue part seule.
+  if (!rotation.shortsPaused) {
   // Titre et description du Short variables (03/11/2026) : tirés dans generate.mjs, repli sur l'ancienne formule.
   const shortTitle = (ep.meta.shortTitle ?? `99 % échouent à la 8e 😱 ${ep.intro.hook} #Shorts`).slice(0, 100); // repli FR (épisodes d'avant le 03/11/2026)
   const shortDescription = (ep.meta.shortDescription ?? `La réponse + {n} questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz`)
@@ -143,6 +145,7 @@ if (!dry) {
       try { await yt.playlistItems.insert({ part: ["snippet"], requestBody: { snippet: { playlistId: SHORTS_PLAYLIST_ID, resourceId: { kind: "youtube#video", videoId: result.shortId3 } } } }); } catch (e) { console.warn(`playlist shorts (3) : ${e.message}`); }
     }
   }
+  } else console.log("Shorts extraits suspendus (rotation.shortsPaused) : aucun Short envoyé");
   console.log(`envoyé : longue ${result.longId} · short ${result.shortId}${result.shortId2 ? ` · short 2 ${result.shortId2}` : ""}${result.shortId3 ? ` · short 3 ${result.shortId3}` : ""}`);
 }
 

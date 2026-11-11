@@ -1,0 +1,30 @@
+# Suspend des vidéos programmées : elles restent privées, sans date de publication (rien n'est supprimé).
+# 11/11/2026 : créé pour retenir les Shorts extraits pendant la refonte v3.
+name: Suspendre des vidéos programmées
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Identifiants YouTube séparés par des espaces"
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  hold:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund --ignore-scripts
+      - name: Passer en privé sans date
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          for id in ${{ inputs.ids }}; do node scripts/hold-video.mjs "$id"; done
