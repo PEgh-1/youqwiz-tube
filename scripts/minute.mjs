@@ -64,6 +64,7 @@ if (date) {
   const slug = ep?.bank ?? (entry ? entry.id.split("-").slice(3).join("-") : "culture-generale");
   const usedFile = "data/minutes/used.json";
   const used = rj(usedFile, {});
+  for (const k of Object.keys(used)) if (used[k] === date) delete used[k]; // re-rendu du même jour : mêmes sujets
   const pool = (b) => (rj(`data/interludes/${b}.json`, { items: [] }).items ?? []).filter((it) => it.type === "qcm3" && it.q.length <= 80 && it.fact.length <= 110 && !used[it.q]).map((it) => ({ ...it, bank: b }));
   let items = pool(slug);
   if (items.length < 2) items = items.concat(pool("culture-generale"));
