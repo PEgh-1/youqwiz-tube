@@ -1,6 +1,8 @@
-// Shorts extraits v3 « Le quiz express » (11/11/2026) : 3 Shorts par épisode, 5 questions chacun en difficulté croissante
-// (1 facile, 2 moyennes, 1 difficile, 1 « champions »), jamais deux fois la même question. Voix réclame (même traitement que la Minute).
-// Usage : node scripts/short-v3.mjs --episode data/episodes/<id>.json [--only 1]   → out/short-v3/<id>-<n>.mp4 + <id>.json (titres)
+// Shorts extraits v3 (11/11/2026) : la mécanique de « La minute culture générale » appliquée à l'épisode du jour.
+// 3 Shorts par épisode, 3 questions chacun (facile → difficile → champions), jamais deux fois la même question ; chaque question :
+// dite tout de suite, 3 propositions lues une à une sur un ton interrogatif, décompte 3 s, réponse (+ anecdote d'une traite).
+// Un habillage et un ton de voix par pilier : réclame (culture générale, comme la Minute), plateau (devine), pop (émojis), duel (choix).
+// Usage : node scripts/short-v3.mjs --episode data/episodes/<id>.json [--only 1]   → out/short-v3/<id>-<n>.mp4 + <id>.json
 import { execSync } from "node:child_process";
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
@@ -8,89 +10,132 @@ const arg = (k, d) => (process.argv.includes(`--${k}`) ? process.argv[process.ar
 const ep = JSON.parse(readFileSync(arg("episode"), "utf8"));
 const only = arg("only") ? Number(arg("only")) : null;
 const KEY = process.env.ELEVENLABS_API_KEY, VOICE = process.env.ELEVENLABS_VOICE_ID;
-const TAG = "[annonceur de réclame radio des années 30, voix nasillarde, très enjoué, débit rapide]";
 const sh = (c) => execSync(c, { stdio: ["ignore", "pipe", "pipe"], timeout: 120_000 }).toString();
 mkdirSync("out/short-v3", { recursive: true });
 mkdirSync(`public/short-v3/${ep.id}`, { recursive: true });
 
-// Nom lu et affiché après « Cinq … » ; consigne courte affichée au-dessus de la carte.
 const bank = ep.bank ?? ep.id.split("-").slice(3).join("-");
-const BANKS = {
-  "pays-sans-voyelles": ["pays sans voyelles", "Quel est ce pays ?"], drapeaux: ["drapeaux", "Quel est ce pays ?"], animaux: ["animaux", "Quel est cet animal ?"],
-  "fruits-legumes": ["fruits et légumes", "Qu'est-ce que c'est ?"], alphabet: ["défis de l'alphabet", "Trouvez-en un !"], maths: ["calculs de tête", "Combien ça fait ?"],
-  "culture-generale": ["questions de culture générale", ""], vocabulaire: ["mots rares", ""], acronymes: ["sigles à décoder", ""], generations: ["souvenirs d'autrefois", ""], noel: ["questions de Noël", ""],
-  "films-emojis": ["films en émojis", "Quel est ce film ?"], "mots-emojis": ["mots en émojis", "Quel mot se cache ici ?"], "tu-preferes": ["dilemmes", ""],
-};
-const [noun, question] = BANKS[bank] ?? ["questions", ep.question ?? ""];
 const dilemma = ep.items[0].prompt.type === "choices";
+const skin = dilemma ? "duel" : ep.pillar === "emojis" || /emojis/.test(bank) ? "pop" : ep.items[0].prompt.type === "qcm" ? "reclame" : "plateau";
+// Textes LUS : orthographe phonétique voulue (« YouQwiz point com »), consigne de jeu en FRANÇAIS (sinon v3 prononce à l'anglaise).
+const SKIN = {
+  reclame: { tu: false, tag: "[annonceur de réclame radio des années 30, voix nasillarde, très enjoué, débit rapide]", title: "Le quiz express ! Offert par YouQwiz point com !", retro: true },
+  plateau: { tu: true, tag: "[animateur de jeu télévisé, très enjoué, dynamique, sourire dans la voix]", title: "Le défi du jour ! Offert par YouQwiz point com !" },
+  pop: { tu: true, tag: "[ton joueur et complice, amusé, plein d'entrain]", title: "Décode les émojis ! Offert par YouQwiz point com !" },
+  duel: { tu: true, tag: "[ton malicieux et taquin, enjoué]", title: "Le dilemme du jour ! Offert par YouQwiz point com !" },
+}[skin];
+const ASK = {
+  "pays-sans-voyelles": "Quel est ce pays sans voyelles ?", drapeaux: "À quel pays appartient ce drapeau ?", animaux: "Quel est cet animal ?", "fruits-legumes": "Quel est ce fruit ou ce légume ?",
+  maths: "Combien ça fait ?", "films-emojis": "Quel film se cache ici ?", "mots-emojis": "Quel mot se cache ici ?",
+}[bank] ?? ep.question ?? "";
+const NEXT = SKIN.tu ? ["", "Et celui-ci ?", "Et pour les champions ?"] : ["", "Et celui-ci ?", "Et pour les champions ?"];
+const noun = { "pays-sans-voyelles": "pays sans voyelles", drapeaux: "drapeaux", animaux: "animaux", "fruits-legumes": "fruits et légumes", maths: "calculs de tête", alphabet: "défis de l'alphabet", "culture-generale": "questions de culture générale", vocabulaire: "mots rares", acronymes: "sigles", generations: "souvenirs d'autrefois", noel: "questions de Noël", "films-emojis": "films en émojis", "mots-emojis": "mots en émojis", "tu-preferes": "dilemmes" }[bank] ?? "questions";
 
-// ---------- tirage : 3 séries disjointes de 5, du plus facile au plus dur ----------
+// ---------- tirage : 3 séries disjointes (facile, difficile, champions) ----------
 const LV = ["facile", "moyen", "difficile", "impossible"];
 const n = ep.items.length;
 const levelOf = (i) => ep.items[i].level ?? LV[Math.min(3, Math.floor((i / n) * 4))];
 const by = Object.fromEntries(LV.map((l) => [l, []]));
 ep.items.forEach((_, i) => by[levelOf(i)].push(i));
 const spread = (list, c) => Array.from({ length: c }, (_, j) => list[Math.min(list.length - 1, Math.floor(((j + 0.5) * list.length) / c))]);
-const picks = { facile: spread(by.facile, 3), moyen: spread(by.moyen, 6), difficile: spread(by.difficile, 3), impossible: spread(by.impossible, 3) };
-const sets = [0, 1, 2].map((k) => [[picks.facile[k], "facile"], [picks.moyen[2 * k], "moyen"], [picks.moyen[2 * k + 1], "moyen"], [picks.difficile[k], "difficile"], [picks.impossible[k], "impossible"]].filter(([i]) => i !== undefined));
+const P = { facile: spread(by.facile, 3), difficile: spread(by.difficile.length ? by.difficile : by.moyen, 3), impossible: spread(by.impossible.length ? by.impossible : by.difficile, 3) };
+const sets = [0, 1, 2].map((k) => [[P.facile[k], "facile"], [P.difficile[k], "difficile"], [P.impossible[k], "impossible"]].filter(([i]) => i !== undefined));
 
-// ---------- voix (ElevenLabs v3, timbre réclame ; sans clé : rendu muet aux durées par défaut) ----------
+let seed = [...ep.id].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
+const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
+const shuffle = (a) => a.map((v) => [rnd(), v]).sort((x, y) => x[0] - y[0]).map((x) => x[1]);
+// 3 propositions : la bonne + 2 fausses plausibles (autres réponses de l'épisode, de longueur voisine ; nombres proches en calcul).
+const taken = new Set(); // une fausse proposition ne sert qu'une fois par épisode, et jamais une réponse des 3 Shorts
+const setAnswers = new Set(sets.flat().map(([i]) => ep.items[i].answer));
+const num = (a) => (/^-?[\d\s\u202f\u00a0]+([.,]\d+)?$/.test(a) ? Number(a.replace(/[\s\u202f\u00a0]/g, "").replace(",", ".")) : null);
+const fmt = (v) => String(v).replace(".", ",").replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+function propositions(i) {
+  const it = ep.items[i], p = it.prompt;
+  if (p.type === "choices" || p.type === "letter") return {};
+  let wrong;
+  if (p.type === "qcm") wrong = shuffle(p.choices.filter((_, k) => k !== p.correct)).slice(0, 2);
+  else if (num(it.answer) !== null) { const v = num(it.answer), d = v >= 1000 ? 100 : 10; wrong = shuffle([v + d, v - d, v + 1, v - 1, v + 2, v + d / 10 * 2].filter((w) => w !== v && w >= 0)).slice(0, 2).map(fmt); }
+  else {
+    const pool = [...new Set(ep.items.map((o) => o.answer))].filter((a) => a && a !== it.answer && !taken.has(a) && !setAnswers.has(a));
+    wrong = shuffle(shuffle(pool).sort((a, b) => Math.abs(a.length - it.answer.length) - Math.abs(b.length - it.answer.length)).slice(0, 6)).slice(0, 2);
+    wrong.forEach((w) => taken.add(w));
+  }
+  const right = p.type === "qcm" ? p.choices[p.correct] : it.answer;
+  const choices = shuffle([right, ...wrong]);
+  return { choices, correct: choices.indexOf(right) };
+}
+
+// ---------- voix (ElevenLabs v3, repli multilingual_v2 ; sans clé : rendu muet aux durées par défaut) ----------
 async function tts(text, model) {
   const ctl = new AbortController();
   const timer = setTimeout(() => ctl.abort(), 60_000);
   try {
     const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOICE}?output_format=mp3_44100_128`, { method: "POST", signal: ctl.signal, headers: { "xi-api-key": KEY, "content-type": "application/json" },
-      body: JSON.stringify({ text: model === "eleven_v3" ? `${TAG} ${text}` : text, model_id: model, language_code: "fr", voice_settings: model === "eleven_v3" ? { stability: 0.5, similarity_boost: 0.8, style: 0.6, use_speaker_boost: true } : { stability: 0.4, similarity_boost: 0.75, style: 0.5, use_speaker_boost: true, speed: 1.1 } }) });
+      body: JSON.stringify({ text: model === "eleven_v3" ? `${SKIN.tag} ${text}` : text, model_id: model, language_code: "fr", voice_settings: model === "eleven_v3" ? { stability: 0.5, similarity_boost: 0.8, style: 0.6, use_speaker_boost: true } : { stability: 0.4, similarity_boost: 0.75, style: 0.5, use_speaker_boost: true, speed: 1.1 } }) });
     if (!res.ok) throw new Error(`ElevenLabs ${res.status} : ${(await res.text()).slice(0, 160)}`);
     return Buffer.from(await res.arrayBuffer());
   } finally { clearTimeout(timer); }
 }
+// Réglages repris de la Minute : silences rognés en douceur (seuil -50 dB, 0,12 s gardées en fin de phrase → pas de fin de mot mangée),
+// pas de loudnorm (pompage sur clips courts = « coupures de micro »). Le timbre « TSF » nasillard n'est appliqué qu'à l'habillage réclame.
+const TRIM = "silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.04,areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.12,areverse,aresample=44100";
 const PITCH = 1.07;
-const retro = `silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.04,areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.12,areverse,aresample=44100,asetrate=${Math.round(44100 * PITCH)},aresample=44100,atempo=${(1.06 / PITCH).toFixed(3)},highpass=f=380,lowpass=f=3300,equalizer=f=1400:t=q:w=1.2:g=8,equalizer=f=2700:t=q:w=2:g=3,acompressor=threshold=-22dB:ratio=3:attack=15:release=250:makeup=4,alimiter=limit=0.89`;
+const FILTER = SKIN.retro
+  ? `${TRIM},asetrate=${Math.round(44100 * PITCH)},aresample=44100,atempo=${(1.06 / PITCH).toFixed(3)},highpass=f=380,lowpass=f=3300,equalizer=f=1400:t=q:w=1.2:g=8,equalizer=f=2700:t=q:w=2:g=3,acompressor=threshold=-22dB:ratio=3:attack=15:release=250:makeup=4,alimiter=limit=0.89`
+  : `${TRIM},atempo=1.04,highpass=f=80,acompressor=threshold=-20dB:ratio=2.5:attack=15:release=250:makeup=3,alimiter=limit=0.89`;
 async function clip(text, file) {
   if (!KEY || !VOICE) return undefined;
   let buf, model = "eleven_v3";
   try { buf = await tts(text, model); } catch (e) { console.warn(`v3 : ${e.message} → multilingual_v2`); model = "eleven_multilingual_v2"; buf = await tts(text, model); }
   const raw = `public/short-v3/${ep.id}/${file}.raw.mp3`, out = `public/short-v3/${ep.id}/${file}.mp3`;
   writeFileSync(raw, buf);
-  sh(`ffmpeg -y -nostdin -loglevel error -i "${raw}" -af "${retro}" -ar 44100 -b:a 128k "${out}"`);
+  sh(`ffmpeg -y -nostdin -loglevel error -i "${raw}" -af "${FILTER}" -ar 44100 -b:a 128k "${out}"`);
   const sec = Number(sh(`ffprobe -v error -show_entries format=duration -of csv=p=0 "${out}"`));
   console.log(`  ${file} (${model}) ${sec.toFixed(1)} s : ${text}`);
   return { src: `short-v3/${ep.id}/${file}.mp3`, sec, text };
 }
 const plain = (t) => t.replace(/\p{Extended_Pictographic}|️|‍/gu, "").replace(/\s+/g, " ").trim();
-const lower = (t) => t.replace(/^[A-ZÉÈÀ]/, (c) => c.toLowerCase());
-const NUM = ["Numéro un !", "Numéro deux !", "Numéro trois !", "Numéro quatre, ça se corse !", "Numéro cinq : pour les champions !"];
-const NUMQ = ["Numéro un.", "Numéro deux.", "Numéro trois.", "Numéro quatre.", "Et pour les champions :"];
-const BRAVO = ["{a} !", "{a}, naturellement !", "{a}, bien sûr !", "Eh oui : {a} !", "{a} ! Chapeau, si vous l'aviez !"];
+const lower = (t) => (/^(Le |La |Les |L'|Un |Une |Des )/.test(t) ? t.replace(/^./, (c) => c.toLowerCase()) : t);
+const ANS = SKIN.tu ? ["{a}, bien joué !", "{a}, évidemment !", "Eh oui : {a} !", "{a} ! Bravo si tu l'avais !"] : ["{a}, parfaitement !", "{a}, naturellement !", "{a}, bien sûr !", "Eh oui : {a} !"];
+const outroText = SKIN.tu
+  ? "Tu en veux encore ? Abonne-toi ! Chaque soir, le grand quiz t'attend sur la chaîne YouTube YouQwiz, et sur YouQwiz point com !"
+  : "Vous en voulez encore ? Abonnez-vous ! Chaque soir, le grand quiz vous attend sur la chaîne YouTube YouQwiz, et sur YouQwiz point com !";
 
 const SLOTS = [
-  { hour: "12 h", title: `5 ${noun}, de plus en plus durs : irez-vous jusqu'au bout ? 🧐 #Shorts` },
-  { hour: "16 h", title: `Le quiz express ⏱️ 5 ${noun}, 3 secondes chacun #Shorts` },
-  { hour: "19 h", title: `Seuls les champions ont le 5e 🏆 5 ${noun} #Shorts` },
+  { hour: "12 h", title: dilemma ? `3 dilemmes impossibles à trancher 🤯 Tu préfères… ? #Shorts` : `3 ${noun}, de plus en plus durs : tu as les trois ? 🧐 #Shorts` },
+  { hour: "16 h", title: dilemma ? `Tu préfères… ? 3 choix, 3 secondes ⏱️ #Shorts` : `3 ${noun}, 3 secondes chacun ⏱️ #Shorts` },
+  { hour: "19 h", title: dilemma ? `Le 3e dilemme divise tout le monde 😱 Tu préfères… ? #Shorts` : `Seuls les champions ont le 3e 🏆 ${noun} #Shorts` },
 ];
 const report = [];
 for (const [k, set] of sets.entries()) {
   if (only && only !== k + 1) continue;
   const name = `${ep.id}-${k + 1}`;
-  console.log(`▶ ${name} : questions ${set.map(([i]) => i + 1).join(", ")}`);
+  console.log(`▶ ${name} (${skin}) : questions ${set.map(([i]) => i + 1).join(", ")}`);
   const items = [];
   for (const [j, [i, level]] of set.entries()) {
     const src = ep.items[i], p = src.prompt, last = j === set.length - 1;
+    const { choices, correct } = propositions(i);
     const fact = last && src.fact && src.fact.length <= 110 ? src.fact : undefined;
-    const qText = p.type === "qcm" ? `${NUMQ[j]} ${p.value}` : p.type === "choices" ? `${NUMQ[j]} ${plain(p.value[0])}, ou ${lower(plain(p.value[1]))} ?` : NUM[j];
-    const aText = BRAVO[last ? 4 : (i + j) % 4].replace("{a}", src.answer) + (fact ? ` ${fact}` : "");
-    items.push({ prompt: p, answer: src.answer, level, fact, voice: { q: await clip(qText, `${k + 1}-${j}-q`), a: dilemma ? undefined : await clip(aText, `${k + 1}-${j}-a`) } });
+    const ask = p.type === "qcm" ? p.value : p.type === "letter" ? `Nomme ${p.category} en ${p.value} !` : ASK;
+    const answer = p.type === "qcm" ? p.choices[p.correct] : src.answer;
+    const voice = {};
+    if (dilemma) voice.q = await clip(`${SKIN.tu ? "Tu préfères" : "Vous préférez"}… ${plain(p.value[0])}, ou ${lower(plain(p.value[1]))} ?`, `${k + 1}-${j}-q`);
+    else {
+      voice.q = await clip(p.type === "qcm" || p.type === "letter" || j === 0 ? ask : NEXT[j], `${k + 1}-${j}-q`);
+      // Propositions dites une à une sur un ton interrogatif (« La peau ? Le foie ? Ou le cœur ? »).
+      if (choices) voice.choices = await clip(`${choices[0]} ? ${choices[1]} ? Ou ${lower(choices[2])} ?`, `${k + 1}-${j}-choices`);
+      // Réponse + anecdote enchaînées dans un même clip : pas de trou ni de changement de ton.
+      voice.a = await clip(`${ANS[(i + j) % ANS.length].replace("{a}", answer.split(",")[0])}${fact ? ` ${fact}` : ""}`, `${k + 1}-${j}-a`);
+    }
+    items.push({ prompt: p, ask, choices, correct, answer: answer.split(",").slice(0, 2).join(","), level, fact, voice });
   }
-  const hookText = dilemma ? `Cinq dilemmes ! De plus en plus durs à trancher. Lequel vous fera hésiter ?` : `Cinq ${noun} ! De plus en plus difficiles. Irez-vous jusqu'au bout ?`;
-  const outroText = `${dilemma ? "Alors, vos cinq choix ?" : "Alors, combien sur cinq ?"} Dites-le en commentaire ! Le grand quiz complet vous attend sur la chaîne YouTube YouQwiz. Abonnez-vous !`;
-  const reclame = { id: name, noun, question, dare: dilemma ? "Lequel vous fera hésiter ?" : "Irez-vous jusqu'au bout ?", items, outro: { head: dilemma ? "Vos 5 choix ?" : "Combien sur 5 ?", sub: "Dites-le en commentaire !" }, voice: { hook: await clip(hookText, `${k + 1}-hook`), outro: await clip(outroText, `${k + 1}-outro`) } };
+  const extrait = { id: name, skin, items, voice: { title: await clip(SKIN.title, `${k + 1}-title`), outro: await clip(outroText, `${k + 1}-outro`) } };
   const props = `out/short-v3/${name}.json`;
-  writeFileSync(props, JSON.stringify({ reclame }));
-  execSync(`npx remotion render src/index.ts ShortReclame "out/short-v3/${name}.mp4" --props="${props}" ${process.env.SHORT_V3_FLAGS ?? ""} --log=error`, { stdio: "inherit" });
+  writeFileSync(props, JSON.stringify({ extrait }));
+  execSync(`npx remotion render src/index.ts ShortExtrait "out/short-v3/${name}.mp4" --props="${props}" ${process.env.SHORT_V3_FLAGS ?? ""} --log=error`, { stdio: "inherit" });
   const sec = Number(sh(`ffprobe -v error -show_entries format=duration -of csv=p=0 "out/short-v3/${name}.mp4"`));
   if (sec > 59) throw new Error(`${name} : ${sec.toFixed(1)} s > 59 s`);
   console.log(`  rendu : ${name}.mp4 (${sec.toFixed(1)} s)`);
-  report.push({ slot: k + 1, hour: SLOTS[k].hour, file: `${name}.mp4`, seconds: sec, title: SLOTS[k].title.slice(0, 100), questions: set.map(([i, l]) => ({ n: i + 1, level: l, answer: ep.items[i].answer })) });
+  report.push({ slot: k + 1, hour: SLOTS[k].hour, skin, file: `${name}.mp4`, seconds: sec, title: SLOTS[k].title.slice(0, 100), questions: items.map((it, j) => ({ n: set[j][0] + 1, level: it.level, choices: it.choices, answer: it.answer })) });
 }
 writeFileSync(`out/short-v3/${ep.id}.json`, JSON.stringify({ episode: ep.id, shorts: report }, null, 1) + "\n");

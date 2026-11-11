@@ -3,9 +3,13 @@ name: Shorts v3 (pilotes)
 on:
   workflow_dispatch:
     inputs:
-      episode:
-        description: "Identifiant d'épisode (ex. 2026-11-12-pays-sans-voyelles)"
+      episodes:
+        description: "Identifiants d'épisodes séparés par des espaces (ex. 2026-11-12-pays-sans-voyelles)"
         required: true
+        type: string
+      only:
+        description: "Ne rendre qu'un des 3 Shorts de chaque épisode (1, 2 ou 3 ; vide = les 3)"
+        required: false
         type: string
 concurrency:
   group: short-test
@@ -39,10 +43,11 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
           REMOTION_CONCURRENCY: 2
-        run: node scripts/short-v3.mjs --episode "data/episodes/${{ inputs.episode }}.json"
+        run: |
+          for id in ${{ inputs.episodes }}; do node scripts/short-v3.mjs --episode "data/episodes/$id.json" ${{ inputs.only != '' && format('--only {0}', inputs.only) || '' }}; done
       - name: Pré-release de contrôle
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release delete test-short-v3 -y --cleanup-tag 2>/dev/null || true
-          gh release create test-short-v3 out/short-v3/*.mp4 out/short-v3/${{ inputs.episode }}.json --title "TEST Shorts v3 — ${{ inputs.episode }}" --notes "Pilotes « Le quiz express », rien n'est publié. À supprimer après contrôle." --prerelease --latest=false
+          gh release create test-short-v3 out/short-v3/*.mp4 --title "TEST Shorts v3" --notes "Pilotes des Shorts extraits v3 (${{ inputs.episodes }}), rien n'est publié. À supprimer après contrôle." --prerelease --latest=false
