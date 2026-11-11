@@ -86,12 +86,13 @@ for (const j of conf.jobs) {
     const v = j.voice, n = j.name, pitch = j.pitch ?? PITCH, nz = j.nasal ?? 8;
     STAB = j.stability ?? 0.5;
     const outroText = j.cta === "youtube" ? conf.outroYoutube : conf.outro;
+    // Propositions dites sur un ton interrogatif, une à une (« La peau ? Le foie ? Ou le cœur ? »).
     // Phrases enchaînées dans un même clip (titre + baseline, réponse + anecdote) : plus de trous ni de changements de ton.
     const answer = await clip(`${j.answer} ${j.fact}`, v, `${n}-answer`, pitch, nz);
     const voice = {
       hook: await clip(j.hook, v, `${n}-hook`, pitch, nz),
       title: await clip(j.sayBaseline ? `${conf.title} ${conf.baseline}` : conf.title, v, `${n}-title`, pitch, nz),
-      choices: await clip(`${j.choices[0]}, ${j.choices[1]}, ou ${j.choices[2]} ?`, v, `${n}-choices`, pitch, nz),
+      choices: await clip(`${j.choices[0]} ? ${j.choices[1]} ? Ou ${j.choices[2].replace(/^[A-ZÉ]/, (c) => (/^(Le |La |Les |L')/.test(j.choices[2]) ? c.toLowerCase() : c))} ?`, v, `${n}-choices`, pitch, nz),
       answer,
       answerSplit: answer ? answer.sec * (j.answer.length + 2) / (j.answer.length + j.fact.length + 2) : undefined,
       outro: await clip(outroText, v, `${n}-outro`, pitch, nz),
