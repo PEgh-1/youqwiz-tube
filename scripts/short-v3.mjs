@@ -19,12 +19,14 @@ const dilemma = ep.items[0].prompt.type === "choices";
 const skin = dilemma ? "duel" : ep.pillar === "emojis" || /emojis/.test(bank) ? "pop" : ep.pillar === "generations" ? "album" : ep.items[0].prompt.type === "qcm" ? "reclame" : "plateau";
 // Textes LUS : orthographe phonétique voulue (« YouQwiz point com »), consigne de jeu en FRANÇAIS (sinon v3 prononce à l'anglaise).
 const SKIN = {
-  reclame: { tu: false, tag: "[annonceur de réclame radio des années 30, voix nasillarde, très enjoué, débit rapide]", title: "Le quiz express ! YouQwiz point com !", retro: true },
-  plateau: { tu: true, tag: "[animateur de jeu télévisé, très enjoué, dynamique, sourire dans la voix]", title: "Trois secondes chrono ! Sans propositions, trouve vite !" },
+  reclame: { tu: false, tag: "[annonceur de réclame radio des années 30, voix nasillarde, très enjoué, débit rapide]", title: "Le quiz express ! Aujourd'hui, scrolé va vous rendre plus malin !", retro: true },
+  plateau: { tu: true, tag: "[animateur de jeu télévisé, très enjoué, dynamique, sourire dans la voix]", title: "Trois secondes chrono ! Aujourd'hui, scrolé va te rendre plus malin ! Sans propositions, trouve vite !" },
   pop: { tu: true, tag: "[ton joueur et complice, amusé, plein d'entrain]", title: "Décode si tu peux ! Devine ce qui se cache !" },
-  duel: { tu: true, tag: "[ton malicieux et taquin, enjoué]", title: "Choisis ton camp ! Et dis-le en commentaire !" },
-  album: { tu: true, tag: "[ton chaleureux et complice, souriant, un peu nostalgique, débit posé]", title: "T'as connu ça ? Une seule bonne réponse !" },
+  duel: { tu: true, tag: "[ton malicieux et taquin, enjoué]", title: "Choisis ton camp ! Aujourd'hui, scrolé va te rendre plus malin ! Dis ton camp en commentaire !" },
+  album: { tu: true, tag: "[ton chaleureux et complice, souriant, un peu nostalgique, débit posé]", title: "T'as connu ça ? Aujourd'hui, scrolé va te rendre plus malin ! Une seule bonne réponse !" },
 }[skin];
+// 11/11/2026 (nuit) : le pilier émojis (« Décode si tu peux ») est arrêté en Short extrait (« ne rend pas bien »).
+if (skin === "pop") { console.log(`${ep.id} : pilier émojis, pas de Short extrait`); process.exit(0); }
 const ASK = {
   "pays-sans-voyelles": "Quel est ce pays sans voyelles ?", drapeaux: "À quel pays appartient ce drapeau ?", animaux: "Quel est cet animal ?", "fruits-legumes": "Quel est ce fruit ou ce légume ?",
   maths: "Combien ça fait ?", "films-emojis": "Quel film se cache ici ?", "mots-emojis": "Quel mot se cache ici ?",
@@ -80,7 +82,7 @@ async function tts(text, model) {
 }
 // Réglages repris de la Minute : silences rognés en douceur (seuil -50 dB, 0,12 s gardées en fin de phrase → pas de fin de mot mangée),
 // pas de loudnorm (pompage sur clips courts = « coupures de micro »). Le timbre « TSF » nasillard n'est appliqué qu'à l'habillage réclame.
-const TRIM = "silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.04,areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.12,areverse,aresample=44100";
+const TRIM = "silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.04,areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_silence=0.12,areverse,agate=threshold=0.025:ratio=4:attack=6:release=150:knee=4,aresample=44100";
 const PITCH = 1.07;
 const FILTER = SKIN.retro
   ? `${TRIM},asetrate=${Math.round(44100 * PITCH)},aresample=44100,atempo=${(1.06 / PITCH).toFixed(3)},highpass=f=380,lowpass=f=3300,equalizer=f=1400:t=q:w=1.2:g=8,equalizer=f=2700:t=q:w=2:g=3,acompressor=threshold=-22dB:ratio=3:attack=15:release=250:makeup=4,alimiter=limit=0.89`

@@ -30,7 +30,8 @@ type Skin = {
   /** règle du jeu, affichée (et dite) sur le carton de titre */
   rule?: string;
 };
-const TAG = "Chaque soir, le grand quiz sur la chaîne YouQwiz";
+// 11/11/2026 (nuit) : la baseline est dite et affichée dans chaque Short, quel que soit le pilier (« ça nous différencie »).
+const TAG = "« Aujourd'hui, scroller va te rendre plus malin »";
 // reclame = univers de la Minute culture, réservé à la culture générale. Les autres piliers restent dans l'identité de la chaîne
 // (Pop sticker, mascottes, logo), chacun avec sa palette, son motif, sa forme de carte, son chrono et ses pastilles.
 export const SKINS: Record<SkinKey, Skin> = {
