@@ -1,0 +1,61 @@
+{
+ "_comment": "Textes LUS (orthographe phonétique voulue : « scrolé » pour scroller, « YouQwiz point com »). Pilotes de « La minute culture générale » (11/11/2026). voice : A = voix de la chaîne, B = voix candidate (MINUTE_VOICE_B).",
+ "outro": "Vous en voulez encore ? Retrouvez gratuitement nos derniers quiz sur YouQwiz point com !",
+ "title": "La minute culture générale ! Offerte par YouQwiz point com !",
+ "baseline": "Aujourd'hui, scrolé va vous rendre plus malin !",
+ "jobs": [
+  {
+   "name": "v3-1-nasillard",
+   "voice": "A",
+   "sayBaseline": true,
+   "hook": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "answer": "La peau, parfaitement !",
+   "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
+   "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
+  },
+  {
+   "name": "v3-2-tres-nasillard-enjoue",
+   "pitch": 1.11,
+   "nasal": 11,
+   "stability": 0.0,
+   "voice": "A",
+   "sayBaseline": true,
+   "hook": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "answer": "La peau, parfaitement !",
+   "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
+   "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
+  },
+  {
+   "name": "v3-3-reclame-extreme",
+   "pitch": 1.15,
+   "nasal": 13,
+   "stability": 0.0,
+   "cta": "youtube",
+   "voice": "A",
+   "sayBaseline": true,
+   "hook": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "answer": "La peau, parfaitement !",
+   "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
+   "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
+  }
+ ],
+ "outroYoutube": "Vous en voulez encore ? Abonnez-vous ! Chaque soir, le grand quiz vous attend sur la chaîne YouTube YouQwiz !"
+}
