@@ -1,0 +1,290 @@
+{
+  "path": "/quiz-basket",
+  "theme": "sport",
+  "title": "Quiz basket : règles, histoire et légendes",
+  "description": "Quiz basket : 20 questions sur les règles, l'histoire de la NBA, les légendes américaines et le basket français. Teste-toi, explications à chaque réponse.",
+  "h1": "Quiz basket : connais-tu vraiment les règles et l'histoire du basket-ball ?",
+  "intro": "Dunk, tir à trois points, lancer franc : le basket-ball est un sport spectaculaire, mais connais-tu vraiment ses règles et son histoire ? Ce quiz basket te propose 20 questions, des plus faciles aux plus pointues, sur les règles du jeu, la NBA, les grandes équipes, les légendes américaines et les moments forts du basket français. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait supplémentaire à retenir. À faire seul, entre amis ou en famille : arriveras-tu au score parfait ?",
+  "questions": [
+    {
+      "q": "Combien de points rapporte un panier marqué derrière la ligne à trois points ?",
+      "choices": [
+        "2 points",
+        "4 points",
+        "3 points",
+        "1 point"
+      ],
+      "answer": 2,
+      "explication": "Le basket-ball est au programme des Jeux olympiques masculins depuis Berlin en 1936.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Panier_à_trois_points"
+    },
+    {
+      "q": "Combien de points vaut un lancer franc réussi ?",
+      "choices": [
+        "1 point",
+        "2 points",
+        "3 points",
+        "0,5 point"
+      ],
+      "answer": 0,
+      "explication": "Il est accordé après certaines fautes et tiré sans opposition depuis la ligne des lancers francs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lancer_franc"
+    },
+    {
+      "q": "À quelle hauteur du sol se situe le cercle du panier de basket ?",
+      "choices": [
+        "2,75 m",
+        "3,35 m",
+        "2,44 m",
+        "3,05 m"
+      ],
+      "answer": 3,
+      "explication": "Cette hauteur de 10 pieds n'a pas changé depuis les premiers paniers de la fin du XIXe siècle.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Basket-ball"
+    },
+    {
+      "q": "Quelle franchise NBA, établie à Los Angeles, joue en violet et or ?",
+      "choices": [
+        "Les Celtics",
+        "Les Lakers",
+        "Les Bulls",
+        "Les Knicks"
+      ],
+      "answer": 1,
+      "explication": "Le club est né à Minneapolis, la « ville des lacs », avant de déménager en Californie en 1960.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lakers_de_Los_Angeles"
+    },
+    {
+      "q": "Que signifie le sigle NBA ?",
+      "choices": [
+        "National Basketball Alliance",
+        "National Basketball Association",
+        "North Basketball Association",
+        "National Ball Association"
+      ],
+      "answer": 1,
+      "explication": "La ligue naît en 1946 sous le nom de BAA et adopte le nom de NBA en 1949.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/National_Basketball_Association"
+    },
+    {
+      "q": "Comment appelle-t-on le geste où un joueur saute et envoie le ballon directement dans le cercle avec les mains ?",
+      "choices": [
+        "Un lay-up",
+        "Un tir en suspension",
+        "Un alley-oop raté",
+        "Un dunk (ou smash)"
+      ],
+      "answer": 3,
+      "explication": "Le dunk a été interdit dans le basket universitaire américain de 1967 à 1976.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Basket-ball"
+    },
+    {
+      "q": "Quel joueur est surnommé « His Airness » ?",
+      "choices": [
+        "Michael Jordan",
+        "Magic Johnson",
+        "Larry Bird",
+        "Kobe Bryant"
+      ],
+      "answer": 0,
+      "explication": "Il a aussi été médaillé d'or olympique en 1984 et en 1992.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Jordan"
+    },
+    {
+      "q": "Combien de quart-temps compte un match de basket officiel ?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 2,
+      "explication": "Les compétitions de la FIBA durent 4 fois 10 minutes, contre 4 fois 12 minutes en NBA.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Basket-ball"
+    },
+    {
+      "q": "Avec quelle franchise NBA le Français Tony Parker a-t-il remporté quatre titres ?",
+      "choices": [
+        "Les Hornets de Charlotte",
+        "Les Pistons de Détroit",
+        "Les Suns de Phoenix",
+        "Les Spurs de San Antonio"
+      ],
+      "answer": 3,
+      "explication": "Il a été élu meilleur joueur des Finales NBA en 2007.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tony_Parker"
+    },
+    {
+      "q": "Quelle sélection était surnommée la « Dream Team » aux Jeux de Barcelone en 1992 ?",
+      "choices": [
+        "L'URSS",
+        "Les États-Unis",
+        "La Yougoslavie",
+        "L'Espagne"
+      ],
+      "answer": 1,
+      "explication": "Ces Jeux sont les premiers où les joueurs professionnels de la NBA ont pu participer, après une décision de la FIBA en 1989.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dream_Team"
+    },
+    {
+      "q": "Quelle équipe a remporté le tout premier titre de champion de la BAA, ancêtre de la NBA, en 1947 ?",
+      "choices": [
+        "Les Warriors de Philadelphie",
+        "Les Celtics de Boston",
+        "Les Lakers de Minneapolis",
+        "Les Knicks de New York"
+      ],
+      "answer": 0,
+      "explication": "Ils battent les Stags de Chicago en finale, par quatre victoires à une.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Saison_BAA_1946-1947"
+    },
+    {
+      "q": "Quelle équipe a gagné huit titres NBA consécutifs de 1959 à 1966 ?",
+      "choices": [
+        "Les Lakers de Los Angeles",
+        "Les Knicks de New York",
+        "Les Celtics de Boston",
+        "Les 76ers de Philadelphie"
+      ],
+      "answer": 2,
+      "explication": "Cette série a été menée par l'entraîneur Red Auerbach et le pivot Bill Russell.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Celtics_de_Boston"
+    },
+    {
+      "q": "Quel pivot a inscrit 100 points dans un match NBA, le 2 mars 1962 ?",
+      "choices": [
+        "Bill Russell",
+        "Kareem Abdul-Jabbar",
+        "Wilt Chamberlain",
+        "Oscar Robertson"
+      ],
+      "answer": 2,
+      "explication": "Le match opposait les Warriors de Philadelphie aux Knicks de New York et s'est joué à Hershey, en Pennsylvanie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Wilt_Chamberlain"
+    },
+    {
+      "q": "En quelle année l'équipe de France masculine a-t-elle remporté son premier EuroBasket ?",
+      "choices": [
+        "2013",
+        "2005",
+        "2009",
+        "2011"
+      ],
+      "answer": 0,
+      "explication": "Elle a battu la Lituanie en finale, à Ljubljana, en Slovénie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Championnat_d'Europe_de_basket-ball_2013"
+    },
+    {
+      "q": "Quel club français a remporté la Coupe d'Europe des clubs champions en 1993 ?",
+      "choices": [
+        "L'ASVEL Villeurbanne",
+        "Le CSP Limoges",
+        "Pau-Orthez",
+        "Le Mans"
+      ],
+      "answer": 1,
+      "explication": "Les Limougeauds s'imposent en finale face à Trévise, club italien.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Limoges_CSP"
+    },
+    {
+      "q": "Quel meneur de jeu est choisi en premier à la draft NBA de 1979, par les Lakers ?",
+      "choices": [
+        "Larry Bird",
+        "Isiah Thomas",
+        "Dominique Wilkins",
+        "Magic Johnson"
+      ],
+      "answer": 3,
+      "explication": "Dès sa saison de débutant, il est élu meilleur joueur des Finales NBA de 1980.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Magic_Johnson"
+    },
+    {
+      "q": "Quelle équipe a battu les États-Unis 51-50 en finale du tournoi olympique de 1972 ?",
+      "choices": [
+        "La Yougoslavie",
+        "Le Brésil",
+        "L'Union soviétique",
+        "L'Italie"
+      ],
+      "answer": 2,
+      "explication": "Les Américains, estimant le dénouement injuste, ont refusé de recevoir leurs médailles d'argent.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Basket-ball_aux_Jeux_olympiques_d'été_de_1972"
+    },
+    {
+      "q": "Lors de quelle saison la NBA a-t-elle adopté le tir à trois points ?",
+      "choices": [
+        "1969-1970",
+        "1974-1975",
+        "1984-1985",
+        "1979-1980"
+      ],
+      "answer": 3,
+      "explication": "La ligne était alors à 23 pieds 9 pouces (environ 7,24 m) du cercle dans l'axe, distance rétablie en 1997 après trois saisons de ligne raccourcie.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Panier_à_trois_points"
+    },
+    {
+      "q": "Quel joueur a été, en 1950, le premier Afro-Américain drafté en NBA, par les Celtics de Boston ?",
+      "choices": [
+        "Chuck Cooper",
+        "Earl Lloyd",
+        "Bill Russell",
+        "Nat Clifton"
+      ],
+      "answer": 0,
+      "explication": "La même année, Earl Lloyd est devenu le premier joueur noir à disputer un match de NBA.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Chuck_Cooper"
+    },
+    {
+      "q": "Quel pays a remporté le premier championnat du monde masculin de basket, organisé chez lui en 1950 ?",
+      "choices": [
+        "Le Brésil",
+        "L'Argentine",
+        "Les États-Unis",
+        "L'Uruguay"
+      ],
+      "answer": 1,
+      "explication": "La compétition s'est tenue à Buenos Aires.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Championnat_du_monde_de_basket-ball_masculin_1950"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz basket ?",
+      "Le quiz mêle 8 questions faciles, 8 questions de difficulté moyenne et 4 questions d'expert, dans cet ordre. Les premières conviennent à tout amateur qui regarde un match de temps en temps, les dernières demandent de connaître l'histoire de la NBA ou du basket international. Chaque réponse est suivie d'une explication qui te permet de progresser."
+    ],
+    [
+      "Quelle différence y a-t-il entre les règles de la FIBA et celles de la NBA ?",
+      "La FIBA, qui régit le basket international, fait jouer 4 quart-temps de 10 minutes, alors que la NBA en fait jouer 4 de 12 minutes. La ligne à trois points est aussi plus éloignée en NBA, et un joueur y est exclu après 6 fautes personnelles, contre 5 en compétition FIBA."
+    ],
+    [
+      "Pourquoi le panier de basket est-il placé à 3,05 mètres ?",
+      "Cette hauteur correspond à 10 pieds, l'unité de mesure anglo-saxonne. Elle remonte aux origines du jeu, quand les premiers paniers étaient accrochés à la balustrade d'un gymnase, à cette hauteur. Elle est restée la même depuis, ce qui permet de comparer les générations de joueurs sur un terrain identique."
+    ]
+  ],
+  "related": [
+    "/quiz-sport",
+    "/quiz-tennis",
+    "/quiz-jeux-olympiques",
+    "/quiz-football"
+  ]
+}

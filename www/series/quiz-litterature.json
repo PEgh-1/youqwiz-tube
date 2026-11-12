@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-litterature",
+  "theme": "culture",
+  "title": "Quiz littérature : grands auteurs et grandes œuvres",
+  "description": "Quiz littérature : 20 questions sur les grands auteurs et leurs œuvres, français et étrangers, de Molière à Joyce. Du niveau facile à expert.",
+  "h1": "Quiz littérature : sais-tu qui a écrit quoi ?",
+  "intro": "De Molière à Camus, de Shakespeare à García Márquez : la littérature est une formidable aventure à travers les siècles et les continents. Ce quiz te propose 20 questions sur les grands auteurs et leurs œuvres, français et étrangers, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail sur un livre, un écrivain ou une époque. Tu peux jouer seul, en famille ou entre amis, et recommencer pour améliorer ton score. Alors, es-tu un lecteur averti ? Il est temps de le prouver !",
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz de littérature ?",
+      "Le quiz propose 20 questions de difficulté croissante : huit faciles sur les œuvres et auteurs les plus célèbres, huit de niveau moyen sur le roman, la poésie et le théâtre, puis quatre questions expert. Une explication suit chaque réponse pour te faire découvrir un fait supplémentaire."
+    ],
+    [
+      "Qu'est-ce que le prix Goncourt ?",
+      "Le prix Goncourt est un prix littéraire français qui récompense chaque année le meilleur ouvrage en prose de l'année. Il est décerné en novembre par l'Académie Goncourt, créée selon la volonté d'Edmond de Goncourt. Il a été attribué pour la première fois en 1903, et il dope en général fortement les ventes du livre primé."
+    ],
+    [
+      "Quelle est la différence entre un roman et une nouvelle ?",
+      "Le roman est un récit en prose généralement long, qui développe plusieurs personnages et une intrigue étalée dans le temps. La nouvelle est un récit bien plus court, centré sur un événement ou une situation, avec une chute souvent marquante. La Métamorphose de Kafka est ainsi souvent classée parmi les nouvelles."
+    ]
+  ],
+  "related": [
+    "/quiz-tintin",
+    "/quiz-langue-francaise",
+    "/quiz-culture-generale-facile",
+    "/quiz-harry-potter",
+    "/quiz-orthographe"
+  ],
+  "questions": [
+    {
+      "q": "Qui est l'auteur des Fables, dont fait partie Le Corbeau et le Renard ?",
+      "choices": [
+        "Charles Perrault",
+        "Molière",
+        "Jean de La Fontaine",
+        "Jean Racine"
+      ],
+      "answer": 2,
+      "explication": "Il s'inspire en partie des fables d'Ésope et de Phèdre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jean_de_La_Fontaine"
+    },
+    {
+      "q": "Quel dramaturge a écrit L'Avare et Le Malade imaginaire ?",
+      "choices": [
+        "Molière",
+        "Corneille",
+        "Racine",
+        "Marivaux"
+      ],
+      "answer": 0,
+      "explication": "Il meurt en 1673, peu après une représentation du Malade imaginaire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Molière"
+    },
+    {
+      "q": "Quel écrivain britannique a créé le détective Sherlock Holmes ?",
+      "choices": [
+        "Agatha Christie",
+        "Arthur Conan Doyle",
+        "Charles Dickens",
+        "Edgar Allan Poe"
+      ],
+      "answer": 1,
+      "explication": "Le personnage apparaît pour la première fois en 1887, dans Une étude en rouge.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Arthur_Conan_Doyle"
+    },
+    {
+      "q": "Quel dramaturge anglais est l'auteur de Roméo et Juliette ?",
+      "choices": [
+        "Christopher Marlowe",
+        "Charles Dickens",
+        "John Milton",
+        "William Shakespeare"
+      ],
+      "answer": 3,
+      "explication": "Il est né en 1564 à Stratford-upon-Avon.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/William_Shakespeare"
+    },
+    {
+      "q": "Quel écrivain français a écrit Les Trois Mousquetaires ?",
+      "choices": [
+        "Victor Hugo",
+        "Honoré de Balzac",
+        "Stendhal",
+        "Alexandre Dumas"
+      ],
+      "answer": 3,
+      "explication": "Le roman paraît en feuilleton en 1844.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Trois_Mousquetaires"
+    },
+    {
+      "q": "Quel romancier russe est l'auteur de Guerre et Paix ?",
+      "choices": [
+        "Fiodor Dostoïevski",
+        "Léon Tolstoï",
+        "Anton Tchekhov",
+        "Alexandre Pouchkine"
+      ],
+      "answer": 1,
+      "explication": "Le roman paraît entre 1865 et 1869.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Guerre_et_Paix"
+    },
+    {
+      "q": "Quel écrivain danois a écrit La Petite Sirène ?",
+      "choices": [
+        "Hans Christian Andersen",
+        "Les frères Grimm",
+        "Charles Perrault",
+        "Selma Lagerlöf"
+      ],
+      "answer": 0,
+      "explication": "Le conte est publié en 1837.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/La_Petite_Sir%C3%A8ne"
+    },
+    {
+      "q": "Quel écrivain français est l'auteur de Madame Bovary ?",
+      "choices": [
+        "Guy de Maupassant",
+        "Stendhal",
+        "Gustave Flaubert",
+        "Honoré de Balzac"
+      ],
+      "answer": 2,
+      "explication": "Le roman lui vaut un procès pour outrage à la morale, dont il est acquitté en 1857.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Madame_Bovary"
+    },
+    {
+      "q": "Quel écrivain espagnol est l'auteur de Don Quichotte ?",
+      "choices": [
+        "Lope de Vega",
+        "Gabriel García Márquez",
+        "Pablo Neruda",
+        "Miguel de Cervantès"
+      ],
+      "answer": 3,
+      "explication": "La première partie paraît en 1605, la seconde en 1615.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Miguel_de_Cervantes"
+    },
+    {
+      "q": "Quel poète français a publié le recueil Les Fleurs du mal ?",
+      "choices": [
+        "Arthur Rimbaud",
+        "Charles Baudelaire",
+        "Paul Verlaine",
+        "Stéphane Mallarmé"
+      ],
+      "answer": 1,
+      "explication": "Six poèmes du recueil sont condamnés pour outrage à la morale dès 1857.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Fleurs_du_mal"
+    },
+    {
+      "q": "Quel écrivain britannique est l'auteur du roman 1984 ?",
+      "choices": [
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "George Orwell",
+        "Franz Kafka"
+      ],
+      "answer": 2,
+      "explication": "George Orwell est le pseudonyme d'Eric Arthur Blair.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/1984_(roman)"
+    },
+    {
+      "q": "Quelle romancière britannique a écrit Orgueil et Préjugés ?",
+      "choices": [
+        "Jane Austen",
+        "Emily Brontë",
+        "Mary Shelley",
+        "George Eliot"
+      ],
+      "answer": 0,
+      "explication": "Le roman est publié en 1813.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Orgueil_et_Préjugés"
+    },
+    {
+      "q": "Quel écrivain français est l'auteur d'À la recherche du temps perdu ?",
+      "choices": [
+        "Marcel Proust",
+        "André Gide",
+        "Albert Camus",
+        "Louis-Ferdinand Céline"
+      ],
+      "answer": 0,
+      "explication": "Ce cycle de sept volumes paraît entre 1913 et 1927.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/À_la_recherche_du_temps_perdu"
+    },
+    {
+      "q": "Quel écrivain colombien a publié Cent ans de solitude ?",
+      "choices": [
+        "Mario Vargas Llosa",
+        "Jorge Luis Borges",
+        "Gabriel García Márquez",
+        "Pablo Neruda"
+      ],
+      "answer": 2,
+      "explication": "Le roman paraît en 1967, et son auteur reçoit le prix Nobel en 1982.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cent_ans_de_solitude"
+    },
+    {
+      "q": "Quel écrivain français a publié L'Étranger en 1942 ?",
+      "choices": [
+        "Jean-Paul Sartre",
+        "Albert Camus",
+        "André Malraux",
+        "André Gide"
+      ],
+      "answer": 1,
+      "explication": "Il reçoit le prix Nobel de littérature en 1957.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/L'%C3%89tranger"
+    },
+    {
+      "q": "Quel dramaturge est l'auteur de la tragédie Phèdre ?",
+      "choices": [
+        "Pierre Corneille",
+        "Molière",
+        "Voltaire",
+        "Jean Racine"
+      ],
+      "answer": 3,
+      "explication": "La pièce est créée en 1677.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Phèdre_(Racine)"
+    },
+    {
+      "q": "Quel écrivain irlandais a écrit Ulysse, publié en 1922 ?",
+      "choices": [
+        "Samuel Beckett",
+        "James Joyce",
+        "Virginia Woolf",
+        "William Butler Yeats"
+      ],
+      "answer": 1,
+      "explication": "L'action du roman se déroule en une seule journée, le 16 juin 1904, à Dublin.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ulysse_(roman)"
+    },
+    {
+      "q": "Quel écrivain français a refusé le prix Nobel de littérature en 1964 ?",
+      "choices": [
+        "Jean-Paul Sartre",
+        "Albert Camus",
+        "François Mauriac",
+        "André Gide"
+      ],
+      "answer": 0,
+      "explication": "Il est l'auteur de La Nausée et de L'Être et le Néant.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Jean-Paul_Sartre"
+    },
+    {
+      "q": "Dans quelle œuvre de Kafka, publiée en 1915, Gregor Samsa se réveille-t-il transformé en insecte ?",
+      "choices": [
+        "Le Procès",
+        "Le Château",
+        "La Colonie pénitentiaire",
+        "La Métamorphose"
+      ],
+      "answer": 3,
+      "explication": "Le Procès, lui, n'est publié qu'après la mort de Kafka, en 1925.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/La_M%C3%A9tamorphose"
+    },
+    {
+      "q": "Quel poète français reçoit le tout premier prix Nobel de littérature, en 1901 ?",
+      "choices": [
+        "Frédéric Mistral",
+        "Anatole France",
+        "Sully Prudhomme",
+        "Victor Hugo"
+      ],
+      "answer": 2,
+      "explication": "Victor Hugo, mort en 1885, n'a jamais pu recevoir ce prix.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Prix_Nobel_de_littérature"
+    }
+  ]
+}

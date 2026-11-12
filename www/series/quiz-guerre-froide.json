@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-guerre-froide",
+  "theme": "histoire",
+  "title": "Quiz guerre froide : 1947-1991, dates et événements",
+  "description": "Quiz guerre froide : 20 questions sur les dates et événements de 1947 à 1991, du plan Marshall au mur de Berlin et à la fin de l'URSS.",
+  "h1": "Quiz sur la guerre froide : que retiens-tu du monde de 1947 à 1991 ?",
+  "intro": "Pendant plus de quarante ans, deux blocs se sont affrontés sans jamais se faire directement la guerre. Ce quiz guerre froide te propose 20 questions sur la période 1947-1991 : le plan Marshall, le mur de Berlin, la guerre de Corée, les insurrections en Europe de l'Est, la détente et la chute de l'URSS. Les questions vont des plus accessibles aux plus pointues, avec une seule bonne réponse à chaque fois. Après chaque réponse, une courte explication t'apprend une date ou un fait à retenir. Compte environ 5 secondes de réflexion par question. À faire seul, en famille ou entre amis.",
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur la guerre froide ?",
+      "Le quiz convient aux lycéens comme aux adultes curieux d'histoire. Les 8 premières questions portent sur les grands repères connus de tous, les 8 suivantes sur des événements précis, et les 4 dernières sur des faits plus pointus. Chaque réponse est suivie d'une explication qui donne une date ou un contexte supplémentaire."
+    ],
+    [
+      "Pourquoi dit-on guerre « froide » ?",
+      "L'expression désigne un affrontement permanent entre les États-Unis et l'URSS qui n'a jamais débouché sur un conflit militaire direct entre eux, notamment à cause de la menace nucléaire. Les deux blocs se sont combattus par la propagande, l'espionnage, la course aux armements et des guerres menées par pays interposés. L'expression se répand en 1947."
+    ],
+    [
+      "Quand commence et quand finit la guerre froide ?",
+      "Il n'existe pas de date officielle. Beaucoup d'historiens retiennent 1947, avec la doctrine Truman et le plan Marshall, pour le début. La fin se situe entre la chute du mur de Berlin en 1989 et la dissolution de l'URSS en décembre 1991, date retenue par ce quiz comme borne finale."
+    ]
+  ],
+  "related": [
+    "/quiz-xxe-siecle",
+    "/quiz-seconde-guerre-mondiale",
+    "/quiz-histoire",
+    "/quiz-premiere-guerre-mondiale",
+    "/quiz-espace"
+  ],
+  "questions": [
+    {
+      "q": "Quels sont les deux États superpuissances qui s'opposent pendant la guerre froide ?",
+      "choices": [
+        "Les États-Unis et l'URSS",
+        "Le Royaume-Uni et l'Allemagne",
+        "La France et la Chine",
+        "L'Inde et le Pakistan"
+      ],
+      "answer": 0,
+      "explication": "Leur rivalité a aussi marqué la conquête spatiale et la course aux armements nucléaires.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Guerre_froide"
+    },
+    {
+      "q": "En quelle année est construit le mur de Berlin ?",
+      "choices": [
+        "1945",
+        "1953",
+        "1961",
+        "1967"
+      ],
+      "answer": 2,
+      "explication": "Il est érigé dans la nuit du 12 au 13 août 1961 pour stopper les départs de Berlin-Est vers Berlin-Ouest.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mur_de_Berlin"
+    },
+    {
+      "q": "Quelle alliance militaire occidentale est créée en 1949 par le traité de Washington ?",
+      "choices": [
+        "Le Conseil de l'Europe",
+        "L'UNESCO",
+        "Le FMI",
+        "L'OTAN"
+      ],
+      "answer": 3,
+      "explication": "Elle est fondée le 4 avril 1949 par douze pays.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Organisation_du_traité_de_l'Atlantique_nord"
+    },
+    {
+      "q": "Comment s'appelle l'alliance militaire signée en 1955 par l'URSS et ses alliés d'Europe de l'Est ?",
+      "choices": [
+        "Le traité de Versailles",
+        "Le pacte de Varsovie",
+        "La Triple-Entente",
+        "Le traité de Locarno"
+      ],
+      "answer": 1,
+      "explication": "Cette alliance est dissoute en juillet 1991, quelques mois avant l'URSS.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pacte_de_Varsovie"
+    },
+    {
+      "q": "En quelle année l'URSS cesse-t-elle d'exister ?",
+      "choices": [
+        "1991",
+        "1985",
+        "1989",
+        "1993"
+      ],
+      "answer": 0,
+      "explication": "Gorbatchev démissionne le 25 décembre 1991 et l'URSS est dissoute le lendemain.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dissolution_de_l'Union_soviétique"
+    },
+    {
+      "q": "En quelle année l'Allemagne est-elle réunifiée ?",
+      "choices": [
+        "1988",
+        "1993",
+        "1995",
+        "1990"
+      ],
+      "answer": 3,
+      "explication": "La réunification a lieu le 3 octobre 1990, jour devenu la fête nationale allemande.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Réunification_allemande"
+    },
+    {
+      "q": "Quel plan américain, annoncé en 1947, finance la reconstruction de l'Europe de l'Ouest ?",
+      "choices": [
+        "Le plan Schuman",
+        "Le plan Dawes",
+        "Le plan Marshall",
+        "Le plan Young"
+      ],
+      "answer": 2,
+      "explication": "L'URSS refuse cette aide et pousse les pays d'Europe de l'Est sous son influence à la refuser aussi.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Plan_Marshall"
+    },
+    {
+      "q": "Quel conflit éclate en juin 1950 quand la Corée du Nord envahit la Corée du Sud ?",
+      "choices": [
+        "La guerre du Vietnam",
+        "La guerre de Corée",
+        "La guerre d'Indochine",
+        "La guerre du Golfe"
+      ],
+      "answer": 1,
+      "explication": "Un armistice est signé en juillet 1953, mais aucun traité de paix ne suit.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Guerre_de_Corée"
+    },
+    {
+      "q": "Comment appelle-t-on le ravitaillement de Berlin-Ouest par avion pendant le blocus soviétique de 1948-1949 ?",
+      "choices": [
+        "Le couloir ferroviaire",
+        "L'opération Overlord",
+        "Le plan Dawes",
+        "Le pont aérien"
+      ],
+      "answer": 3,
+      "explication": "Le blocus soviétique est levé en mai 1949.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Blocus_de_Berlin"
+    },
+    {
+      "q": "Quel président américain annonce en mars 1947 qu'il soutiendra les peuples menacés par le communisme, notamment en Grèce et en Turquie ?",
+      "choices": [
+        "Harry Truman",
+        "Franklin Roosevelt",
+        "Dwight Eisenhower",
+        "Richard Nixon"
+      ],
+      "answer": 0,
+      "explication": "Cette politique d'endiguement est théorisée par le diplomate George Kennan, auteur du « long télégramme » de 1946.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Doctrine_Truman"
+    },
+    {
+      "q": "Quel pays d'Europe de l'Est se soulève contre le pouvoir pro-soviétique en octobre 1956 avant d'être écrasé par des chars soviétiques ?",
+      "choices": [
+        "La Bulgarie",
+        "La Hongrie",
+        "L'Albanie",
+        "La Yougoslavie"
+      ],
+      "answer": 1,
+      "explication": "Imre Nagy, chef du gouvernement pendant l'insurrection, est exécuté en 1958.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Révolution_hongroise_de_1956"
+    },
+    {
+      "q": "Quelle tentative de réformes en Tchécoslovaquie, menée par Alexander Dubček, est interrompue en août 1968 par l'intervention du pacte de Varsovie ?",
+      "choices": [
+        "L'Octobre hongrois",
+        "Le Printemps arabe",
+        "Le Printemps de Prague",
+        "La révolution des Œillets"
+      ],
+      "answer": 2,
+      "explication": "La révolution de Velours, en 1989, mettra fin au régime communiste tchécoslovaque.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Printemps_de_Prague"
+    },
+    {
+      "q": "Quel pays l'URSS envahit-elle en décembre 1979 ?",
+      "choices": [
+        "L'Afghanistan",
+        "L'Iran",
+        "Le Pakistan",
+        "La Mongolie"
+      ],
+      "answer": 0,
+      "explication": "Les troupes soviétiques se retirent du pays en 1989.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Guerre_d'Afghanistan_(1979-1989)"
+    },
+    {
+      "q": "Quel syndicat indépendant, dirigé par Lech Wałęsa, naît en Pologne en 1980 ?",
+      "choices": [
+        "Charte 77",
+        "Perestroïka",
+        "Comecon",
+        "Solidarność"
+      ],
+      "answer": 3,
+      "explication": "Lech Wałęsa reçoit le prix Nobel de la paix en 1983 et devient président de la Pologne en 1990.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Solidarność"
+    },
+    {
+      "q": "Quel traité signé en 1987 par Ronald Reagan et Mikhaïl Gorbatchev supprime les missiles nucléaires de portée intermédiaire ?",
+      "choices": [
+        "Le traité SALT I",
+        "Le traité INF (FNI)",
+        "Le traité ABM",
+        "Le traité de Maastricht"
+      ],
+      "answer": 1,
+      "explication": "Il est signé à Washington en décembre 1987.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Traité_sur_les_forces_nucléaires_à_portée_intermédiaire"
+    },
+    {
+      "q": "Quel président américain se rend en Chine en février 1972, une première pour un président en exercice ?",
+      "choices": [
+        "Lyndon Johnson",
+        "Jimmy Carter",
+        "Richard Nixon",
+        "Gerald Ford"
+      ],
+      "answer": 2,
+      "explication": "Les relations diplomatiques complètes entre Washington et Pékin ne sont établies qu'en 1979.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Richard_Nixon"
+    },
+    {
+      "q": "Dans quelle capitale 35 États signent-ils en 1975 l'Acte final de la conférence sur la sécurité et la coopération en Europe ?",
+      "choices": [
+        "Vienne",
+        "Genève",
+        "Stockholm",
+        "Helsinki"
+      ],
+      "answer": 3,
+      "explication": "Le texte mentionne l'inviolabilité des frontières en Europe et le respect des droits de l'homme.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Accords_d'Helsinki"
+    },
+    {
+      "q": "Quel dirigeant soviétique dénonce les crimes de Staline dans un rapport présenté en 1956 au XXe congrès du Parti communiste ?",
+      "choices": [
+        "Leonid Brejnev",
+        "Nikita Khrouchtchev",
+        "Gueorgui Malenkov",
+        "Iouri Andropov"
+      ],
+      "answer": 1,
+      "explication": "Le rapport est lu lors d'une séance à huis clos dans la nuit du 24 au 25 février 1956.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Rapport_Khrouchtchev"
+    },
+    {
+      "q": "Quel dirigeant communiste roumain est exécuté le 25 décembre 1989 ?",
+      "choices": [
+        "Nicolae Ceaușescu",
+        "Todor Jivkov",
+        "Erich Honecker",
+        "Wojciech Jaruzelski"
+      ],
+      "answer": 0,
+      "explication": "Il dirigeait la Roumanie depuis 1965.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Nicolae_Ceaușescu"
+    },
+    {
+      "q": "Comment nomme-t-on l'échec du débarquement d'exilés cubains soutenu par la CIA en avril 1961 ?",
+      "choices": [
+        "La crise de Suez",
+        "L'affaire de l'U-2",
+        "L'affaire de la baie des Cochons",
+        "Le blocus de Berlin"
+      ],
+      "answer": 2,
+      "explication": "Il a lieu sous la présidence de Kennedy, dix-huit mois avant la crise des missiles de Cuba.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Débarquement_de_la_baie_des_Cochons"
+    }
+  ]
+}

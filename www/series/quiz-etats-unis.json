@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-etats-unis",
+  "theme": "geographie",
+  "title": "Quiz États-Unis : géographie, histoire, symboles",
+  "description": "Quiz États-Unis : 20 questions sur la géographie, les États, l'histoire et les symboles américains, du niveau facile à expert, avec explications.",
+  "h1": "Quiz États-Unis : que sais-tu de l'Amérique, de ses États et de son histoire ?",
+  "intro": "Des gratte-ciel de New York aux déserts de l'Arizona, des Grands Lacs aux plages de Floride, les États-Unis sont un pays-continent aux paysages et à l'histoire fascinants. Ce quiz te propose 20 questions sur la géographie, les États, les grandes dates et les symboles américains. Les huit premières sont faciles, les huit suivantes un peu plus corsées, et les quatre dernières réservées aux passionnés d'histoire. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait supplémentaire. À faire seul, en famille ou entre amis : prêt pour un tour d'Amérique ?",
+  "questions": [
+    {
+      "q": "Combien d'États les États-Unis comptent-ils ?",
+      "choices": [
+        "50",
+        "48",
+        "51",
+        "52"
+      ],
+      "answer": 0,
+      "explication": "Chaque État envoie deux sénateurs au Congrès, quelle que soit sa taille.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/États-Unis"
+    },
+    {
+      "q": "Quel fleuve traverse le centre des États-Unis du nord au sud avant de se jeter dans le golfe du Mexique ?",
+      "choices": [
+        "Le Colorado",
+        "L'Hudson",
+        "Le Columbia",
+        "Le Mississippi"
+      ],
+      "answer": 3,
+      "explication": "Avec son affluent le Missouri, il forme l'un des plus longs réseaux fluviaux du monde.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mississippi_(fleuve)"
+    },
+    {
+      "q": "De quel pays la statue de la Liberté, à New York, est-elle un cadeau ?",
+      "choices": [
+        "Le Royaume-Uni",
+        "La France",
+        "L'Espagne",
+        "Les Pays-Bas"
+      ],
+      "answer": 1,
+      "explication": "Elle a été conçue par le sculpteur Auguste Bartholdi et inaugurée en 1886.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Statue_de_la_Liberté"
+    },
+    {
+      "q": "Dans quel État américain se trouve le Grand Canyon ?",
+      "choices": [
+        "Le Nevada",
+        "L'Utah",
+        "L'Arizona",
+        "Le Colorado"
+      ],
+      "answer": 2,
+      "explication": "Il a été creusé par le fleuve Colorado et mesure environ 446 kilomètres de long.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Grand_Canyon"
+    },
+    {
+      "q": "Quel État du Sud-Est est surnommé le « Sunshine State » ?",
+      "choices": [
+        "La Géorgie",
+        "La Floride",
+        "La Louisiane",
+        "L'Alabama"
+      ],
+      "answer": 1,
+      "explication": "Cet État est une péninsule qui avance entre l'océan Atlantique et le golfe du Mexique.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Floride"
+    },
+    {
+      "q": "Quelle ville américaine est surnommée la « Grosse Pomme » (Big Apple) ?",
+      "choices": [
+        "New York",
+        "Chicago",
+        "Boston",
+        "Philadelphie"
+      ],
+      "answer": 0,
+      "explication": "Le surnom s'est popularisé dans les années 1970 grâce à une campagne de promotion touristique.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/New_York"
+    },
+    {
+      "q": "Dans quel État se trouve le quartier de Hollywood, capitale historique du cinéma américain ?",
+      "choices": [
+        "Le Nevada",
+        "La Floride",
+        "La Californie",
+        "Le Texas"
+      ],
+      "answer": 2,
+      "explication": "Les studios s'y sont installés dans les années 1910, attirés par le soleil et la diversité des paysages.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hollywood"
+    },
+    {
+      "q": "Quelles montagnes forment la grande barrière de l'ouest américain, du Montana au Nouveau-Mexique ?",
+      "choices": [
+        "Les Appalaches",
+        "Les Adirondacks",
+        "Les Ozarks",
+        "Les Rocheuses"
+      ],
+      "answer": 3,
+      "explication": "Elles s'étendent sur plus de 4 000 kilomètres, jusqu'au Canada, et forment la ligne de partage des eaux du continent.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Montagnes_Rocheuses"
+    },
+    {
+      "q": "En quelle année les États-Unis proclament-ils leur indépendance ?",
+      "choices": [
+        "1789",
+        "1783",
+        "1776",
+        "1765"
+      ],
+      "answer": 2,
+      "explication": "La Déclaration d'indépendance est adoptée le 4 juillet 1776, texte rédigé surtout par Thomas Jefferson.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Déclaration_d'indépendance_des_États-Unis"
+    },
+    {
+      "q": "Qui est le premier président des États-Unis, en fonction à partir de 1789 ?",
+      "choices": [
+        "John Adams",
+        "George Washington",
+        "Thomas Jefferson",
+        "Benjamin Franklin"
+      ],
+      "answer": 1,
+      "explication": "Il a prêté serment à New York, alors capitale provisoire du pays, et a fait deux mandats.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/George_Washington"
+    },
+    {
+      "q": "Quel président américain a signé la proclamation d'émancipation en 1863 ?",
+      "choices": [
+        "Ulysses S. Grant",
+        "Andrew Jackson",
+        "Theodore Roosevelt",
+        "Abraham Lincoln"
+      ],
+      "answer": 3,
+      "explication": "Le texte, publié en pleine guerre civile, déclare libres les esclaves des États rebelles.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Abraham_Lincoln"
+    },
+    {
+      "q": "Quelle guerre oppose le Nord et le Sud des États-Unis entre 1861 et 1865 ?",
+      "choices": [
+        "La guerre de Sécession",
+        "La guerre d'Indépendance",
+        "La guerre de 1812",
+        "La guerre du Mexique"
+      ],
+      "answer": 0,
+      "explication": "Elle commence après l'élection de Lincoln et la sécession d'États du Sud, favorables au maintien de l'esclavage.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Guerre_de_Sécession"
+    },
+    {
+      "q": "Quel vaste territoire Napoléon Bonaparte vend-il aux États-Unis en 1803 ?",
+      "choices": [
+        "La Floride",
+        "Le Texas",
+        "La Californie",
+        "La Louisiane"
+      ],
+      "answer": 3,
+      "explication": "Cet achat a presque doublé la superficie du pays, pour environ 15 millions de dollars.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vente_de_la_Louisiane"
+    },
+    {
+      "q": "Quel État a été acheté à la Russie en 1867 ?",
+      "choices": [
+        "Hawaï",
+        "L'Oregon",
+        "L'Alaska",
+        "Le Montana"
+      ],
+      "answer": 2,
+      "explication": "L'achat s'est fait pour 7,2 millions de dollars ; l'Alaska est devenu un État en 1959.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Alaska"
+    },
+    {
+      "q": "Quel Grand Lac est entièrement situé aux États-Unis ?",
+      "choices": [
+        "Le lac Michigan",
+        "Le lac Supérieur",
+        "Le lac Huron",
+        "Le lac Érié"
+      ],
+      "answer": 0,
+      "explication": "Les quatre autres Grands Lacs sont partagés avec le Canada.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Grands_Lacs_(Amérique_du_Nord)"
+    },
+    {
+      "q": "Comment s'appelle la résidence officielle du président des États-Unis, à Washington ?",
+      "choices": [
+        "Le Capitole",
+        "La Maison-Blanche",
+        "Le Pentagone",
+        "Camp David"
+      ],
+      "answer": 1,
+      "explication": "John Adams est le premier président à y habiter, en 1800.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Maison-Blanche"
+    },
+    {
+      "q": "Quel traité de 1783 reconnaît l'indépendance des États-Unis ?",
+      "choices": [
+        "Le traité d'Utrecht",
+        "Le traité de Tordesillas",
+        "Le traité de Paris",
+        "Les traités de Westphalie"
+      ],
+      "answer": 2,
+      "explication": "Il met fin à la guerre d'Indépendance et fixe les frontières du nouveau pays avec le Canada britannique.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Traité_de_Paris_(1783)"
+    },
+    {
+      "q": "Quel État est le premier à ratifier la Constitution des États-Unis, le 7 décembre 1787 ?",
+      "choices": [
+        "Le Delaware",
+        "La Pennsylvanie",
+        "La Virginie",
+        "Le Massachusetts"
+      ],
+      "answer": 0,
+      "explication": "Pour cette raison, il se surnomme « le premier État » (The First State).",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Delaware"
+    },
+    {
+      "q": "Quelle bataille de juillet 1863, en Pennsylvanie, marque un tournant de la guerre de Sécession ?",
+      "choices": [
+        "Antietam",
+        "Gettysburg",
+        "Bull Run",
+        "Shiloh"
+      ],
+      "answer": 1,
+      "explication": "C'est aussi sur ce champ de bataille que Lincoln prononce, en novembre 1863, son célèbre discours.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_de_Gettysburg"
+    },
+    {
+      "q": "Quel amendement de la Constitution, ratifié en 1865, abolit l'esclavage ?",
+      "choices": [
+        "Le premier amendement",
+        "Le quatorzième amendement",
+        "Le dix-neuvième amendement",
+        "Le treizième amendement"
+      ],
+      "answer": 3,
+      "explication": "Le quatorzième garantit ensuite la citoyenneté, et le quinzième interdit de refuser le droit de vote pour des raisons de race.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Treizième_amendement_de_la_Constitution_des_États-Unis"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les États-Unis ?",
+      "Le quiz compte 20 questions : 8 faciles sur les lieux et les villes connus, 8 de niveau moyen sur l'indépendance, la guerre de Sécession et la géographie, et 4 questions expert sur les textes fondateurs. Il ne porte pas sur les chiffres qui évoluent, comme les populations."
+    ],
+    [
+      "Combien y a-t-il d'États aux États-Unis, et lesquels sont les derniers ?",
+      "Le pays compte 50 États. Les deux derniers à avoir rejoint l'Union sont l'Alaska, devenu le 49e État en janvier 1959, puis Hawaï, 50e État en août de la même année. Le district de Columbia, où se trouve Washington, n'est pas un État."
+    ],
+    [
+      "Pourquoi le 4 juillet est-il la fête nationale américaine ?",
+      "Le 4 juillet 1776, le Congrès continental adopte la Déclaration d'indépendance, par laquelle les treize colonies britanniques d'Amérique proclament leur séparation de la Grande-Bretagne. Cette date, appelée Independence Day, est célébrée chaque année par des défilés, des feux d'artifice et des rassemblements."
+    ]
+  ],
+  "related": [
+    "/quiz-geographie",
+    "/quiz-histoire",
+    "/quiz-pays-du-monde",
+    "/quiz-xxe-siecle",
+    "/quiz-capitales-amerique"
+  ]
+}

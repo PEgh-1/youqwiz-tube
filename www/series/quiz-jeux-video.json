@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-jeux-video",
+  "theme": "culture",
+  "title": "Quiz jeux vidéo : consoles, licences et histoire",
+  "description": "Quiz jeux vidéo : 20 questions sur l'histoire du jeu vidéo, les consoles et les licences cultes, de Pong à Minecraft. Niveau facile à expert.",
+  "h1": "Quiz jeux vidéo : es-tu un vrai gamer ?",
+  "intro": "De Pong à Minecraft, en passant par Mario, Sonic, Pokémon et la PlayStation : l'histoire du jeu vidéo est riche en consoles mythiques et en personnages cultes. Ce quiz te propose 20 questions sur les grandes licences, les machines et les dates clés, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un détail de plus sur les coulisses du média. Tu peux jouer seul, en famille ou entre amis, et recommencer pour battre ton score. Prends ta manette : la partie commence !",
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz jeux vidéo ?",
+      "Le quiz compte 20 questions de difficulté croissante : huit faciles sur les licences les plus célèbres, huit de niveau moyen sur les consoles et les studios, puis quatre questions expert sur les débuts du jeu vidéo. Chaque réponse est accompagnée d'une explication pour apprendre un fait en plus."
+    ],
+    [
+      "Quel est le nom de la Mega Drive en Amérique du Nord ?",
+      "La console de Sega, lancée au Japon en 1988 sous le nom de Mega Drive, est commercialisée en Amérique du Nord en 1989 sous le nom de Genesis. Sega a changé de nom pour des raisons de droits de marque. En Europe, elle a conservé le nom de Mega Drive."
+    ],
+    [
+      "Qu'est-ce que le krach du jeu vidéo de 1983 ?",
+      "C'est l'effondrement du marché des consoles aux États-Unis à partir de 1983, causé notamment par une offre excessive de jeux de qualité inégale. Plusieurs sociétés ont disparu ou perdu beaucoup d'argent. Le marché ne repart qu'avec l'arrivée de la NES de Nintendo, commercialisée aux États-Unis à partir de 1985."
+    ]
+  ],
+  "related": [
+    "/quiz-marvel",
+    "/quiz-harry-potter",
+    "/quiz-culture-generale-facile",
+    "/quiz-sport",
+    "/quiz-sciences"
+  ],
+  "questions": [
+    {
+      "q": "Quelle entreprise japonaise a créé Mario et Zelda ?",
+      "choices": [
+        "Nintendo",
+        "Sega",
+        "Sony",
+        "Atari"
+      ],
+      "answer": 0,
+      "explication": "Fondée en 1889, elle fabriquait à l'origine des cartes à jouer japonaises.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nintendo"
+    },
+    {
+      "q": "Quel hérisson bleu ultrarapide est la mascotte historique de Sega ?",
+      "choices": [
+        "Crash Bandicoot",
+        "Rayman",
+        "Sonic",
+        "Spyro"
+      ],
+      "answer": 2,
+      "explication": "Son premier jeu sort en 1991 sur la console Mega Drive.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sonic_the_Hedgehog"
+    },
+    {
+      "q": "Quel jeu d'arcade d'Atari, sorti en 1972, simule une partie de tennis de table ?",
+      "choices": [
+        "Tetris",
+        "Pac-Man",
+        "Space Invaders",
+        "Pong"
+      ],
+      "answer": 3,
+      "explication": "Atari a été fondée la même année par Nolan Bushnell et Ted Dabney.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pong"
+    },
+    {
+      "q": "Quel jeu de blocs à empiler, imaginé en Union soviétique, est devenu un classique mondial ?",
+      "choices": [
+        "Columns",
+        "Tetris",
+        "Puyo Puyo",
+        "Bejeweled"
+      ],
+      "answer": 1,
+      "explication": "Son créateur, Alexeï Pajitnov, le conçoit en 1984.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tetris"
+    },
+    {
+      "q": "Dans quel jeu guide-t-on une créature jaune dans un labyrinthe, poursuivie par des fantômes ?",
+      "choices": [
+        "Donkey Kong",
+        "Pac-Man",
+        "Frogger",
+        "Q*bert"
+      ],
+      "answer": 1,
+      "explication": "Il sort en 1980 au Japon, chez Namco.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pac-Man"
+    },
+    {
+      "q": "Quel jeu de construction en cubes, créé par Markus Persson, est devenu un phénomène mondial ?",
+      "choices": [
+        "Roblox",
+        "Terraria",
+        "Fortnite",
+        "Minecraft"
+      ],
+      "answer": 3,
+      "explication": "Microsoft rachète son studio, Mojang, en 2014.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Comment s'appelle le héros en tunique verte de la série The Legend of Zelda ?",
+      "choices": [
+        "Zelda",
+        "Ganon",
+        "Link",
+        "Mario"
+      ],
+      "answer": 2,
+      "explication": "Le premier jeu sort au Japon en 1986.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda"
+    },
+    {
+      "q": "Quel Pokémon jaune électrique est la mascotte de la franchise ?",
+      "choices": [
+        "Pikachu",
+        "Salamèche",
+        "Carapuce",
+        "Bulbizarre"
+      ],
+      "answer": 0,
+      "explication": "Les premiers jeux, Pokémon Rouge et Vert, sortent au Japon en 1996.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pikachu"
+    },
+    {
+      "q": "Sous quel nom la console Famicom de Nintendo est-elle commercialisée en Occident ?",
+      "choices": [
+        "Super Nintendo",
+        "NES",
+        "Game Boy",
+        "Nintendo 64"
+      ],
+      "answer": 1,
+      "explication": "La Famicom sort d'abord au Japon en 1983.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nintendo_Entertainment_System"
+    },
+    {
+      "q": "Quelle console portable de Nintendo, sortie en 1989, est vendue avec Tetris en Occident ?",
+      "choices": [
+        "La Game Gear",
+        "La Lynx",
+        "La Neo Geo Pocket",
+        "La Game Boy"
+      ],
+      "answer": 3,
+      "explication": "Sa conception est menée par l'ingénieur Gunpei Yokoi.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Game_Boy"
+    },
+    {
+      "q": "Quelle console de Sony sort au Japon en 1994 ?",
+      "choices": [
+        "La PlayStation",
+        "La Dreamcast",
+        "La Jaguar",
+        "La Wii"
+      ],
+      "answer": 0,
+      "explication": "Elle est née d'un projet de lecteur CD pour la Super Nintendo, abandonné.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/PlayStation"
+    },
+    {
+      "q": "Quelle est la dernière console de salon conçue par Sega ?",
+      "choices": [
+        "La Saturn",
+        "La Mega Drive",
+        "La Dreamcast",
+        "La Master System"
+      ],
+      "answer": 2,
+      "explication": "Sega arrête sa production en 2001 et devient un simple éditeur de jeux.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dreamcast"
+    },
+    {
+      "q": "Quelle entreprise française, fondée en 1986, a créé Rayman ?",
+      "choices": [
+        "Infogrames",
+        "Titus",
+        "Ubisoft",
+        "Cryo"
+      ],
+      "answer": 2,
+      "explication": "Rayman sort en 1995 et a été imaginé par Michel Ancel.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rayman_(jeu_vid%C3%A9o)"
+    },
+    {
+      "q": "Quel jeu de combat de Capcom, sorti en 1991, déclenche l'engouement pour les duels en arcade ?",
+      "choices": [
+        "Street Fighter II",
+        "Mortal Kombat",
+        "Tekken",
+        "Virtua Fighter"
+      ],
+      "answer": 0,
+      "explication": "Il permet de choisir parmi huit combattants, dont Ryu et Chun-Li.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Street_Fighter_II"
+    },
+    {
+      "q": "Quel jeu de tir en vue subjective de id Software, sorti en 1993, a popularisé le genre ?",
+      "choices": [
+        "Half-Life",
+        "Halo",
+        "Call of Duty",
+        "Doom"
+      ],
+      "answer": 3,
+      "explication": "Il propose déjà des parties à plusieurs en réseau.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Doom_(jeu_vidéo,_1993)"
+    },
+    {
+      "q": "Quelle série de jeux de rôle de Square, lancée en 1987, a été imaginée par Hironobu Sakaguchi ?",
+      "choices": [
+        "Dragon Quest",
+        "Final Fantasy",
+        "Kingdom Hearts",
+        "Chrono Trigger"
+      ],
+      "answer": 1,
+      "explication": "Selon son créateur, le studio jouait alors sa survie, d'où ce nom.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Final_Fantasy"
+    },
+    {
+      "q": "Quel jeu de 1971 est le premier jeu vidéo d'arcade commercialisé ?",
+      "choices": [
+        "Pong",
+        "Tennis for Two",
+        "Breakout",
+        "Computer Space"
+      ],
+      "answer": 3,
+      "explication": "Pong, sorti l'année suivante, connaîtra un succès bien supérieur.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Computer_Space"
+    },
+    {
+      "q": "Quel jeu de Shigeru Miyamoto, sorti en 1981, présente Mario sous le nom de Jumpman ?",
+      "choices": [
+        "Mario Bros.",
+        "Super Mario Bros.",
+        "Donkey Kong",
+        "Popeye"
+      ],
+      "answer": 2,
+      "explication": "Mario y doit sauver sa compagne des griffes d'un gorille.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Donkey_Kong_(jeu_vid%C3%A9o,_1981)"
+    },
+    {
+      "q": "Quelle est la première console de salon commercialisée, en 1972 ?",
+      "choices": [
+        "L'Atari 2600",
+        "La Magnavox Odyssey",
+        "La Fairchild Channel F",
+        "L'Intellivision"
+      ],
+      "answer": 1,
+      "explication": "Elle a été conçue par l'ingénieur Ralph Baer.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Magnavox_Odyssey"
+    },
+    {
+      "q": "Quel jeu de combat de vaisseaux a été programmé en 1962 par des étudiants du MIT sur un PDP-1 ?",
+      "choices": [
+        "Spacewar!",
+        "Asteroids",
+        "Space Invaders",
+        "Galaga"
+      ],
+      "answer": 0,
+      "explication": "Il a inspiré Computer Space, le premier jeu d'arcade commercialisé.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Spacewar!"
+    }
+  ]
+}

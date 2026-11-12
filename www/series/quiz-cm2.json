@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-cm2",
+  "theme": "culture",
+  "title": "Quiz CM2 : culture générale pour 9-11 ans",
+  "description": "Quiz CM2 gratuit : 20 questions de culture générale en français, maths, histoire, géographie et sciences, pour les 9-11 ans et toute la famille.",
+  "h1": "Quiz CM2 : ta culture générale est-elle au niveau ?",
+  "intro": "Ce quiz CM2 réunit 20 questions de culture générale adaptées aux enfants de 9 à 11 ans, mais aussi aux parents qui aiment défier leurs enfants. Tu y croiseras un peu de français, des maths simples, de l'histoire, de la géographie et des sciences, comme à l'école. Les questions vont des plus faciles aux plus difficiles, et chaque réponse est suivie d'une courte explication qui t'apprend quelque chose de nouveau. Compte environ 5 secondes de réflexion par question. Joue seul pour réviser, ou en famille pour savoir qui est le plus malin à la maison. Prêt à décrocher un score parfait ?",
+  "faq": [
+    [
+      "À qui s'adresse ce quiz CM2 ?",
+      "Il s'adresse aux élèves de CM2, c'est-à-dire aux enfants de 9 à 11 ans, dernière année de l'école élémentaire avant l'entrée en 6e. Les adultes peuvent aussi y jouer pour s'amuser. Les 8 premières questions sont accessibles à presque tous, les dernières demandent un peu plus de culture."
+    ],
+    [
+      "Comment jouer à ce quiz en famille ?",
+      "Choisissez un joueur qui lit les questions à voix haute, puis chacun note sa réponse sur une feuille avant de découvrir la bonne. Comparez les scores à la fin. Lis aussi l'explication après chaque réponse : elle apporte un fait en plus, idéal pour discuter ensemble et retenir de nouvelles notions."
+    ],
+    [
+      "Quelle est la différence entre périmètre et aire ?",
+      "Le périmètre est la longueur du contour d'une figure, exprimée en centimètres ou en mètres. L'aire est la mesure de sa surface, exprimée en centimètres carrés ou en mètres carrés. Pour un carré de 5 cm de côté, le périmètre vaut 20 cm et l'aire vaut 25 cm²."
+    ]
+  ],
+  "related": [
+    "/quiz-culture-generale-facile",
+    "/quiz-sciences",
+    "/quiz-geographie",
+    "/quiz-histoire",
+    "/quiz-animaux"
+  ],
+  "questions": [
+    {
+      "q": "Combien font 7 × 8 ?",
+      "choices": [
+        "54",
+        "48",
+        "64",
+        "56"
+      ],
+      "answer": 3,
+      "explication": "Astuce de mémoire : la suite 5, 6, 7, 8 donne 56 = 7 × 8.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Quel animal marin est un mammifère ?",
+      "choices": [
+        "Le requin",
+        "La baleine",
+        "Le thon",
+        "La raie"
+      ],
+      "answer": 1,
+      "explication": "Elle respire avec des poumons, vient à la surface pour prendre l'air et allaite son petit.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Baleine"
+    },
+    {
+      "q": "Combien de minutes dure une heure et demie ?",
+      "choices": [
+        "80",
+        "100",
+        "90",
+        "150"
+      ],
+      "answer": 2,
+      "explication": "Une journée compte 24 heures, soit 1 440 minutes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minute_(temps)"
+    },
+    {
+      "q": "Quel fleuve traverse Lyon avant de se jeter dans la mer Méditerranée ?",
+      "choices": [
+        "Le Rhône",
+        "La Loire",
+        "La Garonne",
+        "La Seine"
+      ],
+      "answer": 0,
+      "explication": "Il prend sa source en Suisse, dans le massif des Alpes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Rhône"
+    },
+    {
+      "q": "Quel est le pluriel du mot « bijou » ?",
+      "choices": [
+        "bijous",
+        "bijouxs",
+        "bijoues",
+        "bijoux"
+      ],
+      "answer": 3,
+      "explication": "Bijou fait partie des sept noms en -ou qui prennent un x : bijou, caillou, chou, genou, hibou, joujou, pou.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/bijou"
+    },
+    {
+      "q": "À quelle température l'eau gèle-t-elle quand la pression est normale ?",
+      "choices": [
+        "10 °C",
+        "-10 °C",
+        "0 °C",
+        "32 °C"
+      ],
+      "answer": 2,
+      "explication": "Ce même point se note 32 °F dans l'échelle Fahrenheit utilisée aux États-Unis.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Degré_Celsius"
+    },
+    {
+      "q": "Qui a écrit en 1697 le conte « Cendrillon » dans un recueil de contes de fées ?",
+      "choices": [
+        "Hans Christian Andersen",
+        "Charles Perrault",
+        "Alphonse Daudet",
+        "Jean de La Fontaine"
+      ],
+      "answer": 1,
+      "explication": "Il a aussi écrit « Le Petit Chaperon rouge », « Le Chat botté » et « La Belle au bois dormant ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Charles_Perrault"
+    },
+    {
+      "q": "Comment appelle-t-on un animal qui mange uniquement des végétaux ?",
+      "choices": [
+        "Un herbivore",
+        "Un carnivore",
+        "Un omnivore",
+        "Un insectivore"
+      ],
+      "answer": 0,
+      "explication": "L'humain est omnivore : il mange des végétaux comme des produits d'origine animale.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Herbivore"
+    },
+    {
+      "q": "Quelle mer borde la côte sud de la France ?",
+      "choices": [
+        "La mer du Nord",
+        "La mer Baltique",
+        "La Méditerranée",
+        "La Manche"
+      ],
+      "answer": 2,
+      "explication": "La Corse, île française, se trouve dans cette mer.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mer_Méditerranée"
+    },
+    {
+      "q": "Comment appelle-t-on la période qui précède l'invention de l'écriture ?",
+      "choices": [
+        "L'Antiquité",
+        "Le Moyen Âge",
+        "Les Temps modernes",
+        "La Préhistoire"
+      ],
+      "answer": 3,
+      "explication": "Les premières écritures apparaissent vers 3300 avant J.-C. en Mésopotamie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Préhistoire"
+    },
+    {
+      "q": "Quel gaz les plantes vertes absorbent-elles pour fabriquer leur matière grâce à la lumière ?",
+      "choices": [
+        "Le dioxyde de carbone",
+        "L'oxygène",
+        "L'azote",
+        "L'hélium"
+      ],
+      "answer": 0,
+      "explication": "Pendant la photosynthèse, elles rejettent de l'oxygène.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Photosynthèse"
+    },
+    {
+      "q": "Combien y a-t-il de millimètres dans un mètre ?",
+      "choices": [
+        "10",
+        "1 000",
+        "100",
+        "10 000"
+      ],
+      "answer": 1,
+      "explication": "Le préfixe « milli » signifie « un millième ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Millimètre"
+    },
+    {
+      "q": "Quel est le périmètre d'un carré de 5 cm de côté ?",
+      "choices": [
+        "10 cm",
+        "15 cm",
+        "25 cm",
+        "20 cm"
+      ],
+      "answer": 3,
+      "explication": "L'aire de ce même carré vaut 25 cm² : ne confonds pas le tour d'une figure avec sa surface.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Périmètre"
+    },
+    {
+      "q": "Quel nombre s'écrit « XIV » en chiffres romains ?",
+      "choices": [
+        "6",
+        "16",
+        "14",
+        "9"
+      ],
+      "answer": 2,
+      "explication": "Un signe placé avant un plus grand se soustrait : IV vaut 4, donc XIV vaut 10 + 4.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Numération_romaine"
+    },
+    {
+      "q": "Quel scientifique français met au point en 1885 un vaccin contre la rage ?",
+      "choices": [
+        "Louis Pasteur",
+        "Pierre Curie",
+        "Louis Braille",
+        "Denis Papin"
+      ],
+      "answer": 0,
+      "explication": "Son premier patient est un jeune garçon alsacien, Joseph Meister.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Louis_Pasteur"
+    },
+    {
+      "q": "Quel est le nom du polygone qui a huit côtés ?",
+      "choices": [
+        "Le pentagone",
+        "L'octogone",
+        "L'hexagone",
+        "L'heptagone"
+      ],
+      "answer": 1,
+      "explication": "Le mot vient du grec : « okto » signifie huit et « gônia » signifie angle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Octogone"
+    },
+    {
+      "q": "Quelle est la plus grande île du monde ?",
+      "choices": [
+        "Madagascar",
+        "Bornéo",
+        "Le Groenland",
+        "La Nouvelle-Guinée"
+      ],
+      "answer": 2,
+      "explication": "Territoire autonome du Danemark, il est couvert en grande partie par une calotte glaciaire.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Groenland"
+    },
+    {
+      "q": "Quels frères font voler publiquement en juin 1783, à Annonay, un ballon à air chaud ?",
+      "choices": [
+        "Les frères Montgolfier",
+        "Les frères Lumière",
+        "Les frères Wright",
+        "Les frères Goncourt"
+      ],
+      "answer": 0,
+      "explication": "Le premier vol d'hommes en ballon libre a lieu en novembre 1783, avec Pilâtre de Rozier et le marquis d'Arlandes.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Montgolfière"
+    },
+    {
+      "q": "Quel savant publie en 1543 un livre où la Terre tourne autour du Soleil ?",
+      "choices": [
+        "Galilée",
+        "Isaac Newton",
+        "Johannes Kepler",
+        "Nicolas Copernic"
+      ],
+      "answer": 3,
+      "explication": "Son ouvrage paraît l'année de sa mort ; Galilée défendra ensuite cette idée.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Nicolas_Copernic"
+    },
+    {
+      "q": "Quel savant grec donne son nom au célèbre théorème sur les côtés d'un triangle rectangle (a² + b² = c²) ?",
+      "choices": [
+        "Archimède",
+        "Pythagore",
+        "Euclide",
+        "Thalès"
+      ],
+      "answer": 1,
+      "explication": "Les Babyloniens connaissaient déjà cette relation bien avant lui.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Théorème_de_Pythagore"
+    }
+  ]
+}

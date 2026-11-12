@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-bible",
+  "theme": "culture",
+  "title": "Quiz bible : personnages, récits et livres",
+  "description": "Quiz bible : 20 questions de culture générale sur les personnages, les récits et les livres de la Bible, dans un esprit neutre et culturel.",
+  "h1": "Quiz Bible : que sais-tu des grands récits bibliques ?",
+  "intro": "Noé, Moïse, David, les Évangiles : les récits de la Bible irriguent la littérature, la peinture et le langage courant, que l'on soit croyant ou non. Ce quiz de culture générale te propose 20 questions sur les personnages, les histoires et les livres bibliques, dans un esprit purement culturel et neutre. Les questions vont des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un fait supplémentaire. Seul, en famille ou entre amis : prêt à relever le défi ?",
+  "questions": [
+    {
+      "q": "Selon le récit biblique, quel personnage construit une arche pour survivre au déluge ?",
+      "choices": [
+        "Abraham",
+        "Noé",
+        "Moïse",
+        "Jonas"
+      ],
+      "answer": 1,
+      "explication": "Le récit de la Genèse décrit une arche pouvant accueillir sa famille et des couples d'animaux.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/No%C3%A9_(patriarche)"
+    },
+    {
+      "q": "Comment s'appelle le jardin où vivent Adam et Ève dans le récit de la Genèse ?",
+      "choices": [
+        "Le jardin de Gethsémani",
+        "La terre de Canaan",
+        "Le mont Sinaï",
+        "Le jardin d'Éden"
+      ],
+      "answer": 3,
+      "explication": "Le nom Éden est devenu synonyme de paradis dans le langage courant.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Gen%C3%A8se"
+    },
+    {
+      "q": "Quel jeune berger vainc le géant Goliath selon la Bible ?",
+      "choices": [
+        "David",
+        "Samson",
+        "Saül",
+        "Salomon"
+      ],
+      "answer": 0,
+      "explication": "Il utilise une fronde, et deviendra ensuite roi d'Israël.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/David_(roi_d'Israël)"
+    },
+    {
+      "q": "Combien de commandements contient le Décalogue ?",
+      "choices": [
+        "Sept",
+        "Douze",
+        "Dix",
+        "Quinze"
+      ],
+      "answer": 2,
+      "explication": "Selon le récit biblique, Moïse les reçoit sur le mont Sinaï.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Décalogue"
+    },
+    {
+      "q": "Quel personnage mène les Hébreux hors d'Égypte selon le livre de l'Exode ?",
+      "choices": [
+        "Abraham",
+        "Moïse",
+        "Josué",
+        "Élie"
+      ],
+      "answer": 1,
+      "explication": "Le nom du livre, Exode, signifie « sortie » en grec.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Moïse"
+    },
+    {
+      "q": "Dans quelle ville naît Jésus selon les Évangiles de Matthieu et de Luc ?",
+      "choices": [
+        "Bethléem",
+        "Nazareth",
+        "Jérusalem",
+        "Capharnaüm"
+      ],
+      "answer": 0,
+      "explication": "Bethléem est située en Cisjordanie, à environ dix kilomètres au sud de Jérusalem.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Bethléem"
+    },
+    {
+      "q": "Comment appelle-t-on les quatre premiers livres du Nouveau Testament ?",
+      "choices": [
+        "Les Psaumes",
+        "Les Épîtres",
+        "Les Proverbes",
+        "Les Évangiles"
+      ],
+      "answer": 3,
+      "explication": "Ils portent les noms de Matthieu, Marc, Luc et Jean.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Évangile"
+    },
+    {
+      "q": "Quel est le premier livre de la Bible ?",
+      "choices": [
+        "L'Exode",
+        "Les Psaumes",
+        "La Genèse",
+        "L'Apocalypse"
+      ],
+      "answer": 2,
+      "explication": "Son nom vient du grec et signifie « origine », car il raconte les commencements.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Genèse"
+    },
+    {
+      "q": "Combien d'apôtres Jésus choisit-il selon les Évangiles ?",
+      "choices": [
+        "Douze",
+        "Sept",
+        "Dix",
+        "Quarante"
+      ],
+      "answer": 0,
+      "explication": "Ce nombre est souvent interprété comme un écho aux douze tribus d'Israël.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Douze_Apôtres"
+    },
+    {
+      "q": "Quel apôtre trahit Jésus selon les Évangiles ?",
+      "choices": [
+        "Pierre",
+        "Judas",
+        "Thomas",
+        "Jean"
+      ],
+      "answer": 1,
+      "explication": "Les Évangiles racontent qu'il le livre pour trente pièces d'argent.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Douze_Apôtres"
+    },
+    {
+      "q": "Selon les Évangiles, dans quel fleuve Jésus est-il baptisé par Jean le Baptiste ?",
+      "choices": [
+        "Le Nil",
+        "L'Euphrate",
+        "Le Tibre",
+        "Le Jourdain"
+      ],
+      "answer": 3,
+      "explication": "Le Jourdain sépare aujourd'hui Israël et la Cisjordanie de la Jordanie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jourdain"
+    },
+    {
+      "q": "Quel récit de la Genèse explique l'origine de la diversité des langues ?",
+      "choices": [
+        "Le déluge",
+        "Le buisson ardent",
+        "La tour de Babel",
+        "Le festin de Balthazar"
+      ],
+      "answer": 2,
+      "explication": "Dans le langage courant, une « tour de Babel » désigne un lieu où l'on ne se comprend plus.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tour_de_Babel"
+    },
+    {
+      "q": "Quel fils d'Adam et Ève tue son frère Abel dans le récit de la Genèse ?",
+      "choices": [
+        "Seth",
+        "Caïn",
+        "Ésaü",
+        "Jacob"
+      ],
+      "answer": 1,
+      "explication": "C'est le premier meurtre de la Bible.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Caïn_et_Abel_(Genèse)"
+    },
+    {
+      "q": "Quel roi d'Israël est réputé pour sa sagesse, notamment dans l'épisode du jugement des deux mères ?",
+      "choices": [
+        "Salomon",
+        "Saül",
+        "Hérode",
+        "Nabuchodonosor"
+      ],
+      "answer": 0,
+      "explication": "La tradition lui attribue la construction du premier Temple de Jérusalem.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Salomon_(roi_d'Isra%C3%ABl)"
+    },
+    {
+      "q": "Quel prophète est avalé par un grand poisson selon la Bible ?",
+      "choices": [
+        "Élie",
+        "Isaïe",
+        "Jonas",
+        "Daniel"
+      ],
+      "answer": 2,
+      "explication": "Le livre de Jonas ne parle pas de baleine, mais d'un grand poisson, ce que des traductions ont parfois modifié.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Livre_de_Jonas"
+    },
+    {
+      "q": "Quel est le dernier livre du Nouveau Testament ?",
+      "choices": [
+        "Les Actes des apôtres",
+        "L'Épître aux Romains",
+        "L'Évangile de Jean",
+        "L'Apocalypse"
+      ],
+      "answer": 3,
+      "explication": "Le mot « apocalypse » signifie « révélation » en grec.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Apocalypse_de_saint_Jean"
+    },
+    {
+      "q": "Dans quelle langue la majeure partie de l'Ancien Testament a-t-elle été rédigée ?",
+      "choices": [
+        "L'hébreu",
+        "Le latin",
+        "Le grec",
+        "L'araméen"
+      ],
+      "answer": 0,
+      "explication": "Quelques passages tardifs, dans les livres de Daniel et d'Esdras, sont écrits en araméen.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ancien_Testament"
+    },
+    {
+      "q": "Quel apôtre, d'abord persécuteur des chrétiens et appelé Saul, est l'auteur de plusieurs épîtres du Nouveau Testament ?",
+      "choices": [
+        "Pierre",
+        "Barnabé",
+        "Paul de Tarse",
+        "Jacques"
+      ],
+      "answer": 2,
+      "explication": "Ses lettres adressées à des communautés comptent parmi les plus anciens textes du Nouveau Testament.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Paul_de_Tarse"
+    },
+    {
+      "q": "Comment appelle-t-on la traduction grecque de la Bible hébraïque, réalisée à partir du IIIe siècle avant J.-C. ?",
+      "choices": [
+        "La Vulgate",
+        "La Septante",
+        "Le Targum",
+        "La Peshitta"
+      ],
+      "answer": 1,
+      "explication": "Son nom vient du chiffre soixante-dix, en référence aux traducteurs de la tradition.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Septante"
+    },
+    {
+      "q": "Quel traducteur de la fin du IVe siècle est l'auteur de la Vulgate, traduction latine de la Bible ?",
+      "choices": [
+        "Augustin d'Hippone",
+        "Ambroise de Milan",
+        "Origène",
+        "Jérôme de Stridon"
+      ],
+      "answer": 3,
+      "explication": "Il a traduit l'essentiel de la Bible depuis l'hébreu et le grec ; sa version est restée une référence pendant des siècles en Occident.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Jérôme_de_Stridon"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur la Bible ?",
+      "Le quiz compte 20 questions : 8 faciles, 8 moyennes et 4 pour experts. Il s'agit d'un test de culture générale, sans aucune démarche religieuse. Les explications après chaque réponse apportent un éclairage historique ou littéraire sur les récits et les personnages, ainsi que sur les expressions du langage courant qui en sont issues."
+    ],
+    [
+      "Quelle est la différence entre Ancien et Nouveau Testament ?",
+      "L'Ancien Testament regroupe les textes antérieurs à Jésus, issus de la tradition juive, comme la Genèse ou les Psaumes. Le Nouveau Testament rassemble les écrits chrétiens, notamment les quatre Évangiles, les Actes des apôtres, les épîtres et l'Apocalypse. Ensemble, ils forment la Bible chrétienne."
+    ],
+    [
+      "Dans quelles langues la Bible a-t-elle été rédigée ?",
+      "L'Ancien Testament est écrit en hébreu, avec quelques passages en araméen. Le Nouveau Testament est rédigé en grec. Ces textes ont ensuite été traduits en latin, notamment par saint Jérôme, puis dans des centaines de langues à travers le monde."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-mythologie-grecque",
+    "/quiz-antiquite",
+    "/quiz-moyen-age",
+    "/quiz-culture-generale-facile"
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "path": "/quiz-musique",
+  "theme": "musique",
+  "title": "Quiz musique : artistes, groupes et instruments",
+  "description": "Quiz musique : 20 questions sur les artistes, les groupes et les instruments du monde entier, du rock au jazz. Teste ta culture musicale !",
+  "h1": "Quiz musique : quel est ton niveau en culture musicale ?",
+  "intro": "Rock, pop, jazz, soul ou hip-hop : la musique nous accompagne partout, mais en connais-tu vraiment l'histoire ? Ce quiz te propose 20 questions sur les grands artistes, les groupes mythiques et les instruments du monde entier. Les huit premières questions sont faciles, les suivantes plus corsées, et les quatre dernières réservées aux vrais passionnés. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait supplémentaire à retenir. À faire seul, en famille ou entre amis : prêt à décrocher le score parfait ?",
+  "questions": [
+    {
+      "q": "Combien de cordes compte une guitare classique ?",
+      "choices": [
+        "Quatre",
+        "Six",
+        "Cinq",
+        "Huit"
+      ],
+      "answer": 1,
+      "explication": "Elles sont accordées, de la plus grave à la plus aiguë, en mi, la, ré, sol, si, mi.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Guitare_classique"
+    },
+    {
+      "q": "Combien de touches compte un piano standard ?",
+      "choices": [
+        "76",
+        "92",
+        "100",
+        "88"
+      ],
+      "answer": 3,
+      "explication": "Cela représente 52 touches blanches et 36 touches noires.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Piano"
+    },
+    {
+      "q": "Dans quelle ville britannique le groupe The Beatles est-il formé ?",
+      "choices": [
+        "Liverpool",
+        "Manchester",
+        "Londres",
+        "Birmingham"
+      ],
+      "answer": 0,
+      "explication": "Le quatuor réunit John Lennon, Paul McCartney, George Harrison et Ringo Starr.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Beatles"
+    },
+    {
+      "q": "De quel pays vient le groupe ABBA ?",
+      "choices": [
+        "La Norvège",
+        "Le Danemark",
+        "La Suède",
+        "L'Allemagne"
+      ],
+      "answer": 2,
+      "explication": "Son nom est formé des initiales des prénoms de ses quatre membres.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/ABBA"
+    },
+    {
+      "q": "Quel chanteur américain est surnommé « le Roi du rock and roll » ?",
+      "choices": [
+        "Chuck Berry",
+        "Elvis Presley",
+        "Johnny Cash",
+        "Buddy Holly"
+      ],
+      "answer": 1,
+      "explication": "Né en 1935 à Tupelo, dans le Mississippi, il enregistre ses premiers disques à Memphis.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Elvis_Presley"
+    },
+    {
+      "q": "Quel instrument à vent en cuivre est associé au jazzman Louis Armstrong ?",
+      "choices": [
+        "La trompette",
+        "Le saxophone",
+        "Le trombone",
+        "La clarinette"
+      ],
+      "answer": 0,
+      "explication": "Né à La Nouvelle-Orléans en 1901, il a aussi marqué l'histoire du jazz par son chant.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Louis_Armstrong"
+    },
+    {
+      "q": "Quel chanteur est surnommé « le Roi de la pop » ?",
+      "choices": [
+        "Prince",
+        "Stevie Wonder",
+        "Justin Timberlake",
+        "Michael Jackson"
+      ],
+      "answer": 3,
+      "explication": "Son album Thriller, sorti en 1982, compte parmi les disques les plus vendus de l'histoire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Jackson"
+    },
+    {
+      "q": "De quel pays est originaire le groupe de rock U2, mené par Bono ?",
+      "choices": [
+        "L'Écosse",
+        "L'Australie",
+        "L'Irlande",
+        "Le Canada"
+      ],
+      "answer": 2,
+      "explication": "Le groupe est formé à Dublin en 1976.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/U2"
+    },
+    {
+      "q": "Quel groupe britannique a sorti l'album The Dark Side of the Moon en 1973 ?",
+      "choices": [
+        "Pink Floyd",
+        "Led Zeppelin",
+        "Genesis",
+        "Deep Purple"
+      ],
+      "answer": 0,
+      "explication": "Cet album est resté pendant des années dans les classements de ventes américains.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pink_Floyd"
+    },
+    {
+      "q": "Quel genre musical est né dans le Bronx, à New York, dans les années 1970 ?",
+      "choices": [
+        "Le disco",
+        "Le hip-hop",
+        "Le funk",
+        "La techno"
+      ],
+      "answer": 1,
+      "explication": "Il associe le rap, le DJing, le breakdance et le graffiti.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Hip-hop"
+    },
+    {
+      "q": "Quel instrument à vent est emblématique de l'Écosse ?",
+      "choices": [
+        "Le hautbois",
+        "La flûte de Pan",
+        "L'accordéon",
+        "La cornemuse"
+      ],
+      "answer": 3,
+      "explication": "Ses sons proviennent de tuyaux alimentés par un sac d'air que le musicien comprime avec le bras.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cornemuse"
+    },
+    {
+      "q": "Quelle chanteuse américaine est surnommée « la Reine de la soul » ?",
+      "choices": [
+        "Diana Ross",
+        "Tina Turner",
+        "Aretha Franklin",
+        "Whitney Houston"
+      ],
+      "answer": 2,
+      "explication": "Elle est la première femme introduite au Rock and Roll Hall of Fame, en 1987.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Aretha_Franklin"
+    },
+    {
+      "q": "Quel chanteur jamaïcain, mort en 1981, a fait connaître le reggae dans le monde entier ?",
+      "choices": [
+        "Peter Tosh",
+        "Bob Marley",
+        "Jimmy Cliff",
+        "Sean Paul"
+      ],
+      "answer": 1,
+      "explication": "Il a fondé le groupe The Wailers dans les années 1960 à Kingston.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bob_Marley"
+    },
+    {
+      "q": "Quelle chanteuse britannique a sorti l'album 21 en 2011 ?",
+      "choices": [
+        "Adele",
+        "Amy Winehouse",
+        "Dua Lipa",
+        "Lily Allen"
+      ],
+      "answer": 0,
+      "explication": "Ses albums portent pour titre l'âge qu'elle avait pendant leur composition.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Adele"
+    },
+    {
+      "q": "Quel groupe britannique est mené par le chanteur Mick Jagger ?",
+      "choices": [
+        "The Who",
+        "The Kinks",
+        "The Rolling Stones",
+        "Queen"
+      ],
+      "answer": 2,
+      "explication": "Il est fondé à Londres en 1962 et son guitariste historique est Keith Richards.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Rolling_Stones"
+    },
+    {
+      "q": "Quel chanteur du New Jersey est surnommé « le Boss » ?",
+      "choices": [
+        "Billy Joel",
+        "Bon Jovi",
+        "Neil Diamond",
+        "Bruce Springsteen"
+      ],
+      "answer": 3,
+      "explication": "Il est accompagné pendant l'essentiel de sa carrière par l'E Street Band.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bruce_Springsteen"
+    },
+    {
+      "q": "Quel trompettiste de jazz a enregistré l'album Kind of Blue en 1959 ?",
+      "choices": [
+        "Miles Davis",
+        "Dizzy Gillespie",
+        "Chet Baker",
+        "Duke Ellington"
+      ],
+      "answer": 0,
+      "explication": "Cet album de jazz modal fait participer le saxophoniste John Coltrane et le pianiste Bill Evans.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Miles_Davis"
+    },
+    {
+      "q": "Quel instrument à cordes indien est joué par Ravi Shankar ?",
+      "choices": [
+        "Le oud",
+        "Le shamisen",
+        "Le sitar",
+        "Le erhu"
+      ],
+      "answer": 2,
+      "explication": "Le musicien a fait découvrir le sitar à George Harrison, des Beatles, dans les années 1960.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Sitar"
+    },
+    {
+      "q": "Quel instrument électronique se joue sans être touché, en approchant les mains de deux antennes ?",
+      "choices": [
+        "Le synthétiseur modulaire",
+        "Le thérémine",
+        "L'ondes Martenot",
+        "Le mellotron"
+      ],
+      "answer": 1,
+      "explication": "Il est inventé vers 1920 en Russie par Léon Theremin, dont il porte le nom.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Thérémine"
+    },
+    {
+      "q": "Quel label musical de Detroit, créé par Berry Gordy à la fin des années 1950, a lancé Diana Ross et Marvin Gaye ?",
+      "choices": [
+        "Atlantic",
+        "Stax",
+        "Blue Note",
+        "Motown"
+      ],
+      "answer": 3,
+      "explication": "Fondé en janvier 1959 sous le nom de Tamla Records, il doit son nom à Motor Town, surnom de Detroit, capitale de l'automobile.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Motown"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz musique ?",
+      "Le quiz compte 20 questions : 8 faciles, 8 de difficulté moyenne et 4 pour experts. Il s'adresse à tous ceux qui s'intéressent à la musique, sans connaissances techniques. Chaque réponse est suivie d'une explication qui t'apprend un détail utile, pour progresser d'une partie à l'autre."
+    ],
+    [
+      "Combien de touches compte un piano standard ?",
+      "Un piano standard compte 88 touches, dont 52 blanches et 36 noires. Cette étendue couvre un peu plus de sept octaves, du la le plus grave au do le plus aigu, et suffit à jouer la quasi-totalité du répertoire écrit pour le piano."
+    ],
+    [
+      "Quelle est la différence entre un instrument à cordes et un instrument à percussion ?",
+      "Un instrument à cordes produit du son par la vibration de cordes frottées, pincées ou frappées, comme le violon ou la guitare. Un instrument à percussion sonne quand on le frappe, le secoue ou le gratte, comme la batterie, le tambour ou les maracas."
+    ]
+  ],
+  "related": [
+    "/quiz-musique-classique",
+    "/quiz-chanson-francaise",
+    "/quiz-culture-generale-facile",
+    "/quiz-culture-generale-difficile"
+  ]
+}

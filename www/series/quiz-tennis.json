@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-tennis",
+  "theme": "sport",
+  "title": "Quiz tennis : règles, Grand Chelem et légendes",
+  "description": "Quiz tennis : 20 questions sur les règles, les tournois du Grand Chelem et les légendes de l'histoire du tennis. Teste ta culture, explications incluses.",
+  "h1": "Quiz tennis : que sais-tu des règles et des légendes de la balle jaune ?",
+  "intro": "Service, volée, tie-break, Grand Chelem : le tennis a son vocabulaire et sa riche histoire. Ce quiz tennis te propose 20 questions, des plus accessibles aux plus pointues, sur les règles du jeu, les quatre grands tournois, les grandes dates et les légendes qui ont marqué ce sport. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail à retenir pour briller devant tes amis. Que tu sois joueur du dimanche ou fan de Roland-Garros, relève le défi et tente le sans-faute !",
+  "questions": [
+    {
+      "q": "Lequel de ces tournois ne fait pas partie du Grand Chelem ?",
+      "choices": [
+        "L'Open d'Australie",
+        "Le Masters de Monte-Carlo",
+        "Roland-Garros",
+        "Wimbledon"
+      ],
+      "answer": 1,
+      "explication": "Les quatre tournois du Grand Chelem se jouent à Melbourne, Paris, Londres et New York.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Grand_Chelem_(tennis)"
+    },
+    {
+      "q": "Sur quelle surface se joue Roland-Garros ?",
+      "choices": [
+        "Le gazon",
+        "Le dur",
+        "Le parquet",
+        "La terre battue"
+      ],
+      "answer": 3,
+      "explication": "Cette terre battue est composée de brique pilée sur plusieurs couches.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Internationaux_de_France_de_tennis"
+    },
+    {
+      "q": "Quel mot anglais désigne un service gagnant que l'adversaire ne touche pas ?",
+      "choices": [
+        "Un ace",
+        "Un let",
+        "Un deuce",
+        "Un break"
+      ],
+      "answer": 0,
+      "explication": "Ace signifie « as » en anglais, la meilleure carte du jeu.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ace_(tennis)"
+    },
+    {
+      "q": "Comment appelle-t-on le score de 40-40 dans un jeu ?",
+      "choices": [
+        "Avantage",
+        "Tie-break",
+        "Égalité",
+        "Manche"
+      ],
+      "answer": 2,
+      "explication": "Il faut ensuite gagner deux points consécutifs pour remporter le jeu.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tennis"
+    },
+    {
+      "q": "Dans quelle ville se joue l'US Open ?",
+      "choices": [
+        "Los Angeles",
+        "Miami",
+        "New York",
+        "Chicago"
+      ],
+      "answer": 2,
+      "explication": "Depuis 1978, il se déroule à Flushing Meadows, dans le quartier du Queens.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/US_Open_de_tennis"
+    },
+    {
+      "q": "Quelle couleur de tenue est presque exigée à Wimbledon ?",
+      "choices": [
+        "Le blanc",
+        "Le vert",
+        "Le bleu",
+        "Le jaune"
+      ],
+      "answer": 0,
+      "explication": "Cette règle vestimentaire est l'une des traditions les plus strictes du tennis.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tournoi_de_Wimbledon"
+    },
+    {
+      "q": "Combien de points faut-il au minimum pour remporter un jeu, sans égalité ?",
+      "choices": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 3,
+      "explication": "Les points se comptent 15, 30, 40, puis jeu.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tennis"
+    },
+    {
+      "q": "Comment appelle-t-on un coup joué avant que la balle ait rebondi, souvent près du filet ?",
+      "choices": [
+        "Un lob",
+        "Une volée",
+        "Un slice",
+        "Un amorti"
+      ],
+      "answer": 1,
+      "explication": "Le smash, lui, est un coup frappé au-dessus de la tête.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tennis"
+    },
+    {
+      "q": "Quel Français a remporté Roland-Garros en 1983 ?",
+      "choices": [
+        "Yannick Noah",
+        "Henri Leconte",
+        "Guy Forget",
+        "Thierry Tulasne"
+      ],
+      "answer": 0,
+      "explication": "Il bat le Suédois Mats Wilander en finale.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Yannick_Noah"
+    },
+    {
+      "q": "Quelle Allemande a réalisé le Grand Chelem en 1988 et gagné l'or olympique la même année ?",
+      "choices": [
+        "Martina Navrátilová",
+        "Monica Seles",
+        "Steffi Graf",
+        "Chris Evert"
+      ],
+      "answer": 2,
+      "explication": "Cette performance est appelée le « Golden Slam ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Steffi_Graf"
+    },
+    {
+      "q": "Quel Suédois a remporté cinq fois de suite Wimbledon, de 1976 à 1980 ?",
+      "choices": [
+        "Mats Wilander",
+        "Björn Borg",
+        "Stefan Edberg",
+        "Ivan Lendl"
+      ],
+      "answer": 1,
+      "explication": "Il a aussi gagné six fois Roland-Garros entre 1974 et 1981.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Björn_Borg"
+    },
+    {
+      "q": "En quelle année commence l'ère Open du tennis, qui autorise les professionnels dans les grands tournois ?",
+      "choices": [
+        "1948",
+        "1958",
+        "1978",
+        "1968"
+      ],
+      "answer": 3,
+      "explication": "Roland-Garros 1968 est le premier tournoi du Grand Chelem ouvert aux professionnels.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ère_Open"
+    },
+    {
+      "q": "Lequel de ces joueurs ne faisait pas partie des « Quatre Mousquetaires » français ?",
+      "choices": [
+        "Henri Cochet",
+        "René Lacoste",
+        "Jean Borotra",
+        "Fred Perry"
+      ],
+      "answer": 3,
+      "explication": "Avec Jacques Brugnon, ils ont remporté six Coupes Davis consécutives, de 1927 à 1932.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Quatre_Mousquetaires"
+    },
+    {
+      "q": "De qui le stade de Roland-Garros porte-t-il le nom ?",
+      "choices": [
+        "D'un champion de tennis",
+        "D'un aviateur",
+        "D'un maire de Paris",
+        "D'un général"
+      ],
+      "answer": 1,
+      "explication": "Roland Garros a réussi la première traversée de la Méditerranée en avion, en 1913.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rolland_Garros"
+    },
+    {
+      "q": "Quelle compétition par équipes nationales masculines a été créée en 1900 ?",
+      "choices": [
+        "La Hopman Cup",
+        "La Laver Cup",
+        "La Coupe Davis",
+        "La Fed Cup"
+      ],
+      "answer": 2,
+      "explication": "Son initiateur, l'Américain Dwight Davis, a offert le trophée et joué la première rencontre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Coupe_Davis"
+    },
+    {
+      "q": "Quelle joueuse a battu Bobby Riggs lors de la « bataille des sexes » de 1973 ?",
+      "choices": [
+        "Billie Jean King",
+        "Margaret Court",
+        "Chris Evert",
+        "Martina Navrátilová"
+      ],
+      "answer": 0,
+      "explication": "Le match s'est joué à Houston devant des dizaines de millions de téléspectateurs américains.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Billie_Jean_King"
+    },
+    {
+      "q": "Quel Australien a réalisé le Grand Chelem calendaire en 1962 puis en 1969 ?",
+      "choices": [
+        "Ken Rosewall",
+        "Rod Laver",
+        "Lew Hoad",
+        "John Newcombe"
+      ],
+      "answer": 1,
+      "explication": "Celui de 1969 a été réalisé en pleine ère Open.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Rod_Laver"
+    },
+    {
+      "q": "Quel Américain de 17 ans a remporté Roland-Garros en 1989 ?",
+      "choices": [
+        "Michael Chang",
+        "Andre Agassi",
+        "Pete Sampras",
+        "Jim Courier"
+      ],
+      "answer": 0,
+      "explication": "En huitième de finale, il avait surpris Ivan Lendl en servant à la cuillère.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Chang"
+    },
+    {
+      "q": "Quelle Française a remporté Wimbledon en 2006 ?",
+      "choices": [
+        "Mary Pierce",
+        "Nathalie Tauziat",
+        "Marion Bartoli",
+        "Amélie Mauresmo"
+      ],
+      "answer": 3,
+      "explication": "Elle bat la Belge Justine Henin en finale.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Amélie_Mauresmo"
+    },
+    {
+      "q": "Quelle Britannique a gagné Wimbledon en 1977, année du centenaire du tournoi ?",
+      "choices": [
+        "Ann Jones",
+        "Sue Barker",
+        "Virginia Wade",
+        "Angela Mortimer"
+      ],
+      "answer": 2,
+      "explication": "Elle l'emporte devant la reine Élisabeth II, venue pour son jubilé d'argent.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Virginia_Wade"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz tennis ?",
+      "Les 20 questions suivent une progression : 8 faciles pour les amateurs, 8 de niveau moyen sur les règles et l'histoire, puis 4 questions d'expert réservées aux passionnés. Aucune connaissance technique n'est nécessaire pour commencer. Chaque réponse s'accompagne d'une explication pour apprendre un détail de plus."
+    ],
+    [
+      "Comment compte-t-on les points au tennis ?",
+      "Un match se compose de sets, eux-mêmes composés de jeux. Dans un jeu, les points se comptent 15, 30, 40 puis jeu. À 40-40, on parle d'égalité et il faut deux points d'écart pour gagner. Un set se remporte généralement à six jeux, avec deux jeux d'avance, sinon un tie-break départage les joueurs."
+    ],
+    [
+      "Quels sont les quatre tournois du Grand Chelem et leurs surfaces ?",
+      "L'Open d'Australie, à Melbourne, et l'US Open, à New York, se jouent sur dur. Roland-Garros, à Paris, se joue sur terre battue. Wimbledon, à Londres, se joue sur gazon. Ce sont les quatre tournois les plus prestigieux du calendrier."
+    ]
+  ],
+  "related": [
+    "/quiz-sport",
+    "/quiz-basket",
+    "/quiz-jeux-olympiques",
+    "/quiz-tour-de-france",
+    "/quiz-formule-1"
+  ]
+}

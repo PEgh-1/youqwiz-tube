@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-voitures",
+  "theme": "culture",
+  "title": "Quiz voitures : marques et modèles mythiques",
+  "description": "Quiz voitures : 20 questions sur l'histoire de l'automobile, les marques et modèles mythiques et le pays d'origine des constructeurs.",
+  "h1": "Quiz voitures : connais-tu l'histoire de l'automobile ?",
+  "intro": "De la Ford T à la Mini en passant par la 2 CV, l'automobile a marqué le XXe siècle. Ce quiz voitures te propose 20 questions sur l'histoire de l'automobile, les marques et modèles mythiques et le pays d'origine des constructeurs. Pas de chiffres qui changent ni de modèles récents : uniquement des faits historiques solides, des plus faciles aux plus pointus. Chaque réponse est suivie d'une courte explication qui t'apprend un détail à glisser dans les conversations. Compte environ 5 secondes de réflexion par question. Tu peux jouer seul, en famille ou entre amis, et recommencer pour viser le sans-faute.",
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz voitures ?",
+      "Le quiz est accessible aux curieux comme aux passionnés. Les 8 premières questions portent sur des marques très connues et leur pays d'origine, les 8 suivantes sur des modèles ou inventeurs célèbres, et les 4 dernières sur des faits plus rares. Aucune question ne porte sur des modèles récents ni sur des chiffres actuels."
+    ],
+    [
+      "Qui a inventé l'automobile ?",
+      "Il n'y a pas d'inventeur unique. Nicolas Joseph Cugnot construit un fardier à vapeur en 1769, souvent présenté comme un ancêtre. Karl Benz dépose en 1886 le brevet d'un véhicule à moteur à essence, généralement considéré comme la première automobile pratique. Beaucoup d'ingénieurs, dont Gottlieb Daimler, ont ensuite fait progresser la technique."
+    ],
+    [
+      "Quelle différence entre un moteur à essence et un moteur diesel ?",
+      "Dans un moteur à essence, le mélange d'air et de carburant est enflammé par une étincelle de bougie. Dans un moteur diesel, l'air est comprimé si fortement qu'il devient très chaud, et le carburant s'enflamme spontanément à son injection. Le principe du moteur diesel a été breveté par l'ingénieur allemand Rudolf Diesel dans les années 1890."
+    ]
+  ],
+  "related": [
+    "/quiz-culture-generale-difficile",
+    "/quiz-xxe-siecle",
+    "/quiz-histoire",
+    "/quiz-sciences",
+    "/quiz-culture-generale-facile"
+  ],
+  "questions": [
+    {
+      "q": "Dans quel pays est née la marque Ferrari ?",
+      "choices": [
+        "L'Allemagne",
+        "La France",
+        "Le Royaume-Uni",
+        "L'Italie"
+      ],
+      "answer": 3,
+      "explication": "Enzo Ferrari installe son entreprise à Maranello, où sort en 1947 la première voiture portant son nom.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ferrari_(entreprise)"
+    },
+    {
+      "q": "Quelle marque française a lancé la 2 CV, présentée au Salon de Paris en 1948 ?",
+      "choices": [
+        "Renault",
+        "Citroën",
+        "Peugeot",
+        "Simca"
+      ],
+      "answer": 1,
+      "explication": "La 2 CV a été fabriquée jusqu'en 1990.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Citroën_2_CV"
+    },
+    {
+      "q": "Quelle marque allemande a produit en très grande série la Coccinelle ?",
+      "choices": [
+        "Opel",
+        "Mercedes-Benz",
+        "Volkswagen",
+        "Audi"
+      ],
+      "answer": 2,
+      "explication": "Plus de 21 millions d'exemplaires ont été construits entre 1938 et 2003.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Volkswagen_Coccinelle"
+    },
+    {
+      "q": "Dans quel pays est née la marque Toyota ?",
+      "choices": [
+        "Le Japon",
+        "La Corée du Sud",
+        "La Chine",
+        "Les États-Unis"
+      ],
+      "answer": 0,
+      "explication": "La société automobile naît en 1937, issue d'une entreprise de métiers à tisser de la famille Toyoda.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Toyota"
+    },
+    {
+      "q": "Quel constructeur américain lance en 1908 le modèle T, produit à très grande échelle ?",
+      "choices": [
+        "General Motors",
+        "Chrysler",
+        "Cadillac",
+        "Ford"
+      ],
+      "answer": 3,
+      "explication": "Plus de 15 millions d'exemplaires sont sortis des usines jusqu'en 1927.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ford_T"
+    },
+    {
+      "q": "Quelle marque française a un lion comme emblème ?",
+      "choices": [
+        "Renault",
+        "Citroën",
+        "Peugeot",
+        "Bugatti"
+      ],
+      "answer": 2,
+      "explication": "Le lion apparaît dès 1858 comme marque sur des produits en acier de la famille Peugeot.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Peugeot"
+    },
+    {
+      "q": "Dans quel pays a été fondée la marque Volvo ?",
+      "choices": [
+        "La Suède",
+        "La Norvège",
+        "La Finlande",
+        "Le Danemark"
+      ],
+      "answer": 0,
+      "explication": "Volvo naît en 1927 à Göteborg, avec une première voiture baptisée ÖV4.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Volvo_Cars"
+    },
+    {
+      "q": "Dans quel pays est née la marque Rolls-Royce ?",
+      "choices": [
+        "Les États-Unis",
+        "Le Royaume-Uni",
+        "L'Italie",
+        "L'Allemagne"
+      ],
+      "answer": 1,
+      "explication": "Elle est fondée en 1906 par Charles Rolls et Henry Royce.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Rolls-Royce_Limited"
+    },
+    {
+      "q": "Qui dépose en 1886 le brevet d'un véhicule à trois roues animé par un moteur à essence ?",
+      "choices": [
+        "Henry Ford",
+        "Louis Renault",
+        "Ferdinand Porsche",
+        "Karl Benz"
+      ],
+      "answer": 3,
+      "explication": "En 1888, son épouse Bertha Benz effectue le premier long trajet automobile, de Mannheim à Pforzheim.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Benz_Patent_Motorwagen"
+    },
+    {
+      "q": "Quel ingénieur français construit en 1769 un « fardier » à vapeur, considéré comme un ancêtre de l'automobile ?",
+      "choices": [
+        "Denis Papin",
+        "Louis Daguerre",
+        "Nicolas Joseph Cugnot",
+        "Gustave Eiffel"
+      ],
+      "answer": 2,
+      "explication": "Ce véhicule est conservé au musée des Arts et Métiers, à Paris.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Fardier_de_Cugnot"
+    },
+    {
+      "q": "Quel modèle Citroën, présenté en 1955, est célèbre pour sa suspension hydropneumatique ?",
+      "choices": [
+        "La 2 CV",
+        "La DS",
+        "La Traction Avant",
+        "La SM"
+      ],
+      "answer": 1,
+      "explication": "Elle est dessinée notamment par Flaminio Bertoni et l'ingénieur André Lefèbvre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Citroën_DS"
+    },
+    {
+      "q": "Dans quel pays se trouve Mladá Boleslav, berceau de la marque Škoda ?",
+      "choices": [
+        "La République tchèque",
+        "La Pologne",
+        "La Hongrie",
+        "La Slovaquie"
+      ],
+      "answer": 0,
+      "explication": "L'entreprise est fondée en 1895 sous le nom de Laurin & Klement, d'abord pour fabriquer des bicyclettes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Škoda_Auto"
+    },
+    {
+      "q": "Quel constructeur italien a choisi un taureau pour emblème ?",
+      "choices": [
+        "Maserati",
+        "Alfa Romeo",
+        "Lamborghini",
+        "Fiat"
+      ],
+      "answer": 2,
+      "explication": "Ferruccio Lamborghini, qui construisait d'abord des tracteurs, fonde sa marque en 1963.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lamborghini"
+    },
+    {
+      "q": "Quelle course d'endurance automobile est organisée pour la première fois en 1923 dans la Sarthe ?",
+      "choices": [
+        "Le Rallye Monte-Carlo",
+        "Les 500 miles d'Indianapolis",
+        "Le Grand Prix de Monaco",
+        "Les 24 Heures du Mans"
+      ],
+      "answer": 3,
+      "explication": "Le rallye Monte-Carlo existe depuis 1911, mais les 24 Heures du Mans sont une épreuve sur circuit.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/24_Heures_du_Mans"
+    },
+    {
+      "q": "Dans quel pays a été fondée la marque Hyundai en 1967 ?",
+      "choices": [
+        "La Corée du Sud",
+        "Le Japon",
+        "La Chine",
+        "Taïwan"
+      ],
+      "answer": 0,
+      "explication": "Sa première voiture conçue en Corée, la Pony, sort en 1975.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Hyundai_Motor_Company"
+    },
+    {
+      "q": "Quelle petite voiture britannique, dessinée par Alec Issigonis et présentée en 1959, est devenue un symbole des années 1960 ?",
+      "choices": [
+        "La Jaguar E-Type",
+        "La Mini",
+        "La Land Rover",
+        "La Morgan Plus 4"
+      ],
+      "answer": 1,
+      "explication": "Son moteur est placé en travers et ses roues aux quatre coins pour laisser un maximum de place aux passagers.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mini_(automobile)"
+    },
+    {
+      "q": "Quel ingénieur a donné son nom au moteur à allumage par compression, breveté dans les années 1890 ?",
+      "choices": [
+        "Nikolaus Otto",
+        "Étienne Lenoir",
+        "Rudolf Diesel",
+        "Gottlieb Daimler"
+      ],
+      "answer": 2,
+      "explication": "Dans un moteur à essence, c'est une bougie qui provoque l'explosion du mélange ; ici, la compression suffit.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Rudolf_Diesel"
+    },
+    {
+      "q": "Dans quelle région de France Ettore Bugatti fonde-t-il son entreprise en 1909 ?",
+      "choices": [
+        "L'Alsace",
+        "La Lorraine",
+        "La Normandie",
+        "La Bretagne"
+      ],
+      "answer": 0,
+      "explication": "L'usine est installée à Molsheim, alors dans l'Empire allemand, et Ettore Bugatti est de nationalité italienne.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bugatti"
+    },
+    {
+      "q": "Quel modèle Ford remplace la Ford T en 1927 ?",
+      "choices": [
+        "La Ford Mustang",
+        "La Ford Fiesta",
+        "La Ford Thunderbird",
+        "La Ford Modèle A"
+      ],
+      "answer": 3,
+      "explication": "Ce nom avait déjà servi pour le tout premier modèle commercialisé par Ford en 1903.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ford_A_(1927)"
+    },
+    {
+      "q": "Dans quel pays a été fondée la marque Dacia en 1966 ?",
+      "choices": [
+        "La Bulgarie",
+        "La Roumanie",
+        "La Serbie",
+        "La Pologne"
+      ],
+      "answer": 1,
+      "explication": "Les premiers modèles étaient construits à Pitești sous licence Renault.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dacia"
+    }
+  ]
+}

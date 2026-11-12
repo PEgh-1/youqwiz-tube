@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-cinema",
+  "theme": "cinema",
+  "title": "Quiz cinéma : 20 questions sur le 7e art",
+  "description": "Quiz cinéma : 20 questions sur l'histoire du cinéma mondial, les grands réalisateurs, la Palme d'or et les classiques. Teste ta culture du 7e art !",
+  "h1": "Quiz cinéma : que sais-tu de l'histoire du 7e art ?",
+  "intro": "Des frères Lumière à la Palme d'or de Cannes, le cinéma a plus d'un siècle d'histoire et regorge d'anecdotes. Ce quiz cinéma te propose 20 questions sur les grands réalisateurs, les mouvements qui ont marqué le septième art et les classiques du cinéma mondial, de la France au Japon en passant par Hollywood. Le niveau progresse : huit questions faciles, huit moyennes, puis quatre pour les vrais cinéphiles. Après chaque réponse, une courte explication t'apprend un fait de plus. Prends quelques secondes par question, joue seul ou en famille, et vois si tu mérites ton ticket pour le tapis rouge !",
+  "questions": [
+    {
+      "q": "Quels frères organisent en 1895 la première projection publique payante du cinématographe à Paris ?",
+      "choices": [
+        "Les frères Pathé",
+        "Les frères Lumière",
+        "Les frères Goncourt",
+        "Les frères Marx"
+      ],
+      "answer": 1,
+      "explication": "La séance a lieu au Grand Café, boulevard des Capucines, avec des films d'une cinquantaine de secondes environ.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Fr%C3%A8res_Lumi%C3%A8re"
+    },
+    {
+      "q": "Quel festival français décerne la Palme d'or ?",
+      "choices": [
+        "Le festival de Deauville",
+        "Le festival d'Angoulême",
+        "Le festival de Saint-Tropez",
+        "Le festival de Cannes"
+      ],
+      "answer": 3,
+      "explication": "La Palme d'or a remplacé le Grand Prix du festival en 1955.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Palme_d%27or"
+    },
+    {
+      "q": "Comment s'appelle la statuette décernée par l'Académie des arts et sciences du cinéma de Los Angeles ?",
+      "choices": [
+        "L'Oscar",
+        "Le César",
+        "Le Molière",
+        "Le Lion d'or"
+      ],
+      "answer": 0,
+      "explication": "La première cérémonie des Oscars a eu lieu en 1929, dans un hôtel de Hollywood.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Oscars_du_cin%C3%A9ma"
+    },
+    {
+      "q": "Quel personnage de vagabond à moustache et chapeau melon est créé par Charlie Chaplin ?",
+      "choices": [
+        "Pierrot",
+        "Gaston",
+        "Charlot",
+        "Tintin"
+      ],
+      "answer": 2,
+      "explication": "Charlot apparaît à l'écran dès 1914 et devient une star mondiale à l'époque du cinéma muet.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Charlot"
+    },
+    {
+      "q": "Qui a réalisé la trilogie du « Parrain », dont le premier volet sort en 1972 ?",
+      "choices": [
+        "Martin Scorsese",
+        "Steven Spielberg",
+        "Francis Ford Coppola",
+        "Brian De Palma"
+      ],
+      "answer": 2,
+      "explication": "Le film est adapté du roman de Mario Puzo, qui a participé à l'écriture du scénario.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Parrain_(film)"
+    },
+    {
+      "q": "Quel pays est le berceau de Bollywood, grande industrie du cinéma populaire ?",
+      "choices": [
+        "L'Inde",
+        "Le Pakistan",
+        "L'Égypte",
+        "L'Iran"
+      ],
+      "answer": 0,
+      "explication": "Le nom mélange Bombay (aujourd'hui Mumbai) et Hollywood.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Bollywood"
+    },
+    {
+      "q": "Quel film américain de 1927, avec Al Jolson, ouvre l'ère du cinéma parlant ?",
+      "choices": [
+        "La Ruée vers l'or",
+        "Le Kid",
+        "Intolérance",
+        "Le Chanteur de jazz"
+      ],
+      "answer": 3,
+      "explication": "Il n'est que partiellement parlant : seules quelques séquences chantées et dialoguées sont sonorisées.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Chanteur_de_jazz"
+    },
+    {
+      "q": "Quel réalisateur surnommé « le maître du suspense » a tourné « Les Oiseaux » en 1963 ?",
+      "choices": [
+        "Orson Welles",
+        "Alfred Hitchcock",
+        "Stanley Kubrick",
+        "Billy Wilder"
+      ],
+      "answer": 1,
+      "explication": "Le film s'inspire d'une nouvelle de l'écrivaine britannique Daphne du Maurier.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Oiseaux_(film)"
+    },
+    {
+      "q": "Quel cinéaste japonais a réalisé « Les Sept Samouraïs » en 1954 ?",
+      "choices": [
+        "Akira Kurosawa",
+        "Yasujirō Ozu",
+        "Kenji Mizoguchi",
+        "Hayao Miyazaki"
+      ],
+      "answer": 0,
+      "explication": "Le film a inspiré le western américain « Les Sept Mercenaires », sorti en 1960.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Sept_Samoura%C3%AFs"
+    },
+    {
+      "q": "Quel pionnier français des effets spéciaux a réalisé « Le Voyage dans la Lune » en 1902 ?",
+      "choices": [
+        "Louis Feuillade",
+        "Abel Gance",
+        "Georges Méliès",
+        "Jean Renoir"
+      ],
+      "answer": 2,
+      "explication": "Sa célèbre image montre une capsule plantée dans l'œil de la Lune.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Voyage_dans_la_Lune"
+    },
+    {
+      "q": "Quel mouvement du cinéma français, né à la fin des années 1950, compte François Truffaut et Jean-Luc Godard parmi ses figures ?",
+      "choices": [
+        "Le réalisme poétique",
+        "La Nouvelle Vague",
+        "Le cinéma du look",
+        "Le Nouveau Roman"
+      ],
+      "answer": 1,
+      "explication": "« Les 400 Coups » (1959) et « À bout de souffle » (1960) en sont deux films emblématiques.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nouvelle_Vague"
+    },
+    {
+      "q": "Quel film de Sergueï Eisenstein (1925) est célèbre pour la scène de l'escalier d'Odessa ?",
+      "choices": [
+        "La Grève",
+        "Octobre",
+        "Alexandre Nevski",
+        "Le Cuirassé Potemkine"
+      ],
+      "answer": 3,
+      "explication": "Le film évoque la mutinerie des marins d'un cuirassé de la mer Noire en 1905.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Cuirass%C3%A9_Potemkine"
+    },
+    {
+      "q": "Quel réalisateur a signé « Citizen Kane » en 1941 ?",
+      "choices": [
+        "John Ford",
+        "Howard Hawks",
+        "Frank Capra",
+        "Orson Welles"
+      ],
+      "answer": 3,
+      "explication": "Welles en est aussi le coscénariste et l'acteur principal, alors qu'il n'a que 25 ans.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Citizen_Kane"
+    },
+    {
+      "q": "Quelle réalisatrice est la première femme à recevoir l'Oscar de la meilleure réalisation, pour « Démineurs » ?",
+      "choices": [
+        "Sofia Coppola",
+        "Kathryn Bigelow",
+        "Greta Gerwig",
+        "Agnès Varda"
+      ],
+      "answer": 1,
+      "explication": "Le film suit une unité de déminage de l'armée américaine pendant la guerre d'Irak ; l'Oscar lui est remis en 2010.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Kathryn_Bigelow"
+    },
+    {
+      "q": "Quel réalisateur italien a signé « La Dolce Vita », Palme d'or en 1960 ?",
+      "choices": [
+        "Federico Fellini",
+        "Luchino Visconti",
+        "Roberto Rossellini",
+        "Vittorio De Sica"
+      ],
+      "answer": 0,
+      "explication": "Le film contient une scène devenue légendaire, tournée dans la fontaine de Trevi à Rome.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/La_Dolce_Vita"
+    },
+    {
+      "q": "Quel film sud-coréen a reçu la Palme d'or en 2019, puis l'Oscar du meilleur film ?",
+      "choices": [
+        "Old Boy",
+        "Mademoiselle",
+        "Parasite",
+        "Burning"
+      ],
+      "answer": 2,
+      "explication": "C'est le premier film non anglophone à remporter l'Oscar du meilleur film ; il est réalisé par Bong Joon-ho.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Parasite_(film,_2019)"
+    },
+    {
+      "q": "Quelle réalisatrice néo-zélandaise reçoit en 1993 la Palme d'or pour « La Leçon de piano », première femme à l'obtenir ?",
+      "choices": [
+        "Jane Campion",
+        "Kathryn Bigelow",
+        "Lina Wertmüller",
+        "Agnieszka Holland"
+      ],
+      "answer": 0,
+      "explication": "Elle partage cette Palme d'or avec Chen Kaige, pour « Adieu ma concubine ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/La_Le%C3%A7on_de_piano_(film)"
+    },
+    {
+      "q": "Quel cinéaste iranien reçoit en 1997 la Palme d'or pour « Le Goût de la cerise » ?",
+      "choices": [
+        "Asghar Farhadi",
+        "Jafar Panahi",
+        "Mohsen Makhmalbaf",
+        "Abbas Kiarostami"
+      ],
+      "answer": 3,
+      "explication": "Il la partage ex æquo avec le Japonais Shōhei Imamura, récompensé pour « L'Anguille ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Go%C3%BBt_de_la_cerise"
+    },
+    {
+      "q": "Quel mouvement fondé en 1995 par Lars von Trier et Thomas Vinterberg prône un cinéma dépouillé, sans artifices ?",
+      "choices": [
+        "Le Free Cinema",
+        "Le néoréalisme",
+        "Dogme 95",
+        "Le cinéma-vérité"
+      ],
+      "answer": 2,
+      "explication": "Son manifeste impose un « vœu de chasteté » : caméra à l'épaule, lumière naturelle, pas de musique ajoutée.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dogme95"
+    },
+    {
+      "q": "Quel film muet de Fritz Lang (1927), classique de la science-fiction, est inscrit au registre Mémoire du monde de l'Unesco ?",
+      "choices": [
+        "Nosferatu",
+        "Metropolis",
+        "Le Cabinet du docteur Caligari",
+        "M le Maudit"
+      ],
+      "answer": 1,
+      "explication": "Cette inscription date de 2001 et concerne la version restaurée du film.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Metropolis_(film,_1927)"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz cinéma ?",
+      "Le quiz est progressif : les huit premières questions sont accessibles à tous, les huit suivantes demandent un peu de culture cinématographique, et les quatre dernières s'adressent aux cinéphiles avertis. Chaque réponse est suivie d'une explication, ce qui permet de progresser même quand on se trompe."
+    ],
+    [
+      "Quelle est la date de naissance officielle du cinéma ?",
+      "On retient le 28 décembre 1895, jour de la première projection publique payante du cinématographe, au Salon indien du Grand Café, boulevard des Capucines à Paris. Les frères Lumière y présentent de courts films, dont la sortie d'usine. D'autres inventeurs ont fait des essais avant eux, mais cette date reste la référence."
+    ],
+    [
+      "Quelle différence y a-t-il entre la Palme d'or et l'Oscar du meilleur film ?",
+      "La Palme d'or est le prix suprême du Festival de Cannes, attribué par un jury international à un film de la compétition. L'Oscar du meilleur film est décerné à Los Angeles par les membres de l'Académie des arts et sciences du cinéma. Un même film peut recevoir les deux, comme Parasite."
+    ]
+  ],
+  "related": [
+    "/quiz-films",
+    "/quiz-disney",
+    "/quiz-star-wars",
+    "/quiz-culture-generale-facile",
+    "/quiz-xxe-siecle"
+  ]
+}

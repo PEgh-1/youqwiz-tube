@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-mythologie-grecque",
+  "theme": "culture",
+  "title": "Quiz mythologie grecque : dieux, héros et mythes",
+  "description": "Quiz mythologie grecque : 20 questions sur les dieux de l'Olympe, les héros, les monstres et les grands mythes de la Grèce antique. Teste-toi !",
+  "h1": "Quiz mythologie grecque : connais-tu les dieux et les héros ?",
+  "intro": "Zeus, Athéna, Héraclès, Méduse : la mythologie grecque a nourri des siècles de littérature, de peinture et de cinéma. Ce quiz te propose 20 questions sur les dieux de l'Olympe, les héros, les monstres et les grands récits de la Grèce antique. Les huit premières sont accessibles à tous, les suivantes demandent un peu plus de mémoire, et les quatre dernières mettront les connaisseurs à l'épreuve. Compte environ 5 secondes par question. Après chaque réponse, une explication t'apprend un détail à retenir. Prêt à grimper jusqu'au mont Olympe ?",
+  "questions": [
+    {
+      "q": "Quel dieu est le roi des dieux de l'Olympe ?",
+      "choices": [
+        "Zeus",
+        "Apollon",
+        "Arès",
+        "Hermès"
+      ],
+      "answer": 0,
+      "explication": "Il règne sur le ciel et lance la foudre ; ses frères Poséidon et Hadès se partagent la mer et les Enfers.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Zeus"
+    },
+    {
+      "q": "Quel dieu règne sur la mer ?",
+      "choices": [
+        "Hadès",
+        "Arès",
+        "Poséidon",
+        "Apollon"
+      ],
+      "answer": 2,
+      "explication": "Son attribut est le trident, et il est aussi associé aux tremblements de terre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Poséidon"
+    },
+    {
+      "q": "Quelle déesse grecque incarne la sagesse et la stratégie guerrière ?",
+      "choices": [
+        "Héra",
+        "Artémis",
+        "Aphrodite",
+        "Athéna"
+      ],
+      "answer": 3,
+      "explication": "Selon le mythe, elle naît tout armée de la tête de Zeus ; la ville d'Athènes porte son nom.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Athéna"
+    },
+    {
+      "q": "Quel héros doit accomplir douze travaux ?",
+      "choices": [
+        "Persée",
+        "Héraclès",
+        "Thésée",
+        "Achille"
+      ],
+      "answer": 1,
+      "explication": "Les Romains l'appellent Hercule, et il est le fils de Zeus et d'une mortelle, Alcmène.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Héraclès"
+    },
+    {
+      "q": "Quel monstre à tête de taureau est enfermé dans le Labyrinthe de Crète ?",
+      "choices": [
+        "Le Minotaure",
+        "Le Cyclope",
+        "Le Centaure",
+        "Le Sphinx"
+      ],
+      "answer": 0,
+      "explication": "Le héros Thésée parvient à le tuer, puis retrouve la sortie grâce à un fil.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minotaure"
+    },
+    {
+      "q": "Quel dieu règne sur le royaume des morts ?",
+      "choices": [
+        "Cronos",
+        "Dionysos",
+        "Héphaïstos",
+        "Hadès"
+      ],
+      "answer": 3,
+      "explication": "Son nom désigne aussi, par extension, les Enfers eux-mêmes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hadès"
+    },
+    {
+      "q": "Quel dieu, doté de sandales ailées, est le messager des dieux ?",
+      "choices": [
+        "Arès",
+        "Apollon",
+        "Hermès",
+        "Héphaïstos"
+      ],
+      "answer": 2,
+      "explication": "Il guide aussi les âmes des morts jusqu'aux Enfers et protège les voyageurs et les marchands.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hermès"
+    },
+    {
+      "q": "Quelle gorgone, aux cheveux de serpents, pétrifie ceux qui croisent son regard ?",
+      "choices": [
+        "Écho",
+        "Méduse",
+        "Circé",
+        "Calypso"
+      ],
+      "answer": 1,
+      "explication": "Elle est la seule des trois gorgones à être mortelle.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Méduse_(mythologie)"
+    },
+    {
+      "q": "Quel Titan a volé le feu des dieux pour le donner aux humains ?",
+      "choices": [
+        "Atlas",
+        "Cronos",
+        "Épiméthée",
+        "Prométhée"
+      ],
+      "answer": 3,
+      "explication": "Pour le punir, Zeus l'enchaîne à un rocher où un aigle vient lui dévorer le foie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Prométhée"
+    },
+    {
+      "q": "Quelle déesse est l'épouse de Zeus ?",
+      "choices": [
+        "Héra",
+        "Déméter",
+        "Athéna",
+        "Artémis"
+      ],
+      "answer": 0,
+      "explication": "Elle est aussi sa sœur et protège le mariage et la famille.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Héra"
+    },
+    {
+      "q": "Quelle déesse grecque incarne l'amour et la beauté ?",
+      "choices": [
+        "Hestia",
+        "Perséphone",
+        "Aphrodite",
+        "Artémis"
+      ],
+      "answer": 2,
+      "explication": "Les Romains l'identifient à Vénus ; selon Hésiode, elle serait née de l'écume de la mer.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Aphrodite"
+    },
+    {
+      "q": "Quel dieu, frère jumeau d'Artémis, est lié à la musique et à la lumière ?",
+      "choices": [
+        "Arès",
+        "Apollon",
+        "Dionysos",
+        "Hermès"
+      ],
+      "answer": 1,
+      "explication": "Il est aussi le dieu de la divination, dont l'oracle de Delphes est le sanctuaire le plus célèbre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Apollon"
+    },
+    {
+      "q": "Quelle créature, à corps de lion et tête de femme, pose une énigme à Œdipe devant Thèbes ?",
+      "choices": [
+        "Le Sphinx",
+        "La Chimère",
+        "L'Hydre de Lerne",
+        "Cerbère"
+      ],
+      "answer": 0,
+      "explication": "Œdipe répond juste et la créature se jette dans le vide.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sphinx_(mythologie_grecque)"
+    },
+    {
+      "q": "Comment s'appelle le chien à trois têtes qui garde l'entrée des Enfers ?",
+      "choices": [
+        "Orthos",
+        "Argos",
+        "Fenrir",
+        "Cerbère"
+      ],
+      "answer": 3,
+      "explication": "Capturer Cerbère est le douzième et dernier des travaux d'Héraclès.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cerbère"
+    },
+    {
+      "q": "Comment s'appelle le passeur qui fait traverser les âmes des morts aux Enfers ?",
+      "choices": [
+        "Thanatos",
+        "Charon",
+        "Hypnos",
+        "Morphée"
+      ],
+      "answer": 1,
+      "explication": "Selon la tradition, il faut lui donner une pièce, placée dans la bouche du défunt.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Charon_(mythologie)"
+    },
+    {
+      "q": "Quelle épouse d'Ulysse attend son retour pendant plusieurs années à Ithaque ?",
+      "choices": [
+        "Hélène",
+        "Andromaque",
+        "Pénélope",
+        "Clytemnestre"
+      ],
+      "answer": 2,
+      "explication": "Elle repousse ses prétendants en défaisant chaque nuit le linceul qu'elle tisse le jour.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pénélope"
+    },
+    {
+      "q": "Quelle déesse est la mère de Perséphone ?",
+      "choices": [
+        "Héra",
+        "Hestia",
+        "Rhéa",
+        "Déméter"
+      ],
+      "answer": 3,
+      "explication": "Son deuil, quand Hadès enlève sa fille, explique dans le mythe l'alternance des saisons.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Déméter"
+    },
+    {
+      "q": "Quel Titan est le père de Zeus ?",
+      "choices": [
+        "Océan",
+        "Cronos",
+        "Hypérion",
+        "Japet"
+      ],
+      "answer": 1,
+      "explication": "Il dévore ses enfants à leur naissance, mais Zeus lui échappe et finit par le détrôner.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Cronos"
+    },
+    {
+      "q": "Quelle reine de Crète, épouse de Minos, est la mère du Minotaure ?",
+      "choices": [
+        "Pasiphaé",
+        "Ariane",
+        "Phèdre",
+        "Europe"
+      ],
+      "answer": 0,
+      "explication": "Le Labyrinthe qui l'enferme est construit par l'architecte Dédale.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pasiphaé"
+    },
+    {
+      "q": "Quel Titan est condamné à porter la voûte du ciel sur ses épaules ?",
+      "choices": [
+        "Prométhée",
+        "Cronos",
+        "Atlas",
+        "Hypérion"
+      ],
+      "answer": 2,
+      "explication": "Son nom a été donné aux recueils de cartes géographiques, les atlas.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Atlas_(mythologie)"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur la mythologie grecque ?",
+      "Le quiz compte 20 questions : 8 faciles, 8 moyennes et 4 pour experts. Il suffit d'avoir déjà croisé quelques dieux ou héros pour bien commencer. Les explications après chaque réponse t'aident à retenir les liens de parenté entre les personnages, souvent complexes, et à retrouver les équivalents romains."
+    ],
+    [
+      "Combien y a-t-il de dieux principaux de l'Olympe ?",
+      "La tradition retient douze grands dieux olympiens, mais la liste varie selon les sources. On y trouve généralement Zeus, Héra, Poséidon, Déméter, Athéna, Apollon, Artémis, Arès, Aphrodite, Héphaïstos et Hermès, auxquels s'ajoutent Hestia ou Dionysos selon les versions. Certaines sources en comptent treize."
+    ],
+    [
+      "Quelle est la différence entre dieux grecs et dieux romains ?",
+      "Les Romains ont identifié leurs divinités à celles des Grecs, en gardant des noms latins : Zeus devient Jupiter, Héra devient Junon, Poséidon devient Neptune, Aphrodite devient Vénus et Arès devient Mars. Les récits et les attributs sont souvent proches, mais pas toujours identiques, car Rome a adapté ces figures à ses propres traditions religieuses."
+    ]
+  ],
+  "related": [
+    "/quiz-antiquite",
+    "/quiz-histoire",
+    "/quiz-bible",
+    "/quiz-culture-generale-difficile",
+    "/quiz-peinture"
+  ]
+}

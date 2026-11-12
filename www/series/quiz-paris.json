@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-paris",
+  "theme": "histoire",
+  "title": "Quiz Paris : monuments, histoire et quartiers",
+  "description": "Quiz Paris : 20 questions sur les monuments, l'histoire et les quartiers de la capitale, du Louvre à Montmartre. Du niveau facile à expert.",
+  "h1": "Quiz Paris : que sais-tu de la capitale, de ses monuments et de son histoire ?",
+  "intro": "Du Louvre à Montmartre, de l'île de la Cité à la Défense, Paris est une ville où chaque rue raconte un bout d'histoire. Ce quiz te propose 20 questions sur les monuments, les quartiers, les musées et les grands moments de la capitale, des plus simples aux plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication te livre un détail que tu ne connaissais peut-être pas. Que tu y vives, que tu y aies voyagé ou que tu en rêves, tu peux le faire seul, en famille ou entre amis. Es-tu prêt à parcourir Paris sans te perdre ?",
+  "questions": [
+    {
+      "q": "Quel musée parisien, installé dans un ancien palais royal, abrite la Joconde ?",
+      "choices": [
+        "Le musée d'Orsay",
+        "Le Centre Pompidou",
+        "Le Grand Palais",
+        "Le Louvre"
+      ],
+      "answer": 3,
+      "explication": "Palais royal avant de devenir musée en 1793, il est l'un des plus visités du monde.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Musée_du_Louvre"
+    },
+    {
+      "q": "Quelle avenue relie la place de la Concorde à l'Arc de triomphe ?",
+      "choices": [
+        "La rue de Rivoli",
+        "L'avenue des Champs-Élysées",
+        "Le boulevard Haussmann",
+        "L'avenue Foch"
+      ],
+      "answer": 1,
+      "explication": "Elle est surnommée « la plus belle avenue du monde » et accueille chaque année l'arrivée du Tour de France.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Avenue_des_Champs-Élysées"
+    },
+    {
+      "q": "Quel quartier de Paris, dominé par une basilique blanche, est célèbre pour ses peintres et sa place du Tertre ?",
+      "choices": [
+        "Le Marais",
+        "Belleville",
+        "Montmartre",
+        "Bercy"
+      ],
+      "answer": 2,
+      "explication": "Cette butte de 130 mètres est l'un des points les plus hauts de la capitale.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Montmartre"
+    },
+    {
+      "q": "Sur quelle île de la Seine se trouve la cathédrale Notre-Dame ?",
+      "choices": [
+        "L'île de la Cité",
+        "L'île Saint-Louis",
+        "L'île Seguin",
+        "L'île aux Cygnes"
+      ],
+      "answer": 0,
+      "explication": "Berceau historique de Paris, elle est le lieu où s'est installé le peuple des Parisii.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Île_de_la_Cité"
+    },
+    {
+      "q": "Quel quartier parisien est le berceau de la vie étudiante, autour de la Sorbonne ?",
+      "choices": [
+        "Le Marais",
+        "Le Quartier latin",
+        "Bastille",
+        "La Défense"
+      ],
+      "answer": 1,
+      "explication": "Son nom vient du latin, langue utilisée par les étudiants et les professeurs au Moyen Âge.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Quartier_latin_(Paris)"
+    },
+    {
+      "q": "Quel jardin parisien s'étend entre le Louvre et la place de la Concorde ?",
+      "choices": [
+        "Le jardin du Luxembourg",
+        "Le parc des Buttes-Chaumont",
+        "Le jardin des Plantes",
+        "Le jardin des Tuileries"
+      ],
+      "answer": 3,
+      "explication": "Créé en 1564 à la demande de Catherine de Médicis, il tire son nom des anciennes tuileries qui occupaient le site.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jardin_des_Tuileries"
+    },
+    {
+      "q": "Quel architecte est l'auteur de la pyramide de verre de la cour du Louvre ?",
+      "choices": [
+        "Renzo Piano",
+        "Jean Nouvel",
+        "Ieoh Ming Pei",
+        "Gustave Eiffel"
+      ],
+      "answer": 2,
+      "explication": "Cette pyramide, inaugurée en 1989, sert d'entrée principale au musée et a d'abord suscité de vives polémiques.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pyramide_du_Louvre"
+    },
+    {
+      "q": "Quelle gare parisienne dessert Lille, Bruxelles et Londres ?",
+      "choices": [
+        "La gare du Nord",
+        "La gare de Lyon",
+        "La gare Montparnasse",
+        "La gare Saint-Lazare"
+      ],
+      "answer": 0,
+      "explication": "Inaugurée en 1865, elle est l'une des gares les plus fréquentées d'Europe.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Gare_de_Paris-Nord"
+    },
+    {
+      "q": "Quel musée parisien, installé dans une ancienne gare, présente surtout l'art de la seconde moitié du XIXe siècle ?",
+      "choices": [
+        "Le musée du quai Branly",
+        "Le musée Rodin",
+        "Le musée d'Orsay",
+        "Le musée Carnavalet"
+      ],
+      "answer": 2,
+      "explication": "Ouvert en 1986, il abrite l'une des plus grandes collections d'œuvres impressionnistes du monde.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Musée_d'Orsay"
+    },
+    {
+      "q": "Quelle place parisienne est ornée d'un obélisque venu de Louxor, en Égypte ?",
+      "choices": [
+        "La place de la Concorde",
+        "La place Vendôme",
+        "La place des Vosges",
+        "La place de la République"
+      ],
+      "answer": 0,
+      "explication": "L'obélisque, vieux de plus de 3 000 ans, a été érigé sur la place en 1836.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Place_de_la_Concorde"
+    },
+    {
+      "q": "Quel préfet de la Seine a dirigé la transformation de Paris sous le Second Empire ?",
+      "choices": [
+        "Claude Philibert Barthelot de Rambuteau",
+        "Jean-Baptiste Colbert",
+        "Louis Lépine",
+        "Georges Eugène Haussmann"
+      ],
+      "answer": 3,
+      "explication": "Entre 1853 et 1870, il perce de larges avenues et uniformise les façades des immeubles.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Georges_Eugène_Haussmann"
+    },
+    {
+      "q": "Quel cimetière parisien, le plus visité de la capitale, abrite les tombes d'Oscar Wilde et de Molière ?",
+      "choices": [
+        "Le cimetière du Montparnasse",
+        "Le Père-Lachaise",
+        "Le cimetière de Montmartre",
+        "Le cimetière de Passy"
+      ],
+      "answer": 1,
+      "explication": "Ouvert en 1804, il s'étend sur plus de 40 hectares dans l'est de la capitale.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cimetière_du_Père-Lachaise"
+    },
+    {
+      "q": "Quel est le plus ancien pont de Paris encore debout, malgré son nom ?",
+      "choices": [
+        "Le Pont-Neuf",
+        "Le pont Alexandre-III",
+        "Le pont des Arts",
+        "Le pont Mirabeau"
+      ],
+      "answer": 0,
+      "explication": "Achevé en 1607 sous Henri IV, il relie les deux rives en passant par la pointe de l'île de la Cité.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pont_Neuf"
+    },
+    {
+      "q": "Quel peuple gaulois a donné son nom à Paris ?",
+      "choices": [
+        "Les Arvernes",
+        "Les Éduens",
+        "Les Parisii",
+        "Les Carnutes"
+      ],
+      "answer": 2,
+      "explication": "Ce peuple s'était installé sur l'île de la Cité, devenue Lutèce à l'époque romaine.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Parisii"
+    },
+    {
+      "q": "Quel quartier d'affaires de l'ouest de Paris est dominé par la Grande Arche ?",
+      "choices": [
+        "Bercy",
+        "La Défense",
+        "Beaugrenelle",
+        "Les Batignolles"
+      ],
+      "answer": 1,
+      "explication": "La Grande Arche a été inaugurée en 1989, pour le bicentenaire de la Révolution française.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/La_Défense"
+    },
+    {
+      "q": "Quel roi de France a fait construire, vers 1190, la forteresse d'origine du Louvre ?",
+      "choices": [
+        "Saint Louis",
+        "Charles V",
+        "François Ier",
+        "Philippe Auguste"
+      ],
+      "answer": 3,
+      "explication": "La forteresse protégeait la ville à l'ouest, avant d'être transformée en palais royal au XVIe siècle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Philippe_II_(roi_de_France)"
+    },
+    {
+      "q": "Quel architecte a conçu la basilique du Sacré-Cœur de Montmartre ?",
+      "choices": [
+        "Paul Abadie",
+        "Charles Garnier",
+        "Victor Baltard",
+        "Eugène Viollet-le-Duc"
+      ],
+      "answer": 0,
+      "explication": "Commencée en 1875, la basilique n'a été consacrée qu'en 1919.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Basilique_du_Sacré-Cœur_de_Montmartre"
+    },
+    {
+      "q": "Quelle sainte, patronne de Paris, aurait protégé la ville de l'invasion des Huns vers 451 ?",
+      "choices": [
+        "Sainte Clotilde",
+        "Sainte Radegonde",
+        "Sainte Jeanne d'Arc",
+        "Sainte Geneviève"
+      ],
+      "answer": 3,
+      "explication": "La tradition raconte qu'elle a convaincu les habitants de résister et que la ville a été épargnée.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Geneviève_de_Paris"
+    },
+    {
+      "q": "Quelle église parisienne a été construite sous Louis IX pour abriter la couronne d'épines du Christ ?",
+      "choices": [
+        "Saint-Eustache",
+        "La Sainte-Chapelle",
+        "Saint-Sulpice",
+        "La Madeleine"
+      ],
+      "answer": 1,
+      "explication": "Consacrée en 1248, elle est célèbre pour ses vitraux, qui couvrent presque toute la hauteur des murs.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Sainte-Chapelle"
+    },
+    {
+      "q": "Quel palais, construit pour Marie de Médicis au XVIIe siècle, abrite aujourd'hui le Sénat ?",
+      "choices": [
+        "Le Palais-Royal",
+        "Le palais Bourbon",
+        "Le palais du Luxembourg",
+        "Le palais de l'Élysée"
+      ],
+      "answer": 2,
+      "explication": "La reine, d'origine florentine, souhaitait un palais qui lui rappelle le palais Pitti de Florence.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Palais_du_Luxembourg"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur Paris ?",
+      "Le quiz comporte 20 questions : 8 faciles sur les lieux les plus célèbres, 8 de niveau moyen sur les musées, les ponts et l'histoire de la ville, et 4 questions expert sur l'architecture et le patrimoine religieux. Chaque réponse est suivie d'une explication."
+    ],
+    [
+      "D'où vient le nom de Paris ?",
+      "Le nom de Paris vient des Parisii, un peuple gaulois installé sur l'île de la Cité et ses environs. À l'époque gallo-romaine, la ville s'appelait Lutèce. Elle a pris le nom de Paris à la fin de l'Antiquité, quand l'ancien nom du peuple a fini par désigner la cité elle-même."
+    ],
+    [
+      "Qui a transformé Paris au XIXe siècle ?",
+      "Sous Napoléon III, le préfet de la Seine Georges Eugène Haussmann a mené entre 1853 et 1870 de grands travaux : percement de larges avenues, création de parcs, d'égouts et de gares, uniformisation des façades. Ce Paris haussmannien fait encore l'identité visuelle de la capitale."
+    ]
+  ],
+  "related": [
+    "/quiz-villes-de-france",
+    "/quiz-histoire-de-france",
+    "/quiz-geographie-france",
+    "/quiz-moyen-age",
+    "/quiz-revolution-francaise"
+  ]
+}

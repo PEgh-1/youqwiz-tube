@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-pays-europe",
+  "theme": "geographie",
+  "title": "Quiz pays d'Europe : 20 questions",
+  "description": "Quiz pays d'Europe : 20 questions sur les États européens, leurs voisins, leurs langues et leur histoire, du niveau facile au niveau expert. Prêt à jouer ?",
+  "h1": "Quiz pays d'Europe : connais-tu vraiment tous les États du continent ?",
+  "intro": "Petite par la taille mais riche en histoire, l'Europe compte plus de quarante États, des géants comme l'Allemagne aux micro-États comme Saint-Marin. Ce quiz te propose 20 questions pour reconnaître les pays d'Europe, leurs voisins, leurs langues, leurs anciens noms et leurs particularités. Il commence en douceur, devient plus exigeant au milieu et se termine par quatre questions expert. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication te livre un fait supplémentaire à garder en tête. À faire seul, en famille ou entre amis : sauras-tu décrocher un sans-faute ?",
+  "questions": [
+    {
+      "q": "Quel pays européen est célèbre pour ses tulipes, ses moulins à vent et ses canaux ?",
+      "choices": [
+        "Le Danemark",
+        "Les Pays-Bas",
+        "La Belgique",
+        "L'Allemagne"
+      ],
+      "answer": 1,
+      "explication": "Environ un quart du pays se trouve sous le niveau de la mer, protégé par des digues.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pays-Bas"
+    },
+    {
+      "q": "Quel pays européen est composé de l'Angleterre, de l'Écosse, du pays de Galles et de l'Irlande du Nord ?",
+      "choices": [
+        "L'Irlande",
+        "Le Danemark",
+        "La Belgique",
+        "Le Royaume-Uni"
+      ],
+      "answer": 3,
+      "explication": "Son nom officiel est Royaume-Uni de Grande-Bretagne et d'Irlande du Nord.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Royaume-Uni"
+    },
+    {
+      "q": "Quel pays alpin est célèbre pour sa neutralité, ses banques, son chocolat et ses montres ?",
+      "choices": [
+        "La Suisse",
+        "L'Autriche",
+        "La Slovénie",
+        "La Belgique"
+      ],
+      "answer": 0,
+      "explication": "Sa neutralité est reconnue depuis le congrès de Vienne de 1815 ; le pays n'est pas membre de l'Union européenne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Suisse"
+    },
+    {
+      "q": "Quel pays européen est célèbre pour ses nombreuses îles, comme la Crète, Rhodes et Corfou ?",
+      "choices": [
+        "La Croatie",
+        "Malte",
+        "La Grèce",
+        "Le Portugal"
+      ],
+      "answer": 2,
+      "explication": "Elle compte plusieurs milliers d'îles et d'îlots, dont seulement quelques centaines sont habitées.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Grèce"
+    },
+    {
+      "q": "Dans quel pays se trouve la célèbre tour penchée de Pise ?",
+      "choices": [
+        "L'Italie",
+        "L'Espagne",
+        "Le Portugal",
+        "La Grèce"
+      ],
+      "answer": 0,
+      "explication": "Sa construction a débuté en 1173, et son inclinaison est apparue très tôt, car le sol était trop meuble.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tour_de_Pise"
+    },
+    {
+      "q": "Quel pays d'Europe du Nord est réputé pour ses fjords ?",
+      "choices": [
+        "Le Danemark",
+        "L'Autriche",
+        "La Norvège",
+        "La Pologne"
+      ],
+      "answer": 2,
+      "explication": "Le Sognefjord, long de plus de 200 kilomètres, est l'un des plus grands fjords du monde.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Norvège"
+    },
+    {
+      "q": "Quel pays est situé à l'ouest de l'Espagne, sur la façade atlantique de la péninsule Ibérique ?",
+      "choices": [
+        "L'Italie",
+        "Le Portugal",
+        "La France",
+        "Andorre"
+      ],
+      "answer": 1,
+      "explication": "Il forme avec l'Espagne la péninsule Ibérique, et son unique voisin terrestre est l'Espagne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Portugal"
+    },
+    {
+      "q": "Quel pays européen est une île de la Méditerranée située au sud de la Sicile ?",
+      "choices": [
+        "Chypre",
+        "La Slovénie",
+        "L'Albanie",
+        "Malte"
+      ],
+      "answer": 3,
+      "explication": "L'archipel maltais est l'un des plus petits et des plus densément peuplés États d'Europe.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Malte"
+    },
+    {
+      "q": "Quels pays forment le Benelux ?",
+      "choices": [
+        "La Belgique, la Suisse et le Luxembourg",
+        "Les Pays-Bas, le Danemark et la Belgique",
+        "La Belgique, l'Allemagne et le Luxembourg",
+        "La Belgique, les Pays-Bas et le Luxembourg"
+      ],
+      "answer": 3,
+      "explication": "Le nom est formé des premières lettres de Belgique, Nederland et Luxembourg.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Benelux"
+    },
+    {
+      "q": "Quels trois pays forment les pays baltes ?",
+      "choices": [
+        "L'Estonie, la Lettonie et la Lituanie",
+        "La Finlande, l'Estonie et la Lettonie",
+        "La Lituanie, la Pologne et la Lettonie",
+        "L'Estonie, la Suède et la Lituanie"
+      ],
+      "answer": 0,
+      "explication": "Ces trois pays bordent la mer Baltique et ont retrouvé leur indépendance en 1991.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pays_baltes"
+    },
+    {
+      "q": "Quel micro-État enclavé dans l'Italie est perché sur le mont Titano ?",
+      "choices": [
+        "Andorre",
+        "Monaco",
+        "Saint-Marin",
+        "Le Luxembourg"
+      ],
+      "answer": 2,
+      "explication": "Selon la tradition, sa fondation remonte à l'an 301, ce qui en ferait l'une des plus anciennes républiques du monde.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Saint-Marin"
+    },
+    {
+      "q": "Quel pays insulaire du nord de l'Atlantique possède l'Althing, l'un des plus anciens parlements du monde ?",
+      "choices": [
+        "L'Irlande",
+        "L'Islande",
+        "La Norvège",
+        "La Finlande"
+      ],
+      "answer": 1,
+      "explication": "L'Althing a été fondé en 930 et se réunissait en plein air, sur le site de Þingvellir.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Islande"
+    },
+    {
+      "q": "Quelle était la monnaie de la Grèce avant l'adoption de l'euro en 2001 ?",
+      "choices": [
+        "Le zloty",
+        "Le forint",
+        "La drachme",
+        "La couronne"
+      ],
+      "answer": 2,
+      "explication": "Le mot « drachme » désigne déjà une monnaie dans la Grèce antique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Drachme_(Gr%C3%A8ce_moderne)"
+    },
+    {
+      "q": "Quelles sont les trois langues officielles de la Belgique ?",
+      "choices": [
+        "Le néerlandais, le français et le luxembourgeois",
+        "Le néerlandais, le français et l'allemand",
+        "Le français, l'allemand et l'anglais",
+        "Le néerlandais, l'allemand et l'italien"
+      ],
+      "answer": 1,
+      "explication": "La communauté germanophone, située à l'est du pays, compte moins de 1 % des Belges.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Langues_en_Belgique"
+    },
+    {
+      "q": "Quel État s'est scindé en deux pays, la Tchéquie et la Slovaquie, le 1er janvier 1993 ?",
+      "choices": [
+        "La Yougoslavie",
+        "L'Union soviétique",
+        "La Pologne",
+        "La Tchécoslovaquie"
+      ],
+      "answer": 3,
+      "explication": "Cette séparation s'est déroulée pacifiquement et a été surnommée « divorce de velours ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tchécoslovaquie"
+    },
+    {
+      "q": "Quel pays nordique est devenu indépendant de la Russie en 1917 ?",
+      "choices": [
+        "La Finlande",
+        "La Suède",
+        "La Norvège",
+        "L'Estonie"
+      ],
+      "answer": 0,
+      "explication": "Elle a proclamé son indépendance le 6 décembre 1917, date devenue sa fête nationale.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Finlande"
+    },
+    {
+      "q": "Quel pays européen est doublement enclavé, c'est-à-dire entouré uniquement de pays eux-mêmes sans littoral ?",
+      "choices": [
+        "Andorre",
+        "Le Liechtenstein",
+        "Le Luxembourg",
+        "Saint-Marin"
+      ],
+      "answer": 1,
+      "explication": "Coincé entre la Suisse et l'Autriche, il utilise le franc suisse comme monnaie.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Liechtenstein"
+    },
+    {
+      "q": "Quel pays fédéral dirigé par Tito pendant plus de trente ans a éclaté dans les années 1990 ?",
+      "choices": [
+        "La Tchécoslovaquie",
+        "L'Albanie",
+        "La Yougoslavie",
+        "La Roumanie"
+      ],
+      "answer": 2,
+      "explication": "Elle réunissait six républiques, dont la Serbie, la Croatie et la Slovénie.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Yougoslavie"
+    },
+    {
+      "q": "Quel pays des Balkans est devenu indépendant en 2006, après un référendum, en se séparant de la Serbie ?",
+      "choices": [
+        "Le Monténégro",
+        "La Macédoine du Nord",
+        "La Bosnie-Herzégovine",
+        "La Croatie"
+      ],
+      "answer": 0,
+      "explication": "Le oui l'a emporté avec environ 55,5 % des voix, juste au-dessus du seuil de 55 % exigé pour valider le référendum.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Monténégro"
+    },
+    {
+      "q": "Quelle est la seule langue officielle d'Andorre ?",
+      "choices": [
+        "L'espagnol",
+        "Le français",
+        "L'occitan",
+        "Le catalan"
+      ],
+      "answer": 3,
+      "explication": "La principauté est dirigée par deux coprinces : le président de la République française et l'évêque d'Urgell.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Andorre"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les pays d'Europe ?",
+      "Le quiz compte 20 questions : 8 faciles pour les bases, 8 de niveau moyen sur les voisinages, les langues et l'histoire récente, et 4 questions expert sur les micro-États et les Balkans. Il ne porte ni sur les capitales ni sur les drapeaux, qui ont leurs propres séries."
+    ],
+    [
+      "Quels sont les micro-États d'Europe ?",
+      "On en compte généralement cinq ou six : Andorre, le Liechtenstein, Monaco, Saint-Marin et le Vatican, auxquels on ajoute souvent Malte. Ces États minuscules ont chacun un statut particulier : principauté pour Andorre, le Liechtenstein et Monaco, république pour Saint-Marin, monarchie élective pour le Vatican."
+    ],
+    [
+      "Tous les pays d'Europe font-ils partie de l'Union européenne ?",
+      "Non. L'Union européenne regroupe 27 États membres, mais plusieurs pays européens n'en font pas partie, comme la Suisse, la Norvège, l'Islande, le Royaume-Uni depuis 2020 ou les micro-États. Certains, comme la Norvège et la Suisse, entretiennent toutefois des accords étroits avec l'Union."
+    ]
+  ],
+  "related": [
+    "/quiz-capitales-europe",
+    "/quiz-drapeaux-europe",
+    "/quiz-pays-du-monde",
+    "/quiz-geographie",
+    "/quiz-histoire"
+  ]
+}

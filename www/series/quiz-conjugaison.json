@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-conjugaison",
+  "theme": "langue",
+  "title": "Quiz conjugaison : temps, modes et verbes pièges",
+  "description": "Quiz conjugaison gratuit : 20 questions sur les temps, les modes et les verbes pièges du français, avec une explication après chaque réponse.",
+  "h1": "Quiz de conjugaison française : maîtrises-tu les verbes pièges ?",
+  "intro": "Futur, passé simple, subjonctif, impératif : la conjugaison française cache bien des pièges, même pour ceux qui parlent la langue tous les jours. Ce quiz conjugaison te propose 20 questions du plus simple au plus délicat, avec une seule forme correcte à chaque fois, conforme aux tableaux de conjugaison de référence. Tu croiseras des verbes très courants comme faire, aller ou prendre, mais aussi quelques cas plus rares comme vaincre. Chaque réponse est suivie d'une courte explication qui t'apprend une règle ou une exception. Compte environ 5 secondes de réflexion par question, et joue seul, en famille ou entre amis.",
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz de conjugaison ?",
+      "Le quiz s'adresse à toute personne qui a fini l'école primaire. Les 8 premières questions portent sur des verbes très courants, les 8 suivantes sur des temps moins fréquents comme le futur antérieur ou le subjonctif, et les 4 dernières sur des formes rares. Chaque réponse est expliquée pour que tu retiennes la règle."
+    ],
+    [
+      "Quelle différence entre le passé simple et l'imparfait ?",
+      "L'imparfait décrit une action qui dure, une habitude ou un décor : il pleuvait, nous jouions. Le passé simple raconte une action brève et terminée, surtout à l'écrit : il ouvrit la porte. Dans un récit, on les associe souvent, l'imparfait posant le cadre et le passé simple faisant avancer l'histoire."
+    ],
+    [
+      "Pourquoi parle-t-on du Bescherelle pour la conjugaison ?",
+      "Le Bescherelle est un ouvrage de référence qui présente les tableaux de conjugaison des verbes français. Son nom vient de Louis-Nicolas Bescherelle, grammairien du XIXe siècle qui publia un premier ouvrage consacré à l'art de conjuguer. Le nom est devenu courant pour désigner tout recueil de conjugaison."
+    ]
+  ],
+  "related": [
+    "/quiz-orthographe",
+    "/quiz-langue-francaise",
+    "/quiz-vocabulaire",
+    "/quiz-anglais",
+    "/quiz-culture-generale-facile"
+  ],
+  "questions": [
+    {
+      "q": "Comment conjugue-t-on « manger » à la 1re personne du pluriel du présent de l'indicatif ?",
+      "choices": [
+        "nous mangons",
+        "nous mangeaons",
+        "nous mangeons",
+        "nous mangez"
+      ],
+      "answer": 2,
+      "explication": "Le « e » après le g garde le son [ʒ] devant « o » : on écrit nous mangeons, mais nous mangions.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/manger"
+    },
+    {
+      "q": "Comment conjugue-t-on « aller » à la 3e personne du pluriel du présent de l'indicatif ?",
+      "choices": [
+        "ils vont",
+        "ils allent",
+        "ils vonnent",
+        "ils aillent"
+      ],
+      "answer": 0,
+      "explication": "Les formes d'aller viennent de plusieurs verbes latins : vadere (je vais, ils vont), ire (j'irai) et ambulare, selon l'hypothèse la plus courante (nous allons).",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/aller"
+    },
+    {
+      "q": "Quelle est la forme de « venir » à la 1re personne du singulier du futur simple ?",
+      "choices": [
+        "je venirai",
+        "je viendrai",
+        "je vienrai",
+        "je viendrais"
+      ],
+      "answer": 1,
+      "explication": "Un « d » s'intercale entre le n et le r : viendrai, tiendrai, deviendrai.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/venir"
+    },
+    {
+      "q": "Comment conjugue-t-on « faire » à la 2e personne du pluriel du présent de l'indicatif ?",
+      "choices": [
+        "vous faisez",
+        "vous faîtes",
+        "vous faisent",
+        "vous faites"
+      ],
+      "answer": 3,
+      "explication": "Avec « vous êtes » et « vous dites », c'est l'une des rares formes en -tes à cette personne.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/faire"
+    },
+    {
+      "q": "Comment conjugue-t-on « prendre » à la 3e personne du pluriel du présent de l'indicatif ?",
+      "choices": [
+        "ils prendent",
+        "ils prenent",
+        "ils prennent",
+        "ils prends"
+      ],
+      "answer": 2,
+      "explication": "Tous les verbes de la famille de prendre (comprendre, apprendre, surprendre) suivent le même modèle.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/prendre"
+    },
+    {
+      "q": "Quelle est la forme d'« être » à la 1re personne du singulier de l'imparfait ?",
+      "choices": [
+        "j'été",
+        "j'étais",
+        "je serais",
+        "j'étai"
+      ],
+      "answer": 1,
+      "explication": "Le futur et le conditionnel d'être utilisent un autre radical : je serai, je serais.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/être"
+    },
+    {
+      "q": "Quel est le participe passé du verbe « croire » ?",
+      "choices": [
+        "cru",
+        "croyu",
+        "croi",
+        "croit"
+      ],
+      "answer": 0,
+      "explication": "Le participe de « croître » prend un accent circonflexe au masculin singulier : crû, mais crue au féminin.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/croire"
+    },
+    {
+      "q": "Quelle est la forme de « manger » à la 2e personne du singulier de l'impératif présent ?",
+      "choices": [
+        "manges",
+        "mangez",
+        "mangeons",
+        "mange"
+      ],
+      "answer": 3,
+      "explication": "Les verbes en -er perdent leur s final à l'impératif, sauf devant « en » ou « y » : manges-en.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/manger"
+    },
+    {
+      "q": "Quelle est la forme de « faire » à la 3e personne du singulier du passé simple ?",
+      "choices": [
+        "il fait",
+        "il fit",
+        "il fis",
+        "il faisit"
+      ],
+      "answer": 1,
+      "explication": "Au passé simple, « faire » donne aussi nous fîmes et vous fîtes, avec un accent circonflexe.",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/faire"
+    },
+    {
+      "q": "Quelle est la forme de « voir » à la 1re personne du singulier du futur simple ?",
+      "choices": [
+        "je voirai",
+        "je vairai",
+        "je verrai",
+        "je verai"
+      ],
+      "answer": 2,
+      "explication": "Le futur de « voir » est irrégulier, alors que celui de « prévoir » est régulier : je prévoirai.",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/voir"
+    },
+    {
+      "q": "Quelle est la forme de « courir » à la 1re personne du singulier du conditionnel présent ?",
+      "choices": [
+        "je courais",
+        "je courerais",
+        "je courirais",
+        "je courrais"
+      ],
+      "answer": 3,
+      "explication": "Mourir suit le même modèle avec le double r : je mourrai, je mourrais.",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/courir"
+    },
+    {
+      "q": "Quelle est la forme d'« aller » à la 1re personne du singulier du subjonctif présent ?",
+      "choices": [
+        "que j'aille",
+        "que j'aie",
+        "que j'alle",
+        "que j'aillent"
+      ],
+      "answer": 0,
+      "explication": "Le subjonctif d'aller garde le radical « aill- » partout sauf à nous et vous : que nous allions.",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/aller"
+    },
+    {
+      "q": "Comment conjugue-t-on « boire » à la 3e personne du pluriel du présent de l'indicatif ?",
+      "choices": [
+        "ils boient",
+        "ils buvent",
+        "ils boivent",
+        "ils boivet"
+      ],
+      "answer": 2,
+      "explication": "Boire a deux radicaux : boi- (je bois, ils boivent) et buv- (nous buvons, vous buvez).",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/boire"
+    },
+    {
+      "q": "Quel est le nom du temps de « j'aurai terminé » ?",
+      "choices": [
+        "le futur simple",
+        "le futur antérieur",
+        "le conditionnel passé",
+        "le plus-que-parfait"
+      ],
+      "answer": 1,
+      "explication": "Il exprime une action qui sera achevée avant une autre action future.",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/terminer"
+    },
+    {
+      "q": "Quel est le nom du temps de « nous avions chanté » ?",
+      "choices": [
+        "le passé composé",
+        "le passé antérieur",
+        "l'imparfait",
+        "le plus-que-parfait"
+      ],
+      "answer": 3,
+      "explication": "Il se forme avec l'auxiliaire à l'imparfait suivi du participe passé.",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/chanter"
+    },
+    {
+      "q": "Quelle est la forme d'« avoir » à la 2e personne du singulier du subjonctif présent ?",
+      "choices": [
+        "que tu aies",
+        "que tu as",
+        "que tu aie",
+        "que tu ayes"
+      ],
+      "answer": 0,
+      "explication": "À la 3e personne du singulier, on écrit « qu'il ait », sans s final.",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/avoir"
+    },
+    {
+      "q": "Comment conjugue-t-on « vaincre » à la 3e personne du singulier du présent de l'indicatif ?",
+      "choices": [
+        "il vaint",
+        "il vainc",
+        "il vaincs",
+        "il vainque"
+      ],
+      "answer": 1,
+      "explication": "C'est l'un des rares verbes dont la 3e personne du singulier se termine par un c : il vainc, il convainc.",
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/vaincre"
+    },
+    {
+      "q": "Quelle est la forme de « venir » à la 1re personne du pluriel du passé simple ?",
+      "choices": [
+        "nous venîmes",
+        "nous vinmes",
+        "nous vinrent",
+        "nous vînmes"
+      ],
+      "answer": 3,
+      "explication": "Les formes en « -în- » de venir et de tenir prennent un accent circonflexe aux deux premières personnes du pluriel : nous tînmes, vous tîntes.",
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/venir"
+    },
+    {
+      "q": "Quelle est la forme de « savoir » à la 2e personne du singulier de l'impératif présent ?",
+      "choices": [
+        "sais",
+        "saches",
+        "sache",
+        "sois"
+      ],
+      "answer": 2,
+      "explication": "Savoir emprunte son impératif au subjonctif : sache, sachons, sachez.",
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/savoir"
+    },
+    {
+      "q": "Quelle est la forme d'« être » à la 3e personne du singulier du subjonctif imparfait ?",
+      "choices": [
+        "qu'il fût",
+        "qu'il fut",
+        "qu'il fusse",
+        "qu'il soit"
+      ],
+      "answer": 0,
+      "explication": "L'accent circonflexe distingue « fût » du passé simple « il fut ».",
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/être"
+    }
+  ]
+}

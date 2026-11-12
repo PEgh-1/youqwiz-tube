@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-anglais",
+  "theme": "langue",
+  "title": "Quiz anglais : vocabulaire et faux amis",
+  "description": "Quiz anglais gratuit : 20 questions en français sur le vocabulaire, les faux amis, les verbes irréguliers et les expressions. Du collège au niveau B2.",
+  "h1": "Teste ton anglais : vocabulaire, faux amis et verbes irréguliers",
+  "intro": "Prêt à tester ton anglais sans stress ? Ce quiz anglais te propose 20 questions posées en français, du niveau collège jusqu'au niveau B2. Tu croiseras du vocabulaire du quotidien, des faux amis qui piègent même les bons élèves, des verbes irréguliers et quelques expressions imagées. Les questions sont classées de la plus simple à la plus pointue, et chaque réponse est suivie d'une courte explication qui t'apprend un détail utile à retenir. Compte environ 5 secondes de réflexion par question. Tu peux jouer seul, en famille ou entre amis, et recommencer autant de fois que tu veux pour viser le sans-faute.",
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz d'anglais ?",
+      "Les questions sont écrites en français et progressent du niveau collège (vocabulaire de base, pluriels, jours de la semaine) jusqu'au niveau B2 avec des faux amis et des verbes irréguliers plus délicats. Tu trouves 8 questions faciles, 8 moyennes et 4 expert, avec une explication après chaque réponse pour comprendre ton erreur."
+    ],
+    [
+      "Qu'est-ce qu'un faux ami en anglais ?",
+      "Un faux ami est un mot anglais qui ressemble à un mot français mais n'a pas le même sens. Par exemple, « library » désigne une bibliothèque et non une librairie, et « to attend » signifie assister à et non attendre. Ces pièges sont fréquents parce que l'anglais a emprunté beaucoup de mots au français après 1066."
+    ],
+    [
+      "Pourquoi les verbes irréguliers sont-ils difficiles ?",
+      "Les verbes réguliers forment leur prétérit et leur participe passé en ajoutant -ed, alors que les verbes irréguliers changent de forme, comme go, went, gone ou write, wrote, written. Beaucoup viennent de très anciennes formes de la langue. La méthode la plus efficace consiste à les apprendre par trois colonnes : base verbale, prétérit et participe passé."
+    ]
+  ],
+  "related": [
+    "/quiz-vocabulaire",
+    "/quiz-langue-francaise",
+    "/quiz-conjugaison",
+    "/quiz-orthographe",
+    "/quiz-culture-generale-facile"
+  ],
+  "questions": [
+    {
+      "q": "Comment dit-on « pomme » en anglais ?",
+      "choices": [
+        "pear",
+        "apple",
+        "peach",
+        "plum"
+      ],
+      "answer": 1,
+      "explication": "Le mot « apple » a la même origine germanique que « Apfel » en allemand.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/apple"
+    },
+    {
+      "q": "Que signifie le mot anglais « house » ?",
+      "choices": [
+        "souris",
+        "jardin",
+        "hôtel",
+        "maison"
+      ],
+      "answer": 3,
+      "explication": "Pour parler du foyer, du chez-soi, on emploie plutôt « home ».",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/house"
+    },
+    {
+      "q": "Comment dit-on « vendredi » en anglais ?",
+      "choices": [
+        "Friday",
+        "Thursday",
+        "Sunday",
+        "Saturday"
+      ],
+      "answer": 0,
+      "explication": "Dans les noms des jours anglais, Thursday vient du dieu nordique Thor et Wednesday du dieu Odin (Woden).",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jour_de_la_semaine"
+    },
+    {
+      "q": "Quel est le pluriel de « child » ?",
+      "choices": [
+        "childs",
+        "childes",
+        "children",
+        "childen"
+      ],
+      "answer": 2,
+      "explication": "C'est un pluriel irrégulier, comme « men » pour « man » ou « feet » pour « foot ».",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/children"
+    },
+    {
+      "q": "Que signifie « breakfast » ?",
+      "choices": [
+        "déjeuner",
+        "petit-déjeuner",
+        "dîner",
+        "goûter"
+      ],
+      "answer": 1,
+      "explication": "Le mot vient de « break » et « fast » : on rompt le jeûne de la nuit.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/breakfast"
+    },
+    {
+      "q": "Quel est le prétérit (passé simple) du verbe « to go » ?",
+      "choices": [
+        "went",
+        "goed",
+        "gone",
+        "goes"
+      ],
+      "answer": 0,
+      "explication": "« Went » vient en fait d'un autre verbe, « to wend » ; « gone » est le participe passé de « to go ».",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/went"
+    },
+    {
+      "q": "Que signifie la question « How are you? » ?",
+      "choices": [
+        "Qui es-tu ?",
+        "Où vas-tu ?",
+        "Quel âge as-tu ?",
+        "Comment vas-tu ?"
+      ],
+      "answer": 3,
+      "explication": "Dans la conversation courante, c'est surtout une formule de salutation, pas une demande de détails.",
+      "level": "facile",
+      "source": "https://en.wiktionary.org/wiki/how_are_you"
+    },
+    {
+      "q": "Comment écrit-on « douze » en anglais ?",
+      "choices": [
+        "twelf",
+        "twenty",
+        "twelve",
+        "tweleve"
+      ],
+      "answer": 2,
+      "explication": "Après « eleven » (11) et « twelve » (12), la série « -teen » commence avec thirteen (13).",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/twelve"
+    },
+    {
+      "q": "Que signifie le mot anglais « library » ?",
+      "choices": [
+        "bibliothèque",
+        "librairie",
+        "bibliographie",
+        "liberté"
+      ],
+      "answer": 0,
+      "explication": "Une librairie, où l'on achète des livres, se dit « bookshop » ou « bookstore ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Faux_ami"
+    },
+    {
+      "q": "Que veut dire « actually » ?",
+      "choices": [
+        "actuellement",
+        "en fait",
+        "aussitôt",
+        "autrefois"
+      ],
+      "answer": 1,
+      "explication": "« Actuellement » se traduit par « currently » ou « at the moment ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Faux_ami"
+    },
+    {
+      "q": "Que signifie le verbe « to attend » ?",
+      "choices": [
+        "attendre",
+        "entendre",
+        "assister à",
+        "attaquer"
+      ],
+      "answer": 2,
+      "explication": "Pour dire « attendre », on emploie « to wait for ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Faux_ami"
+    },
+    {
+      "q": "Que signifie « eventually » ?",
+      "choices": [
+        "éventuellement",
+        "rapidement",
+        "jamais",
+        "finalement"
+      ],
+      "answer": 3,
+      "explication": "« Éventuellement » se traduit par « possibly » ou « if necessary ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Faux_ami"
+    },
+    {
+      "q": "Que veut dire l'adjectif anglais « sensible » ?",
+      "choices": [
+        "émotif",
+        "raisonnable",
+        "fragile",
+        "sensuel"
+      ],
+      "answer": 1,
+      "explication": "Pour traduire « sensible » au sens français, on dit « sensitive ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Faux_ami"
+    },
+    {
+      "q": "Quel est le participe passé de « to write » ?",
+      "choices": [
+        "written",
+        "wrote",
+        "writed",
+        "writen"
+      ],
+      "answer": 0,
+      "explication": "« Wrote » est le prétérit ; « written » se construit comme « taken » ou « driven ».",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/written"
+    },
+    {
+      "q": "Que signifie l'expression « It's raining cats and dogs » ?",
+      "choices": [
+        "Il bruine légèrement",
+        "Il neige abondamment",
+        "Il pleut des cordes",
+        "Il y a du brouillard"
+      ],
+      "answer": 2,
+      "explication": "L'origine de cette expression imagée reste incertaine : aucune explication n'est établie.",
+      "level": "moyen",
+      "source": "https://en.wikipedia.org/wiki/Raining_cats_and_dogs"
+    },
+    {
+      "q": "Que souhaite-t-on à un comédien en lui disant « Break a leg! » avant un spectacle ?",
+      "choices": [
+        "Bon rétablissement",
+        "Fais attention",
+        "À bientôt",
+        "Bonne chance"
+      ],
+      "answer": 3,
+      "explication": "Par superstition, on évite de dire « good luck » au théâtre, comme on évite de souhaiter « bonne chance » en français.",
+      "level": "moyen",
+      "source": "https://en.wikipedia.org/wiki/Break_a_leg"
+    },
+    {
+      "q": "Que signifie « to deceive » ?",
+      "choices": [
+        "tromper",
+        "décevoir",
+        "recevoir",
+        "déceler"
+      ],
+      "answer": 0,
+      "explication": "« Décevoir » se dit « to disappoint ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Faux_ami"
+    },
+    {
+      "q": "Que désigne le mot anglais « lecture » ?",
+      "choices": [
+        "la lecture d'un texte",
+        "un livre",
+        "un cours magistral ou une conférence",
+        "un récit"
+      ],
+      "answer": 2,
+      "explication": "La lecture, au sens français, se dit « reading » en anglais.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Faux_ami"
+    },
+    {
+      "q": "Quel est le prétérit du verbe « to lie » au sens de « s'allonger » ?",
+      "choices": [
+        "lied",
+        "lay",
+        "laid",
+        "lain"
+      ],
+      "answer": 1,
+      "explication": "« Lain » est son participe passé ; « laid » est le prétérit de « to lay » (poser).",
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/lie"
+    },
+    {
+      "q": "Que signifie le verbe « to pretend » ?",
+      "choices": [
+        "prétendre",
+        "prétexter",
+        "prier",
+        "faire semblant"
+      ],
+      "answer": 3,
+      "explication": "Pour dire « prétendre » au sens d'affirmer, on emploie plutôt « to claim ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Faux_ami"
+    }
+  ]
+}

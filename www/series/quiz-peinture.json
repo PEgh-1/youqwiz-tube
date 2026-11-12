@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-peinture",
+  "theme": "culture",
+  "title": "Quiz peinture : peintres et tableaux célèbres",
+  "description": "Quiz peinture et art : 20 questions sur les peintres, les tableaux célèbres, les grands mouvements et les musées. Fais le test de culture artistique !",
+  "h1": "Quiz peinture et art : reconnais-tu les grands peintres ?",
+  "intro": "De la Renaissance à l'art moderne, les grands peintres ont changé notre façon de regarder le monde. Ce quiz sur la peinture et l'art te propose 20 questions sur les artistes, les tableaux célèbres, les mouvements comme l'impressionnisme ou le cubisme, et les musées qui les exposent. Les questions vont des plus accessibles aux plus pointues. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un détail sur une œuvre ou son auteur. Seul, en famille ou entre amis : sauras-tu décrocher le score parfait ?",
+  "questions": [
+    {
+      "q": "Quel peintre néerlandais a réalisé La Nuit étoilée en 1889 ?",
+      "choices": [
+        "Rembrandt",
+        "Johannes Vermeer",
+        "Piet Mondrian",
+        "Vincent van Gogh"
+      ],
+      "answer": 3,
+      "explication": "Il la peint depuis sa chambre de l'asile de Saint-Rémy-de-Provence.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/La_Nuit_%C3%A9toil%C3%A9e_(1889)"
+    },
+    {
+      "q": "Dans quel musée parisien la Joconde est-elle exposée ?",
+      "choices": [
+        "Le musée d'Orsay",
+        "Le Louvre",
+        "Le Centre Pompidou",
+        "Le Petit Palais"
+      ],
+      "answer": 1,
+      "explication": "Le palais du Louvre, ancienne résidence royale, ouvre comme musée en 1793.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Musée_du_Louvre"
+    },
+    {
+      "q": "Quel peintre espagnol a cofondé le cubisme avec Georges Braque ?",
+      "choices": [
+        "Salvador Dalí",
+        "Joan Miró",
+        "Pablo Picasso",
+        "Diego Vélasquez"
+      ],
+      "answer": 2,
+      "explication": "Né à Malaga en 1881, il s'installe définitivement en France à l'âge adulte.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pablo_Picasso"
+    },
+    {
+      "q": "Quel peintre français est célèbre pour sa série des Nymphéas ?",
+      "choices": [
+        "Claude Monet",
+        "Edgar Degas",
+        "Paul Cézanne",
+        "Édouard Manet"
+      ],
+      "answer": 0,
+      "explication": "Il peint ces bassins dans son jardin de Giverny, qu'il a lui-même aménagé.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Claude_Monet"
+    },
+    {
+      "q": "Quel artiste a peint le plafond de la chapelle Sixtine, au Vatican ?",
+      "choices": [
+        "Raphaël",
+        "Léonard de Vinci",
+        "Titien",
+        "Michel-Ange"
+      ],
+      "answer": 3,
+      "explication": "Il y travaille de 1508 à 1512, sur commande du pape Jules II.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Michel-Ange"
+    },
+    {
+      "q": "Quel peintre néerlandais est l'auteur de La Ronde de nuit ?",
+      "choices": [
+        "Vincent van Gogh",
+        "Frans Hals",
+        "Rembrandt",
+        "Jan Steen"
+      ],
+      "answer": 2,
+      "explication": "Ce grand tableau de 1642 se trouve au Rijksmuseum d'Amsterdam.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/La_Ronde_de_nuit"
+    },
+    {
+      "q": "Quel peintre catalan est l'auteur de La Persistance de la mémoire, avec ses montres molles ?",
+      "choices": [
+        "Joan Miró",
+        "Salvador Dalí",
+        "Pablo Picasso",
+        "Antoni Tàpies"
+      ],
+      "answer": 1,
+      "explication": "Ce tableau de 1931 est conservé au Museum of Modern Art de New York.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/La_Persistance_de_la_mémoire"
+    },
+    {
+      "q": "Quelle technique de peinture utilise des pigments dilués dans l'eau, appliqués en transparence sur du papier ?",
+      "choices": [
+        "L'aquarelle",
+        "La gouache",
+        "La fresque",
+        "La peinture à l'huile"
+      ],
+      "answer": 0,
+      "explication": "La blancheur du papier joue le rôle de lumière : on ne peint pas de blanc en aquarelle classique.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Aquarelle"
+    },
+    {
+      "q": "Quel peintre autrichien est l'auteur du Baiser, tableau orné de feuilles d'or ?",
+      "choices": [
+        "Egon Schiele",
+        "Oskar Kokoschka",
+        "Gustav Klimt",
+        "Edvard Munch"
+      ],
+      "answer": 2,
+      "explication": "Il le peint en 1907-1908 ; l'œuvre est conservée au palais du Belvédère, à Vienne.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Baiser_(Klimt)"
+    },
+    {
+      "q": "Quel mouvement pictural doit son nom à un tableau de Monet, Impression, soleil levant ?",
+      "choices": [
+        "Le fauvisme",
+        "Le symbolisme",
+        "Le réalisme",
+        "L'impressionnisme"
+      ],
+      "answer": 3,
+      "explication": "Le tableau, peint en 1872, représente le port du Havre ; le terme est d'abord employé de façon moqueuse par un critique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Impressionnisme"
+    },
+    {
+      "q": "Quel peintre norvégien est l'auteur du Cri ?",
+      "choices": [
+        "Gustav Klimt",
+        "Edvard Munch",
+        "Henri Matisse",
+        "Egon Schiele"
+      ],
+      "answer": 1,
+      "explication": "Il en a réalisé plusieurs versions, à partir de 1893, en peinture, en pastel et en lithographie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Cri"
+    },
+    {
+      "q": "Dans quelle ville se trouve le musée du Prado ?",
+      "choices": [
+        "Madrid",
+        "Barcelone",
+        "Séville",
+        "Lisbonne"
+      ],
+      "answer": 0,
+      "explication": "Ouvert en 1819, il conserve notamment des œuvres de Goya et de Vélasquez.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Musée_du_Prado"
+    },
+    {
+      "q": "Quel peintre florentin de la Renaissance est l'auteur de La Naissance de Vénus ?",
+      "choices": [
+        "Fra Angelico",
+        "Raphaël",
+        "Giotto",
+        "Sandro Botticelli"
+      ],
+      "answer": 3,
+      "explication": "Ce tableau, peint vers 1485, est exposé à la galerie des Offices de Florence.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/La_Naissance_de_Vénus_(Botticelli)"
+    },
+    {
+      "q": "Quel peintre néerlandais du XVIIe siècle a réalisé La Jeune Fille à la perle ?",
+      "choices": [
+        "Rembrandt",
+        "Frans Hals",
+        "Johannes Vermeer",
+        "Pieter de Hooch"
+      ],
+      "answer": 2,
+      "explication": "Le tableau est conservé au Mauritshuis, à La Haye.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/La_Jeune_Fille_à_la_perle"
+    },
+    {
+      "q": "Quel peintre français est l'auteur de La Liberté guidant le peuple ?",
+      "choices": [
+        "Eugène Delacroix",
+        "Théodore Géricault",
+        "Jacques-Louis David",
+        "Gustave Courbet"
+      ],
+      "answer": 0,
+      "explication": "Peint en 1830, il s'inspire de la révolution de Juillet et est exposé au Louvre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/La_Liberté_guidant_le_peuple"
+    },
+    {
+      "q": "Quelle peintre mexicaine est célèbre pour ses nombreux autoportraits ?",
+      "choices": [
+        "Tamara de Lempicka",
+        "Frida Kahlo",
+        "Georgia O'Keeffe",
+        "Mary Cassatt"
+      ],
+      "answer": 1,
+      "explication": "Elle vécut dans la Casa Azul, à Coyoacán, devenue un musée à Mexico.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Frida_Kahlo"
+    },
+    {
+      "q": "Quel mouvement, théorisé par André Breton dans un manifeste de 1924, compte Dalí et Magritte parmi ses peintres ?",
+      "choices": [
+        "Le dadaïsme",
+        "Le cubisme",
+        "Le surréalisme",
+        "Le futurisme"
+      ],
+      "answer": 2,
+      "explication": "Il cherche à exprimer le fonctionnement réel de la pensée, en dehors du contrôle de la raison.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Surréalisme"
+    },
+    {
+      "q": "Quel peintre espagnol est l'auteur des Ménines, réalisé en 1656 ?",
+      "choices": [
+        "Diego Vélasquez",
+        "Francisco de Goya",
+        "El Greco",
+        "Bartolomé Murillo"
+      ],
+      "answer": 0,
+      "explication": "Il était peintre de la cour de Philippe IV, et le tableau a inspiré Picasso, qui en a peint des variations.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Les_Ménines"
+    },
+    {
+      "q": "Quel peintre français est l'auteur du Radeau de la Méduse, présenté en 1819 ?",
+      "choices": [
+        "Eugène Delacroix",
+        "Jean-Auguste-Dominique Ingres",
+        "Gustave Courbet",
+        "Théodore Géricault"
+      ],
+      "answer": 3,
+      "explication": "Le tableau s'inspire du naufrage de la frégate La Méduse en 1816, au large des côtes d'Afrique.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Radeau_de_la_Méduse"
+    },
+    {
+      "q": "Quel peintre est le chef de file du pointillisme avec Un dimanche après-midi à l'île de la Grande Jatte ?",
+      "choices": [
+        "Paul Signac",
+        "Georges Seurat",
+        "Camille Pissarro",
+        "Paul Gauguin"
+      ],
+      "answer": 1,
+      "explication": "Il y juxtapose de minuscules points de couleur pure, que l'œil recompose à distance.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Georges_Seurat"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz peinture ?",
+      "Le quiz compte 20 questions : 8 faciles, 8 moyennes et 4 pour experts. Il s'adresse aussi bien aux curieux qu'aux amateurs d'art. Chaque explication apporte un fait supplémentaire sur l'œuvre, l'artiste ou le mouvement concerné, ce qui permet d'apprendre en jouant."
+    ],
+    [
+      "Qu'est-ce que l'impressionnisme ?",
+      "L'impressionnisme est un mouvement pictural français apparu dans les années 1860-1870. Ses peintres, comme Monet, Renoir ou Pissarro, peignent souvent en plein air et cherchent à saisir les variations de la lumière avec des touches rapides. Le nom vient d'un tableau de Monet de 1872."
+    ],
+    [
+      "Quelle est la différence entre aquarelle, huile et gouache ?",
+      "L'aquarelle utilise des pigments dilués dans l'eau, appliqués en transparence sur papier. La peinture à l'huile mélange les pigments à une huile, souvent de lin, et sèche lentement. La gouache est une peinture à l'eau opaque, plus couvrante que l'aquarelle."
+    ]
+  ],
+  "related": [
+    "/quiz-culture-generale-facile",
+    "/quiz-culture-generale-difficile",
+    "/quiz-musique",
+    "/quiz-histoire",
+    "/quiz-mythologie-grecque"
+  ]
+}

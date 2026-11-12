@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-tintin",
+  "theme": "culture",
+  "title": "Quiz Tintin : albums et personnages d'Hergé",
+  "description": "Quiz Tintin : 20 questions sur les albums d'Hergé, Milou, le capitaine Haddock, les lieux et les personnages. Du niveau facile à expert, avec explications.",
+  "h1": "Quiz Tintin : connais-tu bien l'univers d'Hergé ?",
+  "intro": "Milou, le capitaine Haddock, le professeur Tournesol, Moulinsart, la Syldavie : l'univers de Tintin est l'un des plus célèbres de la bande dessinée européenne. Ce quiz te propose 20 questions sur les albums d'Hergé, leurs personnages et leurs lieux, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail de plus sur les coulisses de la série. Tu peux jouer seul, en famille ou entre amis, et recommencer pour améliorer ton score. Alors, es-tu prêt à partir à l'aventure avec le jeune reporter ?",
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Tintin ?",
+      "Le quiz compte 20 questions de difficulté croissante : huit faciles sur les personnages les plus connus, huit de niveau moyen sur les albums et les lieux, et quatre questions expert pour les vrais amateurs d'Hergé. Chaque réponse est suivie d'une explication qui apporte un fait supplémentaire."
+    ],
+    [
+      "Combien d'albums des aventures de Tintin existe-t-il ?",
+      "La série compte 24 albums. Le dernier, Tintin et l'Alph-Art, est resté inachevé à la mort d'Hergé en 1983 et a été publié ensuite sous forme d'esquisses. Le premier, Tintin au pays des Soviets, est paru en volume en 1930, après une première publication en feuilleton dans Le Petit Vingtième."
+    ],
+    [
+      "Où peut-on découvrir l'univers d'Hergé ?",
+      "Le musée Hergé, inauguré en 2009 à Louvain-la-Neuve, en Belgique, retrace la vie et l'œuvre du dessinateur, avec des planches originales. Les albums sont publiés par les éditions Casterman depuis 1934, ce qui permet de les lire dans de nombreuses langues et dans des éditions régulièrement rééditées."
+    ]
+  ],
+  "related": [
+    "/quiz-litterature",
+    "/quiz-marvel",
+    "/quiz-culture-generale-facile",
+    "/quiz-harry-potter",
+    "/quiz-geographie"
+  ],
+  "questions": [
+    {
+      "q": "Comment s'appelle le fidèle petit chien blanc de Tintin ?",
+      "choices": [
+        "Idéfix",
+        "Rantanplan",
+        "Snoopy",
+        "Milou"
+      ],
+      "answer": 3,
+      "explication": "Dans la version originale en néerlandais, il s'appelle Bobbie.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Milou"
+    },
+    {
+      "q": "Quel capitaine de marine marchande est le meilleur ami de Tintin ?",
+      "choices": [
+        "Nemo",
+        "Haddock",
+        "Crochet",
+        "Achab"
+      ],
+      "answer": 1,
+      "explication": "Son nom est celui de l'églefin, un poisson de l'Atlantique Nord.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Capitaine_Haddock"
+    },
+    {
+      "q": "De quelle nationalité est Hergé, le créateur de Tintin ?",
+      "choices": [
+        "Français",
+        "Suisse",
+        "Belge",
+        "Luxembourgeois"
+      ],
+      "answer": 2,
+      "explication": "Il est né à Etterbeek, près de Bruxelles, en 1907.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hergé"
+    },
+    {
+      "q": "Quels policiers maladroits, qui se ressemblent beaucoup, suivent souvent Tintin ?",
+      "choices": [
+        "Dupond et Dupont",
+        "Starsky et Hutch",
+        "Laurel et Hardy",
+        "Les Dalton"
+      ],
+      "answer": 0,
+      "explication": "Pour les distinguer, ils précisent toujours que l'un s'écrit avec un d et l'autre avec un t.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dupond_et_Dupont"
+    },
+    {
+      "q": "Comment s'appelle le château acheté par le capitaine Haddock ?",
+      "choices": [
+        "Moulinsart",
+        "Chambord",
+        "Versailles",
+        "Azincourt"
+      ],
+      "answer": 0,
+      "explication": "Hergé s'est inspiré du château de Cheverny, dans le Loir-et-Cher.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Château_de_Moulinsart"
+    },
+    {
+      "q": "Quel est le tout premier album des aventures de Tintin ?",
+      "choices": [
+        "Tintin au Congo",
+        "Tintin en Amérique",
+        "Tintin au pays des Soviets",
+        "Les Cigares du pharaon"
+      ],
+      "answer": 2,
+      "explication": "Il paraît d'abord en feuilleton à partir de 1929 dans Le Petit Vingtième.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tintin_au_pays_des_Soviets"
+    },
+    {
+      "q": "Quelle cantatrice, surnommée le Rossignol milanais, croise souvent la route de Tintin ?",
+      "choices": [
+        "Séraphine Lampion",
+        "Bianca Castafiore",
+        "Maria Callas",
+        "Édith Piaf"
+      ],
+      "answer": 1,
+      "explication": "Sa voix puissante fait trembler les vitres de Moulinsart.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Bianca_Castafiore"
+    },
+    {
+      "q": "Quel professeur sourd est l'inventeur du sous-marin en forme de requin ?",
+      "choices": [
+        "Séraphin Lampion",
+        "Oliveira da Figueira",
+        "Roberto Rastapopoulos",
+        "Tryphon Tournesol"
+      ],
+      "answer": 3,
+      "explication": "Il apparaît pour la première fois dans Le Trésor de Rackham le Rouge, en 1944.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Professeur_Tournesol"
+    },
+    {
+      "q": "Dans quel album Tintin et ses amis marchent-ils sur la Lune ?",
+      "choices": [
+        "On a marché sur la Lune",
+        "Objectif Lune",
+        "L'Étoile mystérieuse",
+        "Vol 714 pour Sydney"
+      ],
+      "answer": 0,
+      "explication": "Publié en 1954, l'album précède de quinze ans le premier pas d'Apollo 11.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/On_a_marché_sur_la_Lune"
+    },
+    {
+      "q": "Dans quel pays se déroule principalement Le Lotus bleu ?",
+      "choices": [
+        "Le Japon",
+        "L'Inde",
+        "La Chine",
+        "La Thaïlande"
+      ],
+      "answer": 2,
+      "explication": "Pour cet album, Hergé a été conseillé par un étudiant chinois rencontré à Bruxelles, Tchang Tchong-jen.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Lotus_bleu"
+    },
+    {
+      "q": "Quel album emmène Tintin dans l'Himalaya à la recherche de son ami Tchang ?",
+      "choices": [
+        "Le Temple du Soleil",
+        "Coke en stock",
+        "Les Cigares du pharaon",
+        "Tintin au Tibet"
+      ],
+      "answer": 3,
+      "explication": "C'est l'un des rares albums de la série sans véritable méchant.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tintin_au_Tibet"
+    },
+    {
+      "q": "Dans quel album Tintin rencontre-t-il le capitaine Haddock pour la première fois ?",
+      "choices": [
+        "Le Sceptre d'Ottokar",
+        "Le Crabe aux pinces d'or",
+        "L'Île noire",
+        "Le Secret de La Licorne"
+      ],
+      "answer": 1,
+      "explication": "L'album est publié en 1941.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Crabe_aux_pinces_d'or"
+    },
+    {
+      "q": "Comment s'appelle le navire du chevalier de Hadoque, ancêtre du capitaine Haddock ?",
+      "choices": [
+        "Le Karaboudjan",
+        "La Licorne",
+        "L'Aurore",
+        "Le Sirius"
+      ],
+      "answer": 1,
+      "explication": "Ce vaisseau de guerre a sombré sous le règne de Louis XIV.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Secret_de_La_Licorne"
+    },
+    {
+      "q": "Quel milliardaire, propriétaire d'une société de cinéma, est un ennemi récurrent de Tintin ?",
+      "choices": [
+        "Allan Thompson",
+        "Dr Müller",
+        "Bohlwinkel",
+        "Roberto Rastapopoulos"
+      ],
+      "answer": 3,
+      "explication": "Il apparaît dès Les Cigares du pharaon.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Roberto_Rastapopoulos"
+    },
+    {
+      "q": "Dans quel album Tintin découvre-t-il pour la première fois le royaume de Syldavie ?",
+      "choices": [
+        "L'Oreille cassée",
+        "L'Île noire",
+        "Le Sceptre d'Ottokar",
+        "Tintin en Amérique"
+      ],
+      "answer": 2,
+      "explication": "La Syldavie est menacée par son voisin, la Bordurie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Sceptre_d'Ottokar"
+    },
+    {
+      "q": "Quel album emmène Tintin enquêter en Écosse ?",
+      "choices": [
+        "L'Île noire",
+        "Le Secret de La Licorne",
+        "L'Étoile mystérieuse",
+        "Coke en stock"
+      ],
+      "answer": 0,
+      "explication": "Hergé en a réalisé en 1966 une seconde version plus précise pour l'éditeur britannique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/L'%C3%8Ele_Noire"
+    },
+    {
+      "q": "Dans quel supplément jeunesse du Vingtième Siècle Tintin paraît-il à partir de 1929 ?",
+      "choices": [
+        "Spirou",
+        "Pilote",
+        "Le Petit Vingtième",
+        "Le Journal de Mickey"
+      ],
+      "answer": 2,
+      "explication": "Le quotidien belge est alors dirigé par l'abbé Norbert Wallez.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Petit_Vingtième"
+    },
+    {
+      "q": "Quel album est resté inachevé à la mort d'Hergé en 1983 ?",
+      "choices": [
+        "Tintin et les Picaros",
+        "Tintin et l'Alph-Art",
+        "Vol 714 pour Sydney",
+        "Coke en stock"
+      ],
+      "answer": 1,
+      "explication": "Hergé laisse des esquisses et des notes, publiées plus tard sous forme de fac-similé.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Tintin_et_l'Alph-Art"
+    },
+    {
+      "q": "En quelle année paraît Tintin et les Picaros, le dernier album achevé par Hergé ?",
+      "choices": [
+        "1976",
+        "1966",
+        "1983",
+        "1986"
+      ],
+      "answer": 0,
+      "explication": "L'histoire se déroule en Amérique du Sud, dans le pays fictif de San Theodoros.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Tintin_et_les_Picaros"
+    },
+    {
+      "q": "Quel pays fictif d'Amérique du Sud est dirigé tour à tour par les généraux Alcazar et Tapioca ?",
+      "choices": [
+        "La Bordurie",
+        "Nuevo-Rico",
+        "La Syldavie",
+        "San Theodoros"
+      ],
+      "answer": 3,
+      "explication": "Dans L'Oreille cassée, il s'oppose à son voisin Nuevo-Rico pour la région du Gran Chapo.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/L'Oreille_cassée"
+    }
+  ]
+}

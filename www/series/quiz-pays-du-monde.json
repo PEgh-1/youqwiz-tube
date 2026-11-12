@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-pays-du-monde",
+  "theme": "geographie",
+  "title": "Quiz pays du monde : 20 questions",
+  "description": "Quiz pays du monde : 20 questions pour situer et reconnaître les pays sur tous les continents, de la plus simple à la plus pointue. Teste ta géographie !",
+  "h1": "Quiz pays du monde : sais-tu situer et reconnaître les pays de la planète ?",
+  "intro": "Du Japon au Pérou, du Canada au Lesotho, la planète compte près de 200 pays, et chacun a ses particularités. Ce quiz te propose 20 questions pour les situer sur la carte, retrouver leurs anciens noms, leurs langues et leurs superlatifs. Les huit premières sont accessibles à tous, les huit suivantes demandent un peu plus de culture générale, et les quatre dernières sont réservées aux experts. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait de plus à retenir. Seul, en famille ou entre amis, tu es prêt à faire le tour du monde ?",
+  "questions": [
+    {
+      "q": "Quel pays est surnommé « le pays du Soleil-Levant » ?",
+      "choices": [
+        "Le Japon",
+        "La Corée du Sud",
+        "La Chine",
+        "La Thaïlande"
+      ],
+      "answer": 0,
+      "explication": "Son nom japonais, Nihon ou Nippon, signifie littéralement « origine du soleil ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Japon"
+    },
+    {
+      "q": "Dans quel pays se trouve la cité inca du Machu Picchu ?",
+      "choices": [
+        "La Bolivie",
+        "L'Équateur",
+        "Le Pérou",
+        "La Colombie"
+      ],
+      "answer": 2,
+      "explication": "Perchée dans les Andes à environ 2 400 mètres d'altitude, elle est classée à l'UNESCO depuis 1983.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Machu_Picchu"
+    },
+    {
+      "q": "Quel pays d'Amérique du Sud est très long et étroit, coincé entre les Andes et l'océan Pacifique ?",
+      "choices": [
+        "L'Argentine",
+        "Le Chili",
+        "La Bolivie",
+        "Le Venezuela"
+      ],
+      "answer": 1,
+      "explication": "Il s'étire sur plus de 4 000 kilomètres du nord au sud pour seulement quelques centaines de kilomètres de large.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chili"
+    },
+    {
+      "q": "Dans quel pays se trouve le Taj Mahal ?",
+      "choices": [
+        "Le Pakistan",
+        "Le Bangladesh",
+        "Le Népal",
+        "L'Inde"
+      ],
+      "answer": 3,
+      "explication": "Ce mausolée de marbre blanc, bâti à Agra au XVIIe siècle, a été commandé par l'empereur moghol Shah Jahan pour son épouse.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+      "q": "Quel est le deuxième plus grand pays du monde par sa superficie ?",
+      "choices": [
+        "La Chine",
+        "Les États-Unis",
+        "Le Canada",
+        "Le Brésil"
+      ],
+      "answer": 2,
+      "explication": "Il compte dix provinces et trois territoires, et possède la plus longue côte du monde.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Liste_des_pays_par_superficie"
+    },
+    {
+      "q": "Quelle île-pays de l'océan Indien abrite la quasi-totalité des espèces de lémuriens ?",
+      "choices": [
+        "Madagascar",
+        "L'île Maurice",
+        "Les Seychelles",
+        "Sri Lanka"
+      ],
+      "answer": 0,
+      "explication": "Séparée de l'Afrique depuis des dizaines de millions d'années, l'île a développé une faune et une flore uniques au monde.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Madagascar"
+    },
+    {
+      "q": "Dans quel pays se trouve la Grande Muraille, longue de plusieurs milliers de kilomètres ?",
+      "choices": [
+        "La Mongolie",
+        "Le Japon",
+        "La Corée du Nord",
+        "La Chine"
+      ],
+      "answer": 3,
+      "explication": "Elle a été construite et reconstruite par plusieurs dynasties ; les parties les mieux conservées datent surtout de l'époque des Ming.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Grande_Muraille_de_Chine"
+    },
+    {
+      "q": "Quel pays d'Amérique centrale abrite un canal reliant l'océan Atlantique à l'océan Pacifique ?",
+      "choices": [
+        "Le Costa Rica",
+        "Le Panama",
+        "Le Nicaragua",
+        "Le Honduras"
+      ],
+      "answer": 1,
+      "explication": "Ouvert en 1914 après des travaux commencés par les Français, il évite aux navires de contourner l'Amérique du Sud.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Canal_de_Panama"
+    },
+    {
+      "q": "Quel est le plus grand pays d'Afrique par sa superficie ?",
+      "choices": [
+        "La République démocratique du Congo",
+        "L'Algérie",
+        "Le Soudan",
+        "La Libye"
+      ],
+      "answer": 1,
+      "explication": "Elle a pris la première place en 2011, quand le Soudan du Sud est devenu indépendant et a retiré son territoire au Soudan.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Algérie"
+    },
+    {
+      "q": "Quelle est la langue officielle du Brésil ?",
+      "choices": [
+        "L'espagnol",
+        "L'anglais",
+        "Le français",
+        "Le portugais"
+      ],
+      "answer": 3,
+      "explication": "Cet héritage de la colonisation portugaise, à partir de 1500, fait du Brésil le plus grand pays lusophone du monde.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Brésil"
+    },
+    {
+      "q": "Quelle paire de pays d'Amérique du Sud n'a aucun accès à la mer ?",
+      "choices": [
+        "La Bolivie et le Paraguay",
+        "La Bolivie et le Pérou",
+        "Le Paraguay et l'Uruguay",
+        "L'Équateur et la Bolivie"
+      ],
+      "answer": 0,
+      "explication": "La Bolivie a perdu son littoral face au Chili à l'issue de la guerre du Pacifique, à la fin du XIXe siècle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pays_sans_littoral"
+    },
+    {
+      "q": "Quel pays insulaire situé au sud-est de l'Inde s'appelait Ceylan jusqu'en 1972 ?",
+      "choices": [
+        "Les Maldives",
+        "L'Indonésie",
+        "Le Sri Lanka",
+        "Les Philippines"
+      ],
+      "answer": 2,
+      "explication": "L'île est réputée pour son thé, dit « de Ceylan », encore commercialisé sous ce nom.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sri_Lanka"
+    },
+    {
+      "q": "Quel pays d'Asie du Sud-Est s'appelait le Siam jusqu'en 1939 ?",
+      "choices": [
+        "Le Cambodge",
+        "Le Laos",
+        "Le Vietnam",
+        "La Thaïlande"
+      ],
+      "answer": 3,
+      "explication": "Son nom actuel signifie « pays des hommes libres » ; il n'a jamais été colonisé par une puissance européenne.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Thaïlande"
+    },
+    {
+      "q": "Quel pays d'Afrique de l'Ouest s'appelait la Haute-Volta jusqu'en 1984 ?",
+      "choices": [
+        "Le Mali",
+        "Le Burkina Faso",
+        "Le Niger",
+        "Le Ghana"
+      ],
+      "answer": 1,
+      "explication": "Thomas Sankara a rebaptisé le pays, dont le nom signifie « pays des hommes intègres ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Burkina_Faso"
+    },
+    {
+      "q": "Quel petit royaume d'Afrique australe est entièrement enclavé dans l'Afrique du Sud ?",
+      "choices": [
+        "L'Eswatini",
+        "Le Botswana",
+        "Le Lesotho",
+        "La Namibie"
+      ],
+      "answer": 2,
+      "explication": "Surnommé « le royaume dans le ciel », il se situe tout entier à plus de 1 000 mètres d'altitude.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lesotho"
+    },
+    {
+      "q": "Quelle était la monnaie de l'Espagne avant le passage à l'euro en 2002 ?",
+      "choices": [
+        "La peseta",
+        "L'escudo",
+        "La lire",
+        "Le franc"
+      ],
+      "answer": 0,
+      "explication": "Introduite au XIXe siècle, la peseta a circulé pendant plus d'un siècle avant d'être remplacée.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Peseta_espagnole"
+    },
+    {
+      "q": "Quel pays d'Asie centrale est le plus grand pays sans littoral du monde ?",
+      "choices": [
+        "La Mongolie",
+        "L'Ouzbékistan",
+        "Le Kazakhstan",
+        "Le Tchad"
+      ],
+      "answer": 2,
+      "explication": "Plus vaste que l'Europe occidentale, il abrite aussi le cosmodrome de Baïkonour, d'où partent des fusées russes.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Kazakhstan"
+    },
+    {
+      "q": "Quel pays d'Afrique a battu l'armée italienne à la bataille d'Adoua en 1896 et préservé son indépendance ?",
+      "choices": [
+        "L'Éthiopie",
+        "Le Libéria",
+        "Le Maroc",
+        "L'Égypte"
+      ],
+      "answer": 0,
+      "explication": "Cette victoire du négus Ménélik II en a fait un symbole de résistance à la colonisation en Afrique.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_d'Adoua"
+    },
+    {
+      "q": "Quel royaume de l'Himalaya a popularisé l'idée de « bonheur national brut » ?",
+      "choices": [
+        "Le Népal",
+        "La Mongolie",
+        "Le Tibet",
+        "Le Bhoutan"
+      ],
+      "answer": 3,
+      "explication": "Ce concept a été mis en avant dans les années 1970 par le roi Jigme Singye Wangchuck, comme alternative au seul produit intérieur brut.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bhoutan"
+    },
+    {
+      "q": "Quel est le plus petit pays insulaire du monde par sa superficie ?",
+      "choices": [
+        "Tuvalu",
+        "Nauru",
+        "Les Palaos",
+        "Kiribati"
+      ],
+      "answer": 1,
+      "explication": "Cette île du Pacifique de 21 km² est aussi la plus petite république du monde.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Nauru"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les pays du monde ?",
+      "Le quiz compte 20 questions et progresse en trois temps : 8 questions faciles, 8 de difficulté moyenne et 4 questions expert. Il convient aussi bien aux enfants qui découvrent la carte qu'aux adultes curieux de géographie. Chaque réponse est suivie d'une explication qui apporte un fait supplémentaire."
+    ],
+    [
+      "Combien de pays y a-t-il dans le monde ?",
+      "Il n'existe pas de chiffre unique, car tout dépend de la définition retenue. On compte généralement 193 États membres de l'Organisation des Nations unies, auxquels s'ajoutent deux États observateurs, le Vatican et la Palestine. Certains territoires, comme Taïwan ou le Kosovo, ont un statut reconnu de façon inégale selon les pays."
+    ],
+    [
+      "Un pays peut-il changer de nom ?",
+      "Oui, et cela arrive souvent à la suite d'une indépendance ou d'un changement de régime. Le Siam est devenu la Thaïlande, la Haute-Volta le Burkina Faso, et Ceylan le Sri Lanka. Ces changements traduisent en général la volonté de rompre avec le passé colonial ou de mettre en avant une identité nationale."
+    ]
+  ],
+  "related": [
+    "/quiz-geographie",
+    "/quiz-capitales",
+    "/quiz-drapeaux",
+    "/quiz-pays-europe",
+    "/quiz-etats-unis"
+  ]
+}

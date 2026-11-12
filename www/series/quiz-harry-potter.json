@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-harry-potter",
+  "theme": "culture",
+  "title": "Quiz Harry Potter : 20 questions sur la saga",
+  "description": "Quiz Harry Potter : 20 questions sur les sept romans et les films, de Poudlard aux Reliques de la Mort. Du niveau facile à expert, avec explications.",
+  "h1": "Quiz Harry Potter : es-tu un vrai fan de la saga ?",
+  "intro": "Poudlard, le Quidditch, les Horcruxes, le Choixpeau magique : l'univers imaginé par J. K. Rowling fait rêver petits et grands depuis plus de vingt-cinq ans. Ce quiz te propose 20 questions sur les sept romans et sur les films, des plus accessibles aux plus pointues. Il te faudra environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail de plus sur la saga. Seul, en famille ou entre amis, tu peux le refaire autant de fois que tu veux. Prends ta baguette, et voyons si tu mérites une place à Gryffondor !",
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Harry Potter ?",
+      "Le quiz comporte 20 questions classées par difficulté : huit faciles pour les lecteurs occasionnels, huit de niveau moyen pour ceux qui ont lu les livres ou vu les films, et quatre questions expert sur des détails de l'univers. Chaque réponse est suivie d'une explication, pour apprendre même quand on se trompe."
+    ],
+    [
+      "Quand ont paru les romans Harry Potter ?",
+      "Le premier tome, Harry Potter à l'école des sorciers, paraît au Royaume-Uni en 1997 chez Bloomsbury. Le septième et dernier, Harry Potter et les Reliques de la Mort, sort en 2007. La traduction française est publiée par Gallimard Jeunesse, qui édite la série en France tome après tome."
+    ],
+    [
+      "Quelles sont les quatre maisons de Poudlard ?",
+      "Poudlard compte quatre maisons : Gryffondor, Serpentard, Poufsouffle et Serdaigle. Elles portent le nom de leurs fondateurs, Godric Gryffondor, Salazar Serpentard, Helga Poufsouffle et Rowena Serdaigle. Chaque nouvel élève est réparti dans l'une d'elles par le Choixpeau magique lors de la cérémonie de début d'année."
+    ]
+  ],
+  "related": [
+    "/quiz-marvel",
+    "/quiz-litterature",
+    "/quiz-culture-generale-facile",
+    "/quiz-jeux-video",
+    "/quiz-tintin"
+  ],
+  "questions": [
+    {
+      "q": "Quelle maison de Poudlard accueille Harry Potter, Ron Weasley et Hermione Granger ?",
+      "choices": [
+        "Serpentard",
+        "Gryffondor",
+        "Poufsouffle",
+        "Serdaigle"
+      ],
+      "answer": 1,
+      "explication": "Son emblème est le lion et son fantôme est Nick Quasi-Sans-Tête.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Poudlard"
+    },
+    {
+      "q": "Quelle autrice a écrit les romans de la série Harry Potter ?",
+      "choices": [
+        "Roald Dahl",
+        "Enid Blyton",
+        "Suzanne Collins",
+        "J. K. Rowling"
+      ],
+      "answer": 3,
+      "explication": "Le premier tome est publié au Royaume-Uni en 1997.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/J._K._Rowling"
+    },
+    {
+      "q": "Quel est le titre du premier tome de la série en français ?",
+      "choices": [
+        "Harry Potter à l'école des sorciers",
+        "Harry Potter et la Chambre des secrets",
+        "Harry Potter et le Prisonnier d'Azkaban",
+        "Harry Potter et la Coupe de feu"
+      ],
+      "answer": 0,
+      "explication": "Au Royaume-Uni, le titre original parle de la pierre philosophale.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Harry_Potter_à_l'école_des_sorciers"
+    },
+    {
+      "q": "Quel animal est Hedwige, la fidèle compagne de Harry ?",
+      "choices": [
+        "Un chat",
+        "Un crapaud",
+        "Une chouette",
+        "Un rat"
+      ],
+      "answer": 2,
+      "explication": "Hagrid la lui offre pour ses onze ans.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Harry_Potter"
+    },
+    {
+      "q": "Depuis quelle gare londonienne part le Poudlard Express ?",
+      "choices": [
+        "Paddington",
+        "Waterloo",
+        "King's Cross",
+        "Victoria"
+      ],
+      "answer": 2,
+      "explication": "On accède à la voie 9 3/4 en traversant le mur entre les voies 9 et 10.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Objets_magiques_de_Harry_Potter"
+    },
+    {
+      "q": "Qui dirige l'école de Poudlard dans les premiers tomes de la série ?",
+      "choices": [
+        "Albus Dumbledore",
+        "Severus Rogue",
+        "Minerva McGonagall",
+        "Rubeus Hagrid"
+      ],
+      "answer": 0,
+      "explication": "Son nom complet est Albus Percival Wulfric Brian Dumbledore.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Albus_Dumbledore"
+    },
+    {
+      "q": "Comment s'appelle le sport pratiqué sur des balais volants à Poudlard ?",
+      "choices": [
+        "Le Vol-ball",
+        "Le Balayball",
+        "Le Hippogriffe-ball",
+        "Le Quidditch"
+      ],
+      "answer": 3,
+      "explication": "Chaque équipe aligne sept joueurs, dont un Attrapeur qui cherche le Vif d'or.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Univers_de_Harry_Potter"
+    },
+    {
+      "q": "Quel élève de Serpentard est le grand rival de Harry ?",
+      "choices": [
+        "Cedric Diggory",
+        "Drago Malefoy",
+        "Neville Londubat",
+        "Seamus Finnigan"
+      ],
+      "answer": 1,
+      "explication": "Son père, Lucius Malefoy, est un riche sorcier partisan de Voldemort.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Drago_Malefoy"
+    },
+    {
+      "q": "Combien de films adaptent les sept romans de la série ?",
+      "choices": [
+        "Sept",
+        "Neuf",
+        "Huit",
+        "Six"
+      ],
+      "answer": 2,
+      "explication": "Le septième roman est scindé en deux films pour la version cinéma.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Harry_Potter_(série_de_films)"
+    },
+    {
+      "q": "Quel prisonnier évadé d'Azkaban est au cœur du troisième tome ?",
+      "choices": [
+        "Sirius Black",
+        "Peter Pettigrow",
+        "Bellatrix Lestrange",
+        "Remus Lupin"
+      ],
+      "answer": 0,
+      "explication": "Il est le parrain de Harry et un ami de James Potter.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sirius_Black"
+    },
+    {
+      "q": "Quel objet magique montre à celui qui s'y regarde son désir le plus profond ?",
+      "choices": [
+        "La Pensine",
+        "Le Miroir du Riséd",
+        "Le Retourneur de temps",
+        "Le Choixpeau magique"
+      ],
+      "answer": 1,
+      "explication": "Son nom est le mot « désir » lu à l'envers.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Objets_magiques_de_Harry_Potter"
+    },
+    {
+      "q": "Dans quel tome se déroule le Tournoi des Trois Sorciers ?",
+      "choices": [
+        "Harry Potter et le Prince de sang-mêlé",
+        "Harry Potter et l'Ordre du phénix",
+        "Harry Potter et la Chambre des secrets",
+        "Harry Potter et la Coupe de feu"
+      ],
+      "answer": 3,
+      "explication": "Il oppose les écoles de Poudlard, de Beauxbâtons et de Durmstrang.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Harry_Potter_et_la_Coupe_de_feu"
+    },
+    {
+      "q": "Quel est le véritable nom de Voldemort ?",
+      "choices": [
+        "Gellert Grindelwald",
+        "Salazar Serpentard",
+        "Severus Rogue",
+        "Tom Elvis Jedusor"
+      ],
+      "answer": 3,
+      "explication": "En français, ce nom est l'anagramme de la phrase « Je suis Voldemort ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lord_Voldemort"
+    },
+    {
+      "q": "Quel acteur incarne Harry Potter dans les huit films ?",
+      "choices": [
+        "Rupert Grint",
+        "Daniel Radcliffe",
+        "Tom Felton",
+        "Elijah Wood"
+      ],
+      "answer": 1,
+      "explication": "Il avait onze ans au début du tournage du premier film.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Daniel_Radcliffe"
+    },
+    {
+      "q": "Comment s'appelle la banque des sorciers, tenue par des gobelins ?",
+      "choices": [
+        "Gringotts",
+        "Fleury et Bott",
+        "Barjow et Beurk",
+        "Ollivander"
+      ],
+      "answer": 0,
+      "explication": "Harry y découvre le coffre laissé par ses parents.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Gringotts"
+    },
+    {
+      "q": "Quel animal prend la forme du Patronus de Harry ?",
+      "choices": [
+        "Une loutre",
+        "Une biche",
+        "Un cerf",
+        "Un phénix"
+      ],
+      "answer": 2,
+      "explication": "C'est aussi la forme animale de son père, James, qui était Animagus.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Univers_de_Harry_Potter"
+    },
+    {
+      "q": "À quelle date naît Harry Potter dans l'univers des romans ?",
+      "choices": [
+        "Le 31 juillet 1980",
+        "Le 31 octobre 1981",
+        "Le 1er septembre 1979",
+        "Le 25 décembre 1980"
+      ],
+      "answer": 0,
+      "explication": "Il partage cette date d'anniversaire avec sa créatrice, J. K. Rowling.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Harry_Potter"
+    },
+    {
+      "q": "Quels objets forment les trois Reliques de la Mort ?",
+      "choices": [
+        "La baguette de Sureau, la pierre philosophale et la cape d'invisibilité",
+        "L'épée de Gryffondor, la pierre de résurrection et la cape d'invisibilité",
+        "La coupe de Poufsouffle, le médaillon de Serpentard et la baguette de Sureau",
+        "La baguette de Sureau, la pierre de résurrection et la cape d'invisibilité"
+      ],
+      "answer": 3,
+      "explication": "Leur légende est racontée dans les Contes de Beedle le Barde.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Harry_Potter_et_les_Reliques_de_la_Mort"
+    },
+    {
+      "q": "Quelle maison d'édition britannique publie le premier tome en 1997 ?",
+      "choices": [
+        "Penguin",
+        "Faber and Faber",
+        "Bloomsbury",
+        "HarperCollins"
+      ],
+      "answer": 2,
+      "explication": "En France, la série est publiée par Gallimard Jeunesse.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Harry_Potter"
+    },
+    {
+      "q": "Qui se cache derrière le Prince de sang-mêlé, dont Harry trouve le manuel de potions ?",
+      "choices": [
+        "Tom Jedusor",
+        "Severus Rogue",
+        "Albus Dumbledore",
+        "Sirius Black"
+      ],
+      "answer": 1,
+      "explication": "Sa mère se nommait Eileen Prince, d'où son pseudonyme.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Harry_Potter_et_le_Prince_de_sang-mêlé"
+    }
+  ]
+}

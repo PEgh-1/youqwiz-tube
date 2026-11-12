@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-formule-1",
+  "theme": "sport",
+  "title": "Quiz Formule 1 : histoire, circuits et pilotes",
+  "description": "Quiz Formule 1 : 20 questions sur l'histoire de la F1, les circuits mythiques, les écuries et les pilotes de légende. Explications après chaque réponse.",
+  "h1": "Quiz Formule 1 : connais-tu l'histoire des Grands Prix ?",
+  "intro": "Ferrari, McLaren, Monaco, Spa : la Formule 1 fait vibrer des millions de passionnés depuis 1950. Ce quiz Formule 1 te propose 20 questions, des plus faciles aux plus difficiles, sur l'histoire du championnat du monde, les circuits mythiques, les écuries et les pilotes de légende. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication te livre une anecdote ou une date à retenir. Fan de la première heure ou simple curieux, mets les gaz et tente de franchir la ligne d'arrivée sans la moindre erreur !",
+  "questions": [
+    {
+      "q": "Dans quel pays se trouve le circuit de Monza ?",
+      "choices": [
+        "L'Espagne",
+        "La Belgique",
+        "L'Allemagne",
+        "L'Italie"
+      ],
+      "answer": 3,
+      "explication": "L'autodrome a été construit en 1922, près de Milan.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Autodromo_Nazionale_Monza"
+    },
+    {
+      "q": "Quelle écurie, qui roule en rouge, est présente depuis la première saison du championnat du monde, en 1950 ?",
+      "choices": [
+        "McLaren",
+        "Ferrari",
+        "Williams",
+        "Lotus"
+      ],
+      "answer": 1,
+      "explication": "Elle a été fondée par Enzo Ferrari et son siège est à Maranello.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Scuderia_Ferrari"
+    },
+    {
+      "q": "En quelle année a lieu le premier championnat du monde de Formule 1 ?",
+      "choices": [
+        "1930",
+        "1946",
+        "1950",
+        "1958"
+      ],
+      "answer": 2,
+      "explication": "La première course a lieu à Silverstone, en Angleterre, le 13 mai 1950.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Championnat_du_monde_de_Formule_1"
+    },
+    {
+      "q": "Quel pilote brésilien, triple champion du monde, est mort à Imola en 1994 ?",
+      "choices": [
+        "Ayrton Senna",
+        "Nelson Piquet",
+        "Emerson Fittipaldi",
+        "Rubens Barrichello"
+      ],
+      "answer": 0,
+      "explication": "Il a été champion en 1988, 1990 et 1991 avec McLaren.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ayrton_Senna"
+    },
+    {
+      "q": "Que signifie un drapeau rouge pendant une course ?",
+      "choices": [
+        "La course est arrêtée",
+        "Un pilote est en tête",
+        "Un dépassement est interdit",
+        "Un pilote est disqualifié"
+      ],
+      "answer": 0,
+      "explication": "Les monoplaces regagnent alors les stands, et la course peut ensuite être relancée.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Drapeaux_en_Formule_1"
+    },
+    {
+      "q": "Quel Allemand a été champion du monde de 2000 à 2004 sur Ferrari ?",
+      "choices": [
+        "Sebastian Vettel",
+        "Nico Rosberg",
+        "Michael Schumacher",
+        "Heinz-Harald Frentzen"
+      ],
+      "answer": 2,
+      "explication": "Il avait déjà été champion en 1994 et 1995 sur Benetton.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Schumacher"
+    },
+    {
+      "q": "Quel surnom a été donné au pilote français Alain Prost ?",
+      "choices": [
+        "Le Magicien",
+        "Le Professeur",
+        "Le Kaiser",
+        "Le Baron"
+      ],
+      "answer": 1,
+      "explication": "Il a été champion du monde en 1985, 1986, 1989 et 1993.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Alain_Prost"
+    },
+    {
+      "q": "Quel Grand Prix se dispute chaque année dans les rues d'une principauté ?",
+      "choices": [
+        "Saint-Marin",
+        "Andorre",
+        "Liechtenstein",
+        "Monaco"
+      ],
+      "answer": 3,
+      "explication": "La première édition du Grand Prix de Monaco date de 1929.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Grand_Prix_automobile_de_Monaco"
+    },
+    {
+      "q": "Quel pilote a été sacré premier champion du monde de Formule 1, en 1950 ?",
+      "choices": [
+        "Juan Manuel Fangio",
+        "Alberto Ascari",
+        "Giuseppe Farina",
+        "Stirling Moss"
+      ],
+      "answer": 2,
+      "explication": "Il pilotait une Alfa Romeo.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Giuseppe_Farina"
+    },
+    {
+      "q": "Quel pilote argentin a été cinq fois champion du monde dans les années 1950 ?",
+      "choices": [
+        "Juan Manuel Fangio",
+        "Alberto Ascari",
+        "Froilán González",
+        "Carlos Reutemann"
+      ],
+      "answer": 0,
+      "explication": "Il a remporté ses titres avec quatre constructeurs différents : Alfa Romeo, Maserati, Mercedes et Ferrari.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Juan_Manuel_Fangio"
+    },
+    {
+      "q": "Dans quel pays se trouve le circuit de Spa-Francorchamps ?",
+      "choices": [
+        "Les Pays-Bas",
+        "La France",
+        "L'Allemagne",
+        "La Belgique"
+      ],
+      "answer": 3,
+      "explication": "Situé dans les Ardennes, il mesure plus de 7 kilomètres.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps"
+    },
+    {
+      "q": "Sur quel circuit allemand Niki Lauda a-t-il eu son grave accident en 1976 ?",
+      "choices": [
+        "Hockenheim",
+        "Le Nürburgring",
+        "Monza",
+        "Zandvoort"
+      ],
+      "answer": 1,
+      "explication": "Il est revenu en course six semaines plus tard, à Monza.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Niki_Lauda"
+    },
+    {
+      "q": "Quelle écurie a remporté 15 des 16 Grands Prix de la saison 1988 ?",
+      "choices": [
+        "Williams",
+        "McLaren",
+        "Ferrari",
+        "Lotus"
+      ],
+      "answer": 1,
+      "explication": "Elle alignait alors Ayrton Senna et Alain Prost.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Championnat_du_monde_de_Formule_1_1988"
+    },
+    {
+      "q": "Quel pilote écossais, champion du monde en 1963 et 1965 sur Lotus, est mort en 1968 ?",
+      "choices": [
+        "Jackie Stewart",
+        "Graham Hill",
+        "John Surtees",
+        "Jim Clark"
+      ],
+      "answer": 3,
+      "explication": "Il s'est tué lors d'une course de Formule 2 à Hockenheim.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jim_Clark"
+    },
+    {
+      "q": "Quel Canadien a été champion du monde en 1997 sur Williams ?",
+      "choices": [
+        "Jacques Villeneuve",
+        "Gilles Villeneuve",
+        "Patrick Tambay",
+        "Mika Häkkinen"
+      ],
+      "answer": 0,
+      "explication": "Son père, Gilles Villeneuve, pilote de Ferrari, est mort à Zolder en 1982.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jacques_Villeneuve"
+    },
+    {
+      "q": "Quel pilote français a remporté son seul Grand Prix au Canada en 1995 sur Ferrari ?",
+      "choices": [
+        "René Arnoux",
+        "Olivier Panis",
+        "Jean Alesi",
+        "Jacques Laffite"
+      ],
+      "answer": 2,
+      "explication": "Il a gagné le jour de ses 31 ans, le 11 juin 1995.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jean_Alesi"
+    },
+    {
+      "q": "Quelle écurie a introduit le moteur turbo en Formule 1, en 1977 ?",
+      "choices": [
+        "Ferrari",
+        "Honda",
+        "BMW",
+        "Renault"
+      ],
+      "answer": 3,
+      "explication": "Sa RS01 avait été surnommée la « théière jaune » à cause de ses fumées.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Renault_RS01"
+    },
+    {
+      "q": "Quelle écurie britannique a remporté le tout premier championnat du monde des constructeurs, en 1958 ?",
+      "choices": [
+        "Cooper",
+        "Lotus",
+        "Vanwall",
+        "BRM"
+      ],
+      "answer": 2,
+      "explication": "Cette année-là, le titre pilotes est revenu à Mike Hawthorn, sur Ferrari.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Championnat_du_monde_de_Formule_1_1958"
+    },
+    {
+      "q": "Quel pilote britannique, champion du monde en 1962 et 1968, a gagné Monaco, Indianapolis et Le Mans ?",
+      "choices": [
+        "Jim Clark",
+        "Graham Hill",
+        "Jackie Stewart",
+        "John Surtees"
+      ],
+      "answer": 1,
+      "explication": "Cette combinaison de victoires est appelée la « triple couronne » du sport automobile.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Graham_Hill"
+    },
+    {
+      "q": "Quel circuit de la Nièvre a accueilli le Grand Prix de France de 1991 à 2008 ?",
+      "choices": [
+        "Magny-Cours",
+        "Dijon-Prenois",
+        "Reims-Gueux",
+        "Le Mans"
+      ],
+      "answer": 0,
+      "explication": "Il a succédé au Castellet, dernier hôte de la course en 1990.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Grand_Prix_automobile_de_France"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Formule 1 ?",
+      "Le quiz progresse de 8 questions faciles à 4 questions d'expert. Les plus simples portent sur les grands noms et les circuits connus de tous, les plus difficiles sur les débuts du championnat ou des détails techniques d'époque. Chaque réponse est suivie d'une explication pour retenir une anecdote supplémentaire."
+    ],
+    [
+      "Que signifie le mot « formule » en Formule 1 ?",
+      "Le mot « formule » désigne l'ensemble des règles techniques que doivent respecter les monoplaces : dimensions, poids, moteur et sécurité. Ces règles sont fixées par la Fédération internationale de l'automobile et évoluent au fil des saisons. Elles définissent ce qui distingue la Formule 1 des autres formules, comme la Formule 2 ou la Formule E."
+    ],
+    [
+      "Que signifient les principaux drapeaux en course ?",
+      "Le drapeau jaune signale un danger sur la piste, avec interdiction de dépasser. Le drapeau bleu indique à un pilote qu'il va être doublé par un retardataire. Le drapeau rouge arrête la course ou la séance. Le drapeau vert annonce que la piste est libre et le drapeau à damier signale l'arrivée."
+    ]
+  ],
+  "related": [
+    "/quiz-sport",
+    "/quiz-tour-de-france",
+    "/quiz-football",
+    "/quiz-tennis",
+    "/quiz-basket"
+  ]
+}

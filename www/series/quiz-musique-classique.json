@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-musique-classique",
+  "theme": "musique",
+  "title": "Quiz musique classique : compositeurs et œuvres",
+  "description": "Quiz musique classique : 20 questions sur les grands compositeurs, leurs œuvres, les instruments de l'orchestre et les époques. Fais le test !",
+  "h1": "Quiz musique classique : connais-tu les grands compositeurs ?",
+  "intro": "Bach, Mozart, Beethoven, Debussy : la musique classique a laissé des chefs-d'œuvre que nous reconnaissons encore dès les premières notes. Ce quiz te propose 20 questions sur les compositeurs, leurs œuvres, les instruments de l'orchestre et les grandes époques, de la période baroque au XXe siècle. Les questions deviennent de plus en plus difficiles, et les quatre dernières sont destinées aux mélomanes avertis. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une explication qui t'apprend un détail utile. Prêt à diriger ton propre orchestre de connaissances ?",
+  "questions": [
+    {
+      "q": "Quel compositeur italien est l'auteur des Quatre Saisons ?",
+      "choices": [
+        "Giuseppe Verdi",
+        "Claudio Monteverdi",
+        "Antonio Vivaldi",
+        "Giacomo Puccini"
+      ],
+      "answer": 2,
+      "explication": "Ces quatre concertos pour violon sont publiés en 1725 et chacun évoque une saison.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Quatre_Saisons_(Vivaldi)"
+    },
+    {
+      "q": "Quel compositeur, devenu sourd, a écrit neuf symphonies, dont la dernière fait intervenir un chœur ?",
+      "choices": [
+        "Ludwig van Beethoven",
+        "Johannes Brahms",
+        "Joseph Haydn",
+        "Franz Schubert"
+      ],
+      "answer": 0,
+      "explication": "Sa Neuvième Symphonie, créée en 1824, est en partie fondée sur un poème de Friedrich Schiller.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ludwig_van_Beethoven"
+    },
+    {
+      "q": "À quelle famille d'instruments appartiennent le violon, l'alto et le violoncelle ?",
+      "choices": [
+        "Les bois",
+        "Les cordes",
+        "Les cuivres",
+        "Les percussions"
+      ],
+      "answer": 1,
+      "explication": "Ces instruments se jouent le plus souvent avec un archet.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Instrument_à_cordes"
+    },
+    {
+      "q": "Quel compositeur autrichien a écrit l'opéra La Flûte enchantée ?",
+      "choices": [
+        "Joseph Haydn",
+        "Christoph Willibald Gluck",
+        "Antonio Salieri",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "answer": 3,
+      "explication": "L'œuvre est créée à Vienne en septembre 1791, quelques semaines avant la mort de son auteur.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/La_Flûte_enchantée"
+    },
+    {
+      "q": "Quel compositeur français est l'auteur du Boléro ?",
+      "choices": [
+        "Claude Debussy",
+        "Erik Satie",
+        "Maurice Ravel",
+        "Camille Saint-Saëns"
+      ],
+      "answer": 2,
+      "explication": "Cette pièce, composée en 1928, répète le même thème en augmentant peu à peu l'intensité de l'orchestre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Boléro_(Ravel)"
+    },
+    {
+      "q": "Quel compositeur allemand est l'auteur des Concertos brandebourgeois ?",
+      "choices": [
+        "Georg Friedrich Haendel",
+        "Jean-Sébastien Bach",
+        "Georg Philipp Telemann",
+        "Richard Wagner"
+      ],
+      "answer": 1,
+      "explication": "Il les dédie en 1721 au margrave de Brandebourg, d'où leur nom.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Concertos_brandebourgeois"
+    },
+    {
+      "q": "Quel compositeur polonais est surnommé « le poète du piano » ?",
+      "choices": [
+        "Frédéric Chopin",
+        "Franz Liszt",
+        "Robert Schumann",
+        "Sergueï Rachmaninov"
+      ],
+      "answer": 0,
+      "explication": "Il s'installe à Paris en 1831 et y compose l'essentiel de son œuvre pour piano.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Frédéric_Chopin"
+    },
+    {
+      "q": "Quel opéra de Georges Bizet a pour héroïne une cigarière de Séville ?",
+      "choices": [
+        "La Traviata",
+        "Madame Butterfly",
+        "Aïda",
+        "Carmen"
+      ],
+      "answer": 3,
+      "explication": "Créé en 1875 à l'Opéra-Comique, il reçoit un accueil mitigé avant de devenir l'un des opéras les plus joués au monde.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Carmen_(opéra)"
+    },
+    {
+      "q": "Quel compositeur russe est l'auteur du ballet Le Lac des cygnes ?",
+      "choices": [
+        "Modeste Moussorgski",
+        "Piotr Ilitch Tchaïkovski",
+        "Nikolaï Rimski-Korsakov",
+        "Sergueï Prokofiev"
+      ],
+      "answer": 1,
+      "explication": "Le ballet est créé à Moscou en 1877 ; il écrit aussi Casse-noisette et La Belle au bois dormant.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Lac_des_cygnes"
+    },
+    {
+      "q": "À quelle période de l'histoire de la musique rattache-t-on Jean-Sébastien Bach ?",
+      "choices": [
+        "Le romantisme",
+        "Le classicisme",
+        "La période baroque",
+        "La musique impressionniste"
+      ],
+      "answer": 2,
+      "explication": "Sa mort, en 1750, est souvent retenue comme la fin symbolique de l'époque baroque.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jean-Sébastien_Bach"
+    },
+    {
+      "q": "Combien de symphonies Beethoven a-t-il composées ?",
+      "choices": [
+        "Neuf",
+        "Cinq",
+        "Douze",
+        "Vingt"
+      ],
+      "answer": 0,
+      "explication": "Mozart, lui, en a laissé plus de quarante, et Haydn plus de cent.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ludwig_van_Beethoven"
+    },
+    {
+      "q": "Quel compositeur français a écrit Prélude à l'après-midi d'un faune ?",
+      "choices": [
+        "Gabriel Fauré",
+        "Georges Bizet",
+        "Hector Berlioz",
+        "Claude Debussy"
+      ],
+      "answer": 3,
+      "explication": "Cette œuvre, créée en 1894, s'inspire d'un poème de Stéphane Mallarmé.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Prélude_à_l'après-midi_d'un_faune"
+    },
+    {
+      "q": "Quel instrument à vent donne le la que les musiciens de l'orchestre utilisent pour s'accorder ?",
+      "choices": [
+        "La flûte traversière",
+        "Le basson",
+        "Le hautbois",
+        "Le cor"
+      ],
+      "answer": 2,
+      "explication": "Son timbre net et son accord stable en font la référence avant un concert.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Hautbois"
+    },
+    {
+      "q": "Quel compositeur hongrois, pianiste virtuose, a écrit les Rhapsodies hongroises ?",
+      "choices": [
+        "Béla Bartók",
+        "Franz Liszt",
+        "Zoltán Kodály",
+        "Frédéric Chopin"
+      ],
+      "answer": 1,
+      "explication": "Il en compose dix-neuf, inspirées de thèmes populaires tsiganes et hongrois.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Franz_Liszt"
+    },
+    {
+      "q": "Quel compositeur d'origine allemande est l'auteur de l'oratorio Le Messie, composé en 1741 ?",
+      "choices": [
+        "Jean-Sébastien Bach",
+        "Henry Purcell",
+        "Joseph Haydn",
+        "Georg Friedrich Haendel"
+      ],
+      "answer": 3,
+      "explication": "Installé en Angleterre, il en dirige la première à Dublin en 1742.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Messie_(Haendel)"
+    },
+    {
+      "q": "Quel compositeur russe a écrit le conte musical Pierre et le Loup en 1936 ?",
+      "choices": [
+        "Sergueï Prokofiev",
+        "Dmitri Chostakovitch",
+        "Igor Stravinsky",
+        "Sergueï Rachmaninov"
+      ],
+      "answer": 0,
+      "explication": "Chaque personnage du conte est représenté par un instrument différent de l'orchestre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pierre_et_le_Loup"
+    },
+    {
+      "q": "Quel compositeur est l'auteur du ballet Le Sacre du printemps, créé en 1913 ?",
+      "choices": [
+        "Maurice Ravel",
+        "Igor Stravinsky",
+        "Béla Bartók",
+        "Arnold Schönberg"
+      ],
+      "answer": 1,
+      "explication": "Sa première, au Théâtre des Champs-Élysées à Paris, provoque un célèbre scandale.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Sacre_du_printemps"
+    },
+    {
+      "q": "Quel compositeur français est l'auteur de la Symphonie fantastique, créée en 1830 ?",
+      "choices": [
+        "Camille Saint-Saëns",
+        "César Franck",
+        "Jacques Offenbach",
+        "Hector Berlioz"
+      ],
+      "answer": 3,
+      "explication": "Il y utilise une idée fixe, thème musical qui revient dans chaque mouvement.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Symphonie_fantastique"
+    },
+    {
+      "q": "Quel compositeur tchèque est l'auteur de La Moldau, extraite du cycle Ma patrie ?",
+      "choices": [
+        "Antonín Dvořák",
+        "Leoš Janáček",
+        "Bedřich Smetana",
+        "Gustav Mahler"
+      ],
+      "answer": 2,
+      "explication": "La pièce suit le cours de la rivière Vltava jusqu'à Prague, la capitale de son pays.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bedřich_Smetana"
+    },
+    {
+      "q": "Quel compositeur finlandais est l'auteur du poème symphonique Finlandia ?",
+      "choices": [
+        "Jean Sibelius",
+        "Edvard Grieg",
+        "Carl Nielsen",
+        "Edward Elgar"
+      ],
+      "answer": 0,
+      "explication": "Composée en 1899, l'œuvre devient un symbole de l'identité finlandaise face à la Russie impériale.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Jean_Sibelius"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz de musique classique ?",
+      "Le quiz compte 20 questions : 8 faciles, 8 moyennes et 4 pour experts. Il suffit d'avoir déjà entendu parler des grands compositeurs pour bien débuter. Les explications qui suivent chaque réponse te permettent de découvrir des détails sur les œuvres et les époques."
+    ],
+    [
+      "Quelles sont les grandes époques de la musique classique ?",
+      "On distingue généralement la période baroque (vers 1600-1750), le classicisme (vers 1750-1820), le romantisme (XIXe siècle) puis la musique du XXe siècle. Bach appartient au baroque, Mozart au classicisme, Chopin au romantisme et Stravinsky à l'époque moderne. Ces frontières restent approximatives, car les styles se chevauchent souvent."
+    ],
+    [
+      "Quelles sont les grandes familles d'instruments de l'orchestre ?",
+      "Un orchestre symphonique réunit quatre familles : les cordes (violons, altos, violoncelles, contrebasses), les bois (flûtes, hautbois, clarinettes, bassons), les cuivres (trompettes, cors, trombones, tuba) et les percussions (timbales, caisse claire, cymbales). Le chef d'orchestre coordonne l'ensemble, indique le tempo et donne les départs aux différents pupitres."
+    ]
+  ],
+  "related": [
+    "/quiz-musique",
+    "/quiz-chanson-francaise",
+    "/quiz-peinture",
+    "/quiz-culture-generale-difficile",
+    "/quiz-culture-generale-facile"
+  ]
+}

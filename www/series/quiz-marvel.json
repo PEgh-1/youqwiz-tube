@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-marvel",
+  "theme": "cinema",
+  "title": "Quiz Marvel : héros, comics et films en 20 questions",
+  "description": "Quiz Marvel : 20 questions sur les super-héros des comics et des films, d'Iron Man aux X-Men. Teste ta culture Marvel, du niveau facile à expert.",
+  "h1": "Quiz Marvel : connais-tu vraiment les super-héros ?",
+  "intro": "Iron Man, Spider-Man, Thor, Black Panther, les X-Men : les héros de Marvel sont nés dans les comics avant de conquérir le cinéma. Ce quiz te propose 20 questions sur leurs origines, leurs pouvoirs et leurs films, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail que même les fans oublient parfois. Tu peux jouer seul, en famille ou entre amis, et recommencer pour battre ton score. Alors, prêt à rassembler tes connaissances et à prouver que tu es un vrai Vengeur ?",
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Marvel ?",
+      "Les 20 questions sont classées par difficulté : huit faciles sur les héros les plus célèbres, huit de niveau moyen sur les films et les personnages secondaires, puis quatre questions expert sur les comics. Une explication suit chaque réponse pour te faire découvrir un fait supplémentaire."
+    ],
+    [
+      "Qui a fondé la maison d'édition Marvel ?",
+      "Marvel descend de Timely Publications, une maison d'édition fondée à New York en 1939 par Martin Goodman. Le premier comic, Marvel Comics numéro 1, paraît cette année-là. Le nom Marvel s'impose ensuite à partir du début des années 1960, avec le succès de Stan Lee et de dessinateurs comme Jack Kirby et Steve Ditko."
+    ],
+    [
+      "Que signifie MCU ?",
+      "MCU désigne le Marvel Cinematic Universe, l'ensemble des films et séries Marvel Studios situés dans un même monde partagé. Il commence en 2008 avec Iron Man. Sa première grande saga, appelée Infinity Saga, s'étend de 2008 à 2019 et culmine avec le film Avengers : Endgame."
+    ]
+  ],
+  "related": [
+    "/quiz-harry-potter",
+    "/quiz-jeux-video",
+    "/quiz-tintin",
+    "/quiz-culture-generale-facile",
+    "/quiz-litterature"
+  ],
+  "questions": [
+    {
+      "q": "Quel héros Marvel est le milliardaire Tony Stark, inventeur d'une armure high-tech ?",
+      "choices": [
+        "Captain America",
+        "Thor",
+        "Iron Man",
+        "Hulk"
+      ],
+      "answer": 2,
+      "explication": "Ce personnage apparaît pour la première fois en 1963 dans la revue Tales of Suspense.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Iron_Man_(comics)"
+    },
+    {
+      "q": "Quel personnage se transforme en géant vert lorsqu'il se met en colère ?",
+      "choices": [
+        "Hulk",
+        "Le Bouffon vert",
+        "Le Lézard",
+        "Loki"
+      ],
+      "answer": 0,
+      "explication": "Derrière lui se cache le scientifique Bruce Banner, exposé à des rayons gamma.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hulk"
+    },
+    {
+      "q": "Quel super-héros acquiert ses pouvoirs après la piqûre d'une araignée radioactive ?",
+      "choices": [
+        "Daredevil",
+        "Spider-Man",
+        "Ant-Man",
+        "Black Panther"
+      ],
+      "answer": 1,
+      "explication": "Il fait ses débuts en 1962 dans le comic Amazing Fantasy.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Spider-Man"
+    },
+    {
+      "q": "Comment s'appelle le marteau de Thor ?",
+      "choices": [
+        "Stormbreaker",
+        "Gungnir",
+        "Excalibur",
+        "Mjöllnir"
+      ],
+      "answer": 3,
+      "explication": "Ce nom vient de la mythologie nordique, où il désigne déjà le marteau du dieu du tonnerre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Thor_(Marvel)"
+    },
+    {
+      "q": "Dans quel royaume africain fictif Black Panther est-il roi ?",
+      "choices": [
+        "La Latvérie",
+        "Genosha",
+        "La Sokovia",
+        "Le Wakanda"
+      ],
+      "answer": 3,
+      "explication": "Black Panther fait ses débuts en 1966 dans Fantastic Four n° 52 ; il est souvent présenté comme le premier super-héros noir des comics américains grand public.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Panth%C3%A8re_noire_(comics)"
+    },
+    {
+      "q": "Quel héros combat avec un bouclier aux couleurs du drapeau américain ?",
+      "choices": [
+        "Iron Man",
+        "Captain America",
+        "Nick Fury",
+        "Hawkeye"
+      ],
+      "answer": 1,
+      "explication": "Steve Rogers est créé en 1941 par Joe Simon et Jack Kirby.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Captain_America"
+    },
+    {
+      "q": "Quel film réunit pour la première fois Iron Man, Thor, Hulk et Captain America au cinéma, en 2012 ?",
+      "choices": [
+        "Avengers",
+        "Les Gardiens de la Galaxie",
+        "X-Men",
+        "Les Quatre Fantastiques"
+      ],
+      "answer": 0,
+      "explication": "Il est réalisé par Joss Whedon.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Avengers_(film)"
+    },
+    {
+      "q": "Quel scénariste, cocréateur de Spider-Man et des X-Men, fait de brefs caméos dans de nombreux films Marvel ?",
+      "choices": [
+        "Walt Disney",
+        "George Lucas",
+        "Stan Lee",
+        "Alan Moore"
+      ],
+      "answer": 2,
+      "explication": "Il a longtemps dirigé la maison d'édition Marvel Comics.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Stan_Lee"
+    },
+    {
+      "q": "Quel film lance l'univers cinématographique Marvel en 2008 ?",
+      "choices": [
+        "L'Incroyable Hulk",
+        "Thor",
+        "Captain America : First Avenger",
+        "Iron Man"
+      ],
+      "answer": 3,
+      "explication": "L'Incroyable Hulk sort la même année, quelques semaines plus tard.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Marvel_Cinematic_Universe"
+    },
+    {
+      "q": "Combien de Pierres d'Infinité existe-t-il ?",
+      "choices": [
+        "Quatre",
+        "Six",
+        "Cinq",
+        "Sept"
+      ],
+      "answer": 1,
+      "explication": "Ce sont les pierres du Pouvoir, de l'Esprit, de la Réalité, de l'Âme, du Temps et de l'Espace.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Avengers:_Infinity_War"
+    },
+    {
+      "q": "Quel dieu de la malice est le frère adoptif de Thor ?",
+      "choices": [
+        "Odin",
+        "Heimdall",
+        "Loki",
+        "Hela"
+      ],
+      "answer": 2,
+      "explication": "Il est le fils de sang du géant des glaces Laufey, recueilli par Odin.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Loki_(Marvel_Comics)"
+    },
+    {
+      "q": "Quel professeur fonde l'école pour jeunes mutants des X-Men ?",
+      "choices": [
+        "Charles Xavier",
+        "Erik Lehnsherr",
+        "Nick Fury",
+        "Hank Pym"
+      ],
+      "answer": 0,
+      "explication": "Télépathe, il apparaît dès 1963 dans le premier numéro de X-Men.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Professeur_Xavier"
+    },
+    {
+      "q": "Quel héros Marvel est un avocat aveugle aux sens surdéveloppés ?",
+      "choices": [
+        "Daredevil",
+        "Doctor Strange",
+        "Hawkeye",
+        "Moon Knight"
+      ],
+      "answer": 0,
+      "explication": "Matt Murdock exerce dans le quartier new-yorkais de Hell's Kitchen.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Daredevil"
+    },
+    {
+      "q": "Quel film de 2019 a pour héroïne la pilote Carol Danvers ?",
+      "choices": [
+        "Black Widow",
+        "Shang-Chi",
+        "Captain Marvel",
+        "Les Éternels"
+      ],
+      "answer": 2,
+      "explication": "Son intrigue se déroule en grande partie en 1995.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Captain_Marvel_(film)"
+    },
+    {
+      "q": "Quel acteur incarne le roi T'Challa, alias Black Panther, dans les films ?",
+      "choices": [
+        "Michael B. Jordan",
+        "Chadwick Boseman",
+        "Idris Elba",
+        "Anthony Mackie"
+      ],
+      "answer": 1,
+      "explication": "Il apparaît pour la première fois en 2016 dans Captain America : Civil War.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chadwick_Boseman"
+    },
+    {
+      "q": "Quelle entreprise a annoncé le rachat de Marvel Entertainment en 2009 ?",
+      "choices": [
+        "Warner Bros.",
+        "Sony",
+        "Universal",
+        "Disney"
+      ],
+      "answer": 3,
+      "explication": "Marvel Studios fait depuis partie du groupe Disney.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Marvel_Entertainment"
+    },
+    {
+      "q": "Dans quel comic Spider-Man apparaît-il pour la première fois en 1962 ?",
+      "choices": [
+        "Fantastic Four",
+        "Amazing Fantasy",
+        "Tales to Astonish",
+        "Journey into Mystery"
+      ],
+      "answer": 1,
+      "explication": "Il est créé par Stan Lee et le dessinateur Steve Ditko.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Spider-Man"
+    },
+    {
+      "q": "Quelle équipe de héros a pour quartier général l'immeuble Baxter, à New York ?",
+      "choices": [
+        "Les Quatre Fantastiques",
+        "Les Vengeurs",
+        "Les X-Men",
+        "Les Défenseurs"
+      ],
+      "answer": 0,
+      "explication": "Leur premier numéro paraît en 1961.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Les_Quatre_Fantastiques"
+    },
+    {
+      "q": "Quel métal quasi indestructible recouvre le squelette de Wolverine ?",
+      "choices": [
+        "Le vibranium",
+        "L'uru",
+        "Le carbonadium",
+        "L'adamantium"
+      ],
+      "answer": 3,
+      "explication": "Le vibranium, lui, est le métal rare extrait au Wakanda.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Wolverine"
+    },
+    {
+      "q": "Dans Les Gardiens de la Galaxie Vol. 2, quel être est le père de Peter Quill, alias Star-Lord ?",
+      "choices": [
+        "Yondu",
+        "Thanos",
+        "Ego",
+        "Odin"
+      ],
+      "answer": 2,
+      "explication": "Ego est une planète vivante, alors que Yondu a élevé Peter.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Les_Gardiens_de_la_Galaxie_Vol._2"
+    }
+  ]
+}

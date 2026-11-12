@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-villes-de-france",
+  "theme": "geographie",
+  "title": "Quiz villes de France : 20 questions",
+  "description": "Quiz villes de France : 20 questions sur les surnoms, fleuves, monuments et spécialités des villes françaises. Du niveau facile à expert.",
+  "h1": "Quiz villes de France : reconnais-tu ces villes grâce à leurs trésors ?",
+  "intro": "La France compte des villes aux personnalités très marquées : une cité phocéenne, une ville rose, des cathédrales qui défient les siècles, des spécialités gourmandes réputées dans le monde entier. Ce quiz te propose 20 questions sur les surnoms, les fleuves, les monuments et les produits emblématiques de nos villes. Les huit premières sont faciles, les huit suivantes un peu plus corsées, et les quatre dernières réservées aux grands connaisseurs. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une explication qui te fait découvrir un détail de plus. À toi de jouer !",
+  "questions": [
+    {
+      "q": "Quelle ville est surnommée la « Cité phocéenne » ?",
+      "choices": [
+        "Nice",
+        "Toulon",
+        "Marseille",
+        "Montpellier"
+      ],
+      "answer": 2,
+      "explication": "Elle a été fondée vers 600 avant J.-C. par des marins grecs venus de Phocée, ville d'Asie Mineure.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Marseille"
+    },
+    {
+      "q": "Quels deux cours d'eau se rejoignent à Lyon ?",
+      "choices": [
+        "Le Rhône et la Saône",
+        "Le Rhône et l'Isère",
+        "La Saône et le Doubs",
+        "La Loire et la Saône"
+      ],
+      "answer": 0,
+      "explication": "Leur confluent se situe au sud de la Presqu'île, aujourd'hui occupée par le quartier de la Confluence.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lyon"
+    },
+    {
+      "q": "Quelle ville de Lorraine est célèbre pour sa place Stanislas ?",
+      "choices": [
+        "Metz",
+        "Épinal",
+        "Verdun",
+        "Nancy"
+      ],
+      "answer": 3,
+      "explication": "Cette place du XVIIIe siècle, ornée de grilles dorées, a été aménagée pour Stanislas Leszczynski, duc de Lorraine.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Place_Stanislas"
+    },
+    {
+      "q": "Quelle ville du Sud-Ouest est surnommée la « Ville rose » ?",
+      "choices": [
+        "Bordeaux",
+        "Toulouse",
+        "Albi",
+        "Montauban"
+      ],
+      "answer": 1,
+      "explication": "Ce surnom vient de la brique rose, matériau traditionnel de ses bâtiments.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Toulouse"
+    },
+    {
+      "q": "Quelle ville de l'Aude est célèbre pour sa cité médiévale fortifiée ?",
+      "choices": [
+        "Narbonne",
+        "Perpignan",
+        "Béziers",
+        "Carcassonne"
+      ],
+      "answer": 3,
+      "explication": "Sa Cité, restaurée au XIXe siècle par Viollet-le-Duc, est inscrite à l'UNESCO depuis 1997.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Carcassonne"
+    },
+    {
+      "q": "Quelle ville de la Côte d'Azur est célèbre pour sa promenade des Anglais ?",
+      "choices": [
+        "Cannes",
+        "Nice",
+        "Antibes",
+        "Menton"
+      ],
+      "answer": 1,
+      "explication": "Cet aménagement doit son nom à l'aristocratie britannique qui séjournait à Nice en hiver au XIXe siècle.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Promenade_des_Anglais"
+    },
+    {
+      "q": "Quelle ville de la Côte d'Azur accueille chaque année le Festival international du film au palais des Festivals ?",
+      "choices": [
+        "Cannes",
+        "Nice",
+        "Saint-Tropez",
+        "Antibes"
+      ],
+      "answer": 0,
+      "explication": "Le palais des Festivals se trouve sur le boulevard de la Croisette, face à la mer.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Festival_de_Cannes"
+    },
+    {
+      "q": "Quelle ville des Hautes-Pyrénées est un grand lieu de pèlerinage depuis les apparitions de 1858 ?",
+      "choices": [
+        "Pau",
+        "Tarbes",
+        "Lourdes",
+        "Cauterets"
+      ],
+      "answer": 2,
+      "explication": "Bernadette Soubirous affirme avoir vu la Vierge Marie dans la grotte de Massabielle, à dix-huit reprises.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lourdes"
+    },
+    {
+      "q": "Quelle ville de Bourgogne est célèbre pour sa moutarde ?",
+      "choices": [
+        "Dijon",
+        "Beaune",
+        "Auxerre",
+        "Mâcon"
+      ],
+      "answer": 0,
+      "explication": "Cette ville est aussi réputée pour son pain d'épices et pour la crème de cassis du kir.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dijon"
+    },
+    {
+      "q": "Quelle ville de Normandie abrite la cathédrale que Monet a peinte en une longue série de toiles ?",
+      "choices": [
+        "Caen",
+        "Bayeux",
+        "Rouen",
+        "Évreux"
+      ],
+      "answer": 2,
+      "explication": "Monet en a réalisé une trentaine de versions dans les années 1890, à des heures et sous des lumières différentes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cathédrale_Notre-Dame_de_Rouen"
+    },
+    {
+      "q": "Quelle ville de la Drôme est célèbre pour son nougat ?",
+      "choices": [
+        "Valence",
+        "Montélimar",
+        "Nîmes",
+        "Orange"
+      ],
+      "answer": 1,
+      "explication": "Le nougat s'y est développé grâce aux amandiers et au miel de lavande de la région.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Montélimar"
+    },
+    {
+      "q": "Quelle ville du Gard possède à la fois des arènes romaines et la Maison carrée ?",
+      "choices": [
+        "Arles",
+        "Orange",
+        "Avignon",
+        "Nîmes"
+      ],
+      "answer": 3,
+      "explication": "La Maison carrée est un temple romain du Ier siècle avant J.-C., remarquablement bien conservé.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Maison_Carrée"
+    },
+    {
+      "q": "Quelle ville de Picardie abrite la plus vaste cathédrale gothique de France par son volume intérieur ?",
+      "choices": [
+        "Beauvais",
+        "Amiens",
+        "Reims",
+        "Laon"
+      ],
+      "answer": 1,
+      "explication": "Sa construction a débuté en 1220 et elle est classée à l'UNESCO depuis 1981.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cathédrale_Notre-Dame_d'Amiens"
+    },
+    {
+      "q": "Quelle ville d'Alsace possède le quartier pittoresque de la Petite Venise ?",
+      "choices": [
+        "Mulhouse",
+        "Haguenau",
+        "Sélestat",
+        "Colmar"
+      ],
+      "answer": 3,
+      "explication": "Ses maisons à colombages bordent la Lauch, rivière qui traverse le centre-ville.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Colmar"
+    },
+    {
+      "q": "Quel fleuve traverse Orléans, Tours et Nantes ?",
+      "choices": [
+        "La Seine",
+        "La Garonne",
+        "La Loire",
+        "Le Rhône"
+      ],
+      "answer": 2,
+      "explication": "Son cours est jalonné de châteaux, et le Val de Loire est classé à l'UNESCO depuis 2000.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Loire_(fleuve)"
+    },
+    {
+      "q": "Quelle ville d'Auvergne est le berceau du fabricant de pneumatiques Michelin ?",
+      "choices": [
+        "Clermont-Ferrand",
+        "Vichy",
+        "Aurillac",
+        "Le Puy-en-Velay"
+      ],
+      "answer": 0,
+      "explication": "L'entreprise a été fondée en 1889 par les frères André et Édouard Michelin.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Clermont-Ferrand"
+    },
+    {
+      "q": "Quelle ville de l'Hérault, surnommée la « Venise du Languedoc », est la ville natale de Paul Valéry et de Georges Brassens ?",
+      "choices": [
+        "Béziers",
+        "Agde",
+        "Montpellier",
+        "Sète"
+      ],
+      "answer": 3,
+      "explication": "Bâtie autour du mont Saint-Clair, elle est traversée de canaux et connue pour la joute nautique.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Sète"
+    },
+    {
+      "q": "Quelle commune du Doubs abrite la Saline royale construite par l'architecte Claude-Nicolas Ledoux ?",
+      "choices": [
+        "Salins-les-Bains",
+        "Arc-et-Senans",
+        "Dole",
+        "Pontarlier"
+      ],
+      "answer": 1,
+      "explication": "Ce chef-d'œuvre d'architecture industrielle du XVIIIe siècle est inscrit à l'UNESCO depuis 1982.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Saline_royale_d'Arc-et-Senans"
+    },
+    {
+      "q": "Quelle ville d'Eure-et-Loir est célèbre pour sa cathédrale aux vitraux du XIIIe siècle, inscrite à l'UNESCO en 1979 ?",
+      "choices": [
+        "Dreux",
+        "Évreux",
+        "Chartres",
+        "Orléans"
+      ],
+      "answer": 2,
+      "explication": "Son bleu de Chartres est célèbre, et la cathédrale a conservé la plus grande partie de ses vitraux d'origine.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Cathédrale_Notre-Dame_de_Chartres"
+    },
+    {
+      "q": "Quelle ville bretonne a été fondée en 1666 comme port de la Compagnie des Indes ?",
+      "choices": [
+        "Lorient",
+        "Brest",
+        "Saint-Nazaire",
+        "Vannes"
+      ],
+      "answer": 0,
+      "explication": "Son nom évoque l'Orient, destination des navires de la Compagnie, qui commerçait avec l'Asie.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Lorient"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les villes de France ?",
+      "Le quiz compte 20 questions : 8 faciles sur les villes célèbres, 8 de niveau moyen sur les monuments et les spécialités, et 4 questions expert sur des lieux plus discrets. Il ne reprend pas les questions sur les préfectures, les départements ou les régions, traitées dans d'autres séries."
+    ],
+    [
+      "Pourquoi Marseille est-elle appelée la Cité phocéenne ?",
+      "Marseille a été fondée vers 600 avant J.-C. par des Grecs originaires de Phocée, une cité d'Asie Mineure, sur le site de l'actuel Vieux-Port. Elle s'appelait alors Massalia. C'est ce lien avec Phocée qui a donné l'adjectif « phocéenne » à la ville, devenue l'une des plus anciennes de France."
+    ],
+    [
+      "Quelles villes françaises sont inscrites à l'UNESCO ?",
+      "Plusieurs sites urbains français sont inscrits au patrimoine mondial, souvent pour leur centre historique ou un monument majeur. On peut citer la Cité de Carcassonne, la cathédrale de Chartres, la cathédrale d'Amiens, Le Havre reconstruit par Auguste Perret, ou encore le centre de Lyon et la Grande Île de Strasbourg."
+    ]
+  ],
+  "related": [
+    "/quiz-geographie-france",
+    "/quiz-regions-de-france",
+    "/quiz-prefectures",
+    "/quiz-paris",
+    "/quiz-cuisine"
+  ]
+}

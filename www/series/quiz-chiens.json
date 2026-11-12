@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-chiens",
+  "theme": "nature",
+  "title": "Quiz chiens : races, comportement et histoire",
+  "description": "Quiz chiens : 20 questions sur les races, le comportement, l'anatomie et l'histoire du chien, le meilleur ami de l'homme. Explications à chaque réponse.",
+  "h1": "Quiz chiens : connais-tu vraiment le meilleur ami de l'homme ?",
+  "intro": "Fidèle compagnon, chien de berger, de chasse ou de traîneau : le chien vit aux côtés des humains depuis des millénaires. Ce quiz chiens te propose 20 questions, des plus faciles aux plus pointues, sur les races, le comportement, l'anatomie et l'histoire de nos amis à quatre pattes. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait étonnant à retenir. Que tu aies un chien à la maison ou que tu les adores de loin, viens tester tes connaissances et vise le sans-faute !",
+  "questions": [
+    {
+      "q": "Comment appelle-t-on le petit du chien ?",
+      "choices": [
+        "Le chaton",
+        "Le chiot",
+        "Le louveteau",
+        "Le renardeau"
+      ],
+      "answer": 1,
+      "explication": "Un chiot naît les yeux fermés et ne les ouvre qu'au bout d'une à deux semaines environ.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chien"
+    },
+    {
+      "q": "De quel animal sauvage le chien descend-il ?",
+      "choices": [
+        "Le loup",
+        "Le chacal",
+        "Le renard",
+        "Le coyote"
+      ],
+      "answer": 0,
+      "explication": "Le chien est aujourd'hui classé comme sous-espèce du loup, Canis lupus familiaris.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chien"
+    },
+    {
+      "q": "Quelle race de chien est reconnaissable à sa robe blanche couverte de taches noires ?",
+      "choices": [
+        "Le beagle",
+        "Le boxer",
+        "Le dalmatien",
+        "Le husky"
+      ],
+      "answer": 2,
+      "explication": "Son nom vient de la Dalmatie, région côtière de Croatie.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dalmatien"
+    },
+    {
+      "q": "De quel pays le chihuahua est-il originaire ?",
+      "choices": [
+        "Le Japon",
+        "L'Espagne",
+        "Le Brésil",
+        "Le Mexique"
+      ],
+      "answer": 3,
+      "explication": "Il porte le nom d'un État du nord du Mexique.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chihuahua_(chien)"
+    },
+    {
+      "q": "Quel est le sens le mieux développé du chien ?",
+      "choices": [
+        "La vue",
+        "Le goût",
+        "Le toucher",
+        "L'odorat"
+      ],
+      "answer": 3,
+      "explication": "Le chien perçoit aussi des ultrasons que l'oreille humaine n'entend pas.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chien"
+    },
+    {
+      "q": "Quelle race de chien doit son nom à un col des Alpes où des moines l'élevaient ?",
+      "choices": [
+        "Le bouvier bernois",
+        "Le montagne des Pyrénées",
+        "Le saint-bernard",
+        "Le malamute"
+      ],
+      "answer": 2,
+      "explication": "Le col du Grand-Saint-Bernard abrite un hospice qui accueillait les voyageurs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Saint-bernard_(chien)"
+    },
+    {
+      "q": "Pourquoi un chien halète-t-il, langue pendante, quand il fait chaud ?",
+      "choices": [
+        "Pour se rafraîchir",
+        "Pour marquer son territoire",
+        "Pour appeler ses petits",
+        "Pour aiguiser ses dents"
+      ],
+      "answer": 0,
+      "explication": "Le chien ne transpire presque pas : il évacue surtout la chaleur par la respiration.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chien"
+    },
+    {
+      "q": "Quel est le nom du chien de Tintin ?",
+      "choices": [
+        "Idéfix",
+        "Milou",
+        "Snoopy",
+        "Pluto"
+      ],
+      "answer": 1,
+      "explication": "Milou est un fox-terrier à poil dur, apparu dès 1929 sous le crayon d'Hergé.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Milou"
+    },
+    {
+      "q": "Quelle race de chien, originaire de Chine, a une langue bleu-noir et une crinière épaisse ?",
+      "choices": [
+        "Le shih tzu",
+        "Le chow-chow",
+        "Le pékinois",
+        "Le lhassa apso"
+      ],
+      "answer": 1,
+      "explication": "C'est un chien de type spitz, utilisé autrefois en Chine pour la garde et la chasse.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chow-chow"
+    },
+    {
+      "q": "Quelle race de chien incarne Lassie dans les romans et les films ?",
+      "choices": [
+        "Le border collie",
+        "Le berger allemand",
+        "Le bobtail",
+        "Le colley"
+      ],
+      "answer": 3,
+      "explication": "Le personnage est né sous la plume d'Eric Knight, dans une nouvelle de 1938 reprise en roman en 1940.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lassie,_chien_fidèle"
+    },
+    {
+      "q": "Combien de dents possède un chien adulte ?",
+      "choices": [
+        "32",
+        "38",
+        "42",
+        "48"
+      ],
+      "answer": 2,
+      "explication": "Un chiot, lui, n'a que 28 dents de lait.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Anatomie_du_chien"
+    },
+    {
+      "q": "Quelle race de chien a été sélectionnée en Allemagne pour chasser dans les terriers ?",
+      "choices": [
+        "Le teckel",
+        "Le labrador",
+        "Le dogue allemand",
+        "Le caniche"
+      ],
+      "answer": 0,
+      "explication": "Son nom allemand, Dachshund, signifie « chien de blaireau ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Teckel"
+    },
+    {
+      "q": "Quel physiologiste russe a étudié le réflexe conditionné chez le chien vers 1900 ?",
+      "choices": [
+        "Ivan Pavlov",
+        "Sigmund Freud",
+        "Dmitri Mendeleïev",
+        "Louis Pasteur"
+      ],
+      "answer": 0,
+      "explication": "Il a reçu le prix Nobel de physiologie ou médecine en 1904, pour ses travaux sur la digestion.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ivan_Pavlov"
+    },
+    {
+      "q": "Quelle chienne soviétique a été le premier animal à orbiter autour de la Terre, en 1957 ?",
+      "choices": [
+        "Belka",
+        "Strelka",
+        "Laïka",
+        "Pchelka"
+      ],
+      "answer": 2,
+      "explication": "Elle a voyagé à bord de Spoutnik 2, lancé le 3 novembre 1957.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Laïka"
+    },
+    {
+      "q": "Quelle race de chien est née en Allemagne à la fin du XIXe siècle grâce au capitaine Max von Stephanitz ?",
+      "choices": [
+        "Le dobermann",
+        "Le rottweiler",
+        "Le schnauzer",
+        "Le berger allemand"
+      ],
+      "answer": 3,
+      "explication": "Il fonde la société de la race en 1899.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Berger_allemand"
+    },
+    {
+      "q": "Quelle course de traîneaux à chiens traverse l'Alaska et rappelle l'acheminement d'un sérum en 1925 ?",
+      "choices": [
+        "La Yukon Quest",
+        "L'Iditarod",
+        "La Finnmarksløpet",
+        "La Vasaloppet"
+      ],
+      "answer": 1,
+      "explication": "Le sérum contre la diphtérie avait été relayé par des attelages jusqu'à Nome.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Course_au_sérum_de_1925"
+    },
+    {
+      "q": "En combien de groupes la Fédération cynologique internationale (FCI) répartit-elle les races de chiens ?",
+      "choices": [
+        "10",
+        "5",
+        "8",
+        "15"
+      ],
+      "answer": 0,
+      "explication": "Elle a été fondée en 1911 et son siège est à Thuin, en Belgique.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Fédération_cynologique_internationale"
+    },
+    {
+      "q": "Quelle est la durée moyenne de gestation d'une chienne ?",
+      "choices": [
+        "Environ 36 jours",
+        "Environ 90 jours",
+        "Environ 120 jours",
+        "Environ 63 jours"
+      ],
+      "answer": 3,
+      "explication": "Cela représente environ neuf semaines, avec des variations de quelques jours.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Chien"
+    },
+    {
+      "q": "Comment s'appelle le chien qui reconnaît Ulysse à son retour à Ithaque dans l'Odyssée ?",
+      "choices": [
+        "Cerbère",
+        "Argos",
+        "Anubis",
+        "Orthros"
+      ],
+      "answer": 1,
+      "explication": "Il meurt juste après avoir reconnu son maître, absent depuis vingt ans.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Argos_(chien_d'Ulysse)"
+    },
+    {
+      "q": "Quelle race de chien était Hachikō, célèbre pour avoir attendu son maître à la gare de Shibuya, à Tokyo ?",
+      "choices": [
+        "Le shiba inu",
+        "Le spitz japonais",
+        "L'akita inu",
+        "Le tosa"
+      ],
+      "answer": 2,
+      "explication": "Il a attendu pendant près de dix ans après la mort de son maître, en 1925.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Hachik%C5%8D"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz chiens ?",
+      "Le quiz compte 8 questions faciles, 8 de niveau moyen et 4 questions d'expert. Tu y croises des races célèbres, des notions d'anatomie et de comportement, ainsi que des figures marquantes de l'histoire du chien. Chaque réponse est suivie d'une explication pour t'apprendre quelque chose de nouveau."
+    ],
+    [
+      "Combien de temps vit un chien ?",
+      "La durée de vie dépend beaucoup de la taille : les petits chiens vivent souvent entre 12 et 16 ans, alors que les très grandes races vivent plutôt entre 8 et 11 ans. L'alimentation, l'activité physique et les soins vétérinaires jouent aussi un rôle important dans la longévité de l'animal."
+    ],
+    [
+      "Comment un chien communique-t-il avec nous ?",
+      "Le chien utilise un ensemble de signaux : aboiements, grognements et gémissements, mais aussi la posture du corps, la position des oreilles, le regard et le mouvement de la queue. Une queue qui bouge ne signifie pas toujours la joie, car sa hauteur et sa vitesse changent le message. Il faut observer l'ensemble du corps."
+    ]
+  ],
+  "related": [
+    "/quiz-chevaux",
+    "/quiz-animaux",
+    "/quiz-animaux-difficile",
+    "/quiz-oiseaux",
+    "/quiz-animaux-marins"
+  ]
+}

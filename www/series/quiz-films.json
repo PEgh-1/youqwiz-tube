@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-films",
+  "theme": "cinema",
+  "title": "Quiz films : 20 questions sur les films cultes",
+  "description": "Quiz films : 20 questions sur les films cultes du grand public, leurs intrigues, leurs personnages et leurs acteurs. Du plus facile au plus difficile !",
+  "h1": "Quiz films : reconnais-tu ces films cultes ?",
+  "intro": "Un acteur, un personnage, un détail d'intrigue : suffit-il pour retrouver le film ? Ce quiz films rassemble 20 questions sur des films cultes que tout le monde a vus, des blockbusters américains aux comédies françaises qui passent encore à la télévision. Le niveau monte peu à peu, avec huit questions faciles, huit moyennes et quatre plus difficiles pour les fans de cinéma. Après chaque réponse, tu découvres une petite anecdote ou un fait à retenir. Idéal pour une soirée entre amis ou en famille : chacun réfléchit quelques secondes, tu compares les scores, et que le meilleur cinéphile gagne !",
+  "questions": [
+    {
+      "q": "Dans « Titanic » (1997), quel acteur incarne Jack Dawson ?",
+      "choices": [
+        "Brad Pitt",
+        "Johnny Depp",
+        "Tom Cruise",
+        "Leonardo DiCaprio"
+      ],
+      "answer": 3,
+      "explication": "Le film de James Cameron remporte onze Oscars, un record qu'il partage avec deux autres films.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Titanic_(film,_1997)"
+    },
+    {
+      "q": "Quel acteur incarne Forrest Gump dans le film de 1994 ?",
+      "choices": [
+        "Kevin Costner",
+        "Tom Hanks",
+        "Bruce Willis",
+        "Robin Williams"
+      ],
+      "answer": 1,
+      "explication": "Le film obtient six Oscars, dont celui du meilleur film.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Forrest_Gump"
+    },
+    {
+      "q": "Quelle voiture sert de machine à voyager dans le temps dans « Retour vers le futur » ?",
+      "choices": [
+        "La Ford Mustang",
+        "La Cadillac Eldorado",
+        "La DeLorean",
+        "La Chevrolet Camaro"
+      ],
+      "answer": 2,
+      "explication": "Pour voyager dans le temps, elle doit atteindre la vitesse de 88 miles par heure.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Retour_vers_le_futur"
+    },
+    {
+      "q": "Quel réalisateur a signé « Jurassic Park » et « E.T. l'extra-terrestre » ?",
+      "choices": [
+        "Steven Spielberg",
+        "George Lucas",
+        "Tim Burton",
+        "Robert Zemeckis"
+      ],
+      "answer": 0,
+      "explication": "« Jurassic Park » (1993) est adapté d'un roman de l'écrivain américain Michael Crichton.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jurassic_Park_(film)"
+    },
+    {
+      "q": "Dans « Le Seigneur des anneaux », où Frodon doit-il détruire l'Anneau unique ?",
+      "choices": [
+        "Dans le Mont Destin",
+        "À Fondcombe",
+        "À Isengard",
+        "À Minas Tirith"
+      ],
+      "answer": 0,
+      "explication": "Le Mont Destin se situe au Mordor ; la trilogie de Peter Jackson sort de 2001 à 2003.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Seigneur_des_anneaux_:_La_Communaut%C3%A9_de_l%27anneau"
+    },
+    {
+      "q": "Quel sport se pratique à dos de balai dans « Harry Potter à l'école des sorciers » ?",
+      "choices": [
+        "Le Quodpot",
+        "Le Bavboule",
+        "Le Quidditch",
+        "Le Duel de sorciers"
+      ],
+      "answer": 2,
+      "explication": "Il se joue avec quatre balles, dont le Vif d'or qui rapporte cent cinquante points à l'équipe qui l'attrape.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Harry_Potter_%C3%A0_l%27%C3%A9cole_des_sorciers_(film)"
+    },
+    {
+      "q": "Quel acteur incarne Obélix dans « Astérix et Obélix contre César » (1999) ?",
+      "choices": [
+        "Jean Reno",
+        "Gérard Depardieu",
+        "Gérard Jugnot",
+        "Christian Clavier"
+      ],
+      "answer": 1,
+      "explication": "Christian Clavier y joue Astérix, et le film est réalisé par Claude Zidi.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ast%C3%A9rix_et_Ob%C3%A9lix_contre_C%C3%A9sar"
+    },
+    {
+      "q": "Dans quelle région un directeur de poste est-il muté dans « Bienvenue chez les Ch'tis » (2008) ?",
+      "choices": [
+        "La Bretagne",
+        "L'Alsace",
+        "La Corse",
+        "Le Nord"
+      ],
+      "answer": 3,
+      "explication": "Le film réalisé par Dany Boon est en grande partie tourné à Bergues, dans le Nord.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Bienvenue_chez_les_Ch%27tis"
+    },
+    {
+      "q": "Quel acteur incarne Driss dans « Intouchables » (2011) ?",
+      "choices": [
+        "Jamel Debbouze",
+        "Tahar Rahim",
+        "Omar Sy",
+        "Kad Merad"
+      ],
+      "answer": 2,
+      "explication": "Il reçoit le César du meilleur acteur pour ce rôle, face à François Cluzet.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Intouchables_(film)"
+    },
+    {
+      "q": "Dans « Matrix », quelle pilule Neo choisit-il pour découvrir la vérité sur le monde ?",
+      "choices": [
+        "La pilule rouge",
+        "La pilule bleue",
+        "La pilule verte",
+        "La pilule blanche"
+      ],
+      "answer": 0,
+      "explication": "Le film sort en 1999 et est écrit et réalisé par Lana et Lilly Wachowski.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Matrix_(film)"
+    },
+    {
+      "q": "Quel réalisateur a signé « Pulp Fiction » en 1994 ?",
+      "choices": [
+        "Guy Ritchie",
+        "David Fincher",
+        "Oliver Stone",
+        "Quentin Tarantino"
+      ],
+      "answer": 3,
+      "explication": "Le film remporte la Palme d'or au Festival de Cannes 1994.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pulp_Fiction"
+    },
+    {
+      "q": "Quel acteur incarne le psychiatre cannibale Hannibal Lecter dans « Le Silence des agneaux » ?",
+      "choices": [
+        "Gary Oldman",
+        "Anthony Hopkins",
+        "Ralph Fiennes",
+        "Ian McKellen"
+      ],
+      "answer": 1,
+      "explication": "Le film rafle les cinq Oscars majeurs en 1992 : film, réalisateur, acteur, actrice et scénario adapté.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Silence_des_agneaux_(film)"
+    },
+    {
+      "q": "Quel acteur incarne le général Maximus dans « Gladiator » (2000) ?",
+      "choices": [
+        "Mel Gibson",
+        "Russell Crowe",
+        "Colin Farrell",
+        "Gerard Butler"
+      ],
+      "answer": 1,
+      "explication": "Réalisé par Ridley Scott, le film obtient l'Oscar du meilleur film en 2001.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Gladiator_(film,_2000)"
+    },
+    {
+      "q": "Quel acteur incarne Tyler Durden dans « Fight Club » (1999) ?",
+      "choices": [
+        "Matt Damon",
+        "Edward Norton",
+        "Jared Leto",
+        "Brad Pitt"
+      ],
+      "answer": 3,
+      "explication": "Réalisé par David Fincher, le film est adapté du roman de Chuck Palahniuk.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Fight_Club_(film)"
+    },
+    {
+      "q": "Quelle actrice incarne Amélie dans « Le Fabuleux Destin d'Amélie Poulain » (2001) ?",
+      "choices": [
+        "Audrey Tautou",
+        "Marion Cotillard",
+        "Sophie Marceau",
+        "Mélanie Laurent"
+      ],
+      "answer": 0,
+      "explication": "Le film de Jean-Pierre Jeunet est largement tourné dans le quartier de Montmartre, à Paris.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Fabuleux_Destin_d%27Am%C3%A9lie_Poulain"
+    },
+    {
+      "q": "Dans « Les Visiteurs » (1993), quel acteur incarne le comte Godefroy de Montmirail ?",
+      "choices": [
+        "Christian Clavier",
+        "Gérard Depardieu",
+        "Jean Reno",
+        "Alain Delon"
+      ],
+      "answer": 2,
+      "explication": "Christian Clavier y joue son écuyer Jacquouille, et le film dépasse les treize millions d'entrées en France.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Visiteurs_(film,_1993)"
+    },
+    {
+      "q": "Quel acteur tient le rôle de Jacques Mayol dans « Le Grand Bleu » (1988) de Luc Besson ?",
+      "choices": [
+        "Jean Reno",
+        "Christophe Lambert",
+        "Patrick Bruel",
+        "Jean-Marc Barr"
+      ],
+      "answer": 3,
+      "explication": "Le film s'inspire de la rivalité entre les plongeurs en apnée Jacques Mayol et Enzo Maiorca.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Grand_Bleu"
+    },
+    {
+      "q": "Quel écrivain de science-fiction a écrit le roman dont est adapté « Blade Runner » (1982) ?",
+      "choices": [
+        "Isaac Asimov",
+        "Philip K. Dick",
+        "Arthur C. Clarke",
+        "Ray Bradbury"
+      ],
+      "answer": 1,
+      "explication": "Le roman, publié en 1968, s'intitule « Les androïdes rêvent-ils de moutons électriques ? ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Blade_Runner_(film)"
+    },
+    {
+      "q": "Quelle actrice incarne Dorothy dans « Le Magicien d'Oz » (1939) ?",
+      "choices": [
+        "Judy Garland",
+        "Shirley Temple",
+        "Judy Holliday",
+        "Doris Day"
+      ],
+      "answer": 0,
+      "explication": "Le film passe du sépia à la couleur au moment où Dorothy arrive au pays d'Oz.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Magicien_d%27Oz_(film,_1939)"
+    },
+    {
+      "q": "Quel acteur et réalisateur italien reçoit l'Oscar du meilleur acteur pour « La vie est belle » ?",
+      "choices": [
+        "Marcello Mastroianni",
+        "Nanni Moretti",
+        "Roberto Benigni",
+        "Giancarlo Giannini"
+      ],
+      "answer": 2,
+      "explication": "Le film obtient aussi l'Oscar du meilleur film étranger.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/La_vie_est_belle_(film,_1997)"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz films ?",
+      "Les questions portent sur des films très connus du grand public. Les huit premières sont faciles, les huit suivantes demandent de bien connaître les acteurs et les intrigues, et les quatre dernières sont réservées aux amateurs pointus. Une explication suit chaque réponse pour apprendre quelque chose à chaque fois."
+    ],
+    [
+      "Quels films ont remporté onze Oscars ?",
+      "Trois films détiennent ce record : « Ben-Hur », « Titanic » et « Le Seigneur des anneaux : Le Retour du roi ». Aucun film n'a remporté plus de onze statuettes. « Titanic », sorti en 1997 et réalisé par James Cameron, a obtenu ses statuettes lors de la cérémonie de 1998, dont celles du meilleur film et du meilleur réalisateur."
+    ],
+    [
+      "Qu'appelle-t-on un film culte ?",
+      "Un film culte est un film qui rassemble autour de lui un public fidèle et passionné, qui le revoit souvent et en connaît des scènes par cœur. Il n'a pas forcément été un succès à sa sortie : « Blade Runner » a connu un accueil mitigé en 1982 avant de devenir une référence."
+    ]
+  ],
+  "related": [
+    "/quiz-cinema",
+    "/quiz-disney",
+    "/quiz-star-wars",
+    "/quiz-dessins-animes",
+    "/quiz-culture-generale-facile"
+  ]
+}

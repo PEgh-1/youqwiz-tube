@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-dessins-animes",
+  "theme": "cinema",
+  "title": "Quiz dessins animés : années 80, 90 et 2000",
+  "description": "Quiz dessins animés : 20 questions sur les dessins animés télé des années 80 à 2000 : Albator, Dragon Ball, Schtroumpfs et autres héros de ton enfance.",
+  "h1": "Quiz dessins animés : te souviens-tu des héros de ton enfance ?",
+  "intro": "Le mercredi après-midi devant la télévision, les génériques que l'on chantait par cœur et les héros que l'on rêvait d'imiter : les dessins animés des années 80 à 2000 ont marqué plusieurs générations en France. Ce quiz dessins animés te propose 20 questions sur les séries télé de cette époque, japonaises, américaines ou françaises, sans les films Disney. Il y en a huit faciles, huit moyennes et quatre pour les vrais nostalgiques. Après chaque réponse, une petite explication t'apprend une anecdote. Prépare ton goûter, et vois si ta mémoire d'enfant est toujours aussi bonne !",
+  "questions": [
+    {
+      "q": "Quel héros de manga cherche les boules de cristal dans « Dragon Ball » ?",
+      "choices": [
+        "Naruto",
+        "Luffy",
+        "Sangoku",
+        "Vegeta"
+      ],
+      "answer": 2,
+      "explication": "Son nom s'inspire de Sun Wukong, le Roi-Singe du roman chinois « La Pérégrination vers l'Ouest ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "De quelle couleur est le pantalon du Grand Schtroumpf ?",
+      "choices": [
+        "Rouge",
+        "Blanc",
+        "Bleu",
+        "Jaune"
+      ],
+      "answer": 0,
+      "explication": "Les autres Schtroumpfs portent un pantalon et un bonnet blancs ; ils ont été créés par Peyo en 1958.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Schtroumpfs"
+    },
+    {
+      "q": "Quel pirate de l'espace borgne dirige le vaisseau Arcadia ?",
+      "choices": [
+        "Capitaine Flam",
+        "Goldorak",
+        "Actarus",
+        "Albator"
+      ],
+      "answer": 3,
+      "explication": "Le personnage est né de l'imagination du mangaka japonais Leiji Matsumoto.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Albator"
+    },
+    {
+      "q": "Sur quel continent le jeune Esteban cherche-t-il les cités d'or ?",
+      "choices": [
+        "L'Afrique",
+        "L'Amérique du Sud",
+        "L'Asie",
+        "L'Océanie"
+      ],
+      "answer": 1,
+      "explication": "Cette série de 1982 est une coproduction franco-japonaise.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Myst%C3%A9rieuses_Cit%C3%A9s_d'or_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d'animation,_1982)"
+    },
+    {
+      "q": "Dans quelle ville fictive vit la famille Simpson ?",
+      "choices": [
+        "Quahog",
+        "Springfield",
+        "South Park",
+        "Bedrock"
+      ],
+      "answer": 1,
+      "explication": "La série est créée par Matt Groening et diffusée aux États-Unis depuis 1989.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Quel Pokémon jaune accompagne Sacha dans la série télévisée ?",
+      "choices": [
+        "Salamèche",
+        "Rondoudou",
+        "Évoli",
+        "Pikachu"
+      ],
+      "answer": 3,
+      "explication": "La série débute au Japon en 1997 et s'inspire d'un jeu vidéo sorti en 1996.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pok%C3%A9mon"
+    },
+    {
+      "q": "Comment s'appelle le rat maître des « Tortues Ninja » ?",
+      "choices": [
+        "Splinter",
+        "Shredder",
+        "Krang",
+        "Rocksteady"
+      ],
+      "answer": 0,
+      "explication": "Les quatre tortues portent des noms d'artistes de la Renaissance : Leonardo, Donatello, Michelangelo et Raphaël.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Tortues_Ninja"
+    },
+    {
+      "q": "Comment s'appelle la nièce de l'inspecteur Gadget ?",
+      "choices": [
+        "Camille",
+        "Marie",
+        "Sophie",
+        "Juliette"
+      ],
+      "answer": 2,
+      "explication": "La série est produite par le studio DIC, dirigé par le Français Jean Chalopin.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Inspecteur_Gadget_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation,_1983)"
+    },
+    {
+      "q": "Quelle émission jeunesse animée par Dorothée a diffusé sur TF1 de nombreux dessins animés à partir de 1987 ?",
+      "choices": [
+        "Récré A2",
+        "Salut les Petits",
+        "Les Minikeums",
+        "Le Club Dorothée"
+      ],
+      "answer": 3,
+      "explication": "L'émission s'est arrêtée en 1997 après dix ans d'existence.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Club_Doroth%C3%A9e"
+    },
+    {
+      "q": "Quelle constellation protège Seiya, héros des « Chevaliers du Zodiaque » ?",
+      "choices": [
+        "Orion",
+        "Pégase",
+        "Le Cygne",
+        "Le Dragon"
+      ],
+      "answer": 1,
+      "explication": "La série est adaptée du manga de Masami Kurumada.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Saint_Seiya"
+    },
+    {
+      "q": "Quel bébé mène la bande dans « Les Razmoket » ?",
+      "choices": [
+        "Chuckie Finster",
+        "Dil Pickles",
+        "Tommy Pickles",
+        "Phil DeVille"
+      ],
+      "answer": 2,
+      "explication": "La série est lancée en 1991 sur la chaîne américaine Nickelodeon.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Razmoket"
+    },
+    {
+      "q": "Dans quelle ville sous-marine vit Bob l'éponge ?",
+      "choices": [
+        "Bikini Bottom",
+        "Atlantis",
+        "Aquaville",
+        "Corail City"
+      ],
+      "answer": 0,
+      "explication": "Son créateur, Stephen Hillenburg, était biologiste marin avant de devenir animateur.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bob_l%27%C3%A9ponge"
+    },
+    {
+      "q": "Quelle œuvre d'Homère inspire la série « Ulysse 31 » (1981) ?",
+      "choices": [
+        "L'Odyssée",
+        "L'Iliade",
+        "L'Énéide",
+        "Les Travaux et les Jours"
+      ],
+      "answer": 0,
+      "explication": "Cette série franco-japonaise transpose l'histoire d'Ulysse dans l'espace au XXXIe siècle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ulysse_31"
+    },
+    {
+      "q": "Quel nom porte en France le héros japonais de « City Hunter », Ryo Saeba ?",
+      "choices": [
+        "Max Ranger",
+        "Tony Falcon",
+        "Nicky Larson",
+        "Johnny Flash"
+      ],
+      "answer": 2,
+      "explication": "Ce détective privé a été rebaptisé pour la diffusion française dans les années 1990.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/City_Hunter"
+    },
+    {
+      "q": "Quel animal est Oggy, dont la maison est envahie par trois cafards ?",
+      "choices": [
+        "Un chien",
+        "Un chat",
+        "Un lapin",
+        "Un hamster"
+      ],
+      "answer": 1,
+      "explication": "Cette série d'animation française a été créée par Jean-Yves Raimbaud et diffusée pour la première fois en 1998.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Oggy_et_les_Cafards"
+    },
+    {
+      "q": "Comment s'appelle le fils aîné de Sangoku dans « Dragon Ball Z » ?",
+      "choices": [
+        "Sangoten",
+        "Trunks",
+        "Krilin",
+        "Sangohan"
+      ],
+      "answer": 3,
+      "explication": "Son prénom rend hommage au grand-père adoptif de son père, Gohan.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Son_Gohan"
+    },
+    {
+      "q": "Quel mangaka a créé « Dragon Ball » ?",
+      "choices": [
+        "Osamu Tezuka",
+        "Akira Toriyama",
+        "Eiichirō Oda",
+        "Masashi Kishimoto"
+      ],
+      "answer": 1,
+      "explication": "Le manga paraît pour la première fois en 1984 dans le magazine japonais Weekly Shōnen Jump.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Akira_Toriyama"
+    },
+    {
+      "q": "Quelle déesse les Chevaliers du Zodiaque ont-ils pour mission de protéger ?",
+      "choices": [
+        "Athéna",
+        "Artémis",
+        "Aphrodite",
+        "Héra"
+      ],
+      "answer": 0,
+      "explication": "Elle se réincarne sous les traits d'une jeune fille, Saori Kido.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Saint_Seiya"
+    },
+    {
+      "q": "Quel prince d'Eternia se transforme en He-Man dans « Les Maîtres de l'univers » ?",
+      "choices": [
+        "Le prince Arthur",
+        "Le prince Alexandre",
+        "Le prince Adam",
+        "Le prince Aldric"
+      ],
+      "answer": 2,
+      "explication": "La transformation a lieu dans le château de Grayskull, grâce à l'épée de puissance.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Les_Ma%C3%AEtres_de_l%27univers"
+    },
+    {
+      "q": "Comment s'appelle le chat du sorcier Gargamel, ennemi des Schtroumpfs ?",
+      "choices": [
+        "Salem",
+        "Félix",
+        "Sylvestre",
+        "Azraël"
+      ],
+      "answer": 3,
+      "explication": "Gargamel et Azraël apparaissent dès les bandes dessinées de Peyo.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Gargamel"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz dessins animés ?",
+      "Les huit premières questions portent sur des séries que presque tout le monde connaît, les huit suivantes demandent de bien se souvenir des personnages et des diffusions, et les quatre dernières s'adressent aux fans les plus nostalgiques. Une explication suit chaque réponse."
+    ],
+    [
+      "Qu'était le Club Dorothée ?",
+      "Le Club Dorothée était une émission jeunesse de TF1, présentée par Dorothée et diffusée de 1987 à 1997. Elle faisait découvrir au public français de très nombreux dessins animés japonais, comme « Dragon Ball », « Les Chevaliers du Zodiaque » ou « Nicky Larson »."
+    ],
+    [
+      "Quand les dessins animés japonais sont-ils arrivés en France ?",
+      "Ils se sont installés à la fin des années 1970. « Goldorak » est diffusé sur Antenne 2 à partir de 1978 dans l'émission « Récré A2 », ce qui déclenche un énorme engouement. Dans les années 1980 et 1990, les chaînes en proposent des dizaines, comme « Albator » ou « Dragon Ball »."
+    ]
+  ],
+  "related": [
+    "/quiz-disney",
+    "/quiz-films",
+    "/quiz-cinema",
+    "/quiz-culture-generale-facile",
+    "/quiz-chanson-francaise"
+  ]
+}

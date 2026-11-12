@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-chevaux",
+  "theme": "nature",
+  "title": "Quiz chevaux : races, robes et équitation",
+  "description": "Quiz chevaux : 20 questions sur les races, les robes, l'anatomie du cheval et l'équitation. Teste tes connaissances, explications après chaque réponse.",
+  "h1": "Quiz chevaux : que sais-tu des races, des robes et de l'équitation ?",
+  "intro": "Pas, trot, galop : le cheval accompagne l'humanité depuis des millénaires. Ce quiz chevaux te propose 20 questions, des plus simples aux plus pointues, sur les races, les robes, l'anatomie, le vocabulaire et les disciplines de l'équitation. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait supplémentaire à retenir. Cavalier confirmé, amoureux des poneys ou simple curieux, viens vérifier si tu maîtrises le vocabulaire des écuries. Parviendras-tu à décrocher le sans-faute ?",
+  "questions": [
+    {
+      "q": "Comment appelle-t-on le petit du cheval ?",
+      "choices": [
+        "Le poulain",
+        "Le faon",
+        "L'ânon",
+        "Le chevreau"
+      ],
+      "answer": 0,
+      "explication": "Une jeune femelle est appelée pouliche.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cheval"
+    },
+    {
+      "q": "Quelles sont les trois allures de base du cheval ?",
+      "choices": [
+        "Le pas, l'amble et le saut",
+        "Le trot, le saut et le galop",
+        "Le pas, le trot et le galop",
+        "Le pas, le trot et la course"
+      ],
+      "answer": 2,
+      "explication": "Le pas est une allure à quatre temps, le trot à deux temps et le galop à trois temps.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Allure_(équitation)"
+    },
+    {
+      "q": "Comment appelle-t-on un cheval mâle castré ?",
+      "choices": [
+        "Un étalon",
+        "Un hongre",
+        "Un entier",
+        "Un poulain"
+      ],
+      "answer": 1,
+      "explication": "Un étalon, lui, n'est pas castré et peut se reproduire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hongre"
+    },
+    {
+      "q": "Quelle robe de cheval associe un corps brun à des crins et des extrémités noirs ?",
+      "choices": [
+        "Alezan",
+        "Isabelle",
+        "Rouan",
+        "Bai"
+      ],
+      "answer": 3,
+      "explication": "L'alezan, lui, a une robe rousse, crins compris.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Robe_du_cheval"
+    },
+    {
+      "q": "Quel professionnel ferre les chevaux ?",
+      "choices": [
+        "Le sellier",
+        "Le palefrenier",
+        "Le jockey",
+        "Le maréchal-ferrant"
+      ],
+      "answer": 3,
+      "explication": "Il pare aussi les sabots, qui poussent en continu comme des ongles.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Maréchal-ferrant"
+    },
+    {
+      "q": "Quelle pièce du harnachement se place dans la bouche du cheval ?",
+      "choices": [
+        "La sangle",
+        "Le mors",
+        "L'étrier",
+        "Le surfaix"
+      ],
+      "answer": 1,
+      "explication": "Le mors est relié aux rênes, que tient le cavalier.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mors_(équitation)"
+    },
+    {
+      "q": "Dans quelle discipline équestre franchit-on des obstacles sans les faire tomber ?",
+      "choices": [
+        "Le dressage",
+        "Le polo",
+        "Le saut d'obstacles",
+        "La voltige"
+      ],
+      "answer": 2,
+      "explication": "Une barre qui tombe coûte 4 points de pénalité au cavalier.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Saut_d'obstacles"
+    },
+    {
+      "q": "Quel animal naît du croisement d'un âne et d'une jument ?",
+      "choices": [
+        "Le mulet",
+        "Le bardot",
+        "Le zèbre",
+        "Le poney"
+      ],
+      "answer": 0,
+      "explication": "Le croisement inverse, un étalon et une ânesse, donne le bardot.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mulet"
+    },
+    {
+      "q": "Quel cheval sauvage, originaire de Mongolie, porte le nom d'un explorateur russe ?",
+      "choices": [
+        "Le mustang",
+        "Le cheval de Przewalski",
+        "Le camargue",
+        "Le lipizzan"
+      ],
+      "answer": 1,
+      "explication": "Disparu à l'état sauvage dans les années 1960, il a été réintroduit en Mongolie depuis les années 1990.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cheval_de_Przewalski"
+    },
+    {
+      "q": "Quelle race de chevaux de trait française est originaire du Perche ?",
+      "choices": [
+        "Le boulonnais",
+        "Le breton",
+        "Le comtois",
+        "Le percheron"
+      ],
+      "answer": 3,
+      "explication": "Il est le plus souvent gris ou noir.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Percheron"
+    },
+    {
+      "q": "Quelle race de chevaux de course descend de trois étalons orientaux importés en Angleterre aux XVIIe et XVIIIe siècles ?",
+      "choices": [
+        "Le pur-sang anglais",
+        "Le trotteur français",
+        "L'anglo-arabe",
+        "Le selle français"
+      ],
+      "answer": 0,
+      "explication": "Ces étalons s'appelaient le Byerley Turk, le Darley Arabian et le Godolphin Arabian.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pur-sang"
+    },
+    {
+      "q": "Comment s'appelle le point le plus haut du dos du cheval, à la base de l'encolure, où l'on mesure sa taille ?",
+      "choices": [
+        "La croupe",
+        "Le canon",
+        "Le garrot",
+        "Le boulet"
+      ],
+      "answer": 2,
+      "explication": "Selon la FEI, un poney mesure au plus 1,48 m au garrot.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Garrot_(anatomie)"
+    },
+    {
+      "q": "Que permet d'estimer l'examen de la dentition d'un cheval ?",
+      "choices": [
+        "Son poids",
+        "Sa race",
+        "Son âge",
+        "Sa vitesse"
+      ],
+      "answer": 2,
+      "explication": "Un cheval adulte possède entre 36 et 44 dents selon son sexe.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dents_du_cheval"
+    },
+    {
+      "q": "Dans quel palais de Vienne les étalons lipizzans de l'École espagnole d'équitation se produisent-ils ?",
+      "choices": [
+        "La Hofburg",
+        "Schönbrunn",
+        "Le Belvédère",
+        "Le palais Liechtenstein"
+      ],
+      "answer": 0,
+      "explication": "L'institution doit son nom aux chevaux d'origine espagnole utilisés à ses débuts.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/École_espagnole_d'équitation"
+    },
+    {
+      "q": "Dans quelle ville se trouve le Cadre noir, célèbre institution française d'équitation ?",
+      "choices": [
+        "Compiègne",
+        "Pau",
+        "Fontainebleau",
+        "Saumur"
+      ],
+      "answer": 3,
+      "explication": "Son nom vient de la couleur de l'uniforme de ses écuyers.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cadre_noir_de_Saumur"
+    },
+    {
+      "q": "Quel hippodrome parisien accueille le Prix de l'Arc de Triomphe ?",
+      "choices": [
+        "Vincennes",
+        "Longchamp",
+        "Auteuil",
+        "Chantilly"
+      ],
+      "answer": 1,
+      "explication": "La course est organisée depuis 1920.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Qatar_Prix_de_l'Arc_de_Triomphe"
+    },
+    {
+      "q": "Combien de temps dure environ la gestation d'une jument ?",
+      "choices": [
+        "Environ 6 mois",
+        "Environ 9 mois",
+        "Environ 11 mois",
+        "Environ 14 mois"
+      ],
+      "answer": 2,
+      "explication": "Le poulain se tient généralement debout dans les deux heures qui suivent sa naissance.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Cheval"
+    },
+    {
+      "q": "Quel terme désigne une robe composée de grandes taches blanches irrégulières sur un fond coloré ?",
+      "choices": [
+        "Rouan",
+        "Pie",
+        "Truité",
+        "Aubère"
+      ],
+      "answer": 1,
+      "explication": "Le rouan, lui, mélange des poils blancs à ceux de la robe de base, sans taches.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Robe_du_cheval"
+    },
+    {
+      "q": "Sur combien de doigts le cheval s'appuie-t-il à chaque membre ?",
+      "choices": [
+        "Deux",
+        "Trois",
+        "Quatre",
+        "Un seul"
+      ],
+      "answer": 3,
+      "explication": "Le sabot est l'équivalent de l'ongle de ce doigt unique, le troisième.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Anatomie_du_cheval"
+    },
+    {
+      "q": "Comment s'appelait le cheval d'Alexandre le Grand ?",
+      "choices": [
+        "Bucéphale",
+        "Incitatus",
+        "Pégase",
+        "Marengo"
+      ],
+      "answer": 0,
+      "explication": "Après sa mort, Alexandre a fondé en son honneur la ville de Bucéphalie, sur les rives de l'Hydaspe.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bucéphale"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz chevaux ?",
+      "Le quiz commence par 8 questions faciles sur le vocabulaire et les bases, puis passe à 8 questions de niveau moyen sur les races et les lieux célèbres, avant 4 questions d'expert. Il convient aussi bien aux cavaliers qu'aux débutants curieux, et chaque réponse est expliquée."
+    ],
+    [
+      "Quelle est la différence entre un cheval et un poney ?",
+      "La différence tient surtout à la taille : un équidé qui mesure au plus 1,48 m au garrot est considéré comme un poney selon la norme de la FEI. Les poneys ont aussi souvent une morphologie plus robuste, avec une encolure plus courte et des crins épais. Ils restent de la même espèce que le cheval."
+    ],
+    [
+      "Combien de temps vit un cheval ?",
+      "Un cheval vit en moyenne entre 25 et 30 ans, certains dépassant 30 ans avec de bons soins. Sa durée de vie dépend de sa race, de son alimentation, de son travail et de ses soins. Les poneys vivent souvent plus longtemps que les chevaux de grande taille."
+    ]
+  ],
+  "related": [
+    "/quiz-chiens",
+    "/quiz-animaux",
+    "/quiz-animaux-difficile",
+    "/quiz-sport",
+    "/quiz-oiseaux"
+  ]
+}

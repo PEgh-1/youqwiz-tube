@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-disney",
+  "theme": "cinema",
+  "title": "Quiz Disney : 20 questions sur les films d'animation",
+  "description": "Quiz Disney : 20 questions sur les films d'animation Disney, des classiques comme Blanche-Neige aux films récents. Princesses, héros et chansons !",
+  "h1": "Quiz Disney : connais-tu bien les films d'animation du studio ?",
+  "intro": "Princesses, animaux parlants, méchants inoubliables et chansons que tout le monde fredonne : les films d'animation Disney font partie de notre enfance. Ce quiz Disney te propose 20 questions allant des tout premiers classiques, comme Blanche-Neige, aux films plus récents comme Vaiana ou La Reine des neiges. Huit questions sont faciles, huit un peu plus corsées, et quatre réservées aux grands fans. Chaque réponse est suivie d'une courte explication avec une anecdote à retenir. Joue seul, avec tes enfants ou entre amis, et découvre si tu es un véritable expert de l'univers Disney !",
+  "questions": [
+    {
+      "q": "Quel est le premier long métrage d'animation de Disney, sorti en 1937 ?",
+      "choices": [
+        "Blanche-Neige et les Sept Nains",
+        "Cendrillon",
+        "Pinocchio",
+        "Bambi"
+      ],
+      "answer": 0,
+      "explication": "En français, les sept nains se nomment Prof, Grincheux, Joyeux, Timide, Dormeur, Atchoum et Simplet.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Blanche-Neige_et_les_Sept_Nains"
+    },
+    {
+      "q": "Quel animal est le héros du film « Bambi » ?",
+      "choices": [
+        "Un lapin",
+        "Un renardeau",
+        "Un faon",
+        "Un ourson"
+      ],
+      "answer": 2,
+      "explication": "Son ami le lapin s'appelle Panpan.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Bambi_(film,_1942)"
+    },
+    {
+      "q": "Comment s'appelle le lionceau héros du « Roi lion » (1994) ?",
+      "choices": [
+        "Mufasa",
+        "Simba",
+        "Scar",
+        "Kovu"
+      ],
+      "answer": 1,
+      "explication": "« Simba » signifie « lion » en swahili.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Roi_lion_(film,_1994)"
+    },
+    {
+      "q": "Comment s'appelle le bonhomme de neige farceur de « La Reine des neiges » ?",
+      "choices": [
+        "Sven",
+        "Kristoff",
+        "Hans",
+        "Olaf"
+      ],
+      "answer": 3,
+      "explication": "Le film est très librement inspiré d'un conte du Danois Hans Christian Andersen.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/La_Reine_des_neiges_(film,_2013)"
+    },
+    {
+      "q": "Quel ours fait la rencontre de Mowgli dans « Le Livre de la jungle » ?",
+      "choices": [
+        "Kaa",
+        "Shere Khan",
+        "Bagheera",
+        "Baloo"
+      ],
+      "answer": 3,
+      "explication": "Sorti en 1967, c'est le dernier film d'animation produit sous la supervision de Walt Disney, mort en 1966.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Livre_de_la_jungle_(film,_1967)"
+    },
+    {
+      "q": "Qui vit dans la lampe magique du film « Aladdin » (1992) ?",
+      "choices": [
+        "Le tapis volant",
+        "Le Génie",
+        "Abu le singe",
+        "Iago le perroquet"
+      ],
+      "answer": 1,
+      "explication": "Dans la version originale, le Génie est doublé par l'acteur Robin Williams.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Aladdin_(film,_1992)"
+    },
+    {
+      "q": "Que perd Cendrillon en s'enfuyant du bal dans le film de 1950 ?",
+      "choices": [
+        "Son collier",
+        "Son masque",
+        "Une pantoufle de verre",
+        "Son éventail"
+      ],
+      "answer": 2,
+      "explication": "Le succès de ce film en 1950 a relancé le studio après des années difficiles.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cendrillon_(film,_1950)"
+    },
+    {
+      "q": "Quelle souris, mascotte de Disney, apparaît en 1928 dans « Steamboat Willie » ?",
+      "choices": [
+        "Mickey Mouse",
+        "Jerry",
+        "Basil",
+        "Speedy Gonzales"
+      ],
+      "answer": 0,
+      "explication": "Ce court métrage est l'un des premiers dessins animés dotés d'un son synchronisé.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mickey_Mouse"
+    },
+    {
+      "q": "Quelle princesse Disney a de très longs cheveux blonds magiques dans un film de 2010 ?",
+      "choices": [
+        "Aurore",
+        "Raiponce",
+        "Ariel",
+        "Belle"
+      ],
+      "answer": 1,
+      "explication": "Le film est inspiré d'un conte des frères Grimm.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Raiponce_(film,_2010)"
+    },
+    {
+      "q": "Dans quel univers se déroule « Vaiana, la légende du bout du monde » ?",
+      "choices": [
+        "Les Caraïbes",
+        "L'Arctique",
+        "La Méditerranée",
+        "Les îles de Polynésie"
+      ],
+      "answer": 3,
+      "explication": "Le demi-dieu Maui est issu de la mythologie polynésienne.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vaiana_:_La_L%C3%A9gende_du_bout_du_monde"
+    },
+    {
+      "q": "De quel pays est originaire la légende dont s'inspire « Mulan » (1998) ?",
+      "choices": [
+        "La Chine",
+        "Le Japon",
+        "La Corée",
+        "La Mongolie"
+      ],
+      "answer": 0,
+      "explication": "Elle s'inspire d'un poème chinois très ancien, la « Ballade de Mulan ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mulan_(film)"
+    },
+    {
+      "q": "Quel film Disney de 1996 met en scène Quasimodo ?",
+      "choices": [
+        "Le Roi lion",
+        "Pocahontas",
+        "Le Bossu de Notre-Dame",
+        "Hercule"
+      ],
+      "answer": 2,
+      "explication": "Il s'inspire du roman « Notre-Dame de Paris », publié par Victor Hugo en 1831.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Bossu_de_Notre-Dame"
+    },
+    {
+      "q": "De quelle mythologie s'inspire le film « Hercule » (1997) ?",
+      "choices": [
+        "La mythologie nordique",
+        "La mythologie égyptienne",
+        "La mythologie grecque",
+        "La mythologie celtique"
+      ],
+      "answer": 2,
+      "explication": "Le film emploie le nom romain Hercule pour le héros que les Grecs appelaient Héraclès.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Hercule_(film,_1997)"
+    },
+    {
+      "q": "Dans quelle ville se déroule « Les Aristochats » (1970) ?",
+      "choices": [
+        "Paris",
+        "Londres",
+        "Rome",
+        "New York"
+      ],
+      "answer": 0,
+      "explication": "Les trois chatons s'appellent Marie, Toulouse et Berlioz.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Aristochats"
+    },
+    {
+      "q": "Quel écrivain danois a écrit le conte dont s'inspire « La Petite Sirène » ?",
+      "choices": [
+        "Charles Perrault",
+        "Les frères Grimm",
+        "Carlo Collodi",
+        "Hans Christian Andersen"
+      ],
+      "answer": 3,
+      "explication": "Une statue de la petite sirène veille depuis 1913 sur le port de Copenhague.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/La_Petite_Sir%C3%A8ne_(film,_1989)"
+    },
+    {
+      "q": "Dans quel pays se déroule le film « Encanto » (2021) ?",
+      "choices": [
+        "Le Mexique",
+        "La Colombie",
+        "Le Pérou",
+        "Le Brésil"
+      ],
+      "answer": 1,
+      "explication": "Les chansons du film ont été écrites par Lin-Manuel Miranda.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Encanto,_la_fantastique_famille_Madrigal"
+    },
+    {
+      "q": "Quel film Disney de 1991 est le premier film d'animation nommé à l'Oscar du meilleur film ?",
+      "choices": [
+        "La Belle et la Bête",
+        "Le Roi lion",
+        "Aladdin",
+        "La Petite Sirène"
+      ],
+      "answer": 0,
+      "explication": "Il repart avec les Oscars de la meilleure musique et de la meilleure chanson, mais pas avec celui du meilleur film.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/La_Belle_et_la_B%C3%AAte_(film,_1991)"
+    },
+    {
+      "q": "Quel compositeur français a écrit « L'Apprenti sorcier », séquence où Mickey brille dans « Fantasia » (1940) ?",
+      "choices": [
+        "Camille Saint-Saëns",
+        "Claude Debussy",
+        "Paul Dukas",
+        "Maurice Ravel"
+      ],
+      "answer": 2,
+      "explication": "Ce poème symphonique date de 1897 et s'inspire d'une ballade de Goethe.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Fantasia_(film,_1940)"
+    },
+    {
+      "q": "Quel chanteur britannique a composé les chansons du « Roi lion » avec le parolier Tim Rice ?",
+      "choices": [
+        "Phil Collins",
+        "Sting",
+        "George Michael",
+        "Elton John"
+      ],
+      "answer": 3,
+      "explication": "Le compositeur Hans Zimmer a signé la musique orchestrale du film.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Roi_lion_(film,_1994)"
+    },
+    {
+      "q": "Quel film Disney de 1959 a pour héroïne la princesse Aurore, victime d'une malédiction ?",
+      "choices": [
+        "Blanche-Neige et les Sept Nains",
+        "La Belle au bois dormant",
+        "Cendrillon",
+        "Peter Pan"
+      ],
+      "answer": 1,
+      "explication": "Sa musique adapte le ballet composé par Tchaïkovski au XIXe siècle.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/La_Belle_au_bois_dormant_(film,_1959)"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Disney ?",
+      "Le quiz couvre à la fois les classiques et les films récents du studio. Les huit premières questions conviennent aux enfants et aux familles, les huit suivantes demandent de bien connaître les histoires et les personnages, et les quatre dernières sont destinées aux fans les plus aguerris."
+    ],
+    [
+      "Quel est le premier long métrage d'animation de Disney ?",
+      "Il s'agit de « Blanche-Neige et les Sept Nains », sorti à la fin de 1937 aux États-Unis et en 1938 en France. Ce premier long métrage d'animation du studio, adapté d'un conte des frères Grimm, a connu un énorme succès et a lancé la série des grands classiques Disney."
+    ],
+    [
+      "Quelle est la différence entre Disney et Pixar ?",
+      "Pixar est un studio d'animation en images de synthèse, fondé en 1986 à partir d'une division informatique de Lucasfilm. Il a été racheté par Disney en 2006, mais conserve sa propre équipe créative. Ce quiz se concentre sur les films d'animation des studios Disney, sans les films Pixar."
+    ]
+  ],
+  "related": [
+    "/quiz-films",
+    "/quiz-cinema",
+    "/quiz-dessins-animes",
+    "/quiz-star-wars",
+    "/quiz-noel"
+  ]
+}

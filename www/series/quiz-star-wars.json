@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-star-wars",
+  "theme": "cinema",
+  "title": "Quiz Star Wars : 20 questions sur la saga",
+  "description": "Quiz Star Wars : 20 questions sur la saga cinéma, ses personnages, ses planètes, ses acteurs et ses réalisateurs. Que la Force soit avec toi !",
+  "h1": "Quiz Star Wars : es-tu un véritable fan de la saga ?",
+  "intro": "Sabres laser, Jedi, droïdes et vaisseaux spatiaux : depuis 1977, la saga imaginée par George Lucas fait rêver des millions de spectateurs. Ce quiz Star Wars te propose 20 questions sur les films de la saga, leurs personnages, leurs planètes, leurs acteurs et leurs coulisses. Huit questions sont faciles, huit un peu plus pointues, et quatre réservées aux fans les plus aguerris. Après chaque réponse, une courte explication te livre une anecdote de plus. Seul, en famille ou entre amis, prends quelques secondes par question et vérifie si la Force est vraiment avec toi !",
+  "questions": [
+    {
+      "q": "Quel réalisateur est le créateur de la saga Star Wars ?",
+      "choices": [
+        "Steven Spielberg",
+        "George Lucas",
+        "James Cameron",
+        "Francis Ford Coppola"
+      ],
+      "answer": 1,
+      "explication": "Le premier film de la saga sort en 1977 aux États-Unis.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/George_Lucas"
+    },
+    {
+      "q": "Quel est le vrai nom de Dark Vador ?",
+      "choices": [
+        "Obi-Wan Kenobi",
+        "Palpatine",
+        "Anakin Skywalker",
+        "Dooku"
+      ],
+      "answer": 2,
+      "explication": "Dans la version originale de la trilogie, sa voix est celle de l'acteur James Earl Jones.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dark_Vador"
+    },
+    {
+      "q": "De quelle couleur est le sabre laser de Luke Skywalker dans « Le Retour du Jedi » ?",
+      "choices": [
+        "Vert",
+        "Bleu",
+        "Rouge",
+        "Violet"
+      ],
+      "answer": 0,
+      "explication": "Dans « Un nouvel espoir », Luke utilise un sabre bleu, qui a appartenu à son père.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Luke_Skywalker"
+    },
+    {
+      "q": "Quel maître Jedi, petit et vert, entraîne Luke sur la planète Dagobah ?",
+      "choices": [
+        "Mace Windu",
+        "Qui-Gon Jinn",
+        "Obi-Wan Kenobi",
+        "Yoda"
+      ],
+      "answer": 3,
+      "explication": "Il apparaît pour la première fois dans « L'Empire contre-attaque », sorti en 1980.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Yoda"
+    },
+    {
+      "q": "Quel est le nom du vaisseau de Han Solo ?",
+      "choices": [
+        "Le Faucon Millenium",
+        "L'Arcadia",
+        "L'Enterprise",
+        "Le Destroyer stellaire"
+      ],
+      "answer": 0,
+      "explication": "Son copilote est le Wookiee Chewbacca.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Faucon_Millenium"
+    },
+    {
+      "q": "Quel droïde doré, spécialiste du protocole, accompagne R2-D2 dans la saga ?",
+      "choices": [
+        "BB-8",
+        "K-2SO",
+        "IG-88",
+        "C-3PO"
+      ],
+      "answer": 3,
+      "explication": "Il est interprété par l'acteur Anthony Daniels dans tous les films de la saga principale.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/C-3PO"
+    },
+    {
+      "q": "Comment s'appelle la princesse sœur jumelle de Luke Skywalker ?",
+      "choices": [
+        "Padmé Amidala",
+        "Rey",
+        "Leia Organa",
+        "Jyn Erso"
+      ],
+      "answer": 2,
+      "explication": "Elle a été adoptée par Bail Organa, sénateur de la planète Alderaan.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Leia_Organa"
+    },
+    {
+      "q": "Quel acteur incarne Han Solo dans la trilogie originale ?",
+      "choices": [
+        "Mark Hamill",
+        "Harrison Ford",
+        "Kurt Russell",
+        "Alec Guinness"
+      ],
+      "answer": 1,
+      "explication": "Il reprend le rôle en 2015 dans « Le Réveil de la Force ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Han_Solo"
+    },
+    {
+      "q": "Dans quel film Luke apprend-il que Dark Vador est son père ?",
+      "choices": [
+        "Un nouvel espoir",
+        "Le Retour du Jedi",
+        "L'Empire contre-attaque",
+        "La Menace fantôme"
+      ],
+      "answer": 2,
+      "explication": "Ce film est sorti en 1980 ; c'est le deuxième de la trilogie originale.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Star_Wars,_%C3%A9pisode_V_:_L%27Empire_contre-attaque"
+    },
+    {
+      "q": "Quelle planète désertique est la planète natale d'Anakin et de Luke Skywalker ?",
+      "choices": [
+        "Hoth",
+        "Tatooine",
+        "Endor",
+        "Naboo"
+      ],
+      "answer": 1,
+      "explication": "Les décors de Tatooine ont été tournés en Tunisie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tatooine"
+    },
+    {
+      "q": "Quel compositeur américain a écrit la musique des neuf films de la saga principale ?",
+      "choices": [
+        "Hans Zimmer",
+        "Ennio Morricone",
+        "Danny Elfman",
+        "John Williams"
+      ],
+      "answer": 3,
+      "explication": "Il est aussi le compositeur des films « Jurassic Park » et « Indiana Jones ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/John_Williams_(compositeur)"
+    },
+    {
+      "q": "Quelle planète glacée sert de décor au début de « L'Empire contre-attaque » ?",
+      "choices": [
+        "Hoth",
+        "Tatooine",
+        "Dagobah",
+        "Kamino"
+      ],
+      "answer": 0,
+      "explication": "Les scènes de neige ont été tournées en Norvège.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Star_Wars,_%C3%A9pisode_V_:_L%27Empire_contre-attaque"
+    },
+    {
+      "q": "Quel chasseur de primes emporte Han Solo congelé dans la carbonite à la fin de « L'Empire contre-attaque » ?",
+      "choices": [
+        "Dengar",
+        "Bossk",
+        "Jango Fett",
+        "Boba Fett"
+      ],
+      "answer": 3,
+      "explication": "Han Solo est ensuite retrouvé dans le palais du gangster Jabba le Hutt, au début du « Retour du Jedi ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Boba_Fett"
+    },
+    {
+      "q": "Quel acteur incarne Obi-Wan Kenobi dans la trilogie des préquelles ?",
+      "choices": [
+        "Ewan McGregor",
+        "Alec Guinness",
+        "Liam Neeson",
+        "Hayden Christensen"
+      ],
+      "answer": 0,
+      "explication": "Dans la trilogie originale, le rôle est tenu par Alec Guinness, qui a été nommé à l'Oscar du meilleur acteur dans un second rôle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Obi-Wan_Kenobi"
+    },
+    {
+      "q": "Quel maître Jedi découvre le jeune Anakin sur Tatooine dans « La Menace fantôme » ?",
+      "choices": [
+        "Mace Windu",
+        "Qui-Gon Jinn",
+        "Yoda",
+        "Kit Fisto"
+      ],
+      "answer": 1,
+      "explication": "Il est interprété par l'acteur Liam Neeson.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Qui-Gon_Jinn"
+    },
+    {
+      "q": "Quelle planète est détruite par l'Étoile de la Mort dans « Un nouvel espoir » (1977) ?",
+      "choices": [
+        "Coruscant",
+        "Endor",
+        "Alderaan",
+        "Naboo"
+      ],
+      "answer": 2,
+      "explication": "C'était la planète d'adoption de la princesse Leia.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Alderaan"
+    },
+    {
+      "q": "Sur quelle lune boisée se déroule la bataille finale du « Retour du Jedi » ?",
+      "choices": [
+        "Dagobah",
+        "Kashyyyk",
+        "Endor",
+        "Yavin 4"
+      ],
+      "answer": 2,
+      "explication": "Les scènes de forêt ont été tournées parmi les séquoias du nord de la Californie.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Endor_(Star_Wars)"
+    },
+    {
+      "q": "Quel jeune acteur incarne Anakin enfant dans « La Menace fantôme » (1999) ?",
+      "choices": [
+        "Hayden Christensen",
+        "Daniel Radcliffe",
+        "Haley Joel Osment",
+        "Jake Lloyd"
+      ],
+      "answer": 3,
+      "explication": "Hayden Christensen reprend le rôle pour les épisodes II et III.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Jake_Lloyd"
+    },
+    {
+      "q": "Quel réalisateur a mis en scène « L'Empire contre-attaque » en 1980 ?",
+      "choices": [
+        "George Lucas",
+        "Irvin Kershner",
+        "Richard Marquand",
+        "Ridley Scott"
+      ],
+      "answer": 1,
+      "explication": "George Lucas en est le producteur exécutif ; Richard Marquand réalisera « Le Retour du Jedi ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Irvin_Kershner"
+    },
+    {
+      "q": "Quelle entreprise a racheté Lucasfilm en 2012 ?",
+      "choices": [
+        "The Walt Disney Company",
+        "Warner Bros.",
+        "Universal",
+        "Sony"
+      ],
+      "answer": 0,
+      "explication": "Le premier film issu de ce rachat, « Le Réveil de la Force », sort en 2015.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Lucasfilm"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Star Wars ?",
+      "Les huit premières questions sont accessibles à tous ceux qui ont vu un film de la saga, les huit suivantes demandent de connaître les épisodes, les planètes et les acteurs, et les quatre dernières s'adressent aux fans. Chaque réponse est accompagnée d'une explication."
+    ],
+    [
+      "Combien de films compte la saga principale ?",
+      "La saga principale compte neuf films, répartis en trois trilogies : les épisodes IV à VI sortis de 1977 à 1983, les épisodes I à III sortis de 1999 à 2005, puis les épisodes VII à IX sortis de 2015 à 2019. George Lucas a réalisé le premier film de 1977 et ceux de la trilogie des préquelles."
+    ],
+    [
+      "Quelle différence y a-t-il entre la saga et les films dérivés ?",
+      "La saga principale suit la famille Skywalker sur neuf épisodes. Les films dérivés, comme « Rogue One » (2016) et « Solo » (2018), racontent des histoires parallèles qui se déroulent dans le même univers sans faire partie de la numérotation des épisodes. Ce quiz se concentre sur la saga principale."
+    ]
+  ],
+  "related": [
+    "/quiz-films",
+    "/quiz-cinema",
+    "/quiz-disney",
+    "/quiz-espace",
+    "/quiz-systeme-solaire"
+  ]
+}
