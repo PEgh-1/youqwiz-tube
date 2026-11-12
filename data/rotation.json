@@ -1,133 +1,133 @@
 {
- "_comment": " 09/11/2026 : avance ramenée de 7 à 3 jours (une refonte ne coûte plus que 3 rendus). Rotation hebdo validée le 30/10/2026 : Devine ×2, Culture générale ×1, Générations/60+ ×1 (test), Choix entre proches ×2, Émojis/intrus ×1. 31/10 : samedi = Spécial youqwiz.com, repli Tu préfères. 03/11/2026 : durée variable 10-20 min (targetSeconds min/max), gabarit Versus pour les choix, nouvelles banques (alphabet, maths, vocabulaire, acronymes, films-emojis, noël en saison), habillage et textes variables (data/variants.json). 09/11/2026 : 2e Short quotidien à 19 h (shortPublishHour2), questions les plus dures.",
- "timezone": "Europe/Paris",
- "publishHour": "17:30",
- "shortPublishHour": "12:00",
- "shortPublishHour2": "19:00",
- "shortPublishHour3": "16:00",
- "bufferDays": 3,
- "shortsPaused": true,
- "targetSeconds": {
-  "min": 600,
-  "max": 1200
- },
- "maxSeconds": 2400,
- "week": {
-  "0": {
-   "pillar": "generations",
-   "label": "dimanche"
+  "_comment": " 09/11/2026 : avance ramenée de 7 à 3 jours (une refonte ne coûte plus que 3 rendus). Rotation hebdo validée le 30/10/2026 : Devine ×2, Culture générale ×1, Générations/60+ ×1 (test), Choix entre proches ×2, Émojis/intrus ×1. 31/10 : samedi = Spécial youqwiz.com, repli Tu préfères. 03/11/2026 : durée variable 10-20 min (targetSeconds min/max), gabarit Versus pour les choix, nouvelles banques (alphabet, maths, vocabulaire, acronymes, films-emojis, noël en saison), habillage et textes variables (data/variants.json). 09/11/2026 : 2e Short quotidien à 19 h (shortPublishHour2), questions les plus dures. 12/11/2026 : pilier émojis retiré de la rotation (vendredi = culture générale) ; il « ne rend pas bien ».",
+  "timezone": "Europe/Paris",
+  "publishHour": "17:30",
+  "shortPublishHour": "12:00",
+  "shortPublishHour2": "19:00",
+  "shortPublishHour3": "16:00",
+  "bufferDays": 3,
+  "shortsPaused": true,
+  "targetSeconds": {
+    "min": 600,
+    "max": 1200
   },
-  "1": {
-   "pillar": "devine",
-   "label": "lundi"
+  "maxSeconds": 2400,
+  "week": {
+    "0": {
+      "pillar": "generations",
+      "label": "dimanche"
+    },
+    "1": {
+      "pillar": "devine",
+      "label": "lundi"
+    },
+    "2": {
+      "pillar": "choix",
+      "label": "mardi"
+    },
+    "3": {
+      "pillar": "culture",
+      "label": "mercredi"
+    },
+    "4": {
+      "pillar": "devine",
+      "label": "jeudi"
+    },
+    "5": {
+      "pillar": "culture",
+      "label": "vendredi"
+    },
+    "6": {
+      "pillar": "site",
+      "label": "samedi"
+    }
   },
-  "2": {
-   "pillar": "choix",
-   "label": "mardi"
-  },
-  "3": {
-   "pillar": "culture",
-   "label": "mercredi"
-  },
-  "4": {
-   "pillar": "devine",
-   "label": "jeudi"
-  },
-  "5": {
-   "pillar": "emojis",
-   "label": "vendredi"
-  },
-  "6": {
-   "pillar": "site",
-   "label": "samedi"
+  "pillars": {
+    "devine": {
+      "template": "DevineEn3s",
+      "banks": [
+        "animaux",
+        "pays-sans-voyelles",
+        "drapeaux",
+        "fruits-legumes",
+        "alphabet",
+        "maths"
+      ],
+      "itemsPerEpisode": 60,
+      "weights": {
+        "animaux": 1,
+        "pays-sans-voyelles": 0.8,
+        "drapeaux": 1,
+        "fruits-legumes": 0.6,
+        "alphabet": 1,
+        "maths": 0.9
+      }
+    },
+    "choix": {
+      "template": "Versus",
+      "banks": [
+        "tu-preferes"
+      ],
+      "itemsPerEpisode": 40,
+      "weights": {
+        "tu-preferes": 1
+      }
+    },
+    "culture": {
+      "template": "QuizQCM",
+      "banks": [
+        "culture-generale",
+        "vocabulaire",
+        "acronymes",
+        "noel"
+      ],
+      "itemsPerEpisode": 50,
+      "weights": {
+        "culture-generale": 1,
+        "vocabulaire": 0.8,
+        "acronymes": 0.7,
+        "noel": 1
+      }
+    },
+    "emojis": {
+      "template": "DevineEn3s",
+      "templates": {
+        "intrus": "Intrus",
+        "mots-emojis": "DevineEn3s",
+        "films-emojis": "DevineEn3s"
+      },
+      "banks": [
+        "intrus",
+        "mots-emojis",
+        "films-emojis"
+      ],
+      "itemsPerEpisode": 50,
+      "weights": {
+        "intrus": 1,
+        "mots-emojis": 1,
+        "films-emojis": 0.9
+      }
+    },
+    "generations": {
+      "template": "QuizQCM",
+      "banks": [
+        "generations"
+      ],
+      "itemsPerEpisode": 40,
+      "weights": {
+        "generations": 1
+      }
+    },
+    "site": {
+      "template": "QuizQCM",
+      "banks": [
+        "youqwiz-semaine"
+      ],
+      "itemsPerEpisode": 70,
+      "fallback": "choix",
+      "weights": {
+        "youqwiz-semaine": 1
+      }
+    }
   }
- },
- "pillars": {
-  "devine": {
-   "template": "DevineEn3s",
-   "banks": [
-    "animaux",
-    "pays-sans-voyelles",
-    "drapeaux",
-    "fruits-legumes",
-    "alphabet",
-    "maths"
-   ],
-   "itemsPerEpisode": 60,
-   "weights": {
-    "animaux": 1,
-    "pays-sans-voyelles": 0.8,
-    "drapeaux": 1,
-    "fruits-legumes": 0.6,
-    "alphabet": 1,
-    "maths": 0.9
-   }
-  },
-  "choix": {
-   "template": "Versus",
-   "banks": [
-    "tu-preferes"
-   ],
-   "itemsPerEpisode": 40,
-   "weights": {
-    "tu-preferes": 1
-   }
-  },
-  "culture": {
-   "template": "QuizQCM",
-   "banks": [
-    "culture-generale",
-    "vocabulaire",
-    "acronymes",
-    "noel"
-   ],
-   "itemsPerEpisode": 50,
-   "weights": {
-    "culture-generale": 1,
-    "vocabulaire": 0.8,
-    "acronymes": 0.7,
-    "noel": 1
-   }
-  },
-  "emojis": {
-   "template": "DevineEn3s",
-   "templates": {
-    "intrus": "Intrus",
-    "mots-emojis": "DevineEn3s",
-    "films-emojis": "DevineEn3s"
-   },
-   "banks": [
-    "intrus",
-    "mots-emojis",
-    "films-emojis"
-   ],
-   "itemsPerEpisode": 50,
-   "weights": {
-    "intrus": 1,
-    "mots-emojis": 1,
-    "films-emojis": 0.9
-   }
-  },
-  "generations": {
-   "template": "QuizQCM",
-   "banks": [
-    "generations"
-   ],
-   "itemsPerEpisode": 40,
-   "weights": {
-    "generations": 1
-   }
-  },
-  "site": {
-   "template": "QuizQCM",
-   "banks": [
-    "youqwiz-semaine"
-   ],
-   "itemsPerEpisode": 70,
-   "fallback": "choix",
-   "weights": {
-    "youqwiz-semaine": 1
-   }
-  }
- }
 }

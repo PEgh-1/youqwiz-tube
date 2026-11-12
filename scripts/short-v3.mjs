@@ -154,7 +154,7 @@ if (date && !only && report.length) {
   writeFileSync(`data/shorts/${date}.json`, JSON.stringify({ date, episode: ep.id, longId: arg("long") || null, skin, shorts: report.map((r, k) => {
     const title = r.title.replace(/\s*#Shorts$/i, "");
     return { slot: r.slot, at: SLOTS[k].at, file: r.file, url: `https://github.com/PEgh-1/youqwiz-tube/releases/download/shorts-${date}/${r.file}`, seconds: Math.round(r.seconds), title,
-      caption: `${title}\n\nLe grand quiz complet (${ep.items.length} questions) ce soir à 17 h 30 sur la chaîne YouTube YouQwiz 🎬 et sur youqwiz.com`, hashtags: tags };
+      caption: arg("fallback") ? `${title}\n\nLe grand quiz du jour ce soir à 17 h 30 sur la chaîne YouTube YouQwiz 🎬 et sur youqwiz.com` : `${title}\n\nLe grand quiz complet (${ep.items.length} questions) ce soir à 17 h 30 sur la chaîne YouTube YouQwiz 🎬 et sur youqwiz.com`, hashtags: tags };
   }) }, null, 1) + "\n");
   console.log(`fiche : data/shorts/${date}.json`);
 }

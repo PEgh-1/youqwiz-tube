@@ -7,6 +7,7 @@ name: Shorts extraits (quotidien)
 on:
   schedule:
     - cron: "23 5 * * *"
+    - cron: "23 8 * * *" # rattrapage : ne fait rien si la fiche du jour existe déjà
   workflow_dispatch:
     inputs:
       date:
@@ -50,9 +51,22 @@ jobs:
         run: |
           D="${{ inputs.date }}"; [ -z "$D" ] && D=$(TZ=Europe/Paris date +%F)
           echo "date=$D" >> "$GITHUB_OUTPUT"
-          read -r ID LONG <<< "$(D=$D node -e 'const q=require("./data/state/queue.json");const e=(q.published||[]).filter(r=>r.date===process.env.D).pop();console.log(e?e.id+" "+(e.longId||""):"")')"
-          if [ -z "$ID" ]; then echo "::warning::pas d'épisode programmé le $D"; echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
-          node scripts/short-v3.mjs --episode "data/episodes/$ID.json" --date "$D" --long "$LONG"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/shorts/$D.json" ]; then echo "fiche du $D déjà faite"; echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          # Épisode du jour ; s'il est du pilier émojis (arrêté en Short le 11/11/2026), repli sur l'épisode le plus récent d'un autre
+          # pilier dont les Shorts extraits n'ont pas encore servi (12/11/2026).
+          read -r ID LONG FB <<< "$(D=$D node -e '
+            const fs=require("fs"),q=require("./data/state/queue.json"),P=q.published||[];
+            const ep=(id)=>JSON.parse(fs.readFileSync("data/episodes/"+id+".json","utf8"));
+            const emo=(id)=>{try{const e=ep(id);return e.pillar==="emojis"||/emojis|intrus/.test(e.bank||id)}catch{return true}};
+            const e=P.filter(r=>r.date===process.env.D).pop();
+            if(!e){console.log("");process.exit(0)}
+            if(!emo(e.id)){console.log(e.id+" "+(e.longId||"-")+" 0");process.exit(0)}
+            const used=new Set(fs.existsSync("data/shorts")?fs.readdirSync("data/shorts").map(f=>JSON.parse(fs.readFileSync("data/shorts/"+f,"utf8")).episode):[]);
+            const f=P.filter(r=>r.date<process.env.D&&!emo(r.id)&&!used.has(r.id)).sort((a,b)=>a.date<b.date?1:-1)[0];
+            console.log(f?f.id+" "+(e.longId||"-")+" 1":"")')"
+          if [ -z "$ID" ]; then echo "::warning::pas d'épisode utilisable pour le $D"; echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          FLAG=""; [ "$FB" = "1" ] && FLAG="--fallback 1" && echo "repli (pilier émojis) : Shorts tirés de $ID"
+          node scripts/short-v3.mjs --episode "data/episodes/$ID.json" --date "$D" --long "$LONG" $FLAG
           C=$(ls out/short-v3/$ID-*.mp4 2>/dev/null | wc -l); echo "count=$C" >> "$GITHUB_OUTPUT"; echo "id=$ID" >> "$GITHUB_OUTPUT"
           [ "$C" = "0" ] && exit 0
           [ -f "data/shorts/$D.json" ] || { echo "::error::fiche absente"; exit 1; }
