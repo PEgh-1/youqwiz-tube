@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "Alger est un grand port de la Méditerranée, bâti en amphithéâtre.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Alger"
     },
     {
       "q": "Quelle est la capitale de la Tunisie ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "Tunis est proche des ruines de l'antique Carthage.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tunis"
     },
     {
       "q": "Quelle est la capitale du Sénégal ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Dakar est sur la presqu'île du Cap-Vert, à l'extrémité ouest du continent africain.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dakar"
     },
     {
       "q": "Quelle est la capitale du Kenya ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Nairobi est la capitale du Kenya ; fait rare, un parc national s'étend à quelques kilomètres seulement de son centre.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nairobi"
     },
     {
       "q": "Quelle est la capitale de l'Éthiopie ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "explication": "Addis-Abeba signifie « nouvelle fleur » et accueille le siège de l'Union africaine.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Addis-Abeba"
     },
     {
       "q": "Quelle est la capitale du Ghana ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 1,
       "explication": "Accra est sur le golfe de Guinée, tandis que Kumasi est la grande ville ashanti.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Accra"
     },
     {
       "q": "Quelle est la capitale de la République démocratique du Congo ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 2,
       "explication": "Kinshasa fait face à Brazzaville de l'autre côté du fleuve Congo : deux capitales très proches.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Kinshasa"
     },
     {
       "q": "Quelle est la capitale du Gabon ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 0,
       "explication": "Libreville, sur l'estuaire du Komo, signifie « ville libre » : elle fut fondée au XIXe siècle.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Libreville"
     },
     {
       "q": "Quelle est la capitale du Mali ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 0,
       "explication": "Bamako s'étend sur les rives du fleuve Niger.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bamako"
     },
     {
       "q": "Quelle est la capitale du Niger ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 2,
       "explication": "Niamey se trouve sur le fleuve Niger, dans l'ouest du pays.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Niamey"
     },
     {
       "q": "Quelle est la capitale de la Guinée ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 1,
       "explication": "Conakry est bâtie sur une presqu'île de l'océan Atlantique.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Conakry"
     },
     {
       "q": "Quelle est la capitale de l'Angola ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 3,
       "explication": "Luanda est un port de l'Atlantique et la capitale de l'Angola.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Luanda"
     },
     {
       "q": "Quelle est la capitale du Mozambique ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 2,
       "explication": "Maputo s'appelait Lourenço Marques à l'époque coloniale portugaise ; le Mozambique est indépendant depuis 1975.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Maputo"
     },
     {
       "q": "Quelle est la capitale de la Zambie ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 0,
       "explication": "Lusaka est la capitale de la Zambie, au centre-sud du pays.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lusaka"
     },
     {
       "q": "Quelle est la capitale du Zimbabwe ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 3,
       "explication": "Harare s'appelait Salisbury avant 1982.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Harare"
     },
     {
       "q": "Quelle est la capitale de l'Ouganda ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 1,
       "explication": "Entebbe abrite l'aéroport international, mais la capitale est Kampala.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Kampala"
     },
     {
       "q": "Quelle est la capitale de la Namibie ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "Windhoek est la capitale de la Namibie, au centre du pays.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Windhoek"
     },
     {
       "q": "Quelle est la capitale du Botswana ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 3,
       "explication": "Gaborone a été bâtie au milieu des années 1960 pour servir de capitale au Botswana, indépendant en 1966.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Gaborone"
     },
     {
       "q": "Quelle est la capitale du Rwanda ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Kigali est la capitale du Rwanda, au centre du pays.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Kigali"
     },
     {
       "q": "Quelle est la capitale du Cap-Vert ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "Praia se trouve sur l'île de Santiago, la plus peuplée de l'archipel.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Praia"
     }
   ],
   "faq": [
@@ -267,5 +287,6 @@
     "/quiz-capitales-europe",
     "/quiz-capitales-asie",
     "/quiz-drapeaux-afrique"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

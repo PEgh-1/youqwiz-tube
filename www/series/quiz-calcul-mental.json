@@ -1,0 +1,290 @@
+{
+  "path": "/quiz-calcul-mental",
+  "theme": "sciences",
+  "title": "Quiz calcul mental : 20 opérations de tête",
+  "description": "Quiz calcul mental : 20 opérations à faire de tête, de la simple addition au calcul expert, avec l'astuce de calcul expliquée après chaque réponse.",
+  "h1": "Quiz calcul mental : calcules-tu vite et juste ?",
+  "intro": "Pas de calculatrice, pas de papier : seulement ta tête ! Ce quiz de calcul mental te propose 20 opérations, des additions et tables de multiplication aux pourcentages, fractions et produits plus coriaces. Chaque question n'a qu'un seul résultat juste, et tu disposes d'environ 5 secondes pour te décider. Après chaque réponse, une astuce de calcul te montre comment arriver au résultat plus vite la prochaine fois. Parfait pour s'entraîner, réveiller son cerveau ou défier ses amis. Réussiras-tu les quatre questions expertes sans te tromper ?",
+  "questions": [
+    {
+      "q": "Combien font 15 + 27 ?",
+      "choices": [
+        "32",
+        "42",
+        "41",
+        "52"
+      ],
+      "answer": 1,
+      "explication": "Pour additionner 27, on ajoute 30 puis on retire 3 : 15 + 30 − 3.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Addition"
+    },
+    {
+      "q": "Combien font 9 × 7 ?",
+      "choices": [
+        "56",
+        "54",
+        "72",
+        "63"
+      ],
+      "answer": 3,
+      "explication": "Dans la table de 9, la somme des chiffres du résultat vaut toujours 9 : 6 + 3.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Multiplication"
+    },
+    {
+      "q": "Combien font 100 − 38 ?",
+      "choices": [
+        "62",
+        "52",
+        "72",
+        "68"
+      ],
+      "answer": 0,
+      "explication": "Pour retrancher 38, on retire 40 puis on rend 2.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Soustraction"
+    },
+    {
+      "q": "Combien font 48 ÷ 6 ?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "explication": "On peut aussi diviser par 2 puis par 3 : 48 ÷ 2 = 24, puis 24 ÷ 3 = 8.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Division_euclidienne"
+    },
+    {
+      "q": "Combien font 25 × 8 ?",
+      "choices": [
+        "150",
+        "200",
+        "180",
+        "250"
+      ],
+      "answer": 1,
+      "explication": "Quatre fois 25 font 100 : 25 × 8 revient donc à deux fois 100.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Multiplication"
+    },
+    {
+      "q": "Quelle est la moitié de 86 ?",
+      "choices": [
+        "33",
+        "44",
+        "53",
+        "43"
+      ],
+      "answer": 3,
+      "explication": "On coupe en deux morceaux : la moitié de 80 (40) plus la moitié de 6 (3).",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Fraction_(mathématiques)"
+    },
+    {
+      "q": "Combien font 12 × 12 ?",
+      "choices": [
+        "144",
+        "124",
+        "132",
+        "148"
+      ],
+      "answer": 0,
+      "explication": "Douze douzaines forment une grosse, ancienne unité de comptage qui vaut 144.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Multiplication"
+    },
+    {
+      "q": "Combien font 250 + 380 ?",
+      "choices": [
+        "530",
+        "620",
+        "630",
+        "640"
+      ],
+      "answer": 2,
+      "explication": "On additionne les centaines (200 + 300), puis les dizaines (50 + 80 = 130).",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Addition"
+    },
+    {
+      "q": "Combien font 15 % de 80 ?",
+      "choices": [
+        "10",
+        "15",
+        "8",
+        "12"
+      ],
+      "answer": 3,
+      "explication": "15 % = 10 % + 5 % : 10 % de 80 vaut 8 et 5 % vaut 4, donc 8 + 4.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pourcentage"
+    },
+    {
+      "q": "Combien font 17 × 6 ?",
+      "choices": [
+        "96",
+        "102",
+        "112",
+        "108"
+      ],
+      "answer": 1,
+      "explication": "On décompose 17 en 10 + 7 : 10 × 6 = 60 et 7 × 6 = 42.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Multiplication"
+    },
+    {
+      "q": "Combien font 156 ÷ 12 ?",
+      "choices": [
+        "12",
+        "14",
+        "13",
+        "16"
+      ],
+      "answer": 2,
+      "explication": "On cherche le nombre qui, multiplié par 12, donne 156 : 12 × 13 = 156.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Division_euclidienne"
+    },
+    {
+      "q": "Combien font 999 + 456 ?",
+      "choices": [
+        "1 455",
+        "1 445",
+        "1 355",
+        "1 555"
+      ],
+      "answer": 0,
+      "explication": "On ajoute 1 000 puis on retire 1 : 456 + 1 000 − 1.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Addition"
+    },
+    {
+      "q": "Combien font 35 × 12 ?",
+      "choices": [
+        "410",
+        "380",
+        "420",
+        "450"
+      ],
+      "answer": 2,
+      "explication": "On décompose 12 en 10 + 2 : 35 × 10 = 350 et 35 × 2 = 70.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Multiplication"
+    },
+    {
+      "q": "Combien valent les trois quarts de 120 ?",
+      "choices": [
+        "90",
+        "80",
+        "30",
+        "100"
+      ],
+      "answer": 0,
+      "explication": "Un quart de 120 vaut 30, donc trois quarts valent 3 × 30.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Fraction_(mathématiques)"
+    },
+    {
+      "q": "Combien font 1 000 − 467 ?",
+      "choices": [
+        "543",
+        "533",
+        "523",
+        "633"
+      ],
+      "answer": 1,
+      "explication": "Pour retrancher à 1 000, on complète chaque chiffre à 9 et le dernier à 10 : 4→5, 6→3, 7→3.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Soustraction"
+    },
+    {
+      "q": "Combien font 18² ?",
+      "choices": [
+        "314",
+        "304",
+        "342",
+        "324"
+      ],
+      "answer": 3,
+      "explication": "On écrit 18 = 20 − 2 : (20 − 2)² = 400 − 80 + 4.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Exponentiation"
+    },
+    {
+      "q": "Combien font 47 × 53 ?",
+      "choices": [
+        "2 491",
+        "2 481",
+        "2 501",
+        "2 391"
+      ],
+      "answer": 0,
+      "explication": "47 et 53 encadrent 50 : (50 − 3)(50 + 3) = 2 500 − 9.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Multiplication"
+    },
+    {
+      "q": "Combien font 25 % de 360 plus 10 % de 250 ?",
+      "choices": [
+        "105",
+        "125",
+        "115",
+        "100"
+      ],
+      "answer": 2,
+      "explication": "25 % de 360 est le quart de 360, soit 90 ; 10 % de 250 vaut 25 ; 90 + 25 = 115.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pourcentage"
+    },
+    {
+      "q": "Combien font 99 × 99 ?",
+      "choices": [
+        "9 701",
+        "9 901",
+        "9 791",
+        "9 801"
+      ],
+      "answer": 3,
+      "explication": "On écrit (100 − 1)² = 10 000 − 200 + 1.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Exponentiation"
+    },
+    {
+      "q": "Combien font 125 × 48 ?",
+      "choices": [
+        "5 000",
+        "6 000",
+        "5 800",
+        "6 200"
+      ],
+      "answer": 1,
+      "explication": "125 vaut 1 000 ÷ 8 : il suffit de calculer 48 ÷ 8 = 6, puis de multiplier par 1 000.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Multiplication"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz de calcul mental ?",
+      "Les huit premières opérations sont faciles : additions, soustractions, tables de multiplication. Les huit suivantes demandent un peu de méthode avec les pourcentages, les fractions et les carrés. Les quatre dernières sont expertes et se résolvent grâce à des astuces comme les identités remarquables ou la décomposition. Chaque explication détaille la technique utilisée."
+    ],
+    [
+      "Comment calculer un pourcentage de tête ?",
+      "Le plus simple est de partir de 10 %, qui s'obtient en divisant le nombre par 10. On en déduit 5 % en prenant la moitié, 20 % en doublant, 1 % en divisant par 100. Pour 15 % de 80, on calcule 10 % (8) puis 5 % (4) et on additionne : 12. Pour 25 %, on prend simplement le quart."
+    ],
+    [
+      "Comment multiplier plus facilement par 5, 25 ou 125 ?",
+      "Ces nombres sont liés aux puissances de 10. Multiplier par 5 revient à multiplier par 10 puis diviser par 2. Multiplier par 25 revient à multiplier par 100 puis diviser par 4. Multiplier par 125 revient à multiplier par 1 000 puis diviser par 8. Ces raccourcis évitent les retenues et accélèrent nettement le calcul."
+    ]
+  ],
+  "related": [
+    "/quiz-mathematiques",
+    "/quiz-logique",
+    "/quiz-cm2",
+    "/quiz-physique"
+  ]
+}

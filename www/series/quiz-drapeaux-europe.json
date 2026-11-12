@@ -7,7 +7,7 @@
   "intro": "L'Europe compte une cinquantaine de drapeaux, et beaucoup se ressemblent : tricolores, croix scandinaves, aigles bicéphales. Ce quiz te propose 20 drapeaux, un par question, et tu dois retrouver à quel pays européen chacun appartient. Les quatre choix sont toujours des pays d'Europe, pour que l'hésitation reste honnête. On commence avec les drapeaux que tout le monde a déjà vus, puis la difficulté monte et les derniers viennent des Balkans et d'Europe de l'Est. Compte environ cinq secondes par question et profite de chaque explication pour apprendre un détail. Tu peux rejouer autant de fois que tu veux.",
   "questions": [
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Allemagne",
         "Belgique",
@@ -17,10 +17,11 @@
       "answer": 1,
       "explication": "Noir, jaune et rouge en bandes verticales : ces couleurs viennent des armoiries du duché de Brabant.",
       "level": "facile",
-      "flag": "be"
+      "flag": "be",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Belgique"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Danemark",
         "Hongrie",
@@ -30,10 +31,11 @@
       "answer": 3,
       "explication": "Blanc au-dessus, rouge en dessous : ces deux couleurs sont celles des armoiries de la Pologne, un aigle blanc sur fond rouge.",
       "level": "facile",
-      "flag": "pl"
+      "flag": "pl",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Pologne"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Grèce",
         "Finlande",
@@ -43,10 +45,11 @@
       "answer": 0,
       "explication": "Ses neuf bandes évoqueraient, selon une tradition, les neuf syllabes de « Liberté ou la mort », cri de l'indépendance grecque.",
       "level": "facile",
-      "flag": "gr"
+      "flag": "gr",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Gr%C3%A8ce"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Bulgarie",
         "Lituanie",
@@ -56,10 +59,11 @@
       "answer": 2,
       "explication": "Adopté en 1910-1911 à la naissance de la République, il porte une sphère armillaire rappelant les grandes navigations.",
       "level": "facile",
-      "flag": "pt"
+      "flag": "pt",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Portugal"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Norvège",
         "Islande",
@@ -69,10 +73,11 @@
       "answer": 3,
       "explication": "Le Dannebrog, avec sa croix blanche décentrée sur fond rouge, est l'un des plus anciens drapeaux nationaux encore en usage.",
       "level": "facile",
-      "flag": "dk"
+      "flag": "dk",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Danemark"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Grèce",
         "Finlande",
@@ -82,10 +87,11 @@
       "answer": 1,
       "explication": "La croix bleue sur fond blanc évoque les lacs et la neige du pays.",
       "level": "facile",
-      "flag": "fi"
+      "flag": "fi",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Finlande"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Bulgarie",
         "Italie",
@@ -95,10 +101,11 @@
       "answer": 2,
       "explication": "Rouge, blanc, vert en bandes horizontales : un tricolore dont les couleurs sont présentes dans les armoiries hongroises.",
       "level": "facile",
-      "flag": "hu"
+      "flag": "hu",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Hongrie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Ukraine",
         "Suède",
@@ -108,10 +115,11 @@
       "answer": 0,
       "explication": "Bleu au-dessus, jaune en dessous : on y voit souvent le ciel et les champs de blé.",
       "level": "facile",
-      "flag": "ua"
+      "flag": "ua",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Ukraine"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Russie",
         "Bulgarie",
@@ -121,10 +129,11 @@
       "answer": 0,
       "explication": "Blanc, bleu, rouge : ce tricolore a été rétabli en 1991, à la fin de l'URSS.",
       "level": "moyen",
-      "flag": "ru"
+      "flag": "ru",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Russie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Pologne",
         "Slovaquie",
@@ -134,10 +143,11 @@
       "answer": 2,
       "explication": "Le triangle bleu a été ajouté au blanc et rouge pour distinguer le drapeau tchécoslovaque de celui de la Pologne.",
       "level": "moyen",
-      "flag": "cz"
+      "flag": "cz",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Tch%C3%A9quie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Serbie",
         "Croatie",
@@ -147,10 +157,11 @@
       "answer": 1,
       "explication": "Son blason à damier rouge et blanc, la šahovnica, est un symbole historique croate.",
       "level": "moyen",
-      "flag": "hr"
+      "flag": "hr",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Croatie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Hongrie",
         "Italie",
@@ -158,12 +169,13 @@
         "Bulgarie"
       ],
       "answer": 3,
-      "explication": "Blanc, vert et rouge en bandes horizontales : le vert représente l'agriculture et la liberté.",
+      "explication": "Blanc, vert et rouge en bandes horizontales : le blanc symbolise la paix, le vert la fertilité des terres et le rouge le courage du peuple.",
       "level": "moyen",
-      "flag": "bg"
+      "flag": "bg",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Bulgarie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Croatie",
         "Russie",
@@ -173,10 +185,11 @@
       "answer": 2,
       "explication": "Rouge, bleu, blanc, avec les armoiries à l'aigle bicéphale décalées vers la hampe.",
       "level": "moyen",
-      "flag": "rs"
+      "flag": "rs",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Serbie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Estonie",
         "Finlande",
@@ -184,12 +197,13 @@
         "Lituanie"
       ],
       "answer": 0,
-      "explication": "Bleu, noir et blanc : le bleu évoque le ciel et la mer, le noir la terre, le blanc la neige.",
+      "explication": "Ses trois bandes horizontales bleue, noire et blanche lui valent son nom estonien, sinimustvalge, « bleu-noir-blanc ».",
       "level": "moyen",
-      "flag": "ee"
+      "flag": "ee",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Estonie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Bulgarie",
         "Hongrie",
@@ -199,10 +213,11 @@
       "answer": 3,
       "explication": "Jaune, vert et rouge en bandes horizontales : un tricolore adopté dès 1918, puis rétabli en 1988.",
       "level": "moyen",
-      "flag": "lt"
+      "flag": "lt",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Lituanie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Pologne",
         "Malte",
@@ -212,10 +227,11 @@
       "answer": 1,
       "explication": "Dans le coin figure la croix de George (George Cross), décoration décernée à l'île par le roi George VI en 1942 pour sa résistance.",
       "level": "moyen",
-      "flag": "mt"
+      "flag": "mt",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_Malte"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Serbie",
         "Albanie",
@@ -225,10 +241,11 @@
       "answer": 1,
       "explication": "L'aigle noir à deux têtes sur fond rouge est l'emblème national albanais.",
       "level": "expert",
-      "flag": "al"
+      "flag": "al",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Albanie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Croatie",
         "Serbie",
@@ -238,10 +255,11 @@
       "answer": 3,
       "explication": "Le triangle jaune évoque la forme du pays, bordé d'étoiles blanches sur fond bleu.",
       "level": "expert",
-      "flag": "ba"
+      "flag": "ba",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Bosnie-Herz%C3%A9govine"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Moldavie",
         "Roumanie",
@@ -251,10 +269,11 @@
       "answer": 0,
       "explication": "Presque identique à celui de la Roumanie, il s'en distingue par le blason central, avec une tête d'aurochs.",
       "level": "expert",
-      "flag": "md"
+      "flag": "md",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Moldavie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Europe est ce drapeau ?",
       "choices": [
         "Albanie",
         "Serbie",
@@ -264,7 +283,8 @@
       "answer": 2,
       "explication": "Un fond rouge entouré d'une bordure dorée, avec un aigle bicéphale doré au centre.",
       "level": "expert",
-      "flag": "me"
+      "flag": "me",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Mont%C3%A9n%C3%A9gro"
     }
   ],
   "faq": [
@@ -287,5 +307,6 @@
     "/quiz-drapeaux-afrique",
     "/quiz-drapeaux-asie",
     "/quiz-capitales-europe"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

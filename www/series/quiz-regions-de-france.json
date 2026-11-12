@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "La réforme territoriale de 2016 a ramené le nombre de régions métropolitaines de 22 à 13.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise"
     },
     {
       "q": "Quelle est la capitale régionale de la Bretagne ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "Rennes est la ville la plus peuplée de Bretagne administrative.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Rennes"
     },
     {
       "q": "Quelle est la capitale de la région Hauts-de-France ?",
@@ -40,19 +42,21 @@
       ],
       "answer": 0,
       "explication": "Lille est la grande métropole du nord de la France.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hauts-de-France"
     },
     {
-      "q": "Dans quelle région se trouve le Mont-Saint-Michel ?",
+      "level": "facile",
+      "q": "Dans quelle région se trouve le parc du Puy du Fou ?",
       "choices": [
         "La Bretagne",
-        "Les Hauts-de-France",
         "La Normandie",
-        "Le Centre-Val de Loire"
+        "Les Pays de la Loire",
+        "La Nouvelle-Aquitaine"
       ],
       "answer": 2,
-      "explication": "L'abbaye se dresse sur un îlot rocheux à la limite de la Bretagne.",
-      "level": "facile"
+      "explication": "Le Puy du Fou se trouve aux Epesses, en Vendée, dans la région Pays de la Loire.",
+      "source": "https://fr.wikipedia.org/wiki/Puy_du_Fou"
     },
     {
       "q": "Quelle est la capitale de la région Nouvelle-Aquitaine ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "explication": "Bordeaux est la capitale régionale et une ville réputée dans le monde entier pour ses vins.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nouvelle-Aquitaine"
     },
     {
       "q": "Quelle est la capitale de la région Auvergne-Rhône-Alpes ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 0,
       "explication": "Lyon, l'antique Lugdunum, était surnommée la « capitale des Gaules ».",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Auvergne-Rh%C3%B4ne-Alpes"
     },
     {
       "q": "Dans quelle région se trouve le Vieux-Port de Marseille ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 3,
       "explication": "Marseille est la capitale de la région Provence-Alpes-Côte d'Azur.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Provence-Alpes-C%C3%B4te_d'Azur"
     },
     {
       "q": "Quelle est la capitale de la région Occitanie ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 1,
       "explication": "Toulouse est la capitale régionale ; Montpellier abrite aussi des services régionaux.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Occitanie_(r%C3%A9gion_administrative)"
     },
     {
       "q": "Quelle est la capitale de la région Grand Est ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 0,
       "explication": "Strasbourg héberge aussi le Parlement européen.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Grand_Est"
     },
     {
       "q": "Quelle est la capitale de la région Centre-Val de Loire ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 2,
       "explication": "Tours est la plus peuplée, mais Orléans est le chef-lieu régional.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Centre-Val_de_Loire"
     },
     {
       "q": "Quelle est la capitale de la région Pays de la Loire ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 1,
       "explication": "Nantes est la plus grande ville des Pays de la Loire.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pays_de_la_Loire"
     },
     {
       "q": "Quelle est la capitale de la région Bourgogne-Franche-Comté ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 3,
       "explication": "Dijon est la capitale de la moutarde et des grands vins de Bourgogne.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bourgogne-Franche-Comt%C3%A9"
     },
     {
       "q": "Quelle est la capitale de la région Corse ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 3,
       "explication": "Ajaccio est la ville natale de Napoléon Bonaparte.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Corse"
     },
     {
       "q": "Dans quelle région produit-on le champagne ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 1,
       "explication": "L'essentiel du vignoble champenois se trouve dans la Marne et l'Aube, autour de Reims et d'Épernay.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vignoble_de_Champagne"
     },
     {
       "q": "Dans quelle région se trouve la grotte de Lascaux ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 2,
       "explication": "Lascaux, dans le département de la Dordogne, abrite des peintures préhistoriques.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Grotte_de_Lascaux"
     },
     {
       "q": "Dans quelle région se trouve le château de Chambord ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 0,
       "explication": "Chambord, en Loir-et-Cher, est le plus grand château de la Loire.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord"
     },
     {
       "q": "Quelle région est née de la fusion du Languedoc-Roussillon et de Midi-Pyrénées ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "La fusion date de la réforme territoriale entrée en vigueur en 2016.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Occitanie_(r%C3%A9gion_administrative)"
     },
     {
       "q": "Quelle région regroupe l'ancienne Alsace, la Champagne-Ardenne et la Lorraine ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 2,
       "explication": "Le Grand Est, dont la capitale est Strasbourg, est né de la fusion entrée en vigueur le 1er janvier 2016.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Grand_Est"
     },
     {
       "q": "Quelles anciennes régions forment les Hauts-de-France ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Les Hauts-de-France résultent de la fusion de 2016.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Hauts-de-France"
     },
     {
       "q": "Quelles anciennes régions forment la Nouvelle-Aquitaine ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 3,
       "explication": "C'est la plus vaste région de France métropolitaine.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Nouvelle-Aquitaine"
     }
   ],
   "faq": [
@@ -266,5 +286,6 @@
     "/quiz-geographie-france",
     "/quiz-capitales",
     "/quiz-drapeaux"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

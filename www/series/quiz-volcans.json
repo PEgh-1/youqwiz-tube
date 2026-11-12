@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-volcans",
+  "theme": "sciences",
+  "title": "Quiz volcans : 20 questions sur les volcans",
+  "description": "Quiz volcans : 20 questions sur la volcanologie, les grandes éruptions datées et les volcans de France, de l'Auvergne à La Réunion. Explications incluses.",
+  "h1": "Quiz volcans : connais-tu les éruptions qui ont marqué la Terre ?",
+  "intro": "Magma, caldeira, nuée ardente, Vésuve, Krakatoa ou piton de la Fournaise : les volcans fascinent autant qu'ils inquiètent. Ce quiz volcans te propose 20 questions sur la volcanologie, les grandes éruptions historiques et les volcans de France, de la chaîne des Puys en Auvergne jusqu'à La Réunion. Huit questions faciles ouvrent la marche, suivies de huit questions moyennes et de quatre questions d'expert. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un fait de plus. Prêt à faire jaillir tes connaissances ? Lance le quiz et vois si tu tiens le choc !",
+  "questions": [
+    {
+      "q": "Comment appelle-t-on la roche en fusion stockée sous terre avant une éruption ?",
+      "choices": [
+        "Le basalte",
+        "Le granite",
+        "Le magma",
+        "La cendre"
+      ],
+      "answer": 2,
+      "explication": "Lorsqu'il atteint la surface et s'écoule d'un volcan, ce magma partiellement dégazé prend le nom de lave.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Magma_(géologie)"
+    },
+    {
+      "q": "Comment s'appelle l'ouverture, au sommet d'un volcan, par où s'échappent gaz, cendres et lave ?",
+      "choices": [
+        "Le cratère",
+        "La caldeira",
+        "Le geyser",
+        "La faille"
+      ],
+      "answer": 0,
+      "explication": "Une caldeira est bien plus vaste : elle se forme quand le toit d'une chambre magmatique vidée s'effondre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cratère_volcanique"
+    },
+    {
+      "q": "Quel volcan des îles Éoliennes, en activité presque continue, est surnommé le « phare de la Méditerranée » ?",
+      "choices": [
+        "Le Vésuve",
+        "Le Teide",
+        "Le Santorin",
+        "Le Stromboli"
+      ],
+      "answer": 3,
+      "explication": "Ses petites explosions régulières ont donné leur nom aux éruptions dites stromboliennes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Isola_di_Stromboli"
+    },
+    {
+      "q": "Quel volcan de Sicile domine la ville de Catane ?",
+      "choices": [
+        "Le Vésuve",
+        "L'Etna",
+        "Le Stromboli",
+        "Le Teide"
+      ],
+      "answer": 1,
+      "explication": "Il fait partie des « volcans de la Décennie », un programme international d'étude des volcans jugés les plus dangereux.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Etna"
+    },
+    {
+      "q": "Quel volcan de l'île de La Réunion compte parmi les plus actifs de la planète ?",
+      "choices": [
+        "Le piton des Neiges",
+        "Le piton de la Fournaise",
+        "Le Puy de Dôme",
+        "La Soufrière"
+      ],
+      "answer": 1,
+      "explication": "C'est un volcan bouclier qui culmine à environ 2 630 mètres d'altitude.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Piton_de_la_Fournaise"
+    },
+    {
+      "q": "Dans quelle région historique de France se trouve la chaîne des Puys ?",
+      "choices": [
+        "En Alsace",
+        "En Bretagne",
+        "En Provence",
+        "En Auvergne"
+      ],
+      "answer": 3,
+      "explication": "Elle est inscrite au patrimoine mondial de l'UNESCO depuis 2018, avec la faille de Limagne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chaîne_des_Puys"
+    },
+    {
+      "q": "Comment surnomme-t-on la zone de forte activité volcanique et sismique qui borde l'océan Pacifique ?",
+      "choices": [
+        "La ceinture de feu",
+        "Le cercle polaire",
+        "Le triangle des Bermudes",
+        "La dorsale atlantique"
+      ],
+      "answer": 0,
+      "explication": "Elle rassemble environ 90 % des séismes de la planète et s'étire sur quelque 40 000 kilomètres.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ceinture_de_feu_du_Pacifique"
+    },
+    {
+      "q": "Quelle roche volcanique, remplie de bulles de gaz, peut flotter sur l'eau ?",
+      "choices": [
+        "Le granite",
+        "Le marbre",
+        "La pierre ponce",
+        "L'obsidienne"
+      ],
+      "answer": 2,
+      "explication": "Sa densité moyenne est inférieure à celle de l'eau, et on l'utilise aussi comme abrasif doux.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pierre_ponce"
+    },
+    {
+      "q": "En 1883, l'explosion de quel volcan d'Indonésie est entendue à plusieurs milliers de kilomètres ?",
+      "choices": [
+        "Le Fuji-Yama",
+        "Le Krakatoa",
+        "Le Mauna Loa",
+        "Le Cotopaxi"
+      ],
+      "answer": 1,
+      "explication": "Les autorités néerlandaises ont dénombré 36 417 victimes, surtout à cause des tsunamis.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Éruption_du_Krakatoa_en_1883"
+    },
+    {
+      "q": "Quelle éruption détruit la ville de Saint-Pierre, en Martinique, le 8 mai 1902 ?",
+      "choices": [
+        "Celle de la Soufrière de Guadeloupe",
+        "Celle du piton de la Fournaise",
+        "Celle du Vésuve",
+        "Celle de la montagne Pelée"
+      ],
+      "answer": 3,
+      "explication": "Louis-Auguste Cyparis, un prisonnier protégé par l'épaisseur de sa cellule, figure parmi les très rares survivants de la ville.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Éruption_de_la_montagne_Pelée_en_1902"
+    },
+    {
+      "q": "Quel volcan de l'État de Washington entre en éruption le 18 mai 1980 ?",
+      "choices": [
+        "Le mont Rainier",
+        "Le Kilauea",
+        "Le mont Saint Helens",
+        "Le Yellowstone"
+      ],
+      "answer": 2,
+      "explication": "Un glissement de terrain géant décapite le sommet, qui perd environ 400 mètres d'altitude.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mont_Saint_Helens"
+    },
+    {
+      "q": "Comment nomme-t-on les volcans aux pentes douces et à la lave fluide, comme ceux d'Hawaï ?",
+      "choices": [
+        "Les volcans boucliers",
+        "Les stratovolcans",
+        "Les dômes de lave",
+        "Les maars"
+      ],
+      "answer": 0,
+      "explication": "Leur nom vient de leur silhouette, qui évoque un bouclier posé à plat sur le sol.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Volcan_bouclier"
+    },
+    {
+      "q": "Comment appelle-t-on la vaste dépression formée par l'effondrement du toit d'une chambre magmatique vidée ?",
+      "choices": [
+        "Un cratère adventif",
+        "Une cheminée",
+        "Un lahar",
+        "Une caldeira"
+      ],
+      "answer": 3,
+      "explication": "Santorin, en Grèce, et le Crater Lake, aux États-Unis, sont des caldeiras célèbres, envahies respectivement par la mer et par un lac.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Caldeira"
+    },
+    {
+      "q": "Comment nomme-t-on le nuage brûlant de gaz, de cendres et de blocs qui dévale les pentes d'un volcan à grande vitesse ?",
+      "choices": [
+        "Un lahar",
+        "Une nuée ardente",
+        "Un geyser",
+        "Une coulée de basalte"
+      ],
+      "answer": 1,
+      "explication": "Le volcanologue Alfred Lacroix a défini ce phénomène après la catastrophe de Saint-Pierre, en 1902.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nuée_ardente"
+    },
+    {
+      "q": "En avril 2010, l'éruption de quel volcan islandais paralyse une grande partie du trafic aérien européen ?",
+      "choices": [
+        "L'Eyjafjallajökull",
+        "Le Krafla",
+        "Le Katla",
+        "Le Hekla"
+      ],
+      "answer": 0,
+      "explication": "Des panaches de cendres très dangereux pour les moteurs d'avion ont entraîné des milliers d'annulations de vols.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Eyjafjöll"
+    },
+    {
+      "q": "Quelle éruption de 1815, en Indonésie, est à l'origine de « l'année sans été » de 1816 ?",
+      "choices": [
+        "Celle du Krakatoa",
+        "Celle du Pinatubo",
+        "Celle du Tambora",
+        "Celle de l'Etna"
+      ],
+      "answer": 2,
+      "explication": "L'explosion a creusé au sommet une caldeira d'environ 6 kilomètres de large.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Éruption_du_Tambora_en_1815"
+    },
+    {
+      "q": "Quelle échelle, créée en 1982 par Chris Newhall et Steve Self, mesure l'explosivité des éruptions ?",
+      "choices": [
+        "L'échelle de Richter",
+        "L'échelle de Beaufort",
+        "L'échelle de Mohs",
+        "L'indice d'explosivité volcanique (VEI)"
+      ],
+      "answer": 3,
+      "explication": "Graduée de 0 à 8, elle est à peu près logarithmique : chaque palier correspond à un volume de matériaux environ dix fois plus grand.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Indice_d%27explosivit%C3%A9_volcanique"
+    },
+    {
+      "q": "Quelle éruption de 1991, aux Philippines, a refroidi le climat mondial d'environ un demi-degré pendant un à deux ans ?",
+      "choices": [
+        "Celle du mont Saint Helens",
+        "Celle du Pinatubo",
+        "Celle du Merapi",
+        "Celle du Vésuve"
+      ],
+      "answer": 1,
+      "explication": "Classée niveau 6 sur l'indice d'explosivité volcanique, elle est comparable à celle du Krakatoa en 1883.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pinatubo"
+    },
+    {
+      "q": "Quel est le point culminant de l'île de La Réunion, un volcan endormi depuis plus de 12 000 ans ?",
+      "choices": [
+        "Le piton de la Fournaise",
+        "Le Maïdo",
+        "Le piton des Neiges",
+        "Le Grand Bénare"
+      ],
+      "answer": 2,
+      "explication": "Il s'élève à 3 070 mètres d'altitude, bien au-dessus du piton de la Fournaise, qui est actif.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Piton_des_Neiges"
+    },
+    {
+      "q": "Quelle fissure volcanique islandaise, active en 1783-1784, a répandu un épais brouillard de gaz soufrés sur l'Europe ?",
+      "choices": [
+        "Le Laki (Lakagígar)",
+        "Le Hekla",
+        "Le Krafla",
+        "L'Askja"
+      ],
+      "answer": 0,
+      "explication": "En Islande, la famine qui a suivi a coûté la vie à plus d'un cinquième de la population.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Lakagígar"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les volcans ?",
+      "Le quiz comprend 20 questions classées par difficulté : huit faciles sur le vocabulaire de base et les volcans célèbres, huit moyennes sur les grandes éruptions datées et les types de volcans, puis quatre questions d'expert. Une explication suit chaque réponse, et tu peux rejouer pour faire mieux."
+    ],
+    [
+      "Quelle est la différence entre magma et lave ?",
+      "Le magma est de la roche partiellement ou totalement fondue qui se trouve sous la surface de la Terre. Lorsqu'il atteint la surface et sort d'un volcan, en perdant une partie de ses gaz, on l'appelle lave. En refroidissant, le magma resté sous terre forme des roches plutoniques, et la lave des roches volcaniques."
+    ],
+    [
+      "Les volcans d'Auvergne peuvent-ils se réveiller ?",
+      "La chaîne des Puys compte environ quatre-vingts volcans, tous silencieux depuis plus de 7 000 ans. Les scientifiques ne les qualifient pas d'éteints : une reprise d'activité reste possible à l'échelle géologique. C'est pourquoi la région fait l'objet d'une surveillance, et le site est inscrit au patrimoine mondial de l'UNESCO depuis 2018."
+    ]
+  ],
+  "related": [
+    "/quiz-geographie-france",
+    "/quiz-sciences",
+    "/quiz-systeme-solaire",
+    "/quiz-geographie",
+    "/quiz-histoire"
+  ]
+}

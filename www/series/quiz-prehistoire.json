@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-prehistoire",
+  "theme": "histoire",
+  "title": "Quiz préhistoire : 20 questions sur nos ancêtres",
+  "description": "Quiz préhistoire : 20 questions sur les périodes, Lascaux, les outils et les hominidés, avec des dates approximatives. Explication après chaque réponse.",
+  "h1": "Quiz préhistoire : que sais-tu de la vie de nos lointains ancêtres ?",
+  "intro": "Grottes ornées, silex taillés, premiers villages : la préhistoire couvre des millions d'années d'histoire humaine. Ce quiz préhistoire te propose 20 questions sur les grandes périodes, Lascaux et les autres grottes, les outils et les différents hominidés. Les datations restent approximatives, car les scientifiques les affinent au fil des découvertes. Huit questions faciles ouvrent le parcours, suivies de huit questions moyennes et de quatre questions d'expert. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication te fait remonter un peu plus loin dans le temps. Prêt à retrouver l'homme de Néandertal ? C'est parti !",
+  "questions": [
+    {
+      "q": "Comment appelle-t-on la période la plus ancienne de la Préhistoire, celle de la pierre taillée ?",
+      "choices": [
+        "Le Néolithique",
+        "L'âge du bronze",
+        "Le Mésolithique",
+        "Le Paléolithique"
+      ],
+      "answer": 3,
+      "explication": "Son nom vient du grec ancien et signifie « pierre ancienne » ; il s'ouvre avec les premiers outils taillés, il y a plus de deux millions d'années.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Paléolithique"
+    },
+    {
+      "q": "Quelle grotte de Dordogne, découverte en 1940, est célèbre pour ses peintures de taureaux et de chevaux ?",
+      "choices": [
+        "Lascaux",
+        "Chauvet",
+        "Niaux",
+        "Altamira"
+      ],
+      "answer": 0,
+      "explication": "Fermée au public en 1963 pour la protéger, elle est aujourd'hui présentée au public à travers des reproductions, dont Lascaux IV.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Grotte_de_Lascaux"
+    },
+    {
+      "q": "Quelle période voit apparaître l'agriculture, l'élevage et les premiers villages ?",
+      "choices": [
+        "Le Paléolithique",
+        "Le Moyen Âge",
+        "Le Néolithique",
+        "L'âge du fer"
+      ],
+      "answer": 2,
+      "explication": "Il débute au Proche-Orient avant de gagner progressivement l'Europe.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Néolithique"
+    },
+    {
+      "q": "Quelle roche dure, facile à tailler en éclats tranchants, a servi à fabriquer de nombreux outils préhistoriques ?",
+      "choices": [
+        "Le marbre",
+        "Le silex",
+        "Le granite",
+        "Le grès tendre"
+      ],
+      "answer": 1,
+      "explication": "On le façonnait en le frappant avec un percuteur, ce qui produisait des éclats aux bords coupants.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Outils_de_la_Préhistoire"
+    },
+    {
+      "q": "Comment s'appelle le célèbre squelette d'australopithèque découvert en Éthiopie en 1974 ?",
+      "choices": [
+        "Toumaï",
+        "Lucy",
+        "Ötzi",
+        "Cro-Magnon"
+      ],
+      "answer": 1,
+      "explication": "Elle vivait il y a environ 3,2 millions d'années, bien avant l'apparition du genre Homo.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lucy_(australopithèque)"
+    },
+    {
+      "q": "Quel cousin de l'être humain moderne a vécu en Europe et au Proche-Orient jusqu'à il y a environ 40 000 ans ?",
+      "choices": [
+        "L'homme de Cro-Magnon",
+        "Lucy",
+        "L'homme de Néandertal",
+        "L'homme de Java"
+      ],
+      "answer": 2,
+      "explication": "Son nom vient de la vallée de Neander, en Allemagne, où un fossile est identifié en 1856.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Homme_de_Néandertal"
+    },
+    {
+      "q": "Comment qualifie-t-on l'art peint ou gravé sur les parois des grottes ?",
+      "choices": [
+        "Pariétal",
+        "Mobilier",
+        "Baroque",
+        "Roman"
+      ],
+      "answer": 0,
+      "explication": "Ce mot vient du latin paries, qui désigne la paroi ou le mur.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Art_pariétal"
+    },
+    {
+      "q": "Quel pigment naturel, riche en oxydes de fer, donne ses tons rouges et jaunes aux peintures préhistoriques ?",
+      "choices": [
+        "Le cobalt",
+        "L'indigo",
+        "Le lapis-lazuli",
+        "L'ocre"
+      ],
+      "answer": 3,
+      "explication": "Selon sa teneur en oxydes de fer, l'ocre varie du jaune au brun et au rouge.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Art_préhistorique"
+    },
+    {
+      "q": "Comment appelle-t-on la période située entre le Paléolithique et le Néolithique ?",
+      "choices": [
+        "Le Chalcolithique",
+        "Le Mésolithique",
+        "L'âge du bronze",
+        "L'Antiquité"
+      ],
+      "answer": 1,
+      "explication": "Elle correspond à des chasseurs-cueilleurs qui s'adaptent au réchauffement climatique qui suit la dernière glaciation.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mésolithique"
+    },
+    {
+      "q": "Quelle grotte d'Ardèche, découverte en 1994, abrite des peintures vieilles de plus de 30 000 ans ?",
+      "choices": [
+        "La grotte de Lascaux",
+        "La grotte de Niaux",
+        "La grotte Chauvet",
+        "La grotte Cosquer"
+      ],
+      "answer": 2,
+      "explication": "Elle est inscrite au patrimoine mondial de l'UNESCO depuis 2014.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Grotte_Chauvet"
+    },
+    {
+      "q": "Quelle grotte espagnole, découverte en 1879, a d'abord vu ses peintures jugées fausses par les préhistoriens ?",
+      "choices": [
+        "Lascaux",
+        "Chauvet",
+        "Ekain",
+        "Altamira"
+      ],
+      "answer": 3,
+      "explication": "L'archéologue français Émile Cartailhac a finalement reconnu son erreur en 1902.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Grotte_d%27Altamira"
+    },
+    {
+      "q": "Sur quel continent apparaissent les premiers Homo sapiens, il y a environ 300 000 ans ?",
+      "choices": [
+        "L'Afrique",
+        "L'Europe",
+        "L'Asie",
+        "L'Amérique"
+      ],
+      "answer": 0,
+      "explication": "Les fossiles de Djebel Irhoud, au Maroc, comptent parmi les plus anciens attribués à notre espèce.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Homo_sapiens"
+    },
+    {
+      "q": "Que signifie le nom latin d'Homo erectus ?",
+      "choices": [
+        "Homme habile",
+        "Homme sage",
+        "Homme debout",
+        "Homme des cavernes"
+      ],
+      "answer": 2,
+      "explication": "Les premiers restes d'« homme de Java » sont mis au jour par Eugène Dubois en 1891.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Homo_erectus"
+    },
+    {
+      "q": "Comment s'appelle l'outil de pierre taillée sur ses deux faces, en forme d'amande, typique de l'Acheuléen ?",
+      "choices": [
+        "Le burin",
+        "Le biface",
+        "Le grattoir",
+        "L'herminette"
+      ],
+      "answer": 1,
+      "explication": "Le nom d'Acheuléen vient du site de Saint-Acheul, près d'Amiens, dans la Somme.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Outils_de_la_Préhistoire"
+    },
+    {
+      "q": "Quel animal est considéré comme le premier domestiqué par les humains, avant même l'agriculture ?",
+      "choices": [
+        "Le chien",
+        "Le cheval",
+        "La vache",
+        "La chèvre"
+      ],
+      "answer": 0,
+      "explication": "Les plus anciens restes de chiens clairement identifiés, ceux de Bonn-Oberkassel, en Allemagne, ont environ 14 000 ans.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Domestication_des_animaux"
+    },
+    {
+      "q": "Quel dispositif de bois ou d'os permet de lancer une sagaie plus loin et plus fort ?",
+      "choices": [
+        "L'arbalète",
+        "La catapulte",
+        "Le boomerang",
+        "Le propulseur"
+      ],
+      "answer": 3,
+      "explication": "Il prolonge le bras du chasseur et augmente la vitesse du projectile ; il apparaît au Paléolithique supérieur.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Armement_préhistorique"
+    },
+    {
+      "q": "Dans quel département français découvre-t-on en 1868 les squelettes qui donnent leur nom à l'homme de Cro-Magnon ?",
+      "choices": [
+        "L'Ardèche",
+        "Le Lot",
+        "La Dordogne",
+        "L'Ariège"
+      ],
+      "answer": 2,
+      "explication": "Le site se trouve aux Eyzies, et le terme désigne les Homo sapiens du Paléolithique supérieur en Europe.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Homme_de_Cro-Magnon"
+    },
+    {
+      "q": "Quelle petite espèce humaine, décrite en 2004 d'après des fossiles de l'île de Florès, est surnommée « hobbit » par la presse ?",
+      "choices": [
+        "Homo habilis",
+        "Homo floresiensis",
+        "Homo naledi",
+        "Homo heidelbergensis"
+      ],
+      "answer": 1,
+      "explication": "Ses restes ont été trouvés dans la grotte de Liang Bua ; les adultes mesuraient environ un mètre de haut.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Homo_floresiensis"
+    },
+    {
+      "q": "Quelle culture du Paléolithique supérieur tire son nom d'un abri de la Dordogne, La Madeleine ?",
+      "choices": [
+        "L'Aurignacien",
+        "Le Solutréen",
+        "L'Acheuléen",
+        "Le Magdalénien"
+      ],
+      "answer": 3,
+      "explication": "Elle s'étend, en gros, d'environ 17 000 à 12 000 ans avant le présent.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Magdalénien"
+    },
+    {
+      "q": "Quelle méthode, mise au point par Willard Libby à la fin des années 1940, permet de dater des restes organiques jusqu'à environ 50 000 ans ?",
+      "choices": [
+        "Le carbone 14",
+        "La dendrochronologie",
+        "Le potassium-argon",
+        "La stratigraphie"
+      ],
+      "answer": 0,
+      "explication": "Libby a reçu le prix Nobel de chimie en 1960 pour cette découverte.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Datation_par_le_carbone_14"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur la préhistoire ?",
+      "Le quiz comprend 20 questions de difficulté croissante : huit faciles sur les grandes périodes et les sites célèbres, huit moyennes sur les outils, les grottes et les espèces humaines, puis quatre questions d'expert. Chaque réponse est suivie d'une courte explication, et tu peux rejouer à volonté."
+    ],
+    [
+      "Quelles sont les grandes périodes de la préhistoire ?",
+      "L'âge de la pierre se divise classiquement en trois périodes : le Paléolithique, ou âge de la pierre taillée, le plus long de tous ; le Mésolithique, période de transition marquée par le réchauffement climatique ; et le Néolithique, qui voit naître l'agriculture, l'élevage et les premiers villages. Viennent ensuite les âges des métaux, puis l'apparition de l'écriture, qui marque le début de l'histoire."
+    ],
+    [
+      "Pourquoi les dates de la préhistoire sont-elles approximatives ?",
+      "Les datations reposent sur des méthodes comme le carbone 14, efficace jusqu'à environ 50 000 ans, ou d'autres techniques pour les périodes plus anciennes. Chacune comporte une marge d'erreur, et de nouvelles découvertes ou analyses révisent régulièrement les résultats. C'est pourquoi on parle d'« environ » et de fourchettes plutôt que de dates exactes."
+    ]
+  ],
+  "related": [
+    "/quiz-dinosaures",
+    "/quiz-antiquite",
+    "/quiz-histoire",
+    "/quiz-sciences",
+    "/quiz-volcans"
+  ]
+}

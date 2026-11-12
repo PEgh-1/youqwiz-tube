@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-grammaire",
+  "theme": "langue",
+  "title": "Quiz grammaire : 20 questions de français",
+  "description": "Quiz grammaire : 20 questions sur la nature et la fonction des mots, les accords et les règles essentielles du français, avec explication à chaque réponse.",
+  "h1": "Quiz grammaire : maîtrises-tu les règles du français ?",
+  "intro": "Sujet, complément, adjectif, pronom relatif : la grammaire française a la réputation d'être redoutable, mais elle devient presque un jeu quand on la pratique en s'amusant. Ce quiz te propose 20 questions sur la nature et la fonction des mots, les accords et quelques règles qui piègent souvent, des plus simples aux plus pointues. Compte environ 5 secondes par question. Après chaque réponse, une courte explication te rappelle la règle ou t'apprend un détail à retenir. Idéal pour réviser, tester tes souvenirs d'école ou défier ta famille. Prêt à décrocher un sans-faute ?",
+  "questions": [
+    {
+      "q": "Dans « Le chat dort », quelle est la nature du mot « chat » ?",
+      "choices": [
+        "nom commun",
+        "verbe",
+        "adjectif",
+        "adverbe"
+      ],
+      "answer": 0,
+      "explication": "Un nom commun désigne une catégorie d'êtres ou de choses et s'emploie le plus souvent avec un déterminant, ici « le ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nom_(grammaire)"
+    },
+    {
+      "q": "Dans « Les enfants jouent dans le jardin », quel est le sujet du verbe « jouent » ?",
+      "choices": [
+        "le jardin",
+        "dans le jardin",
+        "Les enfants",
+        "jouent"
+      ],
+      "answer": 2,
+      "explication": "Le sujet répond à la question « qui est-ce qui ? » posée avant le verbe, et il commande l'accord de celui-ci.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sujet_(grammaire)"
+    },
+    {
+      "q": "Parmi ces mots, lequel est un article indéfini ?",
+      "choices": [
+        "le",
+        "un",
+        "ce",
+        "mon"
+      ],
+      "answer": 1,
+      "explication": "Un, une et des sont les articles indéfinis ; le, la et les sont des articles définis, tandis que ce et mon sont d'autres déterminants.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Article_indéfini"
+    },
+    {
+      "q": "Quelle forme prend l'adjectif « beau » devant un nom masculin commençant par une voyelle, comme « arbre » ?",
+      "choices": [
+        "beau",
+        "belle",
+        "beaux",
+        "bel"
+      ],
+      "answer": 3,
+      "explication": "Nouveau et vieux suivent la même règle : on dit « un nouvel an » et « un vieil homme ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Adjectif"
+    },
+    {
+      "q": "Lequel de ces mots est un pronom personnel ?",
+      "choices": [
+        "rouge",
+        "sous",
+        "elle",
+        "rapidement"
+      ],
+      "answer": 2,
+      "explication": "Je, tu, il, elle, nous, vous, ils et elles remplacent un nom ou désignent les personnes qui parlent.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pronom_personnel"
+    },
+    {
+      "q": "Dans « Les fleurs sont fanées », avec quel mot l'adjectif « fanées » s'accorde-t-il ?",
+      "choices": [
+        "fleurs",
+        "sont",
+        "fanées",
+        "aucun, il est invariable"
+      ],
+      "answer": 0,
+      "explication": "Avec le verbe être, l'adjectif attribut s'accorde en genre et en nombre avec le sujet.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Accord_(grammaire)"
+    },
+    {
+      "q": "Quelle est la nature du mot « mais » ?",
+      "choices": [
+        "préposition",
+        "adverbe",
+        "pronom",
+        "conjonction de coordination"
+      ],
+      "answer": 3,
+      "explication": "Mais, ou, et, donc, or, ni, car : ces sept mots forment la liste des conjonctions de coordination.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Conjonction_de_coordination"
+    },
+    {
+      "q": "Dans « sous la table », quelle est la nature du mot « sous » ?",
+      "choices": [
+        "adverbe",
+        "préposition",
+        "conjonction",
+        "déterminant"
+      ],
+      "answer": 1,
+      "explication": "Une préposition est invariable et introduit un complément, comme à, de, dans, sur, par ou pour.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Préposition"
+    },
+    {
+      "q": "Dans « Il parle à son voisin », quelle est la fonction du groupe « à son voisin » ?",
+      "choices": [
+        "complément d'objet direct",
+        "complément du nom",
+        "complément d'objet indirect",
+        "sujet"
+      ],
+      "answer": 2,
+      "explication": "Un complément d'objet indirect est relié au verbe par une préposition, souvent à ou de : « parler à qui ? ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Complément_d'objet_indirect"
+    },
+    {
+      "q": "Dans « Cette soupe semble délicieuse », quel mot est l'attribut du sujet ?",
+      "choices": [
+        "délicieuse",
+        "soupe",
+        "semble",
+        "Cette"
+      ],
+      "answer": 0,
+      "explication": "Les verbes d'état comme sembler, paraître, devenir ou rester introduisent un attribut du sujet, comme le verbe être.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Attribut_du_sujet"
+    },
+    {
+      "q": "Lequel de ces mots est invariable ?",
+      "choices": [
+        "petit",
+        "toujours",
+        "chanteur",
+        "heureuse"
+      ],
+      "answer": 1,
+      "explication": "Les adverbes, les prépositions, les conjonctions et les interjections ne changent jamais de forme.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mot_invariable"
+    },
+    {
+      "q": "Dans « Hier, nous sommes allés au cinéma », « Hier » est un complément circonstanciel de…",
+      "choices": [
+        "lieu",
+        "manière",
+        "cause",
+        "temps"
+      ],
+      "answer": 3,
+      "explication": "Un complément circonstanciel peut en général être déplacé ou supprimé sans que la phrase perde son sens.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Complément_circonstanciel"
+    },
+    {
+      "q": "Dans « Le livre que tu lis est passionnant », quelle est la proposition subordonnée relative ?",
+      "choices": [
+        "que tu lis",
+        "Le livre",
+        "est passionnant",
+        "livre que tu lis est"
+      ],
+      "answer": 0,
+      "explication": "Introduite par un pronom relatif, elle complète un nom appelé antécédent, ici « livre ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Proposition_subordonnée"
+    },
+    {
+      "q": "Lequel de ces noms est féminin ?",
+      "choices": [
+        "pétale",
+        "emblème",
+        "oasis",
+        "globule"
+      ],
+      "answer": 2,
+      "explication": "Pétale, emblème et globule sont masculins, ce qui trompe souvent, alors qu'on dit bien « une oasis ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Genre_grammatical"
+    },
+    {
+      "q": "Dans « Le film dont tu parles », quelle est la nature du mot « dont » ?",
+      "choices": [
+        "pronom personnel",
+        "conjonction de subordination",
+        "adverbe",
+        "pronom relatif"
+      ],
+      "answer": 3,
+      "explication": "Dont remplace un complément introduit par « de » : ici, on parle du film.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pronom_relatif"
+    },
+    {
+      "q": "Laquelle de ces phrases est à la voix passive ?",
+      "choices": [
+        "Le chat mange la souris.",
+        "La souris est mangée par le chat.",
+        "Le chat a mangé la souris.",
+        "La souris mange du fromage."
+      ],
+      "answer": 1,
+      "explication": "À la voix passive, le sujet subit l'action et le complément d'agent est souvent introduit par « par ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Voix_passive"
+    },
+    {
+      "q": "Dans « Il faut que tu viennes », quelle est la nature de la proposition « que tu viennes » ?",
+      "choices": [
+        "subordonnée complétive",
+        "subordonnée relative",
+        "subordonnée interrogative indirecte",
+        "proposition indépendante"
+      ],
+      "answer": 0,
+      "explication": "Une complétive complète le verbe qui la précède ; elle commence ici par la conjonction « que » et impose le subjonctif.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Proposition_subordonnée"
+    },
+    {
+      "q": "Dans « Pierre, viens ici ! », quelle est la fonction du mot « Pierre » ?",
+      "choices": [
+        "sujet du verbe",
+        "complément d'objet direct",
+        "complément du nom",
+        "mot en apostrophe"
+      ],
+      "answer": 3,
+      "explication": "Le mot en apostrophe désigne la personne à qui l'on s'adresse ; séparé par une virgule, il ne dépend d'aucun verbe.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Apostrophe_(rhétorique)"
+    },
+    {
+      "q": "Dans « Elle est tout étonnée », quelle est la nature du mot « tout » ?",
+      "choices": [
+        "adjectif",
+        "adverbe",
+        "pronom",
+        "nom"
+      ],
+      "answer": 1,
+      "explication": "Devant un adjectif féminin commençant par une voyelle, cet adverbe reste invariable ; il ne s'accorde que devant une consonne : « elle est toute surprise ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Adverbe"
+    },
+    {
+      "q": "Dans « Fatigué, Paul rentra chez lui », quelle est la fonction de « Fatigué » ?",
+      "choices": [
+        "attribut du sujet",
+        "complément du nom",
+        "épithète détachée",
+        "complément circonstanciel de lieu"
+      ],
+      "answer": 2,
+      "explication": "Séparé du nom par une virgule, l'adjectif apporte une précision sur le sujet, souvent avec une idée de cause.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Épithète"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz de grammaire ?",
+      "Le quiz progresse de la grammaire de base vers des notions plus fines. Les huit premières questions sont faciles et portent sur la nature des mots, les suivantes sont de niveau moyen avec les fonctions et les subordonnées, et les quatre dernières sont expertes. Chaque réponse est suivie d'une explication courte qui rappelle la règle et permet de progresser sans s'ennuyer."
+    ],
+    [
+      "Quelle est la différence entre la nature et la fonction d'un mot ?",
+      "La nature d'un mot est sa catégorie grammaticale, qui ne change pas : nom, verbe, adjectif, adverbe, préposition, pronom, conjonction ou déterminant. Sa fonction dépend de la place qu'il occupe dans la phrase : sujet, complément d'objet, attribut, complément circonstanciel, épithète. Un même nom peut donc avoir plusieurs fonctions selon les phrases où il apparaît."
+    ],
+    [
+      "Comment reconnaître un complément d'objet direct ?",
+      "Un complément d'objet direct se rattache au verbe sans préposition et répond aux questions « qui ? » ou « quoi ? » posées après le verbe. On peut aussi le remplacer par un pronom comme le, la, les ou en. Dans « Marie lit un roman », le groupe « un roman » devient « Marie le lit »."
+    ]
+  ],
+  "related": [
+    "/quiz-orthographe",
+    "/quiz-conjugaison",
+    "/quiz-langue-francaise",
+    "/quiz-vocabulaire",
+    "/quiz-litterature-francaise"
+  ]
+}

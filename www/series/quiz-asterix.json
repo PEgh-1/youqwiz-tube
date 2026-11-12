@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-asterix",
+  "theme": "culture",
+  "title": "Quiz Astérix : albums, personnages et auteurs",
+  "description": "Quiz Astérix : 20 questions sur les albums, les personnages du village gaulois et les auteurs Goscinny, Uderzo, Ferri et Conrad. Un défi pour les fans !",
+  "h1": "Quiz Astérix : es-tu un vrai Gaulois irréductible ?",
+  "intro": "Voici un quiz pour tous les fans du petit Gaulois et de son village d'Armorique ! Ces 20 questions explorent l'univers d'Astérix : les albums, les habitants du village, les ennemis romains et les auteurs qui ont fait vivre la série, de René Goscinny et Albert Uderzo à leurs successeurs. Les premières questions sont accessibles à tous, les dernières réservées aux lecteurs les plus attentifs. Après chaque réponse, une courte explication t'apprend un fait de plus sur la série. Joue seul, en famille ou entre amis, et prouve que tu connais la potion magique de la BD sur le bout des doigts !",
+  "questions": [
+    {
+      "q": "Dans quelle région de la Gaule se trouve le village d'Astérix ?",
+      "choices": [
+        "L'Armorique",
+        "L'Aquitaine",
+        "La Provence",
+        "La Lorraine"
+      ],
+      "answer": 0,
+      "explication": "Cette région correspond à l'actuelle Bretagne et à ses environs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Armorique"
+    },
+    {
+      "q": "Comment s'appelle le petit chien d'Obélix ?",
+      "choices": [
+        "Milou",
+        "Rantanplan",
+        "Idéfix",
+        "Pif"
+      ],
+      "answer": 2,
+      "explication": "Son nom est un jeu de mots sur l'expression « idée fixe ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Idéfix"
+    },
+    {
+      "q": "Quel est le nom du druide du village ?",
+      "choices": [
+        "Assurancetourix",
+        "Abraracourcix",
+        "Cétautomatix",
+        "Panoramix"
+      ],
+      "answer": 3,
+      "explication": "Il prépare la potion magique qui donne une force surhumaine.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Panoramix"
+    },
+    {
+      "q": "Quel est le nom du barde du village, souvent réduit au silence ?",
+      "choices": [
+        "Cétautomatix",
+        "Assurancetourix",
+        "Ordralfabétix",
+        "Bonemine"
+      ],
+      "answer": 1,
+      "explication": "À la fin de nombreux albums, il est bâillonné et attaché à un arbre pendant le banquet.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Assurancetourix"
+    },
+    {
+      "q": "Comment s'appelle le chef du village gaulois ?",
+      "choices": [
+        "Vercingétorix",
+        "Abraracourcix",
+        "Agecanonix",
+        "Ordralfabétix"
+      ],
+      "answer": 1,
+      "explication": "Il est porté sur un bouclier par deux guerriers lors des cérémonies.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Abraracourcix"
+    },
+    {
+      "q": "Quel scénariste a créé Astérix avec Albert Uderzo ?",
+      "choices": [
+        "Jean-Michel Charlier",
+        "Morris",
+        "Greg",
+        "René Goscinny"
+      ],
+      "answer": 3,
+      "explication": "Il a aussi écrit Lucky Luke et Le Petit Nicolas.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/René_Goscinny"
+    },
+    {
+      "q": "Quel dessinateur a donné ses traits à Astérix et Obélix ?",
+      "choices": [
+        "Hergé",
+        "Franquin",
+        "Albert Uderzo",
+        "Jean Giraud"
+      ],
+      "answer": 2,
+      "explication": "Avec Goscinny, il a aussi créé le personnage d'Oumpah-Pah.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Albert_Uderzo"
+    },
+    {
+      "q": "Quel est le métier d'Obélix ?",
+      "choices": [
+        "Tailleur de menhirs",
+        "Forgeron",
+        "Poissonnier",
+        "Charpentier"
+      ],
+      "answer": 0,
+      "explication": "Il livre aussi ses menhirs, qu'il porte sur son dos.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Obélix"
+    },
+    {
+      "q": "Dans quel magazine Astérix paraît-il pour la première fois, en 1959 ?",
+      "choices": [
+        "Spirou",
+        "Tintin",
+        "Vaillant",
+        "Pilote"
+      ],
+      "answer": 3,
+      "explication": "Pilote a été fondé notamment par Goscinny, Uderzo et Jean-Michel Charlier.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pilote_(magazine)"
+    },
+    {
+      "q": "Quel est le titre du tout premier album de la série, publié en 1961 ?",
+      "choices": [
+        "Astérix et Cléopâtre",
+        "Astérix le Gaulois",
+        "La Serpe d'or",
+        "Astérix gladiateur"
+      ],
+      "answer": 1,
+      "explication": "La Serpe d'or, deuxième album, paraît en 1962.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Astérix_le_Gaulois_(album)"
+    },
+    {
+      "q": "Dans quel album les héros parcourent-ils la Gaule pour rapporter des spécialités locales ?",
+      "choices": [
+        "Le Tour de Gaule d'Astérix",
+        "Astérix légionnaire",
+        "Astérix chez les Helvètes",
+        "Astérix et les Normands"
+      ],
+      "answer": 0,
+      "explication": "Idéfix, le chien d'Obélix, fait sa première apparition dans cet album.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Tour_de_Gaule_d'Astérix"
+    },
+    {
+      "q": "Quel architecte égyptien est aidé par Panoramix dans l'album Astérix et Cléopâtre ?",
+      "choices": [
+        "Amonbofis",
+        "Tournevis",
+        "Numérobis",
+        "Jolitorax"
+      ],
+      "answer": 2,
+      "explication": "Il doit construire un palais en trois mois pour la reine d'Égypte.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Astérix_et_Cléopâtre"
+    },
+    {
+      "q": "Comment s'appelle le chef des pirates dont le navire est régulièrement coulé ?",
+      "choices": [
+        "Barbe-Noire",
+        "Jolly Roger",
+        "Barbe-Rouge",
+        "Capitaine Crochet"
+      ],
+      "answer": 2,
+      "explication": "Uderzo rend ainsi hommage à la série Barbe-Rouge de Charlier et Hubinon, lancée dans le premier numéro de Pilote.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pirates_(Astérix)"
+    },
+    {
+      "q": "Quel est le métier de Cétautomatix ?",
+      "choices": [
+        "Poissonnier",
+        "Aubergiste",
+        "Marchand",
+        "Forgeron"
+      ],
+      "answer": 3,
+      "explication": "Il se dispute sans cesse avec le poissonnier Ordralfabétix.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cétautomatix"
+    },
+    {
+      "q": "De quel personnage Obélix tombe-t-il amoureux dans Astérix légionnaire ?",
+      "choices": [
+        "Bonemine",
+        "Falbala",
+        "Cléopâtre",
+        "Panacée"
+      ],
+      "answer": 1,
+      "explication": "Son fiancé Tragicomix a été enrôlé dans l'armée romaine.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Falbala"
+    },
+    {
+      "q": "Combien de camps romains retranchés entourent le village gaulois ?",
+      "choices": [
+        "Quatre",
+        "Deux",
+        "Trois",
+        "Six"
+      ],
+      "answer": 0,
+      "explication": "Ils s'appellent Babaorum, Aquarium, Laudanum et Petibonum.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Liste_des_camps_romains_d'Astérix_le_Gaulois"
+    },
+    {
+      "q": "Quel album, paru en 2013, est le premier réalisé par Jean-Yves Ferri et Didier Conrad ?",
+      "choices": [
+        "Le Papyrus de César",
+        "La Transitalique",
+        "Astérix et le Griffon",
+        "Astérix chez les Pictes"
+      ],
+      "answer": 3,
+      "explication": "Il emmène les héros en Calédonie, l'actuelle Écosse.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Astérix_chez_les_Pictes"
+    },
+    {
+      "q": "Quel faux devin, charlatan, est le personnage central de l'album Le Devin ?",
+      "choices": [
+        "Panacée",
+        "Tragicomix",
+        "Prolix",
+        "Aventurépix"
+      ],
+      "answer": 2,
+      "explication": "L'album paraît en 1972 et Prolix y est démasqué par Astérix et Obélix.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Devin"
+    },
+    {
+      "q": "De quel pays étaient originaires les parents d'Albert Uderzo ?",
+      "choices": [
+        "L'Italie",
+        "L'Espagne",
+        "La Belgique",
+        "La Pologne"
+      ],
+      "answer": 0,
+      "explication": "Il est né à Fismes, dans la Marne, de parents italiens.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Albert_Uderzo"
+    },
+    {
+      "q": "Quel album de 1976 voit Obélix profiter d'une spéculation sur les menhirs ?",
+      "choices": [
+        "Le Cadeau de César",
+        "Obélix et Compagnie",
+        "La Grande Traversée",
+        "Astérix en Corse"
+      ],
+      "answer": 1,
+      "explication": "Le monde de l'entreprise romaine y est tourné en dérision.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Obélix_et_Compagnie"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Astérix ?",
+      "Le quiz compte 20 questions classées par difficulté : 8 faciles sur les personnages du village et les créateurs, 8 de niveau moyen sur les albums et les personnages secondaires, puis 4 questions expertes pour les lecteurs les plus assidus. Chaque réponse est suivie d'une explication qui t'apprend un détail supplémentaire."
+    ],
+    [
+      "Qui a créé Astérix, et quand ?",
+      "Astérix est créé en 1959 par le scénariste René Goscinny et le dessinateur Albert Uderzo. Le petit Gaulois apparaît d'abord dans le premier numéro de l'hebdomadaire Pilote, le 29 octobre 1959. Le premier album, Astérix le Gaulois, paraît en 1961. La série est ensuite devenue l'une des bandes dessinées européennes les plus traduites."
+    ],
+    [
+      "Qui a repris la série après Goscinny ?",
+      "René Goscinny meurt en 1977 et Albert Uderzo poursuit seul la série, en écrivant et en dessinant les albums. En 2013, il confie le relais à Jean-Yves Ferri, au scénario, et à Didier Conrad, au dessin. Albert Uderzo est mort en 2020. Les albums continuent de paraître avec de nouveaux auteurs."
+    ]
+  ],
+  "related": [
+    "/quiz-bande-dessinee",
+    "/quiz-tintin",
+    "/quiz-films",
+    "/quiz-dessins-animes",
+    "/quiz-antiquite"
+  ]
+}

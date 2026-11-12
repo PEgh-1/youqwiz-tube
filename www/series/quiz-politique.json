@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-politique",
+  "theme": "histoire",
+  "title": "Quiz politique : institutions et histoire",
+  "description": "Quiz politique : 20 questions sur les institutions françaises, le vocabulaire politique et les grandes dates de la Ve République, du facile à l'expert.",
+  "h1": "Quiz politique : connais-tu vraiment les institutions et l'histoire de la Ve République ?",
+  "intro": "Président, Premier ministre, Parlement, Conseil constitutionnel, référendum, cohabitation : le vocabulaire politique semble familier, mais le connais-tu vraiment ? Ce quiz te propose 20 questions sur le fonctionnement des institutions françaises, les grandes dates de la Ve République et quelques repères de l'histoire politique jusqu'aux années 2000. Tout reste factuel et neutre : on parle de textes, de dates et de mots, jamais d'opinions ni d'actualité. Les huit premières questions sont accessibles à tous, les suivantes montent en difficulté. Après chaque réponse, une courte explication t'apprend un détail utile. À toi de jouer !",
+  "questions": [
+    {
+      "q": "En quelle année la Constitution de la Ve République est-elle adoptée ?",
+      "choices": [
+        "1946",
+        "1958",
+        "1962",
+        "1974"
+      ],
+      "answer": 1,
+      "explication": "Elle est approuvée par référendum le 28 septembre 1958, puis promulguée le 4 octobre de la même année.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Constitution_du_4_octobre_1958"
+    },
+    {
+      "q": "Quelle assemblée du Parlement français est élue au suffrage universel direct ?",
+      "choices": [
+        "Le Sénat",
+        "L'Assemblée nationale",
+        "Le Conseil constitutionnel",
+        "Le Conseil d'État"
+      ],
+      "answer": 1,
+      "explication": "Les sénateurs, eux, sont élus au suffrage indirect par des grands électeurs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Assemblée_nationale_(France)"
+    },
+    {
+      "q": "Comment appelle-t-on le vote par lequel les citoyens répondent par oui ou par non à une question qui leur est posée ?",
+      "choices": [
+        "Un référendum",
+        "Un plébiscite parlementaire",
+        "Un quorum",
+        "Un amendement"
+      ],
+      "answer": 0,
+      "explication": "L'article 11 de la Constitution de 1958 permet au président de la République de soumettre certains projets au référendum.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Référendum_en_France"
+    },
+    {
+      "q": "Qui est le premier président de la Ve République élu au suffrage universel direct, en décembre 1965 ?",
+      "choices": [
+        "Georges Pompidou",
+        "Valéry Giscard d'Estaing",
+        "François Mitterrand",
+        "Charles de Gaulle"
+      ],
+      "answer": 3,
+      "explication": "Il est mis en ballottage au premier tour, puis l'emporte au second tour face à François Mitterrand.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1965"
+    },
+    {
+      "q": "Dans quel palais siège l'Assemblée nationale ?",
+      "choices": [
+        "Le palais du Luxembourg",
+        "L'hôtel de Matignon",
+        "Le Palais Bourbon",
+        "Le Palais-Royal"
+      ],
+      "answer": 2,
+      "explication": "Sa façade à colonnade date de l'époque napoléonienne, bien après la construction de l'hôtel au XVIIIe siècle.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Palais_Bourbon"
+    },
+    {
+      "q": "Comment s'appelle le chef du gouvernement en France ?",
+      "choices": [
+        "Le président du Sénat",
+        "Le garde des Sceaux",
+        "Le président de l'Assemblée",
+        "Le Premier ministre"
+      ],
+      "answer": 3,
+      "explication": "Il est nommé par le président de la République, en vertu de l'article 8 de la Constitution.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Premier_ministre_(France)"
+    },
+    {
+      "q": "En quelle année les Françaises obtiennent-elles le droit de vote par une ordonnance ?",
+      "choices": [
+        "1848",
+        "1944",
+        "1914",
+        "1968"
+      ],
+      "answer": 1,
+      "explication": "Elles votent pour la première fois lors des élections municipales d'avril 1945.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Droit_de_vote_des_femmes"
+    },
+    {
+      "q": "Comment nomme-t-on la situation où le président de la République et la majorité de l'Assemblée nationale sont d'orientations politiques différentes ?",
+      "choices": [
+        "La coalition",
+        "La cohabitation",
+        "L'alternance",
+        "La dissolution"
+      ],
+      "answer": 1,
+      "explication": "La première cohabitation de la Ve République commence en 1986, après les élections législatives.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cohabitation_(politique)"
+    },
+    {
+      "q": "Quel article de la Constitution de 1958 donne au président des pouvoirs exceptionnels en cas de menace grave ?",
+      "choices": [
+        "L'article 11",
+        "L'article 49",
+        "L'article 16",
+        "L'article 89"
+      ],
+      "answer": 2,
+      "explication": "Il n'a été appliqué qu'une fois, d'avril à septembre 1961, après le putsch des généraux à Alger.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Article_16_de_la_Constitution_de_la_Cinquième_République_française"
+    },
+    {
+      "q": "En quelle année un référendum ramène-t-il le mandat présidentiel de sept à cinq ans ?",
+      "choices": [
+        "1995",
+        "2002",
+        "2008",
+        "2000"
+      ],
+      "answer": 3,
+      "explication": "Le oui dépasse 70 % des suffrages exprimés, mais la participation est très faible.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Référendum_constitutionnel_français_de_2000"
+    },
+    {
+      "q": "En quelle année un référendum décide-t-il que le président sera élu au suffrage universel direct ?",
+      "choices": [
+        "1962",
+        "1958",
+        "1969",
+        "1974"
+      ],
+      "answer": 0,
+      "explication": "Le oui l'emporte à plus de 60 % lors du scrutin du 28 octobre 1962.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Référendum_constitutionnel_français_de_1962"
+    },
+    {
+      "q": "Quelle institution contrôle la conformité des lois à la Constitution ?",
+      "choices": [
+        "Le Conseil constitutionnel",
+        "La Cour des comptes",
+        "Le Conseil d'État",
+        "La Cour de cassation"
+      ],
+      "answer": 0,
+      "explication": "Créé en 1958, il siège au Palais-Royal, à Paris.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Conseil_constitutionnel_(France)"
+    },
+    {
+      "q": "Quel mode de scrutin désigne les députés lors des élections législatives de 1958 à 1981 ?",
+      "choices": [
+        "Le tirage au sort parmi les électeurs",
+        "La proportionnelle intégrale sur liste nationale",
+        "Le vote par des grands électeurs",
+        "Le scrutin uninominal majoritaire à deux tours"
+      ],
+      "answer": 3,
+      "explication": "Ce mode de scrutin par circonscription est abandonné une seule fois, en 1986, au profit d'un scrutin proportionnel organisé par département.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Scrutin_uninominal_majoritaire_à_deux_tours"
+    },
+    {
+      "q": "Qui est le premier Premier ministre de la Ve République, nommé en janvier 1959 ?",
+      "choices": [
+        "Georges Pompidou",
+        "Maurice Couve de Murville",
+        "Michel Debré",
+        "Pierre Mendès France"
+      ],
+      "answer": 2,
+      "explication": "Garde des Sceaux de De Gaulle, il est l'un des principaux rédacteurs de la Constitution de 1958.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Michel_Debré"
+    },
+    {
+      "q": "En quelle année François Mitterrand est-il élu président de la République pour la première fois ?",
+      "choices": [
+        "1974",
+        "1988",
+        "1995",
+        "1981"
+      ],
+      "answer": 3,
+      "explication": "Son élection, le 10 mai 1981, marque la première alternance de la Ve République.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Élection_présidentielle_française_de_1981"
+    },
+    {
+      "q": "Comment appelle-t-on le texte voté par le Parlement qui fixe chaque année les recettes et les dépenses de l'État ?",
+      "choices": [
+        "La loi de finances",
+        "La loi organique",
+        "La loi d'orientation",
+        "La loi de ratification"
+      ],
+      "answer": 0,
+      "explication": "Le projet est déposé par le gouvernement à l'automne, pour une application au 1er janvier suivant.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Loi_de_finances_en_France"
+    },
+    {
+      "q": "Dans quel délai le président de la République doit-il promulguer une loi définitivement adoptée, selon l'article 10 de la Constitution de 1958 ?",
+      "choices": [
+        "Huit jours",
+        "Un mois",
+        "Quinze jours",
+        "Soixante jours"
+      ],
+      "answer": 2,
+      "explication": "Avant la fin de ce délai, il peut demander au Parlement une nouvelle délibération de la loi, qui ne peut pas être refusée.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Article_10_de_la_Constitution_de_la_Cinquième_République_française"
+    },
+    {
+      "q": "Quel Premier ministre est renversé par une motion de censure en octobre 1962 ?",
+      "choices": [
+        "Michel Debré",
+        "Maurice Couve de Murville",
+        "Georges Pompidou",
+        "Jacques Chaban-Delmas"
+      ],
+      "answer": 2,
+      "explication": "De Gaulle répond en dissolvant l'Assemblée nationale, puis le reconduit à Matignon après les élections de novembre.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Motion_de_censure_du_4_octobre_1962_en_France"
+    },
+    {
+      "q": "En quelle année la saisine du Conseil constitutionnel est-elle ouverte à soixante députés ou soixante sénateurs ?",
+      "choices": [
+        "1958",
+        "1974",
+        "1971",
+        "1981"
+      ],
+      "answer": 1,
+      "explication": "Cette révision constitutionnelle du 29 octobre 1974 élargit la saisine, jusque-là réservée au président de la République, au Premier ministre et aux présidents des deux assemblées.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Article_61_de_la_Constitution_de_la_Cinquième_République_française"
+    },
+    {
+      "q": "Quel président du Conseil de la IVe République signe la fin de la guerre d'Indochine en juillet 1954 ?",
+      "choices": [
+        "Guy Mollet",
+        "Edgar Faure",
+        "Pierre Mendès France",
+        "René Pleven"
+      ],
+      "answer": 2,
+      "explication": "Les accords de Genève partagent le Viêt Nam en deux au niveau du 17e parallèle.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pierre_Mendès_France"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz politique ?",
+      "Le quiz progresse en trois étapes : huit questions faciles sur le vocabulaire et les institutions, huit questions moyennes sur les textes et les dates de la Ve République, puis quatre questions expert sur des épisodes et des procédures précis. Chaque réponse est suivie d'une explication, ce qui permet d'apprendre même quand on se trompe."
+    ],
+    [
+      "Quelle est la différence entre le président de la République et le Premier ministre ?",
+      "Le président de la République, élu au suffrage universel direct, est le chef de l'État : il nomme le Premier ministre, promulgue les lois et peut dissoudre l'Assemblée nationale. Le Premier ministre dirige le gouvernement, qui détermine et conduit la politique de la nation selon l'article 20 de la Constitution."
+    ],
+    [
+      "Qu'est-ce que la Ve République ?",
+      "C'est le régime politique en vigueur en France depuis la Constitution de 1958, qui succède à la IVe République. Il repose sur un président élu, depuis la révision de 1962, au suffrage universel direct et sur un gouvernement responsable devant l'Assemblée nationale. Le Parlement vote la loi et contrôle l'action du gouvernement."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire-de-france",
+    "/quiz-revolution-francaise",
+    "/quiz-union-europeenne",
+    "/quiz-guerre-froide",
+    "/quiz-xxe-siecle"
+  ]
+}

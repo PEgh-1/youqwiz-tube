@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-litterature-francaise",
+  "theme": "culture",
+  "title": "Quiz littérature française : auteurs et œuvres",
+  "description": "Quiz littérature française : 20 questions sur les grands auteurs et les œuvres françaises, du Moyen Âge à nos jours, avec explication après chaque réponse.",
+  "h1": "Quiz littérature française : reconnais-tu les grands auteurs ?",
+  "intro": "Hugo, Zola, Rabelais, Yourcenar : la littérature française aligne des noms qui ont marqué plusieurs siècles. Ce quiz te propose 20 questions pour retrouver l'auteur d'un roman, d'une pièce ou d'un recueil de poèmes, des classiques de l'école aux références plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail sur la vie de l'écrivain ou sur son œuvre. Seul, en famille ou entre amis, c'est l'occasion de tester ta culture littéraire. Es-tu prêt à décrocher le sans-faute ?",
+  "questions": [
+    {
+      "q": "Quel écrivain est l'auteur de Notre-Dame de Paris, roman publié en 1831 ?",
+      "choices": [
+        "Alphonse de Lamartine",
+        "Victor Hugo",
+        "Alfred de Vigny",
+        "Alfred de Musset"
+      ],
+      "answer": 1,
+      "explication": "Le succès du roman a relancé l'intérêt pour la cathédrale, dont la grande restauration commence en 1844.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Notre-Dame_de_Paris_(roman)"
+    },
+    {
+      "q": "Qui a écrit Vingt mille lieues sous les mers, où le capitaine Nemo commande le Nautilus ?",
+      "choices": [
+        "H. G. Wells",
+        "Maurice Leblanc",
+        "Gaston Leroux",
+        "Jules Verne"
+      ],
+      "answer": 3,
+      "explication": "Paru en 1870, ce roman fait partie des Voyages extraordinaires, la grande série de Jules Verne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jules_Verne"
+    },
+    {
+      "q": "Quel romancier est l'auteur de Germinal, dont l'action se déroule dans une mine du Nord ?",
+      "choices": [
+        "Émile Zola",
+        "Octave Mirbeau",
+        "Joris-Karl Huysmans",
+        "Eugène Sue"
+      ],
+      "answer": 0,
+      "explication": "Germinal fait partie des Rougon-Macquart, cycle de vingt romans consacré à une famille sous le Second Empire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Émile_Zola"
+    },
+    {
+      "q": "Qui a écrit Lettres de mon moulin, recueil de contes provençaux ?",
+      "choices": [
+        "Jean Giono",
+        "Frédéric Mistral",
+        "Alphonse Daudet",
+        "Jean Aicard"
+      ],
+      "answer": 2,
+      "explication": "Alphonse Daudet est aussi le créateur de Tartarin de Tarascon, héros fanfaron du Midi.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Alphonse_Daudet"
+    },
+    {
+      "q": "Qui est l'auteur de Candide ou l'Optimisme, conte philosophique de 1759 ?",
+      "choices": [
+        "Montesquieu",
+        "Denis Diderot",
+        "Jean-Jacques Rousseau",
+        "Voltaire"
+      ],
+      "answer": 3,
+      "explication": "Voltaire y critique l'optimisme de Leibniz, après le terrible tremblement de terre de Lisbonne en 1755.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Voltaire"
+    },
+    {
+      "q": "Quel écrivain est l'auteur de Bel-Ami, roman publié en 1885 ?",
+      "choices": [
+        "Prosper Mérimée",
+        "Guy de Maupassant",
+        "Théophile Gautier",
+        "Anatole France"
+      ],
+      "answer": 1,
+      "explication": "Maupassant était un disciple et un ami de Gustave Flaubert, qui l'a guidé dans ses débuts.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Guy_de_Maupassant"
+    },
+    {
+      "q": "Quel auteur a écrit La Gloire de mon père, souvenirs d'enfance parus en 1957 ?",
+      "choices": [
+        "Jean Giono",
+        "Henri Bosco",
+        "Marcel Pagnol",
+        "Jean Anouilh"
+      ],
+      "answer": 2,
+      "explication": "Pagnol fut aussi cinéaste, et il est élu à l'Académie française en 1946.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Marcel_Pagnol"
+    },
+    {
+      "q": "Quel dramaturge est l'auteur du Cid, pièce jouée en 1637 ?",
+      "choices": [
+        "Pierre Corneille",
+        "Jean Racine",
+        "Molière",
+        "Jean Rotrou"
+      ],
+      "answer": 0,
+      "explication": "Le succès de la pièce déclenche la querelle du Cid, sur laquelle l'Académie française, créée en 1635, est priée de donner son avis.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pierre_Corneille"
+    },
+    {
+      "q": "Quelle écrivaine a reçu le prix Goncourt en 1954 pour son roman Les Mandarins ?",
+      "choices": [
+        "Colette",
+        "Marguerite Duras",
+        "George Sand",
+        "Simone de Beauvoir"
+      ],
+      "answer": 3,
+      "explication": "Elle est aussi l'auteure du Deuxième Sexe, essai publié en 1949 qui a marqué la pensée féministe.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Simone_de_Beauvoir"
+    },
+    {
+      "q": "Quel poète a publié le recueil Alcools en 1913 ?",
+      "choices": [
+        "Paul Éluard",
+        "Guillaume Apollinaire",
+        "Paul Valéry",
+        "Paul Verlaine"
+      ],
+      "answer": 1,
+      "explication": "Il emploie le mot « surréalisme » dès 1917, avant la naissance du mouvement qui le popularisera.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Guillaume_Apollinaire"
+    },
+    {
+      "q": "Qui a réuni ses romans dans un vaste ensemble intitulé La Comédie humaine ?",
+      "choices": [
+        "Honoré de Balzac",
+        "Eugène Sue",
+        "Théophile Gautier",
+        "Alfred de Musset"
+      ],
+      "answer": 0,
+      "explication": "Ce projet réunit des romans et nouvelles comme Le Père Goriot ou Eugénie Grandet.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Honoré_de_Balzac"
+    },
+    {
+      "q": "Quel écrivain humaniste du XVIe siècle a créé les géants Gargantua et Pantagruel ?",
+      "choices": [
+        "Clément Marot",
+        "Pierre de Ronsard",
+        "François Rabelais",
+        "Agrippa d'Aubigné"
+      ],
+      "answer": 2,
+      "explication": "Rabelais était aussi médecin, et son nom a donné l'adjectif « rabelaisien ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/François_Rabelais"
+    },
+    {
+      "q": "Quelle écrivaine a été, en 1980, la première femme élue à l'Académie française ?",
+      "choices": [
+        "Marguerite Yourcenar",
+        "Colette",
+        "Marguerite Duras",
+        "Nathalie Sarraute"
+      ],
+      "answer": 0,
+      "explication": "Elle est l'auteure des Mémoires d'Hadrien, roman publié en 1951.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Marguerite_Yourcenar"
+    },
+    {
+      "q": "Quel poète a écrit Une saison en enfer, publiée en 1873 ?",
+      "choices": [
+        "Stéphane Mallarmé",
+        "Paul Verlaine",
+        "Arthur Rimbaud",
+        "Lautréamont"
+      ],
+      "answer": 2,
+      "explication": "Il a renoncé à la poésie très jeune, autour de ses vingt ans.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Arthur_Rimbaud"
+    },
+    {
+      "q": "Quelle romancière a publié Bonjour tristesse en 1954, à l'âge de 18 ans ?",
+      "choices": [
+        "Elsa Triolet",
+        "Françoise Sagan",
+        "Christiane Rochefort",
+        "Louise de Vilmorin"
+      ],
+      "answer": 1,
+      "explication": "Son pseudonyme est emprunté à un personnage de Marcel Proust, la princesse de Sagan.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Françoise_Sagan"
+    },
+    {
+      "q": "Quelle romancière est l'auteure de La Princesse de Clèves, publiée anonymement en 1678 ?",
+      "choices": [
+        "Madame de Sévigné",
+        "Madame de Staël",
+        "Marguerite de Navarre",
+        "Madame de La Fayette"
+      ],
+      "answer": 3,
+      "explication": "Ce roman est considéré comme l'un des premiers grands romans d'analyse psychologique de la littérature française.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Madame_de_La_Fayette"
+    },
+    {
+      "q": "Quel écrivain a publié le roman épistolaire Les Liaisons dangereuses en 1782 ?",
+      "choices": [
+        "Denis Diderot",
+        "Pierre Choderlos de Laclos",
+        "l'abbé Prévost",
+        "Jean-Jacques Rousseau"
+      ],
+      "answer": 1,
+      "explication": "Officier d'artillerie de métier, Laclos n'a écrit qu'un seul roman.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pierre_Choderlos_de_Laclos"
+    },
+    {
+      "q": "Quel dramaturge du XVIIIe siècle a écrit Le Jeu de l'amour et du hasard, créé en 1730 ?",
+      "choices": [
+        "Marivaux",
+        "Beaumarchais",
+        "Alfred de Musset",
+        "Jean-François Regnard"
+      ],
+      "answer": 0,
+      "explication": "Son style fin et nuancé a donné le mot « marivaudage ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Marivaux"
+    },
+    {
+      "q": "Quel écrivain est le seul à avoir reçu deux fois le prix Goncourt, en 1956 et en 1975, sous deux noms différents ?",
+      "choices": [
+        "Georges Perec",
+        "Boris Vian",
+        "Jean Giono",
+        "Romain Gary"
+      ],
+      "answer": 3,
+      "explication": "Sa seconde identité, Émile Ajar, n'a été dévoilée qu'après sa mort en 1980.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Romain_Gary"
+    },
+    {
+      "q": "Quel poète de la Pléiade est l'auteur du recueil Les Regrets, écrit lors de son séjour à Rome ?",
+      "choices": [
+        "Pierre de Ronsard",
+        "Rémy Belleau",
+        "Joachim du Bellay",
+        "Jean-Antoine de Baïf"
+      ],
+      "answer": 2,
+      "explication": "Il a aussi signé en 1549 la Défense et illustration de la langue française, manifeste de la Pléiade.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Joachim_du_Bellay"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz de littérature française ?",
+      "Les huit premières questions portent sur des œuvres et des auteurs très connus, souvent étudiés au collège. Les huit suivantes explorent des poètes, des romancières et des écrivains de la Renaissance. Les quatre dernières sont expertes. Chaque réponse est suivie d'une explication qui précise un fait sur l'auteur ou son époque."
+    ],
+    [
+      "Qu'est-ce que la Pléiade ?",
+      "La Pléiade est un groupe de poètes français du XVIe siècle, animé par Pierre de Ronsard et Joachim du Bellay. Leur manifeste, la Défense et illustration de la langue française, paraît en 1549. Ils veulent enrichir le français en imitant les auteurs antiques et italiens, et ils popularisent des formes comme le sonnet et l'ode."
+    ],
+    [
+      "Qui était la première femme à l'Académie française ?",
+      "Marguerite Yourcenar est la première femme élue à l'Académie française, en 1980, au fauteuil de Roger Caillois. L'institution, fondée en 1635 sous Richelieu, comptait depuis ses débuts uniquement des hommes. Yourcenar est connue pour ses Mémoires d'Hadrien, publiés en 1951, et pour L'Œuvre au noir."
+    ]
+  ],
+  "related": [
+    "/quiz-litterature",
+    "/quiz-langue-francaise",
+    "/quiz-grammaire",
+    "/quiz-histoire-de-france",
+    "/quiz-peinture"
+  ]
+}

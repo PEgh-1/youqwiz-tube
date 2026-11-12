@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "Le préfixe « hexa » signifie six en grec. C'est pourquoi on surnomme la France « l'Hexagone », en raison de sa forme.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hexagone"
     },
     {
       "q": "Quel est le plus grand océan du monde ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "Le Pacifique couvre à lui seul près d'un tiers de la surface du globe.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Océan_Pacifique"
     },
     {
       "q": "Qui a peint la Joconde ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Léonard de Vinci a peint ce portrait au début du XVIe siècle ; il est exposé au musée du Louvre à Paris.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/La_Joconde"
     },
     {
       "q": "Quelle planète est surnommée la planète rouge ?",
@@ -52,19 +55,21 @@
       ],
       "answer": 0,
       "explication": "Mars doit sa couleur rouille à l'oxyde de fer présent à sa surface.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mars_(planète)"
     },
     {
-      "q": "Quelle est la capitale de l'Italie ?",
+      "q": "Quel est le résultat de 7 × 8 ?",
       "choices": [
-        "Milan",
-        "Venise",
-        "Naples",
-        "Rome"
+        "54",
+        "63",
+        "48",
+        "56"
       ],
       "answer": 3,
-      "explication": "Rome est la capitale de l'Italie depuis 1871, et abrite aussi le Vatican en son sein.",
-      "level": "facile"
+      "explication": "Pour s'en souvenir : la suite 5, 6, 7, 8 donne 56 = 7 × 8.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
     },
     {
       "q": "Quel fleuve traverse Paris ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 3,
       "explication": "La Seine traverse la capitale avant de se jeter dans la Manche, près du Havre.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Seine"
     },
     {
       "q": "Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 3,
       "explication": "Une équipe de football compte onze joueurs sur le terrain, gardien de but compris.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Football"
     },
     {
       "q": "Qui est l'auteur des « Misérables » ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 1,
       "explication": "Victor Hugo publie ce grand roman en 1862, avec les personnages de Jean Valjean et de Cosette.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Misérables"
     },
     {
       "q": "Quel est le plus grand mammifère terrestre ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 2,
       "explication": "L'éléphant d'Afrique peut dépasser 6 tonnes ; la baleine bleue, plus grande encore, vit dans l'océan.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Éléphant_de_savane_d'Afrique"
     },
     {
       "q": "En quelle année éclate la Révolution française ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 0,
       "explication": "La prise de la Bastille a lieu le 14 juillet 1789, événement qui devient le symbole de la Révolution.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Révolution_française"
     },
     {
       "q": "Quel gaz les humains ont-ils besoin de respirer pour vivre ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 2,
       "explication": "L'air contient environ 21 % d'oxygène, indispensable à notre organisme.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Oxygène"
     },
     {
       "q": "Combien de jours compte une année bissextile ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 0,
       "explication": "Un jour est ajouté à février, qui compte alors 29 jours, tous les quatre ans en général.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Année_bissextile"
     },
     {
       "q": "Quel est le plus long fleuve de France ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 2,
       "explication": "La Loire mesure environ 1 000 km, de l'Ardèche à l'océan Atlantique.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Loire_(fleuve)"
     },
     {
       "q": "Quel monument parisien en fer a été inauguré en 1889 ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 0,
       "explication": "Elle est construite pour l'Exposition universelle de 1889 par l'entreprise de Gustave Eiffel.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tour_Eiffel"
     },
     {
       "q": "Qui est l'auteur du « Petit Prince » ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 3,
       "explication": "Cet aviateur-écrivain publie le conte en 1943 ; c'est l'un des livres les plus traduits au monde.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Petit_Prince"
     },
     {
       "q": "Quelle est la monnaie utilisée en France depuis 2002 ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 1,
       "explication": "L'euro remplace le franc en espèces au début de l'année 2002.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Euro"
     },
     {
       "q": "Quel est le point culminant des Alpes françaises, environ 4 800 m ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "Le mont Blanc est le plus haut sommet des Alpes et de l'Europe occidentale.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mont_Blanc"
     },
     {
       "q": "Qui est le premier homme à avoir marché sur la Lune, en 1969 ?",
@@ -220,10 +237,11 @@
       ],
       "answer": 1,
       "explication": "Neil Armstrong pose le pied sur la Lune le 20 juillet 1969, lors de la mission Apollo 11.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Neil_Armstrong"
     },
     {
-      "q": "Quel est le symbole chimique de l'eau ?",
+      "q": "Quelle est la formule chimique de l'eau ?",
       "choices": [
         "CO₂",
         "O₂",
@@ -232,7 +250,8 @@
       ],
       "answer": 2,
       "explication": "Une molécule d'eau associe deux atomes d'hydrogène et un atome d'oxygène.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Eau"
     },
     {
       "q": "Quel animal est surnommé le « roi des animaux » ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "Sa crinière et son rugissement lui valent ce surnom, même s'il vit surtout dans la savane africaine.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lion"
     }
   ],
   "faq": [
@@ -266,5 +286,6 @@
     "/quiz-culture-generale-seniors",
     "/quiz-chanson-francaise",
     "/quiz-lille"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

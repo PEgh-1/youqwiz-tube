@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "New York est la plus grande ville américaine, mais la capitale fédérale est Washington.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Washington_(district_de_Columbia)"
     },
     {
       "q": "Quelle est la capitale de la Chine ?",
@@ -27,8 +28,9 @@
         "Pékin"
       ],
       "answer": 3,
-      "explication": "Pékin est la capitale de la Chine, alors que Shanghai est la plus grande ville.",
-      "level": "facile"
+      "explication": "Pékin est la capitale de la Chine, alors que Shanghai en est le grand centre économique et financier.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/P%C3%A9kin"
     },
     {
       "q": "Quelle est la capitale du Vietnam ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Hô Chi Minh-Ville est la plus peuplée, mais la capitale est Hanoï.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hano%C3%AF"
     },
     {
       "q": "Quelle est la capitale du Pakistan ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Karachi fut la première capitale, mais Islamabad l'a remplacée dans les années 1960.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Islamabad"
     },
     {
       "q": "Quelle est la capitale des Émirats arabes unis ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "explication": "Dubaï est plus célèbre, mais la capitale fédérale est Abou Dabi.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Abou_Dabi_(ville)"
     },
     {
       "q": "Quelle est la capitale du Cameroun ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 1,
       "explication": "Douala est la plus grande ville et le grand port, mais la capitale est Yaoundé.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Yaound%C3%A9"
     },
     {
       "q": "Quelle est la capitale de l'Équateur ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 2,
       "explication": "Guayaquil est la plus peuplée, mais Quito est la capitale, à environ 2 800 mètres d'altitude.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Quito"
     },
     {
       "q": "Quelle est la capitale des Philippines ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 0,
       "explication": "Manille est située sur l'île de Luçon.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Manille"
     },
     {
       "q": "Quelle est la capitale de la Tanzanie ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 0,
       "explication": "Dodoma est la capitale officielle, même si Dar es Salaam reste la plus grande ville.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dodoma"
     },
     {
       "q": "Quelle est la capitale de la Birmanie (Myanmar) ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 2,
       "explication": "Le gouvernement s'est installé à Naypyidaw fin 2005, et la ville a été proclamée capitale en 2006 ; Rangoun, aujourd'hui Yangon, la précédait.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Naypyidaw"
     },
     {
       "q": "Quelle est la capitale du Belize ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 1,
       "explication": "Belmopan a été fondée après l'ouragan Hattie de 1961, qui avait dévasté Belize City, l'ancienne capitale.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Belmopan"
     },
     {
       "q": "Quelle est la capitale du Malawi ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 3,
       "explication": "Lilongwe a remplacé Zomba comme capitale en 1975.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lilongwe"
     },
     {
       "q": "Quelle est la capitale du Bhoutan ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 2,
       "explication": "Thimphou est l'une des rares capitales au monde sans feux de circulation.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Thimphou"
     },
     {
       "q": "Quelle est la capitale de Madagascar ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 0,
       "explication": "Antananarivo se situe sur les hauts plateaux, loin de la côte.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Antananarivo"
     },
     {
       "q": "Quelle est la capitale de l'île Maurice ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 3,
       "explication": "Port-Louis est le grand port de l'île.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Port-Louis_(Maurice)"
     },
     {
       "q": "Quelle est la capitale des Seychelles ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 1,
       "explication": "Victoria est située sur l'île de Mahé.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Victoria_(Seychelles)"
     },
     {
       "q": "Quelle est la capitale des Palaos ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "Koror, la plus grande ville, a été la capitale jusqu'en 2006, quand Ngerulmud l'a remplacée.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ngerulmud"
     },
     {
       "q": "Quelle est la capitale du Brunei ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 3,
       "explication": "Bandar Seri Begawan est la capitale de ce petit sultanat de l'île de Bornéo.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bandar_Seri_Begawan"
     },
     {
       "q": "Quelle est la capitale des Comores ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Moroni est sur la Grande Comore, la plus grande île de l'archipel.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Moroni_(Comores)"
     },
     {
       "q": "Quelle est la capitale de la Papouasie-Nouvelle-Guinée ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "Port Moresby est la capitale de la Papouasie-Nouvelle-Guinée, sur la côte sud.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Port_Moresby"
     }
   ],
   "faq": [
@@ -267,5 +287,6 @@
     "/quiz-capitales-afrique",
     "/quiz-capitales-asie",
     "/quiz-capitales-amerique"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-informatique",
+  "theme": "sciences",
+  "title": "Quiz informatique : histoire de l'informatique",
+  "description": "Quiz informatique : 20 questions sur l'histoire de l'informatique et d'Internet, le vocabulaire et les pionniers. Explication après chaque réponse.",
+  "h1": "Quiz informatique : maîtrises-tu l'histoire des ordinateurs et d'Internet ?",
+  "intro": "Du bit au Web, des machines à tubes aux micro-ordinateurs, l'informatique a une histoire passionnante. Ce quiz informatique te propose 20 questions sur les grandes étapes de l'informatique et d'Internet, le vocabulaire de base et les pionniers qui ont tout changé. Il ne porte que sur des faits historiques, pas sur l'actualité. Le parcours va de huit questions faciles à quatre questions d'expert, en passant par huit questions moyennes. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait ou une date à retenir. Branche ton cerveau et teste ta culture numérique !",
+  "questions": [
+    {
+      "q": "Que signifie « www » au début de l'adresse de nombreux sites ?",
+      "choices": [
+        "World Wide Window",
+        "Web Wide World",
+        "World Wide Web",
+        "Wide Web Wireless"
+      ],
+      "answer": 2,
+      "explication": "Le Web n'est qu'une application d'Internet, comme le courrier électronique. Tim Berners-Lee en a fait la proposition au CERN en mars 1989.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/World_Wide_Web"
+    },
+    {
+      "q": "Quel symbole sépare le nom d'utilisateur du nom de domaine dans une adresse e-mail ?",
+      "choices": [
+        "Le dièse (#)",
+        "L'esperluette (&)",
+        "Le pourcentage (%)",
+        "L'arobase (@)"
+      ],
+      "answer": 3,
+      "explication": "Ray Tomlinson l'aurait choisi dans les années 1970 parce qu'il n'appartenait à aucun alphabet.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Arobase"
+    },
+    {
+      "q": "Combien de bits contient un octet ?",
+      "choices": [
+        "8",
+        "4",
+        "16",
+        "10"
+      ],
+      "answer": 0,
+      "explication": "Un octet permet de représenter 256 valeurs différentes, de 0 à 255.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Octet"
+    },
+    {
+      "q": "Comment appelle-t-on le composant qui exécute les instructions d'un ordinateur ?",
+      "choices": [
+        "La mémoire vive",
+        "Le processeur",
+        "Le disque dur",
+        "La carte son"
+      ],
+      "answer": 1,
+      "explication": "En 1971, Intel commercialise le 4004, premier microprocesseur commercial : un processeur entier sur une seule puce.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Microprocesseur"
+    },
+    {
+      "q": "Quel langage sert à décrire la structure des pages web ?",
+      "choices": [
+        "Le FORTRAN",
+        "Le COBOL",
+        "Le SQL",
+        "Le HTML"
+      ],
+      "answer": 3,
+      "explication": "Conçu par Tim Berners-Lee, il laisse la mise en forme aux feuilles de style CSS.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/HyperText_Markup_Language"
+    },
+    {
+      "q": "Comment s'appelle le plus petit élément d'une image numérique ?",
+      "choices": [
+        "Le voxel",
+        "Le byte",
+        "Le pixel",
+        "Le hertz"
+      ],
+      "answer": 2,
+      "explication": "Ce mot vient de l'anglais « picture element », élément d'image.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pixel"
+    },
+    {
+      "q": "Comment appelle-t-on la mémoire de l'ordinateur dont le contenu s'efface quand on l'éteint ?",
+      "choices": [
+        "La mémoire vive (RAM)",
+        "Le disque dur",
+        "La carte graphique",
+        "La mémoire morte (ROM)"
+      ],
+      "answer": 0,
+      "explication": "À l'inverse, le disque dur conserve les données même hors tension.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mémoire_vive"
+    },
+    {
+      "q": "Quel périphérique de pointage Douglas Engelbart présente-t-il au public en 1968 ?",
+      "choices": [
+        "Le joystick",
+        "La souris",
+        "La tablette graphique",
+        "Le stylet optique"
+      ],
+      "answer": 1,
+      "explication": "Imaginée dès 1963, elle doit son nom à sa ressemblance avec une souris, son fil jouant le rôle de queue.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Souris_(informatique)"
+    },
+    {
+      "q": "Quel mathématicien britannique publie en 1936 l'article fondateur d'une machine abstraite capable d'exécuter tout algorithme ?",
+      "choices": [
+        "Charles Babbage",
+        "John von Neumann",
+        "Alan Turing",
+        "George Boole"
+      ],
+      "answer": 2,
+      "explication": "Pendant la Seconde Guerre mondiale, il travaille à Bletchley Park au décryptage des messages chiffrés allemands.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "q": "Quelle mathématicienne britannique publie en 1843 des notes contenant un algorithme destiné à la machine analytique de Charles Babbage ?",
+      "choices": [
+        "Grace Hopper",
+        "Marie Curie",
+        "Hedy Lamarr",
+        "Ada Lovelace"
+      ],
+      "answer": 3,
+      "explication": "Ses notes détaillent le calcul des nombres de Bernoulli par la machine analytique ; cet algorithme est souvent présenté comme le premier programme informatique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ada_Lovelace"
+    },
+    {
+      "q": "Quel ordinateur électronique de 30 tonnes est dévoilé en 1946 à l'université de Pennsylvanie ?",
+      "choices": [
+        "L'UNIVAC",
+        "L'ENIAC",
+        "Le Colossus",
+        "L'Apple II"
+      ],
+      "answer": 1,
+      "explication": "Il comptait plus de 17 000 tubes à vide, ce qui le rendait aussi volumineux que gourmand en énergie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/ENIAC"
+    },
+    {
+      "q": "Quelle invention de 1947 aux Bell Labs a peu à peu remplacé les tubes à vide dans les ordinateurs ?",
+      "choices": [
+        "Le transistor",
+        "Le laser",
+        "La disquette",
+        "Le microprocesseur"
+      ],
+      "answer": 0,
+      "explication": "Ses inventeurs, Bardeen, Brattain et Shockley, ont reçu le prix Nobel de physique en 1956.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Transistor"
+    },
+    {
+      "q": "Quel réseau américain, né en 1969, est considéré comme l'ancêtre d'Internet ?",
+      "choices": [
+        "Usenet",
+        "Ethernet",
+        "Bitnet",
+        "ARPANET"
+      ],
+      "answer": 3,
+      "explication": "Le premier message transite le 29 octobre 1969 entre l'université de Californie à Los Angeles et le Stanford Research Institute.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/ARPANET"
+    },
+    {
+      "q": "Quel terminal français à écran, popularisé dans les années 1980, donnait accès à des services comme le 3615 ?",
+      "choices": [
+        "Le Numéris",
+        "Le Bi-Bop",
+        "Le Minitel",
+        "L'Audiotel"
+      ],
+      "answer": 2,
+      "explication": "Le service Minitel a été arrêté le 30 juin 2012.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Minitel"
+    },
+    {
+      "q": "Quelle entreprise lance en août 1981 un micro-ordinateur dont le nom, « PC », devient synonyme d'ordinateur personnel ?",
+      "choices": [
+        "Apple",
+        "IBM",
+        "Commodore",
+        "Atari"
+      ],
+      "answer": 1,
+      "explication": "Son système d'exploitation, PC-DOS (vendu sous le nom de MS-DOS pour les clones), venait d'une petite société nommée Microsoft.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/IBM_PC"
+    },
+    {
+      "q": "Qui lance en 1983 le projet GNU, pilier du mouvement du logiciel libre ?",
+      "choices": [
+        "Richard Stallman",
+        "Bill Gates",
+        "Steve Jobs",
+        "Dennis Ritchie"
+      ],
+      "answer": 0,
+      "explication": "Il fonde ensuite la Free Software Foundation en 1985.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Richard_Stallman"
+    },
+    {
+      "q": "Quel ingénieur français conçoit le réseau Cyclades, dont le principe des datagrammes inspire Internet ?",
+      "choices": [
+        "Louis Pouzin",
+        "Vinton Cerf",
+        "Philippe Dreyfus",
+        "Robert Cailliau"
+      ],
+      "answer": 0,
+      "explication": "Ce réseau expérimental a été développé en France dans les années 1970.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Louis_Pouzin"
+    },
+    {
+      "q": "Quel langage de programmation de haut niveau, mené par John Backus chez IBM, est diffusé en 1957 ?",
+      "choices": [
+        "COBOL",
+        "FORTRAN",
+        "BASIC",
+        "Pascal"
+      ],
+      "answer": 1,
+      "explication": "Son nom est la contraction de « FORmula TRANslation », car il était conçu pour le calcul scientifique.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Fortran"
+    },
+    {
+      "q": "À quelle date ARPANET adopte-t-il le protocole TCP/IP, étape clé de la naissance d'Internet ?",
+      "choices": [
+        "Le 29 octobre 1969",
+        "Le 6 août 1991",
+        "Le 1er janvier 1983",
+        "Le 1er janvier 1990"
+      ],
+      "answer": 2,
+      "explication": "Cette bascule est souvent surnommée le « flag day » des protocoles.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Histoire_d%27Internet"
+    },
+    {
+      "q": "Quel étudiant finlandais annonce en 1991 le développement d'un noyau de système d'exploitation, à l'origine de Linux ?",
+      "choices": [
+        "Richard Stallman",
+        "Dennis Ritchie",
+        "Ken Thompson",
+        "Linus Torvalds"
+      ],
+      "answer": 3,
+      "explication": "Associé aux outils du projet GNU, ce noyau forme un système d'exploitation complet.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Linus_Torvalds"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz d'informatique ?",
+      "Le quiz propose 20 questions de difficulté progressive : huit faciles sur le vocabulaire courant, huit moyennes sur les grandes machines et les pionniers, puis quatre questions d'expert sur l'histoire des réseaux et des langages. Aucune connaissance technique n'est nécessaire, et chaque réponse est expliquée."
+    ],
+    [
+      "Quelle est la différence entre Internet et le Web ?",
+      "Internet est le réseau mondial qui relie des millions d'ordinateurs entre eux. Le Web, ou World Wide Web, n'est qu'une application qui fonctionne sur ce réseau : un ensemble de pages reliées par des liens hypertextes, consultées avec un navigateur. Le courrier électronique est une autre application d'Internet."
+    ],
+    [
+      "Qui a inventé le Web ?",
+      "Le Web est né au CERN, près de Genève. Le Britannique Tim Berners-Lee en rédige la proposition en mars 1989, puis l'ingénieur belge Robert Cailliau rejoint le projet en 1990. L'invention est généralement attribuée à Berners-Lee, Cailliau ayant contribué à son développement et à sa diffusion."
+    ]
+  ],
+  "related": [
+    "/quiz-sciences",
+    "/quiz-jeux-video",
+    "/quiz-physique",
+    "/quiz-xxe-siecle",
+    "/quiz-histoire"
+  ]
+}

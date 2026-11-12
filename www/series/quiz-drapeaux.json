@@ -7,7 +7,7 @@
   "intro": "Tu crois bien connaître les drapeaux du monde ? Ce quiz te présente 20 drapeaux, un par question, et tu dois retrouver à quel pays chacun appartient. On commence par les plus célèbres, ceux que tout le monde a déjà croisés dans un stade ou devant une ambassade, puis la difficulté monte doucement. Les derniers drapeaux sont nettement plus rares et font parfois hésiter même les passionnés de géographie. Compte environ cinq secondes par question : fie-toi à ton instinct, car la première idée est souvent la bonne. À la fin de chaque question, une courte explication t'apprend un détail sur le drapeau. Prêt à faire le tour du monde en une centaine de secondes ?",
   "questions": [
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Pays-Bas",
         "France",
@@ -17,10 +17,11 @@
       "answer": 1,
       "explication": "Le drapeau bleu, blanc, rouge date de la Révolution française et se lit de la hampe vers l'extérieur.",
       "level": "facile",
-      "flag": "fr"
+      "flag": "fr",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_France"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Mexique",
         "Hongrie",
@@ -30,10 +31,11 @@
       "answer": 3,
       "explication": "Vert, blanc et rouge : le tricolore italien apparaît en 1797 et sa version actuelle, sans armoiries, date de 1946.",
       "level": "facile",
-      "flag": "it"
+      "flag": "it",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Italie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Allemagne",
         "Belgique",
@@ -43,10 +45,11 @@
       "answer": 0,
       "explication": "Noir, rouge et or : ces couleurs sont celles du drapeau allemand actuel.",
       "level": "facile",
-      "flag": "de"
+      "flag": "de",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Allemagne"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Portugal",
         "Italie",
@@ -56,10 +59,11 @@
       "answer": 2,
       "explication": "Le drapeau espagnol arbore deux bandes rouges et une bande jaune plus large, avec les armoiries à gauche.",
       "level": "facile",
-      "flag": "es"
+      "flag": "es",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Espagne"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Australie",
         "États-Unis",
@@ -69,10 +73,11 @@
       "answer": 2,
       "explication": "L'Union Jack combine les croix de saint Georges, saint André et saint Patrick.",
       "level": "facile",
-      "flag": "gb"
+      "flag": "gb",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Royaume-Uni"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "États-Unis",
         "Libéria",
@@ -82,10 +87,11 @@
       "answer": 0,
       "explication": "Ses 50 étoiles représentent les États et ses 13 bandes les colonies fondatrices.",
       "level": "facile",
-      "flag": "us"
+      "flag": "us",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_des_%C3%89tats-Unis"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Bangladesh",
         "Corée du Sud",
@@ -95,10 +101,11 @@
       "answer": 3,
       "explication": "Le disque rouge sur fond blanc symbolise le soleil levant, le Japon étant le « pays du Soleil-Levant ».",
       "level": "facile",
-      "flag": "jp"
+      "flag": "jp",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Japon"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Portugal",
         "Brésil",
@@ -108,10 +115,11 @@
       "answer": 1,
       "explication": "Le globe bleu étoilé sur un losange jaune et fond vert est reconnaissable entre mille.",
       "level": "facile",
-      "flag": "br"
+      "flag": "br",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Br%C3%A9sil"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Canada",
         "Pérou",
@@ -121,10 +129,11 @@
       "answer": 0,
       "explication": "La feuille d'érable à onze pointes est l'emblème du pays depuis 1965.",
       "level": "moyen",
-      "flag": "ca"
+      "flag": "ca",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Canada"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Danemark",
         "Géorgie",
@@ -132,12 +141,13 @@
         "Tonga"
       ],
       "answer": 2,
-      "explication": "Avec la ville du Vatican, c'est l'un des seuls drapeaux nationaux de forme carrée.",
+      "explication": "Avec celui de l'État de la Cité du Vatican, c'est l'un des seuls drapeaux nationaux de forme carrée.",
       "level": "moyen",
-      "flag": "ch"
+      "flag": "ch",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Suisse"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Norvège",
         "Suède",
@@ -145,12 +155,13 @@
         "Danemark"
       ],
       "answer": 1,
-      "explication": "La croix jaune décalée sur fond bleu est partagée en esprit par tous les pays nordiques.",
+      "explication": "Une croix jaune décentrée sur fond bleu : la croix scandinave se retrouve sur les drapeaux de tous les pays nordiques.",
       "level": "moyen",
-      "flag": "se"
+      "flag": "se",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Su%C3%A8de"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Uruguay",
         "Honduras",
@@ -160,10 +171,11 @@
       "answer": 3,
       "explication": "Il est orné du « Soleil de Mai » au centre de la bande blanche.",
       "level": "moyen",
-      "flag": "ar"
+      "flag": "ar",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Argentine"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Italie",
         "Iran",
@@ -173,10 +185,11 @@
       "answer": 3,
       "explication": "L'aigle perché sur un cactus et dévorant un serpent figure au centre du drapeau.",
       "level": "moyen",
-      "flag": "mx"
+      "flag": "mx",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Mexique"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Tunisie",
         "Turquie",
@@ -186,10 +199,11 @@
       "answer": 1,
       "explication": "Le croissant et l'étoile blancs se détachent sur un fond rouge.",
       "level": "moyen",
-      "flag": "tr"
+      "flag": "tr",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Turquie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Niger",
         "Irlande",
@@ -199,10 +213,11 @@
       "answer": 2,
       "explication": "La roue à 24 rayons, le Ashoka Chakra, orne la bande blanche centrale.",
       "level": "moyen",
-      "flag": "in"
+      "flag": "in",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Inde"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Irlande",
         "Côte d'Ivoire",
@@ -212,10 +227,11 @@
       "answer": 0,
       "explication": "Vert, blanc et orange : le vert évoque les catholiques, l'orange les protestants et le blanc la paix entre eux.",
       "level": "moyen",
-      "flag": "ie"
+      "flag": "ie",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Irlande"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Bhoutan",
         "Népal",
@@ -225,10 +241,11 @@
       "answer": 1,
       "explication": "C'est le seul drapeau national au monde qui n'est pas un rectangle, mais formé de deux triangles superposés.",
       "level": "expert",
-      "flag": "np"
+      "flag": "np",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_N%C3%A9pal"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Pays de Galles",
         "Mongolie",
@@ -238,10 +255,11 @@
       "answer": 2,
       "explication": "Un dragon blanc, le Druk, orne ce drapeau coupé en diagonale jaune et orange.",
       "level": "expert",
-      "flag": "bt"
+      "flag": "bt",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Bhoutan"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Mozambique",
         "Angola",
@@ -251,10 +269,11 @@
       "answer": 0,
       "explication": "Il est célèbre pour montrer un fusil d'assaut AK-47 au côté d'un livre et d'une houe.",
       "level": "expert",
-      "flag": "mz"
+      "flag": "mz",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Mozambique"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "À quel pays appartient ce drapeau ?",
       "choices": [
         "Malte",
         "Jordanie",
@@ -264,7 +283,8 @@
       "answer": 3,
       "explication": "Il représente la silhouette de l'île en cuivre, accompagnée de deux rameaux d'olivier.",
       "level": "expert",
-      "flag": "cy"
+      "flag": "cy",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_Chypre"
     }
   ],
   "faq": [
@@ -286,5 +306,6 @@
     "/quiz-geographie",
     "/quiz-regions-de-france",
     "/quiz-departements"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

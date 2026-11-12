@@ -27,6 +27,7 @@ type, title (sans « | YouQwiz »), description, h1, kicker, intro, exemple_noms
 
 ## Séries culture générale (depuis le 08/11/2026)
 - Une série par fichier : `www/series/<slug>.json`. Le format est dans `site/SERIES-FORMAT.md` ; la page est publiée sur `/quiz-<sujet>`.
-- 32 séries en ligne. Le push sur main publie aussi les séries.
+- 125 séries en ligne au 12/11/2026, toutes sourcées (`source` par question, `verified` par série). Le push sur main publie aussi les séries.
 - L'agent peut ajouter au plus 1 série par semaine, prise dans le CSV des volumes, sans doublon.
-- Il relit chaque fait avant publication et retire toute question au moindre doute.
+- Il relit chaque fait avant publication et retire toute question au moindre doute ; chaque question porte une `source` vérifiée (page existante, pas d'homonymie) et la série une date `verified`.
+- Le PDF d'une nouvelle série n'existe pas tant qu'il n'est pas déposé sur le serveur : le signaler dans le rapport (dépôt groupé lors d'une session cPanel).

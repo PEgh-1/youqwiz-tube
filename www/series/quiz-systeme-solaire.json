@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "La Terre tourne autour du Soleil en un peu plus de 365 jours, ce qui définit l'année.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Terre"
     },
     {
       "q": "Quelle est la plus petite planète du système solaire ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "Mercure est la plus petite des huit planètes et la plus proche du Soleil.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mercure_(plan%C3%A8te)"
     },
     {
       "q": "Quelle planète vient juste après la Terre en s'éloignant du Soleil ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Mars est la quatrième planète depuis le Soleil. Vénus se trouve entre Mercure et la Terre.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)"
     },
     {
       "q": "Laquelle de ces planètes est une planète tellurique, c'est-à-dire rocheuse ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Mercure, Vénus, la Terre et Mars sont les quatre planètes telluriques. Les autres sont des géantes.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Plan%C3%A8te_tellurique"
     },
     {
       "q": "Depuis 2006, Pluton est classée comme…",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "explication": "L'Union astronomique internationale a créé en 2006 la catégorie des planètes naines, et Pluton en fait partie.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Plan%C3%A8te_naine"
     },
     {
       "q": "Comment appelle-t-on un petit corps de glace et de poussière qui forme une queue près du Soleil ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 0,
       "explication": "Quand une comète s'approche du Soleil, la glace se vaporise et forme une chevelure et une queue.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Com%C3%A8te"
     },
     {
       "q": "Quelle ceinture de petits corps rocheux se trouve entre Mars et Jupiter ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 3,
       "explication": "La ceinture principale d'astéroïdes sépare les planètes rocheuses des planètes géantes.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ceinture_d'ast%C3%A9ro%C3%AFdes"
     },
     {
       "q": "Combien de temps la Terre met-elle pour tourner sur elle-même ?",
@@ -100,10 +107,11 @@
       ],
       "answer": 1,
       "explication": "Cette rotation provoque l'alternance du jour et de la nuit.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Rotation_de_la_Terre"
     },
     {
-      "q": "Quelle planète tourne sur elle-même dans le sens inverse des autres ?",
+      "q": "Quelle planète tourne sur elle-même dans le sens inverse de la plupart des autres ?",
       "choices": [
         "Mars",
         "Jupiter",
@@ -112,7 +120,8 @@
       ],
       "answer": 3,
       "explication": "Vénus a une rotation dite rétrograde, très lente : elle met environ 243 jours à tourner sur elle-même, plus que son année de 225 jours.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/V%C3%A9nus_(plan%C3%A8te)"
     },
     {
       "q": "Quelle planète tourne presque couchée sur le côté ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 1,
       "explication": "L'axe d'Uranus est incliné d'environ 98 degrés, ce qui donne à la planète un fonctionnement très particulier des saisons.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Uranus_(plan%C3%A8te)"
     },
     {
       "q": "Sur quelle planète trouve-t-on la Grande Tache rouge ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 2,
       "explication": "La Grande Tache rouge est une gigantesque tempête, plus large que la Terre, suivie sans interruption depuis le XIXe siècle.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Grande_Tache_rouge"
     },
     {
       "q": "Quelle planète a été découverte par le calcul avant d'être observée ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 0,
       "explication": "Le Verrier a prévu la position de Neptune grâce à ses calculs. Elle a été observée en 1846.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Neptune_(plan%C3%A8te)"
     },
     {
       "q": "De quel gaz le Soleil est-il principalement composé ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 0,
       "explication": "Le Soleil est composé d'environ trois quarts d'hydrogène, le reste étant surtout de l'hélium.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Soleil"
     },
     {
       "q": "Quel phénomène se produit quand la Lune passe entre le Soleil et la Terre ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 2,
       "explication": "Lors d'une éclipse solaire, l'ombre de la Lune se projette sur la Terre.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/%C3%89clipse_solaire"
     },
     {
       "q": "Quel gaz compose principalement l'atmosphère de Mars ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 1,
       "explication": "L'atmosphère de Mars est très ténue et composée surtout de dioxyde de carbone.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)"
     },
     {
       "q": "Comment appelle-t-on la région de corps glacés située au-delà de Neptune ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 3,
       "explication": "La ceinture de Kuiper contient de nombreux corps glacés, dont Pluton.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ceinture_de_Kuiper"
     },
     {
       "q": "Quelle planète est moins dense que l'eau ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "Saturne est composée surtout d'hydrogène et d'hélium. Sa densité moyenne est inférieure à celle de l'eau.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Saturne_(plan%C3%A8te)"
     },
     {
       "q": "Quelle sonde lancée en 1977 a quitté l'héliosphère en 2012 ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 0,
       "explication": "Voyager 1 est le premier objet construit par l'homme à avoir atteint l'espace interstellaire.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Voyager_1"
     },
     {
       "q": "Qui a proposé en 1543 un modèle plaçant le Soleil au centre de l'univers connu ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 3,
       "explication": "Nicolas Copernic a publié le modèle héliocentrique en 1543, qui a profondément transformé l'astronomie.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Nicolas_Copernic"
     },
     {
       "q": "Dans quelle région du système solaire se trouve la planète naine Cérès ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "Cérès est le plus gros objet de la ceinture principale d'astéroïdes, entre Mars et Jupiter.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/(1)_C%C3%A9r%C3%A8s"
     }
   ],
   "faq": [
@@ -267,5 +287,6 @@
     "/quiz-physique",
     "/quiz-chimie",
     "/quiz-animaux"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

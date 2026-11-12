@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-bande-dessinee",
+  "theme": "culture",
+  "title": "Quiz bande dessinée : BD, manga et comics",
+  "description": "Quiz bande dessinée : 20 questions sur la BD franco-belge, les comics, les mangas, les grands auteurs et le festival d'Angoulême. À toi de jouer !",
+  "h1": "Quiz bande dessinée : quel lecteur de BD es-tu ?",
+  "intro": "Héros franco-belges, super-héros américains, mangas japonais : le neuvième art offre un terrain de jeu immense. Ce quiz bande dessinée te propose 20 questions sur les séries, les auteurs, les grandes revues et le festival d'Angoulême, des plus faciles aux plus pointues. Tu devras reconnaître des créateurs célèbres et des personnages qui ont marqué plusieurs générations de lecteurs. Après chaque réponse, une courte explication t'apprend un fait de plus sur l'histoire de la BD. Joue seul, en famille ou entre amis, et vérifie que ta bibliothèque n'a pas de secret pour toi !",
+  "questions": [
+    {
+      "q": "Quel auteur belge a créé les Schtroumpfs ?",
+      "choices": [
+        "Hergé",
+        "Franquin",
+        "Morris",
+        "Peyo"
+      ],
+      "answer": 3,
+      "explication": "Les petits personnages bleus apparaissent en 1958 dans la série Johan et Pirlouit.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Schtroumpfs"
+    },
+    {
+      "q": "Quel cow-boy créé par Morris est accompagné de son cheval Jolly Jumper ?",
+      "choices": [
+        "Blueberry",
+        "Lucky Luke",
+        "Buck Danny",
+        "Jerry Spring"
+      ],
+      "answer": 1,
+      "explication": "Le personnage naît en 1946 dans l'Almanach Spirou.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lucky_Luke"
+    },
+    {
+      "q": "Quel personnage à tenue de groom donne son nom à un hebdomadaire de BD né en 1938 ?",
+      "choices": [
+        "Boule",
+        "Gaston",
+        "Spirou",
+        "Fantasio"
+      ],
+      "answer": 2,
+      "explication": "Il a été créé par le dessinateur Rob-Vel pour les éditions Dupuis.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Spirou_et_Fantasio"
+    },
+    {
+      "q": "Quelle ville charentaise accueille chaque année le festival international de la bande dessinée ?",
+      "choices": [
+        "Angoulême",
+        "Cognac",
+        "Poitiers",
+        "Saintes"
+      ],
+      "answer": 0,
+      "explication": "Le festival existe depuis 1974.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Festival_international_de_la_bande_dessinée_d'Angoulême"
+    },
+    {
+      "q": "Quel auteur américain a créé Snoopy et la série Peanuts ?",
+      "choices": [
+        "Charles M. Schulz",
+        "Walt Disney",
+        "Bill Watterson",
+        "Jim Davis"
+      ],
+      "answer": 0,
+      "explication": "Il a dessiné Peanuts de 1950 à 2000, presque sans assistant.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Charles_M._Schulz"
+    },
+    {
+      "q": "Quel super-héros créé en 1938 apparaît dans le premier numéro d'Action Comics ?",
+      "choices": [
+        "Batman",
+        "Spider-Man",
+        "Superman",
+        "Captain America"
+      ],
+      "answer": 2,
+      "explication": "Il a été imaginé par le scénariste Jerry Siegel et le dessinateur Joe Shuster.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Superman"
+    },
+    {
+      "q": "Quel mot désigne la bande dessinée japonaise ?",
+      "choices": [
+        "Anime",
+        "Manga",
+        "Bento",
+        "Haiku"
+      ],
+      "answer": 1,
+      "explication": "Les mangas se lisent de droite à gauche.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Manga"
+    },
+    {
+      "q": "Quel auteur est le créateur de Gaston Lagaffe ?",
+      "choices": [
+        "Jijé",
+        "Roba",
+        "Greg",
+        "André Franquin"
+      ],
+      "answer": 3,
+      "explication": "Gaston naît en 1957 dans le journal Spirou, où Franquin dessine aussi Spirou et Fantasio.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Gaston_(bande_dessinée)"
+    },
+    {
+      "q": "Quel auteur est le créateur de Blake et Mortimer ?",
+      "choices": [
+        "Hergé",
+        "Jacques Martin",
+        "Edgar P. Jacobs",
+        "Bob de Moor"
+      ],
+      "answer": 2,
+      "explication": "La série débute avec Le Secret de l'Espadon dans le journal Tintin à partir de 1946.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Blake_et_Mortimer"
+    },
+    {
+      "q": "Quel auteur italien a créé le marin Corto Maltese ?",
+      "choices": [
+        "Hugo Pratt",
+        "Milo Manara",
+        "Guido Crepax",
+        "Dino Battaglia"
+      ],
+      "answer": 0,
+      "explication": "Le personnage apparaît pour la première fois en 1967 dans La Ballade de la mer salée.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Corto_Maltese"
+    },
+    {
+      "q": "Quel auteur belge a créé Boule et Bill, les aventures d'un petit garçon et de son cocker ?",
+      "choices": [
+        "Peyo",
+        "Will",
+        "Tibet",
+        "Jean Roba"
+      ],
+      "answer": 3,
+      "explication": "Boule et Bill paraît dans le journal Spirou à partir de 1959.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Boule_et_Bill"
+    },
+    {
+      "q": "Quel dessinateur a illustré Le Petit Nicolas, texte de René Goscinny ?",
+      "choices": [
+        "Uderzo",
+        "Sempé",
+        "Tabary",
+        "Cabu"
+      ],
+      "answer": 1,
+      "explication": "Il a aussi réalisé de nombreuses couvertures pour le magazine américain The New Yorker.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jean-Jacques_Sempé"
+    },
+    {
+      "q": "Quel auteur américain a reçu un prix Pulitzer spécial en 1992 pour Maus ?",
+      "choices": [
+        "Will Eisner",
+        "Art Spiegelman",
+        "Frank Miller",
+        "Robert Crumb"
+      ],
+      "answer": 1,
+      "explication": "Cette bande dessinée raconte l'histoire de son père, rescapé de la Shoah, en représentant les Juifs en souris.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Maus"
+    },
+    {
+      "q": "Quelle autrice franco-iranienne a signé la bande dessinée autobiographique Persepolis ?",
+      "choices": [
+        "Claire Bretécher",
+        "Posy Simmonds",
+        "Marjane Satrapi",
+        "Florence Cestac"
+      ],
+      "answer": 2,
+      "explication": "Elle y raconte son enfance en Iran pendant la révolution islamique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Persepolis_(bande_dessinée)"
+    },
+    {
+      "q": "Quel auteur japonais surnommé « le dieu du manga » a créé Astro Boy ?",
+      "choices": [
+        "Osamu Tezuka",
+        "Hayao Miyazaki",
+        "Akira Toriyama",
+        "Katsuhiro Otomo"
+      ],
+      "answer": 0,
+      "explication": "Astro Boy a aussi été l'une des premières séries télévisées d'animation japonaises.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Osamu_Tezuka"
+    },
+    {
+      "q": "Quel dessinateur belge a dessiné la série XIII, scénarisée par Jean Van Hamme ?",
+      "choices": [
+        "Hermann",
+        "Grzegorz Rosinski",
+        "Jean Graton",
+        "William Vance"
+      ],
+      "answer": 3,
+      "explication": "Le premier album, Le jour du soleil noir, paraît en 1984.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/XIII_(bande_dessinée)"
+    },
+    {
+      "q": "Sous quel pseudonyme Jean Giraud a-t-il signé ses albums de science-fiction ?",
+      "choices": [
+        "Gir",
+        "Enki Bilal",
+        "Moebius",
+        "Druillet"
+      ],
+      "answer": 2,
+      "explication": "Sous le nom de Gir, il dessinait en parallèle le western Blueberry.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Jean_Giraud"
+    },
+    {
+      "q": "Quel auteur américain a publié Little Nemo in Slumberland à partir de 1905 ?",
+      "choices": [
+        "Richard Outcault",
+        "Winsor McCay",
+        "George Herriman",
+        "Chester Gould"
+      ],
+      "answer": 1,
+      "explication": "Cette série, ses rêves et ses grandes planches colorées sont devenues un classique de la BD américaine.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Little_Nemo_in_Slumberland"
+    },
+    {
+      "q": "Quel dessinateur français est le créateur d'Adèle Blanc-Sec ?",
+      "choices": [
+        "François Schuiten",
+        "Pierre Christin",
+        "Philippe Druillet",
+        "Jacques Tardi"
+      ],
+      "answer": 3,
+      "explication": "La série débute en 1976, dans le Paris de la Belle Époque.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Les_Aventures_extraordinaires_d'Adèle_Blanc-Sec"
+    },
+    {
+      "q": "Quel personnage de Richard F. Outcault, vêtu d'une longue chemise jaune, apparaît en 1895 dans un journal new-yorkais ?",
+      "choices": [
+        "The Yellow Kid",
+        "Little Nemo",
+        "Mickey",
+        "Krazy Kat"
+      ],
+      "answer": 0,
+      "explication": "Il est souvent cité parmi les premiers personnages de la BD de presse américaine.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Richard_Felton_Outcault"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz bande dessinée ?",
+      "Le quiz propose 20 questions progressives : 8 faciles sur les personnages et les créateurs les plus connus, 8 de niveau moyen pour les lecteurs réguliers, puis 4 questions expertes pour les passionnés d'histoire de la BD. Chaque réponse s'accompagne d'une explication qui t'apprend un détail supplémentaire."
+    ],
+    [
+      "Quelle différence entre BD franco-belge, comics et manga ?",
+      "La BD franco-belge se publie surtout en albums cartonnés, souvent en couleur. Les comics américains paraissent d'abord en fascicules mensuels, avec une forte présence des super-héros. Le manga japonais se lit de droite à gauche et paraît d'abord dans de gros magazines, le plus souvent en noir et blanc, avant d'être regroupé en volumes."
+    ],
+    [
+      "Qu'est-ce que le festival d'Angoulême ?",
+      "Le Festival international de la bande dessinée d'Angoulême a lieu chaque année depuis 1974 dans la ville charentaise. Il réunit auteurs, éditeurs et lecteurs, avec des expositions et des dédicaces. Il décerne des prix appelés les Fauves, ainsi qu'un Grand Prix qui récompense l'ensemble de la carrière d'un auteur."
+    ]
+  ],
+  "related": [
+    "/quiz-tintin",
+    "/quiz-asterix",
+    "/quiz-dessins-animes",
+    "/quiz-marvel",
+    "/quiz-litterature"
+  ]
+}

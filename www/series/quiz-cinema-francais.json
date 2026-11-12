@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-cinema-francais",
+  "theme": "cinema",
+  "title": "Quiz cinéma français : films, acteurs et César",
+  "description": "Quiz cinéma français : 20 questions sur les films cultes, les réalisateurs, les acteurs et les César. Teste ta culture du septième art à la française.",
+  "h1": "Quiz cinéma français : es-tu incollable sur le septième art ?",
+  "intro": "Des classiques en noir et blanc aux grands succès populaires, le cinéma français a construit une histoire riche, drôle et souvent audacieuse. Ce quiz te propose 20 questions sur les films, les réalisateurs, les acteurs et les César, des plus faciles aux plus pointues. Tu croiseras des monstres sacrés, des comédies devenues cultes et quelques chefs-d'œuvre à redécouvrir. Après chaque réponse, une courte explication t'apprend un fait de plus sur le film ou son auteur. Joue seul, en famille ou entre amis, et vois si tu mérites ta statuette !",
+  "questions": [
+    {
+      "q": "Quel acteur joue aux côtés de Bourvil dans La Grande Vadrouille, réalisé par Gérard Oury en 1966 ?",
+      "choices": [
+        "Jean Gabin",
+        "Fernandel",
+        "Louis de Funès",
+        "Michel Galabru"
+      ],
+      "answer": 2,
+      "explication": "Le film se déroule pendant l'Occupation et suit trois aviateurs britanniques en fuite.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/La_Grande_Vadrouille"
+    },
+    {
+      "q": "Comment s'appelle la récompense annuelle du cinéma français créée en 1976 ?",
+      "choices": [
+        "Les César",
+        "Les Molières",
+        "Les Lumière",
+        "Les Victoires"
+      ],
+      "answer": 0,
+      "explication": "La statuette porte le nom du sculpteur César, qui l'a créée.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/César_du_cinéma"
+    },
+    {
+      "q": "Quelle actrice, surnommée BB, joue dans Et Dieu... créa la femme en 1956 ?",
+      "choices": [
+        "Catherine Deneuve",
+        "Brigitte Bardot",
+        "Romy Schneider",
+        "Jeanne Moreau"
+      ],
+      "answer": 1,
+      "explication": "Le film est réalisé par Roger Vadim, alors son mari.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Et_Dieu..._créa_la_femme"
+    },
+    {
+      "q": "Quel réalisateur a signé Subway, Nikita et Léon ?",
+      "choices": [
+        "Jean-Pierre Jeunet",
+        "Claude Zidi",
+        "Francis Veber",
+        "Luc Besson"
+      ],
+      "answer": 3,
+      "explication": "Nikita sort en 1990 et Léon en 1994, avec Jean Reno dans le rôle principal.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Luc_Besson"
+    },
+    {
+      "q": "Quel film muet en noir et blanc de Michel Hazanavicius, avec Jean Dujardin, remporte l'Oscar du meilleur film en 2012 ?",
+      "choices": [
+        "Hugo Cabret",
+        "Intouchables",
+        "Le Havre",
+        "The Artist"
+      ],
+      "answer": 3,
+      "explication": "Jean Dujardin y reçoit aussi l'Oscar du meilleur acteur, une première pour un Français.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Artist"
+    },
+    {
+      "q": "Quel acteur français est surnommé « Bébel » ?",
+      "choices": [
+        "Alain Delon",
+        "Jean-Paul Belmondo",
+        "Lino Ventura",
+        "Gérard Depardieu"
+      ],
+      "answer": 1,
+      "explication": "Il tient le rôle principal d'À bout de souffle, tourné en 1960.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jean-Paul_Belmondo"
+    },
+    {
+      "q": "Quel acteur joue Fernand Naudin dans Les Tontons flingueurs en 1963 ?",
+      "choices": [
+        "Lino Ventura",
+        "Jean Gabin",
+        "Bernard Blier",
+        "Jean Lefebvre"
+      ],
+      "answer": 0,
+      "explication": "Né en Italie, il est arrivé en France enfant et a d'abord été lutteur.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Tontons_flingueurs"
+    },
+    {
+      "q": "Quel personnage distrait, avec pipe et imperméable, a été créé par Jacques Tati ?",
+      "choices": [
+        "Monsieur Verdoux",
+        "Monsieur Ripois",
+        "Monsieur Hulot",
+        "Monsieur Hire"
+      ],
+      "answer": 2,
+      "explication": "Il apparaît d'abord dans Les Vacances de monsieur Hulot, sorti en 1953.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Vacances_de_monsieur_Hulot"
+    },
+    {
+      "q": "Quel réalisateur a signé La Règle du jeu en 1939 ?",
+      "choices": [
+        "Marcel Carné",
+        "Jean Renoir",
+        "Jacques Becker",
+        "René Clair"
+      ],
+      "answer": 1,
+      "explication": "Il est le fils du peintre impressionniste Auguste Renoir.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/La_Règle_du_jeu"
+    },
+    {
+      "q": "Quelle actrice reçoit l'Oscar de la meilleure actrice pour son rôle d'Édith Piaf dans La Môme ?",
+      "choices": [
+        "Isabelle Adjani",
+        "Juliette Binoche",
+        "Audrey Tautou",
+        "Marion Cotillard"
+      ],
+      "answer": 3,
+      "explication": "Elle est la première actrice récompensée par un Oscar pour un rôle en français.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/La_Môme"
+    },
+    {
+      "q": "Quel réalisateur a signé Les Enfants du paradis en 1945 ?",
+      "choices": [
+        "Claude Autant-Lara",
+        "Julien Duvivier",
+        "Marcel Carné",
+        "Henri-Georges Clouzot"
+      ],
+      "answer": 2,
+      "explication": "Le film a été tourné en partie sous l'Occupation, et ses dialogues sont de Jacques Prévert.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Enfants_du_paradis"
+    },
+    {
+      "q": "Quel acteur incarne Cyrano de Bergerac dans le film de Jean-Paul Rappeneau sorti en 1990 ?",
+      "choices": [
+        "Gérard Depardieu",
+        "Philippe Noiret",
+        "Jean Rochefort",
+        "Daniel Auteuil"
+      ],
+      "answer": 0,
+      "explication": "Il reçoit pour ce rôle le prix d'interprétation à Cannes et le César du meilleur acteur.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cyrano_de_Bergerac_(film,_1990)"
+    },
+    {
+      "q": "Quel film de Claude Lelouch remporte la Palme d'or en 1966 ?",
+      "choices": [
+        "Un homme et une femme",
+        "Les Parapluies de Cherbourg",
+        "Pierrot le fou",
+        "Le Samouraï"
+      ],
+      "answer": 0,
+      "explication": "Le film a aussi reçu deux Oscars, dont celui du meilleur film étranger.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Un_homme_et_une_femme"
+    },
+    {
+      "q": "Quel cinéaste a réalisé Le Salaire de la peur et Les Diaboliques ?",
+      "choices": [
+        "Jean-Pierre Melville",
+        "Henri-Georges Clouzot",
+        "Claude Chabrol",
+        "Georges Franju"
+      ],
+      "answer": 1,
+      "explication": "Le Salaire de la peur, sorti en 1953, reçoit la Palme d'or à Cannes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Henri-Georges_Clouzot"
+    },
+    {
+      "q": "Quelle actrice tient le rôle principal des Parapluies de Cherbourg, film de Jacques Demy entièrement chanté ?",
+      "choices": [
+        "Brigitte Bardot",
+        "Anouk Aimée",
+        "Danielle Darrieux",
+        "Catherine Deneuve"
+      ],
+      "answer": 3,
+      "explication": "Le film reçoit la Palme d'or à Cannes en 1964.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Parapluies_de_Cherbourg"
+    },
+    {
+      "q": "Quel acteur incarne François Pignon dans Le Dîner de cons en 1998 ?",
+      "choices": [
+        "Thierry Lhermitte",
+        "Daniel Prévost",
+        "Jacques Villeret",
+        "Michel Blanc"
+      ],
+      "answer": 2,
+      "explication": "Le film est adapté d'une pièce de théâtre de Francis Veber, qui a signé le scénario et la réalisation.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Dîner_de_cons"
+    },
+    {
+      "q": "Qui a écrit le scénario d'Hiroshima mon amour, réalisé par Alain Resnais en 1959 ?",
+      "choices": [
+        "Françoise Sagan",
+        "Marguerite Duras",
+        "Simone de Beauvoir",
+        "Nathalie Sarraute"
+      ],
+      "answer": 1,
+      "explication": "Écrivaine majeure du XXe siècle, elle a aussi réalisé ses propres films.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Hiroshima_mon_amour"
+    },
+    {
+      "q": "Quel film de Maurice Pialat remporte la Palme d'or en 1987 ?",
+      "choices": [
+        "Sous le soleil de Satan",
+        "À nos amours",
+        "Van Gogh",
+        "Loulou"
+      ],
+      "answer": 0,
+      "explication": "Il est adapté d'un roman de Georges Bernanos, avec Gérard Depardieu dans le rôle d'un prêtre.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Sous_le_soleil_de_Satan"
+    },
+    {
+      "q": "Quel film de Robert Enrico reçoit le premier César du meilleur film, en 1976 ?",
+      "choices": [
+        "Que la fête commence",
+        "Cousin, cousine",
+        "Le Vieux Fusil",
+        "Section spéciale"
+      ],
+      "answer": 2,
+      "explication": "Philippe Noiret y reçoit aussi le César du meilleur acteur.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Vieux_Fusil"
+    },
+    {
+      "q": "Quel cinéaste a réalisé Le Samouraï en 1967, avec Alain Delon ?",
+      "choices": [
+        "Henri Verneuil",
+        "José Giovanni",
+        "Jacques Deray",
+        "Jean-Pierre Melville"
+      ],
+      "answer": 3,
+      "explication": "Né Jean-Pierre Grumbach, il avait choisi son pseudonyme en hommage à l'écrivain Herman Melville.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Samouraï"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz cinéma français ?",
+      "Le quiz comprend 20 questions de difficulté croissante : 8 faciles autour des grands noms et des films populaires, 8 de niveau moyen pour les cinéphiles réguliers, puis 4 questions expertes consacrées aux classiques et aux réalisateurs moins connus. Une explication t'apprend un fait supplémentaire après chaque réponse."
+    ],
+    [
+      "Quand les César du cinéma ont-ils été créés ?",
+      "Les César sont décernés pour la première fois en 1976 par l'Académie des arts et techniques du cinéma. Ils sont l'équivalent français des Oscars. La statuette, une compression en bronze, doit son nom au sculpteur César Baldaccini, qui l'a conçue. La cérémonie a lieu chaque année et récompense le meilleur film, les acteurs, les réalisateurs et de nombreux métiers du cinéma."
+    ],
+    [
+      "Qu'appelle-t-on le réalisme poétique ?",
+      "Le réalisme poétique désigne un courant du cinéma français des années 1930 et du début des années 1940. Il mêle décors populaires, destins tragiques et atmosphère lyrique. Jean Renoir, Marcel Carné, le scénariste Jacques Prévert et l'acteur Jean Gabin en sont les figures les plus célèbres, avec des films comme Le Quai des brumes ou Les Enfants du paradis."
+    ]
+  ],
+  "related": [
+    "/quiz-cinema",
+    "/quiz-films",
+    "/quiz-chanson-francaise",
+    "/quiz-litterature",
+    "/quiz-bande-dessinee"
+  ]
+}

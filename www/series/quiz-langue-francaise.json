@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "Les noms en -al font généralement leur pluriel en -aux : un cheval, des chevaux.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/cheval"
     },
     {
       "q": "Quel est le féminin de « acteur » ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "Acteur fait actrice, comme directeur fait directrice : les noms en -teur ont souvent un féminin en -trice.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/acteur"
     },
     {
       "q": "Comment conjugue-t-on « finir » à la 1re personne du pluriel du présent ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Finir est un verbe du 2e groupe : il intercale -iss- aux formes du pluriel. Nous finissons est au présent, nous finissions à l'imparfait.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Conjugaison_des_verbes_du_deuxième_groupe_en_français"
     },
     {
       "q": "Quelle est la nature du mot « rapidement » ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Les mots en -ment formés sur un adjectif sont le plus souvent des adverbes, donc invariables.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Adverbe"
     },
     {
       "q": "Combien y a-t-il de groupes de verbes en français ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "explication": "Le 1er groupe (en -er), le 2e groupe (en -ir comme finir) et le 3e groupe (tous les autres verbes).",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Morphologie_du_verbe_français"
     },
     {
       "q": "Quel auxiliaire utilise-t-on pour conjuguer « aller » au passé composé ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 1,
       "explication": "On dit « je suis allé », car aller fait partie des verbes de mouvement conjugués avec l'auxiliaire être.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Verbe_auxiliaire"
     },
     {
       "q": "Quel est le pluriel de « journal » ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 2,
       "explication": "Comme cheval ou animal, journal fait son pluriel en -aux.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/journal"
     },
     {
       "q": "Comment écrit-on « avoir » à la 1re personne du singulier du futur ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 0,
       "explication": "Au futur, avoir devient j'aurai avec la terminaison -ai. « J'aurais » est le conditionnel présent.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/avoir"
     },
     {
       "q": "Le mot « salaire » vient du latin « salarium », lié à quelle matière ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 2,
       "explication": "Salarium dérive du latin « sal », le sel : il désignait une somme versée aux soldats romains, peut-être pour acheter du sel. D'où le mot « salaire ».",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Salaire"
     },
     {
       "q": "Quelle est la forme correcte du subjonctif présent d'« être » à la 3e personne du singulier ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 0,
       "explication": "On dit « il faut qu'il soit à l'heure ». Soit s'écrit sans « s » à la 3e personne du singulier.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/être"
     },
     {
       "q": "De quelle langue vient le mot « algèbre » ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 3,
       "explication": "Algèbre vient de l'arabe « al-jabr », titre d'un ouvrage de mathématiques du IXe siècle.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Algèbre"
     },
     {
       "q": "Quelle est la forme du passé simple de « il vient » ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 1,
       "explication": "Venir est un verbe du 3e groupe : au passé simple, il vint, ils vinrent.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/venir"
     },
     {
       "q": "Quel est le pluriel de « œil » dans son sens courant ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 0,
       "explication": "Œil a un pluriel irrégulier : des yeux. On parle d'« œils-de-bœuf » pour les petites fenêtres rondes.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Œil"
     },
     {
       "q": "Dans « Cet homme est un lion », quelle est la figure de style ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 2,
       "explication": "Une métaphore identifie deux réalités sans outil de comparaison. Avec « comme », ce serait une comparaison.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Métaphore"
     },
     {
       "q": "Dans « Marie mange une pomme », quelle est la fonction de « une pomme » ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 1,
       "explication": "On répond à la question « Marie mange quoi ? » : une pomme est COD, car il n'y a pas de préposition.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Complément_d'objet_direct"
     },
     {
       "q": "Le mot « bureau » désignait d'abord…",
@@ -196,7 +211,8 @@
       ],
       "answer": 3,
       "explication": "Le mot vient de « bure », une grosse étoffe de laine. Elle recouvrait la table de travail, qui a pris le nom de bureau.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bureau_(meuble)"
     },
     {
       "q": "Quelle est la forme de l'impératif de « avoir » à la 2e personne du singulier ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "L'impératif d'avoir est irrégulier : aie, ayons, ayez. Il vient du subjonctif et perd son « s » final.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/avoir"
     },
     {
       "q": "Quelle est la forme du subjonctif imparfait de « tenir » à la 3e personne du singulier ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 3,
       "explication": "Le subjonctif imparfait de tenir est qu'il tînt, avec un accent circonflexe sur le « î ».",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:français/tenir"
     },
     {
       "q": "Quelle est la nature de « que » dans « Je pense que tu as raison » ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Ici « que » introduit une proposition complétive après « penser ». Il ne remplace aucun nom, ce n'est donc pas un pronom relatif.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Conjonction_de_subordination_en_français"
     },
     {
       "q": "Quel temps est « il eut chanté » ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "Le passé antérieur associe l'auxiliaire au passé simple (« eut ») et le participe passé. Il s'emploie surtout en littérature.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Passé_antérieur_en_français"
     }
   ],
   "faq": [
@@ -265,5 +285,6 @@
     "/quiz-orthographe",
     "/quiz-vocabulaire",
     "/quiz-culture-generale-facile"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

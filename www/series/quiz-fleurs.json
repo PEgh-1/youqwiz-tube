@@ -1,0 +1,290 @@
+{
+  "path": "/quiz-fleurs",
+  "theme": "nature",
+  "title": "Quiz fleurs : 20 questions sur les fleurs",
+  "description": "Quiz fleurs : 20 questions sur les noms, la symbolique, la botanique et les fleurs nationales, avec une explication après chaque réponse. Facile à expert.",
+  "h1": "Quiz fleurs : sais-tu reconnaître et nommer les fleurs du monde ?",
+  "intro": "Muguet du 1er mai, tournesol, lavande, lotus sacré ou rafflesia géante : les fleurs cachent mille histoires. Ce quiz fleurs te propose 20 questions pour tester tes connaissances sur leurs noms, leur symbolique, leur botanique et les fleurs emblèmes de certains pays. Le niveau grimpe peu à peu, de huit questions faciles à quatre questions d'expert, en passant par huit questions moyennes. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait de plus à glisser dans la conversation. Que tu aies la main verte ou non, lance-toi et vois combien de fleurs tu sais vraiment reconnaître !",
+  "questions": [
+    {
+      "q": "Quelle fleur blanche en clochettes offre-t-on traditionnellement le 1er mai en France ?",
+      "choices": [
+        "La pivoine",
+        "Le muguet",
+        "La jonquille",
+        "Le lilas"
+      ],
+      "answer": 1,
+      "explication": "La coutume est officialisée en 1561 par Charles IX, qui décide d'offrir un brin de muguet aux dames de sa cour.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Convallaria_majalis"
+    },
+    {
+      "q": "Quelle grande fleur jaune suit le soleil pendant sa croissance ?",
+      "choices": [
+        "Le souci",
+        "Le genêt",
+        "Le pissenlit",
+        "Le tournesol"
+      ],
+      "answer": 3,
+      "explication": "Avant la floraison, la plante est héliotrope. Ensuite, sa fleur reste orientée vers le soleil levant, c'est-à-dire vers l'est.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tournesol"
+    },
+    {
+      "q": "Quelle fleur rouge, aux pétales fragiles, pousse volontiers dans les champs de blé ?",
+      "choices": [
+        "Le coquelicot",
+        "La pivoine",
+        "Le glaïeul",
+        "La digitale"
+      ],
+      "answer": 0,
+      "explication": "Ses graines peuvent rester dormantes dans le sol pendant des années avant de germer quand la terre est remuée.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Coquelicot"
+    },
+    {
+      "q": "Quelle plante aromatique aux épis violets est emblématique des paysages de Provence en été ?",
+      "choices": [
+        "Le romarin",
+        "Le thym",
+        "La lavande",
+        "Le basilic"
+      ],
+      "answer": 2,
+      "explication": "Le lavandin, très cultivé, est un hybride naturel entre la lavande vraie et la lavande aspic.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lavande"
+    },
+    {
+      "q": "Comment appelle-t-on le transport du pollen vers les organes femelles d'une fleur ?",
+      "choices": [
+        "La germination",
+        "La photosynthèse",
+        "La pollinisation",
+        "La fanaison"
+      ],
+      "answer": 2,
+      "explication": "Elle peut être assurée par des animaux, surtout des insectes, mais aussi par le vent ou par l'eau.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pollinisation"
+    },
+    {
+      "q": "Quelle petite fleur blanche et duveteuse pousse en haute montagne, dans les Alpes ?",
+      "choices": [
+        "L'edelweiss",
+        "Le coquelicot",
+        "Le myosotis",
+        "La capucine"
+      ],
+      "answer": 0,
+      "explication": "Son nom vient de l'allemand et signifie « noble blanche » (edel, noble, et weiss, blanc).",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Edelweiss"
+    },
+    {
+      "q": "Quelle fleur d'automne est traditionnellement déposée sur les tombes à la Toussaint en France ?",
+      "choices": [
+        "Le tournesol",
+        "La tulipe",
+        "Le muguet",
+        "Le chrysanthème"
+      ],
+      "answer": 3,
+      "explication": "Cette plante fleurit tard dans l'année et supporte un gel modéré, ce qui explique son succès à cette saison.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chrysanthème"
+    },
+    {
+      "q": "Comment appelle-t-on les parties souvent colorées d'une fleur qui attirent les insectes ?",
+      "choices": [
+        "Les racines",
+        "Les pétales",
+        "Les épines",
+        "Les bourgeons"
+      ],
+      "answer": 1,
+      "explication": "Ensemble, les pétales forment la corolle, située à l'intérieur du calice formé par les sépales.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pétale"
+    },
+    {
+      "q": "Les câpres que l'on mange en cuisine sont, en fait…",
+      "choices": [
+        "Des graines de pavot",
+        "Des baies de genévrier",
+        "Des boutons floraux",
+        "De petites olives vertes"
+      ],
+      "answer": 2,
+      "explication": "Laissés sur le câprier, les boutons s'ouvrent en grandes fleurs blanches aux longues étamines violettes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Câpre"
+    },
+    {
+      "q": "L'artichaut que l'on mange est en réalité…",
+      "choices": [
+        "Un bouton floral encore fermé",
+        "Une racine renflée",
+        "Un fruit déjà mûr",
+        "Un tubercule"
+      ],
+      "answer": 0,
+      "explication": "On déguste surtout le fond charnu et la base des bractées qui entourent les fleurs en formation.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Artichaut"
+    },
+    {
+      "q": "Quelle fleur aquatique sacrée est la fleur nationale de l'Inde ?",
+      "choices": [
+        "Le nénuphar blanc",
+        "Le lotus",
+        "Le jasmin",
+        "L'hibiscus"
+      ],
+      "answer": 1,
+      "explication": "Le lotus sacré est associé au bouddhisme et au brahmanisme : de nombreuses divinités y sont représentées assises.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nelumbo_nucifera"
+    },
+    {
+      "q": "Quelle fleur est devenue l'emblème de l'Angleterre après la guerre des Deux-Roses ?",
+      "choices": [
+        "Le chardon",
+        "Le trèfle",
+        "La jonquille",
+        "La rose"
+      ],
+      "answer": 3,
+      "explication": "La rose rouge représentait la maison de Lancastre et la rose blanche celle d'York, avant de s'unir dans la rose Tudor.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rose_(fleur)"
+    },
+    {
+      "q": "Comment s'appelle l'organe mâle de la fleur, qui produit le pollen ?",
+      "choices": [
+        "L'étamine",
+        "Le pistil",
+        "Le sépale",
+        "L'ovaire"
+      ],
+      "answer": 0,
+      "explication": "Elle se compose d'un filet qui porte à son sommet l'anthère, où le pollen est fabriqué et stocké.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Étamine"
+    },
+    {
+      "q": "D'où les tulipes cultivées sont-elles arrivées en Europe occidentale au XVIe siècle ?",
+      "choices": [
+        "De Chine",
+        "Du Mexique",
+        "De l'Empire ottoman",
+        "Du Pérou"
+      ],
+      "answer": 2,
+      "explication": "Le botaniste Charles de l'Écluse, dit Clusius, contribue à les diffuser à la fin du XVIe siècle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tulipe"
+    },
+    {
+      "q": "Quelle fleur est le symbole français de la mémoire et de la solidarité envers les anciens combattants ?",
+      "choices": [
+        "Le coquelicot",
+        "Le myosotis",
+        "La pâquerette",
+        "Le bleuet"
+      ],
+      "answer": 3,
+      "explication": "Les premiers bleuets en tissu sont confectionnés dès 1916 dans des ateliers employant des blessés de guerre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bleuet_de_France"
+    },
+    {
+      "q": "Quel naturaliste suédois publie en 1753 « Species Plantarum », ouvrage fondateur de la nomenclature botanique ?",
+      "choices": [
+        "Georges-Louis Leclerc de Buffon",
+        "Carl von Linné",
+        "Charles Darwin",
+        "Antoine-Laurent de Jussieu"
+      ],
+      "answer": 1,
+      "explication": "Cet ouvrage décrit les plantes connues à l'époque et applique de façon systématique le système des deux noms latins, genre puis espèce.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Carl_von_Linné"
+    },
+    {
+      "q": "Quelle plante parasite d'Asie du Sud-Est produit la plus grande fleur individuelle du monde ?",
+      "choices": [
+        "Rafflesia arnoldii",
+        "Victoria amazonica",
+        "Nelumbo nucifera",
+        "Magnolia grandiflora"
+      ],
+      "answer": 0,
+      "explication": "Sans feuilles ni racines visibles, elle vit dans des lianes du genre Tetrastigma et dégage une odeur de viande avariée qui attire les mouches.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Rafflesia_arnoldii"
+    },
+    {
+      "q": "En quelle année la spéculation sur les bulbes de tulipes s'effondre-t-elle aux Pays-Bas ?",
+      "choices": [
+        "1597",
+        "1677",
+        "1637",
+        "1707"
+      ],
+      "answer": 2,
+      "explication": "Le récit classique d'une folie collective date de 1841, mais les historiens actuels nuancent l'ampleur réelle du phénomène.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Tulipomanie"
+    },
+    {
+      "q": "Ce qu'on appelle « la fleur » du tournesol est en réalité…",
+      "choices": [
+        "Une seule fleur à pétales soudés",
+        "Un capitule de nombreuses petites fleurs",
+        "Un fruit déjà mûr",
+        "Une feuille en forme de disque"
+      ],
+      "answer": 1,
+      "explication": "Les fleurs du disque central sont disposées en spirales qui suivent les nombres de la suite de Fibonacci.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Tournesol"
+    },
+    {
+      "q": "Quel genre de fleurs originaire du Mexique porte le nom du botaniste suédois Anders Dahl ?",
+      "choices": [
+        "Le zinnia",
+        "Le bégonia",
+        "Le magnolia",
+        "Le dahlia"
+      ],
+      "answer": 3,
+      "explication": "Les Aztèques le cultivaient déjà comme plante ornementale avant l'arrivée des Européens.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dahlia"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les fleurs ?",
+      "Le quiz comporte 20 questions classées par difficulté : huit faciles sur les fleurs que tout le monde connaît, huit moyennes sur la symbolique, les usages et les fleurs emblèmes, puis quatre questions d'expert de botanique pointue. Chaque réponse s'accompagne d'une courte explication. Tu peux le refaire autant de fois que tu veux pour améliorer ton score."
+    ],
+    [
+      "Quelle est la différence entre l'étamine et le pistil ?",
+      "L'étamine est l'organe mâle de la fleur : elle se compose d'un filet portant une anthère, où se forme le pollen. Le pistil est l'organe femelle : il comprend l'ovaire, qui contient les ovules, et le stigmate, qui reçoit le pollen. Le transport du pollen de l'un vers l'autre s'appelle la pollinisation."
+    ],
+    [
+      "Pourquoi offre-t-on du muguet le 1er mai ?",
+      "La coutume remonte à la Renaissance : en 1561, le roi Charles IX décide d'offrir un brin de muguet aux dames de sa cour chaque 1er mai. Au XXe siècle, la tradition se mêle à la fête du Travail, et le muguet devient le symbole du printemps et du porte-bonheur que l'on s'offre en France."
+    ]
+  ],
+  "related": [
+    "/quiz-arbres",
+    "/quiz-animaux",
+    "/quiz-sciences",
+    "/quiz-oiseaux"
+  ]
+}

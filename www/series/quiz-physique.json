@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "Le mètre est l'unité de base de la longueur, dont dérivent le kilomètre et le centimètre.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/M%C3%A8tre"
     },
     {
       "q": "Quelle est l'unité de masse du Système international ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "Le kilogramme est l'unité de base de la masse. C'est la seule unité de base à porter un préfixe.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Kilogramme"
     },
     {
       "q": "Quel physicien est célèbre pour la formule E = mc² ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "E = mc² exprime l'équivalence entre masse et énergie, un résultat de la relativité restreinte de 1905.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Relativit%C3%A9_restreinte"
     },
     {
       "q": "Quel instrument sert à mesurer la température ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Le thermomètre mesure la température. Le baromètre mesure la pression de l'air.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Thermom%C3%A8tre"
     },
     {
       "q": "Quelle est l'unité de temps du Système international ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "explication": "La seconde est l'unité de base du temps, définie aujourd'hui à partir d'une fréquence atomique.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Seconde_(temps)"
     },
     {
       "q": "Qu'est-ce qui se propage le plus vite : la lumière ou le son ?",
@@ -75,8 +80,9 @@
         "cela dépend du jour"
       ],
       "answer": 0,
-      "explication": "La lumière va environ 900 000 fois plus vite que le son dans l'air.",
-      "level": "facile"
+      "explication": "La lumière va près de 900 000 fois plus vite que le son dans l'air.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Vitesse_de_la_lumi%C3%A8re"
     },
     {
       "q": "Quelle force s'oppose au glissement entre deux surfaces en contact ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 3,
       "explication": "Le frottement ralentit les objets et produit de la chaleur.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Frottement"
     },
     {
       "q": "Quel phénomène sépare la lumière blanche en plusieurs couleurs à travers un prisme ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 1,
       "explication": "Chaque couleur est déviée différemment par le verre, ce qui étale la lumière en spectre. Le même phénomène intervient dans l'arc-en-ciel.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dispersion_(optique)"
     },
     {
       "q": "Quelle est l'unité d'énergie du Système international ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 3,
       "explication": "Le joule honore James Prescott Joule. C'est l'énergie fournie par une force d'un newton sur un déplacement d'un mètre.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Joule"
     },
     {
       "q": "Quelle est l'unité de puissance du Système international ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 1,
       "explication": "Un watt correspond à un joule par seconde.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Watt"
     },
     {
       "q": "Quelle est l'unité de fréquence ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 2,
       "explication": "Un hertz correspond à une oscillation par seconde. L'unité honore Heinrich Hertz.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Hertz"
     },
     {
       "q": "Quelle relation exprime la loi d'Ohm ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 0,
       "explication": "La tension U est égale à la résistance R multipliée par l'intensité I.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Loi_d'Ohm"
     },
     {
       "q": "Quel principe dit qu'un corps non soumis à des forces garde un mouvement rectiligne uniforme ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 0,
       "explication": "C'est la première loi de Newton, aussi appelée principe d'inertie.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Principe_d'inertie"
     },
     {
       "q": "Quel physicien a découvert la radioactivité en 1896 ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 2,
       "explication": "Becquerel a découvert la radioactivité naturelle. Marie et Pierre Curie l'ont ensuite étudiée.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Henri_Becquerel"
     },
     {
       "q": "Quelle est approximativement la vitesse de la lumière dans le vide ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 1,
       "explication": "La lumière se propage dans le vide à environ 300 000 kilomètres par seconde.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vitesse_de_la_lumi%C3%A8re"
     },
     {
       "q": "Qui a découvert les rayons X en 1895 ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 3,
       "explication": "Röntgen a découvert les rayons X et reçu le premier prix Nobel de physique, en 1901.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
     },
     {
       "q": "Quelle est l'unité de pression du Système international ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "Le pascal correspond à un newton par mètre carré. Le bar est une unité d'usage courant, hors Système international.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pascal_(unit%C3%A9)"
     },
     {
       "q": "Quel physicien a proposé la théorie des quanta en 1900 ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 0,
       "explication": "Planck a introduit l'idée que l'énergie est échangée par paquets, les quanta. C'est le point de départ de la physique quantique.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Max_Planck"
     },
     {
       "q": "Quelle est la valeur du zéro absolu en degrés Celsius ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 3,
       "explication": "Le zéro absolu correspond à 0 kelvin, soit exactement −273,15 °C. C'est la plus basse température théoriquement possible.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Z%C3%A9ro_absolu"
     },
     {
       "q": "Quel physicien a découvert le noyau de l'atome en 1911 ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "Rutherford a montré que la charge positive de l'atome est concentrée dans un noyau minuscule.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ernest_Rutherford"
     }
   ],
   "faq": [
@@ -267,5 +287,6 @@
     "/quiz-systeme-solaire",
     "/quiz-espace",
     "/quiz-corps-humain"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

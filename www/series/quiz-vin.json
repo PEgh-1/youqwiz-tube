@@ -16,19 +16,21 @@
       ],
       "answer": 2,
       "explication": "Le vin résulte de la fermentation du jus de raisin sous l'action des levures.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Vin"
     },
     {
-      "q": "Dans quelle région produit-on le champagne ?",
+      "q": "Comment s'appelle la science qui étudie le vin et sa fabrication ?",
       "choices": [
-        "La Champagne",
-        "La Bourgogne",
-        "L'Alsace",
-        "La Loire"
+        "L'œnologie",
+        "La viticulture",
+        "La sommellerie",
+        "La botanique"
       ],
       "answer": 0,
-      "explication": "Seul le vin pétillant élaboré dans cette région, selon des règles précises, peut s'appeler champagne.",
-      "level": "facile"
+      "explication": "L'œnologie est la science du vin et de son élaboration. La viticulture, elle, désigne la culture de la vigne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/%C5%92nologie"
     },
     {
       "q": "Comment appelle-t-on la personne qui conseille les vins au restaurant ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 1,
       "explication": "Le sommelier choisit la carte des vins et conseille les clients sur les accords mets-vins.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sommelier"
     },
     {
       "q": "Comment appelle-t-on l'année de récolte d'un vin ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 3,
       "explication": "Le millésime figure sur l'étiquette, car chaque année climatique donne des vins différents.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mill%C3%A9sime"
     },
     {
       "q": "Comment appelle-t-on la couleur d'un vin ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 0,
       "explication": "On observe la robe d'un vin dans le verre avant d'en sentir les arômes.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Robe_(vin)"
     },
     {
       "q": "Comment appelle-t-on la récolte du raisin ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 2,
       "explication": "Les vendanges ont lieu à la fin de l'été ou au début de l'automne.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Vendange"
     },
     {
       "q": "Quelle ville du Sud-Ouest donne son nom à un célèbre vignoble ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 3,
       "explication": "Le Bordelais est l'un des plus grands vignobles du monde, avec le Médoc ou Saint-Émilion.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Vins_de_Bordeaux"
     },
     {
       "q": "Quelle couleur de vin obtient-on avec une courte macération de raisins noirs ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 2,
       "explication": "Le jus des raisins noirs est blanc : la couleur vient de la peau, laissée en contact peu de temps.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Vin_ros%C3%A9"
     },
     {
       "q": "Dans quelle région viticole se trouve Chablis ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 3,
       "explication": "Les vins de Chablis sont des vins blancs secs issus du cépage chardonnay.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chablis_(AOC)"
     },
     {
       "q": "Quel jour sort officiellement le beaujolais nouveau ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 1,
       "explication": "La date est fixée au troisième jeudi de novembre, ce qui crée chaque année une fête populaire.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Beaujolais_nouveau"
     },
     {
       "q": "Quel cépage blanc donne les vins de Sancerre ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 0,
       "explication": "Sancerre, dans le Val de Loire, est réputé pour ses blancs frais et vifs.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sancerre_(AOC)"
     },
     {
       "q": "Quel cépage donne les grands rouges de Bourgogne ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 2,
       "explication": "Le pinot noir est le cépage des vins rouges de la Côte-d'Or.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pinot_noir_(cépage)"
     },
     {
       "q": "Dans quelle région trouve-t-on les vins en bouteilles longues, dites « flûtes » ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 3,
       "explication": "Les vins d'Alsace sont mis en bouteilles élancées, appelées flûtes d'Alsace.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vignoble_d'Alsace"
     },
     {
       "q": "Quel vin liquoreux célèbre vient du Bordelais ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 1,
       "explication": "Le sauternes est un vin blanc doux, issu de raisins touchés par la pourriture noble.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sauternes_(AOC)"
     },
     {
       "q": "Que signifie AOC sur une étiquette ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 2,
       "explication": "L'AOC garantit l'origine et le respect d'un cahier des charges précis.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Appellation_d'origine_contr%C3%B4l%C3%A9e"
     },
     {
       "q": "Dans quelle région viticole produit-on le muscadet ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 1,
       "explication": "Le muscadet est produit autour de Nantes et accompagne volontiers les fruits de mer.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Muscadet_(AOC)"
     },
     {
       "q": "Quel puceron ravage le vignoble français à partir des années 1860 ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "On sauve le vignoble en greffant les cépages européens sur des porte-greffes américains résistants.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Phyllox%C3%A9ra"
     },
     {
       "q": "En quelle année le classement officiel des grands crus du Médoc est-il établi ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 0,
       "explication": "Ce classement est établi pour l'Exposition universelle de Paris, à la demande de Napoléon III.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Classification_officielle_des_vins_de_Bordeaux_de_1855"
     },
     {
       "q": "Quel moine bénédictin de l'abbaye d'Hautvillers est associé à l'essor du champagne ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Dom Pérignon n'a pas inventé le champagne, mais il a perfectionné l'assemblage des raisins et la conduite des vins.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dom_P%C3%A9rignon"
     },
     {
       "q": "Quelle bouteille de 62 cl est réservée au vin jaune du Jura ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 3,
       "explication": "Le clavelin représente ce qui reste d'un litre de vin après six ans et trois mois d'élevage sous voile.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Clavelin"
     }
   ],
   "faq": [
@@ -266,5 +286,6 @@
     "/quiz-cuisine",
     "/quiz-regions-de-france",
     "/quiz-noel"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

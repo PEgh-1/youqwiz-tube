@@ -7,7 +7,7 @@
   "intro": "De la Corée du Sud au Liban, l'Asie rassemble des drapeaux très variés : soleils, croissants, étoiles, temples et animaux. Ce quiz te propose 20 drapeaux, un par question, et tu dois retrouver quel pays asiatique les porte. Les quatre choix sont toujours des pays d'Asie, donc les ressemblances entre voisins sont volontaires. On démarre avec les drapeaux les plus connus, puis le niveau monte jusqu'aux républiques d'Asie centrale et du Golfe. Compte environ cinq secondes par question et lis les explications pour retenir de petits repères. Rejoue sans limite pour améliorer ton score.",
   "questions": [
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Vietnam",
         "Chine",
@@ -17,10 +17,11 @@
       "answer": 1,
       "explication": "Rouge avec cinq étoiles jaunes : la plus grande représente le Parti communiste, les quatre petites le peuple.",
       "level": "facile",
-      "flag": "cn"
+      "flag": "cn",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_r%C3%A9publique_populaire_de_Chine"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Japon",
         "Corée du Nord",
@@ -30,10 +31,11 @@
       "answer": 3,
       "explication": "Le Taegeukgi réunit un cercle rouge et bleu, symbole de l'équilibre, entouré de quatre trigrammes noirs.",
       "level": "facile",
-      "flag": "kr"
+      "flag": "kr",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Cor%C3%A9e_du_Sud"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Thaïlande",
         "Laos",
@@ -43,10 +45,11 @@
       "answer": 0,
       "explication": "Cinq bandes rouge, blanche, bleue, blanche, rouge : la bande bleue centrale est deux fois plus large.",
       "level": "facile",
-      "flag": "th"
+      "flag": "th",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Tha%C3%AFlande"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Chine",
         "Corée du Nord",
@@ -56,10 +59,11 @@
       "answer": 2,
       "explication": "Une étoile jaune à cinq branches sur fond rouge, apparue au milieu du XXe siècle.",
       "level": "facile",
-      "flag": "vn"
+      "flag": "vn",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Vi%C3%AAt_Nam"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Pakistan",
         "Iran",
@@ -69,10 +73,11 @@
       "answer": 3,
       "explication": "Sur fond vert, la profession de foi musulmane est inscrite au-dessus d'un sabre.",
       "level": "facile",
-      "flag": "sa"
+      "flag": "sa",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Arabie_saoudite"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Jordanie",
         "Israël",
@@ -82,10 +87,11 @@
       "answer": 1,
       "explication": "Une étoile de David bleue entre deux bandes bleues, inspirée du châle de prière juif, le talit.",
       "level": "facile",
-      "flag": "il"
+      "flag": "il",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_d%27Isra%C3%ABl"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Irak",
         "Tadjikistan",
@@ -95,10 +101,11 @@
       "answer": 2,
       "explication": "Vert, blanc, rouge avec un emblème central et une phrase répétée 22 fois sur les bords des bandes.",
       "level": "facile",
-      "flag": "ir"
+      "flag": "ir",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Iran"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Philippines",
         "Thaïlande",
@@ -108,10 +115,11 @@
       "answer": 0,
       "explication": "Un triangle blanc avec un soleil à huit rayons et trois étoiles ; en temps de guerre, la bande rouge se place en haut.",
       "level": "facile",
-      "flag": "ph"
+      "flag": "ph",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_des_Philippines"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Bangladesh",
         "Japon",
@@ -121,10 +129,11 @@
       "answer": 0,
       "explication": "Le disque rouge est légèrement décalé vers la hampe pour paraître centré quand le drapeau flotte.",
       "level": "moyen",
-      "flag": "bd"
+      "flag": "bd",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Bangladesh"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Thaïlande",
         "Cambodge",
@@ -134,10 +143,11 @@
       "answer": 2,
       "explication": "Quatorze bandes rouges et blanches et une étoile à quatorze branches représentent les treize États et le gouvernement fédéral ; le croissant symbolise l'islam.",
       "level": "moyen",
-      "flag": "my"
+      "flag": "my",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Malaisie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Malaisie",
         "Singapour",
@@ -147,10 +157,11 @@
       "answer": 1,
       "explication": "Un croissant et cinq étoiles sur fond rouge et blanc : le croissant évoque une nation jeune.",
       "level": "moyen",
-      "flag": "sg"
+      "flag": "sg",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_Singapour"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Koweït",
         "Jordanie",
@@ -160,10 +171,11 @@
       "answer": 3,
       "explication": "Les couleurs panarabes rouge, vert, blanc et noir, avec une bande rouge verticale côté hampe.",
       "level": "moyen",
-      "flag": "ae"
+      "flag": "ae",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_des_%C3%89mirats_arabes_unis"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Bhoutan",
         "Birmanie",
@@ -173,10 +185,11 @@
       "answer": 2,
       "explication": "Un lion doré tenant un sabre sur un fond jaune bordé de bandes vertes et orange.",
       "level": "moyen",
-      "flag": "lk"
+      "flag": "lk",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Sri_Lanka"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Cambodge",
         "Thaïlande",
@@ -186,10 +199,11 @@
       "answer": 0,
       "explication": "Le temple d'Angkor Vat y figure en blanc : c'est un drapeau national très singulier.",
       "level": "moyen",
-      "flag": "kh"
+      "flag": "kh",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Cambodge"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Thaïlande",
         "Cambodge",
@@ -199,10 +213,11 @@
       "answer": 3,
       "explication": "Deux bandes rouges encadrent une large bande bleue portant un disque blanc.",
       "level": "moyen",
-      "flag": "la"
+      "flag": "la",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Laos"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Koweït",
         "Jordanie",
@@ -212,10 +227,11 @@
       "answer": 1,
       "explication": "Noir, blanc et vert, un triangle rouge et une étoile à sept branches rappelant la première sourate du Coran.",
       "level": "moyen",
-      "flag": "jo"
+      "flag": "jo",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Jordanie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Bahreïn",
         "Qatar",
@@ -225,10 +241,11 @@
       "answer": 1,
       "explication": "Sa couleur grenat et son bord dentelé à neuf pointes blanches le distinguent de son voisin bahreïni.",
       "level": "expert",
-      "flag": "qa"
+      "flag": "qa",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Qatar"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Tadjikistan",
         "Turkménistan",
@@ -238,10 +255,11 @@
       "answer": 3,
       "explication": "Un croissant et douze étoiles dans le coin, sur des bandes bleue, blanche et verte séparées de fins filets rouges.",
       "level": "expert",
-      "flag": "uz"
+      "flag": "uz",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Ouzb%C3%A9kistan"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Mongolie",
         "Laos",
@@ -251,10 +269,11 @@
       "answer": 0,
       "explication": "Le symbole jaune « soyombo » orne la bande rouge côté hampe, à côté d'une bande bleue.",
       "level": "expert",
-      "flag": "mn"
+      "flag": "mn",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Mongolie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Asie est ce drapeau ?",
       "choices": [
         "Syrie",
         "Jordanie",
@@ -264,7 +283,8 @@
       "answer": 2,
       "explication": "Un cèdre vert entre deux bandes rouges, arbre emblématique du pays.",
       "level": "expert",
-      "flag": "lb"
+      "flag": "lb",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Liban"
     }
   ],
   "faq": [
@@ -287,5 +307,6 @@
     "/quiz-drapeaux-europe",
     "/quiz-drapeaux-amerique",
     "/quiz-capitales-asie"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

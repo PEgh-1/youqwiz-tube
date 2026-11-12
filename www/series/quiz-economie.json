@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-economie",
+  "theme": "culture",
+  "title": "Quiz économie : notions et grands économistes",
+  "description": "Quiz économie : 20 questions sur les notions, le vocabulaire, les grands économistes et l'histoire économique, des plus faciles aux plus pointues.",
+  "h1": "Quiz économie : maîtrises-tu les notions et les grands noms de l'économie ?",
+  "intro": "Inflation, PIB, dividende, monopole, stagflation : les mots de l'économie reviennent sans cesse dans les conversations, mais sait-on toujours ce qu'ils recouvrent ? Ce quiz te propose 20 questions sur les notions de base, le vocabulaire, les grands économistes et quelques épisodes marquants de l'histoire économique, du krach de 1929 aux chocs pétroliers. Aucun chiffre d'actualité n'est demandé : on se concentre sur les idées et les repères durables. Les questions montent doucement en difficulté et chaque réponse est suivie d'une explication pour apprendre un détail de plus. Prêt à tester tes connaissances ?",
+  "questions": [
+    {
+      "q": "Comment appelle-t-on la hausse générale et durable des prix ?",
+      "choices": [
+        "La déflation",
+        "La récession",
+        "L'inflation",
+        "La stagnation"
+      ],
+      "answer": 2,
+      "explication": "En France, elle est mesurée par l'indice des prix à la consommation, calculé par l'Insee.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Inflation"
+    },
+    {
+      "q": "Comment nomme-t-on, selon la définition courante, deux trimestres consécutifs de baisse du produit intérieur brut ?",
+      "choices": [
+        "Une récession",
+        "Une inflation",
+        "Une dévaluation",
+        "Un excédent commercial"
+      ],
+      "answer": 0,
+      "explication": "On parle de dépression pour une crise plus profonde et plus longue, comme celle des années 1930.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Récession_(économie)"
+    },
+    {
+      "q": "Que signifie l'abréviation PIB ?",
+      "choices": [
+        "Prix intérieur de base",
+        "Part d'investissement brute",
+        "Produit industriel de base",
+        "Produit intérieur brut"
+      ],
+      "answer": 3,
+      "explication": "Il mesure la valeur des biens et services produits sur un territoire pendant une période donnée.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Produit_intérieur_brut"
+    },
+    {
+      "q": "Comment appelle-t-on la part des bénéfices d'une entreprise versée à ses actionnaires ?",
+      "choices": [
+        "Le salaire",
+        "L'intérêt",
+        "Le dividende",
+        "La cotisation"
+      ],
+      "answer": 2,
+      "explication": "Son montant est voté en assemblée générale des actionnaires.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dividende"
+    },
+    {
+      "q": "Quel impôt indirect, payé par le consommateur final, s'applique à la plupart des biens et services en France ?",
+      "choices": [
+        "La TVA",
+        "L'impôt sur le revenu",
+        "La taxe foncière",
+        "Les droits de succession"
+      ],
+      "answer": 0,
+      "explication": "La taxe sur la valeur ajoutée a été inventée en France en 1954 par Maurice Lauré.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Taxe_sur_la_valeur_ajoutée"
+    },
+    {
+      "q": "Comment appelle-t-on la situation où une seule entreprise domine un marché ?",
+      "choices": [
+        "Un monopole",
+        "Un oligopole",
+        "Une coopérative",
+        "Un cartel"
+      ],
+      "answer": 0,
+      "explication": "Quand quelques entreprises seulement se partagent le marché, on parle d'oligopole.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Monopole"
+    },
+    {
+      "q": "Quel économiste écossais publie La Richesse des nations en 1776 ?",
+      "choices": [
+        "John Maynard Keynes",
+        "Karl Marx",
+        "Adam Smith",
+        "David Ricardo"
+      ],
+      "answer": 2,
+      "explication": "Il y illustre l'idée de division du travail avec l'exemple d'une manufacture d'épingles.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Adam_Smith"
+    },
+    {
+      "q": "Comment appelle-t-on la valeur d'une monnaie exprimée dans une autre monnaie ?",
+      "choices": [
+        "Le taux directeur",
+        "Le taux d'intérêt",
+        "Le taux de change",
+        "Le taux d'épargne"
+      ],
+      "answer": 2,
+      "explication": "Il peut être fixe ou flottant, selon que l'État ou le marché le détermine.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Taux_de_change"
+    },
+    {
+      "q": "Quel économiste britannique publie en 1936 la Théorie générale de l'emploi, de l'intérêt et de la monnaie ?",
+      "choices": [
+        "Milton Friedman",
+        "John Maynard Keynes",
+        "Friedrich Hayek",
+        "Alfred Marshall"
+      ],
+      "answer": 1,
+      "explication": "Il y défend le soutien de la demande par la dépense publique en période de crise.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/John_Maynard_Keynes"
+    },
+    {
+      "q": "Quel ouvrage de Karl Marx, dont le premier livre paraît en 1867, analyse le fonctionnement du capitalisme ?",
+      "choices": [
+        "Le Manifeste du parti communiste",
+        "La Richesse des nations",
+        "Les Principes d'économie politique",
+        "Le Capital"
+      ],
+      "answer": 3,
+      "explication": "Friedrich Engels publie les livres II et III après la mort de Marx.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Capital"
+    },
+    {
+      "q": "Quelle place boursière est au cœur du krach d'octobre 1929, qui précède la Grande Dépression ?",
+      "choices": [
+        "Londres",
+        "Paris",
+        "Tokyo",
+        "New York"
+      ],
+      "answer": 3,
+      "explication": "Le « jeudi noir » du 24 octobre est suivi du « mardi noir » du 29 octobre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Krach_de_1929"
+    },
+    {
+      "q": "Quel économiste français est associé à la loi des débouchés, souvent résumée par « l'offre crée sa propre demande » ?",
+      "choices": [
+        "Léon Walras",
+        "Jean-Baptiste Say",
+        "Frédéric Bastiat",
+        "François Quesnay"
+      ],
+      "answer": 1,
+      "explication": "Il expose cette idée dans son Traité d'économie politique, publié en 1803.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jean-Baptiste_Say"
+    },
+    {
+      "q": "Quel mot désigne la combinaison d'une forte inflation et d'une faible croissance, observée dans les années 1970 ?",
+      "choices": [
+        "La déflation",
+        "La stagflation",
+        "L'hyperinflation",
+        "La désinflation"
+      ],
+      "answer": 1,
+      "explication": "Le terme est généralement attribué au ministre britannique Iain Macleod, qui l'emploie devant le Parlement en 1965.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Stagflation"
+    },
+    {
+      "q": "Dans quel pays se tient en 1944 la conférence qui crée le FMI et la Banque mondiale ?",
+      "choices": [
+        "Le Royaume-Uni",
+        "La France",
+        "Les États-Unis",
+        "La Suisse"
+      ],
+      "answer": 2,
+      "explication": "Les délégués de quarante-quatre pays se réunissent à Bretton Woods, dans le New Hampshire.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Conférence_de_Bretton_Woods"
+    },
+    {
+      "q": "Quel économiste autrichien popularise l'expression « destruction créatrice » ?",
+      "choices": [
+        "Joseph Schumpeter",
+        "Friedrich Hayek",
+        "Vilfredo Pareto",
+        "Thorstein Veblen"
+      ],
+      "answer": 0,
+      "explication": "Il l'emploie dans Capitalisme, socialisme et démocratie, publié en 1942.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Joseph_Schumpeter"
+    },
+    {
+      "q": "Quel conflit de 1973 est suivi de l'embargo pétrolier de pays arabes producteurs, à l'origine du premier choc pétrolier ?",
+      "choices": [
+        "La guerre du Golfe",
+        "La révolution iranienne",
+        "La crise de Suez",
+        "La guerre du Kippour"
+      ],
+      "answer": 3,
+      "explication": "La révolution iranienne de 1979 provoque, elle, le second choc pétrolier.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Premier_choc_pétrolier"
+    },
+    {
+      "q": "Quel économiste britannique formule la théorie des avantages comparatifs dans Des principes de l'économie politique et de l'impôt (1817) ?",
+      "choices": [
+        "Thomas Malthus",
+        "David Ricardo",
+        "John Stuart Mill",
+        "Adam Smith"
+      ],
+      "answer": 1,
+      "explication": "Il montre que deux pays gagnent à échanger même si l'un est plus efficace dans tous les domaines.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/David_Ricardo"
+    },
+    {
+      "q": "Quel économiste italien a donné son nom à un optimum où l'on ne peut améliorer la situation de quelqu'un sans détériorer celle d'un autre ?",
+      "choices": [
+        "Léon Walras",
+        "Vilfredo Pareto",
+        "Piero Sraffa",
+        "Franco Modigliani"
+      ],
+      "answer": 1,
+      "explication": "Il a aussi popularisé la règle dite des 80/20, issue de ses observations sur la répartition des richesses.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Optimum_de_Pareto"
+    },
+    {
+      "q": "Quelle banque centrale a créé en 1968 le prix dit « Nobel d'économie » ?",
+      "choices": [
+        "La Réserve fédérale américaine",
+        "La Banque d'Angleterre",
+        "La Banque de Suède",
+        "La Banque de France"
+      ],
+      "answer": 2,
+      "explication": "Son nom officiel est « prix de la Banque de Suède en sciences économiques en mémoire d'Alfred Nobel », décerné dès 1969.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Prix_de_la_Banque_de_Suède_en_sciences_économiques_en_mémoire_d'Alfred_Nobel"
+    },
+    {
+      "q": "Quel Écossais fonde en 1716 la Banque générale en France, avant l'effondrement de son système en 1720 ?",
+      "choices": [
+        "Jacques Necker",
+        "Jean-Baptiste Colbert",
+        "Anne Robert Jacques Turgot",
+        "John Law"
+      ],
+      "answer": 3,
+      "explication": "Son système repose sur le papier-monnaie et sur les actions de la Compagnie du Mississippi.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/John_Law_de_Lauriston"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz d'économie ?",
+      "Il s'adresse à tous les curieux, sans connaissances préalables : huit questions de vocabulaire et de notions de base, huit questions sur les grands économistes et l'histoire économique, puis quatre questions plus pointues. Chaque réponse est accompagnée d'une explication qui apporte un fait supplémentaire."
+    ],
+    [
+      "Quelle est la différence entre l'inflation et la déflation ?",
+      "L'inflation est une hausse générale et durable des prix : la monnaie perd alors du pouvoir d'achat. La déflation est le phénomène inverse, une baisse générale et durable des prix, qui peut freiner la consommation et l'investissement. Ne pas la confondre avec la désinflation, qui désigne un simple ralentissement de l'inflation."
+    ],
+    [
+      "Qui sont les grands noms de la pensée économique ?",
+      "On cite souvent Adam Smith, père du libéralisme classique, David Ricardo et sa théorie des avantages comparatifs, Karl Marx et sa critique du capitalisme, John Maynard Keynes et le rôle de la demande, ainsi que Joseph Schumpeter, théoricien de l'innovation et de la destruction créatrice."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire",
+    "/quiz-xxe-siecle",
+    "/quiz-politique",
+    "/quiz-union-europeenne",
+    "/quiz-culture-generale-difficile"
+  ]
+}

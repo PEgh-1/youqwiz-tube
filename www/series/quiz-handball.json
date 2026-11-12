@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-handball",
+  "theme": "sport",
+  "title": "Quiz handball : règles, histoire et équipe de France",
+  "description": "Quiz handball : 20 questions sur les règles, l'histoire du sport et les grands titres de l'équipe de France, des Barjots aux Jeux olympiques.",
+  "h1": "Quiz handball : connais-tu bien le sport des Bleus ?",
+  "intro": "Pas, tirs en suspension, jets de 7 mètres, exclusions de deux minutes : le handball a ses règles bien à lui, et une histoire riche en exploits pour l'équipe de France. Ce quiz handball te propose 20 questions sur les règles du jeu, les origines du sport, les compétitions internationales et les grands titres des Bleus et des Bleues, toujours datés. Huit questions sont faciles, huit de niveau moyen et quatre pour les experts. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication te donne un fait de plus à retenir. Prêt à entrer sur le terrain et à marquer un maximum de buts ?",
+  "questions": [
+    {
+      "q": "Quelle est la durée d'un match de handball chez les adultes, hors prolongations ?",
+      "choices": [
+        "Quatre quarts-temps de 12 minutes",
+        "Deux mi-temps de 45 minutes",
+        "Deux mi-temps de 30 minutes",
+        "Trois tiers-temps de 20 minutes"
+      ],
+      "answer": 2,
+      "explication": "Une pause de 10 minutes environ sépare les deux mi-temps.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Combien de pas un joueur peut-il faire avec le ballon sans dribbler ?",
+      "choices": [
+        "Trois",
+        "Un",
+        "Cinq",
+        "Sept"
+      ],
+      "answer": 0,
+      "explication": "Un joueur immobile ne peut pas non plus garder le ballon plus de trois secondes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Pendant combien de temps un joueur sanctionné d'une exclusion temporaire quitte-t-il le terrain ?",
+      "choices": [
+        "Une minute",
+        "Deux minutes",
+        "Cinq minutes",
+        "Dix minutes"
+      ],
+      "answer": 1,
+      "explication": "Il n'est pas remplacé pendant ce temps, ce qui laisse son équipe en infériorité numérique.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Comment appelle-t-on la sanction accordée quand une occasion de but manifeste est empêchée ?",
+      "choices": [
+        "Le coup franc direct",
+        "Le penalty de 11 mètres",
+        "Le tir au but",
+        "Le jet de 7 mètres"
+      ],
+      "answer": 3,
+      "explication": "Le tireur se place à sept mètres du but et affronte le gardien seul.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Comment s'appelle le joueur de champ placé au contact de la défense, près de la zone de 6 mètres ?",
+      "choices": [
+        "L'ailier",
+        "Le demi-centre",
+        "Le libéro",
+        "Le pivot"
+      ],
+      "answer": 3,
+      "explication": "Il joue souvent dos au but et sert de point d'appui à l'attaque.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Quel surnom porte l'équipe de France masculine championne du monde en 1995 ?",
+      "choices": [
+        "Les Experts",
+        "Les Barjots",
+        "Les Costauds",
+        "Les Bronzés"
+      ],
+      "answer": 1,
+      "explication": "C'est le premier titre mondial de l'histoire du handball masculin français.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Équipe_de_France_masculine_de_handball"
+    },
+    {
+      "q": "En quelle année l'équipe de France masculine décroche-t-elle son premier titre olympique ?",
+      "choices": [
+        "2008",
+        "1996",
+        "2004",
+        "2012"
+      ],
+      "answer": 0,
+      "explication": "À Pékin, elle bat l'Islande en finale, 28 à 23.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Équipe_de_France_masculine_de_handball"
+    },
+    {
+      "q": "Comment s'appelle la zone tracée à 6 mètres du but, interdite au sol aux joueurs de champ ?",
+      "choices": [
+        "Le point de penalty",
+        "La raquette",
+        "La zone de but",
+        "La zone d'en-but"
+      ],
+      "answer": 2,
+      "explication": "Un attaquant peut y sauter pour tirer, à condition de lâcher le ballon avant de retoucher le sol.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Dans quelle ville le handball fait-il sa première apparition aux Jeux olympiques, en 1936 ?",
+      "choices": [
+        "Paris",
+        "Londres",
+        "Amsterdam",
+        "Berlin"
+      ],
+      "answer": 3,
+      "explication": "Il se joue alors à onze, en extérieur, sur gazon.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Dans quel pays se dispute le championnat du monde 1995, remporté par la France ?",
+      "choices": [
+        "La Suède",
+        "L'Islande",
+        "La Croatie",
+        "L'Allemagne"
+      ],
+      "answer": 1,
+      "explication": "La France y bat la Croatie en finale.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Équipe_de_France_masculine_de_handball"
+    },
+    {
+      "q": "En quelle année l'équipe de France féminine remporte-t-elle son premier titre de championne du monde ?",
+      "choices": [
+        "1999",
+        "2009",
+        "2003",
+        "2017"
+      ],
+      "answer": 2,
+      "explication": "Les Bleues décrochent un deuxième titre mondial en 2017.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Équipe_de_France_féminine_de_handball"
+    },
+    {
+      "q": "Face à quel pays la France remporte-t-elle la finale olympique masculine de Tokyo, disputée en 2021 ?",
+      "choices": [
+        "Le Danemark",
+        "L'Espagne",
+        "La Norvège",
+        "La Suède"
+      ],
+      "answer": 0,
+      "explication": "C'est son troisième titre olympique, après ceux de 2008 et 2012.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Équipe_de_France_masculine_de_handball"
+    },
+    {
+      "q": "À quelle distance du but la ligne pointillée des jets francs est-elle tracée ?",
+      "choices": [
+        "4 mètres",
+        "9 mètres",
+        "7 mètres",
+        "11 mètres"
+      ],
+      "answer": 1,
+      "explication": "La zone de but, tracée à 6 mètres, est réservée au gardien.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Comment s'appelle la règle qui sanctionne une équipe qui garde le ballon sans chercher à tirer ?",
+      "choices": [
+        "Le marcher",
+        "La règle des trois secondes",
+        "Le temps mort",
+        "Le jeu passif"
+      ],
+      "answer": 3,
+      "explication": "Après un avertissement des arbitres, si l'équipe n'attaque toujours pas, le ballon revient à l'adversaire.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Quelles sont les dimensions d'un but de handball ?",
+      "choices": [
+        "3 mètres de large sur 2 de haut",
+        "2 mètres de large sur 3 de haut",
+        "4 mètres de large sur 2 de haut",
+        "5 mètres de large sur 3 de haut"
+      ],
+      "answer": 0,
+      "explication": "Le but est donc plus petit que celui du football, mais le gardien y subit des tirs très rapprochés.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Dans quelle ville suisse se trouve le siège de la Fédération internationale de handball ?",
+      "choices": [
+        "Genève",
+        "Lausanne",
+        "Bâle",
+        "Zurich"
+      ],
+      "answer": 2,
+      "explication": "La fédération a été fondée en 1946.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Fédération_internationale_de_handball"
+    },
+    {
+      "q": "Quelle sélection remporte le premier tournoi olympique de handball à sept, à Munich en 1972 ?",
+      "choices": [
+        "La Roumanie",
+        "La Yougoslavie",
+        "L'URSS",
+        "La RDA"
+      ],
+      "answer": 1,
+      "explication": "Elle devance la Tchécoslovaquie en finale.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Handball_aux_Jeux_olympiques"
+    },
+    {
+      "q": "Quelle équipe remporte le premier championnat du monde masculin à sept, en 1938 ?",
+      "choices": [
+        "La Suède",
+        "Le Danemark",
+        "La Roumanie",
+        "L'Allemagne"
+      ],
+      "answer": 3,
+      "explication": "Le tournoi se joue en Allemagne, qui devance l'Autriche.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Handball"
+    },
+    {
+      "q": "Quel pays remporte le premier tournoi olympique féminin de handball, à Montréal en 1976 ?",
+      "choices": [
+        "La RDA",
+        "La Hongrie",
+        "L'URSS",
+        "La Yougoslavie"
+      ],
+      "answer": 2,
+      "explication": "Les Soviétiques conservent leur titre en 1980, à Moscou.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Handball_aux_Jeux_olympiques"
+    },
+    {
+      "q": "Contre quel pays la France féminine perd-elle la finale olympique de Rio, en 2016 ?",
+      "choices": [
+        "La Russie",
+        "La Norvège",
+        "Le Brésil",
+        "L'Espagne"
+      ],
+      "answer": 0,
+      "explication": "Elle s'incline 22 à 19 et obtient la médaille d'argent.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Équipe_de_France_féminine_de_handball"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz handball ?",
+      "Le quiz convient aux supporters comme aux joueurs. Huit questions faciles portent sur les règles de base et les titres des Bleus, huit questions de niveau moyen sur les compétitions et les dimensions du terrain, puis quatre questions d'expert sur l'histoire du handball. Chaque réponse est suivie d'une explication courte et précise."
+    ],
+    [
+      "Comment marque-t-on au handball ?",
+      "Un but est validé quand le ballon franchit entièrement la ligne, entre les montants et sous la barre d'un but de 3 mètres de large sur 2 de haut. Chaque but vaut un point. L'équipe qui en a marqué le plus à la fin des deux mi-temps de 30 minutes gagne le match."
+    ],
+    [
+      "Quelle différence entre handball à sept et à onze ?",
+      "Le handball à onze se jouait en extérieur, sur un grand terrain d'herbe, et figurait au programme des Jeux de Berlin en 1936. Le handball à sept, pratiqué en salle, l'a ensuite largement remplacé. C'est la version qu'on voit aujourd'hui aux Jeux olympiques, où elle apparaît chez les hommes en 1972 à Munich."
+    ]
+  ],
+  "related": [
+    "/quiz-sport",
+    "/quiz-rugby",
+    "/quiz-basket",
+    "/quiz-jeux-olympiques",
+    "/quiz-football-equipe-de-france"
+  ]
+}

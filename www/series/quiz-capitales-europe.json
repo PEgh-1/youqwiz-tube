@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "Dublin est située sur la côte est, à l'embouchure de la Liffey.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dublin"
     },
     {
       "q": "Quelle est la capitale de la Grèce ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "Athènes est l'une des plus anciennes villes d'Europe et le berceau de la démocratie.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ath%C3%A8nes"
     },
     {
       "q": "Quelle est la capitale de l'Autriche ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Vienne est traversée par le Danube et réputée pour ses palais impériaux et sa tradition musicale.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Vienne_(Autriche)"
     },
     {
       "q": "Quelle est la capitale de la Pologne ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Cracovie a été capitale avant Varsovie, qui l'est devenue à la fin du XVIe siècle.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Varsovie"
     },
     {
       "q": "Quelle est la capitale de la Suède ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "explication": "Stockholm est bâtie sur un archipel, entre le lac Mälar et la mer Baltique.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Stockholm"
     },
     {
       "q": "Quelle est la capitale de la Norvège ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 1,
       "explication": "Oslo est la capitale de la Norvège, au fond d'un fjord.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Oslo"
     },
     {
       "q": "Quelle est la capitale du Danemark ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 2,
       "explication": "Copenhague est établie sur les îles de Seeland et d'Amager, face à la Suède.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Copenhague"
     },
     {
       "q": "Quelle est la capitale de la Finlande ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 0,
       "explication": "Turku fut la capitale avant Helsinki, qui l'est devenue en 1812.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Helsinki"
     },
     {
       "q": "Quelle est la capitale de la Hongrie ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 0,
       "explication": "Budapest est née en 1873 de la réunion de Buda, Óbuda et Pest, de part et d'autre du Danube.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Budapest"
     },
     {
       "q": "Quelle est la capitale de la Tchéquie ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 2,
       "explication": "Prague est traversée par la Vltava et célèbre pour son pont Charles.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Prague"
     },
     {
       "q": "Quelle est la capitale de la Roumanie ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 1,
       "explication": "Bucarest est la plus grande ville de Roumanie et sa capitale politique.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bucarest"
     },
     {
       "q": "Quelle est la capitale de la Russie ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 3,
       "explication": "Saint-Pétersbourg fut la capitale de la Russie pendant environ deux siècles, jusqu'au retour du pouvoir à Moscou en 1918.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Moscou"
     },
     {
       "q": "Quelle est la capitale de la Croatie ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 2,
       "explication": "Zagreb est la capitale de la Croatie, loin de la côte adriatique.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Zagreb"
     },
     {
       "q": "Quelle est la capitale de la Serbie ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 0,
       "explication": "Belgrade se trouve au confluent du Danube et de la Save.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Belgrade"
     },
     {
       "q": "Quelle est la capitale de la Bulgarie ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 3,
       "explication": "Sofia est la capitale de la Bulgarie, au pied du mont Vitosha.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sofia"
     },
     {
       "q": "Quelle est la capitale de la Slovaquie ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 1,
       "explication": "Bratislava est située sur le Danube, à environ 55 kilomètres de Vienne : deux capitales parmi les plus proches d'Europe.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bratislava"
     },
     {
       "q": "Quelle est la capitale de la Slovénie ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "Ljubljana est la capitale de la Slovénie, indépendante depuis 1991.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ljubljana"
     },
     {
       "q": "Quelle est la capitale de la Lituanie ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 3,
       "explication": "Kaunas fut capitale provisoire pendant l'entre-deux-guerres, mais Vilnius est la capitale.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Vilnius"
     },
     {
       "q": "Quelle est la capitale de l'Albanie ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Tirana est la capitale de l'Albanie, devant Durrës, grand port du pays.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Tirana"
     },
     {
       "q": "Quelle est la capitale de Malte ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "La Valette doit son nom au grand maître Jean de Valette, qui la fonda en 1566 ; Mdina fut l'ancienne capitale.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/La_Valette"
     }
   ],
   "faq": [
@@ -267,5 +287,6 @@
     "/quiz-capitales-afrique",
     "/quiz-geographie",
     "/quiz-drapeaux-europe"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

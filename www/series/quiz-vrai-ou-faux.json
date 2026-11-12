@@ -1,0 +1,252 @@
+{
+  "path": "/quiz-vrai-ou-faux",
+  "theme": "culture",
+  "title": "Quiz vrai ou faux : culture générale en 20 questions",
+  "description": "Quiz vrai ou faux : 20 affirmations de culture générale sur les idées reçues et les faits surprenants. Réponds vrai ou faux et découvre l'explication.",
+  "h1": "Quiz vrai ou faux : sauras-tu démêler le vrai du faux ?",
+  "intro": "Les chauves-souris sont-elles aveugles ? Un éclair frappe-t-il deux fois au même endroit ? Ce quiz vrai ou faux te propose 20 affirmations de culture générale, mêlant idées reçues très répandues et faits surprenants mais exacts. Pour chacune, tu réponds simplement vrai ou faux, en comptant environ 5 secondes de réflexion. Après chaque réponse, une courte explication rétablit le fait exact et t'apprend quelque chose de plus. Le niveau monte peu à peu, des affirmations faciles aux plus délicates. À faire seul, en famille ou entre amis : méfie-toi, certaines vérités sont plus étonnantes que les légendes !",
+  "questions": [
+    {
+      "q": "Dans les veines, le sang humain est bleu.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Le sang est toujours rouge, plus sombre quand il est pauvre en oxygène ; la teinte bleutée des veines vient de la façon dont la peau diffuse la lumière.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sang"
+    },
+    {
+      "q": "Un pot de miel correctement conservé peut rester comestible pendant des années.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Sa faible teneur en eau et son acidité empêchent la plupart des micro-organismes de s'y développer ; il peut seulement cristalliser avec le temps.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Miel"
+    },
+    {
+      "q": "Les chauves-souris sont aveugles.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Toutes les espèces voient, certaines très bien ; beaucoup y ajoutent l'écholocation, qui leur permet de chasser dans l'obscurité.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chiroptères"
+    },
+    {
+      "q": "La foudre peut frapper plusieurs fois au même endroit.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Les points hauts et pointus sont des cibles privilégiées : un gratte-ciel comme l'Empire State Building est touché de nombreuses fois chaque année.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Foudre"
+    },
+    {
+      "q": "Napoléon Ier était bien plus petit que la moyenne des hommes de son époque.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Il mesurait environ 1,68 m, une taille normale pour l'époque ; sa réputation vient en partie de l'écart entre pouces français et anglais, et de caricatures britanniques.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Napoléon_Ier"
+    },
+    {
+      "q": "Sur le plan botanique, la tomate est un fruit.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Elle se développe à partir de la fleur et contient les graines : c'est un fruit, que l'on cuisine pourtant comme un légume.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tomate"
+    },
+    {
+      "q": "Les humains n'utilisent que 10 % de leur cerveau.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "L'imagerie cérébrale montre que presque toutes les régions du cerveau sont actives au fil de la journée, et même pendant le sommeil.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mythe_de_l'utilisation_incomplète_du_cerveau"
+    },
+    {
+      "q": "Une autruche enfouit sa tête dans le sable quand elle a peur.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Elle ne le fait pas : face au danger, elle s'enfuit à grande vitesse ou se couche au sol, le cou étendu, ce qui a pu donner naissance à la légende.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Autruche_d'Afrique"
+    },
+    {
+      "q": "Vénus met plus de temps à tourner sur elle-même qu'à faire le tour du Soleil.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Sa rotation dure environ 243 jours terrestres contre environ 225 pour sa révolution, et elle tourne dans le sens inverse de la plupart des planètes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vénus_(planète)"
+    },
+    {
+      "q": "Les guerriers vikings portaient des casques à cornes au combat.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Aucun casque à cornes viking n'a été retrouvé par les archéologues ; cette image doit beaucoup aux costumes d'opéra du XIXe siècle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vikings"
+    },
+    {
+      "q": "Au sens botanique, la banane est une baie.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Elle provient d'un seul ovaire et sa chair entoure de minuscules graines, ce qui répond à la définition de la baie ; la fraise, elle, n'en est pas une.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Banane"
+    },
+    {
+      "q": "Si les vitraux anciens sont plus épais en bas, c'est parce que le verre a coulé très lentement avec les siècles.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Le verre ne s'écoule pas à température ambiante : l'inégalité vient de la fabrication, les artisans plaçant souvent le côté le plus lourd vers le bas.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Verre"
+    },
+    {
+      "q": "Un poulpe possède trois cœurs.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Deux cœurs envoient le sang vers les branchies et un troisième le distribue au reste du corps ; son sang est riche en cuivre, ce qui le rend bleuté.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Poulpe_commun"
+    },
+    {
+      "q": "Dans l'hémisphère Nord, la Terre est plus proche du Soleil en été qu'en hiver.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "La Terre est au plus près du Soleil début janvier ; les saisons dépendent de l'inclinaison de son axe, pas de la distance.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Saison"
+    },
+    {
+      "q": "Les premiers Jeux olympiques de l'ère moderne ont eu lieu à Athènes en 1896.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Relancés à l'initiative de Pierre de Coubertin, ils ont réuni des athlètes de quelques pays seulement, uniquement des hommes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jeux_olympiques_d'été_de_1896"
+    },
+    {
+      "q": "La bosse d'un dromadaire contient de l'eau.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Elle est une réserve de graisse, que l'animal peut utiliser comme source d'énergie ; il tient sans boire grâce à sa capacité à tolérer la déshydratation.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dromadaire"
+    },
+    {
+      "q": "Le koala possède des empreintes digitales très semblables à celles des humains.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Cette ressemblance, due à une évolution indépendante, a été décrite par des chercheurs australiens dans les années 1990.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Koala"
+    },
+    {
+      "q": "Albert Einstein était en échec scolaire en mathématiques.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Il excellait en mathématiques dès l'adolescence et disait lui-même avoir maîtrisé le calcul différentiel et intégral avant l'âge de quinze ans.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Albert_Einstein"
+    },
+    {
+      "q": "Au sens sanitaire, le mot « quarantaine » vient d'une durée de quarante jours d'isolement.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Dès 1377, Raguse (Dubrovnik) impose un isolement d'un mois aux arrivants par mer ; Venise reprend le procédé et le porte à quarante jours (quaranta giorni en italien), d'où le mot.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Quarantaine"
+    },
+    {
+      "q": "Le son se propage plus vite dans l'eau que dans l'air.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Il parcourt environ 1 500 mètres par seconde dans l'eau, contre environ 340 mètres par seconde dans l'air à température ambiante.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Vitesse_du_son"
+    }
+  ],
+  "faq": [
+    [
+      "Comment fonctionne ce quiz vrai ou faux ?",
+      "Chaque question est une affirmation. Tu choisis Vrai ou Faux, puis le quiz t'indique si tu as bien répondu et affiche aussitôt une courte explication qui rétablit le fait exact. Il y a 20 affirmations, dont dix vraies et dix fausses, mélangées, avec une difficulté croissante."
+    ],
+    [
+      "Pourquoi les idées reçues sont-elles si tenaces ?",
+      "Une idée reçue se transmet facilement parce qu'elle est simple, imagée et souvent répétée, par l'école, les médias ou les proches. Elle paraît logique, comme l'idée que la Terre serait plus chaude en été parce qu'elle est plus proche du Soleil, alors que c'est l'inclinaison de son axe qui compte."
+    ],
+    [
+      "Le quiz contient-il autant de vrai que de faux ?",
+      "Oui : sur les 20 affirmations, dix sont vraies et dix sont fausses, dans un ordre mélangé, sans jamais quatre réponses identiques de suite. Les affirmations fausses sont des idées reçues courantes, très plausibles, et chaque explication rappelle la réalité pour que tu retiennes le bon fait. Tu peux ainsi vérifier ce que tu croyais savoir."
+    ]
+  ],
+  "related": [
+    "/quiz-vrai-ou-faux-difficile",
+    "/quiz-culture-generale-facile",
+    "/quiz-sciences",
+    "/quiz-animaux",
+    "/quiz-logos"
+  ],
+  "verified": "2026-11-12"
+}

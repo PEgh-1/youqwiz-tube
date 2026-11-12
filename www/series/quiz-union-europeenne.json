@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-union-europeenne",
+  "theme": "histoire",
+  "title": "Quiz Union européenne : traités et institutions",
+  "description": "Quiz Union européenne : 20 questions sur les traités, les institutions, les symboles et l'histoire de la construction européenne, des faciles aux expert.",
+  "h1": "Quiz Union européenne : que sais-tu de la construction européenne ?",
+  "intro": "Drapeau étoilé, hymne, euro, Parlement de Strasbourg, traité de Maastricht : l'Europe fait partie de notre quotidien, mais sait-on vraiment comment elle s'est construite ? Ce quiz te propose 20 questions sur les traités, les institutions, les symboles et les grandes étapes de l'histoire européenne, depuis les débuts dans les années 1950. Les questions portent sur des faits historiques établis, sans aucun chiffre d'actualité. Compte environ 5 secondes de réflexion par question et profite de l'explication qui suit chaque réponse pour apprendre un détail de plus. Huit questions faciles, huit moyennes et quatre pour les experts : à toi de jouer !",
+  "questions": [
+    {
+      "q": "Quelle monnaie commune est mise en circulation sous forme de pièces et de billets le 1er janvier 2002 ?",
+      "choices": [
+        "L'écu",
+        "Le mark européen",
+        "L'euro",
+        "Le franc communautaire"
+      ],
+      "answer": 2,
+      "explication": "Elle remplace alors les monnaies nationales de douze pays de l'Union européenne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Euro"
+    },
+    {
+      "q": "Combien d'étoiles dorées figurent sur le drapeau européen ?",
+      "choices": [
+        "Neuf",
+        "Quinze",
+        "Vingt-sept",
+        "Douze"
+      ],
+      "answer": 3,
+      "explication": "Ce nombre est fixe : il symbolise la perfection et l'unité, et ne dépend pas du nombre d'États membres.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l'Europe"
+    },
+    {
+      "q": "Quel compositeur a écrit la musique de l'« Ode à la joie », hymne de l'Europe ?",
+      "choices": [
+        "Wolfgang Amadeus Mozart",
+        "Jean-Sébastien Bach",
+        "Ludwig van Beethoven",
+        "Joseph Haydn"
+      ],
+      "answer": 2,
+      "explication": "Elle est tirée du finale de la neuvième symphonie, créée en 1824 ; l'hymne officiel est joué sans les paroles.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hymne_européen"
+    },
+    {
+      "q": "Selon les traités européens, dans quelle ville française le Parlement européen a-t-il son siège ?",
+      "choices": [
+        "Lille",
+        "Strasbourg",
+        "Lyon",
+        "Metz"
+      ],
+      "answer": 1,
+      "explication": "Les sessions plénières s'y tiennent, tandis que le secrétariat général est installé à Luxembourg.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Parlement_européen"
+    },
+    {
+      "q": "Quelle date célèbre-t-on chaque année comme la Journée de l'Europe ?",
+      "choices": [
+        "Le 1er janvier",
+        "Le 25 mars",
+        "Le 14 juillet",
+        "Le 9 mai"
+      ],
+      "answer": 3,
+      "explication": "Elle rappelle la déclaration de 1950 qui lança la construction européenne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Journée_de_l'Europe_(Union_européenne)"
+    },
+    {
+      "q": "Quelle devise l'Union européenne adopte-t-elle officiellement en 2000 ?",
+      "choices": [
+        "« Unie dans la diversité »",
+        "« Liberté, égalité, fraternité »",
+        "« Un pour tous, tous pour un »",
+        "« Paix et prospérité »"
+      ],
+      "answer": 0,
+      "explication": "Elle figurait aussi dans le projet de traité établissant une Constitution pour l'Europe, signé en 2004 mais jamais entré en vigueur.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/In_varietate_concordia"
+    },
+    {
+      "q": "Dans quelle ville est signé, en 1957, le traité fondateur de la Communauté économique européenne ?",
+      "choices": [
+        "Paris",
+        "Bruxelles",
+        "Rome",
+        "La Haye"
+      ],
+      "answer": 2,
+      "explication": "Signé au Capitole le 25 mars 1957, en même temps que le traité Euratom, il entre en vigueur le 1er janvier 1958.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Traité_instituant_la_Communauté_économique_européenne"
+    },
+    {
+      "q": "Quel ministre français des Affaires étrangères propose en 1950 de mettre en commun la production de charbon et d'acier ?",
+      "choices": [
+        "Robert Schuman",
+        "Jean Monnet",
+        "Georges Clemenceau",
+        "Aristide Briand"
+      ],
+      "answer": 0,
+      "explication": "Il a ensuite présidé l'Assemblée parlementaire européenne, ancêtre du Parlement européen, de 1958 à 1960.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Robert_Schuman"
+    },
+    {
+      "q": "Quel traité signé en 1992 crée l'Union européenne et prépare la monnaie unique ?",
+      "choices": [
+        "Le traité de Nice",
+        "Le traité d'Amsterdam",
+        "Le traité de Maastricht",
+        "Le traité de Lisbonne"
+      ],
+      "answer": 2,
+      "explication": "Il entre en vigueur le 1er novembre 1993, après avoir été approuvé de justesse par référendum en France.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Traité_de_Maastricht"
+    },
+    {
+      "q": "Quel accord conclu en 1985 supprime progressivement les contrôles aux frontières entre plusieurs pays européens ?",
+      "choices": [
+        "Le pacte de Varsovie",
+        "L'accord de Schengen",
+        "L'accord de Yalta",
+        "La convention de Genève"
+      ],
+      "answer": 1,
+      "explication": "Il est signé sur un bateau, sur la Moselle, près du village luxembourgeois de Schengen.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Accords_de_Schengen"
+    },
+    {
+      "q": "Quel traité, entré en vigueur le 1er décembre 2009, crée la fonction de président stable du Conseil européen ?",
+      "choices": [
+        "Le traité de Maastricht",
+        "Le traité de Rome",
+        "Le traité de Lisbonne",
+        "Le traité de Nice"
+      ],
+      "answer": 2,
+      "explication": "Il remplace le projet de Constitution européenne, rejeté par référendum en France et aux Pays-Bas en 2005.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Traité_de_Lisbonne"
+    },
+    {
+      "q": "Combien d'États fondent la Communauté européenne du charbon et de l'acier en 1951 ?",
+      "choices": [
+        "Six",
+        "Quatre",
+        "Neuf",
+        "Douze"
+      ],
+      "answer": 0,
+      "explication": "Ce sont la Belgique, la France, l'Italie, le Luxembourg, les Pays-Bas et la République fédérale d'Allemagne.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Communauté_européenne_du_charbon_et_de_l'acier"
+    },
+    {
+      "q": "En quelle année le Royaume-Uni rejoint-il la Communauté économique européenne ?",
+      "choices": [
+        "1957",
+        "1981",
+        "1995",
+        "1973"
+      ],
+      "answer": 3,
+      "explication": "Il entre en même temps que l'Irlande et le Danemark, lors du premier élargissement.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Premier_élargissement_de_la_Communauté_économique_européenne"
+    },
+    {
+      "q": "Quelle institution réunit les chefs d'État ou de gouvernement pour fixer les grandes orientations de l'Union ?",
+      "choices": [
+        "Le Conseil de l'Europe",
+        "Le Conseil européen",
+        "La Cour des comptes européenne",
+        "La Banque centrale européenne"
+      ],
+      "answer": 1,
+      "explication": "Il ne faut pas le confondre avec le Conseil de l'Europe, organisation créée en 1949 dont le siège est à Strasbourg.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Conseil_européen"
+    },
+    {
+      "q": "Quelle institution, installée à Luxembourg, veille à l'interprétation uniforme du droit de l'Union ?",
+      "choices": [
+        "La Cour pénale internationale",
+        "La Cour européenne des droits de l'homme",
+        "La Cour de justice de l'Union européenne",
+        "La Cour internationale de justice"
+      ],
+      "answer": 2,
+      "explication": "Elle est distincte de la Cour européenne des droits de l'homme, qui siège à Strasbourg et dépend du Conseil de l'Europe.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cour_de_justice_de_l'Union_européenne"
+    },
+    {
+      "q": "En quelle année les députés européens sont-ils élus pour la première fois au suffrage universel direct ?",
+      "choices": [
+        "1979",
+        "1957",
+        "1986",
+        "1992"
+      ],
+      "answer": 0,
+      "explication": "Simone Veil devient alors la première présidente du Parlement européen ainsi élu.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Élections_européennes_de_1979"
+    },
+    {
+      "q": "Quelle crise de 1965 voit la France boycotter les réunions du Conseil des ministres de la Communauté ?",
+      "choices": [
+        "La crise du lait",
+        "La crise de la chaise vide",
+        "La crise de Suez",
+        "La crise des euromissiles"
+      ],
+      "answer": 1,
+      "explication": "Elle prend fin en janvier 1966 avec le compromis de Luxembourg.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Crise_de_la_chaise_vide"
+    },
+    {
+      "q": "Quel texte signé en 1986 prévoit la réalisation d'un grand marché sans frontières avant fin 1992 ?",
+      "choices": [
+        "Le traité de Nice",
+        "L'Acte unique européen",
+        "Le plan Werner",
+        "Le traité de fusion"
+      ],
+      "answer": 1,
+      "explication": "Il étend aussi le vote à la majorité qualifiée au sein du Conseil pour réaliser ce marché.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Acte_unique_européen"
+    },
+    {
+      "q": "Quelle ville accueille en mai 1948 un grand congrès européen, présidé d'honneur par Winston Churchill ?",
+      "choices": [
+        "La Haye",
+        "Messine",
+        "Strasbourg",
+        "Bruxelles"
+      ],
+      "answer": 0,
+      "explication": "Ce congrès ouvre la voie à la création du Conseil de l'Europe en 1949.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Congrès_de_La_Haye"
+    },
+    {
+      "q": "Quel traité signé en 2001 prépare l'élargissement aux pays d'Europe centrale et orientale ?",
+      "choices": [
+        "Le traité d'Amsterdam",
+        "Le traité de Maastricht",
+        "L'Acte unique",
+        "Le traité de Nice"
+      ],
+      "answer": 3,
+      "explication": "Il entre en vigueur le 1er février 2003, après un premier rejet par les Irlandais lors d'un référendum.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Traité_de_Nice"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur l'Union européenne ?",
+      "Il convient à tous : les huit premières questions portent sur les symboles et les repères connus, les huit suivantes sur les traités et les institutions, et les quatre dernières sur des épisodes plus pointus de l'histoire européenne. Chaque réponse est suivie d'une explication pour retenir les dates et les noms."
+    ],
+    [
+      "Quels sont les principaux traités de l'Union européenne ?",
+      "Les traités fondateurs sont ceux de Paris (1951, charbon et acier) et de Rome (1957, marché commun). Ils sont complétés par l'Acte unique (1986), puis par les traités de Maastricht (1992), d'Amsterdam (1997), de Nice (2001) et de Lisbonne (signé en 2007, en vigueur en 2009), qui modifient les institutions et les compétences."
+    ],
+    [
+      "Quelle différence y a-t-il entre le Conseil européen et le Conseil de l'Europe ?",
+      "Le Conseil européen est une institution de l'Union européenne qui réunit les chefs d'État ou de gouvernement. Le Conseil de l'Europe est une organisation distincte, créée en 1949, qui siège à Strasbourg et défend les droits de l'homme ; la Cour européenne des droits de l'homme en dépend."
+    ]
+  ],
+  "related": [
+    "/quiz-politique",
+    "/quiz-pays-europe",
+    "/quiz-capitales-europe",
+    "/quiz-histoire",
+    "/quiz-xxe-siecle"
+  ]
+}

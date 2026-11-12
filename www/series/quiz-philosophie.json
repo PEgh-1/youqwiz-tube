@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-philosophie",
+  "theme": "culture",
+  "title": "Quiz philosophie : philosophes, notions, œuvres",
+  "description": "Quiz philosophie : 20 questions sur les grands philosophes, les notions, les œuvres majeures et les courants, de Socrate à Sartre. Teste-toi !",
+  "h1": "Quiz philosophie : connais-tu les grands penseurs et leurs œuvres ?",
+  "intro": "De Socrate à Sartre, en passant par Descartes, Rousseau et Nietzsche, la philosophie a façonné notre manière de penser le monde. Ce quiz te propose 20 questions sur les grands philosophes, les notions clés, les œuvres majeures et les principaux courants, des plus accessibles aux plus pointues. Pas besoin d'être professeur : quelques souvenirs de lycée suffisent pour commencer. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait supplémentaire sur l'auteur ou son œuvre. Seras-tu à la hauteur des sages de la Grèce antique ?",
+  "questions": [
+    {
+      "q": "Quel philosophe grec, maître de Platon, est condamné à boire la ciguë en 399 avant J.-C. ?",
+      "choices": [
+        "Aristote",
+        "Socrate",
+        "Diogène",
+        "Épicure"
+      ],
+      "answer": 1,
+      "explication": "Il n'a rien écrit : sa pensée nous est connue surtout par les dialogues de Platon et les textes de Xénophon.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Socrate"
+    },
+    {
+      "q": "Quel philosophe français est l'auteur de la formule « Je pense, donc je suis » ?",
+      "choices": [
+        "Blaise Pascal",
+        "Michel de Montaigne",
+        "René Descartes",
+        "Voltaire"
+      ],
+      "answer": 2,
+      "explication": "Elle apparaît dans le Discours de la méthode de 1637, puis en latin (cogito, ergo sum) dans les Principes de la philosophie.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cogito_ergo_sum"
+    },
+    {
+      "q": "Quel philosophe grec, élève de Platon, est le précepteur d'Alexandre le Grand ?",
+      "choices": [
+        "Socrate",
+        "Pythagore",
+        "Plotin",
+        "Aristote"
+      ],
+      "answer": 3,
+      "explication": "Il fonde à Athènes une école appelée le Lycée, dont le nom a donné celui de nos établissements.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Aristote"
+    },
+    {
+      "q": "Quel philosophe des Lumières publie Du contrat social en 1762 ?",
+      "choices": [
+        "Voltaire",
+        "Denis Diderot",
+        "Montesquieu",
+        "Jean-Jacques Rousseau"
+      ],
+      "answer": 3,
+      "explication": "L'ouvrage est condamné peu après sa parution, à Paris comme à Genève.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Du_contrat_social"
+    },
+    {
+      "q": "Comment nomme-t-on la discipline philosophique qui étudie le beau et l'art ?",
+      "choices": [
+        "L'épistémologie",
+        "L'esthétique",
+        "La métaphysique",
+        "La logique"
+      ],
+      "answer": 1,
+      "explication": "Le mot est introduit en philosophie par l'Allemand Baumgarten au XVIIIe siècle, à partir d'un terme grec signifiant « sensation ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Esthétique"
+    },
+    {
+      "q": "Quel philosophe français publie L'Être et le Néant en 1943 ?",
+      "choices": [
+        "Albert Camus",
+        "Henri Bergson",
+        "Maurice Merleau-Ponty",
+        "Jean-Paul Sartre"
+      ],
+      "answer": 3,
+      "explication": "Cet ouvrage est l'un des textes majeurs de l'existentialisme.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/L'Être_et_le_Néant"
+    },
+    {
+      "q": "Quel philosophe allemand est l'auteur d'Ainsi parlait Zarathoustra ?",
+      "choices": [
+        "Emmanuel Kant",
+        "Arthur Schopenhauer",
+        "Friedrich Nietzsche",
+        "Karl Marx"
+      ],
+      "answer": 2,
+      "explication": "L'ouvrage paraît en quatre parties, entre 1883 et 1885.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ainsi_parlait_Zarathoustra"
+    },
+    {
+      "q": "Que signifie étymologiquement le mot « philosophie » ?",
+      "choices": [
+        "La science de la nature",
+        "L'art de bien parler",
+        "La recherche du bonheur",
+        "L'amour de la sagesse"
+      ],
+      "answer": 3,
+      "explication": "La tradition en attribue l'invention à Pythagore, même si l'anecdote est rapportée bien plus tard.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Philosophie"
+    },
+    {
+      "q": "Quel philosophe grec écrit La République, où il décrit une cité idéale ?",
+      "choices": [
+        "Platon",
+        "Épicure",
+        "Héraclite",
+        "Zénon de Kition"
+      ],
+      "answer": 0,
+      "explication": "Cet ouvrage contient l'allégorie de la caverne, au livre VII.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/La_République_(Platon)"
+    },
+    {
+      "q": "Quel philosophe anglais publie le Léviathan en 1651 ?",
+      "choices": [
+        "John Locke",
+        "Thomas Hobbes",
+        "David Hume",
+        "Francis Bacon"
+      ],
+      "answer": 1,
+      "explication": "Il y défend un pouvoir fort pour sortir de l'état de nature, qu'il décrit comme une guerre de tous contre tous.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Léviathan_(Thomas_Hobbes)"
+    },
+    {
+      "q": "Quel courant antique, fondé par Zénon de Kition, invite à accepter ce qui ne dépend pas de nous ?",
+      "choices": [
+        "L'épicurisme",
+        "Le scepticisme",
+        "Le cynisme",
+        "Le stoïcisme"
+      ],
+      "answer": 3,
+      "explication": "Son nom vient du Portique (stoa) d'Athènes, où Zénon enseignait.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Stoïcisme"
+    },
+    {
+      "q": "Quel moraliste de la Renaissance publie ses Essais, dont les deux premiers livres paraissent en 1580 ?",
+      "choices": [
+        "Étienne de La Boétie",
+        "François Rabelais",
+        "Blaise Pascal",
+        "Michel de Montaigne"
+      ],
+      "answer": 3,
+      "explication": "Il y fait son propre portrait et y revient sans cesse, jusqu'à sa mort en 1592.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Essais_(Montaigne)"
+    },
+    {
+      "q": "Quel savant et philosophe français est l'auteur des Pensées, publiées à titre posthume en 1670 ?",
+      "choices": [
+        "René Descartes",
+        "Nicolas Malebranche",
+        "Blaise Pascal",
+        "François de La Rochefoucauld"
+      ],
+      "answer": 2,
+      "explication": "Il a aussi inventé une machine à calculer, la Pascaline.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pensées_(Pascal)"
+    },
+    {
+      "q": "Quelle philosophe française, compagne de Sartre, publie Le Deuxième Sexe en 1949 ?",
+      "choices": [
+        "Simone de Beauvoir",
+        "Hannah Arendt",
+        "Simone Weil",
+        "Élisabeth Badinter"
+      ],
+      "answer": 0,
+      "explication": "Ce livre, devenu un texte fondateur du féminisme, analyse la condition des femmes comme le fruit de la société.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Deuxième_Sexe"
+    },
+    {
+      "q": "Quel philosophe des Lumières défend la séparation des pouvoirs dans De l'esprit des lois, publié en 1748 ?",
+      "choices": [
+        "Voltaire",
+        "Jean-Jacques Rousseau",
+        "Montesquieu",
+        "Condorcet"
+      ],
+      "answer": 2,
+      "explication": "Cette idée a fortement inspiré la Constitution américaine et la Déclaration des droits de l'homme de 1789.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/De_l'esprit_des_lois"
+    },
+    {
+      "q": "Quel courant philosophique, fondé par Auguste Comte au XIXe siècle, fonde la connaissance sur les faits observés ?",
+      "choices": [
+        "Le positivisme",
+        "L'existentialisme",
+        "L'idéalisme",
+        "Le romantisme"
+      ],
+      "answer": 0,
+      "explication": "Auguste Comte invente aussi le mot « sociologie ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Positivisme"
+    },
+    {
+      "q": "Selon Aristote, quel philosophe de Milet fait de l'eau le principe de toutes choses ?",
+      "choices": [
+        "Anaximandre",
+        "Thalès",
+        "Parménide",
+        "Empédocle"
+      ],
+      "answer": 1,
+      "explication": "Il est souvent cité comme le premier philosophe de la tradition occidentale et compte parmi les Sept Sages de la Grèce.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Thalès"
+    },
+    {
+      "q": "Quel philosophe allemand publie Être et Temps en 1927 ?",
+      "choices": [
+        "Edmund Husserl",
+        "Martin Heidegger",
+        "Karl Jaspers",
+        "Georg Wilhelm Friedrich Hegel"
+      ],
+      "answer": 1,
+      "explication": "Il dédie l'ouvrage à Husserl, son maître en phénoménologie.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Être_et_Temps"
+    },
+    {
+      "q": "Quel philosophe néerlandais, exclu de la communauté juive d'Amsterdam en 1656, rédige l'Éthique selon la méthode géométrique ?",
+      "choices": [
+        "Baruch Spinoza",
+        "Gottfried Wilhelm Leibniz",
+        "Érasme",
+        "Hugo Grotius"
+      ],
+      "answer": 0,
+      "explication": "L'Éthique est publiée après sa mort, en 1677.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Baruch_Spinoza"
+    },
+    {
+      "q": "Quel philosophe allemand publie en 1807 la Phénoménologie de l'esprit ?",
+      "choices": [
+        "Johann Gottlieb Fichte",
+        "Georg Wilhelm Friedrich Hegel",
+        "Friedrich Schelling",
+        "Arthur Schopenhauer"
+      ],
+      "answer": 1,
+      "explication": "Il l'achève à Iéna, au moment de la bataille de 1806 qui voit Napoléon vaincre les Prussiens.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Phénoménologie_de_l'esprit"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz de philosophie ?",
+      "Il est conçu pour tous : les huit premières questions portent sur les grands noms et les notions entendues au lycée, les huit suivantes sur des œuvres et des courants, et les quatre dernières sur des auteurs et des ouvrages plus pointus. Chaque réponse est suivie d'une courte explication."
+    ],
+    [
+      "Quelle est la différence entre un philosophe et un scientifique ?",
+      "Le scientifique cherche à expliquer des phénomènes par l'observation et l'expérience, tandis que le philosophe interroge les concepts eux-mêmes : la vérité, la liberté, la justice, le bien. Dans l'histoire, les deux démarches se sont souvent croisées, comme chez Aristote, Descartes ou Pascal, à la fois savants et philosophes."
+    ],
+    [
+      "Quels sont les grands courants de la philosophie ?",
+      "On cite notamment, pour l'Antiquité, le stoïcisme, l'épicurisme et le scepticisme, puis, à l'époque moderne, le rationalisme de Descartes, l'empirisme de Locke et de Hume, l'idéalisme allemand de Kant et de Hegel, enfin au XXe siècle la phénoménologie et l'existentialisme."
+    ]
+  ],
+  "related": [
+    "/quiz-litterature",
+    "/quiz-antiquite",
+    "/quiz-mythologie-grecque",
+    "/quiz-culture-generale-difficile",
+    "/quiz-economie"
+  ]
+}

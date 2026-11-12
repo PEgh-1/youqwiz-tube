@@ -7,16 +7,17 @@
   "intro": "Océans, fleuves, déserts, montagnes et pays : ce quiz de géographie du monde te propose 20 questions pour faire le tour de la planète en quelques minutes. Les premières questions portent sur les grands repères que l'on apprend à l'école, comme le plus haut sommet ou le plus grand océan. Ensuite, les choses se compliquent avec des fleuves européens, des détroits célèbres et quelques pièges classiques. Les quatre dernières questions s'adressent aux vrais passionnés. Compte environ cinq secondes pour répondre et lis l'explication de chaque réponse pour glaner un fait que tu pourras resservir. Prends ton atlas mental et lance-toi !",
   "questions": [
     {
-      "q": "Quel est le plus grand océan du monde ?",
+      "q": "Quel est le plus grand continent du monde par sa superficie ?",
       "choices": [
-        "L'océan Atlantique",
-        "L'océan Pacifique",
-        "L'océan Indien",
-        "L'océan Arctique"
+        "L'Afrique",
+        "L'Asie",
+        "L'Amérique du Nord",
+        "L'Europe"
       ],
       "answer": 1,
-      "explication": "Le Pacifique couvre environ un tiers de la surface du globe.",
-      "level": "facile"
+      "explication": "L'Asie couvre environ 44 millions de km² et abrite plus de la moitié de la population mondiale.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Asie"
     },
     {
       "q": "Quel est le plus haut sommet du monde ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "Situé dans l'Himalaya, à la frontière entre le Népal et le Tibet, l'Everest dépasse 8 800 mètres.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Everest"
     },
     {
       "q": "Quel fleuve traverse Le Caire ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Le Nil est l'un des plus longs fleuves du monde et irrigue toute l'Égypte.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nil"
     },
     {
       "q": "Quel est le plus grand désert chaud du monde ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Le Sahara couvre une grande partie du nord de l'Afrique.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sahara"
     },
     {
       "q": "Quel est le plus grand pays du monde par sa superficie ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "explication": "La Russie s'étend sur deux continents, l'Europe et l'Asie.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Russie"
     },
     {
       "q": "Sur quel continent se trouve le Brésil ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 0,
       "explication": "Le Brésil occupe à lui seul près de la moitié du continent sud-américain.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Brésil"
     },
     {
       "q": "Quelle mer sépare l'Europe de l'Afrique ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 3,
       "explication": "La Méditerranée est bordée par plus de vingt pays.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mer_Méditerranée"
     },
     {
       "q": "Quel pays a la forme d'une botte ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 1,
       "explication": "La péninsule italienne est souvent comparée à une botte.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Italie"
     },
     {
       "q": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 0,
       "explication": "Les Pyrénées s'étendent sur environ 430 kilomètres, de l'Atlantique à la Méditerranée.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pyrénées"
     },
     {
       "q": "Quel fleuve traverse Vienne, Budapest et Belgrade ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 2,
       "explication": "Le Danube traverse ou longe dix pays, plus que tout autre fleuve du monde.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Danube"
     },
     {
       "q": "Quel détroit sépare l'Espagne du Maroc ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 1,
       "explication": "Il relie la Méditerranée à l'océan Atlantique et ne fait qu'une quinzaine de kilomètres de large.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Détroit_de_Gibraltar"
     },
     {
       "q": "Quel est le plus haut sommet d'Afrique ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 3,
       "explication": "Ce volcan se situe en Tanzanie et culmine à environ 5 900 mètres.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Kilimandjaro"
     },
     {
       "q": "Quel est le plus petit pays du monde ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 3,
       "explication": "Le Vatican est enclavé dans Rome et fait moins d'un demi-kilomètre carré.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vatican"
     },
     {
       "q": "Quel grand désert se trouve en Mongolie et en Chine ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 1,
       "explication": "Le Gobi est un désert froid de l'Asie centrale.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Désert_de_Gobi"
     },
     {
       "q": "Quel océan borde l'est de l'Afrique ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 2,
       "explication": "Madagascar, La Réunion et les Comores s'y trouvent.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Océan_Indien"
     },
     {
       "q": "Lequel de ces pays n'a pas de côte maritime ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 0,
       "explication": "La Hongrie est entourée de sept pays et n'a aucun accès à la mer.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Hongrie"
     },
     {
       "q": "Quelle est la fosse océanique la plus profonde connue ?",
@@ -208,19 +224,21 @@
       ],
       "answer": 1,
       "explication": "Située dans le Pacifique, elle dépasse 10 000 mètres de profondeur.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Fosse_des_Mariannes"
     },
     {
-      "q": "Quel est le plus long fleuve d'Europe ?",
+      "q": "Quel est le plus long fleuve d'Asie ?",
       "choices": [
-        "Le Danube",
-        "Le Rhin",
-        "La Volga",
-        "La Loire"
+        "Le Mékong",
+        "Le fleuve Jaune",
+        "Le Yangzi Jiang (Yangtsé)",
+        "L'Indus"
       ],
       "answer": 2,
-      "explication": "La Volga coule entièrement en Russie et se jette dans la mer Caspienne.",
-      "level": "expert"
+      "explication": "Le Yangzi Jiang, ou Yangtsé, mesure plus de 6 300 km : c'est le plus long fleuve d'Asie et le troisième du monde, derrière le Nil et l'Amazone.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Yangtsé"
     },
     {
       "q": "Dans quel pays se trouve le lac Baïkal, le plus profond du monde ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Situé en Sibérie, le Baïkal contient environ un cinquième de l'eau douce liquide de la planète.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Lac_Baïkal"
     },
     {
       "q": "Dans quel pays se trouve l'Aconcagua, plus haut sommet d'Amérique ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 3,
       "explication": "Il culmine à près de 6 960 mètres dans la cordillère des Andes.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Aconcagua"
     }
   ],
   "faq": [
@@ -266,5 +286,6 @@
     "/quiz-drapeaux",
     "/quiz-geographie-france",
     "/quiz-regions-de-france"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

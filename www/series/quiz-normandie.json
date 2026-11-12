@@ -1,0 +1,291 @@
+{
+ "path": "/quiz-normandie",
+ "theme": "histoire",
+ "title": "Quiz Normandie : histoire, terroir et patrimoine",
+ "description": "Quiz Normandie : 20 questions sur l'histoire, les paysages, la gastronomie et le patrimoine normands, des Vikings au Débarquement. Du facile à l'expert !",
+ "h1": "Quiz Normandie : connais-tu vraiment le pays du cidre et des falaises ?",
+ "intro": "Falaises d'Étretat, pommiers du pays d'Auge, plages du Débarquement, jardin de Monet : la Normandie est riche de paysages et d'histoire. Ce quiz Normandie te propose 20 questions sur les Vikings, les grands écrivains et peintres, la gastronomie et le patrimoine de la région. Tu commences par huit questions faciles, tu continues avec huit de niveau moyen, puis tu affrontes quatre questions d'expert. Compte environ 5 secondes de réflexion par question. Chaque réponse est accompagnée d'une explication qui t'apprend un fait de plus. Normand de cœur ou simple curieux, à toi de jouer !",
+ "questions": [
+  {
+   "q": "Quel fleuve traverse Rouen avant de se jeter dans la Manche entre Honfleur et Le Havre ?",
+   "choices": [
+    "La Loire",
+    "L'Orne",
+    "La Somme",
+    "La Seine"
+   ],
+   "answer": 3,
+   "explication": "Ses larges méandres normands ont donné leur nom au parc naturel régional des Boucles de la Seine normande.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Seine"
+  },
+  {
+   "q": "Quelle boisson obtenue à partir de jus de pomme fermenté est un symbole de la Normandie ?",
+   "choices": [
+    "L'hydromel",
+    "Le cidre",
+    "La bière blonde",
+    "Le vin blanc"
+   ],
+   "answer": 1,
+   "explication": "Le calvados est une eau-de-vie obtenue en distillant du cidre.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Cidre"
+  },
+  {
+   "q": "Dans quelle station balnéaire normande trouve-t-on les falaises d'Aval et d'Amont ainsi que l'Aiguille creuse ?",
+   "choices": [
+    "Étretat",
+    "Deauville",
+    "Cabourg",
+    "Granville"
+   ],
+   "answer": 0,
+   "explication": "L'Aiguille creuse a inspiré à Maurice Leblanc un roman d'Arsène Lupin, publié en 1909.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/%C3%89tretat"
+  },
+  {
+   "q": "Quelle station balnéaire du Calvados accueille chaque année un festival du cinéma américain ?",
+   "choices": [
+    "Cabourg",
+    "Étretat",
+    "Deauville",
+    "Dieppe"
+   ],
+   "answer": 2,
+   "explication": "Ce festival se tient en septembre depuis 1975.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Deauville"
+  },
+  {
+   "q": "Dans quel village de l'Eure Claude Monet a-t-il peint ses célèbres nymphéas ?",
+   "choices": [
+    "Barbizon",
+    "Giverny",
+    "Auvers-sur-Oise",
+    "Honfleur"
+   ],
+   "answer": 1,
+   "explication": "Il y a vécu de 1883 à sa mort en 1926 et y a dessiné un jardin d'eau.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Giverny"
+  },
+  {
+   "q": "Quelle race bovine, reconnaissable aux taches brunes autour des yeux, est le symbole de l'élevage normand ?",
+   "choices": [
+    "La montbéliarde",
+    "La salers",
+    "La charolaise",
+    "La normande"
+   ],
+   "answer": 3,
+   "explication": "Son lait, riche en matières grasses et en protéines, sert à fabriquer le beurre, la crème et de nombreux fromages.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Normande_(race_bovine)"
+  },
+  {
+   "q": "Dans quelle ville normande Jeanne d'Arc est-elle condamnée au bûcher en 1431 ?",
+   "choices": [
+    "Caen",
+    "Dieppe",
+    "Rouen",
+    "Bayeux"
+   ],
+   "answer": 2,
+   "explication": "Elle est exécutée le 30 mai 1431 sur la place du Vieux-Marché.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Jeanne_d'Arc"
+  },
+  {
+   "q": "Combien de départements compte la région Normandie ?",
+   "choices": [
+    "Cinq",
+    "Trois",
+    "Quatre",
+    "Six"
+   ],
+   "answer": 0,
+   "explication": "Ce sont le Calvados, l'Eure, la Manche, l'Orne et la Seine-Maritime.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Normandie"
+  },
+  {
+   "q": "Quel chef viking reçoit en 911 le territoire de Rouen du roi Charles le Simple ?",
+   "choices": [
+    "Rollon",
+    "Ragnar",
+    "Harald",
+    "Knut"
+   ],
+   "answer": 0,
+   "explication": "Le nom « Normands » dérive des « hommes du Nord ».",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Rollon"
+  },
+  {
+   "q": "Quel port de Seine-Maritime, reconstruit par Auguste Perret après 1945, est inscrit à l'UNESCO depuis 2005 ?",
+   "choices": [
+    "Dieppe",
+    "Fécamp",
+    "Le Havre",
+    "Cherbourg"
+   ],
+   "answer": 2,
+   "explication": "Cette inscription récompense un exemple d'urbanisme et d'architecture en béton armé de l'après-guerre.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Le_Havre"
+  },
+  {
+   "q": "Quelle liqueur est élaborée à Fécamp, dans un palais néo-gothique de la fin du XIXe siècle ?",
+   "choices": [
+    "La Chartreuse",
+    "Le Cointreau",
+    "La Suze",
+    "La Bénédictine"
+   ],
+   "answer": 3,
+   "explication": "Le palais Bénédictine abrite la distillerie, un musée et des salles d'exposition.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Palais_B%C3%A9n%C3%A9dictine"
+  },
+  {
+   "q": "Quel roi de France reprend la Normandie au roi d'Angleterre Jean sans Terre en 1204 ?",
+   "choices": [
+    "Saint Louis",
+    "Philippe Auguste",
+    "Philippe le Bel",
+    "Charles V"
+   ],
+   "answer": 1,
+   "explication": "Château-Gaillard tombe en mars 1204, puis Rouen en juin.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Philippe_II_Auguste"
+  },
+  {
+   "q": "Quel écrivain normand est l'auteur de « Boule de Suif » et du « Horla » ?",
+   "choices": [
+    "Gustave Flaubert",
+    "Pierre Corneille",
+    "Guy de Maupassant",
+    "Jules Barbey d'Aurevilly"
+   ],
+   "answer": 2,
+   "explication": "Il fut le disciple de Gustave Flaubert, qui l'a guidé dans ses débuts littéraires.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Guy_de_Maupassant"
+  },
+  {
+   "q": "Quelle presqu'île normande avance dans la Manche avec Cherbourg à sa pointe nord ?",
+   "choices": [
+    "Le Cotentin",
+    "Le pays de Caux",
+    "Le Bessin",
+    "Le pays d'Auge"
+   ],
+   "answer": 0,
+   "explication": "Son extrémité nord-ouest est le cap de la Hague.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Cotentin"
+  },
+  {
+   "q": "Quel nom de code porte la plage normande où l'armée américaine subit de lourdes pertes le 6 juin 1944 ?",
+   "choices": [
+    "Utah",
+    "Omaha",
+    "Juno",
+    "Sword"
+   ],
+   "answer": 1,
+   "explication": "Les cinq plages du Débarquement sont Utah, Omaha, Gold, Juno et Sword.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Omaha_Beach"
+  },
+  {
+   "q": "Quelle spécialité normande est un riz au lait relevé de cannelle, cuit lentement au four ?",
+   "choices": [
+    "Le far",
+    "Le clafoutis",
+    "Le kouign-amann",
+    "La teurgoule"
+   ],
+   "answer": 3,
+   "explication": "Elle cuit pendant plusieurs heures dans une terrine en grès.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Teurgoule"
+  },
+  {
+   "q": "Quelle famille de chevaliers normands, originaire du Cotentin, conquiert l'Italie du Sud et la Sicile au XIe siècle ?",
+   "choices": [
+    "Les Montgomery",
+    "Les Harcourt",
+    "Les Tancarville",
+    "Les Hauteville"
+   ],
+   "answer": 3,
+   "explication": "Roger II est couronné premier roi de Sicile en 1130.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Maison_de_Hauteville"
+  },
+  {
+   "q": "Dans quelle abbaye de Caen Guillaume le Conquérant est-il inhumé ?",
+   "choices": [
+    "L'abbaye aux Dames",
+    "L'abbaye aux Hommes",
+    "L'abbaye de Jumièges",
+    "L'abbaye de Fécamp"
+   ],
+   "answer": 1,
+   "explication": "Son épouse, Mathilde de Flandre, repose quant à elle à l'abbaye aux Dames.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Abbaye_aux_Hommes"
+  },
+  {
+   "q": "Dans quel département se trouve la ville de Falaise, où naît Guillaume le Conquérant ?",
+   "choices": [
+    "L'Orne",
+    "La Manche",
+    "Le Calvados",
+    "L'Eure"
+   ],
+   "answer": 2,
+   "explication": "Un centre consacré à Guillaume le Conquérant est installé dans son château, qui domine la ville.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Falaise_(Calvados)"
+  },
+  {
+   "q": "Quel peintre né à Honfleur en 1824 initie le jeune Monet à la peinture en plein air ?",
+   "choices": [
+    "Eugène Boudin",
+    "Gustave Courbet",
+    "Camille Pissarro",
+    "Édouard Manet"
+   ],
+   "answer": 0,
+   "explication": "Monet reconnaîtra plus tard lui devoir sa vocation de peintre.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Boudin"
+  }
+ ],
+ "faq": [
+  [
+   "Quel est le niveau de ce quiz sur la Normandie ?",
+   "Le quiz compte 20 questions de difficulté croissante : huit faciles sur les lieux et spécialités célèbres, huit moyennes sur l'histoire et la littérature, et quatre expertes. Chaque réponse est suivie d'une explication, pour apprendre un fait de plus même en cas d'erreur."
+  ],
+  [
+   "Pourquoi la Normandie s'appelle-t-elle ainsi ?",
+   "Le nom vient des Normands, c'est-à-dire des « hommes du Nord », nom donné aux Vikings venus de Scandinavie. En 911, le roi Charles le Simple confie la région de Rouen à leur chef Rollon par le traité de Saint-Clair-sur-Epte. Ce territoire s'agrandit ensuite pour former le duché de Normandie."
+  ],
+  [
+   "Quand la Normandie a-t-elle été réunifiée ?",
+   "La région Normandie est née le 1er janvier 2016 de la fusion de la Haute-Normandie et de la Basse-Normandie, créées en 1956. Elle compte cinq départements : le Calvados, l'Eure, la Manche, l'Orne et la Seine-Maritime. Sa capitale régionale est Rouen, et le siège du conseil régional est à Caen."
+  ]
+ ],
+ "related": [
+  "/quiz-regions-de-france",
+  "/quiz-fromages",
+  "/quiz-seconde-guerre-mondiale",
+  "/quiz-bretagne",
+  "/quiz-moyen-age"
+ ]
+}

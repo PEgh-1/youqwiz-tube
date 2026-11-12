@@ -1,0 +1,290 @@
+{
+  "path": "/quiz-logique",
+  "theme": "culture",
+  "title": "Quiz logique : suites, énigmes et déductions",
+  "description": "Quiz logique : 20 questions avec suites logiques, énigmes courtes et déductions, du niveau facile à expert. Chaque explication donne le raisonnement.",
+  "h1": "Quiz logique : ton cerveau saura-t-il trouver la bonne solution ?",
+  "intro": "Suites de nombres ou de lettres, énigmes à piège, déductions à mener pas à pas : ce quiz de logique met ton esprit d'analyse à l'épreuve. Tu as 20 questions, des plus simples aux plus retorses, et environ 5 secondes de réflexion pour chacune. Chaque énigme n'a qu'une seule solution, et l'explication qui suit ta réponse détaille le raisonnement pour que tu puisses le refaire seul. Pas besoin de connaissances particulières : de l'attention, de l'astuce et un peu de sang-froid suffisent. Alors, prêt à déjouer tous les pièges ?",
+  "questions": [
+    {
+      "q": "Quel nombre complète la suite 2, 4, 6, 8, … ?",
+      "choices": [
+        "9",
+        "12",
+        "10",
+        "14"
+      ],
+      "answer": 2,
+      "explication": "Ce sont les nombres pairs : on ajoute 2 à chaque étape, c'est une suite arithmétique de raison 2.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Suite_arithmétique"
+    },
+    {
+      "q": "Quel nombre complète la suite 1, 3, 9, 27, … ?",
+      "choices": [
+        "54",
+        "81",
+        "36",
+        "72"
+      ],
+      "answer": 1,
+      "explication": "Chaque terme est le triple du précédent : ce sont les puissances de 3, une suite géométrique de raison 3.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Suite_géométrique"
+    },
+    {
+      "q": "Quelle lettre complète la suite A, C, E, G, … ?",
+      "choices": [
+        "H",
+        "J",
+        "K",
+        "I"
+      ],
+      "answer": 3,
+      "explication": "On avance de deux lettres à chaque fois, en sautant B, D, F puis H.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Suite_(mathématiques)"
+    },
+    {
+      "q": "Marie est plus grande que Léa, et Léa est plus grande que Zoé. Qui est la plus petite des trois ?",
+      "choices": [
+        "Zoé",
+        "Marie",
+        "Léa",
+        "on ne peut pas savoir"
+      ],
+      "answer": 0,
+      "explication": "Marie > Léa > Zoé : la comparaison de taille se transmet de proche en proche, c'est ce qu'on appelle la transitivité.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Logique"
+    },
+    {
+      "q": "Un fermier a 17 moutons. Tous meurent sauf 9. Combien lui en reste-t-il ?",
+      "choices": [
+        "8",
+        "9",
+        "17",
+        "26"
+      ],
+      "answer": 1,
+      "explication": "« Tous sauf 9 » veut dire que 9 moutons survivent : le calcul 17 − 9 est le piège de cette énigme.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Énigme"
+    },
+    {
+      "q": "Quel nombre complète la suite 100, 90, 80, 70, … ?",
+      "choices": [
+        "50",
+        "65",
+        "75",
+        "60"
+      ],
+      "answer": 3,
+      "explication": "On retire 10 à chaque étape : c'est une suite arithmétique décroissante de raison −10.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Suite_arithmétique"
+    },
+    {
+      "q": "Combien de mois de l'année comptent au moins 28 jours ?",
+      "choices": [
+        "12",
+        "1",
+        "2",
+        "11"
+      ],
+      "answer": 0,
+      "explication": "Février compte 28 ou 29 jours et tous les autres mois en ont au moins 30.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Calendrier_grégorien"
+    },
+    {
+      "q": "Quel nombre complète la suite 1, 4, 9, 16, … ?",
+      "choices": [
+        "20",
+        "24",
+        "25",
+        "36"
+      ],
+      "answer": 2,
+      "explication": "Ce sont les carrés 1², 2², 3², 4², donc 5² : les écarts sont les nombres impairs 3, 5, 7, 9…",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Carré_parfait"
+    },
+    {
+      "q": "Quel nombre complète la suite 1, 2, 4, 7, 11, 16, … ?",
+      "choices": [
+        "22",
+        "20",
+        "21",
+        "23"
+      ],
+      "answer": 0,
+      "explication": "Les écarts valent 1, 2, 3, 4, 5 et augmentent d'une unité à chaque étape : le prochain est 6, donc 16 + 6 = 22.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Suite_(mathématiques)"
+    },
+    {
+      "q": "Quel nombre complète la suite 2, 6, 12, 20, 30, … ?",
+      "choices": [
+        "40",
+        "44",
+        "42",
+        "36"
+      ],
+      "answer": 2,
+      "explication": "Ce sont les produits de deux entiers consécutifs : 1×2, 2×3, 3×4, 4×5, 5×6, puis 6×7 = 42.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nombre_oblong"
+    },
+    {
+      "q": "Si 5 machines fabriquent 5 objets en 5 minutes, en combien de temps 100 machines fabriquent-elles 100 objets ?",
+      "choices": [
+        "1 minute",
+        "5 minutes",
+        "20 minutes",
+        "100 minutes"
+      ],
+      "answer": 1,
+      "explication": "Chaque machine produit un objet en 5 minutes : 100 machines en produisent donc 100 dans le même temps.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Proportionnalité"
+    },
+    {
+      "q": "Léo a 4 ans et sa sœur a le double de son âge. Quand Léo aura 20 ans, quel âge aura sa sœur ?",
+      "choices": [
+        "40 ans",
+        "28 ans",
+        "16 ans",
+        "24 ans"
+      ],
+      "answer": 3,
+      "explication": "Sa sœur a 8 ans, soit 4 ans de plus : cet écart d'âge ne change jamais, donc 20 + 4 = 24.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Énigme"
+    },
+    {
+      "q": "Quel nombre complète la suite 3, 6, 11, 18, 27, … ?",
+      "choices": [
+        "36",
+        "38",
+        "37",
+        "40"
+      ],
+      "answer": 1,
+      "explication": "Les écarts sont les nombres impairs 3, 5, 7, 9, puis 11, et chaque terme est un carré plus 2 : 6² + 2 = 38.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Carré_parfait"
+    },
+    {
+      "q": "Un escargot doit monter un mur de 10 m. Chaque jour il grimpe de 3 m, et chaque nuit il redescend de 2 m. Au bout de combien de jours atteint-il le sommet ?",
+      "choices": [
+        "10 jours",
+        "7 jours",
+        "9 jours",
+        "8 jours"
+      ],
+      "answer": 3,
+      "explication": "Il gagne 1 m par jour complet : après 7 jours il est à 7 m, et le huitième jour il atteint 10 m avant la nuit.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Énigme"
+    },
+    {
+      "q": "Paul, Jade et Max portent chacun un bonnet : un rouge, un bleu et un vert. Paul ne porte ni le rouge ni le bleu, et Jade ne porte pas le rouge. De quelle couleur est le bonnet de Max ?",
+      "choices": [
+        "rouge",
+        "vert",
+        "bleu",
+        "on ne peut pas savoir"
+      ],
+      "answer": 0,
+      "explication": "Paul a forcément le vert, Jade ne peut alors avoir que le bleu, et il reste le rouge pour Max.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Logique"
+    },
+    {
+      "q": "Quelle lettre complète la suite J, F, M, A, M, J, J, … ?",
+      "choices": [
+        "S",
+        "O",
+        "A",
+        "N"
+      ],
+      "answer": 2,
+      "explication": "Ce sont les initiales des mois : après juillet vient août, dont le nom rend hommage à l'empereur romain Auguste.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Calendrier_grégorien"
+    },
+    {
+      "q": "Sur un cycle complet de 12 heures, combien de fois l'aiguille des heures et celle des minutes se superposent-elles (la superposition de midi comptant une seule fois) ?",
+      "choices": [
+        "12 fois",
+        "10 fois",
+        "22 fois",
+        "11 fois"
+      ],
+      "answer": 3,
+      "explication": "Les aiguilles se rejoignent toutes les 12/11 d'heure, soit un peu plus d'une heure : la onzième rencontre tombe à midi pile.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Horloge"
+    },
+    {
+      "q": "Quel nombre complète la suite 2, 3, 5, 9, 17, 33, … ?",
+      "choices": [
+        "65",
+        "49",
+        "57",
+        "66"
+      ],
+      "answer": 0,
+      "explication": "Les écarts doublent (1, 2, 4, 8, 16) : chaque terme est une puissance de 2 plus 1, donc 64 + 1 = 65.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Suite_(mathématiques)"
+    },
+    {
+      "q": "Sur une île, les chevaliers disent toujours la vérité et les valets mentent toujours. A déclare à propos de lui et de B : « Nous sommes tous les deux des valets. » Que peut-on conclure ?",
+      "choices": [
+        "A est un chevalier et B est un valet",
+        "A et B sont tous les deux des valets",
+        "A est un valet et B est un chevalier",
+        "A et B sont tous les deux des chevaliers"
+      ],
+      "answer": 2,
+      "explication": "Si A disait vrai, il serait un valet qui dit la vérité, ce qui est impossible. Il ment donc : l'affirmation est fausse, et B n'est pas un valet.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Raisonnement_par_l'absurde"
+    },
+    {
+      "q": "Parmi 8 pièces d'apparence identique, l'une est un peu plus lourde. Avec une balance à deux plateaux, combien de pesées suffisent, au minimum, pour la repérer à coup sûr ?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explication": "On pèse 3 contre 3, puis 1 contre 1 dans le groupe lourd (ou parmi les 2 restantes). Une seule pesée n'a que 3 issues possibles, c'est trop peu pour 8 pièces.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Recherche_dichotomique"
+    }
+  ],
+  "faq": [
+    [
+      "Comment trouver la règle d'une suite logique ?",
+      "Commence par calculer les écarts entre termes successifs : s'ils sont constants, la suite est arithmétique. Si les termes sont multipliés par un même nombre, elle est géométrique. Cherche ensuite des carrés, des doubles ou des sommes de deux termes précédents. Vérifie toujours que ta règle explique chacun des termes donnés avant de répondre."
+    ],
+    [
+      "Qu'est-ce que le raisonnement par l'absurde ?",
+      "Le raisonnement par l'absurde consiste à supposer le contraire de ce qu'on veut établir, puis à en déduire une contradiction. Comme la contradiction est impossible, la supposition de départ est fausse et la conclusion s'impose. C'est la méthode employée dans les énigmes de chevaliers et de valets, et en mathématiques depuis l'Antiquité."
+    ],
+    [
+      "Quel est le niveau de ce quiz de logique ?",
+      "Les huit premières questions sont faciles : suites simples et petites énigmes. Les huit suivantes demandent plus de méthode avec des écarts qui varient, des problèmes de proportion ou de déduction. Les quatre dernières sont expertes. Chaque énigme n'a qu'une solution, et son raisonnement complet est donné dans l'explication."
+    ]
+  ],
+  "related": [
+    "/quiz-mathematiques",
+    "/quiz-calcul-mental",
+    "/quiz-culture-generale-difficile",
+    "/quiz-cm2"
+  ]
+}

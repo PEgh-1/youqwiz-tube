@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-marques",
+  "theme": "culture",
+  "title": "Quiz marques : histoire et origine des marques",
+  "description": "Quiz marques : 20 questions sur l'histoire des marques célèbres : pays d'origine, fondateurs, date de création et origine du nom. Teste ta culture !",
+  "h1": "Quiz marques célèbres : connais-tu leur histoire ?",
+  "intro": "Derrière chaque logo se cache une histoire : un fondateur, un pays, une date et parfois un nom surprenant. Ce quiz marques te propose 20 questions sur l'origine de grandes marques mondiales, de la mode à l'électronique en passant par l'alimentation et les jeux. Tu devras retrouver où elles sont nées, qui les a créées et d'où vient leur nom. Les questions montent peu à peu en difficulté, des plus accessibles aux plus pointues. Après chaque réponse, une courte explication t'apprend un fait de plus. Joue seul, en famille ou entre amis, et vois si tu connais vraiment les marques que tu croises tous les jours !",
+  "questions": [
+    {
+      "q": "Dans quel pays l'entreprise Nokia est-elle fondée en 1865 ?",
+      "choices": [
+        "La Suède",
+        "La Norvège",
+        "La Finlande",
+        "Le Danemark"
+      ],
+      "answer": 2,
+      "explication": "Elle a d'abord produit de la pâte à papier, et son nom vient de la ville finlandaise de Nokia.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nokia"
+    },
+    {
+      "q": "Quelle entreprise est fondée en avril 1976 par Steve Jobs, Steve Wozniak et Ronald Wayne ?",
+      "choices": [
+        "Apple",
+        "Microsoft",
+        "Atari",
+        "IBM"
+      ],
+      "answer": 0,
+      "explication": "Ronald Wayne revend ses parts quelques jours plus tard.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Apple"
+    },
+    {
+      "q": "Dans quel pays est née la marque Lego, dont le nom vient de deux mots signifiant « jouer bien » ?",
+      "choices": [
+        "L'Allemagne",
+        "La Suède",
+        "Les Pays-Bas",
+        "Le Danemark"
+      ],
+      "answer": 3,
+      "explication": "Elle est fondée en 1932 par le menuisier Ole Kirk Christiansen.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lego"
+    },
+    {
+      "q": "Dans quel pays Ingvar Kamprad crée-t-il IKEA en 1943 ?",
+      "choices": [
+        "La Norvège",
+        "La Suède",
+        "La Finlande",
+        "Le Danemark"
+      ],
+      "answer": 1,
+      "explication": "Le nom associe ses initiales, celles de la ferme familiale Elmtaryd et celles du village d'Agunnaryd.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/IKEA"
+    },
+    {
+      "q": "Dans quelle ville américaine le pharmacien John Pemberton invente-t-il le Coca-Cola en 1886 ?",
+      "choices": [
+        "New York",
+        "Atlanta",
+        "Chicago",
+        "Los Angeles"
+      ],
+      "answer": 1,
+      "explication": "Le nom de la boisson est attribué à son comptable, Frank Robinson.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Coca-Cola"
+    },
+    {
+      "q": "Dans quelle ville française les frères André et Édouard Michelin installent-ils leur entreprise de pneumatiques ?",
+      "choices": [
+        "Lyon",
+        "Toulouse",
+        "Dijon",
+        "Clermont-Ferrand"
+      ],
+      "answer": 3,
+      "explication": "L'entreprise Michelin & Cie est créée en 1889 ; le bonhomme Bibendum est dessiné en 1898 par l'affichiste O'Galop.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Michelin"
+    },
+    {
+      "q": "Quel métier exerce Louis Vuitton quand il fonde sa maison, en 1854 ?",
+      "choices": [
+        "Malletier",
+        "Joaillier",
+        "Bottier",
+        "Parfumeur"
+      ],
+      "answer": 0,
+      "explication": "Il ouvre sa première boutique à Paris, rue Neuve-des-Capucines.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Louis_Vuitton_Malletier"
+    },
+    {
+      "q": "Dans quel pays le pharmacien allemand Henri Nestlé fonde-t-il l'entreprise qui porte son nom ?",
+      "choices": [
+        "La Belgique",
+        "L'Autriche",
+        "La Suisse",
+        "Les Pays-Bas"
+      ],
+      "answer": 2,
+      "explication": "Son nom évoque un « petit nid » en allemand, et un nid figure dans son logo.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nestlé"
+    },
+    {
+      "q": "De quel surnom de son fondateur Adolf Dassler vient le nom Adidas ?",
+      "choices": [
+        "Rudi",
+        "Dolfi",
+        "Dassi",
+        "Adi"
+      ],
+      "answer": 3,
+      "explication": "L'entreprise est fondée à Herzogenaurach, en Allemagne, et son frère Rudolf y a fondé Puma.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Adidas"
+    },
+    {
+      "q": "Dans quelle ville japonaise Nintendo est-elle fondée en 1889 pour fabriquer des cartes à jouer ?",
+      "choices": [
+        "Tokyo",
+        "Kyoto",
+        "Osaka",
+        "Nagoya"
+      ],
+      "answer": 1,
+      "explication": "Ces cartes s'appellent les hanafuda.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nintendo"
+    },
+    {
+      "q": "Quels frères ouvrent le premier restaurant McDonald's à San Bernardino, en Californie ?",
+      "choices": [
+        "Ray et Harold McDonald",
+        "John et James McDonald",
+        "Richard et Maurice McDonald",
+        "Walter et Dick McDonald"
+      ],
+      "answer": 2,
+      "explication": "Ray Kroc devient franchiseur en 1955 et ouvre son premier restaurant à Des Plaines, dans l'Illinois.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/McDonald's"
+    },
+    {
+      "q": "D'après quelle déesse grecque de la victoire la marque Nike est-elle nommée ?",
+      "choices": [
+        "Niké",
+        "Athéna",
+        "Artémis",
+        "Héra"
+      ],
+      "answer": 0,
+      "explication": "Phil Knight et Bill Bowerman fondent en 1964 la société Blue Ribbon Sports, dont Nike prend la suite.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nike"
+    },
+    {
+      "q": "Quel chimiste français fonde L'Oréal en 1909 ?",
+      "choices": [
+        "Eugène Schueller",
+        "Ernest Solvay",
+        "Louis Pasteur",
+        "Pierre Fabre"
+      ],
+      "answer": 0,
+      "explication": "Il avait mis au point une teinture pour cheveux sans danger, qu'il vendait aux coiffeurs.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/L'Oréal"
+    },
+    {
+      "q": "Quels éléments métalliques Levi Strauss et Jacob Davis brevettent-ils en 1873 pour renforcer les poches des pantalons ?",
+      "choices": [
+        "Des boutons",
+        "Des fermetures éclair",
+        "Des boucles",
+        "Des rivets"
+      ],
+      "answer": 3,
+      "explication": "Jacob Davis était tailleur à Reno, dans le Nevada.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Levi_Strauss_%26_Co."
+    },
+    {
+      "q": "Que signifie le nom Haribo, formé par son fondateur en 1920 ?",
+      "choices": [
+        "Hans Ruhr Berlin",
+        "Hans Riegel Bonn",
+        "Heinrich Rhin Bavière",
+        "Harald Riegel Bremen"
+      ],
+      "answer": 1,
+      "explication": "Hans Riegel a formé ce nom avec les deux premières lettres de son prénom, de son nom et de sa ville.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Haribo"
+    },
+    {
+      "q": "Qui invente le nom Kodak, un mot sans signification, pour sa marque d'appareils photo lancée en 1888 ?",
+      "choices": [
+        "Thomas Edison",
+        "Louis Daguerre",
+        "George Eastman",
+        "Edwin Land"
+      ],
+      "answer": 2,
+      "explication": "Il aimait la lettre K, qu'il trouvait forte et incisive.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Kodak"
+    },
+    {
+      "q": "Dans quelle ville Hans Wilsdorf fonde-t-il en 1905 la société qui deviendra Rolex ?",
+      "choices": [
+        "Genève",
+        "Berne",
+        "Bienne",
+        "Londres"
+      ],
+      "answer": 3,
+      "explication": "L'entreprise s'installe à Genève en 1919.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Rolex"
+    },
+    {
+      "q": "Dans quelle ville néerlandaise Gerard Philips fonde-t-il en 1891 une entreprise de lampes à incandescence ?",
+      "choices": [
+        "Eindhoven",
+        "Rotterdam",
+        "Utrecht",
+        "Amsterdam"
+      ],
+      "answer": 0,
+      "explication": "Son frère Anton le rejoint quelques années plus tard.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Philips"
+    },
+    {
+      "q": "Quel mot latin signifiant « son » est à l'origine du nom Sony ?",
+      "choices": [
+        "Vox",
+        "Cantus",
+        "Sonus",
+        "Tonus"
+      ],
+      "answer": 2,
+      "explication": "Les fondateurs, Masaru Ibuka et Akio Morita, lancent leur société à Tokyo en 1946.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Sony"
+    },
+    {
+      "q": "Quel pharmacien de Caroline du Nord invente la boisson rebaptisée Pepsi-Cola en 1898 ?",
+      "choices": [
+        "John Pemberton",
+        "Caleb Bradham",
+        "Asa Candler",
+        "Charles Hires"
+      ],
+      "answer": 1,
+      "explication": "Elle s'appelait d'abord Brad's Drink, d'après le nom de son inventeur.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pepsi"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz marques ?",
+      "Le quiz compte 20 questions de difficulté croissante : 8 faciles sur des marques très connues, 8 de niveau moyen pour ceux qui aiment l'histoire des entreprises, puis 4 questions expertes sur des détails de fondation. Chaque réponse est suivie d'une explication qui t'apprend un fait historique supplémentaire."
+    ],
+    [
+      "Comment les marques choisissent-elles leur nom ?",
+      "Les noms de marque viennent de sources variées. Beaucoup reprennent le nom du fondateur, comme Levi's ou Lacoste. D'autres combinent des initiales, comme IKEA, ou le nom d'une ville, comme Nokia. Certains sont inventés de toutes pièces, comme Kodak, ou empruntés à une langue ancienne, comme Sony, qui vient du latin sonus."
+    ],
+    [
+      "Pourquoi s'intéresser à l'histoire des marques ?",
+      "L'histoire d'une marque raconte aussi celle de son époque : l'essor de l'industrie, les inventions, les migrations ou les modes de consommation. Beaucoup de grandes entreprises débutent dans un domaine très différent de celui qui les rend célèbres, comme Nintendo, d'abord fabricant de cartes à jouer. Ces origines surprenantes font des marques un excellent sujet de culture générale."
+    ]
+  ],
+  "related": [
+    "/quiz-voitures",
+    "/quiz-cuisine",
+    "/quiz-jeux-video",
+    "/quiz-histoire",
+    "/quiz-culture-generale-facile"
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "path": "/quiz-arbres",
+  "theme": "nature",
+  "title": "Quiz arbres : 20 questions sur les arbres",
+  "description": "Quiz arbres : 20 questions sur les essences, les feuilles, les fruits, le bois et les records des arbres. Explication après chaque réponse.",
+  "h1": "Quiz arbres : que sais-tu des essences, des feuilles et des forêts ?",
+  "intro": "Chêne, érable, baobab, séquoia ou ginkgo : les arbres nous entourent, mais les connais-tu vraiment ? Ce quiz arbres te propose 20 questions sur les essences, les feuilles, les fruits, les usages du bois et quelques records bien établis. Le parcours commence par huit questions faciles, se poursuit avec huit questions moyennes et se termine par quatre questions d'expert. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail surprenant sur la vie des arbres. À faire en promenade, en famille ou entre amis : à toi de voir si tu es un vrai connaisseur des forêts !",
+  "questions": [
+    {
+      "q": "Quel arbre produit des glands ?",
+      "choices": [
+        "Le hêtre",
+        "Le chêne",
+        "Le noisetier",
+        "Le tilleul"
+      ],
+      "answer": 1,
+      "explication": "Le geai des chênes enterre de nombreux glands et en oublie beaucoup, ce qui favorise la régénération naturelle des forêts.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Gland_(fruit)"
+    },
+    {
+      "q": "Quelle feuille figure au centre du drapeau du Canada, adopté en 1965 ?",
+      "choices": [
+        "La feuille d'érable",
+        "La feuille de chêne",
+        "La feuille de peuplier",
+        "La feuille de bouleau"
+      ],
+      "answer": 0,
+      "explication": "Le dessin à onze pointes a été retenu après des essais en soufflerie, qui ont montré qu'il se déformait le moins dans un vent fort.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Canada"
+    },
+    {
+      "q": "Quel arbre méditerranéen produit les olives ?",
+      "choices": [
+        "Le figuier",
+        "L'amandier",
+        "Le citronnier",
+        "L'olivier"
+      ],
+      "answer": 3,
+      "explication": "L'olive est une drupe, comme la cerise ou la prune, qui devient noire à maturité.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Olivier_(arbre)"
+    },
+    {
+      "q": "Que compte-t-on sur la coupe d'un tronc pour estimer l'âge d'un arbre ?",
+      "choices": [
+        "Les nœuds",
+        "Les racines",
+        "Les cernes",
+        "Les rainures de l'écorce"
+      ],
+      "answer": 2,
+      "explication": "Un cerne large indique en général des conditions de croissance favorables cette année-là.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cerne_de_croissance"
+    },
+    {
+      "q": "Comment appelle-t-on les feuilles fines et pointues des pins et des sapins ?",
+      "choices": [
+        "Des aiguilles",
+        "Des folioles",
+        "Des frondes",
+        "Des écailles de bourgeon"
+      ],
+      "answer": 0,
+      "explication": "Tous les conifères n'en portent pas : la plupart des cyprès ont des feuilles en forme d'écailles.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Conifère"
+    },
+    {
+      "q": "Comment qualifie-t-on un arbre qui perd toutes ses feuilles à la mauvaise saison ?",
+      "choices": [
+        "Persistant",
+        "Caduc",
+        "Résineux",
+        "Exotique"
+      ],
+      "answer": 1,
+      "explication": "À l'inverse, un arbre persistant garde ses feuilles toute l'année, comme le houx ou le laurier.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Feuille_caduque"
+    },
+    {
+      "q": "Quel arbre des régions fraîches est reconnaissable à son écorce blanche ?",
+      "choices": [
+        "Le chêne",
+        "Le noyer",
+        "Le cyprès",
+        "Le bouleau"
+      ],
+      "answer": 3,
+      "explication": "Chez le bouleau à papier, l'écorce blanche se détache en larges bandes, d'où son nom.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Bouleau"
+    },
+    {
+      "q": "Quel arbre porte des fruits piquants renfermant des châtaignes comestibles ?",
+      "choices": [
+        "Le marronnier d'Inde",
+        "Le noisetier",
+        "Le châtaignier",
+        "Le platane"
+      ],
+      "answer": 2,
+      "explication": "Le fruit du marronnier d'Inde, appelé marron d'Inde, n'est pas comestible pour l'être humain.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Châtaignier"
+    },
+    {
+      "q": "Sur quel arbre récolte-t-on le liège ?",
+      "choices": [
+        "Le hêtre",
+        "Le chêne-liège",
+        "Le platane",
+        "Le bouleau"
+      ],
+      "answer": 1,
+      "explication": "Une fois l'écorce prélevée, une nouvelle couche de liège se reconstitue en une dizaine d'années environ.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chêne-liège"
+    },
+    {
+      "q": "De quel arbre d'Amérique tropicale provient le bois très léger utilisé en maquettisme ?",
+      "choices": [
+        "Le balsa",
+        "Le teck",
+        "L'ébène",
+        "L'acajou"
+      ],
+      "answer": 0,
+      "explication": "Avec une densité d'environ 140 kg/m³, il compte parmi les bois les plus légers utilisés dans le commerce.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Balsa"
+    },
+    {
+      "q": "Quel arbre, originaire d'Amazonie, fournit le latex du caoutchouc naturel ?",
+      "choices": [
+        "Le baobab",
+        "Le cacaoyer",
+        "L'hévéa",
+        "Le palmier à huile"
+      ],
+      "answer": 2,
+      "explication": "Le latex est récolté en entaillant l'écorce, puis transformé en caoutchouc.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Hevea_brasiliensis"
+    },
+    {
+      "q": "Quel arbre tropical porte ses cabosses directement sur le tronc et les grosses branches ?",
+      "choices": [
+        "L'hévéa",
+        "Le manguier",
+        "Le caféier",
+        "Le cacaoyer"
+      ],
+      "answer": 3,
+      "explication": "Chaque cabosse renferme de 25 à 75 fèves environ, noyées dans une pulpe blanche et sucrée.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cacaoyer"
+    },
+    {
+      "q": "Quel arbre aux feuilles à deux lobes, seul survivant de sa lignée, est surnommé « fossile vivant » ?",
+      "choices": [
+        "Le ginkgo",
+        "Le tilleul",
+        "L'érable sycomore",
+        "Le peuplier"
+      ],
+      "answer": 0,
+      "explication": "À Hiroshima, un ginkgo situé à moins d'un kilomètre de l'épicentre a survécu au bombardement de 1945.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ginkgo_biloba"
+    },
+    {
+      "q": "Quel arbre figure sur le drapeau du Liban ?",
+      "choices": [
+        "Le pin parasol",
+        "Le cèdre",
+        "Le cyprès",
+        "L'olivier"
+      ],
+      "answer": 1,
+      "explication": "La Bible cite le cèdre du Liban parmi les bois utilisés pour la charpente du temple de Salomon à Jérusalem.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cèdre_du_Liban"
+    },
+    {
+      "q": "Quel arbre aux troncs renflés, capables de stocker de l'eau, est emblématique des savanes de Madagascar et d'Afrique ?",
+      "choices": [
+        "Le sycomore",
+        "L'acacia",
+        "Le baobab",
+        "Le palétuvier"
+      ],
+      "answer": 2,
+      "explication": "Un baobab peut contenir jusqu'à 100 000 litres d'eau, et les éléphants percent parfois l'écorce pour s'y désaltérer.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Baobab"
+    },
+    {
+      "q": "Quel conifère des montagnes perd ses aiguilles à l'automne ?",
+      "choices": [
+        "Le sapin blanc",
+        "L'épicéa",
+        "Le pin cembro",
+        "Le mélèze"
+      ],
+      "answer": 3,
+      "explication": "Il fait partie des rares conifères caducs, et son bois résiste bien aux intempéries en altitude.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mélèze"
+    },
+    {
+      "q": "Dans quel parc national californien se trouve le séquoia géant « General Sherman », l'arbre au plus grand volume du monde ?",
+      "choices": [
+        "Le parc national de Yosemite",
+        "Le parc national de Yellowstone",
+        "Le parc national de Death Valley",
+        "Le parc national de Sequoia"
+      ],
+      "answer": 3,
+      "explication": "Son tronc représente environ 1 487 m³, et son âge est estimé à quelque 2 200 ans.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/General_Sherman_(arbre)"
+    },
+    {
+      "q": "À quelle espèce appartient Mathusalem, arbre de plus de 4 700 ans des White Mountains, en Californie ?",
+      "choices": [
+        "Le séquoia géant",
+        "Le cèdre du Liban",
+        "Le pin bristlecone (Pinus longaeva)",
+        "L'if commun"
+      ],
+      "answer": 2,
+      "explication": "Son emplacement exact est tenu secret pour le protéger du vandalisme.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pinus_longaeva"
+    },
+    {
+      "q": "Comment s'appelle la couche de cellules sous l'écorce qui produit le bois vers l'intérieur et le liber vers l'extérieur ?",
+      "choices": [
+        "Le phellogène",
+        "Le cambium",
+        "L'aubier",
+        "Le méristème apical"
+      ],
+      "answer": 1,
+      "explication": "Le phellogène, lui, est une autre assise qui produit le liège à la périphérie du tronc.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Cambium"
+    },
+    {
+      "q": "Quel bois d'Asie, riche en oléorésine naturelle, est prisé pour les ponts de bateaux et les meubles de jardin ?",
+      "choices": [
+        "Le teck",
+        "Le tilleul",
+        "Le peuplier",
+        "Le bouleau"
+      ],
+      "answer": 0,
+      "explication": "Cette oléorésine le rend très résistant à la pourriture, aux moisissures et aux insectes, sauf dans son aubier.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Teck"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les arbres ?",
+      "Le quiz propose 20 questions de difficulté croissante : huit faciles sur les arbres courants et leurs fruits, huit moyennes sur les essences et leurs usages, puis quatre questions d'expert sur les records et la biologie de l'arbre. Une courte explication suit chaque réponse, et tu peux rejouer pour améliorer ton score."
+    ],
+    [
+      "Comment estime-t-on l'âge d'un arbre ?",
+      "On compte ses cernes de croissance, ces anneaux concentriques visibles sur une coupe de tronc : en général, chaque cerne correspond à une année. Sans abattre l'arbre, les spécialistes prélèvent une carotte fine de l'écorce au centre. L'étude des cernes s'appelle la dendrochronologie ; un cerne large indique le plus souvent une année favorable."
+    ],
+    [
+      "Quelle est la différence entre un feuillu et un conifère ?",
+      "Les feuillus portent des feuilles larges et, sous nos climats, la plupart les perdent à l'automne. Les conifères portent le plus souvent des aiguilles ou des écailles et produisent leurs graines dans des cônes. Ils restent généralement verts toute l'année, mais certains, comme le mélèze, perdent leurs aiguilles à l'automne."
+    ]
+  ],
+  "related": [
+    "/quiz-fleurs",
+    "/quiz-animaux",
+    "/quiz-geographie",
+    "/quiz-sciences"
+  ]
+}

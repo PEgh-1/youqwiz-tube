@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-napoleon",
+  "theme": "histoire",
+  "title": "Quiz Napoléon : vie, batailles et Empire",
+  "description": "Quiz Napoléon : 20 questions sur la vie de Bonaparte, ses batailles, l'Empire, le Code civil et son exil à Sainte-Hélène. Teste tes connaissances !",
+  "h1": "Quiz Napoléon : que sais-tu de la vie et de l'Empire de Bonaparte ?",
+  "intro": "Né en Corse, général victorieux, Premier consul, puis empereur des Français : Napoléon Bonaparte est l'une des figures les plus étudiées de l'histoire. Ce quiz te propose 20 questions sur sa vie, ses grandes batailles, le Consulat et l'Empire, le Code civil et ses dernières années en exil. Les premières questions sont accessibles à tous, les dernières demandent de bons souvenirs de cours d'histoire. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une explication qui t'apprend un détail de plus. À toi de livrer ta propre campagne et de viser le score parfait !",
+  "questions": [
+    {
+      "q": "Dans quelle île Napoléon Bonaparte naît-il en 1769 ?",
+      "choices": [
+        "La Sardaigne",
+        "La Corse",
+        "L'île d'Elbe",
+        "La Sicile"
+      ],
+      "answer": 1,
+      "explication": "Il naît à Ajaccio, peu après le rattachement de l'île à la France.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Napoléon_Ier"
+    },
+    {
+      "q": "Sur quelle île britannique de l'Atlantique Sud Napoléon est-il exilé à partir de 1815 ?",
+      "choices": [
+        "L'île d'Elbe",
+        "Sainte-Hélène",
+        "Malte",
+        "Corfou"
+      ],
+      "answer": 1,
+      "explication": "Il y meurt le 5 mai 1821, après près de six ans d'exil.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sainte-Hélène_(île)"
+    },
+    {
+      "q": "Quelle bataille de décembre 1805, aussi appelée bataille des Trois Empereurs, voit Napoléon vaincre les armées russe et autrichienne ?",
+      "choices": [
+        "Austerlitz",
+        "Eylau",
+        "Wagram",
+        "Iéna"
+      ],
+      "answer": 0,
+      "explication": "Livrée le 2 décembre 1805 en Moravie, elle tombe le jour du premier anniversaire du sacre de l'empereur.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_d'Austerlitz"
+    },
+    {
+      "q": "Comment appelle-t-on le recueil de lois de 1804 qui unifie le droit civil et porte aussi le nom de Napoléon ?",
+      "choices": [
+        "Le Code pénal",
+        "Le Code de commerce",
+        "Le Code civil",
+        "Le Code du travail"
+      ],
+      "answer": 2,
+      "explication": "Souvent modifié depuis, il reste à la base du droit civil français.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Code_civil_(France)"
+    },
+    {
+      "q": "Quel titre Napoléon porte-t-il de 1799 à 1804, avant l'Empire ?",
+      "choices": [
+        "Régent",
+        "Directeur",
+        "Dictateur",
+        "Premier consul"
+      ],
+      "answer": 3,
+      "explication": "Il prend le pouvoir au moment du coup d'État de brumaire et installe le Consulat.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Consulat_(histoire_de_France)"
+    },
+    {
+      "q": "Dans quelle cathédrale parisienne Napoléon est-il sacré empereur en décembre 1804 ?",
+      "choices": [
+        "Saint-Denis",
+        "Notre-Dame de Paris",
+        "Notre-Dame de Reims",
+        "La Madeleine"
+      ],
+      "answer": 1,
+      "explication": "Le pape Pie VII assiste à la cérémonie, mais Napoléon se couronne lui-même.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sacre_de_Napoléon_Ier"
+    },
+    {
+      "q": "Comment s'appelle la première épouse de Napoléon, devenue impératrice des Français ?",
+      "choices": [
+        "Joséphine de Beauharnais",
+        "Marie-Louise d'Autriche",
+        "Pauline Bonaparte",
+        "Marie-Antoinette"
+      ],
+      "answer": 0,
+      "explication": "Il divorce fin 1809, faute d'héritier, puis épouse Marie-Louise d'Autriche le 2 avril 1810.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Joséphine_de_Beauharnais"
+    },
+    {
+      "q": "Quelle distinction, créée en 1802, récompense encore aujourd'hui les mérites civils et militaires ?",
+      "choices": [
+        "La Légion d'honneur",
+        "L'ordre national du Mérite",
+        "La Médaille militaire",
+        "La Croix de guerre"
+      ],
+      "answer": 0,
+      "explication": "Son siège est l'hôtel de Salm, à Paris, qui abrite aussi un musée.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ordre_national_de_la_Légion_d'honneur"
+    },
+    {
+      "q": "Dans quel pays Napoléon mène-t-il en 1798 une expédition accompagnée de savants ?",
+      "choices": [
+        "La Syrie",
+        "L'Espagne",
+        "Le Portugal",
+        "L'Égypte"
+      ],
+      "answer": 3,
+      "explication": "Ses soldats y découvrent la pierre de Rosette en 1799, que Champollion déchiffrera en 1822.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Campagne_d'Égypte"
+    },
+    {
+      "q": "Quelle bataille navale d'octobre 1805 voit la flotte franco-espagnole vaincue par Nelson ?",
+      "choices": [
+        "Trafalgar",
+        "Aboukir",
+        "Lépante",
+        "Navarin"
+      ],
+      "answer": 0,
+      "explication": "Nelson y est tué ; la défaite met fin aux espoirs d'invasion de l'Angleterre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_de_Trafalgar"
+    },
+    {
+      "q": "Quelle mesure décrétée à Berlin en 1806 interdit aux pays soumis de commercer avec l'Angleterre ?",
+      "choices": [
+        "Le blocus continental",
+        "Le système métrique",
+        "Le pacte de famille",
+        "La conscription obligatoire"
+      ],
+      "answer": 0,
+      "explication": "Elle vise à ruiner l'économie britannique, mais entraîne aussi de graves tensions avec les pays européens.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Blocus_continental"
+    },
+    {
+      "q": "Dans quel pays la Grande Armée s'engage-t-elle en 1812 avant une retraite désastreuse ?",
+      "choices": [
+        "L'Espagne",
+        "L'Autriche",
+        "La Suède",
+        "La Russie"
+      ],
+      "answer": 3,
+      "explication": "Elle franchit le Niémen en juin 1812 et entre dans Moscou en septembre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Campagne_de_Russie"
+    },
+    {
+      "q": "Quelle bataille d'octobre 1813, dite « bataille des Nations », est une défaite décisive pour Napoléon ?",
+      "choices": [
+        "Wagram",
+        "Friedland",
+        "Leipzig",
+        "Borodino"
+      ],
+      "answer": 2,
+      "explication": "Elle réunit plus d'un demi-million de soldats de plusieurs nations, du 16 au 19 octobre 1813.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_de_Leipzig_(1813)"
+    },
+    {
+      "q": "Comment nomme-t-on la brève reprise du pouvoir de Napoléon en 1815, après son retour de l'île d'Elbe ?",
+      "choices": [
+        "La Terreur",
+        "Le Directoire",
+        "La Restauration",
+        "Les Cent-Jours"
+      ],
+      "answer": 3,
+      "explication": "Napoléon arrive à Paris le 20 mars 1815 et abdique une seconde fois le 22 juin, après la défaite de Waterloo.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cent-Jours"
+    },
+    {
+      "q": "Avec quel pape Napoléon signe-t-il le concordat de 1801 ?",
+      "choices": [
+        "Pie IX",
+        "Pie VII",
+        "Léon XIII",
+        "Grégoire XVI"
+      ],
+      "answer": 1,
+      "explication": "Le texte reconnaît le catholicisme comme la religion de la majorité des Français.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Concordat_de_1801"
+    },
+    {
+      "q": "Quelle institution financière Napoléon crée-t-il en 1800 ?",
+      "choices": [
+        "Le Crédit lyonnais",
+        "La Banque de France",
+        "La Caisse d'épargne",
+        "La Société générale"
+      ],
+      "answer": 1,
+      "explication": "En 1803, elle reçoit le privilège exclusif d'émettre des billets à Paris.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Banque_de_France"
+    },
+    {
+      "q": "Quel traité signé en avril 1814 lui laisse le titre d'empereur sur l'île d'Elbe ?",
+      "choices": [
+        "Le traité de Tilsit",
+        "Le traité d'Amiens",
+        "Le traité de Fontainebleau",
+        "Le traité de Campo-Formio"
+      ],
+      "answer": 2,
+      "explication": "Il fait suite à son abdication, quelques jours après l'entrée des Alliés dans Paris.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Traité_de_Fontainebleau_(1814)"
+    },
+    {
+      "q": "Quels traités de 1807 entre Napoléon, le tsar Alexandre Ier et la Prusse suivent la victoire de Friedland ?",
+      "choices": [
+        "Les traités de Tilsit",
+        "Les traités de Presbourg",
+        "Le traité de Schönbrunn",
+        "Le traité de Lunéville"
+      ],
+      "answer": 0,
+      "explication": "Napoléon et Alexandre Ier se rencontrent sur un radeau installé au milieu du Niémen.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Traités_de_Tilsit"
+    },
+    {
+      "q": "Quelle bataille d'Italie, livrée le 14 juin 1800, voit le Premier consul vaincre les Autrichiens ?",
+      "choices": [
+        "Rivoli",
+        "Marengo",
+        "Arcole",
+        "Lodi"
+      ],
+      "answer": 1,
+      "explication": "La victoire est arrachée grâce à l'arrivée du général Desaix, qui y trouve la mort.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_de_Marengo"
+    },
+    {
+      "q": "Quel gouverneur britannique surveille Napoléon à Sainte-Hélène à partir de 1816 ?",
+      "choices": [
+        "Arthur Wellesley de Wellington",
+        "Horatio Nelson",
+        "Hudson Lowe",
+        "Lord Castlereagh"
+      ],
+      "answer": 2,
+      "explication": "Napoléon y vit à Longwood, une résidence dont il dénonce l'humidité et les conditions de détention.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Hudson_Lowe"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur Napoléon ?",
+      "Le quiz mêle huit questions faciles sur la vie et l'image de Napoléon, huit questions moyennes sur les campagnes et les institutions, puis quatre questions expert sur les traités et les détails de l'exil. Chaque réponse est suivie d'une explication pour retenir les dates importantes."
+    ],
+    [
+      "Quelle est la différence entre le Consulat et l'Empire ?",
+      "Le Consulat est le régime mis en place après le coup d'État de brumaire an VIII, en 1799 : Bonaparte y est Premier consul. L'Empire commence en 1804, quand il est proclamé empereur des Français ; il dure jusqu'à l'abdication de 1814, puis brièvement pendant les Cent-Jours de 1815."
+    ],
+    [
+      "Pourquoi le Code civil de 1804 est-il si important ?",
+      "Le Code civil rassemble dans un texte unique des règles sur les personnes, les biens, la famille et les contrats, applicables à tous les citoyens. Il consacre l'égalité devant la loi civile et la propriété privée. Rédigé sous la direction de juristes comme Portalis, il a inspiré les lois de nombreux autres pays."
+    ]
+  ],
+  "related": [
+    "/quiz-histoire-de-france",
+    "/quiz-revolution-francaise",
+    "/quiz-rois-de-france",
+    "/quiz-histoire",
+    "/quiz-politique"
+  ]
+}

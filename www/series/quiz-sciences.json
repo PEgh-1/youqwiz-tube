@@ -7,16 +7,17 @@
   "intro": "Physique, chimie, biologie : les sciences nous entourent partout ! Ce quiz de 20 questions couvre les grands classiques de la culture scientifique, de la formule de l'eau au tableau périodique des éléments. Tu as 5 secondes par question pour choisir la bonne réponse parmi quatre propositions. Les huit premières questions sont à la portée de tous, les huit suivantes rappelleront tes cours de collège et de lycée, et les quatre dernières demandent de bonnes connaissances. Chaque réponse est suivie d'une explication courte pour apprendre quelque chose de nouveau. Alors, enfile ta blouse de laboratoire et lance-toi !",
   "questions": [
     {
-      "q": "Quelle est la formule chimique de l'eau ?",
+      "q": "Quel appareil permet d'observer des objets très petits, invisibles à l'œil nu ?",
       "choices": [
-        "CO₂",
-        "H₂O",
-        "O₂",
-        "NaCl"
+        "le télescope",
+        "le microscope",
+        "le thermomètre",
+        "le périscope"
       ],
       "answer": 1,
-      "explication": "Une molécule d'eau contient deux atomes d'hydrogène (H) et un atome d'oxygène (O).",
-      "level": "facile"
+      "explication": "Le microscope grossit les objets minuscules, comme les cellules ou les bactéries. Le télescope sert au contraire à observer des astres lointains.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Microscope"
     },
     {
       "q": "Quel gaz respirons-nous pour vivre ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "L'oxygène représente environ 21 % de l'air. Nos cellules s'en servent pour produire de l'énergie.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dioxyg%C3%A8ne"
     },
     {
       "q": "À quelle température l'eau bout-elle à pression normale ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Au niveau de la mer, l'eau pure bout à 100 °C. En altitude, la pression est plus faible et l'eau bout plus tôt.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/%C3%89bullition"
     },
     {
       "q": "Dans quel état de la matière se trouve la glace ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "La glace est de l'eau à l'état solide, en dessous de 0 °C à pression normale.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Glace"
     },
     {
       "q": "Quel est le matériau naturel le plus dur ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "explication": "Le diamant, formé de carbone pur, est le matériau naturel le plus dur sur l'échelle de Mohs.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Diamant"
     },
     {
       "q": "Quelle force nous attire vers le sol ?",
@@ -76,19 +81,21 @@
       ],
       "answer": 1,
       "explication": "La gravité est la force d'attraction entre les masses. Celle de la Terre nous maintient au sol.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pesanteur"
     },
     {
-      "q": "Quel est le symbole chimique de l'or ?",
+      "q": "Quel instrument permet d'observer des astres lointains ?",
       "choices": [
-        "Or",
-        "Ag",
-        "Au",
-        "Go"
+        "le microscope",
+        "le thermomètre",
+        "le télescope",
+        "le baromètre"
       ],
       "answer": 2,
-      "explication": "Au vient du latin « aurum ». Ag (argent) vient de « argentum ».",
-      "level": "facile"
+      "explication": "Le télescope recueille la lumière des astres pour les observer. Le microscope sert à observer l'infiniment petit.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/T%C3%A9lescope"
     },
     {
       "q": "Quel métal est liquide à température ambiante ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 0,
       "explication": "Le mercure fond à environ -39 °C, il est donc liquide à température ambiante.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mercure_(chimie)"
     },
     {
       "q": "Quel est le symbole chimique du sodium ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 2,
       "explication": "Na vient du latin « natrium ». Le sel de table est du chlorure de sodium, NaCl.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sodium"
     },
     {
       "q": "Dans quel milieu le son ne se propage-t-il pas ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 0,
       "explication": "Le son a besoin d'un milieu matériel pour se propager. Dans le vide, il n'y a rien à faire vibrer.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Son_(physique)"
     },
     {
       "q": "Quel est le pH d'une solution neutre à 25 °C ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 3,
       "explication": "Sur l'échelle de pH, usuellement de 0 à 14 : en dessous de 7, la solution est acide, au-dessus elle est basique.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Potentiel_hydrog%C3%A8ne"
     },
     {
       "q": "Qui a formulé la loi de la gravitation universelle ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 1,
       "explication": "Isaac Newton a publié sa théorie de la gravitation en 1687 dans ses « Principia ».",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Isaac_Newton"
     },
     {
       "q": "Quelle particule porte une charge électrique négative ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 0,
       "explication": "Les électrons se trouvent autour du noyau. Les protons sont positifs, les neutrons neutres.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/%C3%89lectron"
     },
     {
       "q": "Quelle est l'unité de force dans le Système international ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 2,
       "explication": "Le newton (N) honore Isaac Newton. Un joule mesure l'énergie, un watt la puissance.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Newton_(unit%C3%A9)"
     },
     {
       "q": "Quel est le gaz le plus abondant dans l'air que nous respirons ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 1,
       "explication": "L'air contient environ 78 % d'azote et 21 % d'oxygène.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Atmosph%C3%A8re_terrestre"
     },
     {
       "q": "Que mesure l'ampère ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 3,
       "explication": "L'ampère mesure l'intensité du courant. Le volt mesure la tension, l'ohm la résistance.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Amp%C3%A8re"
     },
     {
       "q": "Quel est le numéro atomique du carbone ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "Le carbone possède 6 protons dans son noyau, donc son numéro atomique est 6.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Carbone"
     },
     {
       "q": "Quel scientifique a découvert la pénicilline en 1928 ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 3,
       "explication": "Alexander Fleming a remarqué qu'une moisissure, Penicillium, tuait des bactéries. C'est le premier antibiotique.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Alexander_Fleming"
     },
     {
       "q": "Qui a créé la première version du tableau périodique des éléments en 1869 ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Mendeleïev a classé les éléments par masse atomique croissante et a laissé des cases vides pour des éléments encore inconnus.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dmitri_Mendele%C3%AFev"
     },
     {
       "q": "Quel est le symbole chimique du potassium ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "K vient du latin « kalium ». P est le phosphore, Pt le platine.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Potassium"
     }
   ],
   "faq": [
@@ -266,5 +286,6 @@
     "/quiz-espace",
     "/quiz-animaux",
     "/quiz-culture-generale-facile"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

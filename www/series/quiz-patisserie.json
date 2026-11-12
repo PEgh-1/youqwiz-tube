@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-patisserie",
+  "theme": "culture",
+  "title": "Quiz pâtisserie : gâteaux, techniques et origines",
+  "description": "Quiz pâtisserie : 20 questions sur les gâteaux célèbres, les techniques, le vocabulaire des pâtissiers et les origines des grands classiques.",
+  "h1": "Quiz pâtisserie : es-tu un vrai pâtissier dans l'âme ?",
+  "intro": "Macarons, mille-feuilles, Paris-Brest ou tiramisu : les desserts sucrés cachent des techniques précises et des histoires savoureuses. Ce quiz pâtisserie te propose 20 questions sur les gâteaux célèbres, le vocabulaire du métier, les bases comme les crèmes, les pâtes et les meringues, et l'origine des grands classiques. Il y en a pour les gourmands curieux comme pour ceux qui passent leurs week-ends au fournil. Compte environ 5 secondes par question, avec huit faciles, huit moyennes et quatre d'expert. Chaque réponse s'accompagne d'une explication qui t'apprend une astuce ou une anecdote. Alors, prêt à passer le tablier ? Mets ton minuteur en marche et régale-toi !",
+  "questions": [
+    {
+      "q": "Quelle pâtisserie à base d'amandes, de sucre et de blancs d'œufs se déguste en deux coques garnies de ganache ?",
+      "choices": [
+        "Le financier",
+        "Le croquembouche",
+        "Le canelé",
+        "Le macaron"
+      ],
+      "answer": 3,
+      "explication": "Le mot « macaron » apparaît dès 1552 chez Rabelais, dans le Quart Livre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Macaron"
+    },
+    {
+      "q": "Quelle pâtisserie superpose des couches de pâte feuilletée et de crème pâtissière ?",
+      "choices": [
+        "Le saint-honoré",
+        "Le mille-feuille",
+        "Le flan parisien",
+        "La religieuse"
+      ],
+      "answer": 1,
+      "explication": "Classiquement, il compte trois couches de pâte feuilletée pour deux de crème pâtissière.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mille-feuille"
+    },
+    {
+      "q": "Quel gâteau allemand associe génoise au chocolat, cerises et crème fouettée ?",
+      "choices": [
+        "La Sachertorte",
+        "Le streusel",
+        "La forêt-noire",
+        "Le stollen"
+      ],
+      "answer": 2,
+      "explication": "La génoise y est imbibée de kirsch, une eau-de-vie de cerise.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Forêt-noire_(gâteau)"
+    },
+    {
+      "q": "Quelle pâtisserie est faite de deux choux superposés, un gros et un petit, glacés au fondant ?",
+      "choices": [
+        "La religieuse",
+        "Le flan parisien",
+        "Le financier",
+        "Le chausson aux pommes"
+      ],
+      "answer": 0,
+      "explication": "Le petit chou qui la couronne représente la tête de la « religieuse ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Religieuse_(pâtisserie)"
+    },
+    {
+      "q": "Que signifie le nom du kouign-amann en breton ?",
+      "choices": [
+        "Gâteau au beurre",
+        "Pain sucré",
+        "Tarte au sel",
+        "Galette dorée"
+      ],
+      "answer": 0,
+      "explication": "Cette spécialité du Finistère est considérée comme née à Douarnenez.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Kouign-amann"
+    },
+    {
+      "q": "Avec quels ingrédients prépare-t-on une meringue ?",
+      "choices": [
+        "Des jaunes d'œufs et de la farine",
+        "Du beurre et des amandes",
+        "Des blancs d'œufs et du sucre",
+        "De la crème et de la gélatine"
+      ],
+      "answer": 2,
+      "explication": "On distingue trois grandes méthodes : la meringue française, l'italienne et la suisse.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Meringue"
+    },
+    {
+      "q": "De quelle ville le cannelé est-il la spécialité ?",
+      "choices": [
+        "Toulouse",
+        "Bordeaux",
+        "Nantes",
+        "Lyon"
+      ],
+      "answer": 1,
+      "explication": "Les jaunes d'œufs de la recette viendraient du collage du vin, qui utilisait des blancs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cannelé"
+    },
+    {
+      "q": "Que signifie le nom italien « panna cotta » ?",
+      "choices": [
+        "Gâteau froid",
+        "Lait sucré",
+        "Pain doré",
+        "Crème cuite"
+      ],
+      "answer": 3,
+      "explication": "Cette recette, souvent rattachée au Piémont, associe crème, lait, sucre et gélatine.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Panna_cotta"
+    },
+    {
+      "q": "Quelle course cycliste a inspiré la forme en couronne du Paris-Brest ?",
+      "choices": [
+        "Paris-Brest-Paris",
+        "Le Tour de France",
+        "Paris-Roubaix",
+        "Bordeaux-Paris"
+      ],
+      "answer": 0,
+      "explication": "Le gâteau est attribué à Louis Durand, pâtissier de Maisons-Laffitte.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Paris-brest"
+    },
+    {
+      "q": "Quel saint, patron des boulangers, a donné son nom à un gâteau garni de petits choux et de crème chiboust ?",
+      "choices": [
+        "Saint Michel",
+        "Saint Nicolas",
+        "Saint Honoré",
+        "Saint Laurent"
+      ],
+      "answer": 2,
+      "explication": "Le gâteau est attribué au pâtissier parisien Chiboust, au XIXe siècle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Saint-honoré_(pâtisserie)"
+    },
+    {
+      "q": "De quoi est composée la frangipane ?",
+      "choices": [
+        "De pâte d'amandes et de miel",
+        "De lait d'amande et de gélatine",
+        "De beurre et de noisettes",
+        "De crème d'amandes et de crème pâtissière"
+      ],
+      "answer": 3,
+      "explication": "La version classique de la galette des rois mêle deux tiers de crème d'amandes à un tiers de crème pâtissière.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Frangipane"
+    },
+    {
+      "q": "Comment prépare-t-on une chantilly ?",
+      "choices": [
+        "En faisant bouillir du lait et des œufs",
+        "En fouettant de la crème liquide bien froide",
+        "En chauffant de la crème avec de la farine",
+        "En mixant du beurre et du sucre glace"
+      ],
+      "answer": 1,
+      "explication": "Bien froide, elle monte mieux ; trop fouettée, elle tourne en beurre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Crème_chantilly"
+    },
+    {
+      "q": "Quel grand cuisinier et pâtissier publie en 1815 Le Pâtissier royal parisien ?",
+      "choices": [
+        "Auguste Escoffier",
+        "Paul Bocuse",
+        "Marie-Antoine Carême",
+        "Joël Robuchon"
+      ],
+      "answer": 2,
+      "explication": "Il est célèbre pour ses spectaculaires pièces montées, qui ont fait sa réputation au XIXe siècle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Marie-Antoine_Carême"
+    },
+    {
+      "q": "Dans quelle ville est créée la Sachertorte, en 1832 ?",
+      "choices": [
+        "Vienne",
+        "Berlin",
+        "Budapest",
+        "Prague"
+      ],
+      "answer": 0,
+      "explication": "Franz Sacher, alors apprenti de 16 ans, l'aurait inventée pour le prince Metternich.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sachertorte"
+    },
+    {
+      "q": "Comment appelle-t-on l'opération qui consiste à chauffer, refroidir puis réchauffer le chocolat pour le rendre brillant et cassant ?",
+      "choices": [
+        "Le conchage",
+        "Le tempérage",
+        "Le glaçage",
+        "Le clarifiage"
+      ],
+      "answer": 1,
+      "explication": "Elle stabilise les cristaux de beurre de cacao.",
+      "level": "moyen",
+      "source": "https://en.wikipedia.org/wiki/Tempered_chocolate"
+    },
+    {
+      "q": "Quel dessert meringué porte le nom d'une célèbre danseuse russe ?",
+      "choices": [
+        "La dacquoise",
+        "Le vacherin",
+        "L'île flottante",
+        "La pavlova"
+      ],
+      "answer": 3,
+      "explication": "L'Australie et la Nouvelle-Zélande se disputent depuis longtemps la paternité de la recette.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pavlova_(dessert)"
+    },
+    {
+      "q": "Autour de quelle température arrête-t-on la cuisson d'une crème anglaise ?",
+      "choices": [
+        "60 °C",
+        "100 °C",
+        "83 °C",
+        "120 °C"
+      ],
+      "answer": 2,
+      "explication": "Au-delà, les jaunes d'œufs coagulent et la crème devient grumeleuse.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Crème_anglaise"
+    },
+    {
+      "q": "De quelle ville du Sud-Ouest de la France la dacquoise tire-t-elle son nom ?",
+      "choices": [
+        "Dax",
+        "Dijon",
+        "Agen",
+        "Albi"
+      ],
+      "answer": 0,
+      "explication": "Ce gâteau superpose des disques de meringue aux amandes ou aux noisettes et une crème au beurre.",
+      "level": "expert",
+      "source": "https://en.wikipedia.org/wiki/Dacquoise"
+    },
+    {
+      "q": "Combien de feuillets obtient-on en théorie avec une pâte feuilletée après six tours simples ?",
+      "choices": [
+        "64",
+        "243",
+        "1024",
+        "729"
+      ],
+      "answer": 3,
+      "explication": "Chaque tour simple plie la pâte en trois et triple le nombre de feuillets : 3 puissance 6.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pâte_feuilletée"
+    },
+    {
+      "q": "Comment réalise-t-on une meringue italienne ?",
+      "choices": [
+        "En chauffant blancs et sucre au bain-marie",
+        "En versant un sirop de sucre cuit sur des blancs montés",
+        "En séchant des blancs montés au sucre semoule",
+        "En mélangeant des blancs et de la poudre d'amandes"
+      ],
+      "answer": 1,
+      "explication": "Le sucre est cuit vers 118 °C, avant d'être versé en filet sur les blancs.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Meringue"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz pâtisserie ?",
+      "Le quiz est conçu pour les gourmands comme pour les passionnés. Huit questions faciles portent sur les desserts connus de tous, huit questions de niveau moyen sur les origines et le vocabulaire, et quatre questions d'expert sur les techniques. Les explications données après chaque réponse t'apprennent un geste ou une anecdote à retenir."
+    ],
+    [
+      "Quelle différence entre pâte feuilletée, brisée et à choux ?",
+      "La pâte feuilletée est pliée plusieurs fois avec du beurre pour former des couches qui gonflent à la cuisson. La pâte brisée mélange farine, beurre et eau, et reste friable. La pâte à choux est d'abord cuite sur le feu, puis enrichie d'œufs ; elle gonfle au four et devient creuse, parfaite pour les éclairs."
+    ],
+    [
+      "Pourquoi faut-il tempérer le chocolat ?",
+      "Le chocolat est chauffé, refroidi puis réchauffé légèrement afin de stabiliser les cristaux de beurre de cacao. Bien tempéré, il devient brillant, croquant sous la dent et se démoule facilement. Mal tempéré, il reste mat, se marbre de traces blanchâtres et fond trop vite au contact des doigts."
+    ]
+  ],
+  "related": [
+    "/quiz-cuisine",
+    "/quiz-fromages",
+    "/quiz-vin",
+    "/quiz-noel",
+    "/quiz-culture-generale-facile"
+  ]
+}

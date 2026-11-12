@@ -16,19 +16,21 @@
       ],
       "answer": 1,
       "explication": "Louis XIV a choisi le soleil comme emblème. Il règne de 1643 à 1715, ce qui en fait l'un des plus longs règnes de l'histoire.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Louis_XIV"
     },
     {
-      "q": "Quel roi des Francs est baptisé à Reims vers 496 ?",
+      "level": "facile",
+      "q": "Quel roi de France est resté célèbre pour son souhait de voir chaque paysan mettre « la poule au pot » le dimanche ?",
       "choices": [
-        "Charlemagne",
-        "Pépin le Bref",
-        "Dagobert",
-        "Clovis"
+        "Louis XI",
+        "Charles VII",
+        "Henri III",
+        "Henri IV"
       ],
       "answer": 3,
-      "explication": "Clovis, roi des Francs saliens, se convertit au christianisme, ce qui consolide son pouvoir.",
-      "level": "facile"
+      "explication": "Henri IV, premier roi Bourbon, est resté dans la mémoire populaire comme le « bon roi Henri » et on lui attribue ce vœu.",
+      "source": "https://fr.wikipedia.org/wiki/Henri_IV_(roi_de_France)"
     },
     {
       "q": "Quel roi est guillotiné en 1793 ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Louis XVI est condamné par la Convention après la chute de la monarchie.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Louis_XVI"
     },
     {
       "q": "Quelle reine est l'épouse de Louis XVI ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Archiduchesse d'Autriche, elle épouse le futur Louis XVI en 1770.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Marie-Antoinette_d'Autriche"
     },
     {
       "q": "Quel empereur carolingien est couronné à Rome en l'an 800 ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "explication": "Charlemagne reçoit la couronne impériale des mains du pape Léon III le jour de Noël.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Charlemagne"
     },
     {
       "q": "Dans quel château Louis XIV installe-t-il la cour ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 0,
       "explication": "La cour s'y installe durablement en 1682. Le château reste la résidence royale jusqu'en 1789.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles"
     },
     {
       "q": "À quelle dynastie appartiennent Louis XIV, Louis XV et Louis XVI ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 3,
       "explication": "Les Bourbons montent sur le trône avec Henri IV en 1589.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Maison_de_Bourbon"
     },
     {
       "q": "Quel roi est surnommé « le Bien-Aimé » ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 1,
       "explication": "Louis XV reçoit ce surnom en 1744, quand tout le royaume prie pour sa guérison à Metz. Il règne de 1715 à 1774.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Louis_XV"
     },
     {
       "q": "Qui est le premier roi de la dynastie capétienne, élu en 987 ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 3,
       "explication": "Hugues Capet fonde une dynastie qui régnera, par ses branches, pendant plusieurs siècles.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Hugues_Capet"
     },
     {
       "q": "Quel roi bat les Suisses à Marignan en 1515 ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 1,
       "explication": "Cette victoire marque le début du règne de François Ier, grand roi de la Renaissance.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_de_Marignan"
     },
     {
       "q": "Quel roi est assassiné par Ravaillac en 1610 ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 0,
       "explication": "Henri IV est poignardé dans son carrosse, rue de la Ferronnerie, à Paris.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Henri_IV_(roi_de_France)"
     },
     {
       "q": "Dans quelle ville meurt Saint Louis en 1270, lors de sa dernière croisade ?",
@@ -148,19 +159,21 @@
       ],
       "answer": 2,
       "explication": "Louis IX meurt devant Tunis, probablement de maladie. Il est canonisé en 1297.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Louis_IX"
     },
     {
-      "q": "Quelle victoire de Philippe Auguste date de 1214 ?",
+      "level": "moyen",
+      "q": "Quel roi de France est surnommé « le Père du peuple » ?",
       "choices": [
-        "Bouvines",
-        "Azincourt",
-        "Crécy",
-        "Poitiers"
+        "Louis XII",
+        "Louis XI",
+        "Charles VIII",
+        "Louis XIII"
       ],
       "answer": 0,
-      "explication": "À Bouvines, le roi de France bat une coalition menée par l'empereur germanique Otton IV.",
-      "level": "moyen"
+      "explication": "Louis XII, roi de 1498 à 1515, reçoit ce surnom des États généraux de Tours en 1506.",
+      "source": "https://fr.wikipedia.org/wiki/Louis_XII"
     },
     {
       "q": "Quel roi Catherine de Médicis épouse-t-elle ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 2,
       "explication": "Mère de trois rois (François II, Charles IX et Henri III), Catherine de Médicis exerce une grande influence.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Catherine_de_M%C3%A9dicis"
     },
     {
       "q": "Quel cardinal est le principal ministre de Louis XIII ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 1,
       "explication": "Richelieu renforce l'autorité royale et reste au pouvoir de 1624 à sa mort en 1642.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Armand_Jean_du_Plessis_de_Richelieu"
     },
     {
       "q": "Quel roi se fait sacrer à Reims en 1429, aux côtés de Jeanne d'Arc ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 3,
       "explication": "Le sacre confirme sa légitimité face aux Anglais pendant la guerre de Cent Ans.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Charles_VII_(roi_de_France)"
     },
     {
       "q": "Combien d'années dure le règne de Louis XIV, de 1643 à 1715 ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 2,
       "explication": "Devenu roi à 4 ans, Louis XIV a le règne le plus long de l'histoire de France.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Louis_XIV"
     },
     {
       "q": "Quel frère de Louis XVI devient roi en 1814, lors de la Restauration ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 0,
       "explication": "Louis XVIII règne jusqu'en 1824. Son frère Charles X lui succède.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Louis_XVIII"
     },
     {
       "q": "Quel événement de juillet 1830 conduit Louis-Philippe au trône ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 1,
       "explication": "Charles X est renversé après trois journées d'émeutes à Paris. Louis-Philippe devient « roi des Français ».",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Trois_Glorieuses"
     },
     {
       "q": "Quel roi fait arrêter les Templiers le 13 octobre 1307 ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 3,
       "explication": "Philippe IV le Bel fait arrêter les Templiers dans tout le royaume, avant la dissolution de l'ordre.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel"
     }
   ],
   "faq": [
@@ -266,5 +286,6 @@
     "/quiz-histoire-de-france",
     "/quiz-seconde-guerre-mondiale",
     "/quiz-revolution-francaise"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

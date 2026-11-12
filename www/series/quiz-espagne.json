@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-espagne",
+  "theme": "culture",
+  "title": "Quiz Espagne : histoire, culture et traditions",
+  "description": "Quiz Espagne : 20 questions sur l'histoire, la culture, la gastronomie et les traditions espagnoles, du flamenco à la Reconquista. Teste-toi !",
+  "h1": "Quiz Espagne : que sais-tu du pays du flamenco et de la paella ?",
+  "intro": "Flamenco, paella, Alhambra, chemin de Compostelle : l'Espagne est un pays riche en histoire et en traditions. Ce quiz Espagne te propose 20 questions sur la géographie, l'histoire, la gastronomie, les langues et la culture espagnoles. La difficulté augmente progressivement, avec huit questions faciles, huit moyennes et quatre pour les plus pointus. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail que tu pourras raconter à ton prochain voyage. Entre amis, en famille ou tout seul, saura-t-on te prendre en défaut ? Lance-toi, olé !",
+  "questions": [
+    {
+      "q": "Quelle danse et musique andalouse est portée par le chant, la guitare et le claquement des talons ?",
+      "choices": [
+        "Le tango",
+        "La sardane",
+        "Le flamenco",
+        "La polka"
+      ],
+      "answer": 2,
+      "explication": "Le flamenco est inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2010.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Flamenco"
+    },
+    {
+      "q": "Quel plat de riz au safran est la grande spécialité de Valence ?",
+      "choices": [
+        "La paella",
+        "Le gaspacho",
+        "La tortilla",
+        "Les churros"
+      ],
+      "answer": 0,
+      "explication": "Son nom vient de la large poêle à deux anses dans laquelle il cuit.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Paella"
+    },
+    {
+      "q": "Quelle soupe froide à base de tomates, concombre et poivron est née en Andalousie ?",
+      "choices": [
+        "Le minestrone",
+        "Le bortsch",
+        "La vichyssoise",
+        "Le gaspacho"
+      ],
+      "answer": 3,
+      "explication": "Les recettes anciennes comportaient du pain trempé, de l'huile d'olive et du vinaigre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Gaspacho"
+    },
+    {
+      "q": "Dans quelle ville se trouve la basilique de la Sagrada Família ?",
+      "choices": [
+        "Valence",
+        "Barcelone",
+        "Gérone",
+        "Tarragone"
+      ],
+      "answer": 1,
+      "explication": "Sa construction débute en 1882 et Antoni Gaudí en reprend la direction l'année suivante.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+    },
+    {
+      "q": "Quelle fête de Pampelune est célèbre pour ses lâchers de taureaux dans les rues ?",
+      "choices": [
+        "La San Fermín",
+        "La Tomatina",
+        "Las Fallas",
+        "La Feria d'Avril"
+      ],
+      "answer": 0,
+      "explication": "Les fêtes de la San Fermín ont lieu chaque année du 6 au 14 juillet.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/F%C3%AAtes_de_San_Ferm%C3%ADn"
+    },
+    {
+      "q": "Quel archipel espagnol de l'Atlantique, au large de l'Afrique, comprend Tenerife et Grande Canarie ?",
+      "choices": [
+        "Les îles Baléares",
+        "Les Açores",
+        "Les îles Canaries",
+        "Madère"
+      ],
+      "answer": 2,
+      "explication": "Le Teide, sur l'île de Tenerife, est le point culminant de l'Espagne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/%C3%8Eles_Canaries"
+    },
+    {
+      "q": "Quelle spécialité espagnole faite de bâtonnets de pâte frits se trempe dans un chocolat chaud épais ?",
+      "choices": [
+        "Le turrón",
+        "Les churros",
+        "Le flan",
+        "La crema catalana"
+      ],
+      "answer": 1,
+      "explication": "Le cacao est arrivé en Espagne depuis le Mexique au XVIe siècle.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Churro"
+    },
+    {
+      "q": "Que désigne le mot « siesta » en Espagne ?",
+      "choices": [
+        "Un repas léger du soir",
+        "Une danse populaire",
+        "Une fête de village",
+        "Un petit somme après le déjeuner"
+      ],
+      "answer": 3,
+      "explication": "Le mot vient du latin hora sexta, la sixième heure du jour.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sieste"
+    },
+    {
+      "q": "Quel palais-forteresse de Grenade fut la résidence des souverains nasrides ?",
+      "choices": [
+        "L'Alcazar de Séville",
+        "La Mezquita de Cordoue",
+        "L'Escurial",
+        "L'Alhambra"
+      ],
+      "answer": 3,
+      "explication": "Il est célèbre pour sa cour des Lions, entourée de fines colonnes de marbre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Alhambra_(Grenade)"
+    },
+    {
+      "q": "En quelle année les Rois catholiques conquièrent-ils Grenade, dernier royaume musulman de la péninsule Ibérique ?",
+      "choices": [
+        "1212",
+        "1492",
+        "1469",
+        "1516"
+      ],
+      "answer": 1,
+      "explication": "Boabdil, dernier émir de Grenade, remet les clés de la ville en janvier 1492.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Guerre_de_Grenade"
+    },
+    {
+      "q": "Quel général victorieux de la guerre civile dirige l'Espagne de 1939 à sa mort en 1975 ?",
+      "choices": [
+        "Miguel Primo de Rivera",
+        "Manuel Azaña",
+        "Francisco Franco",
+        "Juan Prim"
+      ],
+      "answer": 2,
+      "explication": "Après sa mort, Juan Carlos Ier devient roi et engage la transition démocratique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Francisco_Franco"
+    },
+    {
+      "q": "Quelle ville de Galice est le but du pèlerinage du chemin de Compostelle ?",
+      "choices": [
+        "Saint-Jacques-de-Compostelle",
+        "Burgos",
+        "León",
+        "Pampelune"
+      ],
+      "answer": 0,
+      "explication": "Elle abrite, selon la tradition, le tombeau de l'apôtre Jacques.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Saint-Jacques-de-Compostelle"
+    },
+    {
+      "q": "Quel poète et dramaturge andalou, auteur de « Noces de sang », est fusillé en 1936 près de Grenade ?",
+      "choices": [
+        "Antonio Machado",
+        "Federico García Lorca",
+        "Rafael Alberti",
+        "Miguel de Unamuno"
+      ],
+      "answer": 1,
+      "explication": "Il appartient à la Génération de 27, un groupe de poètes espagnols.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Federico_Garc%C3%ADa_Lorca"
+    },
+    {
+      "q": "Parmi les langues co-officielles d'Espagne dans leurs communautés, laquelle n'a pas d'origine latine ?",
+      "choices": [
+        "Le galicien",
+        "Le catalan",
+        "Le valencien",
+        "Le basque"
+      ],
+      "answer": 3,
+      "explication": "C'est une langue isolée, sans parenté démontrée avec une autre langue vivante.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Basque_(langue)"
+    },
+    {
+      "q": "Comment nomme-t-on le jambon cru espagnol issu de porcs noirs ibériques engraissés aux glands ?",
+      "choices": [
+        "Le jamón ibérico de bellota",
+        "Le chorizo",
+        "La morcilla",
+        "Le lomo embuchado"
+      ],
+      "answer": 0,
+      "explication": "Le mot bellota désigne le gland de chêne vert ou de chêne-liège dont les porcs se nourrissent dans la dehesa.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jambon_ib%C3%A9rique"
+    },
+    {
+      "q": "Dans quelle communauté autonome produit-on le xérès, célèbre vin fortifié ?",
+      "choices": [
+        "En Rioja",
+        "En Catalogne",
+        "En Andalousie",
+        "En Galice"
+      ],
+      "answer": 2,
+      "explication": "Le triangle de production est formé par Jerez de la Frontera, Sanlúcar de Barrameda et El Puerto de Santa María.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/X%C3%A9r%C3%A8s_(vin)"
+    },
+    {
+      "q": "Quelle bataille navale de 1571 voit la Sainte Ligue, menée par Don Juan d'Autriche, vaincre la flotte ottomane ?",
+      "choices": [
+        "Trafalgar",
+        "Actium",
+        "Lépante",
+        "Salamine"
+      ],
+      "answer": 2,
+      "explication": "Cervantès, qui y combat, y perd l'usage de sa main gauche.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_de_L%C3%A9pante"
+    },
+    {
+      "q": "Quel roi d'Espagne, fils de Charles Quint, fait construire le monastère de l'Escurial ?",
+      "choices": [
+        "Philippe II",
+        "Philippe V",
+        "Charles III",
+        "Ferdinand VII"
+      ],
+      "answer": 0,
+      "explication": "Le chantier dure de 1563 à 1584, au nord-ouest de Madrid.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Escurial"
+    },
+    {
+      "q": "Quelle dynastie accède au trône d'Espagne en 1700 avec Philippe V, petit-fils de Louis XIV ?",
+      "choices": [
+        "Les Habsbourg",
+        "Les Bourbons",
+        "Les Trastamare",
+        "Les Valois"
+      ],
+      "answer": 1,
+      "explication": "Cet avènement déclenche la guerre de Succession d'Espagne, qui s'achève par les traités d'Utrecht en 1713.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Philippe_V_(roi_d'Espagne)"
+    },
+    {
+      "q": "Quelle bataille de 1212 est une victoire décisive des royaumes chrétiens sur les Almohades ?",
+      "choices": [
+        "Covadonga",
+        "Guadalete",
+        "Alarcos",
+        "Las Navas de Tolosa"
+      ],
+      "answer": 3,
+      "explication": "Elle ouvre la voie à la conquête de l'Andalousie par la Castille : Cordoue tombe en 1236, Séville en 1248.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur l'Espagne ?",
+      "Le quiz réunit 20 questions de difficulté croissante : huit faciles sur la gastronomie et les fêtes, huit moyennes sur l'histoire et les langues, et quatre expertes. Les explications données après chaque réponse t'apprennent un fait supplémentaire, que tu aies bon ou non."
+    ],
+    [
+      "Quelles langues sont officielles en Espagne ?",
+      "Le castillan, souvent appelé espagnol, est la langue officielle de tout le pays. Dans leurs communautés autonomes, le catalan, le galicien et le basque sont également langues co-officielles. Le valencien, variante du catalan, l'est en Communauté valencienne, et l'aranais, variété de l'occitan, l'est en Catalogne."
+    ],
+    [
+      "Qu'est-ce que la Reconquista ?",
+      "La Reconquista désigne la reconquête progressive de la péninsule Ibérique par les royaumes chrétiens sur les territoires musulmans d'al-Andalus. Commencée après l'arrivée des musulmans en 711, elle s'achève en 1492 avec la prise de Grenade par les Rois catholiques, Isabelle de Castille et Ferdinand d'Aragon."
+    ]
+  ],
+  "related": [
+    "/quiz-pays-europe",
+    "/quiz-histoire",
+    "/quiz-peinture",
+    "/quiz-cuisine",
+    "/quiz-italie"
+  ]
+}

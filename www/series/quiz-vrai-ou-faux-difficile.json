@@ -1,0 +1,252 @@
+{
+  "path": "/quiz-vrai-ou-faux-difficile",
+  "theme": "culture",
+  "title": "Quiz vrai ou faux difficile : 20 affirmations",
+  "description": "Quiz vrai ou faux difficile : 20 affirmations piégeuses de culture générale, entre idées reçues et vrais faits. Explication après chaque réponse.",
+  "h1": "Quiz vrai ou faux difficile : repéreras-tu tous les pièges ?",
+  "intro": "Ce quiz vrai ou faux difficile est fait pour ceux qui pensent bien connaître leurs classiques. Sur 20 affirmations de culture générale, la moitié est vraie, l'autre moitié repose sur une idée reçue bien plausible : histoire, sciences, géographie, nature et corps humain. Tu réponds vrai ou faux, en comptant environ 5 secondes de réflexion par affirmation, puis une explication t'apprend le fait exact. Le niveau grimpe progressivement jusqu'à quatre affirmations d'expert. Des affirmations qui semblent vraies sont fausses, et d'autres, étonnantes, sont bien réelles. Seras-tu assez rigoureux pour décrocher un sans-faute ?",
+  "questions": [
+    {
+      "q": "Les requins n'ont pas d'os.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Leur squelette est constitué de cartilage, comme celui des raies ; seuls leurs dents et les denticules de leur peau, très minéralisés, sont durs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Requin"
+    },
+    {
+      "q": "La mine d'un crayon à papier est faite de plomb.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Elle est composée de graphite mélangé à de l'argile ; le nom de « mine de plomb » vient d'une ancienne confusion avec ce minéral.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Crayon"
+    },
+    {
+      "q": "Les chiens ne voient qu'en noir, blanc et gris.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Ils distinguent surtout le bleu et le jaune, mais confondent le rouge et le vert, un peu comme certaines personnes daltoniennes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chien"
+    },
+    {
+      "q": "La pomme de terre est originaire d'Amérique du Sud.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Elle a été domestiquée dans les Andes il y a plusieurs milliers d'années, puis introduite en Europe au XVIe siècle.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pomme_de_terre"
+    },
+    {
+      "q": "L'araignée est un insecte.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "C'est un arachnide : elle a huit pattes et deux parties du corps, alors que l'insecte a six pattes et trois parties.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Araignée"
+    },
+    {
+      "q": "Le Titanic a coulé lors de son voyage inaugural.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Il a heurté un iceberg dans la nuit du 14 au 15 avril 1912, quelques jours après avoir quitté Southampton pour New York.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/RMS_Titanic"
+    },
+    {
+      "q": "Le Mont-Saint-Michel se trouve en Bretagne.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Il est situé en Normandie, dans le département de la Manche, à l'embouchure du Couesnon, qui marque la limite avec la Bretagne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mont-Saint-Michel"
+    },
+    {
+      "q": "Le plus petit os du corps humain se trouve dans l'oreille.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "L'étrier, le dernier des trois osselets de l'oreille moyenne, mesure environ trois millimètres de long.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Étrier_(os)"
+    },
+    {
+      "q": "Lors de la prise de la Bastille en 1789, la forteresse ne renfermait que sept prisonniers.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Ils étaient sept : quatre faussaires, deux hommes jugés fous et un noble ; la forteresse était surtout un symbole de l'arbitraire royal.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Prise_de_la_Bastille"
+    },
+    {
+      "q": "Les Romains disposaient de pièces appelées « vomitoria » pour vomir pendant leurs banquets.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Un vomitorium était un couloir qui permettait au public de sortir rapidement d'un théâtre ou d'un amphithéâtre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vomitorium"
+    },
+    {
+      "q": "Une girafe a le même nombre de vertèbres cervicales qu'un être humain.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Elle en compte sept, comme presque tous les mammifères, mais chacune peut dépasser vingt-cinq centimètres de long.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Girafe"
+    },
+    {
+      "q": "Les cheveux et les ongles continuent de pousser après la mort.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Ils ne poussent plus : c'est la peau qui se rétracte en se déshydratant, ce qui donne l'impression que poils et ongles s'allongent.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mort"
+    },
+    {
+      "q": "Le poisson rouge n'a qu'une mémoire de quelques secondes.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Des expériences montrent qu'il retient des informations pendant des semaines, comme les heures de repas, voire plusieurs mois.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Poisson_rouge"
+    },
+    {
+      "q": "Les fondations des bâtiments de Venise reposent sur des pilotis en bois.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Ces troncs, enfoncés dans le sol vaseux, sont conservés par l'absence d'oxygène dans l'eau et l'argile qui les entourent.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Venise"
+    },
+    {
+      "q": "Le Soleil concentre plus de 99 % de la masse du système solaire.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "Les planètes, les astéroïdes et les comètes se partagent le reste, dont une grande partie revient à Jupiter.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Soleil"
+    },
+    {
+      "q": "Deux vrais jumeaux ont exactement les mêmes empreintes digitales.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Leurs empreintes se forment pendant la grossesse, en partie au hasard : elles se ressemblent, mais restent différentes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Empreinte_digitale"
+    },
+    {
+      "q": "Le sommet du Chimborazo, en Équateur, est plus éloigné du centre de la Terre que celui de l'Everest.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "La Terre étant renflée à l'équateur, ce volcan est le point de la surface le plus éloigné du centre, même s'il est moins haut que l'Everest au-dessus du niveau de la mer.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Chimborazo_(volcan)"
+    },
+    {
+      "q": "Il est prouvé que Marie-Antoinette a conseillé au peuple affamé de manger de la brioche.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Aucune source de l'époque ne rapporte cette phrase ; une formule semblable figure dans les Confessions de Rousseau, écrites avant l'arrivée de Marie-Antoinette en France.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Marie-Antoinette_d'Autriche"
+    },
+    {
+      "q": "Cléopâtre a vécu plus près de la mission Apollo 11 que de la construction de la pyramide de Khéops.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 0,
+      "explication": "La pyramide date d'environ 2560 av. J.-C. et Cléopâtre est morte en 30 av. J.-C. ; l'alunissage a eu lieu en 1969.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Cléopâtre_VII"
+    },
+    {
+      "q": "Les taureaux de corrida chargent à cause de la couleur rouge de la cape.",
+      "choices": [
+        "Vrai",
+        "Faux"
+      ],
+      "answer": 1,
+      "explication": "Les bovins distinguent mal le rouge ; ils réagissent au mouvement de la cape, et une cape d'une autre couleur provoquerait la même charge.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Corrida"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz vrai ou faux difficile ?",
+      "Il s'adresse à des joueurs qui ont déjà fait le quiz vrai ou faux classique. Les affirmations sont plus piégeuses, souvent proches d'idées reçues ou de faits peu connus, et les quatre dernières sont de niveau expert. Une explication complète chaque réponse."
+    ],
+    [
+      "Le Soleil représente-t-il vraiment presque toute la masse du système solaire ?",
+      "Oui. Le Soleil concentre plus de 99 % de la masse totale du système solaire. Les planètes, les satellites, les astéroïdes et les comètes se partagent moins de 1 %, et Jupiter à lui seul en représente la plus grande part."
+    ],
+    [
+      "Y a-t-il autant d'affirmations vraies que fausses ?",
+      "Oui, il y a dix affirmations vraies et dix affirmations fausses, mélangées. Une affirmation fausse repose toujours sur une idée reçue répandue, et l'explication rétablit le fait exact pour que tu puisses le retenir. Les affirmations vraies sont parfois les plus surprenantes, alors méfie-toi de ton instinct."
+    ]
+  ],
+  "related": [
+    "/quiz-vrai-ou-faux",
+    "/quiz-culture-generale-difficile",
+    "/quiz-corps-humain",
+    "/quiz-histoire",
+    "/quiz-logos-difficile"
+  ],
+  "verified": "2026-11-12"
+}

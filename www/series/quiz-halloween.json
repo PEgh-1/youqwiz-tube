@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-halloween",
+  "theme": "culture",
+  "title": "Quiz Halloween : origines, traditions et folklore",
+  "description": "Quiz Halloween : 20 questions sur les origines de la fête, Samain, les traditions, les symboles et le folklore des monstres. Pour toute la famille.",
+  "h1": "Quiz Halloween : que sais-tu vraiment de la fête des frissons ?",
+  "intro": "Citrouilles, déguisements, bonbons et histoires qui font peur : Halloween cache une histoire bien plus ancienne qu'il n'y paraît. Ce quiz Halloween te propose 20 questions sur les origines de la fête, la fête gaélique de Samain, les symboles, les légendes et les grandes figures du folklore et de la littérature fantastique. Il s'adresse à tout le monde, des débutants aux amateurs d'histoire. Compte environ 5 secondes de réflexion par question, avec huit questions faciles, huit moyennes et quatre d'expert. Chaque réponse est suivie d'une explication qui t'apprend un fait étonnant. Joue seul ou en famille, et vois si tu sors indemne de l'épreuve !",
+  "questions": [
+    {
+      "q": "À quelle date a lieu Halloween ?",
+      "choices": [
+        "Le 1er novembre",
+        "Le 21 octobre",
+        "Le 31 octobre",
+        "Le 6 décembre"
+      ],
+      "answer": 2,
+      "explication": "La fête s'est répandue aux États-Unis avec les émigrants irlandais, avant de gagner l'Europe.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Halloween"
+    },
+    {
+      "q": "Quel légume orange est creusé et éclairé pour fabriquer la lanterne d'Halloween ?",
+      "choices": [
+        "La citrouille",
+        "La courgette",
+        "Le poivron",
+        "L'aubergine"
+      ],
+      "answer": 0,
+      "explication": "Les citrouilles sont des cucurbitacées, cousines des courges et des courgettes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Halloween"
+    },
+    {
+      "q": "Comment appelle-t-on en anglais la tradition des enfants qui sonnent aux portes pour réclamer des bonbons ?",
+      "choices": [
+        "Sweet or sour",
+        "Trick or treat",
+        "Candy and cake",
+        "Mask or mischief"
+      ],
+      "answer": 1,
+      "explication": "En français, on entend souvent la formule « des bonbons ou un sort ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Halloween"
+    },
+    {
+      "q": "Quelles sont les deux couleurs traditionnellement associées à Halloween ?",
+      "choices": [
+        "Rouge et blanc",
+        "Vert et violet",
+        "Bleu et jaune",
+        "Orange et noir"
+      ],
+      "answer": 3,
+      "explication": "L'orange est souvent rapproché des citrouilles et des récoltes d'automne, le noir de la nuit et de la mort.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Halloween"
+    },
+    {
+      "q": "Quel animal nocturne est un symbole classique d'Halloween ?",
+      "choices": [
+        "Le hérisson",
+        "La belette",
+        "Le lièvre",
+        "La chauve-souris"
+      ],
+      "answer": 3,
+      "explication": "Les chauves-souris sont les seuls mammifères capables d'un vol actif et battu.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chiroptera"
+    },
+    {
+      "q": "Quelle créature de légende se transforme en loup les nuits de pleine lune ?",
+      "choices": [
+        "Le vampire",
+        "Le loup-garou",
+        "La banshee",
+        "Le golem"
+      ],
+      "answer": 1,
+      "explication": "Le mot « garou » vient d'un terme germanique qui signifie « homme-loup ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Loup-garou"
+    },
+    {
+      "q": "Quelle autrice a imaginé le monstre de Frankenstein, dans un roman publié en 1818 ?",
+      "choices": [
+        "Mary Shelley",
+        "Jane Austen",
+        "Emily Brontë",
+        "Agatha Christie"
+      ],
+      "answer": 0,
+      "explication": "Elle en conçoit l'idée à l'été 1816, près du lac Léman, quand Lord Byron propose à ses invités d'écrire des histoires de fantômes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Frankenstein_ou_le_Prométhée_moderne"
+    },
+    {
+      "q": "Quelle fête catholique est célébrée le 1er novembre, lendemain d'Halloween ?",
+      "choices": [
+        "L'Assomption",
+        "La Pentecôte",
+        "La Toussaint",
+        "L'Épiphanie"
+      ],
+      "answer": 2,
+      "explication": "Le mot Halloween est une contraction de « All Hallows' Eve », la veille de la Toussaint.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Halloween"
+    },
+    {
+      "q": "Quelle fête celtique de fin d'été est souvent citée parmi les origines d'Halloween ?",
+      "choices": [
+        "Beltaine",
+        "Imbolc",
+        "Lugnasad",
+        "Samain"
+      ],
+      "answer": 3,
+      "explication": "Les Gaëls y marquaient l'entrée dans la saison sombre ; Beltaine, au printemps, annonce à l'inverse le retour de la belle saison.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Samain_(mythologie)"
+    },
+    {
+      "q": "Selon une légende irlandaise, quel personnage a donné son nom à la lanterne d'Halloween ?",
+      "choices": [
+        "Tom le meunier",
+        "Jack l'avare",
+        "Paddy le pêcheur",
+        "Finn le géant"
+      ],
+      "answer": 1,
+      "explication": "Condamné à errer entre ciel et enfer, Jack se serait éclairé avec un charbon ardent.",
+      "level": "moyen",
+      "source": "https://en.wikipedia.org/wiki/Jack-o%27-lantern"
+    },
+    {
+      "q": "Dans quel État américain se déroulent les procès en sorcellerie de Salem, en 1692 ?",
+      "choices": [
+        "La Virginie",
+        "La Pennsylvanie",
+        "Le Massachusetts",
+        "La Caroline du Sud"
+      ],
+      "answer": 2,
+      "explication": "Dix-neuf personnes y sont pendues, et un homme meurt écrasé sous des pierres pour avoir refusé de plaider.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Procès_des_sorcières_de_Salem"
+    },
+    {
+      "q": "Quelle fête mexicaine des 1er et 2 novembre honore les défunts ?",
+      "choices": [
+        "Le Jour des morts",
+        "Le Cinco de Mayo",
+        "La Posada",
+        "La Guelaguetza"
+      ],
+      "answer": 0,
+      "explication": "Les familles dressent des autels fleuris, les ofrendas, avec des photos, des fleurs et du pain de mort.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jour_des_morts_(Mexique)"
+    },
+    {
+      "q": "Quel réalisateur signe le film d'horreur Halloween, sorti en 1978 ?",
+      "choices": [
+        "Wes Craven",
+        "John Carpenter",
+        "Tobe Hooper",
+        "George A. Romero"
+      ],
+      "answer": 1,
+      "explication": "Le film met en scène Michael Myers, un tueur masqué qui revient dans sa ville natale un soir d'Halloween.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Halloween,_la_nuit_des_masques"
+    },
+    {
+      "q": "Quel écrivain irlandais publie Dracula en 1897 ?",
+      "choices": [
+        "Oscar Wilde",
+        "James Joyce",
+        "Jonathan Swift",
+        "Bram Stoker"
+      ],
+      "answer": 3,
+      "explication": "Le nom du comte évoque Vlad III, prince de Valachie surnommé Dracula, mais le personnage est une création de Stoker.",
+      "level": "moyen",
+      "source": "https://en.wikipedia.org/wiki/Dracula"
+    },
+    {
+      "q": "Avant la citrouille, quel légume les Irlandais creusaient-ils pour fabriquer des lanternes ?",
+      "choices": [
+        "Le navet",
+        "Le chou",
+        "Le poireau",
+        "Le radis noir"
+      ],
+      "answer": 0,
+      "explication": "Aux États-Unis, la citrouille, plus grosse et plus facile à creuser, a pris la relève.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Halloween"
+    },
+    {
+      "q": "Quel événement des années 1840 pousse de nombreux Irlandais à émigrer vers les États-Unis, où ils font connaître Halloween ?",
+      "choices": [
+        "La guerre de Sécession",
+        "La ruée vers l'or",
+        "La Grande Famine",
+        "La guerre anglo-irlandaise"
+      ],
+      "answer": 2,
+      "explication": "Elle débute en 1845, quand une maladie détruit les récoltes de pommes de terre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Halloween"
+    },
+    {
+      "q": "Quel abbé de Cluny institue dans son abbaye la commémoration de tous les défunts, célébrée le 2 novembre ?",
+      "choices": [
+        "Bernard de Clairvaux",
+        "Odilon",
+        "Suger",
+        "Abélard"
+      ],
+      "answer": 1,
+      "explication": "La tradition place la première commémoration à Cluny en 998 ; elle suit la Toussaint du 1er novembre et s'étend ensuite à toute l'Église.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Odilon_de_Cluny"
+    },
+    {
+      "q": "Quel traité de démonologie, imprimé à la fin du XVe siècle, est devenu un manuel de la chasse aux sorcières ?",
+      "choices": [
+        "Le Decameron",
+        "La Somme théologique",
+        "Le Roman de Renart",
+        "Le Malleus Maleficarum"
+      ],
+      "answer": 3,
+      "explication": "Son titre latin signifie « Le Marteau des sorcières » et on l'associe à l'inquisiteur dominicain Heinrich Kramer.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Malleus_Maleficarum"
+    },
+    {
+      "q": "Comment appelle-t-on l'ancienne coutume britannique où des pauvres frappent aux portes à la Toussaint en échange de gâteaux et de prières pour les morts ?",
+      "choices": [
+        "Le wassailing",
+        "Le mumming",
+        "Le souling",
+        "Le caroling"
+      ],
+      "answer": 2,
+      "explication": "On y voit souvent un ancêtre du trick or treat.",
+      "level": "expert",
+      "source": "https://en.wikipedia.org/wiki/Souling"
+    },
+    {
+      "q": "Quel écrivain américain publie en 1820 La Légende de Sleepy Hollow, avec son cavalier sans tête ?",
+      "choices": [
+        "Washington Irving",
+        "Edgar Allan Poe",
+        "Nathaniel Hawthorne",
+        "Herman Melville"
+      ],
+      "answer": 0,
+      "explication": "La nouvelle paraît dans un recueil intitulé The Sketch Book.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/La_Légende_de_Sleepy_Hollow"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Halloween ?",
+      "Le quiz est accessible à tout le monde. Il commence par huit questions faciles sur les symboles connus de tous, continue avec huit questions de niveau moyen sur les origines et le folklore, puis finit par quatre questions d'expert sur l'histoire. Chaque bonne ou mauvaise réponse est accompagnée d'une explication courte pour apprendre sans se prendre au sérieux."
+    ],
+    [
+      "D'où vient Halloween ?",
+      "Halloween est souvent rattachée à la fête gaélique de Samain, qui marquait la fin de l'été et des récoltes, même si les historiens débattent de l'ampleur de cet héritage. Son nom est une contraction de All Hallows' Eve, la veille de la Toussaint. Les émigrants irlandais l'ont ensuite popularisée aux États-Unis, d'où elle est revenue en Europe sous sa forme moderne."
+    ],
+    [
+      "Quelle différence entre Halloween et la Toussaint ?",
+      "Halloween a lieu le soir du 31 octobre : c'est une fête populaire nourrie de traditions celtes et nord-américaines. La Toussaint est une fête catholique du 1er novembre, jour férié en France, qui honore tous les saints. Elle est suivie, le 2 novembre, de la commémoration des fidèles défunts."
+    ]
+  ],
+  "related": [
+    "/quiz-nouvel-an",
+    "/quiz-litterature",
+    "/quiz-cinema",
+    "/quiz-histoire",
+    "/quiz-mythologie-grecque"
+  ]
+}

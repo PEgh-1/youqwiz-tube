@@ -16,31 +16,34 @@
       ],
       "answer": 1,
       "explication": "Le mont Blanc culmine à environ 4 800 mètres, dans les Alpes, en Haute-Savoie.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mont_Blanc"
     },
     {
-      "q": "Quel est le plus long fleuve de France ?",
+      "q": "Quelle ville française est surnommée la « cité phocéenne » ?",
       "choices": [
-        "La Seine",
-        "La Garonne",
-        "Le Rhône",
-        "La Loire"
+        "Nice",
+        "Lyon",
+        "Bordeaux",
+        "Marseille"
       ],
       "answer": 3,
-      "explication": "La Loire mesure environ 1 000 kilomètres et prend sa source en Ardèche.",
-      "level": "facile"
+      "explication": "Marseille doit ce surnom à ses fondateurs, des marins grecs venus de Phocée vers 600 avant notre ère.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Marseille"
     },
     {
-      "q": "Quel fleuve traverse Paris ?",
+      "q": "Quel bras de mer sépare la France de l'Angleterre ?",
       "choices": [
-        "La Seine",
-        "La Loire",
-        "La Marne",
-        "Le Rhône"
+        "La Manche",
+        "La mer du Nord",
+        "Le golfe de Gascogne",
+        "La mer d'Irlande"
       ],
       "answer": 0,
-      "explication": "La Seine traverse aussi Rouen avant de se jeter dans la Manche au Havre.",
-      "level": "facile"
+      "explication": "La Manche relie l'océan Atlantique à la mer du Nord ; le tunnel sous la Manche, ouvert en 1994, la traverse entre la France et l'Angleterre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Manche_(mer)"
     },
     {
       "q": "Quelle mer borde le sud de la France ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "La Côte d'Azur, la Camargue et la Corse bordent cette mer.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mer_Méditerranée"
     },
     {
       "q": "Quel océan borde l'ouest de la France ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "explication": "La côte atlantique va de la Bretagne au Pays basque.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Océan_Atlantique"
     },
     {
       "q": "Quelle est la plus grande île de France métropolitaine ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 0,
       "explication": "La Corse est aussi appelée l'« île de Beauté ».",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Corse"
     },
     {
       "q": "Dans quelle région se trouve le Mont-Saint-Michel ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 3,
       "explication": "Le Mont-Saint-Michel se situe dans la baie du même nom, à la frontière avec la Bretagne.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mont-Saint-Michel"
     },
     {
       "q": "Quel massif sépare la France de l'Espagne ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 1,
       "explication": "Les Pyrénées forment la frontière naturelle entre les deux pays.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pyrénées"
     },
     {
       "q": "Lequel de ces pays n'a pas de frontière terrestre avec la France métropolitaine ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 0,
       "explication": "Le Portugal est séparé de la France par l'Espagne.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Frontières_de_la_France"
     },
     {
       "q": "Quel fleuve passe à Toulouse et à Bordeaux ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 2,
       "explication": "La Garonne naît dans les Pyrénées et forme l'estuaire de la Gironde avec la Dordogne.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Garonne"
     },
     {
       "q": "Quel est le plus grand lac naturel entièrement situé en France ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 1,
       "explication": "Le lac du Bourget est en Savoie ; le Léman, plus grand, est partagé avec la Suisse.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lac_du_Bourget"
     },
     {
       "q": "Dans quelle région se trouve le delta de la Camargue ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 3,
       "explication": "L'essentiel de la Camargue, delta du Rhône connu pour ses chevaux et ses flamants roses, se trouve dans les Bouches-du-Rhône.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Camargue"
     },
     {
       "q": "Dans quel département se trouve la dune du Pilat ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 3,
       "explication": "La dune du Pilat domine le bassin d'Arcachon.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dune_du_Pilat"
     },
     {
       "q": "Quel fleuve se jette dans la Manche, au Havre ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 1,
       "explication": "Son embouchure forme un large estuaire, entre Le Havre et Honfleur.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Seine"
     },
     {
       "q": "Quel massif volcanique se situe au centre de la France ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 2,
       "explication": "Il compte la chaîne des Puys, un ensemble de volcans éteints en Auvergne.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Massif_central"
     },
     {
       "q": "Quel fleuve longe la frontière entre la France et l'Allemagne ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 1,
       "explication": "Le Rhin sépare l'Alsace du Land allemand de Bade-Wurtemberg.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rhin"
     },
     {
       "q": "Quel est le point culminant du Massif central ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 0,
       "explication": "Le Puy de Sancy culmine à environ 1 885 mètres, dans les monts Dore.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Puy_de_Sancy"
     },
     {
       "q": "Quel est le point culminant du massif des Vosges ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 2,
       "explication": "Le Grand Ballon, dans le Haut-Rhin, culmine à environ 1 424 mètres.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Grand_Ballon"
     },
     {
       "q": "Quel est le plus haut sommet de Corse ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Le Monte Cinto culmine à environ 2 710 mètres.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Monte_Cinto"
     },
     {
       "q": "Quel estuaire est formé par la réunion de la Garonne et de la Dordogne ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 3,
       "explication": "Cet estuaire s'ouvre sur l'Atlantique et donne son nom au département de la Gironde.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Gironde_(estuaire)"
     }
   ],
   "faq": [
@@ -266,5 +286,6 @@
     "/quiz-departements",
     "/quiz-geographie",
     "/quiz-capitales"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "Véloce est un synonyme soutenu de rapide : une bête véloce court très vite.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Synonymie"
     },
     {
       "q": "Quel est le contraire de « généreux » ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explication": "Une personne généreuse donne volontiers, tandis qu'une personne avare garde tout pour elle.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Antonymie"
     },
     {
       "q": "Que signifie le mot familier « bouquin » ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 0,
       "explication": "Bouquin est un mot familier pour désigner un livre.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Livre"
     },
     {
       "q": "Qu'est-ce qu'une bourrasque ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Une bourrasque est un coup de vent violent et de courte durée, souvent accompagné de pluie.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Vent"
     },
     {
       "q": "Qu'est-ce qu'un verger ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "explication": "Dans un verger poussent des pommiers, poiriers, cerisiers ou d'autres arbres fruitiers.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Verger"
     },
     {
       "q": "Quel est le contraire de « récent » ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 1,
       "explication": "Un fait récent s'est produit il y a peu de temps ; un fait ancien s'est produit il y a longtemps.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Antonymie"
     },
     {
       "q": "Quel est un synonyme de « fatigué » ?",
@@ -88,19 +94,21 @@
       ],
       "answer": 2,
       "explication": "Las signifie fatigué, lassé : on dit « las d'attendre ».",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Synonymie"
     },
     {
-      "q": "Combien de côtés a un hexagone ?",
+      "q": "Comment appelle-t-on un mot qui a à peu près le même sens qu'un autre ?",
       "choices": [
-        "6",
-        "5",
-        "7",
-        "8"
+        "un synonyme",
+        "un antonyme",
+        "un homonyme",
+        "un pronom"
       ],
       "answer": 0,
-      "explication": "Hexa- vient du grec « hex » (six). Les alvéoles des abeilles sont hexagonales.",
-      "level": "facile"
+      "explication": "« Joyeux » et « gai » sont des synonymes. Un antonyme a au contraire un sens opposé.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Synonymie"
     },
     {
       "q": "Que signifie « éphémère » ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 2,
       "explication": "Éphémère vient du grec et signifie « pour un jour » : une fleur éphémère se fane vite.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/%C3%A9ph%C3%A9m%C3%A8re"
     },
     {
       "q": "Qu'est-ce qu'un euphémisme ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 0,
       "explication": "Dire « il nous a quittés » pour « il est mort » est un euphémisme.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Euph%C3%A9misme"
     },
     {
       "q": "Que signifie « ubiquité » ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 3,
       "explication": "Ubiquité vient du latin « ubique » (partout). Cette faculté appartient plutôt aux légendes.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ubiquit%C3%A9"
     },
     {
       "q": "Quelqu'un de « taciturne » est…",
@@ -148,7 +159,8 @@
       ],
       "answer": 1,
       "explication": "Taciturne vient du latin « tacere » (se taire) : une personne silencieuse et réservée.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/taciturne"
     },
     {
       "q": "Qu'est-ce qu'un antonyme ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 0,
       "explication": "« Grand » et « petit » sont des antonymes. À l'inverse, deux synonymes ont un sens proche.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Antonymie"
     },
     {
       "q": "Un repas « frugal » est un repas…",
@@ -172,7 +185,8 @@
       ],
       "answer": 2,
       "explication": "Frugal vient du latin « frugalis » : qui se contente de peu.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/frugal"
     },
     {
       "q": "Une phrase « ambiguë » est une phrase…",
@@ -184,7 +198,8 @@
       ],
       "answer": 1,
       "explication": "Une phrase ambiguë est équivoque, comme « Le chasseur a vu l'oiseau avec ses jumelles ».",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ambigu%C3%AFt%C3%A9"
     },
     {
       "q": "Que signifie « rectifier » ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 3,
       "explication": "Rectifier vient du latin « rectus » (droit) : remettre droit ou rendre exact.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/rectifier"
     },
     {
       "q": "Qu'est-ce qu'une sinécure ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "Une sinécure est un poste avantageux avec peu de charges. Le mot vient du latin « sine cura », sans souci.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Sin%C3%A9cure"
     },
     {
       "q": "Un projet « pérenne » est un projet…",
@@ -220,7 +237,8 @@
       ],
       "answer": 3,
       "explication": "Pérenne vient du latin « perennis » : qui dure toute l'année, donc durable.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/p%C3%A9renne"
     },
     {
       "q": "Que signifie « procrastiner » ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Procrastiner, c'est reporter sans cesse ce qu'on devrait faire, du latin « crastinus » (de demain).",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Procrastination"
     },
     {
       "q": "Que désigne le mot « acrimonie » ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "L'acrimonie est une amertume qui se manifeste dans les paroles : on discute avec acrimonie.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/acrimonie"
     }
   ],
   "faq": [
@@ -265,5 +285,6 @@
     "/quiz-orthographe",
     "/quiz-langue-francaise",
     "/quiz-culture-generale-facile"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

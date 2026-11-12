@@ -7,16 +7,17 @@
   "intro": "Tu te crois imbattable en culture générale ? Voici 20 questions de niveau moyen à expert, couvrant l'histoire, les sciences, la philosophie, les arts, la littérature et la géographie. Ici, pas de questions évidentes : il faudra fouiller dans ta mémoire, hésiter, parfois deviner. Chaque question laisse environ 5 secondes de réflexion, et chaque réponse est suivie d'une explication pour que tu repartes avec un fait de plus en poche. Si tu dépasses 15 bonnes réponses, tu peux être fier de toi. À toi de jouer !",
   "questions": [
     {
-      "q": "Quelle est la capitale de l'Australie ?",
+      "q": "Quel écrivain russe est l'auteur d'« Anna Karénine » ?",
       "choices": [
-        "Sydney",
-        "Canberra",
-        "Melbourne",
-        "Perth"
+        "Fiodor Dostoïevski",
+        "Léon Tolstoï",
+        "Ivan Tourgueniev",
+        "Anton Tchekhov"
       ],
       "answer": 1,
-      "explication": "Canberra est choisie comme capitale en compromis entre Sydney et Melbourne, qui se disputaient ce titre.",
-      "level": "moyen"
+      "explication": "Tolstoï publie ce roman en feuilleton entre 1875 et 1877, avant sa parution en volume.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Anna_Karénine"
     },
     {
       "q": "Qui a peint « Guernica » en 1937 ?",
@@ -28,7 +29,8 @@
       ],
       "answer": 0,
       "explication": "Picasso réalise cette immense toile en réaction au bombardement de la ville basque de Guernica.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Guernica_(Picasso)"
     },
     {
       "q": "En quelle année tombe le mur de Berlin ?",
@@ -40,7 +42,8 @@
       ],
       "answer": 3,
       "explication": "Dans la nuit du 9 au 10 novembre 1989, les points de passage s'ouvrent ; l'Allemagne est réunifiée l'année suivante.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mur_de_Berlin"
     },
     {
       "q": "Quel est le symbole chimique de l'or ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 1,
       "explication": "Au vient du latin « aurum ». Ag, lui, désigne l'argent (« argentum »).",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Or"
     },
     {
       "q": "Qui est l'auteur du « Rouge et le Noir » ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 2,
       "explication": "Stendhal, de son vrai nom Henri Beyle, publie ce roman en 1830.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Rouge_et_le_Noir"
     },
     {
       "q": "Quel est le plus long fleuve d'Europe ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 2,
       "explication": "La Volga, en Russie, mesure environ 3 500 km et se jette dans la mer Caspienne.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Volga"
     },
     {
       "q": "Quels traités de 1648 mettent fin à la guerre de Trente Ans ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 1,
       "explication": "Signés à Münster et Osnabrück, ils réorganisent l'équilibre des puissances en Europe.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Traités_de_Westphalie"
     },
     {
       "q": "Qui compose le « Boléro », créé en 1928 ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 0,
       "explication": "Ravel y répète un même thème, avec une orchestration qui s'enrichit peu à peu.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Boléro_(Ravel)"
     },
     {
       "q": "Quel est le plus petit État du monde par sa superficie ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 2,
       "explication": "Le Vatican couvre environ 0,44 km², soit moins que bien des parcs urbains.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vatican"
     },
     {
       "q": "Quel scientifique découvre la pénicilline en 1928 ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 2,
       "explication": "Fleming remarque qu'une moisissure détruit les bactéries d'une de ses cultures.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Alexander_Fleming"
     },
     {
       "q": "Quelle bataille de 1214 voit Philippe Auguste vaincre une coalition menée par l'empereur Otton IV ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 3,
       "explication": "Bouvines, près de Lille, renforce l'autorité du roi de France face à ses puissants rivaux.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_de_Bouvines"
     },
     {
       "q": "Quel mathématicien français a énoncé en marge d'un livre un « dernier théorème » resté sans preuve pendant plus de trois siècles ?",
@@ -148,19 +159,21 @@
       ],
       "answer": 0,
       "explication": "Andrew Wiles en donne enfin la démonstration en 1994.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dernier_théorème_de_Fermat"
     },
     {
-      "q": "Quelle est la capitale du Burkina Faso ?",
+      "q": "Quel philosophe grec est le précepteur d'Alexandre le Grand ?",
       "choices": [
-        "Ouagadougou",
-        "Bamako",
-        "Niamey",
-        "Abidjan"
+        "Aristote",
+        "Platon",
+        "Socrate",
+        "Épicure"
       ],
       "answer": 0,
-      "explication": "Ouagadougou, déjà chef-lieu de la colonie de Haute-Volta, reste la capitale à l'indépendance en 1960 ; le pays prend le nom de Burkina Faso en 1984.",
-      "level": "expert"
+      "explication": "Aristote enseigne au jeune Alexandre à la cour de Macédoine, puis fonde plus tard son école, le Lycée, à Athènes.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Aristote"
     },
     {
       "q": "Quel physicien formule en 1927 le principe d'incertitude ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 3,
       "explication": "Ce principe de la mécanique quantique limite la précision avec laquelle on peut connaître à la fois la position et la quantité de mouvement (donc la vitesse) d'une particule.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Werner_Heisenberg"
     },
     {
       "q": "Quel empereur romain fait de Byzance sa capitale, rebaptisée Constantinople ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 1,
       "explication": "Constantin inaugure sa « Nouvelle Rome » en 330 ; la ville devient plus tard Istanbul.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Constantin_Ier_(empereur_romain)"
     },
     {
       "q": "Quel philosophe est l'auteur de la « Critique de la raison pure » ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 3,
       "explication": "Kant publie cet ouvrage fondateur de la philosophie moderne en 1781.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Critique_de_la_raison_pure"
     },
     {
       "q": "Quel traité de 1494 partage le monde à découvrir entre l'Espagne et le Portugal ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 2,
       "explication": "Conclu directement entre les deux couronnes, il déplace vers l'ouest la ligne de partage fixée par une bulle du pape Alexandre VI en 1493, à 370 lieues des îles du Cap-Vert.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Traité_de_Tordesillas"
     },
     {
       "q": "Quel chimiste russe publie une classification périodique des éléments en 1869 ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 1,
       "explication": "Mendeleïev laisse des cases vides pour des éléments encore inconnus, dont il prédit les propriétés.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dmitri_Mendeleïev"
     },
     {
       "q": "Quel navigateur portugais contourne le cap de Bonne-Espérance en 1488 ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Dias ouvre ainsi la voie maritime vers les Indes, que Vasco de Gama empruntera en 1498.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bartolomeu_Dias"
     },
     {
       "q": "Quel est le seul nombre premier pair ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 3,
       "explication": "Tous les autres nombres pairs sont divisibles par 2, donc ne sont pas premiers.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Nombre_premier"
     }
   ],
   "faq": [
@@ -267,5 +287,6 @@
     "/quiz-geographie",
     "/quiz-histoire-de-france",
     "/quiz-culture-generale-seniors"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

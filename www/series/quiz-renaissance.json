@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-renaissance",
+  "theme": "histoire",
+  "title": "Quiz Renaissance : arts, sciences et grandes figures",
+  "description": "Quiz Renaissance : 20 questions sur les artistes, les savants, les explorateurs et la Renaissance française, des châteaux de la Loire à François Ier.",
+  "h1": "Quiz Renaissance : que sais-tu de cette période d'exception ?",
+  "intro": "Léonard de Vinci, Gutenberg, Copernic, François Ier et les châteaux de la Loire : la Renaissance a bouleversé les arts, les sciences et la façon de penser l'homme. Ce quiz Renaissance te propose 20 questions sur les grandes figures, les découvertes, les voyages et les lettres, avec un détour par la Renaissance française. Huit questions sont faciles, huit de niveau moyen et quatre pour les experts. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un fait ou une date à retenir. Seul, en classe ou entre amis, saurez-vous décrocher le score parfait ?",
+  "questions": [
+    {
+      "q": "Quel artiste et inventeur toscan a dessiné l'Homme de Vitruve ?",
+      "choices": [
+        "Léonard de Vinci",
+        "Botticelli",
+        "Donatello",
+        "Giorgione"
+      ],
+      "answer": 0,
+      "explication": "Ce dessin d'environ 1490 étudie les proportions idéales du corps humain.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Léonard_de_Vinci"
+    },
+    {
+      "q": "Quel artiste a sculpté le David de Florence entre 1501 et 1504 ?",
+      "choices": [
+        "Giotto",
+        "Titien",
+        "Michel-Ange",
+        "Cellini"
+      ],
+      "answer": 2,
+      "explication": "La statue mesure environ 5,17 mètres de haut, sans le piédestal.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/David_(Michel-Ange)"
+    },
+    {
+      "q": "Quel inventeur met au point, vers 1450, l'imprimerie à caractères mobiles en Europe ?",
+      "choices": [
+        "Johannes Kepler",
+        "Martin Luther",
+        "Nicolas Flamel",
+        "Johannes Gutenberg"
+      ],
+      "answer": 3,
+      "explication": "La Bible à quarante-deux lignes, imprimée à Mayence vers 1455, reste son œuvre la plus célèbre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Johannes_Gutenberg"
+    },
+    {
+      "q": "Quel roi de France installe Léonard de Vinci au Clos Lucé, près d'Amboise ?",
+      "choices": [
+        "Louis XI",
+        "François Ier",
+        "Henri IV",
+        "Louis XIV"
+      ],
+      "answer": 1,
+      "explication": "Léonard s'y installe en 1516 et y meurt trois ans plus tard.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Château_du_Clos_Lucé"
+    },
+    {
+      "q": "Quel château de la Loire est célèbre pour son escalier à double révolution ?",
+      "choices": [
+        "Azay-le-Rideau",
+        "Chambord",
+        "Amboise",
+        "Cheverny"
+      ],
+      "answer": 1,
+      "explication": "Sa construction débute en 1519, sous François Ier.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Château_de_Chambord"
+    },
+    {
+      "q": "Quel peintre de la Renaissance a réalisé la fresque L'École d'Athènes pour le pape Jules II ?",
+      "choices": [
+        "Titien",
+        "Giotto",
+        "Le Caravage",
+        "Raphaël"
+      ],
+      "answer": 3,
+      "explication": "Cette fresque du Vatican place Platon et Aristote au centre d'une assemblée de philosophes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Raphaël_(peintre)"
+    },
+    {
+      "q": "Quelle ville italienne, dirigée par la famille des Médicis, est un grand foyer de la Renaissance ?",
+      "choices": [
+        "Naples",
+        "Gênes",
+        "Florence",
+        "Turin"
+      ],
+      "answer": 2,
+      "explication": "Laurent de Médicis, dit le Magnifique, y a protégé de nombreux artistes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Florence"
+    },
+    {
+      "q": "Quel roi d'Angleterre, marié six fois, rompt avec Rome pour fonder l'Église anglicane ?",
+      "choices": [
+        "Henri VIII",
+        "Édouard VI",
+        "Henri V",
+        "Richard III"
+      ],
+      "answer": 0,
+      "explication": "Il règne de 1509 à 1547, l'année même de la mort de son rival François Ier.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Henri_VIII_d'Angleterre"
+    },
+    {
+      "q": "Quel navigateur commande au départ l'expédition de 1519 dont un navire achève le premier tour du monde ?",
+      "choices": [
+        "Christophe Colomb",
+        "Fernand de Magellan",
+        "Jacques Cartier",
+        "Amerigo Vespucci"
+      ],
+      "answer": 1,
+      "explication": "Magellan est tué aux Philippines en 1521 ; c'est Juan Sebastián Elcano qui ramène la Victoria en Espagne en 1522 et achève le tour du monde.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Fernand_de_Magellan"
+    },
+    {
+      "q": "Quel navigateur portugais atteint l'Inde par la mer en 1498 ?",
+      "choices": [
+        "Bartolomeu Dias",
+        "Magellan",
+        "Christophe Colomb",
+        "Vasco de Gama"
+      ],
+      "answer": 3,
+      "explication": "Il aborde à Calicut, sur la côte du Malabar.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Vasco_de_Gama"
+    },
+    {
+      "q": "Quel humaniste de Rotterdam publie L'Éloge de la folie en 1511 ?",
+      "choices": [
+        "Érasme",
+        "Martin Luther",
+        "Jean Calvin",
+        "Thomas Müntzer"
+      ],
+      "answer": 0,
+      "explication": "Le titre latin, Moriae encomium, joue sur le nom de son ami Thomas More.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Érasme"
+    },
+    {
+      "q": "Quel chirurgien français du XVIe siècle remet en usage la ligature des artères après une amputation ?",
+      "choices": [
+        "André Vésale",
+        "Nostradamus",
+        "Ambroise Paré",
+        "François Rabelais"
+      ],
+      "answer": 2,
+      "explication": "Il reprend une technique connue dans l'Antiquité, qui remplace la cautérisation, et soigne plusieurs rois de France, d'Henri II à Henri III.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ambroise_Paré"
+    },
+    {
+      "q": "Quel poète est considéré comme le chef de file de la Pléiade ?",
+      "choices": [
+        "François Villon",
+        "Jean de La Fontaine",
+        "Clément Marot",
+        "Pierre de Ronsard"
+      ],
+      "answer": 3,
+      "explication": "Joachim du Bellay signe en 1549 le manifeste du groupe, Défense et illustration de la langue française.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pierre_de_Ronsard"
+    },
+    {
+      "q": "Quel anatomiste publie en 1543 le traité De humani corporis fabrica ?",
+      "choices": [
+        "Avicenne",
+        "André Vésale",
+        "Galien",
+        "Hippocrate"
+      ],
+      "answer": 1,
+      "explication": "Publié à Bâle, l'ouvrage corrige plusieurs erreurs de l'Antiquité sur le corps humain.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/André_Vésale"
+    },
+    {
+      "q": "Quel château de la Loire enjambe le Cher grâce à des galeries à deux niveaux ?",
+      "choices": [
+        "Chambord",
+        "Azay-le-Rideau",
+        "Chenonceau",
+        "Chaumont"
+      ],
+      "answer": 2,
+      "explication": "Diane de Poitiers fait bâtir le pont ; Catherine de Médicis y ajoute ensuite les galeries.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Château_de_Chenonceau"
+    },
+    {
+      "q": "Quel artiste de Nuremberg, auteur de la gravure Melencolia I, est la grande figure de la Renaissance allemande ?",
+      "choices": [
+        "Albrecht Dürer",
+        "Hans Holbein",
+        "Lucas Cranach",
+        "Matthias Grünewald"
+      ],
+      "answer": 0,
+      "explication": "Il a voyagé en Italie à plusieurs reprises, ce qui a nourri son art.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Albrecht_Dürer"
+    },
+    {
+      "q": "Quelle œuvre de Machiavel, rédigée en 1513, n'est publiée qu'en 1532, après la mort de l'auteur ?",
+      "choices": [
+        "Le Courtisan",
+        "L'Utopie",
+        "Le Décaméron",
+        "Le Prince"
+      ],
+      "answer": 3,
+      "explication": "Machiavel meurt en 1527 ; l'ouvrage est dédié à Laurent II de Médicis, duc d'Urbino.",
+      "level": "expert",
+      "source": "https://en.wikipedia.org/wiki/The_Prince"
+    },
+    {
+      "q": "Quel architecte de Vénétie publie en 1570 Les Quatre Livres de l'architecture ?",
+      "choices": [
+        "Vignole",
+        "Andrea Palladio",
+        "Leon Battista Alberti",
+        "Giorgio Vasari"
+      ],
+      "answer": 1,
+      "explication": "Il a conçu de nombreuses villas en Vénétie, dont la célèbre villa Rotonda, près de Vicence.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Andrea_Palladio"
+    },
+    {
+      "q": "Quel accord de 1516 entre François Ier et le pape Léon X donne au roi le droit de nommer évêques et abbés ?",
+      "choices": [
+        "Le concordat de Bologne",
+        "La Pragmatique Sanction de Bourges",
+        "La paix de Cambrai",
+        "Le traité de Crépy"
+      ],
+      "answer": 0,
+      "explication": "Il reste en vigueur jusqu'en 1790, date de la Constitution civile du clergé.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Concordat_de_Bologne"
+    },
+    {
+      "q": "Quel architecte commence en 1546 la reconstruction du Louvre pour François Ier ?",
+      "choices": [
+        "Philibert Delorme",
+        "Louis Le Vau",
+        "Pierre Lescot",
+        "Jacques Androuet du Cerceau"
+      ],
+      "answer": 2,
+      "explication": "Il travaille avec le sculpteur Jean Goujon à l'aile qui porte aujourd'hui son nom, dans la Cour carrée.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pierre_Lescot"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Renaissance ?",
+      "Le quiz s'adresse à tous. Huit questions faciles portent sur les grandes figures connues, huit questions de niveau moyen sur les explorateurs, les écrivains et les châteaux, puis quatre questions d'expert sur les œuvres et les traités. Chaque explication t'apporte un fait supplémentaire, utile pour réviser ou briller en société."
+    ],
+    [
+      "Quand commence et finit la Renaissance ?",
+      "On situe la Renaissance entre le XVe et le XVIe siècle. Elle naît en Italie, notamment à Florence, puis gagne le reste de l'Europe. En France, elle s'épanouit surtout sous François Ier, qui règne de 1515 à 1547. Ces bornes sont des repères pratiques : les historiens les nuancent selon les pays et les domaines."
+    ],
+    [
+      "Qu'est-ce que l'humanisme ?",
+      "L'humanisme est le mouvement intellectuel de la Renaissance qui remet à l'honneur les textes de l'Antiquité grecque et latine et place l'être humain au centre de la réflexion. Érasme, Rabelais ou Thomas More en sont des figures marquantes. L'imprimerie, apparue vers 1450, a beaucoup aidé à diffuser ces idées."
+    ]
+  ],
+  "related": [
+    "/quiz-peinture",
+    "/quiz-rois-de-france",
+    "/quiz-histoire-de-france",
+    "/quiz-moyen-age",
+    "/quiz-histoire"
+  ]
+}

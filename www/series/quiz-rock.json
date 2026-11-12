@@ -1,0 +1,290 @@
+{
+  "path": "/quiz-rock",
+  "theme": "musique",
+  "title": "Quiz rock : 20 questions sur l'histoire du rock",
+  "description": "Quiz rock : 20 questions sur les groupes, les albums, les guitaristes et les grands moments de l'histoire du rock, des années 1950 à aujourd'hui.",
+  "h1": "Quiz rock : connais-tu vraiment les légendes du rock ?",
+  "intro": "Guitares saturées, batteries qui claquent et concerts entrés dans la légende : ce quiz rock te plonge dans soixante-dix ans d'histoire musicale. Au programme, des groupes mythiques, des albums marquants, des festivals célèbres et quelques instruments emblématiques, sans jamais te demander une parole de chanson. Tu trouveras 20 questions qui montent peu à peu en difficulté, des plus accessibles aux plus pointues. Après chaque réponse, une courte explication t'apprend un fait supplémentaire à retenir. Joue seul, en famille ou entre amis, et vois si tu as l'oreille d'un vrai rockeur !",
+  "questions": [
+    {
+      "q": "Combien de cordes compte une guitare basse électrique standard ?",
+      "choices": [
+        "Deux",
+        "Quatre",
+        "Six",
+        "Huit"
+      ],
+      "answer": 1,
+      "explication": "La Precision Bass de Fender, lancée en 1951, est la première basse électrique produite en série.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Guitare_basse"
+    },
+    {
+      "q": "Quel groupe britannique a pour chanteur Freddie Mercury ?",
+      "choices": [
+        "Genesis",
+        "Supertramp",
+        "Deep Purple",
+        "Queen"
+      ],
+      "answer": 3,
+      "explication": "Queen est formé à Londres en 1970 ; Freddie Mercury est né à Zanzibar.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Queen"
+    },
+    {
+      "q": "Quel groupe australien a sorti l'album Back in Black en 1980 ?",
+      "choices": [
+        "AC/DC",
+        "Midnight Oil",
+        "INXS",
+        "Men at Work"
+      ],
+      "answer": 0,
+      "explication": "Cet album est un hommage au chanteur Bon Scott, mort quelques mois plus tôt.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/AC/DC"
+    },
+    {
+      "q": "Quel guitariste américain incendie sa guitare sur scène lors du festival de Monterey en 1967 ?",
+      "choices": [
+        "Carlos Santana",
+        "Chuck Berry",
+        "Jimi Hendrix",
+        "Eddie Van Halen"
+      ],
+      "answer": 2,
+      "explication": "Gaucher, il jouait sur une guitare de droitier retournée et réencordée.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jimi_Hendrix"
+    },
+    {
+      "q": "Quel groupe américain mené par Kurt Cobain a sorti l'album Nevermind en 1991 ?",
+      "choices": [
+        "Pearl Jam",
+        "Soundgarden",
+        "Nirvana",
+        "Metallica"
+      ],
+      "answer": 2,
+      "explication": "Cet album a fait connaître le grunge auprès du grand public.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nirvana_(groupe)"
+    },
+    {
+      "q": "Quel festival américain d'août 1969 est devenu le symbole du mouvement hippie ?",
+      "choices": [
+        "Woodstock",
+        "Monterey",
+        "Coachella",
+        "Glastonbury"
+      ],
+      "answer": 0,
+      "explication": "Il s'est tenu à Bethel, dans l'État de New York, et non dans la ville de Woodstock.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Festival_de_Woodstock"
+    },
+    {
+      "q": "Quelle marque américaine a lancé la guitare électrique Stratocaster en 1954 ?",
+      "choices": [
+        "Gibson",
+        "Ibanez",
+        "Marshall",
+        "Fender"
+      ],
+      "answer": 3,
+      "explication": "Gibson, sa grande rivale, a lancé sa Les Paul en 1952.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Fender_Stratocaster"
+    },
+    {
+      "q": "Quel groupe de Birmingham a sorti l'album Paranoid en 1970 ?",
+      "choices": [
+        "Led Zeppelin",
+        "Black Sabbath",
+        "Judas Priest",
+        "Motörhead"
+      ],
+      "answer": 1,
+      "explication": "Mené par Ozzy Osbourne, il est considéré comme l'un des pères du heavy metal.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Black_Sabbath"
+    },
+    {
+      "q": "D'après quel livre d'Aldous Huxley le groupe The Doors tire-t-il son nom ?",
+      "choices": [
+        "Les Portes de la perception",
+        "Le Meilleur des mondes",
+        "Île",
+        "Contrepoint"
+      ],
+      "answer": 0,
+      "explication": "Le titre de ce livre cite lui-même un vers du poète William Blake.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Doors"
+    },
+    {
+      "q": "Quel groupe britannique, formé en 1968, réunit Robert Plant et Jimmy Page ?",
+      "choices": [
+        "Cream",
+        "Free",
+        "Led Zeppelin",
+        "Bad Company"
+      ],
+      "answer": 2,
+      "explication": "Il s'est d'abord appelé The New Yardbirds avant de choisir son nom définitif.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Led_Zeppelin"
+    },
+    {
+      "q": "Comment nomme-t-on le mouvement britannique des années 1990 dans lequel s'illustrent Oasis et Blur ?",
+      "choices": [
+        "Le Madchester",
+        "La Britpop",
+        "La New Wave",
+        "Le Glam rock"
+      ],
+      "answer": 1,
+      "explication": "Oasis vient de Manchester, tandis que Blur est né à Londres.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Britpop"
+    },
+    {
+      "q": "Quel groupe new-yorkais produit par Andy Warhol sort en 1967 un album orné d'une banane ?",
+      "choices": [
+        "Television",
+        "Sonic Youth",
+        "New York Dolls",
+        "The Velvet Underground"
+      ],
+      "answer": 3,
+      "explication": "Le chanteur Lou Reed et le musicien John Cale en sont les fondateurs.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Velvet_Underground"
+    },
+    {
+      "q": "Quel chanteur du groupe Joy Division est mort en 1980 ?",
+      "choices": [
+        "Morrissey",
+        "Robert Smith",
+        "Peter Murphy",
+        "Ian Curtis"
+      ],
+      "answer": 3,
+      "explication": "Les membres survivants ont poursuivi l'aventure sous le nom de New Order.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ian_Curtis"
+    },
+    {
+      "q": "Quel guitariste, surnommé Slowhand, a joué dans les Yardbirds puis dans Cream ?",
+      "choices": [
+        "Eric Clapton",
+        "Jeff Beck",
+        "Mark Knopfler",
+        "Peter Green"
+      ],
+      "answer": 0,
+      "explication": "Il a été intronisé trois fois au Rock and Roll Hall of Fame : avec les Yardbirds, avec Cream, puis en solo.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Eric_Clapton"
+    },
+    {
+      "q": "Quel groupe français mené par Jean-Louis Aubert se sépare en 1986 ?",
+      "choices": [
+        "Trust",
+        "Noir Désir",
+        "Téléphone",
+        "Indochine"
+      ],
+      "answer": 2,
+      "explication": "Formé à Paris en 1976, il a marqué le rock chanté en français.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Téléphone_(groupe)"
+    },
+    {
+      "q": "Dans quelle ville américaine se trouve le Rock and Roll Hall of Fame, ouvert en 1995 ?",
+      "choices": [
+        "Memphis",
+        "Cleveland",
+        "Nashville",
+        "Detroit"
+      ],
+      "answer": 1,
+      "explication": "Le bâtiment en forme de pyramide de verre a été dessiné par l'architecte I. M. Pei.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rock_and_Roll_Hall_of_Fame"
+    },
+    {
+      "q": "Quel membre fondateur des Rolling Stones est retrouvé mort dans sa piscine en juillet 1969 ?",
+      "choices": [
+        "Brian Jones",
+        "Bill Wyman",
+        "Ian Stewart",
+        "Mick Taylor"
+      ],
+      "answer": 0,
+      "explication": "Il avait quitté le groupe quelques semaines plus tôt, remplacé par Mick Taylor.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Brian_Jones_(musicien)"
+    },
+    {
+      "q": "Quel producteur américain est l'inventeur du « Wall of Sound » dans les années 1960 ?",
+      "choices": [
+        "Quincy Jones",
+        "George Martin",
+        "Berry Gordy",
+        "Phil Spector"
+      ],
+      "answer": 3,
+      "explication": "Cette technique superpose de nombreux instruments pour créer un son dense.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Phil_Spector"
+    },
+    {
+      "q": "Quel groupe punk britannique a sorti le double album London Calling en 1979 ?",
+      "choices": [
+        "The Damned",
+        "The Clash",
+        "Sex Pistols",
+        "The Jam"
+      ],
+      "answer": 1,
+      "explication": "Sur la pochette, le bassiste Paul Simonon brise sa basse sur scène.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/London_Calling"
+    },
+    {
+      "q": "Quel concert gratuit de décembre 1969, avec les Rolling Stones, est marqué par la mort d'un spectateur ?",
+      "choices": [
+        "Isle of Wight",
+        "Hyde Park",
+        "Altamont",
+        "Monterey"
+      ],
+      "answer": 2,
+      "explication": "Il s'est tenu en Californie, à quelques mois de Woodstock, et a assombri la fin de la décennie.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Festival_d'Altamont"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz rock ?",
+      "Le quiz compte 20 questions classées par difficulté : 8 faciles pour les amateurs occasionnels, 8 de niveau moyen pour ceux qui connaissent les grands groupes et leurs albums, puis 4 questions expertes pour les passionnés. Chaque réponse est suivie d'une explication qui t'apprend un détail supplémentaire sur l'histoire du rock."
+    ],
+    [
+      "Quand le rock and roll est-il apparu ?",
+      "Le rock and roll émerge au milieu des années 1950 aux États-Unis. Il mélange le rhythm and blues, la country et le gospel. Chuck Berry, Little Richard, Bill Haley et Elvis Presley comptent parmi ses pionniers. Dans les années 1960, il conquiert le Royaume-Uni, puis le monde entier, et donne naissance à de nombreux styles comme le hard rock, le punk ou le grunge."
+    ],
+    [
+      "Quels instruments forment un groupe de rock classique ?",
+      "La formation de base réunit un chanteur, une ou deux guitares électriques, une guitare basse et une batterie. Beaucoup de groupes ajoutent des claviers, comme un orgue ou un piano électrique. Cette composition s'impose dans les années 1960 et sert encore de modèle à la plupart des groupes de rock actuels."
+    ]
+  ],
+  "related": [
+    "/quiz-musique",
+    "/quiz-chanson-francaise",
+    "/quiz-musique-classique",
+    "/quiz-cinema-francais"
+  ]
+}

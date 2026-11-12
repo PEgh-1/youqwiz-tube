@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-nouvel-an",
+  "theme": "culture",
+  "title": "Quiz nouvel an : traditions et histoire du 1er janvier",
+  "description": "Quiz nouvel an : 20 questions sur les traditions du réveillon, les calendriers et l'histoire du 1er janvier, en France et dans le monde.",
+  "h1": "Quiz nouvel an : le jeu parfait pour la soirée du 31 décembre",
+  "intro": "Tu prépares la soirée du 31 décembre et tu cherches un jeu pour patienter jusqu'aux douze coups de minuit ? Ce quiz nouvel an est fait pour toi. Il réunit 20 questions sur les traditions du réveillon et du jour de l'an en France et dans le monde, sur les calendriers et sur l'histoire du 1er janvier. Le niveau monte doucement : huit questions faciles pour lancer l'ambiance, huit moyennes, puis quatre d'expert pour départager les convives. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait à ressortir à table. Joue seul ou en équipes, et que le meilleur score ouvre la bouteille !",
+  "questions": [
+    {
+      "q": "Quel jour fête-t-on la Saint-Sylvestre ?",
+      "choices": [
+        "Le 24 décembre",
+        "Le 31 décembre",
+        "Le 6 janvier",
+        "Le 1er janvier"
+      ],
+      "answer": 1,
+      "explication": "Elle porte le nom du pape Sylvestre Ier, dont l'Église célèbre la fête le 31 décembre.",
+      "level": "facile",
+      "source": "https://en.wikipedia.org/wiki/Pope_Sylvester_I"
+    },
+    {
+      "q": "Comment appelle-t-on les cadeaux ou les petites sommes offerts au début de l'année ?",
+      "choices": [
+        "Les dîmes",
+        "Les arrhes",
+        "Les prébendes",
+        "Les étrennes"
+      ],
+      "answer": 3,
+      "explication": "Selon la tradition romaine, on s'offrait au 1er janvier des rameaux d'un bois consacré à la déesse Strena, en signe de bon augure.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Étrennes"
+    },
+    {
+      "q": "Quel vin pétillant, issu d'une région de l'Est de la France, accompagne traditionnellement le toast de minuit ?",
+      "choices": [
+        "Le champagne",
+        "Le madère",
+        "Le banyuls",
+        "Le sauternes"
+      ],
+      "answer": 0,
+      "explication": "Le nom de champagne est réservé aux vins mousseux élaborés dans la région viticole de Champagne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Champagne_(vin)"
+    },
+    {
+      "q": "Dans quelle ville américaine une boule lumineuse descend-elle à minuit sur Times Square ?",
+      "choices": [
+        "Chicago",
+        "Los Angeles",
+        "New York",
+        "Las Vegas"
+      ],
+      "answer": 2,
+      "explication": "Avant la boule, le passage à la nouvelle année y était marqué par un grand feu d'artifice, entre 1904 et 1906.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Times_Square"
+    },
+    {
+      "q": "Quel dieu romain à deux visages a donné son nom au mois de janvier ?",
+      "choices": [
+        "Mars",
+        "Jupiter",
+        "Janus",
+        "Vulcain"
+      ],
+      "answer": 2,
+      "explication": "Dieu des portes et des commencements, il est représenté avec un visage tourné vers le passé et l'autre vers l'avenir.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Janus_(mythologie)"
+    },
+    {
+      "q": "Comment appelle-t-on, en France, le 1er janvier ?",
+      "choices": [
+        "Le jour de l'an",
+        "La Chandeleur",
+        "L'Épiphanie",
+        "La Saint-Sylvestre"
+      ],
+      "answer": 0,
+      "explication": "C'est un jour férié, traditionnellement consacré aux vœux et aux visites en famille.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nouvel_An"
+    },
+    {
+      "q": "Combien de grains de raisin mange-t-on en Espagne à minuit ?",
+      "choices": [
+        "Sept",
+        "Neuf",
+        "Vingt-quatre",
+        "Douze"
+      ],
+      "answer": 3,
+      "explication": "On en avale un à chaque coup de cloche, en espérant douze mois de chance.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nouvel_An"
+    },
+    {
+      "q": "Comment s'appelle le calendrier utilisé aujourd'hui en France ?",
+      "choices": [
+        "Le calendrier julien",
+        "Le calendrier grégorien",
+        "Le calendrier républicain",
+        "Le calendrier lunaire"
+      ],
+      "answer": 1,
+      "explication": "Il a corrigé la dérive du calendrier julien, qui prenait environ huit jours d'avance par millénaire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Calendrier_grégorien"
+    },
+    {
+      "q": "Quel poète écossais a transcrit et fait publier la chanson Auld Lang Syne, chantée à minuit dans le monde anglophone ?",
+      "choices": [
+        "Walter Scott",
+        "Robert Louis Stevenson",
+        "Robert Burns",
+        "Lord Byron"
+      ],
+      "answer": 2,
+      "explication": "Le titre, en scots, signifie à peu près « les jours d'antan ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Auld_Lang_Syne"
+    },
+    {
+      "q": "Comment appelle-t-on la fête du Nouvel An en Écosse ?",
+      "choices": [
+        "Hogmanay",
+        "Burns Night",
+        "Beltane",
+        "Samhain"
+      ],
+      "answer": 0,
+      "explication": "Juste après minuit, le « first-footing » veut que le premier visiteur à franchir le seuil apporte un petit cadeau, comme du charbon ou du shortbread.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Hogmanay"
+    },
+    {
+      "q": "Combien de coups de cloche sonnent beaucoup de temples bouddhistes japonais la nuit du 31 décembre ?",
+      "choices": [
+        "12",
+        "108",
+        "33",
+        "365"
+      ],
+      "answer": 1,
+      "explication": "Ce nombre est lié aux 108 « bonnō », les passions ou tourments dont le bouddhisme invite à se libérer.",
+      "level": "moyen",
+      "source": "https://en.wikipedia.org/wiki/Joya_no_Kane"
+    },
+    {
+      "q": "Quelle légumineuse mange-t-on en Italie au Nouvel An pour attirer la prospérité ?",
+      "choices": [
+        "Les pois chiches",
+        "Les haricots blancs",
+        "Les fèves",
+        "Les lentilles"
+      ],
+      "answer": 3,
+      "explication": "Cette tradition du Capodanno associe ces petites graines rondes à l'abondance pour l'année à venir.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nouvel_An"
+    },
+    {
+      "q": "Sur quel type de calendrier repose la date du Nouvel An chinois ?",
+      "choices": [
+        "Un calendrier lunisolaire",
+        "Un calendrier solaire pur",
+        "Un calendrier uniquement lunaire",
+        "Un calendrier stellaire"
+      ],
+      "answer": 0,
+      "explication": "La fête tombe entre le 21 janvier et le 20 février et dure une quinzaine de jours, jusqu'à la fête des Lanternes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nouvel_An_chinois"
+    },
+    {
+      "q": "Quel mois ouvrait l'année dans le calendrier républicain français ?",
+      "choices": [
+        "Brumaire",
+        "Germinal",
+        "Vendémiaire",
+        "Thermidor"
+      ],
+      "answer": 2,
+      "explication": "L'an I commence le 22 septembre 1792, au lendemain de l'abolition de la monarchie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Calendrier_républicain"
+    },
+    {
+      "q": "Quel gâteau grec, qui cache une pièce, est partagé le 1er janvier en l'honneur de saint Basile ?",
+      "choices": [
+        "Le baklava",
+        "Le galaktoboureko",
+        "Les loukoumades",
+        "La vasilopita"
+      ],
+      "answer": 3,
+      "explication": "Celui qui trouve la pièce est censé avoir de la chance pendant toute l'année.",
+      "level": "moyen",
+      "source": "https://en.wikipedia.org/wiki/Vasilopita"
+    },
+    {
+      "q": "Quelle famille de compositeurs est toujours à l'honneur au concert du Nouvel An de Vienne ?",
+      "choices": [
+        "Les Bach",
+        "Les Strauss",
+        "Les Mozart",
+        "Les Couperin"
+      ],
+      "answer": 1,
+      "explication": "Le tout premier concert a eu lieu au Musikverein, le 31 décembre 1939.",
+      "level": "moyen",
+      "source": "https://en.wikipedia.org/wiki/Vienna_New_Year%27s_Concert"
+    },
+    {
+      "q": "Quel édit de Charles IX fixe le début de l'année au 1er janvier en France ?",
+      "choices": [
+        "L'édit de Roussillon",
+        "L'édit de Nantes",
+        "L'ordonnance de Villers-Cotterêts",
+        "L'édit de Saint-Germain"
+      ],
+      "answer": 0,
+      "explication": "Daté d'août 1564, il n'entre pleinement en vigueur qu'en janvier 1567.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Édit_de_Roussillon"
+    },
+    {
+      "q": "En quelle année avant J.-C. le calendrier julien entre-t-il en vigueur ?",
+      "choices": [
+        "27",
+        "100",
+        "45",
+        "753"
+      ],
+      "answer": 2,
+      "explication": "L'année précédente, ajustée pour rattraper le retard accumulé, dure 445 jours : on l'appelle « l'année de confusion ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Calendrier_julien"
+    },
+    {
+      "q": "Comment s'intitule la bulle de 1582 qui réforme le calendrier ?",
+      "choices": [
+        "Unam sanctam",
+        "Inter gravissimas",
+        "Exsurge Domine",
+        "Clericis laicos"
+      ],
+      "answer": 1,
+      "explication": "Datée du 24 février 1582, elle supprime dix jours : le 4 octobre est suivi du 15 octobre dans les pays qui l'appliquent aussitôt.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Inter_gravissimas"
+    },
+    {
+      "q": "En quelle année la Grande-Bretagne adopte-t-elle le calendrier grégorien ?",
+      "choices": [
+        "1582",
+        "1650",
+        "1801",
+        "1752"
+      ],
+      "answer": 3,
+      "explication": "Le 2 septembre est suivi du 14 septembre, et l'année commence désormais le 1er janvier au lieu du 25 mars.",
+      "level": "expert",
+      "source": "https://en.wikipedia.org/wiki/Calendar_(New_Style)_Act_1750"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz nouvel an ?",
+      "Le quiz progresse en trois paliers : huit questions faciles sur les traditions connues de tous, huit questions de niveau moyen sur les coutumes du monde et les calendriers, puis quatre questions d'expert sur l'histoire du 1er janvier. Chaque réponse est suivie d'une explication, ce qui permet d'apprendre en jouant, même quand on se trompe."
+    ],
+    [
+      "Pourquoi l'année commence-t-elle le 1er janvier ?",
+      "À Rome, les consuls entraient en charge au mois de janvier, placé sous la protection de Janus, dieu des commencements. Le calendrier julien, appliqué à partir de 45 av. J.-C., a fait du 1er janvier le début de l'année. En France, le début de l'année variait selon les régions jusqu'à l'édit de Roussillon de 1564, pleinement appliqué en janvier 1567."
+    ],
+    [
+      "Pourquoi le 31 décembre s'appelle-t-il la Saint-Sylvestre ?",
+      "Le 31 décembre est la fête de saint Sylvestre, pape mort en 335. Comme cette date tombe le dernier jour de l'année, son nom a fini par désigner le réveillon lui-même. Aujourd'hui, on parle de la Saint-Sylvestre pour la soirée, alors que le 1er janvier s'appelle le jour de l'an."
+    ]
+  ],
+  "related": [
+    "/quiz-noel-traditions",
+    "/quiz-noel",
+    "/quiz-histoire",
+    "/quiz-culture-generale-facile",
+    "/quiz-halloween"
+  ]
+}

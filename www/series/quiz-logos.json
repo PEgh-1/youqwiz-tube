@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-logos",
+  "theme": "culture",
+  "title": "Quiz logos : devine la marque grâce à son logo",
+  "description": "Quiz logos : 20 questions pour reconnaître des marques célèbres à partir de la description de leur logo. Sans image, explication après chaque réponse.",
+  "h1": "Quiz logos de marques : sauras-tu les reconnaître sans image ?",
+  "intro": "Une pomme croquée, deux arches dorées, un crocodile vert : tu connais ces logos par cœur, mais saurais-tu les reconnaître sans les voir ? Ce quiz te décrit en quelques mots le logo d'une marque mondialement célèbre, et tu dois retrouver laquelle. Il y a 20 questions, des plus évidentes aux plus subtiles, avec environ 5 secondes de réflexion pour chacune. Après chaque réponse, une courte explication te dévoile l'histoire ou le sens caché de l'emblème. Aucune image n'est nécessaire : seule ta mémoire visuelle est mise à l'épreuve. À faire seul, en famille ou entre amis.",
+  "questions": [
+    {
+      "q": "Quelle marque informatique a pour logo une pomme croquée ?",
+      "choices": [
+        "Apple",
+        "Microsoft",
+        "Samsung",
+        "Huawei"
+      ],
+      "answer": 0,
+      "explication": "De 1977 à 1998, la pomme était dessinée avec des bandes de couleurs de l'arc-en-ciel ; elle est ensuite devenue monochrome.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Apple"
+    },
+    {
+      "q": "Quelle chaîne de restauration rapide a pour logo un grand M jaune formé de deux arches ?",
+      "choices": [
+        "Burger King",
+        "KFC",
+        "McDonald's",
+        "Quick"
+      ],
+      "answer": 2,
+      "explication": "Les arches rappellent celles qui ornaient les premiers restaurants de la marque dans les années 1950.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/McDonald's"
+    },
+    {
+      "q": "Quelle marque de sport a pour logo une virgule étirée, dite « swoosh », depuis 1971 ?",
+      "choices": [
+        "Puma",
+        "Nike",
+        "Reebok",
+        "Under Armour"
+      ],
+      "answer": 1,
+      "explication": "Il a été dessiné par Carolyn Davidson, alors étudiante en graphisme, pour une somme de 35 dollars.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nike"
+    },
+    {
+      "q": "Quelle chaîne de cafés a pour logo une sirène à deux queues couronnée, dans un cercle vert ?",
+      "choices": [
+        "Costa Coffee",
+        "Dunkin'",
+        "Tim Hortons",
+        "Starbucks"
+      ],
+      "answer": 3,
+      "explication": "Le nom de l'enseigne vient de Starbuck, le second du capitaine dans le roman Moby Dick.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Starbucks"
+    },
+    {
+      "q": "Quelle marque de sport a pour logo trois bandes parallèles obliques ?",
+      "choices": [
+        "Adidas",
+        "Reebok",
+        "Umbro",
+        "Kappa"
+      ],
+      "answer": 0,
+      "explication": "Le nom de la marque vient de son fondateur, Adolf « Adi » Dassler.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Adidas"
+    },
+    {
+      "q": "Quel constructeur automobile allemand a pour logo quatre anneaux entrelacés et alignés ?",
+      "choices": [
+        "BMW",
+        "Opel",
+        "Audi",
+        "Volkswagen"
+      ],
+      "answer": 2,
+      "explication": "Les quatre anneaux représentent les quatre marques réunies en 1932 dans Auto Union : Audi, DKW, Horch et Wanderer.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Audi"
+    },
+    {
+      "q": "Quelle entreprise a pour logotype son nom écrit en lettres bleues, rouges, jaunes et vertes, dans une police sans empattement ?",
+      "choices": [
+        "Mozilla",
+        "Yahoo",
+        "Microsoft",
+        "Google"
+      ],
+      "answer": 3,
+      "explication": "Cette typographie date de 2015, année où l'entreprise a abandonné son logotype à empattements ; son icône en G a reçu un dégradé en 2025.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Google"
+    },
+    {
+      "q": "Quelle marque de vêtements a pour emblème un petit crocodile vert ?",
+      "choices": [
+        "Fred Perry",
+        "Lacoste",
+        "Le Coq Sportif",
+        "Tommy Hilfiger"
+      ],
+      "answer": 1,
+      "explication": "Surnommé « l'alligator » en 1925 après un pari lors d'une Coupe Davis, René Lacoste fit broder l'animal sur sa veste dès 1926.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lacoste_(entreprise)"
+    },
+    {
+      "q": "Quelle marque automobile italienne a pour emblème un cheval noir cabré sur fond jaune, avec les lettres S et F ?",
+      "choices": [
+        "Maserati",
+        "Lamborghini",
+        "Ferrari",
+        "Alfa Romeo"
+      ],
+      "answer": 2,
+      "explication": "Enzo Ferrari adopte ce cheval, emblème peint sur l'avion du pilote Francesco Baracca, après avoir rencontré ses parents en 1923 ; le fond jaune est la couleur de Modène.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ferrari_(entreprise)"
+    },
+    {
+      "q": "Quel constructeur de voitures de sport a pour emblème un taureau doré dans un écusson ?",
+      "choices": [
+        "Lamborghini",
+        "Ferrari",
+        "Maserati",
+        "Bugatti"
+      ],
+      "answer": 0,
+      "explication": "Ferruccio Lamborghini était du signe du Taureau, et de nombreux modèles de la marque portent des noms liés à la corrida.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lamborghini"
+    },
+    {
+      "q": "Quelle marque automobile française a pour emblème un lion dressé sur ses pattes arrière ?",
+      "choices": [
+        "Renault",
+        "Citroën",
+        "Skoda",
+        "Peugeot"
+      ],
+      "answer": 3,
+      "explication": "L'orfèvre Justin Blazer a créé ce lion, gravé dès 1850 sur les lames de scie de la famille Peugeot, bien avant les automobiles.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Peugeot"
+    },
+    {
+      "q": "Quelle marque automobile allemande a pour emblème une étoile à trois branches dans un cercle ?",
+      "choices": [
+        "Opel",
+        "Mercedes-Benz",
+        "Volkswagen",
+        "Porsche"
+      ],
+      "answer": 1,
+      "explication": "Les trois branches symbolisent l'ambition de motoriser la terre, l'eau et les airs.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mercedes-Benz"
+    },
+    {
+      "q": "Quelle marque automobile française a pour logo deux chevrons superposés ?",
+      "choices": [
+        "Citroën",
+        "Renault",
+        "Peugeot",
+        "Skoda"
+      ],
+      "answer": 0,
+      "explication": "Les chevrons rappellent les engrenages à denture en chevrons que fabriquait André Citroën avant de construire des voitures.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Citroën"
+    },
+    {
+      "q": "Quelle compagnie pétrolière a pour logo une coquille Saint-Jacques jaune et rouge ?",
+      "choices": [
+        "Esso",
+        "BP",
+        "Shell",
+        "TotalEnergies"
+      ],
+      "answer": 2,
+      "explication": "Le nom et l'emblème viennent d'un commerce familial de coquillages exotiques fondé à Londres au XIXe siècle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Shell_(entreprise)"
+    },
+    {
+      "q": "Quelle marque automobile française a pour logo un losange ?",
+      "choices": [
+        "Peugeot",
+        "Renault",
+        "Citroën",
+        "Ford"
+      ],
+      "answer": 1,
+      "explication": "Le losange apparaît à l'avant des voitures de la marque à partir de 1925.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Renault"
+    },
+    {
+      "q": "Quelle entreprise de commerce en ligne a pour logo une flèche courbe, évoquant un sourire, qui relie la lettre A à la lettre Z ?",
+      "choices": [
+        "eBay",
+        "Alibaba",
+        "Cdiscount",
+        "Amazon"
+      ],
+      "answer": 3,
+      "explication": "La flèche signifie que le site propose des articles de A à Z ; ce logo est utilisé depuis 2000.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Amazon_(entreprise)"
+    },
+    {
+      "q": "Quelle maison de luxe a pour motif emblématique des initiales L et V entrelacées, entourées de fleurs et de losanges ?",
+      "choices": [
+        "Louis Vuitton",
+        "Gucci",
+        "Chanel",
+        "Dior"
+      ],
+      "answer": 0,
+      "explication": "Ce monogramme a été créé en 1896 par Georges Vuitton, en hommage à son père Louis, mort quatre ans plus tôt.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Louis_Vuitton_Malletier"
+    },
+    {
+      "q": "Quelle maison de luxe française a pour emblème une calèche attelée d'un cheval, avec un groom qui attend, dite « duc attelé » ?",
+      "choices": [
+        "Longchamp",
+        "Cartier",
+        "Hermès",
+        "Lancel"
+      ],
+      "answer": 2,
+      "explication": "Ce dessin d'Alfred de Dreux a été choisi comme logo par Émile-Maurice Hermès ; la maison est née en 1837 comme atelier de harnais pour chevaux.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Hermès_International"
+    },
+    {
+      "q": "Quelle enseigne d'ameublement a un logo bleu cerné de jaune, aux couleurs du drapeau de son pays d'origine ?",
+      "choices": [
+        "Conforama",
+        "IKEA",
+        "But",
+        "Maisons du Monde"
+      ],
+      "answer": 1,
+      "explication": "Son nom associe les initiales du fondateur Ingvar Kamprad, celles de la ferme Elmtaryd et celle du village Agunnaryd.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/IKEA"
+    },
+    {
+      "q": "Quelle marque automobile japonaise a pour logo trois ellipses entrelacées, qui dessinent aussi la lettre T ?",
+      "choices": [
+        "Honda",
+        "Nissan",
+        "Mazda",
+        "Toyota"
+      ],
+      "answer": 3,
+      "explication": "Ce logo a été présenté le 2 octobre 1989 ; le nom de la marque s'écrivait à l'origine Toyoda, du nom de la famille fondatrice.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Toyota"
+    }
+  ],
+  "faq": [
+    [
+      "Comment fonctionne ce quiz logos sans image ?",
+      "Chaque question décrit en une phrase le logo ou l'emblème d'une marque, par exemple sa forme, ses couleurs ou son animal. Tu choisis parmi quatre marques, puis une courte explication te raconte l'origine ou le sens de ce symbole. Aucune image n'est affichée, ce qui rend le jeu accessible partout."
+    ],
+    [
+      "Pourquoi tant de marques automobiles ont-elles un animal pour emblème ?",
+      "Un animal évoque tout de suite une qualité que la marque veut associer à ses voitures : la vitesse pour un cheval cabré, la puissance pour un taureau, la force pour un lion. Ces emblèmes viennent souvent d'une histoire familiale, locale ou militaire plutôt que d'un choix publicitaire."
+    ],
+    [
+      "Un logo peut-il changer au fil du temps ?",
+      "Oui, la plupart des marques modernisent leur logo plusieurs fois. Apple a abandonné son logo arc-en-ciel en 1998 et Google a changé de typographie en 2015. Les questions du quiz précisent la période quand elle compte, pour que la réponse ne soit pas ambiguë."
+    ]
+  ],
+  "related": [
+    "/quiz-logos-difficile",
+    "/quiz-voitures",
+    "/quiz-culture-generale-facile",
+    "/quiz-vrai-ou-faux"
+  ],
+  "verified": "2026-11-12"
+}

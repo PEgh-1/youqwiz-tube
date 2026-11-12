@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-mathematiques",
+  "theme": "sciences",
+  "title": "Quiz mathématiques : notions, géométrie, savants",
+  "description": "Quiz mathématiques : 20 questions sur les notions, le vocabulaire, la géométrie et les grands mathématiciens, du niveau facile à expert, avec explications.",
+  "h1": "Quiz mathématiques : que retiens-tu de tes cours et des grands savants ?",
+  "intro": "Triangles, nombres premiers, cercles, suites et grands noms de la discipline : ce quiz de mathématiques explore les notions et le vocabulaire que l'on croise à l'école et bien au-delà. Tu auras 20 questions, des plus accessibles aux plus pointues, avec environ 5 secondes de réflexion pour chacune. Aucun calcul compliqué : on teste surtout tes connaissances, ta culture scientifique et ta mémoire des grands mathématiciens. Une courte explication suit chaque réponse pour t'apprendre un fait de plus. Tu peux jouer seul ou en famille. Sauras-tu viser le sans-faute ?",
+  "questions": [
+    {
+      "q": "Comment s'appelle un triangle dont les trois côtés ont la même longueur ?",
+      "choices": [
+        "isocèle",
+        "rectangle",
+        "scalène",
+        "équilatéral"
+      ],
+      "answer": 3,
+      "explication": "Ses trois angles sont aussi égaux et mesurent 60° chacun.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Triangle_équilatéral"
+    },
+    {
+      "q": "Quelle est la valeur approchée de π (pi), rapport entre la circonférence d'un cercle et son diamètre ?",
+      "choices": [
+        "3,14",
+        "2,71",
+        "1,62",
+        "3,41"
+      ],
+      "answer": 0,
+      "explication": "π est un nombre irrationnel : ses décimales ne s'arrêtent jamais et ne se répètent pas.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pi"
+    },
+    {
+      "q": "Quelle est la somme des angles d'un triangle, en degrés ?",
+      "choices": [
+        "90°",
+        "270°",
+        "180°",
+        "360°"
+      ],
+      "answer": 2,
+      "explication": "Pour un quadrilatère convexe, la somme des angles vaut 360°.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Triangle"
+    },
+    {
+      "q": "Lequel de ces nombres est premier ?",
+      "choices": [
+        "9",
+        "13",
+        "15",
+        "21"
+      ],
+      "answer": 1,
+      "explication": "Un nombre premier n'a que deux diviseurs, 1 et lui-même ; 9, 15 et 21 sont tous multiples de 3.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nombre_premier"
+    },
+    {
+      "q": "Quel quadrilatère a quatre angles droits et ses côtés opposés de même longueur ?",
+      "choices": [
+        "le rectangle",
+        "le losange",
+        "le trapèze",
+        "le cerf-volant"
+      ],
+      "answer": 0,
+      "explication": "Le carré est un rectangle particulier dont les quatre côtés sont égaux.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Rectangle"
+    },
+    {
+      "q": "Comment appelle-t-on le segment qui relie deux points d'un cercle en passant par son centre ?",
+      "choices": [
+        "le rayon",
+        "la tangente",
+        "le diamètre",
+        "l'arc"
+      ],
+      "answer": 2,
+      "explication": "Le diamètre vaut deux fois le rayon : c'est la plus longue corde d'un cercle.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Diamètre"
+    },
+    {
+      "q": "Comment appelle-t-on le résultat d'une addition ?",
+      "choices": [
+        "le produit",
+        "la somme",
+        "la différence",
+        "le quotient"
+      ],
+      "answer": 1,
+      "explication": "Le résultat d'une multiplication s'appelle le produit, celui d'une division le quotient.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Addition"
+    },
+    {
+      "q": "Combien un cube possède-t-il de faces ?",
+      "choices": [
+        "4",
+        "8",
+        "12",
+        "6"
+      ],
+      "answer": 3,
+      "explication": "Chacune des faces d'un cube est un carré, et toutes sont identiques.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cube"
+    },
+    {
+      "q": "Quel mathématicien grec de l'Antiquité est l'auteur des Éléments, grand traité de géométrie ?",
+      "choices": [
+        "Archimède",
+        "Euclide",
+        "Thalès",
+        "Ptolémée"
+      ],
+      "answer": 1,
+      "explication": "Cet ouvrage en treize livres a servi de base à l'enseignement de la géométrie pendant des siècles.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Euclide"
+    },
+    {
+      "q": "Quel point est situé à égale distance des trois sommets d'un triangle ?",
+      "choices": [
+        "le centre de gravité",
+        "l'orthocentre",
+        "le centre du cercle inscrit",
+        "le centre du cercle circonscrit"
+      ],
+      "answer": 3,
+      "explication": "Ce point se trouve à l'intersection des médiatrices des trois côtés du triangle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cercle_circonscrit"
+    },
+    {
+      "q": "Comment s'appelle la suite 1, 1, 2, 3, 5, 8, 13…, où chaque terme est la somme des deux précédents ?",
+      "choices": [
+        "la suite de Fibonacci",
+        "la suite de Syracuse",
+        "la suite harmonique",
+        "la suite de Cauchy"
+      ],
+      "answer": 0,
+      "explication": "Leonardo Fibonacci la présente en 1202 dans son Liber abaci, à propos de la reproduction de lapins.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Suite_de_Fibonacci"
+    },
+    {
+      "q": "Pour tout nombre n différent de 0, que vaut n à la puissance 0 ?",
+      "choices": [
+        "0",
+        "n",
+        "1",
+        "10"
+      ],
+      "answer": 2,
+      "explication": "Cette convention est la seule compatible avec la règle n^a ÷ n^a = n^0, qui donne 1.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Exponentiation"
+    },
+    {
+      "q": "Quel philosophe et mathématicien français a donné son nom aux coordonnées cartésiennes ?",
+      "choices": [
+        "Blaise Pascal",
+        "Pierre de Fermat",
+        "François Viète",
+        "René Descartes"
+      ],
+      "answer": 3,
+      "explication": "Il publie La Géométrie en 1637, ouvrage qui relie l'algèbre et la géométrie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/René_Descartes"
+    },
+    {
+      "q": "Quel mathématicien allemand est surnommé le « prince des mathématiciens » ?",
+      "choices": [
+        "Gottfried Leibniz",
+        "Carl Friedrich Gauss",
+        "Bernhard Riemann",
+        "David Hilbert"
+      ],
+      "answer": 1,
+      "explication": "En 1796, encore adolescent, il montre qu'on peut construire à la règle et au compas un polygone régulier à 17 côtés.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+    },
+    {
+      "q": "Quel mathématicien suisse du XVIIIe siècle a donné son nom à l'identité e^(iπ) + 1 = 0 ?",
+      "choices": [
+        "Jacques Bernoulli",
+        "Joseph-Louis Lagrange",
+        "Leonhard Euler",
+        "Pierre-Simon de Laplace"
+      ],
+      "answer": 2,
+      "explication": "Cette égalité relie cinq constantes fondamentales : 0, 1, e, i et π.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Identité_d'Euler"
+    },
+    {
+      "q": "Combien un cube possède-t-il d'arêtes ?",
+      "choices": [
+        "12",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 0,
+      "explication": "Avec ses 8 sommets et ses 6 faces, il vérifie la relation d'Euler : 8 − 12 + 6 = 2.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Arête_(géométrie)"
+    },
+    {
+      "q": "Quel mathématicien indien autodidacte rejoint Cambridge en 1914, à l'invitation de G. H. Hardy ?",
+      "choices": [
+        "Aryabhata",
+        "Brahmagupta",
+        "Srinivasa Ramanujan",
+        "Bhaskara"
+      ],
+      "answer": 2,
+      "explication": "Une anecdote célèbre associe son nom à 1729, le plus petit entier qui s'écrit de deux façons comme somme de deux cubes.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Srinivasa_Ramanujan"
+    },
+    {
+      "q": "Quelle mathématicienne française (1776-1831) a obtenu des résultats sur le dernier théorème de Fermat et étudié l'élasticité ?",
+      "choices": [
+        "Émilie du Châtelet",
+        "Sophie Germain",
+        "Hypatie d'Alexandrie",
+        "Ada Lovelace"
+      ],
+      "answer": 1,
+      "explication": "Elle a correspondu avec Gauss sous un nom masculin d'emprunt, Antoine Auguste Le Blanc.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Sophie_Germain"
+    },
+    {
+      "q": "Comment appelle-t-on le produit des entiers de 1 à n, noté n! ?",
+      "choices": [
+        "la factorielle",
+        "le binôme",
+        "l'exponentielle",
+        "le logarithme"
+      ],
+      "answer": 0,
+      "explication": "Par exemple 5! = 120, et par convention 0! = 1.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Factorielle"
+    },
+    {
+      "q": "Quel mathématicien russe a refusé la médaille Fields qui lui était décernée en 2006 ?",
+      "choices": [
+        "Andreï Okounkov",
+        "Andreï Kolmogorov",
+        "Alexandre Grothendieck",
+        "Grigori Perelman"
+      ],
+      "answer": 3,
+      "explication": "Il avait démontré la conjecture de Poincaré, l'un des sept problèmes du millénaire de l'Institut Clay.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Grigori_Perelman"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz de mathématiques ?",
+      "Le quiz va du niveau primaire au niveau culture générale avancée. Les huit premières questions portent sur des notions de base comme les triangles, les angles ou les nombres premiers. Les huit suivantes abordent la géométrie, les suites et des mathématiciens célèbres. Les quatre dernières sont expertes et demandent une vraie culture mathématique."
+    ],
+    [
+      "Qu'est-ce qu'un nombre premier ?",
+      "Un nombre premier est un entier naturel supérieur à 1 qui n'admet que deux diviseurs : 1 et lui-même. Les premiers nombres premiers sont 2, 3, 5, 7, 11 et 13. Tous les autres entiers supérieurs à 1 sont composés et se décomposent de manière unique en produit de facteurs premiers, ce qui fonde l'arithmétique."
+    ],
+    [
+      "Pourquoi le nombre π est-il si célèbre ?",
+      "Le nombre π est le rapport entre la circonférence d'un cercle et son diamètre, quelle que soit la taille du cercle. Il est irrationnel, donc ses décimales ne s'arrêtent jamais, et même transcendant, ce qui rend la quadrature du cercle impossible. On le retrouve dans la géométrie, les probabilités et la physique."
+    ]
+  ],
+  "related": [
+    "/quiz-calcul-mental",
+    "/quiz-logique",
+    "/quiz-cm2",
+    "/quiz-sciences",
+    "/quiz-physique"
+  ]
+}

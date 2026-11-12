@@ -1,0 +1,291 @@
+{
+ "path": "/quiz-bretagne",
+ "theme": "culture",
+ "title": "Quiz Bretagne : histoire, légendes et traditions",
+ "description": "Quiz Bretagne : 20 questions sur l'histoire, les légendes, la gastronomie, la langue et les traditions bretonnes. Du facile à l'expert, avec explications !",
+ "h1": "Quiz Bretagne : que sais-tu de la terre des Bretons ?",
+ "intro": "Galettes de sarrasin, menhirs de Carnac, remparts de Saint-Malo, légende de la ville d'Ys : la Bretagne a une identité unique. Ce quiz Bretagne te propose 20 questions sur son histoire, ses traditions, sa langue, ses paysages et sa gastronomie. La difficulté augmente peu à peu : huit questions faciles, huit moyennes et quatre pour les experts. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail à garder en tête. Breton d'origine ou amoureux de la région, vois si tu décroches le score parfait !",
+ "questions": [
+  {
+   "q": "Avec quelle farine prépare-t-on traditionnellement la galette bretonne salée ?",
+   "choices": [
+    "La farine de sarrasin",
+    "La farine de maïs",
+    "La farine de seigle",
+    "La farine de châtaigne"
+   ],
+   "answer": 0,
+   "explication": "Malgré son surnom de blé noir, le sarrasin n'est pas une céréale : il appartient à la famille de la rhubarbe.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Sarrasin_(plante)"
+  },
+  {
+   "q": "Comment s'appelle le drapeau breton, aux bandes noires et blanches et aux hermines ?",
+   "choices": [
+    "Le Triskell",
+    "Le Kroaz-du",
+    "Le Gwenn-ha-du",
+    "Le Ker-Ys"
+   ],
+   "answer": 2,
+   "explication": "Il a été dessiné en 1923 par l'architecte Morvan Marchal.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Gwenn-ha-du"
+  },
+  {
+   "q": "Quelle pâtisserie bretonne de Douarnenez, très riche en beurre et en sucre caramélisé, porte un nom breton signifiant « gâteau au beurre » ?",
+   "choices": [
+    "Le far breton",
+    "Le kouign-amann",
+    "Le gâteau nantais",
+    "Le craquelin"
+   ],
+   "answer": 1,
+   "explication": "Cette spécialité aurait été inventée à Douarnenez au XIXe siècle.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Kouign-amann"
+  },
+  {
+   "q": "Quelle ville bretonne, ceinte de remparts, est surnommée la « cité corsaire » ?",
+   "choices": [
+    "Vannes",
+    "Dinan",
+    "Concarneau",
+    "Saint-Malo"
+   ],
+   "answer": 3,
+   "explication": "Sa ville intra-muros, très endommagée en août 1944, a été reconstruite après la guerre.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Saint-Malo"
+  },
+  {
+   "q": "Quelle est la plus grande île de Bretagne, au large de la presqu'île de Quiberon ?",
+   "choices": [
+    "Ouessant",
+    "Groix",
+    "Belle-Île-en-Mer",
+    "Bréhat"
+   ],
+   "answer": 2,
+   "explication": "L'actrice Sarah Bernhardt y a possédé une propriété, au fort des Poulains.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Belle-%C3%8Ele-en-Mer"
+  },
+  {
+   "q": "Dans quelle commune du Morbihan trouve-t-on de célèbres alignements de menhirs ?",
+   "choices": [
+    "Carnac",
+    "Locronan",
+    "Quimper",
+    "Dinan"
+   ],
+   "answer": 0,
+   "explication": "Ces pierres ont été dressées au Néolithique, bien avant l'arrivée des Celtes en Armorique.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Alignements_de_Carnac"
+  },
+  {
+   "q": "Quelle ville bretonne accueille chaque été un grand festival interceltique ?",
+   "choices": [
+    "Quimper",
+    "Brest",
+    "Vannes",
+    "Lorient"
+   ],
+   "answer": 3,
+   "explication": "Il se tient en août depuis 1971 et met à l'honneur les pays celtiques.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Festival_interceltique_de_Lorient"
+  },
+  {
+   "q": "Quel coquillage est la grande spécialité de Cancale ?",
+   "choices": [
+    "La moule",
+    "L'huître",
+    "La coquille Saint-Jacques",
+    "Le bigorneau"
+   ],
+   "answer": 1,
+   "explication": "La ville se trouve en Ille-et-Vilaine, au bord de la baie du Mont-Saint-Michel.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Cancale"
+  },
+  {
+   "q": "Comment appelle-t-on les grands pèlerinages populaires bretons en l'honneur d'un saint ?",
+   "choices": [
+    "Les fest-noz",
+    "Les pardons",
+    "Les gavottes",
+    "Les kermesses"
+   ],
+   "answer": 1,
+   "explication": "Le pardon de Sainte-Anne d'Auray a lieu chaque année autour du 26 juillet.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Pardon_(c%C3%A9r%C3%A9monie)"
+  },
+  {
+   "q": "Comment appelle-t-on un orchestre breton réunissant cornemuses, bombardes et percussions ?",
+   "choices": [
+    "Un fest-noz",
+    "Un kan ha diskan",
+    "Une gavotte",
+    "Un bagad"
+   ],
+   "answer": 3,
+   "explication": "Ce type d'orchestre est apparu au milieu du XXe siècle.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Bagad"
+  },
+  {
+   "q": "Quelle duchesse de Bretagne épouse successivement les rois Charles VIII et Louis XII ?",
+   "choices": [
+    "Anne de Bretagne",
+    "Aliénor d'Aquitaine",
+    "Jeanne de Navarre",
+    "Claude de France"
+   ],
+   "answer": 0,
+   "explication": "Elle devient duchesse à onze ans, à la mort de son père François II en 1488.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Anne_de_Bretagne"
+  },
+  {
+   "q": "En quelle année les États de Bretagne approuvent-ils l'union du duché au royaume de France ?",
+   "choices": [
+    "1491",
+    "1598",
+    "1532",
+    "1789"
+   ],
+   "answer": 2,
+   "explication": "Le duché conserve ensuite des privilèges, comme ses propres États, jusqu'à la Révolution.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Union_du_duch%C3%A9_de_Bretagne_%C3%A0_la_couronne_de_France"
+  },
+  {
+   "q": "Quel département breton doit son nom au latin Finis terrae, la « fin de la terre » ?",
+   "choices": [
+    "Le Morbihan",
+    "Les Côtes-d'Armor",
+    "L'Ille-et-Vilaine",
+    "Le Finistère"
+   ],
+   "answer": 3,
+   "explication": "Le nom du Morbihan, son voisin, signifie « petite mer » en breton.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Finist%C3%A8re"
+  },
+  {
+   "q": "Quel navigateur de Saint-Malo explore le golfe du Saint-Laurent et prend possession du Canada pour François Ier en 1534 ?",
+   "choices": [
+    "Samuel de Champlain",
+    "Jacques Cartier",
+    "Robert Surcouf",
+    "Jean-François de La Pérouse"
+   ],
+   "answer": 1,
+   "explication": "Il effectue trois voyages vers le Canada, en 1534, en 1535 et en 1541.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Jacques_Cartier"
+  },
+  {
+   "q": "Quelle petite race de mouton, de moins de 50 cm au garrot, porte le nom d'une île du Finistère ?",
+   "choices": [
+    "Le mouton de Sein",
+    "Le mouton de Groix",
+    "Le mouton d'Ouessant",
+    "Le mouton de Bréhat"
+   ],
+   "answer": 2,
+   "explication": "Rustique, la race est élevée depuis des siècles sur l'île, où les moutons pâturent souvent en liberté.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Ouessant_(race_ovine)"
+  },
+  {
+   "q": "Que vendaient les « Johnnies », paysans bretons qui traversaient la Manche à vélo ou en bateau ?",
+   "choices": [
+    "Des oignons rosés",
+    "Des artichauts",
+    "Des pommes de terre",
+    "Des choux-fleurs"
+   ],
+   "answer": 0,
+   "explication": "Ces paysans du nord du Finistère partaient surtout de Roscoff pour vendre leur récolte en Grande-Bretagne.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Johnnies"
+  },
+  {
+   "q": "Quel peintre est la figure centrale de l'école de Pont-Aven, aux côtés d'Émile Bernard ?",
+   "choices": [
+    "Paul Gauguin",
+    "Paul Cézanne",
+    "Georges Seurat",
+    "Claude Monet"
+   ],
+   "answer": 0,
+   "explication": "En 1888, il peint dans ce cadre « La Vision après le sermon ».",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/%C3%89cole_de_Pont-Aven"
+  },
+  {
+   "q": "Quelle ville légendaire aurait été engloutie par la mer dans la baie de Douarnenez ?",
+   "choices": [
+    "Lyonesse",
+    "Avalon",
+    "Ys",
+    "L'Atlantide"
+   ],
+   "answer": 2,
+   "explication": "Selon la légende, le roi Gradlon aurait fui la catastrophe, provoquée par sa fille Dahut.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Roi_d'Ys"
+  },
+  {
+   "q": "Quel connétable breton de Charles V, héros de la guerre de Cent Ans, est inhumé à la basilique de Saint-Denis ?",
+   "choices": [
+    "Olivier de Clisson",
+    "Arthur de Richemont",
+    "Pierre Terrail de Bayard",
+    "Bertrand du Guesclin"
+   ],
+   "answer": 3,
+   "explication": "Charles V lui accorde l'honneur d'être inhumé dans la nécropole des rois de France.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Bertrand_du_Guesclin"
+  },
+  {
+   "q": "Quel surnom, inspiré du cri du chat-huant, désigne les insurgés royalistes de l'Ouest pendant la Révolution ?",
+   "choices": [
+    "Les sans-culottes",
+    "Les chouans",
+    "Les fédérés",
+    "Les muscadins"
+   ],
+   "answer": 1,
+   "explication": "Le mouvement, la chouannerie, s'étend surtout en Bretagne, dans le Maine et en Normandie.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Chouannerie"
+  }
+ ],
+ "faq": [
+  [
+   "Quel est le niveau de ce quiz sur la Bretagne ?",
+   "Le quiz propose 20 questions de difficulté croissante : huit faciles sur les spécialités et les sites célèbres, huit moyennes sur l'histoire et les traditions, et quatre expertes. Chaque réponse est suivie d'une courte explication qui t'apprend un fait supplémentaire sur la Bretagne, que tu aies trouvé la bonne réponse ou non."
+  ],
+  [
+   "Quels sont les départements de la région Bretagne ?",
+   "La région administrative Bretagne compte quatre départements : les Côtes-d'Armor, le Finistère, l'Ille-et-Vilaine et le Morbihan. Le département historique de la Loire-Atlantique, avec Nantes, appartenait à l'ancienne province de Bretagne mais fait aujourd'hui partie de la région Pays de la Loire. La capitale régionale est Rennes."
+  ],
+  [
+   "Qu'est-ce qu'un fest-noz ?",
+   "Le fest-noz, « fête de nuit » en breton, est un bal populaire où l'on danse en chaîne ou en cercle sur la musique de sonneurs et de chanteurs. Les danses les plus connues sont la gavotte et l'an dro. Cette pratique collective a été inscrite en 2012 au patrimoine culturel immatériel de l'UNESCO."
+  ]
+ ],
+ "related": [
+  "/quiz-regions-de-france",
+  "/quiz-villes-de-france",
+  "/quiz-moyen-age",
+  "/quiz-normandie",
+  "/quiz-cuisine"
+ ]
+}

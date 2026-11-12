@@ -7,7 +7,7 @@
   "intro": "Avec ses 54 pays, l'Afrique offre une incroyable diversité de drapeaux : couleurs panafricaines, étoiles, emblèmes, diagonales. Ce quiz te présente 20 drapeaux, un par question, et tu dois deviner à quel pays africain chacun appartient. Les quatre propositions sont toujours des pays d'Afrique. Les premières questions portent sur des drapeaux très connus, puis le niveau monte progressivement jusqu'à quelques drapeaux d'archipels et de pays plus discrets. Compte environ cinq secondes par question et lis chaque explication : elle t'apprend un détail pour mieux retenir la prochaine fois. Rejoue autant que tu veux !",
   "questions": [
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Soudan",
         "Égypte",
@@ -17,10 +17,11 @@
       "answer": 1,
       "explication": "Rouge, blanc, noir et l'aigle de Saladin au centre : les couleurs panarabes réunies sur un drapeau.",
       "level": "facile",
-      "flag": "eg"
+      "flag": "eg",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27%C3%89gypte"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Tunisie",
         "Algérie",
@@ -30,10 +31,11 @@
       "answer": 3,
       "explication": "Le pentagramme vert sur fond rouge s'appelle aussi le sceau de Salomon.",
       "level": "facile",
-      "flag": "ma"
+      "flag": "ma",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Maroc"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Afrique du Sud",
         "Namibie",
@@ -43,10 +45,11 @@
       "answer": 0,
       "explication": "Adopté en 1994 à la fin de l'apartheid, ce drapeau réunit six couleurs autour d'un grand « Y » couché.",
       "level": "facile",
-      "flag": "za"
+      "flag": "za",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Afrique_du_Sud"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Ghana",
         "Éthiopie",
@@ -56,10 +59,11 @@
       "answer": 2,
       "explication": "Deux bandes vertes pour l'agriculture et une bande blanche centrale pour la paix, adoptées à l'indépendance en 1960.",
       "level": "facile",
-      "flag": "ng"
+      "flag": "ng",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Nigeria"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Tunisie",
         "Maroc",
@@ -69,10 +73,11 @@
       "answer": 3,
       "explication": "Vert et blanc avec un croissant et une étoile rouges : des symboles de l'islam.",
       "level": "facile",
-      "flag": "dz"
+      "flag": "dz",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Alg%C3%A9rie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Kenya",
         "Sénégal",
@@ -82,10 +87,11 @@
       "answer": 1,
       "explication": "Vert, jaune, rouge en bandes verticales, avec une étoile verte à cinq branches : ce sont les couleurs panafricaines.",
       "level": "facile",
-      "flag": "sn"
+      "flag": "sn",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_S%C3%A9n%C3%A9gal"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Ouganda",
         "Tanzanie",
@@ -95,10 +101,11 @@
       "answer": 2,
       "explication": "Un bouclier masaï et deux lances croisées figurent au centre, entre des bandes noire, rouge et verte.",
       "level": "facile",
-      "flag": "ke"
+      "flag": "ke",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Kenya"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Tunisie",
         "Algérie",
@@ -108,10 +115,11 @@
       "answer": 0,
       "explication": "Un disque blanc contenant un croissant et une étoile rouges sur fond rouge.",
       "level": "facile",
-      "flag": "tn"
+      "flag": "tn",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Tunisie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Ghana",
         "Éthiopie",
@@ -121,10 +129,11 @@
       "answer": 0,
       "explication": "Rouge, jaune, vert et une étoile noire, symbole de la liberté africaine : un drapeau adopté à l'indépendance, en 1957.",
       "level": "moyen",
-      "flag": "gh"
+      "flag": "gh",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Ghana"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Burundi",
         "Éthiopie",
@@ -134,10 +143,11 @@
       "answer": 2,
       "explication": "Vert, rouge, jaune en bandes verticales, avec une étoile jaune au centre de la bande rouge.",
       "level": "moyen",
-      "flag": "cm"
+      "flag": "cm",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Cameroun"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Ghana",
         "Éthiopie",
@@ -147,10 +157,11 @@
       "answer": 1,
       "explication": "Ses couleurs vert, jaune et rouge ont inspiré de nombreux drapeaux africains après les indépendances.",
       "level": "moyen",
-      "flag": "et"
+      "flag": "et",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27%C3%89thiopie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Kenya",
         "Rwanda",
@@ -160,10 +171,11 @@
       "answer": 3,
       "explication": "Six bandes noire, jaune et rouge et, au centre, une grue royale, l'oiseau emblème du pays.",
       "level": "moyen",
-      "flag": "ug"
+      "flag": "ug",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Ouganda"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Zambie",
         "Malawi",
@@ -173,10 +185,11 @@
       "answer": 2,
       "explication": "Sept bandes, un triangle blanc, une étoile rouge et l'oiseau du Zimbabwe, inspiré des vestiges de Grand Zimbabwe.",
       "level": "moyen",
-      "flag": "zw"
+      "flag": "zw",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Zimbabwe"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Tanzanie",
         "Kenya",
@@ -186,10 +199,11 @@
       "answer": 0,
       "explication": "Une bande diagonale noire bordée de jaune sépare le vert et le bleu : l'union du Tanganyika et de Zanzibar.",
       "level": "moyen",
-      "flag": "tz"
+      "flag": "tz",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Tanzanie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Maurice",
         "Comores",
@@ -199,10 +213,11 @@
       "answer": 3,
       "explication": "Une bande blanche verticale à gauche, une rouge et une verte horizontales à droite.",
       "level": "moyen",
-      "flag": "mg"
+      "flag": "mg",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_Madagascar"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Zimbabwe",
         "Zambie",
@@ -212,10 +227,11 @@
       "answer": 1,
       "explication": "Un aigle orange plane au-dessus de trois bandes verticales rouge, noire et orange sur fond vert.",
       "level": "moyen",
-      "flag": "zm"
+      "flag": "zm",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Zambie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Namibie",
         "Botswana",
@@ -225,10 +241,11 @@
       "answer": 1,
       "explication": "Un fond bleu clair, évoquant l'eau et la pluie, traversé par une bande noire bordée de blanc.",
       "level": "expert",
-      "flag": "bw"
+      "flag": "bw",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Botswana"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Sao Tomé-et-Principe",
         "Guinée-Bissau",
@@ -238,10 +255,11 @@
       "answer": 3,
       "explication": "Dix étoiles jaunes en cercle représentent les dix îles de l'archipel.",
       "level": "expert",
-      "flag": "cv"
+      "flag": "cv",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_du_Cap-Vert"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Namibie",
         "Botswana",
@@ -251,10 +269,11 @@
       "answer": 0,
       "explication": "Une diagonale rouge entre le bleu et le vert, avec un soleil doré dans le coin supérieur.",
       "level": "expert",
-      "flag": "na"
+      "flag": "na",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_de_la_Namibie"
     },
     {
-      "q": "De quel pays est ce drapeau ?",
+      "q": "De quel pays d'Afrique est ce drapeau ?",
       "choices": [
         "Maurice",
         "Comores",
@@ -264,7 +283,8 @@
       "answer": 2,
       "explication": "Cinq bandes obliques rayonnent depuis le coin inférieur du côté de la hampe : bleu, jaune, rouge, blanc et vert.",
       "level": "expert",
-      "flag": "sc"
+      "flag": "sc",
+      "source": "https://fr.wikipedia.org/wiki/Drapeau_des_Seychelles"
     }
   ],
   "faq": [
@@ -287,5 +307,6 @@
     "/quiz-drapeaux-europe",
     "/quiz-drapeaux-asie",
     "/quiz-capitales-afrique"
-  ]
+  ],
+  "verified": "2026-11-12"
 }

@@ -1,0 +1,291 @@
+{
+ "path": "/quiz-japon",
+ "theme": "culture",
+ "title": "Quiz Japon : culture, histoire et traditions",
+ "description": "Quiz Japon : 20 questions sur la culture, l'histoire, la gastronomie, la langue et les traditions du Japon, du mont Fuji aux shoguns. Teste-toi !",
+ "h1": "Quiz Japon : que sais-tu du pays du Soleil-Levant ?",
+ "intro": "Du mont Fuji aux temples de Kyoto, des sushis au théâtre kabuki, le Japon fascine autant qu'il intrigue. Ce quiz Japon te propose 20 questions pour tester tes connaissances sur la géographie, l'histoire, la gastronomie, la langue et les traditions de l'archipel. Le niveau monte peu à peu : huit questions faciles, huit de difficulté moyenne et quatre pour les passionnés. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail supplémentaire à retenir. Seul, en famille ou entre amis, vois si tu décroches le score parfait !",
+ "questions": [
+  {
+   "q": "Quel est le point culminant du Japon ?",
+   "choices": [
+    "Le mont Fuji",
+    "Le mont Aso",
+    "Le mont Ontake",
+    "Le mont Tateyama"
+   ],
+   "answer": 0,
+   "explication": "Ce volcan est inscrit au patrimoine mondial de l'UNESCO depuis 2013 comme lieu sacré et source d'inspiration artistique.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Mont_Fuji"
+  },
+  {
+   "q": "Comment appelle-t-on les idéogrammes d'origine chinoise utilisés dans l'écriture japonaise ?",
+   "choices": [
+    "Les hiragana",
+    "Les katakana",
+    "Les kanji",
+    "Les rōmaji"
+   ],
+   "answer": 2,
+   "explication": "Un texte japonais courant mêle kanji, hiragana et katakana.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Kanji"
+  },
+  {
+   "q": "Quelle spécialité japonaise est faite de riz vinaigré garni, entre autres, de poisson cru ?",
+   "choices": [
+    "Le ramen",
+    "Le sushi",
+    "Le tempura",
+    "Le yakitori"
+   ],
+   "answer": 1,
+   "explication": "Le mot « sushi » désigne le riz vinaigré ; le poisson cru servi seul s'appelle sashimi.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Sushi"
+  },
+  {
+   "q": "Comment s'appelle l'art japonais du pliage de papier ?",
+   "choices": [
+    "L'ikebana",
+    "Le bonsaï",
+    "Le shodō",
+    "L'origami"
+   ],
+   "answer": 3,
+   "explication": "Le mot vient de ori, « plier », et kami, « papier ».",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Origami"
+  },
+  {
+   "q": "Quel vêtement traditionnel japonais est une longue robe croisée, fermée par une large ceinture appelée obi ?",
+   "choices": [
+    "Le sari",
+    "Le hanbok",
+    "Le kimono",
+    "Le qipao"
+   ],
+   "answer": 2,
+   "explication": "Le mot kimono signifie littéralement « chose que l'on porte ».",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Kimono"
+  },
+  {
+   "q": "Comment s'appelle la tradition japonaise qui consiste à admirer les cerisiers en fleurs au printemps ?",
+   "choices": [
+    "Le hanami",
+    "L'obon",
+    "Le hinamatsuri",
+    "Le tanabata"
+   ],
+   "answer": 0,
+   "explication": "Hanami signifie « regarder les fleurs » ; sakura est le nom de la fleur de cerisier.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Hanami"
+  },
+  {
+   "q": "Quel train à grande vitesse japonais, inauguré en 1964, relie Tokyo à Osaka ?",
+   "choices": [
+    "Le Yamanote",
+    "Le Transrapid",
+    "Le Maglev",
+    "Le Shinkansen"
+   ],
+   "answer": 3,
+   "explication": "Sa première ligne, la Tōkaidō, ouvre le 1er octobre 1964, quelques jours avant les Jeux olympiques de Tokyo.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Shinkansen"
+  },
+  {
+   "q": "Quelle est la plus grande île du Japon ?",
+   "choices": [
+    "Hokkaidō",
+    "Honshū",
+    "Kyūshū",
+    "Shikoku"
+   ],
+   "answer": 1,
+   "explication": "Elle abrite Tokyo, Kyoto, Osaka et Hiroshima.",
+   "level": "facile",
+   "source": "https://fr.wikipedia.org/wiki/Honsh%C5%AB"
+  },
+  {
+   "q": "Quelle ville fut le siège de la cour impériale japonaise de 794 jusqu'à la restauration de Meiji ?",
+   "choices": [
+    "Osaka",
+    "Kyoto",
+    "Kamakura",
+    "Nagoya"
+   ],
+   "answer": 1,
+   "explication": "Fondée sous le nom de Heian-kyō, elle a conservé de nombreux temples et sanctuaires, dont beaucoup sont classés à l'UNESCO.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Kyoto"
+  },
+  {
+   "q": "Comment appelle-t-on la cérémonie traditionnelle japonaise du thé, aussi nommée « voie du thé » ?",
+   "choices": [
+    "Le kabuki",
+    "Le kendō",
+    "Le kaiseki",
+    "Le chanoyu"
+   ],
+   "answer": 3,
+   "explication": "Le thé employé est le matcha, un thé vert réduit en poudre que l'on fouette dans le bol.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/C%C3%A9r%C3%A9monie_du_th%C3%A9_japonaise"
+  },
+  {
+   "q": "Quelle ère débute en 1868 avec la restauration du pouvoir impérial et la modernisation du pays ?",
+   "choices": [
+    "L'ère Meiji",
+    "L'ère Edo",
+    "L'ère Heian",
+    "L'ère Shōwa"
+   ],
+   "answer": 0,
+   "explication": "La même année, Edo, ancienne capitale des shoguns, est rebaptisée Tokyo.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Restauration_de_Meiji"
+  },
+  {
+   "q": "Comment appelle-t-on le chef militaire qui dirige le Japon au nom de l'empereur du XIIe au XIXe siècle ?",
+   "choices": [
+    "Le daimyō",
+    "Le mikado",
+    "Le shogun",
+    "Le rōnin"
+   ],
+   "answer": 2,
+   "explication": "Le dernier shogun, Tokugawa Yoshinobu, rend ses pouvoirs à l'empereur en 1867.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Shogun"
+  },
+  {
+   "q": "Quelle religion autochtone du Japon vénère les kami, esprits de la nature, dans des sanctuaires aux portiques torii ?",
+   "choices": [
+    "Le bouddhisme zen",
+    "Le taoïsme",
+    "Le confucianisme",
+    "Le shintoïsme"
+   ],
+   "answer": 3,
+   "explication": "Beaucoup de Japonais pratiquent à la fois le shintoïsme pour les fêtes de la vie et le bouddhisme pour les funérailles.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Shinto%C3%AFsme"
+  },
+  {
+   "q": "Quel théâtre japonais, né au début du XVIIe siècle, se distingue par ses maquillages spectaculaires et ses rôles féminins tenus par des hommes ?",
+   "choices": [
+    "Le nō",
+    "Le kabuki",
+    "Le bunraku",
+    "Le rakugo"
+   ],
+   "answer": 1,
+   "explication": "Il a été fondé par une femme, Izumo no Okuni, vers 1603, avant que les femmes soient écartées de la scène en 1629.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Kabuki"
+  },
+  {
+   "q": "Quel condiment japonais, pâte de soja fermenté, sert de base à une soupe du petit-déjeuner traditionnel ?",
+   "choices": [
+    "Le tofu",
+    "Le natto",
+    "Le miso",
+    "Le wasabi"
+   ],
+   "answer": 2,
+   "explication": "Le miso est fermenté grâce au koji, un champignon microscopique cultivé sur du riz ou de l'orge.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Miso"
+  },
+  {
+   "q": "Quel poète du XVIIe siècle est considéré comme le maître du haïku ?",
+   "choices": [
+    "Matsuo Bashō",
+    "Yasunari Kawabata",
+    "Yukio Mishima",
+    "Natsume Sōseki"
+   ],
+   "answer": 0,
+   "explication": "Un haïku compte traditionnellement dix-sept moras, répartis en trois vers de 5, 7 et 5.",
+   "level": "moyen",
+   "source": "https://fr.wikipedia.org/wiki/Matsuo_Bash%C5%8D"
+  },
+  {
+   "q": "En quelle année les « navires noirs » du commodore Perry arrivent-ils dans la baie d'Edo ?",
+   "choices": [
+    "1853",
+    "1823",
+    "1868",
+    "1889"
+   ],
+   "answer": 0,
+   "explication": "Un traité signé à Kanagawa en 1854 ouvre deux ports japonais aux navires américains.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Matthew_Calbraith_Perry"
+  },
+  {
+   "q": "Quel traité de 1895 met fin à la première guerre sino-japonaise et cède Taïwan au Japon ?",
+   "choices": [
+    "Le traité de Portsmouth",
+    "Le traité de Nankin",
+    "Le traité de Shimonoseki",
+    "Le traité de Tientsin"
+   ],
+   "answer": 2,
+   "explication": "Le Japon obtient aussi la péninsule du Liaodong, qu'il doit rendre peu après sous la pression de la Russie, de l'Allemagne et de la France.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Shimonoseki"
+  },
+  {
+   "q": "Quel roman, écrit vers l'an 1000 par la dame de cour Murasaki Shikibu, est considéré comme l'un des tout premiers romans de l'histoire ?",
+   "choices": [
+    "Le Dit des Heike",
+    "Les Notes de chevet",
+    "Le Kojiki",
+    "Le Dit du Genji"
+   ],
+   "answer": 3,
+   "explication": "Il suit la vie amoureuse du prince Genji à la cour impériale de l'époque de Heian.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Genji_monogatari"
+  },
+  {
+   "q": "Quelle ville, célèbre pour le Grand Bouddha de son temple Tōdai-ji, devient capitale du Japon en 710 sous le nom de Heijō-kyō ?",
+   "choices": [
+    "Kyoto",
+    "Nara",
+    "Kamakura",
+    "Osaka"
+   ],
+   "answer": 1,
+   "explication": "La cour la quitte en 784 pour Nagaoka, puis s'installe à Heian-kyō en 794.",
+   "level": "expert",
+   "source": "https://fr.wikipedia.org/wiki/Nara"
+  }
+ ],
+ "faq": [
+  [
+   "Quel est le niveau de ce quiz sur le Japon ?",
+   "Le quiz compte 20 questions classées par difficulté : huit faciles pour les curieux, huit moyennes pour ceux qui connaissent déjà un peu le pays et quatre questions expertes sur l'histoire et la littérature. Chaque réponse est suivie d'une explication, ce qui permet d'apprendre même quand on se trompe."
+  ],
+  [
+   "Comment s'écrit le japonais ?",
+   "Le japonais combine trois systèmes d'écriture : les kanji, idéogrammes empruntés au chinois, et deux syllabaires, les hiragana et les katakana. Les hiragana servent surtout aux mots japonais et aux terminaisons grammaticales, les katakana aux mots d'origine étrangère. Le rōmaji, transcription en lettres latines, est surtout destiné aux étrangers."
+  ],
+  [
+   "Quelles sont les quatre grandes îles du Japon ?",
+   "L'archipel japonais compte quatre grandes îles : Hokkaidō au nord, Honshū au centre, la plus vaste et la plus peuplée, Shikoku et Kyūshū au sud. Elles sont entourées de milliers de petites îles, dont celles d'Okinawa, qui appartiennent à l'archipel des Ryūkyū."
+  ]
+ ],
+ "related": [
+  "/quiz-pays-du-monde",
+  "/quiz-cuisine",
+  "/quiz-histoire",
+  "/quiz-geographie",
+  "/quiz-italie"
+ ]
+}

@@ -16,7 +16,8 @@
       ],
       "answer": 1,
       "explication": "Mercure tourne autour du Soleil en seulement 88 jours terrestres.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mercure_(plan%C3%A8te)"
     },
     {
       "q": "Quelle est l'étoile située au centre de notre système solaire ?",
@@ -28,19 +29,21 @@
       ],
       "answer": 3,
       "explication": "Le Soleil est une étoile : il produit lui-même sa lumière et sa chaleur.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Soleil"
     },
     {
-      "q": "Quelle planète est surnommée la planète rouge ?",
+      "q": "Quelle planète est la troisième en partant du Soleil ?",
       "choices": [
-        "Mars",
+        "la Terre",
         "Vénus",
-        "Jupiter",
+        "Mars",
         "Mercure"
       ],
       "answer": 0,
-      "explication": "Mars doit sa couleur rouge à l'oxyde de fer présent à sa surface.",
-      "level": "facile"
+      "explication": "La Terre est la troisième planète du système solaire, après Mercure et Vénus. Elle est la seule où l'on sait que la vie existe.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Terre"
     },
     {
       "q": "Combien de planètes compte le système solaire ?",
@@ -52,7 +55,8 @@
       ],
       "answer": 2,
       "explication": "Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_solaire"
     },
     {
       "q": "Comment s'appelle le satellite naturel de la Terre ?",
@@ -64,7 +68,8 @@
       ],
       "answer": 3,
       "explication": "La Lune tourne autour de la Terre en environ 27 jours.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Lune"
     },
     {
       "q": "Quelle est la plus grande planète du système solaire ?",
@@ -76,7 +81,8 @@
       ],
       "answer": 1,
       "explication": "Jupiter est une géante gazeuse deux fois et demie plus massive que toutes les autres planètes réunies.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jupiter_(plan%C3%A8te)"
     },
     {
       "q": "Quelle planète est célèbre pour ses anneaux spectaculaires ?",
@@ -88,7 +94,8 @@
       ],
       "answer": 2,
       "explication": "Les anneaux de Saturne sont constitués de milliards de morceaux de glace et de roche.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Saturne_(plan%C3%A8te)"
     },
     {
       "q": "Qui a été le premier homme à marcher sur la Lune, en 1969 ?",
@@ -100,7 +107,8 @@
       ],
       "answer": 0,
       "explication": "Neil Armstrong a posé le pied sur la Lune le 21 juillet 1969 (heure de Paris), pendant la mission Apollo 11.",
-      "level": "facile"
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Neil_Armstrong"
     },
     {
       "q": "Comment s'appelle la galaxie dans laquelle se trouve la Terre ?",
@@ -112,7 +120,8 @@
       ],
       "answer": 2,
       "explication": "Notre galaxie, la Voie lactée, contient plusieurs centaines de milliards d'étoiles.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Voie_lact%C3%A9e"
     },
     {
       "q": "Qui a été le premier humain dans l'espace, en 1961 ?",
@@ -124,7 +133,8 @@
       ],
       "answer": 0,
       "explication": "Le cosmonaute soviétique Youri Gagarine a effectué un tour de la Terre le 12 avril 1961.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Youri_Gagarine"
     },
     {
       "q": "Combien de temps la lumière du Soleil met-elle environ pour atteindre la Terre ?",
@@ -136,7 +146,8 @@
       ],
       "answer": 3,
       "explication": "La lumière met environ 8 minutes et 20 secondes pour parcourir les 150 millions de kilomètres qui nous séparent du Soleil.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Soleil"
     },
     {
       "q": "Quelle est l'étoile la plus proche du Soleil ?",
@@ -148,7 +159,8 @@
       ],
       "answer": 1,
       "explication": "Proxima du Centaure se trouve à environ 4,2 années-lumière de nous.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Proxima_du_Centaure"
     },
     {
       "q": "Quelle est la planète la plus éloignée du Soleil ?",
@@ -160,7 +172,8 @@
       ],
       "answer": 0,
       "explication": "Depuis 2006, Pluton est classée planète naine, donc Neptune est la dernière planète.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Neptune_(plan%C3%A8te)"
     },
     {
       "q": "Que mesure une année-lumière ?",
@@ -172,7 +185,8 @@
       ],
       "answer": 2,
       "explication": "C'est la distance parcourue par la lumière en un an, soit environ 9 460 milliards de kilomètres.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ann%C3%A9e-lumi%C3%A8re"
     },
     {
       "q": "Quel est le premier satellite artificiel de la Terre, lancé en 1957 ?",
@@ -184,7 +198,8 @@
       ],
       "answer": 1,
       "explication": "Spoutnik 1, lancé par l'URSS le 4 octobre 1957, ouvre l'ère spatiale.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Spoutnik_1"
     },
     {
       "q": "Comment s'appelle la plus grande lune de Saturne ?",
@@ -196,7 +211,8 @@
       ],
       "answer": 3,
       "explication": "Titan est la deuxième plus grande lune du système solaire. Elle possède une atmosphère épaisse.",
-      "level": "moyen"
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Titan_(lune)"
     },
     {
       "q": "Quelle est la planète la plus chaude du système solaire ?",
@@ -208,7 +224,8 @@
       ],
       "answer": 1,
       "explication": "Malgré sa distance au Soleil, Vénus est plus chaude que Mercure grâce à son atmosphère épaisse, qui produit un fort effet de serre.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/V%C3%A9nus_(plan%C3%A8te)"
     },
     {
       "q": "Combien de lunes possède Mars ?",
@@ -220,7 +237,8 @@
       ],
       "answer": 3,
       "explication": "Mars possède deux petites lunes, Phobos et Déimos.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)"
     },
     {
       "q": "Quel est le plus haut volcan du système solaire ?",
@@ -232,7 +250,8 @@
       ],
       "answer": 0,
       "explication": "Olympus Mons, sur Mars, mesure environ 22 km de hauteur, soit environ deux fois et demie l'Everest.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Olympus_Mons"
     },
     {
       "q": "Quel astronome a observé les quatre grandes lunes de Jupiter avec une lunette en 1610 ?",
@@ -244,7 +263,8 @@
       ],
       "answer": 2,
       "explication": "Galilée a découvert Io, Europe, Ganymède et Callisto, qu'on appelle les lunes galiléennes.",
-      "level": "expert"
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Galil%C3%A9e_(savant)"
     }
   ],
   "faq": [
@@ -266,5 +286,6 @@
     "/quiz-corps-humain",
     "/quiz-animaux",
     "/quiz-culture-generale-facile"
-  ]
+  ],
+  "verified": "2026-11-12"
 }
