@@ -30,8 +30,5 @@ jobs:
           [ -n "${{ inputs.only }}" ] && ARGS="$ARGS --only ${{ inputs.only }}"
           [ -n "${{ inputs.seconds }}" ] && ARGS="$ARGS --seconds ${{ inputs.seconds }}"
           node scripts/eleven-music.mjs $ARGS
-      - uses: actions/upload-artifact@v4
-        with:
-          name: music-candidates
-          path: out/music-candidates/*.mp3
-          retention-days: 14
+      # Dépôt public : pas d'artefact (il serait téléchargeable par tous). Les pistes candidates restent sur l'exécuteur ;
+      # pour les écouter, lancer scripts/eleven-music.mjs en local.
