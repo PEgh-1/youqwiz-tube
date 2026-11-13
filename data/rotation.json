@@ -1,11 +1,11 @@
 {
-  "_comment": " 09/11/2026 : avance ramenée de 7 à 3 jours (une refonte ne coûte plus que 3 rendus). Rotation hebdo validée le 30/10/2026 : Devine ×2, Culture générale ×1, Générations/60+ ×1 (test), Choix entre proches ×2, Émojis/intrus ×1. 31/10 : samedi = Spécial youqwiz.com, repli Tu préfères. 03/11/2026 : durée variable 10-20 min (targetSeconds min/max), gabarit Versus pour les choix, nouvelles banques (alphabet, maths, vocabulaire, acronymes, films-emojis, noël en saison), habillage et textes variables (data/variants.json). 09/11/2026 : 2e Short quotidien à 19 h (shortPublishHour2), questions les plus dures. 12/11/2026 : pilier émojis retiré de la rotation (vendredi = culture générale) ; il « ne rend pas bien ».",
+  "_comment": " 09/11/2026 : avance ramenée de 7 à 3 jours (une refonte ne coûte plus que 3 rendus). Rotation hebdo validée le 30/10/2026 : Devine ×2, Culture générale ×1, Générations/60+ ×1 (test), Choix entre proches ×2, Émojis/intrus ×1. 31/10 : samedi = Spécial youqwiz.com, repli Tu préfères. 03/11/2026 : durée variable 10-20 min (targetSeconds min/max), gabarit Versus pour les choix, nouvelles banques (alphabet, maths, vocabulaire, acronymes, films-emojis, noël en saison), habillage et textes variables (data/variants.json). 09/11/2026 : 2e Short quotidien à 19 h (shortPublishHour2), questions les plus dures. 12/11/2026 : pilier émojis retiré de la rotation (vendredi = culture générale) ; il « ne rend pas bien ». 13/11/2026 : pilier « Tu préfères / Choisis ton camp » (choix) retiré de la rotation (ligne éditoriale recentrée sur « apprendre ») : mardi et repli du samedi passent provisoirement en culture générale, en attendant le choix définitif ; avance ramenée à 2 jours le temps de ce choix (remettre 3). Gabarit Versus et banque tu-preferes conservés.",
   "timezone": "Europe/Paris",
   "publishHour": "17:30",
   "shortPublishHour": "12:00",
   "shortPublishHour2": "19:00",
   "shortPublishHour3": "16:00",
-  "bufferDays": 3,
+  "bufferDays": 2,
   "shortsPaused": true,
   "targetSeconds": {
     "min": 600,
@@ -22,7 +22,7 @@
       "label": "lundi"
     },
     "2": {
-      "pillar": "choix",
+      "pillar": "culture",
       "label": "mardi"
     },
     "3": {
@@ -71,7 +71,8 @@
       "itemsPerEpisode": 40,
       "weights": {
         "tu-preferes": 1
-      }
+      },
+      "retired": true
     },
     "culture": {
       "template": "QuizQCM",
@@ -124,7 +125,7 @@
         "youqwiz-semaine"
       ],
       "itemsPerEpisode": 70,
-      "fallback": "choix",
+      "fallback": "culture",
       "weights": {
         "youqwiz-semaine": 1
       }

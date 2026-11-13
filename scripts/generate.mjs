@@ -126,6 +126,8 @@ const WEEKDAYS = S.weekdays;
 // 1. Pilier du jour (ou forcé), avec repli si le gabarit n'est pas encore livré.
 const dow = new Date(`${date}T12:00:00Z`).getUTCDay();
 let pillar = argv("pillar", rotation.week[String(dow)].pillar);
+// 13/11/2026 : un pilier retiré (rotation.pillars.<p>.retired) ne sort plus que s'il est forcé avec --pillar.
+if (rotation.pillars[pillar].retired && !argv("pillar")) throw new Error(`pilier ${pillar} retiré de la rotation (data/rotation.json)`);
 const visited = [];
 while (rotation.pillars[pillar].banks.length === 0) {
   visited.push(pillar);

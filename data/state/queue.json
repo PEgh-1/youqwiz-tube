@@ -1,5 +1,5 @@
 {
-  "lastScheduled": "2026-11-16",
+  "lastScheduled": "2026-11-15",
   "published": [
     {
       "id": "2026-11-01-generations",
@@ -215,43 +215,30 @@
       "endScreen": true
     },
     {
-      "id": "2026-11-14-tu-preferes",
+      "id": "2026-11-15-generations",
       "date": "2026-11-14",
       "publishAt": "2026-11-14T16:30:00.000Z",
       "shortPublishAt": "2026-11-14T11:00:00.000Z",
       "short2PublishAt": "2026-11-14T18:00:00.000Z",
       "short3PublishAt": "2026-11-14T15:00:00.000Z",
       "dry": false,
-      "longId": "uqlrFfYHDoM",
-      "thumbVariant": "B",
+      "longId": "15g7ik189CE",
+      "thumbVariant": "A",
       "thumbnail": true,
-      "shortId": "Y2UwK0zGm2c",
-      "shortId2": "rETKlp7ByC4",
-      "shortId3": "7-XS5cAWuR4"
+      "movedFrom": "2026-11-15"
     },
     {
-      "id": "2026-11-15-generations",
+      "id": "2026-11-16-drapeaux",
       "date": "2026-11-15",
       "publishAt": "2026-11-15T16:30:00.000Z",
       "shortPublishAt": "2026-11-15T11:00:00.000Z",
       "short2PublishAt": "2026-11-15T18:00:00.000Z",
       "short3PublishAt": "2026-11-15T15:00:00.000Z",
       "dry": false,
-      "longId": "15g7ik189CE",
-      "thumbVariant": "A",
-      "thumbnail": true
-    },
-    {
-      "id": "2026-11-16-drapeaux",
-      "date": "2026-11-16",
-      "publishAt": "2026-11-16T16:30:00.000Z",
-      "shortPublishAt": "2026-11-16T11:00:00.000Z",
-      "short2PublishAt": "2026-11-16T18:00:00.000Z",
-      "short3PublishAt": "2026-11-16T15:00:00.000Z",
-      "dry": false,
       "longId": "OAK-EMFMSPM",
       "thumbVariant": "B",
-      "thumbnail": true
+      "thumbnail": true,
+      "movedFrom": "2026-11-16"
     }
   ],
   "pending": {}
