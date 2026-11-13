@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-titanic",
+  "theme": "histoire",
+  "title": "Quiz Titanic : naufrage de 1912 et film de 1997",
+  "description": "Quiz Titanic : 20 questions sur le paquebot, le naufrage d'avril 1912 et le film de James Cameron, du niveau facile à expert.",
+  "h1": "Quiz Titanic : que sais-tu du paquebot et de son naufrage ?",
+  "intro": "Le Titanic est l'un des navires les plus célèbres de l'histoire, et son naufrage dans la nuit du 14 au 15 avril 1912 continue de fasciner. Ce quiz Titanic te propose 20 questions sur le paquebot, sa construction, son voyage, le naufrage, les secours et la découverte de l'épave, avec quelques questions sur le film de 1997. Les niveaux vont de facile à expert, avec environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication. Prêt à embarquer ?",
+  "questions": [
+    {
+      "q": "En quelle année le Titanic a-t-il coulé ?",
+      "choices": [
+        "1905",
+        "1912",
+        "1914",
+        "1921"
+      ],
+      "answer": 1,
+      "explication": "Le naufrage a eu lieu dans la nuit du 14 au 15 avril 1912.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "q": "Contre quoi le Titanic est-il entré en collision ?",
+      "choices": [
+        "Un récif corallien",
+        "Un autre navire",
+        "Une mine",
+        "Un iceberg"
+      ],
+      "answer": 3,
+      "explication": "La collision a eu lieu peu avant minuit, en plein Atlantique Nord.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "q": "De quel port britannique le Titanic est-il parti pour son unique voyage ?",
+      "choices": [
+        "Southampton",
+        "Liverpool",
+        "Londres",
+        "Plymouth"
+      ],
+      "answer": 0,
+      "explication": "Il a quitté Southampton le 10 avril 1912.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "q": "Dans quelle ville américaine le Titanic devait-il arriver ?",
+      "choices": [
+        "Boston",
+        "Philadelphie",
+        "New York",
+        "Halifax"
+      ],
+      "answer": 2,
+      "explication": "La traversée devait s'achever à New York après environ une semaine de mer.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "q": "Quel océan le Titanic traversait-il au moment du naufrage ?",
+      "choices": [
+        "L'océan Pacifique",
+        "L'océan Atlantique",
+        "L'océan Indien",
+        "L'océan Arctique"
+      ],
+      "answer": 1,
+      "explication": "Le naufrage a eu lieu dans l'Atlantique Nord, au sud de Terre-Neuve.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "q": "Quel réalisateur a signé le film Titanic sorti en 1997 ?",
+      "choices": [
+        "James Cameron",
+        "Steven Spielberg",
+        "Ridley Scott",
+        "Robert Zemeckis"
+      ],
+      "answer": 0,
+      "explication": "Le film a été tourné en grande partie au Mexique, dans de vastes bassins construits pour l'occasion.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Titanic_(film,_1997)"
+    },
+    {
+      "q": "Quelle chanteuse interprète la chanson principale du film de 1997 ?",
+      "choices": [
+        "Whitney Houston",
+        "Mariah Carey",
+        "Madonna",
+        "Céline Dion"
+      ],
+      "answer": 3,
+      "explication": "La chanson est sortie en 1997 et reste liée au film dans la mémoire collective.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Titanic_(film,_1997)"
+    },
+    {
+      "q": "Quelle compagnie maritime possédait le Titanic ?",
+      "choices": [
+        "La Cunard Line",
+        "La Compagnie Générale Transatlantique",
+        "La White Star Line",
+        "La Hamburg America Line"
+      ],
+      "answer": 2,
+      "explication": "Cette compagnie, fondée à Liverpool, desservait surtout la ligne de l'Atlantique Nord.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/White_Star_Line"
+    },
+    {
+      "q": "Dans quelle ville le Titanic a-t-il été construit ?",
+      "choices": [
+        "Belfast",
+        "Glasgow",
+        "Liverpool",
+        "Southampton"
+      ],
+      "answer": 0,
+      "explication": "Il a été construit par le chantier naval Harland and Wolff.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Harland_and_Wolff"
+    },
+    {
+      "q": "Comment s'appelait le commandant du Titanic ?",
+      "choices": [
+        "Arthur Rostron",
+        "Edward Smith",
+        "Charles Lightoller",
+        "Henry Wilde"
+      ],
+      "answer": 1,
+      "explication": "Il comptait environ quarante ans de carrière en mer et il a disparu avec son navire.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "q": "Quel navire a recueilli les rescapés du Titanic ?",
+      "choices": [
+        "Le Lusitania",
+        "L'Olympic",
+        "Le Carpathia",
+        "Le Californian"
+      ],
+      "answer": 2,
+      "explication": "Il a recueilli environ 700 survivants dans les canots, puis les a conduits à New York.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/RMS_Carpathia"
+    },
+    {
+      "q": "Combien de cheminées le Titanic comptait-il ?",
+      "choices": [
+        "Deux",
+        "Trois",
+        "Cinq",
+        "Quatre"
+      ],
+      "answer": 3,
+      "explication": "La quatrième cheminée servait à la ventilation, mais pas à évacuer les fumées des chaudières.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "q": "Quelle ville française le Titanic a-t-il desservie en escale le 10 avril 1912 ?",
+      "choices": [
+        "Cherbourg",
+        "Le Havre",
+        "Brest",
+        "Saint-Malo"
+      ],
+      "answer": 0,
+      "explication": "Des passagers y sont montés à bord, avant l'escale suivante en Irlande.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "q": "Quelle actrice interprète Rose dans le film de 1997 ?",
+      "choices": [
+        "Cate Blanchett",
+        "Nicole Kidman",
+        "Kate Winslet",
+        "Julia Roberts"
+      ],
+      "answer": 2,
+      "explication": "Rose est un personnage fictif imaginé pour le film.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Titanic_(film,_1997)"
+    },
+    {
+      "q": "Comment s'appelle le collier de diamant fictif qui apparaît dans le film de 1997 ?",
+      "choices": [
+        "L'Étoile du Sud",
+        "Le Cœur de l'Océan",
+        "Le Diamant de la Reine",
+        "La Larme de Cléopâtre"
+      ],
+      "answer": 1,
+      "explication": "Ce bijou est une invention du film, qui n'a pas existé à bord du vrai paquebot.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Titanic_(film,_1997)"
+    },
+    {
+      "q": "En quelle année l'épave du Titanic a-t-elle été localisée ?",
+      "choices": [
+        "1957",
+        "1972",
+        "1998",
+        "1985"
+      ],
+      "answer": 3,
+      "explication": "Elle a été retrouvée par 3 800 mètres de fond environ, à environ 600 kilomètres au sud-est de Terre-Neuve.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    },
+    {
+      "q": "Quel institut français a participé à la découverte de l'épave en 1985 ?",
+      "choices": [
+        "L'Ifremer",
+        "Le CNES",
+        "Le CNRS",
+        "L'Institut Pasteur"
+      ],
+      "answer": 0,
+      "explication": "Le Français Jean-Louis Michel a codirigé l'expédition avec l'Américain Robert Ballard.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ifremer"
+    },
+    {
+      "q": "Quelle convention internationale, adoptée en 1914 à la suite du naufrage, est à l'origine des règles de sécurité en mer ?",
+      "choices": [
+        "La convention de Genève",
+        "La convention SOLAS",
+        "La convention MARPOL",
+        "La convention de Montego Bay"
+      ],
+      "answer": 1,
+      "explication": "Cette première version prévoyait des canots pour tous et une veille radio permanente ; la guerre l'a empêchée d'entrer en vigueur, mais ses principes ont été repris ensuite.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Convention_internationale_pour_la_sauvegarde_de_la_vie_humaine_en_mer"
+    },
+    {
+      "q": "Quel paquebot jumeau est entré en service avant le Titanic ?",
+      "choices": [
+        "Le Lusitania",
+        "Le Mauretania",
+        "Le Britannic",
+        "L'Olympic"
+      ],
+      "answer": 3,
+      "explication": "Le Titanic et l'Olympic étaient presque identiques, à de légères différences près.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/RMS_Olympic"
+    },
+    {
+      "q": "Quel architecte naval du chantier Harland and Wolff, présent à bord lors du voyage inaugural, a péri dans le naufrage ?",
+      "choices": [
+        "Bruce Ismay",
+        "William Pirrie",
+        "Thomas Andrews",
+        "Alexander Carlisle"
+      ],
+      "answer": 2,
+      "explication": "Il était directeur du bureau d'études du chantier Harland and Wolff.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Titanic"
+    }
+  ],
+  "faq": [
+    [
+      "Quand le Titanic a-t-il coulé ?",
+      "Le Titanic a heurté un iceberg dans la nuit du 14 avril 1912, vers 23 h 40, en plein Atlantique Nord, et a coulé dans les premières heures du 15 avril. Le paquebot effectuait son voyage inaugural entre Southampton et New York. Environ 1 500 personnes ont perdu la vie dans ce naufrage."
+    ],
+    [
+      "Pourquoi y a-t-il eu autant de victimes ?",
+      "Le Titanic transportait plus de passagers et de membres d'équipage que ses canots de sauvetage ne pouvaient en accueillir, car la réglementation de l'époque se basait sur le tonnage du navire, et non sur le nombre de personnes à bord. Le naufrage a conduit à des règles de sécurité beaucoup plus strictes dans les années suivantes."
+    ],
+    [
+      "Où repose l'épave du Titanic ?",
+      "L'épave repose par environ 3 800 mètres de fond, dans l'océan Atlantique, au large de Terre-Neuve, au Canada. Elle a été localisée en 1985 par une expédition franco-américaine. Le navire est brisé en deux grandes parties, distantes de plusieurs centaines de mètres, sur le fond océanique."
+    ]
+  ],
+  "related": [
+    "/quiz-films",
+    "/quiz-premiere-guerre-mondiale",
+    "/quiz-histoire",
+    "/quiz-cinema",
+    "/quiz-xxe-siecle"
+  ],
+  "verified": "2026-11-13"
+}

@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-kpop",
+  "theme": "musique",
+  "title": "Quiz K-pop : origines, agences et groupes",
+  "description": "Quiz K-pop : 20 questions sur les origines de la pop sud-coréenne, les agences, les groupes pionniers et les grands succès datés, du facile à l'expert.",
+  "h1": "Quiz K-pop : connais-tu vraiment l'histoire de la pop coréenne ?",
+  "intro": "Idoles, auditions, agences et grands débuts : la K-pop est devenue un phénomène mondial, et ce quiz te propose d'en explorer les coulisses. Tu auras 20 questions sur les origines du genre, les agences comme SM, YG ou JYP, les groupes pionniers et quelques succès datés, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un fait à retenir. Aucun classement, seulement de la culture et des dates. Fan de la première heure ou simple curieux, tu peux jouer seul ou entre amis !",
+  "questions": [
+    {
+      "q": "Dans quel pays est née la K-pop ?",
+      "choices": [
+        "Le Japon",
+        "La Corée du Sud",
+        "La Chine",
+        "Les États-Unis"
+      ],
+      "answer": 1,
+      "explication": "Ses grandes agences, comme SM, YG et JYP, sont installées à Séoul.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/K-pop"
+    },
+    {
+      "q": "Quel groupe de sept membres débute en juin 2013 chez Big Hit Entertainment ?",
+      "choices": [
+        "GOT7",
+        "EXO",
+        "iKON",
+        "BTS"
+      ],
+      "answer": 3,
+      "explication": "Le nom Bangtan Sonyeondan signifie « Boy Scouts pare-balles ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/BTS_(groupe)"
+    },
+    {
+      "q": "Quel chanteur sud-coréen sort Gangnam Style en 2012 ?",
+      "choices": [
+        "Psy",
+        "Rain",
+        "G-Dragon",
+        "Taeyang"
+      ],
+      "answer": 0,
+      "explication": "Sa vidéo devient en décembre 2012 la première à dépasser le milliard de vues sur YouTube.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Psy_(chanteur)"
+    },
+    {
+      "q": "Quel groupe féminin réunit Jisoo, Jennie, Rosé et Lisa ?",
+      "choices": [
+        "TWICE",
+        "Red Velvet",
+        "BLACKPINK",
+        "Mamamoo"
+      ],
+      "answer": 2,
+      "explication": "Le groupe débute en août 2016 avec les titres Boombayah et Whistle.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Blackpink"
+    },
+    {
+      "q": "Comment appelle-t-on les jeunes recrues qui s'entraînent dans une agence avant leurs débuts ?",
+      "choices": [
+        "Les sunbae",
+        "Les aegyo",
+        "Les trainees",
+        "Les oppa"
+      ],
+      "answer": 2,
+      "explication": "Cet apprentissage dure souvent plusieurs années et mêle chant, danse et langues étrangères.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/K-pop"
+    },
+    {
+      "q": "Comment appelle-t-on la vague de popularité de la culture sud-coréenne dans le monde ?",
+      "choices": [
+        "La hallyu",
+        "Le hangeul",
+        "Le hanbok",
+        "Le kimchi"
+      ],
+      "answer": 0,
+      "explication": "Le terme, qui signifie « vague coréenne », apparaît à la fin des années 1990 dans la presse chinoise.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Vague_coréenne"
+    },
+    {
+      "q": "Quel nom porte le fandom officiel d'un célèbre boys band de K-pop, acronyme de « Adorable Representative M.C. for Youth » ?",
+      "choices": [
+        "BLINK",
+        "ONCE",
+        "EXO-L",
+        "ARMY"
+      ],
+      "answer": 3,
+      "explication": "Le nom, qui signifie aussi « armée » en anglais, a été annoncé officiellement en 2013.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/BTS_(groupe)"
+    },
+    {
+      "q": "Comment appelle-t-on le plus jeune membre d'un groupe de K-pop ?",
+      "choices": [
+        "Le sunbae",
+        "Le maknae",
+        "Le daesang",
+        "Le hoobae"
+      ],
+      "answer": 1,
+      "explication": "Ce mot coréen désigne aussi le plus jeune enfant d'une fratrie.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/K-pop"
+    },
+    {
+      "q": "Quel groupe de SM Entertainment, formé en 2012, tire son nom du mot « exoplanète » ?",
+      "choices": [
+        "SHINee",
+        "Super Junior",
+        "NCT",
+        "EXO"
+      ],
+      "answer": 3,
+      "explication": "Le groupe débute en avril 2012 avec deux sous-groupes, EXO-K et EXO-M, qui chantent en coréen et en mandarin.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/EXO_(groupe)"
+    },
+    {
+      "q": "Quel groupe, apparu à la télévision en 1992, est considéré comme un précurseur de la K-pop moderne ?",
+      "choices": [
+        "Wonder Girls",
+        "Seo Taiji and Boys",
+        "2NE1",
+        "Big Bang"
+      ],
+      "answer": 1,
+      "explication": "Le trio mêle rap, rock et sons électroniques avant de se séparer en 1996.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Seo_Taiji_and_Boys"
+    },
+    {
+      "q": "Quel groupe masculin lancé par SM Entertainment en 1996 est souvent considéré comme le premier groupe d'idoles de la K-pop ?",
+      "choices": [
+        "H.O.T.",
+        "Sechs Kies",
+        "Shinhwa",
+        "g.o.d"
+      ],
+      "answer": 0,
+      "explication": "Son nom est le sigle de « High-five Of Teenagers ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/K-pop"
+    },
+    {
+      "q": "Quel groupe féminin de JYP Entertainment est formé à l'issue de l'émission de survie Sixteen et débute en 2015 ?",
+      "choices": [
+        "Red Velvet",
+        "Mamamoo",
+        "TWICE",
+        "ITZY"
+      ],
+      "answer": 2,
+      "explication": "Neuf des seize candidates sont retenues pour former le groupe.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Twice_(groupe)"
+    },
+    {
+      "q": "Quel groupe de YG Entertainment débute en 2006 avec G-Dragon et T.O.P ?",
+      "choices": [
+        "Big Bang",
+        "2NE1",
+        "iKON",
+        "Winner"
+      ],
+      "answer": 0,
+      "explication": "Ils débutent à cinq, avec aussi Taeyang, Daesung et Seungri.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Big_Bang_(groupe)"
+    },
+    {
+      "q": "Quel groupe féminin de SM Entertainment, débuté en 2007, compte neuf membres, dont Taeyeon et Yoona ?",
+      "choices": [
+        "KARA",
+        "2NE1",
+        "Girls' Generation",
+        "Red Velvet"
+      ],
+      "answer": 2,
+      "explication": "Le groupe débute en août 2007 avec le titre Into the New World.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Girls'_Generation"
+    },
+    {
+      "q": "Sous quel nom la société Big Hit Entertainment, fondée en 2005 par Bang Si-hyuk, est-elle rebaptisée en 2021 ?",
+      "choices": [
+        "Starship",
+        "HYBE",
+        "Cube",
+        "FNC"
+      ],
+      "answer": 1,
+      "explication": "Big Hit Entertainment devient alors l'un des labels de ce nouvel ensemble.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/BTS_(groupe)"
+    },
+    {
+      "q": "Qui est le fondateur de l'agence SM Entertainment ?",
+      "choices": [
+        "Seo Taiji",
+        "Psy",
+        "Rain",
+        "Lee Soo-man"
+      ],
+      "answer": 3,
+      "explication": "Les initiales « SM » viennent de son prénom, Soo-man.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/SM_Entertainment"
+    },
+    {
+      "q": "Quel groupe de Pledis Entertainment, débuté en 2015, compte treize membres ?",
+      "choices": [
+        "Stray Kids",
+        "Monsta X",
+        "Seventeen",
+        "NCT"
+      ],
+      "answer": 2,
+      "explication": "Son nom additionne treize membres, trois unités et un groupe.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Seventeen_(groupe_sud-coréen)"
+    },
+    {
+      "q": "Quel ancien membre d'un trio pionnier de la K-pop des années 1990 fonde en 1996 l'agence YG Entertainment ?",
+      "choices": [
+        "Yang Hyun-suk",
+        "Park Jin-young",
+        "Bang Si-hyuk",
+        "Lee Soo-man"
+      ],
+      "answer": 0,
+      "explication": "Les lettres « YG » viennent de son surnom, Yang Goon.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/YG_Entertainment"
+    },
+    {
+      "q": "Quel groupe féminin de JYP est le premier groupe sud-coréen à entrer au Billboard Hot 100, en 2009 ?",
+      "choices": [
+        "2NE1",
+        "KARA",
+        "Girls' Generation",
+        "Wonder Girls"
+      ],
+      "answer": 3,
+      "explication": "Elles y parviennent avec une version anglaise de leur titre Nobody.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Wonder_Girls"
+    },
+    {
+      "q": "Quel groupe de SM Entertainment, débuté en 2008, compte Onew, Key, Minho et Taemin ?",
+      "choices": [
+        "Super Junior",
+        "SHINee",
+        "TVXQ",
+        "NCT"
+      ],
+      "answer": 1,
+      "explication": "Le groupe débute en mai 2008 avec le titre Replay.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/SHINee"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur la K-pop ?",
+      "Le quiz est progressif : huit questions faciles pour les débutants, huit questions moyennes sur les agences, les groupes et les dates, puis quatre questions expert pour les fans les plus aguerris. Chaque réponse est suivie d'une explication, pour apprendre même après une erreur."
+    ],
+    [
+      "Que veut dire K-pop ?",
+      "K-pop est l'abréviation de « Korean pop », la musique populaire sud-coréenne. Elle mêle pop, hip-hop, R&B et musique électronique, avec des chorégraphies très travaillées et des clips soignés. Le genre s'est structuré dans les années 1990 autour de grandes agences installées à Séoul."
+    ],
+    [
+      "Comment devient-on idole de K-pop ?",
+      "La plupart des idoles passent des auditions dans une agence, puis intègrent un programme d'entraînement. Pendant plusieurs mois ou plusieurs années, elles travaillent le chant, la danse et les langues avant d'être sélectionnées pour débuter dans un groupe. Certaines sont aussi recrutées via des émissions de télévision."
+    ]
+  ],
+  "related": [
+    "/quiz-musique",
+    "/quiz-rock",
+    "/quiz-japon",
+    "/quiz-michael-jackson",
+    "/quiz-rap-francais"
+  ],
+  "verified": "2026-11-13"
+}

@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-simpson",
+  "theme": "cinema",
+  "title": "Quiz Simpson : 20 questions sur la famille jaune",
+  "description": "Quiz Simpson : 20 questions sur Homer, Marge, Bart, Lisa et Maggie, les habitants de Springfield et la création de la série par Matt Groening.",
+  "h1": "Quiz Simpson : connais-tu bien Homer, Bart et tous les autres ?",
+  "intro": "Une famille jaune, un père gourmand de beignets, une petite fille surdouée et toute une galerie de voisins hauts en couleur : Les Simpson sont devenus un monument de la télévision. Ce quiz Simpson te propose 20 questions sur la famille, les personnages de Springfield, la création de la série par Matt Groening et sa musique, du niveau facile au niveau expert. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication pleine d'anecdotes. À toi de jouer !",
+  "questions": [
+    {
+      "q": "Quel est le prénom du père de la famille Simpson ?",
+      "choices": [
+        "Homer",
+        "Peter",
+        "Fred",
+        "Stan"
+      ],
+      "answer": 0,
+      "explication": "Il est marié à Marge, père de Bart, Lisa et Maggie, et adore les beignets.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Qui est le créateur de la série Les Simpson ?",
+      "choices": [
+        "Seth MacFarlane",
+        "Trey Parker",
+        "Matt Groening",
+        "Mike Judge"
+      ],
+      "answer": 2,
+      "explication": "Il a aussi créé les séries Futurama et Désenchantée.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Matt_Groening"
+    },
+    {
+      "q": "Comment s'appelle le bébé de la famille, qui suce toujours sa tétine ?",
+      "choices": [
+        "Lisa",
+        "Patty",
+        "Selma",
+        "Maggie"
+      ],
+      "answer": 3,
+      "explication": "Elle ne parle presque jamais dans la série.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "De quel instrument de musique Lisa joue-t-elle ?",
+      "choices": [
+        "De la guitare",
+        "Du saxophone",
+        "Du violon",
+        "De la batterie"
+      ],
+      "answer": 1,
+      "explication": "Lisa est une élève brillante, passionnée de jazz et de musique.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Où travaille Homer Simpson ?",
+      "choices": [
+        "Dans une centrale nucléaire",
+        "Dans une école",
+        "Dans un supermarché",
+        "Dans une usine de jouets"
+      ],
+      "answer": 0,
+      "explication": "Il est inspecteur de sécurité, un poste qui paraît bien risqué.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Quelle est la marque de bière préférée d'Homer ?",
+      "choices": [
+        "Moe",
+        "Squishee",
+        "Buzz Cola",
+        "Duff"
+      ],
+      "answer": 3,
+      "explication": "La marque est une invention de la série, mais elle a été déclinée en produits dérivés.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Comment s'appelle le voisin très gentil et très croyant des Simpson ?",
+      "choices": [
+        "Moe Szyslak",
+        "Kent Brockman",
+        "Ned Flanders",
+        "Waylon Smithers"
+      ],
+      "answer": 2,
+      "explication": "Il habite juste à côté des Simpson, ce qui exaspère souvent Homer.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Comment s'appelle le chien de la famille Simpson ?",
+      "choices": [
+        "Scooby-Doo",
+        "Santa's Little Helper",
+        "Milou",
+        "Idéfix"
+      ],
+      "answer": 1,
+      "explication": "Il est adopté dans l'épisode de Noël qui lance la série.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Comment s'appelle le patron de la centrale nucléaire de Springfield ?",
+      "choices": [
+        "Monsieur Skinner",
+        "Monsieur Krabappel",
+        "Monsieur Wiggum",
+        "Monsieur Burns"
+      ],
+      "answer": 3,
+      "explication": "Il est l'un des hommes les plus riches de la ville.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Montgomery_Burns"
+    },
+    {
+      "q": "Comment s'appelle le meilleur ami de Bart à l'école ?",
+      "choices": [
+        "Milhouse",
+        "Nelson",
+        "Martin",
+        "Ralph"
+      ],
+      "answer": 0,
+      "explication": "Milhouse porte de grosses lunettes et vit à Springfield, comme Bart.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Quel est le prénom du gérant de la supérette Kwik-E-Mart ?",
+      "choices": [
+        "Moe",
+        "Apu",
+        "Barney",
+        "Carl"
+      ],
+      "answer": 1,
+      "explication": "Il tient sa boutique ouverte presque jour et nuit.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Quel personnage est un clown vedette de la télévision pour enfants ?",
+      "choices": [
+        "Bozo",
+        "Sideshow Mel",
+        "Krusty",
+        "Gil"
+      ],
+      "answer": 2,
+      "explication": "Krusty a un fidèle assistant, Mel, qui joue dans son émission.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "En quelle année la série Les Simpson est-elle lancée en format de série à part entière ?",
+      "choices": [
+        "1983",
+        "1992",
+        "1995",
+        "1989"
+      ],
+      "answer": 3,
+      "explication": "Elle démarre en décembre 1989 sur la chaîne américaine Fox.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "De quel mot anglais le prénom Bart est-il l'anagramme ?",
+      "choices": [
+        "Bear",
+        "Brat",
+        "Bard",
+        "Beer"
+      ],
+      "answer": 1,
+      "explication": "« Brat » signifie « garnement », un surnom qui lui va bien.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson"
+    },
+    {
+      "q": "Quel compositeur a écrit le thème musical du générique de la série ?",
+      "choices": [
+        "Danny Elfman",
+        "Hans Zimmer",
+        "John Williams",
+        "Alan Silvestri"
+      ],
+      "answer": 0,
+      "explication": "Il a aussi composé la musique de nombreux films de Tim Burton.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Danny_Elfman"
+    },
+    {
+      "q": "Dans quelle ville le créateur de la série est-il né ?",
+      "choices": [
+        "Seattle",
+        "Chicago",
+        "Portland",
+        "San Francisco"
+      ],
+      "answer": 2,
+      "explication": "Il y a grandi, dans l'État de l'Oregon, et a donné le nom de rues locales à plusieurs personnages.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Matt_Groening"
+    },
+    {
+      "q": "Dans quelle émission américaine les Simpson sont-ils apparus avant d'avoir leur propre série ?",
+      "choices": [
+        "Saturday Night Live",
+        "The Late Show",
+        "Cheers",
+        "The Tracey Ullman Show"
+      ],
+      "answer": 3,
+      "explication": "Ils y sont apparus dans de courts sketchs à partir de 1987.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/The_Tracey_Ullman_Show"
+    },
+    {
+      "q": "Qui est le producteur américain, connu pour de nombreux films et séries, associé à la création de la série ?",
+      "choices": [
+        "James L. Brooks",
+        "Steven Spielberg",
+        "George Lucas",
+        "Jerry Bruckheimer"
+      ],
+      "answer": 0,
+      "explication": "Il a aussi produit le film Tendres Passions, récompensé aux Oscars.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/James_L._Brooks"
+    },
+    {
+      "q": "En quelle année le film Les Simpson, le film sort-il au cinéma ?",
+      "choices": [
+        "1999",
+        "2003",
+        "2007",
+        "2012"
+      ],
+      "answer": 2,
+      "explication": "Le film est sorti en juillet 2007 et a connu un grand succès au box-office.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Les_Simpson,_le_film"
+    },
+    {
+      "q": "D'où vient le prénom Homer, donné au père de la famille ?",
+      "choices": [
+        "D'un poète grec",
+        "Du père du créateur",
+        "D'un joueur de baseball",
+        "D'un voisin d'enfance"
+      ],
+      "answer": 1,
+      "explication": "Marge, Lisa et Maggie portent aussi les prénoms de proches de Matt Groening.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Matt_Groening"
+    }
+  ],
+  "faq": [
+    [
+      "Qui a créé la série Les Simpson ?",
+      "La série a été créée par le dessinateur américain Matt Groening. Les personnages sont d'abord apparus en 1987 dans de courts sketchs de l'émission The Tracey Ullman Show, puis la série à part entière a démarré en décembre 1989 sur la chaîne Fox. Le producteur James L. Brooks a joué un rôle important dans son développement."
+    ],
+    [
+      "Pourquoi les personnages des Simpson sont-ils jaunes ?",
+      "La couleur jaune est un choix de style de la série, destiné à rendre les personnages immédiatement reconnaissables à l'écran. Les personnages ont aussi quatre doigts à chaque main, un trait de dessin qui donne au programme son aspect graphique unique, très reconnaissable dès les premières secondes."
+    ],
+    [
+      "Quel est le niveau de ce quiz Simpson ?",
+      "Le quiz comporte 20 questions : 8 faciles sur la famille et les lieux, 8 de niveau moyen sur les voisins et la production, et 4 questions expert pour les vrais fans. Les questions portent sur la série, ses personnages et sa création. Une explication suit chaque réponse pour te faire découvrir de nouveaux détails."
+    ]
+  ],
+  "related": [
+    "/quiz-dessins-animes",
+    "/quiz-disney",
+    "/quiz-friends",
+    "/quiz-bande-dessinee",
+    "/quiz-etats-unis"
+  ],
+  "verified": "2026-11-13"
+}

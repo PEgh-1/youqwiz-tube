@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-mangas",
+  "theme": "culture",
+  "title": "Quiz mangas : 20 questions sur la BD japonaise",
+  "description": "Quiz mangas : 20 questions sur le vocabulaire (shōnen, seinen, josei), les auteurs, les éditeurs et les grandes œuvres de la bande dessinée japonaise.",
+  "h1": "Quiz mangas : que sais-tu de la bande dessinée japonaise ?",
+  "intro": "Magazines, volumes reliés, genres, auteurs : le monde du manga a son propre vocabulaire et ses grands noms. Ce quiz mangas te propose 20 questions sur les catégories, les créateurs, les éditeurs et quelques œuvres marquantes de la bande dessinée japonaise. Le niveau progresse : huit questions faciles, huit moyennes, puis quatre pour les connaisseurs. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un fait de plus. Que tu lises du manga depuis toujours ou que tu débutes, il est temps de tester ta culture !",
+  "questions": [
+    {
+      "q": "Dans quel sens lit-on traditionnellement un manga japonais ?",
+      "choices": [
+        "De gauche à droite",
+        "De droite à gauche",
+        "En spirale",
+        "De bas en haut uniquement"
+      ],
+      "answer": 1,
+      "explication": "Les éditions françaises conservent en général ce sens de lecture japonais.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Manga"
+    },
+    {
+      "q": "Comment appelle-t-on l'auteur d'un manga ?",
+      "choices": [
+        "Un sensei",
+        "Un animateur",
+        "Un mangaka",
+        "Un otaku"
+      ],
+      "answer": 2,
+      "explication": "Un mangaka est souvent entouré d'assistants qui l'aident à dessiner les décors.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mangaka"
+    },
+    {
+      "q": "À quel public s'adresse un manga shōnen ?",
+      "choices": [
+        "Aux adolescents",
+        "Aux jeunes enfants",
+        "Aux femmes adultes",
+        "Aux personnes âgées"
+      ],
+      "answer": 0,
+      "explication": "Ces récits mettent souvent en scène l'amitié, l'action et la progression d'un héros.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Shōnen"
+    },
+    {
+      "q": "Comment appelle-t-on les mangas destinés aux jeunes filles ?",
+      "choices": [
+        "Shōjo",
+        "Seinen",
+        "Shōnen",
+        "Mecha"
+      ],
+      "answer": 0,
+      "explication": "Le shōjo met souvent l'accent sur les relations et les sentiments des personnages.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Shōjo"
+    },
+    {
+      "q": "Comment appelle-t-on les dessins animés japonais ?",
+      "choices": [
+        "Des mangas",
+        "Des animes",
+        "Des kawaii",
+        "Des chibis"
+      ],
+      "answer": 1,
+      "explication": "Le terme est l'abréviation japonaise du mot anglais « animation ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Anime"
+    },
+    {
+      "q": "Quel réalisateur, cofondateur du studio Ghibli, a dessiné le manga Nausicaä de la vallée du vent ?",
+      "choices": [
+        "Isao Takahata",
+        "Mamoru Oshii",
+        "Hayao Miyazaki",
+        "Katsuhiro Ōtomo"
+      ],
+      "answer": 2,
+      "explication": "Le manga paraît à partir de 1982 dans le magazine Animage, deux ans avant le film.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hayao_Miyazaki"
+    },
+    {
+      "q": "Quelle autrice a créé Sailor Moon ?",
+      "choices": [
+        "Moto Hagio",
+        "Rumiko Takahashi",
+        "Naoko Takeuchi",
+        "Yoko Kamio"
+      ],
+      "answer": 2,
+      "explication": "La série débute en 1991 dans le magazine Nakayoshi.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Naoko_Takeuchi"
+    },
+    {
+      "q": "Quel mot désigne le fait de se déguiser en personnage de manga, d'anime ou de jeu vidéo ?",
+      "choices": [
+        "Chibi",
+        "Doujin",
+        "Kawaii",
+        "Cosplay"
+      ],
+      "answer": 3,
+      "explication": "Ce terme, né de l'association de « costume » et « play », a été popularisé au Japon dans les années 1980.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cosplay"
+    },
+    {
+      "q": "À quel public s'adressent les mangas seinen ?",
+      "choices": [
+        "Aux jeunes enfants",
+        "Aux femmes adultes",
+        "Aux adolescentes",
+        "Aux jeunes hommes adultes"
+      ],
+      "answer": 3,
+      "explication": "Ils abordent des thèmes plus matures, comme dans Berserk.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Seinen"
+    },
+    {
+      "q": "Comment appelle-t-on les mangas destinés aux femmes adultes ?",
+      "choices": [
+        "Seinen",
+        "Josei",
+        "Shōjo",
+        "Kodomo"
+      ],
+      "answer": 1,
+      "explication": "Ils traitent souvent du quotidien, du travail et des relations entre adultes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Josei"
+    },
+    {
+      "q": "Quel terme désigne les mangas conçus pour les jeunes enfants ?",
+      "choices": [
+        "Seinen",
+        "Shōnen",
+        "Josei",
+        "Kodomo"
+      ],
+      "answer": 3,
+      "explication": "Ces mangas privilégient des histoires simples, parfois éducatives.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Kodomo"
+    },
+    {
+      "q": "Quel éditeur japonais publie le magazine Weekly Shōnen Jump ?",
+      "choices": [
+        "Shogakukan",
+        "Shūeisha",
+        "Kadokawa",
+        "Kodansha"
+      ],
+      "answer": 1,
+      "explication": "Cet éditeur est fondé en 1925 à Tokyo.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Shūeisha"
+    },
+    {
+      "q": "Qui a créé le chat robot Doraemon sous le nom de plume Fujiko F. Fujio ?",
+      "choices": [
+        "Go Nagai",
+        "Leiji Matsumoto",
+        "Hiroshi Fujimoto",
+        "Tetsuya Chiba"
+      ],
+      "answer": 2,
+      "explication": "Doraemon débute en 1969 dans plusieurs magazines destinés aux enfants.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Doraemon"
+    },
+    {
+      "q": "Quel auteur a créé le manga Akira, publié à partir de 1982 ?",
+      "choices": [
+        "Leiji Matsumoto",
+        "Katsuhiro Ōtomo",
+        "Go Nagai",
+        "Masamune Shirow"
+      ],
+      "answer": 1,
+      "explication": "Il a lui-même réalisé l'adaptation en film d'animation, sortie en 1988.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Akira_(manga)"
+    },
+    {
+      "q": "Comment appelle-t-on un volume relié regroupant plusieurs chapitres d'un manga ?",
+      "choices": [
+        "Un doujinshi",
+        "Un gekiga",
+        "Un chibi",
+        "Un tankōbon"
+      ],
+      "answer": 3,
+      "explication": "Les chapitres sont d'abord prépubliés dans des magazines avant ce regroupement.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tankōbon"
+    },
+    {
+      "q": "Comment appelle-t-on les bandes dessinées coréennes ?",
+      "choices": [
+        "Les manhwa",
+        "Les gekiga",
+        "Les doujin",
+        "Les manhua"
+      ],
+      "answer": 0,
+      "explication": "Le mot manhua désigne, lui, la bande dessinée chinoise.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Manhwa"
+    },
+    {
+      "q": "Quel auteur a créé Monster et 20th Century Boys ?",
+      "choices": [
+        "Taiyō Matsumoto",
+        "Kentarō Miura",
+        "Naoki Urasawa",
+        "Takehiko Inoue"
+      ],
+      "answer": 2,
+      "explication": "Monster est publié de 1994 à 2001 dans le magazine Big Comic Original.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Naoki_Urasawa"
+    },
+    {
+      "q": "Quelle mangaka a créé Fullmetal Alchemist ?",
+      "choices": [
+        "Rumiko Takahashi",
+        "Kaori Yuki",
+        "Naoko Takeuchi",
+        "Hiromu Arakawa"
+      ],
+      "answer": 3,
+      "explication": "Originaire d'Hokkaidō, elle publie la série dans le Monthly Shōnen Gangan de 2001 à 2010.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Fullmetal_Alchemist"
+    },
+    {
+      "q": "Quel mangaka a créé Berserk, lancé en 1989 ?",
+      "choices": [
+        "Kentarō Miura",
+        "Yoshihiro Togashi",
+        "Tite Kubo",
+        "Buronson"
+      ],
+      "answer": 0,
+      "explication": "La série a d'abord paru dans le magazine Monthly Animal House.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Berserk"
+    },
+    {
+      "q": "Quel dessinateur a illustré Death Note sur un scénario de Tsugumi Ohba ?",
+      "choices": [
+        "Takeshi Obata",
+        "Takehiko Inoue",
+        "Hiroyuki Takei",
+        "Hajime Isayama"
+      ],
+      "answer": 0,
+      "explication": "Death Note paraît de 2003 à 2006 dans le Weekly Shōnen Jump.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Death_Note"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz mangas ?",
+      "Le quiz compte 20 questions classées par difficulté : huit faciles sur les mots de base et les grandes œuvres, huit moyennes sur les catégories, les éditeurs et les auteurs, puis quatre d'expert sur des séries et des créateurs plus pointus. Il convient aux débutants curieux comme aux lecteurs réguliers."
+    ],
+    [
+      "Pourquoi classe-t-on les mangas par public ?",
+      "Les éditeurs classent les mangas selon le lectorat visé (âge et sexe) plutôt que selon le thème : un même sujet peut donc se retrouver dans plusieurs catégories. Ce classement aide les lecteurs à s'orienter dans les magazines et dans les rayons des librairies."
+    ],
+    [
+      "Comment sont publiés les mangas ?",
+      "Un manga paraît d'abord par chapitres dans un magazine, puis les séries qui rencontrent le succès sont regroupées en volumes reliés. Les éditeurs étrangers les traduisent ensuite, parfois en conservant le sens de lecture d'origine."
+    ]
+  ],
+  "related": [
+    "/quiz-bande-dessinee",
+    "/quiz-one-piece",
+    "/quiz-naruto",
+    "/quiz-dragon-ball",
+    "/quiz-japon"
+  ],
+  "verified": "2026-11-13"
+}

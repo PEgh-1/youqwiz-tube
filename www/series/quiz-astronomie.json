@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-astronomie",
+  "theme": "sciences",
+  "title": "Quiz astronomie : étoiles, galaxies, constellations",
+  "description": "Quiz astronomie : 20 questions sur les étoiles, les galaxies, les constellations et les grands noms de l'histoire de l'astronomie, du facile à l'expert.",
+  "h1": "Quiz astronomie : que sais-tu des étoiles et des galaxies ?",
+  "intro": "Étoiles filantes, constellations, trous noirs, galaxies lointaines : le ciel nocturne fascine l'humanité depuis toujours. Ce quiz d'astronomie te propose 20 questions sur les étoiles, les galaxies, les constellations et les grands noms de l'histoire de la discipline, du plus simple au plus pointu : 8 questions faciles, 8 de niveau moyen et 4 d'expert. Le système solaire et l'exploration spatiale ont leurs propres quiz sur le site. Chaque réponse est accompagnée d'une courte explication qui t'apprend un fait de plus. Compte environ 5 secondes par question. Lève les yeux et lance-toi !",
+  "questions": [
+    {
+      "q": "Quelle est l'étoile la plus brillante du ciel nocturne, Soleil excepté ?",
+      "choices": [
+        "Polaris",
+        "Sirius",
+        "Véga",
+        "Bételgeuse"
+      ],
+      "answer": 1,
+      "explication": "Située dans la constellation du Grand Chien, elle est aussi l'une des étoiles les plus proches de nous.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sirius"
+    },
+    {
+      "q": "Quelle constellation contient un groupe de sept étoiles formant une « casserole » ?",
+      "choices": [
+        "La Grande Ourse",
+        "La Petite Ourse",
+        "Cassiopée",
+        "Le Cygne"
+      ],
+      "answer": 0,
+      "explication": "On l'appelle aussi le Grand Chariot, et elle reste visible toute l'année depuis la France.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Grande_Ourse"
+    },
+    {
+      "q": "Quelle étoile indique à peu près la direction du nord ?",
+      "choices": [
+        "Sirius",
+        "Antarès",
+        "L'étoile polaire",
+        "Aldébaran"
+      ],
+      "answer": 2,
+      "explication": "Elle appartient à la Petite Ourse et reste presque immobile dans le ciel, car elle est proche de l'axe de rotation de la Terre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Étoile_polaire"
+    },
+    {
+      "q": "Quelle grande galaxie spirale, la plus proche de la Voie lactée, est visible à l'œil nu dans l'hémisphère nord ?",
+      "choices": [
+        "Le Grand Nuage de Magellan",
+        "La galaxie du Triangle",
+        "La galaxie du Sombrero",
+        "La galaxie d'Andromède"
+      ],
+      "answer": 3,
+      "explication": "Elle se rapproche de nous et devrait entrer en collision avec la Voie lactée dans plusieurs milliards d'années.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Galaxie_d'Andromède"
+    },
+    {
+      "q": "Comment appelle-t-on l'explosion d'une étoile en fin de vie, qui brille un temps autant qu'une galaxie entière ?",
+      "choices": [
+        "Un quasar",
+        "Une supernova",
+        "Une nova naine",
+        "Un pulsar"
+      ],
+      "answer": 1,
+      "explication": "Ces explosions dispersent dans l'espace les éléments lourds qui formeront de nouvelles étoiles et des planètes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Supernova"
+    },
+    {
+      "q": "Comment appelle-t-on la bande de constellations traversée par le Soleil au cours de l'année ?",
+      "choices": [
+        "La Voie lactée",
+        "L'écliptique",
+        "Le méridien",
+        "Le zodiaque"
+      ],
+      "answer": 3,
+      "explication": "Elle compte douze signes, mais la précession des équinoxes les a décalés par rapport aux constellations qui leur ont donné leur nom.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Zodiaque"
+    },
+    {
+      "q": "Comment appelle-t-on un objet si dense que même la lumière ne peut s'en échapper ?",
+      "choices": [
+        "Un trou noir",
+        "Une naine blanche",
+        "Une étoile à neutrons",
+        "Un pulsar"
+      ],
+      "answer": 0,
+      "explication": "La première image directe de l'ombre d'un trou noir a été publiée en 2019.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Trou_noir"
+    },
+    {
+      "q": "Quelle constellation d'hiver est reconnaissable à trois étoiles alignées qui forment sa ceinture ?",
+      "choices": [
+        "Le Taureau",
+        "Le Lion",
+        "Orion",
+        "Pégase"
+      ],
+      "answer": 2,
+      "explication": "Elle renferme la grande nébuleuse d'Orion, visible à l'œil nu comme une tache floue sous la ceinture.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Constellation_d'Orion"
+    },
+    {
+      "q": "Quelle étoile, une supergéante rouge visible en hiver dans l'hémisphère nord, est l'une des plus brillantes du ciel ?",
+      "choices": [
+        "Rigel",
+        "Aldébaran",
+        "Antarès",
+        "Bételgeuse"
+      ],
+      "answer": 3,
+      "explication": "Elle est si grande que, placée au centre de notre système solaire, elle dépasserait l'orbite de Mars.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bételgeuse"
+    },
+    {
+      "q": "Quel astronome allemand a formulé, au début du XVIIe siècle, trois lois sur le mouvement des planètes ?",
+      "choices": [
+        "Tycho Brahe",
+        "Johannes Kepler",
+        "Edmond Halley",
+        "Giovanni Cassini"
+      ],
+      "answer": 1,
+      "explication": "Il a montré que les orbites des planètes sont des ellipses dont le Soleil occupe l'un des foyers.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Johannes_Kepler"
+    },
+    {
+      "q": "Quel télescope spatial, lancé en 1990, porte le nom d'un astronome américain ?",
+      "choices": [
+        "Le télescope spatial Kepler",
+        "Le télescope spatial Spitzer",
+        "Le télescope spatial Hubble",
+        "Le télescope spatial Planck"
+      ],
+      "answer": 2,
+      "explication": "Il observe depuis l'orbite terrestre, au-dessus de l'atmosphère qui perturbe les images.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Télescope_spatial_Hubble"
+    },
+    {
+      "q": "Quelle est la forme de notre galaxie, la Voie lactée ?",
+      "choices": [
+        "Une spirale barrée",
+        "Une ellipse",
+        "Un disque sans bras",
+        "Une forme irrégulière"
+      ],
+      "answer": 0,
+      "explication": "Le Soleil se trouve dans un bras secondaire, loin du centre galactique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Voie_lactée"
+    },
+    {
+      "q": "Quel savant grec du IIe siècle a décrit dans l'Almageste un système où la Terre est au centre de l'univers ?",
+      "choices": [
+        "Aristote",
+        "Hipparque",
+        "Claude Ptolémée",
+        "Ératosthène"
+      ],
+      "answer": 2,
+      "explication": "Son modèle géocentrique a dominé l'astronomie pendant plus de mille ans.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Claude_Ptolémée"
+    },
+    {
+      "q": "Quelle comète célèbre revient près du Soleil environ tous les 76 ans ?",
+      "choices": [
+        "La comète Hale-Bopp",
+        "La comète Shoemaker-Levy 9",
+        "La comète Churyumov-Gerasimenko",
+        "La comète de Halley"
+      ],
+      "answer": 3,
+      "explication": "Son dernier passage date de 1986 et le prochain est attendu en 2061.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Comète_de_Halley"
+    },
+    {
+      "q": "Quel rayonnement, détecté en 1965 par Penzias et Wilson, est un vestige des premiers temps de l'Univers ?",
+      "choices": [
+        "Le rayonnement de Hawking",
+        "Le fond diffus cosmologique",
+        "Les rayons gamma",
+        "Les rayons cosmiques"
+      ],
+      "answer": 1,
+      "explication": "Ce rayonnement fossile baigne tout l'Univers et a été émis environ 380 000 ans après le Big Bang.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Fond_diffus_cosmologique"
+    },
+    {
+      "q": "Quelle astronome britannique a découvert le premier pulsar en 1967 ?",
+      "choices": [
+        "Jocelyn Bell",
+        "Henrietta Leavitt",
+        "Vera Rubin",
+        "Caroline Herschel"
+      ],
+      "answer": 0,
+      "explication": "Son directeur de thèse reçut le prix Nobel de physique pour cette découverte en 1974.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Jocelyn_Bell"
+    },
+    {
+      "q": "Comment s'appelle la masse limite, d'environ 1,4 masse solaire, au-delà de laquelle une naine blanche ne peut plus rester stable ?",
+      "choices": [
+        "La limite de Roche",
+        "Le rayon de Schwarzschild",
+        "La limite de Chandrasekhar",
+        "La loi de Hubble"
+      ],
+      "answer": 2,
+      "explication": "Elle porte le nom de l'astrophysicien indien Subrahmanyan Chandrasekhar, qui l'a calculée dans les années 1930.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Masse_de_Chandrasekhar"
+    },
+    {
+      "q": "Quel diagramme, du nom de deux astronomes, classe les étoiles selon leur température et leur luminosité ?",
+      "choices": [
+        "Le diagramme de Hubble-Sandage",
+        "Le diagramme de Galilée-Newton",
+        "Le diagramme de Planck-Einstein",
+        "Le diagramme de Hertzsprung-Russell"
+      ],
+      "answer": 3,
+      "explication": "Il révèle que la plupart des étoiles, dont le Soleil, se placent sur une bande appelée séquence principale.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Diagramme_de_Hertzsprung-Russell"
+    },
+    {
+      "q": "Quel astronome français a dressé au XVIIIe siècle un célèbre catalogue de nébuleuses et d'amas, pour ne plus les confondre avec des comètes ?",
+      "choices": [
+        "Charles Messier",
+        "Nicolas-Louis de Lacaille",
+        "Urbain Le Verrier",
+        "Camille Flammarion"
+      ],
+      "answer": 0,
+      "explication": "Son catalogue compte 110 objets, désignés par la lettre M suivie d'un numéro, comme M45 pour les Pléiades.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Charles_Messier"
+    },
+    {
+      "q": "Quel astronome, d'origine allemande et installé en Angleterre, a découvert la planète Uranus en 1781 ?",
+      "choices": [
+        "Johann Galle",
+        "William Herschel",
+        "John Couch Adams",
+        "Giovanni Schiaparelli"
+      ],
+      "answer": 1,
+      "explication": "Il pensait d'abord avoir découvert une comète, avant de comprendre qu'il s'agissait d'une nouvelle planète.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/William_Herschel"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz d'astronomie ?",
+      "Le quiz comporte 8 questions faciles, 8 de niveau moyen et 4 questions expert. Il porte sur les étoiles, les galaxies, les constellations et l'histoire de l'astronomie. Le système solaire et l'exploration spatiale ont chacun leur quiz sur le site. Une courte explication suit chaque réponse."
+    ],
+    [
+      "Quelle est la différence entre une étoile et une planète ?",
+      "Une étoile produit sa propre lumière grâce aux réactions de fusion nucléaire en son cœur, comme le Soleil. Une planète ne brille pas par elle-même : elle réfléchit la lumière de son étoile. À l'œil nu, les planètes se reconnaissent car elles scintillent peu et se déplacent lentement d'une nuit à l'autre sur le fond d'étoiles."
+    ],
+    [
+      "Qu'est-ce qu'une constellation ?",
+      "Une constellation est une région du ciel, délimitée par convention, qui regroupe des étoiles formant une figure dans l'imaginaire des peuples. Les étoiles d'une même constellation sont souvent très éloignées les unes des autres. L'Union astronomique internationale a fixé en 1922 une liste officielle de 88 constellations couvrant tout le ciel."
+    ]
+  ],
+  "related": [
+    "/quiz-systeme-solaire",
+    "/quiz-espace",
+    "/quiz-physique",
+    "/quiz-sciences",
+    "/quiz-mythologie-grecque"
+  ],
+  "verified": "2026-11-13"
+}

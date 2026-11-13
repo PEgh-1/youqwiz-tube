@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-chocolat",
+  "theme": "culture",
+  "title": "Quiz chocolat : histoire du cacao et fabrication",
+  "description": "Quiz chocolat : 20 questions sur l'histoire du cacao, la fabrication, les grandes marques historiques et le vocabulaire du chocolat, avec explications.",
+  "h1": "Quiz chocolat : que sais-tu du cacao et de son histoire ?",
+  "intro": "Du cacaoyer des forêts tropicales à la tablette que tu croques, le chocolat a une histoire riche, faite d'inventions, de procédés et de grandes maisons. Ce quiz chocolat te propose 20 questions sur le cacao, sa fabrication, les marques historiques et le vocabulaire des chocolatiers, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait de plus. À faire seul, en famille ou entre amis, de préférence avec une tablette à portée de main. Prêt à décrocher le score parfait ?",
+  "questions": [
+    {
+      "q": "Quelle partie du cacaoyer sert de matière première à la fabrication du chocolat ?",
+      "choices": [
+        "La feuille",
+        "La fève de cacao",
+        "L'écorce",
+        "La racine"
+      ],
+      "answer": 1,
+      "explication": "Ces fèves sont les graines du fruit, enfermées dans une pulpe blanche et sucrée.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cacaoyer"
+    },
+    {
+      "q": "De quel continent le cacaoyer est-il originaire ?",
+      "choices": [
+        "L'Afrique",
+        "L'Asie",
+        "L'Océanie",
+        "L'Amérique"
+      ],
+      "answer": 3,
+      "explication": "Il est cultivé depuis des siècles en Amérique centrale ; aujourd'hui, une grande part du cacao mondial pousse en Afrique de l'Ouest.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cacaoyer"
+    },
+    {
+      "q": "Quelle marque de chocolat au lait a pour emblème une vache violette ?",
+      "choices": [
+        "Milka",
+        "Lindt",
+        "Côte d'Or",
+        "Poulain"
+      ],
+      "answer": 0,
+      "explication": "Cette vache violette, devenue très célèbre grâce à la publicité, identifie la marque sur ses emballages.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Milka"
+    },
+    {
+      "q": "Quel chocolat ne contient que du beurre de cacao, sans les autres matières sèches de la fève ?",
+      "choices": [
+        "Le chocolat noir",
+        "Le chocolat au lait",
+        "Le chocolat blanc",
+        "Le chocolat de couverture"
+      ],
+      "answer": 2,
+      "explication": "Il est composé de beurre de cacao, de sucre et de lait, ce qui lui donne sa couleur ivoire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chocolat_blanc"
+    },
+    {
+      "q": "Quelle entreprise italienne commercialise la pâte à tartiner Nutella depuis 1964 ?",
+      "choices": [
+        "Barilla",
+        "Ferrero",
+        "Lavazza",
+        "Perugina"
+      ],
+      "answer": 1,
+      "explication": "Fondée en 1946 à Alba, dans le Piémont, l'entreprise est aussi à l'origine des Ferrero Rocher.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nutella"
+    },
+    {
+      "q": "Quel Suisse invente le chocolat au lait en 1875, à Vevey ?",
+      "choices": [
+        "Daniel Peter",
+        "Rodolphe Lindt",
+        "Jean Tobler",
+        "Philippe Suchard"
+      ],
+      "answer": 0,
+      "explication": "Il y parvient en utilisant le lait condensé mis au point par son voisin Henri Nestlé.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Daniel_Peter"
+    },
+    {
+      "q": "À quelle fête les cloches apportent-elles, selon la tradition, des œufs en chocolat ?",
+      "choices": [
+        "À Noël",
+        "À l'Épiphanie",
+        "À la Chandeleur",
+        "À Pâques"
+      ],
+      "answer": 3,
+      "explication": "Selon la tradition, les cloches des églises partent à Rome le jeudi saint et reviennent le dimanche de Pâques.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pâques"
+    },
+    {
+      "q": "Que désigne le pourcentage de cacao inscrit sur une tablette de chocolat noir ?",
+      "choices": [
+        "La quantité de sucre",
+        "Le taux de matières grasses",
+        "La part d'ingrédients issus de la fève de cacao",
+        "La teneur en lait"
+      ],
+      "answer": 2,
+      "explication": "Il additionne la pâte de cacao et le beurre de cacao : une tablette à 70 % contient donc 30 % d'autres ingrédients, surtout du sucre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chocolat_noir"
+    },
+    {
+      "q": "Comment appelle-t-on la pâte obtenue en broyant les fèves de cacao torréfiées ?",
+      "choices": [
+        "La masse de cacao",
+        "Le pralin",
+        "Le gianduja",
+        "Le nappage"
+      ],
+      "answer": 0,
+      "explication": "Pressée, elle donne d'un côté le beurre de cacao, de l'autre la poudre de cacao.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chocolat"
+    },
+    {
+      "q": "Quel Suisse invente en 1879 la conche, qui rend le chocolat lisse et fondant ?",
+      "choices": [
+        "Daniel Peter",
+        "Rodolphe Lindt",
+        "Jean Tobler",
+        "Philippe Suchard"
+      ],
+      "answer": 1,
+      "explication": "Ce procédé consiste à malaxer longuement la pâte chaude ; il est toujours utilisé dans les chocolateries.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rodolphe_Lindt"
+    },
+    {
+      "q": "Quel Néerlandais dépose en 1828 un brevet pour une presse séparant le beurre de cacao de la poudre ?",
+      "choices": [
+        "Joseph Fry",
+        "John Cadbury",
+        "Coenraad van Houten",
+        "Daniel Peter"
+      ],
+      "answer": 2,
+      "explication": "Cette invention a rendu possible la poudre de cacao soluble, plus facile à boire que la pâte brute.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chocolat"
+    },
+    {
+      "q": "Comment appelle-t-on un chocolat riche en beurre de cacao, utilisé par les professionnels pour mouler et enrober ?",
+      "choices": [
+        "Le glaçage",
+        "Le fondant",
+        "Le nappage",
+        "La couverture"
+      ],
+      "answer": 3,
+      "explication": "Sa richesse en beurre de cacao le rend très fluide une fois fondu, ce qui permet de réaliser une couche fine.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chocolat"
+    },
+    {
+      "q": "Dans quelle ville britannique John Cadbury ouvre-t-il sa boutique en 1824 ?",
+      "choices": [
+        "Londres",
+        "Birmingham",
+        "Manchester",
+        "York"
+      ],
+      "answer": 1,
+      "explication": "Il y vend d'abord du thé, du café et du cacao, avant de se consacrer au chocolat.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cadbury"
+    },
+    {
+      "q": "Dans quelle commune de Seine-et-Marne se dresse l'ancienne usine Menier ?",
+      "choices": [
+        "Noisiel",
+        "Meaux",
+        "Melun",
+        "Provins"
+      ],
+      "answer": 0,
+      "explication": "Le Moulin Saulnier, bâti au-dessus de la Marne, est le bâtiment le plus emblématique de cette chocolaterie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chocolaterie_Menier"
+    },
+    {
+      "q": "Quelle variété de cacaoyer, rare et fragile, est réputée pour ses arômes délicats ?",
+      "choices": [
+        "Le forastero",
+        "Le robusta",
+        "Le criollo",
+        "L'arabica"
+      ],
+      "answer": 2,
+      "explication": "Le forastero, plus robuste et plus productif, est la variété la plus répandue ; le trinitario est un hybride des deux.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cacaoyer"
+    },
+    {
+      "q": "Quelle étape suit l'ouverture des cabosses, avant le séchage des fèves ?",
+      "choices": [
+        "La torréfaction",
+        "Le conchage",
+        "Le concassage",
+        "La fermentation"
+      ],
+      "answer": 3,
+      "explication": "Elle dure quelques jours et développe les précurseurs d'arômes ; la torréfaction n'intervient qu'après le séchage.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chocolat"
+    },
+    {
+      "q": "Quel chocolatier belge crée en 1912 la praline, un chocolat fourré ?",
+      "choices": [
+        "Jean Neuhaus",
+        "Pierre Marcolini",
+        "Joseph Draps",
+        "Léonidas Kestekides"
+      ],
+      "answer": 0,
+      "explication": "Jean Neuhaus, petit-fils du fondateur de la maison bruxelloise, invente cette coque de chocolat fourrée, à ne pas confondre avec la praline française faite d'amandes enrobées de sucre caramélisé.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Jean_Neuhaus_(1877-1953)"
+    },
+    {
+      "q": "Que signifie Theobroma, nom scientifique du cacaoyer donné par Linné en 1753 ?",
+      "choices": [
+        "« Arbre de vie »",
+        "« Nourriture des dieux »",
+        "« Fève d'or »",
+        "« Boisson amère »"
+      ],
+      "answer": 1,
+      "explication": "Le nom d'espèce, cacao, vient quant à lui d'un mot des langues mésoaméricaines.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Cacaoyer"
+    },
+    {
+      "q": "Quel pays d'Europe a le premier importé le cacao d'Amérique, au XVIe siècle ?",
+      "choices": [
+        "La France",
+        "Les Pays-Bas",
+        "L'Angleterre",
+        "L'Espagne"
+      ],
+      "answer": 3,
+      "explication": "Le chocolat y est d'abord bu chaud, sucré et parfumé, avant de se diffuser dans le reste de l'Europe.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Chocolat"
+    },
+    {
+      "q": "Quel Américain a fondé la ville de Hershey, en Pennsylvanie, autour de sa chocolaterie ?",
+      "choices": [
+        "Frank Mars",
+        "Henry Ford",
+        "Milton Hershey",
+        "Walt Disney"
+      ],
+      "answer": 2,
+      "explication": "Il crée la Hershey Chocolate Company en 1894 et bâtit la ville à partir de 1903 pour loger ses ouvriers.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Milton_S._Hershey"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz chocolat ?",
+      "Le quiz compte 20 questions : huit faciles sur les bases du cacao et des chocolats, huit de difficulté moyenne sur les procédés et les marques historiques, et quatre pour les experts. Chaque réponse est suivie d'une explication et d'un lien vers une page de référence qui confirme l'information."
+    ],
+    [
+      "D'où vient le chocolat ?",
+      "Le chocolat est né d'une boisson amère que des civilisations anciennes préparaient depuis très longtemps à partir de fèves de cacao. Elle a ensuite été sucrée et servie chaude en Europe. Le chocolat solide à croquer n'apparaît qu'au XIXe siècle, avec les progrès des machines et des procédés de fabrication."
+    ],
+    [
+      "Quelle différence y a-t-il entre chocolat noir et chocolat au lait ?",
+      "Le chocolat noir associe pâte de cacao, matière grasse du cacao et sucre. Le chocolat au lait y ajoute du lait, généralement en poudre, avec une part de cacao plus faible. Plus le pourcentage de cacao affiché est élevé, moins la tablette est sucrée."
+    ]
+  ],
+  "related": [
+    "/quiz-patisserie",
+    "/quiz-marques",
+    "/quiz-cuisine",
+    "/quiz-fromages",
+    "/quiz-histoire"
+  ],
+  "verified": "2026-11-13"
+}

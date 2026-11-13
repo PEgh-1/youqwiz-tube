@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-seigneur-des-anneaux",
+  "theme": "cinema",
+  "title": "Quiz Seigneur des anneaux : 20 questions",
+  "description": "Quiz Seigneur des anneaux : 20 questions sur les romans de Tolkien et les films de Peter Jackson, de la Comté au Mordor. Niveaux facile à expert.",
+  "h1": "Quiz Seigneur des anneaux : maîtrises-tu la Terre du Milieu ?",
+  "intro": "Hobbits, elfes, nains, magiciens et un anneau qui rend fou : l'univers imaginé par J. R. R. Tolkien fascine des générations de lecteurs et de spectateurs. Ce quiz Seigneur des anneaux te propose 20 questions mêlant les romans et les films de Peter Jackson, des plus accessibles aux plus pointues. Prévois environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail sur l'auteur, les personnages ou le tournage. Que tu sois un lecteur fidèle ou un fan de la trilogie, la Communauté t'attend.",
+  "questions": [
+    {
+      "q": "Quel écrivain britannique a écrit Le Seigneur des anneaux ?",
+      "choices": [
+        "C. S. Lewis",
+        "Roald Dahl",
+        "J. K. Rowling",
+        "J. R. R. Tolkien"
+      ],
+      "answer": 3,
+      "explication": "Il a aussi écrit Le Hobbit, qui se déroule dans le même univers.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/J._R._R._Tolkien"
+    },
+    {
+      "q": "Quel réalisateur a adapté Le Seigneur des anneaux au cinéma ?",
+      "choices": [
+        "Steven Spielberg",
+        "Peter Jackson",
+        "George Lucas",
+        "Ridley Scott"
+      ],
+      "answer": 1,
+      "explication": "Il a aussi réalisé la trilogie du Hobbit.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Peter_Jackson"
+    },
+    {
+      "q": "Quel est le nom du hobbit chargé de porter l'Anneau jusqu'au Mordor ?",
+      "choices": [
+        "Bilbon Sacquet",
+        "Peregrin Touque",
+        "Frodon Sacquet",
+        "Samsagace Gamegie"
+      ],
+      "answer": 2,
+      "explication": "Il hérite de l'Anneau de son oncle Bilbon, héros du roman Le Hobbit.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Frodon_Sacquet"
+    },
+    {
+      "q": "Quel est le nom du magicien à la barbe grise qui accompagne la Communauté ?",
+      "choices": [
+        "Gandalf",
+        "Saroumane",
+        "Radagast",
+        "Merlin"
+      ],
+      "answer": 0,
+      "explication": "Gandalf est l'un des Istari, ces magiciens envoyés en Terre du Milieu.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Gandalf"
+    },
+    {
+      "q": "Comment s'appelle la région paisible où vivent les hobbits ?",
+      "choices": [
+        "Le Gondor",
+        "Le Rohan",
+        "Le Mordor",
+        "La Comté"
+      ],
+      "answer": 3,
+      "explication": "Elle est inspirée des campagnes anglaises que Tolkien connaissait bien.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Seigneur_des_anneaux"
+    },
+    {
+      "q": "Dans quel pays ont été tournés les trois films ?",
+      "choices": [
+        "L'Irlande",
+        "L'Australie",
+        "La Nouvelle-Zélande",
+        "Le Canada"
+      ],
+      "answer": 2,
+      "explication": "Le pays est devenu une destination touristique populaire après la sortie des films.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Seigneur_des_anneaux"
+    },
+    {
+      "q": "Combien de films compte la trilogie du Seigneur des anneaux ?",
+      "choices": [
+        "Deux",
+        "Trois",
+        "Quatre",
+        "Six"
+      ],
+      "answer": 1,
+      "explication": "Ils sortent à un an d'intervalle, de 2001 à 2003.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Seigneur_des_anneaux"
+    },
+    {
+      "q": "Comment s'appelle la créature obsédée par l'Anneau, que Frodon rencontre sur sa route ?",
+      "choices": [
+        "Gollum",
+        "Smaug",
+        "Sylvebarbe",
+        "Grima"
+      ],
+      "answer": 0,
+      "explication": "Son vrai nom, avant qu'il ne soit corrompu, est Sméagol.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Gollum"
+    },
+    {
+      "q": "Quel acteur britannique incarne Gandalf dans les films de Peter Jackson ?",
+      "choices": [
+        "Patrick Stewart",
+        "Anthony Hopkins",
+        "Ian McKellen",
+        "Michael Gambon"
+      ],
+      "answer": 2,
+      "explication": "Il a aussi repris le rôle dans la trilogie du Hobbit.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ian_McKellen"
+    },
+    {
+      "q": "Combien de membres compte la Communauté de l'Anneau ?",
+      "choices": [
+        "Sept",
+        "Huit",
+        "Douze",
+        "Neuf"
+      ],
+      "answer": 3,
+      "explication": "Neuf marcheurs sont choisis pour s'opposer aux neuf Cavaliers noirs.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Seigneur_des_anneaux"
+    },
+    {
+      "q": "Comment s'appelle le refuge des elfes dirigé par Elrond ?",
+      "choices": [
+        "Fondcombe",
+        "Lothlórien",
+        "Minas Tirith",
+        "Isengard"
+      ],
+      "answer": 0,
+      "explication": "Fondcombe est une vallée cachée où se tient le grand conseil qui décide du sort de l'Anneau.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Seigneur_des_anneaux"
+    },
+    {
+      "q": "Quel compositeur a écrit la musique des trois films ?",
+      "choices": [
+        "John Williams",
+        "Howard Shore",
+        "Hans Zimmer",
+        "James Horner"
+      ],
+      "answer": 1,
+      "explication": "Sa partition pour le premier film a été récompensée par un Oscar en 2002.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Howard_Shore"
+    },
+    {
+      "q": "Combien d'Oscars Le Retour du roi a-t-il remportés en 2004 ?",
+      "choices": [
+        "Cinq",
+        "Sept",
+        "Onze",
+        "Neuf"
+      ],
+      "answer": 2,
+      "explication": "Le film a remporté toutes les catégories pour lesquelles il était nommé.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Seigneur_des_anneaux_:_Le_Retour_du_roi"
+    },
+    {
+      "q": "Quelle sorte de créature est Sylvebarbe ?",
+      "choices": [
+        "Un Ent",
+        "Un nain",
+        "Un elfe",
+        "Un troll"
+      ],
+      "answer": 0,
+      "explication": "Les Ents sont des arbres vivants, gardiens de la forêt de Fangorn.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Seigneur_des_anneaux"
+    },
+    {
+      "q": "En quelle année Le Hobbit est-il publié pour la première fois ?",
+      "choices": [
+        "1925",
+        "1954",
+        "1966",
+        "1937"
+      ],
+      "answer": 3,
+      "explication": "Tolkien l'a d'abord écrit pour ses enfants avant de le publier.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Hobbit"
+    },
+    {
+      "q": "Comment s'appelle le cheval de Gandalf, le plus rapide des chevaux du Rohan ?",
+      "choices": [
+        "Rôdeur",
+        "Gripoil",
+        "Bill",
+        "Hasufel"
+      ],
+      "answer": 1,
+      "explication": "Gripoil est le chef des Mearas, la lignée des chevaux les plus prestigieux du Rohan.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Gandalf"
+    },
+    {
+      "q": "Quel livre de Tolkien est publié à titre posthume en 1977 ?",
+      "choices": [
+        "Le Hobbit",
+        "Les Deux Tours",
+        "Le Silmarillion",
+        "Les Aventures de Tom Bombadil"
+      ],
+      "answer": 2,
+      "explication": "Son fils Christopher a mis en forme les récits des Premiers Âges de la Terre du Milieu.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Silmarillion"
+    },
+    {
+      "q": "Quel acteur a incarné Gollum grâce à la capture de mouvement ?",
+      "choices": [
+        "Elijah Wood",
+        "Sean Astin",
+        "Christopher Lee",
+        "Andy Serkis"
+      ],
+      "answer": 3,
+      "explication": "Sa performance a servi de base à l'animation numérique du personnage.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Andy_Serkis"
+    },
+    {
+      "q": "Dans quel pays est né J. R. R. Tolkien ?",
+      "choices": [
+        "L'Angleterre",
+        "L'Afrique du Sud",
+        "L'Écosse",
+        "La Nouvelle-Zélande"
+      ],
+      "answer": 1,
+      "explication": "Il est né à Bloemfontein en 1892, avant de s'installer en Angleterre enfant.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/J._R._R._Tolkien"
+    },
+    {
+      "q": "Dans quelle université britannique Tolkien a-t-il enseigné pendant de nombreuses années ?",
+      "choices": [
+        "Oxford",
+        "Cambridge",
+        "Édimbourg",
+        "Durham"
+      ],
+      "answer": 0,
+      "explication": "Il y a été professeur d'anglo-saxon, puis de langue et de littérature anglaises.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Université_d'Oxford"
+    }
+  ],
+  "faq": [
+    [
+      "Ce quiz porte-t-il sur les livres ou sur les films ?",
+      "Il mêle les deux : certaines questions concernent les romans de J. R. R. Tolkien et leur auteur, d'autres les films de Peter Jackson sortis de 2001 à 2003. Les niveaux vont de facile à expert, avec 8 questions faciles, 8 moyennes et 4 expertes, et une explication après chaque réponse."
+    ],
+    [
+      "Quand Le Seigneur des anneaux a-t-il été publié ?",
+      "Le roman a été publié en trois volumes entre 1954 et 1955 : La Communauté de l'Anneau, Les Deux Tours puis Le Retour du roi. Il fait suite au Hobbit, paru en 1937. L'ensemble a été écrit par Tolkien, professeur à l'université d'Oxford, spécialiste des langues et de la littérature médiévales."
+    ],
+    [
+      "Où ont été tournés les films de Peter Jackson ?",
+      "Les trois films ont été tournés en Nouvelle-Zélande, pays natal du réalisateur, dans des paysages très variés : montagnes, plaines, forêts et volcans. Le tournage des trois films a été réalisé d'un seul bloc, sur plus d'un an, et les films sont sortis en décembre 2001, 2002 et 2003, à un an d'intervalle."
+    ]
+  ],
+  "related": [
+    "/quiz-game-of-thrones",
+    "/quiz-harry-potter",
+    "/quiz-films",
+    "/quiz-litterature",
+    "/quiz-mythologie-grecque"
+  ],
+  "verified": "2026-11-13"
+}

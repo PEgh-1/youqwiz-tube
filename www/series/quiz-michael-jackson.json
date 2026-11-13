@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-michael-jackson",
+  "theme": "musique",
+  "title": "Quiz Michael Jackson : carrière et albums",
+  "description": "Quiz Michael Jackson : 20 questions sur sa carrière, ses albums, ses clips et ses dates clés, de l'enfance aux derniers projets. Facile à expert.",
+  "h1": "Quiz Michael Jackson : que sais-tu de la carrière du roi de la pop ?",
+  "intro": "Des débuts d'enfant star aux albums devenus légendaires, la carrière de Michael Jackson regorge de dates et d'anecdotes musicales. Ce quiz te propose 20 questions sur ses disques, ses clips, ses collaborations et ses grands moments sur scène, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait supplémentaire. Aucune parole à retrouver, seulement des faits datés. Fan de longue date ou simple curieux, lance-toi seul ou en famille et vois si tu décroches le score parfait !",
+  "questions": [
+    {
+      "q": "Dans quel groupe familial Michael Jackson débute-t-il, enfant ?",
+      "choices": [
+        "The Osmonds",
+        "The Jackson 5",
+        "The Temptations",
+        "The Supremes"
+      ],
+      "answer": 1,
+      "explication": "Le groupe, formé avec ses frères, signe chez Motown en 1968.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Jackson_5"
+    },
+    {
+      "q": "Quel album de Michael Jackson sort en 1982 et contient Beat It et Billie Jean ?",
+      "choices": [
+        "Bad",
+        "Dangerous",
+        "Off the Wall",
+        "Thriller"
+      ],
+      "answer": 3,
+      "explication": "Il sort à la fin du mois de novembre 1982.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Thriller_(album)"
+    },
+    {
+      "q": "Quel pas de danse présente-t-il à la télévision en 1983, lors du spectacle anniversaire Motown 25 ?",
+      "choices": [
+        "Le moonwalk",
+        "Le twist",
+        "Le charleston",
+        "Le robot"
+      ],
+      "answer": 0,
+      "explication": "Il l'exécute sur Billie Jean, dans une émission diffusée en mai 1983.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Jackson"
+    },
+    {
+      "q": "Dans quelle ville de l'Indiana Michael Jackson est-il né, en 1958 ?",
+      "choices": [
+        "Indianapolis",
+        "Detroit",
+        "Gary",
+        "Chicago"
+      ],
+      "answer": 2,
+      "explication": "Il est le huitième d'une famille de dix enfants.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Jackson"
+    },
+    {
+      "q": "Quel album, sorti en 1987, est le successeur de Thriller ?",
+      "choices": [
+        "Dangerous",
+        "Off the Wall",
+        "Bad",
+        "HIStory"
+      ],
+      "answer": 2,
+      "explication": "Cinq de ses titres atteignent la première place du Billboard Hot 100 aux États-Unis.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Bad_(album)"
+    },
+    {
+      "q": "Quel réalisateur du film Le Loup-garou de Londres signe le clip de Thriller ?",
+      "choices": [
+        "John Landis",
+        "Martin Scorsese",
+        "Steven Spielberg",
+        "Tim Burton"
+      ],
+      "answer": 0,
+      "explication": "Le clip dure près de quatorze minutes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/John_Landis"
+    },
+    {
+      "q": "Avec quel chanteur Michael Jackson co-écrit-il We Are the World, enregistré en 1985 ?",
+      "choices": [
+        "Stevie Wonder",
+        "Prince",
+        "Diana Ross",
+        "Lionel Richie"
+      ],
+      "answer": 3,
+      "explication": "Le titre est enregistré par des dizaines d'artistes réunis sous le nom USA for Africa, pour lutter contre la famine en Éthiopie.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/We_Are_the_World"
+    },
+    {
+      "q": "Quel producteur travaille avec lui sur trois de ses albums les plus célèbres, de la fin des années 1970 à la fin des années 1980 ?",
+      "choices": [
+        "Berry Gordy",
+        "Quincy Jones",
+        "Phil Spector",
+        "Nile Rodgers"
+      ],
+      "answer": 1,
+      "explication": "Il produit aussi le single We Are the World en 1985.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Quincy_Jones"
+    },
+    {
+      "q": "Quel album de Michael Jackson sort en 1979 ?",
+      "choices": [
+        "Thriller",
+        "Bad",
+        "Dangerous",
+        "Off the Wall"
+      ],
+      "answer": 3,
+      "explication": "C'est son cinquième album solo.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Off_the_Wall_(album)"
+    },
+    {
+      "q": "Dans quel film musical de 1978 joue-t-il l'Épouvantail ?",
+      "choices": [
+        "Grease",
+        "The Wiz",
+        "Fame",
+        "La Fièvre du samedi soir"
+      ],
+      "answer": 1,
+      "explication": "Diana Ross y tient le rôle principal de Dorothy.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Jackson"
+    },
+    {
+      "q": "Quel album de 1991 contient Black or White ?",
+      "choices": [
+        "Dangerous",
+        "HIStory",
+        "Invincible",
+        "Bad"
+      ],
+      "answer": 0,
+      "explication": "Le clip de ce titre est célèbre pour ses visages qui se transforment par morphing.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dangerous_(album_de_Michael_Jackson)"
+    },
+    {
+      "q": "Lors de quel événement sportif assure-t-il le spectacle de la mi-temps en 1993 ?",
+      "choices": [
+        "L'US Open de tennis",
+        "Les Jeux olympiques de Barcelone",
+        "Le Super Bowl",
+        "Le Tour de France"
+      ],
+      "answer": 2,
+      "explication": "Cette édition, la XXVII, se joue au Rose Bowl de Pasadena en janvier 1993.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Super_Bowl_XXVII"
+    },
+    {
+      "q": "Quel album de 1995 associe un disque de succès et un disque de nouveautés ?",
+      "choices": [
+        "HIStory",
+        "Dangerous",
+        "Invincible",
+        "Bad"
+      ],
+      "answer": 0,
+      "explication": "Son titre complet est HIStory: Past, Present and Future, Book I.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Jackson"
+    },
+    {
+      "q": "Quel album de 2001 est le dernier album studio publié de son vivant ?",
+      "choices": [
+        "HIStory",
+        "Dangerous",
+        "Invincible",
+        "Blood on the Dance Floor"
+      ],
+      "answer": 2,
+      "explication": "Il contient le single You Rock My World.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Invincible_(album_de_Michael_Jackson)"
+    },
+    {
+      "q": "Quel titre sorti en 1969 devient le premier numéro un du groupe familial de ses débuts aux États-Unis ?",
+      "choices": [
+        "ABC",
+        "I Want You Back",
+        "I'll Be There",
+        "Rockin' Robin"
+      ],
+      "answer": 1,
+      "explication": "Leurs quatre premiers singles atteignent tous la première place du Billboard Hot 100.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Jackson_5"
+    },
+    {
+      "q": "Avec quel ancien Beatle enregistre-t-il en 1982 le duo The Girl Is Mine ?",
+      "choices": [
+        "John Lennon",
+        "George Harrison",
+        "Ringo Starr",
+        "Paul McCartney"
+      ],
+      "answer": 3,
+      "explication": "Ils enregistrent ensuite Say Say Say, sorti en 1983.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Jackson"
+    },
+    {
+      "q": "Quel film de 1988 réunit des courts métrages musicaux avec Michael Jackson ?",
+      "choices": [
+        "Captain EO",
+        "Ghosts",
+        "Moonwalker",
+        "Michael Jackson's Vision"
+      ],
+      "answer": 2,
+      "explication": "Il contient notamment le clip de Smooth Criminal.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Moonwalker"
+    },
+    {
+      "q": "En 1985, Michael Jackson rachète un catalogue d'éditions musicales contenant des chansons de quel groupe ?",
+      "choices": [
+        "The Beatles",
+        "The Rolling Stones",
+        "Queen",
+        "ABBA"
+      ],
+      "answer": 0,
+      "explication": "L'acquisition du catalogue ATV Music est chiffrée à 47,5 millions de dollars.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Jackson"
+    },
+    {
+      "q": "Combien de Grammy Awards remporte-t-il lors de la cérémonie de février 1984 ?",
+      "choices": [
+        "Quatre",
+        "Six",
+        "Dix",
+        "Huit"
+      ],
+      "answer": 3,
+      "explication": "Thriller y remporte le Grammy de l'album de l'année.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Thriller_(album)"
+    },
+    {
+      "q": "Quel film sorti en octobre 2009 est tiré des répétitions d'une série de concerts prévue à Londres ?",
+      "choices": [
+        "Live in Bucharest",
+        "This Is It",
+        "Number Ones",
+        "Invincible Tour"
+      ],
+      "answer": 1,
+      "explication": "Le film est réalisé par Kenny Ortega.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Michael_Jackson's_This_Is_It"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur Michael Jackson ?",
+      "Le quiz est progressif : huit questions faciles sur ses succès les plus connus, huit questions moyennes sur ses albums et ses dates, puis quatre questions expert pour les vrais fans. Chaque réponse est suivie d'une explication qui apporte un fait supplémentaire."
+    ],
+    [
+      "Combien d'albums studio Michael Jackson a-t-il publiés chez Epic ?",
+      "Michael Jackson publie six albums studio chez Epic Records, entre la fin des années 1970 et le début des années 2000, après plusieurs albums solo enregistrés chez Motown dans les années 1970. Ce quiz en aborde plusieurs, avec leurs singles et leurs clips les plus célèbres."
+    ],
+    [
+      "Pourquoi surnomme-t-on Michael Jackson le roi de la pop ?",
+      "Ce surnom, associé à lui depuis les années 1980, résume son influence sur la musique populaire : albums à très grand succès, clips conçus comme de petits films et spectacles scéniques très travaillés."
+    ]
+  ],
+  "related": [
+    "/quiz-musique",
+    "/quiz-rock",
+    "/quiz-kpop",
+    "/quiz-chanson-francaise",
+    "/quiz-cinema"
+  ],
+  "verified": "2026-11-13"
+}

@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-tables-de-multiplication",
+  "theme": "sciences",
+  "title": "Quiz tables de multiplication : 20 questions",
+  "description": "Quiz tables de multiplication pour enfants : 20 calculs de la table de 2 à la table de 12, avec une astuce de calcul après chaque réponse.",
+  "h1": "Quiz tables de multiplication : es-tu un champion des tables de 2 à 12 ?",
+  "intro": "Les tables de multiplication sont la base de tout le calcul, et les connaître par cœur change vraiment la vie ! Ce quiz te propose 20 questions de la table de 2 à la table de 12, des plus simples aux plus coquines. Certaines demandent un résultat, d'autres un nombre manquant, d'autres encore un petit problème avec des œufs. Après chaque réponse, une astuce te montre comment retrouver le résultat sans le réciter. Réponds vite, mais sans te précipiter, et recommence jusqu'au score parfait. À toi de jouer !",
+  "questions": [
+    {
+      "q": "Combien font 2 × 7 ?",
+      "choices": [
+        "14",
+        "12",
+        "16",
+        "21"
+      ],
+      "answer": 0,
+      "explication": "Multiplier par 2, c'est doubler : 7 + 7 = 14. Tous les résultats de la table de 2 sont des nombres pairs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 3 × 4 ?",
+      "choices": [
+        "7",
+        "12",
+        "10",
+        "14"
+      ],
+      "answer": 1,
+      "explication": "La multiplication est commutative : 3 × 4 = 4 × 3, on peut donc choisir l'ordre le plus facile pour calculer.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 5 × 8 ?",
+      "choices": [
+        "35",
+        "45",
+        "48",
+        "40"
+      ],
+      "answer": 3,
+      "explication": "Les résultats de la table de 5 se terminent toujours par 0 ou par 5.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 4 × 6 ?",
+      "choices": [
+        "20",
+        "24",
+        "26",
+        "28"
+      ],
+      "answer": 1,
+      "explication": "Multiplier par 4, c'est doubler deux fois de suite : 6 devient 12, puis 24.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 10 × 9 ?",
+      "choices": [
+        "90",
+        "19",
+        "99",
+        "100"
+      ],
+      "answer": 0,
+      "explication": "Pour multiplier un nombre entier par 10, on écrit simplement un zéro à sa droite.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 3 × 9 ?",
+      "choices": [
+        "24",
+        "36",
+        "21",
+        "27"
+      ],
+      "answer": 3,
+      "explication": "Dans la table de 3, la somme des chiffres de chaque résultat est toujours un multiple de 3 : ici 2 + 7 = 9.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 6 × 5 ?",
+      "choices": [
+        "30",
+        "25",
+        "35",
+        "36"
+      ],
+      "answer": 0,
+      "explication": "Sur une horloge, on compte de 5 en 5 : six pas depuis le 12 mènent à 30 minutes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Quel nombre manque dans 4 × ? = 32 ?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "explication": "On cherche 32 ÷ 4 = 8 : la division est l'opération inverse de la multiplication.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 6 × 7 ?",
+      "choices": [
+        "36",
+        "48",
+        "49",
+        "42"
+      ],
+      "answer": 3,
+      "explication": "Astuce : 6 × 7 = 6 × 6 + 6, soit 36 + 6.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 8 × 8 ?",
+      "choices": [
+        "64",
+        "56",
+        "72",
+        "81"
+      ],
+      "answer": 0,
+      "explication": "Le résultat 64 est un carré parfait, comme 49 ou 100 : 8 × 8 s'écrit aussi 8².",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 9 × 6 ?",
+      "choices": [
+        "56",
+        "54",
+        "45",
+        "63"
+      ],
+      "answer": 1,
+      "explication": "Dans la table de 9, la somme des chiffres de chaque résultat jusqu'à 9 × 10 vaut 9 : ici 5 + 4 = 9.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 11 × 7 ?",
+      "choices": [
+        "71",
+        "87",
+        "84",
+        "77"
+      ],
+      "answer": 3,
+      "explication": "Pour multiplier un chiffre par 11, jusqu'à 9, on répète ce chiffre : 7 × 11 = 77.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Une boîte contient 6 œufs. Combien d'œufs y a-t-il dans 8 boîtes ?",
+      "choices": [
+        "42",
+        "48",
+        "54",
+        "14"
+      ],
+      "answer": 1,
+      "explication": "Le résultat 48 correspond à 4 douzaines, car 6 × 8 = 12 × 4.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Quel nombre manque dans 9 × ? = 81 ?",
+      "choices": [
+        "8",
+        "10",
+        "9",
+        "7"
+      ],
+      "answer": 2,
+      "explication": "Le résultat 81 est aussi 9² ; comme 8 + 1 = 9, il respecte l'astuce de la table de 9.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 12 × 5 ?",
+      "choices": [
+        "50",
+        "65",
+        "70",
+        "60"
+      ],
+      "answer": 3,
+      "explication": "Le cadran d'une horloge compte 12 intervalles de 5 minutes, soit 60 minutes en tout.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien d'œufs y a-t-il dans 7 douzaines ?",
+      "choices": [
+        "72",
+        "82",
+        "84",
+        "96"
+      ],
+      "answer": 2,
+      "explication": "On achète encore les œufs à la douzaine, car 12 se partage facilement en 2, 3, 4 ou 6 parts égales.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 11 × 11 ?",
+      "choices": [
+        "111",
+        "121",
+        "112",
+        "131"
+      ],
+      "answer": 1,
+      "explication": "Le résultat 121 est le carré de 11, et il se lit de la même façon dans les deux sens.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 12 × 8 ?",
+      "choices": [
+        "96",
+        "86",
+        "88",
+        "104"
+      ],
+      "answer": 0,
+      "explication": "Astuce : 12 × 8 = 12 × 10 − 12 × 2, soit 120 − 24. Le résultat correspond à huit douzaines.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Combien font 12 × 11 ?",
+      "choices": [
+        "122",
+        "132",
+        "121",
+        "144"
+      ],
+      "answer": 1,
+      "explication": "Astuce : 12 × 11 = 12 × 10 + 12, soit 120 + 12.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    },
+    {
+      "q": "Quel nombre manque dans 12 × ? = 108 ?",
+      "choices": [
+        "8",
+        "10",
+        "9",
+        "11"
+      ],
+      "answer": 2,
+      "explication": "On trouve 108 ÷ 12 = 9, ou bien 12 × 10 − 12 = 120 − 12 = 108.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Table_de_multiplication"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les tables de multiplication ?",
+      "Il est pensé pour les enfants qui apprennent ou révisent leurs tables. Les huit premières questions utilisent des tables simples, comme 2, 3, 4, 5 et 10. Les huit suivantes touchent aux tables de 6 à 12, et les quatre dernières font appel aux tables de 11 et de 12, plus longues à retenir."
+    ],
+    [
+      "Pourquoi 7 × 8 donne-t-il le même résultat que 8 × 7 ?",
+      "C'est la commutativité de la multiplication : l'ordre des deux nombres n'a pas d'importance. Concrètement, 7 rangées de 8 objets contiennent autant d'objets que 8 rangées de 7. Cette règle réduit beaucoup le travail : si tu connais 7 × 8 = 56, tu connais aussi 8 × 7."
+    ],
+    [
+      "Existe-t-il une astuce pour la table de 9 ?",
+      "Oui, il y en a deux. Pour les résultats de 9 × 1 à 9 × 10, la somme des chiffres du résultat vaut toujours 9 : 9 × 4 = 36, et 3 + 6 = 9. De plus, le chiffre des dizaines augmente de 1 à chaque ligne, tandis que celui des unités diminue de 1."
+    ]
+  ],
+  "related": [
+    "/quiz-calcul-mental",
+    "/quiz-cm2",
+    "/quiz-mathematiques",
+    "/quiz-logique"
+  ],
+  "verified": "2026-11-13"
+}

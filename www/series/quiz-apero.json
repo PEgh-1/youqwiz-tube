@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-apero",
+  "theme": "culture",
+  "title": "Quiz apéro : culture générale entre amis",
+  "description": "Quiz apéro : 20 questions insolites mais vraies, sur tous les thèmes, pour animer une soirée entre amis, avec une explication après chaque réponse.",
+  "h1": "Quiz apéro : 20 questions pour briller entre amis",
+  "intro": "Un petit quiz pour animer ta soirée entre amis, sans prise de tête mais avec quelques surprises. Ce quiz apéro mélange 20 questions de culture générale légère, insolites mais toutes vraies : inventions, mots, géographie, sciences, jeux, un peu de tout. Les premières sont accessibles, les dernières demandent un peu de flair. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait amusant à raconter ensuite. À faire seul, en famille ou à plusieurs, en comparant vos scores à la fin.",
+  "questions": [
+    {
+      "q": "Quel mot japonais, formé de « vide » et d'« orchestre », désigne le divertissement où l'on chante sur un fond musical ?",
+      "choices": [
+        "Karaoké",
+        "Manga",
+        "Haïku",
+        "Origami"
+      ],
+      "answer": 0,
+      "explication": "Le mot associe kara, « vide », et oke, abréviation de okesutora, « orchestre ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Karaoké"
+    },
+    {
+      "q": "Comment appelle-t-on la peur des clowns ?",
+      "choices": [
+        "L'arachnophobie",
+        "L'acrophobie",
+        "La coulrophobie",
+        "La claustrophobie"
+      ],
+      "answer": 2,
+      "explication": "Le mot est formé du grec « phobos », la peur, comme arachnophobie ou claustrophobie.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Coulrophobie"
+    },
+    {
+      "q": "Quelle est la couleur réelle des « boîtes noires » d'un avion ?",
+      "choices": [
+        "Noire",
+        "Bleue",
+        "Verte",
+        "Orange"
+      ],
+      "answer": 3,
+      "explication": "Cette teinte vive les rend plus faciles à repérer dans les débris après un accident.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Enregistreur_de_vol"
+    },
+    {
+      "q": "De quel titre noble britannique le sandwich tire-t-il son nom ?",
+      "choices": [
+        "Le duc de York",
+        "Le comte de Sandwich",
+        "Le baron de Londres",
+        "Le marquis de Bath"
+      ],
+      "answer": 1,
+      "explication": "Ce nom vient d'un aristocrate anglais du XVIIIe siècle ; Sandwich est aussi une petite ville du Kent.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sandwich"
+    },
+    {
+      "q": "Dans quel pays est né le tennis de table, d'abord un jeu de salon ?",
+      "choices": [
+        "Au Royaume-Uni",
+        "Au Japon",
+        "En Chine",
+        "Aux États-Unis"
+      ],
+      "answer": 0,
+      "explication": "Il se pratique dès la fin du XIXe siècle, d'abord avec des balles en liège ou en celluloïd.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tennis_de_table"
+    },
+    {
+      "q": "En quelle année Apple présente-t-il le tout premier iPhone ?",
+      "choices": [
+        "2003",
+        "2005",
+        "2010",
+        "2007"
+      ],
+      "answer": 3,
+      "explication": "Steve Jobs le dévoile le 9 janvier 2007 à San Francisco ; il est mis en vente à partir de juin.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/IPhone"
+    },
+    {
+      "q": "Que signifie le sigle SMS ?",
+      "choices": [
+        "Smart Mobile Signal",
+        "Simple Mail System",
+        "Short Message Service",
+        "Sound Message Standard"
+      ],
+      "answer": 2,
+      "explication": "Le premier SMS de l'histoire est envoyé en décembre 1992, au Royaume-Uni.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Short_Message_Service"
+    },
+    {
+      "q": "Quelle forme géométrique a un panneau « Stop » ?",
+      "choices": [
+        "Un hexagone",
+        "Un octogone",
+        "Un pentagone",
+        "Un cercle"
+      ],
+      "answer": 1,
+      "explication": "Aucun autre panneau routier courant n'a cette forme à huit côtés, ce qui le distingue au premier coup d'œil.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Panneau_stop"
+    },
+    {
+      "q": "Quelle entreprise américaine a inventé le Post-it ?",
+      "choices": [
+        "Xerox",
+        "IBM",
+        "Kodak",
+        "3M"
+      ],
+      "answer": 3,
+      "explication": "Il repose sur une colle peu adhésive découverte par Spencer Silver en 1968 ; le produit est commercialisé dans les années 1980.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Post-it"
+    },
+    {
+      "q": "De quel pays Ernő Rubik, l'inventeur du Rubik's Cube, est-il originaire ?",
+      "choices": [
+        "La Hongrie",
+        "La Pologne",
+        "L'Autriche",
+        "La Bulgarie"
+      ],
+      "answer": 0,
+      "explication": "Il invente son cube en 1974 à Budapest, d'abord comme outil pour enseigner la géométrie dans l'espace.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rubik's_Cube"
+    },
+    {
+      "q": "Pourquoi la tour Eiffel peut-elle gagner plusieurs centimètres de hauteur en été ?",
+      "choices": [
+        "Parce que ses antennes s'allongent",
+        "Parce que le métal se dilate sous la chaleur",
+        "Parce que le vent la soulève",
+        "Parce que sa peinture épaissit"
+      ],
+      "answer": 1,
+      "explication": "La variation de hauteur entre l'hiver et l'été peut atteindre une quinzaine de centimètres.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tour_Eiffel"
+    },
+    {
+      "q": "Parmi ces fruits, lequel est une baie au sens botanique ?",
+      "choices": [
+        "La fraise",
+        "La framboise",
+        "La banane",
+        "La mûre"
+      ],
+      "answer": 2,
+      "explication": "La fraise, la framboise et la mûre sont en réalité des fruits agrégés, et non des baies.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Banane"
+    },
+    {
+      "q": "Sur quoi repose l'essentiel des bâtiments de Venise ?",
+      "choices": [
+        "Sur des pieux de bois enfoncés dans la lagune",
+        "Sur des dalles de béton",
+        "Sur des îlots de roche",
+        "Sur des coques de navires"
+      ],
+      "answer": 0,
+      "explication": "Ces pieux, enfoncés jusqu'à une couche d'argile compacte, supportent les fondations depuis des siècles.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Venise"
+    },
+    {
+      "q": "Quel immense pays applique officiellement une seule heure sur tout son territoire ?",
+      "choices": [
+        "La Russie",
+        "Le Brésil",
+        "Les États-Unis",
+        "La Chine"
+      ],
+      "answer": 3,
+      "explication": "Large de plus de 5 000 kilomètres d'est en ouest, la Chine suit partout l'heure de Pékin.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Fuseau_horaire"
+    },
+    {
+      "q": "Que désigne exactement le nom « Big Ben » ?",
+      "choices": [
+        "Le cadran de l'horloge",
+        "La grande cloche de la tour",
+        "Le palais de Westminster",
+        "Le pont voisin"
+      ],
+      "answer": 1,
+      "explication": "La tour qui abrite la cloche a été rebaptisée Elizabeth Tower en 2012.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Big_Ben"
+    },
+    {
+      "q": "Quelle petite république, entièrement enclavée en Italie, se dit la plus ancienne du monde ?",
+      "choices": [
+        "Andorre",
+        "Monaco",
+        "Saint-Marin",
+        "Le Liechtenstein"
+      ],
+      "answer": 2,
+      "explication": "Sa fondation est traditionnellement fixée à l'an 301.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Saint-Marin"
+    },
+    {
+      "q": "Sur quelle planète une rotation complète dure-t-elle plus longtemps qu'une révolution autour du Soleil ?",
+      "choices": [
+        "Mercure",
+        "Mars",
+        "Jupiter",
+        "Vénus"
+      ],
+      "answer": 3,
+      "explication": "Vénus met environ 243 jours terrestres à tourner sur elle-même, contre 225 pour faire le tour du Soleil, et dans le sens rétrograde.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Vénus_(planète)"
+    },
+    {
+      "q": "Quelle ville ouvre en 1863 la première ligne de métro du monde ?",
+      "choices": [
+        "Londres",
+        "Paris",
+        "New York",
+        "Berlin"
+      ],
+      "answer": 0,
+      "explication": "Cette ligne, la Metropolitan Railway, relie Paddington à Farringdon et fonctionne d'abord à la vapeur.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Métro_de_Londres"
+    },
+    {
+      "q": "Quelle pièce de théâtre tchèque de 1920 a popularisé le mot « robot » ?",
+      "choices": [
+        "Metropolis",
+        "Frankenstein",
+        "R.U.R.",
+        "Le Golem"
+      ],
+      "answer": 2,
+      "explication": "Son auteur, Karel Čapek, en attribue le mot à son frère Josef ; il vient de robota, « travail forcé » en tchèque.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/R.U.R."
+    },
+    {
+      "q": "Dans quelle ville le jeu vidéo Tetris a-t-il été conçu en 1984 ?",
+      "choices": [
+        "À Tokyo",
+        "À Moscou",
+        "À San Francisco",
+        "À Berlin"
+      ],
+      "answer": 1,
+      "explication": "Son créateur, Alexeï Pajitnov, le programme alors qu'il travaille dans un centre de recherche soviétique.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Tetris"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz apéro ?",
+      "Le quiz compte 20 questions : huit faciles pour se mettre dans l'ambiance, huit de difficulté moyenne et quatre plus pointues pour départager les amis. Les sujets sont variés : inventions, langue, géographie, sciences, jeux. Chaque réponse est suivie d'une explication et d'un lien vers une page de référence."
+    ],
+    [
+      "Comment organiser ce quiz entre amis ?",
+      "Une personne lit chaque question à voix haute, avec les quatre propositions. Chacun note sa réponse sur un papier ou la donne à l'oral, puis on compare avec le corrigé. Un point par bonne réponse suffit pour établir un classement. On peut aussi jouer par équipes, et lire l'explication à haute voix pour partager l'anecdote."
+    ],
+    [
+      "Les réponses de ce quiz sont-elles vérifiées ?",
+      "Oui. Les questions ne portent que sur des faits établis et datés, sans classement ni record susceptible de changer. Sous chaque explication, un lien renvoie vers une page de référence qui confirme la réponse. La date de dernière vérification est indiquée au-dessus du corrigé, pour savoir si l'information a été contrôlée récemment."
+    ]
+  ],
+  "related": [
+    "/quiz-culture-generale-facile",
+    "/quiz-culture-generale-difficile",
+    "/quiz-vrai-ou-faux",
+    "/quiz-jeux-de-societe",
+    "/quiz-sciences"
+  ],
+  "verified": "2026-11-13"
+}

@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-zelda",
+  "theme": "culture",
+  "title": "Quiz Zelda : jeux, personnages et univers de Hyrule",
+  "description": "Quiz Zelda : 20 questions sur la licence The Legend of Zelda, ses jeux datés, ses personnages et le royaume d'Hyrule, avec explications.",
+  "h1": "Quiz Zelda : que sais-tu de l'univers de The Legend of Zelda ?",
+  "intro": "Hyrule, la Triforce, la princesse, le héros en tunique : la série The Legend of Zelda aligne les épisodes cultes depuis les années 1980. Ce quiz Zelda te propose 20 questions sur les jeux, leurs dates de sortie, leurs consoles, leurs personnages et leur univers, des plus accessibles aux plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait de plus, y compris sur la conception des jeux. Que tu sois un vétéran de la NES ou un joueur de la Switch, lance-toi et vois si tu décroches le score parfait !",
+  "questions": [
+    {
+      "q": "De quelle couleur est la tunique que Link porte traditionnellement ?",
+      "choices": [
+        "Rouge",
+        "Bleue",
+        "Jaune",
+        "Verte"
+      ],
+      "answer": 3,
+      "explication": "Cette tunique verte est devenue l'emblème du héros, même si certains épisodes lui en font porter d'autres.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda"
+    },
+    {
+      "q": "De quoi se compose la Triforce, relique sacrée au cœur de la série ?",
+      "choices": [
+        "De trois cristaux bleus",
+        "De trois triangles d'or",
+        "De trois anneaux",
+        "De trois épées"
+      ],
+      "answer": 1,
+      "explication": "Ses trois parties symbolisent la puissance, la sagesse et le courage.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda"
+    },
+    {
+      "q": "Comment s'appelle le roi des Gerudo, ennemi récurrent de la série ?",
+      "choices": [
+        "Bowser",
+        "Dr Eggman",
+        "Ganondorf",
+        "Sephiroth"
+      ],
+      "answer": 2,
+      "explication": "Sous sa forme de monstre, il est connu sous le simple nom de Ganon.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda"
+    },
+    {
+      "q": "En quelle année sort le tout premier The Legend of Zelda au Japon ?",
+      "choices": [
+        "1986",
+        "1983",
+        "1989",
+        "1991"
+      ],
+      "answer": 0,
+      "explication": "Il paraît d'abord sur le Famicom Disk System, puis en Amérique du Nord sur NES en 1987.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda_(jeu_vidéo)"
+    },
+    {
+      "q": "Quel créateur japonais a conçu The Legend of Zelda avec Takashi Tezuka ?",
+      "choices": [
+        "Hideo Kojima",
+        "Satoru Iwata",
+        "Gunpei Yokoi",
+        "Shigeru Miyamoto"
+      ],
+      "answer": 3,
+      "explication": "Miyamoto s'est dit inspiré par ses explorations de la campagne autour de Kyoto durant son enfance.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Shigeru_Miyamoto"
+    },
+    {
+      "q": "Comment s'appelle la fée qui guide Link dans Ocarina of Time ?",
+      "choices": [
+        "Midna",
+        "Tatl",
+        "Navi",
+        "Fi"
+      ],
+      "answer": 2,
+      "explication": "Ocarina of Time sort en 1998 sur Nintendo 64 et marque le passage de la série à la 3D.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
+    },
+    {
+      "q": "Comment s'appelle l'épée légendaire qui repousse le mal dans la série ?",
+      "choices": [
+        "Excalibur",
+        "La Master Sword",
+        "Durandal",
+        "Stormbringer"
+      ],
+      "answer": 1,
+      "explication": "Elle repose en général dans un sanctuaire et ne peut être maniée que par un héros au cœur pur.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda"
+    },
+    {
+      "q": "En quelle année sort The Legend of Zelda: Breath of the Wild ?",
+      "choices": [
+        "2017",
+        "2013",
+        "2015",
+        "2019"
+      ],
+      "answer": 0,
+      "explication": "Il sort le 3 mars 2017, en même temps que la Nintendo Switch, et aussi sur Wii U.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"
+    },
+    {
+      "q": "Sur quelle console sort A Link to the Past, en 1991 au Japon ?",
+      "choices": [
+        "La NES",
+        "La Game Boy",
+        "La Super Nintendo",
+        "La Nintendo 64"
+      ],
+      "answer": 2,
+      "explication": "Cet épisode installe plusieurs éléments qui reviendront souvent, comme le monde parallèle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past"
+    },
+    {
+      "q": "Quel épisode de 2000 se déroule dans le monde parallèle de Termina ?",
+      "choices": [
+        "The Wind Waker",
+        "Twilight Princess",
+        "Oracle of Ages",
+        "Majora's Mask"
+      ],
+      "answer": 3,
+      "explication": "Link y dispose de trois jours pour empêcher la Lune de s'écraser, un cycle qu'il peut recommencer.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora's_Mask"
+    },
+    {
+      "q": "Quel style graphique distingue The Wind Waker, sorti en 2002 sur GameCube ?",
+      "choices": [
+        "Le cel-shading",
+        "Le pixel art",
+        "Le réalisme photographique",
+        "Les voxels"
+      ],
+      "answer": 0,
+      "explication": "Ses personnages aux contours marqués lui donnent l'apparence d'un dessin animé.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker"
+    },
+    {
+      "q": "En quel animal Link se transforme-t-il dans Twilight Princess, sorti en 2006 ?",
+      "choices": [
+        "En renard",
+        "En loup",
+        "En aigle",
+        "En cheval"
+      ],
+      "answer": 1,
+      "explication": "Ce changement se produit lorsqu'il pénètre dans le Crépuscule qui envahit Hyrule.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess"
+    },
+    {
+      "q": "Comment s'appelle le peuple d'Hyrule aux longues oreilles pointues, auquel appartiennent Link et Zelda ?",
+      "choices": [
+        "Les Gorons",
+        "Les Zoras",
+        "Les Kokiris",
+        "Les Hyliens"
+      ],
+      "answer": 3,
+      "explication": "Les Zoras, eux, forment un peuple aquatique qui vit dans les rivières et les lacs.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda"
+    },
+    {
+      "q": "Comment s'appelle la jument de Link, introduite dans Ocarina of Time ?",
+      "choices": [
+        "Roach",
+        "Bucéphale",
+        "Epona",
+        "Shadowfax"
+      ],
+      "answer": 2,
+      "explication": "Son nom est celui d'une déesse gauloise protectrice des chevaux.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
+    },
+    {
+      "q": "Sur quelle console portable est sorti Link's Awakening en 1993 ?",
+      "choices": [
+        "La Game Boy",
+        "La Game Boy Advance",
+        "La Nintendo DS",
+        "La Game Gear"
+      ],
+      "answer": 0,
+      "explication": "L'aventure se déroule sur l'île Cocolint, loin d'Hyrule.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Link's_Awakening"
+    },
+    {
+      "q": "Comment s'appelle la suite directe de Breath of the Wild, sortie en 2023 ?",
+      "choices": [
+        "Echoes of Wisdom",
+        "Tears of the Kingdom",
+        "Skyward Sword",
+        "Age of Calamity"
+      ],
+      "answer": 1,
+      "explication": "Le jeu sort le 12 mai 2023 sur Nintendo Switch.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"
+    },
+    {
+      "q": "Quel épisode de 1987, jugé atypique, emploie un défilement latéral pour ses combats et ses donjons ?",
+      "choices": [
+        "A Link to the Past",
+        "Link's Awakening",
+        "Zelda II: The Adventure of Link",
+        "The Minish Cap"
+      ],
+      "answer": 2,
+      "explication": "Il introduit un système de points d'expérience, absent du premier jeu.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda"
+    },
+    {
+      "q": "Quelle entreprise japonaise, par l'intermédiaire de sa filiale Flagship, a développé Oracle of Seasons et Oracle of Ages pour Nintendo, en 2001 ?",
+      "choices": [
+        "Sega",
+        "Konami",
+        "Square",
+        "Capcom"
+      ],
+      "answer": 3,
+      "explication": "Les deux jeux sortent ensemble sur Game Boy Color et peuvent être reliés grâce à des mots de passe.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda"
+    },
+    {
+      "q": "Sur quelle console Philips sont parus en 1993 et 1994 des épisodes dérivés de Zelda, sous licence ?",
+      "choices": [
+        "La 3DO",
+        "La CD-i",
+        "La Jaguar",
+        "La Mega-CD"
+      ],
+      "answer": 1,
+      "explication": "Ils ont été développés par des studios tiers et non par Nintendo.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda"
+    },
+    {
+      "q": "Quel est le premier épisode de la série paru sur Nintendo DS, en 2007 ?",
+      "choices": [
+        "Phantom Hourglass",
+        "Spirit Tracks",
+        "The Minish Cap",
+        "Skyward Sword"
+      ],
+      "answer": 0,
+      "explication": "Il se joue presque entièrement au stylet tactile et prolonge l'univers de The Wind Waker.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/The_Legend_of_Zelda:_Phantom_Hourglass"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Zelda ?",
+      "Le quiz compte 20 questions : huit faciles sur l'univers général, huit de difficulté moyenne sur les épisodes et leurs consoles, et quatre pour les experts, qui portent sur des jeux plus rares. Chaque réponse est suivie d'une explication et d'un lien vers une page de référence qui confirme l'information."
+    ],
+    [
+      "Dans quel ordre faut-il jouer aux jeux Zelda ?",
+      "Il n'y a pas d'ordre obligatoire : la plupart des épisodes racontent une histoire indépendante, avec un héros nommé Link et une princesse Zelda. Nintendo a publié une chronologie officielle de la série en 2011, dans l'ouvrage Hyrule Historia, mais chaque jeu se comprend très bien sans avoir joué aux précédents."
+    ],
+    [
+      "Link ou Zelda : qui donne son nom à la série ?",
+      "La série porte le nom de la princesse Zelda, et non celui du héros. Dans la plupart des jeux, le joueur incarne Link, un jeune héros qui doit sauver Hyrule. Cette confusion est courante, car Link est le personnage jouable, alors que Zelda a longtemps tenu le rôle de la princesse à secourir."
+    ]
+  ],
+  "related": [
+    "/quiz-jeux-video",
+    "/quiz-japon",
+    "/quiz-dessins-animes",
+    "/quiz-harry-potter"
+  ],
+  "verified": "2026-11-13"
+}

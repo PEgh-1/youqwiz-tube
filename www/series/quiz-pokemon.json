@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-pokemon",
+  "theme": "culture",
+  "title": "Quiz Pokémon : 20 questions sur les jeux et l'anime",
+  "description": "Quiz Pokémon : 20 questions sur les jeux, l'anime, les types, les régions et les générations datées, de Rouge et Bleu à Noir et Blanc.",
+  "h1": "Quiz Pokémon : es-tu un vrai maître Pokémon ?",
+  "intro": "Capturer, faire évoluer, affronter les arènes : les Pokémon font rêver depuis les années 1990. Ce quiz Pokémon rassemble 20 questions sur les jeux vidéo, la série animée, les types et les régions, avec des repères de dates pour les générations successives. Tu commences par huit questions faciles, tu enchaînes avec huit moyennes, puis tu finis par quatre questions d'expert. Compte environ 5 secondes de réflexion par question. Chaque réponse s'accompagne d'une courte explication pour apprendre un détail de plus. Ajuste ta casquette de dresseur et vise le score parfait !",
+  "questions": [
+    {
+      "q": "En quelle année sortent au Japon les premiers jeux Pokémon ?",
+      "choices": [
+        "2000",
+        "1996",
+        "1998",
+        "1992"
+      ],
+      "answer": 1,
+      "explication": "Ils sont publiés le 27 février 1996 sous les noms de Rouge et Vert.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_Rouge_et_Bleu"
+    },
+    {
+      "q": "Quel créateur a imaginé les Pokémon, en partie inspiré par sa passion d'enfant pour les insectes ?",
+      "choices": [
+        "Hideo Kojima",
+        "Satoshi Tajiri",
+        "Masahiro Sakurai",
+        "Shigeru Miyamoto"
+      ],
+      "answer": 1,
+      "explication": "Il a cofondé en 1989 le studio Game Freak, développeur de la série.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Satoshi_Tajiri"
+    },
+    {
+      "q": "Sur quelle console portable sortent les premiers jeux Pokémon ?",
+      "choices": [
+        "La Game Boy Advance",
+        "La PSP",
+        "La Nintendo DS",
+        "La Game Boy"
+      ],
+      "answer": 3,
+      "explication": "Le câble Link permet d'y échanger des Pokémon et de combattre entre joueurs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Game_Boy"
+    },
+    {
+      "q": "Lequel des trois Pokémon de départ de Rouge et Bleu est de type Feu ?",
+      "choices": [
+        "Bulbizarre",
+        "Carapuce",
+        "Salamèche",
+        "Rattata"
+      ],
+      "answer": 2,
+      "explication": "Il évolue en Reptincel puis en Dracaufeu.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_Rouge_et_Bleu"
+    },
+    {
+      "q": "Comment s'appelle la ville de départ du héros des premiers jeux ?",
+      "choices": [
+        "Bourg Palette",
+        "Argenta",
+        "Jadielle",
+        "Safrania"
+      ],
+      "answer": 0,
+      "explication": "C'est là que le professeur Chen a son laboratoire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_Rouge_et_Bleu"
+    },
+    {
+      "q": "Comment s'appelle l'encyclopédie électronique qui répertorie les espèces rencontrées ?",
+      "choices": [
+        "Le Pokédex",
+        "Le Poké Radar",
+        "Le Pokégear",
+        "Le Pokémart"
+      ],
+      "answer": 0,
+      "explication": "Dans les jeux, l'objectif est de la compléter en capturant les créatures.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon"
+    },
+    {
+      "q": "En quel Pokémon redoutable évolue le faible Magicarpe ?",
+      "choices": [
+        "Dracaufeu",
+        "Tentacruel",
+        "Lokhlass",
+        "Léviator"
+      ],
+      "answer": 3,
+      "explication": "Magicarpe évolue lorsqu'il atteint le niveau 20.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon"
+    },
+    {
+      "q": "Comment s'appelle l'objet lancé pour capturer un Pokémon sauvage ?",
+      "choices": [
+        "Le Poké Filet",
+        "La Poké Ball",
+        "Le Poké Cube",
+        "La Capsule Dex"
+      ],
+      "answer": 1,
+      "explication": "Il en existe plusieurs variantes, comme la Super Ball, l'Hyper Ball et la Master Ball.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon"
+    },
+    {
+      "q": "Une attaque de type Normal est sans effet sur les Pokémon de quel type ?",
+      "choices": [
+        "Dragon",
+        "Roche",
+        "Spectre",
+        "Insecte"
+      ],
+      "answer": 2,
+      "explication": "Les attaques de type Combat sont elles aussi sans effet sur les Pokémon Spectre.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon"
+    },
+    {
+      "q": "Combien d'espèces compte la première génération de Pokémon ?",
+      "choices": [
+        "150",
+        "251",
+        "151",
+        "100"
+      ],
+      "answer": 2,
+      "explication": "Ces espèces sont originaires de la région de Kanto.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon"
+    },
+    {
+      "q": "Dans quelle région se déroulent Pokémon Or et Argent, sortis en 1999 au Japon ?",
+      "choices": [
+        "Hoenn",
+        "Kanto",
+        "Sinnoh",
+        "Johto"
+      ],
+      "answer": 3,
+      "explication": "Ces jeux introduisent les types Ténèbres et Acier ainsi que le cycle jour et nuit.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_Or_et_Argent"
+    },
+    {
+      "q": "Dans quelle région se déroulent Pokémon Rubis et Saphir, sortis en 2002 au Japon ?",
+      "choices": [
+        "Johto",
+        "Kalos",
+        "Hoenn",
+        "Alola"
+      ],
+      "answer": 2,
+      "explication": "Ils introduisent les talents des Pokémon et les combats en double.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_Rubis_et_Saphir"
+    },
+    {
+      "q": "Dans quelle région se déroulent Pokémon Diamant et Perle, sortis en 2006 au Japon ?",
+      "choices": [
+        "Sinnoh",
+        "Hoenn",
+        "Kanto",
+        "Alola"
+      ],
+      "answer": 0,
+      "explication": "Ce sont les premiers jeux principaux de la série sur Nintendo DS.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_Diamant_et_Perle"
+    },
+    {
+      "q": "Comment s'appelle le chef de l'Équipe Rocket dans les jeux de la première génération ?",
+      "choices": [
+        "Lance",
+        "Pierre",
+        "Giovanni",
+        "Blue"
+      ],
+      "answer": 2,
+      "explication": "Il dirige aussi l'arène de Jadielle.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_Rouge_et_Bleu"
+    },
+    {
+      "q": "Quel type est introduit avec Pokémon X et Y en 2013 ?",
+      "choices": [
+        "Fée",
+        "Lumière",
+        "Cosmos",
+        "Son"
+      ],
+      "answer": 0,
+      "explication": "Ce type est immunisé contre les attaques de type Dragon.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_X_et_Y"
+    },
+    {
+      "q": "Quel Pokémon rose a servi de base à la création génétique de Mewtwo ?",
+      "choices": [
+        "Ectoplasma",
+        "Mélofée",
+        "Rondoudou",
+        "Mew"
+      ],
+      "answer": 3,
+      "explication": "Mewtwo est un clone génétique de ce Pokémon, issu d'expériences scientifiques.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mewtwo"
+    },
+    {
+      "q": "En quelle année Pokémon Rouge et Bleu arrivent-ils en Europe ?",
+      "choices": [
+        "1997",
+        "1999",
+        "1996",
+        "2001"
+      ],
+      "answer": 1,
+      "explication": "Les mêmes jeux étaient sortis aux États-Unis en 1998.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_Rouge_et_Bleu"
+    },
+    {
+      "q": "Quel type est immunisé contre les attaques de type Électrik ?",
+      "choices": [
+        "Acier",
+        "Sol",
+        "Eau",
+        "Roche"
+      ],
+      "answer": 1,
+      "explication": "Les Pokémon de type Vol sont eux immunisés contre les attaques de type Sol.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon"
+    },
+    {
+      "q": "Dans quelle région se déroulent Pokémon Noir et Blanc, sortis en 2010 au Japon ?",
+      "choices": [
+        "Kalos",
+        "Hoenn",
+        "Sinnoh",
+        "Unys"
+      ],
+      "answer": 3,
+      "explication": "Avant la fin de l'aventure principale, ces jeux ne proposent que de nouveaux Pokémon.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon_Noir_et_Blanc"
+    },
+    {
+      "q": "En quelle année débute la série animée Pokémon à la télévision japonaise ?",
+      "choices": [
+        "1997",
+        "1999",
+        "1995",
+        "2001"
+      ],
+      "answer": 0,
+      "explication": "Elle est produite par le studio OLM.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pokémon"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Pokémon ?",
+      "Le quiz comprend 20 questions de difficulté croissante : huit faciles pour les bases de la licence, huit moyennes sur les types, les régions et les premières générations, puis quatre d'expert sur les dates et les mécanismes de jeu. Un joueur de la première génération s'en sort très bien, et chaque corrigé ajoute une information."
+    ],
+    [
+      "Qui développe les jeux Pokémon ?",
+      "Les jeux de la série principale sont développés par le studio japonais Game Freak et publiés par Nintendo. Chaque génération apporte de nouvelles espèces, une nouvelle région à explorer et de nouvelles mécaniques de combat."
+    ],
+    [
+      "Qu'est-ce qu'un type dans Pokémon ?",
+      "Le type est une caractéristique qui définit les forces et les faiblesses d'un Pokémon ou d'une attaque, comme Feu, Eau ou Plante. Il détermine si un coup est très efficace, peu efficace ou sans effet. Le nombre de types a augmenté au fil des générations, ce qui a rééquilibré les forces et les faiblesses."
+    ]
+  ],
+  "related": [
+    "/quiz-jeux-video",
+    "/quiz-dessins-animes",
+    "/quiz-mangas",
+    "/quiz-japon",
+    "/quiz-dragon-ball"
+  ],
+  "verified": "2026-11-13"
+}

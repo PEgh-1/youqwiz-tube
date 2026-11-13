@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-etats-americains",
+  "theme": "geographie",
+  "title": "Quiz États américains : surnoms et capitales",
+  "description": "Quiz états américains : 20 questions sur les surnoms, les capitales d'État, la géographie et les dates d'entrée dans l'Union, avec explications.",
+  "h1": "Quiz états américains : connais-tu les 50 États des États-Unis ?",
+  "intro": "Californie, Texas, Alaska, Hawaï, Vermont : chacun des 50 États américains a son histoire, son surnom et sa capitale, rarement la plus célèbre de ses villes. Ce quiz te propose 20 questions sur les États : leurs surnoms, leurs capitales, leur géographie et leurs dates d'entrée dans l'Union, des plus faciles aux plus pointues. Tu y trouveras 8 questions faciles, 8 de niveau moyen et 4 d'expert, avec une courte explication après chaque réponse. Compte environ 5 secondes par question. Prêt à parcourir l'Amérique d'un océan à l'autre ?",
+  "questions": [
+    {
+      "q": "Quel État de la côte ouest est surnommé le « Golden State » ?",
+      "choices": [
+        "La Californie",
+        "L'Oregon",
+        "L'Arizona",
+        "Le Nevada"
+      ],
+      "answer": 0,
+      "explication": "Ce surnom rappelle la ruée vers l'or qui débute en 1848 dans les contreforts de la Sierra Nevada.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Californie"
+    },
+    {
+      "q": "Quel est le plus grand État américain par sa superficie ?",
+      "choices": [
+        "Le Texas",
+        "La Californie",
+        "L'Alaska",
+        "Le Montana"
+      ],
+      "answer": 2,
+      "explication": "Il représente à lui seul plus de deux fois la superficie du Texas.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Alaska"
+    },
+    {
+      "q": "Quel État américain est un archipel du Pacifique ?",
+      "choices": [
+        "La Floride",
+        "Hawaï",
+        "L'Alaska",
+        "L'Oregon"
+      ],
+      "answer": 1,
+      "explication": "Il devient le 50e État de l'Union le 21 août 1959.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Hawaï"
+    },
+    {
+      "q": "Quel État est surnommé le « Lone Star State », l'État de l'étoile solitaire ?",
+      "choices": [
+        "La Louisiane",
+        "Le Nouveau-Mexique",
+        "L'Oklahoma",
+        "Le Texas"
+      ],
+      "answer": 3,
+      "explication": "Ce surnom vient de l'étoile unique du drapeau de la république indépendante qu'il fut avant de rejoindre l'Union.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Texas"
+    },
+    {
+      "q": "Quelle ville est la capitale de la Californie ?",
+      "choices": [
+        "Los Angeles",
+        "San Francisco",
+        "San Diego",
+        "Sacramento"
+      ],
+      "answer": 3,
+      "explication": "Elle doit son essor à la ruée vers l'or et se trouve dans la vallée centrale, loin des grandes villes côtières.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Sacramento"
+    },
+    {
+      "q": "Dans quel État se trouve la ville de Las Vegas ?",
+      "choices": [
+        "L'Arizona",
+        "Le Nevada",
+        "L'Utah",
+        "Le Nouveau-Mexique"
+      ],
+      "answer": 1,
+      "explication": "Ses casinos se sont développés après la légalisation des jeux d'argent dans l'État en 1931.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nevada"
+    },
+    {
+      "q": "Dans quel État américain se trouve la partie américaine des chutes du Niagara ?",
+      "choices": [
+        "Le Michigan",
+        "La Pennsylvanie",
+        "L'État de New York",
+        "L'Ohio"
+      ],
+      "answer": 2,
+      "explication": "Les chutes forment une frontière naturelle avec la province canadienne de l'Ontario.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chutes_du_Niagara"
+    },
+    {
+      "q": "Quel est le plus petit État américain par sa superficie ?",
+      "choices": [
+        "Le Rhode Island",
+        "Le Delaware",
+        "Le Connecticut",
+        "Le Vermont"
+      ],
+      "answer": 0,
+      "explication": "Il fut aussi le dernier des treize États d'origine à ratifier la Constitution, en 1790.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Rhode_Island"
+    },
+    {
+      "q": "Quelle ville est la capitale de l'État de New York ?",
+      "choices": [
+        "New York",
+        "Albany",
+        "Buffalo",
+        "Syracuse"
+      ],
+      "answer": 1,
+      "explication": "Fondée par des colons néerlandais, c'est l'une des plus anciennes villes d'origine européenne des États-Unis.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Albany_(New_York)"
+    },
+    {
+      "q": "Quel État du Sud-Est est surnommé le « Peach State », l'État de la pêche ?",
+      "choices": [
+        "La Caroline du Sud",
+        "L'Alabama",
+        "La Géorgie",
+        "Le Tennessee"
+      ],
+      "answer": 2,
+      "explication": "Cet État tire son nom du roi britannique George II.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Géorgie_(États-Unis)"
+    },
+    {
+      "q": "Dans quel État se trouve le mont Rushmore, avec ses quatre visages sculptés de présidents ?",
+      "choices": [
+        "Le Wyoming",
+        "Le Montana",
+        "Le Dakota du Nord",
+        "Le Dakota du Sud"
+      ],
+      "answer": 3,
+      "explication": "Le monument a été sculpté dans la montagne entre 1927 et 1941, dans les Black Hills.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dakota_du_Sud"
+    },
+    {
+      "q": "Quel est le dernier des 48 États contigus à avoir rejoint l'Union, en 1912 ?",
+      "choices": [
+        "L'Arizona",
+        "Le Nouveau-Mexique",
+        "L'Utah",
+        "L'Oklahoma"
+      ],
+      "answer": 0,
+      "explication": "Il est entré dans l'Union le 14 février 1912, quelques semaines après le Nouveau-Mexique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Arizona"
+    },
+    {
+      "q": "Quelle ville est la capitale du Texas ?",
+      "choices": [
+        "Houston",
+        "Dallas",
+        "Austin",
+        "San Antonio"
+      ],
+      "answer": 2,
+      "explication": "Elle est devenue capitale de la république du Texas en 1839 et porte le nom de Stephen F. Austin, l'un de ses fondateurs.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Austin_(Texas)"
+    },
+    {
+      "q": "Quelle ville est la capitale de la Floride ?",
+      "choices": [
+        "Tallahassee",
+        "Miami",
+        "Orlando",
+        "Jacksonville"
+      ],
+      "answer": 0,
+      "explication": "Choisie en 1824, elle se situe à mi-chemin entre les anciennes villes de Saint Augustine et de Pensacola.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tallahassee"
+    },
+    {
+      "q": "Quel État est bordé par quatre des cinq Grands Lacs ?",
+      "choices": [
+        "L'Ohio",
+        "Le Michigan",
+        "L'Illinois",
+        "Le Minnesota"
+      ],
+      "answer": 1,
+      "explication": "Il est formé de deux péninsules séparées par le lac Michigan, reliées par un long pont.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Michigan"
+    },
+    {
+      "q": "Dans quel État se trouve la majeure partie du parc national de Yellowstone ?",
+      "choices": [
+        "Le Montana",
+        "L'Idaho",
+        "L'Utah",
+        "Le Wyoming"
+      ],
+      "answer": 3,
+      "explication": "Créé en 1872, Yellowstone est considéré comme le premier parc national du monde.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Wyoming"
+    },
+    {
+      "q": "Quel État est le premier admis dans l'Union après les treize d'origine, en 1791 ?",
+      "choices": [
+        "Le Kentucky",
+        "Le Tennessee",
+        "Le Vermont",
+        "Le Maine"
+      ],
+      "answer": 2,
+      "explication": "Il a existé comme république indépendante pendant une quinzaine d'années avant d'entrer dans l'Union.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Vermont"
+    },
+    {
+      "q": "Quel État est entré dans l'Union en 1820, détaché du Massachusetts, dans le cadre du compromis du Missouri ?",
+      "choices": [
+        "Le New Hampshire",
+        "Le Maine",
+        "Le Connecticut",
+        "Le Delaware"
+      ],
+      "answer": 1,
+      "explication": "Son admission comme État libre fut associée à celle du Missouri, État esclavagiste, l'année suivante, pour équilibrer le Sénat.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Maine_(États-Unis)"
+    },
+    {
+      "q": "Quelle ville est la capitale de l'Alaska ?",
+      "choices": [
+        "Juneau",
+        "Anchorage",
+        "Fairbanks",
+        "Sitka"
+      ],
+      "answer": 0,
+      "explication": "Elle n'est accessible que par avion ou par bateau, car aucune route ne la relie au reste de l'État.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Juneau"
+    },
+    {
+      "q": "Quel État possède le seul drapeau non rectangulaire de l'Union ?",
+      "choices": [
+        "Le Maryland",
+        "Le Delaware",
+        "L'Indiana",
+        "L'Ohio"
+      ],
+      "answer": 3,
+      "explication": "Son drapeau a la forme d'une flamme à deux pointes, appelée « burgee ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ohio"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les États américains ?",
+      "Le quiz comporte 8 questions faciles, 8 de niveau moyen et 4 questions expert. Il porte sur les surnoms, les capitales d'État, la géographie et les dates d'entrée dans l'Union. Une courte explication suit chaque réponse pour t'apprendre un fait supplémentaire. Pour un quiz plus général, tu peux aussi essayer notre quiz sur les États-Unis."
+    ],
+    [
+      "Washington D.C. est-il un État américain ?",
+      "Non. Washington D.C. est un district fédéral, distinct des 50 États, créé pour abriter la capitale du pays. Ses habitants n'ont ni sénateur ni représentant disposant d'un droit de vote au Congrès. Son nom signifie « district de Columbia » ; il ne faut pas le confondre avec l'État de Washington, situé sur la côte ouest."
+    ],
+    [
+      "Quels sont les deux derniers États admis dans l'Union ?",
+      "L'Alaska est devenu le 49e État le 3 janvier 1959, et Hawaï le 50e le 21 août de la même année. Depuis, aucun nouvel État n'a rejoint l'Union. Avant eux, les 48 États contigus formaient déjà l'Union depuis 1912."
+    ]
+  ],
+  "related": [
+    "/quiz-etats-unis",
+    "/quiz-geographie",
+    "/quiz-capitales-amerique",
+    "/quiz-drapeaux-amerique",
+    "/quiz-pays-du-monde"
+  ],
+  "verified": "2026-11-13"
+}

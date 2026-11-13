@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-pays-afrique",
+  "theme": "geographie",
+  "title": "Quiz pays d'Afrique : 20 questions",
+  "description": "Quiz pays d'Afrique : 20 questions sur les fleuves, sites célèbres, parcs et grandes dates du continent, du niveau facile à expert, avec explications.",
+  "h1": "Quiz pays d'Afrique : connais-tu vraiment le continent africain ?",
+  "intro": "Du Sahara aux savanes de l'Est, des fleuves géants aux cités mythiques, l'Afrique est un continent aux paysages et à l'histoire d'une richesse incroyable. Ce quiz te propose 20 questions sur ses pays, ses sites célèbres, ses lacs, ses parcs et ses grandes dates, des plus accessibles aux plus pointues : 8 questions faciles, 8 de niveau moyen et 4 d'expert. Pas de capitales ni de drapeaux ici, d'autres quiz s'en chargent. Après chaque réponse, une courte explication t'apprend un fait de plus. Tu as environ 5 secondes par question : prêt à faire le tour du continent ?",
+  "questions": [
+    {
+      "q": "Quel est le plus long fleuve d'Afrique ?",
+      "choices": [
+        "Le Congo",
+        "Le Nil",
+        "Le Niger",
+        "Le Zambèze"
+      ],
+      "answer": 1,
+      "explication": "Il prend sa source dans la région des Grands Lacs et se jette dans la Méditerranée en formant un vaste delta.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nil"
+    },
+    {
+      "q": "Dans quel pays se dresse la grande pyramide de Khéops ?",
+      "choices": [
+        "La Tunisie",
+        "Le Soudan",
+        "La Libye",
+        "L'Égypte"
+      ],
+      "answer": 3,
+      "explication": "Construite il y a environ 4 500 ans, elle est restée la plus haute construction humaine pendant des millénaires.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pyramide_de_Khéops"
+    },
+    {
+      "q": "Dans quel pays se trouve le parc national du Serengeti ?",
+      "choices": [
+        "La Tanzanie",
+        "Le Kenya",
+        "L'Ouganda",
+        "La Zambie"
+      ],
+      "answer": 0,
+      "explication": "Chaque année, la grande migration des gnous traverse ce parc inscrit au patrimoine mondial depuis 1981.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Parc_national_du_Serengeti"
+    },
+    {
+      "q": "Quel canal, ouvert en 1869, relie la Méditerranée à la mer Rouge ?",
+      "choices": [
+        "Le canal de Panama",
+        "Le canal de Corinthe",
+        "Le canal de Suez",
+        "Le canal du Midi"
+      ],
+      "answer": 2,
+      "explication": "Creusé sous la direction de Ferdinand de Lesseps, il raccourcit fortement la route maritime entre l'Europe et l'Asie.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Canal_de_Suez"
+    },
+    {
+      "q": "Dans quel pays se trouve la ville de Tombouctou ?",
+      "choices": [
+        "Le Niger",
+        "Le Sénégal",
+        "Le Mali",
+        "Le Tchad"
+      ],
+      "answer": 2,
+      "explication": "Surnommée la « cité des 333 saints », elle fut un grand centre de commerce et d'études islamiques au Moyen Âge.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tombouctou"
+    },
+    {
+      "q": "Quelle chaîne de montagnes traverse le Maroc, l'Algérie et la Tunisie ?",
+      "choices": [
+        "L'Atlas",
+        "Le Drakensberg",
+        "Le Hoggar",
+        "Les monts Virunga"
+      ],
+      "answer": 0,
+      "explication": "Elle sépare les côtes méditerranéenne et atlantique du désert du Sahara.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Atlas_(massif)"
+    },
+    {
+      "q": "Dans quel pays se trouve le cap de Bonne-Espérance ?",
+      "choices": [
+        "La Namibie",
+        "Le Mozambique",
+        "Madagascar",
+        "L'Afrique du Sud"
+      ],
+      "answer": 3,
+      "explication": "Contourné par le Portugais Bartolomeu Dias en 1488, il ouvrit la route maritime des Indes aux navigateurs européens.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cap_de_Bonne-Espérance"
+    },
+    {
+      "q": "Dans quel pays se trouve la réserve du Masai Mara, célèbre pour ses safaris ?",
+      "choices": [
+        "La Zambie",
+        "Le Kenya",
+        "L'Ouganda",
+        "L'Éthiopie"
+      ],
+      "answer": 1,
+      "explication": "Elle abrite lions, éléphants et guépards, et accueille chaque année la grande migration des gnous et des zèbres.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Réserve_nationale_du_Masai_Mara"
+    },
+    {
+      "q": "Dans quel pays se trouvent les églises monolithiques de Lalibela, creusées dans la roche ?",
+      "choices": [
+        "Le Soudan",
+        "L'Ouganda",
+        "L'Éthiopie",
+        "La Mauritanie"
+      ],
+      "answer": 2,
+      "explication": "Elles datent du Moyen Âge et sont inscrites au patrimoine mondial de l'Unesco depuis 1978.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lalibela"
+    },
+    {
+      "q": "Quel pays abrite les ruines de Carthage, fondée par les Phéniciens ?",
+      "choices": [
+        "La Tunisie",
+        "La Libye",
+        "L'Algérie",
+        "L'Égypte"
+      ],
+      "answer": 0,
+      "explication": "Rivale de Rome, la cité est détruite en 146 av. J.-C. à la fin de la troisième guerre punique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Carthage"
+    },
+    {
+      "q": "Quel pays d'Afrique australe doit son nom à un désert côtier réputé pour ses immenses dunes rouges ?",
+      "choices": [
+        "Le Botswana",
+        "La Namibie",
+        "L'Angola",
+        "La Zambie"
+      ],
+      "answer": 1,
+      "explication": "Le mot « namib » signifie « vaste endroit » dans la langue nama.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Namibie"
+    },
+    {
+      "q": "Dans quel pays le fleuve Okavango forme-t-il, sans jamais atteindre la mer, un vaste delta intérieur ?",
+      "choices": [
+        "La Zambie",
+        "Le Zimbabwe",
+        "Le Mozambique",
+        "Le Botswana"
+      ],
+      "answer": 3,
+      "explication": "Ses eaux, venues des hauts plateaux d'Angola, se perdent dans le désert du Kalahari.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Delta_de_l'Okavango"
+    },
+    {
+      "q": "Quel grand lac, le plus étendu d'Afrique, est partagé entre l'Ouganda, le Kenya et la Tanzanie ?",
+      "choices": [
+        "Le lac Victoria",
+        "Le lac Tanganyika",
+        "Le lac Malawi",
+        "Le lac Tchad"
+      ],
+      "answer": 0,
+      "explication": "Il alimente le Nil Blanc et fut atteint par l'explorateur britannique John Hanning Speke en 1858.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Lac_Victoria"
+    },
+    {
+      "q": "Quel pays d'Afrique de l'Est est surnommé « le pays des mille collines » ?",
+      "choices": [
+        "L'Éthiopie",
+        "Le Malawi",
+        "Le Rwanda",
+        "La Zambie"
+      ],
+      "answer": 2,
+      "explication": "Il abrite aussi des gorilles de montagne, dans le parc national des Volcans.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rwanda"
+    },
+    {
+      "q": "Quel pays, ancienne Côte-de-l'Or britannique, devient indépendant en 1957 ?",
+      "choices": [
+        "Le Nigeria",
+        "Le Sénégal",
+        "Le Kenya",
+        "Le Ghana"
+      ],
+      "answer": 3,
+      "explication": "Son premier dirigeant, Kwame Nkrumah, fut une grande figure du panafricanisme.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ghana"
+    },
+    {
+      "q": "Comment s'appelle le régime de ségrégation raciale instauré en Afrique du Sud en 1948 ?",
+      "choices": [
+        "Le panafricanisme",
+        "L'apartheid",
+        "La négritude",
+        "Le marronnage"
+      ],
+      "answer": 1,
+      "explication": "Le mot signifie « séparation » en afrikaans.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Apartheid"
+    },
+    {
+      "q": "Quel lac salé de Djibouti, à environ 155 mètres sous le niveau de la mer, est le point le plus bas d'Afrique ?",
+      "choices": [
+        "Le lac Assal",
+        "Le lac Tchad",
+        "Le lac Turkana",
+        "Le lac Rose"
+      ],
+      "answer": 0,
+      "explication": "C'est aussi l'un des lacs les plus salés de la planète.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Lac_Assal"
+    },
+    {
+      "q": "Quelle conférence, réunie en 1884-1885, a fixé les règles du partage colonial de l'Afrique entre puissances européennes ?",
+      "choices": [
+        "Le congrès de Vienne",
+        "La conférence de Bandung",
+        "La conférence de Berlin",
+        "La conférence de Yalta"
+      ],
+      "answer": 2,
+      "explication": "Organisée par le chancelier allemand Bismarck, elle s'est tenue sans aucun représentant africain.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Conférence_de_Berlin"
+    },
+    {
+      "q": "Le nom du Cameroun vient d'un mot portugais désignant quel animal, observé par des navigateurs dans l'estuaire du Wouri ?",
+      "choices": [
+        "Le crocodile",
+        "La crevette",
+        "L'hippopotame",
+        "Le crabe"
+      ],
+      "answer": 1,
+      "explication": "Les Portugais baptisèrent le fleuve « Rio dos Camarões », la rivière des crevettes.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Cameroun"
+    },
+    {
+      "q": "Quel pays d'Afrique de l'Ouest a été fondé au XIXe siècle par d'anciens esclaves afro-américains affranchis ?",
+      "choices": [
+        "Le Ghana",
+        "Le Togo",
+        "La Guinée",
+        "Le Libéria"
+      ],
+      "answer": 3,
+      "explication": "Indépendant depuis 1847, il a donné à sa capitale le nom du président américain James Monroe.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Libéria"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les pays d'Afrique ?",
+      "Le quiz progresse en trois temps : 8 questions faciles, 8 de niveau moyen, puis 4 questions expert. Il porte sur la géographie, les sites célèbres et l'histoire des pays africains, sans capitales ni drapeaux, qui ont leurs propres quiz sur le site. Chaque réponse est suivie d'une courte explication qui t'apprend un fait supplémentaire."
+    ],
+    [
+      "Quelles sont les grandes régions de l'Afrique ?",
+      "On distingue généralement cinq grandes régions : l'Afrique du Nord (Maghreb et Égypte), l'Afrique de l'Ouest, l'Afrique centrale, l'Afrique de l'Est et l'Afrique australe. Le désert du Sahara sépare l'Afrique du Nord du reste du continent, souvent appelé Afrique subsaharienne, un ensemble très varié de savanes, de forêts et de grands lacs."
+    ],
+    [
+      "Pourquoi l'Afrique est-elle surnommée le berceau de l'humanité ?",
+      "Parce que la lignée humaine y est apparue et que les plus anciens fossiles connus d'Homo sapiens y ont été découverts, notamment à Jebel Irhoud, au Maroc, où ils sont datés d'environ 300 000 ans. Les premières migrations de notre espèce vers les autres continents sont parties de l'Afrique."
+    ]
+  ],
+  "related": [
+    "/quiz-capitales-afrique",
+    "/quiz-drapeaux-afrique",
+    "/quiz-pays-asie",
+    "/quiz-geographie",
+    "/quiz-maroc"
+  ],
+  "verified": "2026-11-13"
+}

@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-espagnol",
+  "theme": "langue",
+  "title": "Quiz espagnol : 20 questions pour tester ton niveau",
+  "description": "Quiz espagnol : vocabulaire, conjugaison, faux amis et culture hispanique en 20 questions en français, avec une explication après chaque réponse.",
+  "h1": "Quiz espagnol : vocabulaire, conjugaison et culture hispanique",
+  "intro": "Que tu apprennes l'espagnol au collège, au lycée ou par plaisir, ce quiz espagnol est fait pour toi. Il te propose 20 questions posées en français : du vocabulaire de base, un peu de conjugaison, quelques faux amis bien piégeux et des repères sur le monde hispanique, de l'Espagne à l'Amérique latine. Le niveau grimpe doucement, des mots du quotidien aux petites subtilités. Après chaque réponse, une courte explication t'apprend un détail de plus sur la langue. Chaque question te rapproche du score parfait. Prêt ? ¡Vamos!",
+  "questions": [
+    {
+      "q": "Comment dit-on « merci » en espagnol ?",
+      "choices": [
+        "gracias",
+        "de nada",
+        "por favor",
+        "adiós"
+      ],
+      "answer": 0,
+      "explication": "Pour dire « merci beaucoup », on ajoute « muchas » : « muchas gracias ». La réponse habituelle est « de nada », soit « de rien ».",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/gracias"
+    },
+    {
+      "q": "Comment dit-on « bonjour » le matin en espagnol ?",
+      "choices": [
+        "buenas noches",
+        "hasta luego",
+        "buen provecho",
+        "buenos días"
+      ],
+      "answer": 3,
+      "explication": "Contrairement au français, l'expression est au pluriel : on dit littéralement « bons jours ».",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/buenos_días"
+    },
+    {
+      "q": "Comment dit-on « eau » en espagnol ?",
+      "choices": [
+        "leche",
+        "agua",
+        "pan",
+        "aceite"
+      ],
+      "answer": 1,
+      "explication": "Bien que féminin, « agua » prend l'article « el » au singulier (el agua), pour éviter deux sons « a » à la suite.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/agua"
+    },
+    {
+      "q": "Comment dit-on « rouge » en espagnol ?",
+      "choices": [
+        "azul",
+        "verde",
+        "rojo",
+        "negro"
+      ],
+      "answer": 2,
+      "explication": "Les adjectifs de couleur se placent le plus souvent après le nom : « un coche rojo ».",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/rojo"
+    },
+    {
+      "q": "Comment dit-on « mardi » en espagnol ?",
+      "choices": [
+        "lunes",
+        "miércoles",
+        "jueves",
+        "martes"
+      ],
+      "answer": 3,
+      "explication": "Les jours de la semaine s'écrivent sans majuscule en espagnol, et « martes » vient du dieu romain Mars.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/martes"
+    },
+    {
+      "q": "Comment demande-t-on « Comment t'appelles-tu ? » en espagnol ?",
+      "choices": [
+        "¿Cómo estás?",
+        "¿Dónde vives?",
+        "¿Cómo te llamas?",
+        "¿Cuántos años tienes?"
+      ],
+      "answer": 2,
+      "explication": "Il utilise le verbe pronominal « llamarse » ; on répond « Me llamo… » suivi du prénom.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/llamarse"
+    },
+    {
+      "q": "Comment dit-on « Je suis français » en espagnol ?",
+      "choices": [
+        "Estoy francés",
+        "Soy francés",
+        "Tengo francés",
+        "Hago francés"
+      ],
+      "answer": 1,
+      "explication": "« Ser » exprime l'identité, la nationalité ou la profession, alors qu'« estar » sert surtout à indiquer un état ou un lieu.",
+      "level": "facile",
+      "source": "https://fr.wiktionary.org/wiki/ser"
+    },
+    {
+      "q": "Quel grand pays d'Amérique du Sud a le portugais pour langue officielle, et non l'espagnol ?",
+      "choices": [
+        "Le Brésil",
+        "L'Argentine",
+        "La Colombie",
+        "Le Pérou"
+      ],
+      "answer": 0,
+      "explication": "Le Brésil a été colonisé par le Portugal, alors que la plus grande partie du reste du continent l'a été par l'Espagne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Brésil"
+    },
+    {
+      "q": "Que signifie l'adjectif espagnol « embarazada » ?",
+      "choices": [
+        "embarrassée",
+        "fatiguée",
+        "en retard",
+        "enceinte"
+      ],
+      "answer": 3,
+      "explication": "C'est un faux ami classique : pour dire « embarrassée », on emploie « avergonzada » ou « incómoda ».",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/embarazada"
+    },
+    {
+      "q": "Que signifie l'adjectif espagnol « largo » ?",
+      "choices": [
+        "large",
+        "long",
+        "grand",
+        "lent"
+      ],
+      "answer": 1,
+      "explication": "Pour dire « large », on emploie « ancho », et « grand » se dit « grande ».",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/largo"
+    },
+    {
+      "q": "Quelle est la première personne du singulier du verbe « tener » (avoir) au présent ?",
+      "choices": [
+        "tieno",
+        "teno",
+        "tenigo",
+        "tengo"
+      ],
+      "answer": 3,
+      "explication": "« Tener » est irrégulier (tengo, tienes, tiene…), et il sert aussi à dire son âge : « tengo diez años ».",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/tener"
+    },
+    {
+      "q": "Comment dit-on « nous parlons » avec le verbe « hablar » au présent ?",
+      "choices": [
+        "hablan",
+        "hablo",
+        "hablamos",
+        "habláis"
+      ],
+      "answer": 2,
+      "explication": "Au présent, les verbes en -ar prennent les terminaisons -o, -as, -a, -amos, -áis, -an.",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:espagnol/hablar"
+    },
+    {
+      "q": "Comment dit-on « je vais » avec le verbe « ir » au présent ?",
+      "choices": [
+        "voy",
+        "vamos",
+        "va",
+        "vais"
+      ],
+      "answer": 0,
+      "explication": "« Ir » est très irrégulier : voy, vas, va, vamos, vais, van.",
+      "level": "moyen",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:espagnol/ir"
+    },
+    {
+      "q": "Quel signe de ponctuation se place au début d'une phrase interrogative en espagnol ?",
+      "choices": [
+        "¡",
+        "¿",
+        "«",
+        "¬"
+      ],
+      "answer": 1,
+      "explication": "Le signe « ¡ » ouvre de la même façon les phrases exclamatives, et le point final habituel les ferme.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Points_d'interrogation_et_d'exclamation_culbutés"
+    },
+    {
+      "q": "Quel empire avait pour capitale Tenochtitlan, bâtie sur un lac à l'emplacement de l'actuelle Mexico, et fut conquis par Hernán Cortés ?",
+      "choices": [
+        "L'empire inca",
+        "La civilisation maya",
+        "La civilisation olmèque",
+        "L'empire aztèque"
+      ],
+      "answer": 3,
+      "explication": "Tenochtitlan tombe en 1521 après un long siège, et la ville de Mexico est ensuite bâtie sur ses ruines.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Tenochtitlan"
+    },
+    {
+      "q": "Quel poète chilien a reçu le prix Nobel de littérature en 1971 ?",
+      "choices": [
+        "Pablo Neruda",
+        "Octavio Paz",
+        "Gabriela Mistral",
+        "Rubén Darío"
+      ],
+      "answer": 0,
+      "explication": "Gabriela Mistral, elle aussi chilienne, avait reçu ce prix en 1945 : elle fut la première personnalité latino-américaine à l'obtenir.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pablo_Neruda"
+    },
+    {
+      "q": "Quelle forme espagnole peut signifier à la fois « il est allé » et « il fut » ?",
+      "choices": [
+        "iba",
+        "va",
+        "fue",
+        "fui"
+      ],
+      "answer": 2,
+      "explication": "Au prétérit, « ir » et « ser » partagent les mêmes formes : fui, fuiste, fue, fuimos, fuisteis, fueron.",
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/Conjugaison:espagnol/ir"
+    },
+    {
+      "q": "Que peut signifier le mot espagnol « mañana » ?",
+      "choices": [
+        "« demain » ou « matin »",
+        "uniquement « demain »",
+        "uniquement « matin »",
+        "« soir » ou « nuit »"
+      ],
+      "answer": 0,
+      "explication": "« Mañana por la mañana » veut dire « demain matin », avec les deux sens dans la même phrase.",
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/mañana"
+    },
+    {
+      "q": "Que signifie l'adjectif espagnol « constipado » ?",
+      "choices": [
+        "constipé",
+        "enroué",
+        "fiévreux",
+        "enrhumé"
+      ],
+      "answer": 3,
+      "explication": "Pour dire « constipé », on emploie « estreñido », et la constipation se dit « estreñimiento ».",
+      "level": "expert",
+      "source": "https://fr.wiktionary.org/wiki/constipado"
+    },
+    {
+      "q": "Parmi ces pays d'Afrique, lequel a l'espagnol parmi ses langues officielles ?",
+      "choices": [
+        "La Guinée-Bissau",
+        "Le Cap-Vert",
+        "La Guinée équatoriale",
+        "L'Angola"
+      ],
+      "answer": 2,
+      "explication": "Cette ancienne colonie espagnole est indépendante depuis 1968, alors que les trois autres pays ont le portugais comme langue officielle.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Guinée_équatoriale"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz d'espagnol ?",
+      "Il s'adresse aux débutants et aux élèves de niveau intermédiaire. Les huit premières questions portent sur les bases : politesse, couleurs, jours, présentation et un premier repère de culture. Les suivantes abordent la conjugaison, les faux amis et la culture hispanique, et les quatre dernières demandent un peu plus de finesse, par exemple sur le prétérit ou les mots à double sens."
+    ],
+    [
+      "Quelle est la différence entre « ser » et « estar » ?",
+      "Les deux verbes se traduisent par « être ». « Ser » exprime l'identité, l'origine, la profession ou une caractéristique durable : « él es alto ». « Estar » indique un état passager ou un lieu : « estoy cansado », « estoy en casa ». Choisir le bon verbe change parfois le sens de la phrase."
+    ],
+    [
+      "Pourquoi écrit-on « ¿ » et « ¡ » à l'envers en espagnol ?",
+      "En espagnol, une phrase interrogative ou exclamative est annoncée dès son début par un point d'interrogation ou d'exclamation inversé, puis fermée par le signe habituel. Cet usage, recommandé par la Real Academia Española au XVIIIe siècle, aide le lecteur à placer la bonne intonation avant même de lire la phrase."
+    ]
+  ],
+  "related": [
+    "/quiz-anglais",
+    "/quiz-espagne",
+    "/quiz-vocabulaire",
+    "/quiz-conjugaison"
+  ],
+  "verified": "2026-11-13"
+}

@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-brevet",
+  "theme": "culture",
+  "title": "Quiz brevet : 20 questions pour réviser",
+  "description": "Quiz brevet : 20 questions de révision en histoire-géographie-EMC, sciences, français et maths, avec une explication après chaque réponse.",
+  "h1": "Quiz brevet : teste tes connaissances de 3e avant l'examen",
+  "intro": "Tu prépares le brevet des collèges et tu veux vérifier où tu en es ? Ce quiz brevet te propose 20 questions de fond sur le programme de 3e : histoire-géographie et enseignement moral et civique, sciences, français et mathématiques. Elles vont des notions à connaître absolument jusqu'à quelques pièges plus fins. Après chaque réponse, une courte explication te rappelle la règle ou le fait à retenir, de quoi réviser en s'amusant. Fais-le seul, en famille ou entre camarades, et refais-le pour battre ton score. Prêt à relever le défi ?",
+  "questions": [
+    {
+      "q": "À partir de quel âge un citoyen français est-il majeur et peut-il voter ?",
+      "choices": [
+        "16 ans",
+        "21 ans",
+        "25 ans",
+        "18 ans"
+      ],
+      "answer": 3,
+      "explication": "La majorité est abaissée de 21 à 18 ans par une loi de 1974, ce qui a ouvert le droit de vote à de nouveaux jeunes électeurs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Majorité_civile_en_France"
+    },
+    {
+      "q": "Quel texte, adopté en 1948 à Paris par l'Assemblée générale des Nations unies, proclame des droits fondamentaux pour tous les êtres humains ?",
+      "choices": [
+        "La Déclaration universelle des droits de l'homme",
+        "La Convention de Genève",
+        "La Charte de l'Atlantique",
+        "Le traité de Versailles"
+      ],
+      "answer": 0,
+      "explication": "Rédigée notamment avec l'aide du juriste français René Cassin, elle compte 30 articles.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Déclaration_universelle_des_droits_de_l'homme"
+    },
+    {
+      "q": "Quelle molécule, présente dans le noyau des cellules, est le support de l'information génétique ?",
+      "choices": [
+        "L'amidon",
+        "L'hémoglobine",
+        "L'ADN",
+        "Le glucose"
+      ],
+      "answer": 2,
+      "explication": "Les gènes sont des portions d'ADN, organisées en chromosomes dans le noyau, et transmises des parents aux enfants.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Acide_désoxyribonucléique"
+    },
+    {
+      "q": "Quelle figure de style consiste à prêter des actions ou des sentiments humains à un animal, un objet ou une idée ?",
+      "choices": [
+        "L'hyperbole",
+        "La personnification",
+        "La litote",
+        "L'anaphore"
+      ],
+      "answer": 1,
+      "explication": "Les fables de La Fontaine en font un usage constant, avec des animaux qui parlent et raisonnent comme des humains.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Liste_des_figures_de_style"
+    },
+    {
+      "q": "Quelle est la solution de l'équation 2x + 3 = 11 ?",
+      "choices": [
+        "x = 7",
+        "x = 5",
+        "x = 4",
+        "x = 3"
+      ],
+      "answer": 2,
+      "explication": "Vérification : 2 × 4 + 3 = 11. Une équation de la forme ax + b = c, avec a non nul, a toujours une seule solution.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Équation"
+    },
+    {
+      "q": "Comment appelle-t-on le phénomène d'augmentation de la part des citadins dans la population d'un pays ?",
+      "choices": [
+        "La littoralisation",
+        "L'urbanisation",
+        "La désertification",
+        "La périurbanisation"
+      ],
+      "answer": 1,
+      "explication": "Elle s'accompagne souvent de l'étalement urbain, qui grignote peu à peu les terres agricoles autour des villes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Urbanisation"
+    },
+    {
+      "q": "Quel principe, organisé par la loi du 9 décembre 1905, garantit la neutralité de l'État et la liberté de conscience ?",
+      "choices": [
+        "La subsidiarité",
+        "La solidarité",
+        "La laïcité",
+        "La parité"
+      ],
+      "answer": 2,
+      "explication": "Cette loi, dont Aristide Briand fut le rapporteur, met fin au financement public des cultes.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Loi_du_9_décembre_1905_concernant_la_séparation_des_Églises_et_de_l'État"
+    },
+    {
+      "q": "Quelle est la nature du mot « lentement » dans la phrase « Il avance lentement » ?",
+      "choices": [
+        "Un adjectif",
+        "Un adverbe",
+        "Un nom",
+        "Une préposition"
+      ],
+      "answer": 1,
+      "explication": "Les adverbes sont invariables, et ceux en -ment se forment le plus souvent sur le féminin de l'adjectif, ici « lente ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Adverbe"
+    },
+    {
+      "q": "Depuis le référendum de 2000, quelle est la durée du mandat du président de la République française ?",
+      "choices": [
+        "4 ans",
+        "6 ans",
+        "7 ans",
+        "5 ans"
+      ],
+      "answer": 3,
+      "explication": "Le quinquennat remplace le septennat, en vigueur depuis la IIIe République, et s'applique à partir de l'élection de 2002.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Quinquennat_présidentiel_en_France"
+    },
+    {
+      "q": "Quel capitaine de l'armée française, condamné à tort pour espionnage en 1894, a donné son nom à une affaire qui a divisé la France ?",
+      "choices": [
+        "Alfred Dreyfus",
+        "Ferdinand Walsin Esterhazy",
+        "Georges Picquart",
+        "Henri Pétain"
+      ],
+      "answer": 0,
+      "explication": "Son innocence est reconnue après un long combat, relancé par l'article « J'accuse… ! » d'Émile Zola en 1898 ; il est réhabilité en 1906.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Affaire_Dreyfus"
+    },
+    {
+      "q": "Jusqu'à quelle distance des côtes s'étend, au maximum, la zone économique exclusive (ZEE) d'un État ?",
+      "choices": [
+        "12 milles marins",
+        "24 milles marins",
+        "50 milles marins",
+        "200 milles marins"
+      ],
+      "answer": 3,
+      "explication": "L'État y détient des droits exclusifs sur les ressources, comme la pêche ou les hydrocarbures ; la convention de Montego Bay l'a définie en 1982.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Zone_économique_exclusive"
+    },
+    {
+      "q": "Quelle est la fréquence du courant alternatif du secteur en France ?",
+      "choices": [
+        "25 Hz",
+        "50 Hz",
+        "60 Hz",
+        "100 Hz"
+      ],
+      "answer": 1,
+      "explication": "À 50 Hz, le courant change de sens 100 fois par seconde ; en Amérique du Nord, le réseau fonctionne plutôt à 60 Hz.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Courant_alternatif"
+    },
+    {
+      "q": "Combien de chromosomes compte une cellule humaine non sexuelle (cellule somatique) ?",
+      "choices": [
+        "46",
+        "23",
+        "44",
+        "48"
+      ],
+      "answer": 0,
+      "explication": "Les cellules reproductrices n'en possèdent que 23, ce qui rétablit le nombre de 46 après la fécondation.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Chromosome"
+    },
+    {
+      "q": "Quelle figure de style associe deux termes de sens contraire, comme dans « un silence assourdissant » ?",
+      "choices": [
+        "L'anaphore",
+        "L'oxymore",
+        "La métonymie",
+        "La litote"
+      ],
+      "answer": 1,
+      "explication": "Le mot vient du grec et réunit les idées d'« aigu » et d'« émoussé », ce qui est déjà un oxymore.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Oxymore"
+    },
+    {
+      "q": "Dans un triangle ABC rectangle en A tel que AB = 6 cm et AC = 8 cm, quelle est la longueur de l'hypoténuse BC ?",
+      "choices": [
+        "10 cm",
+        "14 cm",
+        "12 cm",
+        "7 cm"
+      ],
+      "answer": 0,
+      "explication": "Le triplet 6, 8, 10 est proportionnel à 3, 4, 5, le plus petit triplet pythagoricien en nombres entiers.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Théorème_de_Pythagore"
+    },
+    {
+      "q": "Quel est le développement de (x + 3)² ?",
+      "choices": [
+        "x² + 9",
+        "x² + 6x + 9",
+        "x² + 3x + 9",
+        "x² + 6x + 3"
+      ],
+      "answer": 1,
+      "explication": "On applique (a + b)² = a² + 2ab + b² ; l'erreur classique consiste à oublier le double produit 2ab.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Identité_remarquable"
+    },
+    {
+      "q": "En quelle année la loi portée par Simone Veil dépénalise-t-elle l'interruption volontaire de grossesse en France ?",
+      "choices": [
+        "1967",
+        "1981",
+        "1975",
+        "1983"
+      ],
+      "answer": 2,
+      "explication": "Votée d'abord pour cinq ans à titre d'essai, elle est rendue définitive en 1979.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Loi_Veil"
+    },
+    {
+      "q": "Quelle est l'expression de l'énergie cinétique d'un objet de masse m et de vitesse v ?",
+      "choices": [
+        "Ec = m × v",
+        "Ec = ½ × m × v",
+        "Ec = m × g × h",
+        "Ec = ½ × m × v²"
+      ],
+      "answer": 3,
+      "explication": "Comme la vitesse est au carré, doubler la vitesse multiplie l'énergie cinétique par quatre, d'où l'importance des limitations de vitesse.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Énergie_cinétique"
+    },
+    {
+      "q": "Quelle factorisation est correcte pour a² − b² ?",
+      "choices": [
+        "(a − b)(a + b)",
+        "(a − b)²",
+        "(a + b)²",
+        "a(a − b)"
+      ],
+      "answer": 0,
+      "explication": "Vérification : (a − b)(a + b) = a² + ab − ab − b², et les deux termes du milieu s'annulent.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Identité_remarquable"
+    },
+    {
+      "q": "Quel concept, théorisé par Philippe Lejeune en 1975, désigne l'identité entre l'auteur, le narrateur et le personnage d'une autobiographie ?",
+      "choices": [
+        "Le récit rétrospectif",
+        "Le point de vue interne",
+        "Le pacte autobiographique",
+        "La focalisation zéro"
+      ],
+      "answer": 2,
+      "explication": "Le nom figurant sur la couverture renvoie ainsi à la même personne que celle qui dit « je » dans le récit.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pacte_autobiographique"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz brevet ?",
+      "Il suit le niveau de la classe de 3e : huit questions faciles pour les bases, huit moyennes pour les notions à maîtriser, quatre expertes pour les plus pointues. Ce sont des questions de fond sur le programme, pas des sujets d'annales : elles servent à repérer ce que tu sais déjà et ce qu'il te reste à revoir."
+    ],
+    [
+      "Quelle est la différence entre une comparaison et une métaphore ?",
+      "La comparaison rapproche deux éléments à l'aide d'un outil de comparaison, comme « comme », « tel » ou « semblable à ». La métaphore fait le même rapprochement sans aucun outil : on dit directement qu'une chose est une autre. Dans les deux cas, on parle d'un comparé et d'un comparant."
+    ],
+    [
+      "Que dit le théorème de Pythagore ?",
+      "Dans un triangle rectangle, le carré de la longueur de l'hypoténuse, le côté opposé à l'angle droit, est égal à la somme des carrés des longueurs des deux autres côtés. Sa réciproque permet de prouver qu'un triangle est rectangle quand cette égalité est vérifiée : 5, 12 et 13 en sont un exemple."
+    ]
+  ],
+  "related": [
+    "/quiz-cm2",
+    "/quiz-mathematiques",
+    "/quiz-histoire",
+    "/quiz-sciences",
+    "/quiz-grammaire"
+  ],
+  "verified": "2026-11-13"
+}

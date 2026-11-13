@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-naruto",
+  "theme": "culture",
+  "title": "Quiz Naruto : 20 questions sur le manga et ses ninjas",
+  "description": "Quiz Naruto : 20 questions sur Naruto Uzumaki, Sasuke, Konoha, les Hokage, l'Akatsuki et l'histoire du manga de Masashi Kishimoto.",
+  "h1": "Quiz Naruto : es-tu un vrai ninja de Konoha ?",
+  "intro": "Chakra, jutsu, clans, villages cachés : l'univers de Naruto est riche en techniques, en lignées et en rivalités. Ce quiz Naruto réunit 20 questions sur les personnages, les grands combats, l'histoire des villages et la création du manga. Le parcours est progressif : huit questions faciles, huit moyennes, puis quatre pour les fans les plus aguerris. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui te fait découvrir un détail de l'histoire. Alors, prêt à devenir le meilleur ninja du quiz et à viser le sans-faute ?",
+  "questions": [
+    {
+      "q": "Quel mangaka a créé Naruto ?",
+      "choices": [
+        "Tite Kubo",
+        "Masashi Kishimoto",
+        "Akira Toriyama",
+        "Eiichirō Oda"
+      ],
+      "answer": 1,
+      "explication": "Masashi Kishimoto est né en 1974 dans la préfecture d'Okayama.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Masashi_Kishimoto"
+    },
+    {
+      "q": "Dans quel village caché vit Naruto ?",
+      "choices": [
+        "Konoha, le village de la Feuille",
+        "Kumo, le village du Nuage",
+        "Suna, le village du Sable",
+        "Kiri, le village de la Brume"
+      ],
+      "answer": 0,
+      "explication": "Son nom évoque une feuille d'arbre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Quel démon est scellé dans le corps de Naruto ?",
+      "choices": [
+        "Un tigre à deux queues",
+        "Un singe à quatre queues",
+        "Un serpent géant",
+        "Un renard à neuf queues"
+      ],
+      "answer": 3,
+      "explication": "Il a été scellé dans le nourrisson Naruto le soir de l'attaque contre Konoha.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Quel titre Naruto rêve-t-il d'obtenir ?",
+      "choices": [
+        "Shogun",
+        "Hokage",
+        "Daimyo",
+        "Sannin"
+      ],
+      "answer": 1,
+      "explication": "Ce titre est réservé au ninja le plus puissant et respecté du village de Konoha.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "De quel clan est issu Sasuke ?",
+      "choices": [
+        "Le clan Uchiha",
+        "Le clan Nara",
+        "Le clan Hyūga",
+        "Le clan Senju"
+      ],
+      "answer": 0,
+      "explication": "Ce clan est réputé pour son pouvoir oculaire, le Sharingan.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Qui est le professeur de l'équipe 7, composée de Naruto, Sasuke et Sakura ?",
+      "choices": [
+        "Iruka Umino",
+        "Jiraiya",
+        "Kakashi Hatake",
+        "Asuma Sarutobi"
+      ],
+      "answer": 2,
+      "explication": "Il cache le bas de son visage derrière un masque.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Quelle technique permet à Naruto de créer des clones capables d'agir de façon autonome ?",
+      "choices": [
+        "Le Mokuton",
+        "Le multi-clonage",
+        "L'Amaterasu",
+        "Le Chidori"
+      ],
+      "answer": 1,
+      "explication": "Il l'apprend en dérobant un parchemin interdit au début de l'histoire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Quel ermite aux cheveux blancs et auteur de romans devient le maître de Naruto ?",
+      "choices": [
+        "Minato",
+        "Jiraiya",
+        "Orochimaru",
+        "Kakashi"
+      ],
+      "answer": 1,
+      "explication": "Il fait partie des trois Sannin légendaires de Konoha.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Comment s'appelle le grand frère de Sasuke, qui massacre le clan Uchiha ?",
+      "choices": [
+        "Shisui",
+        "Obito",
+        "Madara",
+        "Itachi"
+      ],
+      "answer": 3,
+      "explication": "Il est considéré comme un prodige dès l'enfance.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Qui devient le cinquième Hokage ?",
+      "choices": [
+        "Hiruzen Sarutobi",
+        "Orochimaru",
+        "Tsunade",
+        "Kakashi Hatake"
+      ],
+      "answer": 2,
+      "explication": "Elle est l'une des trois Sannin et une experte du ninjutsu médical.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Comment s'appelle l'organisation de ninjas déserteurs dont les manteaux noirs sont ornés de nuages rouges ?",
+      "choices": [
+        "L'Aube noire",
+        "Le Clan de l'Ombre",
+        "La Racine",
+        "L'Akatsuki"
+      ],
+      "answer": 3,
+      "explication": "Ses membres cherchent à capturer les démons à queues.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Quel examen permet aux genin de devenir chûnin ?",
+      "choices": [
+        "Le tournoi des Cinq Kage",
+        "L'examen d'Hokage",
+        "L'épreuve des clochettes",
+        "L'examen chûnin"
+      ],
+      "answer": 3,
+      "explication": "Il comprend plusieurs épreuves, dont une dans la forêt de la Mort.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "De quel village caché est originaire Gaara ?",
+      "choices": [
+        "Kumo, le village du Nuage",
+        "Suna, le village du Sable",
+        "Iwa, le village de la Pierre",
+        "Kiri, le village de la Brume"
+      ],
+      "answer": 1,
+      "explication": "Il abrite en lui le démon à une queue.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Quel Hokage est le père de Naruto ?",
+      "choices": [
+        "Hiruzen Sarutobi",
+        "Tobirama Senju",
+        "Minato Namikaze",
+        "Hashirama Senju"
+      ],
+      "answer": 2,
+      "explication": "Il est surnommé l'Éclair jaune de Konoha.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Quel élève de Maito Gaï porte une combinaison verte moulante ?",
+      "choices": [
+        "Rock Lee",
+        "Kiba Inuzuka",
+        "Shikamaru Nara",
+        "Neji Hyūga"
+      ],
+      "answer": 0,
+      "explication": "Incapable d'utiliser le ninjutsu et le genjutsu, il compense par un taijutsu redoutable.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Où Naruto rattrape-t-il Sasuke pour l'affronter après le départ de celui-ci du village ?",
+      "choices": [
+        "Dans la forêt de la Mort",
+        "Sur le mont Myōboku",
+        "À Ichiraku",
+        "À la Vallée de la Fin"
+      ],
+      "answer": 3,
+      "explication": "Le combat clôt la première partie de l'histoire : Sasuke poursuit ensuite sa route vers Orochimaru.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "En quelle année débute la prépublication de Naruto au Japon ?",
+      "choices": [
+        "1999",
+        "2004",
+        "1995",
+        "2002"
+      ],
+      "answer": 0,
+      "explication": "Elle débute dans le Weekly Shōnen Jump et se termine en 2014.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Quel premier Hokage maîtrise le Mokuton, l'art du bois ?",
+      "choices": [
+        "Hiruzen Sarutobi",
+        "Tobirama Senju",
+        "Hashirama Senju",
+        "Madara Uchiha"
+      ],
+      "answer": 2,
+      "explication": "Il appartient au clan Senju, rival historique d'un autre grand clan de Konoha.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Avec qui Hashirama Senju fonde-t-il le village de Konoha ?",
+      "choices": [
+        "Hagoromo Ōtsutsuki",
+        "Danzō Shimura",
+        "Madara Uchiha",
+        "Tobirama Senju"
+      ],
+      "answer": 2,
+      "explication": "Les deux hommes, d'abord amis, deviennent ensuite rivaux.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Naruto"
+    },
+    {
+      "q": "Quel studio réalise l'adaptation animée de Naruto ?",
+      "choices": [
+        "Studio Pierrot",
+        "Toei Animation",
+        "Madhouse",
+        "Bones"
+      ],
+      "answer": 0,
+      "explication": "La série télévisée est diffusée au Japon à partir d'octobre 2002.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Studio_Pierrot"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Naruto ?",
+      "Le quiz propose 20 questions de difficulté croissante : huit faciles sur les personnages principaux, huit moyennes sur l'intrigue et l'univers ninja, puis quatre d'expert sur la création et les fondateurs du village. Un spectateur de l'anime ou un lecteur du manga s'en sort très bien, et chaque corrigé apporte un détail de plus."
+    ],
+    [
+      "Comment Naruto est-il publié ?",
+      "Naruto est un manga prépublié chapitre par chapitre dans un magazine hebdomadaire japonais de l'éditeur Shūeisha, puis regroupé en volumes reliés. La série a ensuite été adaptée en anime et en films d'animation."
+    ],
+    [
+      "Que sont les villages cachés dans Naruto ?",
+      "Les villages cachés sont les cités ninjas qui forment les shinobi et les envoient en mission. Chacun est dirigé par un chef qui porte un titre se terminant par « kage », et chaque village possède ses propres techniques et traditions. Ils constituent les cinq grandes nations ninjas du récit."
+    ]
+  ],
+  "related": [
+    "/quiz-one-piece",
+    "/quiz-dragon-ball",
+    "/quiz-mangas",
+    "/quiz-japon",
+    "/quiz-dessins-animes"
+  ],
+  "verified": "2026-11-13"
+}

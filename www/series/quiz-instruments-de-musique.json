@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-instruments-de-musique",
+  "theme": "musique",
+  "title": "Quiz instruments de musique : 20 questions",
+  "description": "Quiz instruments de musique : 20 questions sur les familles, les origines et le fonctionnement des instruments, avec une explication à chaque réponse.",
+  "h1": "Quiz instruments de musique : familles, origines et fonctionnement",
+  "intro": "Violon, trompette, clarinette ou accordéon : sais-tu vraiment comment naît le son de chaque instrument ? Ce quiz t'invite à explorer les instruments de musique à travers 20 questions sur leurs familles, leurs origines et leur fonctionnement. Les huit premières questions portent sur les instruments de l'orchestre, les suivantes sur leur histoire et leur mécanique, et les quatre dernières font voyager aux quatre coins du monde. Chaque réponse est suivie d'une courte explication qui t'apprend un détail utile. Musicien ou simple curieux, à toi de jouer !",
+  "questions": [
+    {
+      "q": "Dans quelle famille d'instruments classe-t-on la flûte traversière, bien qu'elle soit en métal ?",
+      "choices": [
+        "Les cuivres",
+        "Les percussions",
+        "Les bois",
+        "Les cordes"
+      ],
+      "answer": 2,
+      "explication": "Le classement dépend du mode de production du son, pas de la matière : à l'origine, ces flûtes étaient en bois.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Flûte_traversière"
+    },
+    {
+      "q": "Quel instrument à percussion se joue avec des baguettes sur des lames de bois de longueurs différentes ?",
+      "choices": [
+        "Le xylophone",
+        "Le vibraphone",
+        "Le triangle",
+        "Le célesta"
+      ],
+      "answer": 0,
+      "explication": "Son nom vient du grec « xylon », qui signifie « bois », et les lames les plus longues donnent les sons les plus graves.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Xylophone"
+    },
+    {
+      "q": "Quel est l'instrument à cordes frottées le plus grave de l'orchestre ?",
+      "choices": [
+        "Le violoncelle",
+        "L'alto",
+        "Le violon",
+        "La contrebasse"
+      ],
+      "answer": 3,
+      "explication": "Elle dépasse souvent 1,80 mètre de haut, et le musicien la joue debout ou assis sur un haut tabouret.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Contrebasse"
+    },
+    {
+      "q": "Quel instrument de la famille des cuivres se joue avec une coulisse que l'on allonge ou raccourcit ?",
+      "choices": [
+        "Le tuba",
+        "Le trombone",
+        "Le cor",
+        "Le saxhorn"
+      ],
+      "answer": 1,
+      "explication": "Le trombone change de note en déplaçant la coulisse, ce qui lui permet de glisser d'un son à l'autre, un effet appelé « glissando ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Trombone_(instrument)"
+    },
+    {
+      "q": "Combien de cordes possède un violon ?",
+      "choices": [
+        "Trois",
+        "Cinq",
+        "Six",
+        "Quatre"
+      ],
+      "answer": 3,
+      "explication": "Elles sont accordées par quintes, du grave à l'aigu : sol, ré, la, mi.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Violon"
+    },
+    {
+      "q": "Quel instrument à tuyaux, avec des claviers et un pédalier, équipe de nombreuses églises et cathédrales ?",
+      "choices": [
+        "L'accordéon",
+        "L'orgue",
+        "Le clavecin",
+        "L'harmonium"
+      ],
+      "answer": 1,
+      "explication": "Le souffle de l'air qui traverse les tuyaux produit le son, et les plus grands orgues en comptent plusieurs milliers.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Orgue"
+    },
+    {
+      "q": "Quel instrument à vent de la famille des bois, au timbre grave, a un tube d'environ deux mètres et demi replié sur lui-même ?",
+      "choices": [
+        "La clarinette",
+        "Le saxophone",
+        "Le basson",
+        "La flûte à bec"
+      ],
+      "answer": 2,
+      "explication": "Cette forme repliée le rend maniable malgré sa longueur, et il tient souvent le rôle de basse dans les bois de l'orchestre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Basson"
+    },
+    {
+      "q": "Quel instrument à cordes pincées, de forme triangulaire, possède sept pédales dans sa version de concert ?",
+      "choices": [
+        "La mandoline",
+        "Le luth",
+        "La cithare",
+        "La harpe"
+      ],
+      "answer": 3,
+      "explication": "Chaque pédale peut modifier la hauteur d'une même note sur toutes les octaves de l'instrument.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Harpe"
+    },
+    {
+      "q": "Quel peuple d'Australie est à l'origine du didgeridoo ?",
+      "choices": [
+        "Les Aborigènes",
+        "Les Maoris",
+        "Les Aïnous",
+        "Les Inuits"
+      ],
+      "answer": 0,
+      "explication": "Cet instrument à vent est un long tube creusé naturellement par les termites dans un tronc d'eucalyptus, puis nettoyé et décoré.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Didjeridoo"
+    },
+    {
+      "q": "Quel facteur d'instruments belge, né à Dinant, invente le saxophone au milieu du XIXe siècle ?",
+      "choices": [
+        "Aristide Cavaillé-Coll",
+        "Theobald Boehm",
+        "Adolphe Sax",
+        "Antonio Stradivari"
+      ],
+      "answer": 2,
+      "explication": "Il dépose son brevet à Paris en 1846, et l'instrument, bien que fabriqué en laiton, est classé parmi les bois.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Adolphe_Sax"
+    },
+    {
+      "q": "Quel facteur d'instruments, au service des Médicis à Florence, est considéré comme l'inventeur du piano ?",
+      "choices": [
+        "Antonio Stradivari",
+        "Bartolomeo Cristofori",
+        "Adolphe Sax",
+        "Johann Sebastian Bach"
+      ],
+      "answer": 1,
+      "explication": "Il baptise son invention « gravicembalo col piano e forte », car elle permet de nuancer l'intensité selon la force de la frappe.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pianoforte"
+    },
+    {
+      "q": "Quel élément fixé sur le bec d'une clarinette vibre sous le souffle du musicien et produit le son ?",
+      "choices": [
+        "La sourdine",
+        "Le pavillon",
+        "La coulisse",
+        "L'anche"
+      ],
+      "answer": 3,
+      "explication": "Sur la clarinette, il s'agit d'une anche simple, alors que le hautbois et le basson utilisent une anche double.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Anche"
+    },
+    {
+      "q": "À quoi sert une sourdine placée sur un instrument ?",
+      "choices": [
+        "À accorder l'instrument",
+        "À amplifier le son",
+        "À étouffer et adoucir le son",
+        "À monter d'une octave"
+      ],
+      "answer": 2,
+      "explication": "Les cuivres la glissent dans le pavillon, alors que sur un violon c'est une petite pièce posée sur le chevalet.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sourdine"
+    },
+    {
+      "q": "Quel petit instrument, version miniature de la flûte traversière, sonne une octave plus haut qu'elle ?",
+      "choices": [
+        "Le piccolo",
+        "La flûte à bec",
+        "La flûte de Pan",
+        "L'ocarina"
+      ],
+      "answer": 0,
+      "explication": "Son nom vient de l'italien « flauto piccolo », soit « petite flûte », et il perce l'orchestre malgré sa taille.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Piccolo_(instrument)"
+    },
+    {
+      "q": "Quel instrument à cordes pincées traditionnel du Japon, posé à plat sur le sol, compte généralement treize cordes ?",
+      "choices": [
+        "Le shamisen",
+        "Le koto",
+        "L'erhu",
+        "L'oud"
+      ],
+      "answer": 1,
+      "explication": "Le joueur pince les cordes avec des onglets fixés à ses doigts et règle la hauteur grâce à des chevalets mobiles.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Instruments_de_musique_du_Japon"
+    },
+    {
+      "q": "Dans un piano, qu'est-ce qui frappe les cordes quand on appuie sur une touche ?",
+      "choices": [
+        "Des plectres",
+        "Des archets",
+        "Des languettes métalliques",
+        "Des marteaux garnis de feutre"
+      ],
+      "answer": 3,
+      "explication": "Dans le clavecin, ce sont des plectres qui pincent les cordes, d'où l'absence de nuances selon la force du toucher.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Piano"
+    },
+    {
+      "q": "Quel instrument à deux cordes, surmonté d'une tête de cheval sculptée, est emblématique de la Mongolie ?",
+      "choices": [
+        "L'erhu",
+        "Le morin khuur",
+        "Le sarod",
+        "Le duduk"
+      ],
+      "answer": 1,
+      "explication": "Il est inscrit au patrimoine culturel immatériel de l'humanité par l'UNESCO, et son nom signifie « vièle à tête de cheval ».",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Musique_mongole"
+    },
+    {
+      "q": "Quel instrument à percussion mélodique, né à Trinité-et-Tobago, est fabriqué à partir de fûts métalliques ?",
+      "choices": [
+        "Le marimba",
+        "La kalimba",
+        "Le steelpan",
+        "Le balafon"
+      ],
+      "answer": 2,
+      "explication": "Le fond du fût est martelé en creux pour dessiner des zones qui sonnent chacune une note différente.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pan_(instrument)"
+    },
+    {
+      "q": "Quel instrument chinois, fait de tuyaux de bambou réunis autour d'une embouchure, est l'un des plus anciens orgues à bouche ?",
+      "choices": [
+        "Le suona",
+        "Le sheng",
+        "Le pipa",
+        "Le guzheng"
+      ],
+      "answer": 1,
+      "explication": "Son principe aurait inspiré en Europe l'invention d'instruments comme l'harmonica ou l'accordéon au XIXe siècle.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Instrument_à_anche_libre"
+    },
+    {
+      "q": "Dans la classification d'Hornbostel et Sachs, comment nomme-t-on les instruments dont le son vient d'une membrane tendue, comme le tambour ?",
+      "choices": [
+        "Les membranophones",
+        "Les idiophones",
+        "Les aérophones",
+        "Les chordophones"
+      ],
+      "answer": 0,
+      "explication": "Les idiophones, eux, résonnent par leur propre corps, comme le triangle ou les cymbales.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Système_Hornbostel-Sachs"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les instruments de musique ?",
+      "Il est accessible à tous les curieux, musiciens ou non. Les huit premières questions concernent les instruments de l'orchestre et leurs familles, les huit suivantes leur fonctionnement et leurs inventeurs, et les quatre dernières des instruments du monde entier. Il évite les compositeurs et les œuvres, que tu retrouves dans le quiz de musique classique."
+    ],
+    [
+      "Quelles sont les quatre grandes familles de l'orchestre symphonique ?",
+      "On distingue les cordes (violon, alto, violoncelle, contrebasse), les bois (hautbois, clarinette, cor anglais), les cuivres (cor, trompette, trombone, tuba) et les percussions (timbales, caisse claire, cymbales). Le piano, la harpe ou l'orgue peuvent s'y ajouter ponctuellement, selon l'œuvre jouée par l'orchestre."
+    ],
+    [
+      "Qu'est-ce qu'un instrument transpositeur ?",
+      "C'est un instrument dont le son réel diffère de la note écrite sur la partition. Ainsi, une clarinette en si bémol fait entendre un si bémol quand le musicien lit un do, soit un ton plus bas que la note écrite. Le musicien lit pourtant la partition de la même façon : seule la transposition change."
+    ]
+  ],
+  "related": [
+    "/quiz-musique-classique",
+    "/quiz-musique",
+    "/quiz-rock",
+    "/quiz-chanson-francaise",
+    "/quiz-histoire-de-l-art"
+  ],
+  "verified": "2026-11-13"
+}

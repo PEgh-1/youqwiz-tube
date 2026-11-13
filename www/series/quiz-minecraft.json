@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-minecraft",
+  "theme": "culture",
+  "title": "Quiz Minecraft : jeu, histoire et créatures",
+  "description": "Quiz Minecraft : 20 questions sur le jeu de blocs suédois, son histoire, ses dates de sortie, ses créatures et ses mécaniques, du niveau facile à expert.",
+  "h1": "Quiz Minecraft : connais-tu bien le monde des blocs ?",
+  "intro": "Blocs, mines, constructions et aventures : l'univers de Minecraft est plein de secrets, et ce quiz te propose de tester tes connaissances. Tu auras 20 questions sur le jeu lui-même, l'histoire de son studio, les grandes sorties datées, les créatures emblématiques et les mécaniques de base, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un détail utile. Joueur occasionnel ou bâtisseur confirmé, tu peux jouer seul ou entre amis : vas-tu décrocher le score parfait ?",
+  "questions": [
+    {
+      "q": "Quelle créature verte explose à proximité du joueur ?",
+      "choices": [
+        "Le zombie",
+        "Le creeper",
+        "Le squelette",
+        "L'araignée"
+      ],
+      "answer": 1,
+      "explication": "Selon son créateur, il est apparu à la suite d'un essai raté de modèle de cochon.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Comment s'appelle la dimension infernale, pleine de lave, accessible par un portail ?",
+      "choices": [
+        "L'End",
+        "L'Overworld",
+        "Le Sky",
+        "Le Nether"
+      ],
+      "answer": 3,
+      "explication": "Il permet de voyager plus vite : un bloc y équivaut à huit dans le monde normal.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quel mode de jeu offre des ressources illimitées et la possibilité de voler ?",
+      "choices": [
+        "Le mode Créatif",
+        "Le mode Survie",
+        "Le mode Aventure",
+        "Le mode Spectateur"
+      ],
+      "answer": 0,
+      "explication": "Le mode Survie, lui, impose de récolter des ressources et de gérer sa santé et sa faim.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quel studio suédois développe Minecraft à l'origine ?",
+      "choices": [
+        "DICE",
+        "Paradox Interactive",
+        "Mojang",
+        "King"
+      ],
+      "answer": 2,
+      "explication": "Son nom vient du mot suédois « mojäng », qui signifie « gadget ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mojang_Studios"
+    },
+    {
+      "q": "Comment s'appelle le dragon qui garde la dimension de l'End ?",
+      "choices": [
+        "Le Wither",
+        "Le Warden",
+        "L'Ender Dragon",
+        "Le Ravageur"
+      ],
+      "answer": 2,
+      "explication": "Le vaincre fait apparaître un œuf de dragon, un objet unique.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quel animal sauvage peut-on apprivoiser avec des os ?",
+      "choices": [
+        "Le loup",
+        "Le renard",
+        "Le chat",
+        "Le cheval"
+      ],
+      "answer": 0,
+      "explication": "Un loup apprivoisé porte alors un collier rouge et suit le joueur.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quel est le prénom du personnage jouable présent dès les origines du jeu ?",
+      "choices": [
+        "Alex",
+        "Herobrine",
+        "Jeb",
+        "Steve"
+      ],
+      "answer": 3,
+      "explication": "Un second personnage par défaut, Alex, est ajouté en 2014.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quelle poudre rouge extraite d'un minerai permet de fabriquer circuits et mécanismes ?",
+      "choices": [
+        "Le lapis-lazuli",
+        "La redstone",
+        "Le quartz",
+        "Le charbon"
+      ],
+      "answer": 1,
+      "explication": "Des joueurs ont construit des calculatrices et même des ordinateurs avec elle.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "En quelle année la première version publique de Minecraft est-elle diffusée ?",
+      "choices": [
+        "2007",
+        "2011",
+        "2013",
+        "2009"
+      ],
+      "answer": 3,
+      "explication": "Cette première version, dite « Classic », était jouable gratuitement dans un navigateur.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Lors de quel événement organisé à Las Vegas la version 1.0 est-elle lancée, en novembre 2011 ?",
+      "choices": [
+        "L'E3",
+        "La MineCon",
+        "La Gamescom",
+        "La PAX"
+      ],
+      "answer": 1,
+      "explication": "Le jeu quitte alors sa phase bêta, commencée en décembre 2010.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "En quelle année Microsoft rachète-t-il le studio créateur de Minecraft ?",
+      "choices": [
+        "2014",
+        "2012",
+        "2016",
+        "2018"
+      ],
+      "answer": 0,
+      "explication": "L'opération est annoncée en septembre 2014 pour 2,5 milliards de dollars.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mojang_Studios"
+    },
+    {
+      "q": "Quel matériau, introduit en 2020 avec la mise à jour 1.16, permet d'améliorer l'équipement en diamant ?",
+      "choices": [
+        "Le cuivre",
+        "L'améthyste",
+        "La netherite",
+        "L'obsidienne"
+      ],
+      "answer": 2,
+      "explication": "Il s'obtient à partir de débris antiques, qu'il faut fondre puis associer à de l'or.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quelle société développe Minecraft: Story Mode, jeu narratif en épisodes sorti en 2015 ?",
+      "choices": [
+        "Telltale Games",
+        "Ubisoft",
+        "Capcom",
+        "Square Enix"
+      ],
+      "answer": 0,
+      "explication": "Ce studio est aussi connu pour son adaptation de The Walking Dead en jeu narratif.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft:_Story_Mode"
+    },
+    {
+      "q": "Quel jeu dérivé de Minecraft, sorti en 2020, reprend le principe du dungeon crawler ?",
+      "choices": [
+        "Minecraft Legends",
+        "Minecraft Classic",
+        "Minecraft Dungeons",
+        "Minecraft Arena"
+      ],
+      "answer": 2,
+      "explication": "Il se joue jusqu'à quatre, en coopération.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft_Dungeons"
+    },
+    {
+      "q": "Quelle créature haute et noire se téléporte et s'énerve si on la regarde dans les yeux ?",
+      "choices": [
+        "Le Piglin",
+        "L'Enderman",
+        "Le golem de fer",
+        "Le Ravageur"
+      ],
+      "answer": 1,
+      "explication": "Elle craint l'eau, qui lui inflige des dégâts.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quelle monnaie utilise-t-on pour échanger avec les villageois ?",
+      "choices": [
+        "Le diamant",
+        "L'or",
+        "Le lapis-lazuli",
+        "L'émeraude"
+      ],
+      "answer": 3,
+      "explication": "L'émeraude se trouve surtout dans les biomes de montagne.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quel développeur, surnommé Jeb, devient en 2011 le responsable du développement de Minecraft ?",
+      "choices": [
+        "Jakob Porsér",
+        "Carl Manneh",
+        "Jens Bergensten",
+        "Daniel Rosenfeld"
+      ],
+      "answer": 2,
+      "explication": "Markus Persson lui cède ce rôle pour se consacrer à d'autres projets.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Markus_Persson"
+    },
+    {
+      "q": "Quel jeu de 2009, où l'on creuse et bâtit en équipe, a inspiré Markus Persson ?",
+      "choices": [
+        "Infiniminer",
+        "Terraria",
+        "Roblox",
+        "Garry's Mod"
+      ],
+      "answer": 0,
+      "explication": "Il est l'œuvre de Zachary Barth, fondateur du studio Zachtronics.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quel smartphone Sony reçoit en août 2011 la première version mobile de Minecraft ?",
+      "choices": [
+        "Le Xperia Z",
+        "Le Xperia X10",
+        "Le Xperia Arc",
+        "Le Xperia Play"
+      ],
+      "answer": 3,
+      "explication": "Cette version, nommée Pocket Edition, est ensuite étendue à d'autres appareils Android puis à iOS.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    },
+    {
+      "q": "Quel jeu mobile en réalité augmentée, dérivé de Minecraft, sort en 2019 ?",
+      "choices": [
+        "Minecraft Legends",
+        "Minecraft Earth",
+        "Minecraft Story Mode",
+        "Pokémon Go"
+      ],
+      "answer": 1,
+      "explication": "Il s'appuyait sur la géolocalisation pour poser des constructions dans le monde réel.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Minecraft"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur Minecraft ?",
+      "Le quiz est progressif : huit questions faciles sur les créatures et les mécaniques de base, huit questions moyennes sur l'histoire du jeu et ses sorties datées, puis quatre questions expert pour les joueurs les plus aguerris. Chaque réponse est suivie d'une explication."
+    ],
+    [
+      "Qui a créé Minecraft ?",
+      "Minecraft a été créé par le développeur suédois Markus Persson, surnommé Notch. Le jeu a ensuite été développé par son studio, puis ce dernier a été racheté par Microsoft, qui en est devenu l'éditeur. Le jeu a depuis reçu de très nombreuses mises à jour."
+    ],
+    [
+      "Quelle est la différence entre les modes Survie et Créatif ?",
+      "En mode Survie, le joueur récolte des ressources, fabrique des objets, gère sa santé et sa faim, et affronte des monstres la nuit. En mode Créatif, il dispose de tous les blocs en quantité illimitée, peut voler et ne craint aucun danger, ce qui convient aux grandes constructions."
+    ]
+  ],
+  "related": [
+    "/quiz-jeux-video",
+    "/quiz-mario",
+    "/quiz-informatique",
+    "/quiz-dessins-animes",
+    "/quiz-star-wars"
+  ],
+  "verified": "2026-11-13"
+}

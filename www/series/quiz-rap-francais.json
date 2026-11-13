@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-rap-francais",
+  "theme": "musique",
+  "title": "Quiz rap français : histoire et albums cultes",
+  "description": "Quiz rap français : 20 questions sur l'histoire du rap en France, ses groupes, ses albums et ses dates marquantes, des débuts des années 1980 à nos jours.",
+  "h1": "Quiz rap français : que sais-tu de l'histoire du hip-hop en France ?",
+  "intro": "Des premières émissions télévisées de 1984 aux albums qui ont marqué chaque décennie, le rap français a une histoire riche que ce quiz te propose de parcourir. Tu auras 20 questions sur les groupes pionniers, les artistes marseillais, parisiens ou belges et les albums datés, des plus accessibles aux plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail à retenir. Aucune parole à reconnaître, seulement de la culture. À faire seul ou entre amis : quel sera ton score ?",
+  "questions": [
+    {
+      "q": "Quelle émission de TF1, lancée en 1984 et animée par Sidney, fait découvrir le hip-hop au grand public ?",
+      "choices": [
+        "Les Enfants du rock",
+        "H.I.P. H.O.P.",
+        "Champs-Élysées",
+        "Récré A2"
+      ],
+      "answer": 1,
+      "explication": "Sidney y présente aussi le breakdance et le graffiti, ce qui contribue à populariser la culture hip-hop en France.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/H.I.P._H.O.P."
+    },
+    {
+      "q": "Quel groupe marseillais compte Akhenaton et Shurik'n parmi ses membres ?",
+      "choices": [
+        "Suprême NTM",
+        "Assassin",
+        "La Cliqua",
+        "IAM"
+      ],
+      "answer": 3,
+      "explication": "Le nom du groupe signifie « Invasion Arrivée de Mars ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/IAM"
+    },
+    {
+      "q": "Dans quel groupe de Saint-Denis JoeyStarr et Kool Shen se sont-ils fait connaître ?",
+      "choices": [
+        "Suprême NTM",
+        "IAM",
+        "Lunatic",
+        "Sniper"
+      ],
+      "answer": 0,
+      "explication": "Leur premier album, Authentik, sort en 1991.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Suprême_NTM"
+    },
+    {
+      "q": "Quel rappeur a sorti en 1991 l'album Qui sème le vent récolte le tempo ?",
+      "choices": [
+        "Passi",
+        "Kery James",
+        "MC Solaar",
+        "Disiz"
+      ],
+      "answer": 2,
+      "explication": "Né à Dakar, au Sénégal, il grandit ensuite en région parisienne.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/MC_Solaar"
+    },
+    {
+      "q": "Quel rappeur forme avec Ali le duo Lunatic, qui sort l'album Mauvais œil en 2000 ?",
+      "choices": [
+        "Kaaris",
+        "Rohff",
+        "Booba",
+        "Soprano"
+      ],
+      "answer": 2,
+      "explication": "Son vrai nom est Élie Yaffa.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Booba"
+    },
+    {
+      "q": "Quel rappeur normand a sorti l'album Le Chant des sirènes en 2011 ?",
+      "choices": [
+        "Orelsan",
+        "Lomepal",
+        "Vald",
+        "Jul"
+      ],
+      "answer": 0,
+      "explication": "Il s'appelle Aurélien Cotentin à l'état civil.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Orelsan"
+    },
+    {
+      "q": "Quelle rappeuse a sorti l'album Dans ma bulle en 2006 ?",
+      "choices": [
+        "Keny Arkana",
+        "Princess Aniès",
+        "Casey",
+        "Diam's"
+      ],
+      "answer": 3,
+      "explication": "Son vrai nom est Mélanie Georgiades.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Diam's"
+    },
+    {
+      "q": "Quel duo de frères de Corbeil-Essonnes a sorti l'album Dans la légende en 2016 ?",
+      "choices": [
+        "Columbine",
+        "PNL",
+        "Bigflo et Oli",
+        "Casseurs Flowters"
+      ],
+      "answer": 1,
+      "explication": "Le nom du duo est l'acronyme de « Peace N' Lovés ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/PNL_(groupe)"
+    },
+    {
+      "q": "Quel album d'IAM est sorti en 1997 ?",
+      "choices": [
+        "Ombre est lumière",
+        "De la planète Mars",
+        "Revoir un printemps",
+        "L'École du micro d'argent"
+      ],
+      "answer": 3,
+      "explication": "Le titre « Demain, c'est loin » en est extrait.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/L'École_du_micro_d'argent"
+    },
+    {
+      "q": "Quel album de Suprême NTM sort en 1995 ?",
+      "choices": [
+        "Ombre est lumière",
+        "Paris sous les bombes",
+        "Mauvais œil",
+        "Dans la légende"
+      ],
+      "answer": 1,
+      "explication": "C'est le troisième album du groupe, après Authentik (1991) et J'appuie sur la gâchette (1993).",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Paris_sous_les_bombes"
+    },
+    {
+      "q": "Quel groupe parisien a sorti L'Homicide volontaire en 1995 ?",
+      "choices": [
+        "Assassin",
+        "Ministère A.M.E.R.",
+        "Lunatic",
+        "Les Sages Poètes de la Rue"
+      ],
+      "answer": 0,
+      "explication": "Rockin' Squat et Solo en sont les deux figures principales.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rap_français"
+    },
+    {
+      "q": "Quel rappeur sort en 1996 l'album Première consultation ?",
+      "choices": [
+        "Passi",
+        "Disiz",
+        "Doc Gynéco",
+        "Kery James"
+      ],
+      "answer": 2,
+      "explication": "Son vrai nom est Bruno Beausir.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Doc_Gynéco"
+    },
+    {
+      "q": "Quel collectif a sorti l'album L'École des points vitaux en 2010 ?",
+      "choices": [
+        "Sexion d'Assaut",
+        "113",
+        "Mafia K'1 Fry",
+        "Lunatic"
+      ],
+      "answer": 0,
+      "explication": "Maître Gims a fait partie de ce collectif.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Sexion_d'Assaut"
+    },
+    {
+      "q": "Quel rappeur a sorti en 2015 l'album Feu ?",
+      "choices": [
+        "Lomepal",
+        "Vald",
+        "Nekfeu",
+        "Alpha Wann"
+      ],
+      "answer": 2,
+      "explication": "Il a fait ses débuts avec la S-Crew et le groupe 1995.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Nekfeu"
+    },
+    {
+      "q": "Quel rappeur, surnommé le « Black Jacques Brel », sort en 1998 son premier album ?",
+      "choices": [
+        "Ménélik",
+        "Oxmo Puccino",
+        "Kery James",
+        "Lino"
+      ],
+      "answer": 1,
+      "explication": "Son premier album, Opéra Puccino, sort en 1998.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Oxmo_Puccino"
+    },
+    {
+      "q": "Quel album a lancé la carrière solo de Booba en 2002 ?",
+      "choices": [
+        "Mauvais œil",
+        "Panthéon",
+        "Ouest Side",
+        "Temps mort"
+      ],
+      "answer": 3,
+      "explication": "Il enchaîne avec Panthéon en 2004 puis Ouest Side en 2006.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Booba"
+    },
+    {
+      "q": "Quel DJ parisien a publié en 1984 Paname City Rappin', souvent considéré comme le premier album de rap français ?",
+      "choices": [
+        "Cut Killer",
+        "DJ Abdel",
+        "Dee Nasty",
+        "DJ Mehdi"
+      ],
+      "answer": 2,
+      "explication": "Il est aussi à l'origine des rencontres hip-hop du terrain vague de La Chapelle, dans le nord de Paris.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dee_Nasty"
+    },
+    {
+      "q": "Quel groupe marseillais a sorti en 1997 l'album Si Dieu veut… ?",
+      "choices": [
+        "La Fonky Family",
+        "IAM",
+        "Psy 4 de la Rime",
+        "Troisième Œil"
+      ],
+      "answer": 0,
+      "explication": "Le Rat Luciano et Sat l'Artificier en font partie.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Fonky_Family"
+    },
+    {
+      "q": "Quel album de MC Solaar est sorti en 1994 ?",
+      "choices": [
+        "Paradisiaque",
+        "Cinquième As",
+        "Mach 6",
+        "Prose combat"
+      ],
+      "answer": 3,
+      "explication": "Le titre « Nouveau western » en est extrait.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Prose_combat"
+    },
+    {
+      "q": "Quel rappeur belge a sorti en 2017 l'album Ipséité ?",
+      "choices": [
+        "Roméo Elvis",
+        "Damso",
+        "Hamza",
+        "Shay"
+      ],
+      "answer": 1,
+      "explication": "Né à Kinshasa, il a grandi en Belgique.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Damso"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur le rap français ?",
+      "Le quiz progresse en trois paliers : huit questions faciles sur les artistes et groupes les plus connus, huit questions moyennes sur les albums et les dates, puis quatre questions expert pour les passionnés. Chaque réponse est suivie d'une explication, ce qui permet d'apprendre même quand on se trompe."
+    ],
+    [
+      "Quand le rap français est-il apparu ?",
+      "Le rap arrive en France au début des années 1980, porté par des DJ et des danseurs parisiens. La télévision le découvre en 1984 avec une émission dédiée, puis les premiers disques sortent. Les années 1990 voient l'explosion du genre avec des artistes comme MC Solaar, IAM et Suprême NTM."
+    ],
+    [
+      "Quels sont les quatre éléments de la culture hip-hop ?",
+      "La culture hip-hop repose traditionnellement sur quatre disciplines : le rap (ou MCing), le DJing, la danse (breakdance) et le graffiti. Née dans le Bronx, à New York, elle s'est diffusée en France dans les années 1980, où ces quatre pratiques se sont développées en parallèle."
+    ]
+  ],
+  "related": [
+    "/quiz-musique",
+    "/quiz-rock",
+    "/quiz-chanson-francaise",
+    "/quiz-michael-jackson",
+    "/quiz-kpop"
+  ],
+  "verified": "2026-11-13"
+}

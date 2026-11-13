@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-maroc",
+  "theme": "geographie",
+  "title": "Quiz Maroc : villes, patrimoine et cuisine",
+  "description": "Quiz Maroc : 20 questions sur la géographie, les villes, le patrimoine, l'histoire et la cuisine marocaine, du facile à l'expert, avec explications.",
+  "h1": "Quiz Maroc : que sais-tu du royaume entre mer et désert ?",
+  "intro": "Médinas colorées, montagnes de l'Atlas, dunes du Sahara, saveurs épicées : le Maroc offre une palette de paysages et de traditions exceptionnelle. Ce quiz te propose 20 questions sur sa géographie, ses villes, son patrimoine, son histoire et sa cuisine, des plus accessibles aux plus pointues : 8 questions faciles, 8 de niveau moyen et 4 d'expert. Chaque réponse est suivie d'une courte explication qui t'apprend un détail de plus. Compte environ 5 secondes par question. Que tu connaisses déjà le pays ou que tu rêves de le visiter, lance-toi !",
+  "questions": [
+    {
+      "q": "Quelle ville marocaine est surnommée « la ville rouge » ?",
+      "choices": [
+        "Fès",
+        "Meknès",
+        "Tanger",
+        "Marrakech"
+      ],
+      "answer": 3,
+      "explication": "Ses remparts et nombre de ses bâtiments sont en pisé teinté d'ocre rouge.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Marrakech"
+    },
+    {
+      "q": "Quel plat mijoté tire son nom du récipient conique en terre cuite dans lequel il cuit ?",
+      "choices": [
+        "Le méchoui",
+        "Le tajine",
+        "Le tchoutchouka",
+        "La harira"
+      ],
+      "answer": 1,
+      "explication": "Le couvercle en cône permet à la vapeur de retomber sur les aliments, qui cuisent doucement dans leur jus.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Tajine"
+    },
+    {
+      "q": "Quelle boisson, préparée avec du thé vert et de la menthe fraîche, est un symbole d'hospitalité au Maroc ?",
+      "choices": [
+        "Le café turc",
+        "Le karkadé",
+        "Le thé à la menthe",
+        "La tisane de thym"
+      ],
+      "answer": 2,
+      "explication": "Il se sert traditionnellement très sucré et versé de haut dans de petits verres.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Thé_à_la_menthe"
+    },
+    {
+      "q": "Quels deux espaces maritimes bordent le Maroc ?",
+      "choices": [
+        "L'océan Atlantique et la mer Méditerranée",
+        "L'océan Indien et la mer Rouge",
+        "L'océan Atlantique et la mer Noire",
+        "La mer Méditerranée et la mer Rouge"
+      ],
+      "answer": 0,
+      "explication": "Le pays a des façades sur les deux, qui se rejoignent au niveau du détroit de Gibraltar.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Géographie_du_Maroc"
+    },
+    {
+      "q": "Comment appelle-t-on les marchés traditionnels aux ruelles étroites des médinas marocaines ?",
+      "choices": [
+        "Les souks",
+        "Les ksour",
+        "Les riads",
+        "Les hammams"
+      ],
+      "answer": 0,
+      "explication": "Chaque quartier de souk était traditionnellement réservé à un métier : tanneurs, forgerons, teinturiers, babouchiers.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Souk"
+    },
+    {
+      "q": "Quel sommet du Haut Atlas est le plus haut du Maroc et d'Afrique du Nord ?",
+      "choices": [
+        "Le M'Goun",
+        "Le Jbel Sirwa",
+        "Le Toubkal",
+        "Le Jbel Ayachi"
+      ],
+      "answer": 2,
+      "explication": "Il culmine à 4 167 mètres, dans le massif du Toubkal, près du village d'Imlil.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Toubkal"
+    },
+    {
+      "q": "Quelle ville du nord du Maroc est célèbre pour sa médina aux murs peints en bleu ?",
+      "choices": [
+        "Tétouan",
+        "Chefchaouen",
+        "Larache",
+        "Oujda"
+      ],
+      "answer": 1,
+      "explication": "Nichée dans les montagnes du Rif, elle est surnommée « la perle bleue ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Chefchaouen"
+    },
+    {
+      "q": "Quelle grande place marocaine, animée de conteurs, de musiciens et de stands à la tombée de la nuit, est classée par l'Unesco ?",
+      "choices": [
+        "La place Hassan-II",
+        "La place des Nations",
+        "La place Mohammed-V",
+        "La place Jemaa el-Fna"
+      ],
+      "answer": 3,
+      "explication": "Ses traditions orales et ses spectacles de rue sont reconnus comme chef-d'œuvre du patrimoine oral et immatériel depuis 2001.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Place_Jemaa_el-Fna"
+    },
+    {
+      "q": "Quelle ville abrite l'université Al Quaraouiyine, fondée au IXe siècle par Fatima al-Fihri ?",
+      "choices": [
+        "Fès",
+        "Rabat",
+        "Casablanca",
+        "Agadir"
+      ],
+      "answer": 0,
+      "explication": "Elle est souvent citée comme l'une des plus anciennes universités du monde encore en activité.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Fès"
+    },
+    {
+      "q": "Que signifie le nom de Casablanca ?",
+      "choices": [
+        "Port blanc",
+        "Ville blanche",
+        "Mur blanc",
+        "Maison blanche"
+      ],
+      "answer": 3,
+      "explication": "Le nom vient de l'espagnol « casa blanca », qui reprend une appellation portugaise plus ancienne de même sens.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Casablanca"
+    },
+    {
+      "q": "Quelle dynastie a fondé la ville de Marrakech vers 1070 ?",
+      "choices": [
+        "Les Almohades",
+        "Les Mérinides",
+        "Les Almoravides",
+        "Les Saadiens"
+      ],
+      "answer": 2,
+      "explication": "Leur empire s'étendait aussi sur une grande partie de l'Espagne musulmane.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Almoravides"
+    },
+    {
+      "q": "Quelle cité romaine antique, près de Meknès, est inscrite au patrimoine mondial de l'Unesco ?",
+      "choices": [
+        "Timgad",
+        "Volubilis",
+        "Leptis Magna",
+        "Dougga"
+      ],
+      "answer": 1,
+      "explication": "Elle conserve de remarquables mosaïques et un arc de triomphe dédié à l'empereur Caracalla.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Site_archéologique_de_Volubilis"
+    },
+    {
+      "q": "Quelle ville portuaire fortifiée de la côte atlantique, ancienne Mogador, est célèbre pour ses remparts et ses vents d'alizé ?",
+      "choices": [
+        "Safi",
+        "El Jadida",
+        "Tétouan",
+        "Essaouira"
+      ],
+      "answer": 3,
+      "explication": "Sa médina, au plan quadrillé, est inscrite au patrimoine mondial de l'Unesco depuis 2001.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Essaouira"
+    },
+    {
+      "q": "Quel arbre, endémique du sud-ouest du Maroc, donne une huile prisée en cuisine et en cosmétique ?",
+      "choices": [
+        "L'olivier",
+        "L'arganier",
+        "Le palmier dattier",
+        "Le cèdre de l'Atlas"
+      ],
+      "answer": 1,
+      "explication": "Sa forêt a été reconnue réserve de biosphère par l'Unesco en 1998.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Arganier"
+    },
+    {
+      "q": "Quelle spécialité de pâte feuilletée, garnie de pigeon ou de volaille, d'amandes et de cannelle, mêle le sucré et le salé ?",
+      "choices": [
+        "Le msemen",
+        "La rfissa",
+        "La pastilla",
+        "Le couscous"
+      ],
+      "answer": 2,
+      "explication": "Ce plat de fête est associé à la cuisine raffinée de Fès et des grandes villes impériales.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Pastilla"
+    },
+    {
+      "q": "Quelle ville, au bord du détroit de Gibraltar, a été dotée d'un statut de zone internationale par une convention signée en 1923 ?",
+      "choices": [
+        "Tanger",
+        "Ceuta",
+        "Tétouan",
+        "Larache"
+      ],
+      "answer": 0,
+      "explication": "Administrée par plusieurs puissances jusqu'en 1956, elle attira écrivains, artistes et financiers.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Zone_internationale_de_Tanger"
+    },
+    {
+      "q": "Quelle bataille de 1578, au nord du Maroc, voit mourir le roi du Portugal Sébastien Ier ?",
+      "choices": [
+        "La bataille d'Isly",
+        "La bataille des Trois Rois",
+        "La bataille des Navas de Tolosa",
+        "La bataille d'Anoual"
+      ],
+      "answer": 1,
+      "explication": "Trois souverains y trouvent la mort : le roi du Portugal, le sultan Abd al-Malik et son neveu Mohammed al-Mutawakkil.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Bataille_des_Trois_Rois"
+    },
+    {
+      "q": "Quel voyageur marocain, né en 1304, a laissé le récit de près de trente ans de voyages à travers le monde musulman ?",
+      "choices": [
+        "Ibn Khaldoun",
+        "Al-Idrissi",
+        "Léon l'Africain",
+        "Ibn Battûta"
+      ],
+      "answer": 3,
+      "explication": "Son récit, la Rihla, a été dicté à son retour au Maroc.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ibn_Battûta"
+    },
+    {
+      "q": "Quel traité de 1912 établit le protectorat français sur le Maroc ?",
+      "choices": [
+        "Le traité de Fès",
+        "Le traité de Tanger",
+        "Le traité de Lalla Maghnia",
+        "Le traité d'Algésiras"
+      ],
+      "answer": 0,
+      "explication": "Il a été signé le 30 mars 1912, et le protectorat a pris fin en 1956.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Protectorat_français_au_Maroc"
+    },
+    {
+      "q": "Quel sultan alaouite, qui règne de 1672 à 1727, fait de Meknès sa capitale et l'entoure de remparts monumentaux ?",
+      "choices": [
+        "Ahmed al-Mansour",
+        "Youssef ibn Tachfine",
+        "Moulay Ismaïl",
+        "Yacoub al-Mansour"
+      ],
+      "answer": 2,
+      "explication": "Son règne de plus d'un demi-siècle est l'un des plus longs de l'histoire du Maroc.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Ismaïl_ben_Chérif"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur le Maroc ?",
+      "Le quiz comporte 8 questions faciles, 8 de niveau moyen et 4 questions expert. Il porte sur la géographie, les villes, le patrimoine, l'histoire et la cuisine du Maroc. Une courte explication suit chaque réponse pour t'apprendre un fait supplémentaire, que tu connaisses déjà bien le pays ou non."
+    ],
+    [
+      "Quelles sont les quatre villes impériales du Maroc ?",
+      "Les quatre villes impériales sont Fès, Meknès, Marrakech et Rabat. Elles ont toutes été capitales à différentes époques de l'histoire du pays, sous les dynasties qui l'ont gouverné. Leurs médinas, leurs palais et leurs remparts sont parmi les plus beaux témoignages du patrimoine marocain."
+    ],
+    [
+      "Qu'est-ce qu'une médina ?",
+      "Le mot arabe médina désigne la vieille ville d'une cité du monde arabe, souvent entourée de remparts. On y trouve un réseau de ruelles étroites, des souks, des mosquées, des fontaines, des hammams et des maisons à patio appelées riads. Celles de Fès, Marrakech, Essaouira et Tétouan sont inscrites au patrimoine mondial."
+    ]
+  ],
+  "related": [
+    "/quiz-pays-afrique",
+    "/quiz-capitales-afrique",
+    "/quiz-espagne",
+    "/quiz-cuisine",
+    "/quiz-geographie"
+  ],
+  "verified": "2026-11-13"
+}

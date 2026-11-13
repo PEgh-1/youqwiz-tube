@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-friends",
+  "theme": "cinema",
+  "title": "Quiz Friends : 20 questions sur la série culte",
+  "description": "Quiz Friends : 20 questions sur la série culte, de Central Perk aux six amis, en passant par les mariages et les coulisses. Facile à expert.",
+  "h1": "Quiz Friends : es-tu le plus grand fan de la bande de New York ?",
+  "intro": "Six amis, un canapé orange et une ville qui ne dort jamais : Friends a marqué la télévision des années 1990 et 2000, et continue de se regarder en boucle. Ce quiz Friends te propose 20 questions sur les personnages, les acteurs, les lieux et les coulisses de la série, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail que tu ne connaissais peut-être pas. À faire seul, en famille ou entre amis : sauras-tu décrocher le score parfait ?",
+  "questions": [
+    {
+      "q": "Comment s'appelle le café où les six amis se retrouvent régulièrement ?",
+      "choices": [
+        "Monk's Café",
+        "Central Perk",
+        "Cheers",
+        "MacLaren's"
+      ],
+      "answer": 1,
+      "explication": "Le café est un décor de studio ; son grand canapé orange est devenu l'un des symboles de la série.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Combien d'amis forment la bande principale de la série ?",
+      "choices": [
+        "Quatre",
+        "Cinq",
+        "Sept",
+        "Six"
+      ],
+      "answer": 3,
+      "explication": "Trois femmes et trois hommes : Rachel, Monica, Phoebe, Ross, Chandler et Joey.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Dans quelle ville américaine se déroule la série ?",
+      "choices": [
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Boston"
+      ],
+      "answer": 0,
+      "explication": "Malgré le cadre new-yorkais, les épisodes ont été tournés dans des studios californiens.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Quelle chaîne de télévision américaine a diffusé Friends ?",
+      "choices": [
+        "HBO",
+        "CBS",
+        "NBC",
+        "Fox"
+      ],
+      "answer": 2,
+      "explication": "NBC l'a programmée le jeudi soir, un créneau très convoité à l'époque.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Quel est le métier de Ross Geller ?",
+      "choices": [
+        "Avocat",
+        "Paléontologue",
+        "Chef cuisinier",
+        "Architecte"
+      ],
+      "answer": 1,
+      "explication": "Il enseigne aussi à l'université, où il donne des cours sur les dinosaures.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Quelle actrice interprète le rôle de Rachel Green ?",
+      "choices": [
+        "Jennifer Aniston",
+        "Courteney Cox",
+        "Lisa Kudrow",
+        "Reese Witherspoon"
+      ],
+      "answer": 0,
+      "explication": "Rachel est d'abord serveuse à Central Perk avant de travailler dans la mode.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jennifer_Aniston"
+    },
+    {
+      "q": "Quel groupe interprète le générique de la série ?",
+      "choices": [
+        "Hootie and the Blowfish",
+        "The Wallflowers",
+        "Toad the Wet Sprocket",
+        "The Rembrandts"
+      ],
+      "answer": 3,
+      "explication": "Le titre a d'abord été écrit pour le générique, puis édité en single en 1995.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Rembrandts"
+    },
+    {
+      "q": "Quel est le métier de Monica Geller ?",
+      "choices": [
+        "Avocate",
+        "Journaliste",
+        "Cheffe cuisinière",
+        "Institutrice"
+      ],
+      "answer": 2,
+      "explication": "Elle est connue pour son perfectionnisme et son appartement toujours impeccable.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Combien de saisons compte la série Friends ?",
+      "choices": [
+        "Dix",
+        "Sept",
+        "Huit",
+        "Douze"
+      ],
+      "answer": 0,
+      "explication": "La série compte dix saisons, toutes diffusées sur NBC.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Liste_des_épisodes_de_Friends"
+    },
+    {
+      "q": "Comment s'appelle la sœur jumelle de Phoebe Buffay ?",
+      "choices": [
+        "Régina",
+        "Ursula",
+        "Mona",
+        "Janice"
+      ],
+      "answer": 1,
+      "explication": "Les deux personnages sont interprétés par la même actrice, Lisa Kudrow.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Quel animal de compagnie Ross a-t-il, notamment dans les premières saisons ?",
+      "choices": [
+        "Un chien nommé Hugo",
+        "Un perroquet nommé Rio",
+        "Un singe nommé Marcel",
+        "Un chat nommé Mitaine"
+      ],
+      "answer": 2,
+      "explication": "Marcel est un singe capucin, joué par plusieurs animaux au fil des épisodes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Dans quel feuilleton télévisé Joey joue-t-il le docteur Drake Ramoray ?",
+      "choices": [
+        "Dallas",
+        "Santa Barbara",
+        "Dynastie",
+        "Days of Our Lives"
+      ],
+      "answer": 3,
+      "explication": "Il s'agit d'un vrai feuilleton américain qui existait avant la série.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Comment s'appelle le fils de Ross et de sa première épouse, Carol ?",
+      "choices": [
+        "Ben",
+        "Max",
+        "Sam",
+        "Jack"
+      ],
+      "answer": 0,
+      "explication": "Carol, la première épouse de Ross, vit ensuite en couple avec Susan.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Quels personnages se marient à la fin de la saison 7 ?",
+      "choices": [
+        "Ross et Rachel",
+        "Phoebe et Joey",
+        "Monica et Chandler",
+        "Rachel et Joey"
+      ],
+      "answer": 2,
+      "explication": "Ils étaient amis et voisins de palier avant de devenir un couple, puis de se marier.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Comment s'appelle la fille de Ross et Rachel ?",
+      "choices": [
+        "Lily",
+        "Emma",
+        "Sophie",
+        "Ella"
+      ],
+      "answer": 1,
+      "explication": "Elle naît à la fin de la saison 8, ce qui change profondément la vie du couple.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "En quelle année le premier épisode de Friends est-il diffusé ?",
+      "choices": [
+        "1990",
+        "1992",
+        "1996",
+        "1994"
+      ],
+      "answer": 3,
+      "explication": "Le pilote est diffusé en septembre 1994 sur NBC.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Quel duo a créé la série Friends ?",
+      "choices": [
+        "Marta Kauffman et David Crane",
+        "Chuck Lorre et Bill Prady",
+        "Greg Daniels et Michael Schur",
+        "Larry David et Jerry Seinfeld"
+      ],
+      "answer": 0,
+      "explication": "Ils s'étaient rencontrés à l'université et ont écrit ensemble avant Friends.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Quel personnage a été le héros d'une série dérivée diffusée à partir de 2004 ?",
+      "choices": [
+        "Chandler",
+        "Joey",
+        "Ross",
+        "Gunther"
+      ],
+      "answer": 1,
+      "explication": "Elle suit Joey à Los Angeles et s'est arrêtée en 2006 après deux saisons.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Joey_(série_télévisée)"
+    },
+    {
+      "q": "Dans quel pays se tient le mariage de Ross avec Emily ?",
+      "choices": [
+        "La France",
+        "L'Italie",
+        "L'Irlande",
+        "L'Angleterre"
+      ],
+      "answer": 3,
+      "explication": "Emily est britannique ; la cérémonie a lieu à Londres, lors du finale de la saison 4.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Friends"
+    },
+    {
+      "q": "Combien d'épisodes compte l'ensemble de la série ?",
+      "choices": [
+        "200",
+        "218",
+        "236",
+        "250"
+      ],
+      "answer": 2,
+      "explication": "Ce total comprend les dix saisons et plusieurs épisodes doubles ou spéciaux d'une heure.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Liste_des_épisodes_de_Friends"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Friends ?",
+      "Le quiz compte 20 questions classées par difficulté : 8 faciles pour les spectateurs occasionnels, 8 de niveau moyen pour ceux qui ont revu la série plusieurs fois, et 4 questions expert sur la création et les coulisses. Chaque réponse est suivie d'une explication, ce qui permet d'apprendre même quand on se trompe."
+    ],
+    [
+      "Qui a créé la série Friends ?",
+      "Friends a été créée par Marta Kauffman et David Crane, et diffusée sur la chaîne américaine NBC. Le premier épisode est sorti en septembre 1994 et le dernier en mai 2004, après dix saisons et 236 épisodes. La série se déroule à New York et suit six amis dans la vingtaine puis la trentaine."
+    ],
+    [
+      "Où se passe l'action de Friends ?",
+      "L'action se déroule à New York, principalement dans deux appartements voisins de Manhattan et dans le café Central Perk, où la bande se retrouve. En réalité, la série a surtout été tournée en studio, en Californie, ce qui explique que les décors intérieurs soient tous des plateaux construits pour l'occasion."
+    ]
+  ],
+  "related": [
+    "/quiz-films",
+    "/quiz-cinema",
+    "/quiz-dessins-animes",
+    "/quiz-game-of-thrones",
+    "/quiz-etats-unis"
+  ],
+  "verified": "2026-11-13"
+}

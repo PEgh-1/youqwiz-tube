@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-game-of-thrones",
+  "theme": "cinema",
+  "title": "Quiz Game of Thrones : 20 questions sur la série",
+  "description": "Quiz Game of Thrones : 20 questions sur la série HBO, ses familles, ses personnages, ses lieux et ses coulisses. Du niveau facile au niveau expert.",
+  "h1": "Quiz Game of Thrones : connais-tu vraiment Westeros ?",
+  "intro": "Maisons rivales, dragons, Mur de glace et Trône de fer : Game of Thrones a été l'une des séries les plus suivies de la décennie 2010. Ce quiz te propose 20 questions sur la série HBO, diffusée de 2011 à 2019, avec ses personnages, ses emblèmes, ses lieux de tournage et ses coulisses. Les questions vont du niveau facile au niveau expert, avec environ 5 secondes de réflexion chacune. Après chaque réponse, une courte explication te livre un fait supplémentaire. Prêt à prouver que tu mérites un siège à la table du Conseil ?",
+  "questions": [
+    {
+      "q": "Quelle chaîne de télévision américaine a produit et diffusé Game of Thrones ?",
+      "choices": [
+        "Netflix",
+        "AMC",
+        "HBO",
+        "Showtime"
+      ],
+      "answer": 2,
+      "explication": "HBO a aussi diffusé d'autres séries majeures, dont Les Soprano et The Wire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Quel auteur a écrit les romans dont la série est adaptée ?",
+      "choices": [
+        "George R. R. Martin",
+        "J. R. R. Tolkien",
+        "Terry Pratchett",
+        "Patrick Rothfuss"
+      ],
+      "answer": 0,
+      "explication": "Les romans forment la saga Le Trône de fer, dont le titre original est A Song of Ice and Fire.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/George_R._R._Martin"
+    },
+    {
+      "q": "Quel animal figure sur l'emblème de la maison Stark ?",
+      "choices": [
+        "Un lion",
+        "Un loup",
+        "Un dragon",
+        "Un cerf"
+      ],
+      "answer": 1,
+      "explication": "Il s'agit plus précisément d'un loup géant, animal très présent dans le Nord.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Quel est le nom de la capitale du royaume, où siège le Trône de fer ?",
+      "choices": [
+        "Winterfell",
+        "Braavos",
+        "Castral Roc",
+        "Port-Réal"
+      ],
+      "answer": 3,
+      "explication": "Port-Réal est située sur la côte est du continent de Westeros.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Quelle actrice interprète Daenerys Targaryen ?",
+      "choices": [
+        "Lena Headey",
+        "Sophie Turner",
+        "Emilia Clarke",
+        "Maisie Williams"
+      ],
+      "answer": 2,
+      "explication": "Elle a incarné le personnage pendant les huit saisons de la série.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Emilia_Clarke"
+    },
+    {
+      "q": "Combien de saisons compte la série ?",
+      "choices": [
+        "Cinq",
+        "Huit",
+        "Six",
+        "Dix"
+      ],
+      "answer": 1,
+      "explication": "La dernière saison est diffusée au printemps 2019.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Quel acteur interprète Tyrion Lannister ?",
+      "choices": [
+        "Peter Dinklage",
+        "Kit Harington",
+        "Nikolaj Coster-Waldau",
+        "Iain Glen"
+      ],
+      "answer": 0,
+      "explication": "Il a reçu plusieurs prix pour ce rôle, dont des Emmy Awards.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Peter_Dinklage"
+    },
+    {
+      "q": "Comment s'appelle l'immense muraille de glace qui protège le nord du royaume ?",
+      "choices": [
+        "La Barrière",
+        "Le Rempart",
+        "La Falaise",
+        "Le Mur"
+      ],
+      "answer": 3,
+      "explication": "C'est derrière le Mur que vivent les peuples libres, appelés les Sauvageons.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Dans quelle ville de Croatie a été tourné Port-Réal ?",
+      "choices": [
+        "Zagreb",
+        "Dubrovnik",
+        "Split",
+        "Zadar"
+      ],
+      "answer": 1,
+      "explication": "La vieille ville de Dubrovnik, entourée de remparts, est classée à l'UNESCO.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dubrovnik"
+    },
+    {
+      "q": "Quel duo est à l'origine de la série pour HBO ?",
+      "choices": [
+        "Vince Gilligan et Peter Gould",
+        "Matt Duffer et Ross Duffer",
+        "David Benioff et D. B. Weiss",
+        "Damon Lindelof et Carlton Cuse"
+      ],
+      "answer": 2,
+      "explication": "Ils ont aussi été les showrunners de la série pendant ses huit saisons.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Quel est le nom de l'un des trois dragons de Daenerys ?",
+      "choices": [
+        "Smaug",
+        "Norbert",
+        "Saphira",
+        "Drogon"
+      ],
+      "answer": 3,
+      "explication": "Les deux autres s'appellent Rhaegal et Viserion.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "De quoi est fabriqué le Trône de fer, selon l'histoire ?",
+      "choices": [
+        "D'épées fondues",
+        "De pierre noire",
+        "D'or massif",
+        "De bois sculpté"
+      ],
+      "answer": 0,
+      "explication": "Il aurait été forgé à partir des armes des ennemis vaincus par Aegon le Conquérant.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Le_Trône_de_fer"
+    },
+    {
+      "q": "Quel compositeur a écrit la musique de la série ?",
+      "choices": [
+        "Hans Zimmer",
+        "Ramin Djawadi",
+        "Howard Shore",
+        "Danny Elfman"
+      ],
+      "answer": 1,
+      "explication": "Il est aussi connu pour avoir composé la musique de la série Westworld.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ramin_Djawadi"
+    },
+    {
+      "q": "Comment s'appelle l'épée offerte à Arya Stark par son demi-frère Jon ?",
+      "choices": [
+        "Glace",
+        "Orgueil",
+        "Griffe",
+        "Aiguille"
+      ],
+      "answer": 3,
+      "explication": "Glace, de son côté, est l'épée de la famille Stark, celle d'Eddard.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Comment s'appelle le continent situé à l'est de Westeros ?",
+      "choices": [
+        "Sothoryos",
+        "Ulthos",
+        "Essos",
+        "Valyria"
+      ],
+      "answer": 2,
+      "explication": "Il abrite notamment les cités libres et les terres des seigneurs du cheval.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Quel animal figure sur l'emblème de la maison Greyjoy ?",
+      "choices": [
+        "Un kraken",
+        "Un loup",
+        "Un faucon",
+        "Un poisson"
+      ],
+      "answer": 0,
+      "explication": "Les Greyjoy règnent sur les îles de Fer, dont l'économie repose sur la mer.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Quel linguiste a créé la langue dothraki pour la série ?",
+      "choices": [
+        "Marc Okrand",
+        "David J. Peterson",
+        "Paul Frommer",
+        "J. R. R. Tolkien"
+      ],
+      "answer": 1,
+      "explication": "Il a aussi inventé le haut valyrien, utilisé dans de nombreuses scènes.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/David_J._Peterson"
+    },
+    {
+      "q": "Dans quelle ville se trouvaient les principaux studios de tournage de la série ?",
+      "choices": [
+        "Cardiff",
+        "Édimbourg",
+        "Belfast",
+        "Londres"
+      ],
+      "answer": 2,
+      "explication": "La ville nord-irlandaise abritait des studios installés sur un ancien site de chantiers navals.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Game_of_Thrones"
+    },
+    {
+      "q": "Quel est le titre de la série préquelle diffusée à partir de 2022 ?",
+      "choices": [
+        "House of the Dragon",
+        "The Last Kingdom",
+        "Iron Throne",
+        "Winterfell"
+      ],
+      "answer": 0,
+      "explication": "Elle se déroule près de deux siècles avant les événements de Game of Thrones.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/House_of_the_Dragon"
+    },
+    {
+      "q": "En quelle année est paru le premier tome des romans de George R. R. Martin ?",
+      "choices": [
+        "1986",
+        "2001",
+        "2005",
+        "1996"
+      ],
+      "answer": 3,
+      "explication": "Il s'intitule A Game of Thrones en version originale.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Le_Trône_de_fer"
+    }
+  ],
+  "faq": [
+    [
+      "Ce quiz Game of Thrones est-il adapté à tous ?",
+      "Oui : les questions portent sur les personnages, les maisons, les lieux de tournage et la production, sans détail violent ni scène choquante. Elles sont classées en 8 faciles, 8 moyennes et 4 expertes, ce qui convient aussi bien à un spectateur occasionnel qu'à un fan qui connaît la série par cœur."
+    ],
+    [
+      "D'où vient l'histoire de Game of Thrones ?",
+      "La série est adaptée d'une saga de romans de fantasy de l'auteur américain George R. R. Martin, intitulée en français Le Trône de fer. Le premier tome est paru en 1996. La série HBO a été imaginée par David Benioff et D. B. Weiss, et a été diffusée entre avril 2011 et mai 2019."
+    ],
+    [
+      "Où a été tourné Game of Thrones ?",
+      "Le tournage s'est étalé sur plusieurs pays : l'Irlande du Nord, où se trouvaient les studios principaux, mais aussi la Croatie, l'Islande, Malte ou l'Espagne. Dubrovnik, ville côtière de Croatie, a servi de décor à la capitale Port-Réal, ce qui en a fait une destination touristique très prisée."
+    ]
+  ],
+  "related": [
+    "/quiz-seigneur-des-anneaux",
+    "/quiz-friends",
+    "/quiz-moyen-age",
+    "/quiz-marvel",
+    "/quiz-star-wars"
+  ],
+  "verified": "2026-11-13"
+}

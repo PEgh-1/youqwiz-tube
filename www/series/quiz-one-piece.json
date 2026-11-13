@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-one-piece",
+  "theme": "culture",
+  "title": "Quiz One Piece : 20 questions sur Luffy et son équipage",
+  "description": "Quiz One Piece : 20 questions sur Luffy, l'équipage du Chapeau de paille, les arcs, les fruits du démon et la création du manga par Eiichirō Oda.",
+  "h1": "Quiz One Piece : connais-tu vraiment l'univers de Luffy et des pirates ?",
+  "intro": "Tu as dévoré les chapitres, suivi chaque arc et retenu le nom de tous les fruits du démon ? Ce quiz One Piece te propose 20 questions sur l'équipage du Chapeau de paille, les grands moments du récit, son auteur et l'histoire éditoriale de la série. Le niveau grimpe doucement : huit questions faciles, huit moyennes et quatre pour les vrais experts. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un détail de plus sur l'œuvre. Prêt à hisser la voile et à viser le score parfait ?",
+  "questions": [
+    {
+      "q": "Quel mangaka a créé One Piece ?",
+      "choices": [
+        "Masashi Kishimoto",
+        "Tite Kubo",
+        "Akira Toriyama",
+        "Eiichirō Oda"
+      ],
+      "answer": 3,
+      "explication": "Eiichirō Oda est né à Kumamoto en 1975.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Eiichirō_Oda"
+    },
+    {
+      "q": "Quel pouvoir Luffy obtient-il en mangeant un fruit du démon dans son enfance ?",
+      "choices": [
+        "La capacité de devenir invisible",
+        "Un corps élastique comme du caoutchouc",
+        "La transformation en loup",
+        "La maîtrise du feu"
+      ],
+      "answer": 1,
+      "explication": "Comme tout utilisateur d'un fruit du démon, il perd en échange la capacité de nager.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel est le grand rêve de Luffy ?",
+      "choices": [
+        "Devenir le roi des pirates",
+        "Fonder son propre royaume",
+        "Retrouver ses parents",
+        "Devenir amiral de la Marine"
+      ],
+      "answer": 0,
+      "explication": "Pour y parvenir, il doit trouver le trésor légendaire qui donne son nom à la série.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Combien de sabres Zoro utilise-t-il dans son style de combat le plus emblématique ?",
+      "choices": [
+        "Deux",
+        "Quatre",
+        "Un",
+        "Trois"
+      ],
+      "answer": 3,
+      "explication": "Il tient un sabre dans chaque main et le troisième entre ses dents.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Roronoa_Zoro"
+    },
+    {
+      "q": "Quel rôle Nami occupe-t-elle au sein de l'équipage du Chapeau de paille ?",
+      "choices": [
+        "Navigatrice",
+        "Cuisinière",
+        "Charpentière",
+        "Médecin"
+      ],
+      "answer": 0,
+      "explication": "Elle rêve de dessiner la carte du monde entier.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel membre de l'équipage est cuisinier et se bat uniquement avec ses jambes ?",
+      "choices": [
+        "Zoro",
+        "Usopp",
+        "Franky",
+        "Sanji"
+      ],
+      "answer": 3,
+      "explication": "Il rêve de trouver l'All Blue, une mer légendaire où se mêlent les poissons de tous les océans.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel animal est Tony Tony Chopper, le médecin de l'équipage ?",
+      "choices": [
+        "Un ours",
+        "Un renne",
+        "Un chien",
+        "Un singe"
+      ],
+      "answer": 1,
+      "explication": "Il a mangé le fruit Hito Hito, qui lui permet de prendre forme humaine.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel membre de l'équipage est le tireur d'élite ?",
+      "choices": [
+        "Brook",
+        "Sanji",
+        "Usopp",
+        "Zoro"
+      ],
+      "answer": 2,
+      "explication": "Il est connu pour inventer des histoires et pour manier habilement sa fronde.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Usopp"
+    },
+    {
+      "q": "Dans quelle ville le roi des pirates Gol D. Roger a-t-il été exécuté ?",
+      "choices": [
+        "Water Seven",
+        "Loguetown",
+        "Marineford",
+        "Shells Town"
+      ],
+      "answer": 1,
+      "explication": "C'est aussi la dernière ville de East Blue que Luffy traverse avant de pénétrer sur Grand Line.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel métier exerce Nico Robin, capable de lire les poneglyphes ?",
+      "choices": [
+        "Archéologue",
+        "Médecin",
+        "Charpentière",
+        "Navigatrice"
+      ],
+      "answer": 0,
+      "explication": "Elle est originaire de l'île d'Ohara, dont le savoir a été détruit par le Gouvernement mondial.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel héros de la Marine est le grand-père de Luffy ?",
+      "choices": [
+        "Sengoku",
+        "Edward Newgate",
+        "Monkey D. Garp",
+        "Shanks"
+      ],
+      "answer": 2,
+      "explication": "Vice-amiral de la Marine, il a pourtant un petit-fils devenu pirate.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel antagoniste menace le royaume d'Alabasta ?",
+      "choices": [
+        "Arlong",
+        "Rob Lucci",
+        "Gecko Moriah",
+        "Sir Crocodile"
+      ],
+      "answer": 3,
+      "explication": "Il possède le fruit Suna Suna, qui lui permet de contrôler le sable.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Qui construit le Thousand Sunny, le navire de l'équipage après le Going Merry ?",
+      "choices": [
+        "Franky",
+        "Usopp",
+        "Iceburg",
+        "Brook"
+      ],
+      "answer": 0,
+      "explication": "Le navire est bâti en bois d'Adam, un matériau très résistant.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel frère de Luffy meurt lors de la guerre de Marineford ?",
+      "choices": [
+        "Sabo",
+        "Portgas D. Ace",
+        "Trafalgar Law",
+        "Jinbe"
+      ],
+      "answer": 1,
+      "explication": "Ace est le fils de Gol D. Roger.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel musicien squelette rejoint l'équipage à Thriller Bark ?",
+      "choices": [
+        "Jinbe",
+        "Bartolomeo",
+        "Brook",
+        "Franky"
+      ],
+      "answer": 2,
+      "explication": "Il a mangé le fruit Yomi Yomi, qui l'a ramené à la vie après sa mort.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel ancien Grand corsaire règne sur Dressrosa avant d'être vaincu par Luffy ?",
+      "choices": [
+        "Donquixote Doflamingo",
+        "Sir Crocodile",
+        "Bartholomew Kuma",
+        "Gecko Moriah"
+      ],
+      "answer": 0,
+      "explication": "Il est le frère aîné de Corazon, un marine infiltré dans son équipage.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "En quelle année One Piece commence-t-il à paraître au Japon ?",
+      "choices": [
+        "2002",
+        "1997",
+        "1993",
+        "1999"
+      ],
+      "answer": 1,
+      "explication": "Le manga est prépublié dans le Weekly Shōnen Jump de l'éditeur Shūeisha.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    },
+    {
+      "q": "Quel éditeur publie One Piece en France ?",
+      "choices": [
+        "Pika",
+        "Kana",
+        "Glénat",
+        "Kurokawa"
+      ],
+      "answer": 2,
+      "explication": "Le premier tome français est paru au tout début des années 2000.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Glénat"
+    },
+    {
+      "q": "Quel studio réalise l'adaptation animée de One Piece ?",
+      "choices": [
+        "Bones",
+        "Studio Pierrot",
+        "Toei Animation",
+        "Madhouse"
+      ],
+      "answer": 2,
+      "explication": "Le premier épisode de la série télévisée est diffusé au Japon en octobre 1999.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Toei_Animation"
+    },
+    {
+      "q": "Quel dieu autoproclamé règne sur l'île céleste de Skypiea ?",
+      "choices": [
+        "Gan Fall",
+        "Wyper",
+        "Pagaya",
+        "Enel"
+      ],
+      "answer": 3,
+      "explication": "Il a mangé le fruit Goro Goro, qui lui donne les pouvoirs de la foudre.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/One_Piece"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz One Piece ?",
+      "Le quiz compte 20 questions classées par difficulté : huit faciles sur l'équipage et les personnages principaux, huit moyennes sur les arcs et les ennemis, puis quatre questions d'expert sur la publication et l'adaptation. Un lecteur régulier du manga peut viser un bon score, et chaque corrigé apporte un détail supplémentaire."
+    ],
+    [
+      "Comment One Piece est-il publié ?",
+      "One Piece est un manga d'aventure prépublié chapitre par chapitre dans un magazine hebdomadaire japonais, puis regroupé en volumes reliés. La série a ensuite été adaptée à la télévision et traduite dans de nombreux pays, dont la France."
+    ],
+    [
+      "Qu'est-ce qu'un fruit du démon dans One Piece ?",
+      "Un fruit du démon est un fruit étrange qui donne un pouvoir spécial à celui qui le mange, comme la capacité de se transformer ou de contrôler un élément. En contrepartie, son utilisateur ne peut plus nager. Les fruits se répartissent en trois grandes catégories : Paramecia, Zoan et Logia."
+    ]
+  ],
+  "related": [
+    "/quiz-naruto",
+    "/quiz-dragon-ball",
+    "/quiz-mangas",
+    "/quiz-dessins-animes",
+    "/quiz-japon"
+  ],
+  "verified": "2026-11-13"
+}

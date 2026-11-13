@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-histoire-de-l-art",
+  "theme": "culture",
+  "title": "Quiz histoire de l'art : 20 questions de culture",
+  "description": "Quiz histoire de l'art : 20 questions sur les mouvements, la sculpture, l'architecture et la photographie, avec une explication après chaque réponse.",
+  "h1": "Quiz histoire de l'art : mouvements, sculpture, architecture, photographie",
+  "intro": "Passionné de musées, curieux d'art ou simple amateur de belles formes ? Ce quiz d'histoire de l'art te propose 20 questions sur les grands mouvements, la sculpture, l'architecture et la photographie, de l'Antiquité grecque à l'art du XXe siècle. Les huit premières sont accessibles à tous, les suivantes demandent un peu de culture, et les quatre dernières mettront à l'épreuve les plus fins connaisseurs. Après chaque réponse, une courte explication t'apprend un fait de plus, à glisser à ta prochaine visite d'exposition. Es-tu prêt à viser le sans-faute ?",
+  "questions": [
+    {
+      "q": "Quel sculpteur français est l'auteur du Penseur ?",
+      "choices": [
+        "Auguste Rodin",
+        "Aristide Maillol",
+        "Antoine Bourdelle",
+        "Auguste Bartholdi"
+      ],
+      "answer": 0,
+      "explication": "Cette figure devait d'abord surmonter La Porte de l'Enfer, un portail monumental qui n'a jamais été achevé.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Penseur"
+    },
+    {
+      "q": "Dans quelle ville se trouve le Parthénon, temple dédié à la déesse Athéna ?",
+      "choices": [
+        "Rome",
+        "Corinthe",
+        "Sparte",
+        "Athènes"
+      ],
+      "answer": 3,
+      "explication": "Il est construit au Ve siècle av. J.-C. sur l'Acropole, et ses sculptures sont l'œuvre d'un atelier dirigé par Phidias.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Parthénon"
+    },
+    {
+      "q": "Quel inventeur français a réalisé le plus ancien cliché photographique conservé, pris depuis sa fenêtre à Saint-Loup-de-Varennes ?",
+      "choices": [
+        "Louis Daguerre",
+        "Nicéphore Niépce",
+        "Étienne-Jules Marey",
+        "Louis Lumière"
+      ],
+      "answer": 1,
+      "explication": "Son procédé, l'héliographie, exigeait une très longue pose, de plusieurs heures selon les estimations.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Nicéphore_Niépce"
+    },
+    {
+      "q": "Quelle statue grecque antique, découverte en 1820 sur l'île de Milos, est exposée au Louvre ?",
+      "choices": [
+        "Le Discobole",
+        "L'Apollon du Belvédère",
+        "Le Laocoon",
+        "La Vénus de Milo"
+      ],
+      "answer": 3,
+      "explication": "Découverte par un paysan, elle est offerte à Louis XVIII, qui en fait don au Louvre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Vénus_de_Milo"
+    },
+    {
+      "q": "Quel architecte est l'auteur de la villa Savoye, à Poissy, et de la Cité radieuse, à Marseille ?",
+      "choices": [
+        "Le Corbusier",
+        "Gustave Eiffel",
+        "Auguste Perret",
+        "Jean Nouvel"
+      ],
+      "answer": 0,
+      "explication": "Il théorise les « cinq points de l'architecture moderne », dont les pilotis, le toit-terrasse et la fenêtre en longueur.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Le_Corbusier"
+    },
+    {
+      "q": "Quel style, aux lignes sinueuses inspirées des plantes, caractérise les entrées de métro parisien conçues par Hector Guimard ?",
+      "choices": [
+        "L'Art déco",
+        "Le classicisme",
+        "L'Art nouveau",
+        "Le brutalisme"
+      ],
+      "answer": 2,
+      "explication": "Ces entrées en fonte, ouvragées comme des tiges de fleurs, datent du début du XXe siècle, et il en reste une partie à Paris.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Art_nouveau"
+    },
+    {
+      "q": "Quel photographe français, cofondateur de l'agence Magnum en 1947, est associé à la notion d'« instant décisif » ?",
+      "choices": [
+        "Henri Cartier-Bresson",
+        "Robert Doisneau",
+        "Eugène Atget",
+        "Willy Ronis"
+      ],
+      "answer": 0,
+      "explication": "Il photographie sur le vif avec un Leica discret, en cherchant à saisir un geste ou une composition qui ne se reproduira pas.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Henri_Cartier-Bresson"
+    },
+    {
+      "q": "Quel mouvement, lancé par un manifeste de Marinetti publié dans Le Figaro en 1909, exalte la vitesse et la modernité ?",
+      "choices": [
+        "Le dadaïsme",
+        "Le futurisme",
+        "Le constructivisme",
+        "Le symbolisme"
+      ],
+      "answer": 1,
+      "explication": "Né en Italie, il célèbre la machine et la ville moderne, et touche la peinture, la sculpture, la musique et la littérature.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Futurisme_(art)"
+    },
+    {
+      "q": "Quel artiste soumet en 1917 un urinoir signé « R. Mutt » sous le titre Fontaine ?",
+      "choices": [
+        "Man Ray",
+        "Francis Picabia",
+        "Marcel Duchamp",
+        "Max Ernst"
+      ],
+      "answer": 2,
+      "explication": "Cet objet manufacturé promu œuvre d'art est un « ready-made », notion qui bouscule la définition même de l'art.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Fontaine_(Duchamp)"
+    },
+    {
+      "q": "Quel sculpteur d'origine roumaine, installé à Paris, est l'auteur de La Colonne sans fin ?",
+      "choices": [
+        "Alberto Giacometti",
+        "Constantin Brâncuși",
+        "Henry Moore",
+        "Jean Arp"
+      ],
+      "answer": 1,
+      "explication": "La version monumentale de cette colonne en métal, haute de près de trente mètres, a été érigée en 1938 à Târgu Jiu, en Roumanie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Colonne_sans_fin"
+    },
+    {
+      "q": "Quel architecte catalan a conçu la Casa Milà, surnommée « la Pedrera » ?",
+      "choices": [
+        "Antoni Gaudí",
+        "Lluís Domènech i Montaner",
+        "Josep Puig i Cadafalch",
+        "Santiago Calatrava"
+      ],
+      "answer": 0,
+      "explication": "Sa façade ondulée en pierre ne comporte presque aucune ligne droite, et le bâtiment figure sur la liste du patrimoine mondial de l'UNESCO.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Casa_Milà"
+    },
+    {
+      "q": "Quel procédé photographique, présenté publiquement en 1839, donne une image unique sur une plaque de cuivre recouverte d'argent ?",
+      "choices": [
+        "Le calotype",
+        "Le cyanotype",
+        "Le daguerréotype",
+        "L'ambrotype"
+      ],
+      "answer": 2,
+      "explication": "Il ne permet pas de tirer de copies, contrairement au calotype de l'Anglais William Henry Fox Talbot, qui utilise un négatif sur papier.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Daguerréotype"
+    },
+    {
+      "q": "Quelle sculptrice française, élève et compagne de Rodin, a réalisé L'Âge mûr ?",
+      "choices": [
+        "Camille Claudel",
+        "Niki de Saint Phalle",
+        "Louise Bourgeois",
+        "Germaine Richier"
+      ],
+      "answer": 0,
+      "explication": "Une version en bronze de ce groupe est conservée au musée d'Orsay, et un musée porte son nom à Nogent-sur-Seine, la ville de son enfance.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Camille_Claudel"
+    },
+    {
+      "q": "Quel architecte américain a conçu la maison de la Cascade (Fallingwater), bâtie au-dessus d'une chute d'eau ?",
+      "choices": [
+        "Ludwig Mies van der Rohe",
+        "Louis Sullivan",
+        "Philip Johnson",
+        "Frank Lloyd Wright"
+      ],
+      "answer": 3,
+      "explication": "Il défend une « architecture organique », qui épouse le site au lieu de s'imposer à lui.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Maison_sur_la_cascade"
+    },
+    {
+      "q": "Quelle école d'art, d'architecture et de design est fondée en 1919 à Weimar par Walter Gropius ?",
+      "choices": [
+        "De Stijl",
+        "La Sécession viennoise",
+        "Le Bauhaus",
+        "Le Werkbund"
+      ],
+      "answer": 2,
+      "explication": "Elle déménage à Dessau puis à Berlin, avant sa fermeture en 1933 sous la pression du régime nazi.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Bauhaus"
+    },
+    {
+      "q": "Quel ordre de l'architecture grecque se reconnaît à ses chapiteaux ornés de feuilles d'acanthe ?",
+      "choices": [
+        "L'ordre dorique",
+        "L'ordre ionique",
+        "L'ordre toscan",
+        "L'ordre corinthien"
+      ],
+      "answer": 3,
+      "explication": "Le plus orné des trois ordres grecs inspirera beaucoup l'architecture romaine, puis celle de la Renaissance.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Ordre_corinthien"
+    },
+    {
+      "q": "Quel photographe, aussi caricaturiste et aéronaute, photographie les catacombes de Paris à la lumière électrique en 1861 ?",
+      "choices": [
+        "Nadar",
+        "Eugène Atget",
+        "Brassaï",
+        "Robert Doisneau"
+      ],
+      "answer": 0,
+      "explication": "De son vrai nom Félix Tournachon, il réalise aussi, depuis un ballon, l'une des toutes premières photographies aériennes.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Nadar"
+    },
+    {
+      "q": "Quel sculpteur baroque italien est l'auteur de L'Extase de sainte Thérèse, à Rome ?",
+      "choices": [
+        "Donatello",
+        "Antonio Canova",
+        "Benvenuto Cellini",
+        "Le Bernin"
+      ],
+      "answer": 3,
+      "explication": "Cette sculpture en marbre est placée dans la chapelle Cornaro, mise en scène avec une lumière venue d'une fenêtre cachée.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/L'Extase_de_sainte_Thérèse"
+    },
+    {
+      "q": "Quel architecte danois a conçu l'opéra de Sydney, dont les toits évoquent des voiles ?",
+      "choices": [
+        "Arne Jacobsen",
+        "Bjarke Ingels",
+        "Jørn Utzon",
+        "Alvar Aalto"
+      ],
+      "answer": 2,
+      "explication": "Choisi à l'issue d'un concours international, il quitte le chantier en 1966 sans voir l'édifice terminé, inauguré en 1973.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Opéra_de_Sydney"
+    },
+    {
+      "q": "Quel mouvement, fondé en 1960 par le critique Pierre Restany avec Yves Klein, Arman et Jean Tinguely ?",
+      "choices": [
+        "Le pop art",
+        "Le Nouveau réalisme",
+        "L'art minimal",
+        "Le lettrisme"
+      ],
+      "answer": 1,
+      "explication": "Ses artistes utilisent des objets du quotidien, des déchets ou des affiches déchirées, à la façon d'un constat sur la société de consommation.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Nouveaux_réalistes"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz d'histoire de l'art ?",
+      "Il est ouvert à tous : huit questions faciles sur les grandes œuvres et les grands noms, huit moyennes qui demandent quelques repères, puis quatre expertes. Il laisse volontairement de côté la peinture et la Renaissance, que tu retrouves dans deux autres quiz, pour s'intéresser aux mouvements, à la sculpture, à l'architecture et à la photographie."
+    ],
+    [
+      "Quelle différence entre une ronde-bosse et un bas-relief ?",
+      "La ronde-bosse est une sculpture entièrement détachée de tout fond, que l'on peut contourner et regarder sous tous les angles. Le bas-relief, lui, est une sculpture en faible saillie sur un fond dont elle ne se détache pas ; le haut-relief, plus saillant, se situe entre les deux."
+    ],
+    [
+      "Comment distinguer un édifice roman d'un édifice gothique ?",
+      "L'art roman utilise la voûte en plein cintre, supportée par des murs épais percés de petites ouvertures. L'art gothique, apparu au XIIe siècle, emploie l'arc brisé, la voûte sur croisée d'ogives et des arcs-boutants, ce qui permet d'élever les murs et d'ouvrir de grandes baies garnies de vitraux."
+    ]
+  ],
+  "related": [
+    "/quiz-peinture",
+    "/quiz-renaissance",
+    "/quiz-musique-classique",
+    "/quiz-litterature",
+    "/quiz-culture-generale-difficile"
+  ],
+  "verified": "2026-11-13"
+}

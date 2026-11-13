@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-dragon-ball",
+  "theme": "culture",
+  "title": "Quiz Dragon Ball : 20 questions pour les fans",
+  "description": "Quiz Dragon Ball : 20 questions sur Goku, Végéta, Freezer, Cell, Boo, les boules de cristal et la création du manga d'Akira Toriyama.",
+  "h1": "Quiz Dragon Ball : seras-tu à la hauteur des guerriers Z ?",
+  "intro": "Kamehameha, transformations, boules de cristal, tournois : Dragon Ball a marqué des générations de lecteurs et de téléspectateurs. Ce quiz Dragon Ball te propose 20 questions sur les personnages, les grands ennemis, les techniques et l'histoire de la série, des plus accessibles aux plus pointues. Tu auras huit questions faciles, huit moyennes et quatre pour les experts. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un détail supplémentaire. Concentre ton énergie : il est temps de montrer ton niveau de combat !",
+  "questions": [
+    {
+      "q": "De quel peuple extraterrestre est issu Goku ?",
+      "choices": [
+        "Les Saiyans",
+        "Les Démons",
+        "Les Namekiens",
+        "Les Androïdes"
+      ],
+      "answer": 0,
+      "explication": "Les Saiyans possèdent une queue de singe qui les transforme en singe géant les nuits de pleine lune.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quelle transformation donne aux Saiyans des cheveux dorés et une puissance décuplée ?",
+      "choices": [
+        "Kaiōken",
+        "Fusion",
+        "Super Saiyan",
+        "Mode Ermite"
+      ],
+      "answer": 2,
+      "explication": "Elle se déclenche sous l'effet d'une colère intense.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Comment s'appelle le prince des Saiyans, rival de Goku ?",
+      "choices": [
+        "Végéta",
+        "Raditz",
+        "Piccolo",
+        "Trunks"
+      ],
+      "answer": 0,
+      "explication": "Il porte le nom de la planète des Saiyans.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quelle jeune inventrice rencontre Goku au début de la série et part avec lui à l'aventure ?",
+      "choices": [
+        "Videl",
+        "Bulma",
+        "Chichi",
+        "Lunch"
+      ],
+      "answer": 1,
+      "explication": "Elle est la fille du fondateur de la Capsule Corporation.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quel dragon sacré de la Terre apparaît quand les sept boules de cristal sont réunies ?",
+      "choices": [
+        "Ryujin",
+        "Shenron",
+        "Porunga",
+        "Tatsumaki"
+      ],
+      "answer": 1,
+      "explication": "Selon l'histoire, il a été créé par Dieu, le gardien de la Terre.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quel vieux maître vivant sur une petite île enseigne le Kamehameha à Goku ?",
+      "choices": [
+        "Maître Karin",
+        "Piccolo",
+        "Tortue Géniale",
+        "Kaïo du Nord"
+      ],
+      "answer": 2,
+      "explication": "Son nom japonais, Kame Sennin, signifie « l'ermite tortue ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quel guerrier chauve est le meilleur ami de Goku ?",
+      "choices": [
+        "Tenshinhan",
+        "Krilin",
+        "Yamcha",
+        "Chaozu"
+      ],
+      "answer": 1,
+      "explication": "Petit et chauve, il est l'un des tout premiers compagnons de Goku.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quel Namek à la peau verte, d'abord ennemi de Goku, devient son allié ?",
+      "choices": [
+        "Nappa",
+        "Tenshinhan",
+        "Zarbon",
+        "Piccolo"
+      ],
+      "answer": 3,
+      "explication": "Il devient le maître du jeune Gohan, le fils de Goku.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quel tyran de l'espace détruit la planète des Saiyans ?",
+      "choices": [
+        "Freezer",
+        "Raditz",
+        "Majin Boo",
+        "Cell"
+      ],
+      "answer": 0,
+      "explication": "Il possède plusieurs formes successives, de plus en plus puissantes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Dans la saga de Freezer, sur quelle planète Goku affronte-t-il ce tyran ?",
+      "choices": [
+        "Yardrat",
+        "Terre",
+        "Végéta",
+        "Namek"
+      ],
+      "answer": 3,
+      "explication": "Cette planète possède aussi ses propres boules de cristal.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quel être artificiel organise les Cell Games ?",
+      "choices": [
+        "Cell",
+        "Dabra",
+        "Androïde 17",
+        "Majin Boo"
+      ],
+      "answer": 0,
+      "explication": "Il a été conçu à partir des cellules de plusieurs guerriers, dont Goku.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quelle créature rose, réveillée par le sorcier Babidi, sème le chaos à la fin de Dragon Ball Z ?",
+      "choices": [
+        "Cell",
+        "Freezer",
+        "Zarbon",
+        "Majin Boo"
+      ],
+      "answer": 3,
+      "explication": "Son pouvoir lui permet de transformer ses adversaires en friandises.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quel jeune guerrier venu du futur prévient Goku de l'arrivée des androïdes ?",
+      "choices": [
+        "Uub",
+        "Trunks",
+        "Pan",
+        "Goten"
+      ],
+      "answer": 1,
+      "explication": "Il vient d'un futur où les androïdes ont dévasté le monde.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Comment s'appelle le grand tournoi d'arts martiaux de la série ?",
+      "choices": [
+        "Grand Prix de Kame House",
+        "Turtle Cup",
+        "Coupe Capsule",
+        "Tenkaichi Budokai"
+      ],
+      "answer": 3,
+      "explication": "Son nom évoque le meilleur combattant sous le ciel.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quelle pièce du palais de Dieu permet de s'entraîner un an en une seule journée ?",
+      "choices": [
+        "Le temple Karin",
+        "La chambre de Kaïo",
+        "La salle de l'Esprit et du Temps",
+        "La tour Karin"
+      ],
+      "answer": 2,
+      "explication": "Elle impose une gravité dix fois supérieure et des températures extrêmes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quelle technique ultime de Goku rassemble l'énergie de tous les êtres vivants ?",
+      "choices": [
+        "Kaiōken",
+        "Kamehameha",
+        "Makankosappo",
+        "Genkidama"
+      ],
+      "answer": 3,
+      "explication": "Goku l'apprend auprès de Kaïo du Nord.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "En quelle année débute la publication du manga Dragon Ball au Japon ?",
+      "choices": [
+        "1984",
+        "1991",
+        "1988",
+        "1979"
+      ],
+      "answer": 0,
+      "explication": "Elle s'achève en 1995 après 42 volumes reliés.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball"
+    },
+    {
+      "q": "Quel roman classique chinois a inspiré l'histoire de Dragon Ball ?",
+      "choices": [
+        "Le Rêve du pavillon rouge",
+        "Les Trois Royaumes",
+        "La Pérégrination vers l'Ouest",
+        "Au bord de l'eau"
+      ],
+      "answer": 2,
+      "explication": "Ce roman met en scène le roi singe Sun Wukong, dont Goku reprend plusieurs traits.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/La_Pérégrination_vers_l'Ouest"
+    },
+    {
+      "q": "Quel manga comique, avec la petite Arale, précède Dragon Ball chez le même auteur ?",
+      "choices": [
+        "Sand Land",
+        "Dr Slump",
+        "Jaco the Galactic Patrolman",
+        "Cobra"
+      ],
+      "answer": 1,
+      "explication": "Dr Slump paraît au début des années 1980 dans le Weekly Shōnen Jump.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dr_Slump"
+    },
+    {
+      "q": "En quelle année débute à la télévision japonaise l'anime Dragon Ball Z ?",
+      "choices": [
+        "1986",
+        "1992",
+        "1989",
+        "1995"
+      ],
+      "answer": 2,
+      "explication": "Il est produit par le studio Toei Animation.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dragon_Ball_Z"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz Dragon Ball ?",
+      "Le quiz compte 20 questions classées par difficulté : huit faciles sur les héros et les techniques célèbres, huit moyennes sur les grands adversaires et les lieux, puis quatre d'expert sur l'origine de la série. Un fan de l'anime peut viser un excellent score, et chaque corrigé apporte un détail inédit."
+    ],
+    [
+      "Qui a créé Dragon Ball ?",
+      "Dragon Ball est une création du mangaka Akira Toriyama. Le manga est prépublié dans le magazine japonais Weekly Shōnen Jump, de l'éditeur Shūeisha, puis réuni en volumes reliés. Il a ensuite été adapté en dessin animé par le studio Toei Animation."
+    ],
+    [
+      "Que sont les boules de cristal dans Dragon Ball ?",
+      "Les boules de cristal sont des sphères magiques éparpillées sur la planète. Une fois toutes réunies, elles permettent d'invoquer un dragon sacré qui exauce un vœu. Leur quête est le moteur des premières aventures de Goku et de ses amis, et elles reviennent ensuite régulièrement dans le récit."
+    ]
+  ],
+  "related": [
+    "/quiz-one-piece",
+    "/quiz-naruto",
+    "/quiz-mangas",
+    "/quiz-dessins-animes",
+    "/quiz-japon"
+  ],
+  "verified": "2026-11-13"
+}

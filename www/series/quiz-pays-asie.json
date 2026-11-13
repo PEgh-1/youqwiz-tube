@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-pays-asie",
+  "theme": "geographie",
+  "title": "Quiz pays d'Asie : 20 questions de géographie",
+  "description": "Quiz pays d'Asie : 20 questions sur les montagnes, fleuves, sites célèbres et grandes dates du continent, du facile à l'expert, avec explications.",
+  "h1": "Quiz pays d'Asie : que sais-tu du plus grand continent du monde ?",
+  "intro": "Himalaya, Mékong, Angkor, Pétra, mers intérieures et empires millénaires : l'Asie est le plus vaste des continents et l'un des plus fascinants. Ce quiz te propose 20 questions sur ses pays, ses paysages, ses sites célèbres et quelques grandes dates de son histoire, de la plus simple à la plus pointue : 8 questions faciles, 8 de niveau moyen et 4 d'expert. Pas de capitales ni de drapeaux ici, d'autres quiz du site s'en occupent. Chaque réponse est suivie d'une courte explication qui t'apprend un fait de plus. Compte environ 5 secondes par question et lance-toi !",
+  "questions": [
+    {
+      "q": "Quelle chaîne de montagnes abrite les plus hauts sommets du monde, entre l'Inde, le Népal et la Chine ?",
+      "choices": [
+        "Les Andes",
+        "Le Caucase",
+        "L'Himalaya",
+        "L'Oural"
+      ],
+      "answer": 2,
+      "explication": "Son nom vient du sanskrit et signifie « demeure des neiges ».",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Himalaya"
+    },
+    {
+      "q": "Dans quel pays se trouve le temple d'Angkor Vat ?",
+      "choices": [
+        "Le Cambodge",
+        "La Thaïlande",
+        "Le Vietnam",
+        "Le Laos"
+      ],
+      "answer": 0,
+      "explication": "Bâti au XIIe siècle, c'est le plus grand monument religieux du monde et il figure sur le drapeau cambodgien.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Angkor_Vat"
+    },
+    {
+      "q": "Quel pays d'Asie du Sud-Est est le plus grand archipel du monde ?",
+      "choices": [
+        "Les Philippines",
+        "La Malaisie",
+        "Le Japon",
+        "L'Indonésie"
+      ],
+      "answer": 3,
+      "explication": "Il s'étend sur l'équateur et compte des milliers d'îles, dont Java, Sumatra et Bornéo en partie.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Indonésie"
+    },
+    {
+      "q": "Dans quel pays se trouve la cité rose de Pétra, creusée dans la roche ?",
+      "choices": [
+        "L'Iran",
+        "La Jordanie",
+        "L'Arabie saoudite",
+        "L'Irak"
+      ],
+      "answer": 1,
+      "explication": "Capitale des Nabatéens, elle est inscrite au patrimoine mondial de l'Unesco depuis 1985.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Pétra"
+    },
+    {
+      "q": "Quel fleuve sacré de l'Inde est vénéré par les hindous, notamment à Bénarès ?",
+      "choices": [
+        "L'Indus",
+        "Le Gange",
+        "Le Brahmapoutre",
+        "Le Mékong"
+      ],
+      "answer": 1,
+      "explication": "Les fidèles viennent s'y baigner pour se purifier et y disperser les cendres de leurs proches.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Gange"
+    },
+    {
+      "q": "Quelle mer salée du Proche-Orient est le point le plus bas des terres émergées du globe ?",
+      "choices": [
+        "La mer Rouge",
+        "La mer d'Aral",
+        "La mer Caspienne",
+        "La mer Morte"
+      ],
+      "answer": 3,
+      "explication": "Sa forte salinité empêche presque toute vie et permet de flotter sans effort à sa surface.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mer_Morte"
+    },
+    {
+      "q": "Dans quel pays se trouvent les villes saintes de La Mecque et de Médine ?",
+      "choices": [
+        "L'Arabie saoudite",
+        "L'Irak",
+        "L'Égypte",
+        "Le Yémen"
+      ],
+      "answer": 0,
+      "explication": "La Mecque est le lieu vers lequel les musulmans se tournent pour prier et le but du pèlerinage du hajj.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/La_Mecque"
+    },
+    {
+      "q": "Quel pays d'Asie du Sud-Est est surnommé « le pays du sourire » ?",
+      "choices": [
+        "Le Myanmar",
+        "Le Cambodge",
+        "La Thaïlande",
+        "La Malaisie"
+      ],
+      "answer": 2,
+      "explication": "Son nom signifie « pays des hommes libres » en thaï, et elle est aussi connue pour ses temples bouddhistes dorés.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Thaïlande"
+    },
+    {
+      "q": "Dans quel pays se trouvent les rizières en terrasses de Banaue, sculptées dans les montagnes de Luzon ?",
+      "choices": [
+        "Le Vietnam",
+        "L'Indonésie",
+        "Le Cambodge",
+        "Les Philippines"
+      ],
+      "answer": 3,
+      "explication": "Elles sont taillées dans les pentes depuis des siècles et inscrites au patrimoine mondial de l'Unesco.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Rizières_en_terrasses_des_cordillères_des_Philippines"
+    },
+    {
+      "q": "Quel détroit, l'un des plus fréquentés du monde, sépare la péninsule Malaise de l'île de Sumatra ?",
+      "choices": [
+        "Le détroit d'Ormuz",
+        "Le détroit de Malacca",
+        "Le Bosphore",
+        "Le détroit de Bab-el-Mandeb"
+      ],
+      "answer": 1,
+      "explication": "Il relie l'océan Indien à la mer de Chine méridionale et ouvre la route maritime la plus courte entre l'Inde et la Chine.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Détroit_de_Malacca"
+    },
+    {
+      "q": "Quel fleuve prend sa source au Tibet, traverse six pays et finit en delta au Vietnam ?",
+      "choices": [
+        "Le Mékong",
+        "L'Irrawaddy",
+        "Le Salouen",
+        "Le Brahmapoutre"
+      ],
+      "answer": 0,
+      "explication": "Son delta, surnommé le « grenier à riz » du Vietnam, est l'une des plus riches régions agricoles d'Asie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mékong"
+    },
+    {
+      "q": "Quel empereur est enterré à Xi'an avec une armée de milliers de soldats en terre cuite ?",
+      "choices": [
+        "Kubilaï Khan",
+        "Han Wudi",
+        "Qin Shi Huang",
+        "Gengis Khan"
+      ],
+      "answer": 2,
+      "explication": "Cette armée a été découverte par hasard en 1974 par des paysans qui creusaient un puits.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Armée_de_terre_cuite"
+    },
+    {
+      "q": "Quelle mer intérieure d'Asie centrale a presque disparu depuis les années 1960 à cause de l'irrigation ?",
+      "choices": [
+        "La mer Morte",
+        "La mer d'Aral",
+        "La mer Caspienne",
+        "Le lac Balkhach"
+      ],
+      "answer": 1,
+      "explication": "Les détournements de l'Amou-Daria et du Syr-Daria vers les champs de coton l'ont privée d'une grande partie de ses eaux.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mer_d'Aral"
+    },
+    {
+      "q": "Quel administrateur britannique fonde en 1819 le comptoir de Singapour ?",
+      "choices": [
+        "Robert Clive",
+        "Warren Hastings",
+        "James Brooke",
+        "Stamford Raffles"
+      ],
+      "answer": 3,
+      "explication": "Il choisit cette petite île pour en faire un port libre au carrefour des routes maritimes de l'Asie.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Stamford_Raffles"
+    },
+    {
+      "q": "Quelle union coloniale française regroupait le Vietnam, le Cambodge et le Laos à partir de la fin du XIXe siècle ?",
+      "choices": [
+        "L'Indochine française",
+        "Les Indes orientales",
+        "L'Insulinde",
+        "La Malaisie britannique"
+      ],
+      "answer": 0,
+      "explication": "Elle fut créée en 1887 et a disparu après les accords de Genève de 1954.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Indochine_française"
+    },
+    {
+      "q": "Quel sommet, deuxième plus haut du monde, se dresse à la frontière du Pakistan et de la Chine ?",
+      "choices": [
+        "L'Annapurna",
+        "Le Nanga Parbat",
+        "Le K2",
+        "Le Lhotse"
+      ],
+      "answer": 2,
+      "explication": "Réputé plus difficile et plus dangereux que l'Everest, il fut gravi pour la première fois en 1954 par une expédition italienne.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/K2"
+    },
+    {
+      "q": "Quel est le seul pays d'Asie du Sud-Est sans accès à la mer ?",
+      "choices": [
+        "Le Cambodge",
+        "Le Myanmar",
+        "Le Brunei",
+        "Le Laos"
+      ],
+      "answer": 3,
+      "explication": "Il est entouré par la Chine, le Vietnam, le Cambodge, la Thaïlande et le Myanmar, et reste un pays de montagnes et de plateaux.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Laos"
+    },
+    {
+      "q": "Quel traité de 1842 met fin à la première guerre de l'opium et cède l'île de Hong Kong à la Grande-Bretagne ?",
+      "choices": [
+        "Le traité de Nankin",
+        "Le traité de Tianjin",
+        "Le traité d'Aigun",
+        "Le traité de Portsmouth"
+      ],
+      "answer": 0,
+      "explication": "Il ouvre aussi cinq ports chinois au commerce avec les Occidentaux.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Traité_de_Nankin"
+    },
+    {
+      "q": "Quelle dynastie régnait en Chine quand l'empire a pris fin en 1912 ?",
+      "choices": [
+        "Les Ming",
+        "Les Tang",
+        "Les Qing",
+        "Les Han"
+      ],
+      "answer": 2,
+      "explication": "Le dernier empereur, Puyi, a abdiqué après la révolution de 1911.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Dynastie_Qing"
+    },
+    {
+      "q": "Quelle étendue d'eau, bordée par cinq pays dont l'Iran et le Kazakhstan, est la plus grande mer fermée du monde ?",
+      "choices": [
+        "La mer d'Aral",
+        "La mer Caspienne",
+        "La mer Noire",
+        "Le lac Baïkal"
+      ],
+      "answer": 1,
+      "explication": "Son eau est légèrement salée, et elle abrite l'esturgeon, dont les œufs donnent le caviar.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Mer_Caspienne"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur les pays d'Asie ?",
+      "Le quiz comporte 8 questions faciles, 8 de niveau moyen et 4 questions expert. Il porte sur la géographie physique, les sites célèbres et quelques repères d'histoire, sans capitales ni drapeaux, qui ont leurs propres quiz sur le site. Une courte explication suit chaque réponse pour t'apprendre un fait supplémentaire."
+    ],
+    [
+      "Où passe la limite entre l'Europe et l'Asie ?",
+      "Par convention, la frontière suit la chaîne de l'Oural et le fleuve Oural, puis la mer Caspienne, le Caucase, la mer Noire, le Bosphore et les Dardanelles. Cette limite est historique plutôt que naturelle : l'Europe et l'Asie forment en réalité un seul bloc de terres, l'Eurasie."
+    ],
+    [
+      "Quelles sont les grandes régions de l'Asie ?",
+      "On distingue généralement l'Asie de l'Est, l'Asie du Sud-Est, l'Asie du Sud, l'Asie centrale et l'Asie de l'Ouest, aussi appelée Moyen-Orient ou Proche-Orient selon les usages. Chacune a ses paysages, ses langues et son histoire, des déserts d'Arabie aux forêts tropicales d'Indonésie."
+    ]
+  ],
+  "related": [
+    "/quiz-capitales-asie",
+    "/quiz-drapeaux-asie",
+    "/quiz-pays-afrique",
+    "/quiz-japon",
+    "/quiz-geographie"
+  ],
+  "verified": "2026-11-13"
+}

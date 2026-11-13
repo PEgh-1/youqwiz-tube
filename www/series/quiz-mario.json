@@ -1,0 +1,292 @@
+{
+  "path": "/quiz-mario",
+  "theme": "culture",
+  "title": "Quiz Mario : jeux, personnages et histoire",
+  "description": "Quiz Mario : 20 questions sur la licence Nintendo, ses jeux datés, ses personnages et ses grandes étapes, de Super Mario Bros. à Super Mario Odyssey.",
+  "h1": "Quiz Mario : es-tu un vrai fan de la moustache la plus célèbre ?",
+  "intro": "Moustache légendaire, princesse à sauver, tortue géante et champignons magiques : l'univers de Mario fait partie de la culture populaire depuis des décennies. Ce quiz te propose 20 questions sur la licence de Nintendo, ses personnages et ses jeux datés, des plus faciles aux plus pointues. Compte environ 5 secondes de réflexion par question. Chaque réponse est suivie d'une courte explication qui t'apprend un détail à retenir. Que tu aies grandi avec la manette de la NES ou avec la Switch, tu peux jouer seul ou en famille : sauras-tu décrocher l'étoile du score parfait ?",
+  "questions": [
+    {
+      "q": "Quel est le métier de Mario ?",
+      "choices": [
+        "Menuisier",
+        "Plombier",
+        "Pompier",
+        "Électricien"
+      ],
+      "answer": 1,
+      "explication": "Le jeu Mario Bros., sorti en 1983, l'envoie dans les égouts de New York.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mario_(personnage)"
+    },
+    {
+      "q": "Quel est le prénom du frère de Mario, vêtu de vert ?",
+      "choices": [
+        "Wario",
+        "Waluigi",
+        "Toad",
+        "Luigi"
+      ],
+      "answer": 3,
+      "explication": "Il apparaît dès Mario Bros., en 1983, pour le mode deux joueurs.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Luigi"
+    },
+    {
+      "q": "Comment s'appelle la princesse du royaume Champignon ?",
+      "choices": [
+        "Peach",
+        "Daisy",
+        "Rosalina",
+        "Zelda"
+      ],
+      "answer": 0,
+      "explication": "Dans les premiers jeux sortis en Occident, elle s'appelait Toadstool.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Princesse_Peach"
+    },
+    {
+      "q": "Comment s'appelle le roi des Koopas, grand rival de Mario ?",
+      "choices": [
+        "Wario",
+        "Ganondorf",
+        "Bowser",
+        "King Boo"
+      ],
+      "answer": 2,
+      "explication": "Au Japon, il se nomme Kuppa.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Bowser"
+    },
+    {
+      "q": "Quel objet fait grandir Mario dans Super Mario Bros. ?",
+      "choices": [
+        "La Fleur de feu",
+        "L'Étoile",
+        "Le Super Champignon",
+        "La pièce"
+      ],
+      "answer": 2,
+      "explication": "Une Fleur de feu lui permet ensuite de lancer des boules de feu.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Bros."
+    },
+    {
+      "q": "Comment s'appelle le serviteur à tête de champignon de la princesse ?",
+      "choices": [
+        "Toad",
+        "Yoshi",
+        "Goomba",
+        "Boo"
+      ],
+      "answer": 0,
+      "explication": "Il apparaît dès le premier Super Mario Bros., à la fin des châteaux.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Bros."
+    },
+    {
+      "q": "En quelle année Super Mario Kart sort-il au Japon ?",
+      "choices": [
+        "1990",
+        "1994",
+        "1996",
+        "1992"
+      ],
+      "answer": 3,
+      "explication": "Il exploite le « mode 7 » de la Super Nintendo pour afficher des circuits en pseudo-3D.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Kart"
+    },
+    {
+      "q": "Quelle plante dentue sort des tuyaux pour mordre Mario ?",
+      "choices": [
+        "Le Goomba",
+        "La Plante Piranha",
+        "Le Koopa",
+        "Le Bill Balle"
+      ],
+      "answer": 1,
+      "explication": "Dans le jeu, elle ne sort pas si Mario se tient juste au-dessus du tuyau.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Bros."
+    },
+    {
+      "q": "En quelle année Super Mario Bros. sort-il au Japon ?",
+      "choices": [
+        "1983",
+        "1987",
+        "1989",
+        "1985"
+      ],
+      "answer": 3,
+      "explication": "Ce jeu de plates-formes défile horizontalement et compte huit mondes.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Bros."
+    },
+    {
+      "q": "Quel jeu accompagne en 1996 la sortie de la Nintendo 64 au Japon ?",
+      "choices": [
+        "Super Mario World",
+        "Super Mario 64",
+        "Super Mario Sunshine",
+        "Super Mario Galaxy"
+      ],
+      "answer": 1,
+      "explication": "Le joueur y explore un château aux tableaux magiques pour récolter des étoiles.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_64"
+    },
+    {
+      "q": "Dans quel jeu Yoshi fait-il sa première apparition ?",
+      "choices": [
+        "Super Mario World",
+        "Super Mario Bros. 3",
+        "Super Mario Land",
+        "Super Mario 64"
+      ],
+      "answer": 0,
+      "explication": "Il sort en novembre 1990 au Japon avec la Super Famicom.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_World"
+    },
+    {
+      "q": "Quel objet transforme Mario en « Mario raton laveur » dans Super Mario Bros. 3 ?",
+      "choices": [
+        "La Fleur de feu",
+        "L'Étoile",
+        "La Super Feuille",
+        "La Cape plume"
+      ],
+      "answer": 2,
+      "explication": "Elle permet aussi de ralentir sa chute en planant.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Bros._3"
+    },
+    {
+      "q": "Sur quelle console sort Luigi's Mansion en 2001 ?",
+      "choices": [
+        "La GameCube",
+        "La Nintendo 64",
+        "La Wii",
+        "La Game Boy Advance"
+      ],
+      "answer": 0,
+      "explication": "Il fait partie des jeux disponibles dès le lancement de la console.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Luigi's_Mansion"
+    },
+    {
+      "q": "Quel jeu sorti sur Wii en 2007 emmène Mario explorer des planètes dans l'espace ?",
+      "choices": [
+        "Super Mario Sunshine",
+        "New Super Mario Bros.",
+        "Super Mario Galaxy",
+        "Super Mario 3D Land"
+      ],
+      "answer": 2,
+      "explication": "Mario peut y marcher tout autour de petites planètes grâce à une gravité sphérique.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Galaxy"
+    },
+    {
+      "q": "Quel jeu de plateau et de mini-jeux sort sur Nintendo 64 en 1998 ?",
+      "choices": [
+        "Mario Golf",
+        "Mario Party",
+        "Mario Tennis",
+        "Paper Mario"
+      ],
+      "answer": 1,
+      "explication": "Les joueurs y avancent sur un plateau en se disputant des étoiles.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mario_Party"
+    },
+    {
+      "q": "Quel studio d'animation produit Super Mario Bros., le film, sorti en 2023 ?",
+      "choices": [
+        "Pixar",
+        "DreamWorks Animation",
+        "Blue Sky Studios",
+        "Illumination"
+      ],
+      "answer": 3,
+      "explication": "Chris Pratt prête sa voix à Mario dans la version originale.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Bros.,_le_film"
+    },
+    {
+      "q": "Quel acteur britannique incarne Mario dans le film en prises de vues réelles de 1993 ?",
+      "choices": [
+        "John Leguizamo",
+        "Dennis Hopper",
+        "Bob Hoskins",
+        "Danny DeVito"
+      ],
+      "answer": 2,
+      "explication": "Le film est réalisé par Rocky Morton et Annabel Jankel.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Bros._(film)"
+    },
+    {
+      "q": "Dans quel jeu Game Boy de 1992 Wario fait-il sa première apparition ?",
+      "choices": [
+        "Super Mario Land 2 : 6 Golden Coins",
+        "Super Mario Land",
+        "Wario Land: Super Mario Land 3",
+        "Dr. Mario"
+      ],
+      "answer": 0,
+      "explication": "Il y est le méchant, désireux de s'emparer du château de Mario.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Land_2:_6_Golden_Coins"
+    },
+    {
+      "q": "De quel jeu japonais de 1987 le Super Mario Bros. 2 occidental est-il adapté ?",
+      "choices": [
+        "Kid Icarus",
+        "Metroid",
+        "Punch-Out!!",
+        "Yume Kōjō : Doki Doki Panic"
+      ],
+      "answer": 3,
+      "explication": "Ce jeu avait été conçu pour accompagner un événement lié à la chaîne de télévision japonaise Fuji TV.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Bros._2"
+    },
+    {
+      "q": "Comment s'appelle le chapeau vivant qui accompagne Mario dans Super Mario Odyssey, sorti en 2017 ?",
+      "choices": [
+        "Tiara",
+        "Cappy",
+        "Nabbit",
+        "Poochy"
+      ],
+      "answer": 1,
+      "explication": "Mario peut le lancer pour capturer ennemis et objets et prendre leur contrôle.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Super_Mario_Odyssey"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz sur Mario ?",
+      "Le quiz est progressif : huit questions faciles sur les personnages et objets les plus connus, huit questions moyennes sur les jeux et leurs dates, puis quatre questions expert pour les fans les plus pointus. Chaque réponse est suivie d'une explication qui t'apprend un détail supplémentaire."
+    ],
+    [
+      "Quelles sont les grandes étapes de la série Super Mario ?",
+      "La série Super Mario débute dans les années 1980 et évolue au fil des consoles : plates-formes en deux dimensions, passage à la 3D dans les années 1990, puis épisodes sur consoles portables et de salon plus récentes. Elle renouvelle régulièrement sa formule tout en gardant ses personnages et ses objets emblématiques."
+    ],
+    [
+      "Qui sont les principaux personnages de l'univers de Mario ?",
+      "L'univers de Mario réunit un duo de frères, une princesse, un roi ennemi, des alliés en forme de champignon, un dinosaure vert et un rival avide de pièces d'or. Ce quiz en aborde plusieurs, des plus connus aux plus discrets."
+    ]
+  ],
+  "related": [
+    "/quiz-jeux-video",
+    "/quiz-minecraft",
+    "/quiz-dessins-animes",
+    "/quiz-disney",
+    "/quiz-star-wars"
+  ],
+  "verified": "2026-11-13"
+}

@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-boxe",
+  "theme": "sport",
+  "title": "Quiz boxe : règles, légendes et grands combats",
+  "description": "Quiz boxe : 20 questions sur les règles, les catégories de poids, l'histoire et les légendes du ring, avec une explication après chaque réponse.",
+  "h1": "Quiz boxe : connais-tu les règles et les légendes du noble art ?",
+  "intro": "Du noble art aux catégories de poids, des premières règles modernes aux combats qui ont marqué le XXe siècle, la boxe a son histoire et son vocabulaire. Ce quiz boxe te propose 20 questions, des plus accessibles aux plus pointues, sur les règles, les grands champions et les affrontements datés qui ont fait la légende de ce sport. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait de plus. À faire seul, en famille ou entre amis. Prêt à monter sur le ring pour décrocher le score parfait ?",
+  "questions": [
+    {
+      "q": "Comment s'appelle l'espace délimité par des cordes où se déroulent les combats de boxe ?",
+      "choices": [
+        "Le tatami",
+        "Le ring",
+        "L'arène",
+        "Le dojo"
+      ],
+      "answer": 1,
+      "explication": "Le mot vient de l'anglais ring, « anneau », même si l'espace de combat est de forme carrée.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Boxe_anglaise"
+    },
+    {
+      "q": "Sous quel nom de naissance le boxeur Mohamed Ali est-il né ?",
+      "choices": [
+        "Joe Louis",
+        "Sonny Liston",
+        "Floyd Patterson",
+        "Cassius Clay"
+      ],
+      "answer": 3,
+      "explication": "Il remporte l'or olympique chez les mi-lourds aux Jeux de Rome en 1960, avant de passer professionnel.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mohamed_Ali_(boxeur)"
+    },
+    {
+      "q": "Dans quelle ville s'est déroulé en 1974 le combat « Rumble in the Jungle » entre Ali et Foreman ?",
+      "choices": [
+        "Kinshasa",
+        "Lagos",
+        "Las Vegas",
+        "Manille"
+      ],
+      "answer": 0,
+      "explication": "Organisé au Zaïre, ce combat voit Mohamed Ali battre George Foreman par K.-O. à la huitième reprise.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/The_Rumble_in_the_Jungle"
+    },
+    {
+      "q": "Combien de reprises au maximum compte un championnat du monde masculin de boxe professionnelle, depuis la fin des années 1980 ?",
+      "choices": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "answer": 2,
+      "explication": "Les titres mondiaux se disputaient en 15 reprises ; après la mort du boxeur Duk Koo Kim en 1982, le WBC a adopté les 12 reprises, suivi par la WBA en 1987 puis l'IBF en 1988.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Boxe_anglaise"
+    },
+    {
+      "q": "Que signifie l'abréviation K.-O. en boxe ?",
+      "choices": [
+        "Kick-off",
+        "Knock-out",
+        "Knock-over",
+        "Keep-out"
+      ],
+      "answer": 1,
+      "explication": "Un boxeur à terre est déclaré K.-O. s'il ne parvient pas à se relever avant que l'arbitre ait compté jusqu'à dix.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Knockout"
+    },
+    {
+      "q": "Quel boxeur américain est surnommé « Iron Mike » ?",
+      "choices": [
+        "Mike Tyson",
+        "Evander Holyfield",
+        "Lennox Lewis",
+        "George Foreman"
+      ],
+      "answer": 0,
+      "explication": "En 1986, à 20 ans, il devient champion du monde des poids lourds WBC en battant Trevor Berbick.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Mike_Tyson"
+    },
+    {
+      "q": "Comment appelle-t-on la boxe française, dans laquelle les coups de pied sont autorisés ?",
+      "choices": [
+        "Le muay-thaï",
+        "Le judo",
+        "La capoeira",
+        "La savate"
+      ],
+      "answer": 3,
+      "explication": "Les pratiquants de savate combattent en chaussures spéciales, qui font partie intégrante de la technique.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Boxe_française"
+    },
+    {
+      "q": "Quel acteur incarne Rocky Balboa dans le film « Rocky », sorti en 1976 ?",
+      "choices": [
+        "Robert De Niro",
+        "Al Pacino",
+        "Sylvester Stallone",
+        "Burt Reynolds"
+      ],
+      "answer": 2,
+      "explication": "Stallone a aussi écrit le scénario, et le film remporte l'Oscar du meilleur film en 1977.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Rocky_(film)"
+    },
+    {
+      "q": "Quelle catégorie de poids est la plus lourde en boxe professionnelle ?",
+      "choices": [
+        "Les poids lourds",
+        "Les poids mi-lourds",
+        "Les poids super-moyens",
+        "Les poids moyens"
+      ],
+      "answer": 0,
+      "explication": "Chez les poids lourds, aucune limite supérieure de poids n'est fixée.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Boxe_anglaise"
+    },
+    {
+      "q": "Quel boxeur français devient champion du monde des poids moyens en 1948 face à Tony Zale ?",
+      "choices": [
+        "Georges Carpentier",
+        "Marcel Cerdan",
+        "Jean-Claude Bouttier",
+        "Brahim Asloum"
+      ],
+      "answer": 1,
+      "explication": "Il meurt un an plus tard, en octobre 1949, dans un accident d'avion aux Açores.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Marcel_Cerdan"
+    },
+    {
+      "q": "Quel boxeur français remporte l'or olympique chez les mi-mouches aux Jeux de Sydney, en 2000 ?",
+      "choices": [
+        "Jean-Marc Mormeck",
+        "Mahyar Monshipour",
+        "Brahim Asloum",
+        "Souleymane Cissokho"
+      ],
+      "answer": 2,
+      "explication": "Il combat alors dans la catégorie des moins de 48 kg, la plus légère du tournoi olympique de l'époque.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Brahim_Asloum"
+    },
+    {
+      "q": "Quel boxeur américain, surnommé « Marvelous », a dominé les poids moyens dans les années 1980 ?",
+      "choices": [
+        "Thomas Hearns",
+        "Roberto Duran",
+        "Sugar Ray Leonard",
+        "Marvin Hagler"
+      ],
+      "answer": 3,
+      "explication": "Il détient le titre mondial des poids moyens de 1980 à 1987, avant de perdre contre Sugar Ray Leonard.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Marvin_Hagler"
+    },
+    {
+      "q": "Quel champion du monde des poids lourds, surnommé le « Brown Bomber », règne de 1937 à 1949 ?",
+      "choices": [
+        "Rocky Marciano",
+        "Joe Louis",
+        "Jack Dempsey",
+        "Ezzard Charles"
+      ],
+      "answer": 1,
+      "explication": "Son règne de près de douze ans reste l'un des plus longs de l'histoire des poids lourds.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Joe_Louis"
+    },
+    {
+      "q": "Dans quelle salle new-yorkaise Ali et Frazier se sont-ils affrontés le 8 mars 1971 ?",
+      "choices": [
+        "Madison Square Garden",
+        "Yankee Stadium",
+        "Radio City Music Hall",
+        "Carnegie Hall"
+      ],
+      "answer": 0,
+      "explication": "Joe Frazier l'emporte aux points en quinze reprises : c'est la première défaite professionnelle d'Ali.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Joe_Frazier"
+    },
+    {
+      "q": "Comment appelle-t-on un coup de poing porté de bas en haut, vers le menton ?",
+      "choices": [
+        "Le crochet",
+        "Le direct",
+        "L'uppercut",
+        "Le jab"
+      ],
+      "answer": 2,
+      "explication": "Le crochet, lui, décrit un arc horizontal vers la tête ou le flanc de l'adversaire.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Boxe_anglaise"
+    },
+    {
+      "q": "Quelles règles, publiées en 1867, ont imposé les gants et les reprises de trois minutes en boxe ?",
+      "choices": [
+        "Les règles de Cambridge",
+        "Les règles de Coubertin",
+        "Les règles de Wimbledon",
+        "Les règles du marquis de Queensberry"
+      ],
+      "answer": 3,
+      "explication": "Elles ont remplacé les combats à mains nues du XIXe siècle et fondé la boxe anglaise moderne.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Boxe_anglaise"
+    },
+    {
+      "q": "Quel champion du monde des poids lourds s'est retiré invaincu après 49 victoires en 49 combats professionnels ?",
+      "choices": [
+        "Rocky Marciano",
+        "Joe Louis",
+        "Jack Dempsey",
+        "Max Schmeling"
+      ],
+      "answer": 0,
+      "explication": "Surnommé le « Brockton Blockbuster », il a été invaincu de 1947 à 1955.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Rocky_Marciano"
+    },
+    {
+      "q": "Dans quel pays s'est déroulé en 1975 le troisième combat entre Mohamed Ali et Joe Frazier ?",
+      "choices": [
+        "En Indonésie",
+        "Aux Philippines",
+        "En Thaïlande",
+        "Au Japon"
+      ],
+      "answer": 1,
+      "explication": "Ce combat, surnommé « Thrilla in Manila », s'achève quand l'entraîneur de Frazier, Eddie Futch, l'arrête avant la quinzième reprise.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Thrilla_in_Manila"
+    },
+    {
+      "q": "Qui devient en 1908, à Sydney, le premier champion du monde des poids lourds noir ?",
+      "choices": [
+        "Joe Louis",
+        "Sonny Liston",
+        "Floyd Patterson",
+        "Jack Johnson"
+      ],
+      "answer": 3,
+      "explication": "Il bat le Canadien Tommy Burns le 26 décembre 1908, lors d'un combat arrêté par la police à la quatorzième reprise.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Jack_Johnson_(boxeur)"
+    },
+    {
+      "q": "Quel boxeur est le premier champion du monde des poids lourds à reconquérir son titre, en 1960 ?",
+      "choices": [
+        "Sonny Liston",
+        "Joe Frazier",
+        "Floyd Patterson",
+        "Ingemar Johansson"
+      ],
+      "answer": 2,
+      "explication": "Il bat le Suédois Ingemar Johansson par K.-O. à la cinquième reprise, au Polo Grounds de New York.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Floyd_Patterson"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz boxe ?",
+      "Le quiz compte 20 questions : huit faciles, huit de difficulté moyenne et quatre pour les experts. Les premières portent sur le vocabulaire et les noms célèbres, les dernières sur des combats et des dates précises. Chaque réponse est suivie d'une explication et d'un lien vers une page de référence, pour vérifier et approfondir."
+    ],
+    [
+      "Quelle différence y a-t-il entre la boxe anglaise et la boxe française ?",
+      "La boxe anglaise se pratique uniquement avec les poings, protégés par des gants, et se dispute en reprises sur un ring. La boxe française autorise aussi les coups de pied, portés avec des chaussures spéciales. Ce sont deux disciplines distinctes, avec leurs propres règles, leurs compétitions et leur histoire."
+    ],
+    [
+      "Combien de temps dure une reprise en boxe professionnelle ?",
+      "En boxe professionnelle, une reprise dure trois minutes. Elle est séparée de la suivante par une minute de repos, pendant laquelle le boxeur retrouve son coin et reçoit les conseils de son entraîneur. Le nombre de reprises varie selon l'importance du combat et la catégorie de l'épreuve."
+    ]
+  ],
+  "related": [
+    "/quiz-sport",
+    "/quiz-jeux-olympiques",
+    "/quiz-rugby",
+    "/quiz-tennis"
+  ],
+  "verified": "2026-11-13"
+}

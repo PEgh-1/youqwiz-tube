@@ -1,0 +1,291 @@
+{
+  "path": "/quiz-jeux-de-societe",
+  "theme": "culture",
+  "title": "Quiz jeux de société : règles et origines",
+  "description": "Quiz jeux de société : 20 questions sur les règles des classiques (échecs, Monopoly, Scrabble, Cluedo) et sur leurs origines datées, avec explications.",
+  "h1": "Quiz jeux de société : maîtrises-tu les règles des grands classiques ?",
+  "intro": "Échecs, Monopoly, Scrabble, Cluedo, jeu de l'oie ou Puissance 4 : les jeux de société font partie de nos soirées depuis toujours, mais en connais-tu vraiment les règles et les origines ? Ce quiz te propose 20 questions, des plus simples aux plus pointues, sur les classiques de la table. Compte environ 5 secondes de réflexion par question. Après chaque réponse, une courte explication t'apprend un fait supplémentaire, parfois une date ou un nom d'inventeur. À faire seul, en famille ou entre amis, avant de sortir le plateau. Prêt à jouer ?",
+  "questions": [
+    {
+      "q": "Combien de cases compte un échiquier ?",
+      "choices": [
+        "36",
+        "49",
+        "64",
+        "100"
+      ],
+      "answer": 2,
+      "explication": "Les 64 cases, alternativement claires et sombres, forment une grille de 8 par 8.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Échiquier"
+    },
+    {
+      "q": "Quelle pièce du jeu d'échecs se déplace uniquement en diagonale ?",
+      "choices": [
+        "Le fou",
+        "La tour",
+        "Le cavalier",
+        "La dame"
+      ],
+      "answer": 0,
+      "explication": "Chaque joueur en possède deux : l'un évolue sur les cases blanches, l'autre sur les cases noires.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Échecs"
+    },
+    {
+      "q": "Au Monopoly, que faut-il posséder pour construire des maisons sur un terrain ?",
+      "choices": [
+        "Au moins une gare",
+        "Tous les terrains de la même couleur",
+        "Une carte Chance",
+        "Un terrain de chaque couleur"
+      ],
+      "answer": 1,
+      "explication": "Les gares et les compagnies de service ne peuvent jamais recevoir de maisons ni d'hôtels.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Monopoly"
+    },
+    {
+      "q": "Combien de lettres un joueur de Scrabble garde-t-il sur son chevalet ?",
+      "choices": [
+        "Cinq",
+        "Six",
+        "Huit",
+        "Sept"
+      ],
+      "answer": 3,
+      "explication": "Placer ses sept lettres en un seul coup, un « scrabble », rapporte 50 points de bonus.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Scrabble"
+    },
+    {
+      "q": "Dans le Cluedo, que doivent découvrir les joueurs ?",
+      "choices": [
+        "Le mobile, l'alibi et la date",
+        "Le trésor, la clé et la salle",
+        "Le coupable, l'arme et le lieu du crime",
+        "La victime, le témoin et le complice"
+      ],
+      "answer": 2,
+      "explication": "Un joueur qui porte une accusation fausse est éliminé de la partie et ne peut plus gagner.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Cluedo"
+    },
+    {
+      "q": "Au jeu de dames, que devient un pion qui atteint la dernière rangée du camp adverse ?",
+      "choices": [
+        "Un cavalier",
+        "Une dame",
+        "Une tour",
+        "Un fou"
+      ],
+      "answer": 1,
+      "explication": "Aux dames internationales, la dame peut parcourir en diagonale autant de cases libres qu'elle le souhaite.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jeu_de_dames"
+    },
+    {
+      "q": "Combien de cases compte traditionnellement le plateau du jeu de l'oie ?",
+      "choices": [
+        "63",
+        "50",
+        "72",
+        "100"
+      ],
+      "answer": 0,
+      "explication": "La case 63 est l'arrivée : il faut y tomber avec un compte exact pour gagner.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Jeu_de_l'oie_(jeu_de_société)"
+    },
+    {
+      "q": "Combien de jetons de sa couleur faut-il aligner pour gagner au Puissance 4 ?",
+      "choices": [
+        "Trois",
+        "Cinq",
+        "Six",
+        "Quatre"
+      ],
+      "answer": 3,
+      "explication": "La grille compte six rangées et sept colonnes ; le jeu est commercialisé par Milton Bradley en 1974.",
+      "level": "facile",
+      "source": "https://fr.wikipedia.org/wiki/Puissance_4"
+    },
+    {
+      "q": "Quel jeu, breveté en 1904 par Elizabeth Magie, a inspiré le Monopoly ?",
+      "choices": [
+        "Le jeu de l'oie",
+        "The Landlord's Game",
+        "Le Risk",
+        "Le Cluedo"
+      ],
+      "answer": 1,
+      "explication": "Charles Darrow commercialise une version à succès en 1935, que Parker Brothers rachète et édite.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Monopoly"
+    },
+    {
+      "q": "Combien de points vaut la lettre Q au Scrabble en français ?",
+      "choices": [
+        "5",
+        "10",
+        "8",
+        "4"
+      ],
+      "answer": 2,
+      "explication": "Les lettres K, W, X, Y et Z valent 10 points, tandis que le J vaut, comme le Q, 8 points.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Scrabble"
+    },
+    {
+      "q": "Quel coup d'échecs permet à un pion de capturer un pion adverse qui vient d'avancer de deux cases ?",
+      "choices": [
+        "Le roque",
+        "La promotion",
+        "Le gambit",
+        "La prise en passant"
+      ],
+      "answer": 3,
+      "explication": "Elle doit être jouée immédiatement : le pion capturé est retiré comme s'il n'avait avancé que d'une case.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Prise_en_passant"
+    },
+    {
+      "q": "Quel jeu de déduction à pions colorés a été inventé en 1970 par Mordecai Meirowitz ?",
+      "choices": [
+        "Mastermind",
+        "Puissance 4",
+        "Qui est-ce ?",
+        "Docteur Maboul"
+      ],
+      "answer": 0,
+      "explication": "Un joueur cache un code de pions colorés, que l'autre doit retrouver en un nombre limité d'essais.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Mastermind"
+    },
+    {
+      "q": "Quel cinéaste français, réalisateur du « Ballon rouge », a inventé le jeu de plateau Risk ?",
+      "choices": [
+        "Jacques Tati",
+        "Jean Renoir",
+        "Albert Lamorisse",
+        "René Clair"
+      ],
+      "answer": 2,
+      "explication": "Le jeu est d'abord paru en France en 1957 sous le titre « La Conquête du monde ».",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Albert_Lamorisse"
+    },
+    {
+      "q": "Dans quel pays le Cluedo a-t-il été inventé ?",
+      "choices": [
+        "Aux États-Unis",
+        "Au Royaume-Uni",
+        "En France",
+        "En Allemagne"
+      ],
+      "answer": 1,
+      "explication": "Commercialisé en 1949, son nom associe « clue », l'indice, et « ludo », « je joue » en latin.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Cluedo"
+    },
+    {
+      "q": "De quel pays est originaire le jeu de go ?",
+      "choices": [
+        "La Corée",
+        "L'Inde",
+        "Le Japon",
+        "La Chine"
+      ],
+      "answer": 3,
+      "explication": "Le plateau, le goban, compte 19 lignes sur 19, et le jeu s'est ensuite largement développé au Japon.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Go_(jeu)"
+    },
+    {
+      "q": "Quel jeu allemand de 1995, signé Klaus Teuber, fait coloniser une île en échangeant des ressources ?",
+      "choices": [
+        "Les Colons de Catane",
+        "Carcassonne",
+        "Dixit",
+        "Les Aventuriers du rail"
+      ],
+      "answer": 0,
+      "explication": "Il remporte le Spiel des Jahres, prestigieux prix allemand du jeu de l'année, en 1995.",
+      "level": "moyen",
+      "source": "https://fr.wikipedia.org/wiki/Les_Colons_de_Catane"
+    },
+    {
+      "q": "Comment appelle-t-on, aux échecs, la situation où le roi n'est pas en échec mais où le joueur n'a aucun coup légal ?",
+      "choices": [
+        "Le mat",
+        "Le pat",
+        "Le zugzwang",
+        "Le gambit"
+      ],
+      "answer": 1,
+      "explication": "Le pat donne la partie nulle, ce qui permet parfois de sauver une position perdante.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Pat_(échecs)"
+    },
+    {
+      "q": "Quelle ville américaine a fourni les noms de rues du plateau du Monopoly américain d'origine ?",
+      "choices": [
+        "New York",
+        "Philadelphie",
+        "Atlantic City",
+        "Chicago"
+      ],
+      "answer": 2,
+      "explication": "Les noms des terrains du plateau américain reprennent des rues d'Atlantic City, dans le New Jersey, ville de bord de mer.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Monopoly"
+    },
+    {
+      "q": "Dans quelle ville canadienne le Trivial Pursuit a-t-il été imaginé en 1979 ?",
+      "choices": [
+        "Montréal",
+        "Toronto",
+        "Vancouver",
+        "Québec"
+      ],
+      "answer": 0,
+      "explication": "Ses deux inventeurs sont journalistes ; le jeu n'est commercialisé qu'à partir de 1981.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Trivial_Pursuit"
+    },
+    {
+      "q": "Quel ordinateur d'IBM a battu le champion du monde Garry Kasparov dans un match de six parties en 1997 ?",
+      "choices": [
+        "Watson",
+        "Deep Thought",
+        "AlphaGo",
+        "Deep Blue"
+      ],
+      "answer": 3,
+      "explication": "Le match, disputé à New York en mai 1997, s'est conclu sur le score de 3,5 à 2,5.",
+      "level": "expert",
+      "source": "https://fr.wikipedia.org/wiki/Deep_Blue"
+    }
+  ],
+  "faq": [
+    [
+      "Quel est le niveau de ce quiz jeux de société ?",
+      "Le quiz compte 20 questions : huit faciles sur les règles de base, huit de difficulté moyenne sur les origines et le vocabulaire, et quatre pour les experts. Chaque réponse est suivie d'une explication et d'un lien vers une page de référence qui confirme l'information, pour aller plus loin."
+    ],
+    [
+      "Combien de pièces compte un jeu d'échecs ?",
+      "Un jeu d'échecs compte 32 pièces, soit 16 par joueur. Chacun dispose d'un roi, d'une dame, de deux tours, de deux fous, de deux cavaliers et de huit pions. Elles sont placées sur l'échiquier, les pièces blanches occupant les deux premières rangées d'un côté, les noires celles du côté opposé."
+    ],
+    [
+      "Comment gagne-t-on au Cluedo ?",
+      "Pour gagner au Cluedo, il faut résoudre l'enquête avant les autres joueurs. On progresse en formulant des hypothèses et en observant les cartes montrées par les adversaires. Quand on pense connaître la solution, on porte une accusation : si elle est exacte, on gagne ; si elle est fausse, on est éliminé."
+    ]
+  ],
+  "related": [
+    "/quiz-logique",
+    "/quiz-jeux-video",
+    "/quiz-apero",
+    "/quiz-culture-generale-facile"
+  ],
+  "verified": "2026-11-13"
+}
