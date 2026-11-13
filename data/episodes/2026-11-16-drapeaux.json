@@ -1,0 +1,1666 @@
+{
+ "id": "2026-11-16-drapeaux",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "theme": 3,
+ "style": {
+  "pattern": "confetti",
+  "timer": "digits",
+  "reveal": "slide",
+  "card": "tilt",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir ! 👋",
+   "voice": "Hé, content de te revoir ! C'est l'heure du quiz !"
+  },
+  "introCta": "✍️ Note tes points, on compare à la fin",
+  "subscribe": {
+   "title": "Un quiz par jour, gratuit",
+   "sub": "abonne-toi pour ne pas rater le prochain 🔔",
+   "voice": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tranquille pour commencer ☕",
+    "voice": "Niveau facile. Tranquille pour commencer."
+   },
+   "moyen": {
+    "card": "Là, il faut réfléchir 🤔",
+    "voice": "Niveau moyen. Là, il faut réfléchir un peu."
+   },
+   "difficile": {
+    "card": "Ici, beaucoup abandonnent 😅",
+    "voice": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère."
+   },
+   "impossible": {
+    "card": "Même moi je sèche 😈",
+    "voice": "Niveau impossible. Même moi, je sèche sur certains."
+   }
+  },
+  "scoreVoice": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "À demain pour un nouveau quiz 👋",
+   "voice": "À demain pour un nouveau quiz. Pense à t'abonner !"
+  },
+  "packshot": {
+   "headline": "Défie tes proches sur youqwiz.com",
+   "sub": "le quiz du jour, en version interactive 🎮",
+   "cta": "👉 youqwiz.com",
+   "voice": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
+  },
+  "rule": "60 drapeaux, du facile à l'impossible 🌍 Trouve le pays avant la fin du chrono et compte tes points ⭐",
+  "ruleVoice": "60 drapeaux du monde, classés du niveau facile au niveau impossible. Pour chacun, trouve le pays avant la fin du chrono, puis la réponse s'affiche. Compte tes points !",
+  "nextQuizVoice": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !"
+ },
+ "title": "60 DRAPEAUX à deviner 🚩🌍🧠 Seuls les génies font un sans-faute",
+ "question": "À quel pays appartient ce drapeau ?",
+ "intro": {
+  "hook": "Devine 60 DRAPEAUX du MONDE",
+  "sub": "en 5 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇸"
+   },
+   "answer": "États-Unis",
+   "rank": 3,
+   "voice": {
+    "q": {
+     "src": "tts-cache/9a4a04c3d69ee601.mp3",
+     "sec": 2.960023,
+     "text": "Première question, montre-moi ce que tu vaux !"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/0-a.mp3",
+     "sec": 0.937664,
+     "text": "États-Unis !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇰"
+   },
+   "answer": "Pakistan",
+   "rank": 6,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/1-a.mp3",
+     "sec": 1.840023,
+     "text": "Réponse : Pakistan."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇭"
+   },
+   "answer": "Philippines",
+   "rank": 12,
+   "voice": {
+    "q": {
+     "src": "tts-cache/62de59ac98fff004.mp3",
+     "sec": 1.120635,
+     "text": "Facile, non ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/2-a.mp3",
+     "sec": 1.440023,
+     "text": "Philippines !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇬"
+   },
+   "answer": "Égypte",
+   "rank": 15,
+   "voice": {
+    "q": {
+     "src": "tts-cache/86af6b9a1719c682.mp3",
+     "sec": 0.81898,
+     "text": "Alors ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/3-a.mp3",
+     "sec": 1.519977,
+     "text": "Eh oui, Égypte !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇩🇪"
+   },
+   "answer": "Allemagne",
+   "rank": 16,
+   "voice": {
+    "q": {
+     "src": "tts-cache/001559ee2048a87f.mp3",
+     "sec": 0.677302,
+     "text": "Tu le connais ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/4-a.mp3",
+     "sec": 0.969501,
+     "text": "C'est Allemagne."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇷"
+   },
+   "answer": "Turquie",
+   "rank": 18,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a3646d6246dc7264.mp3",
+     "sec": 0.642948,
+     "text": "Encore un."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/5-a.mp3",
+     "sec": 1.68034,
+     "text": "Eh oui, Turquie !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇫🇷"
+   },
+   "answer": "France",
+   "rank": 20,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/6-a.mp3",
+     "sec": 1.680023,
+     "text": "Réponse : France."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇭"
+   },
+   "answer": "Thaïlande",
+   "fact": "Au centre du drapeau de la Thaïlande, la bande bleue est deux fois plus large que les autres.",
+   "rank": 21,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7b78a2185106beb5.mp3",
+     "sec": 0.959909,
+     "text": "Suivant !"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/7-a.mp3",
+     "sec": 1.120023,
+     "text": "C'est Thaïlande."
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/7-f.mp3",
+     "sec": 6.285215,
+     "text": "Et pour la culture : Au centre du drapeau de la Thaïlande, la bande bleue est deux fois plus large que les autres."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇧"
+   },
+   "answer": "Royaume-Uni",
+   "rank": 22,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/8-a.mp3",
+     "sec": 2.240023,
+     "text": "Bravo si tu as dit Royaume-Uni."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇹"
+   },
+   "answer": "Italie",
+   "rank": 23,
+   "voice": {
+    "q": {
+     "src": "tts-cache/82eab82a3e5fa676.mp3",
+     "sec": 2.240023,
+     "text": "Déjà la question 10 ! Tu tiens le rythme ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/9-a.mp3",
+     "sec": 1.915329,
+     "text": "Bravo si tu as dit Italie."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇪"
+   },
+   "answer": "Kenya",
+   "rank": 32,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ce35db7a6f7db754.mp3",
+     "sec": 1.494195,
+     "text": "Hop, le suivant !"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/10-a.mp3",
+     "sec": 1.48195,
+     "text": "Bravo si tu as dit Kenya."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇶"
+   },
+   "answer": "Irak",
+   "rank": 36,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/11-a.mp3",
+     "sec": 1.680023,
+     "text": "Réponse : Irak."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇪"
+   },
+   "answer": "Pérou",
+   "rank": 40,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a97d61c51b3a48f7.mp3",
+     "sec": 0.768163,
+     "text": "À toi."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/12-a.mp3",
+     "sec": 1.547506,
+     "text": "Eh oui, Pérou !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇦"
+   },
+   "answer": "Arabie saoudite",
+   "rank": 41,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ce35db7a6f7db754.mp3",
+     "sec": 1.494195,
+     "text": "Hop, le suivant !"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/13-a.mp3",
+     "sec": 1.520023,
+     "text": "Arabie saoudite !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇵"
+   },
+   "answer": "Népal",
+   "fact": "Le drapeau du Népal est le seul au monde qui n'est pas rectangulaire.",
+   "rank": 45,
+   "voice": {
+    "q": {
+     "src": "tts-cache/86af6b9a1719c682.mp3",
+     "sec": 0.81898,
+     "text": "Alors ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/14-a.mp3",
+     "sec": 1.570272,
+     "text": "Bravo si tu as dit Népal."
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/14-f.mp3",
+     "sec": 4.739728,
+     "text": "Tu savais ? Le drapeau du Népal est le seul au monde qui n'est pas rectangulaire."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇾🇪"
+   },
+   "answer": "Yémen",
+   "rank": 48,
+   "voice": {
+    "q": {
+     "src": "tts-cache/5c896d0f106b6d91.mp3",
+     "sec": 1.352494,
+     "text": "Tu vois ce que c'est ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/15-a.mp3",
+     "sec": 1.040023,
+     "text": "Yémen !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇵"
+   },
+   "answer": "Corée du Nord",
+   "rank": 50,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/16-a.mp3",
+     "sec": 1.536871,
+     "text": "C'est Corée du Nord."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇴"
+   },
+   "answer": "Angola",
+   "rank": 51,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f6cc7662f364c7dd.mp3",
+     "sec": 0.960023,
+     "text": "Pas de panique."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/17-a.mp3",
+     "sec": 1.668594,
+     "text": "Eh oui, Angola !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇾"
+   },
+   "answer": "Syrie",
+   "rank": 54,
+   "voice": {
+    "q": {
+     "src": "tts-cache/056ee52efd6d971c.mp3",
+     "sec": 0.453832,
+     "text": "Tu l'as ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/18-a.mp3",
+     "sec": 0.660703,
+     "text": "Syrie !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇲"
+   },
+   "answer": "Cameroun",
+   "rank": 56,
+   "voice": {
+    "q": {
+     "src": "tts-cache/6664948a6e3bfb53.mp3",
+     "sec": 2.37127,
+     "text": "Question 20. Ta série tient toujours ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/19-a.mp3",
+     "sec": 2.320023,
+     "text": "Bravo si tu as dit Cameroun."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇪"
+   },
+   "answer": "Niger",
+   "rank": 62,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/20-a.mp3",
+     "sec": 1.651224,
+     "text": "Réponse : Niger."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇱"
+   },
+   "answer": "Pays-Bas",
+   "rank": 63,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a97d61c51b3a48f7.mp3",
+     "sec": 0.768163,
+     "text": "À toi."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/21-a.mp3",
+     "sec": 1.840023,
+     "text": "Bravo si tu as dit Pays-Bas."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇪🇨"
+   },
+   "answer": "Équateur",
+   "rank": 64,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/22-a.mp3",
+     "sec": 1.525125,
+     "text": "Eh oui, Équateur !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇼"
+   },
+   "answer": "Rwanda",
+   "rank": 76,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/23-a.mp3",
+     "sec": 2.109546,
+     "text": "Bravo si tu as dit Rwanda."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇴"
+   },
+   "answer": "Somalie",
+   "rank": 79,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1de7b1a87b55ee6e.mp3",
+     "sec": 0.564626,
+     "text": "Celui-là ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/24-a.mp3",
+     "sec": 0.960023,
+     "text": "Somalie !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇹"
+   },
+   "answer": "Portugal",
+   "rank": 83,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/25-a.mp3",
+     "sec": 1.639501,
+     "text": "Eh oui, Portugal !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇺"
+   },
+   "answer": "Hongrie",
+   "rank": 88,
+   "voice": {
+    "q": {
+     "src": "tts-cache/62de59ac98fff004.mp3",
+     "sec": 1.120635,
+     "text": "Facile, non ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/26-a.mp3",
+     "sec": 1.717188,
+     "text": "Bravo si tu as dit Hongrie."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇪"
+   },
+   "answer": "Émirats arabes unis",
+   "rank": 92,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/27-a.mp3",
+     "sec": 2.480023,
+     "text": "Réponse : Émirats arabes unis."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇭🇳"
+   },
+   "answer": "Honduras",
+   "rank": 93,
+   "voice": {
+    "q": {
+     "src": "tts-cache/86af6b9a1719c682.mp3",
+     "sec": 0.81898,
+     "text": "Alors ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/28-a.mp3",
+     "sec": 1.516168,
+     "text": "Eh oui, Honduras !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇹"
+   },
+   "answer": "Autriche",
+   "rank": 94,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7e614aeec23e015e.mp3",
+     "sec": 2.23449,
+     "text": "Déjà la question 30 ! Tu tiens le rythme ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/29-a.mp3",
+     "sec": 1.130159,
+     "text": "Autriche !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇬"
+   },
+   "answer": "Bulgarie",
+   "rank": 99,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/30-a.mp3",
+     "sec": 1.868707,
+     "text": "Bravo si tu as dit Bulgarie."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇸"
+   },
+   "answer": "Serbie",
+   "rank": 100,
+   "voice": {
+    "q": {
+     "src": "tts-cache/eb4f7ad3d2886173.mp3",
+     "sec": 1.600023,
+     "text": "Là, ça devient sérieux."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/31-a.mp3",
+     "sec": 1.760023,
+     "text": "Bravo si tu as dit Serbie."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇬"
+   },
+   "answer": "Togo",
+   "rank": 101,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/32-a.mp3",
+     "sec": 0.880023,
+     "text": "C'est Togo."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇾"
+   },
+   "answer": "Paraguay",
+   "rank": 102,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/33-a.mp3",
+     "sec": 2.080023,
+     "text": "Réponse : Paraguay."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇯🇴"
+   },
+   "answer": "Jordanie",
+   "rank": 104,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/34-a.mp3",
+     "sec": 0.748231,
+     "text": "Jordanie !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇾"
+   },
+   "answer": "Libye",
+   "rank": 108,
+   "voice": {
+    "q": {
+     "src": "tts-cache/03bc6c40c8a8b106.mp3",
+     "sec": 1.600023,
+     "text": "Peu de gens l'ont."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/35-a.mp3",
+     "sec": 1.840023,
+     "text": "Bravo si tu as dit Libye."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇱"
+   },
+   "answer": "Sierra Leone",
+   "rank": 109,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f6cc7662f364c7dd.mp3",
+     "sec": 0.960023,
+     "text": "Pas de panique."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/36-a.mp3",
+     "sec": 2.074308,
+     "text": "Bravo si tu as dit Sierra Leone."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇮"
+   },
+   "answer": "Nicaragua",
+   "fact": "Le drapeau du Nicaragua affiche un arc-en-ciel au centre de son emblème.",
+   "rank": 110,
+   "voice": {
+    "q": {
+     "src": "tts-cache/86af6b9a1719c682.mp3",
+     "sec": 0.81898,
+     "text": "Alors ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/37-a.mp3",
+     "sec": 1.664376,
+     "text": "Eh oui, Nicaragua !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/37-f.mp3",
+     "sec": 6.274444,
+     "text": "Petit bonus : Le drapeau du Nicaragua affiche un arc-en-ciel au centre de son emblème."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇲"
+   },
+   "answer": "Turkménistan",
+   "rank": 111,
+   "voice": {
+    "q": {
+     "src": "tts-cache/eb4f7ad3d2886173.mp3",
+     "sec": 1.600023,
+     "text": "Là, ça devient sérieux."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/38-a.mp3",
+     "sec": 1.41229,
+     "text": "Turkménistan !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇴"
+   },
+   "answer": "Norvège",
+   "rank": 117,
+   "voice": {
+    "q": {
+     "src": "tts-cache/86430c2b3c67da7b.mp3",
+     "sec": 2.720023,
+     "text": "On passe la question 40. Compte bien tes points."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/39-a.mp3",
+     "sec": 1.902336,
+     "text": "Eh oui, Norvège !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇷"
+   },
+   "answer": "Costa Rica",
+   "rank": 118,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/40-a.mp3",
+     "sec": 1.464671,
+     "text": "C'est Costa Rica."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇫"
+   },
+   "answer": "République centrafricaine",
+   "rank": 119,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/41-a.mp3",
+     "sec": 2.395488,
+     "text": "Eh oui, République centrafricaine !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇬"
+   },
+   "answer": "Congo",
+   "rank": 120,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/42-a.mp3",
+     "sec": 1.07712,
+     "text": "Eh oui, Congo !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇷"
+   },
+   "answer": "Liberia",
+   "fact": "Le drapeau du Liberia ressemble beaucoup au drapeau américain, avec une seule étoile.",
+   "rank": 123,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7a0c0d42a9f603a2.mp3",
+     "sec": 1.80449,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/43-a.mp3",
+     "sec": 1.104263,
+     "text": "C'est Liberia."
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/43-f.mp3",
+     "sec": 5.942744,
+     "text": "Tu savais ? Le drapeau du Liberia ressemble beaucoup au drapeau américain, avec une seule étoile."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇴🇲"
+   },
+   "answer": "Oman",
+   "rank": 126,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f3f77434bd6ce2af.mp3",
+     "sec": 1.250295,
+     "text": "Je t'écoute."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/44-a.mp3",
+     "sec": 2.000023,
+     "text": "Bravo si tu as dit Oman."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇩"
+   },
+   "answer": "Moldavie",
+   "rank": 129,
+   "voice": {
+    "q": {
+     "src": "tts-cache/32261c578d1730e2.mp3",
+     "sec": 1.108549,
+     "text": "Regarde bien."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/45-a.mp3",
+     "sec": 0.93551,
+     "text": "C'est Moldavie."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇾"
+   },
+   "answer": "Uruguay",
+   "fact": "Le drapeau de l'Uruguay a aussi un soleil de Mai, comme celui de l'Argentine.",
+   "rank": 131,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cfbe4c26ea4adb42.mp3",
+     "sec": 1.760023,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/46-a.mp3",
+     "sec": 1.520023,
+     "text": "C'est Uruguay."
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/46-f.mp3",
+     "sec": 6.320023,
+     "text": "Pour briller en société : Le drapeau de l'Uruguay a aussi un soleil de Mai, comme celui de l'Argentine."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇳"
+   },
+   "answer": "Mongolie",
+   "rank": 134,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cfbe4c26ea4adb42.mp3",
+     "sec": 1.760023,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/47-a.mp3",
+     "sec": 1.200023,
+     "text": "C'est Mongolie."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇦"
+   },
+   "answer": "Namibie",
+   "rank": 139,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ea98b5563372b6b7.mp3",
+     "sec": 1.040023,
+     "text": "On continue."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/48-a.mp3",
+     "sec": 2.080023,
+     "text": "Bravo si tu as dit Namibie."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇸"
+   },
+   "answer": "Lesotho",
+   "fact": "Le drapeau du Lesotho montre un chapeau traditionnel, le mokorotlo.",
+   "rank": 140,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d53699c3053f2458.mp3",
+     "sec": 3.280023,
+     "text": "On passe la question 50. Compte bien tes points."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/49-a.mp3",
+     "sec": 1.666463,
+     "text": "Réponse : Lesotho."
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/49-f.mp3",
+     "sec": 6.720023,
+     "text": "Et pour la culture : Le drapeau du Lesotho montre un chapeau traditionnel, le mokorotlo."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇼"
+   },
+   "answer": "Guinée-Bissau",
+   "rank": 146,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cfbe4c26ea4adb42.mp3",
+     "sec": 1.760023,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/50-a.mp3",
+     "sec": 2.225397,
+     "text": "Bravo si tu as dit Guinée-Bissau."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇲"
+   },
+   "answer": "Comores",
+   "rank": 159,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e8123cb1d6281fb4.mp3",
+     "sec": 1.669955,
+     "text": "Celui-là, il est vicieux."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/51-a.mp3",
+     "sec": 1.516168,
+     "text": "Eh oui, Comores !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇿"
+   },
+   "answer": "Belize",
+   "fact": "Le drapeau du Belize est l'un des rares au monde à montrer des personnes.",
+   "rank": 168,
+   "voice": {
+    "q": {
+     "src": "tts-cache/92759c15f901b8c7.mp3",
+     "sec": 1.040023,
+     "text": "Réfléchis bien."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/52-a.mp3",
+     "sec": 1.87941,
+     "text": "Réponse : Belize."
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/52-f.mp3",
+     "sec": 5.349138,
+     "text": "Au passage, Le drapeau du Belize est l'un des rares au monde à montrer des personnes."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇸"
+   },
+   "answer": "Islande",
+   "rank": 170,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3683262891127325.mp3",
+     "sec": 0.792517,
+     "text": "Alors ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/53-a.mp3",
+     "sec": 1.768345,
+     "text": "Réponse : Islande."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇼🇸"
+   },
+   "answer": "Samoa",
+   "rank": 174,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cfbe4c26ea4adb42.mp3",
+     "sec": 1.760023,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/54-a.mp3",
+     "sec": 1.281066,
+     "text": "Samoa !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇨"
+   },
+   "answer": "Sainte-Lucie",
+   "rank": 176,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cfbe4c26ea4adb42.mp3",
+     "sec": 1.760023,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/55-a.mp3",
+     "sec": 0.92102,
+     "text": "Sainte-Lucie !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇮"
+   },
+   "answer": "Kiribati",
+   "fact": "Le drapeau de Kiribati montre un oiseau frégate planant au-dessus du soleil levant.",
+   "rank": 178,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cfbe4c26ea4adb42.mp3",
+     "sec": 1.760023,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/56-a.mp3",
+     "sec": 1.981474,
+     "text": "Réponse : Kiribati."
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/56-f.mp3",
+     "sec": 6.894512,
+     "text": "Petit bonus : Le drapeau de Kiribati montre un oiseau frégate planant au-dessus du soleil levant."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇴"
+   },
+   "answer": "Tonga",
+   "rank": 180,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cfbe4c26ea4adb42.mp3",
+     "sec": 1.760023,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/57-a.mp3",
+     "sec": 0.960023,
+     "text": "Tonga !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇩"
+   },
+   "answer": "Andorre",
+   "rank": 184,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cfbe4c26ea4adb42.mp3",
+     "sec": 1.760023,
+     "text": "À quel pays appartient ce drapeau ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/58-a.mp3",
+     "sec": 0.943469,
+     "text": "C'est Andorre."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇻"
+   },
+   "answer": "Tuvalu",
+   "fact": "Le drapeau de Tuvalu a neuf étoiles, une pour chacune de ses neuf îles.",
+   "rank": 192,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cd7dcc6ca9f724af.mp3",
+     "sec": 1.445374,
+     "text": "Dernière question !"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/59-a.mp3",
+     "sec": 1.655918,
+     "text": "Réponse : Tuvalu."
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/59-f.mp3",
+     "sec": 6.027596,
+     "text": "Petit bonus : Le drapeau de Tuvalu a neuf étoiles, une pour chacune de ses neuf îles."
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "Le drapeau de l'Estonie est vert, rouge et noir.",
+   "answer": false,
+   "fact": "Il est bleu, noir et blanc, en 3 bandes horizontales, le bleu en haut.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-drapeaux/i0-q.mp3",
+     "sec": 6.580862,
+     "text": "On souffle une seconde. Vrai ou faux : Le drapeau de l'Estonie est vert, rouge et noir."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/i0-a.mp3",
+     "sec": 0.660726,
+     "text": "C'est faux !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/i0-f.mp3",
+     "sec": 5.750068,
+     "text": "Tu savais ? Il est bleu, noir et blanc, en 3 bandes horizontales, le bleu en haut."
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a la carte de son île sur son drapeau ?",
+   "choices": [
+    "Sri Lanka",
+    "Madagascar",
+    "Chypre"
+   ],
+   "correct": 2,
+   "fact": "Le drapeau chypriote montre l'île en couleur cuivre, avec 2 branches d'olivier.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-drapeaux/i1-q.mp3",
+     "sec": 7.97068,
+     "text": "Intermède ! Quel pays a la carte de son île sur son drapeau : Sri Lanka, Madagascar, ou Chypre ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/i1-a.mp3",
+     "sec": 0.973379,
+     "text": "C'est Chypre !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/i1-f.mp3",
+     "sec": 6.872857,
+     "text": "Détail amusant : Le drapeau chypriote montre l'île en couleur cuivre, avec 2 branches d'olivier."
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Qatar a un bord en dents de scie.",
+   "answer": true,
+   "fact": "Blanc et grenat avec 9 pointes, c'est le drapeau national le plus allongé du monde.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-drapeaux/i2-q.mp3",
+     "sec": 6.933537,
+     "text": "On souffle une seconde. Vrai ou faux : Le drapeau du Qatar a un bord en dents de scie."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/i2-a.mp3",
+     "sec": 0.735601,
+     "text": "Vrai !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/i2-f.mp3",
+     "sec": 7.024739,
+     "text": "Détail amusant : Blanc et grenat avec 9 pointes, c'est le drapeau national le plus allongé du monde."
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de couleurs a le drapeau belge ?",
+   "choices": [
+    "Trois",
+    "Deux",
+    "Quatre"
+   ],
+   "correct": 0,
+   "fact": "Noir, jaune et rouge : un trio qui vient des armoiries du duché de Brabant.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-drapeaux/i3-q.mp3",
+     "sec": 6.543356,
+     "text": "Intermède ! Combien de couleurs a le drapeau belge : Trois, Deux, ou Quatre ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/i3-a.mp3",
+     "sec": 1.680023,
+     "text": "Eh oui : Trois !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/i3-f.mp3",
+     "sec": 5.617438,
+     "text": "Tu savais ? Noir, jaune et rouge : un trio qui vient des armoiries du duché de Brabant."
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Liechtenstein n'a jamais porté de couronne.",
+   "answer": false,
+   "fact": "Une couronne a été ajoutée en 1937, car son drapeau était identique à celui d'Haïti.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-drapeaux/i4-q.mp3",
+     "sec": 6.567483,
+     "text": "Petite pause ! Vrai ou faux : Le drapeau du Liechtenstein n'a jamais porté de couronne."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/i4-a.mp3",
+     "sec": 0.880023,
+     "text": "C'est faux !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/i4-f.mp3",
+     "sec": 8.720023,
+     "text": "Petit bonus : Une couronne a été ajoutée en 1937, car son drapeau était identique à celui d'Haïti."
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a une croix jaune sur un drapeau bleu ?",
+   "choices": [
+    "Suède",
+    "Norvège",
+    "Finlande"
+   ],
+   "correct": 0,
+   "fact": "Ces couleurs rappellent les armoiries royales : 3 couronnes d'or sur fond bleu.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-drapeaux/i5-q.mp3",
+     "sec": 7.893741,
+     "text": "On souffle une seconde. Quel pays a une croix jaune sur un drapeau bleu : Suède, Norvège, ou Finlande ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/i5-a.mp3",
+     "sec": 1.731043,
+     "text": "Réponse : Suède."
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/i5-f.mp3",
+     "sec": 5.760023,
+     "text": "Et pour la culture : Ces couleurs rappellent les armoiries royales : 3 couronnes d'or sur fond bleu."
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Les bandes du drapeau belge sont verticales.",
+   "answer": true,
+   "fact": "Noir, jaune et rouge : ces couleurs viennent des armoiries du duché de Brabant.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-drapeaux/i6-q.mp3",
+     "sec": 5.168707,
+     "text": "Intermède ! Vrai ou faux : Les bandes du drapeau belge sont verticales."
+    },
+    "a": {
+     "src": "tts/2026-11-16-drapeaux/i6-a.mp3",
+     "sec": 0.793946,
+     "text": "C'est vrai !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-drapeaux/i6-f.mp3",
+     "sec": 6.253628,
+     "text": "Petit bonus : Noir, jaune et rouge : ces couleurs viennent des armoiries du duché de Brabant."
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Crée ton quiz gratuit sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Aujourd'hui : 60 DRAPEAUX. Tu as 5 secondes par image, ta série compte double. 9 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com/quiz-du-jour/2026-11-16-drapeaux\n🔔 Nouveau quiz tous les jours, active la cloche.\n\n#quiz #drapeaux #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:24 Niveau facile\n03:27 Niveau moyen\n06:55 Niveau difficile\n11:03 Niveau impossible\n15:59 Ton score\n16:10 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "drapeaux",
+   "quiz drapeaux",
+   "pays du monde",
+   "géographie",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Devine",
+   "line2": "60 DRAPEAUX",
+   "emoji": "🧠",
+   "sticker": "PERSONNE N'Y ARRIVE",
+   "layouts": [
+    3,
+    1
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "99 % échouent à la 8e 😱 Devine 60 DRAPEAUX du MONDE #Shorts",
+  "shortDescription": "Tu veux la réponse ? Elle est dans la vidéo complète (60 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "3 SECONDES",
+   "line": "par question, pas une de plus ⏱️"
+  },
+  "short2": {
+   "title": "Niveau IMPOSSIBLE 🔥 Devine 60 DRAPEAUX du MONDE #Shorts",
+   "description": "La réponse + 60 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "1 % RÉUSSISSENT",
+   "line": "aux 8 questions les plus dures 🔥"
+  },
+  "short3": {
+   "title": "Tu passes la 5e ? 😏 Devine 60 DRAPEAUX du MONDE #Shorts",
+   "description": "La réponse + 60 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU PASSES LA 5e ?",
+   "line": "niveau moyen-difficile 😏"
+  },
+  "social": {
+   "caption": "Seuls les vrais experts passent la 8e 😏 Devine 60 DRAPEAUX du MONDE",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "drapeaux",
+    "quizdrapeaux"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 24.733333333333334,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 207,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 415.3333333333333,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 663.1666666666666,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 959.2666666666667,
+    "title": "Ton score"
+   },
+   {
+    "at": 970.8333333333334,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/c414222f08394f2d.mp3",
+   "sec": 2.149433,
+   "text": "Niveau facile. Tranquille pour commencer."
+  },
+  "level_moyen": {
+   "src": "tts-cache/b35a5c1d0e60a2d7.mp3",
+   "sec": 2.720023,
+   "text": "Niveau moyen. Là, il faut réfléchir un peu."
+  },
+  "level_difficile": {
+   "src": "tts-cache/25f0643af005d110.mp3",
+   "sec": 5.200023,
+   "text": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère."
+  },
+  "level_impossible": {
+   "src": "tts-cache/e7f89944ec94451a.mp3",
+   "sec": 3.280023,
+   "text": "Niveau impossible. Même moi, je sèche sur certains."
+  },
+  "score": {
+   "src": "tts-cache/e3107c72f4515e9e.mp3",
+   "sec": 5.732449,
+   "text": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !"
+  },
+  "subscribe": {
+   "src": "tts-cache/04026d4e42b6c068.mp3",
+   "sec": 3.744626,
+   "text": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain."
+  },
+  "outro": {
+   "src": "tts-cache/00383e5fc7f4ef4d.mp3",
+   "sec": 2.662132,
+   "text": "À demain pour un nouveau quiz. Pense à t'abonner !"
+  },
+  "cliff": {
+   "src": "tts-cache/da7c9febdc79e0c3.mp3",
+   "sec": 3.760023,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !"
+  },
+  "preroll": {
+   "src": "tts-cache/04691c8076ea0f55.mp3",
+   "sec": 2.448413,
+   "text": "Hé, content de te revoir ! C'est l'heure du quiz !"
+  },
+  "intro": {
+   "src": "tts/2026-11-16-drapeaux/intro.mp3",
+   "sec": 16.720023,
+   "text": "Devine 60 Drapeaux du Monde ! 60 drapeaux du monde, classés du niveau facile au niveau impossible. Pour chacun, trouve le pays avant la fin du chrono, puis la réponse s'affiche. Compte tes points ! Prêt ? C'est parti !"
+  },
+  "packshot": {
+   "src": "tts-cache/0f4bf54a66d45e12.mp3",
+   "sec": 5.199433,
+   "text": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
+  },
+  "nextQuiz": {
+   "src": "tts-cache/4a117a8817f6e3f9.mp3",
+   "sec": 5.520023,
+   "text": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !"
+  }
+ }
+}
