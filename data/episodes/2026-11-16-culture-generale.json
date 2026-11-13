@@ -1,0 +1,1797 @@
+{
+ "id": "2026-11-16-culture-generale",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "theme": 3,
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "reveal": "flip",
+  "card": "square",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Le quiz du jour est là 🎁",
+   "voice": "Le quiz du jour est là ! Compte bien tes points !"
+  },
+  "introCta": "🔥 Garde ta série le plus longtemps possible",
+  "subscribe": {
+   "title": "Tu aimes ? Abonne-toi 👇",
+   "sub": "ça aide la chaîne et ça ne coûte rien 🙏",
+   "voice": "Si tu aimes, abonne-toi. Ça aide la chaîne, et ça ne coûte rien."
+  },
+  "levels": {
+   "facile": {
+    "card": "Premier niveau, zéro pression 🙂",
+    "voice": "Premier niveau, zéro pression. On démarre."
+   },
+   "moyen": {
+    "card": "Les choses sérieuses commencent 💪",
+    "voice": "Niveau moyen. Les choses sérieuses commencent."
+   },
+   "difficile": {
+    "card": "Accroche-toi 😰",
+    "voice": "Niveau difficile. Accroche-toi !"
+   },
+   "impossible": {
+    "card": "Même moi je sèche 😈",
+    "voice": "Niveau impossible. Même moi, je sèche sur certains."
+   }
+  },
+  "scoreVoice": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "Merci d'avoir joué 🙏",
+   "voice": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure."
+  },
+  "packshot": {
+   "headline": "Qui est le plus cultivé de ta bande ?",
+   "sub": "lance le quiz du jour sur youqwiz.com 🧠",
+   "cta": "👉 youqwiz.com",
+   "voice": "Qui est le plus cultivé de ta bande ? Lance le quiz du jour sur youqwiz point com."
+  },
+  "rule": "50 questions, 4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono, du facile à l'impossible ⭐",
+  "ruleVoice": "50 questions de culture générale, du niveau facile au niveau impossible. À chaque fois, quatre réponses, une seule est bonne : choisis avant la fin du chrono. Compte tes points !",
+  "nextQuizVoice": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !"
+ },
+ "title": "50 QUESTIONS de CULTURE GÉNÉRALE 🧠📚✅ Teste tes connaissances en 50 questions",
+ "question": "",
+ "intro": {
+  "hook": "50 QUESTIONS de CULTURE GÉNÉRALE",
+  "sub": "4 réponses, une seule bonne 🧠"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces animaux pond des œufs ?",
+    "choices": [
+     "La vache",
+     "La chèvre",
+     "La poule",
+     "La brebis"
+    ],
+    "correct": 2
+   },
+   "answer": "La poule",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/0-q.mp3",
+     "sec": 3.687392,
+     "text": "On continue. Lequel de ces animaux pond des œufs ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/0-a.mp3",
+     "sec": 1.768322,
+     "text": "Réponse : La poule !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quoi est fait le fromage ?",
+    "choices": [
+     "De farine",
+     "D'œufs",
+     "De lait",
+     "De riz"
+    ],
+    "correct": 2
+   },
+   "answer": "De lait",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/1-q.mp3",
+     "sec": 2.214308,
+     "text": "De quoi est fait le fromage ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/1-a.mp3",
+     "sec": 1.574762,
+     "text": "Réponse : De lait !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de zéros compte le nombre un million ?",
+    "choices": [
+     "5",
+     "7",
+     "6",
+     "9"
+    ],
+    "correct": 2
+   },
+   "answer": "6",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/2-q.mp3",
+     "sec": 2.880023,
+     "text": "Combien de zéros compte le nombre un million ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/2-a.mp3",
+     "sec": 1.490045,
+     "text": "Eh oui : 6 !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle langue parle-t-on au Brésil ?",
+    "choices": [
+     "Le brésilien",
+     "L'anglais",
+     "Le portugais",
+     "L'espagnol"
+    ],
+    "correct": 2
+   },
+   "answer": "Le portugais",
+   "level": "facile",
+   "fact": "Le Brésil est le seul grand pays d'Amérique du Sud où l'on parle portugais.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/3-q.mp3",
+     "sec": 1.798934,
+     "text": "Quelle langue parle-t-on au Brésil ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/3-a.mp3",
+     "sec": 1.520023,
+     "text": "Eh oui : Le portugais !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/3-f.mp3",
+     "sec": 5.600023,
+     "text": "Petit bonus : Le Brésil est le seul grand pays d'Amérique du Sud où l'on parle portugais."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est surnommée la planète bleue ?",
+    "choices": [
+     "La Terre",
+     "Neptune",
+     "Uranus",
+     "Mars"
+    ],
+    "correct": 0
+   },
+   "answer": "La Terre",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/4-q.mp3",
+     "sec": 2.694943,
+     "text": "Quelle planète est surnommée la planète bleue ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/4-a.mp3",
+     "sec": 2.068685,
+     "text": "Bravo si tu avais dit La Terre."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de minutes dure une heure et demie ?",
+    "choices": [
+     "60",
+     "80",
+     "90",
+     "100"
+    ],
+    "correct": 2
+   },
+   "answer": "90",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/5-q.mp3",
+     "sec": 2.709683,
+     "text": "Combien de minutes dure une heure et demie ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/5-a.mp3",
+     "sec": 1.840023,
+     "text": "Réponse : 90 !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de touches possède un piano standard ?",
+    "choices": [
+     "66",
+     "100",
+     "88",
+     "76"
+    ],
+    "correct": 2
+   },
+   "answer": "88",
+   "level": "facile",
+   "fact": "Un piano standard compte 52 touches blanches et 36 touches noires.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/6-q.mp3",
+     "sec": 2.800023,
+     "text": "Combien de touches possède un piano standard ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/6-a.mp3",
+     "sec": 2.240023,
+     "text": "Bravo si tu avais dit 88."
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/6-f.mp3",
+     "sec": 5.826372,
+     "text": "Détail amusant : Un piano standard compte 52 touches blanches et 36 touches noires."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Australie ?",
+    "choices": [
+     "Melbourne",
+     "Perth",
+     "Canberra",
+     "Sydney"
+    ],
+    "correct": 2
+   },
+   "answer": "Canberra",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/7-q.mp3",
+     "sec": 2.231202,
+     "text": "Quelle est la capitale de l'Australie ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/7-a.mp3",
+     "sec": 1.520023,
+     "text": "C'était Canberra."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quelle matière fabrique-t-on le papier ?",
+    "choices": [
+     "Le verre",
+     "Le métal",
+     "Le plastique",
+     "Le bois"
+    ],
+    "correct": 3
+   },
+   "answer": "Le bois",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/8-q.mp3",
+     "sec": 3.126372,
+     "text": "On continue. Avec quelle matière fabrique-t-on le papier ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/8-a.mp3",
+     "sec": 1.360023,
+     "text": "C'était Le bois."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que commémore le 14 juillet en France ?",
+    "choices": [
+     "La prise de la Bastille",
+     "Le couronnement de Napoléon",
+     "La fin de la guerre",
+     "La naissance de Louis XIV"
+    ],
+    "correct": 0
+   },
+   "answer": "La prise de la Bastille",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/9-q.mp3",
+     "sec": 2.23263,
+     "text": "Que commémore le 14 juillet en France ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/9-a.mp3",
+     "sec": 2.720023,
+     "text": "Bravo si tu avais dit La prise de la Bastille."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouve le Grand Canyon ?",
+    "choices": [
+     "Les États-Unis",
+     "Le Mexique",
+     "Le Canada",
+     "L'Australie"
+    ],
+    "correct": 0
+   },
+   "answer": "Les États-Unis",
+   "level": "facile",
+   "fact": "Le Grand Canyon a été creusé par le fleuve Colorado pendant des millions d'années.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/10-q.mp3",
+     "sec": 2.606803,
+     "text": "Dans quel pays se trouve le Grand Canyon ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/10-a.mp3",
+     "sec": 1.834898,
+     "text": "C'était Les États-Unis."
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/10-f.mp3",
+     "sec": 5.600023,
+     "text": "Détail amusant : Le Grand Canyon a été creusé par le fleuve Colorado pendant des millions d'années."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand océan du monde ?",
+    "choices": [
+     "L'Arctique",
+     "L'Atlantique",
+     "L'océan Indien",
+     "Le Pacifique"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Pacifique",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/11-q.mp3",
+     "sec": 2.13356,
+     "text": "Quel est le plus grand océan du monde ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/11-a.mp3",
+     "sec": 2.480023,
+     "text": "Bravo si tu avais dit Le Pacifique."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel organe sert à respirer ?",
+    "choices": [
+     "Les reins",
+     "Le foie",
+     "Les poumons",
+     "L'estomac"
+    ],
+    "correct": 2
+   },
+   "answer": "Les poumons",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/12-q.mp3",
+     "sec": 1.794785,
+     "text": "Quel organe sert à respirer ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/12-a.mp3",
+     "sec": 2.528345,
+     "text": "La bonne réponse, c'est Les poumons."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de roues a un tricycle ?",
+    "choices": [
+     "3",
+     "2",
+     "4",
+     "6"
+    ],
+    "correct": 0
+   },
+   "answer": "3",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/13-q.mp3",
+     "sec": 2.361542,
+     "text": "Combien de roues a un tricycle ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/13-a.mp3",
+     "sec": 1.637166,
+     "text": "Réponse : 3 !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle couleur obtient-on en mélangeant rouge et blanc ?",
+    "choices": [
+     "Orange",
+     "Violet",
+     "Marron",
+     "Rose"
+    ],
+    "correct": 3
+   },
+   "answer": "Rose",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/14-q.mp3",
+     "sec": 3.302177,
+     "text": "Quelle couleur obtient-on en mélangeant rouge et blanc ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/14-a.mp3",
+     "sec": 1.641973,
+     "text": "Bravo si tu avais dit Rose."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?",
+    "choices": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "correct": 2
+   },
+   "answer": "11",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/15-q.mp3",
+     "sec": 7.600023,
+     "text": "Beaucoup se trompent ici. Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/15-a.mp3",
+     "sec": 1.60517,
+     "text": "Eh oui : 11 !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le fruit du chêne ?",
+    "choices": [
+     "Le gland",
+     "La noix",
+     "La châtaigne",
+     "La pomme de pin"
+    ],
+    "correct": 0
+   },
+   "answer": "Le gland",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/16-q.mp3",
+     "sec": 3.760023,
+     "text": "Celle-ci est pour les experts. Quel est le fruit du chêne ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/16-a.mp3",
+     "sec": 2.080023,
+     "text": "Bravo si tu avais dit Le gland."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de l'Allemagne ?",
+    "choices": [
+     "Berlin",
+     "Munich",
+     "Hambourg",
+     "Francfort"
+    ],
+    "correct": 0
+   },
+   "answer": "Berlin",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/17-q.mp3",
+     "sec": 4.32381,
+     "text": "Celle-ci est pour les experts. Quelle est la capitale de l'Allemagne ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/17-a.mp3",
+     "sec": 1.721542,
+     "text": "Réponse : Berlin !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 100 ÷ 4 ?",
+    "choices": [
+     "20",
+     "25",
+     "40",
+     "50"
+    ],
+    "correct": 1
+   },
+   "answer": "25",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/18-q.mp3",
+     "sec": 4.370227,
+     "text": "Attention, question piège. Combien font 100 ÷ 4 ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/18-a.mp3",
+     "sec": 1.961927,
+     "text": "Bravo si tu avais dit 25."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel oiseau est le plus rapide en piqué ?",
+    "choices": [
+     "L'aigle royal",
+     "Le faucon pèlerin",
+     "Le colibri",
+     "Le martinet"
+    ],
+    "correct": 1
+   },
+   "answer": "Le faucon pèlerin",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/19-q.mp3",
+     "sec": 2.34102,
+     "text": "Quel oiseau est le plus rapide en piqué ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/19-a.mp3",
+     "sec": 1.911224,
+     "text": "Eh oui : Le faucon pèlerin !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle roche est composée surtout de carbonate de calcium ?",
+    "choices": [
+     "Le calcaire",
+     "Le granit",
+     "Le basalte",
+     "Le grès"
+    ],
+    "correct": 0
+   },
+   "answer": "Le calcaire",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/20-q.mp3",
+     "sec": 3.520023,
+     "text": "Quelle roche est composée surtout de carbonate de calcium ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/20-a.mp3",
+     "sec": 2.320023,
+     "text": "La bonne réponse, c'est Le calcaire."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouve la ville de Marrakech ?",
+    "choices": [
+     "Le Maroc",
+     "L'Algérie",
+     "La Tunisie",
+     "L'Égypte"
+    ],
+    "correct": 0
+   },
+   "answer": "Le Maroc",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/21-q.mp3",
+     "sec": 4.210726,
+     "text": "Question suivante. Dans quel pays se trouve la ville de Marrakech ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/21-a.mp3",
+     "sec": 1.440023,
+     "text": "Le Maroc, évidemment !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel savant a élaboré la théorie de la relativité ?",
+    "choices": [
+     "Isaac Newton",
+     "Louis Pasteur",
+     "Albert Einstein",
+     "Marie Curie"
+    ],
+    "correct": 2
+   },
+   "answer": "Albert Einstein",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/22-q.mp3",
+     "sec": 3.34712,
+     "text": "Quel savant a élaboré la théorie de la relativité ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/22-a.mp3",
+     "sec": 2.181179,
+     "text": "Albert Einstein, évidemment !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient le tajine ?",
+    "choices": [
+     "Le Japon",
+     "Le Maroc",
+     "Le Pérou",
+     "La Norvège"
+    ],
+    "correct": 1
+   },
+   "answer": "Le Maroc",
+   "level": "moyen",
+   "fact": "Le tajine porte le même nom que le plat en terre cuite à couvercle conique.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/23-q.mp3",
+     "sec": 2.067302,
+     "text": "De quel pays vient le tajine ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/23-a.mp3",
+     "sec": 2.134603,
+     "text": "Réponse : Le Maroc !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/23-f.mp3",
+     "sec": 5.515986,
+     "text": "Petit bonus : Le tajine porte le même nom que le plat en terre cuite à couvercle conique."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le participe passé du verbe « venir » ?",
+    "choices": [
+     "Venant",
+     "Venit",
+     "Venu",
+     "Venn"
+    ],
+    "correct": 2
+   },
+   "answer": "Venu",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/24-q.mp3",
+     "sec": 2.800023,
+     "text": "Quel est le participe passé du verbe « venir » ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/24-a.mp3",
+     "sec": 1.760023,
+     "text": "Réponse : Venu !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quelle protéine sont faits nos cheveux et nos ongles ?",
+    "choices": [
+     "Le collagène",
+     "La kératine",
+     "La mélanine",
+     "La cellulose"
+    ],
+    "correct": 1
+   },
+   "answer": "La kératine",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/25-q.mp3",
+     "sec": 3.120023,
+     "text": "De quelle protéine sont faits nos cheveux et nos ongles ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/25-a.mp3",
+     "sec": 1.537778,
+     "text": "C'était La kératine."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel arbre a sa feuille sur le drapeau du Canada ?",
+    "choices": [
+     "Le chêne",
+     "Le bouleau",
+     "L'érable",
+     "Le peuplier"
+    ],
+    "correct": 2
+   },
+   "answer": "L'érable",
+   "level": "moyen",
+   "fact": "Le sirop d'érable se fabrique avec la sève de l'érable.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/26-q.mp3",
+     "sec": 2.880023,
+     "text": "Quel arbre a sa feuille sur le drapeau du Canada ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/26-a.mp3",
+     "sec": 1.971973,
+     "text": "Eh oui : L'érable !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/26-f.mp3",
+     "sec": 4.876054,
+     "text": "Détail amusant : Le sirop d'érable se fabrique avec la sève de l'érable."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mammifère pond des œufs ?",
+    "choices": [
+     "Le koala",
+     "L'ornithorynque",
+     "Le hérisson",
+     "Le castor"
+    ],
+    "correct": 1
+   },
+   "answer": "L'ornithorynque",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/27-q.mp3",
+     "sec": 3.280023,
+     "text": "On continue. Quel mammifère pond des œufs ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/27-a.mp3",
+     "sec": 2.470884,
+     "text": "Bravo si tu avais dit L'ornithorynque."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Les Nymphéas » ?",
+    "choices": [
+     "Auguste Renoir",
+     "Claude Monet",
+     "Édouard Manet",
+     "Edgar Degas"
+    ],
+    "correct": 1
+   },
+   "answer": "Claude Monet",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/28-q.mp3",
+     "sec": 1.760023,
+     "text": "Qui a peint « Les Nymphéas » ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/28-a.mp3",
+     "sec": 1.920023,
+     "text": "Réponse : Claude Monet !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel sport marque-t-on un ippon ?",
+    "choices": [
+     "Le judo",
+     "Le tennis",
+     "Le golf",
+     "Le rugby"
+    ],
+    "correct": 0
+   },
+   "answer": "Le judo",
+   "level": "moyen",
+   "fact": "Le mot ippon veut dire « un point » en japonais.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/29-q.mp3",
+     "sec": 2.393764,
+     "text": "Dans quel sport marque-t-on un ippon ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/29-a.mp3",
+     "sec": 1.748776,
+     "text": "Eh oui : Le judo !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/29-f.mp3",
+     "sec": 4.240023,
+     "text": "Au passage, Le mot ippon veut dire « un point » en japonais."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle notre galaxie ?",
+    "choices": [
+     "La Voie lactée",
+     "Andromède",
+     "Le Grand Nuage",
+     "Orion"
+    ],
+    "correct": 0
+   },
+   "answer": "La Voie lactée",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/30-q.mp3",
+     "sec": 1.665102,
+     "text": "Comment s'appelle notre galaxie ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/30-a.mp3",
+     "sec": 2.480023,
+     "text": "Bravo si tu avais dit La Voie lactée."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel gaz rejetons-nous en expirant en plus grande quantité qu'en inspirant ?",
+    "choices": [
+     "L'hélium",
+     "L'hydrogène",
+     "Le dioxyde de carbone",
+     "Le néon"
+    ],
+    "correct": 2
+   },
+   "answer": "Le dioxyde de carbone",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/31-q.mp3",
+     "sec": 4.279841,
+     "text": "Quel gaz rejetons-nous en expirant en plus grande quantité qu'en inspirant ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/31-a.mp3",
+     "sec": 2.960023,
+     "text": "La bonne réponse, c'est Le dioxyde de carbone."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui invente le stéthoscope en 1816 ?",
+    "choices": [
+     "René Laennec",
+     "Louis Pasteur",
+     "Claude Bernard",
+     "Ambroise Paré"
+    ],
+    "correct": 0
+   },
+   "answer": "René Laennec",
+   "level": "difficile",
+   "fact": "Laennec a inventé le stéthoscope avec un simple rouleau de papier.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/32-q.mp3",
+     "sec": 3.172245,
+     "text": "Qui invente le stéthoscope en 1816 ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/32-a.mp3",
+     "sec": 2.540204,
+     "text": "Bravo si tu avais dit René Laennec."
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/32-f.mp3",
+     "sec": 5.062154,
+     "text": "Tu savais ? Laennec a inventé le stéthoscope avec un simple rouleau de papier."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de minutes dure un match de rugby à XV ?",
+    "choices": [
+     "80",
+     "70",
+     "90",
+     "60"
+    ],
+    "correct": 0
+   },
+   "answer": "80",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/33-q.mp3",
+     "sec": 3.246984,
+     "text": "Combien de minutes dure un match de rugby à XV ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/33-a.mp3",
+     "sec": 1.920023,
+     "text": "Réponse : 80 !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le muscle le plus long du corps humain ?",
+    "choices": [
+     "Le sartorius",
+     "Le grand fessier",
+     "Le biceps",
+     "Le quadriceps"
+    ],
+    "correct": 0
+   },
+   "answer": "Le sartorius",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/34-q.mp3",
+     "sec": 5.760023,
+     "text": "Facile, celle-là. Enfin, je crois. Quel est le muscle le plus long du corps humain ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/34-a.mp3",
+     "sec": 2.640023,
+     "text": "Bravo si tu avais dit Le sartorius."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel arbre est le plus haut du monde ?",
+    "choices": [
+     "Le séquoia",
+     "L'eucalyptus",
+     "Le baobab",
+     "Le chêne"
+    ],
+    "correct": 0
+   },
+   "answer": "Le séquoia",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/35-q.mp3",
+     "sec": 2.024127,
+     "text": "Quel arbre est le plus haut du monde ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/35-a.mp3",
+     "sec": 2.242925,
+     "text": "La bonne réponse, c'est Le séquoia."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé le ballet « Le Lac des cygnes » ?",
+    "choices": [
+     "Stravinsky",
+     "Tchaïkovski",
+     "Prokofiev",
+     "Rachmaninov"
+    ],
+    "correct": 1
+   },
+   "answer": "Tchaïkovski",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/36-q.mp3",
+     "sec": 2.880023,
+     "text": "Qui a composé le ballet « Le Lac des cygnes » ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/36-a.mp3",
+     "sec": 2.080023,
+     "text": "Bravo si tu avais dit Tchaïkovski."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui invente la pile électrique en 1800 ?",
+    "choices": [
+     "Thomas Edison",
+     "Michael Faraday",
+     "Alessandro Volta",
+     "Benjamin Franklin"
+    ],
+    "correct": 2
+   },
+   "answer": "Alessandro Volta",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/37-q.mp3",
+     "sec": 4.320023,
+     "text": "Question suivante. Qui invente la pile électrique en 1800 ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/37-a.mp3",
+     "sec": 2.225488,
+     "text": "Réponse : Alessandro Volta !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+    "choices": [
+     "3 millions km/s",
+     "3 000 km/s",
+     "300 000 km/s",
+     "30 000 km/s"
+    ],
+    "correct": 2
+   },
+   "answer": "300 000 km/s",
+   "level": "difficile",
+   "fact": "La lumière du Soleil met environ 8 minutes pour arriver jusqu'à la Terre.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/38-q.mp3",
+     "sec": 5.995873,
+     "text": "Celle-ci est pour les experts. Quelle est la vitesse approximative de la lumière dans le vide ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/38-a.mp3",
+     "sec": 3.50585,
+     "text": "La bonne réponse, c'est 300 000 km/s."
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/38-f.mp3",
+     "sec": 5.266508,
+     "text": "Tu savais ? La lumière du Soleil met environ 8 minutes pour arriver jusqu'à la Terre."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la hauteur d'un but de football ?",
+    "choices": [
+     "2,44 m",
+     "2 m",
+     "2,75 m",
+     "3 m"
+    ],
+    "correct": 0
+   },
+   "answer": "2,44 m",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/39-q.mp3",
+     "sec": 5.200023,
+     "text": "Réfléchis bien avant de répondre. Quelle est la hauteur d'un but de football ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/39-a.mp3",
+     "sec": 3.200023,
+     "text": "La bonne réponse, c'est 2,44 m."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui invente le moteur diesel ?",
+    "choices": [
+     "Karl Benz",
+     "Rudolf Diesel",
+     "Henry Ford",
+     "Nicolaus Otto"
+    ],
+    "correct": 1
+   },
+   "answer": "Rudolf Diesel",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/40-q.mp3",
+     "sec": 5.116576,
+     "text": "Facile, celle-là. Enfin, je crois. Qui invente le moteur diesel ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/40-a.mp3",
+     "sec": 2.625465,
+     "text": "La bonne réponse, c'est Rudolf Diesel."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « Le Jardin des délices » ?",
+    "choices": [
+     "Jérôme Bosch",
+     "Pieter Bruegel",
+     "Rubens",
+     "Vermeer"
+    ],
+    "correct": 0
+   },
+   "answer": "Jérôme Bosch",
+   "level": "impossible",
+   "fact": "Jérôme Bosch tire son nom de sa ville, Bois-le-Duc, aux Pays-Bas.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/41-q.mp3",
+     "sec": 2.531837,
+     "text": "Qui a peint « Le Jardin des délices » ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/41-a.mp3",
+     "sec": 1.581497,
+     "text": "C'était Jérôme Bosch."
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/41-f.mp3",
+     "sec": 5.520023,
+     "text": "Tu savais ? Jérôme Bosch tire son nom de sa ville, Bois-le-Duc, aux Pays-Bas."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi règne sur la France de 1830 à 1848 ?",
+    "choices": [
+     "Charles X",
+     "Louis XVIII",
+     "Napoléon III",
+     "Louis-Philippe Ier"
+    ],
+    "correct": 3
+   },
+   "answer": "Louis-Philippe Ier",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/42-q.mp3",
+     "sec": 4.65932,
+     "text": "Quel roi règne sur la France de 1830 à 1848 ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/42-a.mp3",
+     "sec": 2.480023,
+     "text": "Bravo si tu avais dit Louis-Philippe Ier."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit la nouvelle « Le Horla » ?",
+    "choices": [
+     "Guy de Maupassant",
+     "Émile Zola",
+     "Prosper Mérimée",
+     "Alphonse Daudet"
+    ],
+    "correct": 0
+   },
+   "answer": "Guy de Maupassant",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/43-q.mp3",
+     "sec": 2.320023,
+     "text": "Qui a écrit la nouvelle « Le Horla » ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/43-a.mp3",
+     "sec": 1.81068,
+     "text": "Eh oui : Guy de Maupassant !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient la poutine ?",
+    "choices": [
+     "La Suède",
+     "L'Australie",
+     "La Suisse",
+     "Le Canada"
+    ],
+    "correct": 3
+   },
+   "answer": "Le Canada",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/44-q.mp3",
+     "sec": 1.817778,
+     "text": "De quel pays vient la poutine ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/44-a.mp3",
+     "sec": 2.24873,
+     "text": "Eh oui : Le Canada !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Kazakhstan ?",
+    "choices": [
+     "Almaty",
+     "Astana",
+     "Bichkek",
+     "Tachkent"
+    ],
+    "correct": 1
+   },
+   "answer": "Astana",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/45-q.mp3",
+     "sec": 1.840023,
+     "text": "Quelle est la capitale du Kazakhstan ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/45-a.mp3",
+     "sec": 2.010839,
+     "text": "Bravo si tu avais dit Astana."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Slovaquie ?",
+    "choices": [
+     "Ljubljana",
+     "Zagreb",
+     "Bratislava",
+     "Brno"
+    ],
+    "correct": 2
+   },
+   "answer": "Bratislava",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/46-q.mp3",
+     "sec": 2.320023,
+     "text": "Quelle est la capitale de la Slovaquie ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/46-a.mp3",
+     "sec": 1.733605,
+     "text": "Eh oui : Bratislava !"
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a composé la « Symphonie fantastique » ?",
+    "choices": [
+     "Hector Berlioz",
+     "Gabriel Fauré",
+     "Camille Saint-Saëns",
+     "César Franck"
+    ],
+    "correct": 0
+   },
+   "answer": "Hector Berlioz",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/47-q.mp3",
+     "sec": 2.874535,
+     "text": "Qui a composé la « Symphonie fantastique » ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/47-a.mp3",
+     "sec": 2.640023,
+     "text": "La bonne réponse, c'est Hector Berlioz."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pays organise la première Coupe du monde de football en 1930 ?",
+    "choices": [
+     "L'Italie",
+     "L'Argentine",
+     "L'Uruguay",
+     "Le Brésil"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Uruguay",
+   "level": "impossible",
+   "fact": "Pour la première Coupe du monde en 1930, les équipes d'Europe ont traversé l'océan en bateau.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/48-q.mp3",
+     "sec": 5.840023,
+     "text": "On continue. Quel pays organise la première Coupe du monde de football en 1930 ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/48-a.mp3",
+     "sec": 1.520023,
+     "text": "C'était L'Uruguay."
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/48-f.mp3",
+     "sec": 7.382834,
+     "text": "Et pour la culture : Pour la première Coupe du monde en 1930, les équipes d'Europe ont traversé l'océan en bateau."
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand pays d'Afrique par sa superficie ?",
+    "choices": [
+     "La République démocratique du Congo",
+     "Le Soudan",
+     "L'Algérie",
+     "La Libye"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Algérie",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/49-q.mp3",
+     "sec": 5.098163,
+     "text": "Attention, question piège. Quel est le plus grand pays d'Afrique par sa superficie ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/49-a.mp3",
+     "sec": 2.122676,
+     "text": "La bonne réponse, c'est L'Algérie."
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "L'eau bout à 100 degrés au niveau de la mer.",
+   "answer": true,
+   "fact": "En montagne, elle bout plus tôt, car la pression de l'air est plus faible.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/i0-q.mp3",
+     "sec": 6.960023,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : L'eau bout à 100 degrés au niveau de la mer."
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/i0-a.mp3",
+     "sec": 0.770454,
+     "text": "Vrai !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/i0-f.mp3",
+     "sec": 5.280023,
+     "text": "Et pour la culture : En montagne, elle bout plus tôt, car la pression de l'air est plus faible."
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "fact": "La peau d'un adulte couvre environ 2 mètres carrés, et elle se renouvelle sans cesse.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/i1-q.mp3",
+     "sec": 7.681066,
+     "text": "Petit bonus entre deux questions : Quel est le plus grand organe du corps humain : La peau, Le foie, ou Le cœur ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/i1-a.mp3",
+     "sec": 1.680023,
+     "text": "Réponse : La peau."
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/i1-f.mp3",
+     "sec": 6.465714,
+     "text": "Tu savais ? La peau d'un adulte couvre environ 2 mètres carrés, et elle se renouvelle sans cesse."
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "L'Atlantique est le plus grand océan du monde.",
+   "answer": false,
+   "fact": "C'est le Pacifique, qui couvre environ un tiers de la surface de la Terre.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/i2-q.mp3",
+     "sec": 5.394649,
+     "text": "Intermède ! Vrai ou faux : L'Atlantique est le plus grand océan du monde."
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/i2-a.mp3",
+     "sec": 1.040023,
+     "text": "C'est faux !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/i2-f.mp3",
+     "sec": 4.712834,
+     "text": "Au passage, C'est le Pacifique, qui couvre environ un tiers de la surface de la Terre."
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel écrivain a créé Les Misérables ?",
+   "choices": [
+    "Victor Hugo",
+    "Émile Zola",
+    "Jules Verne"
+   ],
+   "correct": 0,
+   "fact": "Hugo a écrit ce roman pendant son exil à Guernesey, et il est paru en 1862.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/i3-q.mp3",
+     "sec": 6.529683,
+     "text": "Intermède ! Quel écrivain a créé Les Misérables : Victor Hugo, Émile Zola, ou Jules Verne ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/i3-a.mp3",
+     "sec": 2.000023,
+     "text": "Eh oui : Victor Hugo !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/i3-f.mp3",
+     "sec": 6.640023,
+     "text": "Tu savais ? Hugo a écrit ce roman pendant son exil à Guernesey, et il est paru en 1862."
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Les requins sont apparus après les dinosaures.",
+   "answer": false,
+   "fact": "Ils existent depuis plus de 400 millions d'années, bien avant les premiers dinosaures.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/i4-q.mp3",
+     "sec": 6.401066,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : Les requins sont apparus après les dinosaures."
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/i4-a.mp3",
+     "sec": 1.17873,
+     "text": "Eh non, c'est faux."
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/i4-f.mp3",
+     "sec": 6.160023,
+     "text": "Détail amusant : Ils existent depuis plus de 400 millions d'années, bien avant les premiers dinosaures."
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Comment s'appelle notre galaxie ?",
+   "choices": [
+    "La Voie lactée",
+    "Andromède",
+    "Orion"
+   ],
+   "correct": 0,
+   "fact": "Notre galaxie contient des centaines de milliards d'étoiles.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-16-culture-generale/i5-q.mp3",
+     "sec": 7.520023,
+     "text": "Petit bonus entre deux questions : Comment s'appelle notre galaxie : La Voie lactée, Andromède, ou Orion ?"
+    },
+    "a": {
+     "src": "tts/2026-11-16-culture-generale/i5-a.mp3",
+     "sec": 1.016485,
+     "text": "C'est La Voie lactée !"
+    },
+    "f": {
+     "src": "tts/2026-11-16-culture-generale/i5-f.mp3",
+     "sec": 5.040023,
+     "text": "Détail amusant : Notre galaxie contient des centaines de milliards d'étoiles."
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Crée ton quiz gratuit sur youqwiz.com"
+ },
+ "meta": {
+  "description": "50 questions pour tester ta culture : la plupart des gens ratent le dernier niveau. Niveaux : 19 facile, 13 moyens, 7 difficiles, 11 impossible. 10 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Crée ton propre quiz gratuit en 2 minutes : https://youqwiz.com/quiz-du-jour/2026-11-16-culture-generale\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #culturegenerale #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:22 Niveau facile\n05:03 Niveau moyen\n08:59 Niveau difficile\n11:05 Niveau impossible\n15:15 Ton score\n15:26 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "culture generale",
+   "culture générale",
+   "quiz culture générale",
+   "test de connaissances",
+   "devinette",
+   "facile à impossible",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Culture G",
+   "line2": "50 QUESTIONS",
+   "emoji": "📚",
+   "sticker": "IMPOSSIBLE ?",
+   "layouts": [
+    3,
+    1
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "99 % échouent à la 8e 😱 50 QUESTIONS de CULTURE GÉNÉRALE #Shorts",
+  "shortDescription": "Vidéo complète avec les 50 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "TU TIENS 8 QUESTIONS ?",
+   "line": "3 secondes chacune ⏱️"
+  },
+  "short2": {
+   "title": "Tu n'auras pas celle-là 🤯 50 QUESTIONS de CULTURE GÉNÉRALE #Shorts",
+   "description": "Tu veux la réponse ? Elle est dans la vidéo complète (50 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "NIVEAU IMPOSSIBLE",
+   "line": "personne ne finit ce Short 😱"
+  },
+  "short3": {
+   "title": "culture générale : le milieu fait mal 😅 #Shorts",
+   "description": "La réponse + 50 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU PASSES LA 5e ?",
+   "line": "niveau moyen-difficile 😏"
+  },
+  "social": {
+   "caption": "Seuls les vrais experts passent la 8e 😏 50 QUESTIONS de CULTURE GÉNÉRALE",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "culturegénérale",
+    "quizculturegénérale"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 22.066666666666666,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 303.56666666666666,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 539.7333333333333,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 665.8666666666667,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 915.2666666666667,
+    "title": "Ton score"
+   },
+   {
+    "at": 926.8333333333334,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/aa92dd0172f993e8.mp3",
+   "sec": 2.869728,
+   "text": "Premier niveau, zéro pression. On démarre."
+  },
+  "level_moyen": {
+   "src": "tts-cache/2dce83283fc25656.mp3",
+   "sec": 3.034059,
+   "text": "Niveau moyen. Les choses sérieuses commencent."
+  },
+  "level_difficile": {
+   "src": "tts-cache/52872da999cb9f1c.mp3",
+   "sec": 2.000023,
+   "text": "Niveau difficile. Accroche-toi !"
+  },
+  "level_impossible": {
+   "src": "tts-cache/e7f89944ec94451a.mp3",
+   "sec": 3.280023,
+   "text": "Niveau impossible. Même moi, je sèche sur certains."
+  },
+  "score": {
+   "src": "tts-cache/e3107c72f4515e9e.mp3",
+   "sec": 5.732449,
+   "text": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !"
+  },
+  "subscribe": {
+   "src": "tts-cache/401e952f2528fb71.mp3",
+   "sec": 3.674558,
+   "text": "Si tu aimes, abonne-toi. Ça aide la chaîne, et ça ne coûte rien."
+  },
+  "outro": {
+   "src": "tts-cache/7c2b353c821d1413.mp3",
+   "sec": 3.908095,
+   "text": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure."
+  },
+  "cliff": {
+   "src": "tts-cache/da7c9febdc79e0c3.mp3",
+   "sec": 3.760023,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !"
+  },
+  "preroll": {
+   "src": "tts-cache/5ee41a412b31fbcc.mp3",
+   "sec": 2.637347,
+   "text": "Le quiz du jour est là ! Compte bien tes points !"
+  },
+  "intro": {
+   "src": "tts/2026-11-16-culture-generale/intro.mp3",
+   "sec": 13.920023,
+   "text": "50 Questions de Culture Générale ! 50 questions de culture générale, du niveau facile au niveau impossible. À chaque fois, quatre réponses, une seule est bonne : choisis avant la fin du chrono. Compte tes points ! À toi de jouer !"
+  },
+  "packshot": {
+   "src": "tts-cache/adf3064c9c5f4091.mp3",
+   "sec": 6.08322,
+   "text": "Qui est le plus cultivé de ta bande ? Lance le quiz du jour sur youqwiz point com."
+  },
+  "nextQuiz": {
+   "src": "tts-cache/4a117a8817f6e3f9.mp3",
+   "sec": 5.520023,
+   "text": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !"
+  }
+ }
+}
