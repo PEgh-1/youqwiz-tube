@@ -267,6 +267,7 @@ const outroPool = isChoice ? V.outroChoice : V.outro;
 const packPool = [...(V.packshot.byPillar[pillar] ?? []), ...V.packshot.generic];
 const variants = {
   preroll: { text: fill(prerollV.text), voice: fill(prerollV.voice) },
+  ...(V.baseline ? { baseline: V.baseline } : {}),
   introCta: pick(V.introCta),
   subscribe: choose(V.subscribe, prevSame ? V.subscribe.find((x) => x.title === prevSame.variants?.subscribe?.title) : undefined),
   levels: Object.fromEntries(["facile", "moyen", "difficile", "impossible"].map((l) => [l, pick(V.levels[l])])),

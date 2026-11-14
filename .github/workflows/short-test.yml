@@ -5,7 +5,11 @@ on:
     inputs:
       episodes:
         description: "Identifiants d'épisodes séparés par des espaces (ex. 2026-11-12-pays-sans-voyelles)"
-        required: true
+        required: false
+        type: string
+      pilot:
+        description: "Pilotes des finitions v3 (vidéo longue) : épisode à rendre, ex. pilote-finitions — remplace alors les Shorts"
+        required: false
         type: string
       only:
         description: "Ne rendre qu'un des 3 Shorts de chaque épisode (1, 2 ou 3 ; vide = les 3)"
@@ -31,7 +35,24 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           npm ci
           npx remotion browser ensure
+      - name: Pilotes finitions v3 (voix réelle horodatée + 3 rendus B, C, D)
+        if: ${{ inputs.pilot != '' }}
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          MUSIC_URL: ${{ secrets.MUSIC_URL }}
+          REMOTION_CONCURRENCY: 2
+          TTS_VERBOSE: 1
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node scripts/get-music.mjs && node scripts/prepare-assets.mjs
+          node scripts/tts.mjs --episode "data/episodes/${{ inputs.pilot }}.json"
+          node -e 'const e=require("./data/episodes/${{ inputs.pilot }}.json");const c=e.items[0].voice?.q;console.log("voix :",e.voice?Object.keys(e.voice).length:0,"lignes ; Q1 :",JSON.stringify(c))'
+          node scripts/pilot.mjs --episode "data/episodes/${{ inputs.pilot }}.json"
+          gh release delete test-finitions-v3 -y --cleanup-tag 2>/dev/null || true
+          gh release create test-finitions-v3 out/pilote/*.mp4 --target "${{ github.sha }}" --title "TEST finitions v3" --notes "Extraits pilotes des finitions v3 (lots B, C, D), rien n'est publié. À supprimer après contrôle." --prerelease --latest=false
       - name: Sons
+        if: ${{ inputs.pilot == '' }}
         env:
           MUSIC_URL: ""
         run: |
@@ -39,6 +60,7 @@ jobs:
           [ -f public/audio/crackle.mp3 ] || ffmpeg -y -nostdin -loglevel error -f lavfi -i "anoisesrc=c=pink:a=0.05:d=20" -af "highpass=f=1200,lowpass=f=4500,volume=0.35" -b:a 96k public/audio/crackle.mp3
           node -e 'const f="src/audio.json",m=JSON.parse(require("fs").readFileSync(f));m.crackle=true;require("fs").writeFileSync(f,JSON.stringify(m,null,2)+"\n")'
       - name: Voix + rendu
+        if: ${{ inputs.pilot == '' }}
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
@@ -46,6 +68,7 @@ jobs:
         run: |
           for id in ${{ inputs.episodes }}; do node scripts/short-v3.mjs --episode "data/episodes/$id.json" ${{ inputs.only != '' && format('--only {0}', inputs.only) || '' }}; done
       - name: Pré-release de contrôle
+        if: ${{ inputs.pilot == '' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

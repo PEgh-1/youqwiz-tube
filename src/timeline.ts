@@ -37,7 +37,7 @@ export const questionSeconds = (ep: Episode, i: number, short = false): number =
   const lv = it.prompt.type === "choices" ? "moyen" : levelOf(ep, i);
   const base = short ? 3 : answerSeconds(it.prompt, lv, ep.question ?? "") + (ep.timing.slow ? 1 : 0);
   const v = ep.items[i].voice?.q?.sec ?? 0; // la voix lit la question : on laisse 2 s (1 s en Short) de réflexion après
-  return Math.max(base, Math.ceil((v + (short ? 1 : 2)) * 2) / 2);
+  return Math.max(base, Math.ceil((v + (short ? 1 : 2)) * 2) / 2) + (fxFinish(ep, short) ? 0.5 : 0);
 };
 
 // Instant (s) où le fait bonus apparaît pendant la révélation.
@@ -57,7 +57,7 @@ export const revealSeconds = (ep: Episode, i: number, short = false): number => 
     const f = ep.items[i].voice?.f?.sec ?? 2.5;
     sec = Math.max(sec, Math.ceil((factStart(ep, i) + f + 0.6) * 2) / 2);
   }
-  return sec;
+  return sec + (fxFinish(ep, short) ? FX_TRANSITION.before : 0);
 };
 
 // Options du Short « explosif » : hook 1,5 s, 6 questions rapides + 1 cliffhanger sans réponse, carte finale 4 s.
@@ -68,9 +68,18 @@ export const SHORT_OPTS = (ep: Episode) => ({ preroll: 0, packshot: 0, subscribe
 // Transition « déchirure » entre deux scènes : 0,8 s à cheval sur la frontière (recouvre la fin de la scène sortante et le début
 // de l'entrante), portée par une mascotte qui alterne. C'est un calque posé par-dessus la timeline : il n'allonge pas la vidéo.
 export const WIPE_SECONDS = 0.8;
+// Finitions v3 (14/11/2026) : transition mascottes de 1,3 s (tope-là / clin d'œil). Elle recouvre les 0,6 dernières secondes de
+// la scène sortante et les 0,7 premières de l'entrante : la révélation et la question sont allongées d'autant, et la voix de la
+// question attend que l'écran se découvre. Pas de transition entre une carte de niveau et sa première question (simple coupe).
+export const FX_TRANSITION = { total: 1.3, before: 0.6, closed: [10 / 30, 27 / 30] as [number, number] };
+export const fxFinish = (ep: Episode, short = false): boolean => !!ep.fx?.finish && !short;
+/** Retard (s) de la voix et de l'apparition de la question sous la transition v3. */
+export const questionDelay = (ep: Episode, short = false): number => (fxFinish(ep, short) ? 0.4 : 0);
 // Scènes qui reçoivent une transition d'entrée : questions, cartes de niveau, intermèdes (jamais la toute première scène).
-export const wipeScenes = (segments: Segment[]): { from: number; index: number }[] =>
-  segments.filter((s) => (s.kind === "question" || s.kind === "level" || s.kind === "interlude") && s.from > 0).map((s, i) => ({ from: s.from, index: i }));
+export const wipeScenes = (segments: Segment[], fx = false): { from: number; index: number }[] =>
+  segments
+    .filter((s, i) => (s.kind === "question" || s.kind === "level" || s.kind === "interlude") && s.from > 0 && !(fx && s.kind === "question" && segments[i - 1]?.kind === "level"))
+    .map((s, i) => ({ from: s.from, index: i }));
 // Variante de décor (angle du dégradé, position du motif) : change à chaque scène, sous la transition → jamais de saut visible.
 export const sceneVariant = (segments: Segment[], frame: number): number => {
   let v = 0;
@@ -110,6 +119,7 @@ export const buildTimeline = (
   fps: number,
   opts: { preroll?: number; intro?: number; outro?: number; packshot?: number; subscribe?: number; levelCard?: number; score?: number; maxItems?: number; short?: boolean; cliff?: number; maxSeconds?: number; interludes?: boolean } = {},
 ): { segments: Segment[]; total: number } => {
+  if (ep.pilot && !opts.short) opts = { ...opts, ...(ep.pilot as typeof opts) };
   // Short : on retire des questions tant que la durée dépasse le plafond (60 s YouTube, marge 2 s).
   if (opts.maxSeconds) {
     const { maxSeconds, ...rest } = opts;
@@ -152,7 +162,7 @@ export const buildTimeline = (
   for (let i = 0; i < n; i++) {
     const lv = levelOf(ep, i);
     if (lv !== lastLevel && levelCard > 0) {
-      const lc = Math.max(levelCard, sec(fitVoice(0, ep.voice?.[`level_${lv}`]?.sec, 8 / 30)));
+      const lc = Math.max(levelCard, sec(fitVoice(0, ep.voice?.[`level_${lv}`]?.sec, 8 / 30))) + (fxFinish(ep, short) ? sec(0.7) : 0);
       segments.push({ kind: "level", from: t, dur: lc, level: lv });
       t += lc;
       lastLevel = lv;

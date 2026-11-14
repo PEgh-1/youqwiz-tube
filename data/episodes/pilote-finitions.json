@@ -1,0 +1,222 @@
+{
+ "id": "pilote-finitions",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "theme": 3,
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "reveal": "flip",
+  "card": "square",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "voice": "Content de te revoir, sur YouQwiz ! Aujourd'hui, scrolé va te rendre plus malin !"
+  },
+  "introCta": "🔥 Garde ta série le plus longtemps possible",
+  "subscribe": {
+   "title": "Tu aimes ? Abonne-toi 👇",
+   "sub": "ça aide la chaîne et ça ne coûte rien 🙏",
+   "voice": "Si tu aimes, abonne-toi. Ça aide la chaîne, et ça ne coûte rien."
+  },
+  "levels": {
+   "facile": {
+    "card": "Premier niveau, zéro pression 🙂",
+    "voice": "Premier niveau, zéro pression. On démarre."
+   },
+   "moyen": {
+    "card": "Les choses sérieuses commencent 💪",
+    "voice": "Niveau moyen. Les choses sérieuses commencent."
+   },
+   "difficile": {
+    "card": "Accroche-toi 😰",
+    "voice": "Niveau difficile. Accroche-toi !"
+   },
+   "impossible": {
+    "card": "Même moi je sèche 😈",
+    "voice": "Niveau impossible. Même moi, je sèche sur certains."
+   }
+  },
+  "scoreVoice": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "Merci d'avoir joué 🙏",
+   "voice": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure."
+  },
+  "packshot": {
+   "headline": "Qui est le plus cultivé de ta bande ?",
+   "sub": "lance le quiz du jour sur youqwiz.com 🧠",
+   "cta": "👉 youqwiz.com",
+   "voice": "Qui est le plus cultivé de ta bande ? Lance le quiz du jour sur youqwiz point com."
+  },
+  "rule": "4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono ⭐",
+  "ruleVoice": "Quatre réponses, une seule bonne. Réponds avant la fin du chrono, et compte tes points !",
+  "nextQuizVoice": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !",
+  "baseline": "Aujourd'hui, scroller va te rendre plus malin"
+ },
+ "title": "PILOTE finitions v3",
+ "question": "",
+ "intro": {
+  "hook": "3 QUESTIONS de CULTURE GÉNÉRALE",
+  "sub": "4 réponses, une seule bonne 🧠"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces animaux pond des œufs ?",
+    "choices": [
+     "La vache",
+     "La chèvre",
+     "La poule",
+     "La brebis"
+    ],
+    "correct": 2
+   },
+   "answer": "La poule",
+   "level": "facile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle langue parle-t-on au Brésil ?",
+    "choices": [
+     "Le brésilien",
+     "L'anglais",
+     "Le portugais",
+     "L'espagnol"
+    ],
+    "correct": 2
+   },
+   "answer": "Le portugais",
+   "level": "facile",
+   "fact": "Le Brésil est le seul grand pays d'Amérique du Sud où l'on parle portugais."
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel gaz rejetons-nous en expirant en plus grande quantité qu'en inspirant ?",
+    "choices": [
+     "L'hélium",
+     "L'hydrogène",
+     "Le dioxyde de carbone",
+     "Le néon"
+    ],
+    "correct": 2
+   },
+   "answer": "Le dioxyde de carbone",
+   "level": "difficile"
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Crée ton quiz gratuit sur youqwiz.com"
+ },
+ "meta": {
+  "description": "50 questions pour tester ta culture : la plupart des gens ratent le dernier niveau. Niveaux : 19 facile, 13 moyens, 7 difficiles, 11 impossible. 10 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Crée ton propre quiz gratuit en 2 minutes : https://youqwiz.com/quiz-du-jour/2026-11-16-culture-generale\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #culturegenerale #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n00:22 Niveau facile\n05:03 Niveau moyen\n08:59 Niveau difficile\n11:05 Niveau impossible\n15:15 Ton score\n15:26 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "culture generale",
+   "culture générale",
+   "quiz culture générale",
+   "test de connaissances",
+   "devinette",
+   "facile à impossible",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Culture G",
+   "line2": "50 QUESTIONS",
+   "emoji": "📚",
+   "sticker": "IMPOSSIBLE ?",
+   "layouts": [
+    3,
+    1
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "99 % échouent à la 8e 😱 50 QUESTIONS de CULTURE GÉNÉRALE #Shorts",
+  "shortDescription": "Vidéo complète avec les 50 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "TU TIENS 8 QUESTIONS ?",
+   "line": "3 secondes chacune ⏱️"
+  },
+  "short2": {
+   "title": "Tu n'auras pas celle-là 🤯 50 QUESTIONS de CULTURE GÉNÉRALE #Shorts",
+   "description": "Tu veux la réponse ? Elle est dans la vidéo complète (50 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "NIVEAU IMPOSSIBLE",
+   "line": "personne ne finit ce Short 😱"
+  },
+  "short3": {
+   "title": "culture générale : le milieu fait mal 😅 #Shorts",
+   "description": "La réponse + 50 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU PASSES LA 5e ?",
+   "line": "niveau moyen-difficile 😏"
+  },
+  "social": {
+   "caption": "Seuls les vrais experts passent la 8e 😏 50 QUESTIONS de CULTURE GÉNÉRALE",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "culturegénérale",
+    "quizculturegénérale"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 22.066666666666666,
+    "title": "Niveau facile"
+   },
+   {
+    "at": 303.56666666666666,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 539.7333333333333,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 665.8666666666667,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 915.2666666666667,
+    "title": "Ton score"
+   },
+   {
+    "at": 926.8333333333334,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "pilot": {
+  "score": 0,
+  "outro": 0,
+  "packshot": 0,
+  "subscribe": 0
+ },
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true
+ }
+}

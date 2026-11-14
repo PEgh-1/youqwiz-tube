@@ -2,36 +2,8 @@
  "_comment": "Variantes d'habillage, de voix et de métadonnées (03/11/2026) : tirées par épisode pour que deux vidéos ne se ressemblent jamais. {theme} = nom du thème du jour, {n} = nombre de questions, {noun} = sujet de la banque, {weekday} = jour. 09/11/2026 : shortTitlesHard/shortHardHooks (sticker + ligne) = 2e Short quotidien (questions les plus dures, 19 h) ; socialCaptions/socialHashtags = relais Instagram/Facebook/TikTok via Metricool.",
  "preroll": [
   {
-   "text": "Content de te revoir ! 👋",
-   "voice": "Hé, content de te revoir ! C'est l'heure du quiz !"
-  },
-  {
-   "text": "Prêt pour le quiz du jour ? 🔥",
-   "voice": "Prêt pour le quiz du jour ? Allez, c'est parti !"
-  },
-  {
-   "text": "Aujourd'hui : {theme} 🎯",
-   "voice": "Aujourd'hui : {theme} ! Tu vas adorer !"
-  },
-  {
-   "text": "Installe-toi bien 🛋️",
-   "voice": "Installe-toi bien, ça démarre dans trois secondes !"
-  },
-  {
-   "text": "Nouveau défi ! 💪",
-   "voice": "Nouveau défi ! Tu vas faire mieux qu'hier ? On parie !"
-  },
-  {
-   "text": "Bon {weekday} ! ☀️",
-   "voice": "Bon {weekday} ! Au programme : {theme} !"
-  },
-  {
-   "text": "Le quiz du jour est là 🎁",
-   "voice": "Le quiz du jour est là ! Compte bien tes points !"
-  },
-  {
-   "text": "Tu reviens ? Bravo 🏆",
-   "voice": "Tu reviens ? Bravo ! Les champions jouent tous les jours !"
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "voice": "Content de te revoir, sur YouQwiz ! Aujourd'hui, scrolé va te rendre plus malin !"
   }
  ],
  "introCta": [
@@ -596,83 +568,83 @@
   }
  ],
  "rules": {
-  "_comment": "Vidéo longue v2 (09/11/2026) : règle du jeu affichée sur la carte d'intro et lue par la voix après l'accroche. Par banque, sinon par gabarit (devine, qcm, intrus, versus). {n} = nombre de questions.",
+  "_comment": "Vidéo longue v2 (09/11/2026) : règle du jeu affichée sur la carte d'intro et lue par la voix après l'accroche. Par banque, sinon par gabarit (devine, qcm, intrus, versus). {n} = nombre de questions. 14/11/2026 : règles condensées (une phrase), sans redire le titre déjà lu dans l'accroche.",
   "drapeaux": [
    {
-    "text": "{n} drapeaux, du facile à l'impossible 🌍 Trouve le pays avant la fin du chrono et compte tes points ⭐",
-    "voice": "{n} drapeaux du monde, classés du niveau facile au niveau impossible. Pour chacun, trouve le pays avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+    "text": "Trouve le pays avant la fin du chrono 🌍 et compte tes points ⭐",
+    "voice": "Trouve le pays avant la fin du chrono, et compte tes points !"
    }
   ],
   "animaux": [
    {
-    "text": "{n} animaux, du facile à l'impossible 🐾 Devine lequel c'est avant la fin du chrono et compte tes points ⭐",
-    "voice": "{n} animaux, du niveau facile au niveau impossible. Devine de quel animal il s'agit avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+    "text": "Devine l'animal avant la fin du chrono 🐾 et compte tes points ⭐",
+    "voice": "Devine l'animal avant la fin du chrono, et compte tes points !"
    }
   ],
   "fruits-legumes": [
    {
-    "text": "{n} fruits et légumes, du facile à l'impossible 🍓 Devine lequel c'est avant la fin du chrono ⭐",
-    "voice": "{n} fruits et légumes, du niveau facile au niveau impossible. Devine de quoi il s'agit avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+    "text": "Devine avant la fin du chrono 🍓 et compte tes points ⭐",
+    "voice": "Devine avant la fin du chrono, et compte tes points !"
    }
   ],
   "pays-sans-voyelles": [
    {
-    "text": "{n} pays sans leurs voyelles 🔤 Retrouve-les avant la fin du chrono, du facile à l'impossible ⭐",
-    "voice": "{n} noms de pays, mais sans leurs voyelles ! Retrouve chaque pays avant la fin du chrono, du niveau facile au niveau impossible. Compte tes points !"
+    "text": "Retrouve le pays avant la fin du chrono 🔤 et compte tes points ⭐",
+    "voice": "Retrouve le pays avant la fin du chrono, et compte tes points !"
    }
   ],
   "maths": [
    {
-    "text": "{n} calculs mentaux, du facile à l'impossible 🧮 Trouve le résultat avant la fin du chrono ⭐",
-    "voice": "{n} calculs de tête, du niveau facile au niveau impossible. Trouve le résultat avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+    "text": "Trouve le résultat avant la fin du chrono 🧮 et compte tes points ⭐",
+    "voice": "Trouve le résultat avant la fin du chrono, et compte tes points !"
    }
   ],
   "alphabet": [
    {
-    "text": "{n} lettres 🔤 Trouve un mot de la catégorie qui commence par la lettre, avant la fin du chrono ⭐",
-    "voice": "{n} lettres, du niveau facile au niveau impossible. À chaque fois, trouve un mot de la catégorie qui commence par la lettre affichée, avant la fin du chrono. Compte tes points !"
+    "text": "Un mot de la catégorie qui commence par la lettre 🔤 avant la fin du chrono ⭐",
+    "voice": "Trouve un mot de la catégorie qui commence par la lettre, avant la fin du chrono !"
    }
   ],
   "mots-emojis": [
    {
-    "text": "{n} mots cachés dans des émojis 🧩 Décode-les avant la fin du chrono, du facile à l'impossible ⭐",
-    "voice": "{n} mots cachés derrière des émojis, du niveau facile au niveau impossible. Décode chaque mot avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+    "text": "Décode le mot avant la fin du chrono 🧩 et compte tes points ⭐",
+    "voice": "Décode le mot avant la fin du chrono, et compte tes points !"
    }
   ],
   "films-emojis": [
    {
-    "text": "{n} films cachés dans des émojis 🎬 Retrouve le titre avant la fin du chrono, du facile à l'impossible ⭐",
-    "voice": "{n} films cachés derrière des émojis, du niveau facile au niveau impossible. Retrouve le titre avant la fin du chrono, puis la réponse s'affiche. Compte tes points !"
+    "text": "Retrouve le film avant la fin du chrono 🎬 et compte tes points ⭐",
+    "voice": "Retrouve le film avant la fin du chrono, et compte tes points !"
    }
   ],
   "intrus": [
    {
-    "text": "{n} grilles 👀 Un seul émoji est différent : trouve-le avant la fin du chrono, du facile à l'impossible ⭐",
-    "voice": "{n} grilles d'émojis, du niveau facile au niveau impossible. Dans chacune, un seul est différent des autres : trouve l'intrus avant la fin du chrono. Compte tes points !"
+    "text": "Un seul émoji est différent 👀 Trouve-le avant la fin du chrono ⭐",
+    "voice": "Un seul émoji est différent. Trouve-le avant la fin du chrono !"
    }
   ],
   "qcm": [
    {
-    "text": "{n} questions, 4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono, du facile à l'impossible ⭐",
-    "voice": "{n} questions de {theme}, du niveau facile au niveau impossible. À chaque fois, quatre réponses, une seule est bonne : choisis avant la fin du chrono. Compte tes points !"
+    "text": "4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono ⭐",
+    "voice": "Quatre réponses, une seule bonne. Réponds avant la fin du chrono, et compte tes points !"
    }
   ],
   "generations": [
    {
-    "text": "{n} souvenirs, 4 réponses, une seule bonne 📼 Fouille ta mémoire avant la fin du chrono ⭐",
-    "voice": "{n} souvenirs des années soixante à quatre-vingt-dix, du niveau facile au niveau impossible. Quatre réponses, une seule est bonne : fouille ta mémoire avant la fin du chrono. Compte tes points !"
+    "text": "4 réponses, une seule bonne 📼 Fouille ta mémoire avant la fin du chrono ⭐",
+    "voice": "Quatre réponses, une seule bonne. Fouille ta mémoire avant la fin du chrono !"
    }
   ],
   "devine": [
    {
-    "text": "{n} questions, du facile à l'impossible 🔥 Trouve la réponse avant la fin du chrono et compte tes points ⭐",
-    "voice": "{n} questions, du niveau facile au niveau impossible. Trouve la réponse avant la fin du chrono, puis elle s'affiche. Compte tes points !"
+    "text": "Trouve la réponse avant la fin du chrono 🔥 et compte tes points ⭐",
+    "voice": "Trouve la réponse avant la fin du chrono, et compte tes points !"
    }
   ],
   "versus": [
    {
-    "text": "{n} dilemmes 🤔 5 secondes pour choisir, pas de bonne réponse : dis tes choix en commentaire 👇",
-    "voice": "{n} dilemmes impossibles ! À chaque fois, cinq secondes pour choisir, et il n'y a pas de bonne réponse. Dis tes choix en commentaire !"
+    "text": "Pas de bonne réponse 🤔 Dis tes choix en commentaire 👇",
+    "voice": "Pas de bonne réponse. Choisis vite, et dis tes choix en commentaire !"
    }
   ]
  },
@@ -708,5 +680,6 @@
    "Réponse : {a}.",
    "Eh oui : {a} !"
   ]
- }
+ },
+ "baseline": "Aujourd'hui, scroller va te rendre plus malin"
 }

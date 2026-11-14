@@ -4,7 +4,9 @@ import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactC
 import { Score } from "./DevineEn3s";
 import { FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, WHITE } from "./theme";
 import { tr } from "./i18n";
-import { SHORT_OPTS, buildTimeline, factStart, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD, sceneVariant, wipeScenes } from "./timeline";
+import { SHORT_OPTS, buildTimeline, factStart, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD, sceneVariant, wipeScenes, fxFinish, questionDelay } from "./timeline";
+import { FxContext } from "./fxContext";
+import { Baseline, BlurIn, MascotTransitionLayer, SyncLines, fitLines, speechEnd, useFontsReady } from "./fx";
 import type { Episode } from "./types";
 
 const has = (k: string) => AUDIO[k] === true;
@@ -25,8 +27,12 @@ export const QuizQCM: React.FC<QcmProps> = ({ episode, vertical = false }) => {
   const lastQ = Math.max(...segments.filter((s) => s.kind === "question").map((s) => (s as { index: number }).index));
   const slow = !!episode.timing.slow;
   const k = slow ? 1.15 : 1; // typographie +15 % pour le pilier générations
+  const fin = fxFinish(episode, vertical);
+  const qd = Math.round(questionDelay(episode, vertical) * fps);
+  useFontsReady();
 
   return (
+    <FxContext.Provider value={vertical ? {} : episode.fx ?? {}}>
     <AbsoluteFill style={{ fontFamily: FONT_BODY, color: INK }}>
       <Fonts />
       <Background theme={theme} confetti={vertical ? 22 : 34} pattern={style.pattern} variant={vertical ? 0 : sceneVariant(segments, frame)} />
@@ -37,7 +43,7 @@ export const QuizQCM: React.FC<QcmProps> = ({ episode, vertical = false }) => {
           return (
             <Sequence key={i} from={s.from} durationInFrames={s.dur} name={`Q${s.index + 1}`}>
               {vertical && <ShortFx index={s.index} last={s.index === lastQ} dur={s.dur} />}
-              <Voice clip={episode.items[s.index].voice?.q} />
+              <Voice clip={episode.items[s.index].voice?.q} from={qd} />
               <Ticks episode={episode} index={s.index} dur={s.dur} />
               <Stage episode={episode} index={s.index} total={n} reveal={false} dur={s.dur} vertical={vertical} k={k} />
             </Sequence>
@@ -59,8 +65,9 @@ export const QuizQCM: React.FC<QcmProps> = ({ episode, vertical = false }) => {
           );
         return <CommonSegment key={i} index={i} s={s} episode={episode} vertical={vertical} k={k} />;
       })}
-      {!vertical && <WipeLayer theme={theme} scenes={wipeScenes(segments)} />}
+      {!vertical && (fin ? <MascotTransitionLayer theme={theme} scenes={wipeScenes(segments, true)} lang={episode.lang} /> : <WipeLayer theme={theme} scenes={wipeScenes(segments)} />)}
     </AbsoluteFill>
+    </FxContext.Provider>
   );
 };
 
@@ -107,7 +114,13 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   const prompt = item.prompt.type === "qcm" ? item.prompt : { type: "qcm" as const, value: item.answer, choices: [item.answer, "", "", ""], correct: 0 };
   const level = levelOf(episode, index);
   const impossible = level === "impossible";
-  const enter = spring({ frame, fps, config: { damping: 13, stiffness: 160 } });
+  const fx = vertical ? {} : episode.fx ?? {};
+  const fin = fxFinish(episode, vertical);
+  const qd = Math.round(questionDelay(episode, vertical) * fps); // la question attend que la transition découvre l'écran
+  const enter = spring({ frame: frame - qd, fps, config: { damping: 13, stiffness: 160 } });
+  const qClip = item.voice?.q;
+  // Lot C : le chrono ne démarre qu'à la fin réelle de la phrase lue (dernier mot horodaté).
+  const chronoFrom = fx.sync && qClip ? Math.min(dur - fps, qd + Math.round((speechEnd(qClip) + 0.15) * fps)) : 0;
   const brk = streakBreakIndex(episode);
   const streak = index < brk ? index + (reveal ? 1 : 0) : index - brk + (reveal ? 1 : 0);
   const points = totalPoints(episode, index + (reveal ? 1 : 0));
@@ -126,7 +139,10 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   // Mise en page (9:16 : logo en haut, zone utile 0-1570 px pour rester au-dessus de l'interface Shorts)
   const qLen = prompt.value.length;
   const qBase = vertical ? (qLen > 70 ? 60 : 68) : qLen > 70 ? 56 : 66;
-  const qSize = qBase * k * (qLen > 90 ? 0.9 : 1);
+  let qSize = qBase * k * (qLen > 90 ? 0.9 : 1);
+  // Lot B : taille mesurée avec la vraie police (1 à 3 lignes dans la carte), au lieu des seuils par nombre de caractères.
+  const fit = fin ? fitLines(prompt.value, 1440, 200, 84 * k, 3) : null;
+  if (fit) qSize = fit.size;
   const aSize = (vertical ? 50 : 44) * k;
   const cols = vertical ? 1 : 2;
   const gap = vertical ? 24 : 32;
@@ -156,27 +172,30 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
         <Pill size={hud} bg={WHITE} fg={INK}>{`⭐ ${points}`}</Pill>
       </div>
       {!vertical && (
-        <div style={{ position: "absolute", top: 118, left: 60 }}>
+        <div style={{ position: "absolute", top: 114, left: 60, display: "flex", alignItems: "center", gap: 22 }}>
           <Logo theme={theme} size={48} />
+          {episode.variants?.baseline && <Baseline text={episode.variants.baseline} size={26} />}
         </div>
       )}
 
       {/* Question */}
+      <BlurIn on={fin && !reveal && frame >= qd && frame < qd + 10} frames={9999}>
       <div style={{ position: "absolute", top: vertical ? 300 : 175, left: vertical ? 60 : 180, right: vertical ? 60 : 180, transform: `scale(${reveal ? 1 : enter})${shortMotion(frame, dur, reveal, vertical)}` }}>
         <Card tilt={tilt} shape={style.card} style={{ height: vertical ? 420 : 250, padding: "20px 50px" }}>
           <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: qSize, color: INK, textAlign: "center", lineHeight: 1.08 }}>
-            <Rich text={prompt.value} size={qSize} />
+            {fit ? <SyncLines lines={fit.lines} size={qSize} clip={qClip} from={qd} accent={theme.accent} on={!!fx.sync && !reveal} /> : <Rich text={prompt.value} size={qSize} />}
           </div>
           <div style={{ position: "absolute", top: -34, right: -30 }}>
             <LevelBadge level={level} size={30} tilt={10} lang={episode.lang} />
           </div>
         </Card>
       </div>
+      </BlurIn>
 
       {/* Réponses */}
       {prompt.choices.slice(0, 4).map((c, i) => {
         const state = !showAnswer ? "idle" : i === prompt.correct ? "ok" : "grey";
-        const pop = reveal ? 1 : spring({ frame: frame - 6 - i * 3, fps, config: { damping: 12, stiffness: 170 } });
+        const pop = reveal ? 1 : spring({ frame: frame - qd - 6 - i * 3, fps, config: { damping: 12, stiffness: 170 } });
         const good = showAnswer && i === prompt.correct;
         const wiggle = good ? 1 + 0.05 * Math.sin(frame / 2.5) * (frame < delay + 24 ? 1 : 0) : 1;
         const flip = good && style.reveal === "flip" ? `perspective(1000px) rotateX(${Math.max(0, 1 - (frame - delay) / 10) * 90}deg)` : "";
@@ -205,10 +224,10 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       {/* Chrono */}
       {!reveal && (
         <div style={timerPos}>
-          <Countdown frame={frame} totalFrames={dur} theme={theme} size={200} kind={vertical ? "ring" : "slider"} rider="poussin" width={620} />
+          <Countdown frame={Math.max(0, frame - chronoFrom)} totalFrames={dur - chronoFrom} theme={theme} size={200} kind={vertical ? "ring" : "slider"} rider="poussin" width={620} />
         </div>
       )}
-      {reveal && index === brk - 1 && !showFact && (
+      {reveal && index === brk - 1 && !showFact && episode.items.length >= 12 && (
         <div style={{ position: "absolute", right: vertical ? 40 : 110, bottom: vertical ? 150 : 70 }}>
           <Pill size={34} bg="#FF3B3B" fg={WHITE} tilt={-6} style={vertical ? { whiteSpace: "normal", textAlign: "center", maxWidth: 620 } : undefined}>{T.streakLost}</Pill>
         </div>
@@ -217,7 +236,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       {/* Mascotte + bulle */}
       {!showFact && (
         <div style={vertical ? { position: "absolute", right: 150, bottom: 110, display: "flex", alignItems: "flex-end", gap: 10 } : { position: "absolute", left: 60, bottom: 30, display: "flex", alignItems: "flex-end", gap: 10 }}>
-          <Mascot which={reveal ? "poussin" : "chat"} size={vertical ? 220 : 190} mood={reveal ? (impossible && !showAnswer ? "shock" : "cheer") : "idle"} />
+          <Mascot which={reveal ? "poussin" : "chat"} size={vertical ? 220 : 190} mood={reveal ? (impossible && !showAnswer ? "shock" : "cheer") : "idle"} talk={reveal ? undefined : qClip} talkFrom={qd} />
           {!vertical && (
             <div style={{ marginBottom: 90 }}>
               <Bubble size={32 * k}>{reveal ? (impossible ? T.admitIt : slow ? T.pointsWonSlow(LEVELS[level].points) : T.pointsWon(LEVELS[level].points)) : quip}</Bubble>

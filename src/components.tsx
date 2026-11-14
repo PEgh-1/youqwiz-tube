@@ -5,6 +5,7 @@ import { DEFAULT_STYLE, FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, STREAK, THEMES
 import type { Episode, Level, Prompt, Style, VoiceClip } from "./types";
 import { tr, type Lang } from "./i18n";
 import { WIPE_SECONDS } from "./timeline";
+import { useFx } from "./fxContext";
 import type { Segment } from "./timeline";
 import mascots from "./mascots.json";
 import audioManifest from "./audio.json";
@@ -463,15 +464,46 @@ export const Pop: React.FC<{ delay?: number; children: React.ReactNode; style?: 
 };
 
 // ---------- Mascotte PNG (public/mascots) avec repli émoji ----------
-export const Mascot: React.FC<{ which: "chat" | "poussin"; size: number; mood?: "idle" | "cheer" | "shock" | "dare"; style?: React.CSSProperties }> = ({ which, size, mood = "idle", style }) => {
+// Lot D (14/11/2026, fx.rig) : mascotte animée par le code à partir du dessin existant — respiration (étirement / écrasement),
+// clignement du poussin (poses « yeux ouverts » et « yeux fermés » tirées du dessin d'origine), clin d'œil quand il fête une bonne
+// réponse, et petit rebond à chaque mot quand la mascotte « dit » la phrase (`talk` = clip horodaté, `talkFrom` = son départ).
+// `pose` force une pose du poussin (transitions) ; `still` coupe le balancement de base (la scène anime déjà la mascotte).
+export const Mascot: React.FC<{ which: "chat" | "poussin"; size: number; mood?: "idle" | "cheer" | "shock" | "dare"; style?: React.CSSProperties; talk?: VoiceClip; talkFrom?: number; pose?: "open" | "wink" | "blink"; still?: boolean }> = ({ which, size, mood = "idle", style, talk, talkFrom = 0, pose, still = false }) => {
   const frame = useCurrentFrame();
-  const bob = mood === "cheer" ? Math.abs(Math.sin(frame / 4)) * -26 : Math.sin(frame / 12) * 8;
-  const rot = mood === "shock" ? Math.sin(frame / 2) * 6 : Math.sin(frame / 20) * 4;
+  const { fps } = useVideoConfig();
+  const rig = !!useFx().rig;
+  const bob = still ? 0 : mood === "cheer" ? Math.abs(Math.sin(frame / 4)) * -26 : Math.sin(frame / 12) * 8;
+  const rot = still ? 0 : mood === "shock" ? Math.sin(frame / 2) * 6 : Math.sin(frame / 20) * 4;
   const fallback = which === "chat" ? "🐱" : "🐥";
+  let file: string = (mood === "shock" || mood === "dare") && MASCOTS[`${which}-${mood}`] ? `${which}-${mood}` : which;
+  let sx = 1, sy = 1, lift = 0, tilt = 0;
+  const poses = which === "poussin" && file === "poussin" && MASCOTS["poussin-open"] && MASCOTS["poussin-blink"];
+  if (poses && pose) file = pose === "wink" ? "poussin" : `poussin-${pose}`;
+  if (rig && !still) {
+    // respiration : la mascotte s'étire et s'écrase très légèrement, pieds fixes
+    const b = Math.sin(frame / 9 + (which === "chat" ? 0 : 1.7));
+    sy += 0.02 * b; sx -= 0.012 * b;
+    // saut de joie : écrasement à l'appui, étirement en l'air
+    if (mood === "cheer") { const a = Math.abs(Math.sin(frame / 4)); sy += 0.06 * a - 0.04 * (1 - a); sx -= 0.04 * a - 0.03 * (1 - a); }
+    // parole : un rebond par mot (horodatage), sinon un rebond régulier pendant la durée du clip
+    if (talk) {
+      const t = (frame - talkFrom) / fps;
+      let pulse = 0;
+      if (talk.words?.length) { for (const w of talk.words) { const d = t - w[1]; if (d >= 0 && d < 0.3) pulse = Math.max(pulse, 1 - d / 0.3); } }
+      else if (t >= 0 && t < talk.sec) pulse = Math.abs(Math.sin(t * 9)) * 0.7;
+      sy += 0.06 * pulse; sx -= 0.03 * pulse; lift -= 9 * pulse; tilt += Math.sin(t * 5) * 2.5 * Math.min(1, pulse * 2);
+    }
+    // poussin : yeux ouverts au repos, clignement toutes les 2 à 3 s, clin d'œil au début d'une célébration
+    if (poses && !pose) {
+      const period = 71 + (size % 13);
+      const ph = (frame + 23) % period;
+      file = mood === "cheer" ? (frame >= 8 && frame < 24 ? "poussin" : "poussin-open") : ph < 3 ? "poussin-blink" : "poussin-open";
+    }
+  }
   return (
-    <div style={{ transform: `translateY(${bob}px) rotate(${rot}deg)`, ...style }}>
+    <div style={{ transform: `translateY(${bob + lift}px) rotate(${rot + tilt}deg) scale(${sx},${sy})`, transformOrigin: "bottom center", ...style }}>
       {/* 05/11/2026 : pose « choquée » dédiée (Gemini, même style) quand elle existe */}
-      {MASCOTS[which] ? <Img src={staticFile(`mascots/${(mood === "shock" || mood === "dare") && MASCOTS[`${which}-${mood}`] ? `${which}-${mood}` : which}.png`)} style={{ width: size, height: size, objectFit: "contain" }} /> : <Emoji value={fallback} size={size} />}
+      {MASCOTS[which] ? <Img src={staticFile(`mascots/${file}.png`)} style={{ width: size, height: size, objectFit: "contain" }} /> : <Emoji value={fallback} size={size} />}
     </div>
   );
 };
@@ -519,7 +551,7 @@ export const Streak: React.FC<{ value: number; size?: number; lang?: Lang }> = (
 
 // ---------- Pré-roll (3 s, texte variable) ----------
 // Voix off : clip générique de l'épisode (episode.voice.preroll) ; à défaut public/audio/preroll.mp3.
-export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean; lang?: Lang }> = ({ theme, text: textProp, vertical = false, lang }) => {
+export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean; lang?: Lang; baseline?: string }> = ({ theme, text: textProp, vertical = false, lang, baseline }) => {
   const text = textProp ?? tr({ lang }).prerollDefault;
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -535,11 +567,16 @@ export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean
       <div style={{ position: "absolute", right: (vertical ? 20 : 120) + (1 - slide) * 400, bottom: 40, transform: `rotate(${-wave}deg)`, transformOrigin: "bottom center" }}>
         <Mascot which="poussin" size={vertical ? 260 : 360} mood="cheer" />
       </div>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 36, transform: `scale(${0.6 + pop * 0.4})`, opacity: pop, padding: "0 80px" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 36, transform: `translateY(${baseline ? -130 : 0}px) scale(${0.6 + pop * 0.4})`, opacity: pop, padding: "0 80px" }}>
         <Logo theme={theme} size={120} />
         <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: size, color: WHITE, textShadow: `7px 7px 0 ${INK}`, textAlign: "center", lineHeight: 1.05, maxWidth: 1500 }}>
           <Rich text={text} size={size} />
         </div>
+        {baseline && (
+          <div style={{ opacity: interpolate(frame, [38, 50], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), transform: `translateY(${interpolate(frame, [38, 50], [30, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}px) rotate(-1.5deg)`, fontFamily: FONT_BODY, fontWeight: 600, fontSize: vertical ? 40 : 52, color: INK, background: WHITE, border: `6px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, borderRadius: 999, padding: "12px 40px", whiteSpace: "nowrap" }}>
+            <Rich text={`💡 ${baseline}`} size={vertical ? 40 : 52} />
+          </div>
+        )}
       </div>
       <Burst theme={theme} x={960} y={420} n={30} />
     </AbsoluteFill>
@@ -1016,7 +1053,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
     return (
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Pré-roll">
         {episode.voice?.preroll ? <Voice clip={episode.voice.preroll} from={8} /> : has("preroll") && <Audio src={staticFile("audio/preroll.mp3")} volume={1} />}
-        <Preroll theme={theme} text={v?.preroll?.text} vertical={vertical} lang={episode.lang} />
+        <Preroll theme={theme} text={v?.preroll?.text} vertical={vertical} lang={episode.lang} baseline={v?.baseline} />
       </Sequence>
     );
   if (s.kind === "packshot")

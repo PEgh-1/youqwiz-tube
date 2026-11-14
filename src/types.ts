@@ -9,7 +9,19 @@ export type Prompt =
   | { type: "letter"; value: string; category: string } // « nomme un animal qui commence par M »
   | { type: "qcm"; value: string; choices: string[]; correct: number }; // question + 4 choix + index de la bonne
 
-export type VoiceClip = { src: string; sec: number; /** texte lu (sans tag d'émotion), pour les sous-titres karaoké des Shorts (09/11/2026) */ text?: string };
+export type VoiceClip = { src: string; sec: number; /** texte lu (sans tag d'émotion), pour les sous-titres karaoké des Shorts (09/11/2026) */ text?: string;
+  /** Horodatage mot à mot (ElevenLabs « with-timestamps », 14/11/2026) : [mot, début s, fin s], recalé après la coupe des silences. */
+  words?: [string, number, number][] };
+
+/** Finitions v3 (14/11/2026, pilotes) : chaque lot s'active séparément tant qu'il n'est pas validé. */
+export type Fx = {
+  /** Lot B : transition mascottes d'au moins 1 s (tope-là / clin d'œil), texte ajusté à sa zone, flou de mouvement. */
+  finish?: boolean;
+  /** Lot C : la question se colore mot à mot au rythme de la voix, le chrono part à la fin de la phrase. */
+  sync?: boolean;
+  /** Lot D : mascottes animées (respiration, clignement, réaction à la voix, clin d'œil). */
+  rig?: boolean;
+};
 
 export type Item = {
   /** Voix off (optionnelle) : question lue au début, réponse lue à la révélation, fait bonus après la réponse. */
@@ -49,6 +61,8 @@ export type Style = {
 /** Textes variables (pré-roll, cartes, packshot…) tirés par épisode dans data/variants.json. */
 export type Variants = {
   preroll: { text: string; voice: string };
+  /** Baseline de la chaîne, affichée en permanence sous le logo et sur le pré-roll (14/11/2026). */
+  baseline?: string;
   introCta: string;
   subscribe: { title: string; sub: string; voice: string };
   levels: Record<Level, { card: string; voice: string }>;
@@ -70,6 +84,9 @@ export type Episode = {
   /** Langue des textes fixes des gabarits (src/i18n.ts) : absent = "fr" ; "en" pour la chaîne YouQwiz English. */
   lang?: "fr" | "en";
   theme: number; // index dans THEMES
+  fx?: Fx;
+  /** Extrait pilote : options de timeline forcées (ex. sans score ni packshot). */
+  pilot?: Record<string, number | boolean>;
   style?: Style;
   variants?: Variants;
   title: string;

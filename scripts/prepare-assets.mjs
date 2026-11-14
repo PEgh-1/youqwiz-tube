@@ -64,6 +64,6 @@ const audioManifest = Object.fromEntries(
 // Pistes musicales en rotation (03/11/2026) : music.mp3 + music-*.mp3 (fournies par scripts/get-music.mjs).
 audioManifest.musics = readdirSync(audioDir).filter((f) => /^music(-[\w-]+)?\.mp3$/.test(f)).sort();
 writeFileSync(path.join(root, "src/audio.json"), JSON.stringify(audioManifest, null, 2));
-const mascots = Object.fromEntries(["chat", "poussin", "chat-shock", "poussin-shock", "chat-dare", "poussin-dare", "chat-head", "poussin-head"].map((k) => [k, existsSync(path.join(pub, "mascots", `${k}.png`))]));
+const mascots = Object.fromEntries(["chat", "poussin", "chat-shock", "poussin-shock", "chat-dare", "poussin-dare", "chat-head", "poussin-head", "poussin-open", "poussin-blink"].map((k) => [k, existsSync(path.join(pub, "mascots", `${k}.png`))]));
 writeFileSync(path.join(root, "src/mascots.json"), JSON.stringify(mascots, null, 2));
 console.log("assets prêts :", { fonts: Object.keys(fonts).length, emoji: readdirSync(emojiDir).length, audio: audioManifest, mascots });
