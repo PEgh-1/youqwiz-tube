@@ -2,12 +2,12 @@
 //   B = finition (transition mascottes ≥ 1 s, texte ajusté, flou de mouvement) + slogan, baseline et règle condensée
 //   C = B + question colorée mot à mot au rythme de la voix, chrono lancé à la fin de la phrase
 //   D = C + mascottes animées (respiration, clignement, clin d'œil, rebond à chaque mot)
-// Usage : node scripts/pilot.mjs [--episode data/episodes/pilote-finitions.json] [--only B]   → out/pilote/pilote-<lot>.mp4
+// Usage : node scripts/pilot.mjs [--episode data/pilots/pilote-finitions.json] [--only B]   → out/pilote/pilote-<lot>.mp4
 import { execSync } from "node:child_process";
 import { mkdirSync } from "node:fs";
 import { argv, p, readJson, writeJson } from "./lib.mjs";
 
-const ep = readJson(argv("episode", p("data/episodes/pilote-finitions.json")));
+const ep = readJson(argv("episode", p("data/pilots/pilote-finitions.json")));
 const only = argv("only", "");
 const LOTS = { B: { finish: true }, C: { finish: true, sync: true }, D: { finish: true, sync: true, rig: true }, V2: ep.fx ?? {} };
 mkdirSync(p("out/pilote"), { recursive: true });

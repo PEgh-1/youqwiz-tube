@@ -46,9 +46,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           node scripts/get-music.mjs && node scripts/prepare-assets.mjs
-          node scripts/tts.mjs --episode "data/episodes/${{ inputs.pilot }}.json"
-          node -e 'const e=require("./data/episodes/${{ inputs.pilot }}.json");const c=e.items[0].voice?.q;console.log("voix :",e.voice?Object.keys(e.voice).length:0,"lignes ; Q1 :",JSON.stringify(c))'
-          node scripts/pilot.mjs --episode "data/episodes/${{ inputs.pilot }}.json" --only V2
+          node scripts/tts.mjs --episode "data/pilots/${{ inputs.pilot }}.json"
+          node -e 'const e=require("./data/pilots/${{ inputs.pilot }}.json");const c=e.items[0].voice?.q;console.log("voix :",e.voice?Object.keys(e.voice).length:0,"lignes ; Q1 :",JSON.stringify(c))'
+          node scripts/pilot.mjs --episode "data/pilots/${{ inputs.pilot }}.json" --only V2
           gh release delete test-finitions-v3 -y --cleanup-tag 2>/dev/null || true
           gh release create test-finitions-v3 out/pilote/*.mp4 --target "${{ github.sha }}" --title "TEST finitions v3" --notes "Extraits pilotes des finitions v3 (lots B, C, D), rien n'est publié. À supprimer après contrôle." --prerelease --latest=false
       - name: Sons
