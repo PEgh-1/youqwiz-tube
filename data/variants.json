@@ -717,5 +717,12 @@
    "Eh oui : {a} !"
   ]
  },
- "baseline": "Tu joues, tu apprends."
+ "baseline": "Tu joues, tu apprends.",
+ "fx": {
+  "_comment": "Finitions v3 (14/11/2026) appliquées aux gabarits QuizQCM et DevineEn3s : transition mascottes, synchro voix, mascottes animées, première question avant 15 s.",
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ }
 }

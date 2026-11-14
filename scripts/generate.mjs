@@ -327,6 +327,7 @@ const episode = {
   id: `${date}-${bank.slug}`,
   pillar,
   template,
+  ...(V.fx && (template === "QuizQCM" || template === "DevineEn3s") ? { fx: { finish: !!V.fx.finish, sync: !!V.fx.sync, rig: !!V.fx.rig, fast: !!V.fx.fast } } : {}),
   theme: THEME_INDEX[themeName] ?? 0,
   style,
   variants,

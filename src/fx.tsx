@@ -105,7 +105,8 @@ export const Baseline: React.FC<{ text: string; size?: number }> = ({ text, size
 // ---------- Lot B : transition mascottes (1,3 s) ----------
 // Quatre mises en scène qui tournent : tope-là du chat et du poussin (rideaux qui se ferment, choc au centre, étoiles), clin d'œil
 // du poussin, tope-là inversé, chat « défi ». L'écran reste couvert 0,55 s : assez pour voir le geste, et la scène change dessous.
-const TOPE: Record<Lang, string[]> = { fr: ["Tope là !", "Et hop !", "On enchaîne !", "Suivante !"], en: ["High five!", "Here we go!", "Keep going!", "Next one!"] };
+const TOPE: Record<Lang, string[]> = { fr: ["Tope là !", "Tope là !", "Tope là !", "Tope là !"], en: ["High five!", "High five!", "High five!", "High five!"] };
+const SOLO: Record<Lang, string[]> = { fr: ["Et hop !", "On enchaîne !", "Suivante !", "C'est reparti !"], en: ["Here we go!", "Keep going!", "Next one!", "Let's go!"] };
 const TransitionScene: React.FC<{ theme: Theme; index: number; dur: number; lang?: Lang }> = ({ theme, index, dur, lang = "fr" }) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
@@ -116,7 +117,7 @@ const TransitionScene: React.FC<{ theme: Theme; index: number; dur: number; lang
   const hit = frame - c0; // images depuis le choc
   const squash = hit >= 0 ? Math.max(0, 1 - hit / 6) : 0;
   const hop = hit >= 4 ? Math.abs(Math.sin(((hit - 4) / 9) * Math.PI)) * -46 * Math.max(0, 1 - (hit - 4) / 20) : 0;
-  const label = (TOPE[lang] ?? TOPE.fr)[Math.floor(index / 2) % 4];
+  const label = ((index % 2 === 0 ? TOPE : SOLO)[lang] ?? (index % 2 === 0 ? TOPE : SOLO).fr)[Math.floor(index / 2) % 4];
   const pop = spring({ frame: hit, fps, config: { damping: 9, stiffness: 190 } });
   const out = 1 - open;
 

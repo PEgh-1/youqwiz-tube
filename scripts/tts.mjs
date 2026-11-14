@@ -26,7 +26,10 @@ const settingsFor = (v3) => (v3
 let SETTINGS = settingsFor(V3);
 class SlowError extends Error {}
 // tag d'émotion v3 (ignoré par les autres modèles) — « curious » et « mischievously » rabattus sur « cheerful » : un seul ton de base
-const TAG_MAP = { curious: "cheerful", mischievously: "cheerful" };
+// 14/11/2026 : voix « trop posée » → ton de base très enjoué sur toute la vidéo ; seules les anecdotes (« curious ») restent plus calmes.
+const TAG_MAP = { cheerful: "excited", curious: "cheerful", mischievously: "excited" };
+// Débit un tout petit peu plus rapide, appliqué après coup (même hauteur de voix) : TTS_TEMPO=1 pour revenir au débit d'origine.
+const TEMPO = Math.min(1.2, Math.max(0.9, Number(process.env.TTS_TEMPO || 1.06)));
 const tag = (t, text) => (V3 ? `[${TAG_MAP[t] ?? t}] ${text}` : text);
 const untag = (t) => String(t).replace(/^\[[a-z]+\]\s*/i, "");
 const current = readJson(p("data/state/current.json"));
@@ -93,7 +96,7 @@ async function synth(text, outFile, ctx = {}) {
   } else writeFileSync(outFile, Buffer.from(await res.arrayBuffer()));
   if (calls <= 3 || process.env.TTS_VERBOSE) console.log(`  reçu ${(Date.now() - t0) / 1000} s, ${res.headers.get("content-length") ?? "?"} octets, ffmpeg…`);
   const cut = trim(outFile);
-  if (words?.length) writeJson(outFile.replace(/\.mp3$/, ".words.json"), words.map(([w, a, b]) => [w, Math.max(0, +(a - cut).toFixed(3)), Math.max(0, +(b - cut).toFixed(3))]));
+  if (words?.length) writeJson(outFile.replace(/\.mp3$/, ".words.json"), words.map(([w, a, b]) => [w, Math.max(0, +((a - cut) / TEMPO).toFixed(3)), Math.max(0, +((b - cut) / TEMPO).toFixed(3))]));
   if (calls <= 3 || process.env.TTS_VERBOSE) console.log(`  coupé (${cut.toFixed(2)} s au début${words ? `, ${words.length} mots horodatés` : ""})`);
   // Journal de progression et détection de lenteur (bascule sur le modèle de secours).
   const sec = (Date.now() - t0) / 1000;
@@ -139,14 +142,14 @@ function trim(file) {
   } catch { cut = 0; }
   try {
     // 09/11/2026 : -nostdin, délai de 60 s et entrée standard fermée (un run est resté bloqué sans rien produire).
-    execSync(`ffmpeg -y -nostdin -loglevel error -i "${file}" -af "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse,agate=threshold=0.025:ratio=4:attack=6:release=150:knee=4,loudnorm=I=-16:TP=-1.5:LRA=7" -ar 44100 -b:a 128k "${tmp}"`, { timeout: 60_000, stdio: ["ignore", "pipe", "pipe"] });
+    execSync(`ffmpeg -y -nostdin -loglevel error -i "${file}" -af "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse,agate=threshold=0.025:ratio=4:attack=6:release=150:knee=4,atempo=${TEMPO},loudnorm=I=-16:TP=-1.5:LRA=7" -ar 44100 -b:a 128k "${tmp}"`, { timeout: 60_000, stdio: ["ignore", "pipe", "pipe"] });
     execSync(`mv "${tmp}" "${file}"`);
   } catch (e) { console.warn(`trim ${file} : ${e.message.slice(0, 80)}`); cut = 0; }
   return cut;
 }
 // ligne générique : cache par hachage du texte (partagée entre tous les épisodes)
 async function generic(text) {
-  const h = createHash("sha1").update(`${ELEVENLABS_VOICE_ID}|${MODEL}|trim2|${text}`).digest("hex").slice(0, 16); // trim2 = réglages du 09/11/2026
+  const h = createHash("sha1").update(`${ELEVENLABS_VOICE_ID}|${MODEL}|trim3-${TEMPO}|${text}`).digest("hex").slice(0, 16); // trim2 = réglages du 09/11/2026
   const f = `${cacheDir}/${h}.mp3`;
   await synth(text, f);
   return { src: `tts-cache/${h}.mp3`, sec: dry ? 1.5 : duration(f), text: untag(text), ...wordsFile(f) };
