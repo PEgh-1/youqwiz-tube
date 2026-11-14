@@ -240,12 +240,13 @@ ep.voice = {
   cliff: await generic(tag("excited", T.cliff)),
 };
 // Pré-roll et packshot : voix variables de l'épisode (cache générique) ; sans variante, les mp3 statiques de public/audio servent.
-if (vr.preroll?.voice) ep.voice.preroll = await generic(tag("cheerful", clean(vr.preroll.voice))); // 08/11/2026 : début plus enjoué
+if (vr.preroll?.voice) ep.voice.preroll = await generic(tag("excited", clean(vr.preroll.voice))); // 14/11/2026 : « trop posé » → de nouveau très enjoué // 08/11/2026 : début plus enjoué
 // 08/11/2026 : la carte d'intro est lue à voix haute (titre/accroche + relance), au lieu du jingle seul.
 // Vidéo longue v2 (09/11/2026) : accroche, puis la règle du jeu expliquée posément, puis la relance.
 if (ep.intro?.hook) {
   const hook = clean(ep.intro.hook).replace(/\b([A-ZÉÈÀÇ]{3,})\b/g, (m) => m.charAt(0) + m.slice(1).toLowerCase());
-  const rule = vr.ruleVoice ? ` ${clean(vr.ruleVoice)}` : "";
+  // 14/11/2026 (fx.fast) : la règle n'est plus lue, elle s'affiche pendant la 1re question (première question avant 15 s).
+  const rule = vr.ruleVoice && !ep.fx?.fast ? ` ${clean(vr.ruleVoice)}` : "";
   ep.voice.intro = await specific(tag("excited", `${hook.replace(/[!?.…]+$/, "")} !${rule} ${pick(V.introVoiceTail ?? T.introTail)}`), "intro");
 }
 if (vr.packshot?.voice) ep.voice.packshot = await generic(tag("cheerful", clean(vr.packshot.voice)));

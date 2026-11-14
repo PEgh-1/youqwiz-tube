@@ -13,7 +13,8 @@
  "variants": {
   "preroll": {
    "text": "Content de te revoir sur YouQwiz ! 👋",
-   "voice": "Content de te revoir, sur YouQwiz ! Aujourd'hui, scrolé va te rendre plus malin !"
+   "line": "Installe-toi, le quiz du jour commence !",
+   "voice": "Content de te revoir sur YouQwiz ! Installe-toi, le quiz du jour commence !"
   },
   "introCta": "🔥 Garde ta série le plus longtemps possible",
   "subscribe": {
@@ -53,12 +54,12 @@
   "rule": "4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono ⭐",
   "ruleVoice": "Quatre réponses, une seule bonne. Réponds avant la fin du chrono, et compte tes points !",
   "nextQuizVoice": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !",
-  "baseline": "Aujourd'hui, scroller va te rendre plus malin"
+  "baseline": "Tu joues, tu apprends."
  },
  "title": "PILOTE finitions v3",
  "question": "",
  "intro": {
-  "hook": "3 QUESTIONS de CULTURE GÉNÉRALE",
+  "hook": "4 QUESTIONS de CULTURE GÉNÉRALE",
   "sub": "4 réponses, une seule bonne 🧠"
  },
  "items": [
@@ -107,6 +108,22 @@
    },
    "answer": "Le dioxyde de carbone",
    "level": "difficile"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouve le Grand Canyon ?",
+    "choices": [
+     "Les États-Unis",
+     "Le Mexique",
+     "Le Canada",
+     "L'Australie"
+    ],
+    "correct": 0
+   },
+   "answer": "Les États-Unis",
+   "level": "difficile",
+   "fact": "Le Grand Canyon a été creusé par le fleuve Colorado pendant des millions d'années."
   }
  ],
  "timing": {
@@ -211,12 +228,12 @@
  "pilot": {
   "score": 0,
   "outro": 0,
-  "packshot": 0,
-  "subscribe": 0
+  "packshot": 0
  },
  "fx": {
   "finish": true,
   "sync": true,
-  "rig": true
+  "rig": true,
+  "fast": true
  }
 }

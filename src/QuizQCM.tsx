@@ -239,7 +239,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
           <Mascot which={reveal ? "poussin" : "chat"} size={vertical ? 220 : 190} mood={reveal ? (impossible && !showAnswer ? "shock" : "cheer") : "idle"} talk={reveal ? undefined : qClip} talkFrom={qd} />
           {!vertical && (
             <div style={{ marginBottom: 90 }}>
-              <Bubble size={32 * k}>{reveal ? (impossible ? T.admitIt : slow ? T.pointsWonSlow(LEVELS[level].points) : T.pointsWon(LEVELS[level].points)) : quip}</Bubble>
+              <Bubble size={(fx.fast && index === 0 && !reveal && episode.variants?.rule ? 28 : 32) * k} wrap={fx.fast && index === 0 && !reveal && episode.variants?.rule ? 620 : undefined}>{fx.fast && index === 0 && !reveal && episode.variants?.rule ? episode.variants.rule : reveal ? (impossible ? T.admitIt : slow ? T.pointsWonSlow(LEVELS[level].points) : T.pointsWon(LEVELS[level].points)) : quip}</Bubble>
             </div>
           )}
         </div>

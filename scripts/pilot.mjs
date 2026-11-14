@@ -9,7 +9,7 @@ import { argv, p, readJson, writeJson } from "./lib.mjs";
 
 const ep = readJson(argv("episode", p("data/episodes/pilote-finitions.json")));
 const only = argv("only", "");
-const LOTS = { B: { finish: true }, C: { finish: true, sync: true }, D: { finish: true, sync: true, rig: true } };
+const LOTS = { B: { finish: true }, C: { finish: true, sync: true }, D: { finish: true, sync: true, rig: true }, V2: ep.fx ?? {} };
 mkdirSync(p("out/pilote"), { recursive: true });
 for (const [lot, fx] of Object.entries(LOTS)) {
   if (only && only !== lot) continue;

@@ -130,7 +130,8 @@ export const buildTimeline = (
   }
   const sec = (s: number) => Math.round(s * fps);
   const preroll = (opts.preroll ?? 3) > 0 ? sec(fitVoice(opts.preroll ?? 3, ep.voice?.preroll?.sec, 0.3)) : 0; // pré-roll variable (voix off générique)
-  const intro = opts.short ? sec(opts.intro ?? 5) : sec(fitVoice(opts.intro ?? 5, ep.voice?.intro?.sec, 10 / 30)); // 08/11/2026 : s'allonge si l'accroche lue dépasse
+  const fast = !!ep.fx?.fast && !opts.short;
+  const intro = opts.short ? sec(opts.intro ?? 5) : sec(fitVoice(opts.intro ?? (fast ? 3.5 : 5), ep.voice?.intro?.sec, 10 / 30)); // 08/11/2026 : s'allonge si l'accroche lue dépasse
   const outro = (opts.outro ?? 5) > 0 ? sec(fitVoice(opts.outro ?? 5, ep.voice?.outro?.sec, 1 / 3)) : 0;
   const packshot = (opts.packshot ?? 10) > 0 ? sec(fitVoice(opts.packshot ?? 10, ep.voice?.packshot?.sec, 0.5)) : 0; // CTA site + zone écrans de fin YouTube
   const subscribe = (opts.subscribe ?? 3) > 0 ? sec(fitVoice(opts.subscribe ?? 3, ep.voice?.subscribe?.sec, 4 / 30)) : 0; // « Abonne-toi et active la cloche » après l'accroche
@@ -154,7 +155,7 @@ export const buildTimeline = (
     segments.push({ kind: "champion", from: t, dur: sec(4) });
     t += sec(4);
   }
-  if (subscribe > 0) {
+  if (subscribe > 0 && !fast) {
     segments.push({ kind: "subscribe", from: t, dur: subscribe });
     t += subscribe;
   }
@@ -180,6 +181,11 @@ export const buildTimeline = (
     if (r > 0) {
       segments.push({ kind: "reveal", from: t, dur: r, index: i });
       t += r;
+    }
+    // fx.fast : « abonne-toi » après la 3e réponse (le spectateur a déjà joué), plus avant la 1re question.
+    if (fast && subscribe > 0 && i === 2 && n > 3) {
+      segments.push({ kind: "subscribe", from: t, dur: subscribe });
+      t += subscribe;
     }
     // Intermède (vidéo longue, hors « tu préfères ») toutes les 8 à 10 questions.
     const k = !short && ep.timing.reveal > 0 && (opts.interludes ?? true) ? interludeAfter(ep, i) : null;

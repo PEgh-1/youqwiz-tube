@@ -3,7 +3,43 @@
  "preroll": [
   {
    "text": "Content de te revoir sur YouQwiz ! 👋",
-   "voice": "Content de te revoir, sur YouQwiz ! Aujourd'hui, scrolé va te rendre plus malin !"
+   "line": "Installe-toi, le quiz du jour commence !",
+   "voice": "Content de te revoir sur YouQwiz ! Installe-toi, le quiz du jour commence !"
+  },
+  {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Bon {weekday} ! On joue ?",
+   "voice": "Content de te revoir sur YouQwiz ! Bon {weekday} ! On joue ?"
+  },
+  {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Prêt à battre ton score d'hier ?",
+   "voice": "Content de te revoir sur YouQwiz ! Prêt à battre ton score d'hier ?"
+  },
+  {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Nouveau jour, nouveau quiz !",
+   "voice": "Content de te revoir sur YouQwiz ! Nouveau jour, nouveau quiz !"
+  },
+  {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Aujourd'hui, tu vas apprendre un truc, promis !",
+   "voice": "Content de te revoir sur YouQwiz ! Aujourd'hui, tu vas apprendre un truc, promis !"
+  },
+  {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Appelle la famille, on joue ensemble !",
+   "voice": "Content de te revoir sur YouQwiz ! Appelle la famille, on joue ensemble !"
+  },
+  {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Échauffe tes neurones, c'est parti !",
+   "voice": "Content de te revoir sur YouQwiz ! Échauffe tes neurones, c'est parti !"
+  },
+  {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Un quiz, et tu repars plus malin !",
+   "voice": "Content de te revoir sur YouQwiz ! Un quiz, et tu repars plus malin !"
   }
  ],
  "introCta": [
@@ -681,5 +717,5 @@
    "Eh oui : {a} !"
   ]
  },
- "baseline": "Aujourd'hui, scroller va te rendre plus malin"
+ "baseline": "Tu joues, tu apprends."
 }

@@ -551,7 +551,7 @@ export const Streak: React.FC<{ value: number; size?: number; lang?: Lang }> = (
 
 // ---------- Pré-roll (3 s, texte variable) ----------
 // Voix off : clip générique de l'épisode (episode.voice.preroll) ; à défaut public/audio/preroll.mp3.
-export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean; lang?: Lang; baseline?: string }> = ({ theme, text: textProp, vertical = false, lang, baseline }) => {
+export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean; lang?: Lang; baseline?: string; line?: string }> = ({ theme, text: textProp, vertical = false, lang, baseline, line }) => {
   const text = textProp ?? tr({ lang }).prerollDefault;
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -572,8 +572,13 @@ export const Preroll: React.FC<{ theme: Theme; text?: string; vertical?: boolean
         <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: size, color: WHITE, textShadow: `7px 7px 0 ${INK}`, textAlign: "center", lineHeight: 1.05, maxWidth: 1500 }}>
           <Rich text={text} size={size} />
         </div>
+        {line && (
+          <div style={{ marginTop: -14, opacity: interpolate(frame, [22, 32], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: vertical ? 48 : 62, color: theme.soft, textShadow: `5px 5px 0 ${INK}`, textAlign: "center", lineHeight: 1.05, maxWidth: 1500 }}>
+            <Rich text={line} size={vertical ? 48 : 62} />
+          </div>
+        )}
         {baseline && (
-          <div style={{ opacity: interpolate(frame, [38, 50], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), transform: `translateY(${interpolate(frame, [38, 50], [30, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}px) rotate(-1.5deg)`, fontFamily: FONT_BODY, fontWeight: 600, fontSize: vertical ? 40 : 52, color: INK, background: WHITE, border: `6px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, borderRadius: 999, padding: "12px 40px", whiteSpace: "nowrap" }}>
+          <div style={{ opacity: interpolate(frame, [10, 22], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), transform: `translateY(${interpolate(frame, [10, 22], [30, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}px) rotate(-1.5deg)`, fontFamily: FONT_BODY, fontWeight: 600, fontSize: vertical ? 40 : 52, color: INK, background: WHITE, border: `6px solid ${INK}`, boxShadow: `8px 8px 0 ${INK}`, borderRadius: 999, padding: "12px 40px", whiteSpace: "nowrap" }}>
             <Rich text={`💡 ${baseline}`} size={vertical ? 40 : 52} />
           </div>
         )}
@@ -955,7 +960,8 @@ export const IntroCard: React.FC<{ episode: Episode; vertical: boolean; k?: numb
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const theme = themeOf(episode);
-  const logoPhase = frame < 2 * fps && !vertical;
+  const fast = !!useFx().fast && !vertical; // première question avant 15 s : pas de phase logo (le logo vient de passer au pré-roll), règle reportée sur la question 1
+  const logoPhase = frame < 2 * fps && !vertical && !fast;
   const sc = vertical ? 0.78 : 1;
   const bounce = spring({ frame, fps, config: { damping: 8, stiffness: 120 } });
   if (logoPhase)
@@ -967,15 +973,15 @@ export const IntroCard: React.FC<{ episode: Episode; vertical: boolean; k?: numb
         <Burst theme={theme} x={960} y={540} n={40} />
       </AbsoluteFill>
     );
-  const f = vertical ? frame : frame - 2 * fps;
-  const rule = episode.variants?.rule;
+  const f = vertical || fast ? frame : frame - 2 * fps;
+  const rule = fast ? undefined : episode.variants?.rule;
   const hookSize = (vertical ? 108 : 140) * sc * (k > 1 ? 0.9 : 1) * (episode.intro.hook.length > 34 ? 0.82 : 1) * (rule ? 0.82 : 1);
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", gap: 30 * sc, padding: 80 }}>
       <div style={{ position: "absolute", top: 40, left: 60 }}>
         <Logo theme={theme} size={54} />
       </div>
-      <Pop delay={vertical ? 0 : 2 * fps}>
+      <Pop delay={vertical || fast ? 0 : 2 * fps}>
         <div style={{ fontFamily: FONT_DISPLAY, fontWeight: 800, fontSize: hookSize, textAlign: "center", lineHeight: 1, color: WHITE, textShadow: `8px 8px 0 ${INK}`, maxWidth: vertical ? 920 : 1600 }}>
           <Rich text={episode.intro.hook} size={hookSize} />
         </div>
@@ -988,13 +994,13 @@ export const IntroCard: React.FC<{ episode: Episode; vertical: boolean; k?: numb
           </div>
         </Pop>
       ) : (
-        <Pop delay={(vertical ? 0 : 2 * fps) + 6}>
+        <Pop delay={(vertical || fast ? 0 : 2 * fps) + 6}>
           <Pill size={(vertical ? 44 : 56) * sc * k} tilt={-2} bg={theme.soft} style={{ whiteSpace: "normal", textAlign: "center" }}>
             {episode.intro.sub}
           </Pill>
         </Pop>
       )}
-      <Pop delay={(vertical ? 0 : 2 * fps) + 12}>
+      <Pop delay={(vertical || fast ? 0 : 2 * fps) + 12}>
         <Pill size={(vertical ? 36 : 44) * sc * k} tilt={2} style={{ whiteSpace: "normal", textAlign: "center" }}>
           {episode.variants?.introCta ?? tr(episode).introCtaDefault}
         </Pill>
@@ -1053,7 +1059,7 @@ export const CommonSegment: React.FC<{ s: Segment; episode: Episode; vertical: b
     return (
       <Sequence key={index} from={s.from} durationInFrames={s.dur} name="Pré-roll">
         {episode.voice?.preroll ? <Voice clip={episode.voice.preroll} from={8} /> : has("preroll") && <Audio src={staticFile("audio/preroll.mp3")} volume={1} />}
-        <Preroll theme={theme} text={v?.preroll?.text} vertical={vertical} lang={episode.lang} baseline={v?.baseline} />
+        <Preroll theme={theme} text={v?.preroll?.text} vertical={vertical} lang={episode.lang} baseline={v?.baseline} line={v?.preroll?.line} />
       </Sequence>
     );
   if (s.kind === "packshot")

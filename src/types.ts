@@ -21,6 +21,8 @@ export type Fx = {
   sync?: boolean;
   /** Lot D : mascottes animées (respiration, clignement, réaction à la voix, clin d'œil). */
   rig?: boolean;
+  /** Première question avant 15 s : intro sans phase logo, règle affichée pendant la question 1, « abonne-toi » après la question 3. */
+  fast?: boolean;
 };
 
 export type Item = {
@@ -60,7 +62,7 @@ export type Style = {
 
 /** Textes variables (pré-roll, cartes, packshot…) tirés par épisode dans data/variants.json. */
 export type Variants = {
-  preroll: { text: string; voice: string };
+  preroll: { text: string; voice: string; /** phrase variable sous le slogan fixe (14/11/2026) */ line?: string };
   /** Baseline de la chaîne, affichée en permanence sous le logo et sur le pré-roll (14/11/2026). */
   baseline?: string;
   introCta: string;
