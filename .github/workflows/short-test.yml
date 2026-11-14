@@ -7,6 +7,10 @@ on:
         description: "Identifiants d'épisodes séparés par des espaces (ex. 2026-11-12-pays-sans-voyelles)"
         required: false
         type: string
+      cleanup:
+        description: "Supprimer une pré-release de test et son étiquette (ex. test-finitions-v3) — rien d'autre n'est exécuté"
+        required: false
+        type: string
       pilot:
         description: "Pilotes des finitions v3 (vidéo longue) : épisode à rendre, ex. pilote-finitions — remplace alors les Shorts"
         required: false
@@ -25,18 +29,26 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Ménage d'une pré-release de test
+        if: ${{ inputs.cleanup != '' && startsWith(inputs.cleanup, 'test-') }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release delete "${{ inputs.cleanup }}" -y --cleanup-tag -R "${{ github.repository }}"
       - uses: actions/checkout@v4
+        if: ${{ inputs.cleanup == '' }}
       - uses: actions/setup-node@v4
+        if: ${{ inputs.cleanup == '' }}
         with:
           node-version: 22
           cache: npm
       - name: Dépendances (+ ffmpeg)
+        if: ${{ inputs.cleanup == '' }}
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           npm ci
           npx remotion browser ensure
       - name: Pilotes finitions v3 (voix réelle horodatée + 3 rendus B, C, D)
-        if: ${{ inputs.pilot != '' }}
+        if: ${{ inputs.pilot != '' && inputs.cleanup == '' }}
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
@@ -52,7 +64,7 @@ jobs:
           gh release delete test-finitions-v3 -y --cleanup-tag 2>/dev/null || true
           gh release create test-finitions-v3 out/pilote/*.mp4 --target "${{ github.sha }}" --title "TEST finitions v3" --notes "Extraits pilotes des finitions v3 (lots B, C, D), rien n'est publié. À supprimer après contrôle." --prerelease --latest=false
       - name: Sons
-        if: ${{ inputs.pilot == '' }}
+        if: ${{ inputs.pilot == '' && inputs.cleanup == '' }}
         env:
           MUSIC_URL: ""
         run: |
@@ -60,7 +72,7 @@ jobs:
           [ -f public/audio/crackle.mp3 ] || ffmpeg -y -nostdin -loglevel error -f lavfi -i "anoisesrc=c=pink:a=0.05:d=20" -af "highpass=f=1200,lowpass=f=4500,volume=0.35" -b:a 96k public/audio/crackle.mp3
           node -e 'const f="src/audio.json",m=JSON.parse(require("fs").readFileSync(f));m.crackle=true;require("fs").writeFileSync(f,JSON.stringify(m,null,2)+"\n")'
       - name: Voix + rendu
-        if: ${{ inputs.pilot == '' }}
+        if: ${{ inputs.pilot == '' && inputs.cleanup == '' }}
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
@@ -68,7 +80,7 @@ jobs:
         run: |
           for id in ${{ inputs.episodes }}; do node scripts/short-v3.mjs --episode "data/episodes/$id.json" ${{ inputs.only != '' && format('--only {0}', inputs.only) || '' }}; done
       - name: Pré-release de contrôle
-        if: ${{ inputs.pilot == '' }}
+        if: ${{ inputs.pilot == '' && inputs.cleanup == '' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
