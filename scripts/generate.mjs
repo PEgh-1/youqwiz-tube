@@ -262,11 +262,12 @@ const themeLabel = (bank.subject ?? bank.noun).toLowerCase().replace(/^(les |des
 const subject = bank.subject ?? bank.noun;
 const fill = (s) => s.replaceAll("{theme}", themeLabel).replaceAll("{subject}", subject).replaceAll("{n}", String(count)).replaceAll("{noun}", bank.noun).replaceAll("{noun1}", bank.noun.toLowerCase().replace(/s$/, "")).replaceAll("{weekday}", WEEKDAYS[dow]).replaceAll("{hook}", bank.hook.replace("{n}", String(count))).replaceAll("{emoji}", bank.emoji);
 const isChoice = pillar === "choix";
-const prerollV = choose(V.preroll, prevSame ? V.preroll.find((x) => x.text === prevSame.variants?.preroll?.text) : undefined);
+const prerollV = choose(V.preroll, prevSame ? V.preroll.find((x) => (x.line ?? x.text) === (prevSame.variants?.preroll?.line ?? prevSame.variants?.preroll?.text)) : undefined);
 const outroPool = isChoice ? V.outroChoice : V.outro;
 const packPool = [...(V.packshot.byPillar[pillar] ?? []), ...V.packshot.generic];
 const variants = {
-  preroll: { text: fill(prerollV.text), voice: fill(prerollV.voice) },
+  preroll: { text: fill(prerollV.text), ...(prerollV.line ? { line: fill(prerollV.line) } : {}), voice: fill(prerollV.voice) },
+  ...(V.baseline ? { baseline: V.baseline } : {}),
   introCta: pick(V.introCta),
   subscribe: choose(V.subscribe, prevSame ? V.subscribe.find((x) => x.title === prevSame.variants?.subscribe?.title) : undefined),
   levels: Object.fromEntries(["facile", "moyen", "difficile", "impossible"].map((l) => [l, pick(V.levels[l])])),
@@ -326,6 +327,7 @@ const episode = {
   id: `${date}-${bank.slug}`,
   pillar,
   template,
+  ...(V.fx && (template === "QuizQCM" || template === "DevineEn3s") ? { fx: { finish: !!V.fx.finish, sync: !!V.fx.sync, rig: !!V.fx.rig, fast: !!V.fx.fast } } : {}),
   theme: THEME_INDEX[themeName] ?? 0,
   style,
   variants,

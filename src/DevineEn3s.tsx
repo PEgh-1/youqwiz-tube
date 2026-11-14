@@ -3,7 +3,9 @@ import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurr
 import { AUDIO, Background, Bubble, Burst, Card, CommonSegment, Countdown, FactCard, Fonts, HookBanner, Karaoke, LevelBadge, Logo, Mascot, MusicBed, Pill, Pop, Progress, PromptView, Reveal, Rich, ShortFx, Streak, Ticks, Voice, quipFor, shortHookOf, shortMotion, styleOf, themeOf, tiltFor, WipeLayer } from "./components";
 import { FONT_BODY, FONT_DISPLAY, INK, LEVELS, OK, RANKS, WHITE } from "./theme";
 import { tr } from "./i18n";
-import { SHORT_OPTS, buildTimeline, factStart, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD, sceneVariant, wipeScenes } from "./timeline";
+import { SHORT_OPTS, buildTimeline, factStart, levelOf, streakBreakIndex, totalPoints, VOICE_LEAD, sceneVariant, wipeScenes, fxFinish, questionDelay } from "./timeline";
+import { FxContext } from "./fxContext";
+import { Baseline, MascotTransitionLayer, speechEnd } from "./fx";
 import type { Episode } from "./types";
 
 const has = (k: string) => AUDIO[k] === true;
@@ -21,8 +23,11 @@ export const DevineEn3s: React.FC<DevineProps> = ({ episode, vertical = false })
   const n = vertical ? segments.filter((s) => s.kind === "question").length : episode.items.length;
   const lastQ = Math.max(...segments.filter((s) => s.kind === "question").map((s) => (s as { index: number }).index));
   const isChoice = episode.timing.reveal <= 0;
+  const fin = fxFinish(episode, vertical);
+  const qd = Math.round(questionDelay(episode, vertical) * fps);
 
   return (
+    <FxContext.Provider value={vertical ? {} : episode.fx ?? {}}>
     <AbsoluteFill style={{ fontFamily: FONT_BODY, color: INK }}>
       <Fonts />
       <Background theme={theme} confetti={vertical ? 22 : 34} pattern={style.pattern} variant={vertical ? 0 : sceneVariant(segments, frame)} />
@@ -33,7 +38,7 @@ export const DevineEn3s: React.FC<DevineProps> = ({ episode, vertical = false })
           return (
             <Sequence key={k} from={s.from} durationInFrames={s.dur} name={`Q${s.index + 1}`}>
               {vertical && <ShortFx index={s.index} last={s.index === lastQ} dur={s.dur} />}
-              <Voice clip={episode.items[s.index].voice?.q} />
+              <Voice clip={episode.items[s.index].voice?.q} from={qd} />
               {isChoice && s.dur > 5 * fps && has("ding") && (
                 <Sequence from={5 * fps} durationInFrames={s.dur - 5 * fps}>
                   <Audio src={staticFile("audio/ding.mp3")} volume={0.45} />
@@ -60,8 +65,9 @@ export const DevineEn3s: React.FC<DevineProps> = ({ episode, vertical = false })
           );
         return <CommonSegment key={k} index={k} s={s} episode={episode} vertical={vertical} />;
       })}
-      {!vertical && <WipeLayer theme={theme} scenes={wipeScenes(segments)} />}
+      {!vertical && (fin ? <MascotTransitionLayer theme={theme} scenes={wipeScenes(segments, true)} lang={episode.lang} /> : <WipeLayer theme={theme} scenes={wipeScenes(segments)} />)}
     </AbsoluteFill>
+    </FxContext.Provider>
   );
 };
 
@@ -93,7 +99,12 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
   const isLetter = item.prompt.type === "letter";
   const impossible = level === "impossible";
   const big = vertical ? 520 : 380;
-  const enter = spring({ frame, fps, config: { damping: 13, stiffness: 160 } });
+  const fx = vertical ? {} : episode.fx ?? {};
+  const qd = Math.round(questionDelay(episode, vertical) * fps); // la scène attend que la transition découvre l'écran
+  const enter = spring({ frame: frame - qd, fps, config: { damping: 13, stiffness: 160 } });
+  const qClip = item.voice?.q;
+  const chronoFrom = fx.sync && qClip ? Math.min(dur - fps, qd + Math.round((speechEnd(qClip) + 0.15) * fps)) : 0; // chrono lancé à la fin de la phrase lue
+  const ruleOnQ1 = !!fx.fast && index === 0 && !reveal && !!episode.variants?.rule;
   const tilt = tiltFor(episode, index);
   const brk = streakBreakIndex(episode);
   const streak = index < brk ? index + (reveal ? 1 : 0) : index - brk + (reveal ? 1 : 0);
@@ -130,9 +141,17 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
         {!isChoice && <Pill size={hud} bg={WHITE} fg={INK}>{`⭐ ${points}`}</Pill>}
       </div>
       {!vertical && (
-        <div style={{ position: "absolute", top: 118, left: 60 }}>
-          <Logo theme={theme} size={48} />
-        </div>
+        <>
+          <div style={{ position: "absolute", top: 118, left: 60 }}>
+            <Logo theme={theme} size={48} />
+          </div>
+          {/* sous la question (et non à côté du logo) : la question occupe tout le haut de l'écran dans ce gabarit */}
+          {episode.variants?.baseline && (
+            <div style={{ position: "absolute", top: 240, left: 60 }}>
+              <Baseline text={episode.variants.baseline} size={22} />
+            </div>
+          )}
+        </>
       )}
 
       {/* Question */}
@@ -187,7 +206,7 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       {/* Chrono */}
       {!reveal && !isChoice && (
         <div style={timerPos}>
-          <Countdown frame={frame} totalFrames={dur} theme={theme} size={vertical ? 220 : 230} kind={vertical ? "ring" : "slider"} rider={rider} width={780} />
+          <Countdown frame={Math.max(0, frame - chronoFrom)} totalFrames={dur - chronoFrom} theme={theme} size={vertical ? 220 : 230} kind={vertical ? "ring" : "slider"} rider={rider} width={780} />
         </div>
       )}
       {!reveal && isChoice && !askPhase && (
@@ -206,10 +225,10 @@ const Stage: React.FC<{ episode: Episode; index: number; total: number; reveal: 
       {/* Mascotte + bulle (cachée pendant le fait bonus) */}
       {!showFact && (
         <div style={vertical ? { position: "absolute", right: 150, bottom: 330, display: "flex", alignItems: "flex-end", gap: 10 } : { position: "absolute", left: 60, bottom: 40, display: "flex", alignItems: "flex-end", gap: 10 }}>
-          <Mascot which={reveal || askPhase ? "poussin" : "chat"} size={vertical ? 230 : 260} mood={reveal ? (impossible && !showAnswer ? "shock" : "cheer") : askPhase ? "cheer" : "idle"} />
+          <Mascot which={reveal || askPhase ? "poussin" : "chat"} size={vertical ? 230 : 260} mood={reveal ? (impossible && !showAnswer ? "shock" : "cheer") : askPhase ? "cheer" : "idle"} talk={reveal || askPhase ? undefined : qClip} talkFrom={qd} />
           {!vertical && (
             <div style={{ marginBottom: 170 }}>
-              <Bubble size={34}>{reveal ? (impossible ? T.admitIt : T.pointsWon(LEVELS[level].points)) : askPhase ? T.iKnowWhatIPick : quip}</Bubble>
+              <Bubble size={ruleOnQ1 ? 28 : 34} wrap={ruleOnQ1 ? 560 : undefined}>{ruleOnQ1 ? episode.variants!.rule! : reveal ? (impossible ? T.admitIt : T.pointsWon(LEVELS[level].points)) : askPhase ? T.iKnowWhatIPick : quip}</Bubble>
             </div>
           )}
         </div>
