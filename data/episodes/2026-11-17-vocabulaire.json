@@ -1,0 +1,8203 @@
+{
+ "id": "2026-11-17-vocabulaire",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 1,
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring",
+  "reveal": "pop",
+  "card": "round",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Échauffe tes neurones, c'est parti !",
+   "voice": "Content de te revoir sur YouQwiz ! Échauffe tes neurones, c'est parti !"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "🔥 Garde ta série le plus longtemps possible",
+  "subscribe": {
+   "title": "Rejoins les joueurs YouQwiz",
+   "sub": "abonne-toi, le prochain quiz arrive demain 🔔",
+   "voice": "Rejoins les joueurs YouQwiz : abonne-toi, le prochain quiz arrive demain."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tranquille pour commencer ☕",
+    "voice": "Niveau facile. Tranquille pour commencer."
+   },
+   "moyen": {
+    "card": "Là, il faut réfléchir 🤔",
+    "voice": "Niveau moyen. Là, il faut réfléchir un peu."
+   },
+   "difficile": {
+    "card": "Ici, beaucoup abandonnent 😅",
+    "voice": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère."
+   },
+   "impossible": {
+    "card": "Dernier niveau : le boss 👑",
+    "voice": "Dernier niveau : le boss. Bonne chance."
+   }
+  },
+  "scoreVoice": "Compte tes points et écris ton score en commentaire : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "Partage à quelqu'un qui doit faire mieux 😏",
+   "voice": "Partage cette vidéo à quelqu'un qui pense faire mieux que toi. On verra."
+  },
+  "packshot": {
+   "headline": "Teste tes amis : qui te connaît VRAIMENT ?",
+   "sub": "ton quiz perso en 2 minutes, gratuit 🎁",
+   "cta": "👉 youqwiz.com",
+   "voice": "Teste tes amis : qui te connaît vraiment ? Crée ton quiz perso en deux minutes, gratuit, sur youqwiz point com."
+  },
+  "rule": "4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono ⭐",
+  "ruleVoice": "Quatre réponses, une seule bonne. Réponds avant la fin du chrono, et compte tes points !",
+  "nextQuizVoice": "Choisis ton prochain défi en cliquant sur une des deux vidéos !"
+ },
+ "title": "Ton cerveau est en forme si tu réussis ce quiz 📖✍️🧠 57 questions",
+ "question": "",
+ "intro": {
+  "hook": "57 MOTS de FRANÇAIS que 90 % ratent",
+  "sub": "Une seule bonne réponse sur quatre 🎯"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « bijou » ?",
+    "choices": [
+     "des bijous",
+     "des bijoues",
+     "des bijoutx",
+     "des bijoux"
+    ],
+    "correct": 3
+   },
+   "answer": "des bijoux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/0-q.mp3",
+     "sec": 1.912925,
+     "text": "Quel est le pluriel de « bijou » ?",
+     "words": [
+      [
+       "Quel",
+       0.057,
+       0.099
+      ],
+      [
+       "est",
+       0.118,
+       0.174
+      ],
+      [
+       "le",
+       0.25,
+       0.401
+      ],
+      [
+       "pluriel",
+       0.426,
+       0.853
+      ],
+      [
+       "de",
+       0.979,
+       1.231
+      ],
+      [
+       "«",
+       1.269,
+       1.306
+      ],
+      [
+       "bijou",
+       1.382,
+       1.759
+      ],
+      [
+       "»",
+       1.797,
+       1.835
+      ],
+      [
+       "?",
+       1.872,
+       1.91
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/0-a.mp3",
+     "sec": 1.664172,
+     "text": "des bijoux, évidemment !",
+     "words": [
+      [
+       "des",
+       0.188,
+       0.216
+      ],
+      [
+       "bijoux,",
+       0.329,
+       0.971
+      ],
+      [
+       "évidemment",
+       1.046,
+       1.499
+      ],
+      [
+       "!",
+       1.575,
+       1.65
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Tomber dans les pommes », c'est…",
+    "choices": [
+     "glisser",
+     "s'évanouir",
+     "manger trop",
+     "jardiner"
+    ],
+    "correct": 1
+   },
+   "answer": "s'évanouir",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/1-q.mp3",
+     "sec": 1.659501,
+     "text": "« Tomber dans les pommes », c'est…",
+     "words": [
+      [
+       "«",
+       0.028,
+       0.041
+      ],
+      [
+       "Tomber",
+       0.047,
+       0.217
+      ],
+      [
+       "dans",
+       0.232,
+       0.292
+      ],
+      [
+       "les",
+       0.311,
+       0.368
+      ],
+      [
+       "pommes",
+       0.443,
+       0.821
+      ],
+      [
+       "»,",
+       0.922,
+       1.123
+      ],
+      [
+       "c'est…",
+       1.16,
+       1.651
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/1-a.mp3",
+     "sec": 2.050272,
+     "text": "Réponse : s'évanouir !",
+     "words": [
+      [
+       "Réponse",
+       0.196,
+       0.604
+      ],
+      [
+       ":",
+       0.906,
+       1.208
+      ],
+      [
+       "s'évanouir",
+       1.245,
+       1.962
+      ],
+      [
+       "!",
+       2,
+       2.038
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Pierre qui roule n'amasse pas ___. »",
+    "choices": [
+     "poussière",
+     "mousse",
+     "d'eau",
+     "de sable"
+    ],
+    "correct": 1
+   },
+   "answer": "mousse",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/2-q.mp3",
+     "sec": 3.204308,
+     "text": "Complète : « Pierre qui roule n'amasse pas ___. »",
+     "words": [
+      [
+       "Complète",
+       0.082,
+       0.482
+      ],
+      [
+       ":",
+       0.709,
+       0.935
+      ],
+      [
+       "«",
+       1.029,
+       1.124
+      ],
+      [
+       "Pierre",
+       1.151,
+       1.312
+      ],
+      [
+       "qui",
+       1.369,
+       1.539
+      ],
+      [
+       "roule",
+       1.614,
+       1.992
+      ],
+      [
+       "n'amasse",
+       2.18,
+       2.822
+      ],
+      [
+       "pas",
+       2.897,
+       3.124
+      ],
+      [
+       "___.",
+       3.136,
+       3.199
+      ],
+      [
+       "»",
+       3.199,
+       3.199
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/2-a.mp3",
+     "sec": 2.342313,
+     "text": "La bonne réponse, c'est mousse.",
+     "words": [
+      [
+       "La",
+       0.131,
+       0.151
+      ],
+      [
+       "bonne",
+       0.201,
+       0.453
+      ],
+      [
+       "réponse,",
+       0.538,
+       1.283
+      ],
+      [
+       "c'est",
+       1.358,
+       1.585
+      ],
+      [
+       "mousse.",
+       1.698,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « ___ mère est très gentille. »",
+    "choices": [
+     "Ça",
+     "Se",
+     "Ce",
+     "Sa"
+    ],
+    "correct": 3
+   },
+   "answer": "Sa",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/3-q.mp3",
+     "sec": 2.997007,
+     "text": "Complète : « ___ mère est très gentille. »",
+     "words": [
+      [
+       "Complète",
+       0.154,
+       0.498
+      ],
+      [
+       ":",
+       0.876,
+       1.253
+      ],
+      [
+       "«",
+       1.272,
+       1.291
+      ],
+      [
+       "___",
+       1.3,
+       1.328
+      ],
+      [
+       "mère",
+       1.385,
+       1.555
+      ],
+      [
+       "est",
+       1.668,
+       2.008
+      ],
+      [
+       "très",
+       2.068,
+       2.31
+      ],
+      [
+       "gentille.",
+       2.385,
+       2.951
+      ],
+      [
+       "»",
+       2.963,
+       2.989
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/3-a.mp3",
+     "sec": 2.199887,
+     "text": "Réponse : Sa !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.604
+      ],
+      [
+       ":",
+       0.868,
+       1.132
+      ],
+      [
+       "Sa",
+       1.208,
+       1.358
+      ],
+      [
+       "!",
+       1.434,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « caillou » ?",
+    "choices": [
+     "des cailloues",
+     "des caillous",
+     "des cailloux",
+     "des cailloutx"
+    ],
+    "correct": 2
+   },
+   "answer": "des cailloux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/4-q.mp3",
+     "sec": 1.932653,
+     "text": "Quel est le pluriel de « caillou » ?",
+     "words": [
+      [
+       "Quel",
+       0.025,
+       0.111
+      ],
+      [
+       "est",
+       0.13,
+       0.186
+      ],
+      [
+       "le",
+       0.212,
+       0.262
+      ],
+      [
+       "pluriel",
+       0.337,
+       0.941
+      ],
+      [
+       "de",
+       1.017,
+       1.168
+      ],
+      [
+       "«",
+       1.281,
+       1.394
+      ],
+      [
+       "caillou",
+       1.444,
+       1.771
+      ],
+      [
+       "»",
+       1.847,
+       1.922
+      ],
+      [
+       "?",
+       1.922,
+       1.922
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/4-a.mp3",
+     "sec": 2.179728,
+     "text": "La bonne réponse, c'est des cailloux.",
+     "words": [
+      [
+       "La",
+       0.099,
+       0.129
+      ],
+      [
+       "bonne",
+       0.167,
+       0.355
+      ],
+      [
+       "réponse,",
+       0.412,
+       0.959
+      ],
+      [
+       "c'est",
+       0.997,
+       1.11
+      ],
+      [
+       "des",
+       1.204,
+       1.487
+      ],
+      [
+       "cailloux.",
+       1.563,
+       2.167
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « L'appétit vient en ___. »",
+    "choices": [
+     "dormant",
+     "rêvant",
+     "mangeant",
+     "parlant"
+    ],
+    "correct": 2
+   },
+   "answer": "mangeant",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/5-q.mp3",
+     "sec": 4.678503,
+     "text": "Beaucoup se trompent ici. Complète le proverbe : « L'appétit vient en ___. »",
+     "words": [
+      [
+       "Beaucoup",
+       0.125,
+       0.377
+      ],
+      [
+       "se",
+       0.427,
+       0.528
+      ],
+      [
+       "trompent",
+       0.574,
+       0.906
+      ],
+      [
+       "ici.",
+       1,
+       1.66
+      ],
+      [
+       "Complète",
+       1.755,
+       2.189
+      ],
+      [
+       "le",
+       2.214,
+       2.264
+      ],
+      [
+       "proverbe",
+       2.321,
+       2.792
+      ],
+      [
+       ":",
+       3.019,
+       3.245
+      ],
+      [
+       "«",
+       3.283,
+       3.321
+      ],
+      [
+       "L'appétit",
+       3.377,
+       3.849
+      ],
+      [
+       "vient",
+       3.912,
+       4.226
+      ],
+      [
+       "en",
+       4.302,
+       4.453
+      ],
+      [
+       "___.",
+       4.503,
+       4.642
+      ],
+      [
+       "»",
+       4.654,
+       4.679
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/5-a.mp3",
+     "sec": 1.47771,
+     "text": "Eh oui : mangeant !",
+     "words": [
+      [
+       "Eh",
+       0.023,
+       0.033
+      ],
+      [
+       "oui",
+       0.109,
+       0.335
+      ],
+      [
+       ":",
+       0.599,
+       0.863
+      ],
+      [
+       "mangeant",
+       0.926,
+       1.392
+      ],
+      [
+       "!",
+       1.429,
+       1.467
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "pharmacie",
+     "farmacie",
+     "phamacie",
+     "pharmassie"
+    ],
+    "correct": 0
+   },
+   "answer": "pharmacie",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/6-q.mp3",
+     "sec": 1.586984,
+     "text": "Quelle est la bonne orthographe ?",
+     "words": [
+      [
+       "Quelle",
+       0.065,
+       0.226
+      ],
+      [
+       "est",
+       0.264,
+       0.377
+      ],
+      [
+       "la",
+       0.427,
+       0.528
+      ],
+      [
+       "bonne",
+       0.566,
+       0.755
+      ],
+      [
+       "orthographe",
+       0.8,
+       1.434
+      ],
+      [
+       "?",
+       1.509,
+       1.585
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/6-a.mp3",
+     "sec": 2.029138,
+     "text": "La bonne réponse, c'est pharmacie.",
+     "words": [
+      [
+       "La",
+       0.083,
+       0.133
+      ],
+      [
+       "bonne",
+       0.171,
+       0.359
+      ],
+      [
+       "réponse,",
+       0.416,
+       0.888
+      ],
+      [
+       "c'est",
+       0.925,
+       1.039
+      ],
+      [
+       "pharmacie.",
+       1.133,
+       2.02
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « chou » ?",
+    "choices": [
+     "des chous",
+     "des choux",
+     "des choues",
+     "des chouxs"
+    ],
+    "correct": 1
+   },
+   "answer": "des choux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/7-q.mp3",
+     "sec": 1.766553,
+     "text": "Quel est le pluriel de « chou » ?",
+     "words": [
+      [
+       "Quel",
+       0.012,
+       0.097
+      ],
+      [
+       "est",
+       0.116,
+       0.173
+      ],
+      [
+       "le",
+       0.248,
+       0.399
+      ],
+      [
+       "pluriel",
+       0.425,
+       0.928
+      ],
+      [
+       "de",
+       1.029,
+       1.23
+      ],
+      [
+       "«",
+       1.305,
+       1.38
+      ],
+      [
+       "chou",
+       1.43,
+       1.607
+      ],
+      [
+       "»",
+       1.645,
+       1.682
+      ],
+      [
+       "?",
+       1.72,
+       1.758
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/7-a.mp3",
+     "sec": 1.105329,
+     "text": "C'était des choux.",
+     "words": [
+      [
+       "C'était",
+       0.136,
+       0.453
+      ],
+      [
+       "des",
+       0.491,
+       0.604
+      ],
+      [
+       "choux.",
+       0.679,
+       1.358
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « œil » ?",
+    "choices": [
+     "des yeux",
+     "des yeuxs",
+     "des yeus",
+     "des euils"
+    ],
+    "correct": 0
+   },
+   "answer": "des yeux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/8-q.mp3",
+     "sec": 1.782766,
+     "text": "Quel est le pluriel de « œil » ?",
+     "words": [
+      [
+       "Quel",
+       0.026,
+       0.112
+      ],
+      [
+       "est",
+       0.131,
+       0.188
+      ],
+      [
+       "le",
+       0.263,
+       0.414
+      ],
+      [
+       "pluriel",
+       0.44,
+       0.942
+      ],
+      [
+       "de",
+       0.992,
+       1.093
+      ],
+      [
+       "«",
+       1.169,
+       1.244
+      ],
+      [
+       "œil",
+       1.32,
+       1.621
+      ],
+      [
+       "»",
+       1.622,
+       1.623
+      ],
+      [
+       "?",
+       1.697,
+       1.773
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/8-a.mp3",
+     "sec": 1.563333,
+     "text": "C'était des yeux.",
+     "words": [
+      [
+       "C'était",
+       0.311,
+       0.424
+      ],
+      [
+       "des",
+       0.462,
+       0.575
+      ],
+      [
+       "yeux.",
+       0.676,
+       1.556
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Petit à petit, l'oiseau fait son ___. »",
+    "choices": [
+     "lit",
+     "nid",
+     "trou",
+     "pain"
+    ],
+    "correct": 1
+   },
+   "answer": "nid",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/9-q.mp3",
+     "sec": 6.336871,
+     "text": "Réfléchis bien avant de répondre. Complète le proverbe : « Petit à petit, l'oiseau fait son ___. »",
+     "words": [
+      [
+       "Réfléchis",
+       0.192,
+       0.599
+      ],
+      [
+       "bien",
+       0.645,
+       0.826
+      ],
+      [
+       "avant",
+       0.889,
+       1.203
+      ],
+      [
+       "de",
+       1.229,
+       1.279
+      ],
+      [
+       "répondre.",
+       1.344,
+       2.184
+      ],
+      [
+       "Complète",
+       2.26,
+       2.713
+      ],
+      [
+       "le",
+       2.738,
+       2.788
+      ],
+      [
+       "proverbe",
+       2.845,
+       3.392
+      ],
+      [
+       ":",
+       3.656,
+       3.92
+      ],
+      [
+       "«",
+       3.996,
+       4.071
+      ],
+      [
+       "Petit",
+       4.097,
+       4.222
+      ],
+      [
+       "à",
+       4.298,
+       4.373
+      ],
+      [
+       "petit,",
+       4.423,
+       5.052
+      ],
+      [
+       "l'oiseau",
+       5.09,
+       5.505
+      ],
+      [
+       "fait",
+       5.55,
+       5.732
+      ],
+      [
+       "son",
+       5.807,
+       6.033
+      ],
+      [
+       "___.",
+       6.059,
+       6.184
+      ],
+      [
+       "»",
+       6.234,
+       6.335
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/9-a.mp3",
+     "sec": 2.202971,
+     "text": "La bonne réponse, c'est nid.",
+     "words": [
+      [
+       "La",
+       0.125,
+       0.226
+      ],
+      [
+       "bonne",
+       0.276,
+       0.528
+      ],
+      [
+       "réponse,",
+       0.604,
+       1.358
+      ],
+      [
+       "c'est",
+       1.396,
+       1.585
+      ],
+      [
+       "nid.",
+       1.698,
+       2.189
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « genou » ?",
+    "choices": [
+     "des genous",
+     "des genouxs",
+     "des genoux",
+     "des genoues"
+    ],
+    "correct": 2
+   },
+   "answer": "des genoux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/10-q.mp3",
+     "sec": 2.022404,
+     "text": "Quel est le pluriel de « genou » ?",
+     "words": [
+      [
+       "Quel",
+       0.041,
+       0.127
+      ],
+      [
+       "est",
+       0.146,
+       0.203
+      ],
+      [
+       "le",
+       0.253,
+       0.354
+      ],
+      [
+       "pluriel",
+       0.404,
+       0.958
+      ],
+      [
+       "de",
+       1.108,
+       1.41
+      ],
+      [
+       "«",
+       1.448,
+       1.486
+      ],
+      [
+       "genou",
+       1.561,
+       1.863
+      ],
+      [
+       "»",
+       1.939,
+       2.014
+      ],
+      [
+       "?",
+       2.014,
+       2.014
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/10-a.mp3",
+     "sec": 2.124331,
+     "text": "La bonne réponse, c'est des genoux.",
+     "words": [
+      [
+       "La",
+       0.131,
+       0.151
+      ],
+      [
+       "bonne",
+       0.189,
+       0.377
+      ],
+      [
+       "réponse,",
+       0.453,
+       1.132
+      ],
+      [
+       "c'est",
+       1.17,
+       1.358
+      ],
+      [
+       "des",
+       1.396,
+       1.509
+      ],
+      [
+       "genoux.",
+       1.604,
+       2.113
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Mieux vaut tard que ___. »",
+    "choices": [
+     "rien",
+     "trop",
+     "peu",
+     "jamais"
+    ],
+    "correct": 3
+   },
+   "answer": "jamais",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/11-q.mp3",
+     "sec": 5.57161,
+     "text": "Réfléchis bien avant de répondre. Complète le proverbe : « Mieux vaut tard que ___. »",
+     "words": [
+      [
+       "Réfléchis",
+       0.18,
+       0.587
+      ],
+      [
+       "bien",
+       0.632,
+       0.814
+      ],
+      [
+       "avant",
+       0.901,
+       1.342
+      ],
+      [
+       "de",
+       1.367,
+       1.417
+      ],
+      [
+       "répondre.",
+       1.482,
+       2.021
+      ],
+      [
+       "Complète",
+       2.21,
+       3.002
+      ],
+      [
+       "le",
+       3.028,
+       3.078
+      ],
+      [
+       "proverbe",
+       3.134,
+       3.606
+      ],
+      [
+       ":",
+       3.832,
+       4.059
+      ],
+      [
+       "«",
+       4.097,
+       4.134
+      ],
+      [
+       "Mieux",
+       4.172,
+       4.285
+      ],
+      [
+       "vaut",
+       4.323,
+       4.512
+      ],
+      [
+       "tard",
+       4.587,
+       4.889
+      ],
+      [
+       "que",
+       5.002,
+       5.342
+      ],
+      [
+       "___.",
+       5.392,
+       5.531
+      ],
+      [
+       "»",
+       5.543,
+       5.568
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/11-a.mp3",
+     "sec": 1.812676,
+     "text": "La bonne réponse, c'est jamais.",
+     "words": [
+      [
+       "La",
+       0.139,
+       0.151
+      ],
+      [
+       "bonne",
+       0.176,
+       0.302
+      ],
+      [
+       "réponse,",
+       0.377,
+       1.208
+      ],
+      [
+       "c'est",
+       1.245,
+       1.358
+      ],
+      [
+       "jamais.",
+       1.412,
+       1.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « cheval » ?",
+    "choices": [
+     "des chevaux",
+     "des chevals",
+     "des chevaus",
+     "des chevaulx"
+    ],
+    "correct": 0
+   },
+   "answer": "des chevaux",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/12-q.mp3",
+     "sec": 1.621655,
+     "text": "Quel est le pluriel de « cheval » ?",
+     "words": [
+      [
+       "Quel",
+       0.023,
+       0.109
+      ],
+      [
+       "est",
+       0.127,
+       0.184
+      ],
+      [
+       "le",
+       0.234,
+       0.335
+      ],
+      [
+       "pluriel",
+       0.385,
+       0.788
+      ],
+      [
+       "de",
+       0.838,
+       0.939
+      ],
+      [
+       "«",
+       0.977,
+       1.014
+      ],
+      [
+       "cheval",
+       1.052,
+       1.467
+      ],
+      [
+       "»",
+       1.543,
+       1.618
+      ],
+      [
+       "?",
+       1.618,
+       1.618
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/12-a.mp3",
+     "sec": 1.594535,
+     "text": "Eh oui : des chevaux !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui",
+       0.208,
+       0.377
+      ],
+      [
+       ":",
+       0.604,
+       0.83
+      ],
+      [
+       "des",
+       0.868,
+       0.981
+      ],
+      [
+       "chevaux",
+       1.057,
+       1.509
+      ],
+      [
+       "!",
+       1.547,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète le proverbe : « Qui ___ bien châtie bien. »",
+    "choices": [
+     "hait",
+     "craint",
+     "aime",
+     "sert"
+    ],
+    "correct": 2
+   },
+   "answer": "aime",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/13-q.mp3",
+     "sec": 5.010612,
+     "text": "Celle-ci est pour les experts. Complète le proverbe : « Qui ___ bien châtie bien. »",
+     "words": [
+      [
+       "Celle-ci",
+       0.125,
+       0.437
+      ],
+      [
+       "est",
+       0.512,
+       0.738
+      ],
+      [
+       "pour",
+       0.769,
+       0.889
+      ],
+      [
+       "les",
+       0.908,
+       0.965
+      ],
+      [
+       "experts.",
+       1.031,
+       1.569
+      ],
+      [
+       "Complète",
+       1.701,
+       2.323
+      ],
+      [
+       "le",
+       2.349,
+       2.399
+      ],
+      [
+       "proverbe",
+       2.455,
+       2.927
+      ],
+      [
+       ":",
+       3.116,
+       3.304
+      ],
+      [
+       "«",
+       3.361,
+       3.418
+      ],
+      [
+       "Qui",
+       3.446,
+       3.531
+      ],
+      [
+       "___",
+       3.625,
+       3.908
+      ],
+      [
+       "bien",
+       3.954,
+       4.135
+      ],
+      [
+       "châtie",
+       4.185,
+       4.512
+      ],
+      [
+       "bien.",
+       4.572,
+       4.927
+      ],
+      [
+       "»",
+       4.965,
+       5.04
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/13-a.mp3",
+     "sec": 1.656961,
+     "text": "Réponse : aime !",
+     "words": [
+      [
+       "Réponse",
+       0.111,
+       0.664
+      ],
+      [
+       ":",
+       0.891,
+       1.117
+      ],
+      [
+       "aime",
+       1.193,
+       1.495
+      ],
+      [
+       "!",
+       1.57,
+       1.645
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Dans le Sahara, il y a un grand ___ de sable. »",
+    "choices": [
+     "dessert",
+     "desserte",
+     "déserre",
+     "désert"
+    ],
+    "correct": 3
+   },
+   "answer": "désert",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/14-q.mp3",
+     "sec": 3.918322,
+     "text": "Complète : « Dans le Sahara, il y a un grand ___ de sable. »",
+     "words": [
+      [
+       "Complète",
+       0.067,
+       0.392
+      ],
+      [
+       ":",
+       0.618,
+       0.845
+      ],
+      [
+       "«",
+       0.864,
+       0.883
+      ],
+      [
+       "Dans",
+       0.89,
+       0.92
+      ],
+      [
+       "le",
+       0.97,
+       1.071
+      ],
+      [
+       "Sahara,",
+       1.125,
+       1.75
+      ],
+      [
+       "il",
+       1.8,
+       1.901
+      ],
+      [
+       "y",
+       1.939,
+       1.977
+      ],
+      [
+       "a",
+       2.052,
+       2.128
+      ],
+      [
+       "un",
+       2.178,
+       2.279
+      ],
+      [
+       "grand",
+       2.329,
+       2.581
+      ],
+      [
+       "___",
+       2.713,
+       3.109
+      ],
+      [
+       "de",
+       3.134,
+       3.184
+      ],
+      [
+       "sable.",
+       3.298,
+       3.864
+      ],
+      [
+       "»",
+       4.291,
+       5.147
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/14-a.mp3",
+     "sec": 2.34805,
+     "text": "La bonne réponse, c'est désert.",
+     "words": [
+      [
+       "La",
+       0.065,
+       0.075
+      ],
+      [
+       "bonne",
+       0.113,
+       0.302
+      ],
+      [
+       "réponse,",
+       0.358,
+       0.906
+      ],
+      [
+       "c'est",
+       0.962,
+       1.132
+      ],
+      [
+       "désert.",
+       1.321,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « bleu » ?",
+    "choices": [
+     "des bleus",
+     "des bleux",
+     "des bleues",
+     "des bleuxs"
+    ],
+    "correct": 0
+   },
+   "answer": "des bleus",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/15-q.mp3",
+     "sec": 2.04,
+     "text": "Quel est le pluriel de « bleu » ?",
+     "words": [
+      [
+       "Quel",
+       0.168,
+       0.218
+      ],
+      [
+       "est",
+       0.237,
+       0.293
+      ],
+      [
+       "le",
+       0.343,
+       0.444
+      ],
+      [
+       "pluriel",
+       0.52,
+       1.123
+      ],
+      [
+       "de",
+       1.274,
+       1.576
+      ],
+      [
+       "«",
+       1.614,
+       1.652
+      ],
+      [
+       "bleu",
+       1.708,
+       1.953
+      ],
+      [
+       "»",
+       1.954,
+       1.955
+      ],
+      [
+       "?",
+       1.991,
+       2.029
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/15-a.mp3",
+     "sec": 1.556032,
+     "text": "Réponse : des bleus !",
+     "words": [
+      [
+       "Réponse",
+       0.102,
+       0.567
+      ],
+      [
+       ":",
+       0.831,
+       1.095
+      ],
+      [
+       "des",
+       1.114,
+       1.171
+      ],
+      [
+       "bleus",
+       1.227,
+       1.473
+      ],
+      [
+       "!",
+       1.51,
+       1.548
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "abbréviation",
+     "abréviasion",
+     "abréveation",
+     "abréviation"
+    ],
+    "correct": 3
+   },
+   "answer": "abréviation",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/16-q.mp3",
+     "sec": 2.599229,
+     "text": "Question suivante. Quelle est la bonne orthographe ?",
+     "words": [
+      [
+       "Question",
+       0.192,
+       0.246
+      ],
+      [
+       "suivante.",
+       0.292,
+       0.926
+      ],
+      [
+       "Quelle",
+       1.076,
+       1.454
+      ],
+      [
+       "est",
+       1.473,
+       1.529
+      ],
+      [
+       "la",
+       1.555,
+       1.605
+      ],
+      [
+       "bonne",
+       1.642,
+       1.831
+      ],
+      [
+       "orthographe",
+       1.876,
+       2.51
+      ],
+      [
+       "?",
+       2.548,
+       2.586
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/16-a.mp3",
+     "sec": 2.347007,
+     "text": "Bravo si tu avais dit abréviation.",
+     "words": [
+      [
+       "Bravo",
+       0.434,
+       0.528
+      ],
+      [
+       "si",
+       0.578,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "avais",
+       0.856,
+       1.057
+      ],
+      [
+       "dit",
+       1.094,
+       1.208
+      ],
+      [
+       "abréviation.",
+       1.358,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « festival » ?",
+    "choices": [
+     "des festivaux",
+     "des festivals",
+     "des festivales",
+     "des festivauxs"
+    ],
+    "correct": 1
+   },
+   "answer": "des festivals",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/17-q.mp3",
+     "sec": 2.170363,
+     "text": "Quel est le pluriel de « festival » ?",
+     "words": [
+      [
+       "Quel",
+       0.031,
+       0.117
+      ],
+      [
+       "est",
+       0.136,
+       0.193
+      ],
+      [
+       "le",
+       0.243,
+       0.344
+      ],
+      [
+       "pluriel",
+       0.394,
+       1.174
+      ],
+      [
+       "de",
+       1.199,
+       1.249
+      ],
+      [
+       "«",
+       1.325,
+       1.4
+      ],
+      [
+       "festival",
+       1.467,
+       2.004
+      ],
+      [
+       "»",
+       2.079,
+       2.155
+      ],
+      [
+       "?",
+       2.155,
+       2.155
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/17-a.mp3",
+     "sec": 2.279569,
+     "text": "La bonne réponse, c'est des festivals.",
+     "words": [
+      [
+       "La",
+       0.139,
+       0.151
+      ],
+      [
+       "bonne",
+       0.189,
+       0.377
+      ],
+      [
+       "réponse,",
+       0.443,
+       1.057
+      ],
+      [
+       "c'est",
+       1.094,
+       1.208
+      ],
+      [
+       "des",
+       1.264,
+       1.434
+      ],
+      [
+       "festivals.",
+       1.509,
+       2.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « La lettre que tu as ___ est arrivée. »",
+    "choices": [
+     "écrite",
+     "écrit",
+     "écrits",
+     "écrire"
+    ],
+    "correct": 0
+   },
+   "answer": "écrite",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/18-q.mp3",
+     "sec": 2.962313,
+     "text": "Complète : « La lettre que tu as ___ est arrivée. »",
+     "words": [
+      [
+       "Complète",
+       0.13,
+       0.466
+      ],
+      [
+       ":",
+       0.73,
+       0.995
+      ],
+      [
+       "«",
+       1.032,
+       1.07
+      ],
+      [
+       "La",
+       1.12,
+       1.221
+      ],
+      [
+       "lettre",
+       1.264,
+       1.523
+      ],
+      [
+       "que",
+       1.561,
+       1.674
+      ],
+      [
+       "tu",
+       1.749,
+       1.9
+      ],
+      [
+       "as",
+       1.95,
+       2.051
+      ],
+      [
+       "___",
+       2.146,
+       2.429
+      ],
+      [
+       "est",
+       2.447,
+       2.504
+      ],
+      [
+       "arrivée.",
+       2.542,
+       2.957
+      ],
+      [
+       "»",
+       2.957,
+       2.957
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/18-a.mp3",
+     "sec": 1.205692,
+     "text": "C'était écrite.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.302
+      ],
+      [
+       "écrite.",
+       0.352,
+       1.208
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ne ___ pas venir ce soir. »",
+    "choices": [
+     "peu",
+     "peux",
+     "peut",
+     "peuh"
+    ],
+    "correct": 2
+   },
+   "answer": "peut",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/19-q.mp3",
+     "sec": 3.33737,
+     "text": "Complète : « Il ne ___ pas venir ce soir. »",
+     "words": [
+      [
+       "Complète",
+       0.192,
+       0.604
+      ],
+      [
+       ":",
+       0.868,
+       1.132
+      ],
+      [
+       "«",
+       1.17,
+       1.208
+      ],
+      [
+       "Il",
+       1.233,
+       1.283
+      ],
+      [
+       "ne",
+       1.408,
+       1.66
+      ],
+      [
+       "___",
+       1.755,
+       2.038
+      ],
+      [
+       "pas",
+       2.075,
+       2.189
+      ],
+      [
+       "venir",
+       2.252,
+       2.566
+      ],
+      [
+       "ce",
+       2.616,
+       2.717
+      ],
+      [
+       "soir.",
+       2.823,
+       3.283
+      ],
+      [
+       "»",
+       3.295,
+       3.321
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/19-a.mp3",
+     "sec": 1.459524,
+     "text": "peut, évidemment !",
+     "words": [
+      [
+       "peut,",
+       0.201,
+       0.4
+      ],
+      [
+       "évidemment",
+       0.476,
+       1.004
+      ],
+      [
+       "!",
+       1.23,
+       1.457
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Ils sont ___ hier matin. »",
+    "choices": [
+     "parti",
+     "partit",
+     "partis",
+     "partie"
+    ],
+    "correct": 2
+   },
+   "answer": "partis",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/20-q.mp3",
+     "sec": 3.09356,
+     "text": "Complète : « Ils sont ___ hier matin. »",
+     "words": [
+      [
+       "Complète",
+       0.124,
+       0.524
+      ],
+      [
+       ":",
+       0.825,
+       1.127
+      ],
+      [
+       "«",
+       1.203,
+       1.278
+      ],
+      [
+       "Ils",
+       1.316,
+       1.429
+      ],
+      [
+       "sont",
+       1.49,
+       1.731
+      ],
+      [
+       "___",
+       1.901,
+       2.41
+      ],
+      [
+       "hier",
+       2.441,
+       2.561
+      ],
+      [
+       "matin.",
+       2.637,
+       3.052
+      ],
+      [
+       "»",
+       3.064,
+       3.09
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/20-a.mp3",
+     "sec": 2.098095,
+     "text": "Bravo si tu avais dit partis.",
+     "words": [
+      [
+       "Bravo",
+       0.303,
+       0.366
+      ],
+      [
+       "si",
+       0.442,
+       0.593
+      ],
+      [
+       "tu",
+       0.618,
+       0.668
+      ],
+      [
+       "avais",
+       0.718,
+       0.895
+      ],
+      [
+       "dit",
+       0.932,
+       1.046
+      ],
+      [
+       "partis.",
+       1.136,
+       2.102
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « landau » ?",
+    "choices": [
+     "des landaux",
+     "des landaus",
+     "des landeaus",
+     "des landots"
+    ],
+    "correct": 1
+   },
+   "answer": "des landaus",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/21-q.mp3",
+     "sec": 1.850884,
+     "text": "Quel est le pluriel de « landau » ?",
+     "words": [
+      [
+       "Quel",
+       0.026,
+       0.111
+      ],
+      [
+       "est",
+       0.13,
+       0.187
+      ],
+      [
+       "le",
+       0.237,
+       0.338
+      ],
+      [
+       "pluriel",
+       0.388,
+       0.942
+      ],
+      [
+       "de",
+       1.017,
+       1.168
+      ],
+      [
+       "«",
+       1.206,
+       1.243
+      ],
+      [
+       "landau",
+       1.319,
+       1.772
+      ],
+      [
+       "»",
+       1.81,
+       1.847
+      ],
+      [
+       "?",
+       1.847,
+       1.847
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/21-a.mp3",
+     "sec": 1.829637,
+     "text": "Eh oui : des landaus !",
+     "words": [
+      [
+       "Eh",
+       0.196,
+       0.226
+      ],
+      [
+       "oui",
+       0.283,
+       0.453
+      ],
+      [
+       ":",
+       0.717,
+       0.981
+      ],
+      [
+       "des",
+       1.038,
+       1.208
+      ],
+      [
+       "landaus",
+       1.283,
+       1.736
+      ],
+      [
+       "!",
+       1.774,
+       1.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne rustre est…",
+    "choices": [
+     "grossière",
+     "élégante",
+     "timide",
+     "rusée"
+    ],
+    "correct": 0
+   },
+   "answer": "grossière",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/22-q.mp3",
+     "sec": 1.534308,
+     "text": "Une personne rustre est…",
+     "words": [
+      [
+       "Une",
+       0.069,
+       0.091
+      ],
+      [
+       "personne",
+       0.141,
+       0.544
+      ],
+      [
+       "rustre",
+       0.619,
+       1.072
+      ],
+      [
+       "est…",
+       1.167,
+       1.525
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/22-a.mp3",
+     "sec": 1.487415,
+     "text": "Eh oui : grossière !",
+     "words": [
+      [
+       "Eh",
+       0.096,
+       0.116
+      ],
+      [
+       "oui",
+       0.173,
+       0.342
+      ],
+      [
+       ":",
+       0.493,
+       0.644
+      ],
+      [
+       "grossière",
+       0.708,
+       1.399
+      ],
+      [
+       "!",
+       1.437,
+       1.475
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment écrit-on le nombre 200 en lettres ?",
+    "choices": [
+     "deux cent",
+     "deux cents",
+     "deux-cents",
+     "deux cens"
+    ],
+    "correct": 1
+   },
+   "answer": "deux cents",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/23-q.mp3",
+     "sec": 2.79161,
+     "text": "Comment écrit-on le nombre 200 en lettres ?",
+     "words": [
+      [
+       "Comment",
+       0.243,
+       0.296
+      ],
+      [
+       "écrit-on",
+       0.346,
+       0.748
+      ],
+      [
+       "le",
+       0.798,
+       0.899
+      ],
+      [
+       "nombre",
+       0.953,
+       1.277
+      ],
+      [
+       "200",
+       1.503,
+       1.956
+      ],
+      [
+       "en",
+       2.057,
+       2.258
+      ],
+      [
+       "lettres",
+       2.314,
+       2.711
+      ],
+      [
+       "?",
+       2.748,
+       2.786
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/23-a.mp3",
+     "sec": 1.50449,
+     "text": "C'était deux cents.",
+     "words": [
+      [
+       "C'était",
+       0.142,
+       0.604
+      ],
+      [
+       "deux",
+       0.694,
+       1.057
+      ],
+      [
+       "cents.",
+       1.12,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'ubiquité, c'est la capacité d'être…",
+    "choices": [
+     "partout à la fois",
+     "très rapide",
+     "invisible",
+     "très fort"
+    ],
+    "correct": 0
+   },
+   "answer": "partout à la fois",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/24-q.mp3",
+     "sec": 2.5722,
+     "text": "L'ubiquité, c'est la capacité d'être…",
+     "words": [
+      [
+       "L'ubiquité,",
+       0.142,
+       0.981
+      ],
+      [
+       "c'est",
+       1.019,
+       1.132
+      ],
+      [
+       "la",
+       1.158,
+       1.208
+      ],
+      [
+       "capacité",
+       1.295,
+       1.962
+      ],
+      [
+       "d'être…",
+       2.038,
+       2.566
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/24-a.mp3",
+     "sec": 1.936644,
+     "text": "partout à la fois, évidemment !",
+     "words": [
+      [
+       "partout",
+       0.223,
+       0.346
+      ],
+      [
+       "à",
+       0.422,
+       0.497
+      ],
+      [
+       "la",
+       0.523,
+       0.573
+      ],
+      [
+       "fois,",
+       0.633,
+       0.95
+      ],
+      [
+       "évidemment",
+       1.176,
+       1.78
+      ],
+      [
+       "!",
+       1.856,
+       1.931
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ___ lavé tout seul. »",
+    "choices": [
+     "c'est",
+     "sait",
+     "ses",
+     "s'est"
+    ],
+    "correct": 3
+   },
+   "answer": "s'est",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/25-q.mp3",
+     "sec": 2.679252,
+     "text": "Complète : « Il ___ lavé tout seul. »",
+     "words": [
+      [
+       "Complète",
+       0.106,
+       0.506
+      ],
+      [
+       ":",
+       0.77,
+       1.034
+      ],
+      [
+       "«",
+       1.109,
+       1.185
+      ],
+      [
+       "Il",
+       1.235,
+       1.336
+      ],
+      [
+       "___",
+       1.43,
+       1.713
+      ],
+      [
+       "lavé",
+       1.77,
+       2.015
+      ],
+      [
+       "tout",
+       2.045,
+       2.166
+      ],
+      [
+       "seul.",
+       2.242,
+       2.619
+      ],
+      [
+       "»",
+       2.644,
+       2.694
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/25-a.mp3",
+     "sec": 1.440658,
+     "text": "s'est, évidemment !",
+     "words": [
+      [
+       "s'est,",
+       0.17,
+       0.604
+      ],
+      [
+       "évidemment",
+       0.717,
+       1.283
+      ],
+      [
+       "!",
+       1.358,
+       1.434
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Il ___ est habitué depuis longtemps. »",
+    "choices": [
+     "si",
+     "s'y",
+     "ci",
+     "scie"
+    ],
+    "correct": 1
+   },
+   "answer": "s'y",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/26-q.mp3",
+     "sec": 3.476213,
+     "text": "Complète : « Il ___ est habitué depuis longtemps. »",
+     "words": [
+      [
+       "Complète",
+       0.192,
+       0.528
+      ],
+      [
+       ":",
+       0.83,
+       1.132
+      ],
+      [
+       "«",
+       1.189,
+       1.245
+      ],
+      [
+       "Il",
+       1.283,
+       1.358
+      ],
+      [
+       "___",
+       1.509,
+       1.961
+      ],
+      [
+       "est",
+       1.962,
+       1.965
+      ],
+      [
+       "habitué",
+       2.028,
+       2.569
+      ],
+      [
+       "depuis",
+       2.623,
+       2.946
+      ],
+      [
+       "longtemps.",
+       2.992,
+       3.399
+      ],
+      [
+       "»",
+       3.425,
+       3.475
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/26-a.mp3",
+     "sec": 0.85839,
+     "text": "C'était s'y.",
+     "words": [
+      [
+       "C'était",
+       0.053,
+       0.362
+      ],
+      [
+       "s'y.",
+       0.438,
+       1.042
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un événement « fortuit » est un événement qui…",
+    "choices": [
+     "coûte cher",
+     "arrive par hasard",
+     "dure longtemps",
+     "fait peur"
+    ],
+    "correct": 1
+   },
+   "answer": "arrive par hasard",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/27-q.mp3",
+     "sec": 2.780023,
+     "text": "Un événement « fortuit » est un événement qui…",
+     "words": [
+      [
+       "Un",
+       0.111,
+       0.131
+      ],
+      [
+       "événement",
+       0.181,
+       0.659
+      ],
+      [
+       "«",
+       0.735,
+       0.81
+      ],
+      [
+       "fortuit",
+       0.871,
+       1.263
+      ],
+      [
+       "»",
+       1.414,
+       1.565
+      ],
+      [
+       "est",
+       1.603,
+       1.716
+      ],
+      [
+       "un",
+       1.766,
+       1.867
+      ],
+      [
+       "événement",
+       1.892,
+       2.244
+      ],
+      [
+       "qui…",
+       2.339,
+       2.773
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/27-a.mp3",
+     "sec": 1.885578,
+     "text": "C'était arrive par hasard.",
+     "words": [
+      [
+       "C'était",
+       0.28,
+       0.374
+      ],
+      [
+       "arrive",
+       0.471,
+       1.053
+      ],
+      [
+       "par",
+       1.11,
+       1.28
+      ],
+      [
+       "hasard.",
+       1.318,
+       1.884
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "acquiescer",
+     "aquiescer",
+     "acquiesser",
+     "acquiescé"
+    ],
+    "correct": 0
+   },
+   "answer": "acquiescer",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/28-q.mp3",
+     "sec": 1.239751,
+     "text": "Quelle est la bonne orthographe ?",
+     "words": [
+      [
+       "Quelle",
+       0.011,
+       0.097
+      ],
+      [
+       "est",
+       0.116,
+       0.173
+      ],
+      [
+       "la",
+       0.198,
+       0.248
+      ],
+      [
+       "bonne",
+       0.286,
+       0.475
+      ],
+      [
+       "orthographe",
+       0.52,
+       1.078
+      ],
+      [
+       "?",
+       1.154,
+       1.229
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/28-a.mp3",
+     "sec": 1.711837,
+     "text": "acquiescer, évidemment !",
+     "words": [
+      [
+       "acquiescer,",
+       0.153,
+       0.642
+      ],
+      [
+       "évidemment",
+       0.717,
+       1.17
+      ],
+      [
+       "!",
+       1.245,
+       1.321
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "exagerrer",
+     "exhagérer",
+     "exagèré",
+     "exagérer"
+    ],
+    "correct": 3
+   },
+   "answer": "exagérer",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/29-q.mp3",
+     "sec": 1.493333,
+     "text": "Quelle est la bonne orthographe ?",
+     "words": [
+      [
+       "Quelle",
+       0,
+       0.078
+      ],
+      [
+       "est",
+       0.116,
+       0.229
+      ],
+      [
+       "la",
+       0.255,
+       0.305
+      ],
+      [
+       "bonne",
+       0.342,
+       0.531
+      ],
+      [
+       "orthographe",
+       0.576,
+       1.286
+      ],
+      [
+       "?",
+       1.625,
+       1.965
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/29-a.mp3",
+     "sec": 1.68517,
+     "text": "Eh oui : exagérer !",
+     "words": [
+      [
+       "Eh",
+       0.135,
+       0.165
+      ],
+      [
+       "oui",
+       0.241,
+       0.467
+      ],
+      [
+       ":",
+       0.656,
+       0.844
+      ],
+      [
+       "exagérer",
+       0.945,
+       1.599
+      ],
+      [
+       "!",
+       1.637,
+       1.675
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Les efforts qu'il a ___ ont payé. »",
+    "choices": [
+     "faits",
+     "fait",
+     "faite",
+     "faites"
+    ],
+    "correct": 0
+   },
+   "answer": "faits",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/30-q.mp3",
+     "sec": 3.156757,
+     "text": "Complète : « Les efforts qu'il a ___ ont payé. »",
+     "words": [
+      [
+       "Complète",
+       0.106,
+       0.506
+      ],
+      [
+       ":",
+       0.771,
+       1.035
+      ],
+      [
+       "«",
+       1.073,
+       1.11
+      ],
+      [
+       "Les",
+       1.148,
+       1.261
+      ],
+      [
+       "efforts",
+       1.318,
+       1.714
+      ],
+      [
+       "qu'il",
+       1.74,
+       1.865
+      ],
+      [
+       "a",
+       1.94,
+       2.016
+      ],
+      [
+       "___",
+       2.148,
+       2.544
+      ],
+      [
+       "ont",
+       2.582,
+       2.695
+      ],
+      [
+       "payé.",
+       2.733,
+       3.073
+      ],
+      [
+       "»",
+       3.098,
+       3.148
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/30-a.mp3",
+     "sec": 1.961927,
+     "text": "Bravo si tu avais dit faits.",
+     "words": [
+      [
+       "Bravo",
+       0.377,
+       0.453
+      ],
+      [
+       "si",
+       0.503,
+       0.604
+      ],
+      [
+       "tu",
+       0.654,
+       0.755
+      ],
+      [
+       "avais",
+       0.78,
+       0.906
+      ],
+      [
+       "dit",
+       0.943,
+       1.057
+      ],
+      [
+       "faits.",
+       1.132,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elle s'est ___ les mains. »",
+    "choices": [
+     "lavée",
+     "lavés",
+     "lavées",
+     "lavé"
+    ],
+    "correct": 3
+   },
+   "answer": "lavé",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/31-q.mp3",
+     "sec": 2.523107,
+     "text": "Complète : « Elle s'est ___ les mains. »",
+     "words": [
+      [
+       "Complète",
+       0.147,
+       0.558
+      ],
+      [
+       ":",
+       0.822,
+       1.086
+      ],
+      [
+       "«",
+       1.124,
+       1.162
+      ],
+      [
+       "Elle",
+       1.177,
+       1.237
+      ],
+      [
+       "s'est",
+       1.35,
+       1.615
+      ],
+      [
+       "___",
+       1.728,
+       2.067
+      ],
+      [
+       "les",
+       2.086,
+       2.143
+      ],
+      [
+       "mains.",
+       2.193,
+       2.483
+      ],
+      [
+       "»",
+       2.495,
+       2.52
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/31-a.mp3",
+     "sec": 1.513855,
+     "text": "Réponse : lavé !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "lavé",
+       1.132,
+       1.434
+      ],
+      [
+       "!",
+       1.472,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Au Scrabble, laquelle de ces lettres vaut 8 points ?",
+    "choices": [
+     "R",
+     "J",
+     "M",
+     "P"
+    ],
+    "correct": 1
+   },
+   "answer": "J",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/32-q.mp3",
+     "sec": 3.09873,
+     "text": "Au Scrabble, laquelle de ces lettres vaut 8 points ?",
+     "words": [
+      [
+       "Au",
+       0.276,
+       0.317
+      ],
+      [
+       "Scrabble,",
+       0.332,
+       0.83
+      ],
+      [
+       "laquelle",
+       0.906,
+       1.283
+      ],
+      [
+       "de",
+       1.308,
+       1.358
+      ],
+      [
+       "ces",
+       1.415,
+       1.585
+      ],
+      [
+       "lettres",
+       1.623,
+       1.962
+      ],
+      [
+       "vaut",
+       2.075,
+       2.34
+      ],
+      [
+       "8",
+       2.415,
+       2.642
+      ],
+      [
+       "points",
+       2.685,
+       2.943
+      ],
+      [
+       "?",
+       3.019,
+       3.094
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/32-a.mp3",
+     "sec": 0.911383,
+     "text": "C'était J.",
+     "words": [
+      [
+       "C'était",
+       0.113,
+       0.528
+      ],
+      [
+       "J.",
+       0.679,
+       0.906
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "La « gouaille » désigne…",
+    "choices": [
+     "une grosse toux",
+     "un mal de tête",
+     "une verve moqueuse et populaire",
+     "une grande faim"
+    ],
+    "correct": 2
+   },
+   "answer": "une verve moqueuse et populaire",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/33-q.mp3",
+     "sec": 3.690454,
+     "text": "Attention, question piège. La « gouaille » désigne…",
+     "words": [
+      [
+       "Attention,",
+       0.35,
+       0.747
+      ],
+      [
+       "question",
+       0.781,
+       1.049
+      ],
+      [
+       "piège.",
+       1.124,
+       1.879
+      ],
+      [
+       "La",
+       1.98,
+       2.181
+      ],
+      [
+       "«",
+       2.219,
+       2.256
+      ],
+      [
+       "gouaille",
+       2.313,
+       2.785
+      ],
+      [
+       "»",
+       2.86,
+       2.936
+      ],
+      [
+       "désigne…",
+       2.992,
+       3.69
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/33-a.mp3",
+     "sec": 2.408844,
+     "text": "C'était une verve moqueuse et populaire.",
+     "words": [
+      [
+       "C'était",
+       0.016,
+       0.281
+      ],
+      [
+       "une",
+       0.318,
+       0.432
+      ],
+      [
+       "verve",
+       0.507,
+       0.884
+      ],
+      [
+       "moqueuse",
+       0.985,
+       1.564
+      ],
+      [
+       "et",
+       1.614,
+       1.715
+      ],
+      [
+       "populaire.",
+       1.752,
+       2.394
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Les heures qu'il a ___ à attendre. »",
+    "choices": [
+     "passées",
+     "passé",
+     "passés",
+     "passée"
+    ],
+    "correct": 0
+   },
+   "answer": "passées",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/34-q.mp3",
+     "sec": 3.11,
+     "text": "Complète : « Les heures qu'il a ___ à attendre. »",
+     "words": [
+      [
+       "Complète",
+       0.198,
+       0.679
+      ],
+      [
+       ":",
+       0.943,
+       1.208
+      ],
+      [
+       "«",
+       1.283,
+       1.358
+      ],
+      [
+       "Les",
+       1.396,
+       1.509
+      ],
+      [
+       "heures",
+       1.553,
+       1.811
+      ],
+      [
+       "qu'il",
+       1.837,
+       2.038
+      ],
+      [
+       "a",
+       2.113,
+       2.189
+      ],
+      [
+       "___",
+       2.264,
+       2.491
+      ],
+      [
+       "à",
+       2.585,
+       2.679
+      ],
+      [
+       "attendre.",
+       2.707,
+       3.094
+      ],
+      [
+       "»",
+       3.094,
+       3.094
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/34-a.mp3",
+     "sec": 1.667959,
+     "text": "Bravo si tu avais dit passées.",
+     "words": [
+      [
+       "Bravo",
+       0.357,
+       0.451
+      ],
+      [
+       "si",
+       0.527,
+       0.678
+      ],
+      [
+       "tu",
+       0.728,
+       0.829
+      ],
+      [
+       "avais",
+       0.854,
+       1.055
+      ],
+      [
+       "dit",
+       1.074,
+       1.131
+      ],
+      [
+       "passées.",
+       1.191,
+       1.659
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne impécunieuse est…",
+    "choices": [
+     "sans argent",
+     "impolie",
+     "impatiente",
+     "impure"
+    ],
+    "correct": 0
+   },
+   "answer": "sans argent",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/35-q.mp3",
+     "sec": 2.247823,
+     "text": "Une personne impécunieuse est…",
+     "words": [
+      [
+       "Une",
+       0.033,
+       0.056
+      ],
+      [
+       "personne",
+       0.123,
+       0.659
+      ],
+      [
+       "impécunieuse",
+       0.735,
+       1.716
+      ],
+      [
+       "est…",
+       1.81,
+       2.244
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/35-a.mp3",
+     "sec": 1.964036,
+     "text": "Bravo si tu avais dit sans argent.",
+     "words": [
+      [
+       "Bravo",
+       0.375,
+       0.45
+      ],
+      [
+       "si",
+       0.5,
+       0.601
+      ],
+      [
+       "tu",
+       0.627,
+       0.677
+      ],
+      [
+       "avais",
+       0.727,
+       0.903
+      ],
+      [
+       "dit",
+       0.941,
+       1.054
+      ],
+      [
+       "sans",
+       1.099,
+       1.281
+      ],
+      [
+       "argent.",
+       1.334,
+       1.96
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un discours « lénifiant » est…",
+    "choices": [
+     "irritant",
+     "glacial",
+     "brûlant",
+     "apaisant"
+    ],
+    "correct": 3
+   },
+   "answer": "apaisant",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/36-q.mp3",
+     "sec": 2.195351,
+     "text": "Un discours « lénifiant » est…",
+     "words": [
+      [
+       "Un",
+       0.131,
+       0.151
+      ],
+      [
+       "discours",
+       0.226,
+       0.755
+      ],
+      [
+       "«",
+       0.868,
+       0.981
+      ],
+      [
+       "lénifiant",
+       1.019,
+       1.66
+      ],
+      [
+       "»",
+       1.736,
+       1.811
+      ],
+      [
+       "est…",
+       1.868,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/36-a.mp3",
+     "sec": 1.279138,
+     "text": "apaisant, évidemment !",
+     "words": [
+      [
+       "apaisant,",
+       0.174,
+       0.585
+      ],
+      [
+       "évidemment",
+       0.623,
+       1.113
+      ],
+      [
+       "!",
+       1.189,
+       1.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un dilettante est quelqu'un qui…",
+    "choices": [
+     "pratique un art pour son plaisir",
+     "juge sévèrement",
+     "collectionne les objets",
+     "travaille la nuit"
+    ],
+    "correct": 0
+   },
+   "answer": "pratique un art pour son plaisir",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/37-q.mp3",
+     "sec": 4.462721,
+     "text": "Beaucoup se trompent ici. Un dilettante est quelqu'un qui…",
+     "words": [
+      [
+       "Beaucoup",
+       0.065,
+       0.302
+      ],
+      [
+       "se",
+       0.352,
+       0.453
+      ],
+      [
+       "trompent",
+       0.498,
+       0.83
+      ],
+      [
+       "ici.",
+       0.906,
+       1.208
+      ],
+      [
+       "Un",
+       1.459,
+       1.962
+      ],
+      [
+       "dilettante",
+       2.023,
+       2.642
+      ],
+      [
+       "est",
+       2.755,
+       3.094
+      ],
+      [
+       "quelqu'un",
+       3.125,
+       3.396
+      ],
+      [
+       "qui…",
+       3.509,
+       3.925
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/37-a.mp3",
+     "sec": 2.48771,
+     "text": "Eh oui : pratique un art pour son plaisir !",
+     "words": [
+      [
+       "Eh",
+       0.042,
+       0.054
+      ],
+      [
+       "oui",
+       0.111,
+       0.28
+      ],
+      [
+       ":",
+       0.394,
+       0.507
+      ],
+      [
+       "pratique",
+       0.557,
+       0.96
+      ],
+      [
+       "un",
+       1.01,
+       1.111
+      ],
+      [
+       "art",
+       1.167,
+       1.337
+      ],
+      [
+       "pour",
+       1.382,
+       1.563
+      ],
+      [
+       "son",
+       1.62,
+       1.79
+      ],
+      [
+       "plaisir",
+       1.865,
+       2.394
+      ],
+      [
+       "!",
+       2.431,
+       2.469
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne pusillanime…",
+    "choices": [
+     "est très généreuse",
+     "est très petite",
+     "manque de courage",
+     "est cruelle"
+    ],
+    "correct": 2
+   },
+   "answer": "manque de courage",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/38-q.mp3",
+     "sec": 4.00449,
+     "text": "Celle-ci est pour les experts. Une personne pusillanime…",
+     "words": [
+      [
+       "Celle-ci",
+       0.181,
+       0.453
+      ],
+      [
+       "est",
+       0.528,
+       0.755
+      ],
+      [
+       "pour",
+       0.785,
+       0.906
+      ],
+      [
+       "les",
+       0.943,
+       1.057
+      ],
+      [
+       "experts.",
+       1.151,
+       2.189
+      ],
+      [
+       "Une",
+       2.283,
+       2.566
+      ],
+      [
+       "personne",
+       2.625,
+       3.094
+      ],
+      [
+       "pusillanime…",
+       3.17,
+       4
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/38-a.mp3",
+     "sec": 3.025488,
+     "text": "La bonne réponse, c'est manque de courage.",
+     "words": [
+      [
+       "La",
+       0.201,
+       0.226
+      ],
+      [
+       "bonne",
+       0.264,
+       0.453
+      ],
+      [
+       "réponse,",
+       0.509,
+       0.981
+      ],
+      [
+       "c'est",
+       1.019,
+       1.132
+      ],
+      [
+       "manque",
+       1.34,
+       2.113
+      ],
+      [
+       "de",
+       2.189,
+       2.34
+      ],
+      [
+       "courage.",
+       2.415,
+       3.019
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Ergoter, c'est…",
+    "choices": [
+     "tricoter",
+     "marcher vite",
+     "bien travailler",
+     "chicaner sur des détails"
+    ],
+    "correct": 3
+   },
+   "answer": "chicaner sur des détails",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/39-q.mp3",
+     "sec": 1.516168,
+     "text": "Ergoter, c'est…",
+     "words": [
+      [
+       "Ergoter,",
+       0.259,
+       0.83
+      ],
+      [
+       "c'est…",
+       0.868,
+       1.509
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/39-a.mp3",
+     "sec": 2.578413,
+     "text": "Réponse : chicaner sur des détails !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.453
+      ],
+      [
+       ":",
+       0.679,
+       0.906
+      ],
+      [
+       "chicaner",
+       0.956,
+       1.585
+      ],
+      [
+       "sur",
+       1.642,
+       1.811
+      ],
+      [
+       "des",
+       1.849,
+       1.962
+      ],
+      [
+       "détails",
+       2.038,
+       2.491
+      ],
+      [
+       "!",
+       2.528,
+       2.566
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elles se sont ___ au téléphone. »",
+    "choices": [
+     "parlées",
+     "parlé",
+     "parlés",
+     "parlée"
+    ],
+    "correct": 1
+   },
+   "answer": "parlé",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/40-q.mp3",
+     "sec": 9.681156,
+     "text": "Attention, question piège. Complète : « Elles se sont ___ au téléphone. »",
+     "words": [
+      [
+       "Attention,",
+       0.32,
+       0.477
+      ],
+      [
+       "question",
+       0.527,
+       0.929
+      ],
+      [
+       "piège.",
+       1.005,
+       1.458
+      ],
+      [
+       "Complète",
+       1.646,
+       2.514
+      ],
+      [
+       ":",
+       2.665,
+       2.816
+      ],
+      [
+       "«",
+       2.835,
+       2.854
+      ],
+      [
+       "Elles",
+       2.866,
+       2.967
+      ],
+      [
+       "se",
+       3.017,
+       3.118
+      ],
+      [
+       "sont",
+       3.194,
+       3.495
+      ],
+      [
+       "___",
+       3.59,
+       3.873
+      ],
+      [
+       "au",
+       3.998,
+       4.25
+      ],
+      [
+       "téléphone.",
+       4.288,
+       7.156
+      ],
+      [
+       "»",
+       7.998,
+       9.684
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/40-a.mp3",
+     "sec": 1.484898,
+     "text": "Réponse : parlé !",
+     "words": [
+      [
+       "Réponse",
+       0.163,
+       0.566
+      ],
+      [
+       ":",
+       0.793,
+       1.019
+      ],
+      [
+       "parlé",
+       1.079,
+       1.396
+      ],
+      [
+       "!",
+       1.434,
+       1.472
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une dichotomie est…",
+    "choices": [
+     "un mélange de trois",
+     "une division en deux parties",
+     "une fusion",
+     "une addition"
+    ],
+    "correct": 1
+   },
+   "answer": "une division en deux parties",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/41-q.mp3",
+     "sec": 1.591134,
+     "text": "Une dichotomie est…",
+     "words": [
+      [
+       "Une",
+       0.137,
+       0.151
+      ],
+      [
+       "dichotomie",
+       0.226,
+       0.981
+      ],
+      [
+       "est…",
+       1.094,
+       1.585
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/41-a.mp3",
+     "sec": 2.273878,
+     "text": "une division en deux parties, évidemment !",
+     "words": [
+      [
+       "une",
+       0.122,
+       0.15
+      ],
+      [
+       "division",
+       0.217,
+       0.754
+      ],
+      [
+       "en",
+       0.804,
+       0.905
+      ],
+      [
+       "deux",
+       0.95,
+       1.131
+      ],
+      [
+       "parties,",
+       1.188,
+       1.66
+      ],
+      [
+       "évidemment",
+       1.697,
+       2.113
+      ],
+      [
+       "!",
+       2.188,
+       2.263
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la bonne orthographe ?",
+    "choices": [
+     "rododendron",
+     "rhododendrom",
+     "rhodondendron",
+     "rhododendron"
+    ],
+    "correct": 3
+   },
+   "answer": "rhododendron",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/42-q.mp3",
+     "sec": 3.035941,
+     "text": "Celle-ci est pour les experts. Quelle est la bonne orthographe ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.066,
+       0.3
+      ],
+      [
+       "est",
+       0.376,
+       0.602
+      ],
+      [
+       "pour",
+       0.617,
+       0.678
+      ],
+      [
+       "les",
+       0.715,
+       0.829
+      ],
+      [
+       "experts.",
+       0.885,
+       1.357
+      ],
+      [
+       "Quelle",
+       1.508,
+       1.885
+      ],
+      [
+       "est",
+       1.904,
+       1.961
+      ],
+      [
+       "la",
+       2.011,
+       2.112
+      ],
+      [
+       "bonne",
+       2.149,
+       2.338
+      ],
+      [
+       "orthographe",
+       2.368,
+       2.942
+      ],
+      [
+       "?",
+       2.98,
+       3.017
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/42-a.mp3",
+     "sec": 1.973016,
+     "text": "Eh oui : rhododendron !",
+     "words": [
+      [
+       "Eh",
+       0.139,
+       0.151
+      ],
+      [
+       "oui",
+       0.226,
+       0.453
+      ],
+      [
+       ":",
+       0.604,
+       0.755
+      ],
+      [
+       "rhododendron",
+       0.805,
+       1.434
+      ],
+      [
+       "!",
+       1.66,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Obnubiler quelqu'un, c'est…",
+    "choices": [
+     "l'éclairer",
+     "le consoler",
+     "le féliciter",
+     "l'obséder"
+    ],
+    "correct": 3
+   },
+   "answer": "l'obséder",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/43-q.mp3",
+     "sec": 2.443628,
+     "text": "On continue. Obnubiler quelqu'un, c'est…",
+     "words": [
+      [
+       "On",
+       0.027,
+       0.037
+      ],
+      [
+       "continue.",
+       0.078,
+       0.49
+      ],
+      [
+       "Obnubiler",
+       0.691,
+       1.546
+      ],
+      [
+       "quelqu'un,",
+       1.577,
+       1.999
+      ],
+      [
+       "c'est…",
+       2.037,
+       2.452
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/43-a.mp3",
+     "sec": 1.595442,
+     "text": "C'était l'obséder.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.377
+      ],
+      [
+       "l'obséder.",
+       0.491,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Complète : « Elle s'est ___ compte de son erreur. »",
+    "choices": [
+     "rendue",
+     "rendus",
+     "rendues",
+     "rendu"
+    ],
+    "correct": 3
+   },
+   "answer": "rendu",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/44-q.mp3",
+     "sec": 5.032381,
+     "text": "Beaucoup se trompent ici. Complète : « Elle s'est ___ compte de son erreur. »",
+     "words": [
+      [
+       "Beaucoup",
+       0.065,
+       0.302
+      ],
+      [
+       "se",
+       0.352,
+       0.453
+      ],
+      [
+       "trompent",
+       0.498,
+       0.83
+      ],
+      [
+       "ici.",
+       0.925,
+       1.509
+      ],
+      [
+       "Complète",
+       1.585,
+       2.113
+      ],
+      [
+       ":",
+       2.34,
+       2.566
+      ],
+      [
+       "«",
+       2.604,
+       2.642
+      ],
+      [
+       "Elle",
+       2.672,
+       2.792
+      ],
+      [
+       "s'est",
+       2.906,
+       3.17
+      ],
+      [
+       "___",
+       3.245,
+       3.472
+      ],
+      [
+       "compte",
+       3.525,
+       3.849
+      ],
+      [
+       "de",
+       3.925,
+       4.075
+      ],
+      [
+       "son",
+       4.132,
+       4.302
+      ],
+      [
+       "erreur.",
+       4.377,
+       4.981
+      ],
+      [
+       "»",
+       5.031,
+       5.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/44-a.mp3",
+     "sec": 1.499955,
+     "text": "Eh oui : rendu !",
+     "words": [
+      [
+       "Eh",
+       0.042,
+       0.062
+      ],
+      [
+       "oui",
+       0.119,
+       0.289
+      ],
+      [
+       ":",
+       0.402,
+       0.515
+      ],
+      [
+       "rendu",
+       0.575,
+       0.892
+      ],
+      [
+       "!",
+       1.157,
+       1.421
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un geste « ostensible » est un geste…",
+    "choices": [
+     "qu'on montre sans se cacher",
+     "secret",
+     "douteux",
+     "pointu"
+    ],
+    "correct": 0
+   },
+   "answer": "qu'on montre sans se cacher",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/45-q.mp3",
+     "sec": 2.972109,
+     "text": "Un geste « ostensible » est un geste…",
+     "words": [
+      [
+       "Un",
+       0.083,
+       0.103
+      ],
+      [
+       "geste",
+       0.209,
+       0.782
+      ],
+      [
+       "«",
+       0.858,
+       0.933
+      ],
+      [
+       "ostensible",
+       1.009,
+       1.688
+      ],
+      [
+       "»",
+       1.839,
+       1.99
+      ],
+      [
+       "est",
+       2.046,
+       2.216
+      ],
+      [
+       "un",
+       2.242,
+       2.292
+      ],
+      [
+       "geste…",
+       2.397,
+       2.971
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/45-a.mp3",
+     "sec": 3.541474,
+     "text": "La bonne réponse, c'est qu'on montre sans se cacher.",
+     "words": [
+      [
+       "La",
+       0.139,
+       0.151
+      ],
+      [
+       "bonne",
+       0.189,
+       0.377
+      ],
+      [
+       "réponse,",
+       0.434,
+       1.208
+      ],
+      [
+       "c'est",
+       1.245,
+       1.358
+      ],
+      [
+       "qu'on",
+       1.384,
+       1.585
+      ],
+      [
+       "montre",
+       1.63,
+       1.887
+      ],
+      [
+       "sans",
+       2.008,
+       2.491
+      ],
+      [
+       "se",
+       2.541,
+       2.642
+      ],
+      [
+       "cacher.",
+       2.679,
+       3.094
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelqu'un d'opiniâtre est…",
+    "choices": [
+     "peureux",
+     "indécis",
+     "lent",
+     "obstiné"
+    ],
+    "correct": 3
+   },
+   "answer": "obstiné",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/46-q.mp3",
+     "sec": 1.891361,
+     "text": "Quelqu'un d'opiniâtre est…",
+     "words": [
+      [
+       "Quelqu'un",
+       0.065,
+       0.453
+      ],
+      [
+       "d'opiniâtre",
+       0.566,
+       1.434
+      ],
+      [
+       "est…",
+       1.528,
+       1.887
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/46-a.mp3",
+     "sec": 1.814308,
+     "text": "Réponse : obstiné !",
+     "words": [
+      [
+       "Réponse",
+       0.136,
+       0.601
+      ],
+      [
+       ":",
+       0.827,
+       1.054
+      ],
+      [
+       "obstiné",
+       1.129,
+       1.658
+      ],
+      [
+       "!",
+       1.733,
+       1.809
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un anachorète est…",
+    "choices": [
+     "un voyageur",
+     "un marin",
+     "un ermite",
+     "un marchand"
+    ],
+    "correct": 2
+   },
+   "answer": "un ermite",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/47-q.mp3",
+     "sec": 2.094218,
+     "text": "Un anachorète est…",
+     "words": [
+      [
+       "Un",
+       0.17,
+       0.21
+      ],
+      [
+       "anachorète",
+       0.286,
+       1.04
+      ],
+      [
+       "est…",
+       1.191,
+       2.097
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/47-a.mp3",
+     "sec": 1.715896,
+     "text": "C'était un ermite.",
+     "words": [
+      [
+       "C'était",
+       0.027,
+       0.442
+      ],
+      [
+       "un",
+       0.492,
+       0.593
+      ],
+      [
+       "ermite.",
+       0.719,
+       1.348
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un paysage « bucolique » évoque…",
+    "choices": [
+     "la mer",
+     "la vie champêtre",
+     "la grande ville",
+     "la haute montagne"
+    ],
+    "correct": 1
+   },
+   "answer": "la vie champêtre",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/48-q.mp3",
+     "sec": 4.065488,
+     "text": "Celle-ci est pour les experts. Un paysage « bucolique » évoque…",
+     "words": [
+      [
+       "Celle-ci",
+       0.05,
+       0.359
+      ],
+      [
+       "est",
+       0.435,
+       0.661
+      ],
+      [
+       "pour",
+       0.692,
+       0.812
+      ],
+      [
+       "les",
+       0.85,
+       0.963
+      ],
+      [
+       "experts.",
+       1.039,
+       1.756
+      ],
+      [
+       "Un",
+       1.819,
+       1.944
+      ],
+      [
+       "paysage",
+       2.02,
+       2.548
+      ],
+      [
+       "«",
+       2.586,
+       2.624
+      ],
+      [
+       "bucolique",
+       2.674,
+       3.227
+      ],
+      [
+       "»",
+       3.303,
+       3.378
+      ],
+      [
+       "évoque…",
+       3.492,
+       4.058
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/48-a.mp3",
+     "sec": 1.961655,
+     "text": "Eh oui : la vie champêtre !",
+     "words": [
+      [
+       "Eh",
+       0.114,
+       0.133
+      ],
+      [
+       "oui",
+       0.171,
+       0.284
+      ],
+      [
+       ":",
+       0.473,
+       0.662
+      ],
+      [
+       "la",
+       0.712,
+       0.813
+      ],
+      [
+       "vie",
+       0.907,
+       1.19
+      ],
+      [
+       "champêtre",
+       1.253,
+       1.869
+      ],
+      [
+       "!",
+       1.907,
+       1.945
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un mot « hypocoristique » est…",
+    "choices": [
+     "une insulte",
+     "un mot très savant",
+     "un mot inventé",
+     "un diminutif affectueux"
+    ],
+    "correct": 3
+   },
+   "answer": "un diminutif affectueux",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/49-q.mp3",
+     "sec": 1.847642,
+     "text": "Un mot « hypocoristique » est…",
+     "words": [
+      [
+       "Un",
+       0.09,
+       0.11
+      ],
+      [
+       "mot",
+       0.167,
+       0.337
+      ],
+      [
+       "«",
+       0.374,
+       0.412
+      ],
+      [
+       "hypocoristique",
+       0.475,
+       1.393
+      ],
+      [
+       "»",
+       1.469,
+       1.544
+      ],
+      [
+       "est…",
+       1.601,
+       1.846
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/49-a.mp3",
+     "sec": 3.392971,
+     "text": "La bonne réponse, c'est un diminutif affectueux.",
+     "words": [
+      [
+       "La",
+       0.113,
+       0.214
+      ],
+      [
+       "bonne",
+       0.252,
+       0.441
+      ],
+      [
+       "réponse,",
+       0.507,
+       1.045
+      ],
+      [
+       "c'est",
+       1.158,
+       1.422
+      ],
+      [
+       "un",
+       1.472,
+       1.573
+      ],
+      [
+       "diminutif",
+       1.636,
+       2.403
+      ],
+      [
+       "affectueux.",
+       2.489,
+       3.384
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne cacochyme est…",
+    "choices": [
+     "faible et maladive",
+     "bavarde",
+     "gourmande",
+     "joyeuse"
+    ],
+    "correct": 0
+   },
+   "answer": "faible et maladive",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/50-q.mp3",
+     "sec": 1.851859,
+     "text": "Une personne cacochyme est…",
+     "words": [
+      [
+       "Une",
+       0.09,
+       0.113
+      ],
+      [
+       "personne",
+       0.163,
+       0.566
+      ],
+      [
+       "cacochyme",
+       0.622,
+       1.245
+      ],
+      [
+       "est…",
+       1.377,
+       1.849
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/50-a.mp3",
+     "sec": 2.054127,
+     "text": "faible et maladive, évidemment !",
+     "words": [
+      [
+       "faible",
+       0.134,
+       0.377
+      ],
+      [
+       "et",
+       0.453,
+       0.604
+      ],
+      [
+       "maladive,",
+       0.679,
+       1.358
+      ],
+      [
+       "évidemment",
+       1.509,
+       1.962
+      ],
+      [
+       "!",
+       2,
+       2.038
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un mot « sesquipédale » est un mot…",
+    "choices": [
+     "très long",
+     "très court",
+     "très ancien",
+     "très rare"
+    ],
+    "correct": 0
+   },
+   "answer": "très long",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/51-q.mp3",
+     "sec": 2.61737,
+     "text": "Un mot « sesquipédale » est un mot…",
+     "words": [
+      [
+       "Un",
+       0.092,
+       0.112
+      ],
+      [
+       "mot",
+       0.169,
+       0.338
+      ],
+      [
+       "«",
+       0.527,
+       0.716
+      ],
+      [
+       "sesquipédale",
+       0.791,
+       1.697
+      ],
+      [
+       "»",
+       1.81,
+       1.923
+      ],
+      [
+       "est",
+       1.98,
+       2.15
+      ],
+      [
+       "un",
+       2.175,
+       2.225
+      ],
+      [
+       "mot…",
+       2.301,
+       2.603
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/51-a.mp3",
+     "sec": 1.485193,
+     "text": "C'était très long.",
+     "words": [
+      [
+       "C'était",
+       0.078,
+       0.493
+      ],
+      [
+       "très",
+       0.568,
+       0.87
+      ],
+      [
+       "long.",
+       0.916,
+       1.248
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un ukase est…",
+    "choices": [
+     "une danse russe",
+     "un ordre arbitraire",
+     "un fruit",
+     "une monnaie"
+    ],
+    "correct": 1
+   },
+   "answer": "un ordre arbitraire",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/52-q.mp3",
+     "sec": 1.657891,
+     "text": "Un ukase est…",
+     "words": [
+      [
+       "Un",
+       0.048,
+       0.061
+      ],
+      [
+       "ukase",
+       0.186,
+       0.815
+      ],
+      [
+       "est…",
+       0.966,
+       1.646
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/52-a.mp3",
+     "sec": 2.505601,
+     "text": "Réponse : un ordre arbitraire !",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "un",
+       1.132,
+       1.283
+      ],
+      [
+       "ordre",
+       1.34,
+       1.585
+      ],
+      [
+       "arbitraire",
+       1.648,
+       2.34
+      ],
+      [
+       "!",
+       2.415,
+       2.491
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une logomachie est…",
+    "choices": [
+     "la peur des mots",
+     "une dispute sur les mots",
+     "un jeu de lettres",
+     "un dictionnaire"
+    ],
+    "correct": 1
+   },
+   "answer": "une dispute sur les mots",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/53-q.mp3",
+     "sec": 4.382789,
+     "text": "Facile, celle-là. Enfin, je crois. Une logomachie est…",
+     "words": [
+      [
+       "Facile,",
+       0.259,
+       0.453
+      ],
+      [
+       "celle-là.",
+       0.491,
+       0.906
+      ],
+      [
+       "Enfin,",
+       1.082,
+       1.585
+      ],
+      [
+       "je",
+       1.635,
+       1.736
+      ],
+      [
+       "crois.",
+       1.774,
+       2.113
+      ],
+      [
+       "Une",
+       2.283,
+       2.792
+      ],
+      [
+       "logomachie",
+       2.868,
+       3.698
+      ],
+      [
+       "est…",
+       3.83,
+       4.377
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/53-a.mp3",
+     "sec": 2.341905,
+     "text": "Réponse : une dispute sur les mots !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "une",
+       1.113,
+       1.283
+      ],
+      [
+       "dispute",
+       1.349,
+       1.811
+      ],
+      [
+       "sur",
+       1.849,
+       1.962
+      ],
+      [
+       "les",
+       1.981,
+       2.038
+      ],
+      [
+       "mots",
+       2.083,
+       2.264
+      ],
+      [
+       "!",
+       2.302,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une personne atrabilaire est…",
+    "choices": [
+     "d'humeur noire et irritable",
+     "très joyeuse",
+     "très gourmande",
+     "très forte"
+    ],
+    "correct": 0
+   },
+   "answer": "d'humeur noire et irritable",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/54-q.mp3",
+     "sec": 1.973061,
+     "text": "Une personne atrabilaire est…",
+     "words": [
+      [
+       "Une",
+       0.064,
+       0.075
+      ],
+      [
+       "personne",
+       0.117,
+       0.453
+      ],
+      [
+       "atrabilaire",
+       0.509,
+       1.358
+      ],
+      [
+       "est…",
+       1.472,
+       1.962
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/54-a.mp3",
+     "sec": 2.430454,
+     "text": "C'était d'humeur noire et irritable.",
+     "words": [
+      [
+       "C'était",
+       0.035,
+       0.299
+      ],
+      [
+       "d'humeur",
+       0.375,
+       0.828
+      ],
+      [
+       "noire",
+       0.878,
+       1.356
+      ],
+      [
+       "et",
+       1.431,
+       1.582
+      ],
+      [
+       "irritable.",
+       1.658,
+       2.413
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Une anacoluthe est…",
+    "choices": [
+     "une rupture de construction",
+     "un accent",
+     "une rime",
+     "un pronom"
+    ],
+    "correct": 0
+   },
+   "answer": "une rupture de construction",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/55-q.mp3",
+     "sec": 1.78619,
+     "text": "Une anacoluthe est…",
+     "words": [
+      [
+       "Une",
+       0.175,
+       0.204
+      ],
+      [
+       "anacoluthe",
+       0.279,
+       1.034
+      ],
+      [
+       "est…",
+       1.109,
+       1.562
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/55-a.mp3",
+     "sec": 2.424966,
+     "text": "une rupture de construction, évidemment !",
+     "words": [
+      [
+       "une",
+       0.198,
+       0.226
+      ],
+      [
+       "rupture",
+       0.292,
+       0.755
+      ],
+      [
+       "de",
+       0.805,
+       0.906
+      ],
+      [
+       "construction,",
+       0.946,
+       1.585
+      ],
+      [
+       "évidemment",
+       1.736,
+       2.264
+      ],
+      [
+       "!",
+       2.34,
+       2.415
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un thaumaturge est…",
+    "choices": [
+     "un marchand",
+     "un faiseur de prodiges",
+     "un savant",
+     "un voleur"
+    ],
+    "correct": 1
+   },
+   "answer": "un faiseur de prodiges",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/56-q.mp3",
+     "sec": 1.679751,
+     "text": "Un thaumaturge est…",
+     "words": [
+      [
+       "Un",
+       0.068,
+       0.088
+      ],
+      [
+       "thaumaturge",
+       0.145,
+       1.069
+      ],
+      [
+       "est…",
+       1.201,
+       1.673
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/56-a.mp3",
+     "sec": 2.269796,
+     "text": "Eh oui : un faiseur de prodiges !",
+     "words": [
+      [
+       "Eh",
+       0.065,
+       0.077
+      ],
+      [
+       "oui",
+       0.134,
+       0.304
+      ],
+      [
+       ":",
+       0.493,
+       0.681
+      ],
+      [
+       "un",
+       0.731,
+       0.832
+      ],
+      [
+       "faiseur",
+       0.908,
+       1.36
+      ],
+      [
+       "de",
+       1.41,
+       1.511
+      ],
+      [
+       "prodiges",
+       1.557,
+       2.115
+      ],
+      [
+       "!",
+       2.191,
+       2.266
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "« Coccinelle » s'écrit avec un seul c.",
+   "answer": false,
+   "fact": "Il s'écrit avec 2 c et 2 l, et il vient du latin coccineus, qui veut dire écarlate.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/i0-q.mp3",
+     "sec": 4.95712,
+     "text": "Intermède ! Vrai ou faux : « Coccinelle » s'écrit avec un seul c.",
+     "words": [
+      [
+       "Intermède",
+       0.173,
+       0.654
+      ],
+      [
+       "!",
+       0.918,
+       1.182
+      ],
+      [
+       "Vrai",
+       1.22,
+       1.484
+      ],
+      [
+       "ou",
+       1.559,
+       1.71
+      ],
+      [
+       "faux",
+       1.786,
+       2.088
+      ],
+      [
+       ":",
+       2.276,
+       2.464
+      ],
+      [
+       "«",
+       2.465,
+       2.466
+      ],
+      [
+       "Coccinelle",
+       2.503,
+       3.22
+      ],
+      [
+       "»",
+       3.295,
+       3.371
+      ],
+      [
+       "s'écrit",
+       3.409,
+       3.748
+      ],
+      [
+       "avec",
+       3.793,
+       3.975
+      ],
+      [
+       "un",
+       4.076,
+       4.276
+      ],
+      [
+       "seul",
+       4.337,
+       4.578
+      ],
+      [
+       "c.",
+       4.692,
+       4.956
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/i0-a.mp3",
+     "sec": 1.177982,
+     "text": "C'est faux !",
+     "words": [
+      [
+       "C'est",
+       0.016,
+       0.205
+      ],
+      [
+       "faux",
+       0.296,
+       0.658
+      ],
+      [
+       "!",
+       0.733,
+       1.186
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-17-vocabulaire/i0-f.mp3",
+     "sec": 7.329773,
+     "text": "Détail amusant : Il s'écrit avec 2 c et 2 l, et il vient du latin coccineus, qui veut dire écarlate.",
+     "words": [
+      [
+       "Détail",
+       0.068,
+       0.226
+      ],
+      [
+       "amusant",
+       0.276,
+       0.604
+      ],
+      [
+       ":",
+       0.755,
+       0.906
+      ],
+      [
+       "Il",
+       0.956,
+       1.057
+      ],
+      [
+       "s'écrit",
+       1.094,
+       1.434
+      ],
+      [
+       "avec",
+       1.479,
+       1.66
+      ],
+      [
+       "2",
+       1.962,
+       2.113
+      ],
+      [
+       "c",
+       2.264,
+       2.415
+      ],
+      [
+       "et",
+       2.516,
+       2.717
+      ],
+      [
+       "2",
+       2.868,
+       2.943
+      ],
+      [
+       "l,",
+       3.094,
+       3.472
+      ],
+      [
+       "et",
+       3.497,
+       3.547
+      ],
+      [
+       "il",
+       3.597,
+       3.698
+      ],
+      [
+       "vient",
+       3.736,
+       3.925
+      ],
+      [
+       "du",
+       3.95,
+       4
+      ],
+      [
+       "latin",
+       4.063,
+       4.377
+      ],
+      [
+       "coccineus,",
+       4.528,
+       5.623
+      ],
+      [
+       "qui",
+       5.67,
+       5.811
+      ],
+      [
+       "veut",
+       5.842,
+       5.962
+      ],
+      [
+       "dire",
+       6.023,
+       6.264
+      ],
+      [
+       "écarlate.",
+       6.491,
+       7.321
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Par quel mot court désigne-t-on une voiture ?",
+   "choices": [
+    "Auto",
+    "Autre",
+    "Autel"
+   ],
+   "correct": 0,
+   "fact": "Automobile veut dire qui se meut seul, c'est-à-dire sans qu'on le tire.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/i1-q.mp3",
+     "sec": 6.919637,
+     "text": "Intermède ! Par quel mot court désigne-t-on une voiture : Auto, Autre, ou Autel ?",
+     "words": [
+      [
+       "Intermède",
+       0.102,
+       0.502
+      ],
+      [
+       "!",
+       0.841,
+       1.181
+      ],
+      [
+       "Par",
+       1.219,
+       1.332
+      ],
+      [
+       "quel",
+       1.377,
+       1.558
+      ],
+      [
+       "mot",
+       1.596,
+       1.709
+      ],
+      [
+       "court",
+       1.797,
+       2.238
+      ],
+      [
+       "désigne-t-on",
+       2.332,
+       3.068
+      ],
+      [
+       "une",
+       3.143,
+       3.37
+      ],
+      [
+       "voiture",
+       3.464,
+       4.124
+      ],
+      [
+       ":",
+       4.351,
+       4.577
+      ],
+      [
+       "Auto,",
+       4.653,
+       5.03
+      ],
+      [
+       "Autre,",
+       5.2,
+       5.973
+      ],
+      [
+       "ou",
+       6.037,
+       6.162
+      ],
+      [
+       "Autel",
+       6.256,
+       6.766
+      ],
+      [
+       "?",
+       6.841,
+       6.917
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/i1-a.mp3",
+     "sec": 0.668435,
+     "text": "C'est Auto !",
+     "words": [
+      [
+       "C'est",
+       0.059,
+       0.142
+      ],
+      [
+       "Auto",
+       0.203,
+       0.444
+      ],
+      [
+       "!",
+       0.557,
+       0.67
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-17-vocabulaire/i1-f.mp3",
+     "sec": 6.099796,
+     "text": "Pour briller en société : Automobile veut dire qui se meut seul, c'est-à-dire sans qu'on le tire.",
+     "words": [
+      [
+       "Pour",
+       0.1,
+       0.125
+      ],
+      [
+       "briller",
+       0.175,
+       0.502
+      ],
+      [
+       "en",
+       0.552,
+       0.653
+      ],
+      [
+       "société",
+       0.719,
+       1.181
+      ],
+      [
+       ":",
+       1.37,
+       1.559
+      ],
+      [
+       "Automobile",
+       1.607,
+       2.087
+      ],
+      [
+       "veut",
+       2.117,
+       2.238
+      ],
+      [
+       "dire",
+       2.329,
+       2.691
+      ],
+      [
+       "qui",
+       2.785,
+       3.068
+      ],
+      [
+       "se",
+       3.118,
+       3.219
+      ],
+      [
+       "meut",
+       3.269,
+       3.521
+      ],
+      [
+       "seul,",
+       3.596,
+       3.974
+      ],
+      [
+       "c'est-à-dire",
+       4.162,
+       4.804
+      ],
+      [
+       "sans",
+       4.91,
+       5.332
+      ],
+      [
+       "qu'on",
+       5.358,
+       5.483
+      ],
+      [
+       "le",
+       5.509,
+       5.559
+      ],
+      [
+       "tire.",
+       5.649,
+       6.087
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le pluriel de « cheval » est « chevals ».",
+   "answer": false,
+   "fact": "Les mots en al font souvent leur pluriel en aux : des chevaux, des journaux, des animaux.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/i2-q.mp3",
+     "sec": 6.098277,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : Le pluriel de « cheval » est « chevals ».",
+     "words": [
+      [
+       "Petit",
+       0.162,
+       0.2
+      ],
+      [
+       "bonus",
+       0.263,
+       0.578
+      ],
+      [
+       "entre",
+       0.628,
+       0.879
+      ],
+      [
+       "deux",
+       0.91,
+       1.03
+      ],
+      [
+       "questions",
+       1.083,
+       1.559
+      ],
+      [
+       ":",
+       1.785,
+       2.011
+      ],
+      [
+       "Vrai",
+       2.049,
+       2.313
+      ],
+      [
+       "ou",
+       2.414,
+       2.615
+      ],
+      [
+       "faux",
+       2.676,
+       2.917
+      ],
+      [
+       ":",
+       3.144,
+       3.37
+      ],
+      [
+       "Le",
+       3.42,
+       3.521
+      ],
+      [
+       "pluriel",
+       3.546,
+       3.898
+      ],
+      [
+       "de",
+       3.948,
+       4.049
+      ],
+      [
+       "«",
+       4.087,
+       4.125
+      ],
+      [
+       "cheval",
+       4.162,
+       4.578
+      ],
+      [
+       "»",
+       4.766,
+       4.955
+      ],
+      [
+       "est",
+       4.993,
+       5.106
+      ],
+      [
+       "«",
+       5.219,
+       5.332
+      ],
+      [
+       "chevals",
+       5.37,
+       5.936
+      ],
+      [
+       "».",
+       5.986,
+       6.087
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/i2-a.mp3",
+     "sec": 1.276599,
+     "text": "C'est faux !",
+     "words": [
+      [
+       "C'est",
+       0.178,
+       0.442
+      ],
+      [
+       "faux",
+       0.503,
+       0.744
+      ],
+      [
+       "!",
+       1.008,
+       1.273
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-17-vocabulaire/i2-f.mp3",
+     "sec": 6.869297,
+     "text": "Tu savais ? Les mots en al font souvent leur pluriel en aux : des chevaux, des journaux, des animaux.",
+     "words": [
+      [
+       "Tu",
+       0.065,
+       0.075
+      ],
+      [
+       "savais",
+       0.132,
+       0.377
+      ],
+      [
+       "?",
+       0.566,
+       0.755
+      ],
+      [
+       "Les",
+       0.811,
+       0.981
+      ],
+      [
+       "mots",
+       1.011,
+       1.132
+      ],
+      [
+       "en",
+       1.182,
+       1.283
+      ],
+      [
+       "al",
+       1.434,
+       1.736
+      ],
+      [
+       "font",
+       1.826,
+       2.189
+      ],
+      [
+       "souvent",
+       2.236,
+       2.566
+      ],
+      [
+       "leur",
+       2.596,
+       2.717
+      ],
+      [
+       "pluriel",
+       2.767,
+       3.245
+      ],
+      [
+       "en",
+       3.295,
+       3.396
+      ],
+      [
+       "aux",
+       3.491,
+       3.774
+      ],
+      [
+       ":",
+       4.075,
+       4.377
+      ],
+      [
+       "des",
+       4.415,
+       4.528
+      ],
+      [
+       "chevaux,",
+       4.585,
+       5.208
+      ],
+      [
+       "des",
+       5.245,
+       5.358
+      ],
+      [
+       "journaux,",
+       5.434,
+       6.189
+      ],
+      [
+       "des",
+       6.208,
+       6.264
+      ],
+      [
+       "animaux.",
+       6.34,
+       6.868
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle orthographe est la bonne ?",
+   "choices": [
+    "Dévelloper",
+    "Développer",
+    "Développé"
+   ],
+   "correct": 1,
+   "fact": "Développer s'écrit avec 2 p et un seul l, comme envelopper s'écrit avec 2 p.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/i3-q.mp3",
+     "sec": 8.917256,
+     "text": "On souffle une seconde. Quelle orthographe est la bonne : Dévelloper, Développer, ou Développé ?",
+     "words": [
+      [
+       "On",
+       0.065,
+       0.075
+      ],
+      [
+       "souffle",
+       0.151,
+       0.528
+      ],
+      [
+       "une",
+       0.547,
+       0.604
+      ],
+      [
+       "seconde.",
+       0.654,
+       1.509
+      ],
+      [
+       "Quelle",
+       1.61,
+       1.887
+      ],
+      [
+       "orthographe",
+       1.932,
+       2.415
+      ],
+      [
+       "est",
+       2.434,
+       2.491
+      ],
+      [
+       "la",
+       2.541,
+       2.642
+      ],
+      [
+       "bonne",
+       2.717,
+       3.094
+      ],
+      [
+       ":",
+       3.472,
+       3.849
+      ],
+      [
+       "Dévelloper,",
+       3.899,
+       4.981
+      ],
+      [
+       "Développer,",
+       5.132,
+       5.962
+      ],
+      [
+       "ou",
+       6.189,
+       6.642
+      ],
+      [
+       "Développé",
+       6.818,
+       7.547
+      ],
+      [
+       "?",
+       7.623,
+       7.698
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/i3-a.mp3",
+     "sec": 1.592698,
+     "text": "Eh oui : Développer !",
+     "words": [
+      [
+       "Eh",
+       0.139,
+       0.151
+      ],
+      [
+       "oui",
+       0.208,
+       0.377
+      ],
+      [
+       ":",
+       0.566,
+       0.755
+      ],
+      [
+       "Développer",
+       0.805,
+       1.283
+      ],
+      [
+       "!",
+       1.547,
+       1.811
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-17-vocabulaire/i3-f.mp3",
+     "sec": 7.026009,
+     "text": "Et pour la culture : Développer s'écrit avec 2 p et un seul l, comme envelopper s'écrit avec 2 p.",
+     "words": [
+      [
+       "Et",
+       0.065,
+       0.075
+      ],
+      [
+       "pour",
+       0.106,
+       0.226
+      ],
+      [
+       "la",
+       0.252,
+       0.302
+      ],
+      [
+       "culture",
+       0.377,
+       0.906
+      ],
+      [
+       ":",
+       1.057,
+       1.208
+      ],
+      [
+       "Développer",
+       1.258,
+       1.736
+      ],
+      [
+       "s'écrit",
+       1.811,
+       2.189
+      ],
+      [
+       "avec",
+       2.234,
+       2.415
+      ],
+      [
+       "2",
+       2.566,
+       2.717
+      ],
+      [
+       "p",
+       2.83,
+       2.943
+      ],
+      [
+       "et",
+       3.044,
+       3.245
+      ],
+      [
+       "un",
+       3.321,
+       3.472
+      ],
+      [
+       "seul",
+       3.532,
+       3.774
+      ],
+      [
+       "l,",
+       3.962,
+       4.226
+      ],
+      [
+       "comme",
+       4.327,
+       4.83
+      ],
+      [
+       "envelopper",
+       4.906,
+       5.66
+      ],
+      [
+       "s'écrit",
+       5.811,
+       6.264
+      ],
+      [
+       "avec",
+       6.309,
+       6.491
+      ],
+      [
+       "2",
+       6.642,
+       6.792
+      ],
+      [
+       "p.",
+       6.868,
+       7.019
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le féminin de « tigre » est « tigrette ».",
+   "answer": false,
+   "fact": "Le féminin de tigre est tigresse, comme lion donne lionne et prince donne princesse.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/i4-q.mp3",
+     "sec": 5.879728,
+     "text": "On souffle une seconde. Vrai ou faux : Le féminin de « tigre » est « tigrette ».",
+     "words": [
+      [
+       "On",
+       0.047,
+       0.067
+      ],
+      [
+       "souffle",
+       0.105,
+       0.369
+      ],
+      [
+       "une",
+       0.388,
+       0.444
+      ],
+      [
+       "seconde.",
+       0.494,
+       1.312
+      ],
+      [
+       "Vrai",
+       1.52,
+       1.954
+      ],
+      [
+       "ou",
+       2.079,
+       2.331
+      ],
+      [
+       "faux",
+       2.391,
+       2.633
+      ],
+      [
+       ":",
+       2.935,
+       3.237
+      ],
+      [
+       "Le",
+       3.287,
+       3.388
+      ],
+      [
+       "féminin",
+       3.463,
+       3.916
+      ],
+      [
+       "de",
+       3.941,
+       3.991
+      ],
+      [
+       "«",
+       4.067,
+       4.142
+      ],
+      [
+       "tigre",
+       4.18,
+       4.52
+      ],
+      [
+       "»",
+       4.633,
+       4.746
+      ],
+      [
+       "est",
+       4.803,
+       4.973
+      ],
+      [
+       "«",
+       5.086,
+       5.199
+      ],
+      [
+       "tigrette",
+       5.237,
+       5.803
+      ],
+      [
+       "».",
+       5.828,
+       5.878
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/i4-a.mp3",
+     "sec": 0.988322,
+     "text": "C'est faux !",
+     "words": [
+      [
+       "C'est",
+       0.146,
+       0.316
+      ],
+      [
+       "faux",
+       0.362,
+       0.543
+      ],
+      [
+       "!",
+       0.769,
+       0.996
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-17-vocabulaire/i4-f.mp3",
+     "sec": 8.394807,
+     "text": "Pour briller en société : Le féminin de tigre est tigresse, comme lion donne lionne et prince donne princesse.",
+     "words": [
+      [
+       "Pour",
+       0.126,
+       0.151
+      ],
+      [
+       "briller",
+       0.201,
+       0.604
+      ],
+      [
+       "en",
+       0.629,
+       0.679
+      ],
+      [
+       "société",
+       0.745,
+       1.208
+      ],
+      [
+       ":",
+       1.509,
+       1.811
+      ],
+      [
+       "Le",
+       1.837,
+       1.887
+      ],
+      [
+       "féminin",
+       1.962,
+       2.415
+      ],
+      [
+       "de",
+       2.465,
+       2.566
+      ],
+      [
+       "tigre",
+       2.642,
+       3.019
+      ],
+      [
+       "est",
+       3.113,
+       3.396
+      ],
+      [
+       "tigresse,",
+       3.509,
+       4.302
+      ],
+      [
+       "comme",
+       4.39,
+       4.83
+      ],
+      [
+       "lion",
+       4.891,
+       5.132
+      ],
+      [
+       "donne",
+       5.195,
+       5.509
+      ],
+      [
+       "lionne",
+       5.57,
+       5.962
+      ],
+      [
+       "et",
+       6.139,
+       6.491
+      ],
+      [
+       "prince",
+       6.576,
+       7.094
+      ],
+      [
+       "donne",
+       7.17,
+       7.547
+      ],
+      [
+       "princesse.",
+       7.613,
+       8.377
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel est le contraire de « courageux » ?",
+   "choices": [
+    "Joyeux",
+    "Peureux",
+    "Heureux"
+   ],
+   "correct": 1,
+   "fact": "Le mot courage vient de cœur, car on pensait que c'était là qu'il se trouvait.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/i5-q.mp3",
+     "sec": 7.623923,
+     "text": "Une question à côté, pour le plaisir : Quel est le contraire de « courageux » : Joyeux, Peureux, ou Heureux ?",
+     "words": [
+      [
+       "Une",
+       0.128,
+       0.151
+      ],
+      [
+       "question",
+       0.185,
+       0.453
+      ],
+      [
+       "à",
+       0.491,
+       0.528
+      ],
+      [
+       "côté,",
+       0.589,
+       0.906
+      ],
+      [
+       "pour",
+       0.921,
+       0.981
+      ],
+      [
+       "le",
+       1.007,
+       1.057
+      ],
+      [
+       "plaisir",
+       1.113,
+       1.509
+      ],
+      [
+       ":",
+       1.698,
+       1.887
+      ],
+      [
+       "Quel",
+       1.912,
+       2.038
+      ],
+      [
+       "est",
+       2.075,
+       2.189
+      ],
+      [
+       "le",
+       2.214,
+       2.264
+      ],
+      [
+       "contraire",
+       2.329,
+       2.943
+      ],
+      [
+       "de",
+       3.069,
+       3.321
+      ],
+      [
+       "«",
+       3.396,
+       3.472
+      ],
+      [
+       "courageux",
+       3.538,
+       4.075
+      ],
+      [
+       "»",
+       4.245,
+       4.415
+      ],
+      [
+       ":",
+       4.585,
+       4.755
+      ],
+      [
+       "Joyeux,",
+       4.83,
+       5.283
+      ],
+      [
+       "Peureux,",
+       5.484,
+       6.491
+      ],
+      [
+       "ou",
+       6.592,
+       6.792
+      ],
+      [
+       "Heureux",
+       6.918,
+       7.472
+      ],
+      [
+       "?",
+       7.547,
+       7.623
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/i5-a.mp3",
+     "sec": 1.651088,
+     "text": "Réponse : Peureux.",
+     "words": [
+      [
+       "Réponse",
+       0.201,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "Peureux.",
+       1.107,
+       1.66
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-17-vocabulaire/i5-f.mp3",
+     "sec": 6.185918,
+     "text": "Petit bonus : Le mot courage vient de cœur, car on pensait que c'était là qu'il se trouvait.",
+     "words": [
+      [
+       "Petit",
+       0.101,
+       0.139
+      ],
+      [
+       "bonus",
+       0.202,
+       0.516
+      ],
+      [
+       ":",
+       0.743,
+       0.969
+      ],
+      [
+       "Le",
+       1.019,
+       1.12
+      ],
+      [
+       "mot",
+       1.177,
+       1.347
+      ],
+      [
+       "courage",
+       1.422,
+       1.95
+      ],
+      [
+       "vient",
+       2.051,
+       2.554
+      ],
+      [
+       "de",
+       2.63,
+       2.781
+      ],
+      [
+       "cœur,",
+       2.894,
+       3.46
+      ],
+      [
+       "car",
+       3.573,
+       3.913
+      ],
+      [
+       "on",
+       3.963,
+       4.064
+      ],
+      [
+       "pensait",
+       4.109,
+       4.441
+      ],
+      [
+       "que",
+       4.516,
+       4.743
+      ],
+      [
+       "c'était",
+       4.781,
+       5.045
+      ],
+      [
+       "là",
+       5.12,
+       5.271
+      ],
+      [
+       "qu'il",
+       5.321,
+       5.573
+      ],
+      [
+       "se",
+       5.623,
+       5.724
+      ],
+      [
+       "trouvait.",
+       5.754,
+       6.177
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "« Chaussette » s'écrit avec 2 s et 2 t.",
+   "answer": true,
+   "fact": "Son nom vient du latin calceus, qui désignait un soulier ou une chaussure.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-17-vocabulaire/i6-q.mp3",
+     "sec": 6.421995,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : « Chaussette » s'écrit avec 2 s et 2 t.",
+     "words": [
+      [
+       "Une",
+       0.128,
+       0.151
+      ],
+      [
+       "question",
+       0.192,
+       0.528
+      ],
+      [
+       "à",
+       0.566,
+       0.604
+      ],
+      [
+       "côté,",
+       0.664,
+       1.057
+      ],
+      [
+       "pour",
+       1.072,
+       1.132
+      ],
+      [
+       "le",
+       1.158,
+       1.208
+      ],
+      [
+       "plaisir",
+       1.264,
+       1.66
+      ],
+      [
+       ":",
+       1.925,
+       2.189
+      ],
+      [
+       "Vrai",
+       2.226,
+       2.415
+      ],
+      [
+       "ou",
+       2.441,
+       2.491
+      ],
+      [
+       "faux",
+       2.566,
+       2.868
+      ],
+      [
+       ":",
+       3.057,
+       3.245
+      ],
+      [
+       "«",
+       3.283,
+       3.321
+      ],
+      [
+       "Chaussette",
+       3.346,
+       3.849
+      ],
+      [
+       "»",
+       3.925,
+       4
+      ],
+      [
+       "s'écrit",
+       4.075,
+       4.453
+      ],
+      [
+       "avec",
+       4.513,
+       4.755
+      ],
+      [
+       "2",
+       4.906,
+       5.132
+      ],
+      [
+       "s",
+       5.283,
+       5.434
+      ],
+      [
+       "et",
+       5.535,
+       5.736
+      ],
+      [
+       "2",
+       5.887,
+       5.962
+      ],
+      [
+       "t.",
+       6.113,
+       6.415
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-17-vocabulaire/i6-a.mp3",
+     "sec": 1.357415,
+     "text": "Eh oui, c'est vrai.",
+     "words": [
+      [
+       "Eh",
+       0.115,
+       0.134
+      ],
+      [
+       "oui,",
+       0.191,
+       0.436
+      ],
+      [
+       "c'est",
+       0.512,
+       0.663
+      ],
+      [
+       "vrai.",
+       0.723,
+       1.04
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-17-vocabulaire/i6-f.mp3",
+     "sec": 6.041542,
+     "text": "Et pour la culture : Son nom vient du latin calceus, qui désignait un soulier ou une chaussure.",
+     "words": [
+      [
+       "Et",
+       0.065,
+       0.075
+      ],
+      [
+       "pour",
+       0.106,
+       0.226
+      ],
+      [
+       "la",
+       0.252,
+       0.302
+      ],
+      [
+       "culture",
+       0.358,
+       0.755
+      ],
+      [
+       ":",
+       0.981,
+       1.208
+      ],
+      [
+       "Son",
+       1.264,
+       1.434
+      ],
+      [
+       "nom",
+       1.491,
+       1.66
+      ],
+      [
+       "vient",
+       1.698,
+       1.887
+      ],
+      [
+       "du",
+       1.937,
+       2.038
+      ],
+      [
+       "latin",
+       2.101,
+       2.415
+      ],
+      [
+       "calceus,",
+       2.509,
+       3.396
+      ],
+      [
+       "qui",
+       3.472,
+       3.698
+      ],
+      [
+       "désignait",
+       3.755,
+       4.226
+      ],
+      [
+       "un",
+       4.302,
+       4.453
+      ],
+      [
+       "soulier",
+       4.509,
+       4.906
+      ],
+      [
+       "ou",
+       5.057,
+       5.358
+      ],
+      [
+       "une",
+       5.377,
+       5.434
+      ],
+      [
+       "chaussure.",
+       5.472,
+       6.038
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "57 questions de VOCABULAIRE, 4 réponses, une seule bonne. Compte tes points. Niveaux : 16 facile, 16 moyens, 17 difficiles, 8 impossible. Compte tes points et dis ton score en commentaire 👇 Le meilleur score est félicité dès le lendemain 🏆\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com/quiz-du-jour/2026-11-17-vocabulaire\n🔔 Pense à t'abonner, ça aide la chaîne.\n\n#quiz #vocabulaire #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n04:19 Niveau moyen\n08:42 Niveau difficile\n13:57 Niveau impossible\n16:48 Ton score\n16:59 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "vocabulaire",
+   "orthographe",
+   "langue française",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Culture G",
+   "line2": "57 MOTS",
+   "emoji": "🧠",
+   "sticker": "99 % ÉCHOUENT",
+   "layouts": [
+    1,
+    2
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "99 % échouent à la 8e 😱 57 MOTS de FRANÇAIS que 90 % ratent #Shorts",
+  "shortDescription": "Vidéo complète avec les 57 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "3 SECONDES",
+   "line": "par question, pas une de plus ⏱️"
+  },
+  "short2": {
+   "title": "Mode EXPERT activé 🧠🔥 57 MOTS de FRANÇAIS que 90 % ratent #Shorts",
+   "description": "Tu veux la réponse ? Elle est dans la vidéo complète (57 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "NIVEAU IMPOSSIBLE",
+   "line": "personne ne finit ce Short 😱"
+  },
+  "short3": {
+   "title": "8 questions, 3 secondes chacune ⏱️ 57 MOTS de FRANÇAIS que 90 % ratent #Shorts",
+   "description": "La réponse + 57 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "ÇA SE CORSE",
+   "line": "8 questions, 3 secondes chacune ⏱️"
+  },
+  "social": {
+   "caption": "57 MOTS à deviner aujourd'hui sur YouQwiz 🎯 Ton score en commentaire !",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "vocabulaire",
+    "orthographe"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 259.56666666666666,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 522.3666666666667,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 837.8,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 1008.3333333333334,
+    "title": "Ton score"
+   },
+   {
+    "at": 1019.5666666666667,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/1dc6cc820acd47d2.mp3",
+   "sec": 2.192313,
+   "text": "Niveau facile. Tranquille pour commencer.",
+   "words": [
+    [
+     "Niveau",
+     0.221,
+     0.289
+    ],
+    [
+     "facile.",
+     0.354,
+     1.044
+    ],
+    [
+     "Tranquille",
+     1.104,
+     1.497
+    ],
+    [
+     "pour",
+     1.542,
+     1.723
+    ],
+    [
+     "commencer.",
+     1.738,
+     2.176
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/562d27da613d6568.mp3",
+   "sec": 3.392041,
+   "text": "Niveau moyen. Là, il faut réfléchir un peu.",
+   "words": [
+    [
+     "Niveau",
+     0.113,
+     0.453
+    ],
+    [
+     "moyen.",
+     0.541,
+     1.283
+    ],
+    [
+     "Là,",
+     1.434,
+     1.811
+    ],
+    [
+     "il",
+     1.861,
+     1.962
+    ],
+    [
+     "faut",
+     1.992,
+     2.113
+    ],
+    [
+     "réfléchir",
+     2.163,
+     2.642
+    ],
+    [
+     "un",
+     2.667,
+     2.717
+    ],
+    [
+     "peu.",
+     2.774,
+     3.396
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/d3bd957d532e8868.mp3",
+   "sec": 4.910317,
+   "text": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère.",
+   "words": [
+    [
+     "Niveau",
+     0.136,
+     0.377
+    ],
+    [
+     "difficile.",
+     0.445,
+     1.132
+    ],
+    [
+     "Ici,",
+     1.396,
+     1.887
+    ],
+    [
+     "beaucoup",
+     1.954,
+     2.491
+    ],
+    [
+     "abandonnent.",
+     2.547,
+     3.358
+    ],
+    [
+     "Pas",
+     3.425,
+     3.623
+    ],
+    [
+     "toi,",
+     3.679,
+     3.887
+    ],
+    [
+     "j'espère.",
+     3.906,
+     4.453
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/e36437e7e34316c6.mp3",
+   "sec": 2.922766,
+   "text": "Dernier niveau : le boss. Bonne chance.",
+   "words": [
+    [
+     "Dernier",
+     0.202,
+     0.345
+    ],
+    [
+     "niveau",
+     0.389,
+     0.647
+    ],
+    [
+     ":",
+     0.873,
+     1.1
+    ],
+    [
+     "le",
+     1.125,
+     1.175
+    ],
+    [
+     "boss.",
+     1.266,
+     1.704
+    ],
+    [
+     "Bonne",
+     1.855,
+     2.383
+    ],
+    [
+     "chance.",
+     2.437,
+     2.911
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/337535e57436b915.mp3",
+   "sec": 5.369025,
+   "text": "Compte tes points et écris ton score en commentaire : le meilleur score est félicité dès demain !",
+   "words": [
+    [
+     "Compte",
+     0.059,
+     0.221
+    ],
+    [
+     "tes",
+     0.24,
+     0.297
+    ],
+    [
+     "points",
+     0.351,
+     0.674
+    ],
+    [
+     "et",
+     0.75,
+     0.901
+    ],
+    [
+     "écris",
+     0.976,
+     1.278
+    ],
+    [
+     "ton",
+     1.297,
+     1.353
+    ],
+    [
+     "score",
+     1.417,
+     1.731
+    ],
+    [
+     "en",
+     1.781,
+     1.882
+    ],
+    [
+     "commentaire",
+     1.932,
+     2.485
+    ],
+    [
+     ":",
+     2.674,
+     2.863
+    ],
+    [
+     "le",
+     2.938,
+     3.089
+    ],
+    [
+     "meilleur",
+     3.115,
+     3.316
+    ],
+    [
+     "score",
+     3.391,
+     3.768
+    ],
+    [
+     "est",
+     3.844,
+     4.07
+    ],
+    [
+     "félicité",
+     4.12,
+     4.674
+    ],
+    [
+     "dès",
+     4.75,
+     4.976
+    ],
+    [
+     "demain",
+     5.014,
+     5.278
+    ],
+    [
+     "!",
+     5.316,
+     5.353
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/ab071e4d28ebf644.mp3",
+   "sec": 3.707823,
+   "text": "Rejoins les joueurs YouQwiz : abonne-toi, le prochain quiz arrive demain.",
+   "words": [
+    [
+     "Rejoins",
+     0.201,
+     0.377
+    ],
+    [
+     "les",
+     0.396,
+     0.453
+    ],
+    [
+     "joueurs",
+     0.491,
+     0.755
+    ],
+    [
+     "YouQwiz",
+     0.811,
+     1.283
+    ],
+    [
+     ":",
+     1.434,
+     1.585
+    ],
+    [
+     "abonne-toi,",
+     1.61,
+     2.264
+    ],
+    [
+     "le",
+     2.34,
+     2.491
+    ],
+    [
+     "prochain",
+     2.528,
+     2.792
+    ],
+    [
+     "quiz",
+     2.853,
+     3.094
+    ],
+    [
+     "arrive",
+     3.138,
+     3.396
+    ],
+    [
+     "demain.",
+     3.434,
+     3.698
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/a35f2bbf15425966.mp3",
+   "sec": 3.53127,
+   "text": "Partage cette vidéo à quelqu'un qui pense faire mieux que toi. On verra.",
+   "words": [
+    [
+     "Partage",
+     0.171,
+     0.358
+    ],
+    [
+     "cette",
+     0.384,
+     0.509
+    ],
+    [
+     "vidéo",
+     0.559,
+     0.811
+    ],
+    [
+     "à",
+     0.887,
+     0.962
+    ],
+    [
+     "quelqu'un",
+     0.992,
+     1.339
+    ],
+    [
+     "qui",
+     1.396,
+     1.566
+    ],
+    [
+     "pense",
+     1.604,
+     1.792
+    ],
+    [
+     "faire",
+     1.83,
+     2.019
+    ],
+    [
+     "mieux",
+     2.044,
+     2.17
+    ],
+    [
+     "que",
+     2.207,
+     2.321
+    ],
+    [
+     "toi.",
+     2.396,
+     3.075
+    ],
+    [
+     "On",
+     3.101,
+     3.151
+    ],
+    [
+     "verra.",
+     3.188,
+     3.528
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/c14b1324579c94db.mp3",
+   "sec": 3.584512,
+   "text": "Content de te revoir sur YouQwiz ! Échauffe tes neurones, c'est parti !",
+   "words": [
+    [
+     "Content",
+     0.194,
+     0.246
+    ],
+    [
+     "de",
+     0.272,
+     0.322
+    ],
+    [
+     "te",
+     0.372,
+     0.473
+    ],
+    [
+     "revoir",
+     0.523,
+     0.85
+    ],
+    [
+     "sur",
+     0.888,
+     1.001
+    ],
+    [
+     "YouQwiz",
+     1.058,
+     1.529
+    ],
+    [
+     "!",
+     1.643,
+     1.756
+    ],
+    [
+     "Échauffe",
+     1.831,
+     2.133
+    ],
+    [
+     "tes",
+     2.152,
+     2.209
+    ],
+    [
+     "neurones,",
+     2.254,
+     2.888
+    ],
+    [
+     "c'est",
+     2.926,
+     3.114
+    ],
+    [
+     "parti",
+     3.164,
+     3.416
+    ],
+    [
+     "!",
+     3.492,
+     3.567
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-17-vocabulaire/intro.mp3",
+   "sec": 3.855329,
+   "text": "57 Mots de Français que 90 % ratent ! À toi de jouer !",
+   "words": [
+    [
+     "57",
+     0.34,
+     0.528
+    ],
+    [
+     "Mots",
+     0.566,
+     0.679
+    ],
+    [
+     "de",
+     0.705,
+     0.755
+    ],
+    [
+     "Français",
+     0.805,
+     1.208
+    ],
+    [
+     "que",
+     1.245,
+     1.358
+    ],
+    [
+     "90",
+     1.509,
+     2.189
+    ],
+    [
+     "%",
+     2.34,
+     2.491
+    ],
+    [
+     "ratent",
+     2.566,
+     2.868
+    ],
+    [
+     "!",
+     3.057,
+     3.245
+    ],
+    [
+     "À",
+     3.283,
+     3.321
+    ],
+    [
+     "toi",
+     3.358,
+     3.472
+    ],
+    [
+     "de",
+     3.522,
+     3.623
+    ],
+    [
+     "jouer",
+     3.648,
+     3.774
+    ],
+    [
+     "!",
+     3.811,
+     3.849
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/14d1c20211c61508.mp3",
+   "sec": 7.25424,
+   "text": "Teste tes amis : qui te connaît vraiment ? Crée ton quiz perso en deux minutes, gratuit, sur youqwiz point com.",
+   "words": [
+    [
+     "Teste",
+     0.191,
+     0.302
+    ],
+    [
+     "tes",
+     0.34,
+     0.453
+    ],
+    [
+     "amis",
+     0.513,
+     0.755
+    ],
+    [
+     ":",
+     0.943,
+     1.132
+    ],
+    [
+     "qui",
+     1.189,
+     1.358
+    ],
+    [
+     "te",
+     1.459,
+     1.66
+    ],
+    [
+     "connaît",
+     1.698,
+     2.038
+    ],
+    [
+     "vraiment",
+     2.079,
+     2.415
+    ],
+    [
+     "?",
+     2.755,
+     3.094
+    ],
+    [
+     "Crée",
+     3.12,
+     3.321
+    ],
+    [
+     "ton",
+     3.377,
+     3.547
+    ],
+    [
+     "quiz",
+     3.608,
+     3.849
+    ],
+    [
+     "perso",
+     3.937,
+     4.377
+    ],
+    [
+     "en",
+     4.453,
+     4.604
+    ],
+    [
+     "deux",
+     4.634,
+     4.755
+    ],
+    [
+     "minutes,",
+     4.792,
+     5.283
+    ],
+    [
+     "gratuit,",
+     5.34,
+     5.962
+    ],
+    [
+     "sur",
+     6.019,
+     6.189
+    ],
+    [
+     "youqwiz",
+     6.264,
+     6.717
+    ],
+    [
+     "point",
+     6.729,
+     6.792
+    ],
+    [
+     "com.",
+     6.887,
+     7.245
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/c6ec491e8cfd81d8.mp3",
+   "sec": 3.109637,
+   "text": "Choisis ton prochain défi en cliquant sur une des deux vidéos !",
+   "words": [
+    [
+     "Choisis",
+     0.128,
+     0.302
+    ],
+    [
+     "ton",
+     0.358,
+     0.528
+    ],
+    [
+     "prochain",
+     0.566,
+     0.83
+    ],
+    [
+     "défi",
+     0.906,
+     1.208
+    ],
+    [
+     "en",
+     1.333,
+     1.585
+    ],
+    [
+     "cliquant",
+     1.623,
+     1.962
+    ],
+    [
+     "sur",
+     2.038,
+     2.264
+    ],
+    [
+     "une",
+     2.302,
+     2.415
+    ],
+    [
+     "des",
+     2.453,
+     2.566
+    ],
+    [
+     "deux",
+     2.596,
+     2.717
+    ],
+    [
+     "vidéos",
+     2.76,
+     3.019
+    ],
+    [
+     "!",
+     3.057,
+     3.094
+    ]
+   ]
+  }
+ }
+}
