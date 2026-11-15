@@ -1,4 +1,4 @@
-// Remplace la miniature de toutes les vidéos longues de la file (gabarit « choc » v5 du 05/11/2026 : A = mascotte défi, B = mascotte choc, alternance par jour comme upload.mjs).
+// Remplace la miniature de toutes les vidéos longues de la file (gabarit « une idée » v4 du 15/11/2026 : A = chat, B = poussin, alternance par jour comme upload.mjs).
 // Usage (workflow maintenance, script=retheme-thumbnails.mjs).
 import { execSync } from "node:child_process";
 import { createReadStream, existsSync, mkdirSync } from "node:fs";
@@ -9,7 +9,7 @@ if (!(YT_CLIENT_ID && YT_CLIENT_SECRET && YT_REFRESH_TOKEN)) throw new Error("se
 const oauth = new google.auth.OAuth2(YT_CLIENT_ID, YT_CLIENT_SECRET);
 oauth.setCredentials({ refresh_token: YT_REFRESH_TOKEN });
 const yt = google.youtube({ version: "v3", auth: oauth });
-const VERSION = "choc2";
+const VERSION = "idee4";
 const queue = readJson(p("data/state/queue.json"));
 const thumbs = readJson(p("data/state/thumbnails.json"), {});
 for (const r of queue.published) {
@@ -25,7 +25,8 @@ for (const r of queue.published) {
   writeJson(p("out", r.id, "props-thumb.json"), { episode: ep, variant: variant === "A" ? 0 : 1 });
   const f = p("out", r.id, "thumb-choc.png");
   execSync(`npx remotion still src/index.ts ThumbA "${f}" --props="${p("out", r.id, "props-thumb.json")}" --log=error`, { cwd: p(), stdio: "inherit" });
-  await yt.thumbnails.set({ videoId: r.longId, media: { body: createReadStream(f) } });
+  try { await yt.thumbnails.set({ videoId: r.longId, media: { body: createReadStream(f) } }); }
+  catch (e) { console.log(`${r.id} (${r.longId}) : miniature refusée (${e.message})`); continue; }
   r.thumbnail = true;
   r.thumbVariant = variant;
   r.thumbVersion = VERSION;
