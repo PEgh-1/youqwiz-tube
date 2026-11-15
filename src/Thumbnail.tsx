@@ -94,7 +94,8 @@ const NumberCard: React.FC<{ ep: Episode; variant: number }> = ({ ep, variant })
       <Band parts={txt(ep).culture} />
       <Obj name={o[0]} h={230} rot={-8} style={{ left: 40, top: 185 }} />
       <Obj name={o[1]} h={220} rot={8} style={{ right: 40, top: 180 }} />
-      <Obj name={o[2]} h={200} rot={5} style={{ right: 70, top: 420 }} />
+      {/* troisième objet : au-dessus de la pastille de durée YouTube (bas droit) */}
+      <Obj name={o[2]} h={175} rot={5} style={{ right: 80, top: 395 }} />
       <Big size={n.length > 2 ? 360 : 400} color={YELLOW} px={22} style={{ left: 0, right: 0, top: n.length > 2 ? 160 : 140, textAlign: "center" }}>{n}</Big>
       <Big size={fit(noun, 760, 165)} style={{ left: 230, right: 290, top: 535, textAlign: "center" }}>{noun}</Big>
       <Corner variant={variant} size={190} />

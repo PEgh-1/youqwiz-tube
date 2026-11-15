@@ -9,7 +9,7 @@ if (!(YT_CLIENT_ID && YT_CLIENT_SECRET && YT_REFRESH_TOKEN)) throw new Error("se
 const oauth = new google.auth.OAuth2(YT_CLIENT_ID, YT_CLIENT_SECRET);
 oauth.setCredentials({ refresh_token: YT_REFRESH_TOKEN });
 const yt = google.youtube({ version: "v3", auth: oauth });
-const VERSION = "idee4";
+const VERSION = "idee4b";
 const queue = readJson(p("data/state/queue.json"));
 const thumbs = readJson(p("data/state/thumbnails.json"), {});
 for (const r of queue.published) {
