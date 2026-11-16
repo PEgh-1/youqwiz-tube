@@ -1,14 +1,530 @@
 {
- "week": "2026-11-02",
+ "week": "2026-11-16",
  "period": {
-  "start": "2026-10-05",
-  "end": "2026-11-02"
+  "start": "2026-10-19",
+  "end": "2026-11-16"
  },
- "totals": null,
+ "totals": {
+  "n": 38,
+  "views": 7559,
+  "ctr": null,
+  "avgPct": 36
+ },
  "byVariant": {
-  "A": null,
-  "B": null
+  "A": {
+   "n": 7,
+   "views": 140,
+   "ctr": null,
+   "avgPct": 12.1
+  },
+  "B": {
+   "n": 6,
+   "views": 160,
+   "ctr": null,
+   "avgPct": 17.2
+  }
  },
- "byPillar": {},
- "videos": []
+ "byPillar": {
+  "culture-generale": {
+   "n": 2,
+   "views": 56,
+   "ctr": null,
+   "avgPct": 18.8
+  },
+  "generations": {
+   "n": 2,
+   "views": 81,
+   "ctr": null,
+   "avgPct": 22.9
+  },
+  "tu-preferes": {
+   "n": 3,
+   "views": 68,
+   "ctr": null,
+   "avgPct": 12.7
+  },
+  "intrus": {
+   "n": 1,
+   "views": 32,
+   "ctr": null,
+   "avgPct": 13.1
+  },
+  "pays-sans-voyelles": {
+   "n": 2,
+   "views": 32,
+   "ctr": null,
+   "avgPct": 14.1
+  },
+  "drapeaux": {
+   "n": 2,
+   "views": 30,
+   "ctr": null,
+   "avgPct": 11.7
+  },
+  "mots-emojis": {
+   "n": 1,
+   "views": 1,
+   "ctr": null,
+   "avgPct": 2
+  }
+ },
+ "videos": [
+  {
+   "videoId": "O9g6Y8EQsEY",
+   "views": 1008,
+   "minutes": 84,
+   "avgSec": 12,
+   "avgPct": 42.51,
+   "subs": 1,
+   "likes": 6,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "QDXKX8ezDrc",
+   "views": 879,
+   "minutes": 181,
+   "avgSec": 21,
+   "avgPct": 48.32,
+   "subs": 5,
+   "likes": 13,
+   "comments": 0,
+   "shares": 1
+  },
+  {
+   "videoId": "gdgHW210nd0",
+   "views": 785,
+   "minutes": 182,
+   "avgSec": 23,
+   "avgPct": 46.85,
+   "subs": 3,
+   "likes": 11,
+   "comments": 1,
+   "shares": 2
+  },
+  {
+   "videoId": "H3JlC5Wc0uU",
+   "views": 713,
+   "minutes": 119,
+   "avgSec": 26,
+   "avgPct": 46.84,
+   "subs": 2,
+   "likes": 9,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "60DF3ZS5w0E",
+   "views": 668,
+   "minutes": 110,
+   "avgSec": 24,
+   "avgPct": 46.71,
+   "subs": 1,
+   "likes": 3,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "B0A5ENuKETg",
+   "views": 449,
+   "minutes": 93,
+   "avgSec": 25,
+   "avgPct": 56.54,
+   "subs": 3,
+   "likes": 5,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "KDtITtp2A2A",
+   "views": 422,
+   "minutes": 76,
+   "avgSec": 31,
+   "avgPct": 65.36,
+   "subs": 0,
+   "likes": 7,
+   "comments": 1,
+   "shares": 0
+  },
+  {
+   "videoId": "Kcktuy-iGw4",
+   "views": 345,
+   "minutes": 67,
+   "avgSec": 21,
+   "avgPct": 44.72,
+   "subs": 0,
+   "likes": 3,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "IMeJJjQUZGU",
+   "views": 342,
+   "minutes": 33,
+   "avgSec": 18,
+   "avgPct": 31.44,
+   "subs": 0,
+   "likes": 5,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "L2styetrfwk",
+   "views": 263,
+   "minutes": 29,
+   "avgSec": 18,
+   "avgPct": 52.54,
+   "subs": 1,
+   "likes": 5,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "qSzXW9Ztf08",
+   "views": 241,
+   "minutes": 70,
+   "avgSec": 39,
+   "avgPct": 73.13,
+   "subs": 0,
+   "likes": 6,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "iIL6ajfP2IU",
+   "views": 222,
+   "minutes": 27,
+   "avgSec": 23,
+   "avgPct": 53.400000000000006,
+   "subs": 0,
+   "likes": 5,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "1Iq5jPnbWcM",
+   "views": 222,
+   "minutes": 27,
+   "avgSec": 18,
+   "avgPct": 52.61,
+   "subs": 3,
+   "likes": 6,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "OGyfmhhcLis",
+   "views": 158,
+   "minutes": 21,
+   "avgSec": 33,
+   "avgPct": 73.48,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "3iBXgT20odU",
+   "views": 149,
+   "minutes": 16,
+   "avgSec": 19,
+   "avgPct": 47.39,
+   "subs": 0,
+   "likes": 3,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "AqQxVlGUAg0",
+   "views": 126,
+   "minutes": 34,
+   "avgSec": 30,
+   "avgPct": 57.25,
+   "subs": 0,
+   "likes": 1,
+   "comments": 1,
+   "shares": 0
+  },
+  {
+   "videoId": "uuZUJ2bmEF0",
+   "views": 119,
+   "minutes": 22,
+   "avgSec": 22,
+   "avgPct": 72.89,
+   "subs": 1,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "gyQ5X4jNmn0",
+   "views": 110,
+   "minutes": 22,
+   "avgSec": 26,
+   "avgPct": 76.61,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "9Yfp0-Th5d0",
+   "episode": "2026-11-04-culture-generale",
+   "pillar": "culture-generale",
+   "thumbVariant": "B",
+   "views": 52,
+   "minutes": 166,
+   "avgSec": 269,
+   "avgPct": 37.06,
+   "subs": 0,
+   "likes": 1,
+   "comments": 0,
+   "shares": 1
+  },
+  {
+   "videoId": "cqHgnYH4Btk",
+   "episode": "2026-11-01-generations",
+   "pillar": "generations",
+   "thumbVariant": "A",
+   "views": 46,
+   "minutes": 59,
+   "avgSec": 194,
+   "avgPct": 32.86,
+   "subs": 0,
+   "likes": 2,
+   "comments": 0,
+   "shares": 2
+  },
+  {
+   "videoId": "BwgyzRkZTrw",
+   "episode": "2026-11-03-tu-preferes",
+   "pillar": "tu-preferes",
+   "thumbVariant": "A",
+   "views": 38,
+   "minutes": 33,
+   "avgSec": 70,
+   "avgPct": 10.7,
+   "subs": 1,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "C2h6SVnJZG4",
+   "episode": "2026-11-08-generations",
+   "pillar": "generations",
+   "thumbVariant": "B",
+   "views": 35,
+   "minutes": 45,
+   "avgSec": 128,
+   "avgPct": 12.91,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "KKoa6OIrDF8",
+   "episode": "2026-11-06-intrus",
+   "pillar": "intrus",
+   "thumbVariant": "B",
+   "views": 32,
+   "minutes": 44,
+   "avgSec": 85,
+   "avgPct": 13.140000000000002,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "2j_R7o-V1cw",
+   "episode": "2026-11-02-pays-sans-voyelles",
+   "pillar": "pays-sans-voyelles",
+   "thumbVariant": "B",
+   "views": 31,
+   "minutes": 77,
+   "avgSec": 186,
+   "avgPct": 28.1,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 1
+  },
+  {
+   "videoId": "A_zS3etvJBU",
+   "episode": "2026-11-05-drapeaux",
+   "pillar": "drapeaux",
+   "thumbVariant": "A",
+   "views": 23,
+   "minutes": 53,
+   "avgSec": 138,
+   "avgPct": 20.81,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "RK0NDG6-Bz8",
+   "views": 21,
+   "minutes": 1,
+   "avgSec": 17,
+   "avgPct": 36.38,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "y8QtP-3yY6g",
+   "episode": "2026-11-07-tu-preferes",
+   "pillar": "tu-preferes",
+   "thumbVariant": "A",
+   "views": 21,
+   "minutes": 30,
+   "avgSec": 102,
+   "avgPct": 15.47,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "zzD37hNxySs",
+   "views": 14,
+   "minutes": 5,
+   "avgSec": 23,
+   "avgPct": 77.02,
+   "subs": 1,
+   "likes": 1,
+   "comments": 0,
+   "shares": 2
+  },
+  {
+   "videoId": "3Kmc54e5T80",
+   "episode": "2026-11-10-tu-preferes",
+   "pillar": "tu-preferes",
+   "thumbVariant": "B",
+   "views": 9,
+   "minutes": 19,
+   "avgSec": 166,
+   "avgPct": 11.8,
+   "subs": 0,
+   "likes": 0,
+   "comments": 1,
+   "shares": 0
+  },
+  {
+   "videoId": "1Zn3OFPOuUk",
+   "episode": "2026-11-09-drapeaux",
+   "pillar": "drapeaux",
+   "thumbVariant": "A",
+   "views": 7,
+   "minutes": 3,
+   "avgSec": 32,
+   "avgPct": 2.5,
+   "subs": 0,
+   "likes": 0,
+   "comments": 1,
+   "shares": 0
+  },
+  {
+   "videoId": "mm5jkaJc2Sc",
+   "episode": "2026-11-11-culture-generale",
+   "pillar": "culture-generale",
+   "thumbVariant": "A",
+   "views": 4,
+   "minutes": 0,
+   "avgSec": 8,
+   "avgPct": 0.58,
+   "subs": 0,
+   "likes": 0,
+   "comments": 1,
+   "shares": 0
+  },
+  {
+   "videoId": "d9aenirEXiU",
+   "views": 1,
+   "minutes": 0,
+   "avgSec": 15,
+   "avgPct": 34.59,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "5_vM8l5kS7Y",
+   "views": 1,
+   "minutes": 0,
+   "avgSec": 14,
+   "avgPct": 32.46,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "y7jVfumRZRk",
+   "episode": "2026-11-12-pays-sans-voyelles",
+   "pillar": "pays-sans-voyelles",
+   "thumbVariant": "B",
+   "views": 1,
+   "minutes": 0,
+   "avgSec": 1,
+   "avgPct": 0.14,
+   "subs": 0,
+   "likes": 0,
+   "comments": 1,
+   "shares": 0
+  },
+  {
+   "videoId": "VF-GNJD-Yds",
+   "views": 1,
+   "minutes": 0,
+   "avgSec": 4,
+   "avgPct": 9.12,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "y3exIcWpw_w",
+   "episode": "2026-11-13-mots-emojis",
+   "pillar": "mots-emojis",
+   "thumbVariant": "A",
+   "views": 1,
+   "minutes": 0,
+   "avgSec": 17,
+   "avgPct": 2.04,
+   "subs": 0,
+   "likes": 0,
+   "comments": 1,
+   "shares": 0
+  },
+  {
+   "videoId": "4ATm55zIZOY",
+   "views": 0,
+   "minutes": 0,
+   "avgSec": 0,
+   "avgPct": 0,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "videoId": "OCORh1rBYgw",
+   "views": 0,
+   "minutes": 0,
+   "avgSec": 0,
+   "avgPct": 0,
+   "subs": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0
+  }
+ ]
 }
