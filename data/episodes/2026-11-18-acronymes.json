@@ -1,0 +1,7551 @@
+{
+ "id": "2026-11-18-acronymes",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 3,
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "reveal": "flip",
+  "card": "square",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Nouveau jour, nouveau quiz !",
+   "voice": "Content de te revoir sur YouQwiz ! Nouveau jour, nouveau quiz !"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "🎯 Objectif : finir sans perdre ta série",
+  "subscribe": {
+   "title": "Un quiz par jour, gratuit",
+   "sub": "abonne-toi pour ne pas rater le prochain 🔔",
+   "voice": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain."
+  },
+  "levels": {
+   "facile": {
+    "card": "On s'échauffe 🔥",
+    "voice": "Niveau facile. On s'échauffe !"
+   },
+   "moyen": {
+    "card": "Ça se corse 👀",
+    "voice": "Niveau moyen. Ça se corse !"
+   },
+   "difficile": {
+    "card": "Concentration maximale 🧠",
+    "voice": "Niveau difficile. Concentration maximale."
+   },
+   "impossible": {
+    "card": "Personne ne les a tous 🤯",
+    "voice": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire."
+   }
+  },
+  "scoreVoice": "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !",
+  "outro": {
+   "title": "Ton score en commentaire 👇 le meilleur est félicité demain 🏆",
+   "voice": "Écris ton score en commentaire, le meilleur est félicité dès demain. Abonne-toi, et à demain !"
+  },
+  "packshot": {
+   "headline": "Crée GRATUITEMENT tes quiz personnalisés",
+   "sub": "à partager avec tes amis 🎉",
+   "cta": "👉 youqwiz.com",
+   "voice": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com."
+  },
+  "rule": "4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono ⭐",
+  "ruleVoice": "Quatre réponses, une seule bonne. Réponds avant la fin du chrono, et compte tes points !",
+  "nextQuizVoice": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !"
+ },
+ "title": "Peux-tu réussir ce quiz de ACRONYMES ? 💬🔤🤔 50 questions, 4 niveaux",
+ "question": "",
+ "intro": {
+  "hook": "50 ACRONYMES & ABRÉVIATIONS : tu les connais ?",
+  "sub": "4 réponses, une seule bonne 🧠"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « OSEF » ?",
+    "choices": [
+     "On s'est fait",
+     "On sort en fête",
+     "On s'en fout",
+     "On saute en famille"
+    ],
+    "correct": 2
+   },
+   "answer": "On s'en fout",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/0-q.mp3",
+     "sec": 1.639116,
+     "text": "Que veut dire « OSEF » ?",
+     "words": [
+      [
+       "Que",
+       0.075,
+       0.097
+      ],
+      [
+       "veut",
+       0.127,
+       0.248
+      ],
+      [
+       "dire",
+       0.309,
+       0.55
+      ],
+      [
+       "«",
+       0.626,
+       0.701
+      ],
+      [
+       "OSEF",
+       0.814,
+       1.305
+      ],
+      [
+       "»",
+       1.38,
+       1.456
+      ],
+      [
+       "?",
+       1.833,
+       2.21
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/0-a.mp3",
+     "sec": 2.268503,
+     "text": "Bravo si tu avais dit On s'en fout.",
+     "words": [
+      [
+       "Bravo",
+       0.139,
+       0.453
+      ],
+      [
+       "si",
+       0.503,
+       0.604
+      ],
+      [
+       "tu",
+       0.654,
+       0.755
+      ],
+      [
+       "avais",
+       0.78,
+       0.981
+      ],
+      [
+       "dit",
+       1.019,
+       1.132
+      ],
+      [
+       "On",
+       1.283,
+       1.585
+      ],
+      [
+       "s'en",
+       1.66,
+       1.962
+      ],
+      [
+       "fout.",
+       2.008,
+       2.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « DIY » ?",
+    "choices": [
+     "Dîner immédiat en yoga",
+     "Donne-moi un yaourt",
+     "Do it yourself (fais-le toi-même)",
+     "Dessine ton yacht"
+    ],
+    "correct": 2
+   },
+   "answer": "Do it yourself (fais-le toi-même)",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/1-q.mp3",
+     "sec": 3.930045,
+     "text": "Attention, question piège. Que veut dire « DIY » ?",
+     "words": [
+      [
+       "Attention,",
+       0.293,
+       0.453
+      ],
+      [
+       "question",
+       0.503,
+       0.906
+      ],
+      [
+       "piège.",
+       0.982,
+       1.434
+      ],
+      [
+       "Que",
+       1.585,
+       2.038
+      ],
+      [
+       "veut",
+       2.084,
+       2.265
+      ],
+      [
+       "dire",
+       2.34,
+       2.642
+      ],
+      [
+       "«",
+       2.793,
+       2.944
+      ],
+      [
+       "DIY",
+       3.151,
+       3.774
+      ],
+      [
+       "»",
+       3.812,
+       3.85
+      ],
+      [
+       "?",
+       3.887,
+       3.925
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/1-a.mp3",
+     "sec": 3.472834,
+     "text": "Bravo si tu avais dit Do it yourself (fais-le toi-même).",
+     "words": [
+      [
+       "Bravo",
+       0.375,
+       0.453
+      ],
+      [
+       "si",
+       0.503,
+       0.604
+      ],
+      [
+       "tu",
+       0.654,
+       0.755
+      ],
+      [
+       "avais",
+       0.805,
+       0.981
+      ],
+      [
+       "dit",
+       1.019,
+       1.132
+      ],
+      [
+       "Do",
+       1.258,
+       1.509
+      ],
+      [
+       "it",
+       1.559,
+       1.66
+      ],
+      [
+       "yourself",
+       1.727,
+       2.264
+      ],
+      [
+       "(fais-le",
+       2.491,
+       2.868
+      ],
+      [
+       "toi-même).",
+       2.925,
+       3.472
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TVA » ?",
+    "choices": [
+     "Taxe sur la valeur ajoutée",
+     "Taxe véhicule automobile",
+     "Tarif de vente annuel",
+     "Taxe variable appliquée"
+    ],
+    "correct": 0
+   },
+   "answer": "Taxe sur la valeur ajoutée",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/2-q.mp3",
+     "sec": 1.440272,
+     "text": "Que veut dire « TVA » ?",
+     "words": [
+      [
+       "Que",
+       0.051,
+       0.066
+      ],
+      [
+       "veut",
+       0.111,
+       0.292
+      ],
+      [
+       "dire",
+       0.337,
+       0.518
+      ],
+      [
+       "«",
+       0.594,
+       0.669
+      ],
+      [
+       "TVA",
+       0.82,
+       1.198
+      ],
+      [
+       "»",
+       1.235,
+       1.273
+      ],
+      [
+       "?",
+       1.462,
+       1.65
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/2-a.mp3",
+     "sec": 2.262993,
+     "text": "C'était Taxe sur la valeur ajoutée.",
+     "words": [
+      [
+       "C'était",
+       0.142,
+       0.453
+      ],
+      [
+       "Taxe",
+       0.547,
+       0.906
+      ],
+      [
+       "sur",
+       0.962,
+       1.132
+      ],
+      [
+       "la",
+       1.182,
+       1.283
+      ],
+      [
+       "valeur",
+       1.326,
+       1.585
+      ],
+      [
+       "ajoutée.",
+       1.635,
+       2.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « CD » ?",
+    "choices": [
+     "Carte de départ",
+     "Câble de données",
+     "Disque compact",
+     "Cassette digitale"
+    ],
+    "correct": 2
+   },
+   "answer": "Disque compact",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/3-q.mp3",
+     "sec": 1.843333,
+     "text": "Que veut dire « CD » ?",
+     "words": [
+      [
+       "Que",
+       0.155,
+       0.183
+      ],
+      [
+       "veut",
+       0.213,
+       0.334
+      ],
+      [
+       "dire",
+       0.379,
+       0.56
+      ],
+      [
+       "«",
+       0.674,
+       0.787
+      ],
+      [
+       "CD",
+       0.912,
+       1.164
+      ],
+      [
+       "»",
+       1.24,
+       1.315
+      ],
+      [
+       "?",
+       1.579,
+       1.843
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/3-a.mp3",
+     "sec": 2.272245,
+     "text": "Réponse : Disque compact !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "Disque",
+       1.113,
+       1.358
+      ],
+      [
+       "compact",
+       1.453,
+       2.113
+      ],
+      [
+       "!",
+       2.189,
+       2.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « JPP » (argot) ?",
+    "choices": [
+     "Je pars pas",
+     "Jamais pas pressé",
+     "Je prends pas",
+     "J'en peux plus"
+    ],
+    "correct": 3
+   },
+   "answer": "J'en peux plus",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/4-q.mp3",
+     "sec": 2.427732,
+     "text": "Que veut dire « JPP » (argot) ?",
+     "words": [
+      [
+       "Que",
+       0.064,
+       0.075
+      ],
+      [
+       "veut",
+       0.121,
+       0.302
+      ],
+      [
+       "dire",
+       0.362,
+       0.604
+      ],
+      [
+       "«",
+       0.755,
+       0.906
+      ],
+      [
+       "JPP",
+       1.019,
+       1.585
+      ],
+      [
+       "»",
+       1.736,
+       1.887
+      ],
+      [
+       "(argot)",
+       1.925,
+       2.377
+      ],
+      [
+       "?",
+       2.396,
+       2.415
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/4-a.mp3",
+     "sec": 1.936644,
+     "text": "Eh oui : J'en peux plus !",
+     "words": [
+      [
+       "Eh",
+       0.095,
+       0.115
+      ],
+      [
+       "oui",
+       0.171,
+       0.341
+      ],
+      [
+       ":",
+       0.643,
+       0.945
+      ],
+      [
+       "J'en",
+       0.982,
+       1.171
+      ],
+      [
+       "peux",
+       1.216,
+       1.398
+      ],
+      [
+       "plus",
+       1.488,
+       1.85
+      ],
+      [
+       "!",
+       1.888,
+       1.926
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « FOMO » ?",
+    "choices": [
+     "Faim de macarons",
+     "Peur de rater quelque chose",
+     "Fête en mode off",
+     "Fatigué mais optimiste"
+    ],
+    "correct": 1
+   },
+   "answer": "Peur de rater quelque chose",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/5-q.mp3",
+     "sec": 2.533719,
+     "text": "Nouvelle question. Que veut dire « FOMO » ?",
+     "words": [
+      [
+       "Nouvelle",
+       0.068,
+       0.178
+      ],
+      [
+       "question.",
+       0.228,
+       0.706
+      ],
+      [
+       "Que",
+       0.819,
+       1.159
+      ],
+      [
+       "veut",
+       1.189,
+       1.31
+      ],
+      [
+       "dire",
+       1.385,
+       1.687
+      ],
+      [
+       "«",
+       1.838,
+       1.989
+      ],
+      [
+       "FOMO",
+       2.027,
+       2.366
+      ],
+      [
+       "»",
+       2.404,
+       2.442
+      ],
+      [
+       "?",
+       2.517,
+       2.593
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/5-a.mp3",
+     "sec": 2.338685,
+     "text": "Eh oui : Peur de rater quelque chose !",
+     "words": [
+      [
+       "Eh",
+       0.049,
+       0.061
+      ],
+      [
+       "oui",
+       0.099,
+       0.212
+      ],
+      [
+       ":",
+       0.401,
+       0.59
+      ],
+      [
+       "Peur",
+       0.64,
+       0.892
+      ],
+      [
+       "de",
+       0.967,
+       1.118
+      ],
+      [
+       "rater",
+       1.193,
+       1.571
+      ],
+      [
+       "quelque",
+       1.599,
+       1.797
+      ],
+      [
+       "chose",
+       1.873,
+       2.25
+      ],
+      [
+       "!",
+       2.288,
+       2.326
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « MDR » (SMS) ?",
+    "choices": [
+     "Mort de rire",
+     "Merci de répondre",
+     "Mon dîner est rapide",
+     "Mal de reins"
+    ],
+    "correct": 0
+   },
+   "answer": "Mort de rire",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/6-q.mp3",
+     "sec": 3.427619,
+     "text": "On continue. Que veut dire « MDR » (SMS) ?",
+     "words": [
+      [
+       "On",
+       0.002,
+       0.013
+      ],
+      [
+       "continue.",
+       0.054,
+       0.465
+      ],
+      [
+       "Que",
+       0.579,
+       0.918
+      ],
+      [
+       "veut",
+       0.964,
+       1.145
+      ],
+      [
+       "dire",
+       1.205,
+       1.447
+      ],
+      [
+       "«",
+       1.56,
+       1.673
+      ],
+      [
+       "MDR",
+       1.824,
+       2.503
+      ],
+      [
+       "»",
+       2.616,
+       2.73
+      ],
+      [
+       "(SMS)",
+       2.767,
+       3.409
+      ],
+      [
+       "?",
+       3.409,
+       3.409
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/6-a.mp3",
+     "sec": 2.178639,
+     "text": "Réponse : Mort de rire !",
+     "words": [
+      [
+       "Réponse",
+       0.184,
+       0.662
+      ],
+      [
+       ":",
+       1.04,
+       1.417
+      ],
+      [
+       "Mort",
+       1.462,
+       1.643
+      ],
+      [
+       "de",
+       1.669,
+       1.719
+      ],
+      [
+       "rire",
+       1.794,
+       2.096
+      ],
+      [
+       "!",
+       2.134,
+       2.172
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « WC » ?",
+    "choices": [
+     "Toilettes (water-closet)",
+     "Wagon-couchette",
+     "Week-end chic",
+     "Wagon commun"
+    ],
+    "correct": 0
+   },
+   "answer": "Toilettes (water-closet)",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/7-q.mp3",
+     "sec": 3.682902,
+     "text": "Attention, question piège. Que veut dire « WC » ?",
+     "words": [
+      [
+       "Attention,",
+       0.348,
+       0.504
+      ],
+      [
+       "question",
+       0.554,
+       0.957
+      ],
+      [
+       "piège.",
+       1.033,
+       1.485
+      ],
+      [
+       "Que",
+       1.617,
+       2.014
+      ],
+      [
+       "veut",
+       2.059,
+       2.24
+      ],
+      [
+       "dire",
+       2.3,
+       2.542
+      ],
+      [
+       "«",
+       2.693,
+       2.844
+      ],
+      [
+       "WC",
+       3.07,
+       3.523
+      ],
+      [
+       "»",
+       3.561,
+       3.599
+      ],
+      [
+       "?",
+       3.636,
+       3.674
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/7-a.mp3",
+     "sec": 2.952902,
+     "text": "C'était Toilettes (water-closet).",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.453
+      ],
+      [
+       "Toilettes",
+       0.56,
+       1.509
+      ],
+      [
+       "(water-closet).",
+       1.736,
+       2.943
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TGV » ?",
+    "choices": [
+     "Train à grande vitesse",
+     "Transport grand voyageur",
+     "Train général voyageurs",
+     "Tram grande ville"
+    ],
+    "correct": 0
+   },
+   "answer": "Train à grande vitesse",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/8-q.mp3",
+     "sec": 1.51424,
+     "text": "Que veut dire « TGV » ?",
+     "words": [
+      [
+       "Que",
+       0.047,
+       0.069
+      ],
+      [
+       "veut",
+       0.099,
+       0.22
+      ],
+      [
+       "dire",
+       0.281,
+       0.522
+      ],
+      [
+       "«",
+       0.711,
+       0.899
+      ],
+      [
+       "TGV",
+       0.975,
+       1.352
+      ],
+      [
+       "»",
+       1.39,
+       1.428
+      ],
+      [
+       "?",
+       1.466,
+       1.503
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/8-a.mp3",
+     "sec": 2.641995,
+     "text": "Réponse : Train à grande vitesse !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.755,
+       0.981
+      ],
+      [
+       "Train",
+       1.031,
+       1.283
+      ],
+      [
+       "à",
+       1.434,
+       1.585
+      ],
+      [
+       "grande",
+       1.628,
+       1.887
+      ],
+      [
+       "vitesse",
+       1.925,
+       2.491
+      ],
+      [
+       "!",
+       2.566,
+       2.642
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « VTT » ?",
+    "choices": [
+     "Vélo tout terrain",
+     "Vélo de tourisme total",
+     "Voiture tout terrain",
+     "Véhicule tout-temps"
+    ],
+    "correct": 0
+   },
+   "answer": "Vélo tout terrain",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/9-q.mp3",
+     "sec": 1.969161,
+     "text": "Que veut dire « VTT » ?",
+     "words": [
+      [
+       "Que",
+       0,
+       0
+      ],
+      [
+       "veut",
+       0.038,
+       0.22
+      ],
+      [
+       "dire",
+       0.28,
+       0.521
+      ],
+      [
+       "«",
+       0.635,
+       0.748
+      ],
+      [
+       "VTT",
+       0.861,
+       1.352
+      ],
+      [
+       "»",
+       1.427,
+       1.503
+      ],
+      [
+       "?",
+       1.578,
+       1.653
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/9-a.mp3",
+     "sec": 1.967664,
+     "text": "Réponse : Vélo tout terrain !",
+     "words": [
+      [
+       "Réponse",
+       0.201,
+       0.528
+      ],
+      [
+       ":",
+       0.83,
+       1.132
+      ],
+      [
+       "Vélo",
+       1.17,
+       1.434
+      ],
+      [
+       "tout",
+       1.464,
+       1.585
+      ],
+      [
+       "terrain",
+       1.623,
+       1.887
+      ],
+      [
+       "!",
+       1.925,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « ASAP » ?",
+    "choices": [
+     "Après un soir à Paris",
+     "Dès que possible",
+     "Avec sucre à peine",
+     "À soi-même, à part"
+    ],
+    "correct": 1
+   },
+   "answer": "Dès que possible",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/10-q.mp3",
+     "sec": 1.35093,
+     "text": "Que veut dire « ASAP » ?",
+     "words": [
+      [
+       "Que",
+       0,
+       0
+      ],
+      [
+       "veut",
+       0.036,
+       0.217
+      ],
+      [
+       "dire",
+       0.262,
+       0.443
+      ],
+      [
+       "«",
+       0.556,
+       0.669
+      ],
+      [
+       "ASAP",
+       0.775,
+       1.198
+      ],
+      [
+       "»",
+       1.273,
+       1.349
+      ],
+      [
+       "?",
+       1.349,
+       1.349
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/10-a.mp3",
+     "sec": 1.52415,
+     "text": "C'était Dès que possible.",
+     "words": [
+      [
+       "C'était",
+       0.34,
+       0.453
+      ],
+      [
+       "Dès",
+       0.604,
+       0.83
+      ],
+      [
+       "que",
+       0.849,
+       0.906
+      ],
+      [
+       "possible.",
+       0.956,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur une voiture, que mesure le « cv » ?",
+    "choices": [
+     "La vitesse maximale",
+     "La consommation",
+     "Le poids",
+     "La puissance du moteur"
+    ],
+    "correct": 3
+   },
+   "answer": "La puissance du moteur",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/11-q.mp3",
+     "sec": 2.141202,
+     "text": "Sur une voiture, que mesure le « cv » ?",
+     "words": [
+      [
+       "Sur",
+       0.074,
+       0.244
+      ],
+      [
+       "une",
+       0.263,
+       0.32
+      ],
+      [
+       "voiture,",
+       0.386,
+       1.074
+      ],
+      [
+       "que",
+       1.093,
+       1.15
+      ],
+      [
+       "mesure",
+       1.203,
+       1.527
+      ],
+      [
+       "le",
+       1.577,
+       1.677
+      ],
+      [
+       "«",
+       1.678,
+       1.679
+      ],
+      [
+       "cv",
+       1.779,
+       1.98
+      ],
+      [
+       "»",
+       2.018,
+       2.055
+      ],
+      [
+       "?",
+       2.093,
+       2.131
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/11-a.mp3",
+     "sec": 3.098798,
+     "text": "Bravo si tu avais dit La puissance du moteur.",
+     "words": [
+      [
+       "Bravo",
+       0.308,
+       0.371
+      ],
+      [
+       "si",
+       0.421,
+       0.522
+      ],
+      [
+       "tu",
+       0.572,
+       0.673
+      ],
+      [
+       "avais",
+       0.698,
+       0.899
+      ],
+      [
+       "dit",
+       0.937,
+       1.05
+      ],
+      [
+       "La",
+       1.227,
+       1.579
+      ],
+      [
+       "puissance",
+       1.654,
+       2.333
+      ],
+      [
+       "du",
+       2.359,
+       2.409
+      ],
+      [
+       "moteur.",
+       2.484,
+       3.088
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PV » (de stationnement) ?",
+    "choices": [
+     "Procès-verbal",
+     "Petite violation",
+     "Paiement vite",
+     "Permis valide"
+    ],
+    "correct": 0
+   },
+   "answer": "Procès-verbal",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/12-q.mp3",
+     "sec": 3.853583,
+     "text": "Question suivante. Que veut dire « PV » (de stationnement) ?",
+     "words": [
+      [
+       "Question",
+       0.248,
+       0.302
+      ],
+      [
+       "suivante.",
+       0.347,
+       0.906
+      ],
+      [
+       "Que",
+       1.038,
+       1.434
+      ],
+      [
+       "veut",
+       1.464,
+       1.585
+      ],
+      [
+       "dire",
+       1.63,
+       1.811
+      ],
+      [
+       "«",
+       2.038,
+       2.264
+      ],
+      [
+       "PV",
+       2.415,
+       2.717
+      ],
+      [
+       "»",
+       2.868,
+       3.019
+      ],
+      [
+       "(de",
+       3.057,
+       3.283
+      ],
+      [
+       "stationnement)",
+       3.307,
+       3.774
+      ],
+      [
+       "?",
+       3.811,
+       3.849
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/12-a.mp3",
+     "sec": 2.244853,
+     "text": "La bonne réponse, c'est Procès-verbal.",
+     "words": [
+      [
+       "La",
+       0.004,
+       0.054
+      ],
+      [
+       "bonne",
+       0.091,
+       0.28
+      ],
+      [
+       "réponse,",
+       0.337,
+       0.808
+      ],
+      [
+       "c'est",
+       0.846,
+       0.959
+      ],
+      [
+       "Procès-verbal.",
+       1.065,
+       2.242
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'UNESCO est l'agence de l'ONU pour quoi ?",
+    "choices": [
+     "Santé et hôpitaux",
+     "Commerce et douanes",
+     "Éducation, science, culture",
+     "Sport et loisirs"
+    ],
+    "correct": 2
+   },
+   "answer": "Éducation, science, culture",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/13-q.mp3",
+     "sec": 3.814943,
+     "text": "Question suivante. L'UNESCO est l'agence de l'ONU pour quoi ?",
+     "words": [
+      [
+       "Question",
+       0.209,
+       0.263
+      ],
+      [
+       "suivante.",
+       0.308,
+       1.055
+      ],
+      [
+       "L'UNESCO",
+       1.187,
+       1.848
+      ],
+      [
+       "est",
+       1.904,
+       2.074
+      ],
+      [
+       "l'agence",
+       2.112,
+       2.527
+      ],
+      [
+       "de",
+       2.552,
+       2.602
+      ],
+      [
+       "l'ONU",
+       2.64,
+       2.904
+      ],
+      [
+       "pour",
+       2.98,
+       3.282
+      ],
+      [
+       "quoi",
+       3.357,
+       3.659
+      ],
+      [
+       "?",
+       3.734,
+       3.81
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/13-a.mp3",
+     "sec": 3.355714,
+     "text": "La bonne réponse, c'est Éducation, science, culture.",
+     "words": [
+      [
+       "La",
+       0.045,
+       0.095
+      ],
+      [
+       "bonne",
+       0.133,
+       0.322
+      ],
+      [
+       "réponse,",
+       0.388,
+       1.076
+      ],
+      [
+       "c'est",
+       1.114,
+       1.227
+      ],
+      [
+       "Éducation,",
+       1.341,
+       2.284
+      ],
+      [
+       "science,",
+       2.322,
+       2.737
+      ],
+      [
+       "culture.",
+       2.812,
+       3.341
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « CV » (pour chercher un emploi) ?",
+    "choices": [
+     "Carte de visite",
+     "Contrat de voyage",
+     "Curriculum vitae",
+     "Certificat de valeur"
+    ],
+    "correct": 2
+   },
+   "answer": "Curriculum vitae",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/14-q.mp3",
+     "sec": 2.668821,
+     "text": "Que veut dire « CV » (pour chercher un emploi) ?",
+     "words": [
+      [
+       "Que",
+       0.08,
+       0.094
+      ],
+      [
+       "veut",
+       0.124,
+       0.245
+      ],
+      [
+       "dire",
+       0.321,
+       0.622
+      ],
+      [
+       "«",
+       0.773,
+       0.924
+      ],
+      [
+       "CV",
+       1.075,
+       1.377
+      ],
+      [
+       "»",
+       1.528,
+       1.679
+      ],
+      [
+       "(pour",
+       1.717,
+       1.83
+      ],
+      [
+       "chercher",
+       1.86,
+       2.132
+      ],
+      [
+       "un",
+       2.157,
+       2.207
+      ],
+      [
+       "emploi)",
+       2.261,
+       2.622
+      ],
+      [
+       "?",
+       2.641,
+       2.66
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/14-a.mp3",
+     "sec": 2.562789,
+     "text": "Bravo si tu avais dit Curriculum vitae.",
+     "words": [
+      [
+       "Bravo",
+       0.364,
+       0.442
+      ],
+      [
+       "si",
+       0.518,
+       0.668
+      ],
+      [
+       "tu",
+       0.718,
+       0.819
+      ],
+      [
+       "avais",
+       0.869,
+       1.046
+      ],
+      [
+       "dit",
+       1.102,
+       1.272
+      ],
+      [
+       "Curriculum",
+       1.348,
+       2.102
+      ],
+      [
+       "vitae.",
+       2.152,
+       2.555
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PTDR » ?",
+    "choices": [
+     "Pas tout de suite, rappelle",
+     "Pour tout dire, rien",
+     "Pété de rire",
+     "Parti tôt de Reims"
+    ],
+    "correct": 2
+   },
+   "answer": "Pété de rire",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/15-q.mp3",
+     "sec": 1.743515,
+     "text": "Que veut dire « PTDR » ?",
+     "words": [
+      [
+       "Que",
+       0.064,
+       0.075
+      ],
+      [
+       "veut",
+       0.121,
+       0.302
+      ],
+      [
+       "dire",
+       0.362,
+       0.604
+      ],
+      [
+       "«",
+       0.717,
+       0.83
+      ],
+      [
+       "PTDR",
+       0.931,
+       1.585
+      ],
+      [
+       "»",
+       1.66,
+       1.736
+      ],
+      [
+       "?",
+       1.736,
+       1.736
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/15-a.mp3",
+     "sec": 1.516168,
+     "text": "Pété de rire, évidemment !",
+     "words": [
+      [
+       "Pété",
+       0.068,
+       0.302
+      ],
+      [
+       "de",
+       0.352,
+       0.453
+      ],
+      [
+       "rire,",
+       0.491,
+       0.83
+      ],
+      [
+       "évidemment",
+       0.868,
+       1.358
+      ],
+      [
+       "!",
+       1.434,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « DOM-TOM » ?",
+    "choices": [
+     "Départements et territoires d'outre-mer",
+     "Domaines et terres ouvertes de la mer",
+     "Départements des îles tropicales",
+     "Divisions d'outre-mer et territoires"
+    ],
+    "correct": 0
+   },
+   "answer": "Départements et territoires d'outre-mer",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/16-q.mp3",
+     "sec": 3.859138,
+     "text": "Facile, celle-là. Enfin, je crois. Que veut dire « DOM-TOM » ?",
+     "words": [
+      [
+       "Facile,",
+       0.259,
+       0.528
+      ],
+      [
+       "celle-là.",
+       0.554,
+       0.981
+      ],
+      [
+       "Enfin,",
+       1.031,
+       1.434
+      ],
+      [
+       "je",
+       1.484,
+       1.585
+      ],
+      [
+       "crois.",
+       1.623,
+       2.075
+      ],
+      [
+       "Que",
+       2.142,
+       2.34
+      ],
+      [
+       "veut",
+       2.385,
+       2.566
+      ],
+      [
+       "dire",
+       2.611,
+       2.792
+      ],
+      [
+       "«",
+       2.943,
+       3.094
+      ],
+      [
+       "DOM-TOM",
+       3.151,
+       3.698
+      ],
+      [
+       "»",
+       3.774,
+       3.849
+      ],
+      [
+       "?",
+       3.849,
+       3.849
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/16-a.mp3",
+     "sec": 3.613583,
+     "text": "Bravo si tu avais dit Départements et territoires d'outre-mer.",
+     "words": [
+      [
+       "Bravo",
+       0.422,
+       0.51
+      ],
+      [
+       "si",
+       0.56,
+       0.661
+      ],
+      [
+       "tu",
+       0.711,
+       0.812
+      ],
+      [
+       "avais",
+       0.862,
+       1.038
+      ],
+      [
+       "dit",
+       1.076,
+       1.189
+      ],
+      [
+       "Départements",
+       1.265,
+       2.02
+      ],
+      [
+       "et",
+       2.07,
+       2.171
+      ],
+      [
+       "territoires",
+       2.231,
+       2.774
+      ],
+      [
+       "d'outre-mer.",
+       2.812,
+       3.605
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RATP » ?",
+    "choices": [
+     "Régie autonome des transports parisiens",
+     "Réseau aérien des transports publics",
+     "Route à tarif populaire",
+     "Régie des autobus et trains publics"
+    ],
+    "correct": 0
+   },
+   "answer": "Régie autonome des transports parisiens",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/17-q.mp3",
+     "sec": 1.516485,
+     "text": "Que veut dire « RATP » ?",
+     "words": [
+      [
+       "Que",
+       0.064,
+       0.075
+      ],
+      [
+       "veut",
+       0.106,
+       0.226
+      ],
+      [
+       "dire",
+       0.287,
+       0.528
+      ],
+      [
+       "«",
+       0.642,
+       0.755
+      ],
+      [
+       "RATP",
+       0.868,
+       1.358
+      ],
+      [
+       "»",
+       1.434,
+       1.509
+      ],
+      [
+       "?",
+       1.509,
+       1.509
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/17-a.mp3",
+     "sec": 2.956984,
+     "text": "Eh oui : Régie autonome des transports parisiens !",
+     "words": [
+      [
+       "Eh",
+       0.059,
+       0.079
+      ],
+      [
+       "oui",
+       0.136,
+       0.306
+      ],
+      [
+       ":",
+       0.494,
+       0.683
+      ],
+      [
+       "Régie",
+       0.721,
+       1.136
+      ],
+      [
+       "autonome",
+       1.192,
+       1.664
+      ],
+      [
+       "des",
+       1.702,
+       1.815
+      ],
+      [
+       "transports",
+       1.863,
+       2.343
+      ],
+      [
+       "parisiens",
+       2.4,
+       2.872
+      ],
+      [
+       "!",
+       2.909,
+       2.947
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « IRM » (à l'hôpital) ?",
+    "choices": [
+     "Imagerie par résonance magnétique",
+     "Image rapide du muscle",
+     "Instrument de relevé médical",
+     "Intervention rapide mobile"
+    ],
+    "correct": 0
+   },
+   "answer": "Imagerie par résonance magnétique",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/18-q.mp3",
+     "sec": 2.317891,
+     "text": "Que veut dire « IRM » (à l'hôpital) ?",
+     "words": [
+      [
+       "Que",
+       0.041,
+       0.052
+      ],
+      [
+       "veut",
+       0.082,
+       0.203
+      ],
+      [
+       "dire",
+       0.263,
+       0.505
+      ],
+      [
+       "«",
+       0.618,
+       0.731
+      ],
+      [
+       "IRM",
+       0.882,
+       1.335
+      ],
+      [
+       "»",
+       1.448,
+       1.561
+      ],
+      [
+       "(à",
+       1.599,
+       1.675
+      ],
+      [
+       "l'hôpital)",
+       1.694,
+       2.241
+      ],
+      [
+       "?",
+       2.278,
+       2.316
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/18-a.mp3",
+     "sec": 2.803016,
+     "text": "C'était Imagerie par résonance magnétique.",
+     "words": [
+      [
+       "C'était",
+       0.34,
+       0.453
+      ],
+      [
+       "Imagerie",
+       0.554,
+       1.132
+      ],
+      [
+       "par",
+       1.189,
+       1.358
+      ],
+      [
+       "résonance",
+       1.459,
+       2.038
+      ],
+      [
+       "magnétique.",
+       2.083,
+       2.792
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « FAQ » (sur un site) ?",
+    "choices": [
+     "Fiche d'aide qualifiée",
+     "Fin d'accès quotidien",
+     "Fichier d'accueil",
+     "Foire aux questions"
+    ],
+    "correct": 3
+   },
+   "answer": "Foire aux questions",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/19-q.mp3",
+     "sec": 2.485646,
+     "text": "Que veut dire « FAQ » (sur un site) ?",
+     "words": [
+      [
+       "Que",
+       0.056,
+       0.067
+      ],
+      [
+       "veut",
+       0.098,
+       0.218
+      ],
+      [
+       "dire",
+       0.279,
+       0.52
+      ],
+      [
+       "«",
+       0.633,
+       0.747
+      ],
+      [
+       "FAQ",
+       0.916,
+       1.426
+      ],
+      [
+       "»",
+       1.539,
+       1.652
+      ],
+      [
+       "(sur",
+       1.69,
+       1.879
+      ],
+      [
+       "un",
+       1.904,
+       1.954
+      ],
+      [
+       "site)",
+       2.045,
+       2.445
+      ],
+      [
+       "?",
+       2.464,
+       2.482
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/19-a.mp3",
+     "sec": 1.772404,
+     "text": "Foire aux questions, évidemment !",
+     "words": [
+      [
+       "Foire",
+       0.128,
+       0.329
+      ],
+      [
+       "aux",
+       0.348,
+       0.405
+      ],
+      [
+       "questions,",
+       0.45,
+       1.009
+      ],
+      [
+       "évidemment",
+       1.122,
+       1.612
+      ],
+      [
+       "!",
+       1.688,
+       1.763
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PTT » (les anciens facteurs) ?",
+    "choices": [
+     "Paquets, timbres, télégrammes",
+     "Postes, télégraphes, téléphones",
+     "Postes, trains, transports",
+     "Petits transports territoriaux"
+    ],
+    "correct": 1
+   },
+   "answer": "Postes, télégraphes, téléphones",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/20-q.mp3",
+     "sec": 2.72254,
+     "text": "Que veut dire « PTT » (les anciens facteurs) ?",
+     "words": [
+      [
+       "Que",
+       0.049,
+       0.071
+      ],
+      [
+       "veut",
+       0.102,
+       0.222
+      ],
+      [
+       "dire",
+       0.268,
+       0.449
+      ],
+      [
+       "«",
+       0.6,
+       0.751
+      ],
+      [
+       "PTT",
+       0.826,
+       1.279
+      ],
+      [
+       "»",
+       1.43,
+       1.581
+      ],
+      [
+       "(les",
+       1.619,
+       1.732
+      ],
+      [
+       "anciens",
+       1.807,
+       2.109
+      ],
+      [
+       "facteurs)",
+       2.17,
+       2.675
+      ],
+      [
+       "?",
+       2.694,
+       2.713
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/20-a.mp3",
+     "sec": 3.525397,
+     "text": "Bravo si tu avais dit Postes, télégraphes, téléphones.",
+     "words": [
+      [
+       "Bravo",
+       0.349,
+       0.425
+      ],
+      [
+       "si",
+       0.5,
+       0.651
+      ],
+      [
+       "tu",
+       0.701,
+       0.802
+      ],
+      [
+       "avais",
+       0.828,
+       1.029
+      ],
+      [
+       "dit",
+       1.066,
+       1.179
+      ],
+      [
+       "Postes,",
+       1.3,
+       2.047
+      ],
+      [
+       "télégraphes,",
+       2.085,
+       2.802
+      ],
+      [
+       "téléphones.",
+       2.84,
+       3.519
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « HT » (sur un devis) ?",
+    "choices": [
+     "Haute tension",
+     "Heures de travail",
+     "Hors temps",
+     "Hors taxes"
+    ],
+    "correct": 3
+   },
+   "answer": "Hors taxes",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/21-q.mp3",
+     "sec": 4.67712,
+     "text": "Beaucoup se trompent ici. Que veut dire « HT » (sur un devis) ?",
+     "words": [
+      [
+       "Beaucoup",
+       0.093,
+       0.369
+      ],
+      [
+       "se",
+       0.419,
+       0.52
+      ],
+      [
+       "trompent",
+       0.566,
+       0.898
+      ],
+      [
+       "ici.",
+       0.973,
+       1.275
+      ],
+      [
+       "Que",
+       1.369,
+       1.652
+      ],
+      [
+       "veut",
+       1.698,
+       1.879
+      ],
+      [
+       "dire",
+       1.924,
+       2.105
+      ],
+      [
+       "«",
+       2.256,
+       2.407
+      ],
+      [
+       "HT",
+       2.584,
+       2.935
+      ],
+      [
+       "»",
+       3.086,
+       3.237
+      ],
+      [
+       "(sur",
+       3.275,
+       3.464
+      ],
+      [
+       "un",
+       3.489,
+       3.539
+      ],
+      [
+       "devis)",
+       3.589,
+       4.218
+      ],
+      [
+       "?",
+       4.407,
+       4.671
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/21-a.mp3",
+     "sec": 2.125624,
+     "text": "Bravo si tu avais dit Hors taxes.",
+     "words": [
+      [
+       "Bravo",
+       0.252,
+       0.302
+      ],
+      [
+       "si",
+       0.403,
+       0.604
+      ],
+      [
+       "tu",
+       0.654,
+       0.755
+      ],
+      [
+       "avais",
+       0.805,
+       0.981
+      ],
+      [
+       "dit",
+       1.019,
+       1.132
+      ],
+      [
+       "Hors",
+       1.283,
+       1.585
+      ],
+      [
+       "taxes.",
+       1.648,
+       2.113
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avant 1975, que désignait l'ORTF ?",
+    "choices": [
+     "La radio-télévision publique",
+     "Les postes françaises",
+     "Les chemins de fer",
+     "L'école publique"
+    ],
+    "correct": 0
+   },
+   "answer": "La radio-télévision publique",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/22-q.mp3",
+     "sec": 3.336735,
+     "text": "Avant 1975, que désignait l'ORTF ?",
+     "words": [
+      [
+       "Avant",
+       0.196,
+       0.302
+      ],
+      [
+       "1975,",
+       0.453,
+       1.811
+      ],
+      [
+       "que",
+       1.868,
+       2.038
+      ],
+      [
+       "désignait",
+       2.094,
+       2.491
+      ],
+      [
+       "l'ORTF",
+       2.528,
+       3.245
+      ],
+      [
+       "?",
+       3.283,
+       3.321
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/22-a.mp3",
+     "sec": 2.79322,
+     "text": "Réponse : La radio-télévision publique !",
+     "words": [
+      [
+       "Réponse",
+       0.193,
+       0.525
+      ],
+      [
+       ":",
+       0.789,
+       1.053
+      ],
+      [
+       "La",
+       1.103,
+       1.204
+      ],
+      [
+       "radio-télévision",
+       1.292,
+       2.185
+      ],
+      [
+       "publique",
+       2.242,
+       2.638
+      ],
+      [
+       "!",
+       2.713,
+       2.789
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SAMU » ?",
+    "choices": [
+     "Service d'aide médicale urgente",
+     "Secours aux malades urbains",
+     "Service ambulancier municipal",
+     "Soins aigus médicaux uniques"
+    ],
+    "correct": 0
+   },
+   "answer": "Service d'aide médicale urgente",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/23-q.mp3",
+     "sec": 1.568413,
+     "text": "Que veut dire « SAMU » ?",
+     "words": [
+      [
+       "Que",
+       0.06,
+       0.116
+      ],
+      [
+       "veut",
+       0.146,
+       0.267
+      ],
+      [
+       "dire",
+       0.328,
+       0.569
+      ],
+      [
+       "«",
+       0.682,
+       0.795
+      ],
+      [
+       "SAMU",
+       0.89,
+       1.248
+      ],
+      [
+       "»",
+       1.267,
+       1.286
+      ],
+      [
+       "?",
+       1.305,
+       1.324
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/23-a.mp3",
+     "sec": 2.221474,
+     "text": "Service d'aide médicale urgente, évidemment !",
+     "words": [
+      [
+       "Service",
+       0.297,
+       0.408
+      ],
+      [
+       "d'aide",
+       0.426,
+       0.558
+      ],
+      [
+       "médicale",
+       0.615,
+       1.011
+      ],
+      [
+       "urgente,",
+       1.049,
+       1.615
+      ],
+      [
+       "évidemment",
+       1.691,
+       2.143
+      ],
+      [
+       "!",
+       2.181,
+       2.219
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TTC » (sur un prix) ?",
+    "choices": [
+     "Tout travail compris",
+     "Tarif total conseillé",
+     "Taxe en toute clarté",
+     "Toutes taxes comprises"
+    ],
+    "correct": 3
+   },
+   "answer": "Toutes taxes comprises",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/24-q.mp3",
+     "sec": 2.186531,
+     "text": "Que veut dire « TTC » (sur un prix) ?",
+     "words": [
+      [
+       "Que",
+       0.043,
+       0.066
+      ],
+      [
+       "veut",
+       0.096,
+       0.217
+      ],
+      [
+       "dire",
+       0.262,
+       0.443
+      ],
+      [
+       "«",
+       0.594,
+       0.745
+      ],
+      [
+       "TTC",
+       0.877,
+       1.274
+      ],
+      [
+       "»",
+       1.462,
+       1.651
+      ],
+      [
+       "(sur",
+       1.689,
+       1.802
+      ],
+      [
+       "un",
+       1.827,
+       1.877
+      ],
+      [
+       "prix)",
+       1.923,
+       2.179
+      ],
+      [
+       "?",
+       2.179,
+       2.179
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/24-a.mp3",
+     "sec": 2.714626,
+     "text": "La bonne réponse, c'est Toutes taxes comprises.",
+     "words": [
+      [
+       "La",
+       0.091,
+       0.141
+      ],
+      [
+       "bonne",
+       0.167,
+       0.292
+      ],
+      [
+       "réponse,",
+       0.339,
+       0.745
+      ],
+      [
+       "c'est",
+       0.783,
+       0.971
+      ],
+      [
+       "Toutes",
+       1.198,
+       1.65
+      ],
+      [
+       "taxes",
+       1.714,
+       2.028
+      ],
+      [
+       "comprises.",
+       2.088,
+       2.707
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SAV » (d'un magasin) ?",
+    "choices": [
+     "Salle d'attente vitrée",
+     "Service aux voyageurs",
+     "Service après-vente",
+     "Stock à vérifier"
+    ],
+    "correct": 2
+   },
+   "answer": "Service après-vente",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/25-q.mp3",
+     "sec": 2.10712,
+     "text": "Que veut dire « SAV » (d'un magasin) ?",
+     "words": [
+      [
+       "Que",
+       0.064,
+       0.075
+      ],
+      [
+       "veut",
+       0.121,
+       0.302
+      ],
+      [
+       "dire",
+       0.347,
+       0.528
+      ],
+      [
+       "«",
+       0.604,
+       0.679
+      ],
+      [
+       "SAV",
+       0.83,
+       1.283
+      ],
+      [
+       "»",
+       1.358,
+       1.434
+      ],
+      [
+       "(d'un",
+       1.453,
+       1.66
+      ],
+      [
+       "magasin)",
+       1.698,
+       2.038
+      ],
+      [
+       "?",
+       2.075,
+       2.113
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/25-a.mp3",
+     "sec": 2.34322,
+     "text": "Bravo si tu avais dit Service après-vente.",
+     "words": [
+      [
+       "Bravo",
+       0.303,
+       0.366
+      ],
+      [
+       "si",
+       0.441,
+       0.592
+      ],
+      [
+       "tu",
+       0.642,
+       0.743
+      ],
+      [
+       "avais",
+       0.769,
+       0.97
+      ],
+      [
+       "dit",
+       1.007,
+       1.121
+      ],
+      [
+       "Service",
+       1.187,
+       1.649
+      ],
+      [
+       "après-vente.",
+       1.687,
+       2.328
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « TER » (à la gare) ?",
+    "choices": [
+     "Transport express régional",
+     "Train express rapide",
+     "Transport européen routier",
+     "Train entre régions"
+    ],
+    "correct": 0
+   },
+   "answer": "Transport express régional",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/26-q.mp3",
+     "sec": 4.696803,
+     "text": "Question suivante. Que veut dire « TER » (à la gare) ?",
+     "words": [
+      [
+       "Question",
+       0.248,
+       0.302
+      ],
+      [
+       "suivante.",
+       0.347,
+       0.981
+      ],
+      [
+       "Que",
+       1.094,
+       1.434
+      ],
+      [
+       "veut",
+       1.479,
+       1.66
+      ],
+      [
+       "dire",
+       1.706,
+       1.887
+      ],
+      [
+       "«",
+       2.075,
+       2.264
+      ],
+      [
+       "TER",
+       2.396,
+       2.792
+      ],
+      [
+       "»",
+       2.981,
+       3.17
+      ],
+      [
+       "(à",
+       3.189,
+       3.245
+      ],
+      [
+       "la",
+       3.271,
+       3.321
+      ],
+      [
+       "gare)",
+       3.396,
+       4.189
+      ],
+      [
+       "?",
+       4.434,
+       4.679
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/26-a.mp3",
+     "sec": 2.425578,
+     "text": "Eh oui : Transport express régional !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui",
+       0.208,
+       0.377
+      ],
+      [
+       ":",
+       0.528,
+       0.679
+      ],
+      [
+       "Transport",
+       0.725,
+       1.132
+      ],
+      [
+       "express",
+       1.198,
+       1.66
+      ],
+      [
+       "régional",
+       1.717,
+       2.264
+      ],
+      [
+       "!",
+       2.34,
+       2.415
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RMI » (avant le RSA) ?",
+    "choices": [
+     "Revenu minimum d'insertion",
+     "Rente mensuelle individuelle",
+     "Revenu moyen imposable",
+     "Remboursement des maladies infantiles"
+    ],
+    "correct": 0
+   },
+   "answer": "Revenu minimum d'insertion",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/27-q.mp3",
+     "sec": 2.57932,
+     "text": "Que veut dire « RMI » (avant le RSA) ?",
+     "words": [
+      [
+       "Que",
+       0.061,
+       0.084
+      ],
+      [
+       "veut",
+       0.114,
+       0.235
+      ],
+      [
+       "dire",
+       0.28,
+       0.461
+      ],
+      [
+       "«",
+       0.575,
+       0.688
+      ],
+      [
+       "RMI",
+       0.801,
+       1.141
+      ],
+      [
+       "»",
+       1.329,
+       1.518
+      ],
+      [
+       "(avant",
+       1.556,
+       1.82
+      ],
+      [
+       "le",
+       1.87,
+       1.971
+      ],
+      [
+       "RSA)",
+       2.103,
+       2.537
+      ],
+      [
+       "?",
+       2.556,
+       2.575
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/27-a.mp3",
+     "sec": 3.25551,
+     "text": "La bonne réponse, c'est Revenu minimum d'insertion.",
+     "words": [
+      [
+       "La",
+       0.139,
+       0.151
+      ],
+      [
+       "bonne",
+       0.189,
+       0.377
+      ],
+      [
+       "réponse,",
+       0.443,
+       1.132
+      ],
+      [
+       "c'est",
+       1.17,
+       1.358
+      ],
+      [
+       "Revenu",
+       1.459,
+       1.887
+      ],
+      [
+       "minimum",
+       1.953,
+       2.415
+      ],
+      [
+       "d'insertion.",
+       2.453,
+       3.245
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « BTS » ?",
+    "choices": [
+     "Bachelier technique spécial",
+     "Brevet de travaux spécialisés",
+     "Bureau technique de secours",
+     "Brevet de technicien supérieur"
+    ],
+    "correct": 3
+   },
+   "answer": "Brevet de technicien supérieur",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/28-q.mp3",
+     "sec": 2.347483,
+     "text": "Que veut dire « BTS » ?",
+     "words": [
+      [
+       "Que",
+       0.064,
+       0.075
+      ],
+      [
+       "veut",
+       0.121,
+       0.302
+      ],
+      [
+       "dire",
+       0.347,
+       0.528
+      ],
+      [
+       "«",
+       0.604,
+       0.679
+      ],
+      [
+       "BTS",
+       0.849,
+       1.358
+      ],
+      [
+       "»",
+       1.415,
+       1.472
+      ],
+      [
+       "?",
+       1.528,
+       1.585
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/28-a.mp3",
+     "sec": 2.552472,
+     "text": "Réponse : Brevet de technicien supérieur !",
+     "words": [
+      [
+       "Réponse",
+       0.105,
+       0.502
+      ],
+      [
+       ":",
+       0.691,
+       0.879
+      ],
+      [
+       "Brevet",
+       0.917,
+       1.257
+      ],
+      [
+       "de",
+       1.307,
+       1.408
+      ],
+      [
+       "technicien",
+       1.445,
+       1.861
+      ],
+      [
+       "supérieur",
+       1.898,
+       2.389
+      ],
+      [
+       "!",
+       2.464,
+       2.54
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « CAP » (diplôme) ?",
+    "choices": [
+     "Carte d'accès professionnel",
+     "Cycle d'apprentissage pratique",
+     "Certificat d'aptitude professionnelle",
+     "Certificat d'activité publique"
+    ],
+    "correct": 2
+   },
+   "answer": "Certificat d'aptitude professionnelle",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/29-q.mp3",
+     "sec": 2.5261,
+     "text": "Que veut dire « CAP » (diplôme) ?",
+     "words": [
+      [
+       "Que",
+       0.022,
+       0.033
+      ],
+      [
+       "veut",
+       0.063,
+       0.184
+      ],
+      [
+       "dire",
+       0.26,
+       0.561
+      ],
+      [
+       "«",
+       0.75,
+       0.939
+      ],
+      [
+       "CAP",
+       1.052,
+       1.392
+      ],
+      [
+       "»",
+       1.58,
+       1.769
+      ],
+      [
+       "(diplôme)",
+       1.807,
+       2.373
+      ],
+      [
+       "?",
+       2.448,
+       2.524
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/29-a.mp3",
+     "sec": 2.778685,
+     "text": "C'était Certificat d'aptitude professionnelle.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.453
+      ],
+      [
+       "Certificat",
+       0.528,
+       1.283
+      ],
+      [
+       "d'aptitude",
+       1.321,
+       1.811
+      ],
+      [
+       "professionnelle.",
+       1.859,
+       2.792
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « RIB » (pour un virement) ?",
+    "choices": [
+     "Relevé d'identité bancaire",
+     "Recette inscrite en banque",
+     "Rapport interne bancaire",
+     "Reçu d'impôt bancaire"
+    ],
+    "correct": 0
+   },
+   "answer": "Relevé d'identité bancaire",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/30-q.mp3",
+     "sec": 2.258798,
+     "text": "Que veut dire « RIB » (pour un virement) ?",
+     "words": [
+      [
+       "Que",
+       0.044,
+       0.067
+      ],
+      [
+       "veut",
+       0.112,
+       0.293
+      ],
+      [
+       "dire",
+       0.339,
+       0.52
+      ],
+      [
+       "«",
+       0.633,
+       0.746
+      ],
+      [
+       "RIB",
+       0.822,
+       1.124
+      ],
+      [
+       "»",
+       1.312,
+       1.501
+      ],
+      [
+       "(pour",
+       1.539,
+       1.652
+      ],
+      [
+       "un",
+       1.702,
+       1.803
+      ],
+      [
+       "virement)",
+       1.841,
+       2.218
+      ],
+      [
+       "?",
+       2.237,
+       2.256
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/30-a.mp3",
+     "sec": 3.208662,
+     "text": "La bonne réponse, c'est Relevé d'identité bancaire.",
+     "words": [
+      [
+       "La",
+       0.087,
+       0.107
+      ],
+      [
+       "bonne",
+       0.145,
+       0.334
+      ],
+      [
+       "réponse,",
+       0.409,
+       1.088
+      ],
+      [
+       "c'est",
+       1.126,
+       1.315
+      ],
+      [
+       "Relevé",
+       1.466,
+       2.069
+      ],
+      [
+       "d'identité",
+       2.107,
+       2.598
+      ],
+      [
+       "bancaire.",
+       2.635,
+       3.201
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "OPEP : Organisation des pays exportateurs de…",
+    "choices": [
+     "pétrole",
+     "blé",
+     "coton",
+     "café"
+    ],
+    "correct": 0
+   },
+   "answer": "pétrole",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/31-q.mp3",
+     "sec": 4.036576,
+     "text": "OPEP : Organisation des pays exportateurs de…",
+     "words": [
+      [
+       "OPEP",
+       0.087,
+       0.404
+      ],
+      [
+       ":",
+       0.593,
+       0.782
+      ],
+      [
+       "Organisation",
+       0.857,
+       1.763
+      ],
+      [
+       "des",
+       1.819,
+       1.989
+      ],
+      [
+       "pays",
+       2.08,
+       2.442
+      ],
+      [
+       "exportateurs",
+       2.517,
+       3.423
+      ],
+      [
+       "de…",
+       3.549,
+       4.027
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/31-a.mp3",
+     "sec": 2.134014,
+     "text": "La bonne réponse, c'est pétrole.",
+     "words": [
+      [
+       "La",
+       0.09,
+       0.109
+      ],
+      [
+       "bonne",
+       0.135,
+       0.26
+      ],
+      [
+       "réponse,",
+       0.326,
+       0.94
+      ],
+      [
+       "c'est",
+       0.977,
+       1.166
+      ],
+      [
+       "pétrole.",
+       1.279,
+       2.147
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le CNRS est un grand organisme de…",
+    "choices": [
+     "transport",
+     "recherche scientifique",
+     "tourisme",
+     "formation sportive"
+    ],
+    "correct": 1
+   },
+   "answer": "recherche scientifique",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/32-q.mp3",
+     "sec": 2.791905,
+     "text": "Le CNRS est un grand organisme de…",
+     "words": [
+      [
+       "Le",
+       0.137,
+       0.149
+      ],
+      [
+       "CNRS",
+       0.274,
+       0.904
+      ],
+      [
+       "est",
+       0.979,
+       1.206
+      ],
+      [
+       "un",
+       1.231,
+       1.281
+      ],
+      [
+       "grand",
+       1.344,
+       1.658
+      ],
+      [
+       "organisme",
+       1.722,
+       2.338
+      ],
+      [
+       "de…",
+       2.439,
+       2.791
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/32-a.mp3",
+     "sec": 1.591723,
+     "text": "C'était recherche scientifique.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.302
+      ],
+      [
+       "recherche",
+       0.355,
+       0.83
+      ],
+      [
+       "scientifique.",
+       0.862,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « FMI » ?",
+    "choices": [
+     "Front mondial des industries",
+     "Fonds monétaire international",
+     "Fédération des marchés internationaux",
+     "Fonds mutuel immobilier"
+    ],
+    "correct": 1
+   },
+   "answer": "Fonds monétaire international",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/33-q.mp3",
+     "sec": 1.744966,
+     "text": "Que veut dire « FMI » ?",
+     "words": [
+      [
+       "Que",
+       0.137,
+       0.151
+      ],
+      [
+       "veut",
+       0.181,
+       0.302
+      ],
+      [
+       "dire",
+       0.377,
+       0.679
+      ],
+      [
+       "«",
+       0.868,
+       1.057
+      ],
+      [
+       "FMI",
+       1.208,
+       1.66
+      ],
+      [
+       "»",
+       1.698,
+       1.736
+      ],
+      [
+       "?",
+       1.736,
+       1.736
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/33-a.mp3",
+     "sec": 2.277302,
+     "text": "Eh oui : Fonds monétaire international !",
+     "words": [
+      [
+       "Eh",
+       0.127,
+       0.147
+      ],
+      [
+       "oui",
+       0.204,
+       0.374
+      ],
+      [
+       ":",
+       0.525,
+       0.676
+      ],
+      [
+       "Fonds",
+       0.713,
+       0.826
+      ],
+      [
+       "monétaire",
+       0.883,
+       1.355
+      ],
+      [
+       "international",
+       1.414,
+       2.185
+      ],
+      [
+       "!",
+       2.223,
+       2.26
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "OCDE : Organisation de…",
+    "choices": [
+     "Commerce et douanes européennes",
+     "Culture et droits d'expression",
+     "Contrôle des dettes extérieures",
+     "Coopération et développement économiques"
+    ],
+    "correct": 3
+   },
+   "answer": "Coopération et développement économiques",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/34-q.mp3",
+     "sec": 5.700658,
+     "text": "Facile, celle-là. Enfin, je crois. OCDE : Organisation de…",
+     "words": [
+      [
+       "Facile,",
+       0.219,
+       0.412
+      ],
+      [
+       "celle-là.",
+       0.438,
+       0.79
+      ],
+      [
+       "Enfin,",
+       0.966,
+       1.544
+      ],
+      [
+       "je",
+       1.594,
+       1.695
+      ],
+      [
+       "crois.",
+       1.733,
+       1.997
+      ],
+      [
+       "OCDE",
+       2.374,
+       3.507
+      ],
+      [
+       ":",
+       3.808,
+       4.11
+      ],
+      [
+       "Organisation",
+       4.18,
+       5.016
+      ],
+      [
+       "de…",
+       5.141,
+       5.695
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/34-a.mp3",
+     "sec": 3.025442,
+     "text": "C'était Coopération et développement économiques.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.377
+      ],
+      [
+       "Coopération",
+       0.478,
+       1.358
+      ],
+      [
+       "et",
+       1.434,
+       1.585
+      ],
+      [
+       "développement",
+       1.633,
+       2.264
+      ],
+      [
+       "économiques.",
+       2.318,
+       3.019
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « IUT » ?",
+    "choices": [
+     "Institut urbain de transport",
+     "Institut unique des techniques",
+     "Ingénieurs unis de travaux",
+     "Institut universitaire de technologie"
+    ],
+    "correct": 3
+   },
+   "answer": "Institut universitaire de technologie",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/35-q.mp3",
+     "sec": 2.801633,
+     "text": "Nouvelle question. Que veut dire « IUT » ?",
+     "words": [
+      [
+       "Nouvelle",
+       0.198,
+       0.302
+      ],
+      [
+       "question.",
+       0.352,
+       0.83
+      ],
+      [
+       "Que",
+       0.925,
+       1.208
+      ],
+      [
+       "veut",
+       1.253,
+       1.434
+      ],
+      [
+       "dire",
+       1.494,
+       1.736
+      ],
+      [
+       "«",
+       1.887,
+       2.038
+      ],
+      [
+       "IUT",
+       2.151,
+       2.642
+      ],
+      [
+       "»",
+       2.679,
+       2.717
+      ],
+      [
+       "?",
+       2.755,
+       2.792
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/35-a.mp3",
+     "sec": 3.649841,
+     "text": "La bonne réponse, c'est Institut universitaire de technologie.",
+     "words": [
+      [
+       "La",
+       0,
+       0.095
+      ],
+      [
+       "bonne",
+       0.121,
+       0.246
+      ],
+      [
+       "réponse,",
+       0.303,
+       0.775
+      ],
+      [
+       "c'est",
+       0.812,
+       1.001
+      ],
+      [
+       "Institut",
+       1.094,
+       1.831
+      ],
+      [
+       "universitaire",
+       1.897,
+       2.737
+      ],
+      [
+       "de",
+       2.787,
+       2.888
+      ],
+      [
+       "technologie.",
+       2.938,
+       3.643
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "SMIG : Salaire minimum interprofessionnel…",
+    "choices": [
+     "général",
+     "global",
+     "gradué",
+     "garanti"
+    ],
+    "correct": 3
+   },
+   "answer": "garanti",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/36-q.mp3",
+     "sec": 3.708299,
+     "text": "SMIG : Salaire minimum interprofessionnel…",
+     "words": [
+      [
+       "SMIG",
+       0.31,
+       0.679
+      ],
+      [
+       ":",
+       0.981,
+       1.283
+      ],
+      [
+       "Salaire",
+       1.343,
+       1.736
+      ],
+      [
+       "minimum",
+       1.811,
+       2.34
+      ],
+      [
+       "interprofessionnel…",
+       2.427,
+       3.698
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/36-a.mp3",
+     "sec": 1.543333,
+     "text": "Eh oui : garanti !",
+     "words": [
+      [
+       "Eh",
+       0.014,
+       0.025
+      ],
+      [
+       "oui",
+       0.081,
+       0.251
+      ],
+      [
+       ":",
+       0.553,
+       0.855
+      ],
+      [
+       "garanti",
+       0.912,
+       1.459
+      ],
+      [
+       "!",
+       1.496,
+       1.534
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PDF » (pour un document) ?",
+    "choices": [
+     "Papier dactylographié fixe",
+     "Format de document portable",
+     "Page de données finale",
+     "Fichier de projet digital"
+    ],
+    "correct": 1
+   },
+   "answer": "Format de document portable",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/37-q.mp3",
+     "sec": 2.871655,
+     "text": "Que veut dire « PDF » (pour un document) ?",
+     "words": [
+      [
+       "Que",
+       0.064,
+       0.075
+      ],
+      [
+       "veut",
+       0.121,
+       0.302
+      ],
+      [
+       "dire",
+       0.362,
+       0.604
+      ],
+      [
+       "«",
+       0.755,
+       0.906
+      ],
+      [
+       "PDF",
+       1.094,
+       1.66
+      ],
+      [
+       "»",
+       1.849,
+       2.038
+      ],
+      [
+       "(pour",
+       2.075,
+       2.189
+      ],
+      [
+       "un",
+       2.214,
+       2.264
+      ],
+      [
+       "document)",
+       2.323,
+       2.83
+      ],
+      [
+       "?",
+       2.849,
+       2.868
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/37-a.mp3",
+     "sec": 3.786667,
+     "text": "La bonne réponse, c'est Format de document portable.",
+     "words": [
+      [
+       "La",
+       0.201,
+       0.226
+      ],
+      [
+       "bonne",
+       0.252,
+       0.377
+      ],
+      [
+       "réponse,",
+       0.462,
+       1.208
+      ],
+      [
+       "c'est",
+       1.283,
+       1.509
+      ],
+      [
+       "Format",
+       1.595,
+       2.113
+      ],
+      [
+       "de",
+       2.163,
+       2.264
+      ],
+      [
+       "document",
+       2.331,
+       2.868
+      ],
+      [
+       "portable.",
+       2.952,
+       3.774
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "L'UNICEF est le fonds de l'ONU pour…",
+    "choices": [
+     "l'agriculture",
+     "l'énergie",
+     "l'enfance",
+     "la culture"
+    ],
+    "correct": 2
+   },
+   "answer": "l'enfance",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/38-q.mp3",
+     "sec": 2.490454,
+     "text": "L'UNICEF est le fonds de l'ONU pour…",
+     "words": [
+      [
+       "L'UNICEF",
+       0.066,
+       0.678
+      ],
+      [
+       "est",
+       0.734,
+       0.904
+      ],
+      [
+       "le",
+       0.954,
+       1.055
+      ],
+      [
+       "fonds",
+       1.115,
+       1.395
+      ],
+      [
+       "de",
+       1.407,
+       1.432
+      ],
+      [
+       "l'ONU",
+       1.47,
+       1.885
+      ],
+      [
+       "pour…",
+       1.976,
+       2.489
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/38-a.mp3",
+     "sec": 1.808186,
+     "text": "C'était l'enfance.",
+     "words": [
+      [
+       "C'était",
+       0.118,
+       0.59
+      ],
+      [
+       "l'enfance.",
+       0.779,
+       1.797
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Un EHPAD est un établissement pour…",
+    "choices": [
+     "enfants malades",
+     "sportifs",
+     "personnes âgées dépendantes",
+     "animaux abandonnés"
+    ],
+    "correct": 2
+   },
+   "answer": "personnes âgées dépendantes",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/39-q.mp3",
+     "sec": 2.256848,
+     "text": "Un EHPAD est un établissement pour…",
+     "words": [
+      [
+       "Un",
+       0.053,
+       0.063
+      ],
+      [
+       "EHPAD",
+       0.139,
+       0.667
+      ],
+      [
+       "est",
+       0.705,
+       0.818
+      ],
+      [
+       "un",
+       0.868,
+       0.969
+      ],
+      [
+       "établissement",
+       1.007,
+       1.724
+      ],
+      [
+       "pour…",
+       1.814,
+       2.252
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/39-a.mp3",
+     "sec": 2.500884,
+     "text": "Eh oui : personnes âgées dépendantes !",
+     "words": [
+      [
+       "Eh",
+       0.065,
+       0.075
+      ],
+      [
+       "oui",
+       0.151,
+       0.377
+      ],
+      [
+       ":",
+       0.566,
+       0.755
+      ],
+      [
+       "personnes",
+       0.8,
+       1.208
+      ],
+      [
+       "âgées",
+       1.283,
+       1.509
+      ],
+      [
+       "dépendantes",
+       1.635,
+       2.415
+      ],
+      [
+       "!",
+       2.453,
+       2.491
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans « laser », que signifie le A ?",
+    "choices": [
+     "Absorption",
+     "Atomique",
+     "Amplification",
+     "Accélération"
+    ],
+    "correct": 2
+   },
+   "answer": "Amplification",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/40-q.mp3",
+     "sec": 2.303311,
+     "text": "Dans « laser », que signifie le A ?",
+     "words": [
+      [
+       "Dans",
+       0.085,
+       0.11
+      ],
+      [
+       "«",
+       0.148,
+       0.185
+      ],
+      [
+       "laser",
+       0.261,
+       0.638
+      ],
+      [
+       "»,",
+       0.764,
+       1.016
+      ],
+      [
+       "que",
+       1.034,
+       1.091
+      ],
+      [
+       "signifie",
+       1.136,
+       1.619
+      ],
+      [
+       "le",
+       1.669,
+       1.77
+      ],
+      [
+       "A",
+       1.959,
+       2.148
+      ],
+      [
+       "?",
+       2.223,
+       2.299
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/40-a.mp3",
+     "sec": 1.975556,
+     "text": "Réponse : Amplification !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.604
+      ],
+      [
+       ":",
+       0.792,
+       0.981
+      ],
+      [
+       "Amplification",
+       1.026,
+       1.811
+      ],
+      [
+       "!",
+       1.887,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « DTU » (dans le bâtiment) ?",
+    "choices": [
+     "Dossier des travaux urbains",
+     "Document technique unifié",
+     "Directive technique universelle",
+     "Devis de travaux unique"
+    ],
+    "correct": 1
+   },
+   "answer": "Document technique unifié",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/41-q.mp3",
+     "sec": 3.36966,
+     "text": "On continue. Que veut dire « DTU » (dans le bâtiment) ?",
+     "words": [
+      [
+       "On",
+       0.032,
+       0.043
+      ],
+      [
+       "continue.",
+       0.084,
+       0.495
+      ],
+      [
+       "Que",
+       0.609,
+       0.948
+      ],
+      [
+       "veut",
+       0.978,
+       1.099
+      ],
+      [
+       "dire",
+       1.16,
+       1.401
+      ],
+      [
+       "«",
+       1.552,
+       1.703
+      ],
+      [
+       "DTU",
+       1.828,
+       2.156
+      ],
+      [
+       "»",
+       2.307,
+       2.458
+      ],
+      [
+       "(dans",
+       2.477,
+       2.609
+      ],
+      [
+       "le",
+       2.634,
+       2.684
+      ],
+      [
+       "bâtiment)",
+       2.722,
+       3.665
+      ],
+      [
+       "?",
+       3.929,
+       4.194
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/41-a.mp3",
+     "sec": 3.31449,
+     "text": "Bravo si tu avais dit Document technique unifié.",
+     "words": [
+      [
+       "Bravo",
+       0.305,
+       0.368
+      ],
+      [
+       "si",
+       0.443,
+       0.594
+      ],
+      [
+       "tu",
+       0.644,
+       0.745
+      ],
+      [
+       "avais",
+       0.771,
+       0.972
+      ],
+      [
+       "dit",
+       1.028,
+       1.198
+      ],
+      [
+       "Document",
+       1.282,
+       1.953
+      ],
+      [
+       "technique",
+       2.013,
+       2.557
+      ],
+      [
+       "unifié.",
+       2.632,
+       3.311
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « PLU » (en urbanisme) ?",
+    "choices": [
+     "Projet de loi unique",
+     "Plan de logement universel",
+     "Programme des lotissements",
+     "Plan local d'urbanisme"
+    ],
+    "correct": 3
+   },
+   "answer": "Plan local d'urbanisme",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/42-q.mp3",
+     "sec": 2.641542,
+     "text": "Que veut dire « PLU » (en urbanisme) ?",
+     "words": [
+      [
+       "Que",
+       0.064,
+       0.075
+      ],
+      [
+       "veut",
+       0.106,
+       0.226
+      ],
+      [
+       "dire",
+       0.302,
+       0.604
+      ],
+      [
+       "«",
+       0.755,
+       0.906
+      ],
+      [
+       "PLU",
+       1.031,
+       1.434
+      ],
+      [
+       "»",
+       1.547,
+       1.66
+      ],
+      [
+       "(en",
+       1.698,
+       1.811
+      ],
+      [
+       "urbanisme)",
+       1.875,
+       2.604
+      ],
+      [
+       "?",
+       2.623,
+       2.642
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/42-a.mp3",
+     "sec": 2.494943,
+     "text": "Réponse : Plan local d'urbanisme !",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.528
+      ],
+      [
+       ":",
+       0.755,
+       0.981
+      ],
+      [
+       "Plan",
+       1.042,
+       1.283
+      ],
+      [
+       "local",
+       1.346,
+       1.66
+      ],
+      [
+       "d'urbanisme",
+       1.698,
+       2.34
+      ],
+      [
+       "!",
+       2.415,
+       2.491
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "EBITDA : dans ce sigle anglais, le T signifie…",
+    "choices": [
+     "Temps",
+     "Travail",
+     "Taxes",
+     "Transfert"
+    ],
+    "correct": 2
+   },
+   "answer": "Taxes",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/43-q.mp3",
+     "sec": 3.324785,
+     "text": "EBITDA : dans ce sigle anglais, le T signifie…",
+     "words": [
+      [
+       "EBITDA",
+       0.068,
+       0.528
+      ],
+      [
+       ":",
+       0.679,
+       0.83
+      ],
+      [
+       "dans",
+       0.86,
+       0.981
+      ],
+      [
+       "ce",
+       1.031,
+       1.132
+      ],
+      [
+       "sigle",
+       1.208,
+       1.509
+      ],
+      [
+       "anglais,",
+       1.557,
+       2.113
+      ],
+      [
+       "le",
+       2.163,
+       2.264
+      ],
+      [
+       "T",
+       2.453,
+       2.642
+      ],
+      [
+       "signifie…",
+       2.687,
+       3.321
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/43-a.mp3",
+     "sec": 1.600748,
+     "text": "Eh oui : Taxes !",
+     "words": [
+      [
+       "Eh",
+       0.074,
+       0.086
+      ],
+      [
+       "oui",
+       0.143,
+       0.313
+      ],
+      [
+       ":",
+       0.615,
+       0.917
+      ],
+      [
+       "Taxes",
+       1.004,
+       1.445
+      ],
+      [
+       "!",
+       1.52,
+       1.596
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le GIEC est un groupe d'experts sur…",
+    "choices": [
+     "l'évolution du climat",
+     "les volcans",
+     "les océans",
+     "l'énergie solaire"
+    ],
+    "correct": 0
+   },
+   "answer": "l'évolution du climat",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/44-q.mp3",
+     "sec": 2.196463,
+     "text": "Le GIEC est un groupe d'experts sur…",
+     "words": [
+      [
+       "Le",
+       0.131,
+       0.151
+      ],
+      [
+       "GIEC",
+       0.226,
+       0.528
+      ],
+      [
+       "est",
+       0.585,
+       0.755
+      ],
+      [
+       "un",
+       0.78,
+       0.83
+      ],
+      [
+       "groupe",
+       0.874,
+       1.132
+      ],
+      [
+       "d'experts",
+       1.17,
+       1.736
+      ],
+      [
+       "sur…",
+       1.83,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/44-a.mp3",
+     "sec": 1.940385,
+     "text": "Eh oui : l'évolution du climat !",
+     "words": [
+      [
+       "Eh",
+       0.031,
+       0.051
+      ],
+      [
+       "oui",
+       0.088,
+       0.202
+      ],
+      [
+       ":",
+       0.466,
+       0.73
+      ],
+      [
+       "l'évolution",
+       0.768,
+       1.334
+      ],
+      [
+       "du",
+       1.359,
+       1.409
+      ],
+      [
+       "climat",
+       1.47,
+       1.787
+      ],
+      [
+       "!",
+       1.862,
+       1.937
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SEPA » (pour les virements) ?",
+    "choices": [
+     "Service européen des paiements agréés",
+     "Système d'épargne pour achats",
+     "Espace unique de paiement en euros",
+     "Société européenne de paiement"
+    ],
+    "correct": 2
+   },
+   "answer": "Espace unique de paiement en euros",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/45-q.mp3",
+     "sec": 2.190748,
+     "text": "Que veut dire « SEPA » (pour les virements) ?",
+     "words": [
+      [
+       "Que",
+       0.128,
+       0.151
+      ],
+      [
+       "veut",
+       0.196,
+       0.377
+      ],
+      [
+       "dire",
+       0.423,
+       0.604
+      ],
+      [
+       "«",
+       0.642,
+       0.679
+      ],
+      [
+       "SEPA",
+       0.755,
+       1.132
+      ],
+      [
+       "»",
+       1.283,
+       1.434
+      ],
+      [
+       "(pour",
+       1.472,
+       1.585
+      ],
+      [
+       "les",
+       1.604,
+       1.66
+      ],
+      [
+       "virements)",
+       1.698,
+       2.151
+      ],
+      [
+       "?",
+       2.17,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/45-a.mp3",
+     "sec": 2.923696,
+     "text": "C'était Espace unique de paiement en euros.",
+     "words": [
+      [
+       "C'était",
+       0.089,
+       0.505
+      ],
+      [
+       "Espace",
+       0.618,
+       1.184
+      ],
+      [
+       "unique",
+       1.259,
+       1.712
+      ],
+      [
+       "de",
+       1.813,
+       2.014
+      ],
+      [
+       "paiement",
+       2.071,
+       2.391
+      ],
+      [
+       "en",
+       2.441,
+       2.542
+      ],
+      [
+       "euros.",
+       2.592,
+       2.92
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que veut dire « SCOT » (en urbanisme) ?",
+    "choices": [
+     "Schéma de cohérence territoriale",
+     "Service de conception des travaux",
+     "Schéma des communes et transports",
+     "Plan de sécurité des collectivités"
+    ],
+    "correct": 0
+   },
+   "answer": "Schéma de cohérence territoriale",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/46-q.mp3",
+     "sec": 4.454354,
+     "text": "Celle-ci est pour les experts. Que veut dire « SCOT » (en urbanisme) ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.064,
+       0.374
+      ],
+      [
+       "est",
+       0.449,
+       0.675
+      ],
+      [
+       "pour",
+       0.691,
+       0.751
+      ],
+      [
+       "les",
+       0.789,
+       0.902
+      ],
+      [
+       "experts.",
+       0.987,
+       1.582
+      ],
+      [
+       "Que",
+       1.713,
+       2.109
+      ],
+      [
+       "veut",
+       2.14,
+       2.26
+      ],
+      [
+       "dire",
+       2.321,
+       2.562
+      ],
+      [
+       "«",
+       2.675,
+       2.789
+      ],
+      [
+       "SCOT",
+       2.864,
+       3.241
+      ],
+      [
+       "»",
+       3.392,
+       3.543
+      ],
+      [
+       "(en",
+       3.581,
+       3.694
+      ],
+      [
+       "urbanisme)",
+       3.744,
+       4.298
+      ],
+      [
+       "?",
+       4.374,
+       4.449
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/46-a.mp3",
+     "sec": 2.369615,
+     "text": "Eh oui : Schéma de cohérence territoriale !",
+     "words": [
+      [
+       "Eh",
+       0.078,
+       0.098
+      ],
+      [
+       "oui",
+       0.154,
+       0.324
+      ],
+      [
+       ":",
+       0.513,
+       0.701
+      ],
+      [
+       "Schéma",
+       0.739,
+       1.003
+      ],
+      [
+       "de",
+       1.053,
+       1.154
+      ],
+      [
+       "cohérence",
+       1.192,
+       1.607
+      ],
+      [
+       "territoriale",
+       1.649,
+       2.286
+      ],
+      [
+       "!",
+       2.324,
+       2.362
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le numéro SIRET identifie…",
+    "choices": [
+     "un établissement d'entreprise",
+     "un salarié",
+     "un véhicule",
+     "une rue"
+    ],
+    "correct": 0
+   },
+   "answer": "un établissement d'entreprise",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/47-q.mp3",
+     "sec": 1.971179,
+     "text": "Le numéro SIRET identifie…",
+     "words": [
+      [
+       "Le",
+       0.139,
+       0.151
+      ],
+      [
+       "numéro",
+       0.216,
+       0.604
+      ],
+      [
+       "SIRET",
+       0.679,
+       1.057
+      ],
+      [
+       "identifie…",
+       1.107,
+       1.962
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/47-a.mp3",
+     "sec": 2.350045,
+     "text": "C'était un établissement d'entreprise.",
+     "words": [
+      [
+       "C'était",
+       0.113,
+       0.453
+      ],
+      [
+       "un",
+       0.503,
+       0.604
+      ],
+      [
+       "établissement",
+       0.679,
+       1.358
+      ],
+      [
+       "d'entreprise.",
+       1.396,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "NAF : Nomenclature d'activités…",
+    "choices": [
+     "française",
+     "fiscale",
+     "financière",
+     "foncière"
+    ],
+    "correct": 0
+   },
+   "answer": "française",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/48-q.mp3",
+     "sec": 2.696735,
+     "text": "NAF : Nomenclature d'activités…",
+     "words": [
+      [
+       "NAF",
+       0.052,
+       0.361
+      ],
+      [
+       ":",
+       0.625,
+       0.889
+      ],
+      [
+       "Nomenclature",
+       0.927,
+       1.72
+      ],
+      [
+       "d'activités…",
+       1.833,
+       2.701
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/48-a.mp3",
+     "sec": 1.667302,
+     "text": "Eh oui : française !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui",
+       0.189,
+       0.302
+      ],
+      [
+       ":",
+       0.453,
+       0.604
+      ],
+      [
+       "française",
+       0.664,
+       1.208
+      ],
+      [
+       "!",
+       1.434,
+       1.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le NIR, c'est le numéro de…",
+    "choices": [
+     "carte grise",
+     "téléphone",
+     "passeport",
+     "Sécurité sociale"
+    ],
+    "correct": 3
+   },
+   "answer": "Sécurité sociale",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/49-q.mp3",
+     "sec": 4.214943,
+     "text": "Beaucoup se trompent ici. Le NIR, c'est le numéro de…",
+     "words": [
+      [
+       "Beaucoup",
+       0.065,
+       0.302
+      ],
+      [
+       "se",
+       0.352,
+       0.453
+      ],
+      [
+       "trompent",
+       0.498,
+       0.83
+      ],
+      [
+       "ici.",
+       0.925,
+       1.283
+      ],
+      [
+       "Le",
+       1.434,
+       1.736
+      ],
+      [
+       "NIR,",
+       1.83,
+       2.189
+      ],
+      [
+       "c'est",
+       2.34,
+       2.566
+      ],
+      [
+       "le",
+       2.616,
+       2.717
+      ],
+      [
+       "numéro",
+       2.782,
+       3.17
+      ],
+      [
+       "de…",
+       3.295,
+       3.698
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/49-a.mp3",
+     "sec": 2.339342,
+     "text": "Bravo si tu avais dit Sécurité sociale.",
+     "words": [
+      [
+       "Bravo",
+       0.314,
+       0.377
+      ],
+      [
+       "si",
+       0.453,
+       0.604
+      ],
+      [
+       "tu",
+       0.654,
+       0.755
+      ],
+      [
+       "avais",
+       0.78,
+       0.906
+      ],
+      [
+       "dit",
+       0.962,
+       1.132
+      ],
+      [
+       "Sécurité",
+       1.233,
+       1.736
+      ],
+      [
+       "sociale.",
+       1.802,
+       2.34
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "WC veut dire west coast.",
+   "answer": false,
+   "fact": "Il veut dire water closet, ce qui signifie cabinet d'eau en anglais.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/i0-q.mp3",
+     "sec": 5.387415,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : WC veut dire west coast.",
+     "words": [
+      [
+       "Une",
+       0.001,
+       0.015
+      ],
+      [
+       "question",
+       0.056,
+       0.392
+      ],
+      [
+       "à",
+       0.43,
+       0.468
+      ],
+      [
+       "côté,",
+       0.543,
+       0.996
+      ],
+      [
+       "pour",
+       1.011,
+       1.071
+      ],
+      [
+       "le",
+       1.097,
+       1.147
+      ],
+      [
+       "plaisir",
+       1.213,
+       1.675
+      ],
+      [
+       ":",
+       1.902,
+       2.128
+      ],
+      [
+       "Vrai",
+       2.204,
+       2.43
+      ],
+      [
+       "ou",
+       2.455,
+       2.505
+      ],
+      [
+       "faux",
+       2.581,
+       2.883
+      ],
+      [
+       ":",
+       3.034,
+       3.185
+      ],
+      [
+       "WC",
+       3.386,
+       3.788
+      ],
+      [
+       "veut",
+       3.819,
+       3.939
+      ],
+      [
+       "dire",
+       4,
+       4.241
+      ],
+      [
+       "west",
+       4.347,
+       4.77
+      ],
+      [
+       "coast.",
+       4.845,
+       5.373
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/i0-a.mp3",
+     "sec": 1.056576,
+     "text": "C'est faux !",
+     "words": [
+      [
+       "C'est",
+       0.234,
+       0.302
+      ],
+      [
+       "faux",
+       0.362,
+       0.604
+      ],
+      [
+       "!",
+       0.83,
+       1.057
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-18-acronymes/i0-f.mp3",
+     "sec": 6.272902,
+     "text": "Détail amusant : Il veut dire water closet, ce qui signifie cabinet d'eau en anglais.",
+     "words": [
+      [
+       "Détail",
+       0.068,
+       0.302
+      ],
+      [
+       "amusant",
+       0.352,
+       0.679
+      ],
+      [
+       ":",
+       0.906,
+       1.132
+      ],
+      [
+       "Il",
+       1.158,
+       1.208
+      ],
+      [
+       "veut",
+       1.238,
+       1.358
+      ],
+      [
+       "dire",
+       1.404,
+       1.585
+      ],
+      [
+       "water",
+       1.724,
+       2.415
+      ],
+      [
+       "closet,",
+       2.48,
+       3.094
+      ],
+      [
+       "ce",
+       3.144,
+       3.245
+      ],
+      [
+       "qui",
+       3.283,
+       3.396
+      ],
+      [
+       "signifie",
+       3.442,
+       3.849
+      ],
+      [
+       "cabinet",
+       3.953,
+       4.679
+      ],
+      [
+       "d'eau",
+       4.717,
+       4.906
+      ],
+      [
+       "en",
+       5.031,
+       5.283
+      ],
+      [
+       "anglais.",
+       5.33,
+       6.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne une ampoule économique ?",
+   "choices": [
+    "LED",
+    "LCD",
+    "USB"
+   ],
+   "correct": 0,
+   "fact": "Une ampoule de ce type peut durer plus de 15 000 heures, soit plusieurs années d'usage.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/i1-q.mp3",
+     "sec": 6.847052,
+     "text": "On souffle une seconde. Quel sigle désigne une ampoule économique : LED, LCD, ou USB ?",
+     "words": [
+      [
+       "On",
+       0.041,
+       0.051
+      ],
+      [
+       "souffle",
+       0.089,
+       0.353
+      ],
+      [
+       "une",
+       0.372,
+       0.428
+      ],
+      [
+       "seconde.",
+       0.478,
+       0.957
+      ],
+      [
+       "Quel",
+       1.158,
+       1.711
+      ],
+      [
+       "sigle",
+       1.806,
+       2.24
+      ],
+      [
+       "désigne",
+       2.334,
+       2.919
+      ],
+      [
+       "une",
+       2.957,
+       3.07
+      ],
+      [
+       "ampoule",
+       3.127,
+       3.447
+      ],
+      [
+       "économique",
+       3.501,
+       4.051
+      ],
+      [
+       ":",
+       4.24,
+       4.428
+      ],
+      [
+       "LED,",
+       4.504,
+       4.806
+      ],
+      [
+       "LCD,",
+       5.032,
+       5.976
+      ],
+      [
+       "ou",
+       6.063,
+       6.24
+      ],
+      [
+       "USB",
+       6.353,
+       6.693
+      ],
+      [
+       "?",
+       6.768,
+       6.844
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/i1-a.mp3",
+     "sec": 1.588798,
+     "text": "Eh oui : LED !",
+     "words": [
+      [
+       "Eh",
+       0.055,
+       0.075
+      ],
+      [
+       "oui",
+       0.15,
+       0.377
+      ],
+      [
+       ":",
+       0.566,
+       0.754
+      ],
+      [
+       "LED",
+       0.849,
+       1.132
+      ],
+      [
+       "!",
+       1.358,
+       1.584
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-18-acronymes/i1-f.mp3",
+     "sec": 6.651837,
+     "text": "Et pour la culture : Une ampoule de ce type peut durer plus de 15 000 heures, soit plusieurs années d'usage.",
+     "words": [
+      [
+       "Et",
+       0.065,
+       0.075
+      ],
+      [
+       "pour",
+       0.106,
+       0.226
+      ],
+      [
+       "la",
+       0.252,
+       0.302
+      ],
+      [
+       "culture",
+       0.368,
+       0.83
+      ],
+      [
+       ":",
+       1.17,
+       1.509
+      ],
+      [
+       "Une",
+       1.547,
+       1.66
+      ],
+      [
+       "ampoule",
+       1.717,
+       1.962
+      ],
+      [
+       "de",
+       2.012,
+       2.113
+      ],
+      [
+       "ce",
+       2.163,
+       2.264
+      ],
+      [
+       "type",
+       2.34,
+       2.642
+      ],
+      [
+       "peut",
+       2.702,
+       2.943
+      ],
+      [
+       "durer",
+       3.019,
+       3.245
+      ],
+      [
+       "plus",
+       3.275,
+       3.396
+      ],
+      [
+       "de",
+       3.446,
+       3.547
+      ],
+      [
+       "15",
+       3.698,
+       4
+      ],
+      [
+       "000",
+       4.075,
+       4.151
+      ],
+      [
+       "heures,",
+       4.194,
+       4.528
+      ],
+      [
+       "soit",
+       4.664,
+       5.208
+      ],
+      [
+       "plusieurs",
+       5.26,
+       5.736
+      ],
+      [
+       "années",
+       5.768,
+       5.962
+      ],
+      [
+       "d'usage.",
+       5.981,
+       6.642
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "IGN veut dire institut géographique national.",
+   "answer": true,
+   "fact": "Cet institut fabrique des cartes de France très précises depuis 1940.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/i2-q.mp3",
+     "sec": 5.972834,
+     "text": "Petite pause ! Vrai ou faux : IGN veut dire institut géographique national.",
+     "words": [
+      [
+       "Petite",
+       0.25,
+       0.302
+      ],
+      [
+       "pause",
+       0.365,
+       0.679
+      ],
+      [
+       "!",
+       0.906,
+       1.132
+      ],
+      [
+       "Vrai",
+       1.189,
+       1.358
+      ],
+      [
+       "ou",
+       1.434,
+       1.585
+      ],
+      [
+       "faux",
+       1.66,
+       1.962
+      ],
+      [
+       ":",
+       2.189,
+       2.415
+      ],
+      [
+       "IGN",
+       2.547,
+       2.943
+      ],
+      [
+       "veut",
+       3.004,
+       3.245
+      ],
+      [
+       "dire",
+       3.306,
+       3.547
+      ],
+      [
+       "institut",
+       3.633,
+       4.302
+      ],
+      [
+       "géographique",
+       4.377,
+       5.132
+      ],
+      [
+       "national.",
+       5.216,
+       5.962
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/i2-a.mp3",
+     "sec": 1.494717,
+     "text": "Eh oui, c'est vrai.",
+     "words": [
+      [
+       "Eh",
+       0.036,
+       0.048
+      ],
+      [
+       "oui,",
+       0.104,
+       0.425
+      ],
+      [
+       "c'est",
+       0.463,
+       0.576
+      ],
+      [
+       "vrai.",
+       0.637,
+       1.406
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-18-acronymes/i2-f.mp3",
+     "sec": 5.67254,
+     "text": "Détail amusant : Cet institut fabrique des cartes de France très précises depuis 1940.",
+     "words": [
+      [
+       "Détail",
+       0.068,
+       0.302
+      ],
+      [
+       "amusant",
+       0.352,
+       0.679
+      ],
+      [
+       ":",
+       0.868,
+       1.057
+      ],
+      [
+       "Cet",
+       1.094,
+       1.208
+      ],
+      [
+       "institut",
+       1.261,
+       1.66
+      ],
+      [
+       "fabrique",
+       1.717,
+       2.038
+      ],
+      [
+       "des",
+       2.075,
+       2.189
+      ],
+      [
+       "cartes",
+       2.234,
+       2.491
+      ],
+      [
+       "de",
+       2.541,
+       2.642
+      ],
+      [
+       "France",
+       2.707,
+       3.094
+      ],
+      [
+       "très",
+       3.14,
+       3.321
+      ],
+      [
+       "précises",
+       3.366,
+       3.849
+      ],
+      [
+       "depuis",
+       3.935,
+       4.453
+      ],
+      [
+       "1940.",
+       4.528,
+       5.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel sigle désigne la molécule qui contient nos gènes ?",
+   "choices": [
+    "IRM",
+    "LED",
+    "ADN"
+   ],
+   "correct": 2,
+   "fact": "Nous partageons presque tous nos gènes avec les chimpanzés, environ 99 pour cent.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/i3-q.mp3",
+     "sec": 7.307438,
+     "text": "Petite pause ! Quel sigle désigne la molécule qui contient nos gènes : IRM, LED, ou ADN ?",
+     "words": [
+      [
+       "Petite",
+       0.161,
+       0.199
+      ],
+      [
+       "pause",
+       0.249,
+       0.501
+      ],
+      [
+       "!",
+       0.765,
+       1.03
+      ],
+      [
+       "Quel",
+       1.055,
+       1.256
+      ],
+      [
+       "sigle",
+       1.331,
+       1.633
+      ],
+      [
+       "désigne",
+       1.709,
+       2.086
+      ],
+      [
+       "la",
+       2.112,
+       2.162
+      ],
+      [
+       "molécule",
+       2.199,
+       2.69
+      ],
+      [
+       "qui",
+       2.728,
+       2.841
+      ],
+      [
+       "contient",
+       2.901,
+       3.218
+      ],
+      [
+       "nos",
+       3.256,
+       3.369
+      ],
+      [
+       "gènes",
+       3.482,
+       3.822
+      ],
+      [
+       ":",
+       4.048,
+       4.275
+      ],
+      [
+       "IRM,",
+       4.4,
+       4.879
+      ],
+      [
+       "LED,",
+       5.124,
+       6.237
+      ],
+      [
+       "ou",
+       6.363,
+       6.614
+      ],
+      [
+       "ADN",
+       6.74,
+       7.143
+      ],
+      [
+       "?",
+       7.218,
+       7.294
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/i3-a.mp3",
+     "sec": 1.810839,
+     "text": "Réponse : ADN.",
+     "words": [
+      [
+       "Réponse",
+       0.101,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "ADN.",
+       1.182,
+       1.811
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-18-acronymes/i3-f.mp3",
+     "sec": 6.349433,
+     "text": "Détail amusant : Nous partageons presque tous nos gènes avec les chimpanzés, environ 99 pour cent.",
+     "words": [
+      [
+       "Détail",
+       0.142,
+       0.377
+      ],
+      [
+       "amusant",
+       0.427,
+       0.755
+      ],
+      [
+       ":",
+       0.943,
+       1.132
+      ],
+      [
+       "Nous",
+       1.162,
+       1.283
+      ],
+      [
+       "partageons",
+       1.343,
+       1.811
+      ],
+      [
+       "presque",
+       1.872,
+       2.264
+      ],
+      [
+       "tous",
+       2.34,
+       2.642
+      ],
+      [
+       "nos",
+       2.679,
+       2.792
+      ],
+      [
+       "gènes",
+       2.868,
+       3.17
+      ],
+      [
+       "avec",
+       3.215,
+       3.396
+      ],
+      [
+       "les",
+       3.434,
+       3.547
+      ],
+      [
+       "chimpanzés,",
+       3.585,
+       4.453
+      ],
+      [
+       "environ",
+       4.509,
+       4.906
+      ],
+      [
+       "99",
+       5.132,
+       5.962
+      ],
+      [
+       "pour",
+       5.977,
+       6.038
+      ],
+      [
+       "cent.",
+       6.098,
+       6.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Scuba veut dire self-contained underwater breathing apparatus.",
+   "answer": true,
+   "fact": "Ce sigle anglais désigne l'équipement des plongeurs qui respirent avec une bouteille d'air.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/i4-q.mp3",
+     "sec": 6.35415,
+     "text": "Petite pause ! Vrai ou faux : Scuba veut dire self-contained underwater breathing apparatus.",
+     "words": [
+      [
+       "Petite",
+       0.254,
+       0.302
+      ],
+      [
+       "pause",
+       0.352,
+       0.604
+      ],
+      [
+       "!",
+       0.83,
+       1.057
+      ],
+      [
+       "Vrai",
+       1.094,
+       1.208
+      ],
+      [
+       "ou",
+       1.258,
+       1.358
+      ],
+      [
+       "faux",
+       1.419,
+       1.66
+      ],
+      [
+       ":",
+       1.774,
+       1.887
+      ],
+      [
+       "Scuba",
+       1.962,
+       2.415
+      ],
+      [
+       "veut",
+       2.46,
+       2.642
+      ],
+      [
+       "dire",
+       2.687,
+       2.868
+      ],
+      [
+       "self-contained",
+       3.004,
+       4.226
+      ],
+      [
+       "underwater",
+       4.288,
+       4.906
+      ],
+      [
+       "breathing",
+       4.951,
+       5.358
+      ],
+      [
+       "apparatus.",
+       5.442,
+       6.34
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/i4-a.mp3",
+     "sec": 0.596893,
+     "text": "Vrai !",
+     "words": [
+      [
+       "Vrai",
+       0.115,
+       0.351
+      ],
+      [
+       "!",
+       0.577,
+       0.803
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-18-acronymes/i4-f.mp3",
+     "sec": 5.828912,
+     "text": "Petit bonus : Ce sigle anglais désigne l'équipement des plongeurs qui respirent avec une bouteille d'air.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.302,
+       0.679
+      ],
+      [
+       ":",
+       0.868,
+       1.057
+      ],
+      [
+       "Ce",
+       1.107,
+       1.208
+      ],
+      [
+       "sigle",
+       1.283,
+       1.585
+      ],
+      [
+       "anglais",
+       1.632,
+       1.962
+      ],
+      [
+       "désigne",
+       2.057,
+       2.566
+      ],
+      [
+       "l'équipement",
+       2.604,
+       3.019
+      ],
+      [
+       "des",
+       3.057,
+       3.17
+      ],
+      [
+       "plongeurs",
+       3.22,
+       3.774
+      ],
+      [
+       "qui",
+       3.83,
+       4
+      ],
+      [
+       "respirent",
+       4.075,
+       4.642
+      ],
+      [
+       "avec",
+       4.664,
+       4.755
+      ],
+      [
+       "une",
+       4.811,
+       4.981
+      ],
+      [
+       "bouteille",
+       5.019,
+       5.358
+      ],
+      [
+       "d'air.",
+       5.396,
+       5.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Que veut dire le A de « laser » ?",
+   "choices": [
+    "Atome",
+    "Air",
+    "Amplification"
+   ],
+   "correct": 2,
+   "fact": "Le tout 1er laser a fonctionné en 1960, avec un cristal de rubis.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-18-acronymes/i5-q.mp3",
+     "sec": 7.403855,
+     "text": "Petit bonus entre deux questions : Que veut dire le A de « laser » : Atome, Air, ou Amplification ?",
+     "words": [
+      [
+       "Petit",
+       0.115,
+       0.152
+      ],
+      [
+       "bonus",
+       0.216,
+       0.53
+      ],
+      [
+       "entre",
+       0.58,
+       0.832
+      ],
+      [
+       "deux",
+       0.877,
+       1.058
+      ],
+      [
+       "questions",
+       1.103,
+       1.511
+      ],
+      [
+       ":",
+       1.775,
+       2.039
+      ],
+      [
+       "Que",
+       2.077,
+       2.19
+      ],
+      [
+       "veut",
+       2.22,
+       2.341
+      ],
+      [
+       "dire",
+       2.386,
+       2.568
+      ],
+      [
+       "le",
+       2.643,
+       2.794
+      ],
+      [
+       "A",
+       2.983,
+       3.171
+      ],
+      [
+       "de",
+       3.247,
+       3.398
+      ],
+      [
+       "«",
+       3.435,
+       3.473
+      ],
+      [
+       "laser",
+       3.574,
+       4.077
+      ],
+      [
+       "»",
+       4.266,
+       4.454
+      ],
+      [
+       ":",
+       4.455,
+       4.456
+      ],
+      [
+       "Atome,",
+       4.531,
+       4.984
+      ],
+      [
+       "Air,",
+       5.172,
+       5.814
+      ],
+      [
+       "ou",
+       5.939,
+       6.191
+      ],
+      [
+       "Amplification",
+       6.282,
+       7.172
+      ],
+      [
+       "?",
+       7.285,
+       7.399
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-18-acronymes/i5-a.mp3",
+     "sec": 1.89034,
+     "text": "Eh oui : Amplification !",
+     "words": [
+      [
+       "Eh",
+       0.121,
+       0.141
+      ],
+      [
+       "oui",
+       0.197,
+       0.367
+      ],
+      [
+       ":",
+       0.518,
+       0.669
+      ],
+      [
+       "Amplification",
+       0.745,
+       1.726
+      ],
+      [
+       "!",
+       1.801,
+       1.877
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-18-acronymes/i5-f.mp3",
+     "sec": 5.735034,
+     "text": "Détail amusant : Le tout 1er laser a fonctionné en 1960, avec un cristal de rubis.",
+     "words": [
+      [
+       "Détail",
+       0.068,
+       0.226
+      ],
+      [
+       "amusant",
+       0.276,
+       0.604
+      ],
+      [
+       ":",
+       0.792,
+       0.981
+      ],
+      [
+       "Le",
+       1.031,
+       1.132
+      ],
+      [
+       "tout",
+       1.177,
+       1.358
+      ],
+      [
+       "1er",
+       1.359,
+       1.66
+      ],
+      [
+       "laser",
+       1.71,
+       1.962
+      ],
+      [
+       "a",
+       2,
+       2.038
+      ],
+      [
+       "fonctionné",
+       2.079,
+       2.566
+      ],
+      [
+       "en",
+       2.667,
+       2.868
+      ],
+      [
+       "1960,",
+       3.019,
+       4.226
+      ],
+      [
+       "avec",
+       4.272,
+       4.453
+      ],
+      [
+       "un",
+       4.503,
+       4.604
+      ],
+      [
+       "cristal",
+       4.667,
+       5.132
+      ],
+      [
+       "de",
+       5.182,
+       5.283
+      ],
+      [
+       "rubis.",
+       5.34,
+       5.736
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "50 questions pour tester ta culture : la plupart des gens ratent le dernier niveau. Niveaux : 11 facile, 15 moyens, 15 difficiles, 9 impossible. Compte tes points et dis ton score en commentaire 👇 Le meilleur score est félicité dès le lendemain 🏆\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com/quiz-du-jour/2026-11-18-acronymes\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #acronymes #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n03:20 Niveau moyen\n08:34 Niveau difficile\n14:06 Niveau impossible\n17:40 Ton score\n17:52 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "acronymes",
+   "abréviations",
+   "argot",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Culture G",
+   "line2": "50 ACRONYMES",
+   "emoji": "💬",
+   "sticker": "50 QUESTIONS",
+   "layouts": [
+    3,
+    2
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "La 8e est impossible 😱 50 ACRONYMES & ABRÉVIATIONS : tu les connais ? #Shorts",
+  "shortDescription": "La réponse + 50 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "99 % ÉCHOUENT",
+   "line": "à la 8e question 😱"
+  },
+  "short2": {
+   "title": "Niveau IMPOSSIBLE 🔥 50 ACRONYMES & ABRÉVIATIONS : tu les connais ? #Shorts",
+   "description": "La réponse + 50 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "PERSONNE N'Y ARRIVE",
+   "line": "sur les 8 plus dures 🧠"
+  },
+  "short3": {
+   "title": "Tu passes la 5e ? 😏 50 ACRONYMES & ABRÉVIATIONS : tu les connais ? #Shorts",
+   "description": "Vidéo complète avec les 50 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU TIENS ?",
+   "line": "le milieu fait mal 😅"
+  },
+  "social": {
+   "caption": "50 ACRONYMES & ABRÉVIATIONS : tu les connais ? 🧠 Tu tiens combien de questions ? Réponds en commentaire 👇",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "acronymes",
+    "abréviations"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 200.33333333333334,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 514.6,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 846.5333333333333,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 1060.8666666666666,
+    "title": "Ton score"
+   },
+   {
+    "at": 1072.5666666666666,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/9fe980eb29799124.mp3",
+   "sec": 1.897687,
+   "text": "Niveau facile. On s'échauffe !",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.302
+    ],
+    [
+     "facile.",
+     0.377,
+     1.019
+    ],
+    [
+     "On",
+     1.082,
+     1.208
+    ],
+    [
+     "s'échauffe",
+     1.283,
+     1.811
+    ],
+    [
+     "!",
+     1.849,
+     1.887
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/74ae1232019170eb.mp3",
+   "sec": 1.949456,
+   "text": "Niveau moyen. Ça se corse !",
+   "words": [
+    [
+     "Niveau",
+     0.117,
+     0.359
+    ],
+    [
+     "moyen.",
+     0.422,
+     0.812
+    ],
+    [
+     "Ça",
+     1.038,
+     1.34
+    ],
+    [
+     "se",
+     1.365,
+     1.415
+    ],
+    [
+     "corse",
+     1.472,
+     1.868
+    ],
+    [
+     "!",
+     1.906,
+     1.944
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/ed6a26488dfa87ab.mp3",
+   "sec": 3.107596,
+   "text": "Niveau difficile. Concentration maximale.",
+   "words": [
+    [
+     "Niveau",
+     0.234,
+     0.302
+    ],
+    [
+     "difficile.",
+     0.377,
+     1.434
+    ],
+    [
+     "Concentration",
+     1.481,
+     2.189
+    ],
+    [
+     "maximale.",
+     2.29,
+     3.094
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/258c2695de1ff813.mp3",
+   "sec": 4.613515,
+   "text": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire.",
+   "words": [
+    [
+     "Niveau",
+     0.287,
+     0.377
+    ],
+    [
+     "impossible.",
+     0.459,
+     1.358
+    ],
+    [
+     "Personne",
+     1.456,
+     2.113
+    ],
+    [
+     "ne",
+     2.139,
+     2.189
+    ],
+    [
+     "les",
+     2.226,
+     2.34
+    ],
+    [
+     "a",
+     2.377,
+     2.415
+    ],
+    [
+     "tous.",
+     2.506,
+     3.057
+    ],
+    [
+     "Prouve-moi",
+     3.151,
+     3.547
+    ],
+    [
+     "le",
+     3.573,
+     3.623
+    ],
+    [
+     "contraire.",
+     3.666,
+     4.151
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/ab5dfab8b92b7b99.mp3",
+   "sec": 5.211156,
+   "text": "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !",
+   "words": [
+    [
+     "Alors,",
+     0.065,
+     0.302
+    ],
+    [
+     "combien",
+     0.347,
+     0.604
+    ],
+    [
+     "de",
+     0.654,
+     0.755
+    ],
+    [
+     "points",
+     0.787,
+     0.981
+    ],
+    [
+     "?",
+     1.283,
+     1.585
+    ],
+    [
+     "Écris",
+     1.623,
+     1.811
+    ],
+    [
+     "ton",
+     1.849,
+     1.962
+    ],
+    [
+     "score",
+     2.012,
+     2.264
+    ],
+    [
+     "en",
+     2.314,
+     2.415
+    ],
+    [
+     "commentaire,",
+     2.465,
+     3.17
+    ],
+    [
+     "le",
+     3.245,
+     3.396
+    ],
+    [
+     "meilleur",
+     3.438,
+     3.774
+    ],
+    [
+     "est",
+     3.811,
+     3.925
+    ],
+    [
+     "félicité",
+     3.95,
+     4.453
+    ],
+    [
+     "dès",
+     4.547,
+     4.83
+    ],
+    [
+     "demain",
+     4.868,
+     5.057
+    ],
+    [
+     "!",
+     5.132,
+     5.208
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/d36feb65eb633a4a.mp3",
+   "sec": 3.694399,
+   "text": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain.",
+   "words": [
+    [
+     "Un",
+     0.053,
+     0.063
+    ],
+    [
+     "quiz",
+     0.139,
+     0.441
+    ],
+    [
+     "par",
+     0.479,
+     0.592
+    ],
+    [
+     "jour,",
+     0.652,
+     1.12
+    ],
+    [
+     "gratuit.",
+     1.177,
+     2.026
+    ],
+    [
+     "Abonne-toi",
+     2.076,
+     2.479
+    ],
+    [
+     "pour",
+     2.524,
+     2.705
+    ],
+    [
+     "ne",
+     2.755,
+     2.856
+    ],
+    [
+     "pas",
+     2.875,
+     2.931
+    ],
+    [
+     "rater",
+     2.969,
+     3.158
+    ],
+    [
+     "le",
+     3.183,
+     3.233
+    ],
+    [
+     "prochain.",
+     3.29,
+     3.686
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/9ccf425ecc79010f.mp3",
+   "sec": 4.934308,
+   "text": "Écris ton score en commentaire, le meilleur est félicité dès demain. Abonne-toi, et à demain !",
+   "words": [
+    [
+     "Écris",
+     0.09,
+     0.25
+    ],
+    [
+     "ton",
+     0.288,
+     0.401
+    ],
+    [
+     "score",
+     0.451,
+     0.703
+    ],
+    [
+     "en",
+     0.753,
+     0.854
+    ],
+    [
+     "commentaire,",
+     0.898,
+     1.608
+    ],
+    [
+     "le",
+     1.658,
+     1.759
+    ],
+    [
+     "meilleur",
+     1.801,
+     2.137
+    ],
+    [
+     "est",
+     2.174,
+     2.288
+    ],
+    [
+     "félicité",
+     2.338,
+     2.816
+    ],
+    [
+     "dès",
+     2.854,
+     2.967
+    ],
+    [
+     "demain.",
+     3.005,
+     3.571
+    ],
+    [
+     "Abonne-toi,",
+     3.621,
+     4.401
+    ],
+    [
+     "et",
+     4.426,
+     4.476
+    ],
+    [
+     "à",
+     4.552,
+     4.627
+    ],
+    [
+     "demain",
+     4.665,
+     4.854
+    ],
+    [
+     "!",
+     4.891,
+     4.929
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/7d7c316679ee0bcb.mp3",
+   "sec": 3.626349,
+   "text": "Content de te revoir sur YouQwiz ! Nouveau jour, nouveau quiz !",
+   "words": [
+    [
+     "Content",
+     0.241,
+     0.294
+    ],
+    [
+     "de",
+     0.32,
+     0.37
+    ],
+    [
+     "te",
+     0.42,
+     0.521
+    ],
+    [
+     "revoir",
+     0.571,
+     0.823
+    ],
+    [
+     "sur",
+     0.879,
+     1.049
+    ],
+    [
+     "YouQwiz",
+     1.106,
+     1.577
+    ],
+    [
+     "!",
+     1.766,
+     1.955
+    ],
+    [
+     "Nouveau",
+     2.011,
+     2.257
+    ],
+    [
+     "jour,",
+     2.317,
+     2.785
+    ],
+    [
+     "nouveau",
+     2.832,
+     3.162
+    ],
+    [
+     "quiz",
+     3.223,
+     3.464
+    ],
+    [
+     "!",
+     3.54,
+     3.615
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-18-acronymes/intro.mp3",
+   "sec": 4.914104,
+   "text": "50 Acronymes & Abréviations : tu les connais  ! Attache ta ceinture, c'est parti !",
+   "words": [
+    [
+     "50",
+     0.373,
+     0.448
+    ],
+    [
+     "Acronymes",
+     0.498,
+     1.002
+    ],
+    [
+     "&",
+     1.052,
+     1.102
+    ],
+    [
+     "Abréviations",
+     1.128,
+     1.656
+    ],
+    [
+     ":",
+     1.845,
+     2.033
+    ],
+    [
+     "tu",
+     2.083,
+     2.184
+    ],
+    [
+     "les",
+     2.203,
+     2.26
+    ],
+    [
+     "connais",
+     2.305,
+     2.637
+    ],
+    [
+     "!",
+     2.977,
+     3.09
+    ],
+    [
+     "Attache",
+     3.147,
+     3.392
+    ],
+    [
+     "ta",
+     3.442,
+     3.543
+    ],
+    [
+     "ceinture,",
+     3.568,
+     4.298
+    ],
+    [
+     "c'est",
+     4.335,
+     4.448
+    ],
+    [
+     "parti",
+     4.512,
+     4.826
+    ],
+    [
+     "!",
+     4.864,
+     4.901
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/7ca8243e8488ba4b.mp3",
+   "sec": 5.334989,
+   "text": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com.",
+   "words": [
+    [
+     "Crée",
+     0.031,
+     0.192
+    ],
+    [
+     "gratuitement",
+     0.233,
+     0.72
+    ],
+    [
+     "tes",
+     0.777,
+     0.947
+    ],
+    [
+     "quiz",
+     1.007,
+     1.249
+    ],
+    [
+     "personnalisés,",
+     1.286,
+     2.154
+    ],
+    [
+     "à",
+     2.192,
+     2.23
+    ],
+    [
+     "partager",
+     2.271,
+     2.607
+    ],
+    [
+     "avec",
+     2.652,
+     2.834
+    ],
+    [
+     "tes",
+     2.871,
+     2.984
+    ],
+    [
+     "amis,",
+     3.045,
+     3.664
+    ],
+    [
+     "sur",
+     3.758,
+     4.041
+    ],
+    [
+     "youqwiz",
+     4.098,
+     4.645
+    ],
+    [
+     "point",
+     4.657,
+     4.72
+    ],
+    [
+     "com.",
+     4.834,
+     5.324
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/7b54f11b901372ae.mp3",
+   "sec": 4.389637,
+   "text": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !",
+   "words": [
+    [
+     "Ne",
+     0.131,
+     0.151
+    ],
+    [
+     "t'arrête",
+     0.189,
+     0.453
+    ],
+    [
+     "pas",
+     0.491,
+     0.604
+    ],
+    [
+     "là",
+     0.654,
+     0.755
+    ],
+    [
+     ":",
+     0.906,
+     1.057
+    ],
+    [
+     "ton",
+     1.094,
+     1.208
+    ],
+    [
+     "prochain",
+     1.264,
+     1.585
+    ],
+    [
+     "quiz",
+     1.675,
+     2.038
+    ],
+    [
+     "est",
+     2.094,
+     2.264
+    ],
+    [
+     "juste",
+     2.314,
+     2.566
+    ],
+    [
+     "ici,",
+     2.642,
+     3.245
+    ],
+    [
+     "clique",
+     3.289,
+     3.547
+    ],
+    [
+     "sur",
+     3.585,
+     3.698
+    ],
+    [
+     "une",
+     3.736,
+     3.849
+    ],
+    [
+     "des",
+     3.868,
+     3.925
+    ],
+    [
+     "vidéos",
+     3.978,
+     4.302
+    ],
+    [
+     "!",
+     4.34,
+     4.377
+    ]
+   ]
+  }
+ }
+}
