@@ -137,7 +137,8 @@
       "commentId": "UgwXv5Lbd69zJ0E0oqN4AaABAg",
       "commentAt": "2026-11-08T21:25:47.176Z",
       "shortCommentId": "UgxL0cljuz-t8Y3l3L94AaABAg",
-      "endScreen": true
+      "endScreen": true,
+      "pinned": true
     },
     {
       "id": "2026-11-09-drapeaux",
@@ -153,7 +154,8 @@
       "commentId": "UgyTe44Tlm8qR-ogHzV4AaABAg",
       "commentAt": "2026-11-10T00:51:06.989Z",
       "shortCommentId": "Ugy1meRdA3wYgbJmeBd4AaABAg",
-      "thumbVersion": "idee4b"
+      "thumbVersion": "idee4b",
+      "pinned": true
     },
     {
       "id": "2026-11-10-tu-preferes",
@@ -169,7 +171,8 @@
       "commentId": "UgzIeEoYtPyGVC94ACh4AaABAg",
       "commentAt": "2026-11-10T21:56:35.996Z",
       "shortCommentId": "UgyqRLUc78B9wZm8MoJ4AaABAg",
-      "thumbVersion": "idee4b"
+      "thumbVersion": "idee4b",
+      "pinned": true
     },
     {
       "id": "2026-11-11-culture-generale",
@@ -185,7 +188,8 @@
       "commentId": "UgyU7ZUOxxorWFNR7bN4AaABAg",
       "commentAt": "2026-11-11T23:01:48.030Z",
       "shortCommentId": "Ugw29qrDDFTXiHJpnS14AaABAg",
-      "thumbVersion": "idee4b"
+      "thumbVersion": "idee4b",
+      "pinned": true
     },
     {
       "id": "2026-11-12-pays-sans-voyelles",
@@ -200,7 +204,8 @@
       "endScreen": true,
       "commentId": "UgylS7hiBP0ot7ofeK14AaABAg",
       "commentAt": "2026-11-12T22:26:19.775Z",
-      "thumbVersion": "idee4b"
+      "thumbVersion": "idee4b",
+      "pinned": true
     },
     {
       "id": "2026-11-13-mots-emojis",
@@ -219,7 +224,8 @@
       "endScreen": true,
       "commentId": "UgyeMDX9i7up7MPSd254AaABAg",
       "commentAt": "2026-11-13T22:09:21.426Z",
-      "thumbVersion": "idee4b"
+      "thumbVersion": "idee4b",
+      "pinned": true
     },
     {
       "id": "2026-11-15-generations",
@@ -235,7 +241,9 @@
       "movedFrom": "2026-11-15",
       "commentId": "Ugz72Ty5KK2n4JgIQft4AaABAg",
       "commentAt": "2026-11-14T20:54:41.121Z",
-      "thumbVersion": "idee4b"
+      "thumbVersion": "idee4b",
+      "pinned": true,
+      "endScreen": true
     },
     {
       "id": "2026-11-16-drapeaux",
@@ -251,7 +259,9 @@
       "movedFrom": "2026-11-16",
       "thumbVersion": "idee4b",
       "commentId": "UgzNdnoZPP3CB3_zChd4AaABAg",
-      "commentAt": "2026-11-15T21:14:37.525Z"
+      "commentAt": "2026-11-15T21:14:37.525Z",
+      "pinned": true,
+      "endScreen": true
     },
     {
       "id": "2026-11-16-culture-generale",
@@ -264,7 +274,8 @@
       "longId": "6yNu8B7QRuw",
       "thumbVariant": "B",
       "thumbnail": true,
-      "thumbVersion": "idee4b"
+      "thumbVersion": "idee4b",
+      "endScreen": true
     },
     {
       "id": "2026-11-17-vocabulaire",
@@ -277,7 +288,8 @@
       "longId": "paEUgiDIfKA",
       "thumbVariant": "A",
       "thumbnail": true,
-      "thumbVersion": "idee4b"
+      "thumbVersion": "idee4b",
+      "endScreen": true
     },
     {
       "id": "2026-11-18-acronymes",
@@ -289,7 +301,8 @@
       "dry": false,
       "longId": "FB-yrhg3n7I",
       "thumbVariant": "B",
-      "thumbnail": true
+      "thumbnail": true,
+      "endScreen": true
     }
   ],
   "pending": {}
