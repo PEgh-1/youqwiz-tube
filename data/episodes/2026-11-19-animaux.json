@@ -1,0 +1,7383 @@
+{
+ "id": "2026-11-19-animaux",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 1,
+ "style": {
+  "pattern": "stars",
+  "timer": "ring",
+  "reveal": "pop",
+  "card": "round",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Échauffe tes neurones, c'est parti !",
+   "voice": "Content de te revoir sur YouQwiz ! Échauffe tes neurones, c'est parti !"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "🎯 Objectif : finir sans perdre ta série",
+  "subscribe": {
+   "title": "Abonne-toi et active la cloche",
+   "sub": "pour être prévenu gratuitement du prochain quiz 🎁",
+   "voice": "Abonne-toi et active la cloche, pour être prévenu gratuitement du prochain quiz !"
+  },
+  "levels": {
+   "facile": {
+    "card": "Tout le monde peut les avoir 😎",
+    "voice": "Niveau facile. Tout le monde peut les avoir. Enfin, presque."
+   },
+   "moyen": {
+    "card": "Là, il faut réfléchir 🤔",
+    "voice": "Niveau moyen. Là, il faut réfléchir un peu."
+   },
+   "difficile": {
+    "card": "Ici, beaucoup abandonnent 😅",
+    "voice": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère."
+   },
+   "impossible": {
+    "card": "Seuls les génies 🧠",
+    "voice": "Niveau impossible. Seuls les génies…"
+   }
+  },
+  "scoreVoice": "Compte tes points et écris ton score en commentaire : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "À demain pour un nouveau quiz 👋",
+   "voice": "À demain pour un nouveau quiz. Pense à t'abonner !"
+  },
+  "packshot": {
+   "headline": "Crée GRATUITEMENT tes quiz personnalisés",
+   "sub": "à partager avec tes amis 🎉",
+   "cta": "👉 youqwiz.com",
+   "voice": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com."
+  },
+  "rule": "Devine l'animal avant la fin du chrono 🐾 et compte tes points ⭐",
+  "ruleVoice": "Devine l'animal avant la fin du chrono, et compte tes points !",
+  "nextQuizVoice": "Choisis ton prochain défi en cliquant sur une des deux vidéos !"
+ },
+ "title": "60 ANIMAUX en 5 secondes chrono 🐯🦓🐙 Test de rapidité",
+ "question": "Quel est cet animal ?",
+ "intro": {
+  "hook": "Devine 60 ANIMAUX",
+  "sub": "5 secondes par question, sans pause ⏱️"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐘"
+   },
+   "answer": "L'éléphant",
+   "fact": "L'éléphant utilise sa trompe pour boire, respirer et même attraper des objets.",
+   "rank": 1,
+   "voice": {
+    "q": {
+     "src": "tts-cache/127cd052443157ee.mp3",
+     "sec": 2.018345,
+     "text": "Allez, on s'échauffe ! Première question !",
+     "words": [
+      [
+       "Allez,",
+       0.043,
+       0.28
+      ],
+      [
+       "on",
+       0.33,
+       0.431
+      ],
+      [
+       "s'échauffe",
+       0.469,
+       0.884
+      ],
+      [
+       "!",
+       1.035,
+       1.186
+      ],
+      [
+       "Première",
+       1.216,
+       1.488
+      ],
+      [
+       "question",
+       1.529,
+       1.865
+      ],
+      [
+       "!",
+       1.941,
+       2.016
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/0-a.mp3",
+     "sec": 1.112132,
+     "text": "L'éléphant !",
+     "words": [
+      [
+       "L'éléphant",
+       0.113,
+       0.664
+      ],
+      [
+       "!",
+       0.853,
+       1.041
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/0-f.mp3",
+     "sec": 6.413583,
+     "text": "Détail amusant : L'éléphant utilise sa trompe pour boire, respirer et même attraper des objets.",
+     "words": [
+      [
+       "Détail",
+       0.069,
+       0.302
+      ],
+      [
+       "amusant",
+       0.377,
+       0.755
+      ],
+      [
+       ":",
+       0.981,
+       1.207
+      ],
+      [
+       "L'éléphant",
+       1.208,
+       1.585
+      ],
+      [
+       "utilise",
+       1.632,
+       1.962
+      ],
+      [
+       "sa",
+       2.012,
+       2.113
+      ],
+      [
+       "trompe",
+       2.158,
+       2.491
+      ],
+      [
+       "pour",
+       2.551,
+       2.792
+      ],
+      [
+       "boire,",
+       2.842,
+       3.396
+      ],
+      [
+       "respirer",
+       3.461,
+       3.925
+      ],
+      [
+       "et",
+       4.101,
+       4.453
+      ],
+      [
+       "même",
+       4.483,
+       4.604
+      ],
+      [
+       "attraper",
+       4.694,
+       5.283
+      ],
+      [
+       "des",
+       5.321,
+       5.434
+      ],
+      [
+       "objets.",
+       5.491,
+       5.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦁"
+   },
+   "answer": "Le lion",
+   "rank": 2,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0a25891246b62386.mp3",
+     "sec": 0.988481,
+     "text": "Celui-là ?",
+     "words": [
+      [
+       "Celui-là",
+       0.198,
+       0.453
+      ],
+      [
+       "?",
+       0.717,
+       0.981
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/1-a.mp3",
+     "sec": 1.061156,
+     "text": "C'est Le lion.",
+     "words": [
+      [
+       "C'est",
+       0.118,
+       0.14
+      ],
+      [
+       "Le",
+       0.19,
+       0.291
+      ],
+      [
+       "lion.",
+       0.397,
+       1.574
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐯"
+   },
+   "answer": "Le tigre",
+   "rank": 4,
+   "voice": {
+    "q": {
+     "src": "tts-cache/9f07014517cde8c7.mp3",
+     "sec": 1.197755,
+     "text": "Réfléchis bien.",
+     "words": [
+      [
+       "Réfléchis",
+       0.177,
+       0.592
+      ],
+      [
+       "bien.",
+       0.652,
+       1.196
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/2-a.mp3",
+     "sec": 1.90254,
+     "text": "Réponse : Le tigre.",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "Le",
+       1.107,
+       1.208
+      ],
+      [
+       "tigre.",
+       1.321,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐷"
+   },
+   "answer": "Le cochon",
+   "rank": 6,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/3-a.mp3",
+     "sec": 1.7078,
+     "text": "Réponse : Le cochon.",
+     "words": [
+      [
+       "Réponse",
+       0.104,
+       0.569
+      ],
+      [
+       ":",
+       0.833,
+       1.097
+      ],
+      [
+       "Le",
+       1.123,
+       1.173
+      ],
+      [
+       "cochon.",
+       1.233,
+       1.701
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐔"
+   },
+   "answer": "La poule",
+   "rank": 9,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/4-a.mp3",
+     "sec": 1.743651,
+     "text": "Réponse : La poule.",
+     "words": [
+      [
+       "Réponse",
+       0.136,
+       0.525
+      ],
+      [
+       ":",
+       0.752,
+       0.978
+      ],
+      [
+       "La",
+       1.028,
+       1.129
+      ],
+      [
+       "poule.",
+       1.205,
+       1.733
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐼"
+   },
+   "answer": "Le panda",
+   "rank": 10,
+   "voice": {
+    "q": {
+     "src": "tts-cache/4b286127aadc1be5.mp3",
+     "sec": 0.983741,
+     "text": "Suivant !",
+     "words": [
+      [
+       "Suivant",
+       0.1,
+       0.346
+      ],
+      [
+       "!",
+       0.874,
+       0.95
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/5-a.mp3",
+     "sec": 1.576939,
+     "text": "Eh oui, Le panda !",
+     "words": [
+      [
+       "Eh",
+       0.096,
+       0.133
+      ],
+      [
+       "oui,",
+       0.19,
+       0.737
+      ],
+      [
+       "Le",
+       0.787,
+       0.888
+      ],
+      [
+       "panda",
+       0.976,
+       1.416
+      ],
+      [
+       "!",
+       1.492,
+       1.567
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦓"
+   },
+   "answer": "Le zèbre",
+   "fact": "Chaque zèbre a des rayures uniques, un peu comme tes empreintes digitales.",
+   "rank": 11,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d0332425686cefde.mp3",
+     "sec": 1.128934,
+     "text": "À toi.",
+     "words": [
+      [
+       "À",
+       0,
+       0.006
+      ],
+      [
+       "toi.",
+       0.1,
+       1.138
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/6-a.mp3",
+     "sec": 1.794739,
+     "text": "Réponse : Le zèbre.",
+     "words": [
+      [
+       "Réponse",
+       0.044,
+       0.572
+      ],
+      [
+       ":",
+       0.799,
+       1.025
+      ],
+      [
+       "Le",
+       1.075,
+       1.176
+      ],
+      [
+       "zèbre.",
+       1.289,
+       1.78
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/6-f.mp3",
+     "sec": 4.914785,
+     "text": "Au passage, Chaque zèbre a des rayures uniques, un peu comme tes empreintes digitales.",
+     "words": [
+      [
+       "Au",
+       0.134,
+       0.151
+      ],
+      [
+       "passage,",
+       0.198,
+       0.906
+      ],
+      [
+       "Chaque",
+       0.956,
+       1.132
+      ],
+      [
+       "zèbre",
+       1.208,
+       1.585
+      ],
+      [
+       "a",
+       1.66,
+       1.736
+      ],
+      [
+       "des",
+       1.755,
+       1.811
+      ],
+      [
+       "rayures",
+       1.868,
+       2.264
+      ],
+      [
+       "uniques,",
+       2.34,
+       3.094
+      ],
+      [
+       "un",
+       3.12,
+       3.17
+      ],
+      [
+       "peu",
+       3.245,
+       3.472
+      ],
+      [
+       "comme",
+       3.497,
+       3.623
+      ],
+      [
+       "tes",
+       3.679,
+       3.849
+      ],
+      [
+       "empreintes",
+       3.899,
+       4.226
+      ],
+      [
+       "digitales.",
+       4.276,
+       4.906
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐵"
+   },
+   "answer": "Le singe",
+   "rank": 12,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3f3615a3e7c5b1ad.mp3",
+     "sec": 0.699206,
+     "text": "On continue.",
+     "words": [
+      [
+       "On",
+       0.026,
+       0.036
+      ],
+      [
+       "continue.",
+       0.086,
+       1.093
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/7-a.mp3",
+     "sec": 1.292789,
+     "text": "C'est Le singe.",
+     "words": [
+      [
+       "C'est",
+       0.181,
+       0.226
+      ],
+      [
+       "Le",
+       0.252,
+       0.302
+      ],
+      [
+       "singe.",
+       0.423,
+       1.283
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐢"
+   },
+   "answer": "La tortue",
+   "rank": 13,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1f75ceb807c4aa4a.mp3",
+     "sec": 1.064603,
+     "text": "Vite, vite !",
+     "words": [
+      [
+       "Vite,",
+       0.068,
+       0.491
+      ],
+      [
+       "vite",
+       0.528,
+       0.679
+      ],
+      [
+       "!",
+       0.981,
+       1.057
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/8-a.mp3",
+     "sec": 1.890181,
+     "text": "Eh oui, La tortue !",
+     "words": [
+      [
+       "Eh",
+       0.201,
+       0.226
+      ],
+      [
+       "oui,",
+       0.321,
+       0.981
+      ],
+      [
+       "La",
+       1.057,
+       1.208
+      ],
+      [
+       "tortue",
+       1.298,
+       1.811
+      ],
+      [
+       "!",
+       1.849,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐍"
+   },
+   "answer": "Le serpent",
+   "rank": 14,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3cff941df92e60ac.mp3",
+     "sec": 2.503424,
+     "text": "Déjà la question 10 ! Tu tiens le rythme ?",
+     "words": [
+      [
+       "Déjà",
+       0.151,
+       0.377
+      ],
+      [
+       "la",
+       0.427,
+       0.528
+      ],
+      [
+       "question",
+       0.57,
+       0.906
+      ],
+      [
+       "10",
+       1.094,
+       1.283
+      ],
+      [
+       "!",
+       1.415,
+       1.547
+      ],
+      [
+       "Tu",
+       1.635,
+       1.811
+      ],
+      [
+       "tiens",
+       1.837,
+       1.962
+      ],
+      [
+       "le",
+       1.988,
+       2.038
+      ],
+      [
+       "rythme",
+       2.088,
+       2.415
+      ],
+      [
+       "?",
+       2.453,
+       2.491
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/9-a.mp3",
+     "sec": 1.963923,
+     "text": "Réponse : Le serpent.",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.528
+      ],
+      [
+       ":",
+       0.83,
+       1.132
+      ],
+      [
+       "Le",
+       1.158,
+       1.208
+      ],
+      [
+       "serpent.",
+       1.283,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐳"
+   },
+   "answer": "La baleine",
+   "rank": 18,
+   "voice": {
+    "q": {
+     "src": "tts-cache/2218ef1cbaa7bf3e.mp3",
+     "sec": 0.839048,
+     "text": "Pas de panique.",
+     "words": [
+      [
+       "Pas",
+       0.031,
+       0.043
+      ],
+      [
+       "de",
+       0.093,
+       0.194
+      ],
+      [
+       "panique.",
+       0.231,
+       0.646
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/10-a.mp3",
+     "sec": 2.169229,
+     "text": "Bravo si tu as dit La baleine.",
+     "words": [
+      [
+       "Bravo",
+       0.283,
+       0.346
+      ],
+      [
+       "si",
+       0.447,
+       0.648
+      ],
+      [
+       "tu",
+       0.698,
+       0.799
+      ],
+      [
+       "as",
+       0.849,
+       0.95
+      ],
+      [
+       "dit",
+       0.988,
+       1.101
+      ],
+      [
+       "La",
+       1.252,
+       1.554
+      ],
+      [
+       "baleine.",
+       1.629,
+       2.157
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦈"
+   },
+   "answer": "Le requin",
+   "fact": "Le requin renouvelle ses dents tout au long de sa vie.",
+   "rank": 19,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b05534a2c6dd071f.mp3",
+     "sec": 1.281769,
+     "text": "Facile, non ?",
+     "words": [
+      [
+       "Facile,",
+       0.198,
+       0.528
+      ],
+      [
+       "non",
+       0.547,
+       0.604
+      ],
+      [
+       "?",
+       0.679,
+       0.755
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/11-a.mp3",
+     "sec": 1.037868,
+     "text": "Le requin !",
+     "words": [
+      [
+       "Le",
+       0.11,
+       0.135
+      ],
+      [
+       "requin",
+       0.196,
+       0.588
+      ],
+      [
+       "!",
+       0.965,
+       1.041
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/11-f.mp3",
+     "sec": 3.486848,
+     "text": "Au passage, Le requin renouvelle ses dents tout au long de sa vie.",
+     "words": [
+      [
+       "Au",
+       0.067,
+       0.075
+      ],
+      [
+       "passage,",
+       0.132,
+       0.679
+      ],
+      [
+       "Le",
+       0.729,
+       0.83
+      ],
+      [
+       "requin",
+       0.875,
+       1.208
+      ],
+      [
+       "renouvelle",
+       1.245,
+       1.585
+      ],
+      [
+       "ses",
+       1.623,
+       1.736
+      ],
+      [
+       "dents",
+       1.774,
+       1.962
+      ],
+      [
+       "tout",
+       2.023,
+       2.264
+      ],
+      [
+       "au",
+       2.29,
+       2.34
+      ],
+      [
+       "long",
+       2.385,
+       2.566
+      ],
+      [
+       "de",
+       2.592,
+       2.642
+      ],
+      [
+       "sa",
+       2.692,
+       2.792
+      ],
+      [
+       "vie.",
+       2.849,
+       3.472
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐸"
+   },
+   "answer": "La grenouille",
+   "rank": 20,
+   "voice": {
+    "q": {
+     "src": "tts-cache/1f75ceb807c4aa4a.mp3",
+     "sec": 1.064603,
+     "text": "Vite, vite !",
+     "words": [
+      [
+       "Vite,",
+       0.068,
+       0.491
+      ],
+      [
+       "vite",
+       0.528,
+       0.679
+      ],
+      [
+       "!",
+       0.981,
+       1.057
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/12-a.mp3",
+     "sec": 0.902857,
+     "text": "C'est La grenouille.",
+     "words": [
+      [
+       "C'est",
+       0.057,
+       0.14
+      ],
+      [
+       "La",
+       0.165,
+       0.215
+      ],
+      [
+       "grenouille.",
+       0.261,
+       0.895
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐭"
+   },
+   "answer": "La souris",
+   "rank": 21,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/13-a.mp3",
+     "sec": 1.051927,
+     "text": "La souris !",
+     "words": [
+      [
+       "La",
+       0.046,
+       0.065
+      ],
+      [
+       "souris",
+       0.111,
+       0.518
+      ],
+      [
+       "!",
+       0.971,
+       1.047
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦊"
+   },
+   "answer": "Le renard",
+   "rank": 23,
+   "voice": {
+    "q": {
+     "src": "tts-cache/ec9062ffcd7d64d5.mp3",
+     "sec": 1.285329,
+     "text": "Concentre-toi.",
+     "words": [
+      [
+       "Concentre-toi.",
+       0.542,
+       1.278
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/14-a.mp3",
+     "sec": 2.155261,
+     "text": "Bravo si tu as dit Le renard.",
+     "words": [
+      [
+       "Bravo",
+       0.327,
+       0.402
+      ],
+      [
+       "si",
+       0.452,
+       0.553
+      ],
+      [
+       "tu",
+       0.603,
+       0.704
+      ],
+      [
+       "as",
+       0.73,
+       0.78
+      ],
+      [
+       "dit",
+       0.817,
+       0.931
+      ],
+      [
+       "Le",
+       1.107,
+       1.459
+      ],
+      [
+       "renard.",
+       1.534,
+       2.138
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐨"
+   },
+   "answer": "Le koala",
+   "fact": "Le koala dort près de vingt heures par jour.",
+   "rank": 26,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/15-a.mp3",
+     "sec": 1.215261,
+     "text": "Le koala !",
+     "words": [
+      [
+       "Le",
+       0.139,
+       0.151
+      ],
+      [
+       "koala",
+       0.276,
+       0.906
+      ],
+      [
+       "!",
+       1.17,
+       1.434
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/15-f.mp3",
+     "sec": 3.863469,
+     "text": "Petit bonus : Le koala dort près de vingt heures par jour.",
+     "words": [
+      [
+       "Petit",
+       0.13,
+       0.151
+      ],
+      [
+       "bonus",
+       0.226,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "Le",
+       1.107,
+       1.208
+      ],
+      [
+       "koala",
+       1.283,
+       1.66
+      ],
+      [
+       "dort",
+       1.736,
+       2.038
+      ],
+      [
+       "près",
+       2.113,
+       2.415
+      ],
+      [
+       "de",
+       2.465,
+       2.566
+      ],
+      [
+       "vingt",
+       2.679,
+       3.019
+      ],
+      [
+       "heures",
+       3.051,
+       3.245
+      ],
+      [
+       "par",
+       3.283,
+       3.396
+      ],
+      [
+       "jour.",
+       3.472,
+       3.849
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐝"
+   },
+   "answer": "L'abeille",
+   "rank": 29,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/16-a.mp3",
+     "sec": 1.662948,
+     "text": "Réponse : L'abeille.",
+     "words": [
+      [
+       "Réponse",
+       0.174,
+       0.513
+      ],
+      [
+       ":",
+       0.74,
+       0.966
+      ],
+      [
+       "L'abeille.",
+       1.004,
+       1.645
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐞"
+   },
+   "answer": "La coccinelle",
+   "rank": 30,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d0332425686cefde.mp3",
+     "sec": 1.128934,
+     "text": "À toi.",
+     "words": [
+      [
+       "À",
+       0,
+       0.006
+      ],
+      [
+       "toi.",
+       0.1,
+       1.138
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/17-a.mp3",
+     "sec": 2.090862,
+     "text": "Bravo si tu as dit La coccinelle.",
+     "words": [
+      [
+       "Bravo",
+       0.279,
+       0.342
+      ],
+      [
+       "si",
+       0.392,
+       0.493
+      ],
+      [
+       "tu",
+       0.543,
+       0.644
+      ],
+      [
+       "as",
+       0.67,
+       0.72
+      ],
+      [
+       "dit",
+       0.758,
+       0.871
+      ],
+      [
+       "La",
+       0.996,
+       1.248
+      ],
+      [
+       "coccinelle.",
+       1.286,
+       2.078
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐙"
+   },
+   "answer": "La pieuvre",
+   "fact": "La pieuvre a trois cœurs et du sang bleu.",
+   "rank": 31,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/18-a.mp3",
+     "sec": 1.207256,
+     "text": "La pieuvre !",
+     "words": [
+      [
+       "La",
+       0.131,
+       0.151
+      ],
+      [
+       "pieuvre",
+       0.226,
+       0.679
+      ],
+      [
+       "!",
+       0.943,
+       1.208
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/18-f.mp3",
+     "sec": 3.44644,
+     "text": "Au passage, La pieuvre a trois cœurs et du sang bleu.",
+     "words": [
+      [
+       "Au",
+       0.342,
+       0.402
+      ],
+      [
+       "passage,",
+       0.412,
+       0.792
+      ],
+      [
+       "La",
+       0.842,
+       0.942
+      ],
+      [
+       "pieuvre",
+       1.018,
+       1.395
+      ],
+      [
+       "a",
+       1.471,
+       1.546
+      ],
+      [
+       "trois",
+       1.584,
+       1.773
+      ],
+      [
+       "cœurs",
+       1.848,
+       2.225
+      ],
+      [
+       "et",
+       2.376,
+       2.678
+      ],
+      [
+       "du",
+       2.728,
+       2.829
+      ],
+      [
+       "sang",
+       2.875,
+       3.056
+      ],
+      [
+       "bleu.",
+       3.112,
+       3.433
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦆"
+   },
+   "answer": "Le canard",
+   "rank": 32,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f249575593806a19.mp3",
+     "sec": 2.627392,
+     "text": "On passe la question 20. Compte bien tes points.",
+     "words": [
+      [
+       "On",
+       0.043,
+       0.054
+      ],
+      [
+       "passe",
+       0.117,
+       0.431
+      ],
+      [
+       "la",
+       0.457,
+       0.507
+      ],
+      [
+       "question",
+       0.541,
+       0.809
+      ],
+      [
+       "20.",
+       0.96,
+       1.186
+      ],
+      [
+       "Compte",
+       1.299,
+       1.79
+      ],
+      [
+       "bien",
+       1.835,
+       2.016
+      ],
+      [
+       "tes",
+       2.073,
+       2.243
+      ],
+      [
+       "points.",
+       2.275,
+       2.62
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/19-a.mp3",
+     "sec": 2.409116,
+     "text": "Bravo si tu as dit Le canard.",
+     "words": [
+      [
+       "Bravo",
+       0.415,
+       0.509
+      ],
+      [
+       "si",
+       0.559,
+       0.66
+      ],
+      [
+       "tu",
+       0.71,
+       0.811
+      ],
+      [
+       "as",
+       0.861,
+       0.962
+      ],
+      [
+       "dit",
+       1.019,
+       1.189
+      ],
+      [
+       "Le",
+       1.365,
+       1.717
+      ],
+      [
+       "canard.",
+       1.792,
+       2.396
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐓"
+   },
+   "answer": "Le coq",
+   "rank": 33,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cf6dc279aae3d244.mp3",
+     "sec": 1.057778,
+     "text": "Tu vois ce que c'est ?",
+     "words": [
+      [
+       "Tu",
+       0.131,
+       0.151
+      ],
+      [
+       "vois",
+       0.196,
+       0.377
+      ],
+      [
+       "ce",
+       0.403,
+       0.453
+      ],
+      [
+       "que",
+       0.491,
+       0.604
+      ],
+      [
+       "c'est",
+       0.642,
+       0.83
+      ],
+      [
+       "?",
+       0.868,
+       1.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/20-a.mp3",
+     "sec": 0.544218,
+     "text": "Le coq !",
+     "words": [
+      [
+       "Le",
+       0.077,
+       0.089
+      ],
+      [
+       "coq",
+       0.164,
+       0.466
+      ],
+      [
+       "!",
+       0.579,
+       0.693
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐑"
+   },
+   "answer": "Le mouton",
+   "rank": 35,
+   "voice": {
+    "q": {
+     "src": "tts-cache/9f07014517cde8c7.mp3",
+     "sec": 1.197755,
+     "text": "Réfléchis bien.",
+     "words": [
+      [
+       "Réfléchis",
+       0.177,
+       0.592
+      ],
+      [
+       "bien.",
+       0.652,
+       1.196
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/21-a.mp3",
+     "sec": 2.272222,
+     "text": "Bravo si tu as dit Le mouton.",
+     "words": [
+      [
+       "Bravo",
+       0.493,
+       0.604
+      ],
+      [
+       "si",
+       0.679,
+       0.83
+      ],
+      [
+       "tu",
+       0.88,
+       0.981
+      ],
+      [
+       "as",
+       1.031,
+       1.132
+      ],
+      [
+       "dit",
+       1.17,
+       1.283
+      ],
+      [
+       "Le",
+       1.408,
+       1.66
+      ],
+      [
+       "mouton.",
+       1.736,
+       2.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐐"
+   },
+   "answer": "La chèvre",
+   "rank": 36,
+   "voice": {
+    "q": {
+     "src": "tts-cache/d0332425686cefde.mp3",
+     "sec": 1.128934,
+     "text": "À toi.",
+     "words": [
+      [
+       "À",
+       0,
+       0.006
+      ],
+      [
+       "toi.",
+       0.1,
+       1.138
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/22-a.mp3",
+     "sec": 2.117778,
+     "text": "Bravo si tu as dit La chèvre.",
+     "words": [
+      [
+       "Bravo",
+       0.139,
+       0.453
+      ],
+      [
+       "si",
+       0.554,
+       0.755
+      ],
+      [
+       "tu",
+       0.805,
+       0.906
+      ],
+      [
+       "as",
+       0.931,
+       0.981
+      ],
+      [
+       "dit",
+       1.019,
+       1.132
+      ],
+      [
+       "La",
+       1.258,
+       1.509
+      ],
+      [
+       "chèvre.",
+       1.559,
+       2.113
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦚"
+   },
+   "answer": "Le paon",
+   "rank": 42,
+   "voice": {
+    "q": {
+     "src": "tts-cache/2218ef1cbaa7bf3e.mp3",
+     "sec": 0.839048,
+     "text": "Pas de panique.",
+     "words": [
+      [
+       "Pas",
+       0.031,
+       0.043
+      ],
+      [
+       "de",
+       0.093,
+       0.194
+      ],
+      [
+       "panique.",
+       0.231,
+       0.646
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/23-a.mp3",
+     "sec": 1.735147,
+     "text": "Réponse : Le paon.",
+     "words": [
+      [
+       "Réponse",
+       0.196,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "Le",
+       1.082,
+       1.132
+      ],
+      [
+       "paon.",
+       1.233,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦏"
+   },
+   "answer": "Le rhinocéros",
+   "fact": "La corne du rhinocéros est faite de kératine, comme tes ongles.",
+   "rank": 43,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/24-a.mp3",
+     "sec": 2.130091,
+     "text": "Eh oui, Le rhinocéros !",
+     "words": [
+      [
+       "Eh",
+       0.194,
+       0.224
+      ],
+      [
+       "oui,",
+       0.299,
+       0.828
+      ],
+      [
+       "Le",
+       0.903,
+       1.054
+      ],
+      [
+       "rhinocéros",
+       1.13,
+       1.96
+      ],
+      [
+       "!",
+       2.035,
+       2.111
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/24-f.mp3",
+     "sec": 6.224898,
+     "text": "Pour briller en société : La corne du rhinocéros est faite de kératine, comme tes ongles.",
+     "words": [
+      [
+       "Pour",
+       0.078,
+       0.098
+      ],
+      [
+       "briller",
+       0.174,
+       0.626
+      ],
+      [
+       "en",
+       0.676,
+       0.777
+      ],
+      [
+       "société",
+       0.853,
+       1.381
+      ],
+      [
+       ":",
+       1.721,
+       2.06
+      ],
+      [
+       "La",
+       2.086,
+       2.136
+      ],
+      [
+       "corne",
+       2.211,
+       2.513
+      ],
+      [
+       "du",
+       2.563,
+       2.664
+      ],
+      [
+       "rhinocéros",
+       2.714,
+       3.419
+      ],
+      [
+       "est",
+       3.494,
+       3.721
+      ],
+      [
+       "faite",
+       3.746,
+       3.947
+      ],
+      [
+       "de",
+       3.997,
+       4.098
+      ],
+      [
+       "kératine,",
+       4.174,
+       5.306
+      ],
+      [
+       "comme",
+       5.331,
+       5.457
+      ],
+      [
+       "tes",
+       5.513,
+       5.683
+      ],
+      [
+       "ongles.",
+       5.758,
+       6.211
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦀"
+   },
+   "answer": "Le crabe",
+   "rank": 46,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3f3615a3e7c5b1ad.mp3",
+     "sec": 0.699206,
+     "text": "On continue.",
+     "words": [
+      [
+       "On",
+       0.026,
+       0.036
+      ],
+      [
+       "continue.",
+       0.086,
+       1.093
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/25-a.mp3",
+     "sec": 1.674649,
+     "text": "Réponse : Le crabe.",
+     "words": [
+      [
+       "Réponse",
+       0.123,
+       0.526
+      ],
+      [
+       ":",
+       0.715,
+       0.904
+      ],
+      [
+       "Le",
+       0.954,
+       1.055
+      ],
+      [
+       "crabe.",
+       1.13,
+       1.658
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦐"
+   },
+   "answer": "La crevette",
+   "rank": 47,
+   "voice": {
+    "q": {
+     "src": "tts-cache/651ff52a4dfd5200.mp3",
+     "sec": 0.881882,
+     "text": "Regarde bien.",
+     "words": [
+      [
+       "Regarde",
+       0.198,
+       0.453
+      ],
+      [
+       "bien.",
+       0.498,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/26-a.mp3",
+     "sec": 1.117506,
+     "text": "La crevette !",
+     "words": [
+      [
+       "La",
+       0.047,
+       0.06
+      ],
+      [
+       "crevette",
+       0.135,
+       0.664
+      ],
+      [
+       "!",
+       0.89,
+       1.116
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦄"
+   },
+   "answer": "La licorne",
+   "rank": 49,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/27-a.mp3",
+     "sec": 1.52,
+     "text": "C'est La licorne.",
+     "words": [
+      [
+       "C'est",
+       0.04,
+       0.228
+      ],
+      [
+       "La",
+       0.278,
+       0.379
+      ],
+      [
+       "licorne.",
+       0.474,
+       1.511
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐻‍❄️"
+   },
+   "answer": "L'ours polaire",
+   "rank": 52,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0a25891246b62386.mp3",
+     "sec": 0.988481,
+     "text": "Celui-là ?",
+     "words": [
+      [
+       "Celui-là",
+       0.198,
+       0.453
+      ],
+      [
+       "?",
+       0.717,
+       0.981
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/28-a.mp3",
+     "sec": 1.585624,
+     "text": "L'ours polaire !",
+     "words": [
+      [
+       "L'ours",
+       0.142,
+       0.453
+      ],
+      [
+       "polaire",
+       0.547,
+       1.132
+      ],
+      [
+       "!",
+       1.358,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐿️"
+   },
+   "answer": "L'écureuil",
+   "rank": 55,
+   "voice": {
+    "q": {
+     "src": "tts-cache/67c29de6990aba8e.mp3",
+     "sec": 2.344921,
+     "text": "On passe la question 30. Compte bien tes points.",
+     "words": [
+      [
+       "On",
+       0.056,
+       0.066
+      ],
+      [
+       "passe",
+       0.104,
+       0.293
+      ],
+      [
+       "la",
+       0.318,
+       0.368
+      ],
+      [
+       "question",
+       0.41,
+       0.745
+      ],
+      [
+       "30.",
+       0.821,
+       1.311
+      ],
+      [
+       "Compte",
+       1.359,
+       1.651
+      ],
+      [
+       "bien",
+       1.696,
+       1.877
+      ],
+      [
+       "tes",
+       1.915,
+       2.028
+      ],
+      [
+       "points.",
+       2.06,
+       2.33
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/29-a.mp3",
+     "sec": 1.963084,
+     "text": "Eh oui, L'écureuil !",
+     "words": [
+      [
+       "Eh",
+       0.015,
+       0.065
+      ],
+      [
+       "oui,",
+       0.14,
+       0.593
+      ],
+      [
+       "L'écureuil",
+       0.669,
+       1.423
+      ],
+      [
+       "!",
+       1.461,
+       1.499
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐹"
+   },
+   "answer": "Le hamster",
+   "rank": 56,
+   "voice": {
+    "q": {
+     "src": "tts-cache/903359a06dc52503.mp3",
+     "sec": 2.198662,
+     "text": "Prends ton temps, enfin, pas trop.",
+     "words": [
+      [
+       "Prends",
+       0.064,
+       0.151
+      ],
+      [
+       "ton",
+       0.208,
+       0.377
+      ],
+      [
+       "temps,",
+       0.453,
+       1.057
+      ],
+      [
+       "enfin,",
+       1.107,
+       1.509
+      ],
+      [
+       "pas",
+       1.566,
+       1.736
+      ],
+      [
+       "trop.",
+       1.796,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/30-a.mp3",
+     "sec": 1.64356,
+     "text": "C'est Le hamster.",
+     "words": [
+      [
+       "C'est",
+       0.095,
+       0.284
+      ],
+      [
+       "Le",
+       0.334,
+       0.435
+      ],
+      [
+       "hamster.",
+       0.529,
+       1.643
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🕷️"
+   },
+   "answer": "L'araignée",
+   "rank": 57,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cf6dc279aae3d244.mp3",
+     "sec": 1.057778,
+     "text": "Tu vois ce que c'est ?",
+     "words": [
+      [
+       "Tu",
+       0.131,
+       0.151
+      ],
+      [
+       "vois",
+       0.196,
+       0.377
+      ],
+      [
+       "ce",
+       0.403,
+       0.453
+      ],
+      [
+       "que",
+       0.491,
+       0.604
+      ],
+      [
+       "c'est",
+       0.642,
+       0.83
+      ],
+      [
+       "?",
+       0.868,
+       1.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/31-a.mp3",
+     "sec": 1.669048,
+     "text": "Réponse : L'araignée.",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.717,
+       0.906
+      ],
+      [
+       "L'araignée.",
+       0.943,
+       1.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦂"
+   },
+   "answer": "Le scorpion",
+   "rank": 60,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/32-a.mp3",
+     "sec": 1.889002,
+     "text": "Réponse : Le scorpion.",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.755,
+       0.981
+      ],
+      [
+       "Le",
+       1.031,
+       1.132
+      ],
+      [
+       "scorpion.",
+       1.208,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦇"
+   },
+   "answer": "La chauve-souris",
+   "fact": "La chauve-souris est le seul mammifère capable de voler pour de vrai.",
+   "rank": 62,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c7782643c37abfee.mp3",
+     "sec": 0.815918,
+     "text": "Alors ?",
+     "words": [
+      [
+       "Alors",
+       0.109,
+       0.361
+      ],
+      [
+       "?",
+       0.739,
+       0.814
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/33-a.mp3",
+     "sec": 2.199615,
+     "text": "Bravo si tu as dit La chauve-souris.",
+     "words": [
+      [
+       "Bravo",
+       0.375,
+       0.453
+      ],
+      [
+       "si",
+       0.528,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "as",
+       0.856,
+       0.906
+      ],
+      [
+       "dit",
+       0.943,
+       1.057
+      ],
+      [
+       "La",
+       1.182,
+       1.434
+      ],
+      [
+       "chauve-souris.",
+       1.484,
+       2.189
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/33-f.mp3",
+     "sec": 5.978889,
+     "text": "Et pour la culture : La chauve-souris est le seul mammifère capable de voler pour de vrai.",
+     "words": [
+      [
+       "Et",
+       0.067,
+       0.075
+      ],
+      [
+       "pour",
+       0.091,
+       0.151
+      ],
+      [
+       "la",
+       0.201,
+       0.302
+      ],
+      [
+       "culture",
+       0.358,
+       0.755
+      ],
+      [
+       ":",
+       1.094,
+       1.434
+      ],
+      [
+       "La",
+       1.484,
+       1.585
+      ],
+      [
+       "chauve-souris",
+       1.61,
+       2.189
+      ],
+      [
+       "est",
+       2.264,
+       2.491
+      ],
+      [
+       "le",
+       2.541,
+       2.642
+      ],
+      [
+       "seul",
+       2.702,
+       2.943
+      ],
+      [
+       "mammifère",
+       2.989,
+       3.472
+      ],
+      [
+       "capable",
+       3.519,
+       3.849
+      ],
+      [
+       "de",
+       3.899,
+       4
+      ],
+      [
+       "voler",
+       4.075,
+       4.453
+      ],
+      [
+       "pour",
+       4.528,
+       4.83
+      ],
+      [
+       "de",
+       4.88,
+       4.981
+      ],
+      [
+       "vrai.",
+       5.042,
+       5.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦙"
+   },
+   "answer": "Le lama",
+   "rank": 65,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3da12bbc6536d993.mp3",
+     "sec": 1.445601,
+     "text": "Je parie que tu sèches.",
+     "words": [
+      [
+       "Je",
+       0.201,
+       0.226
+      ],
+      [
+       "parie",
+       0.302,
+       0.604
+      ],
+      [
+       "que",
+       0.623,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "sèches.",
+       0.906,
+       1.434
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/34-a.mp3",
+     "sec": 1.538118,
+     "text": "C'est Le lama.",
+     "words": [
+      [
+       "C'est",
+       0.085,
+       0.397
+      ],
+      [
+       "Le",
+       0.548,
+       0.849
+      ],
+      [
+       "lama.",
+       0.925,
+       1.529
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦌"
+   },
+   "answer": "Le cerf",
+   "rank": 67,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7824a50440fc0e93.mp3",
+     "sec": 0.959456,
+     "text": "Accroche-toi.",
+     "words": [
+      [
+       "Accroche-toi.",
+       0.108,
+       0.583
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/35-a.mp3",
+     "sec": 1.939887,
+     "text": "Réponse : Le cerf.",
+     "words": [
+      [
+       "Réponse",
+       0.161,
+       0.493
+      ],
+      [
+       ":",
+       0.757,
+       1.021
+      ],
+      [
+       "Le",
+       1.047,
+       1.097
+      ],
+      [
+       "cerf.",
+       1.229,
+       1.927
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐂"
+   },
+   "answer": "Le bœuf",
+   "rank": 68,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/36-a.mp3",
+     "sec": 1.610023,
+     "text": "Eh oui, Le bœuf !",
+     "words": [
+      [
+       "Eh",
+       0.067,
+       0.097
+      ],
+      [
+       "oui,",
+       0.154,
+       0.626
+      ],
+      [
+       "Le",
+       0.701,
+       0.852
+      ],
+      [
+       "bœuf",
+       0.927,
+       1.305
+      ],
+      [
+       "!",
+       1.531,
+       1.758
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐀"
+   },
+   "answer": "Le rat",
+   "rank": 69,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/37-a.mp3",
+     "sec": 1.857664,
+     "text": "Réponse : Le rat.",
+     "words": [
+      [
+       "Réponse",
+       0.167,
+       0.499
+      ],
+      [
+       ":",
+       0.876,
+       1.254
+      ],
+      [
+       "Le",
+       1.304,
+       1.405
+      ],
+      [
+       "rat.",
+       1.48,
+       1.857
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪿"
+   },
+   "answer": "L'oie",
+   "rank": 70,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3efc1bb55dc3456e.mp3",
+     "sec": 1.202834,
+     "text": "Peu de gens l'ont.",
+     "words": [
+      [
+       "Peu",
+       0.065,
+       0.151
+      ],
+      [
+       "de",
+       0.201,
+       0.302
+      ],
+      [
+       "gens",
+       0.347,
+       0.528
+      ],
+      [
+       "l'ont.",
+       0.566,
+       1.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/38-a.mp3",
+     "sec": 1.869184,
+     "text": "Bravo si tu as dit L'oie.",
+     "words": [
+      [
+       "Bravo",
+       0.294,
+       0.358
+      ],
+      [
+       "si",
+       0.433,
+       0.584
+      ],
+      [
+       "tu",
+       0.634,
+       0.735
+      ],
+      [
+       "as",
+       0.785,
+       0.886
+      ],
+      [
+       "dit",
+       0.924,
+       1.037
+      ],
+      [
+       "L'oie.",
+       1.263,
+       1.867
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐦"
+   },
+   "answer": "L'oiseau",
+   "rank": 74,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a12f3c114d250fa5.mp3",
+     "sec": 2.270839,
+     "text": "Question 40. Ta série tient toujours ?",
+     "words": [
+      [
+       "Question",
+       0.248,
+       0.302
+      ],
+      [
+       "40.",
+       0.377,
+       0.83
+      ],
+      [
+       "Ta",
+       0.956,
+       1.208
+      ],
+      [
+       "série",
+       1.271,
+       1.585
+      ],
+      [
+       "tient",
+       1.623,
+       1.811
+      ],
+      [
+       "toujours",
+       1.853,
+       2.189
+      ],
+      [
+       "?",
+       2.226,
+       2.264
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/39-a.mp3",
+     "sec": 1.509184,
+     "text": "Eh oui, L'oiseau !",
+     "words": [
+      [
+       "Eh",
+       0.101,
+       0.151
+      ],
+      [
+       "oui,",
+       0.208,
+       0.679
+      ],
+      [
+       "L'oiseau",
+       0.717,
+       1.208
+      ],
+      [
+       "!",
+       1.321,
+       1.434
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦭"
+   },
+   "answer": "Le phoque",
+   "rank": 75,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cf6dc279aae3d244.mp3",
+     "sec": 1.057778,
+     "text": "Tu vois ce que c'est ?",
+     "words": [
+      [
+       "Tu",
+       0.131,
+       0.151
+      ],
+      [
+       "vois",
+       0.196,
+       0.377
+      ],
+      [
+       "ce",
+       0.403,
+       0.453
+      ],
+      [
+       "que",
+       0.491,
+       0.604
+      ],
+      [
+       "c'est",
+       0.642,
+       0.83
+      ],
+      [
+       "?",
+       0.868,
+       1.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/40-a.mp3",
+     "sec": 0.908934,
+     "text": "Le phoque !",
+     "words": [
+      [
+       "Le",
+       0.131,
+       0.151
+      ],
+      [
+       "phoque",
+       0.226,
+       0.604
+      ],
+      [
+       "!",
+       0.717,
+       0.83
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦞"
+   },
+   "answer": "Le homard",
+   "rank": 76,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/41-a.mp3",
+     "sec": 1.405397,
+     "text": "Le homard !",
+     "words": [
+      [
+       "Le",
+       0.178,
+       0.216
+      ],
+      [
+       "homard",
+       0.291,
+       0.895
+      ],
+      [
+       "!",
+       1.122,
+       1.348
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦑"
+   },
+   "answer": "Le calamar",
+   "fact": "Le calamar géant a les plus grands yeux de tout le règne animal.",
+   "rank": 77,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/42-a.mp3",
+     "sec": 1.631338,
+     "text": "C'est Le calamar.",
+     "words": [
+      [
+       "C'est",
+       0.076,
+       0.341
+      ],
+      [
+       "Le",
+       0.492,
+       0.793
+      ],
+      [
+       "calamar.",
+       0.888,
+       1.624
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/42-f.mp3",
+     "sec": 4.870249,
+     "text": "Au passage, Le calamar géant a les plus grands yeux de tout le règne animal.",
+     "words": [
+      [
+       "Au",
+       0.067,
+       0.075
+      ],
+      [
+       "passage,",
+       0.142,
+       0.83
+      ],
+      [
+       "Le",
+       0.88,
+       0.981
+      ],
+      [
+       "calamar",
+       1.038,
+       1.434
+      ],
+      [
+       "géant",
+       1.509,
+       1.811
+      ],
+      [
+       "a",
+       1.962,
+       2.113
+      ],
+      [
+       "les",
+       2.17,
+       2.34
+      ],
+      [
+       "plus",
+       2.37,
+       2.491
+      ],
+      [
+       "grands",
+       2.566,
+       3.019
+      ],
+      [
+       "yeux",
+       3.044,
+       3.245
+      ],
+      [
+       "de",
+       3.271,
+       3.321
+      ],
+      [
+       "tout",
+       3.396,
+       3.698
+      ],
+      [
+       "le",
+       3.724,
+       3.774
+      ],
+      [
+       "règne",
+       3.849,
+       4.075
+      ],
+      [
+       "animal.",
+       4.151,
+       5.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪼"
+   },
+   "answer": "La méduse",
+   "rank": 78,
+   "voice": {
+    "q": {
+     "src": "tts-cache/353e32743d4b4fc4.mp3",
+     "sec": 2.581247,
+     "text": "Attention, celui-là piège tout le monde.",
+     "words": [
+      [
+       "Attention,",
+       0.426,
+       0.981
+      ],
+      [
+       "celui-là",
+       1.031,
+       1.434
+      ],
+      [
+       "piège",
+       1.528,
+       1.887
+      ],
+      [
+       "tout",
+       1.917,
+       2.038
+      ],
+      [
+       "le",
+       2.063,
+       2.113
+      ],
+      [
+       "monde.",
+       2.163,
+       2.566
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/43-a.mp3",
+     "sec": 2.357438,
+     "text": "Bravo si tu as dit La méduse.",
+     "words": [
+      [
+       "Bravo",
+       0.374,
+       0.468
+      ],
+      [
+       "si",
+       0.518,
+       0.619
+      ],
+      [
+       "tu",
+       0.695,
+       0.846
+      ],
+      [
+       "as",
+       0.871,
+       0.921
+      ],
+      [
+       "dit",
+       0.997,
+       1.223
+      ],
+      [
+       "La",
+       1.399,
+       1.751
+      ],
+      [
+       "méduse.",
+       1.808,
+       2.355
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐠"
+   },
+   "answer": "Le poisson tropical",
+   "rank": 79,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0a7d3a45a2475439.mp3",
+     "sec": 0.967596,
+     "text": "Et maintenant ?",
+     "words": [
+      [
+       "Et",
+       0.056,
+       0.066
+      ],
+      [
+       "maintenant",
+       0.1,
+       0.444
+      ],
+      [
+       "?",
+       0.708,
+       0.972
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/44-a.mp3",
+     "sec": 3.031973,
+     "text": "Bravo si tu as dit Le poisson tropical.",
+     "words": [
+      [
+       "Bravo",
+       0.375,
+       0.453
+      ],
+      [
+       "si",
+       0.503,
+       0.604
+      ],
+      [
+       "tu",
+       0.654,
+       0.755
+      ],
+      [
+       "as",
+       0.805,
+       0.906
+      ],
+      [
+       "dit",
+       0.943,
+       1.057
+      ],
+      [
+       "Le",
+       1.233,
+       1.585
+      ],
+      [
+       "poisson",
+       1.66,
+       2.113
+      ],
+      [
+       "tropical.",
+       2.206,
+       3.019
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐡"
+   },
+   "answer": "Le poisson-globe",
+   "rank": 80,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/45-a.mp3",
+     "sec": 2.2761,
+     "text": "Réponse : Le poisson-globe.",
+     "words": [
+      [
+       "Réponse",
+       0.196,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "Le",
+       1.082,
+       1.132
+      ],
+      [
+       "poisson-globe.",
+       1.233,
+       2.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦫"
+   },
+   "answer": "Le castor",
+   "fact": "Les dents du castor ne s'usent jamais, car elles poussent toute sa vie.",
+   "rank": 82,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/46-a.mp3",
+     "sec": 1.173129,
+     "text": "Le castor !",
+     "words": [
+      [
+       "Le",
+       0.11,
+       0.129
+      ],
+      [
+       "castor",
+       0.22,
+       0.809
+      ],
+      [
+       "!",
+       0.997,
+       1.186
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/46-f.mp3",
+     "sec": 4.456531,
+     "text": "Tu savais ? Les dents du castor ne s'usent jamais, car elles poussent toute sa vie.",
+     "words": [
+      [
+       "Tu",
+       0.06,
+       0.069
+      ],
+      [
+       "savais",
+       0.125,
+       0.37
+      ],
+      [
+       "?",
+       0.635,
+       0.899
+      ],
+      [
+       "Les",
+       0.936,
+       1.05
+      ],
+      [
+       "dents",
+       1.087,
+       1.201
+      ],
+      [
+       "du",
+       1.251,
+       1.352
+      ],
+      [
+       "castor",
+       1.412,
+       1.88
+      ],
+      [
+       "ne",
+       1.905,
+       1.955
+      ],
+      [
+       "s'usent",
+       2.069,
+       2.408
+      ],
+      [
+       "jamais,",
+       2.462,
+       3.012
+      ],
+      [
+       "car",
+       3.069,
+       3.238
+      ],
+      [
+       "elles",
+       3.264,
+       3.389
+      ],
+      [
+       "poussent",
+       3.427,
+       3.767
+      ],
+      [
+       "toute",
+       3.804,
+       3.993
+      ],
+      [
+       "sa",
+       4.043,
+       4.144
+      ],
+      [
+       "vie.",
+       4.182,
+       4.446
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦥"
+   },
+   "answer": "Le paresseux",
+   "rank": 84,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/47-a.mp3",
+     "sec": 1.813288,
+     "text": "Réponse : Le paresseux.",
+     "words": [
+      [
+       "Réponse",
+       0.116,
+       0.513
+      ],
+      [
+       ":",
+       0.777,
+       1.041
+      ],
+      [
+       "Le",
+       1.067,
+       1.117
+      ],
+      [
+       "paresseux.",
+       1.192,
+       1.796
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦝"
+   },
+   "answer": "Le raton laveur",
+   "rank": 85,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/48-a.mp3",
+     "sec": 1.535692,
+     "text": "Le raton laveur !",
+     "words": [
+      [
+       "Le",
+       0.069,
+       0.099
+      ],
+      [
+       "raton",
+       0.175,
+       0.476
+      ],
+      [
+       "laveur",
+       0.552,
+       1.005
+      ],
+      [
+       "!",
+       1.269,
+       1.533
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦬"
+   },
+   "answer": "Le bison",
+   "rank": 87,
+   "voice": {
+    "q": {
+     "src": "tts-cache/e9252a6efa23e820.mp3",
+     "sec": 2.76093,
+     "text": "Question 50. Ta série tient toujours ?",
+     "words": [
+      [
+       "Question",
+       0.331,
+       0.411
+      ],
+      [
+       "50.",
+       0.562,
+       1.354
+      ],
+      [
+       "Ta",
+       1.442,
+       1.618
+      ],
+      [
+       "série",
+       1.682,
+       1.996
+      ],
+      [
+       "tient",
+       2.071,
+       2.298
+      ],
+      [
+       "toujours",
+       2.339,
+       2.675
+      ],
+      [
+       "?",
+       2.713,
+       2.751
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/49-a.mp3",
+     "sec": 1.414354,
+     "text": "C'est Le bison.",
+     "words": [
+      [
+       "C'est",
+       0.171,
+       0.284
+      ],
+      [
+       "Le",
+       0.31,
+       0.36
+      ],
+      [
+       "bison.",
+       0.473,
+       1.416
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦣"
+   },
+   "answer": "Le mammouth",
+   "rank": 90,
+   "voice": {
+    "q": {
+     "src": "tts-cache/353e32743d4b4fc4.mp3",
+     "sec": 2.581247,
+     "text": "Attention, celui-là piège tout le monde.",
+     "words": [
+      [
+       "Attention,",
+       0.426,
+       0.981
+      ],
+      [
+       "celui-là",
+       1.031,
+       1.434
+      ],
+      [
+       "piège",
+       1.528,
+       1.887
+      ],
+      [
+       "tout",
+       1.917,
+       2.038
+      ],
+      [
+       "le",
+       2.063,
+       2.113
+      ],
+      [
+       "monde.",
+       2.163,
+       2.566
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/50-a.mp3",
+     "sec": 2.41619,
+     "text": "Bravo si tu as dit Le mammouth.",
+     "words": [
+      [
+       "Bravo",
+       0.434,
+       0.528
+      ],
+      [
+       "si",
+       0.604,
+       0.755
+      ],
+      [
+       "tu",
+       0.83,
+       0.981
+      ],
+      [
+       "as",
+       1.031,
+       1.132
+      ],
+      [
+       "dit",
+       1.189,
+       1.358
+      ],
+      [
+       "Le",
+       1.509,
+       1.811
+      ],
+      [
+       "mammouth.",
+       1.857,
+       2.415
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦕"
+   },
+   "answer": "Le diplodocus",
+   "rank": 91,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/51-a.mp3",
+     "sec": 2.34907,
+     "text": "Réponse : Le diplodocus.",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.453
+      ],
+      [
+       ":",
+       0.717,
+       0.981
+      ],
+      [
+       "Le",
+       1.031,
+       1.132
+      ],
+      [
+       "diplodocus.",
+       1.223,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪰"
+   },
+   "answer": "La mouche",
+   "rank": 92,
+   "voice": {
+    "q": {
+     "src": "tts-cache/903359a06dc52503.mp3",
+     "sec": 2.198662,
+     "text": "Prends ton temps, enfin, pas trop.",
+     "words": [
+      [
+       "Prends",
+       0.064,
+       0.151
+      ],
+      [
+       "ton",
+       0.208,
+       0.377
+      ],
+      [
+       "temps,",
+       0.453,
+       1.057
+      ],
+      [
+       "enfin,",
+       1.107,
+       1.509
+      ],
+      [
+       "pas",
+       1.566,
+       1.736
+      ],
+      [
+       "trop.",
+       1.796,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/52-a.mp3",
+     "sec": 1.657823,
+     "text": "Bravo si tu as dit La mouche.",
+     "words": [
+      [
+       "Bravo",
+       0.368,
+       0.444
+      ],
+      [
+       "si",
+       0.519,
+       0.67
+      ],
+      [
+       "tu",
+       0.72,
+       0.821
+      ],
+      [
+       "as",
+       0.847,
+       0.897
+      ],
+      [
+       "dit",
+       0.934,
+       1.048
+      ],
+      [
+       "La",
+       1.073,
+       1.123
+      ],
+      [
+       "mouche.",
+       1.18,
+       1.651
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦟"
+   },
+   "answer": "Le moustique",
+   "rank": 93,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7c4d3be41931bc81.mp3",
+     "sec": 2.040408,
+     "text": "Celui-là, il est vicieux.",
+     "words": [
+      [
+       "Celui-là,",
+       0.257,
+       1.057
+      ],
+      [
+       "il",
+       1.107,
+       1.208
+      ],
+      [
+       "est",
+       1.264,
+       1.434
+      ],
+      [
+       "vicieux.",
+       1.491,
+       2.038
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/53-a.mp3",
+     "sec": 1.185533,
+     "text": "C'est Le moustique.",
+     "words": [
+      [
+       "C'est",
+       0.128,
+       0.151
+      ],
+      [
+       "Le",
+       0.201,
+       0.302
+      ],
+      [
+       "moustique.",
+       0.34,
+       1.434
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪲"
+   },
+   "answer": "Le scarabée",
+   "rank": 94,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/54-a.mp3",
+     "sec": 1.590862,
+     "text": "Le scarabée !",
+     "words": [
+      [
+       "Le",
+       0.068,
+       0.08
+      ],
+      [
+       "scarabée",
+       0.171,
+       0.835
+      ],
+      [
+       "!",
+       1.212,
+       1.59
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪳"
+   },
+   "answer": "Le cafard",
+   "rank": 97,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/55-a.mp3",
+     "sec": 2.121474,
+     "text": "Réponse : Le cafard.",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.604
+      ],
+      [
+       ":",
+       0.906,
+       1.208
+      ],
+      [
+       "Le",
+       1.233,
+       1.283
+      ],
+      [
+       "cafard.",
+       1.396,
+       2.113
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦠"
+   },
+   "answer": "Le microbe",
+   "rank": 98,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/56-a.mp3",
+     "sec": 1.761791,
+     "text": "Eh oui, Le microbe !",
+     "words": [
+      [
+       "Eh",
+       0.141,
+       0.166
+      ],
+      [
+       "oui,",
+       0.242,
+       0.77
+      ],
+      [
+       "Le",
+       0.846,
+       0.997
+      ],
+      [
+       "microbe",
+       1.084,
+       1.676
+      ],
+      [
+       "!",
+       1.714,
+       1.751
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🦨"
+   },
+   "answer": "La mouffette",
+   "rank": 100,
+   "voice": {
+    "q": {
+     "src": "tts-cache/903359a06dc52503.mp3",
+     "sec": 2.198662,
+     "text": "Prends ton temps, enfin, pas trop.",
+     "words": [
+      [
+       "Prends",
+       0.064,
+       0.151
+      ],
+      [
+       "ton",
+       0.208,
+       0.377
+      ],
+      [
+       "temps,",
+       0.453,
+       1.057
+      ],
+      [
+       "enfin,",
+       1.107,
+       1.509
+      ],
+      [
+       "pas",
+       1.566,
+       1.736
+      ],
+      [
+       "trop.",
+       1.796,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/57-a.mp3",
+     "sec": 1.463923,
+     "text": "La mouffette !",
+     "words": [
+      [
+       "La",
+       0.154,
+       0.255
+      ],
+      [
+       "mouffette",
+       0.312,
+       1.085
+      ],
+      [
+       "!",
+       1.274,
+       1.462
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🐃"
+   },
+   "answer": "Le buffle",
+   "rank": 101,
+   "voice": {
+    "q": {
+     "src": "tts-cache/be8dab1cc498a850.mp3",
+     "sec": 1.587166,
+     "text": "Quel est cet animal ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.189,
+       0.302
+      ],
+      [
+       "cet",
+       0.34,
+       0.453
+      ],
+      [
+       "animal",
+       0.528,
+       0.981
+      ],
+      [
+       "?",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/58-a.mp3",
+     "sec": 1.006168,
+     "text": "Le buffle !",
+     "words": [
+      [
+       "Le",
+       0.1,
+       0.12
+      ],
+      [
+       "buffle",
+       0.211,
+       0.724
+      ],
+      [
+       "!",
+       1.064,
+       1.403
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🪸"
+   },
+   "answer": "Le corail",
+   "rank": 103,
+   "voice": {
+    "q": {
+     "src": "tts-cache/893175d7a9b04258.mp3",
+     "sec": 2.263515,
+     "text": "Allez, la dernière.",
+     "words": [
+      [
+       "Allez,",
+       0.139,
+       0.377
+      ],
+      [
+       "la",
+       0.478,
+       0.679
+      ],
+      [
+       "dernière.",
+       0.738,
+       2.264
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/59-a.mp3",
+     "sec": 1.514989,
+     "text": "Eh oui, Le corail !",
+     "words": [
+      [
+       "Eh",
+       0.051,
+       0.071
+      ],
+      [
+       "oui,",
+       0.128,
+       0.675
+      ],
+      [
+       "Le",
+       0.725,
+       0.826
+      ],
+      [
+       "corail",
+       0.901,
+       1.43
+      ],
+      [
+       "!",
+       1.468,
+       1.505
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "Le lion est le roi de la jungle.",
+   "answer": false,
+   "fact": "Le lion vit dans la savane, et on ne le trouve presque jamais dans la jungle.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-19-animaux/i0-q.mp3",
+     "sec": 5.573356,
+     "text": "On souffle une seconde. Vrai ou faux : Le lion est le roi de la jungle.",
+     "words": [
+      [
+       "On",
+       0.065,
+       0.075
+      ],
+      [
+       "souffle",
+       0.132,
+       0.453
+      ],
+      [
+       "une",
+       0.472,
+       0.528
+      ],
+      [
+       "seconde.",
+       0.578,
+       1.509
+      ],
+      [
+       "Vrai",
+       1.698,
+       2.113
+      ],
+      [
+       "ou",
+       2.239,
+       2.491
+      ],
+      [
+       "faux",
+       2.551,
+       2.792
+      ],
+      [
+       ":",
+       3.057,
+       3.321
+      ],
+      [
+       "Le",
+       3.396,
+       3.547
+      ],
+      [
+       "lion",
+       3.638,
+       4
+      ],
+      [
+       "est",
+       4.075,
+       4.302
+      ],
+      [
+       "le",
+       4.327,
+       4.377
+      ],
+      [
+       "roi",
+       4.472,
+       4.755
+      ],
+      [
+       "de",
+       4.78,
+       4.83
+      ],
+      [
+       "la",
+       4.88,
+       4.981
+      ],
+      [
+       "jungle.",
+       5.046,
+       5.585
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/i0-a.mp3",
+     "sec": 1.445351,
+     "text": "Eh non, c'est faux.",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "non,",
+       0.208,
+       0.528
+      ],
+      [
+       "c'est",
+       0.566,
+       0.679
+      ],
+      [
+       "faux.",
+       0.725,
+       1.434
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/i0-f.mp3",
+     "sec": 5.370385,
+     "text": "Petit bonus : Le lion vit dans la savane, et on ne le trouve presque jamais dans la jungle.",
+     "words": [
+      [
+       "Petit",
+       0.124,
+       0.149
+      ],
+      [
+       "bonus",
+       0.225,
+       0.602
+      ],
+      [
+       ":",
+       0.829,
+       1.055
+      ],
+      [
+       "Le",
+       1.105,
+       1.206
+      ],
+      [
+       "lion",
+       1.266,
+       1.508
+      ],
+      [
+       "vit",
+       1.565,
+       1.734
+      ],
+      [
+       "dans",
+       1.749,
+       1.81
+      ],
+      [
+       "la",
+       1.86,
+       1.961
+      ],
+      [
+       "savane,",
+       2.017,
+       2.716
+      ],
+      [
+       "et",
+       2.741,
+       2.791
+      ],
+      [
+       "on",
+       2.841,
+       2.942
+      ],
+      [
+       "ne",
+       2.967,
+       3.017
+      ],
+      [
+       "le",
+       3.043,
+       3.093
+      ],
+      [
+       "trouve",
+       3.136,
+       3.395
+      ],
+      [
+       "presque",
+       3.44,
+       3.772
+      ],
+      [
+       "jamais",
+       3.848,
+       4.3
+      ],
+      [
+       "dans",
+       4.316,
+       4.376
+      ],
+      [
+       "la",
+       4.426,
+       4.527
+      ],
+      [
+       "jungle.",
+       4.581,
+       5.357
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal transporte sa maison sur son dos ?",
+   "choices": [
+    "Le crabe",
+    "Le hérisson",
+    "L'escargot"
+   ],
+   "correct": 2,
+   "fact": "La coquille de l'escargot grandit avec lui, et il ne peut jamais la quitter.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-19-animaux/i1-q.mp3",
+     "sec": 7.911542,
+     "text": "On souffle une seconde. Quel animal transporte sa maison sur son dos : Le crabe, Le hérisson, ou L'escargot ?",
+     "words": [
+      [
+       "On",
+       0.048,
+       0.059
+      ],
+      [
+       "souffle",
+       0.115,
+       0.436
+      ],
+      [
+       "une",
+       0.455,
+       0.511
+      ],
+      [
+       "seconde.",
+       0.561,
+       1.115
+      ],
+      [
+       "Quel",
+       1.342,
+       1.945
+      ],
+      [
+       "animal",
+       2.01,
+       2.398
+      ],
+      [
+       "transporte",
+       2.453,
+       3.002
+      ],
+      [
+       "sa",
+       3.077,
+       3.228
+      ],
+      [
+       "maison",
+       3.282,
+       3.606
+      ],
+      [
+       "sur",
+       3.662,
+       3.832
+      ],
+      [
+       "son",
+       3.87,
+       3.983
+      ],
+      [
+       "dos",
+       4.04,
+       4.21
+      ],
+      [
+       ":",
+       4.511,
+       4.813
+      ],
+      [
+       "Le",
+       4.863,
+       4.964
+      ],
+      [
+       "crabe,",
+       5.04,
+       5.493
+      ],
+      [
+       "Le",
+       5.669,
+       6.021
+      ],
+      [
+       "hérisson,",
+       6.071,
+       6.625
+      ],
+      [
+       "ou",
+       6.776,
+       7.077
+      ],
+      [
+       "L'escargot",
+       7.115,
+       7.757
+      ],
+      [
+       "?",
+       7.832,
+       7.908
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/i1-a.mp3",
+     "sec": 1.502585,
+     "text": "Eh oui : L'escargot !",
+     "words": [
+      [
+       "Eh",
+       0.108,
+       0.138
+      ],
+      [
+       "oui",
+       0.176,
+       0.289
+      ],
+      [
+       ":",
+       0.478,
+       0.667
+      ],
+      [
+       "L'escargot",
+       0.742,
+       1.421
+      ],
+      [
+       "!",
+       1.459,
+       1.497
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/i1-f.mp3",
+     "sec": 5.671474,
+     "text": "Et pour la culture : La coquille de l'escargot grandit avec lui, et il ne peut jamais la quitter.",
+     "words": [
+      [
+       "Et",
+       0.065,
+       0.075
+      ],
+      [
+       "pour",
+       0.121,
+       0.302
+      ],
+      [
+       "la",
+       0.327,
+       0.377
+      ],
+      [
+       "culture",
+       0.453,
+       0.981
+      ],
+      [
+       ":",
+       1.245,
+       1.509
+      ],
+      [
+       "La",
+       1.535,
+       1.585
+      ],
+      [
+       "coquille",
+       1.686,
+       2.113
+      ],
+      [
+       "de",
+       2.139,
+       2.189
+      ],
+      [
+       "l'escargot",
+       2.226,
+       2.868
+      ],
+      [
+       "grandit",
+       2.931,
+       3.321
+      ],
+      [
+       "avec",
+       3.366,
+       3.547
+      ],
+      [
+       "lui,",
+       3.604,
+       3.849
+      ],
+      [
+       "et",
+       4,
+       4.302
+      ],
+      [
+       "il",
+       4.327,
+       4.377
+      ],
+      [
+       "ne",
+       4.427,
+       4.528
+      ],
+      [
+       "peut",
+       4.574,
+       4.755
+      ],
+      [
+       "jamais",
+       4.808,
+       5.132
+      ],
+      [
+       "la",
+       5.158,
+       5.208
+      ],
+      [
+       "quitter.",
+       5.233,
+       5.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Une abeille produit une pleine cuillère de miel dans sa vie.",
+   "answer": false,
+   "fact": "Une abeille ouvrière produit environ un douzième de cuillère à café de miel dans sa vie.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-19-animaux/i2-q.mp3",
+     "sec": 6.499909,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : Une abeille produit une pleine cuillère de miel dans sa vie.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.29,
+       0.604
+      ],
+      [
+       "entre",
+       0.654,
+       0.906
+      ],
+      [
+       "deux",
+       0.951,
+       1.132
+      ],
+      [
+       "questions",
+       1.177,
+       1.585
+      ],
+      [
+       ":",
+       1.849,
+       2.112
+      ],
+      [
+       "Vrai",
+       2.113,
+       2.264
+      ],
+      [
+       "ou",
+       2.29,
+       2.34
+      ],
+      [
+       "faux",
+       2.4,
+       2.642
+      ],
+      [
+       ":",
+       2.792,
+       2.943
+      ],
+      [
+       "Une",
+       2.962,
+       3.019
+      ],
+      [
+       "abeille",
+       3.094,
+       3.396
+      ],
+      [
+       "produit",
+       3.453,
+       3.849
+      ],
+      [
+       "une",
+       3.962,
+       4.302
+      ],
+      [
+       "pleine",
+       4.358,
+       4.604
+      ],
+      [
+       "cuillère",
+       4.679,
+       4.981
+      ],
+      [
+       "de",
+       5.031,
+       5.132
+      ],
+      [
+       "miel",
+       5.208,
+       5.509
+      ],
+      [
+       "dans",
+       5.585,
+       5.887
+      ],
+      [
+       "sa",
+       5.962,
+       6.113
+      ],
+      [
+       "vie.",
+       6.189,
+       6.491
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/i2-a.mp3",
+     "sec": 1.066757,
+     "text": "C'est faux !",
+     "words": [
+      [
+       "C'est",
+       0.257,
+       0.302
+      ],
+      [
+       "faux",
+       0.392,
+       0.755
+      ],
+      [
+       "!",
+       0.981,
+       1.057
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/i2-f.mp3",
+     "sec": 5.134694,
+     "text": "Tu savais ? Une abeille ouvrière produit environ un douzième de cuillère à café de miel dans sa vie.",
+     "words": [
+      [
+       "Tu",
+       0.065,
+       0.075
+      ],
+      [
+       "savais",
+       0.132,
+       0.377
+      ],
+      [
+       "?",
+       0.604,
+       0.83
+      ],
+      [
+       "Une",
+       0.868,
+       0.981
+      ],
+      [
+       "abeille",
+       1.031,
+       1.208
+      ],
+      [
+       "ouvrière",
+       1.258,
+       1.736
+      ],
+      [
+       "produit",
+       1.783,
+       2.113
+      ],
+      [
+       "environ",
+       2.179,
+       2.642
+      ],
+      [
+       "un",
+       2.692,
+       2.792
+      ],
+      [
+       "douzième",
+       2.849,
+       3.321
+      ],
+      [
+       "de",
+       3.346,
+       3.396
+      ],
+      [
+       "cuillère",
+       3.472,
+       3.774
+      ],
+      [
+       "à",
+       3.811,
+       3.849
+      ],
+      [
+       "café",
+       3.925,
+       4.226
+      ],
+      [
+       "de",
+       4.252,
+       4.302
+      ],
+      [
+       "miel",
+       4.352,
+       4.528
+      ],
+      [
+       "dans",
+       4.574,
+       4.755
+      ],
+      [
+       "sa",
+       4.805,
+       4.906
+      ],
+      [
+       "vie.",
+       4.943,
+       5.132
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel minuscule animal a survécu dans le vide spatial ?",
+   "choices": [
+    "Le cafard",
+    "Le tardigrade",
+    "La fourmi"
+   ],
+   "correct": 1,
+   "fact": "En 2007, des tardigrades ont survécu à plusieurs jours dans le vide de l'espace.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-19-animaux/i3-q.mp3",
+     "sec": 9.563061,
+     "text": "Petit bonus entre deux questions : Quel minuscule animal a survécu dans le vide spatial : Le cafard, Le tardigrade, ou La fourmi ?",
+     "words": [
+      [
+       "Petit",
+       0.164,
+       0.201
+      ],
+      [
+       "bonus",
+       0.277,
+       0.654
+      ],
+      [
+       "entre",
+       0.717,
+       1.031
+      ],
+      [
+       "deux",
+       1.062,
+       1.182
+      ],
+      [
+       "questions",
+       1.22,
+       1.56
+      ],
+      [
+       ":",
+       1.862,
+       2.164
+      ],
+      [
+       "Quel",
+       2.189,
+       2.39
+      ],
+      [
+       "minuscule",
+       2.465,
+       3.069
+      ],
+      [
+       "animal",
+       3.145,
+       3.597
+      ],
+      [
+       "a",
+       3.748,
+       3.899
+      ],
+      [
+       "survécu",
+       3.975,
+       4.503
+      ],
+      [
+       "dans",
+       4.533,
+       4.654
+      ],
+      [
+       "le",
+       4.68,
+       4.73
+      ],
+      [
+       "vide",
+       4.775,
+       4.956
+      ],
+      [
+       "spatial",
+       5.031,
+       5.56
+      ],
+      [
+       ":",
+       5.899,
+       6.239
+      ],
+      [
+       "Le",
+       6.289,
+       6.39
+      ],
+      [
+       "cafard,",
+       6.465,
+       7.447
+      ],
+      [
+       "Le",
+       7.497,
+       7.597
+      ],
+      [
+       "tardigrade,",
+       7.658,
+       8.805
+      ],
+      [
+       "ou",
+       8.831,
+       8.881
+      ],
+      [
+       "La",
+       8.931,
+       9.031
+      ],
+      [
+       "fourmi",
+       9.092,
+       9.484
+      ],
+      [
+       "?",
+       9.522,
+       9.56
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/i3-a.mp3",
+     "sec": 1.587166,
+     "text": "C'est Le tardigrade !",
+     "words": [
+      [
+       "C'est",
+       0.142,
+       0.226
+      ],
+      [
+       "Le",
+       0.252,
+       0.302
+      ],
+      [
+       "tardigrade",
+       0.377,
+       1.132
+      ],
+      [
+       "!",
+       1.208,
+       1.283
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/i3-f.mp3",
+     "sec": 6.193265,
+     "text": "Détail amusant : En 2007, des tardigrades ont survécu à plusieurs jours dans le vide de l'espace.",
+     "words": [
+      [
+       "Détail",
+       0.17,
+       0.291
+      ],
+      [
+       "amusant",
+       0.341,
+       0.744
+      ],
+      [
+       ":",
+       0.97,
+       1.197
+      ],
+      [
+       "En",
+       1.272,
+       1.423
+      ],
+      [
+       "2007,",
+       1.499,
+       2.329
+      ],
+      [
+       "des",
+       2.367,
+       2.48
+      ],
+      [
+       "tardigrades",
+       2.54,
+       3.083
+      ],
+      [
+       "ont",
+       3.121,
+       3.234
+      ],
+      [
+       "survécu",
+       3.295,
+       3.763
+      ],
+      [
+       "à",
+       3.876,
+       3.989
+      ],
+      [
+       "plusieurs",
+       4.034,
+       4.442
+      ],
+      [
+       "jours",
+       4.517,
+       4.895
+      ],
+      [
+       "dans",
+       4.925,
+       5.046
+      ],
+      [
+       "le",
+       5.071,
+       5.121
+      ],
+      [
+       "vide",
+       5.182,
+       5.423
+      ],
+      [
+       "de",
+       5.449,
+       5.499
+      ],
+      [
+       "l'espace.",
+       5.536,
+       6.178
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "La chauve-souris bourdon est l'un des plus petits mammifères.",
+   "answer": true,
+   "fact": "Elle pèse à peine 2 grammes, c'est-à-dire moins qu'un trombone.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-19-animaux/i4-q.mp3",
+     "sec": 6.872086,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : La chauve-souris bourdon est l'un des plus petits mammifères.",
+     "words": [
+      [
+       "Une",
+       0.128,
+       0.151
+      ],
+      [
+       "question",
+       0.192,
+       0.528
+      ],
+      [
+       "à",
+       0.566,
+       0.604
+      ],
+      [
+       "côté,",
+       0.664,
+       0.981
+      ],
+      [
+       "pour",
+       0.996,
+       1.057
+      ],
+      [
+       "le",
+       1.107,
+       1.208
+      ],
+      [
+       "plaisir",
+       1.264,
+       1.66
+      ],
+      [
+       ":",
+       1.887,
+       2.113
+      ],
+      [
+       "Vrai",
+       2.189,
+       2.491
+      ],
+      [
+       "ou",
+       2.592,
+       2.792
+      ],
+      [
+       "faux",
+       2.853,
+       3.094
+      ],
+      [
+       ":",
+       3.358,
+       3.623
+      ],
+      [
+       "La",
+       3.673,
+       3.774
+      ],
+      [
+       "chauve-souris",
+       3.824,
+       4.302
+      ],
+      [
+       "bourdon",
+       4.347,
+       4.755
+      ],
+      [
+       "est",
+       4.83,
+       5.057
+      ],
+      [
+       "l'un",
+       5.094,
+       5.208
+      ],
+      [
+       "des",
+       5.264,
+       5.434
+      ],
+      [
+       "plus",
+       5.464,
+       5.585
+      ],
+      [
+       "petits",
+       5.65,
+       6.038
+      ],
+      [
+       "mammifères.",
+       6.083,
+       6.868
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/i4-a.mp3",
+     "sec": 0.964966,
+     "text": "C'est vrai !",
+     "words": [
+      [
+       "C'est",
+       0.025,
+       0.138
+      ],
+      [
+       "vrai",
+       0.199,
+       0.44
+      ],
+      [
+       "!",
+       0.705,
+       0.969
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/i4-f.mp3",
+     "sec": 4.242812,
+     "text": "Tu savais ? Elle pèse à peine 2 grammes, c'est-à-dire moins qu'un trombone.",
+     "words": [
+      [
+       "Tu",
+       0.067,
+       0.087
+      ],
+      [
+       "savais",
+       0.143,
+       0.464
+      ],
+      [
+       "?",
+       0.653,
+       0.841
+      ],
+      [
+       "Elle",
+       0.872,
+       0.992
+      ],
+      [
+       "pèse",
+       1.03,
+       1.219
+      ],
+      [
+       "à",
+       1.294,
+       1.37
+      ],
+      [
+       "peine",
+       1.395,
+       1.672
+      ],
+      [
+       "2",
+       1.747,
+       1.822
+      ],
+      [
+       "grammes,",
+       1.872,
+       2.426
+      ],
+      [
+       "c'est-à-dire",
+       2.464,
+       2.955
+      ],
+      [
+       "moins",
+       2.98,
+       3.106
+      ],
+      [
+       "qu'un",
+       3.156,
+       3.332
+      ],
+      [
+       "trombone.",
+       3.377,
+       4.238
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel animal marin peut refaire un bras perdu ?",
+   "choices": [
+    "Le dauphin",
+    "Le phoque",
+    "L'étoile de mer"
+   ],
+   "correct": 2,
+   "fact": "Certaines étoiles de mer refont un bras entier, voire un corps à partir d'un seul bras.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-19-animaux/i5-q.mp3",
+     "sec": 8.696939,
+     "text": "Petit bonus entre deux questions : Quel animal marin peut refaire un bras perdu : Le dauphin, Le phoque, ou L'étoile de mer ?",
+     "words": [
+      [
+       "Petit",
+       0.184,
+       0.234
+      ],
+      [
+       "bonus",
+       0.297,
+       0.611
+      ],
+      [
+       "entre",
+       0.649,
+       0.838
+      ],
+      [
+       "deux",
+       0.868,
+       0.989
+      ],
+      [
+       "questions",
+       1.027,
+       1.366
+      ],
+      [
+       ":",
+       1.744,
+       2.121
+      ],
+      [
+       "Quel",
+       2.146,
+       2.272
+      ],
+      [
+       "animal",
+       2.337,
+       2.725
+      ],
+      [
+       "marin",
+       2.788,
+       3.102
+      ],
+      [
+       "peut",
+       3.162,
+       3.404
+      ],
+      [
+       "refaire",
+       3.479,
+       3.857
+      ],
+      [
+       "un",
+       3.907,
+       4.008
+      ],
+      [
+       "bras",
+       4.053,
+       4.234
+      ],
+      [
+       "perdu",
+       4.31,
+       4.687
+      ],
+      [
+       ":",
+       5.027,
+       5.366
+      ],
+      [
+       "Le",
+       5.416,
+       5.517
+      ],
+      [
+       "dauphin,",
+       5.567,
+       6.045
+      ],
+      [
+       "Le",
+       6.246,
+       6.649
+      ],
+      [
+       "phoque,",
+       6.699,
+       7.177
+      ],
+      [
+       "ou",
+       7.354,
+       7.706
+      ],
+      [
+       "L'étoile",
+       7.781,
+       8.159
+      ],
+      [
+       "de",
+       8.209,
+       8.31
+      ],
+      [
+       "mer",
+       8.385,
+       8.611
+      ],
+      [
+       "?",
+       8.649,
+       8.687
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/i5-a.mp3",
+     "sec": 2.024671,
+     "text": "Réponse : L'étoile de mer.",
+     "words": [
+      [
+       "Réponse",
+       0.171,
+       0.578
+      ],
+      [
+       ":",
+       0.805,
+       1.031
+      ],
+      [
+       "L'étoile",
+       1.069,
+       1.408
+      ],
+      [
+       "de",
+       1.458,
+       1.559
+      ],
+      [
+       "mer.",
+       1.635,
+       2.012
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/i5-f.mp3",
+     "sec": 6.625692,
+     "text": "Petit bonus : Certaines étoiles de mer refont un bras entier, voire un corps à partir d'un seul bras.",
+     "words": [
+      [
+       "Petit",
+       0.089,
+       0.126
+      ],
+      [
+       "bonus",
+       0.202,
+       0.579
+      ],
+      [
+       ":",
+       0.806,
+       1.032
+      ],
+      [
+       "Certaines",
+       1.079,
+       1.485
+      ],
+      [
+       "étoiles",
+       1.56,
+       1.787
+      ],
+      [
+       "de",
+       1.812,
+       1.862
+      ],
+      [
+       "mer",
+       1.938,
+       2.164
+      ],
+      [
+       "refont",
+       2.315,
+       2.919
+      ],
+      [
+       "un",
+       2.969,
+       3.07
+      ],
+      [
+       "bras",
+       3.16,
+       3.523
+      ],
+      [
+       "entier,",
+       3.579,
+       4.202
+      ],
+      [
+       "voire",
+       4.252,
+       4.579
+      ],
+      [
+       "un",
+       4.629,
+       4.73
+      ],
+      [
+       "corps",
+       4.831,
+       5.334
+      ],
+      [
+       "à",
+       5.409,
+       5.485
+      ],
+      [
+       "partir",
+       5.528,
+       5.787
+      ],
+      [
+       "d'un",
+       5.862,
+       6.089
+      ],
+      [
+       "seul",
+       6.134,
+       6.315
+      ],
+      [
+       "bras.",
+       6.36,
+       6.617
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Un dauphin dort avec tout son cerveau endormi.",
+   "answer": false,
+   "fact": "Un seul côté du cerveau dort à la fois, pour qu'il puisse remonter respirer.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-19-animaux/i6-q.mp3",
+     "sec": 6.39415,
+     "text": "On souffle une seconde. Vrai ou faux : Un dauphin dort avec tout son cerveau endormi.",
+     "words": [
+      [
+       "On",
+       0.04,
+       0.051
+      ],
+      [
+       "souffle",
+       0.126,
+       0.579
+      ],
+      [
+       "une",
+       0.636,
+       0.805
+      ],
+      [
+       "seconde.",
+       0.881,
+       1.824
+      ],
+      [
+       "Vrai",
+       2.032,
+       2.39
+      ],
+      [
+       "ou",
+       2.416,
+       2.466
+      ],
+      [
+       "faux",
+       2.541,
+       2.843
+      ],
+      [
+       ":",
+       3.145,
+       3.447
+      ],
+      [
+       "Un",
+       3.497,
+       3.598
+      ],
+      [
+       "dauphin",
+       3.673,
+       4.202
+      ],
+      [
+       "dort",
+       4.292,
+       4.654
+      ],
+      [
+       "avec",
+       4.7,
+       4.881
+      ],
+      [
+       "tout",
+       4.941,
+       5.183
+      ],
+      [
+       "son",
+       5.22,
+       5.334
+      ],
+      [
+       "cerveau",
+       5.409,
+       5.786
+      ],
+      [
+       "endormi.",
+       5.824,
+       6.39
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-19-animaux/i6-a.mp3",
+     "sec": 0.666667,
+     "text": "Faux !",
+     "words": [
+      [
+       "Faux",
+       0.137,
+       0.298
+      ],
+      [
+       "!",
+       0.486,
+       0.675
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-19-animaux/i6-f.mp3",
+     "sec": 4.737982,
+     "text": "Tu savais ? Un seul côté du cerveau dort à la fois, pour qu'il puisse remonter respirer.",
+     "words": [
+      [
+       "Tu",
+       0.043,
+       0.053
+      ],
+      [
+       "savais",
+       0.11,
+       0.355
+      ],
+      [
+       "?",
+       0.544,
+       0.733
+      ],
+      [
+       "Un",
+       0.808,
+       0.959
+      ],
+      [
+       "seul",
+       1.004,
+       1.186
+      ],
+      [
+       "côté",
+       1.246,
+       1.487
+      ],
+      [
+       "du",
+       1.537,
+       1.638
+      ],
+      [
+       "cerveau",
+       1.676,
+       2.016
+      ],
+      [
+       "dort",
+       2.061,
+       2.242
+      ],
+      [
+       "à",
+       2.28,
+       2.318
+      ],
+      [
+       "la",
+       2.343,
+       2.393
+      ],
+      [
+       "fois,",
+       2.453,
+       2.997
+      ],
+      [
+       "pour",
+       3.012,
+       3.072
+      ],
+      [
+       "qu'il",
+       3.098,
+       3.299
+      ],
+      [
+       "puisse",
+       3.329,
+       3.601
+      ],
+      [
+       "remonter",
+       3.676,
+       4.204
+      ],
+      [
+       "respirer.",
+       4.258,
+       4.733
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Crée ton quiz gratuit sur youqwiz.com"
+ },
+ "meta": {
+  "description": "60 ANIMAUX à deviner en 5 secondes chacun, du plus facile au plus impossible. 9 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Joue à la version interactive et défie tes proches : https://youqwiz.com/quiz-du-jour/2026-11-19-animaux\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #animaux #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n03:22 Niveau moyen\n07:08 Niveau difficile\n11:17 Niveau impossible\n15:49 Ton score\n16:01 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "animaux",
+   "quiz animaux",
+   "devine l'animal",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Reconnais",
+   "line2": "60 ANIMAUX",
+   "emoji": "🐯",
+   "sticker": "NIVEAU GÉNIE",
+   "layouts": [
+    1,
+    2
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "99 % échouent à la 8e 😱 Devine 60 ANIMAUX #Shorts",
+  "shortDescription": "Tu veux la réponse ? Elle est dans la vidéo complète (60 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "PERSONNE N'A TOUT BON",
+   "line": "prouve le contraire 😏"
+  },
+  "short2": {
+   "title": "Les plus dures de animaux ⚠️ 3 secondes chrono #Shorts",
+   "description": "Vidéo complète avec les 60 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "MODE EXPERT",
+   "line": "les 8 questions que personne n'a 👑"
+  },
+  "short3": {
+   "title": "Personne ne finit celui-là 😱 Devine 60 ANIMAUX #Shorts",
+   "description": "La réponse + 60 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "ÇA SE CORSE",
+   "line": "8 questions, 3 secondes chacune ⏱️"
+  },
+  "social": {
+   "caption": "60 ANIMAUX à deviner aujourd'hui sur YouQwiz 🎯 Ton score en commentaire !",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "animaux",
+    "quizanimaux"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 202.83333333333334,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 428.03333333333336,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 677.2666666666667,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 949.9666666666667,
+    "title": "Ton score"
+   },
+   {
+    "at": 961.2,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/f4f6d2babe435216.mp3",
+   "sec": 3.905578,
+   "text": "Niveau facile. Tout le monde peut les avoir. Enfin, presque.",
+   "words": [
+    [
+     "Niveau",
+     0.052,
+     0.286
+    ],
+    [
+     "facile.",
+     0.361,
+     0.889
+    ],
+    [
+     "Tout",
+     0.965,
+     1.267
+    ],
+    [
+     "le",
+     1.292,
+     1.342
+    ],
+    [
+     "monde",
+     1.38,
+     1.569
+    ],
+    [
+     "peut",
+     1.584,
+     1.644
+    ],
+    [
+     "les",
+     1.682,
+     1.795
+    ],
+    [
+     "avoir.",
+     1.883,
+     2.588
+    ],
+    [
+     "Enfin,",
+     2.675,
+     3.154
+    ],
+    [
+     "presque.",
+     3.244,
+     3.757
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/562d27da613d6568.mp3",
+   "sec": 3.392041,
+   "text": "Niveau moyen. Là, il faut réfléchir un peu.",
+   "words": [
+    [
+     "Niveau",
+     0.113,
+     0.453
+    ],
+    [
+     "moyen.",
+     0.541,
+     1.283
+    ],
+    [
+     "Là,",
+     1.434,
+     1.811
+    ],
+    [
+     "il",
+     1.861,
+     1.962
+    ],
+    [
+     "faut",
+     1.992,
+     2.113
+    ],
+    [
+     "réfléchir",
+     2.163,
+     2.642
+    ],
+    [
+     "un",
+     2.667,
+     2.717
+    ],
+    [
+     "peu.",
+     2.774,
+     3.396
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/d3bd957d532e8868.mp3",
+   "sec": 4.910317,
+   "text": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère.",
+   "words": [
+    [
+     "Niveau",
+     0.136,
+     0.377
+    ],
+    [
+     "difficile.",
+     0.445,
+     1.132
+    ],
+    [
+     "Ici,",
+     1.396,
+     1.887
+    ],
+    [
+     "beaucoup",
+     1.954,
+     2.491
+    ],
+    [
+     "abandonnent.",
+     2.547,
+     3.358
+    ],
+    [
+     "Pas",
+     3.425,
+     3.623
+    ],
+    [
+     "toi,",
+     3.679,
+     3.887
+    ],
+    [
+     "j'espère.",
+     3.906,
+     4.453
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/978dc0ef4036d7a4.mp3",
+   "sec": 3.086417,
+   "text": "Niveau impossible. Seuls les génies…",
+   "words": [
+    [
+     "Niveau",
+     0.051,
+     0.436
+    ],
+    [
+     "impossible.",
+     0.539,
+     1.832
+    ],
+    [
+     "Seuls",
+     1.92,
+     2.247
+    ],
+    [
+     "les",
+     2.304,
+     2.474
+    ],
+    [
+     "génies…",
+     2.568,
+     3.077
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/337535e57436b915.mp3",
+   "sec": 5.369025,
+   "text": "Compte tes points et écris ton score en commentaire : le meilleur score est félicité dès demain !",
+   "words": [
+    [
+     "Compte",
+     0.059,
+     0.221
+    ],
+    [
+     "tes",
+     0.24,
+     0.297
+    ],
+    [
+     "points",
+     0.351,
+     0.674
+    ],
+    [
+     "et",
+     0.75,
+     0.901
+    ],
+    [
+     "écris",
+     0.976,
+     1.278
+    ],
+    [
+     "ton",
+     1.297,
+     1.353
+    ],
+    [
+     "score",
+     1.417,
+     1.731
+    ],
+    [
+     "en",
+     1.781,
+     1.882
+    ],
+    [
+     "commentaire",
+     1.932,
+     2.485
+    ],
+    [
+     ":",
+     2.674,
+     2.863
+    ],
+    [
+     "le",
+     2.938,
+     3.089
+    ],
+    [
+     "meilleur",
+     3.115,
+     3.316
+    ],
+    [
+     "score",
+     3.391,
+     3.768
+    ],
+    [
+     "est",
+     3.844,
+     4.07
+    ],
+    [
+     "félicité",
+     4.12,
+     4.674
+    ],
+    [
+     "dès",
+     4.75,
+     4.976
+    ],
+    [
+     "demain",
+     5.014,
+     5.278
+    ],
+    [
+     "!",
+     5.316,
+     5.353
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/7ee645b26936998d.mp3",
+   "sec": 4.160771,
+   "text": "Abonne-toi et active la cloche, pour être prévenu gratuitement du prochain quiz !",
+   "words": [
+    [
+     "Abonne-toi",
+     0.064,
+     0.461
+    ],
+    [
+     "et",
+     0.511,
+     0.612
+    ],
+    [
+     "active",
+     0.666,
+     0.989
+    ],
+    [
+     "la",
+     1.015,
+     1.065
+    ],
+    [
+     "cloche,",
+     1.121,
+     1.518
+    ],
+    [
+     "pour",
+     1.548,
+     1.669
+    ],
+    [
+     "être",
+     1.729,
+     1.97
+    ],
+    [
+     "prévenu",
+     2.008,
+     2.348
+    ],
+    [
+     "gratuitement",
+     2.406,
+     3.102
+    ],
+    [
+     "du",
+     3.152,
+     3.253
+    ],
+    [
+     "prochain",
+     3.31,
+     3.631
+    ],
+    [
+     "quiz",
+     3.721,
+     4.084
+    ],
+    [
+     "!",
+     4.121,
+     4.159
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/6123123d15e880ea.mp3",
+   "sec": 2.310771,
+   "text": "À demain pour un nouveau quiz. Pense à t'abonner !",
+   "words": [
+    [
+     "À",
+     0.035,
+     0.043
+    ],
+    [
+     "demain",
+     0.08,
+     0.269
+    ],
+    [
+     "pour",
+     0.329,
+     0.571
+    ],
+    [
+     "un",
+     0.596,
+     0.646
+    ],
+    [
+     "nouveau",
+     0.675,
+     0.873
+    ],
+    [
+     "quiz.",
+     0.948,
+     1.439
+    ],
+    [
+     "Pense",
+     1.533,
+     1.778
+    ],
+    [
+     "à",
+     1.816,
+     1.854
+    ],
+    [
+     "t'abonner",
+     1.892,
+     2.156
+    ],
+    [
+     "!",
+     2.231,
+     2.307
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/c14b1324579c94db.mp3",
+   "sec": 3.584512,
+   "text": "Content de te revoir sur YouQwiz ! Échauffe tes neurones, c'est parti !",
+   "words": [
+    [
+     "Content",
+     0.194,
+     0.246
+    ],
+    [
+     "de",
+     0.272,
+     0.322
+    ],
+    [
+     "te",
+     0.372,
+     0.473
+    ],
+    [
+     "revoir",
+     0.523,
+     0.85
+    ],
+    [
+     "sur",
+     0.888,
+     1.001
+    ],
+    [
+     "YouQwiz",
+     1.058,
+     1.529
+    ],
+    [
+     "!",
+     1.643,
+     1.756
+    ],
+    [
+     "Échauffe",
+     1.831,
+     2.133
+    ],
+    [
+     "tes",
+     2.152,
+     2.209
+    ],
+    [
+     "neurones,",
+     2.254,
+     2.888
+    ],
+    [
+     "c'est",
+     2.926,
+     3.114
+    ],
+    [
+     "parti",
+     3.164,
+     3.416
+    ],
+    [
+     "!",
+     3.492,
+     3.567
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-19-animaux/intro.mp3",
+   "sec": 3.552336,
+   "text": "Devine 60 Animaux ! Allez, montre-moi ce que tu vaux !",
+   "words": [
+    [
+     "Devine",
+     0.192,
+     0.453
+    ],
+    [
+     "60",
+     0.679,
+     1.208
+    ],
+    [
+     "Animaux",
+     1.258,
+     1.585
+    ],
+    [
+     "!",
+     1.774,
+     1.962
+    ],
+    [
+     "Allez,",
+     1.988,
+     2.415
+    ],
+    [
+     "montre-moi",
+     2.46,
+     2.943
+    ],
+    [
+     "ce",
+     2.969,
+     3.019
+    ],
+    [
+     "que",
+     3.038,
+     3.094
+    ],
+    [
+     "tu",
+     3.144,
+     3.245
+    ],
+    [
+     "vaux",
+     3.295,
+     3.472
+    ],
+    [
+     "!",
+     3.509,
+     3.547
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/7ca8243e8488ba4b.mp3",
+   "sec": 5.334989,
+   "text": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com.",
+   "words": [
+    [
+     "Crée",
+     0.031,
+     0.192
+    ],
+    [
+     "gratuitement",
+     0.233,
+     0.72
+    ],
+    [
+     "tes",
+     0.777,
+     0.947
+    ],
+    [
+     "quiz",
+     1.007,
+     1.249
+    ],
+    [
+     "personnalisés,",
+     1.286,
+     2.154
+    ],
+    [
+     "à",
+     2.192,
+     2.23
+    ],
+    [
+     "partager",
+     2.271,
+     2.607
+    ],
+    [
+     "avec",
+     2.652,
+     2.834
+    ],
+    [
+     "tes",
+     2.871,
+     2.984
+    ],
+    [
+     "amis,",
+     3.045,
+     3.664
+    ],
+    [
+     "sur",
+     3.758,
+     4.041
+    ],
+    [
+     "youqwiz",
+     4.098,
+     4.645
+    ],
+    [
+     "point",
+     4.657,
+     4.72
+    ],
+    [
+     "com.",
+     4.834,
+     5.324
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/c6ec491e8cfd81d8.mp3",
+   "sec": 3.109637,
+   "text": "Choisis ton prochain défi en cliquant sur une des deux vidéos !",
+   "words": [
+    [
+     "Choisis",
+     0.128,
+     0.302
+    ],
+    [
+     "ton",
+     0.358,
+     0.528
+    ],
+    [
+     "prochain",
+     0.566,
+     0.83
+    ],
+    [
+     "défi",
+     0.906,
+     1.208
+    ],
+    [
+     "en",
+     1.333,
+     1.585
+    ],
+    [
+     "cliquant",
+     1.623,
+     1.962
+    ],
+    [
+     "sur",
+     2.038,
+     2.264
+    ],
+    [
+     "une",
+     2.302,
+     2.415
+    ],
+    [
+     "des",
+     2.453,
+     2.566
+    ],
+    [
+     "deux",
+     2.596,
+     2.717
+    ],
+    [
+     "vidéos",
+     2.76,
+     3.019
+    ],
+    [
+     "!",
+     3.057,
+     3.094
+    ]
+   ]
+  }
+ }
+}
