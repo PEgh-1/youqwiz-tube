@@ -1,5 +1,5 @@
 {
-  "_comment": " 09/11/2026 : avance ramenée de 7 à 3 jours (une refonte ne coûte plus que 3 rendus). Rotation hebdo validée le 30/10/2026 : Devine ×2, Culture générale ×1, Générations/60+ ×1 (test), Choix entre proches ×2, Émojis/intrus ×1. 31/10 : samedi = Spécial youqwiz.com, repli Tu préfères. 03/11/2026 : durée variable 10-20 min (targetSeconds min/max), gabarit Versus pour les choix, nouvelles banques (alphabet, maths, vocabulaire, acronymes, films-emojis, noël en saison), habillage et textes variables (data/variants.json). 09/11/2026 : 2e Short quotidien à 19 h (shortPublishHour2), questions les plus dures. 12/11/2026 : pilier émojis retiré de la rotation (vendredi = culture générale) ; il « ne rend pas bien ». 13/11/2026 : pilier « Tu préfères / Choisis ton camp » (choix) retiré de la rotation (ligne éditoriale recentrée sur « apprendre ») : mardi et repli du samedi passent provisoirement en culture générale, en attendant le choix définitif ; avance ramenée à 2 jours le temps de ce choix (remettre 3). Gabarit Versus et banque tu-preferes conservés.",
+  "_comment": " 20/11/2026 : longues de 10 à 12 min (targetSeconds 600-720, maxSeconds 780, plancher itemsPerEpisode 25 : c'est la durée cible qui fixe le nombre de questions) ; diagnostic Studio : 10 à 20 % regardés sur 22 min contre 26 à 35 % sur 10-12 min. Un seul Short extrait par jour (12 h), questions de savoir uniquement. 09/11/2026 : avance ramenée de 7 à 3 jours (une refonte ne coûte plus que 3 rendus). Rotation hebdo validée le 30/10/2026 : Devine ×2, Culture générale ×1, Générations/60+ ×1 (test), Choix entre proches ×2, Émojis/intrus ×1. 31/10 : samedi = Spécial youqwiz.com, repli Tu préfères. 03/11/2026 : durée variable 10-20 min (targetSeconds min/max), gabarit Versus pour les choix, nouvelles banques (alphabet, maths, vocabulaire, acronymes, films-emojis, noël en saison), habillage et textes variables (data/variants.json). 09/11/2026 : 2e Short quotidien à 19 h (shortPublishHour2), questions les plus dures. 12/11/2026 : pilier émojis retiré de la rotation (vendredi = culture générale) ; il « ne rend pas bien ». 13/11/2026 : pilier « Tu préfères / Choisis ton camp » (choix) retiré de la rotation (ligne éditoriale recentrée sur « apprendre ») : mardi et repli du samedi passent provisoirement en culture générale, en attendant le choix définitif ; avance ramenée à 2 jours le temps de ce choix (remettre 3). Gabarit Versus et banque tu-preferes conservés.",
   "timezone": "Europe/Paris",
   "publishHour": "17:30",
   "shortPublishHour": "12:00",
@@ -9,9 +9,9 @@
   "shortsPaused": true,
   "targetSeconds": {
     "min": 600,
-    "max": 1200
+    "max": 720
   },
-  "maxSeconds": 2400,
+  "maxSeconds": 780,
   "week": {
     "0": {
       "pillar": "generations",
@@ -53,7 +53,7 @@
         "alphabet",
         "maths"
       ],
-      "itemsPerEpisode": 60,
+      "itemsPerEpisode": 25,
       "weights": {
         "animaux": 1,
         "pays-sans-voyelles": 0.8,
@@ -68,7 +68,7 @@
       "banks": [
         "tu-preferes"
       ],
-      "itemsPerEpisode": 40,
+      "itemsPerEpisode": 25,
       "weights": {
         "tu-preferes": 1
       },
@@ -82,7 +82,7 @@
         "acronymes",
         "noel"
       ],
-      "itemsPerEpisode": 50,
+      "itemsPerEpisode": 25,
       "weights": {
         "culture-generale": 1,
         "vocabulaire": 0.8,
@@ -102,7 +102,7 @@
         "mots-emojis",
         "films-emojis"
       ],
-      "itemsPerEpisode": 50,
+      "itemsPerEpisode": 25,
       "weights": {
         "intrus": 1,
         "mots-emojis": 1,
@@ -114,7 +114,7 @@
       "banks": [
         "generations"
       ],
-      "itemsPerEpisode": 40,
+      "itemsPerEpisode": 25,
       "weights": {
         "generations": 1
       }
@@ -124,7 +124,7 @@
       "banks": [
         "youqwiz-semaine"
       ],
-      "itemsPerEpisode": 70,
+      "itemsPerEpisode": 25,
       "fallback": "culture",
       "weights": {
         "youqwiz-semaine": 1

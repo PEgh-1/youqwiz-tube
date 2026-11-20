@@ -73,9 +73,12 @@ export const extraitTimeline = (x: Extrait, fps: number) => {
     const think = s(3);
     const reveal = dil ? s(1.3) : s(Math.max(1.6, (it.voice?.a?.sec ?? (it.fact ? 6 : 1.4)) + 0.45));
     // dilemme : pas d'accroche séparée, la virgule sonore ouvre la vidéo
-    const seg = dil || stingFirst
+    // 20/11/2026 : hors dilemme, la question ouvre toujours la vidéo et la virgule (rubrique, baseline) ne vient qu'après la
+    // 1re réponse : plus rien entre la question et le jeu (38,5 % seulement des spectateurs restaient).
+    void stingFirst;
+    const seg = dil
       ? { sting: { from: t, dur: stingDur }, hook: { from: t + stingDur, dur: hook }, choices: { from: t + stingDur + hook, dur: read + think, read, think }, reveal: { from: t + stingDur + hook + read + think, dur: reveal } }
-      : { hook: { from: t, dur: hook }, sting: { from: t + hook, dur: stingDur }, choices: { from: t + hook + stingDur, dur: read + think, read, think }, reveal: { from: t + hook + stingDur + read + think, dur: reveal } };
+      : { hook: { from: t, dur: hook }, choices: { from: t + hook, dur: read + think, read, think }, reveal: { from: t + hook + read + think, dur: reveal }, sting: { from: t + hook + read + think + reveal, dur: stingDur } };
     t += hook + stingDur + read + think + reveal;
     return seg;
   });

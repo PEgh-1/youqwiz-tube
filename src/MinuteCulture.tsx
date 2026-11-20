@@ -1,6 +1,6 @@
 // « La minute culture générale, offerte par YouQwiz.com » (pilote du 11/11/2026) : Short 9:16 quotidien façon réclame des
-// années 30-40. Déroulé : accroche (la question, tout de suite) → virgule sonore avec le titre → 3 choix + décompte « amorce de
-// film » → réponse + anecdote → « Vous en voulez encore ? … YouQwiz.com ». Habillage : papier crème, rayons, grain, rayures, vignette.
+// années 30-40. Déroulé (20/11/2026) : accroche (la question, tout de suite) → 3 choix + décompte « amorce de
+// film » → réponse + anecdote → virgule sonore avec le titre → « Vous en voulez encore ? … YouQwiz.com ». Habillage : papier crème, rayons, grain, rayures, vignette.
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import audioManifest from "./audio.json";
@@ -38,8 +38,10 @@ export const minuteTimeline = (m: Minute, fps: number) => {
   const factAt = answerAt + s(joined ? v.answerSplit! : (v.answer?.sec ?? 1.6) + 0.3);
   const reveal = joined ? answerAt + s(v.answer!.sec + 0.45) : factAt + s((v.fact?.sec ?? 5) + 0.45);
   const outro = s((v.outro?.sec ?? 4.5) + 0.8);
-  const t0 = 0, t1 = hook, t2 = t1 + sting, t3 = t2 + read + think, t4 = t3 + reveal;
-  return { hook: { from: t0, dur: hook }, sting: { from: t1, dur: sting }, choices: { from: t2, dur: read + think, read, think }, reveal: { from: t3, dur: reveal, answerAt, factAt }, outro: { from: t4, dur: outro }, total: t4 + outro };
+  // 20/11/2026 : la virgule (titre + baseline) passe APRÈS la réponse. Diagnostic Studio : 38,5 % seulement des spectateurs
+  // restent ; plus rien ne sépare la question du jeu (question → choix → réponse → rubrique → fin).
+  const t0 = 0, t1 = hook, t2 = t1 + read + think, t3 = t2 + reveal, t4 = t3 + sting;
+  return { hook: { from: t0, dur: hook }, choices: { from: t1, dur: read + think, read, think }, reveal: { from: t2, dur: reveal, answerAt, factAt }, sting: { from: t3, dur: sting }, outro: { from: t4, dur: outro }, total: t4 + outro };
 };
 
 // ---------- décor ----------

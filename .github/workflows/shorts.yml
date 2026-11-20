@@ -1,6 +1,7 @@
 name: Shorts extraits (quotidien)
 
-# Shorts extraits de l'épisode du jour (12/11/2026) : 3 Shorts rendus le matin même avec les gabarits par pilier
+# 20/11/2026 : UN seul Short extrait par jour (12 h), questions de savoir uniquement, question à la seconde 0.
+# Shorts extraits de l'épisode du jour (12/11/2026) : Shorts rendus le matin même avec les gabarits par pilier
 # (scripts/short-v3.mjs), déposés en release « shorts-<date> » avec leur fiche data/shorts/<date>.json. La publication
 # (YouTube, Instagram, Facebook, TikTok à 12 h, 16 h et 19 h) est programmée par la tâche planifiée Claude de midi
 # via Metricool, comme pour la Minute culture : aucun quota d'envoi YouTube consommé ici. Pilier émojis : pas de Short.
@@ -42,7 +43,7 @@ jobs:
           node scripts/prepare-assets.mjs
           [ -f public/audio/crackle.mp3 ] || ffmpeg -y -nostdin -loglevel error -f lavfi -i "anoisesrc=c=pink:a=0.05:d=20" -af "highpass=f=1200,lowpass=f=4500,volume=0.35" -b:a 96k public/audio/crackle.mp3
           node -e 'const f="src/audio.json",m=JSON.parse(require("fs").readFileSync(f));m.crackle=true;require("fs").writeFileSync(f,JSON.stringify(m,null,2)+"\n")'
-      - name: Voix + rendu des 3 Shorts
+      - name: Voix + rendu du Short
         id: render
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
@@ -52,25 +53,29 @@ jobs:
           D="${{ inputs.date }}"; [ -z "$D" ] && D=$(TZ=Europe/Paris date +%F)
           echo "date=$D" >> "$GITHUB_OUTPUT"
           if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/shorts/$D.json" ]; then echo "fiche du $D déjà faite"; echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
-          # Épisode du jour ; s'il est du pilier émojis (arrêté en Short le 11/11/2026) ou « Tu préfères / Choisis ton camp » (pilier
-          # retiré le 13/11/2026), repli sur l'épisode le plus récent d'un autre pilier dont les Shorts extraits n'ont pas encore servi.
-          read -r ID LONG FB <<< "$(D=$D node -e '
+          # 20/11/2026 : UN seul Short extrait par jour (12 h), et seulement des questions de savoir (gabarit QuizQCM : culture
+          # générale, vocabulaire, sigles, générations, site). Les piliers visuels (devine : drapeaux, pays sans voyelles, animaux… ;
+          # émojis, intrus) et « Tu préfères » ne passent plus en Short : repli sur l'épisode QuizQCM le plus récent qui a encore
+          # une série de questions inutilisée (3 séries disjointes par épisode, voir scripts/short-v3.mjs --set).
+          read -r ID LONG FB SET <<< "$(D=$D node -e '
             const fs=require("fs"),q=require("./data/state/queue.json"),P=q.published||[];
             const ep=(id)=>JSON.parse(fs.readFileSync("data/episodes/"+id+".json","utf8"));
-            const emo=(id)=>{try{const e=ep(id);return e.pillar==="emojis"||e.pillar==="choix"||e.template==="Versus"||/emojis|intrus|tu-preferes/.test(e.bank||id)}catch{return true}};
+            const out=(id)=>{try{const e=ep(id);return e.template!=="QuizQCM"||e.pillar==="emojis"||e.pillar==="choix"||e.pillar==="devine"||/emojis|intrus|tu-preferes/.test(e.bank||id)}catch{return true}};
+            const used={};
+            if(fs.existsSync("data/shorts"))for(const f of fs.readdirSync("data/shorts")){if(f===process.env.D+".json")continue;const j=JSON.parse(fs.readFileSync("data/shorts/"+f,"utf8"));const u=used[j.episode]??=new Set();for(const s of j.shorts||[]){if(s.set)u.add(s.set);else{u.add(1);u.add(2);u.add(3)}}}
+            const free=(id)=>[1,2,3].find(n=>!(used[id]&&used[id].has(n)));
             const e=P.filter(r=>r.date===process.env.D).pop();
             if(!e){console.log("");process.exit(0)}
-            if(!emo(e.id)){console.log(e.id+" "+(e.longId||"-")+" 0");process.exit(0)}
-            const used=new Set(fs.existsSync("data/shorts")?fs.readdirSync("data/shorts").map(f=>JSON.parse(fs.readFileSync("data/shorts/"+f,"utf8")).episode):[]);
-            const f=P.filter(r=>r.date<process.env.D&&!emo(r.id)&&!used.has(r.id)).sort((a,b)=>a.date<b.date?1:-1)[0];
-            console.log(f?f.id+" "+(e.longId||"-")+" 1":"")')"
+            if(!out(e.id)){console.log(e.id+" "+(e.longId||"-")+" 0 "+(free(e.id)||1));process.exit(0)}
+            const f=P.filter(r=>r.date<process.env.D&&!out(r.id)&&free(r.id)).sort((a,b)=>a.date<b.date?1:-1)[0];
+            console.log(f?f.id+" "+(e.longId||"-")+" 1 "+free(f.id):"")')"
           if [ -z "$ID" ]; then echo "::warning::pas d'épisode utilisable pour le $D"; echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
-          FLAG=""; [ "$FB" = "1" ] && FLAG="--fallback 1" && echo "repli (pilier exclu des Shorts) : Shorts tirés de $ID"
-          node scripts/short-v3.mjs --episode "data/episodes/$ID.json" --date "$D" --long "$LONG" $FLAG
+          FLAG=""; [ "$FB" = "1" ] && FLAG="--fallback 1" && echo "repli (pilier exclu des Shorts) : Short tiré de $ID, série $SET"
+          node scripts/short-v3.mjs --episode "data/episodes/$ID.json" --date "$D" --long "$LONG" --set "$SET" $FLAG
           C=$(ls out/short-v3/$ID-*.mp4 2>/dev/null | wc -l); echo "count=$C" >> "$GITHUB_OUTPUT"; echo "id=$ID" >> "$GITHUB_OUTPUT"
           [ "$C" = "0" ] && exit 0
           [ -f "data/shorts/$D.json" ] || { echo "::error::fiche absente"; exit 1; }
-          grep -q '"src":"short-v3/' "out/short-v3/$ID-1.json" || { echo "::error::Short sans voix"; exit 1; }
+          grep -q '"src":"short-v3/' "out/short-v3/$ID-$SET.json" || { echo "::error::Short sans voix"; exit 1; }
       - name: Release shorts-<date>
         if: ${{ steps.render.outputs.count != '0' }}
         env:

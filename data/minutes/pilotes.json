@@ -55,6 +55,21 @@
    "answer": "La peau, parfaitement !",
    "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !",
    "comment": "Vous aviez trouvé ? Dites-le en commentaire !"
+  },
+  {
+   "name": "question-d-abord",
+   "voice": "A",
+   "sayBaseline": true,
+   "cta": "youtube",
+   "hook": "Quel est le plus grand organe du corps humain ?",
+   "choices": [
+    "La peau",
+    "Le foie",
+    "Le cœur"
+   ],
+   "correct": 0,
+   "answer": "La peau, parfaitement !",
+   "fact": "Deux mètres carrés chez l'adulte, et elle se renouvelle sans cesse. Épatant !"
   }
  ],
  "outroYoutube": "Vous en voulez encore ? Abonnez-vous ! Chaque soir, le grand quiz vous attend sur la chaîne YouTube YouQwiz, et sur YouQwiz point com !"

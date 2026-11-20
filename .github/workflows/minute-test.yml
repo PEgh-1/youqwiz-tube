@@ -2,6 +2,11 @@ name: Minute culture (pilotes)
 
 on:
   workflow_dispatch:
+    inputs:
+      only:
+        description: "Ne rendre qu'un pilote de data/minutes/pilotes.json (nom du job ; vide = tous)"
+        required: false
+        type: string
 
 concurrency:
   group: minute-test
@@ -33,7 +38,7 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
           REMOTION_CONCURRENCY: 2
-        run: node scripts/minute.mjs
+        run: node scripts/minute.mjs ${{ inputs.only != '' && format('--only {0}', inputs.only) || '' }}
       - name: Pré-release de contrôle
         env:
           GH_TOKEN: ${{ github.token }}

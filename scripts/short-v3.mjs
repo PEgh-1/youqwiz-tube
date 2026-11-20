@@ -8,7 +8,10 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const arg = (k, d) => (process.argv.includes(`--${k}`) ? process.argv[process.argv.indexOf(`--${k}`) + 1] : d);
 const ep = JSON.parse(readFileSync(arg("episode"), "utf8"));
-const only = arg("only") ? Number(arg("only")) : null;
+// 20/11/2026 : un seul Short extrait par jour (12 h). --set 1|2|3 choisit la série de questions (défaut 1) ; --all rend les 3
+// séries (pilotes). --only reste accepté (ancien nom de --set).
+const all = process.argv.includes("--all");
+const only = all ? null : Number(arg("set", arg("only", 1)));
 const KEY = process.env.ELEVENLABS_API_KEY, VOICE = process.env.ELEVENLABS_VOICE_ID;
 const sh = (c) => execSync(c, { stdio: ["ignore", "pipe", "pipe"], timeout: 120_000 }).toString();
 mkdirSync("out/short-v3", { recursive: true });
@@ -23,7 +26,7 @@ const SKIN = {
   plateau: { tu: true, tag: "[animateur de jeu télévisé, très enjoué, dynamique, sourire dans la voix]", title: "Trois secondes chrono ! Aujourd'hui, scrolé va te rendre plus malin ! Sans propositions, trouve vite !" },
   pop: { tu: true, tag: "[ton joueur et complice, amusé, plein d'entrain]", title: "Décode si tu peux ! Devine ce qui se cache !" },
   duel: { tu: true, tag: "[ton malicieux et taquin, enjoué]", title: "Choisis ton camp ! Aujourd'hui, scrolé va te rendre plus malin ! Dis ton camp en commentaire !" },
-  album: { tu: true, tag: "[ton chaleureux et complice, souriant, un peu nostalgique, débit posé]", title: "T'as connu ça ? Aujourd'hui, scrolé va te rendre plus malin ! Une seule bonne réponse !" },
+  album: { tu: true, tag: "[ton chaleureux et complice, souriant, un peu nostalgique, débit posé]", title: "T'as connu ça ? Aujourd'hui, scrolé va te rendre plus malin !" },
 }[skin];
 // 11/11/2026 (nuit) : le pilier émojis (« Décode si tu peux ») est arrêté en Short extrait (« ne rend pas bien »).
 if (skin === "pop") { console.log(`${ep.id} : pilier émojis, pas de Short extrait`); process.exit(0); }
@@ -142,18 +145,23 @@ for (const [k, set] of sets.entries()) {
   const sec = Number(sh(`ffprobe -v error -show_entries format=duration -of csv=p=0 "out/short-v3/${name}.mp4"`));
   if (sec > 59) throw new Error(`${name} : ${sec.toFixed(1)} s > 59 s`);
   console.log(`  rendu : ${name}.mp4 (${sec.toFixed(1)} s)`);
-  report.push({ slot: k + 1, hour: SLOTS[k].hour, skin, file: `${name}.mp4`, seconds: sec, title: SLOTS[k].title.slice(0, 100), questions: items.map((it, j) => ({ n: set[j][0] + 1, level: it.level, choices: it.choices, answer: it.answer })) });
+  // 20/11/2026 : titre propre au contenu = la 1re question posée (fin des gabarits « 3 X, 3 secondes chacun »).
+  const q0 = items[0].prompt.type === "qcm" ? plain(String(items[0].prompt.value)) : "";
+  // Question courte dont le sens tient aux propositions (« Quelle est la bonne orthographe ? ») : on les ajoute au titre.
+  const c0 = items[0].choices, withChoices = c0 ? `${q0} ${c0[0]}, ${c0[1]} ou ${lower(c0[2])} ?` : "";
+  const own = !q0 ? null : q0.length <= 45 && withChoices && withChoices.length <= 88 ? withChoices : q0.length <= 88 ? q0 : null;
+  report.push({ slot: 1, set: k + 1, hour: "12 h", skin, file: `${name}.mp4`, seconds: sec, title: (own ?? SLOTS[k].title).slice(0, 100), questions: items.map((it, j) => ({ n: set[j][0] + 1, level: it.level, choices: it.choices, answer: it.answer })) });
 }
 writeFileSync(`out/short-v3/${ep.id}.json`, JSON.stringify({ episode: ep.id, shorts: report }, null, 1) + "\n");
 // Production (12/11/2026) : --date <AAAA-MM-JJ> écrit la fiche data/shorts/<date>.json lue par la tâche planifiée Claude de midi,
 // qui programme les Shorts via Metricool (YouTube, Instagram, Facebook, TikTok), comme pour la Minute culture.
 const date = arg("date");
-if (date && !only && report.length) {
+if (date && report.length) {
   const tags = ["quiz", "quizfrancais", "youqwiz", bank.replaceAll("-", ""), dilemma ? "tupreferes" : "culturegenerale"];
   mkdirSync("data/shorts", { recursive: true });
-  writeFileSync(`data/shorts/${date}.json`, JSON.stringify({ date, episode: ep.id, longId: arg("long") || null, skin, shorts: report.map((r, k) => {
+  writeFileSync(`data/shorts/${date}.json`, JSON.stringify({ date, episode: ep.id, longId: arg("long") || null, skin, shorts: report.slice(0, 1).map((r) => {
     const title = r.title.replace(/\s*#Shorts$/i, "");
-    return { slot: r.slot, at: SLOTS[k].at, file: r.file, url: `https://github.com/PEgh-1/youqwiz-tube/releases/download/shorts-${date}/${r.file}`, seconds: Math.round(r.seconds), title,
+    return { slot: 1, set: r.set, at: "12:00", file: r.file, url: `https://github.com/PEgh-1/youqwiz-tube/releases/download/shorts-${date}/${r.file}`, seconds: Math.round(r.seconds), title,
       caption: arg("fallback") ? `${title}\n\nLe grand quiz du jour ce soir à 17 h 30 sur la chaîne YouTube YouQwiz 🎬 et sur youqwiz.com` : `${title}\n\nLe grand quiz complet (${ep.items.length} questions) ce soir à 17 h 30 sur la chaîne YouTube YouQwiz 🎬 et sur youqwiz.com`, hashtags: tags };
   }) }, null, 1) + "\n");
   console.log(`fiche : data/shorts/${date}.json`);
