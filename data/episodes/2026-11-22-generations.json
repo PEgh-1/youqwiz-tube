@@ -1,0 +1,9541 @@
+{
+ "id": "2026-11-22-generations",
+ "pillar": "generations",
+ "template": "QuizQCM",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 0,
+ "style": {
+  "pattern": "dots",
+  "timer": "ring",
+  "reveal": "pop",
+  "card": "square",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Nouveau jour, nouveau quiz !",
+   "voice": "Content de te revoir sur YouQwiz ! Nouveau jour, nouveau quiz !"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "👇 Ton score en commentaire, le meilleur passe lundi",
+  "subscribe": {
+   "title": "Rejoins les joueurs YouQwiz",
+   "sub": "abonne-toi, le prochain quiz arrive demain 🔔",
+   "voice": "Rejoins les joueurs YouQwiz : abonne-toi, le prochain quiz arrive demain."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tranquille pour commencer ☕",
+    "voice": "Niveau facile. Tranquille pour commencer."
+   },
+   "moyen": {
+    "card": "Là, il faut réfléchir 🤔",
+    "voice": "Niveau moyen. Là, il faut réfléchir un peu."
+   },
+   "difficile": {
+    "card": "Accroche-toi 😰",
+    "voice": "Niveau difficile. Accroche-toi !"
+   },
+   "impossible": {
+    "card": "Seuls les génies 🧠",
+    "voice": "Niveau impossible. Seuls les génies…"
+   }
+  },
+  "scoreVoice": "Compte tes points et écris ton score en commentaire : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "Bravo d'être allé jusqu'au bout 🏁",
+   "voice": "Bravo d'être allé jusqu'au bout. Abonne-toi et à demain !"
+  },
+  "packshot": {
+   "headline": "Un quiz pour toute la famille",
+   "sub": "papy, mamie, petits-enfants : à qui la meilleure mémoire ? 👵👴",
+   "cta": "👉 youqwiz.com",
+   "voice": "Sur youqwiz point com, crée un quiz pour toute la famille. Papy, mamie, les petits-enfants : à qui la meilleure mémoire ?"
+  },
+  "rule": "4 réponses, une seule bonne 📼 Fouille ta mémoire avant la fin du chrono ⭐",
+  "ruleVoice": "Quatre réponses, une seule bonne. Fouille ta mémoire avant la fin du chrono !",
+  "nextQuizVoice": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !"
+ },
+ "title": "Te rappelles-tu de tout ça ? 📺📼☎️ 56 souvenirs des années 60 à 90",
+ "question": "",
+ "intro": {
+  "hook": "Seuls ceux nés AVANT 1975 réussiront",
+  "sub": "Si tu t'en souviens, tu as tout bon 🥰"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Salade de fruits » ?",
+    "choices": [
+     "Fernandel",
+     "Darry Cowl",
+     "Jean Gabin",
+     "Bourvil"
+    ],
+    "correct": 3
+   },
+   "answer": "Bourvil",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/0-q.mp3",
+     "sec": 1.888821,
+     "text": "Qui chante « Salade de fruits » ?",
+     "words": [
+      [
+       "Qui",
+       0.128,
+       0.151
+      ],
+      [
+       "chante",
+       0.201,
+       0.604
+      ],
+      [
+       "«",
+       0.717,
+       0.83
+      ],
+      [
+       "Salade",
+       0.887,
+       1.208
+      ],
+      [
+       "de",
+       1.233,
+       1.283
+      ],
+      [
+       "fruits",
+       1.348,
+       1.736
+      ],
+      [
+       "»",
+       1.811,
+       1.887
+      ],
+      [
+       "?",
+       1.887,
+       1.887
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/0-a.mp3",
+     "sec": 2.013288,
+     "text": "Bravo si tu avais dit Bourvil.",
+     "words": [
+      [
+       "Bravo",
+       0.289,
+       0.352
+      ],
+      [
+       "si",
+       0.427,
+       0.578
+      ],
+      [
+       "tu",
+       0.628,
+       0.729
+      ],
+      [
+       "avais",
+       0.779,
+       0.956
+      ],
+      [
+       "dit",
+       0.993,
+       1.107
+      ],
+      [
+       "Bourvil.",
+       1.197,
+       2.012
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chantait « Aux Champs-Élysées » ?",
+    "choices": [
+     "Joe Dassin",
+     "Serge Lama",
+     "Michel Sardou",
+     "Daniel Guichard"
+    ],
+    "correct": 0
+   },
+   "answer": "Joe Dassin",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/1-q.mp3",
+     "sec": 2.030771,
+     "text": "Qui chantait « Aux Champs-Élysées » ?",
+     "words": [
+      [
+       "Qui",
+       0.053,
+       0.064
+      ],
+      [
+       "chantait",
+       0.139,
+       0.668
+      ],
+      [
+       "«",
+       0.819,
+       0.97
+      ],
+      [
+       "Aux",
+       1.007,
+       1.121
+      ],
+      [
+       "Champs-Élysées",
+       1.171,
+       1.875
+      ],
+      [
+       "»",
+       1.913,
+       1.951
+      ],
+      [
+       "?",
+       1.989,
+       2.026
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/1-a.mp3",
+     "sec": 1.661247,
+     "text": "Joe Dassin, évidemment !",
+     "words": [
+      [
+       "Joe",
+       0.128,
+       0.151
+      ],
+      [
+       "Dassin,",
+       0.189,
+       0.679
+      ],
+      [
+       "évidemment",
+       0.717,
+       1.132
+      ],
+      [
+       "!",
+       1.396,
+       1.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que prenait-on pour rembobiner une cassette audio ?",
+    "choices": [
+     "Une cuillère",
+     "Un tournevis",
+     "Un crayon",
+     "Une clé"
+    ],
+    "correct": 2
+   },
+   "answer": "Un crayon",
+   "level": "facile",
+   "fact": "À l'époque, le crayon glissé dans la cassette permettait de rembobiner sans user les piles du lecteur.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/2-q.mp3",
+     "sec": 4.836621,
+     "text": "Réfléchis bien avant de répondre. Que prenait-on pour rembobiner une cassette audio ?",
+     "words": [
+      [
+       "Réfléchis",
+       0.201,
+       0.528
+      ],
+      [
+       "bien",
+       0.574,
+       0.755
+      ],
+      [
+       "avant",
+       0.792,
+       0.981
+      ],
+      [
+       "de",
+       1.031,
+       1.132
+      ],
+      [
+       "répondre.",
+       1.186,
+       1.962
+      ],
+      [
+       "Que",
+       2.038,
+       2.264
+      ],
+      [
+       "prenait-on",
+       2.302,
+       2.868
+      ],
+      [
+       "pour",
+       2.928,
+       3.17
+      ],
+      [
+       "rembobiner",
+       3.245,
+       3.849
+      ],
+      [
+       "une",
+       3.887,
+       4
+      ],
+      [
+       "cassette",
+       4.042,
+       4.377
+      ],
+      [
+       "audio",
+       4.441,
+       4.755
+      ],
+      [
+       "?",
+       4.792,
+       4.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/2-a.mp3",
+     "sec": 1.4378,
+     "text": "C'était Un crayon.",
+     "words": [
+      [
+       "C'était",
+       0.067,
+       0.527
+      ],
+      [
+       "Un",
+       0.653,
+       0.905
+      ],
+      [
+       "crayon.",
+       0.965,
+       1.433
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/2-f.mp3",
+     "sec": 7.475147,
+     "text": "Pour briller en société : À l'époque, le crayon glissé dans la cassette permettait de rembobiner sans user les piles du lecteur.",
+     "words": [
+      [
+       "Pour",
+       0.139,
+       0.151
+      ],
+      [
+       "briller",
+       0.201,
+       0.528
+      ],
+      [
+       "en",
+       0.554,
+       0.604
+      ],
+      [
+       "société",
+       0.67,
+       1.132
+      ],
+      [
+       ":",
+       1.472,
+       1.811
+      ],
+      [
+       "À",
+       1.849,
+       1.887
+      ],
+      [
+       "l'époque,",
+       1.925,
+       2.491
+      ],
+      [
+       "le",
+       2.541,
+       2.642
+      ],
+      [
+       "crayon",
+       2.702,
+       3.019
+      ],
+      [
+       "glissé",
+       3.069,
+       3.472
+      ],
+      [
+       "dans",
+       3.487,
+       3.547
+      ],
+      [
+       "la",
+       3.573,
+       3.623
+      ],
+      [
+       "cassette",
+       3.69,
+       4.226
+      ],
+      [
+       "permettait",
+       4.28,
+       4.755
+      ],
+      [
+       "de",
+       4.805,
+       4.906
+      ],
+      [
+       "rembobiner",
+       4.981,
+       5.66
+      ],
+      [
+       "sans",
+       5.736,
+       6.038
+      ],
+      [
+       "user",
+       6.098,
+       6.34
+      ],
+      [
+       "les",
+       6.377,
+       6.491
+      ],
+      [
+       "piles",
+       6.528,
+       6.717
+      ],
+      [
+       "du",
+       6.742,
+       6.792
+      ],
+      [
+       "lecteur.",
+       6.853,
+       7.472
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle coupe de cheveux est courte devant et longue derrière dans les années 80 ?",
+    "choices": [
+     "Le mulet",
+     "Le carré",
+     "La brosse",
+     "Le chignon"
+    ],
+    "correct": 0
+   },
+   "answer": "Le mulet",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/3-q.mp3",
+     "sec": 6.640181,
+     "text": "Réfléchis bien avant de répondre. Quelle coupe de cheveux est courte devant et longue derrière dans les années 80 ?",
+     "words": [
+      [
+       "Réfléchis",
+       0.131,
+       0.528
+      ],
+      [
+       "bien",
+       0.589,
+       0.83
+      ],
+      [
+       "avant",
+       0.868,
+       1.057
+      ],
+      [
+       "de",
+       1.082,
+       1.132
+      ],
+      [
+       "répondre.",
+       1.197,
+       1.736
+      ],
+      [
+       "Quelle",
+       1.912,
+       2.34
+      ],
+      [
+       "coupe",
+       2.39,
+       2.642
+      ],
+      [
+       "de",
+       2.667,
+       2.717
+      ],
+      [
+       "cheveux",
+       2.774,
+       3.17
+      ],
+      [
+       "est",
+       3.264,
+       3.547
+      ],
+      [
+       "courte",
+       3.601,
+       3.925
+      ],
+      [
+       "devant",
+       3.968,
+       4.226
+      ],
+      [
+       "et",
+       4.352,
+       4.604
+      ],
+      [
+       "longue",
+       4.649,
+       4.906
+      ],
+      [
+       "derrière",
+       4.962,
+       5.509
+      ],
+      [
+       "dans",
+       5.54,
+       5.66
+      ],
+      [
+       "les",
+       5.679,
+       5.736
+      ],
+      [
+       "années",
+       5.779,
+       6.038
+      ],
+      [
+       "80",
+       6.264,
+       6.491
+      ],
+      [
+       "?",
+       6.566,
+       6.642
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/3-a.mp3",
+     "sec": 2.031995,
+     "text": "Bravo si tu avais dit Le mulet.",
+     "words": [
+      [
+       "Bravo",
+       0.369,
+       0.444
+      ],
+      [
+       "si",
+       0.494,
+       0.595
+      ],
+      [
+       "tu",
+       0.645,
+       0.746
+      ],
+      [
+       "avais",
+       0.796,
+       0.973
+      ],
+      [
+       "dit",
+       1.011,
+       1.124
+      ],
+      [
+       "Le",
+       1.249,
+       1.501
+      ],
+      [
+       "mulet.",
+       1.577,
+       2.029
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que recevait un élève sage pour récompenser son travail ?",
+    "choices": [
+     "Une pièce",
+     "Un bonbon",
+     "Un bon point",
+     "Un diplôme"
+    ],
+    "correct": 2
+   },
+   "answer": "Un bon point",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/4-q.mp3",
+     "sec": 3.029705,
+     "text": "Que recevait un élève sage pour récompenser son travail ?",
+     "words": [
+      [
+       "Que",
+       0.128,
+       0.151
+      ],
+      [
+       "recevait",
+       0.211,
+       0.604
+      ],
+      [
+       "un",
+       0.654,
+       0.755
+      ],
+      [
+       "élève",
+       0.805,
+       1.057
+      ],
+      [
+       "sage",
+       1.147,
+       1.509
+      ],
+      [
+       "pour",
+       1.555,
+       1.736
+      ],
+      [
+       "récompenser",
+       1.786,
+       2.34
+      ],
+      [
+       "son",
+       2.377,
+       2.491
+      ],
+      [
+       "travail",
+       2.547,
+       2.943
+      ],
+      [
+       "?",
+       2.981,
+       3.019
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/4-a.mp3",
+     "sec": 1.743447,
+     "text": "Réponse : Un bon point !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.717,
+       0.906
+      ],
+      [
+       "Un",
+       0.956,
+       1.057
+      ],
+      [
+       "bon",
+       1.113,
+       1.283
+      ],
+      [
+       "point",
+       1.333,
+       1.585
+      ],
+      [
+       "!",
+       1.66,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel jouet monte et descend au bout d'une ficelle ?",
+    "choices": [
+     "La toupie",
+     "Le bilboquet",
+     "Le diabolo",
+     "Le yo-yo"
+    ],
+    "correct": 3
+   },
+   "answer": "Le yo-yo",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/5-q.mp3",
+     "sec": 4.634014,
+     "text": "Celle-ci est pour les experts. Quel jouet monte et descend au bout d'une ficelle ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.01,
+       0.395
+      ],
+      [
+       "est",
+       0.471,
+       0.697
+      ],
+      [
+       "pour",
+       0.712,
+       0.772
+      ],
+      [
+       "les",
+       0.81,
+       0.923
+      ],
+      [
+       "experts.",
+       0.989,
+       1.829
+      ],
+      [
+       "Quel",
+       1.855,
+       2.056
+      ],
+      [
+       "jouet",
+       2.112,
+       2.433
+      ],
+      [
+       "monte",
+       2.493,
+       2.81
+      ],
+      [
+       "et",
+       2.836,
+       2.886
+      ],
+      [
+       "descend",
+       2.952,
+       3.414
+      ],
+      [
+       "au",
+       3.464,
+       3.565
+      ],
+      [
+       "bout",
+       3.595,
+       3.716
+      ],
+      [
+       "d'une",
+       3.754,
+       3.942
+      ],
+      [
+       "ficelle",
+       3.999,
+       4.471
+      ],
+      [
+       "?",
+       4.546,
+       4.622
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/5-a.mp3",
+     "sec": 1.889025,
+     "text": "Réponse : Le yo-yo !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "Le",
+       1.107,
+       1.208
+      ],
+      [
+       "yo-yo",
+       1.308,
+       1.736
+      ],
+      [
+       "!",
+       1.811,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel boîtier permet de changer de chaîne sans se lever ?",
+    "choices": [
+     "Le décodeur",
+     "Le variateur",
+     "Le combiné",
+     "La télécommande"
+    ],
+    "correct": 3
+   },
+   "answer": "La télécommande",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/6-q.mp3",
+     "sec": 4.831882,
+     "text": "Celle-ci est pour les experts. Quel boîtier permet de changer de chaîne sans se lever ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.068,
+       0.377
+      ],
+      [
+       "est",
+       0.453,
+       0.679
+      ],
+      [
+       "pour",
+       0.694,
+       0.755
+      ],
+      [
+       "les",
+       0.792,
+       0.906
+      ],
+      [
+       "experts.",
+       0.981,
+       1.811
+      ],
+      [
+       "Quel",
+       1.912,
+       2.189
+      ],
+      [
+       "boîtier",
+       2.239,
+       2.717
+      ],
+      [
+       "permet",
+       2.76,
+       3.019
+      ],
+      [
+       "de",
+       3.044,
+       3.094
+      ],
+      [
+       "changer",
+       3.142,
+       3.472
+      ],
+      [
+       "de",
+       3.497,
+       3.547
+      ],
+      [
+       "chaîne",
+       3.604,
+       3.849
+      ],
+      [
+       "sans",
+       3.94,
+       4.302
+      ],
+      [
+       "se",
+       4.352,
+       4.453
+      ],
+      [
+       "lever",
+       4.503,
+       4.755
+      ],
+      [
+       "?",
+       4.792,
+       4.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/6-a.mp3",
+     "sec": 1.741882,
+     "text": "C'était La télécommande.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.679
+      ],
+      [
+       "La",
+       0.729,
+       0.83
+      ],
+      [
+       "télécommande.",
+       0.906,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel gros livre cherchait-on un numéro de téléphone ?",
+    "choices": [
+     "Le dictionnaire",
+     "Le calendrier",
+     "L'annuaire",
+     "L'almanach"
+    ],
+    "correct": 2
+   },
+   "answer": "L'annuaire",
+   "level": "facile",
+   "fact": "À l'époque, l'annuaire avait des pages jaunes réservées aux professionnels.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/7-q.mp3",
+     "sec": 4.274354,
+     "text": "On continue. Dans quel gros livre cherchait-on un numéro de téléphone ?",
+     "words": [
+      [
+       "On",
+       0.027,
+       0.037
+      ],
+      [
+       "continue.",
+       0.078,
+       0.49
+      ],
+      [
+       "Dans",
+       0.641,
+       1.245
+      ],
+      [
+       "quel",
+       1.32,
+       1.622
+      ],
+      [
+       "gros",
+       1.682,
+       1.924
+      ],
+      [
+       "livre",
+       1.987,
+       2.301
+      ],
+      [
+       "cherchait-on",
+       2.362,
+       2.98
+      ],
+      [
+       "un",
+       3.03,
+       3.131
+      ],
+      [
+       "numéro",
+       3.185,
+       3.509
+      ],
+      [
+       "de",
+       3.559,
+       3.66
+      ],
+      [
+       "téléphone",
+       3.712,
+       4.188
+      ],
+      [
+       "?",
+       4.226,
+       4.263
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/7-a.mp3",
+     "sec": 1.790295,
+     "text": "C'était L'annuaire.",
+     "words": [
+      [
+       "C'était",
+       0.084,
+       0.575
+      ],
+      [
+       "L'annuaire.",
+       0.801,
+       1.782
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/7-f.mp3",
+     "sec": 4.755442,
+     "text": "Tu savais ? À l'époque, l'annuaire avait des pages jaunes réservées aux professionnels.",
+     "words": [
+      [
+       "Tu",
+       0.053,
+       0.07
+      ],
+      [
+       "savais",
+       0.127,
+       0.372
+      ],
+      [
+       "?",
+       0.41,
+       0.447
+      ],
+      [
+       "À",
+       0.749,
+       1.051
+      ],
+      [
+       "l'époque,",
+       1.089,
+       1.655
+      ],
+      [
+       "l'annuaire",
+       1.73,
+       2.183
+      ],
+      [
+       "avait",
+       2.221,
+       2.41
+      ],
+      [
+       "des",
+       2.447,
+       2.561
+      ],
+      [
+       "pages",
+       2.611,
+       2.863
+      ],
+      [
+       "jaunes",
+       2.913,
+       3.315
+      ],
+      [
+       "réservées",
+       3.391,
+       3.844
+      ],
+      [
+       "aux",
+       3.881,
+       3.995
+      ],
+      [
+       "professionnels.",
+       4.036,
+       4.749
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel petit terminal à écran et clavier a précédé Internet à la maison ?",
+    "choices": [
+     "Le Minitel",
+     "Le fax",
+     "Le télex",
+     "Le répondeur"
+    ],
+    "correct": 0
+   },
+   "answer": "Le Minitel",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/8-q.mp3",
+     "sec": 3.702268,
+     "text": "Quel petit terminal à écran et clavier a précédé Internet à la maison ?",
+     "words": [
+      [
+       "Quel",
+       0.109,
+       0.151
+      ],
+      [
+       "petit",
+       0.201,
+       0.453
+      ],
+      [
+       "terminal",
+       0.511,
+       0.981
+      ],
+      [
+       "à",
+       1.019,
+       1.057
+      ],
+      [
+       "écran",
+       1.132,
+       1.358
+      ],
+      [
+       "et",
+       1.408,
+       1.509
+      ],
+      [
+       "clavier",
+       1.535,
+       1.962
+      ],
+      [
+       "a",
+       2.113,
+       2.264
+      ],
+      [
+       "précédé",
+       2.309,
+       2.717
+      ],
+      [
+       "Internet",
+       2.767,
+       3.17
+      ],
+      [
+       "à",
+       3.208,
+       3.245
+      ],
+      [
+       "la",
+       3.271,
+       3.321
+      ],
+      [
+       "maison",
+       3.375,
+       3.698
+      ],
+      [
+       "?",
+       3.698,
+       3.698
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/8-a.mp3",
+     "sec": 2.798186,
+     "text": "La bonne réponse, c'est Le Minitel.",
+     "words": [
+      [
+       "La",
+       0.131,
+       0.151
+      ],
+      [
+       "bonne",
+       0.176,
+       0.302
+      ],
+      [
+       "réponse,",
+       0.377,
+       1.132
+      ],
+      [
+       "c'est",
+       1.17,
+       1.358
+      ],
+      [
+       "Le",
+       1.535,
+       1.887
+      ],
+      [
+       "Minitel.",
+       2,
+       2.792
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur un vieux téléphone, que faisait-on tourner pour composer un numéro ?",
+    "choices": [
+     "Le cadran",
+     "Le clavier",
+     "Le bouton",
+     "La manivelle"
+    ],
+    "correct": 0
+   },
+   "answer": "Le cadran",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/9-q.mp3",
+     "sec": 3.999025,
+     "text": "Sur un vieux téléphone, que faisait-on tourner pour composer un numéro ?",
+     "words": [
+      [
+       "Sur",
+       0.192,
+       0.221
+      ],
+      [
+       "un",
+       0.271,
+       0.371
+      ],
+      [
+       "vieux",
+       0.409,
+       0.598
+      ],
+      [
+       "téléphone,",
+       0.651,
+       1.428
+      ],
+      [
+       "que",
+       1.466,
+       1.579
+      ],
+      [
+       "faisait-on",
+       1.624,
+       2.107
+      ],
+      [
+       "tourner",
+       2.138,
+       2.56
+      ],
+      [
+       "pour",
+       2.59,
+       2.711
+      ],
+      [
+       "composer",
+       2.787,
+       3.39
+      ],
+      [
+       "un",
+       3.44,
+       3.541
+      ],
+      [
+       "numéro",
+       3.595,
+       3.919
+      ],
+      [
+       "?",
+       3.956,
+       3.994
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/9-a.mp3",
+     "sec": 1.587166,
+     "text": "Eh oui : Le cadran !",
+     "words": [
+      [
+       "Eh",
+       0.052,
+       0.065
+      ],
+      [
+       "oui",
+       0.121,
+       0.291
+      ],
+      [
+       ":",
+       0.555,
+       0.819
+      ],
+      [
+       "Le",
+       0.845,
+       0.895
+      ],
+      [
+       "cadran",
+       0.97,
+       1.423
+      ],
+      [
+       "!",
+       1.499,
+       1.574
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le grand disque noir qu'on pose sur une platine ?",
+    "choices": [
+     "Une cassette",
+     "Un vinyle",
+     "Un CD",
+     "Une disquette"
+    ],
+    "correct": 1
+   },
+   "answer": "Un vinyle",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/10-q.mp3",
+     "sec": 3.537483,
+     "text": "Comment appelle-t-on le grand disque noir qu'on pose sur une platine ?",
+     "words": [
+      [
+       "Comment",
+       0.176,
+       0.216
+      ],
+      [
+       "appelle-t-on",
+       0.272,
+       0.819
+      ],
+      [
+       "le",
+       0.869,
+       0.97
+      ],
+      [
+       "grand",
+       1.02,
+       1.272
+      ],
+      [
+       "disque",
+       1.329,
+       1.65
+      ],
+      [
+       "noir",
+       1.74,
+       2.102
+      ],
+      [
+       "qu'on",
+       2.152,
+       2.329
+      ],
+      [
+       "pose",
+       2.389,
+       2.631
+      ],
+      [
+       "sur",
+       2.668,
+       2.782
+      ],
+      [
+       "une",
+       2.838,
+       3.008
+      ],
+      [
+       "platine",
+       3.053,
+       3.461
+      ],
+      [
+       "?",
+       3.499,
+       3.536
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/10-a.mp3",
+     "sec": 1.978912,
+     "text": "Un vinyle, évidemment !",
+     "words": [
+      [
+       "Un",
+       0.065,
+       0.075
+      ],
+      [
+       "vinyle,",
+       0.151,
+       0.755
+      ],
+      [
+       "évidemment",
+       0.83,
+       1.434
+      ],
+      [
+       "!",
+       1.698,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel objet fait sauter les petites filles dans la cour ?",
+    "choices": [
+     "Le cerceau",
+     "La corde à sauter",
+     "Le ballon",
+     "Le filet"
+    ],
+    "correct": 1
+   },
+   "answer": "La corde à sauter",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/11-q.mp3",
+     "sec": 2.661678,
+     "text": "Quel objet fait sauter les petites filles dans la cour ?",
+     "words": [
+      [
+       "Quel",
+       0.075,
+       0.163
+      ],
+      [
+       "objet",
+       0.226,
+       0.54
+      ],
+      [
+       "fait",
+       0.616,
+       0.918
+      ],
+      [
+       "sauter",
+       0.943,
+       1.219
+      ],
+      [
+       "les",
+       1.257,
+       1.37
+      ],
+      [
+       "petites",
+       1.408,
+       1.672
+      ],
+      [
+       "filles",
+       1.704,
+       1.899
+      ],
+      [
+       "dans",
+       1.914,
+       1.974
+      ],
+      [
+       "la",
+       2.024,
+       2.125
+      ],
+      [
+       "cour",
+       2.201,
+       2.502
+      ],
+      [
+       "?",
+       2.578,
+       2.653
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/11-a.mp3",
+     "sec": 2.714218,
+     "text": "Bravo si tu avais dit La corde à sauter.",
+     "words": [
+      [
+       "Bravo",
+       0.487,
+       0.588
+      ],
+      [
+       "si",
+       0.638,
+       0.739
+      ],
+      [
+       "tu",
+       0.789,
+       0.89
+      ],
+      [
+       "avais",
+       0.916,
+       1.117
+      ],
+      [
+       "dit",
+       1.154,
+       1.267
+      ],
+      [
+       "La",
+       1.418,
+       1.72
+      ],
+      [
+       "corde",
+       1.815,
+       2.173
+      ],
+      [
+       "à",
+       2.211,
+       2.249
+      ],
+      [
+       "sauter.",
+       2.299,
+       2.701
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que tournait-on pour changer de chaîne sur les premières télévisions ?",
+    "choices": [
+     "Une pédale",
+     "Un bouton",
+     "Un levier",
+     "Une manivelle"
+    ],
+    "correct": 1
+   },
+   "answer": "Un bouton",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/12-q.mp3",
+     "sec": 3.329841,
+     "text": "Que tournait-on pour changer de chaîne sur les premières télévisions ?",
+     "words": [
+      [
+       "Que",
+       0.064,
+       0.075
+      ],
+      [
+       "tournait-on",
+       0.151,
+       0.679
+      ],
+      [
+       "pour",
+       0.725,
+       0.906
+      ],
+      [
+       "changer",
+       0.953,
+       1.283
+      ],
+      [
+       "de",
+       1.308,
+       1.358
+      ],
+      [
+       "chaîne",
+       1.415,
+       1.736
+      ],
+      [
+       "sur",
+       1.811,
+       2.038
+      ],
+      [
+       "les",
+       2.094,
+       2.264
+      ],
+      [
+       "premières",
+       2.309,
+       2.642
+      ],
+      [
+       "télévisions",
+       2.687,
+       3.245
+      ],
+      [
+       "?",
+       3.283,
+       3.321
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/12-a.mp3",
+     "sec": 2.867937,
+     "text": "La bonne réponse, c'est Un bouton.",
+     "words": [
+      [
+       "La",
+       0.125,
+       0.226
+      ],
+      [
+       "bonne",
+       0.276,
+       0.528
+      ],
+      [
+       "réponse,",
+       0.613,
+       1.358
+      ],
+      [
+       "c'est",
+       1.396,
+       1.66
+      ],
+      [
+       "Un",
+       1.811,
+       2.113
+      ],
+      [
+       "bouton.",
+       2.189,
+       2.868
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle chanteuse interprète « Voyage, voyage » ?",
+    "choices": [
+     "Mylène Farmer",
+     "Desireless",
+     "Sandra",
+     "Axelle Red"
+    ],
+    "correct": 1
+   },
+   "answer": "Desireless",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/13-q.mp3",
+     "sec": 3.893311,
+     "text": "On continue. Quelle chanteuse interprète « Voyage, voyage » ?",
+     "words": [
+      [
+       "On",
+       0.028,
+       0.039
+      ],
+      [
+       "continue.",
+       0.089,
+       0.567
+      ],
+      [
+       "Quelle",
+       0.768,
+       1.246
+      ],
+      [
+       "chanteuse",
+       1.296,
+       1.775
+      ],
+      [
+       "interprète",
+       1.85,
+       2.529
+      ],
+      [
+       "«",
+       2.643,
+       2.756
+      ],
+      [
+       "Voyage,",
+       2.821,
+       3.473
+      ],
+      [
+       "voyage",
+       3.51,
+       3.737
+      ],
+      [
+       "»",
+       3.775,
+       3.812
+      ],
+      [
+       "?",
+       3.85,
+       3.888
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/13-a.mp3",
+     "sec": 2.396327,
+     "text": "Bravo si tu avais dit Desireless.",
+     "words": [
+      [
+       "Bravo",
+       0.343,
+       0.418
+      ],
+      [
+       "si",
+       0.468,
+       0.569
+      ],
+      [
+       "tu",
+       0.619,
+       0.72
+      ],
+      [
+       "avais",
+       0.746,
+       0.947
+      ],
+      [
+       "dit",
+       1.003,
+       1.173
+      ],
+      [
+       "Desireless.",
+       1.27,
+       2.381
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui présente le journal de 20 heures de TF1 de 1975 à 1981 ?",
+    "choices": [
+     "Yves Mourousi",
+     "Léon Zitrone",
+     "Patrick Poivre d'Arvor",
+     "Roger Gicquel"
+    ],
+    "correct": 3
+   },
+   "answer": "Roger Gicquel",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/14-q.mp3",
+     "sec": 5.512902,
+     "text": "Qui présente le journal de 20 heures de TF1 de 1975 à 1981 ?",
+     "words": [
+      [
+       "Qui",
+       0.064,
+       0.075
+      ],
+      [
+       "présente",
+       0.151,
+       0.604
+      ],
+      [
+       "le",
+       0.629,
+       0.679
+      ],
+      [
+       "journal",
+       0.726,
+       1.057
+      ],
+      [
+       "de",
+       1.082,
+       1.132
+      ],
+      [
+       "20",
+       1.283,
+       1.434
+      ],
+      [
+       "heures",
+       1.456,
+       1.585
+      ],
+      [
+       "de",
+       1.61,
+       1.66
+      ],
+      [
+       "TF1",
+       1.811,
+       2.189
+      ],
+      [
+       "de",
+       2.239,
+       2.34
+      ],
+      [
+       "1975",
+       2.491,
+       3.774
+      ],
+      [
+       "à",
+       3.925,
+       4.075
+      ],
+      [
+       "1981",
+       4.151,
+       5.358
+      ],
+      [
+       "?",
+       5.434,
+       5.509
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/14-a.mp3",
+     "sec": 2.261247,
+     "text": "Bravo si tu avais dit Roger Gicquel.",
+     "words": [
+      [
+       "Bravo",
+       0.3,
+       0.363
+      ],
+      [
+       "si",
+       0.413,
+       0.514
+      ],
+      [
+       "tu",
+       0.564,
+       0.665
+      ],
+      [
+       "avais",
+       0.691,
+       0.892
+      ],
+      [
+       "dit",
+       0.929,
+       1.043
+      ],
+      [
+       "Roger",
+       1.144,
+       1.646
+      ],
+      [
+       "Gicquel.",
+       1.684,
+       2.25
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Quand la musique est bonne » ?",
+    "choices": [
+     "Jean-Jacques Goldman",
+     "Daniel Balavoine",
+     "Michel Berger",
+     "Renaud"
+    ],
+    "correct": 0
+   },
+   "answer": "Jean-Jacques Goldman",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/15-q.mp3",
+     "sec": 2.203197,
+     "text": "Qui chante « Quand la musique est bonne » ?",
+     "words": [
+      [
+       "Qui",
+       0.128,
+       0.151
+      ],
+      [
+       "chante",
+       0.226,
+       0.679
+      ],
+      [
+       "«",
+       0.755,
+       0.83
+      ],
+      [
+       "Quand",
+       0.856,
+       0.981
+      ],
+      [
+       "la",
+       1.007,
+       1.057
+      ],
+      [
+       "musique",
+       1.113,
+       1.509
+      ],
+      [
+       "est",
+       1.547,
+       1.66
+      ],
+      [
+       "bonne",
+       1.71,
+       1.962
+      ],
+      [
+       "»",
+       2.038,
+       2.113
+      ],
+      [
+       "?",
+       2.151,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/15-a.mp3",
+     "sec": 1.492222,
+     "text": "Jean-Jacques Goldman, évidemment !",
+     "words": [
+      [
+       "Jean-Jacques",
+       0.095,
+       0.357
+      ],
+      [
+       "Goldman,",
+       0.413,
+       0.885
+      ],
+      [
+       "évidemment",
+       0.923,
+       1.338
+      ],
+      [
+       "!",
+       1.413,
+       1.489
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel pilote français est champion du monde de F1 en 1985 ?",
+    "choices": [
+     "Alain Prost",
+     "Jacques Laffite",
+     "René Arnoux",
+     "Didier Pironi"
+    ],
+    "correct": 0
+   },
+   "answer": "Alain Prost",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/16-q.mp3",
+     "sec": 7.02873,
+     "text": "Attention, question piège. Quel pilote français est champion du monde de F1 en 1985 ?",
+     "words": [
+      [
+       "Attention,",
+       0.372,
+       0.528
+      ],
+      [
+       "question",
+       0.587,
+       1.057
+      ],
+      [
+       "piège.",
+       1.132,
+       1.66
+      ],
+      [
+       "Quel",
+       1.887,
+       2.415
+      ],
+      [
+       "pilote",
+       2.491,
+       2.868
+      ],
+      [
+       "français",
+       2.918,
+       3.321
+      ],
+      [
+       "est",
+       3.415,
+       3.698
+      ],
+      [
+       "champion",
+       3.748,
+       4.151
+      ],
+      [
+       "du",
+       4.176,
+       4.226
+      ],
+      [
+       "monde",
+       4.276,
+       4.528
+      ],
+      [
+       "de",
+       4.578,
+       4.679
+      ],
+      [
+       "F1",
+       4.83,
+       5.208
+      ],
+      [
+       "en",
+       5.258,
+       5.358
+      ],
+      [
+       "1985",
+       5.509,
+       6.943
+      ],
+      [
+       "?",
+       6.981,
+       7.019
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/16-a.mp3",
+     "sec": 1.822063,
+     "text": "Réponse : Alain Prost !",
+     "words": [
+      [
+       "Réponse",
+       0.201,
+       0.679
+      ],
+      [
+       ":",
+       0.83,
+       0.981
+      ],
+      [
+       "Alain",
+       1.031,
+       1.208
+      ],
+      [
+       "Prost",
+       1.264,
+       1.736
+      ],
+      [
+       "!",
+       1.774,
+       1.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Santiano » ?",
+    "choices": [
+     "Antoine",
+     "Marcel Amont",
+     "Hugues Aufray",
+     "Georges Brassens"
+    ],
+    "correct": 2
+   },
+   "answer": "Hugues Aufray",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/17-q.mp3",
+     "sec": 1.44093,
+     "text": "Qui chante « Santiano » ?",
+     "words": [
+      [
+       "Qui",
+       0.128,
+       0.151
+      ],
+      [
+       "chante",
+       0.226,
+       0.604
+      ],
+      [
+       "«",
+       0.642,
+       0.679
+      ],
+      [
+       "Santiano",
+       0.74,
+       1.283
+      ],
+      [
+       "»",
+       1.358,
+       1.434
+      ],
+      [
+       "?",
+       1.434,
+       1.434
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/17-a.mp3",
+     "sec": 1.759819,
+     "text": "Réponse : Hugues Aufray !",
+     "words": [
+      [
+       "Réponse",
+       0.064,
+       0.542
+      ],
+      [
+       ":",
+       0.807,
+       1.071
+      ],
+      [
+       "Hugues",
+       1.109,
+       1.297
+      ],
+      [
+       "Aufray",
+       1.323,
+       1.599
+      ],
+      [
+       "!",
+       1.675,
+       1.75
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle émission de Georges Pernoud est consacrée à la mer ?",
+    "choices": [
+     "Thalassa",
+     "Océanos",
+     "Mer et Marée",
+     "Bleu Marine"
+    ],
+    "correct": 0
+   },
+   "answer": "Thalassa",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/18-q.mp3",
+     "sec": 3.022177,
+     "text": "Quelle émission de Georges Pernoud est consacrée à la mer ?",
+     "words": [
+      [
+       "Quelle",
+       0.05,
+       0.136
+      ],
+      [
+       "émission",
+       0.212,
+       0.589
+      ],
+      [
+       "de",
+       0.639,
+       0.74
+      ],
+      [
+       "Georges",
+       0.787,
+       1.117
+      ],
+      [
+       "Pernoud",
+       1.155,
+       1.495
+      ],
+      [
+       "est",
+       1.57,
+       1.797
+      ],
+      [
+       "consacrée",
+       1.842,
+       2.249
+      ],
+      [
+       "à",
+       2.287,
+       2.325
+      ],
+      [
+       "la",
+       2.35,
+       2.4
+      ],
+      [
+       "mer",
+       2.514,
+       2.853
+      ],
+      [
+       "?",
+       2.929,
+       3.004
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/18-a.mp3",
+     "sec": 1.81932,
+     "text": "Réponse : Thalassa !",
+     "words": [
+      [
+       "Réponse",
+       0.264,
+       0.679
+      ],
+      [
+       ":",
+       0.906,
+       1.132
+      ],
+      [
+       "Thalassa",
+       1.158,
+       1.66
+      ],
+      [
+       "!",
+       1.736,
+       1.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mois de 1968 voit la France se couvrir de grèves et de manifestations ?",
+    "choices": [
+     "Janvier",
+     "Septembre",
+     "Mai",
+     "Décembre"
+    ],
+    "correct": 2
+   },
+   "answer": "Mai",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/19-q.mp3",
+     "sec": 6.3239,
+     "text": "Quel mois de 1968 voit la France se couvrir de grèves et de manifestations ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.137
+      ],
+      [
+       "mois",
+       0.198,
+       0.439
+      ],
+      [
+       "de",
+       0.465,
+       0.515
+      ],
+      [
+       "1968",
+       0.666,
+       1.798
+      ],
+      [
+       "voit",
+       1.899,
+       2.175
+      ],
+      [
+       "la",
+       2.201,
+       2.251
+      ],
+      [
+       "France",
+       2.316,
+       2.704
+      ],
+      [
+       "se",
+       2.729,
+       2.779
+      ],
+      [
+       "couvrir",
+       2.854,
+       3.458
+      ],
+      [
+       "de",
+       3.508,
+       3.609
+      ],
+      [
+       "grèves",
+       3.659,
+       4.137
+      ],
+      [
+       "et",
+       4.187,
+       4.288
+      ],
+      [
+       "de",
+       4.314,
+       4.364
+      ],
+      [
+       "manifestations",
+       4.42,
+       5.194
+      ],
+      [
+       "?",
+       5.76,
+       6.326
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/19-a.mp3",
+     "sec": 1.24059,
+     "text": "Mai, évidemment !",
+     "words": [
+      [
+       "Mai,",
+       0.093,
+       0.183
+      ],
+      [
+       "évidemment",
+       0.296,
+       0.862
+      ],
+      [
+       "!",
+       1.051,
+       1.239
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chantait « Le Sud » ?",
+    "choices": [
+     "Michel Sardou",
+     "Claude François",
+     "Nino Ferrer",
+     "Joe Dassin"
+    ],
+    "correct": 2
+   },
+   "answer": "Nino Ferrer",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/20-q.mp3",
+     "sec": 1.66102,
+     "text": "Qui chantait « Le Sud » ?",
+     "words": [
+      [
+       "Qui",
+       0.128,
+       0.151
+      ],
+      [
+       "chantait",
+       0.214,
+       0.679
+      ],
+      [
+       "«",
+       0.83,
+       0.981
+      ],
+      [
+       "Le",
+       1.007,
+       1.057
+      ],
+      [
+       "Sud",
+       1.17,
+       1.509
+      ],
+      [
+       "»",
+       1.585,
+       1.66
+      ],
+      [
+       "?",
+       1.66,
+       1.66
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/20-a.mp3",
+     "sec": 2.025918,
+     "text": "Nino Ferrer, évidemment !",
+     "words": [
+      [
+       "Nino",
+       0.044,
+       0.278
+      ],
+      [
+       "Ferrer,",
+       0.338,
+       0.882
+      ],
+      [
+       "évidemment",
+       0.995,
+       1.485
+      ],
+      [
+       "!",
+       1.561,
+       1.636
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Français gagne Roland-Garros en 1983 ?",
+    "choices": [
+     "Guy Forget",
+     "Henri Leconte",
+     "Jean-Paul Loth",
+     "Yannick Noah"
+    ],
+    "correct": 3
+   },
+   "answer": "Yannick Noah",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/21-q.mp3",
+     "sec": 5.237937,
+     "text": "Nouvelle question. Quel Français gagne Roland-Garros en 1983 ?",
+     "words": [
+      [
+       "Nouvelle",
+       0.056,
+       0.244
+      ],
+      [
+       "question.",
+       0.294,
+       0.773
+      ],
+      [
+       "Quel",
+       0.973,
+       1.527
+      ],
+      [
+       "Français",
+       1.59,
+       2.056
+      ],
+      [
+       "gagne",
+       2.131,
+       2.433
+      ],
+      [
+       "Roland-Garros",
+       2.476,
+       3.263
+      ],
+      [
+       "en",
+       3.414,
+       3.716
+      ],
+      [
+       "1983",
+       3.791,
+       5.15
+      ],
+      [
+       "?",
+       5.188,
+       5.225
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/21-a.mp3",
+     "sec": 1.495261,
+     "text": "C'était Yannick Noah.",
+     "words": [
+      [
+       "C'était",
+       0.134,
+       0.361
+      ],
+      [
+       "Yannick",
+       0.436,
+       0.814
+      ],
+      [
+       "Noah.",
+       0.904,
+       1.493
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la chaîne M6 commence-t-elle à émettre ?",
+    "choices": [
+     "1987",
+     "1984",
+     "1989",
+     "1991"
+    ],
+    "correct": 0
+   },
+   "answer": "1987",
+   "level": "moyen",
+   "fact": "À l'époque, M6 a commencé à émettre le 1er mars 1987.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/22-q.mp3",
+     "sec": 2.855125,
+     "text": "En quelle année la chaîne M6 commence-t-elle à émettre ?",
+     "words": [
+      [
+       "En",
+       0.109,
+       0.129
+      ],
+      [
+       "quelle",
+       0.161,
+       0.355
+      ],
+      [
+       "année",
+       0.393,
+       0.581
+      ],
+      [
+       "la",
+       0.607,
+       0.657
+      ],
+      [
+       "chaîne",
+       0.695,
+       0.959
+      ],
+      [
+       "M6",
+       1.147,
+       1.638
+      ],
+      [
+       "commence-t-elle",
+       1.68,
+       2.242
+      ],
+      [
+       "à",
+       2.28,
+       2.317
+      ],
+      [
+       "émettre",
+       2.355,
+       2.77
+      ],
+      [
+       "?",
+       2.808,
+       2.846
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/22-a.mp3",
+     "sec": 2.494694,
+     "text": "Réponse : 1987 !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "1987",
+       1.132,
+       2.34
+      ],
+      [
+       "!",
+       2.415,
+       2.491
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/22-f.mp3",
+     "sec": 5.514943,
+     "text": "Tu savais ? À l'époque, M6 a commencé à émettre le 1er mars 1987.",
+     "words": [
+      [
+       "Tu",
+       0.064,
+       0.072
+      ],
+      [
+       "savais",
+       0.129,
+       0.374
+      ],
+      [
+       "?",
+       0.638,
+       0.902
+      ],
+      [
+       "À",
+       0.94,
+       0.978
+      ],
+      [
+       "l'époque,",
+       1.015,
+       1.657
+      ],
+      [
+       "M6",
+       1.77,
+       2.11
+      ],
+      [
+       "a",
+       2.148,
+       2.185
+      ],
+      [
+       "commencé",
+       2.223,
+       2.638
+      ],
+      [
+       "à",
+       2.676,
+       2.714
+      ],
+      [
+       "émettre",
+       2.789,
+       3.166
+      ],
+      [
+       "le",
+       3.216,
+       3.317
+      ],
+      [
+       "1er",
+       3.393,
+       3.695
+      ],
+      [
+       "mars",
+       3.77,
+       4.072
+      ],
+      [
+       "1987.",
+       4.148,
+       5.506
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle face d'un 45 tours portait en général le tube ?",
+    "choices": [
+     "La face B",
+     "La tranche",
+     "Le centre",
+     "La face A"
+    ],
+    "correct": 3
+   },
+   "answer": "La face A",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/23-q.mp3",
+     "sec": 8.129546,
+     "text": "Nouvelle question. Quelle face d'un 45 tours portait en général le tube ?",
+     "words": [
+      [
+       "Nouvelle",
+       0.128,
+       0.226
+      ],
+      [
+       "question.",
+       0.276,
+       0.755
+      ],
+      [
+       "Quelle",
+       0.88,
+       1.283
+      ],
+      [
+       "face",
+       1.358,
+       1.66
+      ],
+      [
+       "d'un",
+       1.698,
+       1.811
+      ],
+      [
+       "45",
+       1.887,
+       2.34
+      ],
+      [
+       "tours",
+       2.403,
+       2.717
+      ],
+      [
+       "portait",
+       2.808,
+       3.245
+      ],
+      [
+       "en",
+       3.295,
+       3.396
+      ],
+      [
+       "général",
+       3.462,
+       3.925
+      ],
+      [
+       "le",
+       4,
+       4.151
+      ],
+      [
+       "tube",
+       4.226,
+       4.528
+      ],
+      [
+       "?",
+       6.34,
+       8.151
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/23-a.mp3",
+     "sec": 1.562177,
+     "text": "La face A, évidemment !",
+     "words": [
+      [
+       "La",
+       0.1,
+       0.119
+      ],
+      [
+       "face",
+       0.18,
+       0.421
+      ],
+      [
+       "A,",
+       0.572,
+       0.95
+      ],
+      [
+       "évidemment",
+       1.025,
+       1.402
+      ],
+      [
+       "!",
+       1.478,
+       1.553
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle chanteuse affirme que « l'école est finie » en 1963 ?",
+    "choices": [
+     "Sylvie Vartan",
+     "Françoise Hardy",
+     "Sheila",
+     "Petula Clark"
+    ],
+    "correct": 2
+   },
+   "answer": "Sheila",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/24-q.mp3",
+     "sec": 4.535646,
+     "text": "Quelle chanteuse affirme que « l'école est finie » en 1963 ?",
+     "words": [
+      [
+       "Quelle",
+       0.065,
+       0.151
+      ],
+      [
+       "chanteuse",
+       0.201,
+       0.755
+      ],
+      [
+       "affirme",
+       0.849,
+       1.358
+      ],
+      [
+       "que",
+       1.415,
+       1.585
+      ],
+      [
+       "«",
+       1.698,
+       1.811
+      ],
+      [
+       "l'école",
+       1.849,
+       2.189
+      ],
+      [
+       "est",
+       2.226,
+       2.34
+      ],
+      [
+       "finie",
+       2.396,
+       2.642
+      ],
+      [
+       "»",
+       2.83,
+       3.019
+      ],
+      [
+       "en",
+       3.069,
+       3.17
+      ],
+      [
+       "1963",
+       3.245,
+       4.377
+      ],
+      [
+       "?",
+       4.453,
+       4.528
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/24-a.mp3",
+     "sec": 1.591179,
+     "text": "Sheila, évidemment !",
+     "words": [
+      [
+       "Sheila,",
+       0.372,
+       0.528
+      ],
+      [
+       "évidemment",
+       0.604,
+       1.057
+      ],
+      [
+       "!",
+       1.132,
+       1.208
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la première Fête de la musique nationale a-t-elle lieu ?",
+    "choices": [
+     "1976",
+     "1988",
+     "1982",
+     "1991"
+    ],
+    "correct": 2
+   },
+   "answer": "1982",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/25-q.mp3",
+     "sec": 3.475624,
+     "text": "En quelle année la première Fête de la musique nationale a-t-elle lieu ?",
+     "words": [
+      [
+       "En",
+       0.065,
+       0.075
+      ],
+      [
+       "quelle",
+       0.108,
+       0.302
+      ],
+      [
+       "année",
+       0.34,
+       0.528
+      ],
+      [
+       "la",
+       0.604,
+       0.755
+      ],
+      [
+       "première",
+       0.805,
+       1.208
+      ],
+      [
+       "Fête",
+       1.283,
+       1.434
+      ],
+      [
+       "de",
+       1.459,
+       1.509
+      ],
+      [
+       "la",
+       1.535,
+       1.585
+      ],
+      [
+       "musique",
+       1.642,
+       2.038
+      ],
+      [
+       "nationale",
+       2.103,
+       2.642
+      ],
+      [
+       "a-t-elle",
+       2.755,
+       3.17
+      ],
+      [
+       "lieu",
+       3.23,
+       3.471
+      ],
+      [
+       "?",
+       3.472,
+       3.473
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/25-a.mp3",
+     "sec": 2.130726,
+     "text": "C'était 1982.",
+     "words": [
+      [
+       "C'était",
+       0.142,
+       0.528
+      ],
+      [
+       "1982.",
+       0.679,
+       2.113
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avant 1984, combien de chaînes de télévision reçoit-on en France ?",
+    "choices": [
+     "Sept",
+     "Trois",
+     "Une",
+     "Cinq"
+    ],
+    "correct": 1
+   },
+   "answer": "Trois",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/26-q.mp3",
+     "sec": 6.564014,
+     "text": "Nouvelle question. Avant 1984, combien de chaînes de télévision reçoit-on en France ?",
+     "words": [
+      [
+       "Nouvelle",
+       0.113,
+       0.211
+      ],
+      [
+       "question.",
+       0.27,
+       0.815
+      ],
+      [
+       "Avant",
+       1.016,
+       1.57
+      ],
+      [
+       "1984,",
+       1.645,
+       3.079
+      ],
+      [
+       "combien",
+       3.124,
+       3.456
+      ],
+      [
+       "de",
+       3.482,
+       3.532
+      ],
+      [
+       "chaînes",
+       3.589,
+       3.909
+      ],
+      [
+       "de",
+       3.935,
+       3.985
+      ],
+      [
+       "télévision",
+       4.06,
+       4.739
+      ],
+      [
+       "reçoit-on",
+       4.865,
+       5.645
+      ],
+      [
+       "en",
+       5.695,
+       5.796
+      ],
+      [
+       "France",
+       5.893,
+       6.475
+      ],
+      [
+       "?",
+       6.513,
+       6.551
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/26-a.mp3",
+     "sec": 1.262358,
+     "text": "Eh oui : Trois !",
+     "words": [
+      [
+       "Eh",
+       0.118,
+       0.13
+      ],
+      [
+       "oui",
+       0.205,
+       0.432
+      ],
+      [
+       ":",
+       0.62,
+       0.809
+      ],
+      [
+       "Trois",
+       0.847,
+       1.111
+      ],
+      [
+       "!",
+       1.186,
+       1.262
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel club français gagne la Ligue des champions en 1993 ?",
+    "choices": [
+     "Le Paris Saint-Germain",
+     "L'Olympique de Marseille",
+     "Monaco",
+     "Nantes"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Olympique de Marseille",
+   "level": "moyen",
+   "fact": "À l'époque, l'OM a battu Milan 1 à 0 à Munich en finale, grâce à un but de Basile Boli.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/27-q.mp3",
+     "sec": 3.929297,
+     "text": "Quel club français gagne la Ligue des champions en 1993 ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "club",
+       0.226,
+       0.528
+      ],
+      [
+       "français",
+       0.578,
+       0.981
+      ],
+      [
+       "gagne",
+       1.019,
+       1.208
+      ],
+      [
+       "la",
+       1.233,
+       1.283
+      ],
+      [
+       "Ligue",
+       1.358,
+       1.509
+      ],
+      [
+       "des",
+       1.547,
+       1.66
+      ],
+      [
+       "champions",
+       1.706,
+       2.113
+      ],
+      [
+       "en",
+       2.239,
+       2.491
+      ],
+      [
+       "1993",
+       2.981,
+       3.774
+      ],
+      [
+       "?",
+       3.849,
+       3.925
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/27-a.mp3",
+     "sec": 1.792449,
+     "text": "L'Olympique de Marseille, évidemment !",
+     "words": [
+      [
+       "L'Olympique",
+       0.093,
+       0.508
+      ],
+      [
+       "de",
+       0.558,
+       0.659
+      ],
+      [
+       "Marseille,",
+       0.704,
+       1.187
+      ],
+      [
+       "évidemment",
+       1.225,
+       1.64
+      ],
+      [
+       "!",
+       1.716,
+       1.791
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/27-f.mp3",
+     "sec": 7.101429,
+     "text": "Détail amusant : À l'époque, l'OM a battu Milan 1 à 0 à Munich en finale, grâce à un but de Basile Boli.",
+     "words": [
+      [
+       "Détail",
+       0.069,
+       0.302
+      ],
+      [
+       "amusant",
+       0.352,
+       0.679
+      ],
+      [
+       ":",
+       0.868,
+       1.057
+      ],
+      [
+       "À",
+       1.094,
+       1.132
+      ],
+      [
+       "l'époque,",
+       1.17,
+       1.736
+      ],
+      [
+       "l'OM",
+       1.811,
+       2.189
+      ],
+      [
+       "a",
+       2.226,
+       2.264
+      ],
+      [
+       "battu",
+       2.309,
+       2.566
+      ],
+      [
+       "Milan",
+       2.629,
+       2.943
+      ],
+      [
+       "1",
+       3.17,
+       3.321
+      ],
+      [
+       "à",
+       3.358,
+       3.396
+      ],
+      [
+       "0",
+       3.547,
+       3.774
+      ],
+      [
+       "à",
+       3.811,
+       3.849
+      ],
+      [
+       "Munich",
+       3.903,
+       4.226
+      ],
+      [
+       "en",
+       4.276,
+       4.377
+      ],
+      [
+       "finale,",
+       4.431,
+       5.132
+      ],
+      [
+       "grâce",
+       5.182,
+       5.434
+      ],
+      [
+       "à",
+       5.472,
+       5.509
+      ],
+      [
+       "un",
+       5.535,
+       5.585
+      ],
+      [
+       "but",
+       5.66,
+       5.887
+      ],
+      [
+       "de",
+       5.988,
+       6.189
+      ],
+      [
+       "Basile",
+       6.264,
+       6.642
+      ],
+      [
+       "Boli.",
+       6.679,
+       7.094
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Nathalie », où il est question de la place Rouge ?",
+    "choices": [
+     "Charles Aznavour",
+     "Yves Montand",
+     "Gilbert Bécaud",
+     "Georges Moustaki"
+    ],
+    "correct": 2
+   },
+   "answer": "Gilbert Bécaud",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/28-q.mp3",
+     "sec": 5.137642,
+     "text": "Attention, question piège. Qui chante « Nathalie », où il est question de la place Rouge ?",
+     "words": [
+      [
+       "Attention,",
+       0.433,
+       0.792
+      ],
+      [
+       "question",
+       0.822,
+       1.057
+      ],
+      [
+       "piège.",
+       1.132,
+       1.585
+      ],
+      [
+       "Qui",
+       1.755,
+       2.264
+      ],
+      [
+       "chante",
+       2.314,
+       2.717
+      ],
+      [
+       "«",
+       2.868,
+       3.019
+      ],
+      [
+       "Nathalie",
+       3.064,
+       3.472
+      ],
+      [
+       "»,",
+       3.547,
+       3.698
+      ],
+      [
+       "où",
+       3.724,
+       3.774
+      ],
+      [
+       "il",
+       3.824,
+       3.925
+      ],
+      [
+       "est",
+       3.943,
+       4
+      ],
+      [
+       "question",
+       4.034,
+       4.302
+      ],
+      [
+       "de",
+       4.327,
+       4.377
+      ],
+      [
+       "la",
+       4.427,
+       4.528
+      ],
+      [
+       "place",
+       4.566,
+       4.755
+      ],
+      [
+       "Rouge",
+       4.805,
+       5.057
+      ],
+      [
+       "?",
+       5.094,
+       5.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/28-a.mp3",
+     "sec": 2.014739,
+     "text": "Bravo si tu avais dit Gilbert Bécaud.",
+     "words": [
+      [
+       "Bravo",
+       0.282,
+       0.345
+      ],
+      [
+       "si",
+       0.395,
+       0.496
+      ],
+      [
+       "tu",
+       0.546,
+       0.647
+      ],
+      [
+       "avais",
+       0.697,
+       0.874
+      ],
+      [
+       "dit",
+       0.911,
+       1.025
+      ],
+      [
+       "Gilbert",
+       1.081,
+       1.477
+      ],
+      [
+       "Bécaud.",
+       1.515,
+       2.006
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel format de film amateur projetait-on dans les années 70 ?",
+    "choices": [
+     "Le Super 8",
+     "Le 70 mm",
+     "Le 16 mm",
+     "Le Cinémascope"
+    ],
+    "correct": 0
+   },
+   "answer": "Le Super 8",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/29-q.mp3",
+     "sec": 3.734376,
+     "text": "Quel format de film amateur projetait-on dans les années 70 ?",
+     "words": [
+      [
+       "Quel",
+       0.01,
+       0.172
+      ],
+      [
+       "format",
+       0.247,
+       0.7
+      ],
+      [
+       "de",
+       0.75,
+       0.851
+      ],
+      [
+       "film",
+       0.926,
+       1.228
+      ],
+      [
+       "amateur",
+       1.304,
+       1.832
+      ],
+      [
+       "projetait-on",
+       1.897,
+       2.511
+      ],
+      [
+       "dans",
+       2.526,
+       2.587
+      ],
+      [
+       "les",
+       2.624,
+       2.738
+      ],
+      [
+       "années",
+       2.77,
+       2.964
+      ],
+      [
+       "70",
+       3.304,
+       3.643
+      ],
+      [
+       "?",
+       3.681,
+       3.719
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/29-a.mp3",
+     "sec": 2.514059,
+     "text": "Bravo si tu avais dit Le Super 8.",
+     "words": [
+      [
+       "Bravo",
+       0.313,
+       0.392
+      ],
+      [
+       "si",
+       0.442,
+       0.543
+      ],
+      [
+       "tu",
+       0.593,
+       0.694
+      ],
+      [
+       "avais",
+       0.719,
+       0.92
+      ],
+      [
+       "dit",
+       0.958,
+       1.071
+      ],
+      [
+       "Le",
+       1.272,
+       1.675
+      ],
+      [
+       "Super",
+       1.75,
+       2.128
+      ],
+      [
+       "8.",
+       2.203,
+       2.505
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Aline » et « Les Mots bleus » ?",
+    "choices": [
+     "Gérard Lenorman",
+     "Joe Dassin",
+     "Christophe",
+     "Michel Fugain"
+    ],
+    "correct": 2
+   },
+   "answer": "Christophe",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/30-q.mp3",
+     "sec": 6.343946,
+     "text": "Beaucoup se trompent ici. Qui chante « Aline » et « Les Mots bleus » ?",
+     "words": [
+      [
+       "Beaucoup",
+       0.131,
+       0.453
+      ],
+      [
+       "se",
+       0.503,
+       0.604
+      ],
+      [
+       "trompent",
+       0.649,
+       0.981
+      ],
+      [
+       "ici.",
+       1.057,
+       1.358
+      ],
+      [
+       "Qui",
+       1.509,
+       1.962
+      ],
+      [
+       "chante",
+       2.012,
+       2.34
+      ],
+      [
+       "«",
+       2.415,
+       2.491
+      ],
+      [
+       "Aline",
+       2.528,
+       2.868
+      ],
+      [
+       "»",
+       2.981,
+       3.094
+      ],
+      [
+       "et",
+       3.17,
+       3.321
+      ],
+      [
+       "«",
+       3.434,
+       3.547
+      ],
+      [
+       "Les",
+       3.585,
+       3.698
+      ],
+      [
+       "Mots",
+       3.736,
+       3.849
+      ],
+      [
+       "bleus",
+       3.906,
+       4.076
+      ],
+      [
+       "»",
+       4.077,
+       4.078
+      ],
+      [
+       "?",
+       5.21,
+       6.342
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/30-a.mp3",
+     "sec": 1.386599,
+     "text": "Eh oui : Christophe !",
+     "words": [
+      [
+       "Eh",
+       0.011,
+       0.022
+      ],
+      [
+       "oui",
+       0.059,
+       0.173
+      ],
+      [
+       ":",
+       0.323,
+       0.474
+      ],
+      [
+       "Christophe",
+       0.506,
+       1.003
+      ],
+      [
+       "!",
+       1.04,
+       1.078
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel coureur espagnol gagne cinq Tours de France de suite de 1991 à 1995 ?",
+    "choices": [
+     "Alberto Contador",
+     "Luis Ocaña",
+     "Pedro Delgado",
+     "Miguel Indurain"
+    ],
+    "correct": 3
+   },
+   "answer": "Miguel Indurain",
+   "level": "difficile",
+   "fact": "À l'époque, Miguel Indurain a gagné ses cinq Tours de France d'affilée, de 1991 à 1995.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/31-q.mp3",
+     "sec": 8.761361,
+     "text": "Attention, question piège. Quel coureur espagnol gagne cinq Tours de France de suite de 1991 à 1995 ?",
+     "words": [
+      [
+       "Attention,",
+       0.308,
+       0.452
+      ],
+      [
+       "question",
+       0.519,
+       1.055
+      ],
+      [
+       "piège.",
+       1.131,
+       1.584
+      ],
+      [
+       "Quel",
+       1.785,
+       2.263
+      ],
+      [
+       "coureur",
+       2.32,
+       2.716
+      ],
+      [
+       "espagnol",
+       2.772,
+       3.32
+      ],
+      [
+       "gagne",
+       3.471,
+       3.923
+      ],
+      [
+       "cinq",
+       3.999,
+       4.225
+      ],
+      [
+       "Tours",
+       4.263,
+       4.452
+      ],
+      [
+       "de",
+       4.477,
+       4.527
+      ],
+      [
+       "France",
+       4.571,
+       4.829
+      ],
+      [
+       "de",
+       4.855,
+       4.905
+      ],
+      [
+       "suite",
+       4.968,
+       5.282
+      ],
+      [
+       "de",
+       5.458,
+       5.81
+      ],
+      [
+       "1991",
+       6.376,
+       7.131
+      ],
+      [
+       "à",
+       7.225,
+       7.32
+      ],
+      [
+       "1995",
+       7.395,
+       8.603
+      ],
+      [
+       "?",
+       8.678,
+       8.754
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/31-a.mp3",
+     "sec": 1.816054,
+     "text": "Eh oui : Miguel Indurain !",
+     "words": [
+      [
+       "Eh",
+       0.122,
+       0.148
+      ],
+      [
+       "oui",
+       0.186,
+       0.299
+      ],
+      [
+       ":",
+       0.525,
+       0.752
+      ],
+      [
+       "Miguel",
+       0.805,
+       1.129
+      ],
+      [
+       "Indurain",
+       1.167,
+       1.657
+      ],
+      [
+       "!",
+       1.733,
+       1.808
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/31-f.mp3",
+     "sec": 8.698231,
+     "text": "Tu savais ? À l'époque, Miguel Indurain a gagné ses cinq Tours de France d'affilée, de 1991 à 1995.",
+     "words": [
+      [
+       "Tu",
+       0.067,
+       0.075
+      ],
+      [
+       "savais",
+       0.132,
+       0.453
+      ],
+      [
+       "?",
+       0.755,
+       1.057
+      ],
+      [
+       "À",
+       1.094,
+       1.132
+      ],
+      [
+       "l'époque,",
+       1.17,
+       1.887
+      ],
+      [
+       "Miguel",
+       1.952,
+       2.34
+      ],
+      [
+       "Indurain",
+       2.377,
+       2.868
+      ],
+      [
+       "a",
+       2.943,
+       3.019
+      ],
+      [
+       "gagné",
+       3.075,
+       3.321
+      ],
+      [
+       "ses",
+       3.396,
+       3.623
+      ],
+      [
+       "cinq",
+       3.66,
+       3.849
+      ],
+      [
+       "Tours",
+       3.887,
+       4.075
+      ],
+      [
+       "de",
+       4.125,
+       4.226
+      ],
+      [
+       "France",
+       4.27,
+       4.528
+      ],
+      [
+       "d'affilée,",
+       4.566,
+       5.358
+      ],
+      [
+       "de",
+       5.408,
+       5.509
+      ],
+      [
+       "1991",
+       5.585,
+       6.943
+      ],
+      [
+       "à",
+       7.019,
+       7.094
+      ],
+      [
+       "1995.",
+       7.17,
+       8.679
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sigle remplace le SMIG en 1970 ?",
+    "choices": [
+     "Le RMI",
+     "Le SMIC",
+     "Le SMAG",
+     "Le PIB"
+    ],
+    "correct": 1
+   },
+   "answer": "Le SMIC",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/32-q.mp3",
+     "sec": 3.474036,
+     "text": "Quel sigle remplace le SMIG en 1970 ?",
+     "words": [
+      [
+       "Quel",
+       0.091,
+       0.141
+      ],
+      [
+       "sigle",
+       0.216,
+       0.518
+      ],
+      [
+       "remplace",
+       0.575,
+       1.047
+      ],
+      [
+       "le",
+       1.097,
+       1.198
+      ],
+      [
+       "SMIG",
+       1.273,
+       1.65
+      ],
+      [
+       "en",
+       1.776,
+       2.028
+      ],
+      [
+       "1970",
+       2.103,
+       3.386
+      ],
+      [
+       "?",
+       3.424,
+       3.462
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/32-a.mp3",
+     "sec": 2.380363,
+     "text": "La bonne réponse, c'est Le SMIC.",
+     "words": [
+      [
+       "La",
+       0.093,
+       0.105
+      ],
+      [
+       "bonne",
+       0.143,
+       0.332
+      ],
+      [
+       "réponse,",
+       0.388,
+       0.86
+      ],
+      [
+       "c'est",
+       0.898,
+       1.086
+      ],
+      [
+       "Le",
+       1.263,
+       1.615
+      ],
+      [
+       "SMIC.",
+       1.715,
+       2.369
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Contre qui la France perd-elle la demi-finale du Mondial 1982, à Séville ?",
+    "choices": [
+     "L'Italie",
+     "Le Brésil",
+     "L'Allemagne de l'Ouest",
+     "La Pologne"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Allemagne de l'Ouest",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/33-q.mp3",
+     "sec": 6.703356,
+     "text": "Question suivante. Contre qui la France perd-elle la demi-finale du Mondial 1982, à Séville ?",
+     "words": [
+      [
+       "Question",
+       0.159,
+       0.2
+      ],
+      [
+       "suivante.",
+       0.245,
+       0.804
+      ],
+      [
+       "Contre",
+       0.894,
+       1.407
+      ],
+      [
+       "qui",
+       1.483,
+       1.709
+      ],
+      [
+       "la",
+       1.785,
+       1.936
+      ],
+      [
+       "France",
+       1.99,
+       2.313
+      ],
+      [
+       "perd-elle",
+       2.373,
+       2.766
+      ],
+      [
+       "la",
+       2.816,
+       2.917
+      ],
+      [
+       "demi-finale",
+       2.977,
+       3.596
+      ],
+      [
+       "du",
+       3.646,
+       3.747
+      ],
+      [
+       "Mondial",
+       3.792,
+       4.2
+      ],
+      [
+       "1982,",
+       4.275,
+       5.558
+      ],
+      [
+       "à",
+       5.747,
+       5.936
+      ],
+      [
+       "Séville",
+       6.037,
+       6.54
+      ],
+      [
+       "?",
+       6.615,
+       6.69
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/33-a.mp3",
+     "sec": 1.736576,
+     "text": "L'Allemagne de l'Ouest, évidemment !",
+     "words": [
+      [
+       "L'Allemagne",
+       0.113,
+       0.453
+      ],
+      [
+       "de",
+       0.478,
+       0.528
+      ],
+      [
+       "l'Ouest,",
+       0.566,
+       1.132
+      ],
+      [
+       "évidemment",
+       1.208,
+       1.66
+      ],
+      [
+       "!",
+       1.698,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel acteur incarne le commissaire Navarro à la télévision ?",
+    "choices": [
+     "Yves Rénier",
+     "Roger Hanin",
+     "Jean Richard",
+     "Claude Brasseur"
+    ],
+    "correct": 1
+   },
+   "answer": "Roger Hanin",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/34-q.mp3",
+     "sec": 3.529229,
+     "text": "Quel acteur incarne le commissaire Navarro à la télévision ?",
+     "words": [
+      [
+       "Quel",
+       0.11,
+       0.273
+      ],
+      [
+       "acteur",
+       0.329,
+       0.726
+      ],
+      [
+       "incarne",
+       0.801,
+       1.178
+      ],
+      [
+       "le",
+       1.254,
+       1.405
+      ],
+      [
+       "commissaire",
+       1.45,
+       1.933
+      ],
+      [
+       "Navarro",
+       1.99,
+       2.537
+      ],
+      [
+       "à",
+       2.575,
+       2.612
+      ],
+      [
+       "la",
+       2.662,
+       2.763
+      ],
+      [
+       "télévision",
+       2.824,
+       3.443
+      ],
+      [
+       "?",
+       3.48,
+       3.518
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/34-a.mp3",
+     "sec": 1.235782,
+     "text": "C'était Roger Hanin.",
+     "words": [
+      [
+       "C'était",
+       0.391,
+       0.549
+      ],
+      [
+       "Roger",
+       0.599,
+       0.851
+      ],
+      [
+       "Hanin.",
+       0.908,
+       1.229
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Les Corons » ?",
+    "choices": [
+     "Daniel Balavoine",
+     "Jean-Jacques Goldman",
+     "Renaud",
+     "Pierre Bachelet"
+    ],
+    "correct": 3
+   },
+   "answer": "Pierre Bachelet",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/35-q.mp3",
+     "sec": 1.658481,
+     "text": "Qui chante « Les Corons » ?",
+     "words": [
+      [
+       "Qui",
+       0.128,
+       0.151
+      ],
+      [
+       "chante",
+       0.226,
+       0.679
+      ],
+      [
+       "«",
+       0.755,
+       0.83
+      ],
+      [
+       "Les",
+       0.887,
+       1.057
+      ],
+      [
+       "Corons",
+       1.132,
+       1.509
+      ],
+      [
+       "»",
+       1.547,
+       1.585
+      ],
+      [
+       "?",
+       1.623,
+       1.66
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/35-a.mp3",
+     "sec": 1.961293,
+     "text": "Réponse : Pierre Bachelet !",
+     "words": [
+      [
+       "Réponse",
+       0.201,
+       0.755
+      ],
+      [
+       ":",
+       0.943,
+       1.132
+      ],
+      [
+       "Pierre",
+       1.175,
+       1.434
+      ],
+      [
+       "Bachelet",
+       1.472,
+       1.811
+      ],
+      [
+       "!",
+       1.887,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que font les Shadoks toute la journée ?",
+    "choices": [
+     "Ils construisent",
+     "Ils pompent",
+     "Ils chantent",
+     "Ils pêchent"
+    ],
+    "correct": 1
+   },
+   "answer": "Ils pompent",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/36-q.mp3",
+     "sec": 1.889048,
+     "text": "Que font les Shadoks toute la journée ?",
+     "words": [
+      [
+       "Que",
+       0.128,
+       0.151
+      ],
+      [
+       "font",
+       0.211,
+       0.453
+      ],
+      [
+       "les",
+       0.472,
+       0.528
+      ],
+      [
+       "Shadoks",
+       0.604,
+       1.057
+      ],
+      [
+       "toute",
+       1.082,
+       1.208
+      ],
+      [
+       "la",
+       1.233,
+       1.283
+      ],
+      [
+       "journée",
+       1.34,
+       1.736
+      ],
+      [
+       "?",
+       1.811,
+       1.887
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/36-a.mp3",
+     "sec": 1.969093,
+     "text": "Réponse : Ils pompent !",
+     "words": [
+      [
+       "Réponse",
+       0.201,
+       0.679
+      ],
+      [
+       ":",
+       0.906,
+       1.132
+      ],
+      [
+       "Ils",
+       1.17,
+       1.283
+      ],
+      [
+       "pompent",
+       1.389,
+       1.887
+      ],
+      [
+       "!",
+       1.925,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle série américaine met en scène le méchant J.R. Ewing ?",
+    "choices": [
+     "Santa Barbara",
+     "Les Feux de l'amour",
+     "Dynastie",
+     "Dallas"
+    ],
+    "correct": 3
+   },
+   "answer": "Dallas",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/37-q.mp3",
+     "sec": 5.000091,
+     "text": "On continue. Quelle série américaine met en scène le méchant J.R. Ewing ?",
+     "words": [
+      [
+       "On",
+       0.005,
+       0.015
+      ],
+      [
+       "continue.",
+       0.065,
+       0.732
+      ],
+      [
+       "Quelle",
+       0.82,
+       1.072
+      ],
+      [
+       "série",
+       1.135,
+       1.449
+      ],
+      [
+       "américaine",
+       1.499,
+       2.053
+      ],
+      [
+       "met",
+       2.128,
+       2.355
+      ],
+      [
+       "en",
+       2.405,
+       2.506
+      ],
+      [
+       "scène",
+       2.531,
+       2.732
+      ],
+      [
+       "le",
+       2.758,
+       2.808
+      ],
+      [
+       "méchant",
+       2.883,
+       3.26
+      ],
+      [
+       "J.R.",
+       3.487,
+       4.317
+      ],
+      [
+       "Ewing",
+       4.392,
+       4.845
+      ],
+      [
+       "?",
+       4.921,
+       4.996
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/37-a.mp3",
+     "sec": 1.89898,
+     "text": "Bravo si tu avais dit Dallas.",
+     "words": [
+      [
+       "Bravo",
+       0.434,
+       0.528
+      ],
+      [
+       "si",
+       0.578,
+       0.679
+      ],
+      [
+       "tu",
+       0.755,
+       0.906
+      ],
+      [
+       "avais",
+       0.931,
+       1.132
+      ],
+      [
+       "dit",
+       1.151,
+       1.208
+      ],
+      [
+       "Dallas.",
+       1.293,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur quoi enregistrait-on les programmes des premiers micro-ordinateurs ?",
+    "choices": [
+     "Sur des disques vinyles",
+     "Sur des bandes de papier",
+     "Sur des cassettes audio",
+     "Sur des CD"
+    ],
+    "correct": 2
+   },
+   "answer": "Sur des cassettes audio",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/38-q.mp3",
+     "sec": 3.779728,
+     "text": "Sur quoi enregistrait-on les programmes des premiers micro-ordinateurs ?",
+     "words": [
+      [
+       "Sur",
+       0.198,
+       0.226
+      ],
+      [
+       "quoi",
+       0.287,
+       0.528
+      ],
+      [
+       "enregistrait-on",
+       0.554,
+       1.208
+      ],
+      [
+       "les",
+       1.226,
+       1.283
+      ],
+      [
+       "programmes",
+       1.338,
+       1.887
+      ],
+      [
+       "des",
+       1.943,
+       2.113
+      ],
+      [
+       "premiers",
+       2.174,
+       2.566
+      ],
+      [
+       "micro-ordinateurs",
+       2.629,
+       3.773
+      ],
+      [
+       "?",
+       3.774,
+       3.775
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/38-a.mp3",
+     "sec": 1.662585,
+     "text": "Sur des cassettes audio, évidemment !",
+     "words": [
+      [
+       "Sur",
+       0.137,
+       0.151
+      ],
+      [
+       "des",
+       0.208,
+       0.377
+      ],
+      [
+       "cassettes",
+       0.415,
+       0.755
+      ],
+      [
+       "audio,",
+       0.805,
+       1.132
+      ],
+      [
+       "évidemment",
+       1.17,
+       1.585
+      ],
+      [
+       "!",
+       1.623,
+       1.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année l'heure d'été est-elle instaurée en France ?",
+    "choices": [
+     "1968",
+     "1981",
+     "1973",
+     "1976"
+    ],
+    "correct": 3
+   },
+   "answer": "1976",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/39-q.mp3",
+     "sec": 2.883583,
+     "text": "En quelle année l'heure d'été est-elle instaurée en France ?",
+     "words": [
+      [
+       "En",
+       0.131,
+       0.151
+      ],
+      [
+       "quelle",
+       0.183,
+       0.377
+      ],
+      [
+       "année",
+       0.415,
+       0.604
+      ],
+      [
+       "l'heure",
+       0.679,
+       0.906
+      ],
+      [
+       "d'été",
+       0.943,
+       1.283
+      ],
+      [
+       "est-elle",
+       1.321,
+       1.585
+      ],
+      [
+       "instaurée",
+       1.645,
+       2.189
+      ],
+      [
+       "en",
+       2.214,
+       2.264
+      ],
+      [
+       "France",
+       2.34,
+       2.792
+      ],
+      [
+       "?",
+       2.83,
+       2.868
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/39-a.mp3",
+     "sec": 2.551383,
+     "text": "Bravo si tu avais dit 1976.",
+     "words": [
+      [
+       "Bravo",
+       0.357,
+       0.432
+      ],
+      [
+       "si",
+       0.508,
+       0.659
+      ],
+      [
+       "tu",
+       0.684,
+       0.734
+      ],
+      [
+       "avais",
+       0.784,
+       0.961
+      ],
+      [
+       "dit",
+       0.998,
+       1.112
+      ],
+      [
+       "1976.",
+       1.187,
+       2.546
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel navigateur gagne la transat anglaise de 1964 sur Pen Duick II ?",
+    "choices": [
+     "Alain Colas",
+     "Olivier de Kersauson",
+     "Bernard Moitessier",
+     "Éric Tabarly"
+    ],
+    "correct": 3
+   },
+   "answer": "Éric Tabarly",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/40-q.mp3",
+     "sec": 4.913084,
+     "text": "Quel navigateur gagne la transat anglaise de 1964 sur Pen Duick II ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "navigateur",
+       0.209,
+       0.83
+      ],
+      [
+       "gagne",
+       0.906,
+       1.132
+      ],
+      [
+       "la",
+       1.182,
+       1.283
+      ],
+      [
+       "transat",
+       1.333,
+       1.736
+      ],
+      [
+       "anglaise",
+       1.781,
+       2.113
+      ],
+      [
+       "de",
+       2.163,
+       2.264
+      ],
+      [
+       "1964",
+       2.34,
+       3.472
+      ],
+      [
+       "sur",
+       3.566,
+       3.849
+      ],
+      [
+       "Pen",
+       3.943,
+       4.226
+      ],
+      [
+       "Duick",
+       4.276,
+       4.528
+      ],
+      [
+       "II",
+       4.629,
+       4.83
+      ],
+      [
+       "?",
+       4.868,
+       4.906
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/40-a.mp3",
+     "sec": 1.644104,
+     "text": "C'était Éric Tabarly.",
+     "words": [
+      [
+       "C'était",
+       0.044,
+       0.505
+      ],
+      [
+       "Éric",
+       0.618,
+       0.958
+      ],
+      [
+       "Tabarly.",
+       1.014,
+       1.637
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel président succède à Georges Pompidou en 1974 ?",
+    "choices": [
+     "Valéry Giscard d'Estaing",
+     "Jacques Chaban-Delmas",
+     "Alain Poher",
+     "François Mitterrand"
+    ],
+    "correct": 0
+   },
+   "answer": "Valéry Giscard d'Estaing",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/41-q.mp3",
+     "sec": 4.007143,
+     "text": "Quel président succède à Georges Pompidou en 1974 ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "président",
+       0.219,
+       0.83
+      ],
+      [
+       "succède",
+       0.891,
+       1.283
+      ],
+      [
+       "à",
+       1.321,
+       1.358
+      ],
+      [
+       "Georges",
+       1.406,
+       1.736
+      ],
+      [
+       "Pompidou",
+       1.792,
+       2.264
+      ],
+      [
+       "en",
+       2.365,
+       2.566
+      ],
+      [
+       "1974",
+       2.642,
+       3.925
+      ],
+      [
+       "?",
+       3.962,
+       4
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/41-a.mp3",
+     "sec": 1.795306,
+     "text": "Valéry Giscard d'Estaing, évidemment !",
+     "words": [
+      [
+       "Valéry",
+       0.174,
+       0.353
+      ],
+      [
+       "Giscard",
+       0.391,
+       0.731
+      ],
+      [
+       "d'Estaing,",
+       0.768,
+       1.183
+      ],
+      [
+       "évidemment",
+       1.221,
+       1.636
+      ],
+      [
+       "!",
+       1.712,
+       1.787
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle Française gagne le 400 m aux JO de Mexico en 1968 ?",
+    "choices": [
+     "Colette Besson",
+     "Marie-José Pérec",
+     "Micheline Ostermeyer",
+     "Jacqueline Auriol"
+    ],
+    "correct": 0
+   },
+   "answer": "Colette Besson",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/42-q.mp3",
+     "sec": 6.731519,
+     "text": "Beaucoup se trompent ici. Quelle Française gagne le 400 m aux JO de Mexico en 1968 ?",
+     "words": [
+      [
+       "Beaucoup",
+       0.065,
+       0.377
+      ],
+      [
+       "se",
+       0.427,
+       0.528
+      ],
+      [
+       "trompent",
+       0.574,
+       0.906
+      ],
+      [
+       "ici.",
+       1,
+       1.66
+      ],
+      [
+       "Quelle",
+       1.686,
+       1.811
+      ],
+      [
+       "Française",
+       1.875,
+       2.415
+      ],
+      [
+       "gagne",
+       2.453,
+       2.717
+      ],
+      [
+       "le",
+       2.742,
+       2.792
+      ],
+      [
+       "400",
+       2.943,
+       3.321
+      ],
+      [
+       "m",
+       3.472,
+       3.623
+      ],
+      [
+       "aux",
+       3.698,
+       3.925
+      ],
+      [
+       "JO",
+       4.025,
+       4.226
+      ],
+      [
+       "de",
+       4.252,
+       4.302
+      ],
+      [
+       "Mexico",
+       4.399,
+       4.981
+      ],
+      [
+       "en",
+       5.082,
+       5.283
+      ],
+      [
+       "1968",
+       5.358,
+       6.566
+      ],
+      [
+       "?",
+       6.642,
+       6.717
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/42-a.mp3",
+     "sec": 2.196712,
+     "text": "La bonne réponse, c'est Colette Besson.",
+     "words": [
+      [
+       "La",
+       0.044,
+       0.145
+      ],
+      [
+       "bonne",
+       0.183,
+       0.371
+      ],
+      [
+       "réponse,",
+       0.419,
+       0.824
+      ],
+      [
+       "c'est",
+       0.862,
+       1.051
+      ],
+      [
+       "Colette",
+       1.176,
+       1.654
+      ],
+      [
+       "Besson.",
+       1.692,
+       2.183
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel auteur du Petit Prince figure sur le billet de 50 francs ?",
+    "choices": [
+     "Saint-Exupéry",
+     "Jules Verne",
+     "Victor Hugo",
+     "Alexandre Dumas"
+    ],
+    "correct": 0
+   },
+   "answer": "Saint-Exupéry",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/43-q.mp3",
+     "sec": 3.582063,
+     "text": "Quel auteur du Petit Prince figure sur le billet de 50 francs ?",
+     "words": [
+      [
+       "Quel",
+       0.064,
+       0.106
+      ],
+      [
+       "auteur",
+       0.144,
+       0.408
+      ],
+      [
+       "du",
+       0.458,
+       0.559
+      ],
+      [
+       "Petit",
+       0.609,
+       0.861
+      ],
+      [
+       "Prince",
+       0.936,
+       1.389
+      ],
+      [
+       "figure",
+       1.475,
+       1.993
+      ],
+      [
+       "sur",
+       2.03,
+       2.144
+      ],
+      [
+       "le",
+       2.194,
+       2.294
+      ],
+      [
+       "billet",
+       2.332,
+       2.596
+      ],
+      [
+       "de",
+       2.672,
+       2.823
+      ],
+      [
+       "50",
+       3.011,
+       3.2
+      ],
+      [
+       "francs",
+       3.25,
+       3.54
+      ],
+      [
+       "?",
+       3.559,
+       3.577
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/43-a.mp3",
+     "sec": 2.13941,
+     "text": "La bonne réponse, c'est Saint-Exupéry.",
+     "words": [
+      [
+       "La",
+       0.043,
+       0.093
+      ],
+      [
+       "bonne",
+       0.13,
+       0.319
+      ],
+      [
+       "réponse,",
+       0.385,
+       0.998
+      ],
+      [
+       "c'est",
+       1.036,
+       1.149
+      ],
+      [
+       "Saint-Exupéry.",
+       1.212,
+       2.13
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année le Minitel s'arrête-t-il définitivement ?",
+    "choices": [
+     "2002",
+     "2008",
+     "2016",
+     "2012"
+    ],
+    "correct": 3
+   },
+   "answer": "2012",
+   "level": "impossible",
+   "fact": "À l'époque, le Minitel s'est arrêté le 30 juin 2012, après trente ans de bons et loyaux services.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/44-q.mp3",
+     "sec": 3.778186,
+     "text": "En quelle année le Minitel s'arrête-t-il définitivement ?",
+     "words": [
+      [
+       "En",
+       0.139,
+       0.151
+      ],
+      [
+       "quelle",
+       0.194,
+       0.453
+      ],
+      [
+       "année",
+       0.503,
+       0.755
+      ],
+      [
+       "le",
+       0.856,
+       1.057
+      ],
+      [
+       "Minitel",
+       1.132,
+       1.66
+      ],
+      [
+       "s'arrête-t-il",
+       1.736,
+       2.491
+      ],
+      [
+       "définitivement",
+       2.604,
+       3.623
+      ],
+      [
+       "?",
+       3.698,
+       3.774
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/44-a.mp3",
+     "sec": 1.639342,
+     "text": "Eh oui : 2012 !",
+     "words": [
+      [
+       "Eh",
+       0.036,
+       0.047
+      ],
+      [
+       "oui",
+       0.141,
+       0.424
+      ],
+      [
+       ":",
+       0.613,
+       0.802
+      ],
+      [
+       "2012",
+       0.877,
+       1.556
+      ],
+      [
+       "!",
+       1.594,
+       1.632
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/44-f.mp3",
+     "sec": 7.073447,
+     "text": "Et pour la culture : À l'époque, le Minitel s'est arrêté le 30 juin 2012, après trente ans de bons et loyaux services.",
+     "words": [
+      [
+       "Et",
+       0.028,
+       0.036
+      ],
+      [
+       "pour",
+       0.051,
+       0.112
+      ],
+      [
+       "la",
+       0.162,
+       0.263
+      ],
+      [
+       "culture",
+       0.329,
+       0.791
+      ],
+      [
+       ":",
+       1.017,
+       1.244
+      ],
+      [
+       "À",
+       1.282,
+       1.319
+      ],
+      [
+       "l'époque,",
+       1.357,
+       1.923
+      ],
+      [
+       "le",
+       1.948,
+       1.998
+      ],
+      [
+       "Minitel",
+       2.074,
+       2.527
+      ],
+      [
+       "s'est",
+       2.565,
+       2.678
+      ],
+      [
+       "arrêté",
+       2.734,
+       3.055
+      ],
+      [
+       "le",
+       3.081,
+       3.131
+      ],
+      [
+       "30",
+       3.282,
+       3.508
+      ],
+      [
+       "juin",
+       3.553,
+       3.734
+      ],
+      [
+       "2012,",
+       3.81,
+       4.64
+      ],
+      [
+       "après",
+       4.69,
+       4.942
+      ],
+      [
+       "trente",
+       4.998,
+       5.319
+      ],
+      [
+       "ans",
+       5.357,
+       5.47
+      ],
+      [
+       "de",
+       5.52,
+       5.621
+      ],
+      [
+       "bons",
+       5.682,
+       5.923
+      ],
+      [
+       "et",
+       5.973,
+       6.074
+      ],
+      [
+       "loyaux",
+       6.124,
+       6.376
+      ],
+      [
+       "services.",
+       6.434,
+       7.055
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle chanteuse partage la victoire à l'Eurovision 1969 avec « Un jour, un enfant » ?",
+    "choices": [
+     "Nicoletta",
+     "Monique Melinand",
+     "Frida Boccara",
+     "Mireille Mathieu"
+    ],
+    "correct": 2
+   },
+   "answer": "Frida Boccara",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/45-q.mp3",
+     "sec": 8.916054,
+     "text": "Facile, celle-là. Enfin, je crois. Quelle chanteuse partage la victoire à l'Eurovision 1969 avec « Un jour, un enfant » ?",
+     "words": [
+      [
+       "Facile,",
+       0.192,
+       0.491
+      ],
+      [
+       "celle-là.",
+       0.509,
+       1.057
+      ],
+      [
+       "Enfin,",
+       1.132,
+       1.509
+      ],
+      [
+       "je",
+       1.585,
+       1.736
+      ],
+      [
+       "crois.",
+       1.792,
+       2.113
+      ],
+      [
+       "Quelle",
+       2.34,
+       2.868
+      ],
+      [
+       "chanteuse",
+       2.918,
+       3.472
+      ],
+      [
+       "partage",
+       3.547,
+       4
+      ],
+      [
+       "la",
+       4.025,
+       4.075
+      ],
+      [
+       "victoire",
+       4.136,
+       4.679
+      ],
+      [
+       "à",
+       4.792,
+       4.906
+      ],
+      [
+       "l'Eurovision",
+       4.981,
+       5.509
+      ],
+      [
+       "1969",
+       5.585,
+       6.717
+      ],
+      [
+       "avec",
+       6.823,
+       7.245
+      ],
+      [
+       "«",
+       7.434,
+       7.623
+      ],
+      [
+       "Un",
+       7.648,
+       7.698
+      ],
+      [
+       "jour,",
+       7.789,
+       8.302
+      ],
+      [
+       "un",
+       8.352,
+       8.453
+      ],
+      [
+       "enfant",
+       8.509,
+       8.83
+      ],
+      [
+       "»",
+       8.868,
+       8.906
+      ],
+      [
+       "?",
+       8.906,
+       8.906
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/45-a.mp3",
+     "sec": 1.895556,
+     "text": "Frida Boccara, évidemment !",
+     "words": [
+      [
+       "Frida",
+       0.254,
+       0.377
+      ],
+      [
+       "Boccara,",
+       0.453,
+       0.981
+      ],
+      [
+       "évidemment",
+       1.019,
+       1.434
+      ],
+      [
+       "!",
+       1.585,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de buts Just Fontaine marque-t-il à la Coupe du monde 1958 ?",
+    "choices": [
+     "9",
+     "11",
+     "15",
+     "13"
+    ],
+    "correct": 3
+   },
+   "answer": "13",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/46-q.mp3",
+     "sec": 4.155805,
+     "text": "Combien de buts Just Fontaine marque-t-il à la Coupe du monde 1958 ?",
+     "words": [
+      [
+       "Combien",
+       0.191,
+       0.302
+      ],
+      [
+       "de",
+       0.352,
+       0.453
+      ],
+      [
+       "buts",
+       0.509,
+       0.755
+      ],
+      [
+       "Just",
+       0.8,
+       0.981
+      ],
+      [
+       "Fontaine",
+       1.042,
+       1.509
+      ],
+      [
+       "marque-t-il",
+       1.563,
+       2.189
+      ],
+      [
+       "à",
+       2.226,
+       2.264
+      ],
+      [
+       "la",
+       2.29,
+       2.34
+      ],
+      [
+       "Coupe",
+       2.39,
+       2.642
+      ],
+      [
+       "du",
+       2.667,
+       2.717
+      ],
+      [
+       "monde",
+       2.767,
+       3.019
+      ],
+      [
+       "1958",
+       3.509,
+       4.075
+      ],
+      [
+       "?",
+       4.113,
+       4.151
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/46-a.mp3",
+     "sec": 1.408435,
+     "text": "Eh oui : 13 !",
+     "words": [
+      [
+       "Eh",
+       0.035,
+       0.047
+      ],
+      [
+       "oui",
+       0.103,
+       0.273
+      ],
+      [
+       ":",
+       0.462,
+       0.651
+      ],
+      [
+       "13",
+       0.877,
+       1.103
+      ],
+      [
+       "!",
+       1.217,
+       1.33
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui publie le roman « Bonjour tristesse » en 1954 ?",
+    "choices": [
+     "Simone de Beauvoir",
+     "Colette",
+     "Françoise Sagan",
+     "Marguerite Duras"
+    ],
+    "correct": 2
+   },
+   "answer": "Françoise Sagan",
+   "level": "impossible",
+   "fact": "À l'époque, Françoise Sagan a écrit « Bonjour tristesse » à seulement 18 ans.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/47-q.mp3",
+     "sec": 3.843039,
+     "text": "Qui publie le roman « Bonjour tristesse » en 1954 ?",
+     "words": [
+      [
+       "Qui",
+       0.056,
+       0.07
+      ],
+      [
+       "publie",
+       0.126,
+       0.447
+      ],
+      [
+       "le",
+       0.497,
+       0.598
+      ],
+      [
+       "roman",
+       0.661,
+       0.975
+      ],
+      [
+       "«",
+       1.089,
+       1.202
+      ],
+      [
+       "Bonjour",
+       1.258,
+       1.579
+      ],
+      [
+       "tristesse",
+       1.629,
+       2.334
+      ],
+      [
+       "»",
+       2.409,
+       2.485
+      ],
+      [
+       "en",
+       2.535,
+       2.636
+      ],
+      [
+       "1954",
+       3.164,
+       3.768
+      ],
+      [
+       "?",
+       3.806,
+       3.843
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/47-a.mp3",
+     "sec": 1.736576,
+     "text": "Françoise Sagan, évidemment !",
+     "words": [
+      [
+       "Françoise",
+       0.246,
+       0.521
+      ],
+      [
+       "Sagan,",
+       0.596,
+       0.974
+      ],
+      [
+       "évidemment",
+       1.049,
+       1.577
+      ],
+      [
+       "!",
+       1.653,
+       1.728
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/47-f.mp3",
+     "sec": 6.032063,
+     "text": "Petit bonus : À l'époque, Françoise Sagan a écrit « Bonjour tristesse » à seulement 18 ans.",
+     "words": [
+      [
+       "Petit",
+       0.106,
+       0.138
+      ],
+      [
+       "bonus",
+       0.213,
+       0.59
+      ],
+      [
+       ":",
+       0.779,
+       0.968
+      ],
+      [
+       "À",
+       1.006,
+       1.043
+      ],
+      [
+       "l'époque,",
+       1.081,
+       1.798
+      ],
+      [
+       "Françoise",
+       1.843,
+       2.251
+      ],
+      [
+       "Sagan",
+       2.289,
+       2.704
+      ],
+      [
+       "a",
+       2.779,
+       2.855
+      ],
+      [
+       "écrit",
+       2.918,
+       3.232
+      ],
+      [
+       "«",
+       3.27,
+       3.307
+      ],
+      [
+       "Bonjour",
+       3.364,
+       3.609
+      ],
+      [
+       "tristesse",
+       3.659,
+       4.213
+      ],
+      [
+       "»",
+       4.402,
+       4.59
+      ],
+      [
+       "à",
+       4.628,
+       4.666
+      ],
+      [
+       "seulement",
+       4.726,
+       5.27
+      ],
+      [
+       "18",
+       5.421,
+       5.798
+      ],
+      [
+       "ans.",
+       5.836,
+       6.024
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui chante « Une belle histoire » en 1972 ?",
+    "choices": [
+     "Gérard Lenorman",
+     "Michel Fugain",
+     "Pierre Perret",
+     "Jean-Claude Borelly"
+    ],
+    "correct": 1
+   },
+   "answer": "Michel Fugain",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/48-q.mp3",
+     "sec": 5.586939,
+     "text": "Celle-ci est pour les experts. Qui chante « Une belle histoire » en 1972 ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.068,
+       0.453
+      ],
+      [
+       "est",
+       0.528,
+       0.755
+      ],
+      [
+       "pour",
+       0.785,
+       0.906
+      ],
+      [
+       "les",
+       0.962,
+       1.132
+      ],
+      [
+       "experts.",
+       1.217,
+       1.887
+      ],
+      [
+       "Qui",
+       2.038,
+       2.491
+      ],
+      [
+       "chante",
+       2.541,
+       2.943
+      ],
+      [
+       "«",
+       3.057,
+       3.17
+      ],
+      [
+       "Une",
+       3.208,
+       3.321
+      ],
+      [
+       "belle",
+       3.358,
+       3.547
+      ],
+      [
+       "histoire",
+       3.606,
+       4.075
+      ],
+      [
+       "»",
+       4.189,
+       4.302
+      ],
+      [
+       "en",
+       4.327,
+       4.377
+      ],
+      [
+       "1972",
+       4.453,
+       5.434
+      ],
+      [
+       "?",
+       5.509,
+       5.585
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/48-a.mp3",
+     "sec": 1.958549,
+     "text": "Réponse : Michel Fugain !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "Michel",
+       1.1,
+       1.358
+      ],
+      [
+       "Fugain",
+       1.434,
+       1.736
+      ],
+      [
+       "!",
+       1.849,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel Suédois Yannick Noah bat-il en finale de Roland-Garros 1983 ?",
+    "choices": [
+     "Björn Borg",
+     "Stefan Edberg",
+     "Anders Järryd",
+     "Mats Wilander"
+    ],
+    "correct": 3
+   },
+   "answer": "Mats Wilander",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/49-q.mp3",
+     "sec": 4.75839,
+     "text": "Quel Suédois Yannick Noah bat-il en finale de Roland-Garros 1983 ?",
+     "words": [
+      [
+       "Quel",
+       0.109,
+       0.151
+      ],
+      [
+       "Suédois",
+       0.226,
+       0.755
+      ],
+      [
+       "Yannick",
+       0.83,
+       1.132
+      ],
+      [
+       "Noah",
+       1.208,
+       1.509
+      ],
+      [
+       "bat-il",
+       1.585,
+       1.962
+      ],
+      [
+       "en",
+       2.012,
+       2.113
+      ],
+      [
+       "finale",
+       2.167,
+       2.491
+      ],
+      [
+       "de",
+       2.541,
+       2.642
+      ],
+      [
+       "Roland-Garros",
+       2.685,
+       3.396
+      ],
+      [
+       "1983",
+       3.472,
+       4.604
+      ],
+      [
+       "?",
+       4.679,
+       4.755
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/49-a.mp3",
+     "sec": 2.281338,
+     "text": "La bonne réponse, c'est Mats Wilander.",
+     "words": [
+      [
+       "La",
+       0.139,
+       0.151
+      ],
+      [
+       "bonne",
+       0.176,
+       0.302
+      ],
+      [
+       "réponse,",
+       0.358,
+       0.906
+      ],
+      [
+       "c'est",
+       0.943,
+       1.057
+      ],
+      [
+       "Mats",
+       1.147,
+       1.509
+      ],
+      [
+       "Wilander.",
+       1.566,
+       2.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année la loi Veil autorise-t-elle l'IVG ?",
+    "choices": [
+     "1968",
+     "1975",
+     "1981",
+     "1989"
+    ],
+    "correct": 1
+   },
+   "answer": "1975",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/50-q.mp3",
+     "sec": 2.718005,
+     "text": "En quelle année la loi Veil autorise-t-elle l'IVG ?",
+     "words": [
+      [
+       "En",
+       0.054,
+       0.074
+      ],
+      [
+       "quelle",
+       0.106,
+       0.3
+      ],
+      [
+       "année",
+       0.338,
+       0.526
+      ],
+      [
+       "la",
+       0.576,
+       0.677
+      ],
+      [
+       "loi",
+       0.734,
+       0.904
+      ],
+      [
+       "Veil",
+       0.979,
+       1.281
+      ],
+      [
+       "autorise-t-elle",
+       1.357,
+       2.111
+      ],
+      [
+       "l'IVG",
+       2.149,
+       2.64
+      ],
+      [
+       "?",
+       2.677,
+       2.715
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/50-a.mp3",
+     "sec": 2.345714,
+     "text": "Eh oui : 1975 !",
+     "words": [
+      [
+       "Eh",
+       0.12,
+       0.14
+      ],
+      [
+       "oui",
+       0.197,
+       0.367
+      ],
+      [
+       ":",
+       0.593,
+       0.82
+      ],
+      [
+       "1975",
+       1.461,
+       2.254
+      ],
+      [
+       "!",
+       2.291,
+       2.329
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel compositeur romantique figure sur le billet de 10 francs ?",
+    "choices": [
+     "Georges Bizet",
+     "Hector Berlioz",
+     "Camille Saint-Saëns",
+     "Maurice Ravel"
+    ],
+    "correct": 1
+   },
+   "answer": "Hector Berlioz",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/51-q.mp3",
+     "sec": 3.170567,
+     "text": "Quel compositeur romantique figure sur le billet de 10 francs ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "compositeur",
+       0.204,
+       0.755
+      ],
+      [
+       "romantique",
+       0.808,
+       1.358
+      ],
+      [
+       "figure",
+       1.434,
+       1.887
+      ],
+      [
+       "sur",
+       1.925,
+       2.038
+      ],
+      [
+       "le",
+       2.063,
+       2.113
+      ],
+      [
+       "billet",
+       2.17,
+       2.491
+      ],
+      [
+       "de",
+       2.516,
+       2.566
+      ],
+      [
+       "10",
+       2.642,
+       2.792
+      ],
+      [
+       "francs",
+       2.842,
+       3.132
+      ],
+      [
+       "?",
+       3.151,
+       3.17
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/51-a.mp3",
+     "sec": 1.893787,
+     "text": "Eh oui : Hector Berlioz !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui",
+       0.189,
+       0.302
+      ],
+      [
+       ":",
+       0.453,
+       0.604
+      ],
+      [
+       "Hector",
+       0.679,
+       1.132
+      ],
+      [
+       "Berlioz",
+       1.189,
+       1.811
+      ],
+      [
+       "!",
+       1.849,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel syndicat polonais dirigé par Lech Wałęsa naît en 1980 ?",
+    "choices": [
+     "Solidarność",
+     "Przyjaźń",
+     "Wolność",
+     "Pologne Libre"
+    ],
+    "correct": 0
+   },
+   "answer": "Solidarność",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/52-q.mp3",
+     "sec": 4.604762,
+     "text": "Quel syndicat polonais dirigé par Lech Wałęsa naît en 1980 ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "syndicat",
+       0.211,
+       0.679
+      ],
+      [
+       "polonais",
+       0.736,
+       1.208
+      ],
+      [
+       "dirigé",
+       1.271,
+       1.736
+      ],
+      [
+       "par",
+       1.774,
+       1.887
+      ],
+      [
+       "Lech",
+       1.937,
+       2.189
+      ],
+      [
+       "Wałęsa",
+       2.239,
+       2.792
+      ],
+      [
+       "naît",
+       2.918,
+       3.396
+      ],
+      [
+       "en",
+       3.446,
+       3.547
+      ],
+      [
+       "1980",
+       3.623,
+       4.604
+      ],
+      [
+       "?",
+       4.604,
+       4.604
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/52-a.mp3",
+     "sec": 1.748095,
+     "text": "C'était Solidarność.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.528
+      ],
+      [
+       "Solidarność.",
+       0.616,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel président de la République meurt en cours de mandat en 1974 ?",
+    "choices": [
+     "Charles de Gaulle",
+     "René Coty",
+     "Georges Pompidou",
+     "Vincent Auriol"
+    ],
+    "correct": 2
+   },
+   "answer": "Georges Pompidou",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/53-q.mp3",
+     "sec": 4.637438,
+     "text": "Quel président de la République meurt en cours de mandat en 1974 ?",
+     "words": [
+      [
+       "Quel",
+       0.013,
+       0.174
+      ],
+      [
+       "président",
+       0.227,
+       0.702
+      ],
+      [
+       "de",
+       0.728,
+       0.778
+      ],
+      [
+       "la",
+       0.803,
+       0.853
+      ],
+      [
+       "République",
+       0.929,
+       1.457
+      ],
+      [
+       "meurt",
+       1.558,
+       1.985
+      ],
+      [
+       "en",
+       2.061,
+       2.212
+      ],
+      [
+       "cours",
+       2.25,
+       2.438
+      ],
+      [
+       "de",
+       2.464,
+       2.514
+      ],
+      [
+       "mandat",
+       2.559,
+       2.891
+      ],
+      [
+       "en",
+       2.992,
+       3.193
+      ],
+      [
+       "1974",
+       3.268,
+       4.476
+      ],
+      [
+       "?",
+       4.551,
+       4.627
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/53-a.mp3",
+     "sec": 1.517868,
+     "text": "C'était Georges Pompidou.",
+     "words": [
+      [
+       "C'était",
+       0.134,
+       0.445
+      ],
+      [
+       "Georges",
+       0.502,
+       0.898
+      ],
+      [
+       "Pompidou.",
+       0.955,
+       1.502
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui présente l'émission radio « Salut les copains » dès 1959 ?",
+    "choices": [
+     "Jean-Pierre Foucault",
+     "Max Meynier",
+     "Daniel Filipacchi",
+     "Jean-Loup Lafont"
+    ],
+    "correct": 2
+   },
+   "answer": "Daniel Filipacchi",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/54-q.mp3",
+     "sec": 3.936939,
+     "text": "Qui présente l'émission radio « Salut les copains » dès 1959 ?",
+     "words": [
+      [
+       "Qui",
+       0.064,
+       0.075
+      ],
+      [
+       "présente",
+       0.136,
+       0.604
+      ],
+      [
+       "l'émission",
+       0.642,
+       0.981
+      ],
+      [
+       "radio",
+       1.044,
+       1.358
+      ],
+      [
+       "«",
+       1.434,
+       1.509
+      ],
+      [
+       "Salut",
+       1.547,
+       1.736
+      ],
+      [
+       "les",
+       1.774,
+       1.887
+      ],
+      [
+       "copains",
+       1.925,
+       2.189
+      ],
+      [
+       "»",
+       2.34,
+       2.491
+      ],
+      [
+       "dès",
+       2.528,
+       2.642
+      ],
+      [
+       "1959",
+       2.717,
+       3.849
+      ],
+      [
+       "?",
+       3.887,
+       3.925
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/54-a.mp3",
+     "sec": 1.570159,
+     "text": "C'était Daniel Filipacchi.",
+     "words": [
+      [
+       "C'était",
+       0.04,
+       0.425
+      ],
+      [
+       "Daniel",
+       0.479,
+       0.803
+      ],
+      [
+       "Filipacchi.",
+       0.866,
+       1.557
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel spationaute français vole sur la navette américaine en 1985 ?",
+    "choices": [
+     "Patrick Baudry",
+     "Michel Tognini",
+     "Jean-Pierre Haigneré",
+     "Philippe Perrin"
+    ],
+    "correct": 0
+   },
+   "answer": "Patrick Baudry",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/55-q.mp3",
+     "sec": 6.421905,
+     "text": "Beaucoup se trompent ici. Quel spationaute français vole sur la navette américaine en 1985 ?",
+     "words": [
+      [
+       "Beaucoup",
+       0.139,
+       0.377
+      ],
+      [
+       "se",
+       0.453,
+       0.604
+      ],
+      [
+       "trompent",
+       0.649,
+       0.906
+      ],
+      [
+       "ici.",
+       0.981,
+       1.283
+      ],
+      [
+       "Quel",
+       1.459,
+       1.962
+      ],
+      [
+       "spationaute",
+       2.012,
+       2.566
+      ],
+      [
+       "français",
+       2.625,
+       3.094
+      ],
+      [
+       "vole",
+       3.155,
+       3.396
+      ],
+      [
+       "sur",
+       3.434,
+       3.547
+      ],
+      [
+       "la",
+       3.573,
+       3.623
+      ],
+      [
+       "navette",
+       3.679,
+       3.925
+      ],
+      [
+       "américaine",
+       3.975,
+       4.528
+      ],
+      [
+       "en",
+       4.654,
+       4.906
+      ],
+      [
+       "1985",
+       5.434,
+       6.264
+      ],
+      [
+       "?",
+       6.34,
+       6.415
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/55-a.mp3",
+     "sec": 1.359433,
+     "text": "Patrick Baudry, évidemment !",
+     "words": [
+      [
+       "Patrick",
+       0.167,
+       0.219
+      ],
+      [
+       "Baudry,",
+       0.257,
+       0.672
+      ],
+      [
+       "évidemment",
+       0.71,
+       1.201
+      ],
+      [
+       "!",
+       1.276,
+       1.352
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "Les téléviseurs avaient autrefois un écran à tube cathodique.",
+   "answer": true,
+   "fact": "Ils étaient profonds et lourds, avec un écran légèrement bombé.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/i0-q.mp3",
+     "sec": 5.77458,
+     "text": "Intermède ! Vrai ou faux : Les téléviseurs avaient autrefois un écran à tube cathodique.",
+     "words": [
+      [
+       "Intermède",
+       0.087,
+       0.562
+      ],
+      [
+       "!",
+       0.864,
+       1.166
+      ],
+      [
+       "Vrai",
+       1.204,
+       1.393
+      ],
+      [
+       "ou",
+       1.418,
+       1.468
+      ],
+      [
+       "faux",
+       1.528,
+       1.77
+      ],
+      [
+       ":",
+       1.959,
+       2.147
+      ],
+      [
+       "Les",
+       2.185,
+       2.298
+      ],
+      [
+       "téléviseurs",
+       2.344,
+       2.978
+      ],
+      [
+       "avaient",
+       3.034,
+       3.279
+      ],
+      [
+       "autrefois",
+       3.329,
+       3.732
+      ],
+      [
+       "un",
+       3.782,
+       3.883
+      ],
+      [
+       "écran",
+       3.959,
+       4.336
+      ],
+      [
+       "à",
+       4.449,
+       4.562
+      ],
+      [
+       "tube",
+       4.638,
+       4.94
+      ],
+      [
+       "cathodique.",
+       5,
+       5.77
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/i0-a.mp3",
+     "sec": 1.821066,
+     "text": "Eh oui, c'est vrai.",
+     "words": [
+      [
+       "Eh",
+       0.196,
+       0.226
+      ],
+      [
+       "oui,",
+       0.283,
+       0.679
+      ],
+      [
+       "c'est",
+       0.717,
+       0.83
+      ],
+      [
+       "vrai.",
+       0.891,
+       1.811
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/i0-f.mp3",
+     "sec": 4.882222,
+     "text": "Au passage, Ils étaient profonds et lourds, avec un écran légèrement bombé.",
+     "words": [
+      [
+       "Au",
+       0.029,
+       0.039
+      ],
+      [
+       "passage,",
+       0.096,
+       0.945
+      ],
+      [
+       "Ils",
+       1.001,
+       1.171
+      ],
+      [
+       "étaient",
+       1.209,
+       1.473
+      ],
+      [
+       "profonds",
+       1.548,
+       2.077
+      ],
+      [
+       "et",
+       2.102,
+       2.152
+      ],
+      [
+       "lourds,",
+       2.228,
+       2.831
+      ],
+      [
+       "avec",
+       2.892,
+       3.133
+      ],
+      [
+       "un",
+       3.159,
+       3.209
+      ],
+      [
+       "écran",
+       3.284,
+       3.737
+      ],
+      [
+       "légèrement",
+       3.794,
+       4.341
+      ],
+      [
+       "bombé.",
+       4.386,
+       4.869
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de centimes y avait-il dans un franc ?",
+   "choices": [
+    "10",
+    "1 000",
+    "100"
+   ],
+   "correct": 2,
+   "fact": "Comme l'euro d'aujourd'hui, le franc se divisait en 100 centimes, ce qui rendait les comptes simples.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/i1-q.mp3",
+     "sec": 6.6439,
+     "text": "Une question à côté, pour le plaisir : Combien de centimes y avait-il dans un franc : 10, 1 000, ou 100 ?",
+     "words": [
+      [
+       "Une",
+       0.064,
+       0.075
+      ],
+      [
+       "question",
+       0.109,
+       0.377
+      ],
+      [
+       "à",
+       0.415,
+       0.453
+      ],
+      [
+       "côté,",
+       0.513,
+       0.906
+      ],
+      [
+       "pour",
+       0.921,
+       0.981
+      ],
+      [
+       "le",
+       1.007,
+       1.057
+      ],
+      [
+       "plaisir",
+       1.104,
+       1.434
+      ],
+      [
+       ":",
+       1.698,
+       1.962
+      ],
+      [
+       "Combien",
+       2.008,
+       2.34
+      ],
+      [
+       "de",
+       2.365,
+       2.415
+      ],
+      [
+       "centimes",
+       2.475,
+       2.943
+      ],
+      [
+       "y",
+       3.057,
+       3.17
+      ],
+      [
+       "avait-il",
+       3.208,
+       3.547
+      ],
+      [
+       "dans",
+       3.577,
+       3.698
+      ],
+      [
+       "un",
+       3.748,
+       3.849
+      ],
+      [
+       "franc",
+       3.912,
+       4.226
+      ],
+      [
+       ":",
+       4.453,
+       4.679
+      ],
+      [
+       "10,",
+       4.68,
+       5.245
+      ],
+      [
+       "1",
+       5.434,
+       5.535
+      ],
+      [
+       "000,",
+       5.635,
+       5.962
+      ],
+      [
+       "ou",
+       6.038,
+       6.189
+      ],
+      [
+       "100",
+       6.34,
+       6.491
+      ],
+      [
+       "?",
+       6.566,
+       6.642
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/i1-a.mp3",
+     "sec": 1.43229,
+     "text": "Réponse : 100.",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.453
+      ],
+      [
+       ":",
+       0.717,
+       0.981
+      ],
+      [
+       "100.",
+       1.057,
+       1.434
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/i1-f.mp3",
+     "sec": 6.107483,
+     "text": "Tu savais ? Comme l'euro d'aujourd'hui, le franc se divisait en 100 centimes, ce qui rendait les comptes simples.",
+     "words": [
+      [
+       "Tu",
+       0.057,
+       0.068
+      ],
+      [
+       "savais",
+       0.105,
+       0.37
+      ],
+      [
+       "?",
+       0.407,
+       0.445
+      ],
+      [
+       "Comme",
+       0.615,
+       1.2
+      ],
+      [
+       "l'euro",
+       1.219,
+       1.502
+      ],
+      [
+       "d'aujourd'hui,",
+       1.521,
+       2.332
+      ],
+      [
+       "le",
+       2.382,
+       2.483
+      ],
+      [
+       "franc",
+       2.533,
+       2.785
+      ],
+      [
+       "se",
+       2.81,
+       2.86
+      ],
+      [
+       "divisait",
+       2.923,
+       3.313
+      ],
+      [
+       "en",
+       3.363,
+       3.464
+      ],
+      [
+       "100",
+       3.615,
+       3.766
+      ],
+      [
+       "centimes,",
+       3.811,
+       4.672
+      ],
+      [
+       "ce",
+       4.697,
+       4.747
+      ],
+      [
+       "qui",
+       4.785,
+       4.898
+      ],
+      [
+       "rendait",
+       4.943,
+       5.2
+      ],
+      [
+       "les",
+       5.238,
+       5.351
+      ],
+      [
+       "comptes",
+       5.388,
+       5.653
+      ],
+      [
+       "simples.",
+       5.7,
+       6.105
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Dans les années 1970, la télévision française proposait 10 chaînes.",
+   "answer": false,
+   "fact": "Il n'y en avait que 3, et une 4e chaîne n'est arrivée qu'en novembre 1984.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/i2-q.mp3",
+     "sec": 8.839569,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : Dans les années 1970, la télévision française proposait 10 chaînes.",
+     "words": [
+      [
+       "Petit",
+       0.252,
+       0.302
+      ],
+      [
+       "bonus",
+       0.377,
+       0.755
+      ],
+      [
+       "entre",
+       0.805,
+       1.057
+      ],
+      [
+       "deux",
+       1.087,
+       1.208
+      ],
+      [
+       "questions",
+       1.268,
+       1.811
+      ],
+      [
+       ":",
+       2.113,
+       2.415
+      ],
+      [
+       "Vrai",
+       2.453,
+       2.642
+      ],
+      [
+       "ou",
+       2.742,
+       2.943
+      ],
+      [
+       "faux",
+       3.004,
+       3.245
+      ],
+      [
+       ":",
+       3.509,
+       3.774
+      ],
+      [
+       "Dans",
+       3.804,
+       3.925
+      ],
+      [
+       "les",
+       3.943,
+       4
+      ],
+      [
+       "années",
+       4.043,
+       4.302
+      ],
+      [
+       "1970,",
+       4.83,
+       5.811
+      ],
+      [
+       "la",
+       5.837,
+       5.887
+      ],
+      [
+       "télévision",
+       5.947,
+       6.491
+      ],
+      [
+       "française",
+       6.558,
+       7.17
+      ],
+      [
+       "proposait",
+       7.245,
+       7.925
+      ],
+      [
+       "10",
+       8.075,
+       8.302
+      ],
+      [
+       "chaînes.",
+       8.34,
+       8.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/i2-a.mp3",
+     "sec": 0.767642,
+     "text": "C'est faux !",
+     "words": [
+      [
+       "C'est",
+       0.042,
+       0.156
+      ],
+      [
+       "faux",
+       0.201,
+       0.382
+      ],
+      [
+       "!",
+       0.571,
+       0.759
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/i2-f.mp3",
+     "sec": 6.955601,
+     "text": "Pour briller en société : Il n'y en avait que 3, et une 4e chaîne n'est arrivée qu'en novembre 1984.",
+     "words": [
+      [
+       "Pour",
+       0.126,
+       0.151
+      ],
+      [
+       "briller",
+       0.226,
+       0.604
+      ],
+      [
+       "en",
+       0.629,
+       0.679
+      ],
+      [
+       "société",
+       0.745,
+       1.208
+      ],
+      [
+       ":",
+       1.472,
+       1.736
+      ],
+      [
+       "Il",
+       1.761,
+       1.811
+      ],
+      [
+       "n'y",
+       1.849,
+       1.962
+      ],
+      [
+       "en",
+       1.988,
+       2.038
+      ],
+      [
+       "avait",
+       2.088,
+       2.34
+      ],
+      [
+       "que",
+       2.358,
+       2.415
+      ],
+      [
+       "3,",
+       2.566,
+       3.17
+      ],
+      [
+       "et",
+       3.195,
+       3.245
+      ],
+      [
+       "une",
+       3.302,
+       3.472
+      ],
+      [
+       "4e",
+       3.623,
+       3.925
+      ],
+      [
+       "chaîne",
+       3.981,
+       4.226
+      ],
+      [
+       "n'est",
+       4.34,
+       4.604
+      ],
+      [
+       "arrivée",
+       4.642,
+       4.906
+      ],
+      [
+       "qu'en",
+       4.956,
+       5.208
+      ],
+      [
+       "novembre",
+       5.258,
+       5.66
+      ],
+      [
+       "1984.",
+       5.736,
+       6.943
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle émission de télé mettait en scène des vachettes ?",
+   "choices": [
+    "Intervilles",
+    "Fort Boyard",
+    "Thalassa"
+   ],
+   "correct": 0,
+   "fact": "Cette émission a commencé en 1962 et opposait des villes de France et d'Europe.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/i3-q.mp3",
+     "sec": 7.476735,
+     "text": "Petit bonus entre deux questions : Quelle émission de télé mettait en scène des vachettes : Intervilles, Fort Boyard, ou Thalassa ?",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.29,
+       0.604
+      ],
+      [
+       "entre",
+       0.642,
+       0.83
+      ],
+      [
+       "deux",
+       0.845,
+       0.906
+      ],
+      [
+       "questions",
+       0.951,
+       1.358
+      ],
+      [
+       ":",
+       1.623,
+       1.887
+      ],
+      [
+       "Quelle",
+       1.912,
+       2.038
+      ],
+      [
+       "émission",
+       2.113,
+       2.566
+      ],
+      [
+       "de",
+       2.616,
+       2.717
+      ],
+      [
+       "télé",
+       2.762,
+       2.943
+      ],
+      [
+       "mettait",
+       3,
+       3.321
+      ],
+      [
+       "en",
+       3.346,
+       3.396
+      ],
+      [
+       "scène",
+       3.472,
+       3.698
+      ],
+      [
+       "des",
+       3.755,
+       3.925
+      ],
+      [
+       "vachettes",
+       3.962,
+       4.453
+      ],
+      [
+       ":",
+       4.604,
+       4.755
+      ],
+      [
+       "Intervilles,",
+       4.811,
+       5.434
+      ],
+      [
+       "Fort",
+       5.54,
+       5.962
+      ],
+      [
+       "Boyard,",
+       6.019,
+       6.717
+      ],
+      [
+       "ou",
+       6.742,
+       6.792
+      ],
+      [
+       "Thalassa",
+       6.842,
+       7.321
+      ],
+      [
+       "?",
+       7.396,
+       7.472
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/i3-a.mp3",
+     "sec": 1.890408,
+     "text": "Réponse : Intervilles.",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.679
+      ],
+      [
+       ":",
+       0.906,
+       1.132
+      ],
+      [
+       "Intervilles.",
+       1.189,
+       1.887
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/i3-f.mp3",
+     "sec": 6.038753,
+     "text": "Au passage, Cette émission a commencé en 1962 et opposait des villes de France et d'Europe.",
+     "words": [
+      [
+       "Au",
+       0.065,
+       0.075
+      ],
+      [
+       "passage,",
+       0.132,
+       0.755
+      ],
+      [
+       "Cette",
+       0.78,
+       0.906
+      ],
+      [
+       "émission",
+       0.943,
+       1.283
+      ],
+      [
+       "a",
+       1.321,
+       1.358
+      ],
+      [
+       "commencé",
+       1.406,
+       1.887
+      ],
+      [
+       "en",
+       1.912,
+       1.962
+      ],
+      [
+       "1962",
+       2.113,
+       3.17
+      ],
+      [
+       "et",
+       3.346,
+       3.698
+      ],
+      [
+       "opposait",
+       3.761,
+       4.151
+      ],
+      [
+       "des",
+       4.189,
+       4.302
+      ],
+      [
+       "villes",
+       4.34,
+       4.528
+      ],
+      [
+       "de",
+       4.554,
+       4.604
+      ],
+      [
+       "France",
+       4.679,
+       5.132
+      ],
+      [
+       "et",
+       5.233,
+       5.434
+      ],
+      [
+       "d'Europe.",
+       5.472,
+       6.038
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Dans les cours d'école, les enfants jouaient souvent à la marelle.",
+   "answer": true,
+   "fact": "On dessinait le jeu à la craie sur le sol, de la terre jusqu'au ciel.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/i4-q.mp3",
+     "sec": 5.790635,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : Dans les cours d'école, les enfants jouaient souvent à la marelle.",
+     "words": [
+      [
+       "Une",
+       0.031,
+       0.043
+      ],
+      [
+       "question",
+       0.077,
+       0.345
+      ],
+      [
+       "à",
+       0.382,
+       0.42
+      ],
+      [
+       "côté,",
+       0.465,
+       0.722
+      ],
+      [
+       "pour",
+       0.752,
+       0.873
+      ],
+      [
+       "le",
+       0.898,
+       0.948
+      ],
+      [
+       "plaisir",
+       1.005,
+       1.401
+      ],
+      [
+       ":",
+       1.628,
+       1.854
+      ],
+      [
+       "Vrai",
+       1.892,
+       2.08
+      ],
+      [
+       "ou",
+       2.106,
+       2.156
+      ],
+      [
+       "faux",
+       2.216,
+       2.458
+      ],
+      [
+       ":",
+       2.609,
+       2.76
+      ],
+      [
+       "Dans",
+       2.775,
+       2.835
+      ],
+      [
+       "les",
+       2.873,
+       2.986
+      ],
+      [
+       "cours",
+       3.024,
+       3.212
+      ],
+      [
+       "d'école,",
+       3.213,
+       3.816
+      ],
+      [
+       "les",
+       3.854,
+       3.967
+      ],
+      [
+       "enfants",
+       4.014,
+       4.345
+      ],
+      [
+       "jouaient",
+       4.382,
+       4.722
+      ],
+      [
+       "souvent",
+       4.76,
+       5.024
+      ],
+      [
+       "à",
+       5.062,
+       5.099
+      ],
+      [
+       "la",
+       5.125,
+       5.175
+      ],
+      [
+       "marelle.",
+       5.213,
+       5.779
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/i4-a.mp3",
+     "sec": 0.916054,
+     "text": "C'est vrai !",
+     "words": [
+      [
+       "C'est",
+       0.068,
+       0.151
+      ],
+      [
+       "vrai",
+       0.211,
+       0.453
+      ],
+      [
+       "!",
+       0.642,
+       0.83
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/i4-f.mp3",
+     "sec": 5.668027,
+     "text": "Petit bonus : On dessinait le jeu à la craie sur le sol, de la terre jusqu'au ciel.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.302,
+       0.679
+      ],
+      [
+       ":",
+       0.943,
+       1.208
+      ],
+      [
+       "On",
+       1.258,
+       1.358
+      ],
+      [
+       "dessinait",
+       1.434,
+       1.887
+      ],
+      [
+       "le",
+       1.912,
+       1.962
+      ],
+      [
+       "jeu",
+       2.057,
+       2.34
+      ],
+      [
+       "à",
+       2.377,
+       2.415
+      ],
+      [
+       "la",
+       2.465,
+       2.566
+      ],
+      [
+       "craie",
+       2.623,
+       2.868
+      ],
+      [
+       "sur",
+       2.906,
+       3.019
+      ],
+      [
+       "le",
+       3.044,
+       3.094
+      ],
+      [
+       "sol,",
+       3.189,
+       3.774
+      ],
+      [
+       "de",
+       3.799,
+       3.849
+      ],
+      [
+       "la",
+       3.899,
+       4
+      ],
+      [
+       "terre",
+       4.113,
+       4.679
+      ],
+      [
+       "jusqu'au",
+       4.729,
+       5.057
+      ],
+      [
+       "ciel.",
+       5.132,
+       5.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "En quelle année l'euro est-il arrivé dans les portefeuilles ?",
+   "choices": [
+    "2002",
+    "1999",
+    "2005"
+   ],
+   "correct": 0,
+   "fact": "L'euro existait depuis 1999, mais seulement sur le papier, avant les billets et les pièces.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-22-generations/i5-q.mp3",
+     "sec": 8.535918,
+     "text": "Intermède ! En quelle année l'euro est-il arrivé dans les portefeuilles : 2002, 1999, ou 2005 ?",
+     "words": [
+      [
+       "Intermède",
+       0.128,
+       0.528
+      ],
+      [
+       "!",
+       0.83,
+       1.132
+      ],
+      [
+       "En",
+       1.182,
+       1.283
+      ],
+      [
+       "quelle",
+       1.326,
+       1.585
+      ],
+      [
+       "année",
+       1.635,
+       1.887
+      ],
+      [
+       "l'euro",
+       2.038,
+       2.491
+      ],
+      [
+       "est-il",
+       2.528,
+       2.792
+      ],
+      [
+       "arrivé",
+       2.842,
+       3.17
+      ],
+      [
+       "dans",
+       3.185,
+       3.245
+      ],
+      [
+       "les",
+       3.283,
+       3.396
+      ],
+      [
+       "portefeuilles",
+       3.442,
+       4.151
+      ],
+      [
+       ":",
+       4.491,
+       4.83
+      ],
+      [
+       "2002,",
+       4.906,
+       5.358
+      ],
+      [
+       "1999,",
+       5.887,
+       7.547
+      ],
+      [
+       "ou",
+       7.597,
+       7.698
+      ],
+      [
+       "2005",
+       7.774,
+       8.377
+      ],
+      [
+       "?",
+       8.453,
+       8.528
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-22-generations/i5-a.mp3",
+     "sec": 1.770136,
+     "text": "Réponse : 2002.",
+     "words": [
+      [
+       "Réponse",
+       0.165,
+       0.644
+      ],
+      [
+       ":",
+       0.87,
+       1.096
+      ],
+      [
+       "2002.",
+       1.285,
+       1.776
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-22-generations/i5-f.mp3",
+     "sec": 7.786599,
+     "text": "Pour briller en société : L'euro existait depuis 1999, mais seulement sur le papier, avant les billets et les pièces.",
+     "words": [
+      [
+       "Pour",
+       0.126,
+       0.151
+      ],
+      [
+       "briller",
+       0.226,
+       0.679
+      ],
+      [
+       "en",
+       0.705,
+       0.755
+      ],
+      [
+       "société",
+       0.83,
+       1.358
+      ],
+      [
+       ":",
+       1.66,
+       1.962
+      ],
+      [
+       "L'euro",
+       2,
+       2.34
+      ],
+      [
+       "existait",
+       2.403,
+       2.792
+      ],
+      [
+       "depuis",
+       2.836,
+       3.094
+      ],
+      [
+       "1999,",
+       3.17,
+       4.604
+      ],
+      [
+       "mais",
+       4.664,
+       4.906
+      ],
+      [
+       "seulement",
+       4.943,
+       5.283
+      ],
+      [
+       "sur",
+       5.302,
+       5.358
+      ],
+      [
+       "le",
+       5.408,
+       5.509
+      ],
+      [
+       "papier,",
+       5.547,
+       6.113
+      ],
+      [
+       "avant",
+       6.163,
+       6.415
+      ],
+      [
+       "les",
+       6.453,
+       6.566
+      ],
+      [
+       "billets",
+       6.623,
+       6.943
+      ],
+      [
+       "et",
+       6.969,
+       7.019
+      ],
+      [
+       "les",
+       7.038,
+       7.094
+      ],
+      [
+       "pièces.",
+       7.151,
+       7.774
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2,
+  "slow": true
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Le même quiz en version jouable : youqwiz.com"
+ },
+ "meta": {
+  "description": "56 souvenirs des années 60 à 90, à faire en famille. Niveaux : 13 facile, 15 moyens, 16 difficiles, 12 impossible. 7 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Le même quiz, en version jouable : https://youqwiz.com/quiz-du-jour/2026-11-22-generations\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #generations #youqwiz #nostalgie\n\n⏱️ Chapitres\n00:00 Intro\n04:13 Niveau moyen\n09:16 Niveau difficile\n15:09 Niveau impossible\n20:02 Ton score\n20:13 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "generations",
+   "souvenirs",
+   "années 70",
+   "années 80",
+   "quiz seniors",
+   "devinette",
+   "facile à impossible",
+   "nostalgie",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Tu te rappelles ?",
+   "line2": "56 SOUVENIRS",
+   "emoji": "☎️",
+   "sticker": "TU AS TOUT BON ?",
+   "layouts": [
+    1,
+    3
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Tu tiens combien de questions ? 😱 Seuls ceux nés AVANT 1975 réussiront #Shorts",
+  "shortDescription": "La réponse + 56 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "ES-TU UN GÉNIE ?",
+   "line": "8 questions pour le savoir 🧠"
+  },
+  "short2": {
+   "title": "Niveau IMPOSSIBLE 🔥 Seuls ceux nés AVANT 1975 réussiront #Shorts",
+   "description": "Vidéo complète avec les 56 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "MODE EXPERT",
+   "line": "les 8 questions que personne n'a 👑"
+  },
+  "short3": {
+   "title": "souvenirs : le milieu fait mal 😅 #Shorts",
+   "description": "Vidéo complète avec les 56 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU TIENS ?",
+   "line": "le milieu fait mal 😅"
+  },
+  "social": {
+   "caption": "Seuls ceux nés AVANT 1975 réussiront 🧠 Tu tiens combien de questions ? Réponds en commentaire 👇",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "generations",
+    "souvenirs"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 253.4,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 556.1,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 909,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 1202.1,
+    "title": "Ton score"
+   },
+   {
+    "at": 1213.3333333333333,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/1dc6cc820acd47d2.mp3",
+   "sec": 2.192313,
+   "text": "Niveau facile. Tranquille pour commencer.",
+   "words": [
+    [
+     "Niveau",
+     0.221,
+     0.289
+    ],
+    [
+     "facile.",
+     0.354,
+     1.044
+    ],
+    [
+     "Tranquille",
+     1.104,
+     1.497
+    ],
+    [
+     "pour",
+     1.542,
+     1.723
+    ],
+    [
+     "commencer.",
+     1.738,
+     2.176
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/562d27da613d6568.mp3",
+   "sec": 3.392041,
+   "text": "Niveau moyen. Là, il faut réfléchir un peu.",
+   "words": [
+    [
+     "Niveau",
+     0.113,
+     0.453
+    ],
+    [
+     "moyen.",
+     0.541,
+     1.283
+    ],
+    [
+     "Là,",
+     1.434,
+     1.811
+    ],
+    [
+     "il",
+     1.861,
+     1.962
+    ],
+    [
+     "faut",
+     1.992,
+     2.113
+    ],
+    [
+     "réfléchir",
+     2.163,
+     2.642
+    ],
+    [
+     "un",
+     2.667,
+     2.717
+    ],
+    [
+     "peu.",
+     2.774,
+     3.396
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/ca1313e1df6c785d.mp3",
+   "sec": 1.969546,
+   "text": "Niveau difficile. Accroche-toi !",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.302
+    ],
+    [
+     "difficile.",
+     0.362,
+     1.17
+    ],
+    [
+     "Accroche-toi",
+     1.236,
+     1.811
+    ],
+    [
+     "!",
+     1.887,
+     1.962
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/978dc0ef4036d7a4.mp3",
+   "sec": 3.086417,
+   "text": "Niveau impossible. Seuls les génies…",
+   "words": [
+    [
+     "Niveau",
+     0.051,
+     0.436
+    ],
+    [
+     "impossible.",
+     0.539,
+     1.832
+    ],
+    [
+     "Seuls",
+     1.92,
+     2.247
+    ],
+    [
+     "les",
+     2.304,
+     2.474
+    ],
+    [
+     "génies…",
+     2.568,
+     3.077
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/337535e57436b915.mp3",
+   "sec": 5.369025,
+   "text": "Compte tes points et écris ton score en commentaire : le meilleur score est félicité dès demain !",
+   "words": [
+    [
+     "Compte",
+     0.059,
+     0.221
+    ],
+    [
+     "tes",
+     0.24,
+     0.297
+    ],
+    [
+     "points",
+     0.351,
+     0.674
+    ],
+    [
+     "et",
+     0.75,
+     0.901
+    ],
+    [
+     "écris",
+     0.976,
+     1.278
+    ],
+    [
+     "ton",
+     1.297,
+     1.353
+    ],
+    [
+     "score",
+     1.417,
+     1.731
+    ],
+    [
+     "en",
+     1.781,
+     1.882
+    ],
+    [
+     "commentaire",
+     1.932,
+     2.485
+    ],
+    [
+     ":",
+     2.674,
+     2.863
+    ],
+    [
+     "le",
+     2.938,
+     3.089
+    ],
+    [
+     "meilleur",
+     3.115,
+     3.316
+    ],
+    [
+     "score",
+     3.391,
+     3.768
+    ],
+    [
+     "est",
+     3.844,
+     4.07
+    ],
+    [
+     "félicité",
+     4.12,
+     4.674
+    ],
+    [
+     "dès",
+     4.75,
+     4.976
+    ],
+    [
+     "demain",
+     5.014,
+     5.278
+    ],
+    [
+     "!",
+     5.316,
+     5.353
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/ab071e4d28ebf644.mp3",
+   "sec": 3.707823,
+   "text": "Rejoins les joueurs YouQwiz : abonne-toi, le prochain quiz arrive demain.",
+   "words": [
+    [
+     "Rejoins",
+     0.201,
+     0.377
+    ],
+    [
+     "les",
+     0.396,
+     0.453
+    ],
+    [
+     "joueurs",
+     0.491,
+     0.755
+    ],
+    [
+     "YouQwiz",
+     0.811,
+     1.283
+    ],
+    [
+     ":",
+     1.434,
+     1.585
+    ],
+    [
+     "abonne-toi,",
+     1.61,
+     2.264
+    ],
+    [
+     "le",
+     2.34,
+     2.491
+    ],
+    [
+     "prochain",
+     2.528,
+     2.792
+    ],
+    [
+     "quiz",
+     2.853,
+     3.094
+    ],
+    [
+     "arrive",
+     3.138,
+     3.396
+    ],
+    [
+     "demain.",
+     3.434,
+     3.698
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/683be11645daf955.mp3",
+   "sec": 2.869342,
+   "text": "Bravo d'être allé jusqu'au bout. Abonne-toi et à demain !",
+   "words": [
+    [
+     "Bravo",
+     0.314,
+     0.377
+    ],
+    [
+     "d'être",
+     0.415,
+     0.604
+    ],
+    [
+     "allé",
+     0.623,
+     0.755
+    ],
+    [
+     "jusqu'au",
+     0.792,
+     1.132
+    ],
+    [
+     "bout.",
+     1.147,
+     1.585
+    ],
+    [
+     "Abonne-toi",
+     1.635,
+     2.038
+    ],
+    [
+     "et",
+     2.163,
+     2.415
+    ],
+    [
+     "à",
+     2.491,
+     2.566
+    ],
+    [
+     "demain",
+     2.585,
+     2.717
+    ],
+    [
+     "!",
+     2.792,
+     2.868
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/7d7c316679ee0bcb.mp3",
+   "sec": 3.626349,
+   "text": "Content de te revoir sur YouQwiz ! Nouveau jour, nouveau quiz !",
+   "words": [
+    [
+     "Content",
+     0.241,
+     0.294
+    ],
+    [
+     "de",
+     0.32,
+     0.37
+    ],
+    [
+     "te",
+     0.42,
+     0.521
+    ],
+    [
+     "revoir",
+     0.571,
+     0.823
+    ],
+    [
+     "sur",
+     0.879,
+     1.049
+    ],
+    [
+     "YouQwiz",
+     1.106,
+     1.577
+    ],
+    [
+     "!",
+     1.766,
+     1.955
+    ],
+    [
+     "Nouveau",
+     2.011,
+     2.257
+    ],
+    [
+     "jour,",
+     2.317,
+     2.785
+    ],
+    [
+     "nouveau",
+     2.832,
+     3.162
+    ],
+    [
+     "quiz",
+     3.223,
+     3.464
+    ],
+    [
+     "!",
+     3.54,
+     3.615
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-22-generations/intro.mp3",
+   "sec": 3.940522,
+   "text": "Seuls ceux nés Avant 1975 réussiront ! À toi de jouer !",
+   "words": [
+    [
+     "Seuls",
+     0.065,
+     0.226
+    ],
+    [
+     "ceux",
+     0.287,
+     0.528
+    ],
+    [
+     "nés",
+     0.566,
+     0.906
+    ],
+    [
+     "Avant",
+     0.981,
+     1.208
+    ],
+    [
+     "1975",
+     1.283,
+     2.189
+    ],
+    [
+     "réussiront",
+     2.264,
+     2.868
+    ],
+    [
+     "!",
+     3.094,
+     3.321
+    ],
+    [
+     "À",
+     3.358,
+     3.396
+    ],
+    [
+     "toi",
+     3.453,
+     3.623
+    ],
+    [
+     "de",
+     3.66,
+     3.736
+    ],
+    [
+     "jouer",
+     3.755,
+     3.849
+    ],
+    [
+     "!",
+     3.887,
+     3.925
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/019ac43e72385594.mp3",
+   "sec": 7.407029,
+   "text": "Sur youqwiz point com, crée un quiz pour toute la famille. Papy, mamie, les petits-enfants : à qui la meilleure mémoire ?",
+   "words": [
+    [
+     "Sur",
+     0.197,
+     0.225
+    ],
+    [
+     "youqwiz",
+     0.319,
+     0.904
+    ],
+    [
+     "point",
+     0.917,
+     0.98
+    ],
+    [
+     "com,",
+     1.074,
+     1.433
+    ],
+    [
+     "crée",
+     1.558,
+     1.885
+    ],
+    [
+     "un",
+     1.935,
+     2.036
+    ],
+    [
+     "quiz",
+     2.112,
+     2.414
+    ],
+    [
+     "pour",
+     2.459,
+     2.64
+    ],
+    [
+     "toute",
+     2.666,
+     2.791
+    ],
+    [
+     "la",
+     2.841,
+     2.942
+    ],
+    [
+     "famille.",
+     2.999,
+     3.621
+    ],
+    [
+     "Papy,",
+     3.734,
+     4.301
+    ],
+    [
+     "mamie,",
+     4.357,
+     4.753
+    ],
+    [
+     "les",
+     4.791,
+     4.904
+    ],
+    [
+     "petits-enfants",
+     4.948,
+     5.584
+    ],
+    [
+     ":",
+     5.81,
+     6.036
+    ],
+    [
+     "à",
+     6.112,
+     6.187
+    ],
+    [
+     "qui",
+     6.225,
+     6.338
+    ],
+    [
+     "la",
+     6.388,
+     6.489
+    ],
+    [
+     "meilleure",
+     6.519,
+     6.791
+    ],
+    [
+     "mémoire",
+     6.817,
+     7.244
+    ],
+    [
+     "?",
+     7.319,
+     7.395
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/c41e7f0ef97df384.mp3",
+   "sec": 5.895624,
+   "text": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !",
+   "words": [
+    [
+     "Envie",
+     0.128,
+     0.226
+    ],
+    [
+     "de",
+     0.252,
+     0.302
+    ],
+    [
+     "continuer",
+     0.345,
+     0.755
+    ],
+    [
+     "?",
+     1.019,
+     1.283
+    ],
+    [
+     "Clique",
+     1.321,
+     1.585
+    ],
+    [
+     "sur",
+     1.642,
+     1.811
+    ],
+    [
+     "une",
+     1.868,
+     2.038
+    ],
+    [
+     "vidéo",
+     2.113,
+     2.491
+    ],
+    [
+     "pour",
+     2.521,
+     2.642
+    ],
+    [
+     "ton",
+     2.698,
+     2.868
+    ],
+    [
+     "prochain",
+     2.925,
+     3.245
+    ],
+    [
+     "quiz,",
+     3.321,
+     4
+    ],
+    [
+     "ou",
+     4.025,
+     4.075
+    ],
+    [
+     "abonne-toi",
+     4.176,
+     4.755
+    ],
+    [
+     "pour",
+     4.83,
+     5.132
+    ],
+    [
+     "celui",
+     5.182,
+     5.434
+    ],
+    [
+     "de",
+     5.459,
+     5.509
+    ],
+    [
+     "demain",
+     5.566,
+     5.811
+    ],
+    [
+     "!",
+     5.849,
+     5.887
+    ]
+   ]
+  }
+ }
+}
