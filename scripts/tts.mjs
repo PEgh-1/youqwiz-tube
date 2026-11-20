@@ -50,7 +50,9 @@ let chars = 0, calls = 0;
 const rand = rng(`${ep.id}-voice`);
 const pick = (arr) => arr[Math.floor(rand() * arr.length)];
 
-const clean = (s) => String(s).replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, "").replace(/\s+/g, " ").trim();
+// 20/11/2026 : classes lues en toutes lettres (« niveau 6e » → « niveau sixième »), sinon la voix épelle le « e ».
+const ORDINAL = { 6: "sixième", 5: "cinquième", 4: "quatrième", 3: "troisième" };
+const clean = (s) => String(s).replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, "").replace(/\b([3-6])e\b/g, (_, d) => ORDINAL[d]).replace(/\s+/g, " ").trim();
 const duration = (f) => Number(execSync(`ffprobe -v error -show_entries format=duration -of csv=p=0 "${f}"`, { timeout: 30_000, stdio: ["ignore", "pipe", "pipe"] }).toString());
 
 async function synth(text, outFile, ctx = {}) {

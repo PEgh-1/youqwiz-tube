@@ -225,6 +225,7 @@ const items = shuffle(pool, rand)
 let lastFact = -5;
 items.forEach((it, i) => {
   if (!it.fact) return;
+  if (conf.allFacts) return; // pilier « par classe » : une info culture à chaque réponse (demande du 14/11/2026)
   if (i - lastFact < 3 || rand() > 0.85) delete it.fact;
   else lastFact = i;
 });
@@ -232,7 +233,7 @@ const count = items.length;
 const facts = items.filter((i) => i.fact).length;
 
 // 5. Habillage : palette du pilier, motif, chrono, révélation, carte, musique (tirés par épisode).
-const THEME_INDEX = { chaud: 0, menthe: 1, violet: 2, nuit: 3, sepia: 4, bonbon: 5 };
+const THEME_INDEX = { chaud: 0, menthe: 1, violet: 2, nuit: 3, sepia: 4, bonbon: 5, ardoise: 6 };
 const PS = V.pillarStyle?.[pillar] ?? rotation.pillars[pillar].style ?? {};
 const styleDefaults = {
   devine: { themes: ["chaud", "menthe", "nuit"], patterns: ["confetti", "stars"], timers: ["ring", "digits"], reveals: ["pop", "zoom", "slide"], cards: ["round", "tilt"] },
@@ -241,13 +242,14 @@ const styleDefaults = {
   generations: { themes: ["sepia", "chaud"], patterns: ["stripes", "dots"], timers: ["digits", "ring"], reveals: ["slide", "pop"], cards: ["square", "tilt"] },
   emojis: { themes: ["violet", "bonbon", "nuit"], patterns: ["stars", "bubbles"], timers: ["pie", "ring"], reveals: ["zoom", "flip"], cards: ["round", "tilt"] },
   site: { themes: ["menthe", "bonbon"], patterns: ["dots", "confetti"], timers: ["bar"], reveals: ["pop"], cards: ["square"] },
+  classe: { themes: ["ardoise"], patterns: ["grid", "dots"], timers: ["bar", "ring"], reveals: ["flip", "pop"], cards: ["square"] },
 }[pillar];
 const sd = { ...styleDefaults, ...PS };
 // Éviter de reprendre exactement l'habillage de l'épisode précédent du même pilier.
 const previous = readdirSync(p("data/episodes")).filter((f) => /^\d{4}-\d{2}-\d{2}-/.test(f) && f < `${date}-`).sort().slice(-14).map((f) => readJson(p("data/episodes", f))).filter(Boolean);
 const prevSame = previous.filter((e) => e.pillar === pillar).at(-1);
 const choose = (arr, avoid) => { const opts = arr.length > 1 && avoid !== undefined ? arr.filter((x) => x !== avoid) : arr; return pick(opts); };
-const themeName = choose(sd.themes, previous.at(-1) ? Object.keys(THEME_INDEX)[previous.at(-1).theme] : undefined);
+const themeName = sd.themes.length > 1 ? choose(sd.themes, previous.at(-1) ? Object.keys(THEME_INDEX)[previous.at(-1).theme] : undefined) : sd.themes[0];
 const musics = readdirSync(p("public/audio")).filter((f) => /^music(-[\w-]+)?\.mp3$/.test(f)).sort();
 const style = {
   pattern: choose(sd.patterns, prevSame?.style?.pattern),
@@ -343,7 +345,7 @@ const episode = {
   meta: {
     description: [intro, levelLine, extra].filter(Boolean).join(" ") + "\n\n" + [pick(V.descriptionCta).replace("https://youqwiz.com", `${S.quizPath}${date}-${bank.slug}`), pick(V.descriptionSub)].join("\n") + "\n\n" + `#quiz #${bank.slug.replace(/-/g, "")} #youqwiz` + (pillar === "generations" ? S.hashtags.generations : isChoice ? S.hashtags.choice : S.hashtags.default),
     tags: [...new Set([...S.tags.base, bank.slug.replace(/-/g, " "), ...(bank.tags ?? []), ...(isChoice ? S.tags.choice : S.tags.devine), pillar === "generations" ? S.tags.generations : S.tags.culture, ...S.tags.tail])].slice(0, 20),
-    thumbnail: { line1, line2: isSite ? S.thumbWeek : isIntrus ? S.thumbIntrus : `${count} ${bank.noun}`, emoji: (() => { const gs = [...new Intl.Segmenter("fr", { granularity: "grapheme" }).segment(bank.emoji)].map((s) => s.segment).filter((s) => /\p{Extended_Pictographic}/u.test(s)); return gs[Math.floor(rand() * gs.length)] ?? "🧠"; })(), sticker, layouts },
+    thumbnail: { line1, line2: isSite ? S.thumbWeek : isIntrus ? S.thumbIntrus : bank.classLabel ? bank.classLabel : `${count} ${bank.noun}`, emoji: (() => { const gs = [...new Intl.Segmenter("fr", { granularity: "grapheme" }).segment(bank.emoji)].map((s) => s.segment).filter((s) => /\p{Extended_Pictographic}/u.test(s)); return gs[Math.floor(rand() * gs.length)] ?? "🧠"; })(), sticker, layouts },
     shortItems: isChoice ? 4 : 5,
     shortTitle: fill(pick(V.shortTitles)).slice(0, 100),
     shortDescription: fill(pick(V.shortDescriptions)),

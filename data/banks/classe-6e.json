@@ -1,0 +1,2064 @@
+{
+ "_comment": "Pilier « par classe » (14/11/2026) : programme de 6e, toutes matières, 120 questions. Sheet de relecture : 13ERI3_hVA9ly2KGuVOLV1e3EcRG8W9pVPjN7RXtH6Lc. Intégrée le 20/11/2026, découpée en épisodes de 10 à 12 minutes par le générateur (questions jamais publiées d'abord).",
+ "question": "",
+ "hook": "As-tu le NIVEAU 6e ?",
+ "emoji": "🎒📚✏️",
+ "slug": "classe-6e",
+ "noun": "QUESTIONS",
+ "subject": "NIVEAU 6e",
+ "classLabel": "6e",
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "tags": [
+  "quiz niveau 6e",
+  "as-tu le niveau 6e",
+  "quiz collège",
+  "programme de 6e",
+  "révision 6e",
+  "quiz toutes matières"
+ ],
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel nombre décimal est égal à un demi ?",
+    "choices": [
+     "0,12",
+     "0,5",
+     "1,2",
+     "0,2"
+    ],
+    "correct": 1
+   },
+   "answer": "0,5",
+   "level": "facile",
+   "fact": "Un demi s'écrit aussi 1/2 ou 50 % : trois écritures pour une seule et même quantité.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est l'infinitif du verbe dans « nous chantons » ?",
+    "choices": [
+     "Chanter",
+     "Chant",
+     "Chantons",
+     "Chanté"
+    ],
+    "correct": 0
+   },
+   "answer": "Chanter",
+   "level": "facile",
+   "fact": "Les verbes en -er sont de loin les plus nombreux en français : on en compte des milliers.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la moitié de 250 ?",
+    "choices": [
+     "120",
+     "150",
+     "115",
+     "125"
+    ],
+    "correct": 3
+   },
+   "answer": "125",
+   "level": "facile",
+   "fact": "Diviser par 2 revient à multiplier par 0,5 : c'est exactement le même calcul.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel signe termine une phrase interrogative ?",
+    "choices": [
+     "La virgule",
+     "Les deux-points",
+     "Le point d'interrogation",
+     "Le point d'exclamation"
+    ],
+    "correct": 2
+   },
+   "answer": "Le point d'interrogation",
+   "level": "facile",
+   "fact": "En espagnol, on ajoute un point d'interrogation à l'envers au début de la question.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quelle température l'eau gèle-t-elle ?",
+    "choices": [
+     "−10 °C",
+     "10 °C",
+     "100 °C",
+     "0 °C"
+    ],
+    "correct": 3
+   },
+   "answer": "0 °C",
+   "level": "facile",
+   "fact": "L'échelle Celsius a justement été construite à partir du gel et de l'ébullition de l'eau.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Royaume-Uni ?",
+    "choices": [
+     "Londres",
+     "Édimbourg",
+     "Dublin",
+     "New York"
+    ],
+    "correct": 0
+   },
+   "answer": "Londres",
+   "level": "facile",
+   "fact": "Londres est traversée par la Tamise, « the Thames » en anglais.",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien y a-t-il de centimètres dans un mètre ?",
+    "choices": [
+     "60",
+     "1 000",
+     "100",
+     "10"
+    ],
+    "correct": 2
+   },
+   "answer": "100",
+   "level": "facile",
+   "fact": "« Centi » vient du latin centum, cent : un centime est aussi un centième d'euro.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le roi de l'Égypte ancienne ?",
+    "choices": [
+     "Le consul",
+     "Le pharaon",
+     "Le sultan",
+     "Le tsar"
+    ],
+    "correct": 1
+   },
+   "answer": "Le pharaon",
+   "level": "facile",
+   "fact": "Le mot pharaon signifie « grande maison » : il désignait d'abord le palais royal.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quels sont les trois états de l'eau ?",
+    "choices": [
+     "Chaud, tiède, froid",
+     "Glace, neige, pluie",
+     "Doux, salé, pétillant",
+     "Solide, liquide, gazeux"
+    ],
+    "correct": 3
+   },
+   "answer": "Solide, liquide, gazeux",
+   "level": "facile",
+   "fact": "La vapeur d'eau est invisible : la « fumée » d'une casserole est faite de gouttelettes.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de lettres compte l'alphabet français ?",
+    "choices": [
+     "24",
+     "28",
+     "26",
+     "25"
+    ],
+    "correct": 2
+   },
+   "answer": "26",
+   "level": "facile",
+   "fact": "L'alphabet compte 6 voyelles et 20 consonnes ; le Y joue parfois les deux rôles.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien y a-t-il d'océans sur Terre ?",
+    "choices": [
+     "7",
+     "5",
+     "4",
+     "3"
+    ],
+    "correct": 1
+   },
+   "answer": "5",
+   "level": "facile",
+   "fact": "Pacifique, Atlantique, Indien, Arctique et Austral couvrent environ 71 % du globe.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le féminin de « un acteur » ?",
+    "choices": [
+     "Une acteure",
+     "Une actrice",
+     "Une actresse",
+     "Une acteuse"
+    ],
+    "correct": 1
+   },
+   "answer": "Une actrice",
+   "level": "facile",
+   "fact": "Même modèle pour directeur, directrice ou lecteur, lectrice : -teur devient -trice.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 7 × 8 ?",
+    "choices": [
+     "63",
+     "56",
+     "54",
+     "48"
+    ],
+    "correct": 1
+   },
+   "answer": "56",
+   "level": "facile",
+   "fact": "Astuce : 5, 6, 7, 8. Les chiffres se suivent, donc 56 = 7 × 8. Impossible de l'oublier !",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelles sont les couleurs du drapeau français, dans l'ordre ?",
+    "choices": [
+     "Bleu, rouge, blanc",
+     "Blanc, bleu, rouge",
+     "Rouge, blanc, bleu",
+     "Bleu, blanc, rouge"
+    ],
+    "correct": 3
+   },
+   "answer": "Bleu, blanc, rouge",
+   "level": "facile",
+   "fact": "Le drapeau tricolore est né pendant la Révolution française.",
+   "subject": "EMC"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle période vient juste avant l'Antiquité ?",
+    "choices": [
+     "La Renaissance",
+     "La Préhistoire",
+     "Les Temps modernes",
+     "Le Moyen Âge"
+    ],
+    "correct": 1
+   },
+   "answer": "La Préhistoire",
+   "level": "facile",
+   "fact": "La Préhistoire couvre plus de 99 % de l'histoire de l'humanité.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ligne imaginaire sépare l'hémisphère Nord de l'hémisphère Sud ?",
+    "choices": [
+     "Le tropique du Cancer",
+     "L'équateur",
+     "Le cercle polaire",
+     "Le méridien de Greenwich"
+    ],
+    "correct": 1
+   },
+   "answer": "L'équateur",
+   "level": "facile",
+   "fact": "L'équateur mesure environ 40 000 km : c'est le tour complet de la Terre.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment dit-on « chien » en anglais ?",
+    "choices": [
+     "Cat",
+     "Duck",
+     "Dog",
+     "Horse"
+    ],
+    "correct": 2
+   },
+   "answer": "Dog",
+   "level": "facile",
+   "fact": "En anglais, un chien ne fait pas « ouaf » mais « woof ».",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel organe pompe le sang dans tout le corps ?",
+    "choices": [
+     "Les poumons",
+     "L'estomac",
+     "Le cœur",
+     "Le foie"
+    ],
+    "correct": 2
+   },
+   "answer": "Le cœur",
+   "level": "facile",
+   "fact": "Ton cœur bat environ 100 000 fois par jour, sans jamais faire de pause.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle ville actuelle se trouve le Colisée ?",
+    "choices": [
+     "Athènes",
+     "Rome",
+     "Le Caire",
+     "Istanbul"
+    ],
+    "correct": 1
+   },
+   "answer": "Rome",
+   "level": "facile",
+   "fact": "Le Colisée pouvait accueillir environ 50 000 spectateurs.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel océan borde l'ouest de la France ?",
+    "choices": [
+     "L'océan Arctique",
+     "L'océan Atlantique",
+     "L'océan Indien",
+     "L'océan Pacifique"
+    ],
+    "correct": 1
+   },
+   "answer": "L'océan Atlantique",
+   "level": "facile",
+   "fact": "Atlantique vient d'Atlas, le géant de la mythologie grecque qui portait le ciel.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Autour de quoi la Terre tourne-t-elle en un an ?",
+    "choices": [
+     "Le Soleil",
+     "L'étoile Polaire",
+     "Mars",
+     "La Lune"
+    ],
+    "correct": 0
+   },
+   "answer": "Le Soleil",
+   "level": "facile",
+   "fact": "Un tour complet dure 365 jours et environ 6 heures : d'où les années bissextiles.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que signifie « Thank you » ?",
+    "choices": [
+     "Merci",
+     "Au revoir",
+     "S'il te plaît",
+     "Bonjour"
+    ],
+    "correct": 0
+   },
+   "answer": "Merci",
+   "level": "facile",
+   "fact": "Pour répondre à un merci, les anglophones disent souvent « You're welcome ».",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « un cheval » ?",
+    "choices": [
+     "Des chevals",
+     "Des chevaut",
+     "Des chevaux",
+     "Des chevaus"
+    ],
+    "correct": 2
+   },
+   "answer": "Des chevaux",
+   "level": "facile",
+   "fact": "La plupart des noms en -al font -aux, mais on dit des bals, des carnavals et des festivals.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un angle de 90° ?",
+    "choices": [
+     "Un angle obtus",
+     "Un angle droit",
+     "Un angle aigu",
+     "Un angle plat"
+    ],
+    "correct": 1
+   },
+   "answer": "Un angle droit",
+   "level": "facile",
+   "fact": "« Droit » vient du latin rectus : c'est aussi l'origine du mot rectangle.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de notes compte la gamme, de do à si ?",
+    "choices": [
+     "5",
+     "12",
+     "8",
+     "7"
+    ],
+    "correct": 3
+   },
+   "answer": "7",
+   "level": "facile",
+   "fact": "Do, ré, mi, fa, sol, la, si : ces noms viennent d'un chant latin du Moyen Âge.",
+   "subject": "Arts et musique"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la devise de la République française ?",
+    "choices": [
+     "Unité, Travail, Progrès",
+     "Paix, Justice, Liberté",
+     "Un pour tous, tous pour un",
+     "Liberté, Égalité, Fraternité"
+    ],
+    "correct": 3
+   },
+   "answer": "Liberté, Égalité, Fraternité",
+   "level": "facile",
+   "fact": "Cette devise est inscrite sur le fronton des mairies et des écoles publiques.",
+   "subject": "EMC"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle civilisation a construit les pyramides de Gizeh ?",
+    "choices": [
+     "Les Grecs",
+     "Les Gaulois",
+     "Les Égyptiens",
+     "Les Romains"
+    ],
+    "correct": 2
+   },
+   "answer": "Les Égyptiens",
+   "level": "facile",
+   "fact": "La pyramide de Khéops est restée le plus haut monument du monde pendant plus de 3 800 ans.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le continent le plus peuplé ?",
+    "choices": [
+     "L'Amérique",
+     "L'Afrique",
+     "L'Asie",
+     "L'Europe"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Asie",
+   "level": "facile",
+   "fact": "Environ six humains sur dix vivent en Asie.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans « Le chat dort », quel est le sujet ?",
+    "choices": [
+     "Le",
+     "Le chat",
+     "Chat dort",
+     "Dort"
+    ],
+    "correct": 1
+   },
+   "answer": "Le chat",
+   "level": "facile",
+   "fact": "Pour trouver le sujet, pose la question « qui est-ce qui ? » devant le verbe.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel document fixe les règles de vie dans un collège ?",
+    "choices": [
+     "Le bulletin",
+     "Le règlement intérieur",
+     "Le carnet de notes",
+     "L'emploi du temps"
+    ],
+    "correct": 1
+   },
+   "answer": "Le règlement intérieur",
+   "level": "facile",
+   "fact": "Il précise les droits et les devoirs de chacun, élèves comme adultes.",
+   "subject": "EMC"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est surnommée la planète rouge ?",
+    "choices": [
+     "Jupiter",
+     "Vénus",
+     "Saturne",
+     "Mars"
+    ],
+    "correct": 3
+   },
+   "answer": "Mars",
+   "level": "facile",
+   "fact": "Mars doit sa couleur à la rouille : son sol est riche en oxyde de fer.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment dit-on le nombre 12 en anglais ?",
+    "choices": [
+     "Eleven",
+     "Two",
+     "Twenty",
+     "Twelve"
+    ],
+    "correct": 3
+   },
+   "answer": "Twelve",
+   "level": "facile",
+   "fact": "Eleven et twelve sont à part : ensuite, tout se termine en -teen jusqu'à nineteen.",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle un polygone à 4 côtés ?",
+    "choices": [
+     "Un quadrilatère",
+     "Un octogone",
+     "Un pentagone",
+     "Un triangle"
+    ],
+    "correct": 0
+   },
+   "answer": "Un quadrilatère",
+   "level": "facile",
+   "fact": "Carré, rectangle, losange, trapèze : tous font partie de la famille des quadrilatères.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+    "choices": [
+     "5 ans",
+     "3 ans",
+     "4 ans",
+     "2 ans"
+    ],
+    "correct": 2
+   },
+   "answer": "4 ans",
+   "level": "facile",
+   "fact": "Cette période de quatre ans s'appelle une olympiade, comme dans la Grèce antique.",
+   "subject": "EPS"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel instrument appartient à la famille des cordes ?",
+    "choices": [
+     "La trompette",
+     "La flûte",
+     "Le tambour",
+     "Le violon"
+    ],
+    "correct": 3
+   },
+   "answer": "Le violon",
+   "level": "facile",
+   "fact": "Un violon possède quatre cordes, que l'on frotte avec un archet en crin de cheval.",
+   "subject": "Arts et musique"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle le passage de l'état liquide à l'état solide ?",
+    "choices": [
+     "La fusion",
+     "La solidification",
+     "La condensation",
+     "L'évaporation"
+    ],
+    "correct": 1
+   },
+   "answer": "La solidification",
+   "level": "moyen",
+   "fact": "Le passage inverse s'appelle la fusion : un glaçon qui fond est en pleine fusion.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quel temps est conjugué « je finirai » ?",
+    "choices": [
+     "Le futur simple",
+     "L'imparfait",
+     "Le passé simple",
+     "Le conditionnel présent"
+    ],
+    "correct": 0
+   },
+   "answer": "Le futur simple",
+   "level": "moyen",
+   "fact": "Au futur, « je finirai » se termine par -ai ; avec -ais, ce serait le conditionnel.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quelle température l'eau bout-elle au niveau de la mer ?",
+    "choices": [
+     "200 °C",
+     "90 °C",
+     "100 °C",
+     "50 °C"
+    ],
+    "correct": 2
+   },
+   "answer": "100 °C",
+   "level": "moyen",
+   "fact": "En haut du mont Blanc, l'eau bout vers 85 °C car la pression de l'air y est plus faible.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans « Elle mange une pomme », quelle est la fonction de « une pomme » ?",
+    "choices": [
+     "Complément de lieu",
+     "Complément d'objet direct",
+     "Sujet",
+     "Attribut du sujet"
+    ],
+    "correct": 1
+   },
+   "answer": "Complément d'objet direct",
+   "level": "moyen",
+   "fact": "Le COD répond à la question « quoi ? » ou « qui ? » posée juste après le verbe.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Environ combien d'humains vivent sur Terre ?",
+    "choices": [
+     "3 milliards",
+     "8 milliards",
+     "20 milliards",
+     "800 millions"
+    ],
+    "correct": 1
+   },
+   "answer": "8 milliards",
+   "level": "moyen",
+   "fact": "Le cap des 8 milliards d'habitants a été franchi en novembre 2022, selon l'ONU.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle fraction est égale à 0,25 ?",
+    "choices": [
+     "2/5",
+     "1/2",
+     "1/4",
+     "1/25"
+    ],
+    "correct": 2
+   },
+   "answer": "1/4",
+   "level": "moyen",
+   "fact": "Un quart, c'est 25 % : voilà pourquoi un quart d'heure dure 15 minutes sur 60.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle l'écriture des anciens Égyptiens ?",
+    "choices": [
+     "L'alphabet latin",
+     "Le cunéiforme",
+     "Les runes",
+     "Les hiéroglyphes"
+    ],
+    "correct": 3
+   },
+   "answer": "Les hiéroglyphes",
+   "level": "moyen",
+   "fact": "Champollion a déchiffré les hiéroglyphes en 1822 grâce à la pierre de Rosette.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit la fable « Le Corbeau et le Renard » ?",
+    "choices": [
+     "Molière",
+     "Charles Perrault",
+     "Jean de La Fontaine",
+     "Victor Hugo"
+    ],
+    "correct": 2
+   },
+   "answer": "Jean de La Fontaine",
+   "level": "moyen",
+   "fact": "La Fontaine a publié environ 240 fables, souvent inspirées du fabuliste grec Ésope.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle l'attraction exercée par la Terre sur les objets ?",
+    "choices": [
+     "La pression",
+     "Le frottement",
+     "Le magnétisme",
+     "La gravité"
+    ],
+    "correct": 3
+   },
+   "answer": "La gravité",
+   "level": "moyen",
+   "fact": "Sur la Lune, la gravité est six fois plus faible : tu sauterais bien plus haut.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle cité grecque a inventé la démocratie ?",
+    "choices": [
+     "Corinthe",
+     "Troie",
+     "Sparte",
+     "Athènes"
+    ],
+    "correct": 3
+   },
+   "answer": "Athènes",
+   "level": "moyen",
+   "fact": "Démocratie vient du grec dêmos, le peuple, et kratos, le pouvoir.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le participe passé du verbe « prendre » ?",
+    "choices": [
+     "Prenu",
+     "Prendu",
+     "Prit",
+     "Pris"
+    ],
+    "correct": 3
+   },
+   "answer": "Pris",
+   "level": "moyen",
+   "fact": "« Il prit » existe, mais c'est du passé simple : au participe passé, on écrit « pris ».",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de planètes compte le système solaire ?",
+    "choices": [
+     "9",
+     "7",
+     "12",
+     "8"
+    ],
+    "correct": 3
+   },
+   "answer": "8",
+   "level": "moyen",
+   "fact": "Pluton a été reclassée en planète naine en 2006 : on comptait 9 planètes auparavant.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le périmètre d'un carré de 6 cm de côté ?",
+    "choices": [
+     "12 cm",
+     "18 cm",
+     "24 cm",
+     "36 cm"
+    ],
+    "correct": 2
+   },
+   "answer": "24 cm",
+   "level": "moyen",
+   "fact": "Attention au piège : 36 est l'aire en cm². Le périmètre, lui, mesure le tour de la figure.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand désert chaud du monde ?",
+    "choices": [
+     "Le Kalahari",
+     "Le Sahara",
+     "L'Atacama",
+     "Le désert de Gobi"
+    ],
+    "correct": 1
+   },
+   "answer": "Le Sahara",
+   "level": "moyen",
+   "fact": "Le Sahara s'étend sur une dizaine de pays et couvre près de 9 millions de km².",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle grotte de Dordogne est célèbre pour ses peintures préhistoriques ?",
+    "choices": [
+     "Carnac",
+     "Gergovie",
+     "Alésia",
+     "Lascaux"
+    ],
+    "correct": 3
+   },
+   "answer": "Lascaux",
+   "level": "moyen",
+   "fact": "Découverte en 1940 par quatre adolescents, la grotte a été peinte il y a près de 20 000 ans.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel jour de la semaine est « Wednesday » ?",
+    "choices": [
+     "Jeudi",
+     "Mardi",
+     "Mercredi",
+     "Vendredi"
+    ],
+    "correct": 2
+   },
+   "answer": "Mercredi",
+   "level": "moyen",
+   "fact": "Wednesday signifie « jour de Woden », un dieu des anciens peuples germaniques.",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on des mots qui se prononcent de la même façon ?",
+    "choices": [
+     "Des antonymes",
+     "Des synonymes",
+     "Des homophones",
+     "Des adverbes"
+    ],
+    "correct": 2
+   },
+   "answer": "Des homophones",
+   "level": "moyen",
+   "fact": "Vert, verre, ver, vers et vair : cinq homophones célèbres de la langue française.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel gaz de l'air est indispensable à notre respiration ?",
+    "choices": [
+     "L'hélium",
+     "Le dioxyde de carbone",
+     "Le diazote",
+     "Le dioxygène"
+    ],
+    "correct": 3
+   },
+   "answer": "Le dioxygène",
+   "level": "moyen",
+   "fact": "Le dioxygène ne représente qu'environ 21 % de l'air : le reste est surtout du diazote.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le nombre d'habitants par km² ?",
+    "choices": [
+     "La natalité",
+     "La superficie",
+     "Le recensement",
+     "La densité de population"
+    ],
+    "correct": 3
+   },
+   "answer": "La densité de population",
+   "level": "moyen",
+   "fact": "Monaco détient un record mondial : plus de 18 000 habitants par km².",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces nombres est un multiple de 9 ?",
+    "choices": [
+     "56",
+     "64",
+     "72",
+     "49"
+    ],
+    "correct": 2
+   },
+   "answer": "72",
+   "level": "moyen",
+   "fact": "Un nombre est divisible par 9 si la somme de ses chiffres l'est. Ici, 7 + 2 = 9.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui représente les élèves au conseil de classe ?",
+    "choices": [
+     "Le professeur principal",
+     "Le principal",
+     "Les délégués de classe",
+     "Les surveillants"
+    ],
+    "correct": 2
+   },
+   "answer": "Les délégués de classe",
+   "level": "moyen",
+   "fact": "Chaque classe élit deux délégués et leurs suppléants en début d'année.",
+   "subject": "EMC"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans un circuit électrique, quel composant ouvre ou ferme le circuit ?",
+    "choices": [
+     "Le fil",
+     "La lampe",
+     "La pile",
+     "L'interrupteur"
+    ],
+    "correct": 3
+   },
+   "answer": "L'interrupteur",
+   "level": "moyen",
+   "fact": "Circuit fermé, le courant passe et la lampe brille ; circuit ouvert, elle s'éteint.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a peint « La Joconde » ?",
+    "choices": [
+     "Claude Monet",
+     "Pablo Picasso",
+     "Michel-Ange",
+     "Léonard de Vinci"
+    ],
+    "correct": 3
+   },
+   "answer": "Léonard de Vinci",
+   "level": "moyen",
+   "fact": "La Joconde est exposée au musée du Louvre, à Paris, derrière une vitre blindée.",
+   "subject": "Arts et musique"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel fleuve a permis le développement de l'Égypte ancienne ?",
+    "choices": [
+     "L'Euphrate",
+     "Le Tigre",
+     "Le Nil",
+     "Le Danube"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Nil",
+   "level": "moyen",
+   "fact": "Chaque année, la crue du Nil déposait un limon fertile sur les champs.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la classe grammaticale du mot « rapidement » ?",
+    "choices": [
+     "Un adjectif",
+     "Un nom",
+     "Un verbe",
+     "Un adverbe"
+    ],
+    "correct": 3
+   },
+   "answer": "Un adverbe",
+   "level": "moyen",
+   "fact": "Beaucoup d'adverbes se forment en ajoutant -ment à un adjectif : rapide, rapidement.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on la zone de contact entre la terre et la mer ?",
+    "choices": [
+     "Le bassin",
+     "Le désert",
+     "Le littoral",
+     "Le plateau"
+    ],
+    "correct": 2
+   },
+   "answer": "Le littoral",
+   "level": "moyen",
+   "fact": "Les littoraux attirent : une grande partie de l'humanité vit à moins de 100 km d'une côte.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À partir de quel âge peut-on voter en France ?",
+    "choices": [
+     "15 ans",
+     "21 ans",
+     "18 ans",
+     "16 ans"
+    ],
+    "correct": 2
+   },
+   "answer": "18 ans",
+   "level": "moyen",
+   "fact": "La majorité était fixée à 21 ans jusqu'en 1974.",
+   "subject": "EMC"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mot complète : « She … two brothers » ?",
+    "choices": [
+     "has",
+     "is",
+     "have",
+     "am"
+    ],
+    "correct": 0
+   },
+   "answer": "has",
+   "level": "moyen",
+   "fact": "À la troisième personne du singulier, have devient has : he has, she has, it has.",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est l'aire d'un rectangle de 8 cm sur 5 cm ?",
+    "choices": [
+     "40 cm²",
+     "26 cm²",
+     "45 cm²",
+     "13 cm²"
+    ],
+    "correct": 0
+   },
+   "answer": "40 cm²",
+   "level": "moyen",
+   "fact": "L'aire d'un rectangle se calcule en multipliant sa longueur par sa largeur.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on une très grande ville qui concentre les pouvoirs ?",
+    "choices": [
+     "Une oasis",
+     "Un littoral",
+     "Un hameau",
+     "Une métropole"
+    ],
+    "correct": 3
+   },
+   "answer": "Une métropole",
+   "level": "moyen",
+   "fact": "Métropole vient du grec mêtêr, la mère, et polis, la ville : c'est la « ville-mère ».",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mot complète : « Ils … mangé toute la tarte » ?",
+    "choices": [
+     "ont",
+     "sont",
+     "son",
+     "on"
+    ],
+    "correct": 0
+   },
+   "answer": "ont",
+   "level": "moyen",
+   "fact": "Astuce : si tu peux remplacer par « avaient », c'est le verbe avoir, donc « ont ».",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un animal qui possède une colonne vertébrale ?",
+    "choices": [
+     "Un vertébré",
+     "Un invertébré",
+     "Un insecte",
+     "Un mollusque"
+    ],
+    "correct": 0
+   },
+   "answer": "Un vertébré",
+   "level": "moyen",
+   "fact": "Poissons, amphibiens, reptiles, oiseaux et mammifères sont tous des vertébrés.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelles sont les trois couleurs primaires en peinture ?",
+    "choices": [
+     "Vert, orange, violet",
+     "Noir, blanc, gris",
+     "Rose, vert, marron",
+     "Bleu, jaune, rouge"
+    ],
+    "correct": 3
+   },
+   "answer": "Bleu, jaune, rouge",
+   "level": "moyen",
+   "fact": "En mélangeant deux couleurs primaires, on obtient une secondaire : bleu + jaune = vert.",
+   "subject": "Arts et musique"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment dit-on « J'ai onze ans » en anglais ?",
+    "choices": [
+     "I am eleven",
+     "I am eleven years",
+     "I have eleven years",
+     "I have eleven"
+    ],
+    "correct": 0
+   },
+   "answer": "I am eleven",
+   "level": "moyen",
+   "fact": "En anglais, on « est » son âge : on utilise le verbe to be, jamais to have.",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Selon la légende, qui a fondé Rome ?",
+    "choices": [
+     "Énée",
+     "Auguste",
+     "Jules César",
+     "Romulus"
+    ],
+    "correct": 3
+   },
+   "answer": "Romulus",
+   "level": "moyen",
+   "fact": "D'après la légende, Romulus et son frère Rémus ont été nourris par une louve.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on deux droites qui ne se croisent jamais ?",
+    "choices": [
+     "Obliques",
+     "Perpendiculaires",
+     "Parallèles",
+     "Sécantes"
+    ],
+    "correct": 2
+   },
+   "answer": "Parallèles",
+   "level": "moyen",
+   "fact": "Les rails d'une voie ferrée sont l'exemple parfait de deux droites parallèles.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle l'hymne national français ?",
+    "choices": [
+     "La Parisienne",
+     "L'Hymne à la joie",
+     "Le Chant du départ",
+     "La Marseillaise"
+    ],
+    "correct": 3
+   },
+   "answer": "La Marseillaise",
+   "level": "moyen",
+   "fact": "Écrite en 1792 à Strasbourg par Rouget de Lisle, elle doit son nom à des volontaires marseillais.",
+   "subject": "EMC"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « un bijou » ?",
+    "choices": [
+     "Des bijoux",
+     "Des bijouxs",
+     "Des bijous",
+     "Des bijoues"
+    ],
+    "correct": 0
+   },
+   "answer": "Des bijoux",
+   "level": "difficile",
+   "fact": "Sept noms en -ou prennent un x : bijou, caillou, chou, genou, hibou, joujou et pou.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Par quoi commence presque toujours une chaîne alimentaire ?",
+    "choices": [
+     "Un décomposeur",
+     "Un végétal",
+     "Un herbivore",
+     "Un carnivore"
+    ],
+    "correct": 1
+   },
+   "answer": "Un végétal",
+   "level": "difficile",
+   "fact": "Les végétaux fabriquent leur propre matière grâce à la lumière : ce sont des producteurs.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand de ces nombres ?",
+    "choices": [
+     "3,5",
+     "3,405",
+     "3,45",
+     "3,09"
+    ],
+    "correct": 0
+   },
+   "answer": "3,5",
+   "level": "difficile",
+   "fact": "3,5 vaut 3,500 : le nombre de chiffres après la virgule ne dit rien de la taille du nombre.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces matériaux conduit le courant électrique ?",
+    "choices": [
+     "Le cuivre",
+     "Le verre",
+     "Le plastique",
+     "Le bois sec"
+    ],
+    "correct": 0
+   },
+   "answer": "Le cuivre",
+   "level": "difficile",
+   "fact": "C'est pourquoi les fils électriques sont en cuivre, gainés de plastique isolant.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le volume d'un cube de 3 cm d'arête ?",
+    "choices": [
+     "9 cm³",
+     "27 cm³",
+     "12 cm³",
+     "18 cm³"
+    ],
+    "correct": 1
+   },
+   "answer": "27 cm³",
+   "level": "difficile",
+   "fact": "3 × 3 × 3 = 27 : on dit d'ailleurs « 3 au cube » pour cette opération.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le passé composé de « elles partent » ?",
+    "choices": [
+     "Elles ont parti",
+     "Elles sont partis",
+     "Elles sont parties",
+     "Elles sont parti"
+    ],
+    "correct": 2
+   },
+   "answer": "Elles sont parties",
+   "level": "difficile",
+   "fact": "Avec l'auxiliaire être, le participe passé s'accorde avec le sujet : ici, féminin pluriel.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel grand changement apparaît au Néolithique ?",
+    "choices": [
+     "L'agriculture et l'élevage",
+     "La maîtrise du feu",
+     "Le travail du fer",
+     "L'écriture"
+    ],
+    "correct": 0
+   },
+   "answer": "L'agriculture et l'élevage",
+   "level": "difficile",
+   "fact": "En cultivant et en élevant des animaux, les humains deviennent sédentaires et bâtissent des villages.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 2 + 3 × 4 ?",
+    "choices": [
+     "14",
+     "9",
+     "20",
+     "24"
+    ],
+    "correct": 0
+   },
+   "answer": "14",
+   "level": "difficile",
+   "fact": "La multiplication est prioritaire : on calcule d'abord 3 × 4, puis on ajoute 2.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel héros met dix ans à rentrer chez lui dans « L'Odyssée » ?",
+    "choices": [
+     "Ulysse",
+     "Héraclès",
+     "Achille",
+     "Thésée"
+    ],
+    "correct": 0
+   },
+   "answer": "Ulysse",
+   "level": "difficile",
+   "fact": "L'Odyssée est attribuée au poète Homère : elle raconte le retour d'Ulysse vers l'île d'Ithaque.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans un programme, comment appelle-t-on une suite d'instructions répétée ?",
+    "choices": [
+     "Un capteur",
+     "Une variable",
+     "Un bug",
+     "Une boucle"
+    ],
+    "correct": 3
+   },
+   "answer": "Une boucle",
+   "level": "difficile",
+   "fact": "Grâce aux boucles, inutile d'écrire cent fois la même instruction : l'ordinateur répète.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 25 % de 80 ?",
+    "choices": [
+     "25",
+     "40",
+     "16",
+     "20"
+    ],
+    "correct": 3
+   },
+   "answer": "20",
+   "level": "difficile",
+   "fact": "Prendre 25 % d'un nombre, c'est tout simplement le diviser par 4.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle figure de style rapproche deux éléments avec « comme » ?",
+    "choices": [
+     "La métaphore",
+     "La personnification",
+     "L'hyperbole",
+     "La comparaison"
+    ],
+    "correct": 3
+   },
+   "answer": "La comparaison",
+   "level": "difficile",
+   "fact": "Sans outil de comparaison tel que « comme », on parle de métaphore.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Sur quelle couche de la Terre vivons-nous ?",
+    "choices": [
+     "Le noyau",
+     "La croûte terrestre",
+     "La stratosphère",
+     "Le manteau"
+    ],
+    "correct": 1
+   },
+   "answer": "La croûte terrestre",
+   "level": "difficile",
+   "fact": "La croûte est très fine : à l'échelle d'une pomme, elle aurait l'épaisseur de la peau.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui fut le premier empereur romain ?",
+    "choices": [
+     "Romulus",
+     "Jules César",
+     "Auguste",
+     "Néron"
+    ],
+    "correct": 2
+   },
+   "answer": "Auguste",
+   "level": "difficile",
+   "fact": "Auguste, d'abord appelé Octave, devient empereur en 27 avant J.-C. Le mois d'août lui doit son nom.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle la fabrication de matière par les plantes grâce à la lumière ?",
+    "choices": [
+     "La germination",
+     "La photosynthèse",
+     "La digestion",
+     "La respiration"
+    ],
+    "correct": 1
+   },
+   "answer": "La photosynthèse",
+   "level": "difficile",
+   "fact": "Pendant la photosynthèse, la plante absorbe du dioxyde de carbone et rejette du dioxygène.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de degrés mesure un angle plat ?",
+    "choices": [
+     "360°",
+     "180°",
+     "100°",
+     "90°"
+    ],
+    "correct": 1
+   },
+   "answer": "180°",
+   "level": "difficile",
+   "fact": "Un angle plat correspond à un demi-tour : c'est la somme de deux angles droits.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle la place publique au cœur d'une cité grecque ?",
+    "choices": [
+     "L'agora",
+     "Le gymnase",
+     "Le forum",
+     "L'acropole"
+    ],
+    "correct": 0
+   },
+   "answer": "L'agora",
+   "level": "difficile",
+   "fact": "À Rome, l'équivalent de l'agora s'appelle le forum.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces pays ne fait pas partie du Royaume-Uni ?",
+    "choices": [
+     "L'Écosse",
+     "L'Angleterre",
+     "La république d'Irlande",
+     "Le pays de Galles"
+    ],
+    "correct": 2
+   },
+   "answer": "La république d'Irlande",
+   "level": "difficile",
+   "fact": "Le Royaume-Uni réunit l'Angleterre, l'Écosse, le pays de Galles et l'Irlande du Nord.",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit la pièce « Le Médecin malgré lui » ?",
+    "choices": [
+     "Jean Racine",
+     "Molière",
+     "Pierre Corneille",
+     "Marivaux"
+    ],
+    "correct": 1
+   },
+   "answer": "Molière",
+   "level": "difficile",
+   "fact": "Molière, de son vrai nom Jean-Baptiste Poquelin, jouait lui-même dans ses pièces.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « child » ?",
+    "choices": [
+     "Childes",
+     "Childrens",
+     "Children",
+     "Childs"
+    ],
+    "correct": 2
+   },
+   "answer": "Children",
+   "level": "difficile",
+   "fact": "Autres pluriels irréguliers à connaître : man, men ; foot, feet ; mouse, mice.",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on l'écriture en forme de clous de Mésopotamie ?",
+    "choices": [
+     "Le sanskrit",
+     "Le cunéiforme",
+     "Les hiéroglyphes",
+     "L'alphabet grec"
+    ],
+    "correct": 1
+   },
+   "answer": "Le cunéiforme",
+   "level": "difficile",
+   "fact": "Cunéiforme vient du latin cuneus, le coin : on gravait l'argile avec un roseau taillé.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est l'unité de base de tous les êtres vivants ?",
+    "choices": [
+     "La cellule",
+     "Le tissu",
+     "L'organe",
+     "L'atome"
+    ],
+    "correct": 0
+   },
+   "answer": "La cellule",
+   "level": "difficile",
+   "fact": "Ton corps compte environ 30 000 milliards de cellules.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle fraction est égale à 3/4 ?",
+    "choices": [
+     "3/8",
+     "6/8",
+     "4/3",
+     "9/16"
+    ],
+    "correct": 1
+   },
+   "answer": "6/8",
+   "level": "difficile",
+   "fact": "Multiplier le numérateur et le dénominateur par un même nombre ne change pas la fraction.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quel temps est conjugué « nous fûmes » ?",
+    "choices": [
+     "Le passé simple",
+     "Le présent",
+     "L'imparfait",
+     "Le futur simple"
+    ],
+    "correct": 0
+   },
+   "answer": "Le passé simple",
+   "level": "difficile",
+   "fact": "Le passé simple est le temps du récit : on le croise surtout dans les contes et les romans.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un quartier pauvre fait d'habitations précaires ?",
+    "choices": [
+     "Une zone pavillonnaire",
+     "Un bidonville",
+     "Un centre d'affaires",
+     "Un écoquartier"
+    ],
+    "correct": 1
+   },
+   "answer": "Un bidonville",
+   "level": "difficile",
+   "fact": "Le mot vient des bidons de métal utilisés pour construire les premiers abris.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que signifie le mot anglais « library » ?",
+    "choices": [
+     "Une bibliothèque",
+     "Une librairie",
+     "Une liberté",
+     "Un livre"
+    ],
+    "correct": 0
+   },
+   "answer": "Une bibliothèque",
+   "level": "difficile",
+   "fact": "C'est un faux ami célèbre : une librairie se dit « bookshop » en anglais.",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À 60 km/h, quelle distance parcourt-on en 1 h 30 ?",
+    "choices": [
+     "90 km",
+     "80 km",
+     "75 km",
+     "120 km"
+    ],
+    "correct": 0
+   },
+   "answer": "90 km",
+   "level": "difficile",
+   "fact": "À vitesse constante, distance et durée sont proportionnelles : 1,5 fois plus de temps, 1,5 fois plus loin.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle distance mesure un tour de piste d'athlétisme ?",
+    "choices": [
+     "250 m",
+     "1 000 m",
+     "100 m",
+     "400 m"
+    ],
+    "correct": 3
+   },
+   "answer": "400 m",
+   "level": "difficile",
+   "fact": "Cette mesure vaut pour le couloir intérieur : les couloirs extérieurs sont plus longs.",
+   "subject": "EPS"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle invention marque la fin de la Préhistoire ?",
+    "choices": [
+     "L'écriture",
+     "L'imprimerie",
+     "Le feu",
+     "La roue"
+    ],
+    "correct": 0
+   },
+   "answer": "L'écriture",
+   "level": "difficile",
+   "fact": "Les plus anciennes traces d'écriture ont été trouvées en Mésopotamie, vers 3300 avant J.-C.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel espace de faible densité est couvert de forêt en Amérique du Sud ?",
+    "choices": [
+     "Le Sahel",
+     "L'Amazonie",
+     "La Sibérie",
+     "L'Himalaya"
+    ],
+    "correct": 1
+   },
+   "answer": "L'Amazonie",
+   "level": "difficile",
+   "fact": "L'Amazonie est la plus grande forêt tropicale du monde, traversée par le fleuve Amazone.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de lignes compte une portée musicale ?",
+    "choices": [
+     "4",
+     "6",
+     "7",
+     "5"
+    ],
+    "correct": 3
+   },
+   "answer": "5",
+   "level": "difficile",
+   "fact": "Les notes s'écrivent sur les cinq lignes et dans les quatre interlignes de la portée.",
+   "subject": "Arts et musique"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel texte de 1989 protège les droits des enfants dans le monde ?",
+    "choices": [
+     "La Charte olympique",
+     "La Déclaration des droits de l'homme",
+     "La Convention des droits de l'enfant",
+     "Le Code civil"
+    ],
+    "correct": 2
+   },
+   "answer": "La Convention des droits de l'enfant",
+   "level": "difficile",
+   "fact": "Adoptée par l'ONU le 20 novembre 1989, elle est célébrée chaque année à cette date.",
+   "subject": "EMC"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un mélange dont on ne distingue pas les constituants ?",
+    "choices": [
+     "Une suspension",
+     "Un mélange hétérogène",
+     "Un mélange homogène",
+     "Un corps pur"
+    ],
+    "correct": 2
+   },
+   "answer": "Un mélange homogène",
+   "level": "difficile",
+   "fact": "L'eau salée est homogène ; l'eau et l'huile forment un mélange hétérogène.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la classe grammaticale du mot « mais » ?",
+    "choices": [
+     "Une conjonction de coordination",
+     "Une préposition",
+     "Un pronom",
+     "Un adverbe"
+    ],
+    "correct": 0
+   },
+   "answer": "Une conjonction de coordination",
+   "level": "difficile",
+   "fact": "La phrase « Mais où est donc Ornicar ? » aide à retenir la liste traditionnelle des conjonctions.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année disparaît l'Empire romain d'Occident ?",
+    "choices": [
+     "476",
+     "1492",
+     "800",
+     "1453"
+    ],
+    "correct": 0
+   },
+   "answer": "476",
+   "level": "impossible",
+   "fact": "L'Empire romain d'Orient, lui, survivra jusqu'en 1453 autour de Constantinople.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien d'axes de symétrie possède un carré ?",
+    "choices": [
+     "4",
+     "2",
+     "1",
+     "8"
+    ],
+    "correct": 0
+   },
+   "answer": "4",
+   "level": "impossible",
+   "fact": "Deux axes passent par les milieux des côtés, les deux autres suivent les diagonales.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un mot formé avec un préfixe, comme « refaire » ?",
+    "choices": [
+     "Un mot composé",
+     "Un mot emprunté",
+     "Un mot dérivé",
+     "Un mot invariable"
+    ],
+    "correct": 2
+   },
+   "answer": "Un mot dérivé",
+   "level": "impossible",
+   "fact": "Le préfixe re- indique la répétition : refaire, relire, recommencer.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel type d'énergie possède un objet en mouvement ?",
+    "choices": [
+     "L'énergie cinétique",
+     "L'énergie thermique",
+     "L'énergie chimique",
+     "L'énergie lumineuse"
+    ],
+    "correct": 0
+   },
+   "answer": "L'énergie cinétique",
+   "level": "impossible",
+   "fact": "Plus un objet est rapide et lourd, plus son énergie cinétique est grande.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel réseau commercial reliait la Chine des Han à l'Empire romain ?",
+    "choices": [
+     "La route du sel",
+     "La voie Appienne",
+     "La route des épices",
+     "La route de la soie"
+    ],
+    "correct": 3
+   },
+   "answer": "La route de la soie",
+   "level": "impossible",
+   "fact": "Les Romains raffolaient de la soie, mais ignoraient comment les Chinois la fabriquaient.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qu'est-ce que la médiatrice d'un segment ?",
+    "choices": [
+     "Le point situé en son milieu",
+     "La droite passant par ses extrémités",
+     "La droite perpendiculaire en son milieu",
+     "Une droite parallèle au segment"
+    ],
+    "correct": 2
+   },
+   "answer": "La droite perpendiculaire en son milieu",
+   "level": "impossible",
+   "fact": "Tous les points de la médiatrice sont à égale distance des deux extrémités du segment.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel phénomène est dû à l'inclinaison de l'axe de la Terre ?",
+    "choices": [
+     "Les éclipses",
+     "Les saisons",
+     "Le jour et la nuit",
+     "Les marées"
+    ],
+    "correct": 1
+   },
+   "answer": "Les saisons",
+   "level": "impossible",
+   "fact": "Les saisons ne dépendent pas de la distance au Soleil : début janvier, la Terre en est au plus près.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le passé simple de « venir » à la 3e personne du singulier ?",
+    "choices": [
+     "Il vena",
+     "Il venit",
+     "Il vint",
+     "Il viendra"
+    ],
+    "correct": 2
+   },
+   "answer": "Il vint",
+   "level": "impossible",
+   "fact": "Avec un accent circonflexe, « qu'il vînt » existe : c'est l'imparfait du subjonctif.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment calcule-t-on le périmètre d'un cercle de rayon r ?",
+    "choices": [
+     "2 × π × r",
+     "π × r",
+     "π × r × r",
+     "2 × r"
+    ],
+    "correct": 0
+   },
+   "answer": "2 × π × r",
+   "level": "impossible",
+   "fact": "π vaut environ 3,14 : ses décimales ne s'arrêtent jamais et ne se répètent pas.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de temps la lumière du Soleil met-elle pour atteindre la Terre ?",
+    "choices": [
+     "Environ 8 heures",
+     "Environ 8 minutes",
+     "Environ 8 jours",
+     "Environ 8 secondes"
+    ],
+    "correct": 1
+   },
+   "answer": "Environ 8 minutes",
+   "level": "impossible",
+   "fact": "La lumière file à environ 300 000 km par seconde, et le Soleil est à 150 millions de km.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le prétérit du verbe « to go » ?",
+    "choices": [
+     "Going",
+     "Went",
+     "Gone",
+     "Goed"
+    ],
+    "correct": 1
+   },
+   "answer": "Went",
+   "level": "impossible",
+   "fact": "Gone est le participe passé : go, went, gone, un des verbes irréguliers les plus utilisés.",
+   "subject": "Anglais"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année Jules César remporte-t-il le siège d'Alésia ?",
+    "choices": [
+     "52 avant J.-C.",
+     "476 après J.-C.",
+     "753 avant J.-C.",
+     "27 avant J.-C."
+    ],
+    "correct": 0
+   },
+   "answer": "52 avant J.-C.",
+   "level": "impossible",
+   "fact": "À Alésia, le chef gaulois Vercingétorix se rend à César après un long siège.",
+   "subject": "Histoire"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans « Ulysse semble fatigué », quelle est la fonction de « fatigué » ?",
+    "choices": [
+     "Attribut du sujet",
+     "Complément circonstanciel",
+     "Épithète",
+     "Complément d'objet direct"
+    ],
+    "correct": 0
+   },
+   "answer": "Attribut du sujet",
+   "level": "impossible",
+   "fact": "Après un verbe d'état comme être, sembler ou paraître, l'adjectif est attribut du sujet.",
+   "subject": "Français"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on une région urbaine géante formée de plusieurs métropoles ?",
+    "choices": [
+     "Une mégalopole",
+     "Une banlieue",
+     "Une mégapole",
+     "Une capitale"
+    ],
+    "correct": 0
+   },
+   "answer": "Une mégalopole",
+   "level": "impossible",
+   "fact": "La mégalopole japonaise s'étire sur plus de 1 000 km, de Tokyo à Fukuoka.",
+   "subject": "Géographie"
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "id": "pilote-classe-6e",
+ "pillar": "classe",
+ "template": "QuizQCM",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 6,
+ "style": {
+  "pattern": "grid",
+  "timer": "bar",
+  "reveal": "flip",
+  "card": "square",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Appelle la famille, on joue ensemble !",
+   "voice": "Content de te revoir sur YouQwiz ! Appelle la famille, on joue ensemble !"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "🔥 Garde ta série le plus longtemps possible",
+  "subscribe": {
+   "title": "Rejoins les joueurs YouQwiz",
+   "sub": "abonne-toi, le prochain quiz arrive demain 🔔",
+   "voice": "Rejoins les joueurs YouQwiz : abonne-toi, le prochain quiz arrive demain."
+  },
+  "levels": {
+   "facile": {
+    "card": "Premier niveau, zéro pression 🙂",
+    "voice": "Premier niveau, zéro pression. On démarre."
+   },
+   "moyen": {
+    "card": "Ça se corse 👀",
+    "voice": "Niveau moyen. Ça se corse !"
+   },
+   "difficile": {
+    "card": "Concentration maximale 🧠",
+    "voice": "Niveau difficile. Concentration maximale."
+   },
+   "impossible": {
+    "card": "Seuls les génies 🧠",
+    "voice": "Niveau impossible. Seuls les génies…"
+   }
+  },
+  "scoreVoice": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "Ton score en commentaire 👇 le meilleur est félicité demain 🏆",
+   "voice": "Écris ton score en commentaire, le meilleur est félicité dès demain. Abonne-toi, et à demain !"
+  },
+  "packshot": {
+   "headline": "Teste tes amis : qui te connaît VRAIMENT ?",
+   "sub": "ton quiz perso en 2 minutes, gratuit 🎁",
+   "cta": "👉 youqwiz.com",
+   "voice": "Teste tes amis : qui te connaît vraiment ? Crée ton quiz perso en deux minutes, gratuit, sur youqwiz point com."
+  },
+  "rule": "Programme de 6e, toutes matières 🎒 4 réponses, une seule bonne ⭐",
+  "ruleVoice": "Le programme de sixième, toutes matières confondues. Quatre réponses, une seule bonne : compte tes points !",
+  "nextQuizVoice": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !"
+ },
+ "title": "As-tu le NIVEAU 6e ? 🎒📚✏️ 35 questions de Facile à Impossible",
+ "question": "",
+ "intro": {
+  "hook": "As-tu le NIVEAU 6e ?",
+  "sub": "4 réponses, une seule bonne 🧠"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel instrument appartient à la famille des cordes ?",
+    "choices": [
+     "La trompette",
+     "La flûte",
+     "Le tambour",
+     "Le violon"
+    ],
+    "correct": 3
+   },
+   "answer": "Le violon",
+   "level": "facile",
+   "fact": "Un violon possède quatre cordes, que l'on frotte avec un archet en crin de cheval.",
+   "subject": "Arts et musique"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien y a-t-il d'océans sur Terre ?",
+    "choices": [
+     "7",
+     "5",
+     "4",
+     "3"
+    ],
+    "correct": 1
+   },
+   "answer": "5",
+   "level": "facile",
+   "fact": "Pacifique, Atlantique, Indien, Arctique et Austral couvrent environ 71 % du globe.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle fraction est égale à 0,25 ?",
+    "choices": [
+     "2/5",
+     "1/2",
+     "1/4",
+     "1/25"
+    ],
+    "correct": 2
+   },
+   "answer": "1/4",
+   "level": "moyen",
+   "fact": "Un quart, c'est 25 % : voilà pourquoi un quart d'heure dure 15 minutes sur 60.",
+   "subject": "Maths"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on la zone de contact entre la terre et la mer ?",
+    "choices": [
+     "Le bassin",
+     "Le désert",
+     "Le littoral",
+     "Le plateau"
+    ],
+    "correct": 2
+   },
+   "answer": "Le littoral",
+   "level": "moyen",
+   "fact": "Les littoraux attirent : une grande partie de l'humanité vit à moins de 100 km d'une côte.",
+   "subject": "Géographie"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Par quoi commence presque toujours une chaîne alimentaire ?",
+    "choices": [
+     "Un décomposeur",
+     "Un végétal",
+     "Un herbivore",
+     "Un carnivore"
+    ],
+    "correct": 1
+   },
+   "answer": "Un végétal",
+   "level": "difficile",
+   "fact": "Les végétaux fabriquent leur propre matière grâce à la lumière : ce sont des producteurs.",
+   "subject": "Sciences"
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le passé simple de « venir » à la 3e personne du singulier ?",
+    "choices": [
+     "Il vena",
+     "Il venit",
+     "Il vint",
+     "Il viendra"
+    ],
+    "correct": 2
+   },
+   "answer": "Il vint",
+   "level": "impossible",
+   "fact": "Avec un accent circonflexe, « qu'il vînt » existe : c'est l'imparfait du subjonctif.",
+   "subject": "Français"
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Le même quiz en version jouable : youqwiz.com"
+ },
+ "meta": {
+  "description": "Parents, élèves, curieux : 35 questions du programme de 6e pour vérifier son niveau, du plus facile au plus dur. Niveaux : 10 facile, 9 moyens, 12 difficiles, 4 impossible. 35 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Crée ton propre quiz gratuit en 2 minutes : https://youqwiz.com/quiz-du-jour/2026-11-24-classe-6e\n🔔 Nouveau quiz tous les jours, active la cloche.\n\n#quiz #classe6e #youqwiz #quizfrancais",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "classe 6e",
+   "quiz niveau 6e",
+   "as-tu le niveau 6e",
+   "quiz collège",
+   "programme de 6e",
+   "révision 6e",
+   "quiz toutes matières",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "As-tu le niveau",
+   "line2": "6e",
+   "emoji": "✏️",
+   "sticker": "TU AS TOUT BON ?",
+   "layouts": [
+    0,
+    1
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "La 8e est impossible 😱 As-tu le NIVEAU 6e ? #Shorts",
+  "shortDescription": "Tu veux la réponse ? Elle est dans la vidéo complète (35 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "3 SECONDES",
+   "line": "par question, pas une de plus ⏱️"
+  },
+  "short2": {
+   "title": "Les plus dures de niveau 6e ⚠️ 3 secondes chrono #Shorts",
+   "description": "Vidéo complète avec les 35 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "1 % RÉUSSISSENT",
+   "line": "aux 8 questions les plus dures 🔥"
+  },
+  "short3": {
+   "title": "Niveau moyen-difficile 🔥 As-tu le NIVEAU 6e ? #Shorts",
+   "description": "Vidéo complète avec les 35 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "ÇA SE CORSE",
+   "line": "8 questions, 3 secondes chacune ⏱️"
+  },
+  "social": {
+   "caption": "Seuls les vrais experts passent la 8e 😏 As-tu le NIVEAU 6e ?",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "classe6e",
+    "quizniveau6e"
+   ]
+  }
+ }
+}

@@ -1,5 +1,5 @@
 export type Level = "facile" | "moyen" | "difficile" | "impossible";
-export type Pillar = "devine" | "culture" | "generations" | "choix" | "emojis" | "site";
+export type Pillar = "devine" | "culture" | "generations" | "choix" | "emojis" | "site" | "classe";
 
 export type Prompt =
   | { type: "emoji"; value: string } // un ou plusieurs émojis (rendu Twemoji)
@@ -53,7 +53,7 @@ export type Interlude = {
 
 /** Habillage tiré par épisode (03/11/2026) : motif de fond, chrono, animation de révélation, forme des cartes, piste musicale. */
 export type Style = {
-  pattern: "confetti" | "dots" | "stripes" | "bubbles" | "stars";
+  pattern: "confetti" | "dots" | "stripes" | "bubbles" | "stars" | "grid";
   timer: "ring" | "bar" | "digits" | "pie" | "slider";
   reveal: "pop" | "flip" | "slide" | "zoom";
   card: "round" | "square" | "tilt";

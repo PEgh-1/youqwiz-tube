@@ -41,7 +41,9 @@ export const Background: React.FC<{ theme: Theme; confetti?: number; pattern?: S
   return (
     <AbsoluteFill style={{ background: bg }}>
       <AbsoluteFill style={{ transform: drift }}>
-      {pattern === "stripes"
+      {pattern === "grid"
+        ? <AbsoluteFill style={{ opacity: 0.2, backgroundImage: "linear-gradient(#FFFFFF 3px, transparent 3px), linear-gradient(90deg, #FFFFFF 3px, transparent 3px)", backgroundSize: "96px 96px", backgroundPosition: `${shift % 96}px ${(shift * 3) % 96}px` }} />
+        : pattern === "stripes"
         ? Array.from({ length: n }).map((_, i) => (
             <div key={i} style={{ position: "absolute", left: -200 + i * (width / 6), top: -200, width: 70, height: height + 400, background: theme.confetti[i % theme.confetti.length], opacity: 0.16, transform: `rotate(-18deg) translateX(${(step % 2) * 4}px)` }} />
           ))

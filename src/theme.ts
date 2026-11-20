@@ -11,7 +11,7 @@ export const BAD = "#FF3B3B";
 export const STREAK = "#FFB800";
 
 export type Theme = {
-  name: "chaud" | "menthe" | "violet" | "nuit" | "sepia" | "bonbon";
+  name: "chaud" | "menthe" | "violet" | "nuit" | "sepia" | "bonbon" | "ardoise";
   bg: string; // dégradé de fond
   accent: string; // couleur du mot-clé, du chrono, du logo
   soft: string; // seconde couleur (ombres de texte, pastilles secondaires)
@@ -25,6 +25,8 @@ export const THEMES: Theme[] = [
   { name: "nuit", bg: "linear-gradient(135deg,#2B2A6E 0%,#1E6FD9 55%,#19C2C8 100%)", accent: "#19C2C8", soft: "#9BE8FF", confetti: ["#FFD23F", "#FFFFFF", "#FF4D8D", "#7CF0E3"] },
   { name: "sepia", bg: "linear-gradient(135deg,#FFE8B5 0%,#F7B267 55%,#E07A5F 100%)", accent: "#C8553D", soft: "#FFE8B5", confetti: ["#2A9D8F", "#FFFFFF", "#1A1030", "#F4A261"] },
   { name: "bonbon", bg: "linear-gradient(135deg,#FF9AD5 0%,#8ED6FF 55%,#C3F58C 100%)", accent: "#E6399B", soft: "#C3F58C", confetti: ["#7B5CFF", "#FFFFFF", "#1A1030", "#FFD23F"] },
+  // 20/11/2026 : « ardoise », le tableau vert de la salle de classe (pilier « par classe », mêmes verts que sa miniature).
+  { name: "ardoise", bg: "linear-gradient(135deg,#17B36A 0%,#0C8A50 50%,#06693C 100%)", accent: "#0C8A50", soft: "#FFD23F", confetti: ["#FFFFFF", "#FFD23F", "#BDF5D6", "#FF7A59"] },
 ];
 export const themeIndex = (name: Theme["name"]): number => Math.max(0, THEMES.findIndex((t) => t.name === name));
 
@@ -36,6 +38,7 @@ export const PILLAR_STYLE: Record<Pillar, { themes: Theme["name"][]; patterns: S
   generations: { themes: ["sepia", "chaud"], patterns: ["stripes", "dots"], timers: ["digits", "ring"], reveals: ["slide", "pop"], cards: ["square", "tilt"] },
   emojis: { themes: ["violet", "bonbon", "nuit"], patterns: ["stars", "bubbles"], timers: ["pie", "ring"], reveals: ["zoom", "flip"], cards: ["round", "tilt"] },
   site: { themes: ["menthe", "bonbon"], patterns: ["dots", "confetti"], timers: ["bar"], reveals: ["pop"], cards: ["square"] },
+  classe: { themes: ["ardoise"], patterns: ["grid", "dots"], timers: ["bar", "ring"], reveals: ["flip", "pop"], cards: ["square"] },
 };
 export const DEFAULT_STYLE: Style = { pattern: "confetti", timer: "ring", reveal: "pop", card: "round", music: 0 };
 

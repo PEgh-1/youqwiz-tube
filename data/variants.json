@@ -266,6 +266,14 @@
      "cta": "👉 youqwiz.com",
      "voice": "Ces quiz viennent de youqwiz point com. Joue aux suivants avant tout le monde."
     }
+   ],
+   "classe": [
+    {
+     "headline": "Rejoue ce quiz toi-même",
+     "sub": "le même quiz, en version jouable, gratuit 🎒",
+     "cta": "👉 youqwiz.com",
+     "voice": "Rejoue ce quiz toi-même, gratuitement, sur youqwiz point com. Et défie tes parents, ou tes enfants !"
+    }
    ]
   }
  },
@@ -414,6 +422,14 @@
    "{n} QUESTIONS de la SEMAINE {emoji} Les quiz du jour youqwiz.com | Facile à Impossible",
    "Les {n} questions de la semaine {emoji} Tu les as toutes ? youqwiz.com",
    "Récap de la semaine : {n} questions {emoji} Les quiz du jour de youqwiz.com"
+  ],
+  "classe": [
+   "As-tu le {subject} ? {emoji} {n} questions, toutes les matières",
+   "As-tu le {subject} ? {emoji} {n} questions de Facile à Impossible",
+   "Es-tu plus fort qu'un élève de 6e ? {emoji} {n} questions, toutes les matières",
+   "Quiz {subject} {emoji} Maths, français, histoire, sciences : as-tu vraiment le niveau ?",
+   "Le programme de 6e en {n} questions {emoji} As-tu le niveau ?",
+   "Quiz {subject} : aurais-tu la moyenne ? {emoji} {n} questions de Facile à Impossible"
   ]
  },
  "descriptionIntro": {
@@ -445,6 +461,11 @@
   "site": [
    "Les {n} questions de la semaine, tirées des quiz du jour de youqwiz.com.",
    "Récap de la semaine : {n} questions des quiz du jour."
+  ],
+  "classe": [
+   "{n} questions tirées du programme de 6e : maths, français, histoire-géo, sciences, anglais. As-tu encore le niveau ?",
+   "Le programme de 6e en {n} questions, toutes matières confondues, avec une info à retenir après chaque réponse.",
+   "Parents, élèves, curieux : {n} questions du programme de 6e pour vérifier son niveau, du plus facile au plus dur."
   ]
  },
  "descriptionCta": [
@@ -510,6 +531,9 @@
   "site": [
    "Les quiz",
    "Récap"
+  ],
+  "classe": [
+   "As-tu le niveau"
   ]
  },
  "introVoiceTail": [
@@ -681,6 +705,12 @@
    {
     "text": "Pas de bonne réponse 🤔 Dis tes choix en commentaire 👇",
     "voice": "Pas de bonne réponse. Choisis vite, et dis tes choix en commentaire !"
+   }
+  ],
+  "classe-6e": [
+   {
+    "text": "Programme de 6e, toutes matières 🎒 4 réponses, une seule bonne ⭐",
+    "voice": "Le programme de sixième, toutes matières confondues. Quatre réponses, une seule bonne : compte tes points !"
    }
   ]
  },
