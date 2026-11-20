@@ -44,9 +44,10 @@ const levelOf = (i) => ep.items[i].level ?? LV[Math.min(3, Math.floor((i / n) * 
 const by = Object.fromEntries(LV.map((l) => [l, []]));
 ep.items.forEach((_, i) => by[levelOf(i)].push(i));
 const spread = (list, c) => Array.from({ length: c }, (_, j) => list[Math.min(list.length - 1, Math.floor(((j + 0.5) * list.length) / c))]);
-const P = { facile: spread(by.facile, 3), difficile: spread(by.difficile.length ? by.difficile : by.moyen, 3), impossible: spread(by.impossible.length ? by.impossible : by.difficile, 3) };
+// 20/11/2026 : on ouvre sur une question de niveau moyen (une question trop facile fait une accroche et un titre faibles).
+const P = { facile: spread(by.moyen.length ? by.moyen : by.facile, 3), difficile: spread(by.difficile.length ? by.difficile : by.moyen, 3), impossible: spread(by.impossible.length ? by.impossible : by.difficile, 3) };
 // 12/11/2026 : « T'as connu ça ? » (générations) passe à 2 questions par Short (54 s à 3 questions, trop près de la limite de 59 s).
-const sets = [0, 1, 2].map((k) => [[P.facile[k], "facile"], [P.difficile[k], "difficile"], [P.impossible[k], "impossible"]].filter(([i]) => i !== undefined).slice(0, skin === "album" ? 2 : 3));
+const sets = [0, 1, 2].map((k) => [[P.facile[k], by.moyen.length ? "moyen" : "facile"], [P.difficile[k], "difficile"], [P.impossible[k], "impossible"]].filter(([i]) => i !== undefined).slice(0, skin === "album" ? 2 : 3));
 
 let seed = [...ep.id].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
 const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296);
