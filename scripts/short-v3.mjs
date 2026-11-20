@@ -158,7 +158,7 @@ writeFileSync(`out/short-v3/${ep.id}.json`, JSON.stringify({ episode: ep.id, sho
 // qui programme les Shorts via Metricool (YouTube, Instagram, Facebook, TikTok), comme pour la Minute culture.
 const date = arg("date");
 if (date && report.length) {
-  const tags = ["quiz", "quizfrancais", "youqwiz", bank.replaceAll("-", ""), dilemma ? "tupreferes" : "culturegenerale"];
+  const tags = [...new Set(["quiz", "quizfrancais", "youqwiz", bank.replaceAll("-", ""), dilemma ? "tupreferes" : "culturegenerale"])];
   mkdirSync("data/shorts", { recursive: true });
   writeFileSync(`data/shorts/${date}.json`, JSON.stringify({ date, episode: ep.id, longId: arg("long") || null, skin, shorts: report.slice(0, 1).map((r) => {
     const title = r.title.replace(/\s*#Shorts$/i, "");
