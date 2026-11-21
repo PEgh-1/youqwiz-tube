@@ -1,0 +1,5853 @@
+{
+ "id": "2026-11-23-maths",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 3,
+ "style": {
+  "pattern": "confetti",
+  "timer": "digits",
+  "reveal": "slide",
+  "card": "tilt",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Appelle la famille, on joue ensemble !",
+   "voice": "Content de te revoir sur YouQwiz ! Appelle la famille, on joue ensemble !"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "✍️ Note tes points, on compare à la fin",
+  "subscribe": {
+   "title": "Pas encore abonné ? 👀",
+   "sub": "un clic, et tu ne rates plus rien 🔔",
+   "voice": "Pas encore abonné ? Un clic, et tu ne rates plus rien."
+  },
+  "levels": {
+   "facile": {
+    "card": "Premier niveau, zéro pression 🙂",
+    "voice": "Premier niveau, zéro pression. On démarre."
+   },
+   "moyen": {
+    "card": "Là, il faut réfléchir 🤔",
+    "voice": "Niveau moyen. Là, il faut réfléchir un peu."
+   },
+   "difficile": {
+    "card": "Concentration maximale 🧠",
+    "voice": "Niveau difficile. Concentration maximale."
+   },
+   "impossible": {
+    "card": "Même moi je sèche 😈",
+    "voice": "Niveau impossible. Même moi, je sèche sur certains."
+   }
+  },
+  "scoreVoice": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "Partage à quelqu'un qui doit faire mieux 😏",
+   "voice": "Partage cette vidéo à quelqu'un qui pense faire mieux que toi. On verra."
+  },
+  "packshot": {
+   "headline": "Défie tes proches sur youqwiz.com",
+   "sub": "le quiz du jour, en version interactive 🎮",
+   "cta": "👉 youqwiz.com",
+   "voice": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive."
+  },
+  "rule": "Trouve le résultat avant la fin du chrono 🧮 et compte tes points ⭐",
+  "ruleVoice": "Trouve le résultat avant la fin du chrono, et compte tes points !",
+  "nextQuizVoice": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !"
+ },
+ "title": "54 CALCULS en 5 secondes en 5 secondes 🧮➕✖️ | Facile, Moyen, Difficile, Impossible",
+ "question": "Calcule en 5 secondes ! 🧮",
+ "intro": {
+  "hook": "54 CALCULS en 5 secondes",
+  "sub": "en 5 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 + 20"
+   },
+   "answer": "80",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a804c89e08e11cc9.mp3",
+     "sec": 2.348844,
+     "text": "Première question, montre-moi ce que tu vaux !",
+     "words": [
+      [
+       "Première",
+       0.126,
+       0.226
+      ],
+      [
+       "question,",
+       0.268,
+       1.057
+      ],
+      [
+       "montre-moi",
+       1.102,
+       1.585
+      ],
+      [
+       "ce",
+       1.635,
+       1.736
+      ],
+      [
+       "que",
+       1.755,
+       1.811
+      ],
+      [
+       "tu",
+       1.887,
+       2.038
+      ],
+      [
+       "vaux",
+       2.088,
+       2.264
+      ],
+      [
+       "!",
+       2.302,
+       2.34
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/0-a.mp3",
+     "sec": 1.522902,
+     "text": "Eh oui, 80 !",
+     "words": [
+      [
+       "Eh",
+       0.121,
+       0.159
+      ],
+      [
+       "oui,",
+       0.235,
+       0.612
+      ],
+      [
+       "80",
+       0.687,
+       1.291
+      ],
+      [
+       "!",
+       1.404,
+       1.518
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "17 − 15"
+   },
+   "answer": "2",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/1-a.mp3",
+     "sec": 0.599887,
+     "text": "2 !",
+     "words": [
+      [
+       "2",
+       0.196,
+       0.226
+      ],
+      [
+       "!",
+       0.453,
+       0.679
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "60 + 10"
+   },
+   "answer": "70",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/2-a.mp3",
+     "sec": 1.896667,
+     "text": "Réponse : 70.",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "70.",
+       1.434,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "18 − 4"
+   },
+   "answer": "14",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/3-a.mp3",
+     "sec": 1.813333,
+     "text": "Eh oui, 14 !",
+     "words": [
+      [
+       "Eh",
+       0.139,
+       0.151
+      ],
+      [
+       "oui,",
+       0.226,
+       0.755
+      ],
+      [
+       "14",
+       1.094,
+       1.434
+      ],
+      [
+       "!",
+       1.472,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "30 + 40"
+   },
+   "answer": "70",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ec9062ffcd7d64d5.mp3",
+     "sec": 1.285329,
+     "text": "Concentre-toi.",
+     "words": [
+      [
+       "Concentre-toi.",
+       0.542,
+       1.278
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/4-a.mp3",
+     "sec": 1.971429,
+     "text": "Eh oui, 70 !",
+     "words": [
+      [
+       "Eh",
+       0.06,
+       0.07
+      ],
+      [
+       "oui,",
+       0.127,
+       0.523
+      ],
+      [
+       "70",
+       0.674,
+       1.504
+      ],
+      [
+       "!",
+       1.58,
+       1.957
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "9 × 9"
+   },
+   "answer": "81",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/5-a.mp3",
+     "sec": 1.411678,
+     "text": "81 !",
+     "words": [
+      [
+       "81",
+       0,
+       0.822
+      ],
+      [
+       "!",
+       1.086,
+       1.35
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "70 + 50"
+   },
+   "answer": "120",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3f3615a3e7c5b1ad.mp3",
+     "sec": 0.699206,
+     "text": "On continue.",
+     "words": [
+      [
+       "On",
+       0.026,
+       0.036
+      ],
+      [
+       "continue.",
+       0.086,
+       1.093
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/6-a.mp3",
+     "sec": 1.275193,
+     "text": "120 !",
+     "words": [
+      [
+       "120",
+       0.139,
+       0.668
+      ],
+      [
+       "!",
+       1.196,
+       1.271
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6 + 9"
+   },
+   "answer": "15",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b05534a2c6dd071f.mp3",
+     "sec": 1.281769,
+     "text": "Facile, non ?",
+     "words": [
+      [
+       "Facile,",
+       0.198,
+       0.528
+      ],
+      [
+       "non",
+       0.547,
+       0.604
+      ],
+      [
+       "?",
+       0.679,
+       0.755
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/7-a.mp3",
+     "sec": 1.29805,
+     "text": "C'est 15.",
+     "words": [
+      [
+       "C'est",
+       0.068,
+       0.226
+      ],
+      [
+       "15.",
+       0.302,
+       0.83
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "49 ÷ 7"
+   },
+   "answer": "7",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/8-a.mp3",
+     "sec": 0.904059,
+     "text": "7 !",
+     "words": [
+      [
+       "7",
+       0.317,
+       0.377
+      ],
+      [
+       "!",
+       0.604,
+       0.83
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 + 90"
+   },
+   "answer": "110",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/04f41301031808fb.mp3",
+     "sec": 2.341905,
+     "text": "Question 10. Ta série tient toujours ?",
+     "words": [
+      [
+       "Question",
+       0.248,
+       0.302
+      ],
+      [
+       "10.",
+       0.453,
+       0.755
+      ],
+      [
+       "Ta",
+       0.931,
+       1.283
+      ],
+      [
+       "série",
+       1.346,
+       1.66
+      ],
+      [
+       "tient",
+       1.736,
+       1.962
+      ],
+      [
+       "toujours",
+       1.996,
+       2.264
+      ],
+      [
+       "?",
+       2.302,
+       2.34
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/9-a.mp3",
+     "sec": 1.775193,
+     "text": "Eh oui, 110 !",
+     "words": [
+      [
+       "Eh",
+       0.085,
+       0.105
+      ],
+      [
+       "oui,",
+       0.162,
+       0.633
+      ],
+      [
+       "110",
+       0.709,
+       1.312
+      ],
+      [
+       "!",
+       1.69,
+       1.765
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "10 + 90"
+   },
+   "answer": "100",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/10-a.mp3",
+     "sec": 1.355261,
+     "text": "Eh oui, 100 !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui,",
+       0.226,
+       0.83
+      ],
+      [
+       "100",
+       0.943,
+       1.057
+      ],
+      [
+       "!",
+       1.17,
+       1.283
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6 × 6"
+   },
+   "answer": "36",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/11-a.mp3",
+     "sec": 1.874286,
+     "text": "Bravo si tu as dit 36.",
+     "words": [
+      [
+       "Bravo",
+       0.29,
+       0.353
+      ],
+      [
+       "si",
+       0.403,
+       0.504
+      ],
+      [
+       "tu",
+       0.554,
+       0.655
+      ],
+      [
+       "as",
+       0.705,
+       0.806
+      ],
+      [
+       "dit",
+       0.862,
+       1.032
+      ],
+      [
+       "36.",
+       1.258,
+       1.862
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4 + 27"
+   },
+   "answer": "31",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3f3615a3e7c5b1ad.mp3",
+     "sec": 0.699206,
+     "text": "On continue.",
+     "words": [
+      [
+       "On",
+       0.026,
+       0.036
+      ],
+      [
+       "continue.",
+       0.086,
+       1.093
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/12-a.mp3",
+     "sec": 1.962698,
+     "text": "Bravo si tu as dit 31.",
+     "words": [
+      [
+       "Bravo",
+       0.377,
+       0.453
+      ],
+      [
+       "si",
+       0.528,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "as",
+       0.88,
+       0.981
+      ],
+      [
+       "dit",
+       1.019,
+       1.132
+      ],
+      [
+       "31.",
+       1.358,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "81 ÷ 9"
+   },
+   "answer": "9",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/13-a.mp3",
+     "sec": 1.672902,
+     "text": "Réponse : 9.",
+     "words": [
+      [
+       "Réponse",
+       0.13,
+       0.602
+      ],
+      [
+       ":",
+       0.866,
+       1.131
+      ],
+      [
+       "9.",
+       1.319,
+       1.659
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "48 ÷ 8"
+   },
+   "answer": "6",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6d760cdd0ca9cfe0.mp3",
+     "sec": 1.291497,
+     "text": "Encore un.",
+     "words": [
+      [
+       "Encore",
+       0.25,
+       0.302
+      ],
+      [
+       "un.",
+       0.377,
+       1.283
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/14-a.mp3",
+     "sec": 1.367891,
+     "text": "Bravo si tu as dit 6.",
+     "words": [
+      [
+       "Bravo",
+       0.314,
+       0.377
+      ],
+      [
+       "si",
+       0.427,
+       0.528
+      ],
+      [
+       "tu",
+       0.578,
+       0.679
+      ],
+      [
+       "as",
+       0.705,
+       0.755
+      ],
+      [
+       "dit",
+       0.792,
+       0.906
+      ],
+      [
+       "6.",
+       0.981,
+       1.358
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "19 + 26"
+   },
+   "answer": "45",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/15-a.mp3",
+     "sec": 2.262585,
+     "text": "Bravo si tu as dit 45.",
+     "words": [
+      [
+       "Bravo",
+       0.361,
+       0.439
+      ],
+      [
+       "si",
+       0.489,
+       0.59
+      ],
+      [
+       "tu",
+       0.666,
+       0.817
+      ],
+      [
+       "as",
+       0.867,
+       0.968
+      ],
+      [
+       "dit",
+       1.024,
+       1.194
+      ],
+      [
+       "45.",
+       1.42,
+       2.251
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "2 + 6 + 2"
+   },
+   "answer": "10",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0e8964525b225b65.mp3",
+     "sec": 0.838073,
+     "text": "Je t'écoute.",
+     "words": [
+      [
+       "Je",
+       0.101,
+       0.151
+      ],
+      [
+       "t'écoute.",
+       0.189,
+       0.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/16-a.mp3",
+     "sec": 1.372109,
+     "text": "Bravo si tu as dit 10.",
+     "words": [
+      [
+       "Bravo",
+       0.314,
+       0.377
+      ],
+      [
+       "si",
+       0.453,
+       0.604
+      ],
+      [
+       "tu",
+       0.629,
+       0.679
+      ],
+      [
+       "as",
+       0.729,
+       0.83
+      ],
+      [
+       "dit",
+       0.849,
+       0.906
+      ],
+      [
+       "10.",
+       0.981,
+       1.358
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "143 − 48"
+   },
+   "answer": "95",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/68158192e987d94d.mp3",
+     "sec": 0.563152,
+     "text": "Tu l'as ?",
+     "words": [
+      [
+       "Tu",
+       0.102,
+       0.122
+      ],
+      [
+       "l'as",
+       0.16,
+       0.273
+      ],
+      [
+       "?",
+       0.462,
+       0.65
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/17-a.mp3",
+     "sec": 2.050317,
+     "text": "Eh oui, 95 !",
+     "words": [
+      [
+       "Eh",
+       0.124,
+       0.154
+      ],
+      [
+       "oui,",
+       0.23,
+       0.834
+      ],
+      [
+       "95",
+       1.362,
+       1.89
+      ],
+      [
+       "!",
+       1.966,
+       2.041
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "117 ÷ 9"
+   },
+   "answer": "13",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/18-a.mp3",
+     "sec": 1.600136,
+     "text": "Réponse : 13.",
+     "words": [
+      [
+       "Réponse",
+       0.196,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "13.",
+       1.283,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "36 ÷ 3"
+   },
+   "answer": "12",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/a19b0e752a8341bf.mp3",
+     "sec": 2.122132,
+     "text": "Question 20. Ta série tient toujours ?",
+     "words": [
+      [
+       "Question",
+       0.238,
+       0.305
+      ],
+      [
+       "20.",
+       0.456,
+       0.682
+      ],
+      [
+       "Ta",
+       0.808,
+       1.06
+      ],
+      [
+       "série",
+       1.123,
+       1.437
+      ],
+      [
+       "tient",
+       1.475,
+       1.663
+      ],
+      [
+       "toujours",
+       1.697,
+       1.965
+      ],
+      [
+       "?",
+       2.041,
+       2.116
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/19-a.mp3",
+     "sec": 1.348231,
+     "text": "Eh oui, 12 !",
+     "words": [
+      [
+       "Eh",
+       0.051,
+       0.07
+      ],
+      [
+       "oui,",
+       0.127,
+       0.523
+      ],
+      [
+       "12",
+       0.674,
+       1.052
+      ],
+      [
+       "!",
+       1.165,
+       1.278
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "50 % de 200"
+   },
+   "answer": "100",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/20-a.mp3",
+     "sec": 1.506871,
+     "text": "Bravo si tu as dit 100.",
+     "words": [
+      [
+       "Bravo",
+       0.314,
+       0.377
+      ],
+      [
+       "si",
+       0.453,
+       0.604
+      ],
+      [
+       "tu",
+       0.654,
+       0.755
+      ],
+      [
+       "as",
+       0.78,
+       0.83
+      ],
+      [
+       "dit",
+       0.868,
+       0.981
+      ],
+      [
+       "100.",
+       1.057,
+       1.283
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "80 ÷ 10"
+   },
+   "answer": "8",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/21-a.mp3",
+     "sec": 0.982336,
+     "text": "8 !",
+     "words": [
+      [
+       "8",
+       0.368,
+       0.443
+      ],
+      [
+       "!",
+       0.896,
+       0.971
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "19 × 6"
+   },
+   "answer": "114",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/22-a.mp3",
+     "sec": 1.895102,
+     "text": "C'est 114.",
+     "words": [
+      [
+       "C'est",
+       0.113,
+       0.226
+      ],
+      [
+       "114.",
+       0.377,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "12 × 5"
+   },
+   "answer": "60",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1f75ceb807c4aa4a.mp3",
+     "sec": 1.064603,
+     "text": "Vite, vite !",
+     "words": [
+      [
+       "Vite,",
+       0.068,
+       0.491
+      ],
+      [
+       "vite",
+       0.528,
+       0.679
+      ],
+      [
+       "!",
+       0.981,
+       1.057
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/23-a.mp3",
+     "sec": 1.583628,
+     "text": "Eh oui, 60 !",
+     "words": [
+      [
+       "Eh",
+       0.137,
+       0.149
+      ],
+      [
+       "oui,",
+       0.206,
+       0.451
+      ],
+      [
+       "60",
+       0.828,
+       1.508
+      ],
+      [
+       "!",
+       1.545,
+       1.583
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "129 − 17"
+   },
+   "answer": "112",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9f07014517cde8c7.mp3",
+     "sec": 1.197755,
+     "text": "Réfléchis bien.",
+     "words": [
+      [
+       "Réfléchis",
+       0.177,
+       0.592
+      ],
+      [
+       "bien.",
+       0.652,
+       1.196
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/24-a.mp3",
+     "sec": 2.039728,
+     "text": "Bravo si tu as dit 112.",
+     "words": [
+      [
+       "Bravo",
+       0.377,
+       0.453
+      ],
+      [
+       "si",
+       0.503,
+       0.604
+      ],
+      [
+       "tu",
+       0.654,
+       0.755
+      ],
+      [
+       "as",
+       0.78,
+       0.83
+      ],
+      [
+       "dit",
+       0.887,
+       1.057
+      ],
+      [
+       "112.",
+       1.132,
+       2.038
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "45 + 27"
+   },
+   "answer": "72",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2218ef1cbaa7bf3e.mp3",
+     "sec": 0.839048,
+     "text": "Pas de panique.",
+     "words": [
+      [
+       "Pas",
+       0.031,
+       0.043
+      ],
+      [
+       "de",
+       0.093,
+       0.194
+      ],
+      [
+       "panique.",
+       0.231,
+       0.646
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/25-a.mp3",
+     "sec": 1.431723,
+     "text": "72 !",
+     "words": [
+      [
+       "72",
+       0.213,
+       0.892
+      ],
+      [
+       "!",
+       1.119,
+       1.345
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 % de 50"
+   },
+   "answer": "10",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2b76a4ce3cff8b7b.mp3",
+     "sec": 1.058776,
+     "text": "Et celui-ci ?",
+     "words": [
+      [
+       "Et",
+       0.065,
+       0.075
+      ],
+      [
+       "celui-ci",
+       0.125,
+       0.528
+      ],
+      [
+       "?",
+       0.604,
+       0.679
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/26-a.mp3",
+     "sec": 1.600408,
+     "text": "Bravo si tu as dit 10.",
+     "words": [
+      [
+       "Bravo",
+       0.375,
+       0.453
+      ],
+      [
+       "si",
+       0.528,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "as",
+       0.856,
+       0.906
+      ],
+      [
+       "dit",
+       0.943,
+       1.057
+      ],
+      [
+       "10.",
+       1.132,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "6 + 9 + 8"
+   },
+   "answer": "23",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/651ff52a4dfd5200.mp3",
+     "sec": 0.881882,
+     "text": "Regarde bien.",
+     "words": [
+      [
+       "Regarde",
+       0.198,
+       0.453
+      ],
+      [
+       "bien.",
+       0.498,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/27-a.mp3",
+     "sec": 1.832766,
+     "text": "Bravo si tu as dit 23.",
+     "words": [
+      [
+       "Bravo",
+       0.314,
+       0.392
+      ],
+      [
+       "si",
+       0.467,
+       0.618
+      ],
+      [
+       "tu",
+       0.668,
+       0.769
+      ],
+      [
+       "as",
+       0.795,
+       0.845
+      ],
+      [
+       "dit",
+       0.882,
+       0.996
+      ],
+      [
+       "23.",
+       1.147,
+       1.826
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "63 ÷ 7"
+   },
+   "answer": "9",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0a7d3a45a2475439.mp3",
+     "sec": 0.967596,
+     "text": "Et maintenant ?",
+     "words": [
+      [
+       "Et",
+       0.056,
+       0.066
+      ],
+      [
+       "maintenant",
+       0.1,
+       0.444
+      ],
+      [
+       "?",
+       0.708,
+       0.972
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/28-a.mp3",
+     "sec": 1.497506,
+     "text": "Bravo si tu as dit 9.",
+     "words": [
+      [
+       "Bravo",
+       0.29,
+       0.353
+      ],
+      [
+       "si",
+       0.454,
+       0.655
+      ],
+      [
+       "tu",
+       0.705,
+       0.806
+      ],
+      [
+       "as",
+       0.832,
+       0.882
+      ],
+      [
+       "dit",
+       0.92,
+       1.033
+      ],
+      [
+       "9.",
+       1.108,
+       1.486
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "4²"
+   },
+   "answer": "16",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6c46ef74da4efaac.mp3",
+     "sec": 2.505918,
+     "text": "Déjà la question 30 ! Tu tiens le rythme ?",
+     "words": [
+      [
+       "Déjà",
+       0.2,
+       0.313
+      ],
+      [
+       "la",
+       0.363,
+       0.464
+      ],
+      [
+       "question",
+       0.498,
+       0.766
+      ],
+      [
+       "30",
+       0.841,
+       1.219
+      ],
+      [
+       "!",
+       1.407,
+       1.596
+      ],
+      [
+       "Tu",
+       1.621,
+       1.671
+      ],
+      [
+       "tiens",
+       1.721,
+       1.898
+      ],
+      [
+       "le",
+       1.923,
+       1.973
+      ],
+      [
+       "rythme",
+       2.023,
+       2.351
+      ],
+      [
+       "?",
+       2.426,
+       2.502
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/29-a.mp3",
+     "sec": 0.833537,
+     "text": "16 !",
+     "words": [
+      [
+       "16",
+       0.377,
+       0.453
+      ],
+      [
+       "!",
+       0.642,
+       0.83
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 % de 100"
+   },
+   "answer": "20",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/30-a.mp3",
+     "sec": 1.576735,
+     "text": "Eh oui, 20 !",
+     "words": [
+      [
+       "Eh",
+       0.1,
+       0.126
+      ],
+      [
+       "oui,",
+       0.22,
+       0.805
+      ],
+      [
+       "20",
+       0.956,
+       1.107
+      ],
+      [
+       "!",
+       1.296,
+       1.484
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "88 ÷ 8"
+   },
+   "answer": "11",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3f3615a3e7c5b1ad.mp3",
+     "sec": 0.699206,
+     "text": "On continue.",
+     "words": [
+      [
+       "On",
+       0.026,
+       0.036
+      ],
+      [
+       "continue.",
+       0.086,
+       1.093
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/31-a.mp3",
+     "sec": 1.284467,
+     "text": "Eh oui, 11 !",
+     "words": [
+      [
+       "Eh",
+       0.056,
+       0.068
+      ],
+      [
+       "oui,",
+       0.144,
+       0.597
+      ],
+      [
+       "11",
+       0.823,
+       1.049
+      ],
+      [
+       "!",
+       1.163,
+       1.276
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "20 % de 400"
+   },
+   "answer": "80",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4b286127aadc1be5.mp3",
+     "sec": 0.983741,
+     "text": "Suivant !",
+     "words": [
+      [
+       "Suivant",
+       0.1,
+       0.346
+      ],
+      [
+       "!",
+       0.874,
+       0.95
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/32-a.mp3",
+     "sec": 1.196259,
+     "text": "80 !",
+     "words": [
+      [
+       "80",
+       0.377,
+       0.679
+      ],
+      [
+       "!",
+       0.943,
+       1.208
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "11²"
+   },
+   "answer": "121",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1f75ceb807c4aa4a.mp3",
+     "sec": 1.064603,
+     "text": "Vite, vite !",
+     "words": [
+      [
+       "Vite,",
+       0.068,
+       0.491
+      ],
+      [
+       "vite",
+       0.528,
+       0.679
+      ],
+      [
+       "!",
+       0.981,
+       1.057
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/33-a.mp3",
+     "sec": 1.744467,
+     "text": "Réponse : 121.",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.755,
+       0.981
+      ],
+      [
+       "121.",
+       1.057,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "5³"
+   },
+   "answer": "125",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/34-a.mp3",
+     "sec": 2.170249,
+     "text": "Bravo si tu as dit 125.",
+     "words": [
+      [
+       "Bravo",
+       0.299,
+       0.362
+      ],
+      [
+       "si",
+       0.438,
+       0.589
+      ],
+      [
+       "tu",
+       0.639,
+       0.74
+      ],
+      [
+       "as",
+       0.79,
+       0.891
+      ],
+      [
+       "dit",
+       0.947,
+       1.117
+      ],
+      [
+       "125.",
+       1.268,
+       2.174
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "336 + 122"
+   },
+   "answer": "458",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3efc1bb55dc3456e.mp3",
+     "sec": 1.202834,
+     "text": "Peu de gens l'ont.",
+     "words": [
+      [
+       "Peu",
+       0.065,
+       0.151
+      ],
+      [
+       "de",
+       0.201,
+       0.302
+      ],
+      [
+       "gens",
+       0.347,
+       0.528
+      ],
+      [
+       "l'ont.",
+       0.566,
+       1.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/35-a.mp3",
+     "sec": 1.814422,
+     "text": "Eh oui, 458 !",
+     "words": [
+      [
+       "Eh",
+       0.139,
+       0.151
+      ],
+      [
+       "oui,",
+       0.226,
+       0.604
+      ],
+      [
+       "458",
+       0.679,
+       1.736
+      ],
+      [
+       "!",
+       1.774,
+       1.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "17 × 18"
+   },
+   "answer": "306",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b05534a2c6dd071f.mp3",
+     "sec": 1.281769,
+     "text": "Facile, non ?",
+     "words": [
+      [
+       "Facile,",
+       0.198,
+       0.528
+      ],
+      [
+       "non",
+       0.547,
+       0.604
+      ],
+      [
+       "?",
+       0.679,
+       0.755
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/36-a.mp3",
+     "sec": 1.826327,
+     "text": "Réponse : 306.",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "306.",
+       1.434,
+       1.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "13 × 17"
+   },
+   "answer": "221",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/37-a.mp3",
+     "sec": 1.931156,
+     "text": "Réponse : 221.",
+     "words": [
+      [
+       "Réponse",
+       0.16,
+       0.563
+      ],
+      [
+       ":",
+       0.827,
+       1.091
+      ],
+      [
+       "221.",
+       1.468,
+       1.921
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "455 + 236"
+   },
+   "answer": "691",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/38-a.mp3",
+     "sec": 2.343129,
+     "text": "Eh oui, 691 !",
+     "words": [
+      [
+       "Eh",
+       0.201,
+       0.226
+      ],
+      [
+       "oui,",
+       0.302,
+       0.906
+      ],
+      [
+       "691",
+       1.057,
+       2.264
+      ],
+      [
+       "!",
+       2.302,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "704 − 236"
+   },
+   "answer": "468",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/7be684c98837f952.mp3",
+     "sec": 2.762063,
+     "text": "On passe la question 40. Compte bien tes points.",
+     "words": [
+      [
+       "On",
+       0.052,
+       0.063
+      ],
+      [
+       "passe",
+       0.126,
+       0.44
+      ],
+      [
+       "la",
+       0.465,
+       0.515
+      ],
+      [
+       "question",
+       0.549,
+       0.817
+      ],
+      [
+       "40.",
+       0.893,
+       1.534
+      ],
+      [
+       "Compte",
+       1.581,
+       1.798
+      ],
+      [
+       "bien",
+       1.859,
+       2.1
+      ],
+      [
+       "tes",
+       2.157,
+       2.327
+      ],
+      [
+       "points.",
+       2.359,
+       2.78
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/39-a.mp3",
+     "sec": 1.824195,
+     "text": "468 !",
+     "words": [
+      [
+       "468",
+       0.755,
+       1.358
+      ],
+      [
+       "!",
+       1.396,
+       1.434
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "488 + 254"
+   },
+   "answer": "742",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0a7d3a45a2475439.mp3",
+     "sec": 0.967596,
+     "text": "Et maintenant ?",
+     "words": [
+      [
+       "Et",
+       0.056,
+       0.066
+      ],
+      [
+       "maintenant",
+       0.1,
+       0.444
+      ],
+      [
+       "?",
+       0.708,
+       0.972
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/40-a.mp3",
+     "sec": 1.806757,
+     "text": "742 !",
+     "words": [
+      [
+       "742",
+       1.042,
+       1.283
+      ],
+      [
+       "!",
+       1.736,
+       1.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "454 − 186"
+   },
+   "answer": "268",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2218ef1cbaa7bf3e.mp3",
+     "sec": 0.839048,
+     "text": "Pas de panique.",
+     "words": [
+      [
+       "Pas",
+       0.031,
+       0.043
+      ],
+      [
+       "de",
+       0.093,
+       0.194
+      ],
+      [
+       "panique.",
+       0.231,
+       0.646
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/41-a.mp3",
+     "sec": 2.813878,
+     "text": "Bravo si tu as dit 268.",
+     "words": [
+      [
+       "Bravo",
+       0.425,
+       0.535
+      ],
+      [
+       "si",
+       0.611,
+       0.762
+      ],
+      [
+       "tu",
+       0.812,
+       0.913
+      ],
+      [
+       "as",
+       0.963,
+       1.064
+      ],
+      [
+       "dit",
+       1.12,
+       1.29
+      ],
+      [
+       "268.",
+       1.592,
+       2.8
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "190 + 105"
+   },
+   "answer": "295",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f5eb8e0dcc2c2a6d.mp3",
+     "sec": 1.185351,
+     "text": "Ça te dit quelque chose ?",
+     "words": [
+      [
+       "Ça",
+       0.043,
+       0.126
+      ],
+      [
+       "te",
+       0.176,
+       0.276
+      ],
+      [
+       "dit",
+       0.333,
+       0.503
+      ],
+      [
+       "quelque",
+       0.531,
+       0.729
+      ],
+      [
+       "chose",
+       0.779,
+       1.031
+      ],
+      [
+       "?",
+       1.107,
+       1.182
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/42-a.mp3",
+     "sec": 2.200476,
+     "text": "Eh oui, 295 !",
+     "words": [
+      [
+       "Eh",
+       0.065,
+       0.075
+      ],
+      [
+       "oui,",
+       0.151,
+       0.755
+      ],
+      [
+       "295",
+       0.83,
+       2.113
+      ],
+      [
+       "!",
+       2.151,
+       2.189
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "16 × 18"
+   },
+   "answer": "288",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts-cache/13f6dec086664307.mp3",
+     "sec": 1.518345,
+     "text": "Là, ça devient sérieux.",
+     "words": [
+      [
+       "Là,",
+       0.136,
+       0.302
+      ],
+      [
+       "ça",
+       0.427,
+       0.679
+      ],
+      [
+       "devient",
+       0.717,
+       0.981
+      ],
+      [
+       "sérieux.",
+       1.031,
+       1.509
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/43-a.mp3",
+     "sec": 2.28966,
+     "text": "Eh oui, 288 !",
+     "words": [
+      [
+       "Eh",
+       0.143,
+       0.173
+      ],
+      [
+       "oui,",
+       0.248,
+       0.852
+      ],
+      [
+       "288",
+       0.928,
+       2.211
+      ],
+      [
+       "!",
+       2.248,
+       2.286
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "103 + 125 + 217"
+   },
+   "answer": "445",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1f75ceb807c4aa4a.mp3",
+     "sec": 1.064603,
+     "text": "Vite, vite !",
+     "words": [
+      [
+       "Vite,",
+       0.068,
+       0.491
+      ],
+      [
+       "vite",
+       0.528,
+       0.679
+      ],
+      [
+       "!",
+       0.981,
+       1.057
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/44-a.mp3",
+     "sec": 2.566576,
+     "text": "Bravo si tu as dit 445.",
+     "words": [
+      [
+       "Bravo",
+       0.314,
+       0.377
+      ],
+      [
+       "si",
+       0.427,
+       0.528
+      ],
+      [
+       "tu",
+       0.578,
+       0.679
+      ],
+      [
+       "as",
+       0.729,
+       0.83
+      ],
+      [
+       "dit",
+       0.868,
+       0.981
+      ],
+      [
+       "445.",
+       1.208,
+       2.566
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "25²"
+   },
+   "answer": "625",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/45-a.mp3",
+     "sec": 1.656077,
+     "text": "625 !",
+     "words": [
+      [
+       "625",
+       0.151,
+       1.208
+      ],
+      [
+       "!",
+       1.396,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "85 % de 2400"
+   },
+   "answer": "2 040",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/46-a.mp3",
+     "sec": 1.524603,
+     "text": "C'est 2 040.",
+     "words": [
+      [
+       "C'est",
+       0.068,
+       0.226
+      ],
+      [
+       "2",
+       0.453,
+       0.528
+      ],
+      [
+       "040.",
+       0.868,
+       1.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "34²"
+   },
+   "answer": "1 156",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/47-a.mp3",
+     "sec": 2.428435,
+     "text": "Bravo si tu as dit 1 156.",
+     "words": [
+      [
+       "Bravo",
+       0.375,
+       0.453
+      ],
+      [
+       "si",
+       0.528,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "as",
+       0.856,
+       0.906
+      ],
+      [
+       "dit",
+       0.962,
+       1.132
+      ],
+      [
+       "1",
+       1.283,
+       1.434
+      ],
+      [
+       "156.",
+       1.887,
+       2.415
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "39 × 45"
+   },
+   "answer": "1 755",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/48-a.mp3",
+     "sec": 2.079615,
+     "text": "C'est 1 755.",
+     "words": [
+      [
+       "C'est",
+       0.234,
+       0.302
+      ],
+      [
+       "1",
+       0.377,
+       0.528
+      ],
+      [
+       "755.",
+       0.679,
+       2.415
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "3722 − 774"
+   },
+   "answer": "2 948",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9d66e0bd983bdcf8.mp3",
+     "sec": 2.439138,
+     "text": "Déjà la question 50 ! Tu tiens le rythme ?",
+     "words": [
+      [
+       "Déjà",
+       0.209,
+       0.397
+      ],
+      [
+       "la",
+       0.423,
+       0.473
+      ],
+      [
+       "question",
+       0.514,
+       0.85
+      ],
+      [
+       "50",
+       0.926,
+       1.303
+      ],
+      [
+       "!",
+       1.454,
+       1.605
+      ],
+      [
+       "Tu",
+       1.655,
+       1.756
+      ],
+      [
+       "tiens",
+       1.781,
+       1.907
+      ],
+      [
+       "le",
+       1.932,
+       1.982
+      ],
+      [
+       "rythme",
+       2.032,
+       2.284
+      ],
+      [
+       "?",
+       2.36,
+       2.435
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/49-a.mp3",
+     "sec": 2.447143,
+     "text": "Eh oui, 2 948 !",
+     "words": [
+      [
+       "Eh",
+       0.087,
+       0.1
+      ],
+      [
+       "oui,",
+       0.156,
+       0.703
+      ],
+      [
+       "2",
+       0.779,
+       1.005
+      ],
+      [
+       "948",
+       1.647,
+       2.288
+      ],
+      [
+       "!",
+       2.364,
+       2.439
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "22²"
+   },
+   "answer": "484",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/903359a06dc52503.mp3",
+     "sec": 2.198662,
+     "text": "Prends ton temps, enfin, pas trop.",
+     "words": [
+      [
+       "Prends",
+       0.064,
+       0.151
+      ],
+      [
+       "ton",
+       0.208,
+       0.377
+      ],
+      [
+       "temps,",
+       0.453,
+       1.057
+      ],
+      [
+       "enfin,",
+       1.107,
+       1.509
+      ],
+      [
+       "pas",
+       1.566,
+       1.736
+      ],
+      [
+       "trop.",
+       1.796,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/50-a.mp3",
+     "sec": 2.355261,
+     "text": "Réponse : 484.",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.604
+      ],
+      [
+       ":",
+       0.868,
+       1.132
+      ],
+      [
+       "484.",
+       1.698,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "805 + 674"
+   },
+   "answer": "1 479",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/51-a.mp3",
+     "sec": 2.282041,
+     "text": "1 479 !",
+     "words": [
+      [
+       "1",
+       0.226,
+       0.415
+      ],
+      [
+       "479",
+       0.604,
+       2.189
+      ],
+      [
+       "!",
+       2.226,
+       2.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "1372 ÷ 28"
+   },
+   "answer": "49",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2e3845a35466223f.mp3",
+     "sec": 1.666712,
+     "text": "Calcule en 5 secondes !",
+     "words": [
+      [
+       "Calcule",
+       0.199,
+       0.396
+      ],
+      [
+       "en",
+       0.446,
+       0.547
+      ],
+      [
+       "5",
+       0.622,
+       0.773
+      ],
+      [
+       "secondes",
+       0.827,
+       1.188
+      ],
+      [
+       "!",
+       1.207,
+       1.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/52-a.mp3",
+     "sec": 1.989365,
+     "text": "Bravo si tu as dit 49.",
+     "words": [
+      [
+       "Bravo",
+       0.078,
+       0.393
+      ],
+      [
+       "si",
+       0.518,
+       0.77
+      ],
+      [
+       "tu",
+       0.82,
+       0.921
+      ],
+      [
+       "as",
+       0.946,
+       0.996
+      ],
+      [
+       "dit",
+       1.053,
+       1.223
+      ],
+      [
+       "49.",
+       1.562,
+       1.978
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "22 × 35"
+   },
+   "answer": "770",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b86db5a53b4211a8.mp3",
+     "sec": 1.602834,
+     "text": "On termine en beauté.",
+     "words": [
+      [
+       "On",
+       0.01,
+       0.022
+      ],
+      [
+       "termine",
+       0.082,
+       0.475
+      ],
+      [
+       "en",
+       0.6,
+       0.852
+      ],
+      [
+       "beauté.",
+       0.89,
+       1.305
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/53-a.mp3",
+     "sec": 2.274649,
+     "text": "Bravo si tu as dit 770.",
+     "words": [
+      [
+       "Bravo",
+       0.314,
+       0.377
+      ],
+      [
+       "si",
+       0.427,
+       0.528
+      ],
+      [
+       "tu",
+       0.578,
+       0.679
+      ],
+      [
+       "as",
+       0.705,
+       0.755
+      ],
+      [
+       "dit",
+       0.792,
+       0.906
+      ],
+      [
+       "770.",
+       1.057,
+       2.264
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "Les Romains n'avaient aucun signe pour le zéro.",
+   "answer": true,
+   "fact": "Pour écrire 13, ils alignaient un X puis 3 barres, sans aucun symbole pour le zéro.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-23-maths/i0-q.mp3",
+     "sec": 8.511134,
+     "text": "On souffle une seconde. Vrai ou faux : Les Romains n'avaient aucun signe pour le zéro.",
+     "words": [
+      [
+       "On",
+       0.044,
+       0.054
+      ],
+      [
+       "souffle",
+       0.111,
+       0.432
+      ],
+      [
+       "une",
+       0.451,
+       0.507
+      ],
+      [
+       "seconde.",
+       0.557,
+       1.186
+      ],
+      [
+       "Vrai",
+       1.526,
+       2.017
+      ],
+      [
+       "ou",
+       2.142,
+       2.394
+      ],
+      [
+       "faux",
+       2.454,
+       2.696
+      ],
+      [
+       ":",
+       2.96,
+       3.224
+      ],
+      [
+       "Les",
+       3.262,
+       3.375
+      ],
+      [
+       "Romains",
+       3.432,
+       3.753
+      ],
+      [
+       "n'avaient",
+       3.79,
+       4.13
+      ],
+      [
+       "aucun",
+       4.18,
+       4.432
+      ],
+      [
+       "signe",
+       4.492,
+       4.809
+      ],
+      [
+       "pour",
+       4.854,
+       5.036
+      ],
+      [
+       "le",
+       5.061,
+       5.111
+      ],
+      [
+       "zéro.",
+       5.186,
+       8.507
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/i0-a.mp3",
+     "sec": 1.572834,
+     "text": "Eh oui, c'est vrai.",
+     "words": [
+      [
+       "Eh",
+       0.181,
+       0.211
+      ],
+      [
+       "oui,",
+       0.267,
+       0.664
+      ],
+      [
+       "c'est",
+       0.739,
+       0.966
+      ],
+      [
+       "vrai.",
+       0.996,
+       1.569
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-23-maths/i0-f.mp3",
+     "sec": 6.771111,
+     "text": "Et pour la culture : Pour écrire 13, ils alignaient un X puis 3 barres, sans aucun symbole pour le zéro.",
+     "words": [
+      [
+       "Et",
+       0.044,
+       0.054
+      ],
+      [
+       "pour",
+       0.069,
+       0.129
+      ],
+      [
+       "la",
+       0.155,
+       0.205
+      ],
+      [
+       "culture",
+       0.262,
+       0.658
+      ],
+      [
+       ":",
+       0.96,
+       1.262
+      ],
+      [
+       "Pour",
+       1.277,
+       1.337
+      ],
+      [
+       "écrire",
+       1.412,
+       1.714
+      ],
+      [
+       "13,",
+       1.79,
+       2.318
+      ],
+      [
+       "ils",
+       2.375,
+       2.545
+      ],
+      [
+       "alignaient",
+       2.595,
+       2.922
+      ],
+      [
+       "un",
+       2.997,
+       3.148
+      ],
+      [
+       "X",
+       3.375,
+       3.601
+      ],
+      [
+       "puis",
+       3.677,
+       3.979
+      ],
+      [
+       "3",
+       4.054,
+       4.28
+      ],
+      [
+       "barres,",
+       4.318,
+       4.922
+      ],
+      [
+       "sans",
+       4.975,
+       5.186
+      ],
+      [
+       "aucun",
+       5.249,
+       5.563
+      ],
+      [
+       "symbole",
+       5.62,
+       6.016
+      ],
+      [
+       "pour",
+       6.062,
+       6.243
+      ],
+      [
+       "le",
+       6.293,
+       6.394
+      ],
+      [
+       "zéro.",
+       6.431,
+       6.771
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de couleurs suffisent à colorier n'importe quelle carte ?",
+   "choices": [
+    "4",
+    "3",
+    "6"
+   ],
+   "correct": 0,
+   "fact": "Ce théorème a été prouvé en 1976 avec l'aide d'un ordinateur, une grande première.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-23-maths/i1-q.mp3",
+     "sec": 8.314127,
+     "text": "On souffle une seconde. Combien de couleurs suffisent à colorier n'importe quelle carte : 4, 3, ou 6 ?",
+     "words": [
+      [
+       "On",
+       0.063,
+       0.082
+      ],
+      [
+       "souffle",
+       0.158,
+       0.535
+      ],
+      [
+       "une",
+       0.554,
+       0.611
+      ],
+      [
+       "seconde.",
+       0.686,
+       1.743
+      ],
+      [
+       "Combien",
+       1.849,
+       2.422
+      ],
+      [
+       "de",
+       2.472,
+       2.573
+      ],
+      [
+       "couleurs",
+       2.63,
+       3.026
+      ],
+      [
+       "suffisent",
+       3.086,
+       3.479
+      ],
+      [
+       "à",
+       3.554,
+       3.63
+      ],
+      [
+       "colorier",
+       3.68,
+       4.158
+      ],
+      [
+       "n'importe",
+       4.233,
+       4.611
+      ],
+      [
+       "quelle",
+       4.643,
+       4.837
+      ],
+      [
+       "carte",
+       4.913,
+       5.29
+      ],
+      [
+       ":",
+       5.554,
+       5.818
+      ],
+      [
+       "4,",
+       5.894,
+       6.46
+      ],
+      [
+       "3,",
+       6.724,
+       7.366
+      ],
+      [
+       "ou",
+       7.479,
+       7.705
+      ],
+      [
+       "6",
+       7.856,
+       8.158
+      ],
+      [
+       "?",
+       8.233,
+       8.309
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/i1-a.mp3",
+     "sec": 1.786259,
+     "text": "Eh oui : 4 !",
+     "words": [
+      [
+       "Eh",
+       0.104,
+       0.123
+      ],
+      [
+       "oui",
+       0.18,
+       0.35
+      ],
+      [
+       ":",
+       0.576,
+       0.803
+      ],
+      [
+       "4",
+       1.18,
+       1.255
+      ],
+      [
+       "!",
+       1.293,
+       1.331
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-23-maths/i1-f.mp3",
+     "sec": 6.802222,
+     "text": "Au passage, Ce théorème a été prouvé en 1976 avec l'aide d'un ordinateur, une grande première.",
+     "words": [
+      [
+       "Au",
+       0.065,
+       0.075
+      ],
+      [
+       "passage,",
+       0.123,
+       0.83
+      ],
+      [
+       "Ce",
+       0.88,
+       0.981
+      ],
+      [
+       "théorème",
+       1.038,
+       1.434
+      ],
+      [
+       "a",
+       1.472,
+       1.509
+      ],
+      [
+       "été",
+       1.566,
+       1.736
+      ],
+      [
+       "prouvé",
+       1.761,
+       2.038
+      ],
+      [
+       "en",
+       2.088,
+       2.189
+      ],
+      [
+       "1976",
+       2.264,
+       3.472
+      ],
+      [
+       "avec",
+       3.592,
+       4.075
+      ],
+      [
+       "l'aide",
+       4.113,
+       4.377
+      ],
+      [
+       "d'un",
+       4.415,
+       4.604
+      ],
+      [
+       "ordinateur,",
+       4.66,
+       5.736
+      ],
+      [
+       "une",
+       5.774,
+       5.887
+      ],
+      [
+       "grande",
+       5.93,
+       6.189
+      ],
+      [
+       "première.",
+       6.247,
+       6.792
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Les abeilles construisent leurs alvéoles en forme d'hexagones.",
+   "answer": true,
+   "fact": "Cette forme permet de ranger le plus de cases possible avec le moins de cire.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-23-maths/i2-q.mp3",
+     "sec": 6.869365,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : Les abeilles construisent leurs alvéoles en forme d'hexagones.",
+     "words": [
+      [
+       "Une",
+       0.064,
+       0.075
+      ],
+      [
+       "question",
+       0.117,
+       0.453
+      ],
+      [
+       "à",
+       0.491,
+       0.528
+      ],
+      [
+       "côté,",
+       0.589,
+       0.981
+      ],
+      [
+       "pour",
+       0.996,
+       1.057
+      ],
+      [
+       "le",
+       1.107,
+       1.208
+      ],
+      [
+       "plaisir",
+       1.255,
+       1.585
+      ],
+      [
+       ":",
+       1.887,
+       2.189
+      ],
+      [
+       "Vrai",
+       2.226,
+       2.415
+      ],
+      [
+       "ou",
+       2.441,
+       2.491
+      ],
+      [
+       "faux",
+       2.551,
+       2.792
+      ],
+      [
+       ":",
+       2.981,
+       3.17
+      ],
+      [
+       "Les",
+       3.208,
+       3.321
+      ],
+      [
+       "abeilles",
+       3.371,
+       3.623
+      ],
+      [
+       "construisent",
+       3.676,
+       4.151
+      ],
+      [
+       "leurs",
+       4.189,
+       4.377
+      ],
+      [
+       "alvéoles",
+       4.453,
+       5.283
+      ],
+      [
+       "en",
+       5.333,
+       5.434
+      ],
+      [
+       "forme",
+       5.484,
+       5.736
+      ],
+      [
+       "d'hexagones.",
+       5.849,
+       6.868
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/i2-a.mp3",
+     "sec": 1.298639,
+     "text": "Vrai !",
+     "words": [
+      [
+       "Vrai",
+       0.142,
+       0.302
+      ],
+      [
+       "!",
+       1.208,
+       1.283
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-23-maths/i2-f.mp3",
+     "sec": 5.726213,
+     "text": "Détail amusant : Cette forme permet de ranger le plus de cases possible avec le moins de cire.",
+     "words": [
+      [
+       "Détail",
+       0.055,
+       0.289
+      ],
+      [
+       "amusant",
+       0.339,
+       0.666
+      ],
+      [
+       ":",
+       0.93,
+       1.194
+      ],
+      [
+       "Cette",
+       1.232,
+       1.421
+      ],
+      [
+       "forme",
+       1.484,
+       1.798
+      ],
+      [
+       "permet",
+       1.852,
+       2.176
+      ],
+      [
+       "de",
+       2.201,
+       2.251
+      ],
+      [
+       "ranger",
+       2.316,
+       2.704
+      ],
+      [
+       "le",
+       2.779,
+       2.93
+      ],
+      [
+       "plus",
+       2.976,
+       3.157
+      ],
+      [
+       "de",
+       3.207,
+       3.308
+      ],
+      [
+       "cases",
+       3.345,
+       3.534
+      ],
+      [
+       "possible",
+       3.584,
+       3.987
+      ],
+      [
+       "avec",
+       4.108,
+       4.591
+      ],
+      [
+       "le",
+       4.641,
+       4.742
+      ],
+      [
+       "moins",
+       4.805,
+       5.119
+      ],
+      [
+       "de",
+       5.144,
+       5.194
+      ],
+      [
+       "cire.",
+       5.27,
+       5.723
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien d'axes de symétrie a un carré ?",
+   "choices": [
+    "2",
+    "8",
+    "4"
+   ],
+   "correct": 2,
+   "fact": "Un carré a 4 axes de symétrie, tandis qu'un cercle en possède une infinité.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-23-maths/i3-q.mp3",
+     "sec": 6.796236,
+     "text": "Petit bonus entre deux questions : Combien d'axes de symétrie a un carré : 2, 8, ou 4 ?",
+     "words": [
+      [
+       "Petit",
+       0.105,
+       0.143
+      ],
+      [
+       "bonus",
+       0.193,
+       0.445
+      ],
+      [
+       "entre",
+       0.483,
+       0.671
+      ],
+      [
+       "deux",
+       0.717,
+       0.898
+      ],
+      [
+       "questions",
+       0.943,
+       1.351
+      ],
+      [
+       ":",
+       1.653,
+       1.954
+      ],
+      [
+       "Combien",
+       1.985,
+       2.256
+      ],
+      [
+       "d'axes",
+       2.294,
+       2.634
+      ],
+      [
+       "de",
+       2.659,
+       2.709
+      ],
+      [
+       "symétrie",
+       2.766,
+       3.237
+      ],
+      [
+       "a",
+       3.388,
+       3.539
+      ],
+      [
+       "un",
+       3.589,
+       3.69
+      ],
+      [
+       "carré",
+       3.751,
+       4.068
+      ],
+      [
+       ":",
+       4.294,
+       4.52
+      ],
+      [
+       "2,",
+       4.596,
+       5.275
+      ],
+      [
+       "8,",
+       5.426,
+       5.992
+      ],
+      [
+       "ou",
+       6.08,
+       6.256
+      ],
+      [
+       "4",
+       6.407,
+       6.709
+      ],
+      [
+       "?",
+       6.747,
+       6.785
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/i3-a.mp3",
+     "sec": 1.546463,
+     "text": "Réponse : 4.",
+     "words": [
+      [
+       "Réponse",
+       0.1,
+       0.49
+      ],
+      [
+       ":",
+       0.754,
+       1.018
+      ],
+      [
+       "4.",
+       1.169,
+       1.622
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-23-maths/i3-f.mp3",
+     "sec": 5.878866,
+     "text": "Tu savais ? Un carré a 4 axes de symétrie, tandis qu'un cercle en possède une infinité.",
+     "words": [
+      [
+       "Tu",
+       0.046,
+       0.066
+      ],
+      [
+       "savais",
+       0.123,
+       0.368
+      ],
+      [
+       "?",
+       0.406,
+       0.443
+      ],
+      [
+       "Un",
+       0.569,
+       0.821
+      ],
+      [
+       "carré",
+       0.866,
+       1.274
+      ],
+      [
+       "a",
+       1.387,
+       1.5
+      ],
+      [
+       "4",
+       1.575,
+       1.802
+      ],
+      [
+       "axes",
+       1.862,
+       2.104
+      ],
+      [
+       "de",
+       2.129,
+       2.179
+      ],
+      [
+       "symétrie,",
+       2.236,
+       3.085
+      ],
+      [
+       "tandis",
+       3.13,
+       3.387
+      ],
+      [
+       "qu'un",
+       3.412,
+       3.613
+      ],
+      [
+       "cercle",
+       3.658,
+       4.066
+      ],
+      [
+       "en",
+       4.116,
+       4.217
+      ],
+      [
+       "possède",
+       4.277,
+       4.821
+      ],
+      [
+       "une",
+       4.877,
+       5.047
+      ],
+      [
+       "infinité.",
+       5.132,
+       5.877
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "La somme des angles d'un triangle est de 180 degrés.",
+   "answer": true,
+   "fact": "C'est vrai pour tous les triangles plats, des plus petits aux plus gigantesques.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-23-maths/i4-q.mp3",
+     "sec": 5.662993,
+     "text": "Intermède ! Vrai ou faux : La somme des angles d'un triangle est de 180 degrés.",
+     "words": [
+      [
+       "Intermède",
+       0.118,
+       0.524
+      ],
+      [
+       "!",
+       0.826,
+       1.128
+      ],
+      [
+       "Vrai",
+       1.165,
+       1.354
+      ],
+      [
+       "ou",
+       1.38,
+       1.43
+      ],
+      [
+       "faux",
+       1.49,
+       1.732
+      ],
+      [
+       ":",
+       1.958,
+       2.184
+      ],
+      [
+       "La",
+       2.234,
+       2.335
+      ],
+      [
+       "somme",
+       2.411,
+       2.713
+      ],
+      [
+       "des",
+       2.75,
+       2.864
+      ],
+      [
+       "angles",
+       2.907,
+       3.165
+      ],
+      [
+       "d'un",
+       3.184,
+       3.241
+      ],
+      [
+       "triangle",
+       3.299,
+       3.769
+      ],
+      [
+       "est",
+       3.882,
+       4.222
+      ],
+      [
+       "de",
+       4.272,
+       4.373
+      ],
+      [
+       "180",
+       4.524,
+       5.203
+      ],
+      [
+       "degrés.",
+       5.253,
+       5.656
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/i4-a.mp3",
+     "sec": 1.427007,
+     "text": "Vrai !",
+     "words": [
+      [
+       "Vrai",
+       0.142,
+       0.377
+      ],
+      [
+       "!",
+       0.906,
+       1.434
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-23-maths/i4-f.mp3",
+     "sec": 5.509932,
+     "text": "Petit bonus : C'est vrai pour tous les triangles plats, des plus petits aux plus gigantesques.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.302,
+       0.679
+      ],
+      [
+       ":",
+       0.868,
+       1.057
+      ],
+      [
+       "C'est",
+       1.094,
+       1.208
+      ],
+      [
+       "vrai",
+       1.253,
+       1.434
+      ],
+      [
+       "pour",
+       1.479,
+       1.66
+      ],
+      [
+       "tous",
+       1.721,
+       1.962
+      ],
+      [
+       "les",
+       1.981,
+       2.038
+      ],
+      [
+       "triangles",
+       2.083,
+       2.491
+      ],
+      [
+       "plats,",
+       2.541,
+       3.094
+      ],
+      [
+       "des",
+       3.113,
+       3.17
+      ],
+      [
+       "plus",
+       3.23,
+       3.472
+      ],
+      [
+       "petits",
+       3.525,
+       3.849
+      ],
+      [
+       "aux",
+       3.943,
+       4.226
+      ],
+      [
+       "plus",
+       4.272,
+       4.453
+      ],
+      [
+       "gigantesques.",
+       4.547,
+       5.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Combien de côtés a un hexagone ?",
+   "choices": [
+    "6",
+    "5",
+    "8"
+   ],
+   "correct": 0,
+   "fact": "Un flocon de neige a toujours 6 branches, comme un hexagone.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-23-maths/i5-q.mp3",
+     "sec": 6.320907,
+     "text": "Petite pause ! Combien de côtés a un hexagone : 6, 5, ou 8 ?",
+     "words": [
+      [
+       "Petite",
+       0.163,
+       0.215
+      ],
+      [
+       "pause",
+       0.278,
+       0.592
+      ],
+      [
+       "!",
+       0.894,
+       1.196
+      ],
+      [
+       "Combien",
+       1.241,
+       1.573
+      ],
+      [
+       "de",
+       1.599,
+       1.649
+      ],
+      [
+       "côtés",
+       1.724,
+       2.102
+      ],
+      [
+       "a",
+       2.215,
+       2.328
+      ],
+      [
+       "un",
+       2.378,
+       2.479
+      ],
+      [
+       "hexagone",
+       2.536,
+       3.158
+      ],
+      [
+       ":",
+       3.498,
+       3.838
+      ],
+      [
+       "6,",
+       3.989,
+       4.215
+      ],
+      [
+       "5,",
+       4.743,
+       5.121
+      ],
+      [
+       "ou",
+       5.272,
+       5.573
+      ],
+      [
+       "8",
+       5.649,
+       6.026
+      ],
+      [
+       "?",
+       6.215,
+       6.404
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-23-maths/i5-a.mp3",
+     "sec": 1.279637,
+     "text": "C'est 6 !",
+     "words": [
+      [
+       "C'est",
+       0.068,
+       0.302
+      ],
+      [
+       "6",
+       0.377,
+       0.755
+      ],
+      [
+       "!",
+       1.019,
+       1.283
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-23-maths/i5-f.mp3",
+     "sec": 5.516599,
+     "text": "Détail amusant : Un flocon de neige a toujours 6 branches, comme un hexagone.",
+     "words": [
+      [
+       "Détail",
+       0.063,
+       0.297
+      ],
+      [
+       "amusant",
+       0.347,
+       0.75
+      ],
+      [
+       ":",
+       1.014,
+       1.279
+      ],
+      [
+       "Un",
+       1.329,
+       1.429
+      ],
+      [
+       "flocon",
+       1.505,
+       1.882
+      ],
+      [
+       "de",
+       1.908,
+       1.958
+      ],
+      [
+       "neige",
+       2.033,
+       2.335
+      ],
+      [
+       "a",
+       2.486,
+       2.637
+      ],
+      [
+       "toujours",
+       2.687,
+       3.09
+      ],
+      [
+       "6",
+       3.316,
+       3.467
+      ],
+      [
+       "branches,",
+       3.534,
+       4.524
+      ],
+      [
+       "comme",
+       4.549,
+       4.675
+      ],
+      [
+       "un",
+       4.725,
+       4.826
+      ],
+      [
+       "hexagone.",
+       4.863,
+       5.505
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Le même quiz en version jouable : youqwiz.com"
+ },
+ "meta": {
+  "description": "Un quiz CALCULS en 54 questions, 4 niveaux : facile, moyen, difficile, impossible. Niveaux : 16 facile, 18 moyens, 10 difficiles, 10 impossible. Compte tes points et dis ton score en commentaire 👇 Le meilleur score est félicité dès le lendemain 🏆\n\n🎮 Le même quiz, en version jouable : https://youqwiz.com/quiz-du-jour/2026-11-23-maths\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #maths #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n03:31 Niveau moyen\n07:22 Niveau difficile\n09:47 Niveau impossible\n12:38 Ton score\n12:49 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "maths",
+   "calcul mental",
+   "mathématiques",
+   "quiz maths",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Trouve",
+   "line2": "54 CALCULS",
+   "emoji": "🧮",
+   "sticker": "54 QUESTIONS",
+   "layouts": [
+    3,
+    1
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Tu tiens combien de questions ? 😱 54 CALCULS en 5 secondes #Shorts",
+  "shortDescription": "Tu veux la réponse ? Elle est dans la vidéo complète (54 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "3 SECONDES",
+   "line": "par question, pas une de plus ⏱️"
+  },
+  "short2": {
+   "title": "Niveau IMPOSSIBLE 🔥 54 CALCULS en 5 secondes #Shorts",
+   "description": "Vidéo complète avec les 54 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "PERSONNE N'Y ARRIVE",
+   "line": "sur les 8 plus dures 🧠"
+  },
+  "short3": {
+   "title": "Niveau moyen-difficile 🔥 54 CALCULS en 5 secondes #Shorts",
+   "description": "La réponse + 54 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU PASSES LA 5e ?",
+   "line": "niveau moyen-difficile 😏"
+  },
+  "social": {
+   "caption": "Seuls les vrais experts passent la 8e 😏 54 CALCULS en 5 secondes",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "maths",
+    "calculmental"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 211.5,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 442,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 587.9333333333333,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 758.5666666666667,
+    "title": "Ton score"
+   },
+   {
+    "at": 769.7666666666667,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/139b82cf3489857f.mp3",
+   "sec": 2.583492,
+   "text": "Premier niveau, zéro pression. On démarre.",
+   "words": [
+    [
+     "Premier",
+     0.183,
+     0.236
+    ],
+    [
+     "niveau,",
+     0.279,
+     0.839
+    ],
+    [
+     "zéro",
+     0.915,
+     1.141
+    ],
+    [
+     "pression.",
+     1.191,
+     1.821
+    ],
+    [
+     "On",
+     1.871,
+     1.972
+    ],
+    [
+     "démarre.",
+     2.022,
+     2.575
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/562d27da613d6568.mp3",
+   "sec": 3.392041,
+   "text": "Niveau moyen. Là, il faut réfléchir un peu.",
+   "words": [
+    [
+     "Niveau",
+     0.113,
+     0.453
+    ],
+    [
+     "moyen.",
+     0.541,
+     1.283
+    ],
+    [
+     "Là,",
+     1.434,
+     1.811
+    ],
+    [
+     "il",
+     1.861,
+     1.962
+    ],
+    [
+     "faut",
+     1.992,
+     2.113
+    ],
+    [
+     "réfléchir",
+     2.163,
+     2.642
+    ],
+    [
+     "un",
+     2.667,
+     2.717
+    ],
+    [
+     "peu.",
+     2.774,
+     3.396
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/ed6a26488dfa87ab.mp3",
+   "sec": 3.107596,
+   "text": "Niveau difficile. Concentration maximale.",
+   "words": [
+    [
+     "Niveau",
+     0.234,
+     0.302
+    ],
+    [
+     "difficile.",
+     0.377,
+     1.434
+    ],
+    [
+     "Concentration",
+     1.481,
+     2.189
+    ],
+    [
+     "maximale.",
+     2.29,
+     3.094
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/eb9d320715cf9f27.mp3",
+   "sec": 3.322834,
+   "text": "Niveau impossible. Même moi, je sèche sur certains.",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.453
+    ],
+    [
+     "impossible.",
+     0.535,
+     1.434
+    ],
+    [
+     "Même",
+     1.698,
+     2.113
+    ],
+    [
+     "moi,",
+     2.17,
+     2.34
+    ],
+    [
+     "je",
+     2.39,
+     2.491
+    ],
+    [
+     "sèche",
+     2.566,
+     2.792
+    ],
+    [
+     "sur",
+     2.83,
+     2.943
+    ],
+    [
+     "certains.",
+     2.985,
+     3.321
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/ef37813bbe80df17.mp3",
+   "sec": 5.349977,
+   "text": "Compte tes points, écris ton score juste en dessous : le meilleur score est félicité dès demain !",
+   "words": [
+    [
+     "Compte",
+     0.046,
+     0.133
+    ],
+    [
+     "tes",
+     0.171,
+     0.284
+    ],
+    [
+     "points,",
+     0.327,
+     0.812
+    ],
+    [
+     "écris",
+     0.888,
+     1.114
+    ],
+    [
+     "ton",
+     1.152,
+     1.265
+    ],
+    [
+     "score",
+     1.328,
+     1.642
+    ],
+    [
+     "juste",
+     1.692,
+     1.944
+    ],
+    [
+     "en",
+     1.97,
+     2.02
+    ],
+    [
+     "dessous",
+     2.065,
+     2.397
+    ],
+    [
+     ":",
+     2.586,
+     2.774
+    ],
+    [
+     "le",
+     2.824,
+     2.925
+    ],
+    [
+     "meilleur",
+     2.967,
+     3.303
+    ],
+    [
+     "score",
+     3.366,
+     3.68
+    ],
+    [
+     "est",
+     3.774,
+     4.057
+    ],
+    [
+     "félicité",
+     4.083,
+     4.661
+    ],
+    [
+     "dès",
+     4.737,
+     4.963
+    ],
+    [
+     "demain",
+     5.001,
+     5.265
+    ],
+    [
+     "!",
+     5.303,
+     5.34
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/5cec8bd05b611852.mp3",
+   "sec": 2.635941,
+   "text": "Pas encore abonné ? Un clic, et tu ne rates plus rien.",
+   "words": [
+    [
+     "Pas",
+     0.039,
+     0.062
+    ],
+    [
+     "encore",
+     0.094,
+     0.288
+    ],
+    [
+     "abonné",
+     0.338,
+     0.666
+    ],
+    [
+     "?",
+     0.854,
+     1.043
+    ],
+    [
+     "Un",
+     1.093,
+     1.194
+    ],
+    [
+     "clic,",
+     1.254,
+     1.571
+    ],
+    [
+     "et",
+     1.621,
+     1.722
+    ],
+    [
+     "tu",
+     1.772,
+     1.873
+    ],
+    [
+     "ne",
+     1.899,
+     1.949
+    ],
+    [
+     "rates",
+     1.974,
+     2.099
+    ],
+    [
+     "plus",
+     2.13,
+     2.25
+    ],
+    [
+     "rien.",
+     2.311,
+     2.628
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/a35f2bbf15425966.mp3",
+   "sec": 3.53127,
+   "text": "Partage cette vidéo à quelqu'un qui pense faire mieux que toi. On verra.",
+   "words": [
+    [
+     "Partage",
+     0.171,
+     0.358
+    ],
+    [
+     "cette",
+     0.384,
+     0.509
+    ],
+    [
+     "vidéo",
+     0.559,
+     0.811
+    ],
+    [
+     "à",
+     0.887,
+     0.962
+    ],
+    [
+     "quelqu'un",
+     0.992,
+     1.339
+    ],
+    [
+     "qui",
+     1.396,
+     1.566
+    ],
+    [
+     "pense",
+     1.604,
+     1.792
+    ],
+    [
+     "faire",
+     1.83,
+     2.019
+    ],
+    [
+     "mieux",
+     2.044,
+     2.17
+    ],
+    [
+     "que",
+     2.207,
+     2.321
+    ],
+    [
+     "toi.",
+     2.396,
+     3.075
+    ],
+    [
+     "On",
+     3.101,
+     3.151
+    ],
+    [
+     "verra.",
+     3.188,
+     3.528
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/4eebf4c192667d60.mp3",
+   "sec": 3.843175,
+   "text": "Content de te revoir sur YouQwiz ! Appelle la famille, on joue ensemble !",
+   "words": [
+    [
+     "Content",
+     0.228,
+     0.281
+    ],
+    [
+     "de",
+     0.306,
+     0.356
+    ],
+    [
+     "te",
+     0.406,
+     0.507
+    ],
+    [
+     "revoir",
+     0.557,
+     0.884
+    ],
+    [
+     "sur",
+     0.903,
+     0.96
+    ],
+    [
+     "YouQwiz",
+     1.035,
+     1.564
+    ],
+    [
+     "!",
+     1.752,
+     1.941
+    ],
+    [
+     "Appelle",
+     1.979,
+     2.167
+    ],
+    [
+     "la",
+     2.217,
+     2.318
+    ],
+    [
+     "famille,",
+     2.356,
+     2.847
+    ],
+    [
+     "on",
+     2.897,
+     2.998
+    ],
+    [
+     "joue",
+     3.054,
+     3.488
+    ],
+    [
+     "ensemble",
+     3.517,
+     3.752
+    ],
+    [
+     "!",
+     3.79,
+     3.828
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-23-maths/intro.mp3",
+   "sec": 3.182517,
+   "text": "54 Calculs en 5 secondes ! À toi de jouer !",
+   "words": [
+    [
+     "54",
+     0.075,
+     0.604
+    ],
+    [
+     "Calculs",
+     0.658,
+     1.057
+    ],
+    [
+     "en",
+     1.208,
+     1.509
+    ],
+    [
+     "5",
+     1.66,
+     1.811
+    ],
+    [
+     "secondes",
+     1.865,
+     2.264
+    ],
+    [
+     "!",
+     2.415,
+     2.566
+    ],
+    [
+     "À",
+     2.604,
+     2.642
+    ],
+    [
+     "toi",
+     2.679,
+     2.792
+    ],
+    [
+     "de",
+     2.818,
+     2.868
+    ],
+    [
+     "jouer",
+     2.906,
+     3.094
+    ],
+    [
+     "!",
+     3.132,
+     3.17
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/75e81ef3c4db3369.mp3",
+   "sec": 4.464807,
+   "text": "Défie tes proches sur youqwiz point com : le quiz du jour, en version interactive.",
+   "words": [
+    [
+     "Défie",
+     0.139,
+     0.302
+    ],
+    [
+     "tes",
+     0.34,
+     0.453
+    ],
+    [
+     "proches",
+     0.509,
+     0.83
+    ],
+    [
+     "sur",
+     0.849,
+     0.906
+    ],
+    [
+     "youqwiz",
+     0.981,
+     1.358
+    ],
+    [
+     "point",
+     1.384,
+     1.509
+    ],
+    [
+     "com",
+     1.604,
+     1.887
+    ],
+    [
+     ":",
+     2.038,
+     2.189
+    ],
+    [
+     "le",
+     2.264,
+     2.415
+    ],
+    [
+     "quiz",
+     2.46,
+     2.642
+    ],
+    [
+     "du",
+     2.692,
+     2.792
+    ],
+    [
+     "jour,",
+     2.853,
+     3.245
+    ],
+    [
+     "en",
+     3.295,
+     3.396
+    ],
+    [
+     "version",
+     3.443,
+     3.774
+    ],
+    [
+     "interactive.",
+     3.824,
+     4.453
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/c41e7f0ef97df384.mp3",
+   "sec": 5.895624,
+   "text": "Envie de continuer ? Clique sur une vidéo pour ton prochain quiz, ou abonne-toi pour celui de demain !",
+   "words": [
+    [
+     "Envie",
+     0.128,
+     0.226
+    ],
+    [
+     "de",
+     0.252,
+     0.302
+    ],
+    [
+     "continuer",
+     0.345,
+     0.755
+    ],
+    [
+     "?",
+     1.019,
+     1.283
+    ],
+    [
+     "Clique",
+     1.321,
+     1.585
+    ],
+    [
+     "sur",
+     1.642,
+     1.811
+    ],
+    [
+     "une",
+     1.868,
+     2.038
+    ],
+    [
+     "vidéo",
+     2.113,
+     2.491
+    ],
+    [
+     "pour",
+     2.521,
+     2.642
+    ],
+    [
+     "ton",
+     2.698,
+     2.868
+    ],
+    [
+     "prochain",
+     2.925,
+     3.245
+    ],
+    [
+     "quiz,",
+     3.321,
+     4
+    ],
+    [
+     "ou",
+     4.025,
+     4.075
+    ],
+    [
+     "abonne-toi",
+     4.176,
+     4.755
+    ],
+    [
+     "pour",
+     4.83,
+     5.132
+    ],
+    [
+     "celui",
+     5.182,
+     5.434
+    ],
+    [
+     "de",
+     5.459,
+     5.509
+    ],
+    [
+     "demain",
+     5.566,
+     5.811
+    ],
+    [
+     "!",
+     5.849,
+     5.887
+    ]
+   ]
+  }
+ }
+}
