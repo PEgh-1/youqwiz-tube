@@ -1,0 +1,8128 @@
+{
+ "id": "2026-11-24-classe-6e",
+ "pillar": "classe",
+ "template": "QuizQCM",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 6,
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "reveal": "flip",
+  "card": "square",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Aujourd'hui, tu vas apprendre un truc, promis !",
+   "voice": "Content de te revoir sur YouQwiz ! Aujourd'hui, tu vas apprendre un truc, promis !"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "🧠 Sans tricher, sans pause, on y va",
+  "subscribe": {
+   "title": "Pas encore abonné ? 👀",
+   "sub": "un clic, et tu ne rates plus rien 🔔",
+   "voice": "Pas encore abonné ? Un clic, et tu ne rates plus rien."
+  },
+  "levels": {
+   "facile": {
+    "card": "On s'échauffe 🔥",
+    "voice": "Niveau facile. On s'échauffe !"
+   },
+   "moyen": {
+    "card": "Attention aux pièges ⚠️",
+    "voice": "Niveau moyen. Attention, il y a des pièges."
+   },
+   "difficile": {
+    "card": "Accroche-toi 😰",
+    "voice": "Niveau difficile. Accroche-toi !"
+   },
+   "impossible": {
+    "card": "Même moi je sèche 😈",
+    "voice": "Niveau impossible. Même moi, je sèche sur certains."
+   }
+  },
+  "scoreVoice": "Compte tes points et écris ton score en commentaire : le meilleur score est félicité dès demain !",
+  "outro": {
+   "title": "Merci d'avoir joué 🙏",
+   "voice": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure."
+  },
+  "packshot": {
+   "headline": "Teste tes amis : qui te connaît VRAIMENT ?",
+   "sub": "ton quiz perso en 2 minutes, gratuit 🎁",
+   "cta": "👉 youqwiz.com",
+   "voice": "Teste tes amis : qui te connaît vraiment ? Crée ton quiz perso en deux minutes, gratuit, sur youqwiz point com."
+  },
+  "rule": "Programme de 6e, toutes matières 🎒 4 réponses, une seule bonne ⭐",
+  "ruleVoice": "Le programme de sixième, toutes matières confondues. Quatre réponses, une seule bonne : compte tes points !",
+  "nextQuizVoice": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !"
+ },
+ "title": "Es-tu plus fort qu'un élève de 6e ? 🎒📚✏️ 35 questions, toutes les matières",
+ "question": "",
+ "intro": {
+  "hook": "As-tu le NIVEAU 6e ?",
+  "sub": "Compte tes points, niveau par niveau ⭐"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel instrument appartient à la famille des cordes ?",
+    "choices": [
+     "La trompette",
+     "La flûte",
+     "Le tambour",
+     "Le violon"
+    ],
+    "correct": 3
+   },
+   "answer": "Le violon",
+   "level": "facile",
+   "fact": "Un violon possède quatre cordes, que l'on frotte avec un archet en crin de cheval.",
+   "subject": "Arts et musique",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/0-q.mp3",
+     "sec": 2.285986,
+     "text": "Quel instrument appartient à la famille des cordes ?",
+     "words": [
+      [
+       "Quel",
+       0.009,
+       0.095
+      ],
+      [
+       "instrument",
+       0.143,
+       0.623
+      ],
+      [
+       "appartient",
+       0.677,
+       1.15
+      ],
+      [
+       "à",
+       1.151,
+       1.152
+      ],
+      [
+       "la",
+       1.177,
+       1.227
+      ],
+      [
+       "famille",
+       1.274,
+       1.604
+      ],
+      [
+       "des",
+       1.661,
+       1.83
+      ],
+      [
+       "cordes",
+       1.891,
+       2.283
+      ],
+      [
+       "?",
+       2.283,
+       2.283
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/0-a.mp3",
+     "sec": 1.881882,
+     "text": "Le violon, évidemment !",
+     "words": [
+      [
+       "Le",
+       0.136,
+       0.149
+      ],
+      [
+       "violon,",
+       0.239,
+       0.828
+      ],
+      [
+       "évidemment",
+       0.903,
+       1.356
+      ],
+      [
+       "!",
+       1.432,
+       1.507
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/0-f.mp3",
+     "sec": 5.741111,
+     "text": "Détail amusant : Un violon possède quatre cordes, que l'on frotte avec un archet en crin de cheval.",
+     "words": [
+      [
+       "Détail",
+       0.189,
+       0.302
+      ],
+      [
+       "amusant",
+       0.352,
+       0.755
+      ],
+      [
+       ":",
+       0.943,
+       1.132
+      ],
+      [
+       "Un",
+       1.182,
+       1.283
+      ],
+      [
+       "violon",
+       1.328,
+       1.66
+      ],
+      [
+       "possède",
+       1.706,
+       2.113
+      ],
+      [
+       "quatre",
+       2.178,
+       2.566
+      ],
+      [
+       "cordes,",
+       2.642,
+       3.245
+      ],
+      [
+       "que",
+       3.264,
+       3.321
+      ],
+      [
+       "l'on",
+       3.358,
+       3.547
+      ],
+      [
+       "frotte",
+       3.585,
+       3.774
+      ],
+      [
+       "avec",
+       3.819,
+       4
+      ],
+      [
+       "un",
+       4.025,
+       4.075
+      ],
+      [
+       "archet",
+       4.136,
+       4.604
+      ],
+      [
+       "en",
+       4.679,
+       4.83
+      ],
+      [
+       "crin",
+       4.88,
+       5.057
+      ],
+      [
+       "de",
+       5.082,
+       5.132
+      ],
+      [
+       "cheval.",
+       5.189,
+       5.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien y a-t-il d'océans sur Terre ?",
+    "choices": [
+     "7",
+     "5",
+     "4",
+     "3"
+    ],
+    "correct": 1
+   },
+   "answer": "5",
+   "level": "facile",
+   "fact": "Pacifique, Atlantique, Indien, Arctique et Austral couvrent environ 71 % du globe.",
+   "subject": "Géographie",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/1-q.mp3",
+     "sec": 2.270476,
+     "text": "Combien y a-t-il d'océans sur Terre ?",
+     "words": [
+      [
+       "Combien",
+       0.191,
+       0.453
+      ],
+      [
+       "y",
+       0.491,
+       0.528
+      ],
+      [
+       "a-t-il",
+       0.566,
+       0.906
+      ],
+      [
+       "d'océans",
+       0.981,
+       1.509
+      ],
+      [
+       "sur",
+       1.566,
+       1.736
+      ],
+      [
+       "Terre",
+       1.811,
+       2.189
+      ],
+      [
+       "?",
+       2.226,
+       2.264
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/1-a.mp3",
+     "sec": 1.895057,
+     "text": "Réponse : 5 !",
+     "words": [
+      [
+       "Réponse",
+       0.196,
+       0.755
+      ],
+      [
+       ":",
+       0.981,
+       1.208
+      ],
+      [
+       "5",
+       1.283,
+       1.736
+      ],
+      [
+       "!",
+       1.811,
+       1.887
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/1-f.mp3",
+     "sec": 7.855215,
+     "text": "Détail amusant : Pacifique, Atlantique, Indien, Arctique et Austral couvrent environ 71 % du globe.",
+     "words": [
+      [
+       "Détail",
+       0.069,
+       0.302
+      ],
+      [
+       "amusant",
+       0.352,
+       0.679
+      ],
+      [
+       ":",
+       0.943,
+       1.208
+      ],
+      [
+       "Pacifique,",
+       1.264,
+       2
+      ],
+      [
+       "Atlantique,",
+       2.047,
+       2.792
+      ],
+      [
+       "Indien,",
+       2.849,
+       3.321
+      ],
+      [
+       "Arctique",
+       3.422,
+       4
+      ],
+      [
+       "et",
+       4.075,
+       4.226
+      ],
+      [
+       "Austral",
+       4.292,
+       4.755
+      ],
+      [
+       "couvrent",
+       4.906,
+       5.509
+      ],
+      [
+       "environ",
+       5.557,
+       5.887
+      ],
+      [
+       "71",
+       6.113,
+       6.868
+      ],
+      [
+       "%",
+       7.057,
+       7.245
+      ],
+      [
+       "du",
+       7.295,
+       7.396
+      ],
+      [
+       "globe.",
+       7.459,
+       7.849
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale du Royaume-Uni ?",
+    "choices": [
+     "Londres",
+     "Édimbourg",
+     "Dublin",
+     "New York"
+    ],
+    "correct": 0
+   },
+   "answer": "Londres",
+   "level": "facile",
+   "fact": "Londres est traversée par la Tamise, « the Thames » en anglais.",
+   "subject": "Anglais",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/2-q.mp3",
+     "sec": 1.772018,
+     "text": "Quelle est la capitale du Royaume-Uni ?",
+     "words": [
+      [
+       "Quelle",
+       0.026,
+       0.112
+      ],
+      [
+       "est",
+       0.131,
+       0.187
+      ],
+      [
+       "la",
+       0.213,
+       0.263
+      ],
+      [
+       "capitale",
+       0.338,
+       0.791
+      ],
+      [
+       "du",
+       0.841,
+       0.942
+      ],
+      [
+       "Royaume-Uni",
+       1.017,
+       1.621
+      ],
+      [
+       "?",
+       1.697,
+       1.772
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/2-a.mp3",
+     "sec": 2.029478,
+     "text": "La bonne réponse, c'est Londres.",
+     "words": [
+      [
+       "La",
+       0.081,
+       0.131
+      ],
+      [
+       "bonne",
+       0.169,
+       0.357
+      ],
+      [
+       "réponse,",
+       0.433,
+       1.112
+      ],
+      [
+       "c'est",
+       1.15,
+       1.338
+      ],
+      [
+       "Londres.",
+       1.429,
+       2.018
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/2-f.mp3",
+     "sec": 4.769388,
+     "text": "Petit bonus : Londres est traversée par la Tamise, « the Thames » en anglais.",
+     "words": [
+      [
+       "Petit",
+       0.195,
+       0.226
+      ],
+      [
+       "bonus",
+       0.302,
+       0.679
+      ],
+      [
+       ":",
+       0.906,
+       1.132
+      ],
+      [
+       "Londres",
+       1.192,
+       1.509
+      ],
+      [
+       "est",
+       1.566,
+       1.736
+      ],
+      [
+       "traversée",
+       1.783,
+       2.189
+      ],
+      [
+       "par",
+       2.226,
+       2.34
+      ],
+      [
+       "la",
+       2.365,
+       2.415
+      ],
+      [
+       "Tamise,",
+       2.491,
+       3.396
+      ],
+      [
+       "«",
+       3.434,
+       3.472
+      ],
+      [
+       "the",
+       3.491,
+       3.547
+      ],
+      [
+       "Thames",
+       3.623,
+       4.075
+      ],
+      [
+       "»",
+       4.113,
+       4.151
+      ],
+      [
+       "en",
+       4.201,
+       4.302
+      ],
+      [
+       "anglais.",
+       4.349,
+       4.755
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un angle de 90° ?",
+    "choices": [
+     "Un angle obtus",
+     "Un angle droit",
+     "Un angle aigu",
+     "Un angle plat"
+    ],
+    "correct": 1
+   },
+   "answer": "Un angle droit",
+   "level": "facile",
+   "fact": "« Droit » vient du latin rectus : c'est aussi l'origine du mot rectangle.",
+   "subject": "Maths",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/3-q.mp3",
+     "sec": 2.361293,
+     "text": "Comment appelle-t-on un angle de 90° ?",
+     "words": [
+      [
+       "Comment",
+       0.128,
+       0.168
+      ],
+      [
+       "appelle-t-on",
+       0.224,
+       0.696
+      ],
+      [
+       "un",
+       0.746,
+       0.847
+      ],
+      [
+       "angle",
+       0.897,
+       1.149
+      ],
+      [
+       "de",
+       1.224,
+       1.375
+      ],
+      [
+       "90°",
+       1.451,
+       2.356
+      ],
+      [
+       "?",
+       2.356,
+       2.356
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/3-a.mp3",
+     "sec": 2.741791,
+     "text": "La bonne réponse, c'est Un angle droit.",
+     "words": [
+      [
+       "La",
+       0.133,
+       0.171
+      ],
+      [
+       "bonne",
+       0.208,
+       0.397
+      ],
+      [
+       "réponse,",
+       0.454,
+       0.925
+      ],
+      [
+       "c'est",
+       0.982,
+       1.152
+      ],
+      [
+       "Un",
+       1.404,
+       1.907
+      ],
+      [
+       "angle",
+       1.97,
+       2.284
+      ],
+      [
+       "droit.",
+       2.334,
+       2.737
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/3-f.mp3",
+     "sec": 6.272653,
+     "text": "Pour briller en société : « Droit » vient du latin rectus : c'est aussi l'origine du mot rectangle.",
+     "words": [
+      [
+       "Pour",
+       0.131,
+       0.151
+      ],
+      [
+       "briller",
+       0.201,
+       0.528
+      ],
+      [
+       "en",
+       0.578,
+       0.679
+      ],
+      [
+       "société",
+       0.745,
+       1.208
+      ],
+      [
+       ":",
+       1.434,
+       1.66
+      ],
+      [
+       "«",
+       1.717,
+       1.774
+      ],
+      [
+       "Droit",
+       1.802,
+       2.038
+      ],
+      [
+       "»",
+       2.113,
+       2.189
+      ],
+      [
+       "vient",
+       2.239,
+       2.491
+      ],
+      [
+       "du",
+       2.516,
+       2.566
+      ],
+      [
+       "latin",
+       2.629,
+       2.943
+      ],
+      [
+       "rectus",
+       3.034,
+       3.698
+      ],
+      [
+       ":",
+       3.887,
+       4.075
+      ],
+      [
+       "c'est",
+       4.113,
+       4.226
+      ],
+      [
+       "aussi",
+       4.264,
+       4.453
+      ],
+      [
+       "l'origine",
+       4.491,
+       4.906
+      ],
+      [
+       "du",
+       4.956,
+       5.057
+      ],
+      [
+       "mot",
+       5.113,
+       5.283
+      ],
+      [
+       "rectangle.",
+       5.366,
+       6.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est l'infinitif du verbe dans « nous chantons » ?",
+    "choices": [
+     "Chanter",
+     "Chant",
+     "Chantons",
+     "Chanté"
+    ],
+    "correct": 0
+   },
+   "answer": "Chanter",
+   "level": "facile",
+   "fact": "Les verbes en -er sont de loin les plus nombreux en français : on en compte des milliers.",
+   "subject": "Français",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/4-q.mp3",
+     "sec": 3.243787,
+     "text": "Quel est l'infinitif du verbe dans « nous chantons » ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.17,
+       0.226
+      ],
+      [
+       "l'infinitif",
+       0.264,
+       1.057
+      ],
+      [
+       "du",
+       1.107,
+       1.208
+      ],
+      [
+       "verbe",
+       1.283,
+       1.66
+      ],
+      [
+       "dans",
+       1.736,
+       2.038
+      ],
+      [
+       "«",
+       2.189,
+       2.34
+      ],
+      [
+       "nous",
+       2.37,
+       2.491
+      ],
+      [
+       "chantons",
+       2.566,
+       3.094
+      ],
+      [
+       "»",
+       3.17,
+       3.245
+      ],
+      [
+       "?",
+       3.245,
+       3.245
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/4-a.mp3",
+     "sec": 1.653628,
+     "text": "Chanter, évidemment !",
+     "words": [
+      [
+       "Chanter,",
+       0.106,
+       0.604
+      ],
+      [
+       "évidemment",
+       0.679,
+       1.132
+      ],
+      [
+       "!",
+       1.358,
+       1.585
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/4-f.mp3",
+     "sec": 6.393968,
+     "text": "Détail amusant : Les verbes en -er sont de loin les plus nombreux en français : on en compte des milliers.",
+     "words": [
+      [
+       "Détail",
+       0.039,
+       0.272
+      ],
+      [
+       "amusant",
+       0.347,
+       0.725
+      ],
+      [
+       ":",
+       0.914,
+       1.102
+      ],
+      [
+       "Les",
+       1.14,
+       1.253
+      ],
+      [
+       "verbes",
+       1.31,
+       1.555
+      ],
+      [
+       "en",
+       1.605,
+       1.706
+      ],
+      [
+       "-er",
+       1.781,
+       2.234
+      ],
+      [
+       "sont",
+       2.295,
+       2.536
+      ],
+      [
+       "de",
+       2.586,
+       2.687
+      ],
+      [
+       "loin",
+       2.763,
+       3.064
+      ],
+      [
+       "les",
+       3.102,
+       3.215
+      ],
+      [
+       "plus",
+       3.261,
+       3.442
+      ],
+      [
+       "nombreux",
+       3.492,
+       3.895
+      ],
+      [
+       "en",
+       3.945,
+       4.046
+      ],
+      [
+       "français",
+       4.087,
+       4.423
+      ],
+      [
+       ":",
+       4.649,
+       4.876
+      ],
+      [
+       "on",
+       4.926,
+       5.027
+      ],
+      [
+       "en",
+       5.077,
+       5.178
+      ],
+      [
+       "compte",
+       5.243,
+       5.63
+      ],
+      [
+       "des",
+       5.649,
+       5.706
+      ],
+      [
+       "milliers.",
+       5.781,
+       6.385
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle ville actuelle se trouve le Colisée ?",
+    "choices": [
+     "Athènes",
+     "Rome",
+     "Le Caire",
+     "Istanbul"
+    ],
+    "correct": 1
+   },
+   "answer": "Rome",
+   "level": "facile",
+   "fact": "Le Colisée pouvait accueillir environ 50 000 spectateurs.",
+   "subject": "Histoire",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/5-q.mp3",
+     "sec": 2.943673,
+     "text": "Dans quelle ville actuelle se trouve le Colisée ?",
+     "words": [
+      [
+       "Dans",
+       0.09,
+       0.211
+      ],
+      [
+       "quelle",
+       0.254,
+       0.513
+      ],
+      [
+       "ville",
+       0.563,
+       0.815
+      ],
+      [
+       "actuelle",
+       0.853,
+       1.268
+      ],
+      [
+       "se",
+       1.419,
+       1.72
+      ],
+      [
+       "trouve",
+       1.764,
+       2.022
+      ],
+      [
+       "le",
+       2.048,
+       2.098
+      ],
+      [
+       "Colisée",
+       2.173,
+       2.853
+      ],
+      [
+       "?",
+       2.89,
+       2.928
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/5-a.mp3",
+     "sec": 1.346689,
+     "text": "Eh oui : Rome !",
+     "words": [
+      [
+       "Eh",
+       0.045,
+       0.056
+      ],
+      [
+       "oui",
+       0.112,
+       0.282
+      ],
+      [
+       ":",
+       0.546,
+       0.811
+      ],
+      [
+       "Rome",
+       0.886,
+       1.188
+      ],
+      [
+       "!",
+       1.263,
+       1.339
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/5-f.mp3",
+     "sec": 4.076644,
+     "text": "Au passage, Le Colisée pouvait accueillir environ 50 000 spectateurs.",
+     "words": [
+      [
+       "Au",
+       0.067,
+       0.075
+      ],
+      [
+       "passage,",
+       0.132,
+       0.755
+      ],
+      [
+       "Le",
+       0.78,
+       0.83
+      ],
+      [
+       "Colisée",
+       0.887,
+       1.358
+      ],
+      [
+       "pouvait",
+       1.377,
+       1.585
+      ],
+      [
+       "accueillir",
+       1.623,
+       1.962
+      ],
+      [
+       "environ",
+       2.019,
+       2.415
+      ],
+      [
+       "50",
+       2.717,
+       3.17
+      ],
+      [
+       "000",
+       3.245,
+       3.321
+      ],
+      [
+       "spectateurs.",
+       3.371,
+       4.075
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le continent le plus peuplé ?",
+    "choices": [
+     "L'Amérique",
+     "L'Afrique",
+     "L'Asie",
+     "L'Europe"
+    ],
+    "correct": 2
+   },
+   "answer": "L'Asie",
+   "level": "facile",
+   "fact": "Environ six humains sur dix vivent en Asie.",
+   "subject": "Géographie",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/6-q.mp3",
+     "sec": 3.285624,
+     "text": "Question suivante. Quel est le continent le plus peuplé ?",
+     "words": [
+      [
+       "Question",
+       0.209,
+       0.263
+      ],
+      [
+       "suivante.",
+       0.323,
+       0.942
+      ],
+      [
+       "Quel",
+       1.093,
+       1.47
+      ],
+      [
+       "est",
+       1.489,
+       1.546
+      ],
+      [
+       "le",
+       1.571,
+       1.621
+      ],
+      [
+       "continent",
+       1.682,
+       2.225
+      ],
+      [
+       "le",
+       2.275,
+       2.376
+      ],
+      [
+       "plus",
+       2.437,
+       2.678
+      ],
+      [
+       "peuplé",
+       2.703,
+       3.131
+      ],
+      [
+       "?",
+       3.206,
+       3.282
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/6-a.mp3",
+     "sec": 1.406122,
+     "text": "L'Asie, évidemment !",
+     "words": [
+      [
+       "L'Asie,",
+       0.082,
+       0.572
+      ],
+      [
+       "évidemment",
+       0.61,
+       1.101
+      ],
+      [
+       "!",
+       1.252,
+       1.403
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/6-f.mp3",
+     "sec": 4.385147,
+     "text": "Détail amusant : Environ six humains sur dix vivent en Asie.",
+     "words": [
+      [
+       "Détail",
+       0.069,
+       0.302
+      ],
+      [
+       "amusant",
+       0.352,
+       0.755
+      ],
+      [
+       ":",
+       0.906,
+       1.057
+      ],
+      [
+       "Environ",
+       1.107,
+       1.585
+      ],
+      [
+       "six",
+       1.679,
+       1.962
+      ],
+      [
+       "humains",
+       2,
+       2.189
+      ],
+      [
+       "sur",
+       2.226,
+       2.34
+      ],
+      [
+       "dix",
+       2.453,
+       2.792
+      ],
+      [
+       "vivent",
+       2.887,
+       3.321
+      ],
+      [
+       "en",
+       3.346,
+       3.396
+      ],
+      [
+       "Asie.",
+       3.472,
+       3.849
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel document fixe les règles de vie dans un collège ?",
+    "choices": [
+     "Le bulletin",
+     "Le règlement intérieur",
+     "Le carnet de notes",
+     "L'emploi du temps"
+    ],
+    "correct": 1
+   },
+   "answer": "Le règlement intérieur",
+   "level": "facile",
+   "fact": "Il précise les droits et les devoirs de chacun, élèves comme adultes.",
+   "subject": "EMC",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/7-q.mp3",
+     "sec": 2.702018,
+     "text": "Quel document fixe les règles de vie dans un collège ?",
+     "words": [
+      [
+       "Quel",
+       0.05,
+       0.136
+      ],
+      [
+       "document",
+       0.203,
+       0.74
+      ],
+      [
+       "fixe",
+       0.815,
+       1.117
+      ],
+      [
+       "les",
+       1.136,
+       1.193
+      ],
+      [
+       "règles",
+       1.243,
+       1.495
+      ],
+      [
+       "de",
+       1.545,
+       1.646
+      ],
+      [
+       "vie",
+       1.702,
+       1.872
+      ],
+      [
+       "dans",
+       1.902,
+       2.023
+      ],
+      [
+       "un",
+       2.073,
+       2.174
+      ],
+      [
+       "collège",
+       2.219,
+       2.627
+      ],
+      [
+       "?",
+       2.664,
+       2.702
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/7-a.mp3",
+     "sec": 2.113741,
+     "text": "C'était Le règlement intérieur.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.377
+      ],
+      [
+       "Le",
+       0.503,
+       0.755
+      ],
+      [
+       "règlement",
+       0.805,
+       1.283
+      ],
+      [
+       "intérieur.",
+       1.34,
+       2.113
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/7-f.mp3",
+     "sec": 5.168254,
+     "text": "Et pour la culture : Il précise les droits et les devoirs de chacun, élèves comme adultes.",
+     "words": [
+      [
+       "Et",
+       0.017,
+       0.026
+      ],
+      [
+       "pour",
+       0.056,
+       0.177
+      ],
+      [
+       "la",
+       0.202,
+       0.252
+      ],
+      [
+       "culture",
+       0.318,
+       0.781
+      ],
+      [
+       ":",
+       1.007,
+       1.233
+      ],
+      [
+       "Il",
+       1.283,
+       1.384
+      ],
+      [
+       "précise",
+       1.445,
+       1.913
+      ],
+      [
+       "les",
+       1.95,
+       2.064
+      ],
+      [
+       "droits",
+       2.107,
+       2.366
+      ],
+      [
+       "et",
+       2.391,
+       2.441
+      ],
+      [
+       "les",
+       2.46,
+       2.516
+      ],
+      [
+       "devoirs",
+       2.566,
+       2.894
+      ],
+      [
+       "de",
+       2.919,
+       2.969
+      ],
+      [
+       "chacun,",
+       3.03,
+       3.498
+      ],
+      [
+       "élèves",
+       3.623,
+       4.101
+      ],
+      [
+       "comme",
+       4.177,
+       4.554
+      ],
+      [
+       "adultes.",
+       4.62,
+       5.158
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle civilisation a construit les pyramides de Gizeh ?",
+    "choices": [
+     "Les Grecs",
+     "Les Gaulois",
+     "Les Égyptiens",
+     "Les Romains"
+    ],
+    "correct": 2
+   },
+   "answer": "Les Égyptiens",
+   "level": "facile",
+   "fact": "La pyramide de Khéops est restée le plus haut monument du monde pendant plus de 3 800 ans.",
+   "subject": "Histoire",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/8-q.mp3",
+     "sec": 2.624739,
+     "text": "Quelle civilisation a construit les pyramides de Gizeh ?",
+     "words": [
+      [
+       "Quelle",
+       0.037,
+       0.123
+      ],
+      [
+       "civilisation",
+       0.173,
+       0.877
+      ],
+      [
+       "a",
+       0.953,
+       1.028
+      ],
+      [
+       "construit",
+       1.072,
+       1.481
+      ],
+      [
+       "les",
+       1.5,
+       1.557
+      ],
+      [
+       "pyramides",
+       1.632,
+       2.085
+      ],
+      [
+       "de",
+       2.135,
+       2.236
+      ],
+      [
+       "Gizeh",
+       2.274,
+       2.575
+      ],
+      [
+       "?",
+       2.594,
+       2.613
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/8-a.mp3",
+     "sec": 1.842766,
+     "text": "Eh oui : Les Égyptiens !",
+     "words": [
+      [
+       "Eh",
+       0.093,
+       0.113
+      ],
+      [
+       "oui",
+       0.169,
+       0.339
+      ],
+      [
+       ":",
+       0.528,
+       0.716
+      ],
+      [
+       "Les",
+       0.792,
+       1.018
+      ],
+      [
+       "Égyptiens",
+       1.132,
+       1.698
+      ],
+      [
+       "!",
+       1.773,
+       1.849
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/8-f.mp3",
+     "sec": 7.633152,
+     "text": "Pour briller en société : La pyramide de Khéops est restée le plus haut monument du monde pendant plus de 3 800 ans.",
+     "words": [
+      [
+       "Pour",
+       0.065,
+       0.075
+      ],
+      [
+       "briller",
+       0.151,
+       0.453
+      ],
+      [
+       "en",
+       0.503,
+       0.604
+      ],
+      [
+       "société",
+       0.67,
+       1.132
+      ],
+      [
+       ":",
+       1.396,
+       1.66
+      ],
+      [
+       "La",
+       1.686,
+       1.736
+      ],
+      [
+       "pyramide",
+       1.811,
+       2.264
+      ],
+      [
+       "de",
+       2.314,
+       2.415
+      ],
+      [
+       "Khéops",
+       2.465,
+       2.943
+      ],
+      [
+       "est",
+       3,
+       3.17
+      ],
+      [
+       "restée",
+       3.23,
+       3.547
+      ],
+      [
+       "le",
+       3.623,
+       3.774
+      ],
+      [
+       "plus",
+       3.804,
+       3.925
+      ],
+      [
+       "haut",
+       3.985,
+       4.226
+      ],
+      [
+       "monument",
+       4.276,
+       4.679
+      ],
+      [
+       "du",
+       4.705,
+       4.755
+      ],
+      [
+       "monde",
+       4.818,
+       5.132
+      ],
+      [
+       "pendant",
+       5.226,
+       5.887
+      ],
+      [
+       "plus",
+       5.932,
+       6.113
+      ],
+      [
+       "de",
+       6.189,
+       6.34
+      ],
+      [
+       "3",
+       6.566,
+       6.792
+      ],
+      [
+       "800",
+       7.094,
+       7.396
+      ],
+      [
+       "ans.",
+       7.453,
+       7.623
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "À quelle température l'eau gèle-t-elle ?",
+    "choices": [
+     "−10 °C",
+     "10 °C",
+     "100 °C",
+     "0 °C"
+    ],
+    "correct": 3
+   },
+   "answer": "0 °C",
+   "level": "facile",
+   "fact": "L'échelle Celsius a justement été construite à partir du gel et de l'ébullition de l'eau.",
+   "subject": "Sciences",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/9-q.mp3",
+     "sec": 2.200658,
+     "text": "À quelle température l'eau gèle-t-elle ?",
+     "words": [
+      [
+       "À",
+       0,
+       0.006
+      ],
+      [
+       "quelle",
+       0.049,
+       0.307
+      ],
+      [
+       "température",
+       0.353,
+       1.062
+      ],
+      [
+       "l'eau",
+       1.175,
+       1.515
+      ],
+      [
+       "gèle-t-elle",
+       1.553,
+       2.119
+      ],
+      [
+       "?",
+       2.156,
+       2.194
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/9-a.mp3",
+     "sec": 2.346077,
+     "text": "Réponse : 0 °C !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.679
+      ],
+      [
+       ":",
+       0.943,
+       1.208
+      ],
+      [
+       "0",
+       1.283,
+       1.509
+      ],
+      [
+       "°C",
+       1.698,
+       2.113
+      ],
+      [
+       "!",
+       2.226,
+       2.34
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/9-f.mp3",
+     "sec": 6.38161,
+     "text": "Et pour la culture : L'échelle Celsius a justement été construite à partir du gel et de l'ébullition de l'eau.",
+     "words": [
+      [
+       "Et",
+       0.023,
+       0.032
+      ],
+      [
+       "pour",
+       0.062,
+       0.183
+      ],
+      [
+       "la",
+       0.208,
+       0.258
+      ],
+      [
+       "culture",
+       0.343,
+       0.937
+      ],
+      [
+       ":",
+       1.126,
+       1.315
+      ],
+      [
+       "L'échelle",
+       1.353,
+       1.692
+      ],
+      [
+       "Celsius",
+       1.768,
+       2.296
+      ],
+      [
+       "a",
+       2.409,
+       2.522
+      ],
+      [
+       "justement",
+       2.598,
+       3.126
+      ],
+      [
+       "été",
+       3.183,
+       3.353
+      ],
+      [
+       "construite",
+       3.396,
+       3.805
+      ],
+      [
+       "à",
+       3.881,
+       3.956
+      ],
+      [
+       "partir",
+       4,
+       4.258
+      ],
+      [
+       "du",
+       4.308,
+       4.409
+      ],
+      [
+       "gel",
+       4.522,
+       4.862
+      ],
+      [
+       "et",
+       4.963,
+       5.164
+      ],
+      [
+       "de",
+       5.189,
+       5.239
+      ],
+      [
+       "l'ébullition",
+       5.315,
+       5.919
+      ],
+      [
+       "de",
+       5.969,
+       6.07
+      ],
+      [
+       "l'eau.",
+       6.107,
+       6.371
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle fraction est égale à 0,25 ?",
+    "choices": [
+     "2/5",
+     "1/2",
+     "1/4",
+     "1/25"
+    ],
+    "correct": 2
+   },
+   "answer": "1/4",
+   "level": "moyen",
+   "fact": "Un quart, c'est 25 % : voilà pourquoi un quart d'heure dure 15 minutes sur 60.",
+   "subject": "Maths",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/10-q.mp3",
+     "sec": 3.193129,
+     "text": "Quelle fraction est égale à 0,25 ?",
+     "words": [
+      [
+       "Quelle",
+       0.009,
+       0.097
+      ],
+      [
+       "fraction",
+       0.155,
+       0.625
+      ],
+      [
+       "est",
+       0.682,
+       0.851
+      ],
+      [
+       "égale",
+       0.889,
+       1.153
+      ],
+      [
+       "à",
+       1.342,
+       1.531
+      ],
+      [
+       "0,25",
+       1.682,
+       3.116
+      ],
+      [
+       "?",
+       3.153,
+       3.191
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/10-a.mp3",
+     "sec": 1.599252,
+     "text": "1/4, évidemment !",
+     "words": [
+      [
+       "1/4,",
+       0.006,
+       0.61
+      ],
+      [
+       "évidemment",
+       0.648,
+       0.988
+      ],
+      [
+       "!",
+       1.063,
+       1.139
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/10-f.mp3",
+     "sec": 7.402426,
+     "text": "Et pour la culture : Un quart, c'est 25 % : voilà pourquoi un quart d'heure dure 15 minutes sur 60.",
+     "words": [
+      [
+       "Et",
+       0.067,
+       0.075
+      ],
+      [
+       "pour",
+       0.091,
+       0.151
+      ],
+      [
+       "la",
+       0.201,
+       0.302
+      ],
+      [
+       "culture",
+       0.368,
+       0.83
+      ],
+      [
+       ":",
+       1.019,
+       1.208
+      ],
+      [
+       "Un",
+       1.233,
+       1.283
+      ],
+      [
+       "quart,",
+       1.358,
+       1.962
+      ],
+      [
+       "c'est",
+       2,
+       2.113
+      ],
+      [
+       "25",
+       2.264,
+       2.642
+      ],
+      [
+       "%",
+       2.868,
+       3.094
+      ],
+      [
+       ":",
+       3.321,
+       3.547
+      ],
+      [
+       "voilà",
+       3.597,
+       3.774
+      ],
+      [
+       "pourquoi",
+       3.815,
+       4.151
+      ],
+      [
+       "un",
+       4.252,
+       4.453
+      ],
+      [
+       "quart",
+       4.503,
+       4.755
+      ],
+      [
+       "d'heure",
+       4.792,
+       5.132
+      ],
+      [
+       "dure",
+       5.245,
+       5.585
+      ],
+      [
+       "15",
+       5.66,
+       5.887
+      ],
+      [
+       "minutes",
+       5.934,
+       6.264
+      ],
+      [
+       "sur",
+       6.377,
+       6.717
+      ],
+      [
+       "60.",
+       6.792,
+       7.396
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on la zone de contact entre la terre et la mer ?",
+    "choices": [
+     "Le bassin",
+     "Le désert",
+     "Le littoral",
+     "Le plateau"
+    ],
+    "correct": 2
+   },
+   "answer": "Le littoral",
+   "level": "moyen",
+   "fact": "Les littoraux attirent : une grande partie de l'humanité vit à moins de 100 km d'une côte.",
+   "subject": "Géographie",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/11-q.mp3",
+     "sec": 3.229637,
+     "text": "Comment appelle-t-on la zone de contact entre la terre et la mer ?",
+     "words": [
+      [
+       "Comment",
+       0.166,
+       0.206
+      ],
+      [
+       "appelle-t-on",
+       0.262,
+       0.734
+      ],
+      [
+       "la",
+       0.784,
+       0.885
+      ],
+      [
+       "zone",
+       0.945,
+       1.187
+      ],
+      [
+       "de",
+       1.262,
+       1.413
+      ],
+      [
+       "contact",
+       1.47,
+       1.866
+      ],
+      [
+       "entre",
+       1.941,
+       2.319
+      ],
+      [
+       "la",
+       2.344,
+       2.394
+      ],
+      [
+       "terre",
+       2.444,
+       2.696
+      ],
+      [
+       "et",
+       2.722,
+       2.772
+      ],
+      [
+       "la",
+       2.797,
+       2.847
+      ],
+      [
+       "mer",
+       2.923,
+       3.149
+      ],
+      [
+       "?",
+       3.187,
+       3.224
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/11-a.mp3",
+     "sec": 2.657143,
+     "text": "Bravo si tu avais dit Le littoral.",
+     "words": [
+      [
+       "Bravo",
+       0.444,
+       0.545
+      ],
+      [
+       "si",
+       0.62,
+       0.771
+      ],
+      [
+       "tu",
+       0.821,
+       0.922
+      ],
+      [
+       "avais",
+       0.947,
+       1.148
+      ],
+      [
+       "dit",
+       1.205,
+       1.375
+      ],
+      [
+       "Le",
+       1.5,
+       1.752
+      ],
+      [
+       "littoral.",
+       1.812,
+       2.658
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/11-f.mp3",
+     "sec": 6.867528,
+     "text": "Tu savais ? Les littoraux attirent : une grande partie de l'humanité vit à moins de 100 km d'une côte.",
+     "words": [
+      [
+       "Tu",
+       0.057,
+       0.065
+      ],
+      [
+       "savais",
+       0.122,
+       0.367
+      ],
+      [
+       "?",
+       0.669,
+       0.971
+      ],
+      [
+       "Les",
+       0.99,
+       1.046
+      ],
+      [
+       "littoraux",
+       1.092,
+       1.726
+      ],
+      [
+       "attirent",
+       1.801,
+       2.329
+      ],
+      [
+       ":",
+       2.631,
+       2.933
+      ],
+      [
+       "une",
+       2.99,
+       3.16
+      ],
+      [
+       "grande",
+       3.192,
+       3.386
+      ],
+      [
+       "partie",
+       3.44,
+       3.763
+      ],
+      [
+       "de",
+       3.789,
+       3.839
+      ],
+      [
+       "l'humanité",
+       3.858,
+       4.443
+      ],
+      [
+       "vit",
+       4.537,
+       4.82
+      ],
+      [
+       "à",
+       4.895,
+       4.971
+      ],
+      [
+       "moins",
+       5.009,
+       5.197
+      ],
+      [
+       "de",
+       5.273,
+       5.424
+      ],
+      [
+       "100",
+       5.499,
+       5.575
+      ],
+      [
+       "km",
+       5.751,
+       6.103
+      ],
+      [
+       "d'une",
+       6.141,
+       6.254
+      ],
+      [
+       "côte.",
+       6.329,
+       6.858
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui a écrit la fable « Le Corbeau et le Renard » ?",
+    "choices": [
+     "Molière",
+     "Charles Perrault",
+     "Jean de La Fontaine",
+     "Victor Hugo"
+    ],
+    "correct": 2
+   },
+   "answer": "Jean de La Fontaine",
+   "level": "moyen",
+   "fact": "La Fontaine a publié environ 240 fables, souvent inspirées du fabuliste grec Ésope.",
+   "subject": "Français",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/12-q.mp3",
+     "sec": 3.223469,
+     "text": "Qui a écrit la fable « Le Corbeau et le Renard » ?",
+     "words": [
+      [
+       "Qui",
+       0.095,
+       0.117
+      ],
+      [
+       "a",
+       0.193,
+       0.268
+      ],
+      [
+       "écrit",
+       0.332,
+       0.646
+      ],
+      [
+       "la",
+       0.671,
+       0.721
+      ],
+      [
+       "fable",
+       0.834,
+       1.25
+      ],
+      [
+       "«",
+       1.4,
+       1.551
+      ],
+      [
+       "Le",
+       1.577,
+       1.627
+      ],
+      [
+       "Corbeau",
+       1.702,
+       2.231
+      ],
+      [
+       "et",
+       2.281,
+       2.382
+      ],
+      [
+       "le",
+       2.432,
+       2.533
+      ],
+      [
+       "Renard",
+       2.589,
+       3.061
+      ],
+      [
+       "»",
+       3.099,
+       3.136
+      ],
+      [
+       "?",
+       3.174,
+       3.212
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/12-a.mp3",
+     "sec": 2.270454,
+     "text": "Eh oui : Jean de La Fontaine !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui",
+       0.208,
+       0.377
+      ],
+      [
+       ":",
+       0.566,
+       0.755
+      ],
+      [
+       "Jean",
+       0.8,
+       0.981
+      ],
+      [
+       "de",
+       1.007,
+       1.057
+      ],
+      [
+       "La",
+       1.107,
+       1.208
+      ],
+      [
+       "Fontaine",
+       1.268,
+       1.736
+      ],
+      [
+       "!",
+       1.962,
+       2.189
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/12-f.mp3",
+     "sec": 6.874626,
+     "text": "Petit bonus : La Fontaine a publié environ 240 fables, souvent inspirées du fabuliste grec Ésope.",
+     "words": [
+      [
+       "Petit",
+       0.195,
+       0.226
+      ],
+      [
+       "bonus",
+       0.302,
+       0.679
+      ],
+      [
+       ":",
+       0.981,
+       1.283
+      ],
+      [
+       "La",
+       1.308,
+       1.358
+      ],
+      [
+       "Fontaine",
+       1.419,
+       1.736
+      ],
+      [
+       "a",
+       1.774,
+       1.811
+      ],
+      [
+       "publié",
+       1.875,
+       2.264
+      ],
+      [
+       "environ",
+       2.311,
+       2.642
+      ],
+      [
+       "240",
+       2.717,
+       3.396
+      ],
+      [
+       "fables,",
+       3.472,
+       3.849
+      ],
+      [
+       "souvent",
+       3.934,
+       4.528
+      ],
+      [
+       "inspirées",
+       4.582,
+       4.981
+      ],
+      [
+       "du",
+       5.031,
+       5.132
+      ],
+      [
+       "fabuliste",
+       5.189,
+       5.66
+      ],
+      [
+       "grec",
+       5.736,
+       6.113
+      ],
+      [
+       "Ésope.",
+       6.302,
+       6.868
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle grotte de Dordogne est célèbre pour ses peintures préhistoriques ?",
+    "choices": [
+     "Carnac",
+     "Gergovie",
+     "Alésia",
+     "Lascaux"
+    ],
+    "correct": 3
+   },
+   "answer": "Lascaux",
+   "level": "moyen",
+   "fact": "Découverte en 1940 par quatre adolescents, la grotte a été peinte il y a près de 20 000 ans.",
+   "subject": "Histoire",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/13-q.mp3",
+     "sec": 9.488798,
+     "text": "Réfléchis bien avant de répondre. Quelle grotte de Dordogne est célèbre pour ses peintures préhistoriques ?",
+     "words": [
+      [
+       "Réfléchis",
+       0.196,
+       0.604
+      ],
+      [
+       "bien",
+       0.649,
+       0.83
+      ],
+      [
+       "avant",
+       0.88,
+       1.132
+      ],
+      [
+       "de",
+       1.158,
+       1.208
+      ],
+      [
+       "répondre.",
+       1.273,
+       2.075
+      ],
+      [
+       "Quelle",
+       2.163,
+       2.491
+      ],
+      [
+       "grotte",
+       2.566,
+       2.943
+      ],
+      [
+       "de",
+       2.993,
+       3.094
+      ],
+      [
+       "Dordogne",
+       3.132,
+       3.774
+      ],
+      [
+       "est",
+       3.868,
+       4.151
+      ],
+      [
+       "célèbre",
+       4.208,
+       4.604
+      ],
+      [
+       "pour",
+       4.649,
+       4.83
+      ],
+      [
+       "ses",
+       4.887,
+       5.057
+      ],
+      [
+       "peintures",
+       5.082,
+       5.585
+      ],
+      [
+       "préhistoriques",
+       5.623,
+       6.34
+      ],
+      [
+       "?",
+       7.925,
+       9.509
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/13-a.mp3",
+     "sec": 1.436032,
+     "text": "C'était Lascaux.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.377
+      ],
+      [
+       "Lascaux.",
+       0.453,
+       1.434
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/13-f.mp3",
+     "sec": 7.331927,
+     "text": "Détail amusant : Découverte en 1940 par quatre adolescents, la grotte a été peinte il y a près de 20 000 ans.",
+     "words": [
+      [
+       "Détail",
+       0.181,
+       0.37
+      ],
+      [
+       "amusant",
+       0.42,
+       0.822
+      ],
+      [
+       ":",
+       1.011,
+       1.2
+      ],
+      [
+       "Découverte",
+       1.275,
+       1.879
+      ],
+      [
+       "en",
+       1.929,
+       2.03
+      ],
+      [
+       "1940",
+       2.407,
+       2.936
+      ],
+      [
+       "par",
+       2.973,
+       3.086
+      ],
+      [
+       "quatre",
+       3.13,
+       3.388
+      ],
+      [
+       "adolescents,",
+       3.438,
+       4.37
+      ],
+      [
+       "la",
+       4.42,
+       4.52
+      ],
+      [
+       "grotte",
+       4.596,
+       4.973
+      ],
+      [
+       "a",
+       5.011,
+       5.049
+      ],
+      [
+       "été",
+       5.124,
+       5.351
+      ],
+      [
+       "peinte",
+       5.376,
+       5.653
+      ],
+      [
+       "il",
+       5.728,
+       5.879
+      ],
+      [
+       "y",
+       5.917,
+       5.954
+      ],
+      [
+       "a",
+       6.03,
+       6.105
+      ],
+      [
+       "près",
+       6.151,
+       6.332
+      ],
+      [
+       "de",
+       6.433,
+       6.634
+      ],
+      [
+       "20",
+       6.709,
+       6.86
+      ],
+      [
+       "000",
+       6.936,
+       7.011
+      ],
+      [
+       "ans.",
+       7.049,
+       7.464
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est l'aire d'un rectangle de 8 cm sur 5 cm ?",
+    "choices": [
+     "40 cm²",
+     "26 cm²",
+     "45 cm²",
+     "13 cm²"
+    ],
+    "correct": 0
+   },
+   "answer": "40 cm²",
+   "level": "moyen",
+   "fact": "L'aire d'un rectangle se calcule en multipliant sa longueur par sa largeur.",
+   "subject": "Maths",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/14-q.mp3",
+     "sec": 6.422132,
+     "text": "Facile, celle-là. Enfin, je crois. Quelle est l'aire d'un rectangle de 8 cm sur 5 cm ?",
+     "words": [
+      [
+       "Facile,",
+       0.257,
+       0.453
+      ],
+      [
+       "celle-là.",
+       0.478,
+       0.906
+      ],
+      [
+       "Enfin,",
+       1.057,
+       1.66
+      ],
+      [
+       "je",
+       1.71,
+       1.811
+      ],
+      [
+       "crois.",
+       1.849,
+       2.113
+      ],
+      [
+       "Quelle",
+       2.34,
+       2.868
+      ],
+      [
+       "est",
+       2.906,
+       3.019
+      ],
+      [
+       "l'aire",
+       3.057,
+       3.321
+      ],
+      [
+       "d'un",
+       3.358,
+       3.472
+      ],
+      [
+       "rectangle",
+       3.525,
+       4
+      ],
+      [
+       "de",
+       4.075,
+       4.226
+      ],
+      [
+       "8",
+       4.302,
+       4.453
+      ],
+      [
+       "cm",
+       4.629,
+       4.981
+      ],
+      [
+       "sur",
+       5.075,
+       5.358
+      ],
+      [
+       "5",
+       5.509,
+       5.736
+      ],
+      [
+       "cm",
+       5.937,
+       6.34
+      ],
+      [
+       "?",
+       6.377,
+       6.415
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/14-a.mp3",
+     "sec": 2.126236,
+     "text": "Eh oui : 40 cm² !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui",
+       0.189,
+       0.302
+      ],
+      [
+       ":",
+       0.528,
+       0.755
+      ],
+      [
+       "40",
+       0.83,
+       1.208
+      ],
+      [
+       "cm²",
+       1.333,
+       2.038
+      ],
+      [
+       "!",
+       2.075,
+       2.113
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/14-f.mp3",
+     "sec": 5.786825,
+     "text": "Détail amusant : L'aire d'un rectangle se calcule en multipliant sa longueur par sa largeur.",
+     "words": [
+      [
+       "Détail",
+       0.156,
+       0.269
+      ],
+      [
+       "amusant",
+       0.319,
+       0.646
+      ],
+      [
+       ":",
+       0.873,
+       1.099
+      ],
+      [
+       "L'aire",
+       1.137,
+       1.476
+      ],
+      [
+       "d'un",
+       1.514,
+       1.703
+      ],
+      [
+       "rectangle",
+       1.778,
+       2.458
+      ],
+      [
+       "se",
+       2.533,
+       2.684
+      ],
+      [
+       "calcule",
+       2.729,
+       3.061
+      ],
+      [
+       "en",
+       3.111,
+       3.212
+      ],
+      [
+       "multipliant",
+       3.262,
+       3.892
+      ],
+      [
+       "sa",
+       3.967,
+       4.118
+      ],
+      [
+       "longueur",
+       4.163,
+       4.571
+      ],
+      [
+       "par",
+       4.703,
+       5.099
+      ],
+      [
+       "sa",
+       5.125,
+       5.175
+      ],
+      [
+       "largeur.",
+       5.238,
+       5.778
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment dit-on « J'ai onze ans » en anglais ?",
+    "choices": [
+     "I am eleven",
+     "I am eleven years",
+     "I have eleven years",
+     "I have eleven"
+    ],
+    "correct": 0
+   },
+   "answer": "I am eleven",
+   "level": "moyen",
+   "fact": "En anglais, on « est » son âge : on utilise le verbe to be, jamais to have.",
+   "subject": "Anglais",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/15-q.mp3",
+     "sec": 2.548662,
+     "text": "Comment dit-on « J'ai onze ans » en anglais ?",
+     "words": [
+      [
+       "Comment",
+       0.169,
+       0.209
+      ],
+      [
+       "dit-on",
+       0.284,
+       0.661
+      ],
+      [
+       "«",
+       0.775,
+       0.888
+      ],
+      [
+       "J'ai",
+       0.963,
+       1.114
+      ],
+      [
+       "onze",
+       1.205,
+       1.567
+      ],
+      [
+       "ans",
+       1.624,
+       1.794
+      ],
+      [
+       "»",
+       1.907,
+       2.02
+      ],
+      [
+       "en",
+       2.07,
+       2.171
+      ],
+      [
+       "anglais",
+       2.218,
+       2.548
+      ],
+      [
+       "?",
+       2.548,
+       2.548
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/15-a.mp3",
+     "sec": 2.03,
+     "text": "Réponse : I am eleven !",
+     "words": [
+      [
+       "Réponse",
+       0.127,
+       0.517
+      ],
+      [
+       ":",
+       0.743,
+       0.969
+      ],
+      [
+       "I",
+       1.045,
+       1.12
+      ],
+      [
+       "am",
+       1.221,
+       1.422
+      ],
+      [
+       "eleven",
+       1.487,
+       1.875
+      ],
+      [
+       "!",
+       1.951,
+       2.026
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/15-f.mp3",
+     "sec": 6.543243,
+     "text": "Tu savais ? En anglais, on « est » son âge : on utilise le verbe to be, jamais to have.",
+     "words": [
+      [
+       "Tu",
+       0.037,
+       0.045
+      ],
+      [
+       "savais",
+       0.102,
+       0.423
+      ],
+      [
+       "?",
+       0.725,
+       1.026
+      ],
+      [
+       "En",
+       1.076,
+       1.177
+      ],
+      [
+       "anglais,",
+       1.215,
+       1.555
+      ],
+      [
+       "on",
+       1.656,
+       1.857
+      ],
+      [
+       "«",
+       2.008,
+       2.159
+      ],
+      [
+       "est",
+       2.196,
+       2.31
+      ],
+      [
+       "»",
+       2.423,
+       2.536
+      ],
+      [
+       "son",
+       2.593,
+       2.762
+      ],
+      [
+       "âge",
+       2.838,
+       3.064
+      ],
+      [
+       ":",
+       3.291,
+       3.517
+      ],
+      [
+       "on",
+       3.567,
+       3.668
+      ],
+      [
+       "utilise",
+       3.725,
+       4.121
+      ],
+      [
+       "le",
+       4.146,
+       4.196
+      ],
+      [
+       "verbe",
+       4.234,
+       4.423
+      ],
+      [
+       "to",
+       4.498,
+       4.649
+      ],
+      [
+       "be,",
+       4.699,
+       5.177
+      ],
+      [
+       "jamais",
+       5.253,
+       5.706
+      ],
+      [
+       "to",
+       5.807,
+       6.008
+      ],
+      [
+       "have.",
+       6.098,
+       6.536
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un animal qui possède une colonne vertébrale ?",
+    "choices": [
+     "Un vertébré",
+     "Un invertébré",
+     "Un insecte",
+     "Un mollusque"
+    ],
+    "correct": 0
+   },
+   "answer": "Un vertébré",
+   "level": "moyen",
+   "fact": "Poissons, amphibiens, reptiles, oiseaux et mammifères sont tous des vertébrés.",
+   "subject": "Sciences",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/16-q.mp3",
+     "sec": 4.817234,
+     "text": "Nouvelle question. Comment appelle-t-on un animal qui possède une colonne vertébrale ?",
+     "words": [
+      [
+       "Nouvelle",
+       0.167,
+       0.276
+      ],
+      [
+       "question.",
+       0.326,
+       0.805
+      ],
+      [
+       "Comment",
+       0.88,
+       1.409
+      ],
+      [
+       "appelle-t-on",
+       1.446,
+       1.861
+      ],
+      [
+       "un",
+       1.911,
+       2.012
+      ],
+      [
+       "animal",
+       2.088,
+       2.541
+      ],
+      [
+       "qui",
+       2.635,
+       2.918
+      ],
+      [
+       "possède",
+       2.978,
+       3.295
+      ],
+      [
+       "une",
+       3.333,
+       3.446
+      ],
+      [
+       "colonne",
+       3.496,
+       3.824
+      ],
+      [
+       "vertébrale",
+       3.869,
+       4.503
+      ],
+      [
+       "?",
+       5.522,
+       6.541
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/16-a.mp3",
+     "sec": 1.898594,
+     "text": "Un vertébré, évidemment !",
+     "words": [
+      [
+       "Un",
+       0.139,
+       0.151
+      ],
+      [
+       "vertébré,",
+       0.211,
+       0.83
+      ],
+      [
+       "évidemment",
+       0.906,
+       1.283
+      ],
+      [
+       "!",
+       1.358,
+       1.434
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/16-f.mp3",
+     "sec": 5.771905,
+     "text": "Petit bonus : Poissons, amphibiens, reptiles, oiseaux et mammifères sont tous des vertébrés.",
+     "words": [
+      [
+       "Petit",
+       0.153,
+       0.184
+      ],
+      [
+       "bonus",
+       0.247,
+       0.561
+      ],
+      [
+       ":",
+       0.788,
+       1.014
+      ],
+      [
+       "Poissons,",
+       1.039,
+       1.542
+      ],
+      [
+       "amphibiens,",
+       1.603,
+       2.41
+      ],
+      [
+       "reptiles,",
+       2.448,
+       2.901
+      ],
+      [
+       "oiseaux",
+       2.939,
+       3.278
+      ],
+      [
+       "et",
+       3.304,
+       3.354
+      ],
+      [
+       "mammifères",
+       3.399,
+       4.033
+      ],
+      [
+       "sont",
+       4.154,
+       4.637
+      ],
+      [
+       "tous",
+       4.697,
+       4.939
+      ],
+      [
+       "des",
+       4.976,
+       5.089
+      ],
+      [
+       "vertébrés.",
+       5.135,
+       5.769
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mot complète : « She … two brothers » ?",
+    "choices": [
+     "has",
+     "is",
+     "have",
+     "am"
+    ],
+    "correct": 0
+   },
+   "answer": "has",
+   "level": "moyen",
+   "fact": "À la troisième personne du singulier, have devient has : he has, she has, it has.",
+   "subject": "Anglais",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/17-q.mp3",
+     "sec": 7.202018,
+     "text": "Celle-ci est pour les experts. Quel mot complète : « She … two brothers » ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.074,
+       0.414
+      ],
+      [
+       "est",
+       0.47,
+       0.64
+      ],
+      [
+       "pour",
+       0.67,
+       0.791
+      ],
+      [
+       "les",
+       0.829,
+       0.942
+      ],
+      [
+       "experts.",
+       1.008,
+       1.923
+      ],
+      [
+       "Quel",
+       1.949,
+       2.074
+      ],
+      [
+       "mot",
+       2.149,
+       2.376
+      ],
+      [
+       "complète",
+       2.426,
+       2.904
+      ],
+      [
+       ":",
+       3.131,
+       3.357
+      ],
+      [
+       "«",
+       3.451,
+       3.546
+      ],
+      [
+       "She",
+       3.593,
+       3.734
+      ],
+      [
+       "…",
+       3.923,
+       4.112
+      ],
+      [
+       "two",
+       4.149,
+       4.263
+      ],
+      [
+       "brothers",
+       4.347,
+       5.016
+      ],
+      [
+       "»",
+       5.017,
+       5.018
+      ],
+      [
+       "?",
+       6.113,
+       7.207
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/17-a.mp3",
+     "sec": 1.75127,
+     "text": "Réponse : has !",
+     "words": [
+      [
+       "Réponse",
+       0.201,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "has",
+       1.189,
+       1.585
+      ],
+      [
+       "!",
+       1.66,
+       1.736
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/17-f.mp3",
+     "sec": 8.299138,
+     "text": "Petit bonus : À la troisième personne du singulier, have devient has : he has, she has, it has.",
+     "words": [
+      [
+       "Petit",
+       0.13,
+       0.161
+      ],
+      [
+       "bonus",
+       0.224,
+       0.538
+      ],
+      [
+       ":",
+       0.802,
+       1.067
+      ],
+      [
+       "À",
+       1.104,
+       1.142
+      ],
+      [
+       "la",
+       1.168,
+       1.218
+      ],
+      [
+       "troisième",
+       1.274,
+       1.67
+      ],
+      [
+       "personne",
+       1.704,
+       1.972
+      ],
+      [
+       "du",
+       2.022,
+       2.123
+      ],
+      [
+       "singulier,",
+       2.168,
+       2.727
+      ],
+      [
+       "have",
+       2.878,
+       3.482
+      ],
+      [
+       "devient",
+       3.576,
+       4.085
+      ],
+      [
+       "has",
+       4.255,
+       4.765
+      ],
+      [
+       ":",
+       5.067,
+       5.368
+      ],
+      [
+       "he",
+       5.418,
+       5.519
+      ],
+      [
+       "has,",
+       5.614,
+       6.35
+      ],
+      [
+       "she",
+       6.406,
+       6.576
+      ],
+      [
+       "has,",
+       6.689,
+       7.406
+      ],
+      [
+       "it",
+       7.482,
+       7.633
+      ],
+      [
+       "has.",
+       7.746,
+       8.312
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Environ combien d'humains vivent sur Terre ?",
+    "choices": [
+     "3 milliards",
+     "8 milliards",
+     "20 milliards",
+     "800 millions"
+    ],
+    "correct": 1
+   },
+   "answer": "8 milliards",
+   "level": "moyen",
+   "fact": "Le cap des 8 milliards d'habitants a été franchi en novembre 2022, selon l'ONU.",
+   "subject": "Géographie",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/18-q.mp3",
+     "sec": 2.047959,
+     "text": "Environ combien d'humains vivent sur Terre ?",
+     "words": [
+      [
+       "Environ",
+       0.131,
+       0.377
+      ],
+      [
+       "combien",
+       0.453,
+       0.83
+      ],
+      [
+       "d'humains",
+       0.868,
+       1.208
+      ],
+      [
+       "vivent",
+       1.245,
+       1.434
+      ],
+      [
+       "sur",
+       1.472,
+       1.585
+      ],
+      [
+       "Terre",
+       1.66,
+       1.962
+      ],
+      [
+       "?",
+       2,
+       2.038
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/18-a.mp3",
+     "sec": 1.976667,
+     "text": "8 milliards, évidemment !",
+     "words": [
+      [
+       "8",
+       0.151,
+       0.226
+      ],
+      [
+       "milliards,",
+       0.272,
+       0.83
+      ],
+      [
+       "évidemment",
+       0.868,
+       1.283
+      ],
+      [
+       "!",
+       1.623,
+       1.962
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/18-f.mp3",
+     "sec": 6.541746,
+     "text": "Petit bonus : Le cap des 8 milliards d'habitants a été franchi en novembre 2022, selon l'ONU.",
+     "words": [
+      [
+       "Petit",
+       0.116,
+       0.137
+      ],
+      [
+       "bonus",
+       0.212,
+       0.59
+      ],
+      [
+       ":",
+       0.778,
+       0.967
+      ],
+      [
+       "Le",
+       0.993,
+       1.043
+      ],
+      [
+       "cap",
+       1.137,
+       1.42
+      ],
+      [
+       "des",
+       1.458,
+       1.571
+      ],
+      [
+       "8",
+       1.646,
+       1.797
+      ],
+      [
+       "milliards",
+       1.843,
+       2.175
+      ],
+      [
+       "d'habitants",
+       2.212,
+       2.778
+      ],
+      [
+       "a",
+       2.854,
+       2.929
+      ],
+      [
+       "été",
+       2.986,
+       3.156
+      ],
+      [
+       "franchi",
+       3.21,
+       3.609
+      ],
+      [
+       "en",
+       3.659,
+       3.76
+      ],
+      [
+       "novembre",
+       3.818,
+       4.288
+      ],
+      [
+       "2022,",
+       4.363,
+       5.194
+      ],
+      [
+       "selon",
+       5.244,
+       5.495
+      ],
+      [
+       "l'ONU.",
+       5.533,
+       6.552
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Par quoi commence presque toujours une chaîne alimentaire ?",
+    "choices": [
+     "Un décomposeur",
+     "Un végétal",
+     "Un herbivore",
+     "Un carnivore"
+    ],
+    "correct": 1
+   },
+   "answer": "Un végétal",
+   "level": "difficile",
+   "fact": "Les végétaux fabriquent leur propre matière grâce à la lumière : ce sont des producteurs.",
+   "subject": "Sciences",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/19-q.mp3",
+     "sec": 3.322018,
+     "text": "Par quoi commence presque toujours une chaîne alimentaire ?",
+     "words": [
+      [
+       "Par",
+       0.051,
+       0.074
+      ],
+      [
+       "quoi",
+       0.134,
+       0.376
+      ],
+      [
+       "commence",
+       0.426,
+       0.828
+      ],
+      [
+       "presque",
+       0.874,
+       1.206
+      ],
+      [
+       "toujours",
+       1.29,
+       1.96
+      ],
+      [
+       "une",
+       2.036,
+       2.262
+      ],
+      [
+       "chaîne",
+       2.319,
+       2.564
+      ],
+      [
+       "alimentaire",
+       2.611,
+       3.243
+      ],
+      [
+       "?",
+       3.281,
+       3.319
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/19-a.mp3",
+     "sec": 2.514671,
+     "text": "La bonne réponse, c'est Un végétal.",
+     "words": [
+      [
+       "La",
+       0.047,
+       0.097
+      ],
+      [
+       "bonne",
+       0.135,
+       0.323
+      ],
+      [
+       "réponse,",
+       0.38,
+       0.852
+      ],
+      [
+       "c'est",
+       0.889,
+       1.078
+      ],
+      [
+       "Un",
+       1.255,
+       1.606
+      ],
+      [
+       "végétal.",
+       1.682,
+       2.512
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/19-f.mp3",
+     "sec": 6.690839,
+     "text": "Petit bonus : Les végétaux fabriquent leur propre matière grâce à la lumière : ce sont des producteurs.",
+     "words": [
+      [
+       "Petit",
+       0.092,
+       0.112
+      ],
+      [
+       "bonus",
+       0.2,
+       0.641
+      ],
+      [
+       ":",
+       0.829,
+       1.018
+      ],
+      [
+       "Les",
+       1.075,
+       1.245
+      ],
+      [
+       "végétaux",
+       1.282,
+       1.773
+      ],
+      [
+       "fabriquent",
+       1.829,
+       2.226
+      ],
+      [
+       "leur",
+       2.256,
+       2.377
+      ],
+      [
+       "propre",
+       2.452,
+       2.905
+      ],
+      [
+       "matière",
+       2.98,
+       3.509
+      ],
+      [
+       "grâce",
+       3.559,
+       3.811
+      ],
+      [
+       "à",
+       3.848,
+       3.886
+      ],
+      [
+       "la",
+       3.936,
+       4.037
+      ],
+      [
+       "lumière",
+       4.075,
+       4.565
+      ],
+      [
+       ":",
+       4.829,
+       5.094
+      ],
+      [
+       "ce",
+       5.144,
+       5.245
+      ],
+      [
+       "sont",
+       5.305,
+       5.546
+      ],
+      [
+       "des",
+       5.603,
+       5.773
+      ],
+      [
+       "producteurs.",
+       5.829,
+       6.678
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel texte de 1989 protège les droits des enfants dans le monde ?",
+    "choices": [
+     "La Charte olympique",
+     "La Déclaration des droits de l'homme",
+     "La Convention des droits de l'enfant",
+     "Le Code civil"
+    ],
+    "correct": 2
+   },
+   "answer": "La Convention des droits de l'enfant",
+   "level": "difficile",
+   "fact": "Adoptée par l'ONU le 20 novembre 1989, elle est célébrée chaque année à cette date.",
+   "subject": "EMC",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/20-q.mp3",
+     "sec": 4.632608,
+     "text": "Quel texte de 1989 protège les droits des enfants dans le monde ?",
+     "words": [
+      [
+       "Quel",
+       0.011,
+       0.173
+      ],
+      [
+       "texte",
+       0.26,
+       0.701
+      ],
+      [
+       "de",
+       0.751,
+       0.852
+      ],
+      [
+       "1989",
+       0.927,
+       2.21
+      ],
+      [
+       "protège",
+       2.331,
+       2.965
+      ],
+      [
+       "les",
+       3.003,
+       3.116
+      ],
+      [
+       "droits",
+       3.148,
+       3.343
+      ],
+      [
+       "des",
+       3.38,
+       3.493
+      ],
+      [
+       "enfants",
+       3.541,
+       3.871
+      ],
+      [
+       "dans",
+       3.901,
+       4.022
+      ],
+      [
+       "le",
+       4.047,
+       4.097
+      ],
+      [
+       "monde",
+       4.16,
+       4.475
+      ],
+      [
+       "?",
+       4.55,
+       4.626
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/20-a.mp3",
+     "sec": 2.185193,
+     "text": "La Convention des droits de l'enfant, évidemment !",
+     "words": [
+      [
+       "La",
+       0.115,
+       0.14
+      ],
+      [
+       "Convention",
+       0.195,
+       0.744
+      ],
+      [
+       "des",
+       0.782,
+       0.895
+      ],
+      [
+       "droits",
+       0.927,
+       1.121
+      ],
+      [
+       "de",
+       1.133,
+       1.159
+      ],
+      [
+       "l'enfant,",
+       1.178,
+       1.574
+      ],
+      [
+       "évidemment",
+       1.612,
+       2.027
+      ],
+      [
+       "!",
+       2.102,
+       2.178
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/20-f.mp3",
+     "sec": 6.401066,
+     "text": "Au passage, Adoptée par l'ONU le 20 novembre 1989, elle est célébrée chaque année à cette date.",
+     "words": [
+      [
+       "Au",
+       0.041,
+       0.05
+      ],
+      [
+       "passage,",
+       0.106,
+       0.805
+      ],
+      [
+       "Adoptée",
+       0.868,
+       1.257
+      ],
+      [
+       "par",
+       1.295,
+       1.408
+      ],
+      [
+       "l'ONU",
+       1.446,
+       1.786
+      ],
+      [
+       "le",
+       1.836,
+       1.937
+      ],
+      [
+       "20",
+       2.012,
+       2.163
+      ],
+      [
+       "novembre",
+       2.213,
+       2.616
+      ],
+      [
+       "1989,",
+       2.691,
+       4.276
+      ],
+      [
+       "elle",
+       4.306,
+       4.427
+      ],
+      [
+       "est",
+       4.465,
+       4.578
+      ],
+      [
+       "célébrée",
+       4.616,
+       5.106
+      ],
+      [
+       "chaque",
+       5.139,
+       5.333
+      ],
+      [
+       "année",
+       5.371,
+       5.559
+      ],
+      [
+       "à",
+       5.635,
+       5.71
+      ],
+      [
+       "cette",
+       5.748,
+       5.937
+      ],
+      [
+       "date.",
+       6.012,
+       6.389
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle invention marque la fin de la Préhistoire ?",
+    "choices": [
+     "L'écriture",
+     "L'imprimerie",
+     "Le feu",
+     "La roue"
+    ],
+    "correct": 0
+   },
+   "answer": "L'écriture",
+   "level": "difficile",
+   "fact": "Les plus anciennes traces d'écriture ont été trouvées en Mésopotamie, vers 3300 avant J.-C.",
+   "subject": "Histoire",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/21-q.mp3",
+     "sec": 4.117982,
+     "text": "Question suivante. Quelle invention marque la fin de la Préhistoire ?",
+     "words": [
+      [
+       "Question",
+       0.158,
+       0.198
+      ],
+      [
+       "suivante.",
+       0.244,
+       0.727
+      ],
+      [
+       "Quelle",
+       0.852,
+       1.18
+      ],
+      [
+       "invention",
+       1.232,
+       1.708
+      ],
+      [
+       "marque",
+       1.762,
+       2.085
+      ],
+      [
+       "la",
+       2.135,
+       2.236
+      ],
+      [
+       "fin",
+       2.312,
+       2.538
+      ],
+      [
+       "de",
+       2.564,
+       2.614
+      ],
+      [
+       "la",
+       2.639,
+       2.689
+      ],
+      [
+       "Préhistoire",
+       2.739,
+       3.519
+      ],
+      [
+       "?",
+       3.821,
+       4.123
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/21-a.mp3",
+     "sec": 1.344898,
+     "text": "L'écriture, évidemment !",
+     "words": [
+      [
+       "L'écriture,",
+       0.185,
+       0.736
+      ],
+      [
+       "évidemment",
+       0.774,
+       1.189
+      ],
+      [
+       "!",
+       1.265,
+       1.34
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/21-f.mp3",
+     "sec": 6.872721,
+     "text": "Détail amusant : Les plus anciennes traces d'écriture ont été trouvées en Mésopotamie, vers 3300 avant J.-C.",
+     "words": [
+      [
+       "Détail",
+       0.068,
+       0.225
+      ],
+      [
+       "amusant",
+       0.301,
+       0.678
+      ],
+      [
+       ":",
+       0.829,
+       0.98
+      ],
+      [
+       "Les",
+       1.018,
+       1.131
+      ],
+      [
+       "plus",
+       1.161,
+       1.282
+      ],
+      [
+       "anciennes",
+       1.332,
+       1.659
+      ],
+      [
+       "traces",
+       1.703,
+       1.961
+      ],
+      [
+       "d'écriture",
+       1.98,
+       2.565
+      ],
+      [
+       "ont",
+       2.622,
+       2.791
+      ],
+      [
+       "été",
+       2.848,
+       3.018
+      ],
+      [
+       "trouvées",
+       3.063,
+       3.395
+      ],
+      [
+       "en",
+       3.421,
+       3.471
+      ],
+      [
+       "Mésopotamie,",
+       3.546,
+       4.678
+      ],
+      [
+       "vers",
+       4.739,
+       4.98
+      ],
+      [
+       "3300",
+       5.395,
+       5.999
+      ],
+      [
+       "avant",
+       6.03,
+       6.188
+      ],
+      [
+       "J.-C.",
+       6.263,
+       6.867
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Qui fut le premier empereur romain ?",
+    "choices": [
+     "Romulus",
+     "Jules César",
+     "Auguste",
+     "Néron"
+    ],
+    "correct": 2
+   },
+   "answer": "Auguste",
+   "level": "difficile",
+   "fact": "Auguste, d'abord appelé Octave, devient empereur en 27 avant J.-C. Le mois d'août lui doit son nom.",
+   "subject": "Histoire",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/22-q.mp3",
+     "sec": 1.807392,
+     "text": "Qui fut le premier empereur romain ?",
+     "words": [
+      [
+       "Qui",
+       0.043,
+       0.066
+      ],
+      [
+       "fut",
+       0.141,
+       0.368
+      ],
+      [
+       "le",
+       0.418,
+       0.519
+      ],
+      [
+       "premier",
+       0.575,
+       0.971
+      ],
+      [
+       "empereur",
+       1.009,
+       1.349
+      ],
+      [
+       "romain",
+       1.405,
+       1.651
+      ],
+      [
+       "?",
+       1.726,
+       1.802
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/22-a.mp3",
+     "sec": 1.639955,
+     "text": "Auguste, évidemment !",
+     "words": [
+      [
+       "Auguste,",
+       0.357,
+       0.585
+      ],
+      [
+       "évidemment",
+       0.699,
+       1.189
+      ],
+      [
+       "!",
+       1.265,
+       1.34
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/22-f.mp3",
+     "sec": 8.385102,
+     "text": "Et pour la culture : Auguste, d'abord appelé Octave, devient empereur en 27 avant J.-C. Le mois d'août lui doit son nom.",
+     "words": [
+      [
+       "Et",
+       0.067,
+       0.075
+      ],
+      [
+       "pour",
+       0.106,
+       0.226
+      ],
+      [
+       "la",
+       0.252,
+       0.302
+      ],
+      [
+       "culture",
+       0.358,
+       0.755
+      ],
+      [
+       ":",
+       1.019,
+       1.283
+      ],
+      [
+       "Auguste,",
+       1.369,
+       2.038
+      ],
+      [
+       "d'abord",
+       2.075,
+       2.34
+      ],
+      [
+       "appelé",
+       2.39,
+       2.717
+      ],
+      [
+       "Octave,",
+       2.792,
+       3.547
+      ],
+      [
+       "devient",
+       3.585,
+       3.925
+      ],
+      [
+       "empereur",
+       3.962,
+       4.528
+      ],
+      [
+       "en",
+       4.578,
+       4.679
+      ],
+      [
+       "27",
+       4.755,
+       5.208
+      ],
+      [
+       "avant",
+       5.233,
+       5.358
+      ],
+      [
+       "J.-C.",
+       5.434,
+       6.038
+      ],
+      [
+       "Le",
+       6.29,
+       6.792
+      ],
+      [
+       "mois",
+       6.823,
+       6.943
+      ],
+      [
+       "d'août",
+       7.019,
+       7.472
+      ],
+      [
+       "lui",
+       7.528,
+       7.698
+      ],
+      [
+       "doit",
+       7.743,
+       7.925
+      ],
+      [
+       "son",
+       7.962,
+       8.075
+      ],
+      [
+       "nom.",
+       8.132,
+       8.377
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle la place publique au cœur d'une cité grecque ?",
+    "choices": [
+     "L'agora",
+     "Le gymnase",
+     "Le forum",
+     "L'acropole"
+    ],
+    "correct": 0
+   },
+   "answer": "L'agora",
+   "level": "difficile",
+   "fact": "À Rome, l'équivalent de l'agora s'appelle le forum.",
+   "subject": "Histoire",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/23-q.mp3",
+     "sec": 3.324785,
+     "text": "Comment s'appelle la place publique au cœur d'une cité grecque ?",
+     "words": [
+      [
+       "Comment",
+       0.249,
+       0.302
+      ],
+      [
+       "s'appelle",
+       0.34,
+       0.755
+      ],
+      [
+       "la",
+       0.78,
+       0.83
+      ],
+      [
+       "place",
+       0.893,
+       1.208
+      ],
+      [
+       "publique",
+       1.264,
+       1.66
+      ],
+      [
+       "au",
+       1.786,
+       2.038
+      ],
+      [
+       "cœur",
+       2.075,
+       2.34
+      ],
+      [
+       "d'une",
+       2.377,
+       2.491
+      ],
+      [
+       "cité",
+       2.547,
+       2.792
+      ],
+      [
+       "grecque",
+       2.83,
+       3.245
+      ],
+      [
+       "?",
+       3.283,
+       3.321
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/23-a.mp3",
+     "sec": 1.66424,
+     "text": "Réponse : L'agora !",
+     "words": [
+      [
+       "Réponse",
+       0.136,
+       0.525
+      ],
+      [
+       ":",
+       0.752,
+       0.978
+      ],
+      [
+       "L'agora",
+       1.054,
+       1.582
+      ],
+      [
+       "!",
+       1.62,
+       1.658
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/23-f.mp3",
+     "sec": 4.687392,
+     "text": "Et pour la culture : À Rome, l'équivalent de l'agora s'appelle le forum.",
+     "words": [
+      [
+       "Et",
+       0.067,
+       0.075
+      ],
+      [
+       "pour",
+       0.106,
+       0.226
+      ],
+      [
+       "la",
+       0.252,
+       0.302
+      ],
+      [
+       "culture",
+       0.368,
+       0.83
+      ],
+      [
+       ":",
+       1.094,
+       1.358
+      ],
+      [
+       "À",
+       1.396,
+       1.434
+      ],
+      [
+       "Rome,",
+       1.509,
+       2.113
+      ],
+      [
+       "l'équivalent",
+       2.151,
+       2.717
+      ],
+      [
+       "de",
+       2.742,
+       2.792
+      ],
+      [
+       "l'agora",
+       2.83,
+       3.321
+      ],
+      [
+       "s'appelle",
+       3.434,
+       3.849
+      ],
+      [
+       "le",
+       3.875,
+       3.925
+      ],
+      [
+       "forum.",
+       4.038,
+       4.679
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la classe grammaticale du mot « mais » ?",
+    "choices": [
+     "Une conjonction de coordination",
+     "Une préposition",
+     "Un pronom",
+     "Un adverbe"
+    ],
+    "correct": 0
+   },
+   "answer": "Une conjonction de coordination",
+   "level": "difficile",
+   "fact": "La phrase « Mais où est donc Ornicar ? » aide à retenir la liste traditionnelle des conjonctions.",
+   "subject": "Français",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/24-q.mp3",
+     "sec": 2.793968,
+     "text": "Quelle est la classe grammaticale du mot « mais » ?",
+     "words": [
+      [
+       "Quelle",
+       0.109,
+       0.151
+      ],
+      [
+       "est",
+       0.17,
+       0.226
+      ],
+      [
+       "la",
+       0.276,
+       0.377
+      ],
+      [
+       "classe",
+       0.421,
+       0.679
+      ],
+      [
+       "grammaticale",
+       0.717,
+       1.509
+      ],
+      [
+       "du",
+       1.61,
+       1.811
+      ],
+      [
+       "mot",
+       1.887,
+       2.113
+      ],
+      [
+       "«",
+       2.302,
+       2.491
+      ],
+      [
+       "mais",
+       2.521,
+       2.642
+      ],
+      [
+       "»",
+       2.717,
+       2.792
+      ],
+      [
+       "?",
+       2.792,
+       2.792
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/24-a.mp3",
+     "sec": 2.650136,
+     "text": "C'était Une conjonction de coordination.",
+     "words": [
+      [
+       "C'était",
+       0.34,
+       0.453
+      ],
+      [
+       "Une",
+       0.528,
+       0.755
+      ],
+      [
+       "conjonction",
+       0.83,
+       1.509
+      ],
+      [
+       "de",
+       1.559,
+       1.66
+      ],
+      [
+       "coordination.",
+       1.73,
+       2.642
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/24-f.mp3",
+     "sec": 5.664558,
+     "text": "Tu savais ? La phrase « Mais où est donc Ornicar ? » aide à retenir la liste traditionnelle des conjonctions.",
+     "words": [
+      [
+       "Tu",
+       0.059,
+       0.067
+      ],
+      [
+       "savais",
+       0.105,
+       0.369
+      ],
+      [
+       "?",
+       0.596,
+       0.822
+      ],
+      [
+       "La",
+       0.847,
+       0.897
+      ],
+      [
+       "phrase",
+       0.963,
+       1.35
+      ],
+      [
+       "«",
+       1.426,
+       1.501
+      ],
+      [
+       "Mais",
+       1.531,
+       1.652
+      ],
+      [
+       "où",
+       1.702,
+       1.803
+      ],
+      [
+       "est",
+       1.822,
+       1.879
+      ],
+      [
+       "donc",
+       1.909,
+       2.03
+      ],
+      [
+       "Ornicar",
+       2.08,
+       2.633
+      ],
+      [
+       "?",
+       2.784,
+       2.935
+      ],
+      [
+       "»",
+       2.973,
+       3.011
+      ],
+      [
+       "aide",
+       3.026,
+       3.086
+      ],
+      [
+       "à",
+       3.162,
+       3.237
+      ],
+      [
+       "retenir",
+       3.287,
+       3.614
+      ],
+      [
+       "la",
+       3.664,
+       3.765
+      ],
+      [
+       "liste",
+       3.815,
+       4.067
+      ],
+      [
+       "traditionnelle",
+       4.128,
+       4.822
+      ],
+      [
+       "des",
+       4.86,
+       4.973
+      ],
+      [
+       "conjonctions.",
+       5.018,
+       5.652
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Lequel de ces pays ne fait pas partie du Royaume-Uni ?",
+    "choices": [
+     "L'Écosse",
+     "L'Angleterre",
+     "La république d'Irlande",
+     "Le pays de Galles"
+    ],
+    "correct": 2
+   },
+   "answer": "La république d'Irlande",
+   "level": "difficile",
+   "fact": "Le Royaume-Uni réunit l'Angleterre, l'Écosse, le pays de Galles et l'Irlande du Nord.",
+   "subject": "Anglais",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/25-q.mp3",
+     "sec": 4.453741,
+     "text": "On continue. Lequel de ces pays ne fait pas partie du Royaume-Uni ?",
+     "words": [
+      [
+       "On",
+       0.065,
+       0.075
+      ],
+      [
+       "continue.",
+       0.117,
+       0.528
+      ],
+      [
+       "Lequel",
+       0.755,
+       1.434
+      ],
+      [
+       "de",
+       1.459,
+       1.509
+      ],
+      [
+       "ces",
+       1.547,
+       1.66
+      ],
+      [
+       "pays",
+       1.721,
+       1.962
+      ],
+      [
+       "ne",
+       2.088,
+       2.34
+      ],
+      [
+       "fait",
+       2.4,
+       2.642
+      ],
+      [
+       "pas",
+       2.679,
+       2.792
+      ],
+      [
+       "partie",
+       2.846,
+       3.17
+      ],
+      [
+       "du",
+       3.22,
+       3.321
+      ],
+      [
+       "Royaume-Uni",
+       3.377,
+       3.925
+      ],
+      [
+       "?",
+       4,
+       4.075
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/25-a.mp3",
+     "sec": 2.273719,
+     "text": "C'était La république d'Irlande.",
+     "words": [
+      [
+       "C'était",
+       0.137,
+       0.524
+      ],
+      [
+       "La",
+       0.675,
+       0.977
+      ],
+      [
+       "république",
+       1.078,
+       1.581
+      ],
+      [
+       "d'Irlande.",
+       1.619,
+       2.26
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/25-f.mp3",
+     "sec": 6.65678,
+     "text": "Petit bonus : Le Royaume-Uni réunit l'Angleterre, l'Écosse, le pays de Galles et l'Irlande du Nord.",
+     "words": [
+      [
+       "Petit",
+       0.195,
+       0.226
+      ],
+      [
+       "bonus",
+       0.314,
+       0.755
+      ],
+      [
+       ":",
+       0.943,
+       1.132
+      ],
+      [
+       "Le",
+       1.182,
+       1.283
+      ],
+      [
+       "Royaume-Uni",
+       1.358,
+       1.962
+      ],
+      [
+       "réunit",
+       2.063,
+       2.566
+      ],
+      [
+       "l'Angleterre,",
+       2.604,
+       3.547
+      ],
+      [
+       "l'Écosse,",
+       3.585,
+       4.302
+      ],
+      [
+       "le",
+       4.352,
+       4.453
+      ],
+      [
+       "pays",
+       4.498,
+       4.679
+      ],
+      [
+       "de",
+       4.705,
+       4.755
+      ],
+      [
+       "Galles",
+       4.811,
+       5.132
+      ],
+      [
+       "et",
+       5.258,
+       5.509
+      ],
+      [
+       "l'Irlande",
+       5.547,
+       6.038
+      ],
+      [
+       "du",
+       6.063,
+       6.113
+      ],
+      [
+       "Nord.",
+       6.189,
+       6.642
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « un bijou » ?",
+    "choices": [
+     "Des bijoux",
+     "Des bijouxs",
+     "Des bijous",
+     "Des bijoues"
+    ],
+    "correct": 0
+   },
+   "answer": "Des bijoux",
+   "level": "difficile",
+   "fact": "Sept noms en -ou prennent un x : bijou, caillou, chou, genou, hibou, joujou et pou.",
+   "subject": "Français",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/26-q.mp3",
+     "sec": 4.692562,
+     "text": "Réfléchis bien avant de répondre. Quel est le pluriel de « un bijou » ?",
+     "words": [
+      [
+       "Réfléchis",
+       0.151,
+       0.604
+      ],
+      [
+       "bien",
+       0.634,
+       0.755
+      ],
+      [
+       "avant",
+       0.792,
+       0.981
+      ],
+      [
+       "de",
+       1.031,
+       1.132
+      ],
+      [
+       "répondre.",
+       1.186,
+       1.66
+      ],
+      [
+       "Quel",
+       1.837,
+       2.34
+      ],
+      [
+       "est",
+       2.358,
+       2.415
+      ],
+      [
+       "le",
+       2.465,
+       2.566
+      ],
+      [
+       "pluriel",
+       2.592,
+       3.17
+      ],
+      [
+       "de",
+       3.295,
+       3.547
+      ],
+      [
+       "«",
+       3.66,
+       3.774
+      ],
+      [
+       "un",
+       3.824,
+       3.925
+      ],
+      [
+       "bijou",
+       4.038,
+       4.527
+      ],
+      [
+       "»",
+       4.528,
+       4.529
+      ],
+      [
+       "?",
+       4.604,
+       4.679
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/26-a.mp3",
+     "sec": 2.289524,
+     "text": "Bravo si tu avais dit Des bijoux.",
+     "words": [
+      [
+       "Bravo",
+       0.377,
+       0.472
+      ],
+      [
+       "si",
+       0.547,
+       0.698
+      ],
+      [
+       "tu",
+       0.748,
+       0.849
+      ],
+      [
+       "avais",
+       0.874,
+       1.075
+      ],
+      [
+       "dit",
+       1.132,
+       1.302
+      ],
+      [
+       "Des",
+       1.396,
+       1.679
+      ],
+      [
+       "bijoux.",
+       1.774,
+       2.283
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/26-f.mp3",
+     "sec": 9.194467,
+     "text": "Tu savais ? Sept noms en -ou prennent un x : bijou, caillou, chou, genou, hibou, joujou et pou.",
+     "words": [
+      [
+       "Tu",
+       0.049,
+       0.057
+      ],
+      [
+       "savais",
+       0.114,
+       0.359
+      ],
+      [
+       "?",
+       0.699,
+       1.038
+      ],
+      [
+       "Sept",
+       1.099,
+       1.34
+      ],
+      [
+       "noms",
+       1.378,
+       1.642
+      ],
+      [
+       "en",
+       1.692,
+       1.793
+      ],
+      [
+       "-ou",
+       1.869,
+       2.095
+      ],
+      [
+       "prennent",
+       2.208,
+       2.699
+      ],
+      [
+       "un",
+       2.749,
+       2.85
+      ],
+      [
+       "x",
+       3.076,
+       3.303
+      ],
+      [
+       ":",
+       3.642,
+       3.982
+      ],
+      [
+       "bijou,",
+       4.057,
+       4.737
+      ],
+      [
+       "caillou,",
+       4.787,
+       5.491
+      ],
+      [
+       "chou,",
+       5.567,
+       6.171
+      ],
+      [
+       "genou,",
+       6.265,
+       7.001
+      ],
+      [
+       "hibou,",
+       7.038,
+       7.755
+      ],
+      [
+       "joujou",
+       7.831,
+       8.284
+      ],
+      [
+       "et",
+       8.485,
+       8.888
+      ],
+      [
+       "pou.",
+       8.925,
+       9.189
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien font 25 % de 80 ?",
+    "choices": [
+     "25",
+     "40",
+     "16",
+     "20"
+    ],
+    "correct": 3
+   },
+   "answer": "20",
+   "level": "difficile",
+   "fact": "Prendre 25 % d'un nombre, c'est tout simplement le diviser par 4.",
+   "subject": "Maths",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/27-q.mp3",
+     "sec": 3.62771,
+     "text": "On continue. Combien font 25 % de 80 ?",
+     "words": [
+      [
+       "On",
+       0.065,
+       0.075
+      ],
+      [
+       "continue.",
+       0.125,
+       0.604
+      ],
+      [
+       "Combien",
+       0.755,
+       1.509
+      ],
+      [
+       "font",
+       1.6,
+       1.962
+      ],
+      [
+       "25",
+       2.038,
+       2.415
+      ],
+      [
+       "%",
+       2.604,
+       2.792
+      ],
+      [
+       "de",
+       2.842,
+       2.943
+      ],
+      [
+       "80",
+       3.019,
+       3.547
+      ],
+      [
+       "?",
+       3.585,
+       3.623
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/27-a.mp3",
+     "sec": 0.739887,
+     "text": "C'était 20.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.302
+      ],
+      [
+       "20.",
+       0.377,
+       0.906
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/27-f.mp3",
+     "sec": 5.677211,
+     "text": "Détail amusant : Prendre 25 % d'un nombre, c'est tout simplement le diviser par 4.",
+     "words": [
+      [
+       "Détail",
+       0.143,
+       0.377
+      ],
+      [
+       "amusant",
+       0.427,
+       0.83
+      ],
+      [
+       ":",
+       1.094,
+       1.358
+      ],
+      [
+       "Prendre",
+       1.396,
+       1.811
+      ],
+      [
+       "25",
+       1.887,
+       2.34
+      ],
+      [
+       "%",
+       2.491,
+       2.642
+      ],
+      [
+       "d'un",
+       2.679,
+       2.792
+      ],
+      [
+       "nombre,",
+       2.846,
+       3.547
+      ],
+      [
+       "c'est",
+       3.585,
+       3.698
+      ],
+      [
+       "tout",
+       3.728,
+       3.849
+      ],
+      [
+       "simplement",
+       3.891,
+       4.302
+      ],
+      [
+       "le",
+       4.327,
+       4.377
+      ],
+      [
+       "diviser",
+       4.434,
+       4.906
+      ],
+      [
+       "par",
+       4.943,
+       5.057
+      ],
+      [
+       "4.",
+       5.208,
+       5.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le pluriel de « child » ?",
+    "choices": [
+     "Childes",
+     "Childrens",
+     "Children",
+     "Childs"
+    ],
+    "correct": 2
+   },
+   "answer": "Children",
+   "level": "difficile",
+   "fact": "Autres pluriels irréguliers à connaître : man, men ; foot, feet ; mouse, mice.",
+   "subject": "Anglais",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/28-q.mp3",
+     "sec": 1.817483,
+     "text": "Quel est le pluriel de « child » ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.17,
+       0.226
+      ],
+      [
+       "le",
+       0.302,
+       0.453
+      ],
+      [
+       "pluriel",
+       0.478,
+       0.906
+      ],
+      [
+       "de",
+       0.956,
+       1.057
+      ],
+      [
+       "«",
+       1.132,
+       1.208
+      ],
+      [
+       "child",
+       1.283,
+       1.659
+      ],
+      [
+       "»",
+       1.66,
+       1.661
+      ],
+      [
+       "?",
+       1.736,
+       1.811
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/28-a.mp3",
+     "sec": 1.262109,
+     "text": "C'était Children.",
+     "words": [
+      [
+       "C'était",
+       0.009,
+       0.273
+      ],
+      [
+       "Children.",
+       0.366,
+       1.254
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/28-f.mp3",
+     "sec": 9.301519,
+     "text": "Au passage, Autres pluriels irréguliers à connaître : man, men ; foot, feet ; mouse, mice.",
+     "words": [
+      [
+       "Au",
+       0.067,
+       0.075
+      ],
+      [
+       "passage,",
+       0.142,
+       0.679
+      ],
+      [
+       "Autres",
+       0.792,
+       1.208
+      ],
+      [
+       "pluriels",
+       1.283,
+       1.811
+      ],
+      [
+       "irréguliers",
+       1.868,
+       2.415
+      ],
+      [
+       "à",
+       2.453,
+       2.491
+      ],
+      [
+       "connaître",
+       2.528,
+       3.019
+      ],
+      [
+       ":",
+       3.321,
+       3.623
+      ],
+      [
+       "man,",
+       3.736,
+       4.453
+      ],
+      [
+       "men",
+       4.547,
+       4.83
+      ],
+      [
+       ";",
+       5.208,
+       5.585
+      ],
+      [
+       "foot,",
+       5.675,
+       6.415
+      ],
+      [
+       "feet",
+       6.506,
+       6.868
+      ],
+      [
+       ";",
+       7.283,
+       7.698
+      ],
+      [
+       "mouse,",
+       7.786,
+       8.302
+      ],
+      [
+       "mice.",
+       8.483,
+       9.283
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on un quartier pauvre fait d'habitations précaires ?",
+    "choices": [
+     "Une zone pavillonnaire",
+     "Un bidonville",
+     "Un centre d'affaires",
+     "Un écoquartier"
+    ],
+    "correct": 1
+   },
+   "answer": "Un bidonville",
+   "level": "difficile",
+   "fact": "Le mot vient des bidons de métal utilisés pour construire les premiers abris.",
+   "subject": "Géographie",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/29-q.mp3",
+     "sec": 3.852789,
+     "text": "Comment appelle-t-on un quartier pauvre fait d'habitations précaires ?",
+     "words": [
+      [
+       "Comment",
+       0.249,
+       0.302
+      ],
+      [
+       "appelle-t-on",
+       0.34,
+       0.906
+      ],
+      [
+       "un",
+       0.956,
+       1.057
+      ],
+      [
+       "quartier",
+       1.107,
+       1.434
+      ],
+      [
+       "pauvre",
+       1.509,
+       1.962
+      ],
+      [
+       "fait",
+       2.053,
+       2.415
+      ],
+      [
+       "d'habitations",
+       2.453,
+       3.019
+      ],
+      [
+       "précaires",
+       3.094,
+       3.698
+      ],
+      [
+       "?",
+       3.774,
+       3.849
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/29-a.mp3",
+     "sec": 2.323673,
+     "text": "Bravo si tu avais dit Un bidonville.",
+     "words": [
+      [
+       "Bravo",
+       0.276,
+       0.354
+      ],
+      [
+       "si",
+       0.429,
+       0.58
+      ],
+      [
+       "tu",
+       0.63,
+       0.731
+      ],
+      [
+       "avais",
+       0.757,
+       0.958
+      ],
+      [
+       "dit",
+       1.014,
+       1.184
+      ],
+      [
+       "Un",
+       1.335,
+       1.637
+      ],
+      [
+       "bidonville.",
+       1.693,
+       2.316
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/29-f.mp3",
+     "sec": 5.51542,
+     "text": "Détail amusant : Le mot vient des bidons de métal utilisés pour construire les premiers abris.",
+     "words": [
+      [
+       "Détail",
+       0.069,
+       0.302
+      ],
+      [
+       "amusant",
+       0.352,
+       0.679
+      ],
+      [
+       ":",
+       0.906,
+       1.132
+      ],
+      [
+       "Le",
+       1.182,
+       1.283
+      ],
+      [
+       "mot",
+       1.34,
+       1.509
+      ],
+      [
+       "vient",
+       1.547,
+       1.736
+      ],
+      [
+       "des",
+       1.792,
+       1.962
+      ],
+      [
+       "bidons",
+       2.019,
+       2.34
+      ],
+      [
+       "de",
+       2.365,
+       2.415
+      ],
+      [
+       "métal",
+       2.491,
+       2.943
+      ],
+      [
+       "utilisés",
+       3.041,
+       3.698
+      ],
+      [
+       "pour",
+       3.743,
+       3.925
+      ],
+      [
+       "construire",
+       3.978,
+       4.528
+      ],
+      [
+       "les",
+       4.566,
+       4.679
+      ],
+      [
+       "premiers",
+       4.725,
+       5.057
+      ],
+      [
+       "abris.",
+       5.107,
+       5.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel grand changement apparaît au Néolithique ?",
+    "choices": [
+     "L'agriculture et l'élevage",
+     "La maîtrise du feu",
+     "Le travail du fer",
+     "L'écriture"
+    ],
+    "correct": 0
+   },
+   "answer": "L'agriculture et l'élevage",
+   "level": "difficile",
+   "fact": "En cultivant et en élevant des animaux, les humains deviennent sédentaires et bâtissent des villages.",
+   "subject": "Histoire",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/30-q.mp3",
+     "sec": 3.660431,
+     "text": "On continue. Quel grand changement apparaît au Néolithique ?",
+     "words": [
+      [
+       "On",
+       0.026,
+       0.037
+      ],
+      [
+       "continue.",
+       0.087,
+       0.565
+      ],
+      [
+       "Quel",
+       0.867,
+       1.546
+      ],
+      [
+       "grand",
+       1.596,
+       1.848
+      ],
+      [
+       "changement",
+       1.898,
+       2.376
+      ],
+      [
+       "apparaît",
+       2.433,
+       2.829
+      ],
+      [
+       "au",
+       2.855,
+       2.905
+      ],
+      [
+       "Néolithique",
+       2.942,
+       3.584
+      ],
+      [
+       "?",
+       3.622,
+       3.659
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/30-a.mp3",
+     "sec": 2.353175,
+     "text": "C'était L'agriculture et l'élevage.",
+     "words": [
+      [
+       "C'était",
+       0.34,
+       0.453
+      ],
+      [
+       "L'agriculture",
+       0.528,
+       1.358
+      ],
+      [
+       "et",
+       1.459,
+       1.66
+      ],
+      [
+       "l'élevage.",
+       1.698,
+       2.34
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/30-f.mp3",
+     "sec": 6.717551,
+     "text": "Tu savais ? En cultivant et en élevant des animaux, les humains deviennent sédentaires et bâtissent des villages.",
+     "words": [
+      [
+       "Tu",
+       0.067,
+       0.075
+      ],
+      [
+       "savais",
+       0.132,
+       0.453
+      ],
+      [
+       "?",
+       0.792,
+       1.132
+      ],
+      [
+       "En",
+       1.158,
+       1.208
+      ],
+      [
+       "cultivant",
+       1.273,
+       1.811
+      ],
+      [
+       "et",
+       1.837,
+       1.887
+      ],
+      [
+       "en",
+       1.937,
+       2.038
+      ],
+      [
+       "élevant",
+       2.113,
+       2.415
+      ],
+      [
+       "des",
+       2.453,
+       2.566
+      ],
+      [
+       "animaux,",
+       2.626,
+       3.321
+      ],
+      [
+       "les",
+       3.377,
+       3.547
+      ],
+      [
+       "humains",
+       3.604,
+       3.849
+      ],
+      [
+       "deviennent",
+       3.906,
+       4.377
+      ],
+      [
+       "sédentaires",
+       4.415,
+       5.132
+      ],
+      [
+       "et",
+       5.233,
+       5.434
+      ],
+      [
+       "bâtissent",
+       5.509,
+       5.887
+      ],
+      [
+       "des",
+       5.925,
+       6.038
+      ],
+      [
+       "villages.",
+       6.096,
+       6.717
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le passé simple de « venir » à la 3e personne du singulier ?",
+    "choices": [
+     "Il vena",
+     "Il venit",
+     "Il vint",
+     "Il viendra"
+    ],
+    "correct": 2
+   },
+   "answer": "Il vint",
+   "level": "impossible",
+   "fact": "Avec un accent circonflexe, « qu'il vînt » existe : c'est l'imparfait du subjonctif.",
+   "subject": "Français",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/31-q.mp3",
+     "sec": 6.192086,
+     "text": "Beaucoup se trompent ici. Quel est le passé simple de « venir » à la troisième personne du singulier ?",
+     "words": [
+      [
+       "Beaucoup",
+       0.065,
+       0.377
+      ],
+      [
+       "se",
+       0.427,
+       0.528
+      ],
+      [
+       "trompent",
+       0.574,
+       0.906
+      ],
+      [
+       "ici.",
+       0.981,
+       1.358
+      ],
+      [
+       "Quel",
+       1.509,
+       1.962
+      ],
+      [
+       "est",
+       1.981,
+       2.038
+      ],
+      [
+       "le",
+       2.088,
+       2.189
+      ],
+      [
+       "passé",
+       2.264,
+       2.642
+      ],
+      [
+       "simple",
+       2.717,
+       3.17
+      ],
+      [
+       "de",
+       3.245,
+       3.396
+      ],
+      [
+       "«",
+       3.547,
+       3.698
+      ],
+      [
+       "venir",
+       3.799,
+       4.302
+      ],
+      [
+       "»",
+       4.377,
+       4.453
+      ],
+      [
+       "à",
+       4.491,
+       4.528
+      ],
+      [
+       "la",
+       4.578,
+       4.679
+      ],
+      [
+       "troisième",
+       4.736,
+       5.132
+      ],
+      [
+       "personne",
+       5.174,
+       5.509
+      ],
+      [
+       "du",
+       5.535,
+       5.585
+      ],
+      [
+       "singulier",
+       5.645,
+       6.113
+      ],
+      [
+       "?",
+       6.151,
+       6.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/31-a.mp3",
+     "sec": 1.281156,
+     "text": "Eh oui : Il vint !",
+     "words": [
+      [
+       "Eh",
+       0.055,
+       0.067
+      ],
+      [
+       "oui",
+       0.142,
+       0.369
+      ],
+      [
+       ":",
+       0.52,
+       0.671
+      ],
+      [
+       "Il",
+       0.721,
+       0.822
+      ],
+      [
+       "vint",
+       0.897,
+       1.124
+      ],
+      [
+       "!",
+       1.199,
+       1.274
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/31-f.mp3",
+     "sec": 6.420748,
+     "text": "Tu savais ? Avec un accent circonflexe, « qu'il vînt » existe : c'est l'imparfait du subjonctif.",
+     "words": [
+      [
+       "Tu",
+       0.051,
+       0.068
+      ],
+      [
+       "savais",
+       0.124,
+       0.369
+      ],
+      [
+       "?",
+       0.52,
+       0.671
+      ],
+      [
+       "Avec",
+       0.717,
+       0.898
+      ],
+      [
+       "un",
+       0.923,
+       0.973
+      ],
+      [
+       "accent",
+       1.017,
+       1.275
+      ],
+      [
+       "circonflexe,",
+       1.313,
+       2.256
+      ],
+      [
+       "«",
+       2.275,
+       2.294
+      ],
+      [
+       "qu'il",
+       2.306,
+       2.558
+      ],
+      [
+       "vînt",
+       2.671,
+       2.86
+      ],
+      [
+       "»",
+       2.973,
+       3.086
+      ],
+      [
+       "existe",
+       3.172,
+       3.69
+      ],
+      [
+       ":",
+       3.917,
+       4.143
+      ],
+      [
+       "c'est",
+       4.181,
+       4.294
+      ],
+      [
+       "l'imparfait",
+       4.332,
+       4.822
+      ],
+      [
+       "du",
+       4.848,
+       4.898
+      ],
+      [
+       "subjonctif.",
+       4.973,
+       6.407
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel type d'énergie possède un objet en mouvement ?",
+    "choices": [
+     "L'énergie cinétique",
+     "L'énergie thermique",
+     "L'énergie chimique",
+     "L'énergie lumineuse"
+    ],
+    "correct": 0
+   },
+   "answer": "L'énergie cinétique",
+   "level": "impossible",
+   "fact": "Plus un objet est rapide et lourd, plus son énergie cinétique est grande.",
+   "subject": "Sciences",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/32-q.mp3",
+     "sec": 2.900658,
+     "text": "Quel type d'énergie possède un objet en mouvement ?",
+     "words": [
+      [
+       "Quel",
+       0.012,
+       0.097
+      ],
+      [
+       "type",
+       0.158,
+       0.399
+      ],
+      [
+       "d'énergie",
+       0.437,
+       1.003
+      ],
+      [
+       "possède",
+       1.079,
+       1.531
+      ],
+      [
+       "un",
+       1.581,
+       1.682
+      ],
+      [
+       "objet",
+       1.758,
+       2.135
+      ],
+      [
+       "en",
+       2.185,
+       2.286
+      ],
+      [
+       "mouvement",
+       2.343,
+       2.814
+      ],
+      [
+       "?",
+       2.852,
+       2.89
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/32-a.mp3",
+     "sec": 2.338299,
+     "text": "Réponse : L'énergie cinétique !",
+     "words": [
+      [
+       "Réponse",
+       0.196,
+       0.528
+      ],
+      [
+       ":",
+       0.755,
+       0.981
+      ],
+      [
+       "L'énergie",
+       1.019,
+       1.509
+      ],
+      [
+       "cinétique",
+       1.547,
+       2.189
+      ],
+      [
+       "!",
+       2.264,
+       2.34
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/32-f.mp3",
+     "sec": 5.895397,
+     "text": "Petit bonus : Plus un objet est rapide et lourd, plus son énergie cinétique est grande.",
+     "words": [
+      [
+       "Petit",
+       0.124,
+       0.156
+      ],
+      [
+       "bonus",
+       0.219,
+       0.533
+      ],
+      [
+       ":",
+       0.835,
+       1.137
+      ],
+      [
+       "Plus",
+       1.167,
+       1.288
+      ],
+      [
+       "un",
+       1.338,
+       1.439
+      ],
+      [
+       "objet",
+       1.489,
+       1.741
+      ],
+      [
+       "est",
+       1.778,
+       1.891
+      ],
+      [
+       "rapide",
+       1.957,
+       2.344
+      ],
+      [
+       "et",
+       2.42,
+       2.571
+      ],
+      [
+       "lourd,",
+       2.646,
+       3.476
+      ],
+      [
+       "plus",
+       3.522,
+       3.703
+      ],
+      [
+       "son",
+       3.741,
+       3.854
+      ],
+      [
+       "énergie",
+       3.929,
+       4.307
+      ],
+      [
+       "cinétique",
+       4.363,
+       4.91
+      ],
+      [
+       "est",
+       4.986,
+       5.212
+      ],
+      [
+       "grande.",
+       5.288,
+       5.891
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel phénomène est dû à l'inclinaison de l'axe de la Terre ?",
+    "choices": [
+     "Les éclipses",
+     "Les saisons",
+     "Le jour et la nuit",
+     "Les marées"
+    ],
+    "correct": 1
+   },
+   "answer": "Les saisons",
+   "level": "impossible",
+   "fact": "Les saisons ne dépendent pas de la distance au Soleil : début janvier, la Terre en est au plus près.",
+   "subject": "Sciences",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/33-q.mp3",
+     "sec": 3.557755,
+     "text": "Quel phénomène est dû à l'inclinaison de l'axe de la Terre ?",
+     "words": [
+      [
+       "Quel",
+       0.109,
+       0.151
+      ],
+      [
+       "phénomène",
+       0.201,
+       0.755
+      ],
+      [
+       "est",
+       0.849,
+       1.132
+      ],
+      [
+       "dû",
+       1.17,
+       1.283
+      ],
+      [
+       "à",
+       1.358,
+       1.434
+      ],
+      [
+       "l'inclinaison",
+       1.472,
+       2.189
+      ],
+      [
+       "de",
+       2.239,
+       2.34
+      ],
+      [
+       "l'axe",
+       2.377,
+       2.717
+      ],
+      [
+       "de",
+       2.767,
+       2.868
+      ],
+      [
+       "la",
+       2.893,
+       2.943
+      ],
+      [
+       "Terre",
+       3.019,
+       3.396
+      ],
+      [
+       "?",
+       3.472,
+       3.547
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/33-a.mp3",
+     "sec": 1.822653,
+     "text": "Eh oui : Les saisons !",
+     "words": [
+      [
+       "Eh",
+       0.07,
+       0.09
+      ],
+      [
+       "oui",
+       0.147,
+       0.317
+      ],
+      [
+       ":",
+       0.468,
+       0.618
+      ],
+      [
+       "Les",
+       0.675,
+       0.845
+      ],
+      [
+       "saisons",
+       0.92,
+       1.373
+      ],
+      [
+       "!",
+       1.411,
+       1.449
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/33-f.mp3",
+     "sec": 6.731474,
+     "text": "Et pour la culture : Les saisons ne dépendent pas de la distance au Soleil : début janvier, la Terre en est au plus près.",
+     "words": [
+      [
+       "Et",
+       0.067,
+       0.075
+      ],
+      [
+       "pour",
+       0.106,
+       0.226
+      ],
+      [
+       "la",
+       0.252,
+       0.302
+      ],
+      [
+       "culture",
+       0.377,
+       0.906
+      ],
+      [
+       ":",
+       1.094,
+       1.283
+      ],
+      [
+       "Les",
+       1.34,
+       1.509
+      ],
+      [
+       "saisons",
+       1.559,
+       1.887
+      ],
+      [
+       "ne",
+       1.937,
+       2.038
+      ],
+      [
+       "dépendent",
+       2.113,
+       2.491
+      ],
+      [
+       "pas",
+       2.528,
+       2.642
+      ],
+      [
+       "de",
+       2.667,
+       2.717
+      ],
+      [
+       "la",
+       2.767,
+       2.868
+      ],
+      [
+       "distance",
+       2.918,
+       3.321
+      ],
+      [
+       "au",
+       3.346,
+       3.396
+      ],
+      [
+       "Soleil",
+       3.457,
+       3.849
+      ],
+      [
+       ":",
+       4.113,
+       4.377
+      ],
+      [
+       "début",
+       4.415,
+       4.604
+      ],
+      [
+       "janvier,",
+       4.651,
+       5.283
+      ],
+      [
+       "la",
+       5.333,
+       5.434
+      ],
+      [
+       "Terre",
+       5.491,
+       5.736
+      ],
+      [
+       "en",
+       5.786,
+       5.887
+      ],
+      [
+       "est",
+       5.925,
+       6.038
+      ],
+      [
+       "au",
+       6.063,
+       6.113
+      ],
+      [
+       "plus",
+       6.158,
+       6.34
+      ],
+      [
+       "près.",
+       6.385,
+       6.717
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En quelle année disparaît l'Empire romain d'Occident ?",
+    "choices": [
+     "476",
+     "1492",
+     "800",
+     "1453"
+    ],
+    "correct": 0
+   },
+   "answer": "476",
+   "level": "impossible",
+   "fact": "L'Empire romain d'Orient, lui, survivra jusqu'en 1453 autour de Constantinople.",
+   "subject": "Histoire",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-24-classe-6e/34-q.mp3",
+     "sec": 2.720045,
+     "text": "En quelle année disparaît l'Empire romain d'Occident ?",
+     "words": [
+      [
+       "En",
+       0.131,
+       0.151
+      ],
+      [
+       "quelle",
+       0.183,
+       0.377
+      ],
+      [
+       "année",
+       0.415,
+       0.604
+      ],
+      [
+       "disparaît",
+       0.698,
+       1.283
+      ],
+      [
+       "l'Empire",
+       1.321,
+       1.736
+      ],
+      [
+       "romain",
+       1.792,
+       2.038
+      ],
+      [
+       "d'Occident",
+       2.075,
+       2.566
+      ],
+      [
+       "?",
+       2.642,
+       2.717
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-24-classe-6e/34-a.mp3",
+     "sec": 2.273719,
+     "text": "476, évidemment !",
+     "words": [
+      [
+       "476,",
+       0.679,
+       1.358
+      ],
+      [
+       "évidemment",
+       1.509,
+       2.113
+      ],
+      [
+       "!",
+       2.189,
+       2.264
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-24-classe-6e/34-f.mp3",
+     "sec": 7.329116,
+     "text": "Détail amusant : L'Empire romain d'Orient, lui, survivra jusqu'en 1453 autour de Constantinople.",
+     "words": [
+      [
+       "Détail",
+       0.069,
+       0.377
+      ],
+      [
+       "amusant",
+       0.427,
+       0.83
+      ],
+      [
+       ":",
+       0.981,
+       1.132
+      ],
+      [
+       "L'Empire",
+       1.17,
+       1.585
+      ],
+      [
+       "romain",
+       1.642,
+       1.887
+      ],
+      [
+       "d'Orient,",
+       1.925,
+       2.491
+      ],
+      [
+       "lui,",
+       2.547,
+       3.094
+      ],
+      [
+       "survivra",
+       3.148,
+       3.698
+      ],
+      [
+       "jusqu'en",
+       3.748,
+       4.151
+      ],
+      [
+       "1453",
+       4.226,
+       5.509
+      ],
+      [
+       "autour",
+       5.607,
+       6.189
+      ],
+      [
+       "de",
+       6.239,
+       6.34
+      ],
+      [
+       "Constantinople.",
+       6.394,
+       7.321
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Le programme de 6e en 35 questions, toutes matières confondues, avec une info à retenir après chaque réponse. Niveaux : 10 facile, 9 moyens, 12 difficiles, 4 impossible. 35 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com/quiz-du-jour/2026-11-24-classe-6e\n🔔 Pense à t'abonner, ça aide la chaîne.\n\n#quiz #classe6e #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n03:32 Niveau moyen\n06:59 Niveau difficile\n11:57 Niveau impossible\n13:49 Ton score\n14:01 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "classe 6e",
+   "quiz niveau 6e",
+   "as-tu le niveau 6e",
+   "quiz collège",
+   "programme de 6e",
+   "révision 6e",
+   "quiz toutes matières",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "As-tu le niveau",
+   "line2": "6e",
+   "emoji": "✏️",
+   "sticker": "5 SECONDES !",
+   "layouts": [
+    0,
+    2
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "3 secondes par question ⏱️ As-tu le NIVEAU 6e ? #Shorts",
+  "shortDescription": "Vidéo complète avec les 35 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "PERSONNE N'A TOUT BON",
+   "line": "prouve le contraire 😏"
+  },
+  "short2": {
+   "title": "Tu n'auras pas celle-là 🤯 As-tu le NIVEAU 6e ? #Shorts",
+   "description": "La réponse + 35 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "NIVEAU IMPOSSIBLE",
+   "line": "personne ne finit ce Short 😱"
+  },
+  "short3": {
+   "title": "8 questions, 3 secondes chacune ⏱️ As-tu le NIVEAU 6e ? #Shorts",
+   "description": "Tu veux la réponse ? Elle est dans la vidéo complète (35 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU TIENS ?",
+   "line": "le milieu fait mal 😅"
+  },
+  "social": {
+   "caption": "Seuls les vrais experts passent la 8e 😏 As-tu le NIVEAU 6e ?",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "classe6e",
+    "quizniveau6e"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 212.9,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 419.4,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 717.9,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 829.9333333333333,
+    "title": "Ton score"
+   },
+   {
+    "at": 841.1666666666666,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/9fe980eb29799124.mp3",
+   "sec": 1.897687,
+   "text": "Niveau facile. On s'échauffe !",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.302
+    ],
+    [
+     "facile.",
+     0.377,
+     1.019
+    ],
+    [
+     "On",
+     1.082,
+     1.208
+    ],
+    [
+     "s'échauffe",
+     1.283,
+     1.811
+    ],
+    [
+     "!",
+     1.849,
+     1.887
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/dd39c2bdca6b08b9.mp3",
+   "sec": 2.786054,
+   "text": "Niveau moyen. Attention, il y a des pièges.",
+   "words": [
+    [
+     "Niveau",
+     0.059,
+     0.218
+    ],
+    [
+     "moyen.",
+     0.293,
+     0.746
+    ],
+    [
+     "Attention,",
+     0.829,
+     1.652
+    ],
+    [
+     "il",
+     1.753,
+     1.954
+    ],
+    [
+     "y",
+     1.992,
+     2.029
+    ],
+    [
+     "a",
+     2.067,
+     2.105
+    ],
+    [
+     "des",
+     2.143,
+     2.256
+    ],
+    [
+     "pièges.",
+     2.312,
+     2.784
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/ca1313e1df6c785d.mp3",
+   "sec": 1.969546,
+   "text": "Niveau difficile. Accroche-toi !",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.302
+    ],
+    [
+     "difficile.",
+     0.362,
+     1.17
+    ],
+    [
+     "Accroche-toi",
+     1.236,
+     1.811
+    ],
+    [
+     "!",
+     1.887,
+     1.962
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/eb9d320715cf9f27.mp3",
+   "sec": 3.322834,
+   "text": "Niveau impossible. Même moi, je sèche sur certains.",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.453
+    ],
+    [
+     "impossible.",
+     0.535,
+     1.434
+    ],
+    [
+     "Même",
+     1.698,
+     2.113
+    ],
+    [
+     "moi,",
+     2.17,
+     2.34
+    ],
+    [
+     "je",
+     2.39,
+     2.491
+    ],
+    [
+     "sèche",
+     2.566,
+     2.792
+    ],
+    [
+     "sur",
+     2.83,
+     2.943
+    ],
+    [
+     "certains.",
+     2.985,
+     3.321
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/337535e57436b915.mp3",
+   "sec": 5.369025,
+   "text": "Compte tes points et écris ton score en commentaire : le meilleur score est félicité dès demain !",
+   "words": [
+    [
+     "Compte",
+     0.059,
+     0.221
+    ],
+    [
+     "tes",
+     0.24,
+     0.297
+    ],
+    [
+     "points",
+     0.351,
+     0.674
+    ],
+    [
+     "et",
+     0.75,
+     0.901
+    ],
+    [
+     "écris",
+     0.976,
+     1.278
+    ],
+    [
+     "ton",
+     1.297,
+     1.353
+    ],
+    [
+     "score",
+     1.417,
+     1.731
+    ],
+    [
+     "en",
+     1.781,
+     1.882
+    ],
+    [
+     "commentaire",
+     1.932,
+     2.485
+    ],
+    [
+     ":",
+     2.674,
+     2.863
+    ],
+    [
+     "le",
+     2.938,
+     3.089
+    ],
+    [
+     "meilleur",
+     3.115,
+     3.316
+    ],
+    [
+     "score",
+     3.391,
+     3.768
+    ],
+    [
+     "est",
+     3.844,
+     4.07
+    ],
+    [
+     "félicité",
+     4.12,
+     4.674
+    ],
+    [
+     "dès",
+     4.75,
+     4.976
+    ],
+    [
+     "demain",
+     5.014,
+     5.278
+    ],
+    [
+     "!",
+     5.316,
+     5.353
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/5cec8bd05b611852.mp3",
+   "sec": 2.635941,
+   "text": "Pas encore abonné ? Un clic, et tu ne rates plus rien.",
+   "words": [
+    [
+     "Pas",
+     0.039,
+     0.062
+    ],
+    [
+     "encore",
+     0.094,
+     0.288
+    ],
+    [
+     "abonné",
+     0.338,
+     0.666
+    ],
+    [
+     "?",
+     0.854,
+     1.043
+    ],
+    [
+     "Un",
+     1.093,
+     1.194
+    ],
+    [
+     "clic,",
+     1.254,
+     1.571
+    ],
+    [
+     "et",
+     1.621,
+     1.722
+    ],
+    [
+     "tu",
+     1.772,
+     1.873
+    ],
+    [
+     "ne",
+     1.899,
+     1.949
+    ],
+    [
+     "rates",
+     1.974,
+     2.099
+    ],
+    [
+     "plus",
+     2.13,
+     2.25
+    ],
+    [
+     "rien.",
+     2.311,
+     2.628
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/d40eeb5c30cabbde.mp3",
+   "sec": 3.446077,
+   "text": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure.",
+   "words": [
+    [
+     "Merci",
+     0.157,
+     0.231
+    ],
+    [
+     "d'avoir",
+     0.25,
+     0.495
+    ],
+    [
+     "joué.",
+     0.533,
+     0.797
+    ],
+    [
+     "Le",
+     0.922,
+     1.174
+    ],
+    [
+     "prochain",
+     1.212,
+     1.476
+    ],
+    [
+     "quiz",
+     1.567,
+     1.929
+    ],
+    [
+     "arrive",
+     1.983,
+     2.306
+    ],
+    [
+     "demain",
+     2.344,
+     2.608
+    ],
+    [
+     "à",
+     2.722,
+     2.835
+    ],
+    [
+     "la",
+     2.885,
+     2.986
+    ],
+    [
+     "même",
+     3.016,
+     3.137
+    ],
+    [
+     "heure.",
+     3.174,
+     3.438
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/b21218f9d44ba18a.mp3",
+   "sec": 4.109501,
+   "text": "Content de te revoir sur YouQwiz ! Aujourd'hui, tu vas apprendre un truc, promis !",
+   "words": [
+    [
+     "Content",
+     0.195,
+     0.248
+    ],
+    [
+     "de",
+     0.273,
+     0.323
+    ],
+    [
+     "te",
+     0.373,
+     0.474
+    ],
+    [
+     "revoir",
+     0.524,
+     0.776
+    ],
+    [
+     "sur",
+     0.833,
+     1.003
+    ],
+    [
+     "YouQwiz",
+     1.04,
+     1.456
+    ],
+    [
+     "!",
+     1.682,
+     1.908
+    ],
+    [
+     "Aujourd'hui,",
+     1.946,
+     2.512
+    ],
+    [
+     "tu",
+     2.562,
+     2.663
+    ],
+    [
+     "vas",
+     2.701,
+     2.814
+    ],
+    [
+     "apprendre",
+     2.852,
+     3.116
+    ],
+    [
+     "un",
+     3.141,
+     3.191
+    ],
+    [
+     "truc,",
+     3.241,
+     3.72
+    ],
+    [
+     "promis",
+     3.765,
+     4.022
+    ],
+    [
+     "!",
+     4.059,
+     4.097
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-24-classe-6e/intro.mp3",
+   "sec": 3.625896,
+   "text": "As-tu le Niveau sixième  ! Allez, montre-moi ce que tu vaux !",
+   "words": [
+    [
+     "As-tu",
+     0.056,
+     0.292
+    ],
+    [
+     "le",
+     0.342,
+     0.443
+    ],
+    [
+     "Niveau",
+     0.481,
+     0.745
+    ],
+    [
+     "sixième",
+     0.821,
+     1.424
+    ],
+    [
+     "!",
+     1.764,
+     1.877
+    ],
+    [
+     "Allez,",
+     1.903,
+     2.406
+    ],
+    [
+     "montre-moi",
+     2.451,
+     2.934
+    ],
+    [
+     "ce",
+     2.984,
+     3.085
+    ],
+    [
+     "que",
+     3.123,
+     3.236
+    ],
+    [
+     "tu",
+     3.286,
+     3.387
+    ],
+    [
+     "vaux",
+     3.412,
+     3.538
+    ],
+    [
+     "!",
+     3.575,
+     3.613
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/14d1c20211c61508.mp3",
+   "sec": 7.25424,
+   "text": "Teste tes amis : qui te connaît vraiment ? Crée ton quiz perso en deux minutes, gratuit, sur youqwiz point com.",
+   "words": [
+    [
+     "Teste",
+     0.191,
+     0.302
+    ],
+    [
+     "tes",
+     0.34,
+     0.453
+    ],
+    [
+     "amis",
+     0.513,
+     0.755
+    ],
+    [
+     ":",
+     0.943,
+     1.132
+    ],
+    [
+     "qui",
+     1.189,
+     1.358
+    ],
+    [
+     "te",
+     1.459,
+     1.66
+    ],
+    [
+     "connaît",
+     1.698,
+     2.038
+    ],
+    [
+     "vraiment",
+     2.079,
+     2.415
+    ],
+    [
+     "?",
+     2.755,
+     3.094
+    ],
+    [
+     "Crée",
+     3.12,
+     3.321
+    ],
+    [
+     "ton",
+     3.377,
+     3.547
+    ],
+    [
+     "quiz",
+     3.608,
+     3.849
+    ],
+    [
+     "perso",
+     3.937,
+     4.377
+    ],
+    [
+     "en",
+     4.453,
+     4.604
+    ],
+    [
+     "deux",
+     4.634,
+     4.755
+    ],
+    [
+     "minutes,",
+     4.792,
+     5.283
+    ],
+    [
+     "gratuit,",
+     5.34,
+     5.962
+    ],
+    [
+     "sur",
+     6.019,
+     6.189
+    ],
+    [
+     "youqwiz",
+     6.264,
+     6.717
+    ],
+    [
+     "point",
+     6.729,
+     6.792
+    ],
+    [
+     "com.",
+     6.887,
+     7.245
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/7b54f11b901372ae.mp3",
+   "sec": 4.389637,
+   "text": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !",
+   "words": [
+    [
+     "Ne",
+     0.131,
+     0.151
+    ],
+    [
+     "t'arrête",
+     0.189,
+     0.453
+    ],
+    [
+     "pas",
+     0.491,
+     0.604
+    ],
+    [
+     "là",
+     0.654,
+     0.755
+    ],
+    [
+     ":",
+     0.906,
+     1.057
+    ],
+    [
+     "ton",
+     1.094,
+     1.208
+    ],
+    [
+     "prochain",
+     1.264,
+     1.585
+    ],
+    [
+     "quiz",
+     1.675,
+     2.038
+    ],
+    [
+     "est",
+     2.094,
+     2.264
+    ],
+    [
+     "juste",
+     2.314,
+     2.566
+    ],
+    [
+     "ici,",
+     2.642,
+     3.245
+    ],
+    [
+     "clique",
+     3.289,
+     3.547
+    ],
+    [
+     "sur",
+     3.585,
+     3.698
+    ],
+    [
+     "une",
+     3.736,
+     3.849
+    ],
+    [
+     "des",
+     3.868,
+     3.925
+    ],
+    [
+     "vidéos",
+     3.978,
+     4.302
+    ],
+    [
+     "!",
+     4.34,
+     4.377
+    ]
+   ]
+  }
+ }
+}
