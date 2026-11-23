@@ -277,7 +277,8 @@
       "thumbVersion": "idee4b",
       "endScreen": true,
       "commentId": "UgygKr6GWskYGjSiID94AaABAg",
-      "commentAt": "2026-11-17T00:28:28.481Z"
+      "commentAt": "2026-11-17T00:28:28.481Z",
+      "pinned": true
     },
     {
       "id": "2026-11-17-vocabulaire",
@@ -293,7 +294,8 @@
       "thumbVersion": "idee4b",
       "endScreen": true,
       "commentId": "UgyeBWD2d1DFDlO4Nld4AaABAg",
-      "commentAt": "2026-11-17T23:38:38.846Z"
+      "commentAt": "2026-11-17T23:38:38.846Z",
+      "pinned": true
     },
     {
       "id": "2026-11-18-acronymes",
@@ -308,7 +310,8 @@
       "thumbnail": true,
       "endScreen": true,
       "commentId": "Ugw8KEvz0UB_kR8Lnzd4AaABAg",
-      "commentAt": "2026-11-18T23:06:24.063Z"
+      "commentAt": "2026-11-18T23:06:24.063Z",
+      "pinned": true
     },
     {
       "id": "2026-11-19-animaux",
@@ -322,7 +325,9 @@
       "thumbVariant": "A",
       "thumbnail": true,
       "commentId": "UgyM-U9wMyMkaFBsdG14AaABAg",
-      "commentAt": "2026-11-19T23:13:27.452Z"
+      "commentAt": "2026-11-19T23:13:27.452Z",
+      "pinned": true,
+      "endScreen": true
     },
     {
       "id": "2026-11-20-culture-generale",
@@ -336,7 +341,9 @@
       "thumbVariant": "B",
       "thumbnail": true,
       "commentId": "UgznudhncvDhJQ23oJh4AaABAg",
-      "commentAt": "2026-11-20T22:48:42.343Z"
+      "commentAt": "2026-11-20T22:48:42.343Z",
+      "pinned": true,
+      "endScreen": true
     },
     {
       "id": "2026-11-21-vocabulaire",
@@ -350,7 +357,9 @@
       "thumbVariant": "A",
       "thumbnail": true,
       "commentId": "UgwC1AqWWlXCs7sY6YN4AaABAg",
-      "commentAt": "2026-11-21T21:51:58.882Z"
+      "commentAt": "2026-11-21T21:51:58.882Z",
+      "pinned": true,
+      "endScreen": true
     },
     {
       "id": "2026-11-22-generations",
@@ -364,7 +373,9 @@
       "thumbVariant": "B",
       "thumbnail": true,
       "commentId": "UgyKdSEKlHSAgnIkBMp4AaABAg",
-      "commentAt": "2026-11-22T21:59:27.580Z"
+      "commentAt": "2026-11-22T21:59:27.580Z",
+      "pinned": true,
+      "endScreen": true
     },
     {
       "id": "2026-11-23-maths",
@@ -376,7 +387,8 @@
       "dry": false,
       "longId": "bxp0LyTYIKA",
       "thumbVariant": "A",
-      "thumbnail": true
+      "thumbnail": true,
+      "endScreen": true
     },
     {
       "id": "2026-11-24-classe-6e",
@@ -388,7 +400,8 @@
       "dry": false,
       "longId": "q06tT7YOaY0",
       "thumbVariant": "B",
-      "thumbnail": true
+      "thumbnail": true,
+      "endScreen": true
     },
     {
       "id": "2026-11-25-noel",
@@ -400,7 +413,8 @@
       "dry": false,
       "longId": "ur2oK1uXkXE",
       "thumbVariant": "A",
-      "thumbnail": true
+      "thumbnail": true,
+      "endScreen": true
     }
   ],
   "pending": {}
