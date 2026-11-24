@@ -1,5 +1,5 @@
 {
-  "lastScheduled": "2026-11-25",
+  "lastScheduled": "2026-11-26",
   "published": [
     {
       "id": "2026-11-01-generations",
@@ -417,6 +417,18 @@
       "thumbVariant": "A",
       "thumbnail": true,
       "endScreen": true
+    },
+    {
+      "id": "2026-11-26-alphabet",
+      "date": "2026-11-26",
+      "publishAt": "2026-11-26T16:30:00.000Z",
+      "shortPublishAt": "2026-11-26T11:00:00.000Z",
+      "short2PublishAt": "2026-11-26T18:00:00.000Z",
+      "short3PublishAt": "2026-11-26T15:00:00.000Z",
+      "dry": false,
+      "longId": "4h5B-ul1Mi4",
+      "thumbVariant": "B",
+      "thumbnail": true
     }
   ],
   "pending": {}
