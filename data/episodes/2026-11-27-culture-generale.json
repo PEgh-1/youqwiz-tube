@@ -1,0 +1,6159 @@
+{
+ "id": "2026-11-27-culture-generale",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 2,
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "reveal": "flip",
+  "card": "square",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Bon vendredi ! On joue ?",
+   "voice": "Content de te revoir sur YouQwiz ! Bon vendredi ! On joue ?"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "🔥 Garde ta série le plus longtemps possible",
+  "subscribe": {
+   "title": "Un quiz par jour, gratuit",
+   "sub": "abonne-toi pour ne pas rater le prochain 🔔",
+   "voice": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain."
+  },
+  "levels": {
+   "facile": {
+    "card": "On s'échauffe 🔥",
+    "voice": "Niveau facile. On s'échauffe !"
+   },
+   "moyen": {
+    "card": "Les choses sérieuses commencent 💪",
+    "voice": "Niveau moyen. Les choses sérieuses commencent."
+   },
+   "difficile": {
+    "card": "Ici, beaucoup abandonnent 😅",
+    "voice": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère."
+   },
+   "impossible": {
+    "card": "Même moi je sèche 😈",
+    "voice": "Niveau impossible. Même moi, je sèche sur certains."
+   }
+  },
+  "scoreVoice": "C'est l'heure des comptes ! Ton score en commentaire : le meilleur de la journée est félicité demain, et le champion de la semaine passe lundi !",
+  "outro": {
+   "title": "Bravo d'être allé jusqu'au bout 🏁",
+   "voice": "Bravo d'être allé jusqu'au bout. Abonne-toi et à demain !"
+  },
+  "packshot": {
+   "headline": "Qui est le plus cultivé de ta bande ?",
+   "sub": "lance le quiz du jour sur youqwiz.com 🧠",
+   "cta": "👉 youqwiz.com",
+   "voice": "Qui est le plus cultivé de ta bande ? Lance le quiz du jour sur youqwiz point com."
+  },
+  "rule": "4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono ⭐",
+  "ruleVoice": "Quatre réponses, une seule bonne. Réponds avant la fin du chrono, et compte tes points !",
+  "nextQuizVoice": "Choisis ton prochain défi en cliquant sur une des deux vidéos !"
+ },
+ "title": "36 questions que 90 % des Français ratent 🧠📚✅ Quiz CULTURE GÉNÉRALE",
+ "question": "",
+ "intro": {
+  "hook": "36 QUESTIONS de CULTURE GÉNÉRALE",
+  "sub": "Une seule bonne réponse sur quatre 🎯"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En combien de temps la Terre tourne-t-elle sur elle-même ?",
+    "choices": [
+     "12 heures",
+     "24 heures",
+     "48 heures",
+     "365 jours"
+    ],
+    "correct": 1
+   },
+   "answer": "24 heures",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/0-q.mp3",
+     "sec": 2.720884,
+     "text": "En combien de temps la Terre tourne-t-elle sur elle-même ?",
+     "words": [
+      [
+       "En",
+       0.059,
+       0.07
+      ],
+      [
+       "combien",
+       0.115,
+       0.371
+      ],
+      [
+       "de",
+       0.421,
+       0.522
+      ],
+      [
+       "temps",
+       0.572,
+       0.824
+      ],
+      [
+       "la",
+       0.925,
+       1.126
+      ],
+      [
+       "Terre",
+       1.183,
+       1.428
+      ],
+      [
+       "tourne-t-elle",
+       1.473,
+       2.032
+      ],
+      [
+       "sur",
+       2.07,
+       2.183
+      ],
+      [
+       "elle-même",
+       2.213,
+       2.636
+      ],
+      [
+       "?",
+       2.673,
+       2.711
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/0-a.mp3",
+     "sec": 1.890068,
+     "text": "Eh oui : 24 heures !",
+     "words": [
+      [
+       "Eh",
+       0.139,
+       0.151
+      ],
+      [
+       "oui",
+       0.208,
+       0.377
+      ],
+      [
+       ":",
+       0.604,
+       0.83
+      ],
+      [
+       "24",
+       1.094,
+       1.358
+      ],
+      [
+       "heures",
+       1.412,
+       1.736
+      ],
+      [
+       "!",
+       1.811,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le double de 35 ?",
+    "choices": [
+     "70",
+     "65",
+     "75",
+     "60"
+    ],
+    "correct": 0
+   },
+   "answer": "70",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/1-q.mp3",
+     "sec": 1.988141,
+     "text": "Quel est le double de 35 ?",
+     "words": [
+      [
+       "Quel",
+       0.011,
+       0.097
+      ],
+      [
+       "est",
+       0.116,
+       0.173
+      ],
+      [
+       "le",
+       0.223,
+       0.324
+      ],
+      [
+       "double",
+       0.377,
+       0.701
+      ],
+      [
+       "de",
+       0.726,
+       0.776
+      ],
+      [
+       "35",
+       0.852,
+       1.456
+      ],
+      [
+       "?",
+       1.493,
+       1.531
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/1-a.mp3",
+     "sec": 1.597075,
+     "text": "C'était 70.",
+     "words": [
+      [
+       "C'était",
+       0.113,
+       0.453
+      ],
+      [
+       "70.",
+       0.528,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jours compte le mois de juin ?",
+    "choices": [
+     "30",
+     "31",
+     "29",
+     "28"
+    ],
+    "correct": 0
+   },
+   "answer": "30",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/2-q.mp3",
+     "sec": 4.216644,
+     "text": "Attention, question piège. Combien de jours compte le mois de juin ?",
+     "words": [
+      [
+       "Attention,",
+       0.28,
+       0.591
+      ],
+      [
+       "question",
+       0.625,
+       0.893
+      ],
+      [
+       "piège.",
+       0.969,
+       1.422
+      ],
+      [
+       "Combien",
+       1.573,
+       2.252
+      ],
+      [
+       "de",
+       2.302,
+       2.403
+      ],
+      [
+       "jours",
+       2.466,
+       2.78
+      ],
+      [
+       "compte",
+       2.834,
+       3.157
+      ],
+      [
+       "le",
+       3.233,
+       3.384
+      ],
+      [
+       "mois",
+       3.429,
+       3.61
+      ],
+      [
+       "de",
+       3.66,
+       3.761
+      ],
+      [
+       "juin",
+       3.822,
+       4.063
+      ],
+      [
+       "?",
+       4.139,
+       4.214
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/2-a.mp3",
+     "sec": 2.202132,
+     "text": "La bonne réponse, c'est 30.",
+     "words": [
+      [
+       "La",
+       0.065,
+       0.075
+      ],
+      [
+       "bonne",
+       0.113,
+       0.302
+      ],
+      [
+       "réponse,",
+       0.387,
+       1.208
+      ],
+      [
+       "c'est",
+       1.245,
+       1.358
+      ],
+      [
+       "30.",
+       1.585,
+       2.189
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de côtés a un triangle ?",
+    "choices": [
+     "4",
+     "5",
+     "6",
+     "3"
+    ],
+    "correct": 3
+   },
+   "answer": "3",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/3-q.mp3",
+     "sec": 1.788934,
+     "text": "Combien de côtés a un triangle ?",
+     "words": [
+      [
+       "Combien",
+       0.125,
+       0.225
+      ],
+      [
+       "de",
+       0.275,
+       0.376
+      ],
+      [
+       "côtés",
+       0.414,
+       0.678
+      ],
+      [
+       "a",
+       0.716,
+       0.754
+      ],
+      [
+       "un",
+       0.779,
+       0.829
+      ],
+      [
+       "triangle",
+       0.888,
+       1.357
+      ],
+      [
+       "?",
+       1.622,
+       1.886
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/3-a.mp3",
+     "sec": 1.662313,
+     "text": "Réponse : 3 !",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.604
+      ],
+      [
+       ":",
+       0.981,
+       1.358
+      ],
+      [
+       "3",
+       1.472,
+       1.585
+      ],
+      [
+       "!",
+       1.623,
+       1.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de pattes a un oiseau ?",
+    "choices": [
+     "4",
+     "6",
+     "3",
+     "2"
+    ],
+    "correct": 3
+   },
+   "answer": "2",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/4-q.mp3",
+     "sec": 3.909206,
+     "text": "Attention, question piège. Combien de pattes a un oiseau ?",
+     "words": [
+      [
+       "Attention,",
+       0.386,
+       0.58
+      ],
+      [
+       "question",
+       0.63,
+       1.033
+      ],
+      [
+       "piège.",
+       1.109,
+       1.901
+      ],
+      [
+       "Combien",
+       1.969,
+       2.392
+      ],
+      [
+       "de",
+       2.417,
+       2.467
+      ],
+      [
+       "pattes",
+       2.543,
+       2.92
+      ],
+      [
+       "a",
+       3.071,
+       3.222
+      ],
+      [
+       "un",
+       3.272,
+       3.373
+      ],
+      [
+       "oiseau",
+       3.448,
+       3.826
+      ],
+      [
+       "?",
+       3.863,
+       3.901
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/4-a.mp3",
+     "sec": 1.581406,
+     "text": "Bravo si tu avais dit 2.",
+     "words": [
+      [
+       "Bravo",
+       0.297,
+       0.36
+      ],
+      [
+       "si",
+       0.41,
+       0.511
+      ],
+      [
+       "tu",
+       0.561,
+       0.662
+      ],
+      [
+       "avais",
+       0.687,
+       0.888
+      ],
+      [
+       "dit",
+       0.907,
+       0.964
+      ],
+      [
+       "2.",
+       1.039,
+       1.341
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Avec quel produit laitier fabrique-t-on le beurre ?",
+    "choices": [
+     "Le yaourt",
+     "Le fromage blanc",
+     "Le petit-suisse",
+     "La crème"
+    ],
+    "correct": 3
+   },
+   "answer": "La crème",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/5-q.mp3",
+     "sec": 2.614558,
+     "text": "Avec quel produit laitier fabrique-t-on le beurre ?",
+     "words": [
+      [
+       "Avec",
+       0.224,
+       0.272
+      ],
+      [
+       "quel",
+       0.317,
+       0.499
+      ],
+      [
+       "produit",
+       0.546,
+       0.876
+      ],
+      [
+       "laitier",
+       0.901,
+       1.253
+      ],
+      [
+       "fabrique-t-on",
+       1.329,
+       1.932
+      ],
+      [
+       "le",
+       1.958,
+       2.008
+      ],
+      [
+       "beurre",
+       2.109,
+       2.536
+      ],
+      [
+       "?",
+       2.574,
+       2.612
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/5-a.mp3",
+     "sec": 2.696304,
+     "text": "La bonne réponse, c'est La crème.",
+     "words": [
+      [
+       "La",
+       0.175,
+       0.276
+      ],
+      [
+       "bonne",
+       0.314,
+       0.503
+      ],
+      [
+       "réponse,",
+       0.569,
+       1.182
+      ],
+      [
+       "c'est",
+       1.22,
+       1.408
+      ],
+      [
+       "La",
+       1.609,
+       2.012
+      ],
+      [
+       "crème.",
+       2.113,
+       2.691
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal possède une trompe ?",
+    "choices": [
+     "La girafe",
+     "Le zèbre",
+     "Le lion",
+     "L'éléphant"
+    ],
+    "correct": 3
+   },
+   "answer": "L'éléphant",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/6-q.mp3",
+     "sec": 4.288209,
+     "text": "Réfléchis bien avant de répondre. Quel animal possède une trompe ?",
+     "words": [
+      [
+       "Réfléchis",
+       0.111,
+       0.5
+      ],
+      [
+       "bien",
+       0.546,
+       0.727
+      ],
+      [
+       "avant",
+       0.777,
+       1.029
+      ],
+      [
+       "de",
+       1.054,
+       1.104
+      ],
+      [
+       "répondre.",
+       1.169,
+       1.783
+      ],
+      [
+       "Quel",
+       1.984,
+       2.463
+      ],
+      [
+       "animal",
+       2.538,
+       2.991
+      ],
+      [
+       "possède",
+       3.051,
+       3.444
+      ],
+      [
+       "une",
+       3.481,
+       3.595
+      ],
+      [
+       "trompe",
+       3.67,
+       4.123
+      ],
+      [
+       "?",
+       4.198,
+       4.274
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/6-a.mp3",
+     "sec": 1.302063,
+     "text": "L'éléphant, évidemment !",
+     "words": [
+      [
+       "L'éléphant,",
+       0.09,
+       0.599
+      ],
+      [
+       "évidemment",
+       0.637,
+       1.052
+      ],
+      [
+       "!",
+       1.392,
+       1.731
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de points vaut un panier normal au basket ?",
+    "choices": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "correct": 1
+   },
+   "answer": "2",
+   "level": "facile",
+   "fact": "Le basket a été inventé en 1891, avec des paniers à pêches accrochés au mur.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/7-q.mp3",
+     "sec": 5.178617,
+     "text": "Attention, question piège. Combien de points vaut un panier normal au basket ?",
+     "words": [
+      [
+       "Attention,",
+       0.394,
+       0.565
+      ],
+      [
+       "question",
+       0.615,
+       1.018
+      ],
+      [
+       "piège.",
+       1.112,
+       1.697
+      ],
+      [
+       "Combien",
+       1.818,
+       2.376
+      ],
+      [
+       "de",
+       2.451,
+       2.602
+      ],
+      [
+       "points",
+       2.635,
+       2.829
+      ],
+      [
+       "vaut",
+       2.98,
+       3.282
+      ],
+      [
+       "un",
+       3.307,
+       3.357
+      ],
+      [
+       "panier",
+       3.414,
+       3.81
+      ],
+      [
+       "normal",
+       3.875,
+       4.263
+      ],
+      [
+       "au",
+       4.338,
+       4.489
+      ],
+      [
+       "basket",
+       4.575,
+       5.093
+      ],
+      [
+       "?",
+       5.131,
+       5.168
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/7-a.mp3",
+     "sec": 1.58619,
+     "text": "2, évidemment !",
+     "words": [
+      [
+       "2,",
+       0.196,
+       0.302
+      ],
+      [
+       "évidemment",
+       0.453,
+       0.981
+      ],
+      [
+       "!",
+       1.057,
+       1.132
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-27-culture-generale/7-f.mp3",
+     "sec": 6.771655,
+     "text": "Petit bonus : Le basket a été inventé en 1891, avec des paniers à pêches accrochés au mur.",
+     "words": [
+      [
+       "Petit",
+       0.161,
+       0.192
+      ],
+      [
+       "bonus",
+       0.268,
+       0.645
+      ],
+      [
+       ":",
+       0.947,
+       1.249
+      ],
+      [
+       "Le",
+       1.274,
+       1.324
+      ],
+      [
+       "basket",
+       1.4,
+       1.853
+      ],
+      [
+       "a",
+       1.89,
+       1.928
+      ],
+      [
+       "été",
+       1.985,
+       2.154
+      ],
+      [
+       "inventé",
+       2.208,
+       2.607
+      ],
+      [
+       "en",
+       2.683,
+       2.834
+      ],
+      [
+       "1891,",
+       3.362,
+       4.419
+      ],
+      [
+       "avec",
+       4.479,
+       4.72
+      ],
+      [
+       "des",
+       4.758,
+       4.871
+      ],
+      [
+       "paniers",
+       4.928,
+       5.173
+      ],
+      [
+       "à",
+       5.249,
+       5.324
+      ],
+      [
+       "pêches",
+       5.362,
+       5.777
+      ],
+      [
+       "accrochés",
+       5.834,
+       6.305
+      ],
+      [
+       "au",
+       6.331,
+       6.381
+      ],
+      [
+       "mur.",
+       6.456,
+       6.758
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand désert chaud du monde ?",
+    "choices": [
+     "Le Kalahari",
+     "Le Gobi",
+     "Le Sahara",
+     "Le désert d'Arabie"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Sahara",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/8-q.mp3",
+     "sec": 2.490862,
+     "text": "Quel est le plus grand désert chaud du monde ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.138
+      ],
+      [
+       "est",
+       0.176,
+       0.289
+      ],
+      [
+       "le",
+       0.339,
+       0.44
+      ],
+      [
+       "plus",
+       0.485,
+       0.666
+      ],
+      [
+       "grand",
+       0.73,
+       1.044
+      ],
+      [
+       "désert",
+       1.119,
+       1.497
+      ],
+      [
+       "chaud",
+       1.547,
+       1.799
+      ],
+      [
+       "du",
+       1.849,
+       1.949
+      ],
+      [
+       "monde",
+       2.025,
+       2.402
+      ],
+      [
+       "?",
+       2.44,
+       2.478
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/8-a.mp3",
+     "sec": 1.631587,
+     "text": "Eh oui : Le Sahara !",
+     "words": [
+      [
+       "Eh",
+       0.092,
+       0.112
+      ],
+      [
+       "oui",
+       0.15,
+       0.263
+      ],
+      [
+       ":",
+       0.451,
+       0.64
+      ],
+      [
+       "Le",
+       0.716,
+       0.867
+      ],
+      [
+       "Sahara",
+       0.964,
+       1.546
+      ],
+      [
+       "!",
+       1.584,
+       1.621
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En combien de temps la Terre fait-elle le tour du Soleil ?",
+    "choices": [
+     "Un mois",
+     "Un jour",
+     "Un an",
+     "Dix ans"
+    ],
+    "correct": 2
+   },
+   "answer": "Un an",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/9-q.mp3",
+     "sec": 2.937166,
+     "text": "En combien de temps la Terre fait-elle le tour du Soleil ?",
+     "words": [
+      [
+       "En",
+       0.038,
+       0.057
+      ],
+      [
+       "combien",
+       0.118,
+       0.435
+      ],
+      [
+       "de",
+       0.485,
+       0.586
+      ],
+      [
+       "temps",
+       0.636,
+       0.888
+      ],
+      [
+       "la",
+       0.938,
+       1.039
+      ],
+      [
+       "Terre",
+       1.114,
+       1.491
+      ],
+      [
+       "fait-elle",
+       1.537,
+       1.869
+      ],
+      [
+       "le",
+       1.894,
+       1.944
+      ],
+      [
+       "tour",
+       2.005,
+       2.246
+      ],
+      [
+       "du",
+       2.272,
+       2.322
+      ],
+      [
+       "Soleil",
+       2.397,
+       2.85
+      ],
+      [
+       "?",
+       2.888,
+       2.925
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/9-a.mp3",
+     "sec": 2.355646,
+     "text": "Bravo si tu avais dit Un an.",
+     "words": [
+      [
+       "Bravo",
+       0.226,
+       0.604
+      ],
+      [
+       "si",
+       0.679,
+       0.83
+      ],
+      [
+       "tu",
+       0.856,
+       0.906
+      ],
+      [
+       "avais",
+       0.956,
+       1.132
+      ],
+      [
+       "dit",
+       1.208,
+       1.434
+      ],
+      [
+       "Un",
+       1.61,
+       1.962
+      ],
+      [
+       "an.",
+       2.012,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de notes comporte la gamme de do ?",
+    "choices": [
+     "7",
+     "5",
+     "8",
+     "12"
+    ],
+    "correct": 0
+   },
+   "answer": "7",
+   "level": "facile",
+   "fact": "Les noms des notes viennent des premières syllabes d'un vieil hymne latin.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/10-q.mp3",
+     "sec": 2.265941,
+     "text": "Combien de notes comporte la gamme de do ?",
+     "words": [
+      [
+       "Combien",
+       0.191,
+       0.302
+      ],
+      [
+       "de",
+       0.352,
+       0.453
+      ],
+      [
+       "notes",
+       0.516,
+       0.83
+      ],
+      [
+       "comporte",
+       0.887,
+       1.358
+      ],
+      [
+       "la",
+       1.384,
+       1.434
+      ],
+      [
+       "gamme",
+       1.491,
+       1.736
+      ],
+      [
+       "de",
+       1.786,
+       1.887
+      ],
+      [
+       "do",
+       1.988,
+       2.189
+      ],
+      [
+       "?",
+       2.226,
+       2.264
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/10-a.mp3",
+     "sec": 1.581179,
+     "text": "Réponse : 7 !",
+     "words": [
+      [
+       "Réponse",
+       0.123,
+       0.52
+      ],
+      [
+       ":",
+       0.784,
+       1.048
+      ],
+      [
+       "7",
+       1.124,
+       1.501
+      ],
+      [
+       "!",
+       1.539,
+       1.576
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-27-culture-generale/10-f.mp3",
+     "sec": 4.682177,
+     "text": "Au passage, Les noms des notes viennent des premières syllabes d'un vieil hymne latin.",
+     "words": [
+      [
+       "Au",
+       0.067,
+       0.075
+      ],
+      [
+       "passage,",
+       0.132,
+       0.755
+      ],
+      [
+       "Les",
+       0.792,
+       0.906
+      ],
+      [
+       "noms",
+       0.943,
+       1.132
+      ],
+      [
+       "des",
+       1.151,
+       1.208
+      ],
+      [
+       "notes",
+       1.258,
+       1.509
+      ],
+      [
+       "viennent",
+       1.585,
+       1.887
+      ],
+      [
+       "des",
+       1.943,
+       2.113
+      ],
+      [
+       "premières",
+       2.158,
+       2.566
+      ],
+      [
+       "syllabes",
+       2.626,
+       3.17
+      ],
+      [
+       "d'un",
+       3.208,
+       3.396
+      ],
+      [
+       "vieil",
+       3.472,
+       3.849
+      ],
+      [
+       "hymne",
+       3.887,
+       4.151
+      ],
+      [
+       "latin.",
+       4.226,
+       4.679
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la plus grande planète du système solaire ?",
+    "choices": [
+     "Jupiter",
+     "Saturne",
+     "Neptune",
+     "La Terre"
+    ],
+    "correct": 0
+   },
+   "answer": "Jupiter",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/11-q.mp3",
+     "sec": 4.500907,
+     "text": "Celle-ci est pour les experts. Quelle est la plus grande planète du système solaire ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.004,
+       0.343
+      ],
+      [
+       "est",
+       0.438,
+       0.721
+      ],
+      [
+       "pour",
+       0.736,
+       0.796
+      ],
+      [
+       "les",
+       0.834,
+       0.947
+      ],
+      [
+       "experts.",
+       1.013,
+       1.551
+      ],
+      [
+       "Quelle",
+       1.702,
+       2.079
+      ],
+      [
+       "est",
+       2.098,
+       2.155
+      ],
+      [
+       "la",
+       2.18,
+       2.23
+      ],
+      [
+       "plus",
+       2.276,
+       2.457
+      ],
+      [
+       "grande",
+       2.51,
+       2.834
+      ],
+      [
+       "planète",
+       2.894,
+       3.362
+      ],
+      [
+       "du",
+       3.412,
+       3.513
+      ],
+      [
+       "système",
+       3.56,
+       3.891
+      ],
+      [
+       "solaire",
+       3.947,
+       4.343
+      ],
+      [
+       "?",
+       4.419,
+       4.494
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/11-a.mp3",
+     "sec": 2.321746,
+     "text": "La bonne réponse, c'est Jupiter.",
+     "words": [
+      [
+       "La",
+       0.096,
+       0.121
+      ],
+      [
+       "bonne",
+       0.171,
+       0.423
+      ],
+      [
+       "réponse,",
+       0.499,
+       1.102
+      ],
+      [
+       "c'est",
+       1.216,
+       1.48
+      ],
+      [
+       "Jupiter.",
+       1.574,
+       2.31
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal porte une carapace sur son dos ?",
+    "choices": [
+     "Le lapin",
+     "La tortue",
+     "Le chat",
+     "La poule"
+    ],
+    "correct": 1
+   },
+   "answer": "La tortue",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/12-q.mp3",
+     "sec": 3.937007,
+     "text": "On continue. Quel animal porte une carapace sur son dos ?",
+     "words": [
+      [
+       "On",
+       0.006,
+       0.017
+      ],
+      [
+       "continue.",
+       0.075,
+       0.621
+      ],
+      [
+       "Quel",
+       0.797,
+       1.3
+      ],
+      [
+       "animal",
+       1.354,
+       1.677
+      ],
+      [
+       "porte",
+       1.74,
+       2.055
+      ],
+      [
+       "une",
+       2.111,
+       2.281
+      ],
+      [
+       "carapace",
+       2.319,
+       2.885
+      ],
+      [
+       "sur",
+       2.96,
+       3.187
+      ],
+      [
+       "son",
+       3.243,
+       3.413
+      ],
+      [
+       "dos",
+       3.47,
+       3.639
+      ],
+      [
+       "?",
+       4.017,
+       4.394
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/12-a.mp3",
+     "sec": 2.252857,
+     "text": "La bonne réponse, c'est La tortue.",
+     "words": [
+      [
+       "La",
+       0.183,
+       0.209
+      ],
+      [
+       "bonne",
+       0.234,
+       0.36
+      ],
+      [
+       "réponse,",
+       0.407,
+       0.812
+      ],
+      [
+       "c'est",
+       0.85,
+       1.039
+      ],
+      [
+       "La",
+       1.24,
+       1.643
+      ],
+      [
+       "tortue.",
+       1.718,
+       2.246
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la capitale de la Turquie ?",
+    "choices": [
+     "Istanbul",
+     "Ankara",
+     "Antalya",
+     "Izmir"
+    ],
+    "correct": 1
+   },
+   "answer": "Ankara",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/13-q.mp3",
+     "sec": 1.903469,
+     "text": "Quelle est la capitale de la Turquie ?",
+     "words": [
+      [
+       "Quelle",
+       0,
+       0.083
+      ],
+      [
+       "est",
+       0.102,
+       0.159
+      ],
+      [
+       "la",
+       0.209,
+       0.309
+      ],
+      [
+       "capitale",
+       0.385,
+       0.913
+      ],
+      [
+       "de",
+       0.963,
+       1.064
+      ],
+      [
+       "la",
+       1.09,
+       1.14
+      ],
+      [
+       "Turquie",
+       1.215,
+       1.819
+      ],
+      [
+       "?",
+       1.857,
+       1.894
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/13-a.mp3",
+     "sec": 1.592313,
+     "text": "Bravo si tu avais dit Ankara.",
+     "words": [
+      [
+       "Bravo",
+       0.367,
+       0.445
+      ],
+      [
+       "si",
+       0.495,
+       0.596
+      ],
+      [
+       "tu",
+       0.646,
+       0.747
+      ],
+      [
+       "avais",
+       0.773,
+       0.974
+      ],
+      [
+       "dit",
+       0.993,
+       1.049
+      ],
+      [
+       "Ankara.",
+       1.125,
+       1.578
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel mot est un synonyme de « bavard » ?",
+    "choices": [
+     "Laconique",
+     "Loquace",
+     "Réservé",
+     "Taciturne"
+    ],
+    "correct": 1
+   },
+   "answer": "Loquace",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/14-q.mp3",
+     "sec": 4.020748,
+     "text": "Nouvelle question. Quel mot est un synonyme de « bavard » ?",
+     "words": [
+      [
+       "Nouvelle",
+       0.198,
+       0.302
+      ],
+      [
+       "question.",
+       0.343,
+       0.755
+      ],
+      [
+       "Quel",
+       0.956,
+       1.509
+      ],
+      [
+       "mot",
+       1.566,
+       1.736
+      ],
+      [
+       "est",
+       1.83,
+       2.113
+      ],
+      [
+       "un",
+       2.163,
+       2.264
+      ],
+      [
+       "synonyme",
+       2.321,
+       2.792
+      ],
+      [
+       "de",
+       2.893,
+       3.094
+      ],
+      [
+       "«",
+       3.17,
+       3.245
+      ],
+      [
+       "bavard",
+       3.283,
+       3.774
+      ],
+      [
+       "»",
+       3.811,
+       3.849
+      ],
+      [
+       "?",
+       4.038,
+       4.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/14-a.mp3",
+     "sec": 1.98102,
+     "text": "Réponse : Loquace !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.906,
+       1.283
+      ],
+      [
+       "Loquace",
+       1.333,
+       1.811
+      ],
+      [
+       "!",
+       1.887,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de cordes possède un violon ?",
+    "choices": [
+     "5",
+     "4",
+     "6",
+     "3"
+    ],
+    "correct": 1
+   },
+   "answer": "4",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/15-q.mp3",
+     "sec": 2.148322,
+     "text": "Combien de cordes possède un violon ?",
+     "words": [
+      [
+       "Combien",
+       0.137,
+       0.324
+      ],
+      [
+       "de",
+       0.374,
+       0.475
+      ],
+      [
+       "cordes",
+       0.565,
+       1.078
+      ],
+      [
+       "possède",
+       1.139,
+       1.531
+      ],
+      [
+       "un",
+       1.557,
+       1.607
+      ],
+      [
+       "violon",
+       1.667,
+       2.059
+      ],
+      [
+       "?",
+       2.097,
+       2.135
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/15-a.mp3",
+     "sec": 1.746281,
+     "text": "Réponse : 4 !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.906,
+       1.283
+      ],
+      [
+       "4",
+       1.434,
+       1.585
+      ],
+      [
+       "!",
+       1.66,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on la Lune quand elle est entièrement éclairée ?",
+    "choices": [
+     "La pleine lune",
+     "Le croissant",
+     "Le premier quartier",
+     "La nouvelle lune"
+    ],
+    "correct": 0
+   },
+   "answer": "La pleine lune",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/16-q.mp3",
+     "sec": 2.865147,
+     "text": "Comment appelle-t-on la Lune quand elle est entièrement éclairée ?",
+     "words": [
+      [
+       "Comment",
+       0.113,
+       0.146
+      ],
+      [
+       "appelle-t-on",
+       0.184,
+       0.599
+      ],
+      [
+       "la",
+       0.649,
+       0.75
+      ],
+      [
+       "Lune",
+       0.788,
+       1.052
+      ],
+      [
+       "quand",
+       1.115,
+       1.429
+      ],
+      [
+       "elle",
+       1.459,
+       1.58
+      ],
+      [
+       "est",
+       1.618,
+       1.731
+      ],
+      [
+       "entièrement",
+       1.788,
+       2.335
+      ],
+      [
+       "éclairée",
+       2.373,
+       2.788
+      ],
+      [
+       "?",
+       2.825,
+       2.863
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/16-a.mp3",
+     "sec": 1.808186,
+     "text": "La pleine lune, évidemment !",
+     "words": [
+      [
+       "La",
+       0.113,
+       0.138
+      ],
+      [
+       "pleine",
+       0.195,
+       0.44
+      ],
+      [
+       "lune,",
+       0.516,
+       1.044
+      ],
+      [
+       "évidemment",
+       1.157,
+       1.648
+      ],
+      [
+       "!",
+       1.723,
+       1.799
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de pièces possède chaque joueur au début d'une partie d'échecs ?",
+    "choices": [
+     "12",
+     "8",
+     "20",
+     "16"
+    ],
+    "correct": 3
+   },
+   "answer": "16",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/17-q.mp3",
+     "sec": 3.515737,
+     "text": "Combien de pièces possède chaque joueur au début d'une partie d'échecs ?",
+     "words": [
+      [
+       "Combien",
+       0.092,
+       0.267
+      ],
+      [
+       "de",
+       0.317,
+       0.418
+      ],
+      [
+       "pièces",
+       0.475,
+       0.796
+      ],
+      [
+       "possède",
+       0.841,
+       1.248
+      ],
+      [
+       "chaque",
+       1.28,
+       1.475
+      ],
+      [
+       "joueur",
+       1.529,
+       1.852
+      ],
+      [
+       "au",
+       1.928,
+       2.079
+      ],
+      [
+       "début",
+       2.129,
+       2.38
+      ],
+      [
+       "d'une",
+       2.418,
+       2.607
+      ],
+      [
+       "partie",
+       2.65,
+       2.909
+      ],
+      [
+       "d'échecs",
+       2.946,
+       3.437
+      ],
+      [
+       "?",
+       3.475,
+       3.513
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/17-a.mp3",
+     "sec": 1.655918,
+     "text": "16, évidemment !",
+     "words": [
+      [
+       "16,",
+       0.359,
+       0.586
+      ],
+      [
+       "évidemment",
+       0.661,
+       1.114
+      ],
+      [
+       "!",
+       1.19,
+       1.265
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de jeux faut-il gagner pour remporter un set au tennis, sauf cas particulier ?",
+    "choices": [
+     "4",
+     "6",
+     "5",
+     "8"
+    ],
+    "correct": 1
+   },
+   "answer": "6",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/18-q.mp3",
+     "sec": 4.817415,
+     "text": "Combien de jeux faut-il gagner pour remporter un set au tennis, sauf cas particulier ?",
+     "words": [
+      [
+       "Combien",
+       0.111,
+       0.286
+      ],
+      [
+       "de",
+       0.336,
+       0.437
+      ],
+      [
+       "jeux",
+       0.497,
+       0.739
+      ],
+      [
+       "faut-il",
+       0.784,
+       1.191
+      ],
+      [
+       "gagner",
+       1.192,
+       1.569
+      ],
+      [
+       "pour",
+       1.645,
+       1.946
+      ],
+      [
+       "remporter",
+       1.984,
+       2.399
+      ],
+      [
+       "un",
+       2.449,
+       2.55
+      ],
+      [
+       "set",
+       2.626,
+       2.852
+      ],
+      [
+       "au",
+       2.878,
+       2.928
+      ],
+      [
+       "tennis,",
+       2.993,
+       3.682
+      ],
+      [
+       "sauf",
+       3.732,
+       3.984
+      ],
+      [
+       "cas",
+       4.041,
+       4.211
+      ],
+      [
+       "particulier",
+       4.252,
+       4.739
+      ],
+      [
+       "?",
+       4.777,
+       4.814
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/18-a.mp3",
+     "sec": 1.527755,
+     "text": "Réponse : 6 !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.717,
+       0.906
+      ],
+      [
+       "6",
+       0.981,
+       1.358
+      ],
+      [
+       "!",
+       1.434,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le petit de la grenouille ?",
+    "choices": [
+     "Le têtard",
+     "L'alevin",
+     "Le chiot",
+     "Le poussin"
+    ],
+    "correct": 0
+   },
+   "answer": "Le têtard",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/19-q.mp3",
+     "sec": 2.422721,
+     "text": "Comment appelle-t-on le petit de la grenouille ?",
+     "words": [
+      [
+       "Comment",
+       0.249,
+       0.302
+      ],
+      [
+       "appelle-t-on",
+       0.358,
+       0.906
+      ],
+      [
+       "le",
+       0.956,
+       1.057
+      ],
+      [
+       "petit",
+       1.144,
+       1.585
+      ],
+      [
+       "de",
+       1.635,
+       1.736
+      ],
+      [
+       "la",
+       1.761,
+       1.811
+      ],
+      [
+       "grenouille",
+       1.857,
+       2.264
+      ],
+      [
+       "?",
+       2.34,
+       2.415
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/19-a.mp3",
+     "sec": 2.159093,
+     "text": "La bonne réponse, c'est Le têtard.",
+     "words": [
+      [
+       "La",
+       0.004,
+       0.105
+      ],
+      [
+       "bonne",
+       0.143,
+       0.331
+      ],
+      [
+       "réponse,",
+       0.388,
+       0.935
+      ],
+      [
+       "c'est",
+       0.973,
+       1.086
+      ],
+      [
+       "Le",
+       1.136,
+       1.237
+      ],
+      [
+       "têtard.",
+       1.35,
+       2.143
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "De quel pays vient le goulasch ?",
+    "choices": [
+     "La Hongrie",
+     "Le Portugal",
+     "La Belgique",
+     "L'Irlande"
+    ],
+    "correct": 0
+   },
+   "answer": "La Hongrie",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/20-q.mp3",
+     "sec": 1.884943,
+     "text": "De quel pays vient le goulasch ?",
+     "words": [
+      [
+       "De",
+       0.065,
+       0.075
+      ],
+      [
+       "quel",
+       0.136,
+       0.377
+      ],
+      [
+       "pays",
+       0.468,
+       0.83
+      ],
+      [
+       "vient",
+       0.868,
+       1.057
+      ],
+      [
+       "le",
+       1.082,
+       1.132
+      ],
+      [
+       "goulasch",
+       1.208,
+       1.811
+      ],
+      [
+       "?",
+       1.849,
+       1.887
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/20-a.mp3",
+     "sec": 1.638707,
+     "text": "La Hongrie, évidemment !",
+     "words": [
+      [
+       "La",
+       0.097,
+       0.117
+      ],
+      [
+       "Hongrie,",
+       0.162,
+       0.645
+      ],
+      [
+       "évidemment",
+       0.72,
+       1.173
+      ],
+      [
+       "!",
+       1.211,
+       1.249
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle partie de la fleur produit le pollen ?",
+    "choices": [
+     "L'étamine",
+     "Le pistil",
+     "Le sépale",
+     "La racine"
+    ],
+    "correct": 0
+   },
+   "answer": "L'étamine",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/21-q.mp3",
+     "sec": 4.309184,
+     "text": "Beaucoup se trompent ici. Quelle partie de la fleur produit le pollen ?",
+     "words": [
+      [
+       "Beaucoup",
+       0.136,
+       0.375
+      ],
+      [
+       "se",
+       0.45,
+       0.601
+      ],
+      [
+       "trompent",
+       0.661,
+       0.978
+      ],
+      [
+       "ici.",
+       1.073,
+       1.431
+      ],
+      [
+       "Quelle",
+       1.632,
+       2.186
+      ],
+      [
+       "partie",
+       2.24,
+       2.563
+      ],
+      [
+       "de",
+       2.589,
+       2.639
+      ],
+      [
+       "la",
+       2.664,
+       2.714
+      ],
+      [
+       "fleur",
+       2.79,
+       3.167
+      ],
+      [
+       "produit",
+       3.214,
+       3.544
+      ],
+      [
+       "le",
+       3.57,
+       3.62
+      ],
+      [
+       "pollen",
+       3.695,
+       4.148
+      ],
+      [
+       "?",
+       4.224,
+       4.299
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/21-a.mp3",
+     "sec": 1.67,
+     "text": "Réponse : L'étamine !",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.528
+      ],
+      [
+       ":",
+       0.755,
+       0.981
+      ],
+      [
+       "L'étamine",
+       1.019,
+       1.585
+      ],
+      [
+       "!",
+       1.623,
+       1.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le symbole chimique de l'or ?",
+    "choices": [
+     "Au",
+     "Or",
+     "Ag",
+     "Go"
+    ],
+    "correct": 0
+   },
+   "answer": "Au",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/22-q.mp3",
+     "sec": 2.12839,
+     "text": "Quel est le symbole chimique de l'or ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.17,
+       0.226
+      ],
+      [
+       "le",
+       0.276,
+       0.377
+      ],
+      [
+       "symbole",
+       0.434,
+       0.755
+      ],
+      [
+       "chimique",
+       0.8,
+       1.283
+      ],
+      [
+       "de",
+       1.384,
+       1.585
+      ],
+      [
+       "l'or",
+       1.623,
+       2.038
+      ],
+      [
+       "?",
+       2.075,
+       2.113
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/22-a.mp3",
+     "sec": 1.429501,
+     "text": "Au, évidemment !",
+     "words": [
+      [
+       "Au,",
+       0.064,
+       0.291
+      ],
+      [
+       "évidemment",
+       0.404,
+       0.895
+      ],
+      [
+       "!",
+       1.121,
+       1.347
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quels organes filtrent le sang pour fabriquer l'urine ?",
+    "choices": [
+     "Le foie",
+     "Les poumons",
+     "Les reins",
+     "La rate"
+    ],
+    "correct": 2
+   },
+   "answer": "Les reins",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/23-q.mp3",
+     "sec": 2.5661,
+     "text": "Quels organes filtrent le sang pour fabriquer l'urine ?",
+     "words": [
+      [
+       "Quels",
+       0,
+       0.141
+      ],
+      [
+       "organes",
+       0.191,
+       0.594
+      ],
+      [
+       "filtrent",
+       0.64,
+       0.972
+      ],
+      [
+       "le",
+       0.997,
+       1.047
+      ],
+      [
+       "sang",
+       1.092,
+       1.274
+      ],
+      [
+       "pour",
+       1.334,
+       1.575
+      ],
+      [
+       "fabriquer",
+       1.632,
+       2.028
+      ],
+      [
+       "l'urine",
+       2.066,
+       2.481
+      ],
+      [
+       "?",
+       2.519,
+       2.557
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/23-a.mp3",
+     "sec": 1.425873,
+     "text": "Eh oui : Les reins !",
+     "words": [
+      [
+       "Eh",
+       0.047,
+       0.058
+      ],
+      [
+       "oui",
+       0.114,
+       0.284
+      ],
+      [
+       ":",
+       0.473,
+       0.661
+      ],
+      [
+       "Les",
+       0.718,
+       0.888
+      ],
+      [
+       "reins",
+       0.951,
+       1.265
+      ],
+      [
+       "!",
+       1.341,
+       1.416
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle planète est célèbre pour ses anneaux visibles ?",
+    "choices": [
+     "Mars",
+     "Mercure",
+     "Saturne",
+     "Vénus"
+    ],
+    "correct": 2
+   },
+   "answer": "Saturne",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/24-q.mp3",
+     "sec": 4.601429,
+     "text": "Beaucoup se trompent ici. Quelle planète est célèbre pour ses anneaux visibles ?",
+     "words": [
+      [
+       "Beaucoup",
+       0.116,
+       0.438
+      ],
+      [
+       "se",
+       0.488,
+       0.589
+      ],
+      [
+       "trompent",
+       0.634,
+       0.966
+      ],
+      [
+       "ici.",
+       1.061,
+       1.344
+      ],
+      [
+       "Quelle",
+       1.545,
+       2.098
+      ],
+      [
+       "planète",
+       2.159,
+       2.551
+      ],
+      [
+       "est",
+       2.589,
+       2.702
+      ],
+      [
+       "célèbre",
+       2.74,
+       3.155
+      ],
+      [
+       "pour",
+       3.215,
+       3.457
+      ],
+      [
+       "ses",
+       3.532,
+       3.759
+      ],
+      [
+       "anneaux",
+       3.789,
+       3.985
+      ],
+      [
+       "visibles",
+       4.042,
+       4.438
+      ],
+      [
+       "?",
+       4.514,
+       4.589
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/24-a.mp3",
+     "sec": 1.972676,
+     "text": "Bravo si tu avais dit Saturne.",
+     "words": [
+      [
+       "Bravo",
+       0.252,
+       0.302
+      ],
+      [
+       "si",
+       0.377,
+       0.528
+      ],
+      [
+       "tu",
+       0.578,
+       0.679
+      ],
+      [
+       "avais",
+       0.729,
+       0.906
+      ],
+      [
+       "dit",
+       0.962,
+       1.132
+      ],
+      [
+       "Saturne.",
+       1.229,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus grand organe du corps humain ?",
+    "choices": [
+     "Le foie",
+     "Les poumons",
+     "La peau",
+     "Le cerveau"
+    ],
+    "correct": 2
+   },
+   "answer": "La peau",
+   "level": "moyen",
+   "fact": "La couche extérieure de la peau se renouvelle à peu près tous les mois.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/25-q.mp3",
+     "sec": 2.143107,
+     "text": "Quel est le plus grand organe du corps humain ?",
+     "words": [
+      [
+       "Quel",
+       0.012,
+       0.098
+      ],
+      [
+       "est",
+       0.135,
+       0.248
+      ],
+      [
+       "le",
+       0.298,
+       0.399
+      ],
+      [
+       "plus",
+       0.43,
+       0.55
+      ],
+      [
+       "grand",
+       0.614,
+       0.928
+      ],
+      [
+       "organe",
+       0.984,
+       1.381
+      ],
+      [
+       "du",
+       1.431,
+       1.532
+      ],
+      [
+       "corps",
+       1.569,
+       1.758
+      ],
+      [
+       "humain",
+       1.796,
+       2.06
+      ],
+      [
+       "?",
+       2.098,
+       2.135
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/25-a.mp3",
+     "sec": 1.930612,
+     "text": "Bravo si tu avais dit La peau.",
+     "words": [
+      [
+       "Bravo",
+       0.108,
+       0.423
+      ],
+      [
+       "si",
+       0.473,
+       0.574
+      ],
+      [
+       "tu",
+       0.624,
+       0.724
+      ],
+      [
+       "avais",
+       0.75,
+       0.951
+      ],
+      [
+       "dit",
+       0.989,
+       1.102
+      ],
+      [
+       "La",
+       1.253,
+       1.555
+      ],
+      [
+       "peau.",
+       1.605,
+       1.932
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-27-culture-generale/25-f.mp3",
+     "sec": 4.120113,
+     "text": "Au passage, La couche extérieure de la peau se renouvelle à peu près tous les mois.",
+     "words": [
+      [
+       "Au",
+       0.029,
+       0.038
+      ],
+      [
+       "passage,",
+       0.094,
+       0.792
+      ],
+      [
+       "La",
+       0.842,
+       0.943
+      ],
+      [
+       "couche",
+       0.981,
+       1.17
+      ],
+      [
+       "extérieure",
+       1.226,
+       1.622
+      ],
+      [
+       "de",
+       1.648,
+       1.698
+      ],
+      [
+       "la",
+       1.723,
+       1.773
+      ],
+      [
+       "peau",
+       1.849,
+       2.075
+      ],
+      [
+       "se",
+       2.151,
+       2.302
+      ],
+      [
+       "renouvelle",
+       2.358,
+       2.754
+      ],
+      [
+       "à",
+       2.792,
+       2.83
+      ],
+      [
+       "peu",
+       2.868,
+       2.981
+      ],
+      [
+       "près",
+       3.041,
+       3.283
+      ],
+      [
+       "tous",
+       3.358,
+       3.66
+      ],
+      [
+       "les",
+       3.698,
+       3.811
+      ],
+      [
+       "mois.",
+       3.841,
+       4.113
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel plat est un classique du Royaume-Uni avec du poisson et des frites ?",
+    "choices": [
+     "Le fish and chips",
+     "Le tajine",
+     "Le couscous",
+     "Le ceviche"
+    ],
+    "correct": 0
+   },
+   "answer": "Le fish and chips",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/26-q.mp3",
+     "sec": 4.008095,
+     "text": "Quel plat est un classique du Royaume-Uni avec du poisson et des frites ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "plat",
+       0.211,
+       0.453
+      ],
+      [
+       "est",
+       0.491,
+       0.604
+      ],
+      [
+       "un",
+       0.654,
+       0.755
+      ],
+      [
+       "classique",
+       0.805,
+       1.208
+      ],
+      [
+       "du",
+       1.233,
+       1.283
+      ],
+      [
+       "Royaume-Uni",
+       1.34,
+       1.962
+      ],
+      [
+       "avec",
+       2.053,
+       2.415
+      ],
+      [
+       "du",
+       2.441,
+       2.491
+      ],
+      [
+       "poisson",
+       2.566,
+       3.019
+      ],
+      [
+       "et",
+       3.094,
+       3.245
+      ],
+      [
+       "des",
+       3.283,
+       3.396
+      ],
+      [
+       "frites",
+       3.472,
+       3.849
+      ],
+      [
+       "?",
+       3.925,
+       4
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/26-a.mp3",
+     "sec": 1.961678,
+     "text": "Le fish and chips, évidemment !",
+     "words": [
+      [
+       "Le",
+       0.055,
+       0.066
+      ],
+      [
+       "fish",
+       0.126,
+       0.368
+      ],
+      [
+       "and",
+       0.405,
+       0.519
+      ],
+      [
+       "chips,",
+       0.569,
+       0.896
+      ],
+      [
+       "évidemment",
+       0.934,
+       1.349
+      ],
+      [
+       "!",
+       1.877,
+       1.953
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel naturaliste a établi la classification binominale des espèces ?",
+    "choices": [
+     "Carl von Linné",
+     "Charles Darwin",
+     "Gregor Mendel",
+     "Jean-Baptiste Lamarck"
+    ],
+    "correct": 0
+   },
+   "answer": "Carl von Linné",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/27-q.mp3",
+     "sec": 6.398027,
+     "text": "Celle-ci est pour les experts. Quel naturaliste a établi la classification binominale des espèces ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.039,
+       0.424
+      ],
+      [
+       "est",
+       0.499,
+       0.726
+      ],
+      [
+       "pour",
+       0.756,
+       0.877
+      ],
+      [
+       "les",
+       0.914,
+       1.028
+      ],
+      [
+       "experts.",
+       1.131,
+       2.084
+      ],
+      [
+       "Quel",
+       2.16,
+       2.386
+      ],
+      [
+       "naturaliste",
+       2.443,
+       3.216
+      ],
+      [
+       "a",
+       3.292,
+       3.367
+      ],
+      [
+       "établi",
+       3.443,
+       3.745
+      ],
+      [
+       "la",
+       3.77,
+       3.82
+      ],
+      [
+       "classification",
+       3.87,
+       4.575
+      ],
+      [
+       "binominale",
+       4.669,
+       5.405
+      ],
+      [
+       "des",
+       5.462,
+       5.631
+      ],
+      [
+       "espèces",
+       5.688,
+       6.235
+      ],
+      [
+       "?",
+       6.311,
+       6.386
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/27-a.mp3",
+     "sec": 2.025692,
+     "text": "La bonne réponse, c'est Carl von Linné.",
+     "words": [
+      [
+       "La",
+       0.105,
+       0.13
+      ],
+      [
+       "bonne",
+       0.168,
+       0.357
+      ],
+      [
+       "réponse,",
+       0.413,
+       0.885
+      ],
+      [
+       "c'est",
+       0.923,
+       1.111
+      ],
+      [
+       "Carl",
+       1.172,
+       1.413
+      ],
+      [
+       "von",
+       1.47,
+       1.64
+      ],
+      [
+       "Linné.",
+       1.677,
+       2.017
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment s'appelle le télescope spatial lancé en 1990 ?",
+    "choices": [
+     "Kepler",
+     "Spitzer",
+     "Hubble",
+     "Planck"
+    ],
+    "correct": 2
+   },
+   "answer": "Hubble",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/28-q.mp3",
+     "sec": 4.016122,
+     "text": "Comment s'appelle le télescope spatial lancé en 1990 ?",
+     "words": [
+      [
+       "Comment",
+       0.249,
+       0.302
+      ],
+      [
+       "s'appelle",
+       0.34,
+       0.755
+      ],
+      [
+       "le",
+       0.78,
+       0.83
+      ],
+      [
+       "télescope",
+       0.906,
+       1.434
+      ],
+      [
+       "spatial",
+       1.509,
+       2.038
+      ],
+      [
+       "lancé",
+       2.128,
+       2.566
+      ],
+      [
+       "en",
+       2.616,
+       2.717
+      ],
+      [
+       "1990",
+       3.245,
+       3.925
+      ],
+      [
+       "?",
+       3.962,
+       4
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/28-a.mp3",
+     "sec": 1.819297,
+     "text": "Hubble, évidemment !",
+     "words": [
+      [
+       "Hubble,",
+       0.068,
+       0.679
+      ],
+      [
+       "évidemment",
+       0.755,
+       1.208
+      ],
+      [
+       "!",
+       1.283,
+       1.358
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel roi de France est surnommé « le Bien-Aimé » ?",
+    "choices": [
+     "Louis XIV",
+     "Louis XVI",
+     "Louis XV",
+     "Charles VII"
+    ],
+    "correct": 2
+   },
+   "answer": "Louis XV",
+   "level": "difficile",
+   "fact": "Louis XV est devenu roi à seulement cinq ans.",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/29-q.mp3",
+     "sec": 2.913129,
+     "text": "Quel roi de France est surnommé « le Bien-Aimé » ?",
+     "words": [
+      [
+       "Quel",
+       0.027,
+       0.188
+      ],
+      [
+       "roi",
+       0.244,
+       0.414
+      ],
+      [
+       "de",
+       0.44,
+       0.49
+      ],
+      [
+       "France",
+       0.576,
+       1.094
+      ],
+      [
+       "est",
+       1.131,
+       1.244
+      ],
+      [
+       "surnommé",
+       1.282,
+       1.773
+      ],
+      [
+       "«",
+       1.924,
+       2.075
+      ],
+      [
+       "le",
+       2.1,
+       2.15
+      ],
+      [
+       "Bien-Aimé",
+       2.226,
+       2.829
+      ],
+      [
+       "»",
+       2.867,
+       2.905
+      ],
+      [
+       "?",
+       2.905,
+       2.905
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/29-a.mp3",
+     "sec": 2.03381,
+     "text": "Bravo si tu avais dit Louis XV.",
+     "words": [
+      [
+       "Bravo",
+       0.298,
+       0.361
+      ],
+      [
+       "si",
+       0.411,
+       0.512
+      ],
+      [
+       "tu",
+       0.588,
+       0.739
+      ],
+      [
+       "avais",
+       0.764,
+       0.965
+      ],
+      [
+       "dit",
+       1.003,
+       1.116
+      ],
+      [
+       "Louis",
+       1.154,
+       1.343
+      ],
+      [
+       "XV.",
+       1.519,
+       2.022
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-27-culture-generale/29-f.mp3",
+     "sec": 4.191247,
+     "text": "Tu savais ? Louis XV est devenu roi à seulement cinq ans.",
+     "words": [
+      [
+       "Tu",
+       0.037,
+       0.047
+      ],
+      [
+       "savais",
+       0.104,
+       0.425
+      ],
+      [
+       "?",
+       0.651,
+       0.878
+      ],
+      [
+       "Louis",
+       0.928,
+       1.18
+      ],
+      [
+       "XV",
+       1.305,
+       1.557
+      ],
+      [
+       "est",
+       1.576,
+       1.632
+      ],
+      [
+       "devenu",
+       1.682,
+       2.01
+      ],
+      [
+       "roi",
+       2.123,
+       2.463
+      ],
+      [
+       "à",
+       2.5,
+       2.538
+      ],
+      [
+       "seulement",
+       2.591,
+       3.066
+      ],
+      [
+       "cinq",
+       3.18,
+       3.519
+      ],
+      [
+       "ans.",
+       3.557,
+       4.123
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle partie de la cellule contient l'ADN ?",
+    "choices": [
+     "La membrane",
+     "Le cytoplasme",
+     "Le noyau",
+     "La paroi"
+    ],
+    "correct": 2
+   },
+   "answer": "Le noyau",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/30-q.mp3",
+     "sec": 2.020839,
+     "text": "Quelle partie de la cellule contient l'ADN ?",
+     "words": [
+      [
+       "Quelle",
+       0.086,
+       0.127
+      ],
+      [
+       "partie",
+       0.171,
+       0.429
+      ],
+      [
+       "de",
+       0.455,
+       0.505
+      ],
+      [
+       "la",
+       0.555,
+       0.656
+      ],
+      [
+       "cellule",
+       0.701,
+       1.033
+      ],
+      [
+       "contient",
+       1.093,
+       1.486
+      ],
+      [
+       "l'ADN",
+       1.505,
+       1.939
+      ],
+      [
+       "?",
+       1.976,
+       2.014
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/30-a.mp3",
+     "sec": 1.523651,
+     "text": "C'était Le noyau.",
+     "words": [
+      [
+       "C'était",
+       0.113,
+       0.604
+      ],
+      [
+       "Le",
+       0.755,
+       1.057
+      ],
+      [
+       "noyau.",
+       1.132,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel organe produit la bile ?",
+    "choices": [
+     "Le pancréas",
+     "La rate",
+     "Le rein",
+     "Le foie"
+    ],
+    "correct": 3
+   },
+   "answer": "Le foie",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/31-q.mp3",
+     "sec": 1.669751,
+     "text": "Quel organe produit la bile ?",
+     "words": [
+      [
+       "Quel",
+       0.071,
+       0.159
+      ],
+      [
+       "organe",
+       0.216,
+       0.612
+      ],
+      [
+       "produit",
+       0.659,
+       0.989
+      ],
+      [
+       "la",
+       1.039,
+       1.14
+      ],
+      [
+       "bile",
+       1.216,
+       1.518
+      ],
+      [
+       "?",
+       1.593,
+       1.669
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/31-a.mp3",
+     "sec": 2.023719,
+     "text": "La bonne réponse, c'est Le foie.",
+     "words": [
+      [
+       "La",
+       0.084,
+       0.134
+      ],
+      [
+       "bonne",
+       0.171,
+       0.36
+      ],
+      [
+       "réponse,",
+       0.407,
+       0.813
+      ],
+      [
+       "c'est",
+       0.851,
+       0.964
+      ],
+      [
+       "Le",
+       1.115,
+       1.417
+      ],
+      [
+       "foie.",
+       1.542,
+       2.02
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on la figure de style qui consiste à exagérer ?",
+    "choices": [
+     "La litote",
+     "L'euphémisme",
+     "L'antithèse",
+     "L'hyperbole"
+    ],
+    "correct": 3
+   },
+   "answer": "L'hyperbole",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/32-q.mp3",
+     "sec": 5.731338,
+     "text": "Celle-ci est pour les experts. Comment appelle-t-on la figure de style qui consiste à exagérer ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.113,
+       0.453
+      ],
+      [
+       "est",
+       0.528,
+       0.755
+      ],
+      [
+       "pour",
+       0.77,
+       0.83
+      ],
+      [
+       "les",
+       0.868,
+       0.981
+      ],
+      [
+       "experts.",
+       1.057,
+       2
+      ],
+      [
+       "Comment",
+       2.052,
+       2.415
+      ],
+      [
+       "appelle-t-on",
+       2.453,
+       2.868
+      ],
+      [
+       "la",
+       2.893,
+       2.943
+      ],
+      [
+       "figure",
+       2.997,
+       3.321
+      ],
+      [
+       "de",
+       3.346,
+       3.396
+      ],
+      [
+       "style",
+       3.459,
+       3.774
+      ],
+      [
+       "qui",
+       3.849,
+       4.075
+      ],
+      [
+       "consiste",
+       4.142,
+       4.642
+      ],
+      [
+       "à",
+       4.66,
+       4.679
+      ],
+      [
+       "exagérer",
+       4.83,
+       5.585
+      ],
+      [
+       "?",
+       5.66,
+       5.736
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/32-a.mp3",
+     "sec": 1.594807,
+     "text": "C'était L'hyperbole.",
+     "words": [
+      [
+       "C'était",
+       0.061,
+       0.446
+      ],
+      [
+       "L'hyperbole.",
+       0.634,
+       1.578
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le plus petit muscle du corps humain ?",
+    "choices": [
+     "Le masséter",
+     "Le deltoïde",
+     "Le soléaire",
+     "Le stapédius"
+    ],
+    "correct": 3
+   },
+   "answer": "Le stapédius",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/33-q.mp3",
+     "sec": 2.238141,
+     "text": "Quel est le plus petit muscle du corps humain ?",
+     "words": [
+      [
+       "Quel",
+       0.027,
+       0.113
+      ],
+      [
+       "est",
+       0.151,
+       0.264
+      ],
+      [
+       "le",
+       0.314,
+       0.415
+      ],
+      [
+       "plus",
+       0.46,
+       0.641
+      ],
+      [
+       "petit",
+       0.691,
+       0.943
+      ],
+      [
+       "muscle",
+       1.008,
+       1.396
+      ],
+      [
+       "du",
+       1.497,
+       1.698
+      ],
+      [
+       "corps",
+       1.736,
+       1.924
+      ],
+      [
+       "humain",
+       1.962,
+       2.151
+      ],
+      [
+       "?",
+       2.189,
+       2.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/33-a.mp3",
+     "sec": 1.908005,
+     "text": "Eh oui : Le stapédius !",
+     "words": [
+      [
+       "Eh",
+       0.063,
+       0.083
+      ],
+      [
+       "oui",
+       0.14,
+       0.309
+      ],
+      [
+       ":",
+       0.536,
+       0.762
+      ],
+      [
+       "Le",
+       0.788,
+       0.838
+      ],
+      [
+       "stapédius",
+       0.943,
+       1.819
+      ],
+      [
+       "!",
+       1.857,
+       1.894
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la somme des nombres entiers de 1 à 100 ?",
+    "choices": [
+     "5 000",
+     "4 950",
+     "5 050",
+     "10 100"
+    ],
+    "correct": 2
+   },
+   "answer": "5 050",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/34-q.mp3",
+     "sec": 2.729388,
+     "text": "Quelle est la somme des nombres entiers de 1 à 100 ?",
+     "words": [
+      [
+       "Quelle",
+       0.065,
+       0.151
+      ],
+      [
+       "est",
+       0.17,
+       0.226
+      ],
+      [
+       "la",
+       0.252,
+       0.302
+      ],
+      [
+       "somme",
+       0.377,
+       0.755
+      ],
+      [
+       "des",
+       0.774,
+       0.83
+      ],
+      [
+       "nombres",
+       0.877,
+       1.208
+      ],
+      [
+       "entiers",
+       1.264,
+       1.736
+      ],
+      [
+       "de",
+       1.837,
+       2.038
+      ],
+      [
+       "1",
+       2.113,
+       2.189
+      ],
+      [
+       "à",
+       2.226,
+       2.264
+      ],
+      [
+       "100",
+       2.491,
+       2.642
+      ],
+      [
+       "?",
+       2.679,
+       2.717
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/34-a.mp3",
+     "sec": 2.491293,
+     "text": "La bonne réponse, c'est 5 050.",
+     "words": [
+      [
+       "La",
+       0.201,
+       0.226
+      ],
+      [
+       "bonne",
+       0.252,
+       0.377
+      ],
+      [
+       "réponse,",
+       0.443,
+       1.057
+      ],
+      [
+       "c'est",
+       1.094,
+       1.358
+      ],
+      [
+       "5",
+       1.509,
+       1.66
+      ],
+      [
+       "050.",
+       2.038,
+       2.491
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel est le lac le plus profond du monde ?",
+    "choices": [
+     "Le Tanganyika",
+     "Le lac Victoria",
+     "Le Baïkal",
+     "Le lac Supérieur"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Baïkal",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/35-q.mp3",
+     "sec": 4.351156,
+     "text": "On continue. Quel est le lac le plus profond du monde ?",
+     "words": [
+      [
+       "On",
+       0.025,
+       0.036
+      ],
+      [
+       "continue.",
+       0.094,
+       0.979
+      ],
+      [
+       "Quel",
+       1.118,
+       1.47
+      ],
+      [
+       "est",
+       1.507,
+       1.621
+      ],
+      [
+       "le",
+       1.646,
+       1.696
+      ],
+      [
+       "lac",
+       1.809,
+       2.149
+      ],
+      [
+       "le",
+       2.224,
+       2.375
+      ],
+      [
+       "plus",
+       2.406,
+       2.526
+      ],
+      [
+       "profond",
+       2.632,
+       3.206
+      ],
+      [
+       "du",
+       3.231,
+       3.281
+      ],
+      [
+       "monde",
+       3.344,
+       3.658
+      ],
+      [
+       "?",
+       3.998,
+       4.338
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/35-a.mp3",
+     "sec": 1.52415,
+     "text": "C'était Le Baïkal.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.453
+      ],
+      [
+       "Le",
+       0.554,
+       0.755
+      ],
+      [
+       "Baïkal.",
+       0.83,
+       1.509
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "Le mont Blanc est le plus haut sommet des Alpes.",
+   "answer": true,
+   "fact": "Il culmine à environ 4 806 mètres, et sa hauteur change un peu selon la neige.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/i0-q.mp3",
+     "sec": 5.979501,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : Le mont Blanc est le plus haut sommet des Alpes.",
+     "words": [
+      [
+       "Une",
+       0.08,
+       0.094
+      ],
+      [
+       "question",
+       0.136,
+       0.472
+      ],
+      [
+       "à",
+       0.509,
+       0.547
+      ],
+      [
+       "côté,",
+       0.622,
+       1
+      ],
+      [
+       "pour",
+       1.015,
+       1.075
+      ],
+      [
+       "le",
+       1.125,
+       1.226
+      ],
+      [
+       "plaisir",
+       1.283,
+       1.679
+      ],
+      [
+       ":",
+       1.905,
+       2.132
+      ],
+      [
+       "Vrai",
+       2.207,
+       2.434
+      ],
+      [
+       "ou",
+       2.459,
+       2.509
+      ],
+      [
+       "faux",
+       2.585,
+       2.887
+      ],
+      [
+       ":",
+       3.075,
+       3.264
+      ],
+      [
+       "Le",
+       3.314,
+       3.415
+      ],
+      [
+       "mont",
+       3.46,
+       3.641
+      ],
+      [
+       "Blanc",
+       3.691,
+       3.943
+      ],
+      [
+       "est",
+       4,
+       4.17
+      ],
+      [
+       "le",
+       4.22,
+       4.321
+      ],
+      [
+       "plus",
+       4.366,
+       4.547
+      ],
+      [
+       "haut",
+       4.622,
+       4.924
+      ],
+      [
+       "sommet",
+       5,
+       5.302
+      ],
+      [
+       "des",
+       5.339,
+       5.453
+      ],
+      [
+       "Alpes.",
+       5.528,
+       5.981
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/i0-a.mp3",
+     "sec": 0.986304,
+     "text": "Vrai !",
+     "words": [
+      [
+       "Vrai",
+       0.142,
+       0.302
+      ],
+      [
+       "!",
+       0.604,
+       0.906
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-27-culture-generale/i0-f.mp3",
+     "sec": 6.403537,
+     "text": "Et pour la culture : Il culmine à environ 4 806 mètres, et sa hauteur change un peu selon la neige.",
+     "words": [
+      [
+       "Et",
+       0.065,
+       0.075
+      ],
+      [
+       "pour",
+       0.106,
+       0.226
+      ],
+      [
+       "la",
+       0.252,
+       0.302
+      ],
+      [
+       "culture",
+       0.368,
+       0.83
+      ],
+      [
+       ":",
+       1.057,
+       1.283
+      ],
+      [
+       "Il",
+       1.333,
+       1.434
+      ],
+      [
+       "culmine",
+       1.509,
+       1.887
+      ],
+      [
+       "à",
+       1.925,
+       1.962
+      ],
+      [
+       "environ",
+       2.009,
+       2.34
+      ],
+      [
+       "4",
+       2.491,
+       2.717
+      ],
+      [
+       "806",
+       2.943,
+       3.321
+      ],
+      [
+       "mètres,",
+       3.396,
+       3.698
+      ],
+      [
+       "et",
+       3.824,
+       4.075
+      ],
+      [
+       "sa",
+       4.151,
+       4.302
+      ],
+      [
+       "hauteur",
+       4.327,
+       4.755
+      ],
+      [
+       "change",
+       4.82,
+       5.208
+      ],
+      [
+       "un",
+       5.233,
+       5.283
+      ],
+      [
+       "peu",
+       5.34,
+       5.509
+      ],
+      [
+       "selon",
+       5.559,
+       5.811
+      ],
+      [
+       "la",
+       5.837,
+       5.887
+      ],
+      [
+       "neige.",
+       5.937,
+       6.415
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel savant a inventé la pasteurisation ?",
+   "choices": [
+    "Pierre Fermat",
+    "Louis Pasteur",
+    "Gustave Eiffel"
+   ],
+   "correct": 1,
+   "fact": "Elle chauffe doucement le lait pour tuer les microbes, une méthode née dans les années 1860.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/i1-q.mp3",
+     "sec": 7.124694,
+     "text": "Petite pause ! Quel savant a inventé la pasteurisation : Pierre Fermat, Louis Pasteur, ou Gustave Eiffel ?",
+     "words": [
+      [
+       "Petite",
+       0.16,
+       0.198
+      ],
+      [
+       "pause",
+       0.262,
+       0.576
+      ],
+      [
+       "!",
+       0.614,
+       0.651
+      ],
+      [
+       "Quel",
+       0.802,
+       1.18
+      ],
+      [
+       "savant",
+       1.274,
+       1.783
+      ],
+      [
+       "a",
+       1.897,
+       2.01
+      ],
+      [
+       "inventé",
+       2.064,
+       2.463
+      ],
+      [
+       "la",
+       2.488,
+       2.538
+      ],
+      [
+       "pasteurisation",
+       2.583,
+       3.368
+      ],
+      [
+       ":",
+       3.595,
+       3.821
+      ],
+      [
+       "Pierre",
+       3.843,
+       3.972
+      ],
+      [
+       "Fermat,",
+       4.032,
+       4.802
+      ],
+      [
+       "Louis",
+       4.84,
+       5.029
+      ],
+      [
+       "Pasteur,",
+       5.104,
+       5.708
+      ],
+      [
+       "ou",
+       5.809,
+       6.01
+      ],
+      [
+       "Gustave",
+       6.085,
+       6.538
+      ],
+      [
+       "Eiffel",
+       6.576,
+       6.915
+      ],
+      [
+       "?",
+       8.425,
+       9.934
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/i1-a.mp3",
+     "sec": 1.629796,
+     "text": "Eh oui : Louis Pasteur !",
+     "words": [
+      [
+       "Eh",
+       0.094,
+       0.106
+      ],
+      [
+       "oui",
+       0.163,
+       0.332
+      ],
+      [
+       ":",
+       0.559,
+       0.785
+      ],
+      [
+       "Louis",
+       0.823,
+       1.012
+      ],
+      [
+       "Pasteur",
+       1.075,
+       1.54
+      ],
+      [
+       "!",
+       1.578,
+       1.615
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-27-culture-generale/i1-f.mp3",
+     "sec": 6.946168,
+     "text": "Petit bonus : Elle chauffe doucement le lait pour tuer les microbes, une méthode née dans les années 1860.",
+     "words": [
+      [
+       "Petit",
+       0.11,
+       0.147
+      ],
+      [
+       "bonus",
+       0.223,
+       0.6
+      ],
+      [
+       ":",
+       0.789,
+       0.978
+      ],
+      [
+       "Elle",
+       1.008,
+       1.129
+      ],
+      [
+       "chauffe",
+       1.182,
+       1.581
+      ],
+      [
+       "doucement",
+       1.619,
+       2.11
+      ],
+      [
+       "le",
+       2.135,
+       2.185
+      ],
+      [
+       "lait",
+       2.235,
+       2.487
+      ],
+      [
+       "pour",
+       2.563,
+       2.864
+      ],
+      [
+       "tuer",
+       2.978,
+       3.317
+      ],
+      [
+       "les",
+       3.336,
+       3.393
+      ],
+      [
+       "microbes,",
+       3.451,
+       4.298
+      ],
+      [
+       "une",
+       4.336,
+       4.449
+      ],
+      [
+       "méthode",
+       4.515,
+       4.978
+      ],
+      [
+       "née",
+       5.015,
+       5.129
+      ],
+      [
+       "dans",
+       5.159,
+       5.28
+      ],
+      [
+       "les",
+       5.317,
+       5.43
+      ],
+      [
+       "années",
+       5.474,
+       5.732
+      ],
+      [
+       "1860.",
+       5.808,
+       6.94
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le Sahara est le plus grand désert chaud du monde.",
+   "answer": true,
+   "fact": "Il a presque la taille des États-Unis et s'étend sur plusieurs pays d'Afrique.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/i2-q.mp3",
+     "sec": 5.976395,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : Le Sahara est le plus grand désert chaud du monde.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.276,
+       0.528
+      ],
+      [
+       "entre",
+       0.566,
+       0.755
+      ],
+      [
+       "deux",
+       0.785,
+       0.906
+      ],
+      [
+       "questions",
+       0.951,
+       1.358
+      ],
+      [
+       ":",
+       1.623,
+       1.887
+      ],
+      [
+       "Vrai",
+       1.925,
+       2.189
+      ],
+      [
+       "ou",
+       2.29,
+       2.491
+      ],
+      [
+       "faux",
+       2.551,
+       2.792
+      ],
+      [
+       ":",
+       3.057,
+       3.321
+      ],
+      [
+       "Le",
+       3.346,
+       3.396
+      ],
+      [
+       "Sahara",
+       3.482,
+       4
+      ],
+      [
+       "est",
+       4.057,
+       4.226
+      ],
+      [
+       "le",
+       4.276,
+       4.377
+      ],
+      [
+       "plus",
+       4.408,
+       4.528
+      ],
+      [
+       "grand",
+       4.578,
+       4.83
+      ],
+      [
+       "désert",
+       4.868,
+       5.132
+      ],
+      [
+       "chaud",
+       5.17,
+       5.358
+      ],
+      [
+       "du",
+       5.384,
+       5.434
+      ],
+      [
+       "monde.",
+       5.497,
+       5.962
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/i2-a.mp3",
+     "sec": 1.109274,
+     "text": "Eh oui, c'est vrai.",
+     "words": [
+      [
+       "Eh",
+       0,
+       0.045
+      ],
+      [
+       "oui,",
+       0.121,
+       0.498
+      ],
+      [
+       "c'est",
+       0.536,
+       0.649
+      ],
+      [
+       "vrai.",
+       0.694,
+       1.102
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-27-culture-generale/i2-f.mp3",
+     "sec": 5.14415,
+     "text": "Petit bonus : Il a presque la taille des États-Unis et s'étend sur plusieurs pays d'Afrique.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.302,
+       0.679
+      ],
+      [
+       ":",
+       0.906,
+       1.132
+      ],
+      [
+       "Il",
+       1.182,
+       1.283
+      ],
+      [
+       "a",
+       1.358,
+       1.434
+      ],
+      [
+       "presque",
+       1.509,
+       1.887
+      ],
+      [
+       "la",
+       1.937,
+       2.038
+      ],
+      [
+       "taille",
+       2.081,
+       2.34
+      ],
+      [
+       "des",
+       2.377,
+       2.491
+      ],
+      [
+       "États-Unis",
+       2.566,
+       3.019
+      ],
+      [
+       "et",
+       3.144,
+       3.396
+      ],
+      [
+       "s'étend",
+       3.434,
+       3.774
+      ],
+      [
+       "sur",
+       3.83,
+       4
+      ],
+      [
+       "plusieurs",
+       4.038,
+       4.377
+      ],
+      [
+       "pays",
+       4.408,
+       4.528
+      ],
+      [
+       "d'Afrique.",
+       4.566,
+       5.132
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "De quel animal vient la laine ?",
+   "choices": [
+    "La vache",
+    "Le mouton",
+    "Le cochon"
+   ],
+   "correct": 1,
+   "fact": "Un mouton peut produire environ 4 kilos de laine par an, qu'on récolte en le tondant.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-27-culture-generale/i3-q.mp3",
+     "sec": 6.679955,
+     "text": "Intermède ! De quel animal vient la laine : La vache, Le mouton, ou Le cochon ?",
+     "words": [
+      [
+       "Intermède",
+       0.101,
+       0.576
+      ],
+      [
+       "!",
+       0.916,
+       1.256
+      ],
+      [
+       "De",
+       1.281,
+       1.331
+      ],
+      [
+       "quel",
+       1.391,
+       1.633
+      ],
+      [
+       "animal",
+       1.698,
+       2.086
+      ],
+      [
+       "vient",
+       2.124,
+       2.312
+      ],
+      [
+       "la",
+       2.362,
+       2.463
+      ],
+      [
+       "laine",
+       2.501,
+       2.841
+      ],
+      [
+       ":",
+       3.105,
+       3.369
+      ],
+      [
+       "La",
+       3.419,
+       3.52
+      ],
+      [
+       "vache,",
+       3.595,
+       3.973
+      ],
+      [
+       "Le",
+       4.174,
+       4.576
+      ],
+      [
+       "mouton,",
+       4.652,
+       5.407
+      ],
+      [
+       "ou",
+       5.532,
+       5.784
+      ],
+      [
+       "Le",
+       5.809,
+       5.859
+      ],
+      [
+       "cochon",
+       5.935,
+       6.388
+      ],
+      [
+       "?",
+       6.539,
+       6.69
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-27-culture-generale/i3-a.mp3",
+     "sec": 1.35771,
+     "text": "C'est Le mouton !",
+     "words": [
+      [
+       "C'est",
+       0.068,
+       0.151
+      ],
+      [
+       "Le",
+       0.176,
+       0.226
+      ],
+      [
+       "mouton",
+       0.302,
+       0.906
+      ],
+      [
+       "!",
+       1.094,
+       1.283
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-27-culture-generale/i3-f.mp3",
+     "sec": 5.438957,
+     "text": "Au passage, Un mouton peut produire environ 4 kilos de laine par an, qu'on récolte en le tondant.",
+     "words": [
+      [
+       "Au",
+       0.065,
+       0.075
+      ],
+      [
+       "passage,",
+       0.142,
+       0.755
+      ],
+      [
+       "Un",
+       0.78,
+       0.83
+      ],
+      [
+       "mouton",
+       0.906,
+       1.208
+      ],
+      [
+       "peut",
+       1.238,
+       1.358
+      ],
+      [
+       "produire",
+       1.396,
+       1.736
+      ],
+      [
+       "environ",
+       1.783,
+       2.113
+      ],
+      [
+       "4",
+       2.34,
+       2.566
+      ],
+      [
+       "kilos",
+       2.642,
+       2.943
+      ],
+      [
+       "de",
+       2.993,
+       3.094
+      ],
+      [
+       "laine",
+       3.132,
+       3.321
+      ],
+      [
+       "par",
+       3.358,
+       3.472
+      ],
+      [
+       "an,",
+       3.547,
+       4.075
+      ],
+      [
+       "qu'on",
+       4.075,
+       4.227
+      ],
+      [
+       "récolte",
+       4.277,
+       4.68
+      ],
+      [
+       "en",
+       4.706,
+       4.756
+      ],
+      [
+       "le",
+       4.781,
+       4.831
+      ],
+      [
+       "tondant.",
+       4.907,
+       5.435
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 5,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Quiz CULTURE GÉNÉRALE en 36 questions, du niveau facile au niveau génie. Niveaux : 13 facile, 14 moyens, 5 difficiles, 4 impossible. 4 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Compare ton score avec tes amis sur https://youqwiz.com/quiz-du-jour/2026-11-27-culture-generale\n🔔 Pense à t'abonner, ça aide la chaîne.\n\n#quiz #culturegenerale #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n03:25 Niveau moyen\n07:31 Niveau difficile\n09:23 Niveau impossible\n10:43 Ton score\n10:57 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "culture generale",
+   "culture générale",
+   "quiz culture générale",
+   "test de connaissances",
+   "devinette",
+   "facile à impossible",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Quiz",
+   "line2": "36 QUESTIONS",
+   "emoji": "📚",
+   "sticker": "TU AS TOUT BON ?",
+   "layouts": [
+    3,
+    2
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Seuls les génies finissent 🧠 36 QUESTIONS de CULTURE GÉNÉRALE #Shorts",
+  "shortDescription": "La réponse + 36 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "TU TIENS 8 QUESTIONS ?",
+   "line": "3 secondes chacune ⏱️"
+  },
+  "short2": {
+   "title": "Les plus dures de culture générale ⚠️ 3 secondes chrono #Shorts",
+   "description": "Tu veux la réponse ? Elle est dans la vidéo complète (36 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "1 % RÉUSSISSENT",
+   "line": "aux 8 questions les plus dures 🔥"
+  },
+  "short3": {
+   "title": "Tu passes la 5e ? 😏 36 QUESTIONS de CULTURE GÉNÉRALE #Shorts",
+   "description": "Tu veux la réponse ? Elle est dans la vidéo complète (36 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "ÇA SE CORSE",
+   "line": "8 questions, 3 secondes chacune ⏱️"
+  },
+  "social": {
+   "caption": "36 QUESTIONS de CULTURE GÉNÉRALE 🧠 Tu tiens combien de questions ? Réponds en commentaire 👇",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "culturegénérale",
+    "quizculturegénérale"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 205.5,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 451.56666666666666,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 563.3,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 643.3333333333334,
+    "title": "Ton score"
+   },
+   {
+    "at": 657.3333333333334,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/9fe980eb29799124.mp3",
+   "sec": 1.897687,
+   "text": "Niveau facile. On s'échauffe !",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.302
+    ],
+    [
+     "facile.",
+     0.377,
+     1.019
+    ],
+    [
+     "On",
+     1.082,
+     1.208
+    ],
+    [
+     "s'échauffe",
+     1.283,
+     1.811
+    ],
+    [
+     "!",
+     1.849,
+     1.887
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/7b9799f8be85d949.mp3",
+   "sec": 2.344853,
+   "text": "Niveau moyen. Les choses sérieuses commencent.",
+   "words": [
+    [
+     "Niveau",
+     0.06,
+     0.218
+    ],
+    [
+     "moyen.",
+     0.282,
+     0.671
+    ],
+    [
+     "Les",
+     0.765,
+     1.049
+    ],
+    [
+     "choses",
+     1.102,
+     1.426
+    ],
+    [
+     "sérieuses",
+     1.464,
+     1.803
+    ],
+    [
+     "commencent.",
+     1.833,
+     2.332
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/d3bd957d532e8868.mp3",
+   "sec": 4.910317,
+   "text": "Niveau difficile. Ici, beaucoup abandonnent. Pas toi, j'espère.",
+   "words": [
+    [
+     "Niveau",
+     0.136,
+     0.377
+    ],
+    [
+     "difficile.",
+     0.445,
+     1.132
+    ],
+    [
+     "Ici,",
+     1.396,
+     1.887
+    ],
+    [
+     "beaucoup",
+     1.954,
+     2.491
+    ],
+    [
+     "abandonnent.",
+     2.547,
+     3.358
+    ],
+    [
+     "Pas",
+     3.425,
+     3.623
+    ],
+    [
+     "toi,",
+     3.679,
+     3.887
+    ],
+    [
+     "j'espère.",
+     3.906,
+     4.453
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/eb9d320715cf9f27.mp3",
+   "sec": 3.322834,
+   "text": "Niveau impossible. Même moi, je sèche sur certains.",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.453
+    ],
+    [
+     "impossible.",
+     0.535,
+     1.434
+    ],
+    [
+     "Même",
+     1.698,
+     2.113
+    ],
+    [
+     "moi,",
+     2.17,
+     2.34
+    ],
+    [
+     "je",
+     2.39,
+     2.491
+    ],
+    [
+     "sèche",
+     2.566,
+     2.792
+    ],
+    [
+     "sur",
+     2.83,
+     2.943
+    ],
+    [
+     "certains.",
+     2.985,
+     3.321
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/67848db59130f312.mp3",
+   "sec": 8.157664,
+   "text": "C'est l'heure des comptes ! Ton score en commentaire : le meilleur de la journée est félicité demain, et le champion de la semaine passe lundi !",
+   "words": [
+    [
+     "C'est",
+     0.181,
+     0.226
+    ],
+    [
+     "l'heure",
+     0.264,
+     0.528
+    ],
+    [
+     "des",
+     0.547,
+     0.604
+    ],
+    [
+     "comptes",
+     0.679,
+     1.132
+    ],
+    [
+     "!",
+     1.358,
+     1.585
+    ],
+    [
+     "Ton",
+     1.623,
+     1.736
+    ],
+    [
+     "score",
+     1.786,
+     2.038
+    ],
+    [
+     "en",
+     2.088,
+     2.189
+    ],
+    [
+     "commentaire",
+     2.233,
+     2.717
+    ],
+    [
+     ":",
+     2.906,
+     3.094
+    ],
+    [
+     "le",
+     3.12,
+     3.17
+    ],
+    [
+     "meilleur",
+     3.228,
+     3.698
+    ],
+    [
+     "de",
+     3.724,
+     3.774
+    ],
+    [
+     "la",
+     3.799,
+     3.849
+    ],
+    [
+     "journée",
+     3.906,
+     4.302
+    ],
+    [
+     "est",
+     4.396,
+     4.679
+    ],
+    [
+     "félicité",
+     4.729,
+     5.208
+    ],
+    [
+     "demain,",
+     5.264,
+     5.962
+    ],
+    [
+     "et",
+     6.012,
+     6.113
+    ],
+    [
+     "le",
+     6.139,
+     6.189
+    ],
+    [
+     "champion",
+     6.239,
+     6.642
+    ],
+    [
+     "de",
+     6.667,
+     6.717
+    ],
+    [
+     "la",
+     6.742,
+     6.792
+    ],
+    [
+     "semaine",
+     6.877,
+     7.472
+    ],
+    [
+     "passe",
+     7.509,
+     7.698
+    ],
+    [
+     "lundi",
+     7.736,
+     8
+    ],
+    [
+     "!",
+     8.075,
+     8.151
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/d36feb65eb633a4a.mp3",
+   "sec": 3.694399,
+   "text": "Un quiz par jour, gratuit. Abonne-toi pour ne pas rater le prochain.",
+   "words": [
+    [
+     "Un",
+     0.053,
+     0.063
+    ],
+    [
+     "quiz",
+     0.139,
+     0.441
+    ],
+    [
+     "par",
+     0.479,
+     0.592
+    ],
+    [
+     "jour,",
+     0.652,
+     1.12
+    ],
+    [
+     "gratuit.",
+     1.177,
+     2.026
+    ],
+    [
+     "Abonne-toi",
+     2.076,
+     2.479
+    ],
+    [
+     "pour",
+     2.524,
+     2.705
+    ],
+    [
+     "ne",
+     2.755,
+     2.856
+    ],
+    [
+     "pas",
+     2.875,
+     2.931
+    ],
+    [
+     "rater",
+     2.969,
+     3.158
+    ],
+    [
+     "le",
+     3.183,
+     3.233
+    ],
+    [
+     "prochain.",
+     3.29,
+     3.686
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/683be11645daf955.mp3",
+   "sec": 2.869342,
+   "text": "Bravo d'être allé jusqu'au bout. Abonne-toi et à demain !",
+   "words": [
+    [
+     "Bravo",
+     0.314,
+     0.377
+    ],
+    [
+     "d'être",
+     0.415,
+     0.604
+    ],
+    [
+     "allé",
+     0.623,
+     0.755
+    ],
+    [
+     "jusqu'au",
+     0.792,
+     1.132
+    ],
+    [
+     "bout.",
+     1.147,
+     1.585
+    ],
+    [
+     "Abonne-toi",
+     1.635,
+     2.038
+    ],
+    [
+     "et",
+     2.163,
+     2.415
+    ],
+    [
+     "à",
+     2.491,
+     2.566
+    ],
+    [
+     "demain",
+     2.585,
+     2.717
+    ],
+    [
+     "!",
+     2.792,
+     2.868
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/ded8df78c8d0480a.mp3",
+   "sec": 3.356531,
+   "text": "Content de te revoir sur YouQwiz ! Bon vendredi ! On joue ?",
+   "words": [
+    [
+     "Content",
+     0.217,
+     0.27
+    ],
+    [
+     "de",
+     0.296,
+     0.346
+    ],
+    [
+     "te",
+     0.396,
+     0.497
+    ],
+    [
+     "revoir",
+     0.547,
+     0.949
+    ],
+    [
+     "sur",
+     0.968,
+     1.025
+    ],
+    [
+     "YouQwiz",
+     1.1,
+     1.629
+    ],
+    [
+     "!",
+     1.817,
+     2.006
+    ],
+    [
+     "Bon",
+     2.025,
+     2.081
+    ],
+    [
+     "vendredi",
+     2.127,
+     2.534
+    ],
+    [
+     "!",
+     2.723,
+     2.912
+    ],
+    [
+     "On",
+     2.937,
+     2.987
+    ],
+    [
+     "joue",
+     3.044,
+     3.289
+    ],
+    [
+     "?",
+     3.327,
+     3.364
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-27-culture-generale/intro.mp3",
+   "sec": 4.1339,
+   "text": "36 Questions de Culture Générale ! Attache ta ceinture, c'est parti !",
+   "words": [
+    [
+     "36",
+     0.353,
+     0.429
+    ],
+    [
+     "Questions",
+     0.474,
+     0.881
+    ],
+    [
+     "de",
+     0.957,
+     1.108
+    ],
+    [
+     "Culture",
+     1.164,
+     1.561
+    ],
+    [
+     "Générale",
+     1.598,
+     2.013
+    ],
+    [
+     "!",
+     2.164,
+     2.315
+    ],
+    [
+     "Attache",
+     2.353,
+     2.617
+    ],
+    [
+     "ta",
+     2.667,
+     2.768
+    ],
+    [
+     "ceinture,",
+     2.794,
+     3.523
+    ],
+    [
+     "c'est",
+     3.561,
+     3.674
+    ],
+    [
+     "parti",
+     3.737,
+     4.051
+    ],
+    [
+     "!",
+     4.089,
+     4.127
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/07c981a38a4e4ced.mp3",
+   "sec": 4.710703,
+   "text": "Qui est le plus cultivé de ta bande ? Lance le quiz du jour sur youqwiz point com.",
+   "words": [
+    [
+     "Qui",
+     0.077,
+     0.1
+    ],
+    [
+     "est",
+     0.157,
+     0.326
+    ],
+    [
+     "le",
+     0.376,
+     0.477
+    ],
+    [
+     "plus",
+     0.523,
+     0.704
+    ],
+    [
+     "cultivé",
+     0.758,
+     1.157
+    ],
+    [
+     "de",
+     1.207,
+     1.308
+    ],
+    [
+     "ta",
+     1.333,
+     1.383
+    ],
+    [
+     "bande",
+     1.446,
+     1.76
+    ],
+    [
+     "?",
+     1.949,
+     2.138
+    ],
+    [
+     "Lance",
+     2.201,
+     2.515
+    ],
+    [
+     "le",
+     2.565,
+     2.666
+    ],
+    [
+     "quiz",
+     2.726,
+     2.968
+    ],
+    [
+     "du",
+     2.993,
+     3.043
+    ],
+    [
+     "jour",
+     3.104,
+     3.345
+    ],
+    [
+     "sur",
+     3.421,
+     3.647
+    ],
+    [
+     "youqwiz",
+     3.704,
+     4.175
+    ],
+    [
+     "point",
+     4.188,
+     4.251
+    ],
+    [
+     "com.",
+     4.345,
+     4.704
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/c6ec491e8cfd81d8.mp3",
+   "sec": 3.109637,
+   "text": "Choisis ton prochain défi en cliquant sur une des deux vidéos !",
+   "words": [
+    [
+     "Choisis",
+     0.128,
+     0.302
+    ],
+    [
+     "ton",
+     0.358,
+     0.528
+    ],
+    [
+     "prochain",
+     0.566,
+     0.83
+    ],
+    [
+     "défi",
+     0.906,
+     1.208
+    ],
+    [
+     "en",
+     1.333,
+     1.585
+    ],
+    [
+     "cliquant",
+     1.623,
+     1.962
+    ],
+    [
+     "sur",
+     2.038,
+     2.264
+    ],
+    [
+     "une",
+     2.302,
+     2.415
+    ],
+    [
+     "des",
+     2.453,
+     2.566
+    ],
+    [
+     "deux",
+     2.596,
+     2.717
+    ],
+    [
+     "vidéos",
+     2.76,
+     3.019
+    ],
+    [
+     "!",
+     3.057,
+     3.094
+    ]
+   ]
+  }
+ }
+}
