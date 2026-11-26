@@ -1,0 +1,5821 @@
+{
+ "id": "2026-11-28-noel",
+ "pillar": "culture",
+ "template": "QuizQCM",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 3,
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring",
+  "reveal": "pop",
+  "card": "round",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Échauffe tes neurones, c'est parti !",
+   "voice": "Content de te revoir sur YouQwiz ! Échauffe tes neurones, c'est parti !"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "🧠 Sans tricher, sans pause, on y va",
+  "subscribe": {
+   "title": "Tu aimes ? Abonne-toi 👇",
+   "sub": "ça aide la chaîne et ça ne coûte rien 🙏",
+   "voice": "Si tu aimes, abonne-toi. Ça aide la chaîne, et ça ne coûte rien."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tout le monde peut les avoir 😎",
+    "voice": "Niveau facile. Tout le monde peut les avoir. Enfin, presque."
+   },
+   "moyen": {
+    "card": "Ça se corse 👀",
+    "voice": "Niveau moyen. Ça se corse !"
+   },
+   "difficile": {
+    "card": "Concentration maximale 🧠",
+    "voice": "Niveau difficile. Concentration maximale."
+   },
+   "impossible": {
+    "card": "Personne ne les a tous 🤯",
+    "voice": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire."
+   }
+  },
+  "scoreVoice": "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !",
+  "outro": {
+   "title": "Partage à quelqu'un qui doit faire mieux 😏",
+   "voice": "Partage cette vidéo à quelqu'un qui pense faire mieux que toi. On verra."
+  },
+  "packshot": {
+   "headline": "Crée GRATUITEMENT tes quiz personnalisés",
+   "sub": "à partager avec tes amis 🎉",
+   "cta": "👉 youqwiz.com",
+   "voice": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com."
+  },
+  "rule": "4 réponses, une seule bonne 🧠 Réponds avant la fin du chrono ⭐",
+  "ruleVoice": "Quatre réponses, une seule bonne. Réponds avant la fin du chrono, et compte tes points !",
+  "nextQuizVoice": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !"
+ },
+ "title": "34 QUESTIONS spécial NOËL 🎄🎁⛄ Es-tu un EXPERT ? | Facile à Impossible",
+ "question": "",
+ "intro": {
+  "hook": "34 QUESTIONS spécial NOËL",
+  "sub": "Compte tes points, niveau par niveau ⭐"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel animal est souvent rôti à Noël, farci aux marrons ?",
+    "choices": [
+     "La dinde",
+     "Le lapin",
+     "Le hérisson",
+     "Le dauphin"
+    ],
+    "correct": 0
+   },
+   "answer": "La dinde",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/0-q.mp3",
+     "sec": 9.280023,
+     "text": "Celle-ci est pour les experts. Quel animal est souvent rôti à Noël, farci aux marrons ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.181,
+       0.453
+      ],
+      [
+       "est",
+       0.547,
+       0.83
+      ],
+      [
+       "pour",
+       0.86,
+       0.981
+      ],
+      [
+       "les",
+       1,
+       1.057
+      ],
+      [
+       "experts.",
+       1.123,
+       1.66
+      ],
+      [
+       "Quel",
+       1.861,
+       2.415
+      ],
+      [
+       "animal",
+       2.48,
+       2.868
+      ],
+      [
+       "est",
+       2.943,
+       3.17
+      ],
+      [
+       "souvent",
+       3.217,
+       3.547
+      ],
+      [
+       "rôti",
+       3.623,
+       4
+      ],
+      [
+       "à",
+       4.038,
+       4.075
+      ],
+      [
+       "Noël,",
+       4.125,
+       4.528
+      ],
+      [
+       "farci",
+       4.642,
+       5.208
+      ],
+      [
+       "aux",
+       5.245,
+       5.358
+      ],
+      [
+       "marrons",
+       5.396,
+       5.66
+      ],
+      [
+       "?",
+       7.472,
+       9.283
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/0-a.mp3",
+     "sec": 1.740522,
+     "text": "C'était La dinde.",
+     "words": [
+      [
+       "C'était",
+       0.142,
+       0.528
+      ],
+      [
+       "La",
+       0.705,
+       1.057
+      ],
+      [
+       "dinde.",
+       1.151,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel bonbon en forme de canne est rayé rouge et blanc ?",
+    "choices": [
+     "Le carambar",
+     "La guimauve",
+     "Le caramel mou",
+     "Le sucre d'orge"
+    ],
+    "correct": 3
+   },
+   "answer": "Le sucre d'orge",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/1-q.mp3",
+     "sec": 3.095465,
+     "text": "Quel bonbon en forme de canne est rayé rouge et blanc ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "bonbon",
+       0.208,
+       0.604
+      ],
+      [
+       "en",
+       0.654,
+       0.755
+      ],
+      [
+       "forme",
+       0.805,
+       1.057
+      ],
+      [
+       "de",
+       1.132,
+       1.283
+      ],
+      [
+       "canne",
+       1.34,
+       1.736
+      ],
+      [
+       "est",
+       1.774,
+       1.887
+      ],
+      [
+       "rayé",
+       1.962,
+       2.264
+      ],
+      [
+       "rouge",
+       2.327,
+       2.642
+      ],
+      [
+       "et",
+       2.667,
+       2.717
+      ],
+      [
+       "blanc",
+       2.767,
+       3.019
+      ],
+      [
+       "?",
+       3.057,
+       3.094
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/1-a.mp3",
+     "sec": 1.81517,
+     "text": "Le sucre d'orge, évidemment !",
+     "words": [
+      [
+       "Le",
+       0.139,
+       0.151
+      ],
+      [
+       "sucre",
+       0.226,
+       0.528
+      ],
+      [
+       "d'orge,",
+       0.566,
+       1.057
+      ],
+      [
+       "évidemment",
+       1.17,
+       1.66
+      ],
+      [
+       "!",
+       1.736,
+       1.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quels animaux tirent le traîneau du Père Noël ?",
+    "choices": [
+     "Des chevaux",
+     "Des loups",
+     "Des rennes",
+     "Des ours"
+    ],
+    "correct": 2
+   },
+   "answer": "Des rennes",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/2-q.mp3",
+     "sec": 2.266961,
+     "text": "Quels animaux tirent le traîneau du Père Noël ?",
+     "words": [
+      [
+       "Quels",
+       0.065,
+       0.302
+      ],
+      [
+       "animaux",
+       0.362,
+       0.679
+      ],
+      [
+       "tirent",
+       0.74,
+       1.019
+      ],
+      [
+       "le",
+       1.031,
+       1.057
+      ],
+      [
+       "traîneau",
+       1.113,
+       1.509
+      ],
+      [
+       "du",
+       1.535,
+       1.585
+      ],
+      [
+       "Père",
+       1.623,
+       1.811
+      ],
+      [
+       "Noël",
+       1.861,
+       2.189
+      ],
+      [
+       "?",
+       2.226,
+       2.264
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/2-a.mp3",
+     "sec": 2.197098,
+     "text": "Bravo si tu avais dit Des rennes.",
+     "words": [
+      [
+       "Bravo",
+       0.139,
+       0.453
+      ],
+      [
+       "si",
+       0.528,
+       0.679
+      ],
+      [
+       "tu",
+       0.705,
+       0.755
+      ],
+      [
+       "avais",
+       0.805,
+       0.981
+      ],
+      [
+       "dit",
+       1.038,
+       1.208
+      ],
+      [
+       "Des",
+       1.34,
+       1.736
+      ],
+      [
+       "rennes.",
+       1.792,
+       2.189
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle couleur ont les baies du houx ?",
+    "choices": [
+     "Bleu",
+     "Rouge",
+     "Jaune",
+     "Violet"
+    ],
+    "correct": 1
+   },
+   "answer": "Rouge",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/3-q.mp3",
+     "sec": 1.56542,
+     "text": "Quelle couleur ont les baies du houx ?",
+     "words": [
+      [
+       "Quelle",
+       0.041,
+       0.127
+      ],
+      [
+       "couleur",
+       0.193,
+       0.655
+      ],
+      [
+       "ont",
+       0.693,
+       0.806
+      ],
+      [
+       "les",
+       0.825,
+       0.882
+      ],
+      [
+       "baies",
+       0.932,
+       1.108
+      ],
+      [
+       "du",
+       1.158,
+       1.258
+      ],
+      [
+       "houx",
+       1.259,
+       1.41
+      ],
+      [
+       "?",
+       1.485,
+       1.561
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/3-a.mp3",
+     "sec": 1.648458,
+     "text": "Rouge, évidemment !",
+     "words": [
+      [
+       "Rouge,",
+       0.351,
+       0.505
+      ],
+      [
+       "évidemment",
+       0.543,
+       0.958
+      ],
+      [
+       "!",
+       1.033,
+       1.109
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel arbre décore-t-on traditionnellement à Noël ?",
+    "choices": [
+     "Le sapin",
+     "Le chêne",
+     "Le palmier",
+     "Le bouleau"
+    ],
+    "correct": 0
+   },
+   "answer": "Le sapin",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/4-q.mp3",
+     "sec": 2.288073,
+     "text": "Quel arbre décore-t-on traditionnellement à Noël ?",
+     "words": [
+      [
+       "Quel",
+       0.009,
+       0.095
+      ],
+      [
+       "arbre",
+       0.145,
+       0.472
+      ],
+      [
+       "décore-t-on",
+       0.522,
+       1.001
+      ],
+      [
+       "traditionnellement",
+       1.046,
+       1.755
+      ],
+      [
+       "à",
+       1.793,
+       1.831
+      ],
+      [
+       "Noël",
+       1.906,
+       2.208
+      ],
+      [
+       "?",
+       2.246,
+       2.284
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/4-a.mp3",
+     "sec": 1.520907,
+     "text": "C'était Le sapin.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.528
+      ],
+      [
+       "Le",
+       0.654,
+       0.906
+      ],
+      [
+       "sapin.",
+       1,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Mon beau sapin, roi des… » quoi ?",
+    "choices": [
+     "jardins",
+     "montagnes",
+     "champs",
+     "forêts"
+    ],
+    "correct": 3
+   },
+   "answer": "forêts",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/5-q.mp3",
+     "sec": 5.118299,
+     "text": "Attention, question piège. « Mon beau sapin, roi des… » quoi ?",
+     "words": [
+      [
+       "Attention,",
+       0.325,
+       0.502
+      ],
+      [
+       "question",
+       0.578,
+       1.182
+      ],
+      [
+       "piège.",
+       1.257,
+       2.012
+      ],
+      [
+       "«",
+       2.163,
+       2.314
+      ],
+      [
+       "Mon",
+       2.351,
+       2.465
+      ],
+      [
+       "beau",
+       2.51,
+       2.691
+      ],
+      [
+       "sapin,",
+       2.766,
+       3.37
+      ],
+      [
+       "roi",
+       3.483,
+       3.823
+      ],
+      [
+       "des…",
+       3.917,
+       4.653
+      ],
+      [
+       "»",
+       4.729,
+       4.804
+      ],
+      [
+       "quoi",
+       4.834,
+       4.955
+      ],
+      [
+       "?",
+       5.031,
+       5.106
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/5-a.mp3",
+     "sec": 1.51424,
+     "text": "Eh oui : forêts !",
+     "words": [
+      [
+       "Eh",
+       0.063,
+       0.083
+      ],
+      [
+       "oui",
+       0.14,
+       0.31
+      ],
+      [
+       ":",
+       0.498,
+       0.687
+      ],
+      [
+       "forêts",
+       0.743,
+       1.064
+      ],
+      [
+       "!",
+       1.291,
+       1.517
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "« Jingle Bells » se chante en français sous quel titre ?",
+    "choices": [
+     "Douce nuit",
+     "Mon beau sapin",
+     "Vive le vent",
+     "Noël blanc"
+    ],
+    "correct": 2
+   },
+   "answer": "Vive le vent",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/6-q.mp3",
+     "sec": 3.408458,
+     "text": "« Jingle Bells » se chante en français sous quel titre ?",
+     "words": [
+      [
+       "«",
+       0.113,
+       0.125
+      ],
+      [
+       "Jingle",
+       0.139,
+       0.377
+      ],
+      [
+       "Bells",
+       0.453,
+       0.83
+      ],
+      [
+       "»",
+       0.868,
+       0.906
+      ],
+      [
+       "se",
+       0.956,
+       1.057
+      ],
+      [
+       "chante",
+       1.107,
+       1.434
+      ],
+      [
+       "en",
+       1.484,
+       1.585
+      ],
+      [
+       "français",
+       1.635,
+       2.038
+      ],
+      [
+       "sous",
+       2.128,
+       2.491
+      ],
+      [
+       "quel",
+       2.551,
+       2.792
+      ],
+      [
+       "titre",
+       2.856,
+       3.17
+      ],
+      [
+       "?",
+       3.283,
+       3.396
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/6-a.mp3",
+     "sec": 2.185488,
+     "text": "Bravo si tu avais dit Vive le vent.",
+     "words": [
+      [
+       "Bravo",
+       0.361,
+       0.44
+      ],
+      [
+       "si",
+       0.515,
+       0.666
+      ],
+      [
+       "tu",
+       0.716,
+       0.817
+      ],
+      [
+       "avais",
+       0.867,
+       1.043
+      ],
+      [
+       "dit",
+       1.1,
+       1.27
+      ],
+      [
+       "Vive",
+       1.36,
+       1.723
+      ],
+      [
+       "le",
+       1.773,
+       1.874
+      ],
+      [
+       "vent.",
+       1.919,
+       2.175
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel dessert de Noël a la forme d'un tronc d'arbre ?",
+    "choices": [
+     "Le flan",
+     "La bûche",
+     "La tarte tatin",
+     "Le far breton"
+    ],
+    "correct": 1
+   },
+   "answer": "La bûche",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/7-q.mp3",
+     "sec": 3.018413,
+     "text": "Quel dessert de Noël a la forme d'un tronc d'arbre ?",
+     "words": [
+      [
+       "Quel",
+       0.097,
+       0.138
+      ],
+      [
+       "dessert",
+       0.195,
+       0.591
+      ],
+      [
+       "de",
+       0.617,
+       0.667
+      ],
+      [
+       "Noël",
+       0.742,
+       1.119
+      ],
+      [
+       "a",
+       1.27,
+       1.421
+      ],
+      [
+       "la",
+       1.471,
+       1.572
+      ],
+      [
+       "forme",
+       1.635,
+       1.95
+      ],
+      [
+       "d'un",
+       1.987,
+       2.176
+      ],
+      [
+       "tronc",
+       2.226,
+       2.478
+      ],
+      [
+       "d'arbre",
+       2.516,
+       2.931
+      ],
+      [
+       "?",
+       2.968,
+       3.006
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/7-a.mp3",
+     "sec": 1.816871,
+     "text": "La bûche, évidemment !",
+     "words": [
+      [
+       "La",
+       0.139,
+       0.151
+      ],
+      [
+       "bûche,",
+       0.226,
+       0.679
+      ],
+      [
+       "évidemment",
+       0.755,
+       1.208
+      ],
+      [
+       "!",
+       1.283,
+       1.358
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Comment appelle-t-on le repas de la nuit du 24 décembre ?",
+    "choices": [
+     "Le goûter",
+     "Le réveillon",
+     "Le brunch",
+     "Le petit-déjeuner"
+    ],
+    "correct": 1
+   },
+   "answer": "Le réveillon",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/8-q.mp3",
+     "sec": 3.248866,
+     "text": "Comment appelle-t-on le repas de la nuit du 24 décembre ?",
+     "words": [
+      [
+       "Comment",
+       0.187,
+       0.226
+      ],
+      [
+       "appelle-t-on",
+       0.264,
+       0.755
+      ],
+      [
+       "le",
+       0.805,
+       0.906
+      ],
+      [
+       "repas",
+       0.981,
+       1.358
+      ],
+      [
+       "de",
+       1.384,
+       1.434
+      ],
+      [
+       "la",
+       1.484,
+       1.585
+      ],
+      [
+       "nuit",
+       1.645,
+       1.887
+      ],
+      [
+       "du",
+       1.937,
+       2.038
+      ],
+      [
+       "24",
+       2.189,
+       2.566
+      ],
+      [
+       "décembre",
+       2.642,
+       3.17
+      ],
+      [
+       "?",
+       3.208,
+       3.245
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/8-a.mp3",
+     "sec": 1.592766,
+     "text": "Eh oui : Le réveillon !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui",
+       0.189,
+       0.302
+      ],
+      [
+       ":",
+       0.491,
+       0.679
+      ],
+      [
+       "Le",
+       0.729,
+       0.83
+      ],
+      [
+       "réveillon",
+       0.956,
+       1.509
+      ],
+      [
+       "!",
+       1.547,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Le renne appartient à la famille des…",
+    "choices": [
+     "félidés",
+     "canidés",
+     "cervidés",
+     "bovidés"
+    ],
+    "correct": 2
+   },
+   "answer": "cervidés",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/9-q.mp3",
+     "sec": 1.969501,
+     "text": "Le renne appartient à la famille des…",
+     "words": [
+      [
+       "Le",
+       0.196,
+       0.226
+      ],
+      [
+       "renne",
+       0.264,
+       0.528
+      ],
+      [
+       "appartient",
+       0.572,
+       0.981
+      ],
+      [
+       "à",
+       1.019,
+       1.057
+      ],
+      [
+       "la",
+       1.082,
+       1.132
+      ],
+      [
+       "famille",
+       1.179,
+       1.509
+      ],
+      [
+       "des…",
+       1.623,
+       1.962
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/9-a.mp3",
+     "sec": 1.641361,
+     "text": "Réponse : cervidés !",
+     "words": [
+      [
+       "Réponse",
+       0.169,
+       0.572
+      ],
+      [
+       ":",
+       0.798,
+       1.025
+      ],
+      [
+       "cervidés",
+       1.07,
+       1.553
+      ],
+      [
+       "!",
+       1.591,
+       1.628
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle est la date traditionnelle de l'Épiphanie ?",
+    "choices": [
+     "1er janvier",
+     "6 janvier",
+     "14 février",
+     "2 février"
+    ],
+    "correct": 1
+   },
+   "answer": "6 janvier",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/10-q.mp3",
+     "sec": 2.743923,
+     "text": "Quelle est la date traditionnelle de l'Épiphanie ?",
+     "words": [
+      [
+       "Quelle",
+       0.01,
+       0.096
+      ],
+      [
+       "est",
+       0.115,
+       0.172
+      ],
+      [
+       "la",
+       0.222,
+       0.323
+      ],
+      [
+       "date",
+       0.383,
+       0.624
+      ],
+      [
+       "traditionnelle",
+       0.67,
+       1.455
+      ],
+      [
+       "de",
+       1.58,
+       1.832
+      ],
+      [
+       "l'Épiphanie",
+       1.87,
+       2.587
+      ],
+      [
+       "?",
+       2.662,
+       2.738
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/10-a.mp3",
+     "sec": 1.664059,
+     "text": "Bravo si tu avais dit 6 janvier.",
+     "words": [
+      [
+       "Bravo",
+       0.252,
+       0.302
+      ],
+      [
+       "si",
+       0.352,
+       0.453
+      ],
+      [
+       "tu",
+       0.503,
+       0.604
+      ],
+      [
+       "avais",
+       0.629,
+       0.83
+      ],
+      [
+       "dit",
+       0.849,
+       0.906
+      ],
+      [
+       "6",
+       1.057,
+       1.132
+      ],
+      [
+       "janvier.",
+       1.189,
+       1.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle fête des lumières a lieu en Suède le 13 décembre ?",
+    "choices": [
+     "La Saint-Jean",
+     "La Sainte-Lucie",
+     "La Chandeleur",
+     "La Walpurgis"
+    ],
+    "correct": 1
+   },
+   "answer": "La Sainte-Lucie",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/11-q.mp3",
+     "sec": 7.811678,
+     "text": "Beaucoup se trompent ici. Quelle fête des lumières a lieu en Suède le 13 décembre ?",
+     "words": [
+      [
+       "Beaucoup",
+       0.113,
+       0.302
+      ],
+      [
+       "se",
+       0.352,
+       0.453
+      ],
+      [
+       "trompent",
+       0.498,
+       0.755
+      ],
+      [
+       "ici.",
+       0.83,
+       1.132
+      ],
+      [
+       "Quelle",
+       1.283,
+       1.66
+      ],
+      [
+       "fête",
+       1.774,
+       2.038
+      ],
+      [
+       "des",
+       2.057,
+       2.113
+      ],
+      [
+       "lumières",
+       2.151,
+       2.566
+      ],
+      [
+       "a",
+       2.604,
+       2.642
+      ],
+      [
+       "lieu",
+       2.687,
+       2.868
+      ],
+      [
+       "en",
+       2.893,
+       2.943
+      ],
+      [
+       "Suède",
+       3.044,
+       3.472
+      ],
+      [
+       "le",
+       3.597,
+       3.849
+      ],
+      [
+       "13",
+       4,
+       4.226
+      ],
+      [
+       "décembre",
+       4.302,
+       4.83
+      ],
+      [
+       "?",
+       6.34,
+       7.849
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/11-a.mp3",
+     "sec": 2.044082,
+     "text": "Réponse : La Sainte-Lucie !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.52
+      ],
+      [
+       ":",
+       0.784,
+       1.049
+      ],
+      [
+       "La",
+       1.074,
+       1.124
+      ],
+      [
+       "Sainte-Lucie",
+       1.187,
+       1.954
+      ],
+      [
+       "!",
+       1.992,
+       2.03
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays est né le calendrier de l'Avent ?",
+    "choices": [
+     "Japon",
+     "Brésil",
+     "Allemagne",
+     "Égypte"
+    ],
+    "correct": 2
+   },
+   "answer": "Allemagne",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/12-q.mp3",
+     "sec": 4.826395,
+     "text": "Attention, question piège. Dans quel pays est né le calendrier de l'Avent ?",
+     "words": [
+      [
+       "Attention,",
+       0.309,
+       0.453
+      ],
+      [
+       "question",
+       0.503,
+       0.906
+      ],
+      [
+       "piège.",
+       0.962,
+       1.66
+      ],
+      [
+       "Dans",
+       1.721,
+       1.962
+      ],
+      [
+       "quel",
+       2.008,
+       2.189
+      ],
+      [
+       "pays",
+       2.279,
+       2.642
+      ],
+      [
+       "est",
+       2.698,
+       2.868
+      ],
+      [
+       "né",
+       2.943,
+       3.094
+      ],
+      [
+       "le",
+       3.12,
+       3.17
+      ],
+      [
+       "calendrier",
+       3.224,
+       3.849
+      ],
+      [
+       "de",
+       3.875,
+       3.925
+      ],
+      [
+       "l'Avent",
+       3.962,
+       4.302
+      ],
+      [
+       "?",
+       4.34,
+       4.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/12-a.mp3",
+     "sec": 1.51619,
+     "text": "Bravo si tu avais dit Allemagne.",
+     "words": [
+      [
+       "Bravo",
+       0.252,
+       0.302
+      ],
+      [
+       "si",
+       0.377,
+       0.528
+      ],
+      [
+       "tu",
+       0.554,
+       0.604
+      ],
+      [
+       "avais",
+       0.654,
+       0.83
+      ],
+      [
+       "dit",
+       0.849,
+       0.906
+      ],
+      [
+       "Allemagne.",
+       0.956,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays se trouve Rovaniemi, la ville du Père Noël ?",
+    "choices": [
+     "Norvège",
+     "Finlande",
+     "Islande",
+     "Canada"
+    ],
+    "correct": 1
+   },
+   "answer": "Finlande",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/13-q.mp3",
+     "sec": 3.777347,
+     "text": "Dans quel pays se trouve Rovaniemi, la ville du Père Noël ?",
+     "words": [
+      [
+       "Dans",
+       0.126,
+       0.151
+      ],
+      [
+       "quel",
+       0.181,
+       0.302
+      ],
+      [
+       "pays",
+       0.377,
+       0.679
+      ],
+      [
+       "se",
+       0.729,
+       0.83
+      ],
+      [
+       "trouve",
+       0.884,
+       1.208
+      ],
+      [
+       "Rovaniemi,",
+       1.321,
+       2.415
+      ],
+      [
+       "la",
+       2.465,
+       2.566
+      ],
+      [
+       "ville",
+       2.629,
+       2.943
+      ],
+      [
+       "du",
+       2.969,
+       3.019
+      ],
+      [
+       "Père",
+       3.094,
+       3.245
+      ],
+      [
+       "Noël",
+       3.321,
+       3.698
+      ],
+      [
+       "?",
+       3.736,
+       3.774
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/13-a.mp3",
+     "sec": 1.884218,
+     "text": "Bravo si tu avais dit Finlande.",
+     "words": [
+      [
+       "Bravo",
+       0.434,
+       0.522
+      ],
+      [
+       "si",
+       0.572,
+       0.673
+      ],
+      [
+       "tu",
+       0.723,
+       0.823
+      ],
+      [
+       "avais",
+       0.849,
+       1.05
+      ],
+      [
+       "dit",
+       1.069,
+       1.125
+      ],
+      [
+       "Finlande.",
+       1.201,
+       1.88
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville alsacienne est surnommée « Capitale de Noël » ?",
+    "choices": [
+     "Mulhouse",
+     "Colmar",
+     "Metz",
+     "Strasbourg"
+    ],
+    "correct": 3
+   },
+   "answer": "Strasbourg",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/14-q.mp3",
+     "sec": 3.472834,
+     "text": "Quelle ville alsacienne est surnommée « Capitale de Noël » ?",
+     "words": [
+      [
+       "Quelle",
+       0.065,
+       0.151
+      ],
+      [
+       "ville",
+       0.201,
+       0.453
+      ],
+      [
+       "alsacienne",
+       0.528,
+       1.208
+      ],
+      [
+       "est",
+       1.264,
+       1.434
+      ],
+      [
+       "surnommée",
+       1.472,
+       1.962
+      ],
+      [
+       "«",
+       2.113,
+       2.264
+      ],
+      [
+       "Capitale",
+       2.302,
+       2.717
+      ],
+      [
+       "de",
+       2.742,
+       2.792
+      ],
+      [
+       "Noël",
+       2.868,
+       3.321
+      ],
+      [
+       "»",
+       3.358,
+       3.396
+      ],
+      [
+       "?",
+       3.434,
+       3.472
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/14-a.mp3",
+     "sec": 1.901565,
+     "text": "Réponse : Strasbourg !",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.604
+      ],
+      [
+       ":",
+       0.792,
+       0.981
+      ],
+      [
+       "Strasbourg",
+       1.038,
+       1.736
+      ],
+      [
+       "!",
+       1.811,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville française fête la Fête des Lumières le 8 décembre ?",
+    "choices": [
+     "Nantes",
+     "Toulouse",
+     "Lyon",
+     "Bordeaux"
+    ],
+    "correct": 2
+   },
+   "answer": "Lyon",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/15-q.mp3",
+     "sec": 3.574762,
+     "text": "Quelle ville française fête la Fête des Lumières le 8 décembre ?",
+     "words": [
+      [
+       "Quelle",
+       0.01,
+       0.096
+      ],
+      [
+       "ville",
+       0.133,
+       0.322
+      ],
+      [
+       "française",
+       0.39,
+       1.001
+      ],
+      [
+       "fête",
+       1.114,
+       1.379
+      ],
+      [
+       "la",
+       1.429,
+       1.53
+      ],
+      [
+       "Fête",
+       1.605,
+       1.756
+      ],
+      [
+       "des",
+       1.794,
+       1.907
+      ],
+      [
+       "Lumières",
+       1.945,
+       2.511
+      ],
+      [
+       "le",
+       2.586,
+       2.737
+      ],
+      [
+       "8",
+       2.813,
+       2.888
+      ],
+      [
+       "décembre",
+       2.964,
+       3.492
+      ],
+      [
+       "?",
+       3.53,
+       3.567
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/15-a.mp3",
+     "sec": 1.577528,
+     "text": "Lyon, évidemment !",
+     "words": [
+      [
+       "Lyon,",
+       0.25,
+       0.374
+      ],
+      [
+       "évidemment",
+       0.412,
+       0.827
+      ],
+      [
+       "!",
+       1.204,
+       1.582
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Que trouve-t-on dans un « cracker » de Noël britannique ?",
+    "choices": [
+     "Un sapin miniature",
+     "Un poisson",
+     "Une carte routière",
+     "Une couronne en papier"
+    ],
+    "correct": 3
+   },
+   "answer": "Une couronne en papier",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/16-q.mp3",
+     "sec": 2.94907,
+     "text": "Que trouve-t-on dans un « cracker » de Noël britannique ?",
+     "words": [
+      [
+       "Que",
+       0.064,
+       0.075
+      ],
+      [
+       "trouve-t-on",
+       0.119,
+       0.604
+      ],
+      [
+       "dans",
+       0.649,
+       0.83
+      ],
+      [
+       "un",
+       0.88,
+       0.981
+      ],
+      [
+       "«",
+       1.019,
+       1.057
+      ],
+      [
+       "cracker",
+       1.107,
+       1.66
+      ],
+      [
+       "»",
+       1.698,
+       1.736
+      ],
+      [
+       "de",
+       1.761,
+       1.811
+      ],
+      [
+       "Noël",
+       1.887,
+       2.189
+      ],
+      [
+       "britannique",
+       2.234,
+       2.792
+      ],
+      [
+       "?",
+       2.868,
+       2.943
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/16-a.mp3",
+     "sec": 1.802404,
+     "text": "Eh oui : Une couronne en papier !",
+     "words": [
+      [
+       "Eh",
+       0.036,
+       0.056
+      ],
+      [
+       "oui",
+       0.112,
+       0.282
+      ],
+      [
+       ":",
+       0.395,
+       0.508
+      ],
+      [
+       "Une",
+       0.584,
+       0.81
+      ],
+      [
+       "couronne",
+       0.856,
+       1.188
+      ],
+      [
+       "en",
+       1.238,
+       1.339
+      ],
+      [
+       "papier",
+       1.376,
+       1.716
+      ],
+      [
+       "!",
+       1.754,
+       1.791
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de desserts compte la tradition provençale de Noël ?",
+    "choices": [
+     "7",
+     "10",
+     "21",
+     "13"
+    ],
+    "correct": 3
+   },
+   "answer": "13",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/17-q.mp3",
+     "sec": 5.540431,
+     "text": "Celle-ci est pour les experts. Combien de desserts compte la tradition provençale de Noël ?",
+     "words": [
+      [
+       "Celle-ci",
+       0.02,
+       0.405
+      ],
+      [
+       "est",
+       0.481,
+       0.707
+      ],
+      [
+       "pour",
+       0.737,
+       0.858
+      ],
+      [
+       "les",
+       0.877,
+       0.933
+      ],
+      [
+       "experts.",
+       0.999,
+       1.537
+      ],
+      [
+       "Combien",
+       1.673,
+       2.367
+      ],
+      [
+       "de",
+       2.417,
+       2.518
+      ],
+      [
+       "desserts",
+       2.577,
+       3.047
+      ],
+      [
+       "compte",
+       3.09,
+       3.349
+      ],
+      [
+       "la",
+       3.399,
+       3.499
+      ],
+      [
+       "tradition",
+       3.56,
+       4.103
+      ],
+      [
+       "provençale",
+       4.157,
+       4.782
+      ],
+      [
+       "de",
+       4.832,
+       4.933
+      ],
+      [
+       "Noël",
+       5.009,
+       5.386
+      ],
+      [
+       "?",
+       5.462,
+       5.537
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/17-a.mp3",
+     "sec": 1.286825,
+     "text": "Eh oui : 13 !",
+     "words": [
+      [
+       "Eh",
+       0.063,
+       0.073
+      ],
+      [
+       "oui",
+       0.13,
+       0.3
+      ],
+      [
+       ":",
+       0.526,
+       0.753
+      ],
+      [
+       "13",
+       0.979,
+       1.206
+      ],
+      [
+       "!",
+       1.243,
+       1.281
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Australie, Noël tombe à quelle saison ?",
+    "choices": [
+     "L'hiver",
+     "L'été",
+     "L'automne",
+     "Le printemps"
+    ],
+    "correct": 1
+   },
+   "answer": "L'été",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/18-q.mp3",
+     "sec": 4.833719,
+     "text": "Réfléchis bien avant de répondre. En Australie, Noël tombe à quelle saison ?",
+     "words": [
+      [
+       "Réfléchis",
+       0.196,
+       0.604
+      ],
+      [
+       "bien",
+       0.649,
+       0.83
+      ],
+      [
+       "avant",
+       0.868,
+       1.057
+      ],
+      [
+       "de",
+       1.082,
+       1.132
+      ],
+      [
+       "répondre.",
+       1.186,
+       1.66
+      ],
+      [
+       "En",
+       1.912,
+       2.415
+      ],
+      [
+       "Australie,",
+       2.462,
+       3.245
+      ],
+      [
+       "Noël",
+       3.321,
+       3.623
+      ],
+      [
+       "tombe",
+       3.698,
+       4
+      ],
+      [
+       "à",
+       4.075,
+       4.151
+      ],
+      [
+       "quelle",
+       4.173,
+       4.302
+      ],
+      [
+       "saison",
+       4.367,
+       4.755
+      ],
+      [
+       "?",
+       4.792,
+       4.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/18-a.mp3",
+     "sec": 1.58254,
+     "text": "Réponse : L'été !",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.528
+      ],
+      [
+       ":",
+       0.755,
+       0.981
+      ],
+      [
+       "L'été",
+       1.019,
+       1.434
+      ],
+      [
+       "!",
+       1.509,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Espagne, combien de raisins mange-t-on à minuit le 31 décembre ?",
+    "choices": [
+     "7",
+     "10",
+     "12",
+     "24"
+    ],
+    "correct": 2
+   },
+   "answer": "12",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/19-q.mp3",
+     "sec": 4.916349,
+     "text": "En Espagne, combien de raisins mange-t-on à minuit le 31 décembre ?",
+     "words": [
+      [
+       "En",
+       0.065,
+       0.075
+      ],
+      [
+       "Espagne,",
+       0.151,
+       0.981
+      ],
+      [
+       "combien",
+       1.026,
+       1.358
+      ],
+      [
+       "de",
+       1.408,
+       1.509
+      ],
+      [
+       "raisins",
+       1.57,
+       1.962
+      ],
+      [
+       "mange-t-on",
+       2,
+       2.491
+      ],
+      [
+       "à",
+       2.604,
+       2.717
+      ],
+      [
+       "minuit",
+       2.755,
+       3.094
+      ],
+      [
+       "le",
+       3.271,
+       3.623
+      ],
+      [
+       "31",
+       3.698,
+       4.151
+      ],
+      [
+       "décembre",
+       4.208,
+       4.755
+      ],
+      [
+       "?",
+       4.83,
+       4.906
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/19-a.mp3",
+     "sec": 1.065556,
+     "text": "C'était 12.",
+     "words": [
+      [
+       "C'était",
+       0.142,
+       0.377
+      ],
+      [
+       "12.",
+       0.528,
+       1.057
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Espagne, quel jour les enfants reçoivent-ils surtout leurs cadeaux ?",
+    "choices": [
+     "6 janvier",
+     "1er novembre",
+     "14 juillet",
+     "8 mars"
+    ],
+    "correct": 0
+   },
+   "answer": "6 janvier",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/20-q.mp3",
+     "sec": 3.70254,
+     "text": "En Espagne, quel jour les enfants reçoivent-ils surtout leurs cadeaux ?",
+     "words": [
+      [
+       "En",
+       0.131,
+       0.151
+      ],
+      [
+       "Espagne,",
+       0.208,
+       0.981
+      ],
+      [
+       "quel",
+       1.026,
+       1.208
+      ],
+      [
+       "jour",
+       1.268,
+       1.509
+      ],
+      [
+       "les",
+       1.547,
+       1.66
+      ],
+      [
+       "enfants",
+       1.708,
+       2.038
+      ],
+      [
+       "reçoivent-ils",
+       2.113,
+       2.717
+      ],
+      [
+       "surtout",
+       2.764,
+       3.094
+      ],
+      [
+       "leurs",
+       3.132,
+       3.321
+      ],
+      [
+       "cadeaux",
+       3.366,
+       3.623
+      ],
+      [
+       "?",
+       3.66,
+       3.698
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/20-a.mp3",
+     "sec": 1.281905,
+     "text": "C'était 6 janvier.",
+     "words": [
+      [
+       "C'était",
+       0.068,
+       0.377
+      ],
+      [
+       "6",
+       0.528,
+       0.604
+      ],
+      [
+       "janvier.",
+       0.66,
+       1.283
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Combien de rennes tirent le traîneau dans le poème de 1823 ?",
+    "choices": [
+     "4",
+     "6",
+     "12",
+     "8"
+    ],
+    "correct": 3
+   },
+   "answer": "8",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/21-q.mp3",
+     "sec": 4.238163,
+     "text": "Combien de rennes tirent le traîneau dans le poème de 1823 ?",
+     "words": [
+      [
+       "Combien",
+       0.191,
+       0.377
+      ],
+      [
+       "de",
+       0.427,
+       0.528
+      ],
+      [
+       "rennes",
+       0.604,
+       0.981
+      ],
+      [
+       "tirent",
+       1.057,
+       1.434
+      ],
+      [
+       "le",
+       1.459,
+       1.509
+      ],
+      [
+       "traîneau",
+       1.566,
+       2.038
+      ],
+      [
+       "dans",
+       2.098,
+       2.34
+      ],
+      [
+       "le",
+       2.365,
+       2.415
+      ],
+      [
+       "poème",
+       2.516,
+       2.868
+      ],
+      [
+       "de",
+       2.918,
+       3.019
+      ],
+      [
+       "1823",
+       3.17,
+       4.151
+      ],
+      [
+       "?",
+       4.189,
+       4.226
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/21-a.mp3",
+     "sec": 0.915351,
+     "text": "C'était 8.",
+     "words": [
+      [
+       "C'était",
+       0.287,
+       0.377
+      ],
+      [
+       "8.",
+       0.453,
+       0.906
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Au Royaume-Uni, quel jour est le « Boxing Day » ?",
+    "choices": [
+     "24 décembre",
+     "31 décembre",
+     "26 décembre",
+     "2 janvier"
+    ],
+    "correct": 2
+   },
+   "answer": "26 décembre",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/22-q.mp3",
+     "sec": 2.469138,
+     "text": "Au Royaume-Uni, quel jour est le « Boxing Day » ?",
+     "words": [
+      [
+       "Au",
+       0.036,
+       0.049
+      ],
+      [
+       "Royaume-Uni,",
+       0.105,
+       0.879
+      ],
+      [
+       "quel",
+       0.909,
+       1.03
+      ],
+      [
+       "jour",
+       1.09,
+       1.332
+      ],
+      [
+       "est",
+       1.369,
+       1.483
+      ],
+      [
+       "le",
+       1.508,
+       1.558
+      ],
+      [
+       "«",
+       1.633,
+       1.709
+      ],
+      [
+       "Boxing",
+       1.763,
+       2.086
+      ],
+      [
+       "Day",
+       2.162,
+       2.388
+      ],
+      [
+       "»",
+       2.407,
+       2.426
+      ],
+      [
+       "?",
+       2.445,
+       2.464
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/22-a.mp3",
+     "sec": 2.186553,
+     "text": "Eh oui : 26 décembre !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui",
+       0.189,
+       0.302
+      ],
+      [
+       ":",
+       0.528,
+       0.755
+      ],
+      [
+       "26",
+       0.943,
+       1.132
+      ],
+      [
+       "décembre",
+       1.189,
+       1.66
+      ],
+      [
+       "!",
+       1.887,
+       2.113
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle confiserie au miel et aux amandes fait partie des 13 desserts ?",
+    "choices": [
+     "La tarte tatin",
+     "Le paris-brest",
+     "Le clafoutis",
+     "Le nougat"
+    ],
+    "correct": 3
+   },
+   "answer": "Le nougat",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/23-q.mp3",
+     "sec": 6.796871,
+     "text": "Facile, celle-là. Enfin, je crois. Quelle confiserie au miel et aux amandes fait partie des 13 desserts ?",
+     "words": [
+      [
+       "Facile,",
+       0.192,
+       0.566
+      ],
+      [
+       "celle-là.",
+       0.585,
+       1.17
+      ],
+      [
+       "Enfin,",
+       1.258,
+       1.736
+      ],
+      [
+       "je",
+       1.786,
+       1.887
+      ],
+      [
+       "crois.",
+       1.925,
+       2.189
+      ],
+      [
+       "Quelle",
+       2.39,
+       2.943
+      ],
+      [
+       "confiserie",
+       3.004,
+       3.547
+      ],
+      [
+       "au",
+       3.597,
+       3.698
+      ],
+      [
+       "miel",
+       3.748,
+       4
+      ],
+      [
+       "et",
+       4.025,
+       4.075
+      ],
+      [
+       "aux",
+       4.113,
+       4.226
+      ],
+      [
+       "amandes",
+       4.302,
+       4.679
+      ],
+      [
+       "fait",
+       4.77,
+       5.132
+      ],
+      [
+       "partie",
+       5.175,
+       5.434
+      ],
+      [
+       "des",
+       5.491,
+       5.66
+      ],
+      [
+       "13",
+       5.736,
+       6.038
+      ],
+      [
+       "desserts",
+       6.105,
+       6.642
+      ],
+      [
+       "?",
+       6.717,
+       6.792
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/23-a.mp3",
+     "sec": 1.518957,
+     "text": "Le nougat, évidemment !",
+     "words": [
+      [
+       "Le",
+       0.139,
+       0.151
+      ],
+      [
+       "nougat,",
+       0.226,
+       0.755
+      ],
+      [
+       "évidemment",
+       0.792,
+       1.283
+      ],
+      [
+       "!",
+       1.623,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle région la Saint-Nicolas est-elle très fêtée ?",
+    "choices": [
+     "Bretagne",
+     "Lorraine",
+     "Corse",
+     "Gascogne"
+    ],
+    "correct": 1
+   },
+   "answer": "Lorraine",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/24-q.mp3",
+     "sec": 5.225556,
+     "text": "Attention, question piège. Dans quelle région la Saint-Nicolas est-elle très fêtée ?",
+     "words": [
+      [
+       "Attention,",
+       0.372,
+       0.755
+      ],
+      [
+       "question",
+       0.789,
+       1.057
+      ],
+      [
+       "piège.",
+       1.132,
+       1.774
+      ],
+      [
+       "Dans",
+       1.826,
+       2.038
+      ],
+      [
+       "quelle",
+       2.081,
+       2.34
+      ],
+      [
+       "région",
+       2.405,
+       2.792
+      ],
+      [
+       "la",
+       2.918,
+       3.17
+      ],
+      [
+       "Saint-Nicolas",
+       3.22,
+       3.849
+      ],
+      [
+       "est-elle",
+       3.925,
+       4.377
+      ],
+      [
+       "très",
+       4.423,
+       4.604
+      ],
+      [
+       "fêtée",
+       4.642,
+       4.981
+      ],
+      [
+       "?",
+       5.094,
+       5.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/24-a.mp3",
+     "sec": 1.549615,
+     "text": "Eh oui : Lorraine !",
+     "words": [
+      [
+       "Eh",
+       0.131,
+       0.151
+      ],
+      [
+       "oui",
+       0.208,
+       0.377
+      ],
+      [
+       ":",
+       0.604,
+       0.83
+      ],
+      [
+       "Lorraine",
+       0.868,
+       1.283
+      ],
+      [
+       "!",
+       1.396,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quel sapin est le plus vendu en France ?",
+    "choices": [
+     "L'épicéa bleu",
+     "Le Nordmann",
+     "Le pin parasol",
+     "Le cèdre"
+    ],
+    "correct": 1
+   },
+   "answer": "Le Nordmann",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/25-q.mp3",
+     "sec": 2.05288,
+     "text": "Quel sapin est le plus vendu en France ?",
+     "words": [
+      [
+       "Quel",
+       0.065,
+       0.151
+      ],
+      [
+       "sapin",
+       0.245,
+       0.604
+      ],
+      [
+       "est",
+       0.623,
+       0.679
+      ],
+      [
+       "le",
+       0.729,
+       0.83
+      ],
+      [
+       "plus",
+       0.875,
+       1.057
+      ],
+      [
+       "vendu",
+       1.102,
+       1.358
+      ],
+      [
+       "en",
+       1.408,
+       1.509
+      ],
+      [
+       "France",
+       1.575,
+       1.962
+      ],
+      [
+       "?",
+       2,
+       2.038
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/25-a.mp3",
+     "sec": 2.108118,
+     "text": "Le Nordmann, évidemment !",
+     "words": [
+      [
+       "Le",
+       0.104,
+       0.129
+      ],
+      [
+       "Nordmann,",
+       0.174,
+       0.733
+      ],
+      [
+       "évidemment",
+       0.808,
+       1.261
+      ],
+      [
+       "!",
+       1.337,
+       1.412
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En République tchèque, quel poisson mange-t-on au réveillon ?",
+    "choices": [
+     "La carpe",
+     "Le saumon",
+     "Le thon",
+     "La sardine"
+    ],
+    "correct": 0
+   },
+   "answer": "La carpe",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/26-q.mp3",
+     "sec": 6.341202,
+     "text": "Facile, celle-là. Enfin, je crois. En République tchèque, quel poisson mange-t-on au réveillon ?",
+     "words": [
+      [
+       "Facile,",
+       0.257,
+       0.566
+      ],
+      [
+       "celle-là.",
+       0.585,
+       1.094
+      ],
+      [
+       "Enfin,",
+       1.182,
+       1.585
+      ],
+      [
+       "je",
+       1.686,
+       1.887
+      ],
+      [
+       "crois.",
+       1.925,
+       2.642
+      ],
+      [
+       "En",
+       2.792,
+       3.094
+      ],
+      [
+       "République",
+       3.144,
+       3.547
+      ],
+      [
+       "tchèque,",
+       3.585,
+       3.925
+      ],
+      [
+       "quel",
+       4.045,
+       4.528
+      ],
+      [
+       "poisson",
+       4.578,
+       5.057
+      ],
+      [
+       "mange-t-on",
+       5.107,
+       5.509
+      ],
+      [
+       "au",
+       5.559,
+       5.66
+      ],
+      [
+       "réveillon",
+       5.736,
+       6.189
+      ],
+      [
+       "?",
+       6.264,
+       6.34
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/26-a.mp3",
+     "sec": 2.499977,
+     "text": "Bravo si tu avais dit La carpe.",
+     "words": [
+      [
+       "Bravo",
+       0.375,
+       0.453
+      ],
+      [
+       "si",
+       0.528,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "avais",
+       0.88,
+       1.057
+      ],
+      [
+       "dit",
+       1.113,
+       1.283
+      ],
+      [
+       "La",
+       1.459,
+       1.811
+      ],
+      [
+       "carpe.",
+       1.906,
+       2.491
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quel pays sont nées les boules de verre soufflé pour sapin ?",
+    "choices": [
+     "Italie",
+     "Canada",
+     "Allemagne",
+     "Suède"
+    ],
+    "correct": 2
+   },
+   "answer": "Allemagne",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/27-q.mp3",
+     "sec": 3.088957,
+     "text": "Dans quel pays sont nées les boules de verre soufflé pour sapin ?",
+     "words": [
+      [
+       "Dans",
+       0.116,
+       0.14
+      ],
+      [
+       "quel",
+       0.186,
+       0.367
+      ],
+      [
+       "pays",
+       0.442,
+       0.744
+      ],
+      [
+       "sont",
+       0.789,
+       0.971
+      ],
+      [
+       "nées",
+       1.008,
+       1.197
+      ],
+      [
+       "les",
+       1.216,
+       1.272
+      ],
+      [
+       "boules",
+       1.329,
+       1.574
+      ],
+      [
+       "de",
+       1.6,
+       1.65
+      ],
+      [
+       "verre",
+       1.706,
+       1.952
+      ],
+      [
+       "soufflé",
+       1.989,
+       2.329
+      ],
+      [
+       "pour",
+       2.359,
+       2.48
+      ],
+      [
+       "sapin",
+       2.574,
+       3.008
+      ],
+      [
+       "?",
+       3.046,
+       3.084
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/27-a.mp3",
+     "sec": 1.346236,
+     "text": "C'était Allemagne.",
+     "words": [
+      [
+       "C'était",
+       0.087,
+       0.653
+      ],
+      [
+       "Allemagne.",
+       0.703,
+       1.332
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Chez quel cervidé les femelles portent-elles aussi des bois ?",
+    "choices": [
+     "Le chevreuil",
+     "Le daim",
+     "Le cerf élaphe",
+     "Le renne"
+    ],
+    "correct": 3
+   },
+   "answer": "Le renne",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/28-q.mp3",
+     "sec": 7.623537,
+     "text": "Nouvelle question. Chez quel cervidé les femelles portent-elles aussi des bois ?",
+     "words": [
+      [
+       "Nouvelle",
+       0.128,
+       0.226
+      ],
+      [
+       "question.",
+       0.276,
+       0.755
+      ],
+      [
+       "Chez",
+       0.925,
+       1.509
+      ],
+      [
+       "quel",
+       1.555,
+       1.736
+      ],
+      [
+       "cervidé",
+       1.796,
+       2.34
+      ],
+      [
+       "les",
+       2.415,
+       2.642
+      ],
+      [
+       "femelles",
+       2.717,
+       3.17
+      ],
+      [
+       "portent-elles",
+       3.215,
+       3.774
+      ],
+      [
+       "aussi",
+       3.837,
+       4.151
+      ],
+      [
+       "des",
+       4.208,
+       4.377
+      ],
+      [
+       "bois",
+       4.423,
+       4.604
+      ],
+      [
+       "?",
+       6.113,
+       7.623
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/28-a.mp3",
+     "sec": 2.041043,
+     "text": "Bravo si tu avais dit Le renne.",
+     "words": [
+      [
+       "Bravo",
+       0.376,
+       0.452
+      ],
+      [
+       "si",
+       0.502,
+       0.603
+      ],
+      [
+       "tu",
+       0.653,
+       0.754
+      ],
+      [
+       "avais",
+       0.779,
+       0.98
+      ],
+      [
+       "dit",
+       1.037,
+       1.206
+      ],
+      [
+       "Le",
+       1.332,
+       1.584
+      ],
+      [
+       "renne.",
+       1.64,
+       2.037
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Suède, quel lutin apporte traditionnellement les cadeaux ?",
+    "choices": [
+     "Le Troll",
+     "Le Kobold",
+     "Le Tomte",
+     "Le Gnome vert"
+    ],
+    "correct": 2
+   },
+   "answer": "Le Tomte",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/29-q.mp3",
+     "sec": 3.23263,
+     "text": "En Suède, quel lutin apporte traditionnellement les cadeaux ?",
+     "words": [
+      [
+       "En",
+       0.045,
+       0.057
+      ],
+      [
+       "Suède,",
+       0.133,
+       0.737
+      ],
+      [
+       "quel",
+       0.797,
+       1.039
+      ],
+      [
+       "lutin",
+       1.114,
+       1.491
+      ],
+      [
+       "apporte",
+       1.541,
+       1.944
+      ],
+      [
+       "traditionnellement",
+       1.99,
+       2.624
+      ],
+      [
+       "les",
+       2.661,
+       2.774
+      ],
+      [
+       "cadeaux",
+       2.82,
+       3.076
+      ],
+      [
+       "?",
+       3.152,
+       3.227
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/29-a.mp3",
+     "sec": 1.746689,
+     "text": "Réponse : Le Tomte !",
+     "words": [
+      [
+       "Réponse",
+       0.119,
+       0.451
+      ],
+      [
+       ":",
+       0.715,
+       0.979
+      ],
+      [
+       "Le",
+       1.005,
+       1.055
+      ],
+      [
+       "Tomte",
+       1.149,
+       1.583
+      ],
+      [
+       "!",
+       1.659,
+       1.734
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Quelle ville allemande est célèbre pour son stollen de Noël ?",
+    "choices": [
+     "Dresde",
+     "Hambourg",
+     "Cologne",
+     "Brême"
+    ],
+    "correct": 0
+   },
+   "answer": "Dresde",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/30-q.mp3",
+     "sec": 6.110522,
+     "text": "On continue. Quelle ville allemande est célèbre pour son stollen de Noël ?",
+     "words": [
+      [
+       "On",
+       0.015,
+       0.025
+      ],
+      [
+       "continue.",
+       0.075,
+       0.553
+      ],
+      [
+       "Quelle",
+       0.704,
+       1.157
+      ],
+      [
+       "ville",
+       1.195,
+       1.383
+      ],
+      [
+       "allemande",
+       1.429,
+       1.912
+      ],
+      [
+       "est",
+       1.987,
+       2.214
+      ],
+      [
+       "célèbre",
+       2.27,
+       2.666
+      ],
+      [
+       "pour",
+       2.712,
+       2.893
+      ],
+      [
+       "son",
+       2.949,
+       3.119
+      ],
+      [
+       "stollen",
+       3.195,
+       3.723
+      ],
+      [
+       "de",
+       3.799,
+       3.949
+      ],
+      [
+       "Noël",
+       4.025,
+       4.402
+      ],
+      [
+       "?",
+       5.308,
+       6.214
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/30-a.mp3",
+     "sec": 2.261293,
+     "text": "Bravo si tu avais dit Dresde.",
+     "words": [
+      [
+       "Bravo",
+       0.377,
+       0.453
+      ],
+      [
+       "si",
+       0.528,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "avais",
+       0.856,
+       1.057
+      ],
+      [
+       "dit",
+       1.075,
+       1.132
+      ],
+      [
+       "Dresde.",
+       1.208,
+       2.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "En Islande, que s'offre-t-on la veille de Noël ?",
+    "choices": [
+     "Des livres",
+     "Des skis",
+     "Des pulls",
+     "Des poissons"
+    ],
+    "correct": 0
+   },
+   "answer": "Des livres",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/31-q.mp3",
+     "sec": 4.153197,
+     "text": "Nouvelle question. En Islande, que s'offre-t-on la veille de Noël ?",
+     "words": [
+      [
+       "Nouvelle",
+       0.124,
+       0.222
+      ],
+      [
+       "question.",
+       0.272,
+       0.751
+      ],
+      [
+       "En",
+       0.951,
+       1.354
+      ],
+      [
+       "Islande,",
+       1.43,
+       2.109
+      ],
+      [
+       "que",
+       2.128,
+       2.184
+      ],
+      [
+       "s'offre-t-on",
+       2.26,
+       2.788
+      ],
+      [
+       "la",
+       2.889,
+       3.09
+      ],
+      [
+       "veille",
+       3.166,
+       3.392
+      ],
+      [
+       "de",
+       3.442,
+       3.543
+      ],
+      [
+       "Noël",
+       3.593,
+       3.996
+      ],
+      [
+       "?",
+       4.071,
+       4.147
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/31-a.mp3",
+     "sec": 1.584626,
+     "text": "C'était Des livres.",
+     "words": [
+      [
+       "C'était",
+       0.101,
+       0.667
+      ],
+      [
+       "Des",
+       0.78,
+       1.12
+      ],
+      [
+       "livres.",
+       1.176,
+       1.572
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Dans quelle ville les guirlandes électriques de sapin sont-elles apparues en 1882 ?",
+    "choices": [
+     "Berlin",
+     "New York",
+     "Londres",
+     "Chicago"
+    ],
+    "correct": 1
+   },
+   "answer": "New York",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/32-q.mp3",
+     "sec": 7.782857,
+     "text": "Facile, celle-là. Enfin, je crois. Dans quelle ville les guirlandes électriques de sapin sont-elles apparues en 1882 ?",
+     "words": [
+      [
+       "Facile,",
+       0.192,
+       0.453
+      ],
+      [
+       "celle-là.",
+       0.478,
+       1.057
+      ],
+      [
+       "Enfin,",
+       1.132,
+       1.66
+      ],
+      [
+       "je",
+       1.71,
+       1.811
+      ],
+      [
+       "crois.",
+       1.849,
+       2.113
+      ],
+      [
+       "Dans",
+       2.264,
+       2.868
+      ],
+      [
+       "quelle",
+       2.9,
+       3.094
+      ],
+      [
+       "ville",
+       3.144,
+       3.396
+      ],
+      [
+       "les",
+       3.491,
+       3.774
+      ],
+      [
+       "guirlandes",
+       3.824,
+       4.302
+      ],
+      [
+       "électriques",
+       4.34,
+       4.755
+      ],
+      [
+       "de",
+       4.78,
+       4.83
+      ],
+      [
+       "sapin",
+       4.906,
+       5.283
+      ],
+      [
+       "sont-elles",
+       5.343,
+       5.736
+      ],
+      [
+       "apparues",
+       5.786,
+       6.189
+      ],
+      [
+       "en",
+       6.264,
+       6.415
+      ],
+      [
+       "1882",
+       6.566,
+       7.623
+      ],
+      [
+       "?",
+       7.698,
+       7.774
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/32-a.mp3",
+     "sec": 1.727392,
+     "text": "New York, évidemment !",
+     "words": [
+      [
+       "New",
+       0.128,
+       0.151
+      ],
+      [
+       "York,",
+       0.242,
+       0.755
+      ],
+      [
+       "évidemment",
+       0.83,
+       1.283
+      ],
+      [
+       "!",
+       1.509,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "qcm",
+    "value": "Les « quatre mendiants » sont des fruits secs : figues, amandes, noisettes et… ?",
+    "choices": [
+     "cacahuètes",
+     "pistaches",
+     "raisins secs",
+     "dattes"
+    ],
+    "correct": 2
+   },
+   "answer": "raisins secs",
+   "level": "impossible",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/33-q.mp3",
+     "sec": 5.208866,
+     "text": "Les « quatre mendiants » sont des fruits secs : figues, amandes, noisettes et… ?",
+     "words": [
+      [
+       "Les",
+       0.128,
+       0.151
+      ],
+      [
+       "«",
+       0.226,
+       0.302
+      ],
+      [
+       "quatre",
+       0.334,
+       0.528
+      ],
+      [
+       "mendiants",
+       0.566,
+       1.057
+      ],
+      [
+       "»",
+       1.132,
+       1.208
+      ],
+      [
+       "sont",
+       1.253,
+       1.434
+      ],
+      [
+       "des",
+       1.453,
+       1.509
+      ],
+      [
+       "fruits",
+       1.553,
+       1.811
+      ],
+      [
+       "secs",
+       1.887,
+       2.189
+      ],
+      [
+       ":",
+       2.415,
+       2.642
+      ],
+      [
+       "figues,",
+       2.698,
+       3.094
+      ],
+      [
+       "amandes,",
+       3.245,
+       4.151
+      ],
+      [
+       "noisettes",
+       4.201,
+       4.755
+      ],
+      [
+       "et…",
+       4.88,
+       5.208
+      ],
+      [
+       "?",
+       5.208,
+       5.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/33-a.mp3",
+     "sec": 2.119342,
+     "text": "Bravo si tu avais dit raisins secs.",
+     "words": [
+      [
+       "Bravo",
+       0.441,
+       0.528
+      ],
+      [
+       "si",
+       0.604,
+       0.755
+      ],
+      [
+       "tu",
+       0.805,
+       0.906
+      ],
+      [
+       "avais",
+       0.931,
+       1.132
+      ],
+      [
+       "dit",
+       1.17,
+       1.283
+      ],
+      [
+       "raisins",
+       1.328,
+       1.585
+      ],
+      [
+       "secs.",
+       1.66,
+       2.113
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "En Inde, certaines familles décorent un manguier ou un bananier à Noël.",
+   "answer": true,
+   "fact": "Faute de sapin, on utilise des arbres locaux pour garder la tradition.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/i0-q.mp3",
+     "sec": 7.856984,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : En Inde, certaines familles décorent un manguier ou un bananier à Noël.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.29,
+       0.604
+      ],
+      [
+       "entre",
+       0.667,
+       0.981
+      ],
+      [
+       "deux",
+       1.011,
+       1.132
+      ],
+      [
+       "questions",
+       1.177,
+       1.585
+      ],
+      [
+       ":",
+       1.849,
+       2.113
+      ],
+      [
+       "Vrai",
+       2.151,
+       2.415
+      ],
+      [
+       "ou",
+       2.541,
+       2.792
+      ],
+      [
+       "faux",
+       2.853,
+       3.094
+      ],
+      [
+       ":",
+       3.283,
+       3.472
+      ],
+      [
+       "En",
+       3.522,
+       3.623
+      ],
+      [
+       "Inde,",
+       3.698,
+       4.302
+      ],
+      [
+       "certaines",
+       4.34,
+       4.679
+      ],
+      [
+       "familles",
+       4.717,
+       4.981
+      ],
+      [
+       "décorent",
+       5.031,
+       5.396
+      ],
+      [
+       "un",
+       5.408,
+       5.434
+      ],
+      [
+       "manguier",
+       5.509,
+       6.038
+      ],
+      [
+       "ou",
+       6.139,
+       6.34
+      ],
+      [
+       "un",
+       6.365,
+       6.415
+      ],
+      [
+       "bananier",
+       6.491,
+       7.094
+      ],
+      [
+       "à",
+       7.208,
+       7.321
+      ],
+      [
+       "Noël.",
+       7.396,
+       7.849
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/i0-a.mp3",
+     "sec": 1.110499,
+     "text": "Vrai !",
+     "words": [
+      [
+       "Vrai",
+       0.122,
+       0.433
+      ],
+      [
+       "!",
+       1.037,
+       1.112
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-28-noel/i0-f.mp3",
+     "sec": 5.300703,
+     "text": "Détail amusant : Faute de sapin, on utilise des arbres locaux pour garder la tradition.",
+     "words": [
+      [
+       "Détail",
+       0.073,
+       0.309
+      ],
+      [
+       "amusant",
+       0.359,
+       0.686
+      ],
+      [
+       ":",
+       0.875,
+       1.063
+      ],
+      [
+       "Faute",
+       1.113,
+       1.365
+      ],
+      [
+       "de",
+       1.391,
+       1.441
+      ],
+      [
+       "sapin,",
+       1.516,
+       2.12
+      ],
+      [
+       "on",
+       2.17,
+       2.271
+      ],
+      [
+       "utilise",
+       2.337,
+       2.799
+      ],
+      [
+       "des",
+       2.837,
+       2.95
+      ],
+      [
+       "arbres",
+       3.026,
+       3.403
+      ],
+      [
+       "locaux",
+       3.497,
+       4.007
+      ],
+      [
+       "pour",
+       4.037,
+       4.158
+      ],
+      [
+       "garder",
+       4.218,
+       4.535
+      ],
+      [
+       "la",
+       4.561,
+       4.611
+      ],
+      [
+       "tradition.",
+       4.671,
+       5.29
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel fruit glissait-on autrefois dans les chaussettes de Noël ?",
+   "choices": [
+    "Une banane",
+    "Une pomme",
+    "Une orange"
+   ],
+   "correct": 2,
+   "fact": "Les oranges étaient un cadeau précieux en hiver, il y a longtemps.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/i1-q.mp3",
+     "sec": 8.394218,
+     "text": "Petit bonus entre deux questions : Quel fruit glissait-on autrefois dans les chaussettes de Noël : Une banane, Une pomme, ou Une orange ?",
+     "words": [
+      [
+       "Petit",
+       0.121,
+       0.159
+      ],
+      [
+       "bonus",
+       0.222,
+       0.536
+      ],
+      [
+       "entre",
+       0.574,
+       0.763
+      ],
+      [
+       "deux",
+       0.793,
+       0.914
+      ],
+      [
+       "questions",
+       0.951,
+       1.291
+      ],
+      [
+       ":",
+       1.555,
+       1.819
+      ],
+      [
+       "Quel",
+       1.845,
+       2.046
+      ],
+      [
+       "fruit",
+       2.096,
+       2.348
+      ],
+      [
+       "glissait-on",
+       2.398,
+       2.876
+      ],
+      [
+       "autrefois",
+       2.939,
+       3.404
+      ],
+      [
+       "dans",
+       3.434,
+       3.555
+      ],
+      [
+       "les",
+       3.574,
+       3.631
+      ],
+      [
+       "chaussettes",
+       3.706,
+       4.159
+      ],
+      [
+       "de",
+       4.184,
+       4.234
+      ],
+      [
+       "Noël",
+       4.31,
+       4.687
+      ],
+      [
+       ":",
+       4.951,
+       5.216
+      ],
+      [
+       "Une",
+       5.253,
+       5.366
+      ],
+      [
+       "banane,",
+       5.423,
+       5.896
+      ],
+      [
+       "Une",
+       6.065,
+       6.574
+      ],
+      [
+       "pomme,",
+       6.649,
+       7.027
+      ],
+      [
+       "ou",
+       7.228,
+       7.631
+      ],
+      [
+       "Une",
+       7.668,
+       7.782
+      ],
+      [
+       "orange",
+       7.847,
+       8.234
+      ],
+      [
+       "?",
+       8.31,
+       8.385
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/i1-a.mp3",
+     "sec": 1.970612,
+     "text": "C'est Une orange !",
+     "words": [
+      [
+       "C'est",
+       0.113,
+       0.453
+      ],
+      [
+       "Une",
+       0.623,
+       1.132
+      ],
+      [
+       "orange",
+       1.24,
+       1.887
+      ],
+      [
+       "!",
+       1.925,
+       1.962
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-28-noel/i1-f.mp3",
+     "sec": 4.760544,
+     "text": "Et pour la culture : Les oranges étaient un cadeau précieux en hiver, il y a longtemps.",
+     "words": [
+      [
+       "Et",
+       0.139,
+       0.151
+      ],
+      [
+       "pour",
+       0.181,
+       0.302
+      ],
+      [
+       "la",
+       0.327,
+       0.377
+      ],
+      [
+       "culture",
+       0.443,
+       0.906
+      ],
+      [
+       ":",
+       1.208,
+       1.509
+      ],
+      [
+       "Les",
+       1.547,
+       1.66
+      ],
+      [
+       "oranges",
+       1.736,
+       2.264
+      ],
+      [
+       "étaient",
+       2.302,
+       2.566
+      ],
+      [
+       "un",
+       2.616,
+       2.717
+      ],
+      [
+       "cadeau",
+       2.747,
+       3.019
+      ],
+      [
+       "précieux",
+       3.094,
+       3.547
+      ],
+      [
+       "en",
+       3.597,
+       3.698
+      ],
+      [
+       "hiver,",
+       3.736,
+       4.075
+      ],
+      [
+       "il",
+       4.101,
+       4.151
+      ],
+      [
+       "y",
+       4.189,
+       4.226
+      ],
+      [
+       "a",
+       4.264,
+       4.302
+      ],
+      [
+       "longtemps.",
+       4.347,
+       4.755
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le sapin de Noël est une tradition venue d'Espagne.",
+   "answer": false,
+   "fact": "Il vient d'Alsace, où une trace écrite de sapins de Noël date déjà du 16e siècle.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/i2-q.mp3",
+     "sec": 6.762857,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : Le sapin de Noël est une tradition venue d'Espagne.",
+     "words": [
+      [
+       "Une",
+       0.038,
+       0.049
+      ],
+      [
+       "question",
+       0.083,
+       0.351
+      ],
+      [
+       "à",
+       0.426,
+       0.502
+      ],
+      [
+       "côté,",
+       0.547,
+       0.804
+      ],
+      [
+       "pour",
+       0.819,
+       0.879
+      ],
+      [
+       "le",
+       0.905,
+       0.955
+      ],
+      [
+       "plaisir",
+       1.021,
+       1.483
+      ],
+      [
+       ":",
+       1.709,
+       1.936
+      ],
+      [
+       "Vrai",
+       1.973,
+       2.238
+      ],
+      [
+       "ou",
+       2.313,
+       2.464
+      ],
+      [
+       "faux",
+       2.54,
+       2.841
+      ],
+      [
+       ":",
+       3.106,
+       3.37
+      ],
+      [
+       "Le",
+       3.42,
+       3.521
+      ],
+      [
+       "sapin",
+       3.596,
+       3.898
+      ],
+      [
+       "de",
+       3.948,
+       4.049
+      ],
+      [
+       "Noël",
+       4.099,
+       4.577
+      ],
+      [
+       "est",
+       4.615,
+       4.728
+      ],
+      [
+       "une",
+       4.766,
+       4.879
+      ],
+      [
+       "tradition",
+       4.94,
+       5.483
+      ],
+      [
+       "venue",
+       5.533,
+       5.785
+      ],
+      [
+       "d'Espagne.",
+       5.86,
+       6.766
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/i2-a.mp3",
+     "sec": 0.602222,
+     "text": "Faux !",
+     "words": [
+      [
+       "Faux",
+       0.151,
+       0.377
+      ],
+      [
+       "!",
+       0.491,
+       0.604
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-28-noel/i2-f.mp3",
+     "sec": 6.575918,
+     "text": "Petit bonus : Il vient d'Alsace, où une trace écrite de sapins de Noël date déjà du 16e siècle.",
+     "words": [
+      [
+       "Petit",
+       0.114,
+       0.152
+      ],
+      [
+       "bonus",
+       0.227,
+       0.604
+      ],
+      [
+       ":",
+       0.869,
+       1.133
+      ],
+      [
+       "Il",
+       1.158,
+       1.208
+      ],
+      [
+       "vient",
+       1.246,
+       1.435
+      ],
+      [
+       "d'Alsace,",
+       1.472,
+       2.265
+      ],
+      [
+       "où",
+       2.315,
+       2.416
+      ],
+      [
+       "une",
+       2.454,
+       2.567
+      ],
+      [
+       "trace",
+       2.617,
+       2.869
+      ],
+      [
+       "écrite",
+       2.919,
+       3.246
+      ],
+      [
+       "de",
+       3.296,
+       3.397
+      ],
+      [
+       "sapins",
+       3.454,
+       3.699
+      ],
+      [
+       "de",
+       3.749,
+       3.85
+      ],
+      [
+       "Noël",
+       3.9,
+       4.152
+      ],
+      [
+       "date",
+       4.287,
+       4.831
+      ],
+      [
+       "déjà",
+       4.906,
+       5.208
+      ],
+      [
+       "du",
+       5.258,
+       5.359
+      ],
+      [
+       "16e",
+       5.51,
+       5.887
+      ],
+      [
+       "siècle.",
+       5.944,
+       6.567
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel plat de fête est souvent servi avec des marrons ?",
+   "choices": [
+    "La pizza",
+    "La dinde",
+    "Le couscous"
+   ],
+   "correct": 1,
+   "fact": "Le marron est récolté en automne, juste avant les fêtes de fin d'année.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-28-noel/i3-q.mp3",
+     "sec": 6.805215,
+     "text": "Intermède ! Quel plat de fête est souvent servi avec des marrons : La pizza, La dinde, ou Le couscous ?",
+     "words": [
+      [
+       "Intermède",
+       0.128,
+       0.604
+      ],
+      [
+       "!",
+       0.868,
+       1.132
+      ],
+      [
+       "Quel",
+       1.158,
+       1.283
+      ],
+      [
+       "plat",
+       1.343,
+       1.585
+      ],
+      [
+       "de",
+       1.635,
+       1.736
+      ],
+      [
+       "fête",
+       1.811,
+       2.038
+      ],
+      [
+       "est",
+       2.113,
+       2.34
+      ],
+      [
+       "souvent",
+       2.377,
+       2.642
+      ],
+      [
+       "servi",
+       2.705,
+       3.019
+      ],
+      [
+       "avec",
+       3.064,
+       3.245
+      ],
+      [
+       "des",
+       3.264,
+       3.321
+      ],
+      [
+       "marrons",
+       3.358,
+       3.698
+      ],
+      [
+       ":",
+       3.925,
+       4.151
+      ],
+      [
+       "La",
+       4.176,
+       4.226
+      ],
+      [
+       "pizza,",
+       4.302,
+       4.906
+      ],
+      [
+       "La",
+       4.981,
+       5.132
+      ],
+      [
+       "dinde,",
+       5.189,
+       5.585
+      ],
+      [
+       "ou",
+       5.71,
+       5.962
+      ],
+      [
+       "Le",
+       6.012,
+       6.113
+      ],
+      [
+       "couscous",
+       6.143,
+       6.642
+      ],
+      [
+       "?",
+       6.717,
+       6.792
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-28-noel/i3-a.mp3",
+     "sec": 1.454603,
+     "text": "C'est La dinde !",
+     "words": [
+      [
+       "C'est",
+       0.057,
+       0.246
+      ],
+      [
+       "La",
+       0.271,
+       0.321
+      ],
+      [
+       "dinde",
+       0.435,
+       0.925
+      ],
+      [
+       "!",
+       1.152,
+       1.378
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-28-noel/i3-f.mp3",
+     "sec": 4.376236,
+     "text": "Tu savais ? Le marron est récolté en automne, juste avant les fêtes de fin d'année.",
+     "words": [
+      [
+       "Tu",
+       0.054,
+       0.065
+      ],
+      [
+       "savais",
+       0.102,
+       0.367
+      ],
+      [
+       "?",
+       0.555,
+       0.744
+      ],
+      [
+       "Le",
+       0.794,
+       0.895
+      ],
+      [
+       "marron",
+       0.933,
+       1.272
+      ],
+      [
+       "est",
+       1.329,
+       1.499
+      ],
+      [
+       "récolté",
+       1.549,
+       1.951
+      ],
+      [
+       "en",
+       2.001,
+       2.102
+      ],
+      [
+       "automne,",
+       2.166,
+       2.857
+      ],
+      [
+       "juste",
+       2.907,
+       3.159
+      ],
+      [
+       "avant",
+       3.197,
+       3.385
+      ],
+      [
+       "les",
+       3.423,
+       3.536
+      ],
+      [
+       "fêtes",
+       3.574,
+       3.763
+      ],
+      [
+       "de",
+       3.813,
+       3.914
+      ],
+      [
+       "fin",
+       3.951,
+       4.065
+      ],
+      [
+       "d'année.",
+       4.083,
+       4.367
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Le même quiz en version jouable : youqwiz.com"
+ },
+ "meta": {
+  "description": "34 questions pour tester ta culture : la plupart des gens ratent le dernier niveau. Niveaux : 9 facile, 13 moyens, 9 difficiles, 3 impossible. Compte tes points et dis ton score en commentaire 👇 Le meilleur score est félicité dès le lendemain 🏆\n\n🎮 Crée ton propre quiz gratuit en 2 minutes : https://youqwiz.com/quiz-du-jour/2026-11-28-noel\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #noel #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n02:42 Niveau moyen\n06:12 Niveau difficile\n09:09 Niveau impossible\n10:32 Ton score\n10:43 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "noel",
+   "noël",
+   "fêtes de fin d'année",
+   "quiz de noël",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Ton niveau ?",
+   "line2": "34 QUESTIONS de NOËL",
+   "emoji": "⛄",
+   "sticker": "34 QUESTIONS",
+   "layouts": [
+    1,
+    2
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Tu tiens combien de questions ? 😱 34 QUESTIONS spécial NOËL #Shorts",
+  "shortDescription": "Vidéo complète avec les 34 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "TU TIENS 8 QUESTIONS ?",
+   "line": "3 secondes chacune ⏱️"
+  },
+  "short2": {
+   "title": "Niveau IMPOSSIBLE 🔥 34 QUESTIONS spécial NOËL #Shorts",
+   "description": "Vidéo complète avec les 34 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "NIVEAU IMPOSSIBLE",
+   "line": "personne ne finit ce Short 😱"
+  },
+  "short3": {
+   "title": "Niveau moyen-difficile 🔥 34 QUESTIONS spécial NOËL #Shorts",
+   "description": "La réponse + 34 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "ÇA SE CORSE",
+   "line": "8 questions, 3 secondes chacune ⏱️"
+  },
+  "social": {
+   "caption": "Quiz du jour : 34 QUESTIONS spécial NOËL ⏱️ 3 secondes par question, personne ne finit 😱",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "noel",
+    "noël"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 162.36666666666667,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 372.43333333333334,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 549.2666666666667,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 632,
+    "title": "Ton score"
+   },
+   {
+    "at": 643.0666666666667,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/f4f6d2babe435216.mp3",
+   "sec": 3.905578,
+   "text": "Niveau facile. Tout le monde peut les avoir. Enfin, presque.",
+   "words": [
+    [
+     "Niveau",
+     0.052,
+     0.286
+    ],
+    [
+     "facile.",
+     0.361,
+     0.889
+    ],
+    [
+     "Tout",
+     0.965,
+     1.267
+    ],
+    [
+     "le",
+     1.292,
+     1.342
+    ],
+    [
+     "monde",
+     1.38,
+     1.569
+    ],
+    [
+     "peut",
+     1.584,
+     1.644
+    ],
+    [
+     "les",
+     1.682,
+     1.795
+    ],
+    [
+     "avoir.",
+     1.883,
+     2.588
+    ],
+    [
+     "Enfin,",
+     2.675,
+     3.154
+    ],
+    [
+     "presque.",
+     3.244,
+     3.757
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/74ae1232019170eb.mp3",
+   "sec": 1.949456,
+   "text": "Niveau moyen. Ça se corse !",
+   "words": [
+    [
+     "Niveau",
+     0.117,
+     0.359
+    ],
+    [
+     "moyen.",
+     0.422,
+     0.812
+    ],
+    [
+     "Ça",
+     1.038,
+     1.34
+    ],
+    [
+     "se",
+     1.365,
+     1.415
+    ],
+    [
+     "corse",
+     1.472,
+     1.868
+    ],
+    [
+     "!",
+     1.906,
+     1.944
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/ed6a26488dfa87ab.mp3",
+   "sec": 3.107596,
+   "text": "Niveau difficile. Concentration maximale.",
+   "words": [
+    [
+     "Niveau",
+     0.234,
+     0.302
+    ],
+    [
+     "difficile.",
+     0.377,
+     1.434
+    ],
+    [
+     "Concentration",
+     1.481,
+     2.189
+    ],
+    [
+     "maximale.",
+     2.29,
+     3.094
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/258c2695de1ff813.mp3",
+   "sec": 4.613515,
+   "text": "Niveau impossible. Personne ne les a tous. Prouve-moi le contraire.",
+   "words": [
+    [
+     "Niveau",
+     0.287,
+     0.377
+    ],
+    [
+     "impossible.",
+     0.459,
+     1.358
+    ],
+    [
+     "Personne",
+     1.456,
+     2.113
+    ],
+    [
+     "ne",
+     2.139,
+     2.189
+    ],
+    [
+     "les",
+     2.226,
+     2.34
+    ],
+    [
+     "a",
+     2.377,
+     2.415
+    ],
+    [
+     "tous.",
+     2.506,
+     3.057
+    ],
+    [
+     "Prouve-moi",
+     3.151,
+     3.547
+    ],
+    [
+     "le",
+     3.573,
+     3.623
+    ],
+    [
+     "contraire.",
+     3.666,
+     4.151
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/ab5dfab8b92b7b99.mp3",
+   "sec": 5.211156,
+   "text": "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !",
+   "words": [
+    [
+     "Alors,",
+     0.065,
+     0.302
+    ],
+    [
+     "combien",
+     0.347,
+     0.604
+    ],
+    [
+     "de",
+     0.654,
+     0.755
+    ],
+    [
+     "points",
+     0.787,
+     0.981
+    ],
+    [
+     "?",
+     1.283,
+     1.585
+    ],
+    [
+     "Écris",
+     1.623,
+     1.811
+    ],
+    [
+     "ton",
+     1.849,
+     1.962
+    ],
+    [
+     "score",
+     2.012,
+     2.264
+    ],
+    [
+     "en",
+     2.314,
+     2.415
+    ],
+    [
+     "commentaire,",
+     2.465,
+     3.17
+    ],
+    [
+     "le",
+     3.245,
+     3.396
+    ],
+    [
+     "meilleur",
+     3.438,
+     3.774
+    ],
+    [
+     "est",
+     3.811,
+     3.925
+    ],
+    [
+     "félicité",
+     3.95,
+     4.453
+    ],
+    [
+     "dès",
+     4.547,
+     4.83
+    ],
+    [
+     "demain",
+     4.868,
+     5.057
+    ],
+    [
+     "!",
+     5.132,
+     5.208
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/68a36803090a9d38.mp3",
+   "sec": 3.247392,
+   "text": "Si tu aimes, abonne-toi. Ça aide la chaîne, et ça ne coûte rien.",
+   "words": [
+    [
+     "Si",
+     0.065,
+     0.075
+    ],
+    [
+     "tu",
+     0.151,
+     0.302
+    ],
+    [
+     "aimes,",
+     0.34,
+     0.679
+    ],
+    [
+     "abonne-toi.",
+     0.729,
+     1.283
+    ],
+    [
+     "Ça",
+     1.434,
+     1.66
+    ],
+    [
+     "aide",
+     1.691,
+     1.811
+    ],
+    [
+     "la",
+     1.837,
+     1.887
+    ],
+    [
+     "chaîne,",
+     1.943,
+     2.415
+    ],
+    [
+     "et",
+     2.441,
+     2.491
+    ],
+    [
+     "ça",
+     2.541,
+     2.642
+    ],
+    [
+     "ne",
+     2.667,
+     2.717
+    ],
+    [
+     "coûte",
+     2.742,
+     2.943
+    ],
+    [
+     "rien.",
+     2.989,
+     3.245
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/a35f2bbf15425966.mp3",
+   "sec": 3.53127,
+   "text": "Partage cette vidéo à quelqu'un qui pense faire mieux que toi. On verra.",
+   "words": [
+    [
+     "Partage",
+     0.171,
+     0.358
+    ],
+    [
+     "cette",
+     0.384,
+     0.509
+    ],
+    [
+     "vidéo",
+     0.559,
+     0.811
+    ],
+    [
+     "à",
+     0.887,
+     0.962
+    ],
+    [
+     "quelqu'un",
+     0.992,
+     1.339
+    ],
+    [
+     "qui",
+     1.396,
+     1.566
+    ],
+    [
+     "pense",
+     1.604,
+     1.792
+    ],
+    [
+     "faire",
+     1.83,
+     2.019
+    ],
+    [
+     "mieux",
+     2.044,
+     2.17
+    ],
+    [
+     "que",
+     2.207,
+     2.321
+    ],
+    [
+     "toi.",
+     2.396,
+     3.075
+    ],
+    [
+     "On",
+     3.101,
+     3.151
+    ],
+    [
+     "verra.",
+     3.188,
+     3.528
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/c14b1324579c94db.mp3",
+   "sec": 3.584512,
+   "text": "Content de te revoir sur YouQwiz ! Échauffe tes neurones, c'est parti !",
+   "words": [
+    [
+     "Content",
+     0.194,
+     0.246
+    ],
+    [
+     "de",
+     0.272,
+     0.322
+    ],
+    [
+     "te",
+     0.372,
+     0.473
+    ],
+    [
+     "revoir",
+     0.523,
+     0.85
+    ],
+    [
+     "sur",
+     0.888,
+     1.001
+    ],
+    [
+     "YouQwiz",
+     1.058,
+     1.529
+    ],
+    [
+     "!",
+     1.643,
+     1.756
+    ],
+    [
+     "Échauffe",
+     1.831,
+     2.133
+    ],
+    [
+     "tes",
+     2.152,
+     2.209
+    ],
+    [
+     "neurones,",
+     2.254,
+     2.888
+    ],
+    [
+     "c'est",
+     2.926,
+     3.114
+    ],
+    [
+     "parti",
+     3.164,
+     3.416
+    ],
+    [
+     "!",
+     3.492,
+     3.567
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-28-noel/intro.mp3",
+   "sec": 4.090317,
+   "text": "34 Questions spécial NOËL ! Prêt ? C'est parti !",
+   "words": [
+    [
+     "34",
+     0.377,
+     0.453
+    ],
+    [
+     "Questions",
+     0.506,
+     0.981
+    ],
+    [
+     "spécial",
+     1.085,
+     1.811
+    ],
+    [
+     "NOËL",
+     1.861,
+     2.264
+    ],
+    [
+     "!",
+     2.528,
+     2.792
+    ],
+    [
+     "Prêt",
+     2.818,
+     2.943
+    ],
+    [
+     "?",
+     3.208,
+     3.472
+    ],
+    [
+     "C'est",
+     3.509,
+     3.623
+    ],
+    [
+     "parti",
+     3.673,
+     3.925
+    ],
+    [
+     "!",
+     4,
+     4.075
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/7ca8243e8488ba4b.mp3",
+   "sec": 5.334989,
+   "text": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com.",
+   "words": [
+    [
+     "Crée",
+     0.031,
+     0.192
+    ],
+    [
+     "gratuitement",
+     0.233,
+     0.72
+    ],
+    [
+     "tes",
+     0.777,
+     0.947
+    ],
+    [
+     "quiz",
+     1.007,
+     1.249
+    ],
+    [
+     "personnalisés,",
+     1.286,
+     2.154
+    ],
+    [
+     "à",
+     2.192,
+     2.23
+    ],
+    [
+     "partager",
+     2.271,
+     2.607
+    ],
+    [
+     "avec",
+     2.652,
+     2.834
+    ],
+    [
+     "tes",
+     2.871,
+     2.984
+    ],
+    [
+     "amis,",
+     3.045,
+     3.664
+    ],
+    [
+     "sur",
+     3.758,
+     4.041
+    ],
+    [
+     "youqwiz",
+     4.098,
+     4.645
+    ],
+    [
+     "point",
+     4.657,
+     4.72
+    ],
+    [
+     "com.",
+     4.834,
+     5.324
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/7b54f11b901372ae.mp3",
+   "sec": 4.389637,
+   "text": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !",
+   "words": [
+    [
+     "Ne",
+     0.131,
+     0.151
+    ],
+    [
+     "t'arrête",
+     0.189,
+     0.453
+    ],
+    [
+     "pas",
+     0.491,
+     0.604
+    ],
+    [
+     "là",
+     0.654,
+     0.755
+    ],
+    [
+     ":",
+     0.906,
+     1.057
+    ],
+    [
+     "ton",
+     1.094,
+     1.208
+    ],
+    [
+     "prochain",
+     1.264,
+     1.585
+    ],
+    [
+     "quiz",
+     1.675,
+     2.038
+    ],
+    [
+     "est",
+     2.094,
+     2.264
+    ],
+    [
+     "juste",
+     2.314,
+     2.566
+    ],
+    [
+     "ici,",
+     2.642,
+     3.245
+    ],
+    [
+     "clique",
+     3.289,
+     3.547
+    ],
+    [
+     "sur",
+     3.585,
+     3.698
+    ],
+    [
+     "une",
+     3.736,
+     3.849
+    ],
+    [
+     "des",
+     3.868,
+     3.925
+    ],
+    [
+     "vidéos",
+     3.978,
+     4.302
+    ],
+    [
+     "!",
+     4.34,
+     4.377
+    ]
+   ]
+  }
+ }
+}
