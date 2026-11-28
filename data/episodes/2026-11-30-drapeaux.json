@@ -1,0 +1,5181 @@
+{
+ "id": "2026-11-30-drapeaux",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 3,
+ "style": {
+  "pattern": "confetti",
+  "timer": "digits",
+  "reveal": "slide",
+  "card": "tilt",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Prêt à battre ton score d'hier ?",
+   "voice": "Content de te revoir sur YouQwiz ! Prêt à battre ton score d'hier ?"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "👇 Ton score en commentaire, le meilleur passe lundi",
+  "subscribe": {
+   "title": "Tu aimes ? Abonne-toi 👇",
+   "sub": "ça aide la chaîne et ça ne coûte rien 🙏",
+   "voice": "Si tu aimes, abonne-toi. Ça aide la chaîne, et ça ne coûte rien."
+  },
+  "levels": {
+   "facile": {
+    "card": "Premier niveau, zéro pression 🙂",
+    "voice": "Premier niveau, zéro pression. On démarre."
+   },
+   "moyen": {
+    "card": "Ça se corse 👀",
+    "voice": "Niveau moyen. Ça se corse !"
+   },
+   "difficile": {
+    "card": "Accroche-toi 😰",
+    "voice": "Niveau difficile. Accroche-toi !"
+   },
+   "impossible": {
+    "card": "Dernier niveau : le boss 👑",
+    "voice": "Dernier niveau : le boss. Bonne chance."
+   }
+  },
+  "scoreVoice": "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !",
+  "outro": {
+   "title": "Merci d'avoir joué 🙏",
+   "voice": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure."
+  },
+  "packshot": {
+   "headline": "Crée GRATUITEMENT tes quiz personnalisés",
+   "sub": "à partager avec tes amis 🎉",
+   "cta": "👉 youqwiz.com",
+   "voice": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com."
+  },
+  "rule": "Trouve le pays avant la fin du chrono 🌍 et compte tes points ⭐",
+  "ruleVoice": "Trouve le pays avant la fin du chrono, et compte tes points !",
+  "nextQuizVoice": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !"
+ },
+ "title": "Peux-tu deviner 41 DRAPEAUX ? 🚩🌍🧠 Quiz de facile à IMPOSSIBLE",
+ "question": "À quel pays appartient ce drapeau ?",
+ "intro": {
+  "hook": "Devine 41 DRAPEAUX du MONDE",
+  "sub": "en 5 secondes ⏱️ de facile à impossible"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇸"
+   },
+   "answer": "États-Unis",
+   "fact": "Le drapeau des États-Unis compte cinquante étoiles, une pour chaque État.",
+   "rank": 3,
+   "voice": {
+    "q": {
+     "src": "tts-cache/08dc84a99e4d6271.mp3",
+     "sec": 1.75127,
+     "text": "Top départ ! On commence en douceur !",
+     "words": [
+      [
+       "Top",
+       0.052,
+       0.075
+      ],
+      [
+       "départ",
+       0.14,
+       0.528
+      ],
+      [
+       "!",
+       0.641,
+       0.754
+      ],
+      [
+       "On",
+       0.779,
+       0.829
+      ],
+      [
+       "commence",
+       0.871,
+       1.207
+      ],
+      [
+       "en",
+       1.232,
+       1.282
+      ],
+      [
+       "douceur",
+       1.32,
+       1.735
+      ],
+      [
+       "!",
+       1.735,
+       1.735
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/0-a.mp3",
+     "sec": 1.270454,
+     "text": "États-Unis !",
+     "words": [
+      [
+       "États-Unis",
+       0.274,
+       0.83
+      ],
+      [
+       "!",
+       1.208,
+       1.283
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/0-f.mp3",
+     "sec": 4.935306,
+     "text": "Au passage, Le drapeau des États-Unis compte cinquante étoiles, une pour chaque État.",
+     "words": [
+      [
+       "Au",
+       0.015,
+       0.024
+      ],
+      [
+       "passage,",
+       0.09,
+       0.778
+      ],
+      [
+       "Le",
+       0.804,
+       0.854
+      ],
+      [
+       "drapeau",
+       0.929,
+       1.307
+      ],
+      [
+       "des",
+       1.344,
+       1.457
+      ],
+      [
+       "États-Unis",
+       1.533,
+       1.986
+      ],
+      [
+       "compte",
+       2.051,
+       2.439
+      ],
+      [
+       "cinquante",
+       2.457,
+       2.741
+      ],
+      [
+       "étoiles,",
+       2.816,
+       3.571
+      ],
+      [
+       "une",
+       3.627,
+       3.797
+      ],
+      [
+       "pour",
+       3.888,
+       4.25
+      ],
+      [
+       "chaque",
+       4.293,
+       4.552
+      ],
+      [
+       "État.",
+       4.627,
+       4.929
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇩"
+   },
+   "answer": "Indonésie",
+   "rank": 4,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0e8964525b225b65.mp3",
+     "sec": 0.838073,
+     "text": "Je t'écoute.",
+     "words": [
+      [
+       "Je",
+       0.101,
+       0.151
+      ],
+      [
+       "t'écoute.",
+       0.189,
+       0.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/1-a.mp3",
+     "sec": 1.798594,
+     "text": "Réponse : Indonésie.",
+     "words": [
+      [
+       "Réponse",
+       0.105,
+       0.502
+      ],
+      [
+       ":",
+       0.766,
+       1.03
+      ],
+      [
+       "Indonésie.",
+       1.087,
+       1.785
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇬"
+   },
+   "answer": "Nigeria",
+   "rank": 7,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b05534a2c6dd071f.mp3",
+     "sec": 1.281769,
+     "text": "Facile, non ?",
+     "words": [
+      [
+       "Facile,",
+       0.198,
+       0.528
+      ],
+      [
+       "non",
+       0.547,
+       0.604
+      ],
+      [
+       "?",
+       0.679,
+       0.755
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/2-a.mp3",
+     "sec": 1.896372,
+     "text": "Réponse : Nigeria.",
+     "words": [
+      [
+       "Réponse",
+       0.201,
+       0.679
+      ],
+      [
+       ":",
+       0.943,
+       1.208
+      ],
+      [
+       "Nigeria.",
+       1.283,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇷"
+   },
+   "answer": "Turquie",
+   "rank": 18,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b05534a2c6dd071f.mp3",
+     "sec": 1.281769,
+     "text": "Facile, non ?",
+     "words": [
+      [
+       "Facile,",
+       0.198,
+       0.528
+      ],
+      [
+       "non",
+       0.547,
+       0.604
+      ],
+      [
+       "?",
+       0.679,
+       0.755
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/3-a.mp3",
+     "sec": 1.673741,
+     "text": "Réponse : Turquie.",
+     "words": [
+      [
+       "Réponse",
+       0.201,
+       0.604
+      ],
+      [
+       ":",
+       0.83,
+       1.057
+      ],
+      [
+       "Turquie.",
+       1.113,
+       1.66
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇩"
+   },
+   "answer": "RD Congo",
+   "rank": 19,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/4-a.mp3",
+     "sec": 1.185624,
+     "text": "C'est RD Congo.",
+     "words": [
+      [
+       "C'est",
+       0.038,
+       0.272
+      ],
+      [
+       "RD",
+       0.397,
+       0.649
+      ],
+      [
+       "Congo.",
+       0.724,
+       1.177
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇿"
+   },
+   "answer": "Tanzanie",
+   "rank": 28,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/5-a.mp3",
+     "sec": 1.742562,
+     "text": "Eh oui, Tanzanie !",
+     "words": [
+      [
+       "Eh",
+       0.196,
+       0.226
+      ],
+      [
+       "oui,",
+       0.302,
+       0.755
+      ],
+      [
+       "Tanzanie",
+       0.815,
+       1.283
+      ],
+      [
+       "!",
+       1.396,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇺🇦"
+   },
+   "answer": "Ukraine",
+   "rank": 30,
+   "voice": {
+    "q": {
+     "src": "tts-cache/68158192e987d94d.mp3",
+     "sec": 0.563152,
+     "text": "Tu l'as ?",
+     "words": [
+      [
+       "Tu",
+       0.102,
+       0.122
+      ],
+      [
+       "l'as",
+       0.16,
+       0.273
+      ],
+      [
+       "?",
+       0.462,
+       0.65
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/6-a.mp3",
+     "sec": 1.369002,
+     "text": "C'est Ukraine.",
+     "words": [
+      [
+       "C'est",
+       0.234,
+       0.302
+      ],
+      [
+       "Ukraine.",
+       0.377,
+       1.358
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇷"
+   },
+   "answer": "Argentine",
+   "rank": 31,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/7-a.mp3",
+     "sec": 2.013311,
+     "text": "Réponse : Argentine.",
+     "words": [
+      [
+       "Réponse",
+       0.175,
+       0.653
+      ],
+      [
+       ":",
+       0.879,
+       1.106
+      ],
+      [
+       "Argentine.",
+       1.181,
+       2.011
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇶"
+   },
+   "answer": "Irak",
+   "rank": 36,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/8-a.mp3",
+     "sec": 1.707642,
+     "text": "Réponse : Irak.",
+     "words": [
+      [
+       "Réponse",
+       0.171,
+       0.498
+      ],
+      [
+       ":",
+       0.724,
+       0.951
+      ],
+      [
+       "Irak.",
+       1.026,
+       1.706
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇵🇪"
+   },
+   "answer": "Pérou",
+   "rank": 40,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3cff941df92e60ac.mp3",
+     "sec": 2.503424,
+     "text": "Déjà la question 10 ! Tu tiens le rythme ?",
+     "words": [
+      [
+       "Déjà",
+       0.151,
+       0.377
+      ],
+      [
+       "la",
+       0.427,
+       0.528
+      ],
+      [
+       "question",
+       0.57,
+       0.906
+      ],
+      [
+       "10",
+       1.094,
+       1.283
+      ],
+      [
+       "!",
+       1.415,
+       1.547
+      ],
+      [
+       "Tu",
+       1.635,
+       1.811
+      ],
+      [
+       "tiens",
+       1.837,
+       1.962
+      ],
+      [
+       "le",
+       1.988,
+       2.038
+      ],
+      [
+       "rythme",
+       2.088,
+       2.415
+      ],
+      [
+       "?",
+       2.453,
+       2.491
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/9-a.mp3",
+     "sec": 1.252426,
+     "text": "Eh oui, Pérou !",
+     "words": [
+      [
+       "Eh",
+       0.089,
+       0.115
+      ],
+      [
+       "oui,",
+       0.171,
+       0.567
+      ],
+      [
+       "Pérou",
+       0.617,
+       0.869
+      ],
+      [
+       "!",
+       1.058,
+       1.247
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇪"
+   },
+   "answer": "Venezuela",
+   "rank": 44,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/10-a.mp3",
+     "sec": 1.283991,
+     "text": "Eh oui, Venezuela !",
+     "words": [
+      [
+       "Eh",
+       0.112,
+       0.149
+      ],
+      [
+       "oui,",
+       0.225,
+       0.602
+      ],
+      [
+       "Venezuela",
+       0.662,
+       1.206
+      ],
+      [
+       "!",
+       1.244,
+       1.281
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇵"
+   },
+   "answer": "Népal",
+   "fact": "Le drapeau du Népal est le seul au monde qui n'est pas rectangulaire.",
+   "rank": 45,
+   "voice": {
+    "q": {
+     "src": "tts-cache/68158192e987d94d.mp3",
+     "sec": 0.563152,
+     "text": "Tu l'as ?",
+     "words": [
+      [
+       "Tu",
+       0.102,
+       0.122
+      ],
+      [
+       "l'as",
+       0.16,
+       0.273
+      ],
+      [
+       "?",
+       0.462,
+       0.65
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/11-a.mp3",
+     "sec": 1.88932,
+     "text": "Réponse : Népal.",
+     "words": [
+      [
+       "Réponse",
+       0.116,
+       0.669
+      ],
+      [
+       ":",
+       0.934,
+       1.198
+      ],
+      [
+       "Népal.",
+       1.235,
+       1.877
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/11-f.mp3",
+     "sec": 4.977823,
+     "text": "Détail amusant : Le drapeau du Népal est le seul au monde qui n'est pas rectangulaire.",
+     "words": [
+      [
+       "Détail",
+       0.059,
+       0.292
+      ],
+      [
+       "amusant",
+       0.342,
+       0.745
+      ],
+      [
+       ":",
+       0.933,
+       1.122
+      ],
+      [
+       "Le",
+       1.148,
+       1.198
+      ],
+      [
+       "drapeau",
+       1.273,
+       1.65
+      ],
+      [
+       "du",
+       1.676,
+       1.726
+      ],
+      [
+       "Népal",
+       1.801,
+       2.254
+      ],
+      [
+       "est",
+       2.33,
+       2.556
+      ],
+      [
+       "le",
+       2.582,
+       2.632
+      ],
+      [
+       "seul",
+       2.707,
+       3.009
+      ],
+      [
+       "au",
+       3.034,
+       3.084
+      ],
+      [
+       "monde",
+       3.16,
+       3.537
+      ],
+      [
+       "qui",
+       3.575,
+       3.688
+      ],
+      [
+       "n'est",
+       3.726,
+       3.99
+      ],
+      [
+       "pas",
+       4.009,
+       4.066
+      ],
+      [
+       "rectangulaire.",
+       4.126,
+       4.971
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇰"
+   },
+   "answer": "Sri Lanka",
+   "rank": 57,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/12-a.mp3",
+     "sec": 1.433719,
+     "text": "C'est Sri Lanka.",
+     "words": [
+      [
+       "C'est",
+       0.113,
+       0.151
+      ],
+      [
+       "Sri",
+       0.226,
+       0.453
+      ],
+      [
+       "Lanka.",
+       0.528,
+       0.981
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇱"
+   },
+   "answer": "Pays-Bas",
+   "rank": 63,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/13-a.mp3",
+     "sec": 1.621859,
+     "text": "Réponse : Pays-Bas.",
+     "words": [
+      [
+       "Réponse",
+       0.097,
+       0.412
+      ],
+      [
+       ":",
+       0.638,
+       0.864
+      ],
+      [
+       "Pays-Bas.",
+       0.925,
+       1.619
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇹"
+   },
+   "answer": "Guatemala",
+   "fact": "Le drapeau du Guatemala montre un quetzal, l'oiseau emblème du pays.",
+   "rank": 65,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f5eb8e0dcc2c2a6d.mp3",
+     "sec": 1.185351,
+     "text": "Ça te dit quelque chose ?",
+     "words": [
+      [
+       "Ça",
+       0.043,
+       0.126
+      ],
+      [
+       "te",
+       0.176,
+       0.276
+      ],
+      [
+       "dit",
+       0.333,
+       0.503
+      ],
+      [
+       "quelque",
+       0.531,
+       0.729
+      ],
+      [
+       "chose",
+       0.779,
+       1.031
+      ],
+      [
+       "?",
+       1.107,
+       1.182
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/14-a.mp3",
+     "sec": 2.029909,
+     "text": "Bravo si tu as dit Guatemala.",
+     "words": [
+      [
+       "Bravo",
+       0.118,
+       0.432
+      ],
+      [
+       "si",
+       0.507,
+       0.658
+      ],
+      [
+       "tu",
+       0.708,
+       0.809
+      ],
+      [
+       "as",
+       0.859,
+       0.96
+      ],
+      [
+       "dit",
+       1.017,
+       1.186
+      ],
+      [
+       "Guatemala.",
+       1.254,
+       2.017
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/14-f.mp3",
+     "sec": 5.523265,
+     "text": "Détail amusant : Le drapeau du Guatemala montre un quetzal, l'oiseau emblème du pays.",
+     "words": [
+      [
+       "Détail",
+       0.069,
+       0.302
+      ],
+      [
+       "amusant",
+       0.352,
+       0.755
+      ],
+      [
+       ":",
+       0.943,
+       1.132
+      ],
+      [
+       "Le",
+       1.158,
+       1.208
+      ],
+      [
+       "drapeau",
+       1.283,
+       1.66
+      ],
+      [
+       "du",
+       1.686,
+       1.736
+      ],
+      [
+       "Guatemala",
+       1.796,
+       2.34
+      ],
+      [
+       "montre",
+       2.415,
+       2.792
+      ],
+      [
+       "un",
+       2.818,
+       2.868
+      ],
+      [
+       "quetzal,",
+       2.943,
+       3.925
+      ],
+      [
+       "l'oiseau",
+       3.962,
+       4.377
+      ],
+      [
+       "emblème",
+       4.427,
+       4.755
+      ],
+      [
+       "du",
+       4.78,
+       4.83
+      ],
+      [
+       "pays.",
+       4.936,
+       5.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇭"
+   },
+   "answer": "Cambodge",
+   "rank": 68,
+   "voice": {
+    "q": {
+     "src": "tts-cache/4b286127aadc1be5.mp3",
+     "sec": 0.983741,
+     "text": "Suivant !",
+     "words": [
+      [
+       "Suivant",
+       0.1,
+       0.346
+      ],
+      [
+       "!",
+       0.874,
+       0.95
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/15-a.mp3",
+     "sec": 1.589274,
+     "text": "Réponse : Cambodge.",
+     "words": [
+      [
+       "Réponse",
+       0.13,
+       0.527
+      ],
+      [
+       ":",
+       0.754,
+       0.98
+      ],
+      [
+       "Cambodge.",
+       1.025,
+       1.584
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇩"
+   },
+   "answer": "Tchad",
+   "rank": 71,
+   "voice": {
+    "q": {
+     "src": "tts-cache/f5bf2b30ea4f3884.mp3",
+     "sec": 1.014104,
+     "text": "Hop, le suivant !",
+     "words": [
+      [
+       "Hop,",
+       0.143,
+       0.328
+      ],
+      [
+       "le",
+       0.378,
+       0.479
+      ],
+      [
+       "suivant",
+       0.524,
+       0.856
+      ],
+      [
+       "!",
+       1.121,
+       1.385
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/16-a.mp3",
+     "sec": 0.90254,
+     "text": "Tchad !",
+     "words": [
+      [
+       "Tchad",
+       0.112,
+       0.384
+      ],
+      [
+       "!",
+       0.61,
+       0.837
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇷🇼"
+   },
+   "answer": "Rwanda",
+   "rank": 76,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/17-a.mp3",
+     "sec": 1.044762,
+     "text": "Rwanda !",
+     "words": [
+      [
+       "Rwanda",
+       0.431,
+       0.528
+      ],
+      [
+       "!",
+       0.792,
+       1.057
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇳"
+   },
+   "answer": "Tunisie",
+   "rank": 78,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/18-a.mp3",
+     "sec": 0.788639,
+     "text": "Tunisie !",
+     "words": [
+      [
+       "Tunisie",
+       0.022,
+       0.487
+      ],
+      [
+       "!",
+       0.638,
+       0.789
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇧🇯"
+   },
+   "answer": "Bénin",
+   "rank": 86,
+   "voice": {
+    "q": {
+     "src": "tts-cache/c7782643c37abfee.mp3",
+     "sec": 0.815918,
+     "text": "Alors ?",
+     "words": [
+      [
+       "Alors",
+       0.109,
+       0.361
+      ],
+      [
+       "?",
+       0.739,
+       0.814
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/19-a.mp3",
+     "sec": 1.540317,
+     "text": "Bravo si tu as dit Bénin.",
+     "words": [
+      [
+       "Bravo",
+       0.023,
+       0.4
+      ],
+      [
+       "si",
+       0.476,
+       0.627
+      ],
+      [
+       "tu",
+       0.677,
+       0.778
+      ],
+      [
+       "as",
+       0.803,
+       0.853
+      ],
+      [
+       "dit",
+       0.891,
+       1.004
+      ],
+      [
+       "Bénin.",
+       1.08,
+       1.533
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇪"
+   },
+   "answer": "Émirats arabes unis",
+   "rank": 92,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/20-a.mp3",
+     "sec": 1.718934,
+     "text": "Eh oui, Émirats arabes unis !",
+     "words": [
+      [
+       "Eh",
+       0,
+       0.006
+      ],
+      [
+       "oui,",
+       0.081,
+       0.534
+      ],
+      [
+       "Émirats",
+       0.61,
+       0.987
+      ],
+      [
+       "arabes",
+       1.032,
+       1.289
+      ],
+      [
+       "unis",
+       1.339,
+       1.515
+      ],
+      [
+       "!",
+       1.629,
+       1.742
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇹"
+   },
+   "answer": "Autriche",
+   "rank": 94,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/21-a.mp3",
+     "sec": 1.171247,
+     "text": "C'est Autriche.",
+     "words": [
+      [
+       "C'est",
+       0.142,
+       0.302
+      ],
+      [
+       "Autriche.",
+       0.358,
+       1.283
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇮🇱"
+   },
+   "answer": "Israël",
+   "rank": 95,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0e8964525b225b65.mp3",
+     "sec": 0.838073,
+     "text": "Je t'écoute.",
+     "words": [
+      [
+       "Je",
+       0.101,
+       0.151
+      ],
+      [
+       "t'écoute.",
+       0.189,
+       0.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/22-a.mp3",
+     "sec": 1.455737,
+     "text": "Eh oui, Israël !",
+     "words": [
+      [
+       "Eh",
+       0.1,
+       0.12
+      ],
+      [
+       "oui,",
+       0.157,
+       0.497
+      ],
+      [
+       "Israël",
+       0.572,
+       1.101
+      ],
+      [
+       "!",
+       1.289,
+       1.478
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇦"
+   },
+   "answer": "Laos",
+   "rank": 103,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/23-a.mp3",
+     "sec": 0.97873,
+     "text": "Laos !",
+     "words": [
+      [
+       "Laos",
+       0.44,
+       0.525
+      ],
+      [
+       "!",
+       0.751,
+       0.978
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇮"
+   },
+   "answer": "Nicaragua",
+   "rank": 110,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/24-a.mp3",
+     "sec": 1.730023,
+     "text": "Réponse : Nicaragua.",
+     "words": [
+      [
+       "Réponse",
+       0.12,
+       0.434
+      ],
+      [
+       ":",
+       0.698,
+       0.962
+      ],
+      [
+       "Nicaragua.",
+       1.03,
+       1.717
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇫"
+   },
+   "answer": "République centrafricaine",
+   "rank": 119,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/25-a.mp3",
+     "sec": 1.898095,
+     "text": "C'est République centrafricaine.",
+     "words": [
+      [
+       "C'est",
+       0.113,
+       0.226
+      ],
+      [
+       "République",
+       0.302,
+       0.755
+      ],
+      [
+       "centrafricaine.",
+       0.8,
+       1.887
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇳🇿"
+   },
+   "answer": "Nouvelle-Zélande",
+   "rank": 121,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/26-a.mp3",
+     "sec": 1.66322,
+     "text": "C'est Nouvelle-Zélande.",
+     "words": [
+      [
+       "C'est",
+       0.066,
+       0.225
+      ],
+      [
+       "Nouvelle-Zélande.",
+       0.3,
+       1.659
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇩"
+   },
+   "answer": "Moldavie",
+   "rank": 129,
+   "voice": {
+    "q": {
+     "src": "tts-cache/cf6dc279aae3d244.mp3",
+     "sec": 1.057778,
+     "text": "Tu vois ce que c'est ?",
+     "words": [
+      [
+       "Tu",
+       0.131,
+       0.151
+      ],
+      [
+       "vois",
+       0.196,
+       0.377
+      ],
+      [
+       "ce",
+       0.403,
+       0.453
+      ],
+      [
+       "que",
+       0.491,
+       0.604
+      ],
+      [
+       "c'est",
+       0.642,
+       0.83
+      ],
+      [
+       "?",
+       0.868,
+       1.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/27-a.mp3",
+     "sec": 1.055397,
+     "text": "Moldavie !",
+     "words": [
+      [
+       "Moldavie",
+       0.121,
+       0.679
+      ],
+      [
+       "!",
+       0.981,
+       1.057
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇦🇱"
+   },
+   "answer": "Albanie",
+   "fact": "Le drapeau de l'Albanie arbore un aigle noir à deux têtes sur fond rouge.",
+   "rank": 136,
+   "voice": {
+    "q": {
+     "src": "tts-cache/4b286127aadc1be5.mp3",
+     "sec": 0.983741,
+     "text": "Suivant !",
+     "words": [
+      [
+       "Suivant",
+       0.1,
+       0.346
+      ],
+      [
+       "!",
+       0.874,
+       0.95
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/28-a.mp3",
+     "sec": 1.730136,
+     "text": "Eh oui, Albanie !",
+     "words": [
+      [
+       "Eh",
+       0.196,
+       0.226
+      ],
+      [
+       "oui,",
+       0.302,
+       0.755
+      ],
+      [
+       "Albanie",
+       0.818,
+       1.283
+      ],
+      [
+       "!",
+       1.66,
+       1.736
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/28-f.mp3",
+     "sec": 6.266553,
+     "text": "Pour briller en société : Le drapeau de l'Albanie arbore un aigle noir à deux têtes sur fond rouge.",
+     "words": [
+      [
+       "Pour",
+       0.131,
+       0.151
+      ],
+      [
+       "briller",
+       0.201,
+       0.453
+      ],
+      [
+       "en",
+       0.503,
+       0.604
+      ],
+      [
+       "société",
+       0.67,
+       1.132
+      ],
+      [
+       ":",
+       1.396,
+       1.66
+      ],
+      [
+       "Le",
+       1.686,
+       1.736
+      ],
+      [
+       "drapeau",
+       1.811,
+       2.189
+      ],
+      [
+       "de",
+       2.239,
+       2.34
+      ],
+      [
+       "l'Albanie",
+       2.358,
+       2.868
+      ],
+      [
+       "arbore",
+       2.981,
+       3.472
+      ],
+      [
+       "un",
+       3.522,
+       3.623
+      ],
+      [
+       "aigle",
+       3.66,
+       3.849
+      ],
+      [
+       "noir",
+       3.955,
+       4.377
+      ],
+      [
+       "à",
+       4.491,
+       4.604
+      ],
+      [
+       "deux",
+       4.619,
+       4.679
+      ],
+      [
+       "têtes",
+       4.792,
+       5.208
+      ],
+      [
+       "sur",
+       5.283,
+       5.509
+      ],
+      [
+       "fond",
+       5.57,
+       5.811
+      ],
+      [
+       "rouge.",
+       5.875,
+       6.264
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇯🇲"
+   },
+   "answer": "Jamaïque",
+   "rank": 137,
+   "voice": {
+    "q": {
+     "src": "tts-cache/67c29de6990aba8e.mp3",
+     "sec": 2.344921,
+     "text": "On passe la question 30. Compte bien tes points.",
+     "words": [
+      [
+       "On",
+       0.056,
+       0.066
+      ],
+      [
+       "passe",
+       0.104,
+       0.293
+      ],
+      [
+       "la",
+       0.318,
+       0.368
+      ],
+      [
+       "question",
+       0.41,
+       0.745
+      ],
+      [
+       "30.",
+       0.821,
+       1.311
+      ],
+      [
+       "Compte",
+       1.359,
+       1.651
+      ],
+      [
+       "bien",
+       1.696,
+       1.877
+      ],
+      [
+       "tes",
+       1.915,
+       2.028
+      ],
+      [
+       "points.",
+       2.06,
+       2.33
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/29-a.mp3",
+     "sec": 2.346893,
+     "text": "Bravo si tu as dit Jamaïque.",
+     "words": [
+      [
+       "Bravo",
+       0.434,
+       0.528
+      ],
+      [
+       "si",
+       0.578,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "as",
+       0.88,
+       0.981
+      ],
+      [
+       "dit",
+       1.038,
+       1.208
+      ],
+      [
+       "Jamaïque.",
+       1.358,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇱🇻"
+   },
+   "answer": "Lettonie",
+   "rank": 144,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0a7d3a45a2475439.mp3",
+     "sec": 0.967596,
+     "text": "Et maintenant ?",
+     "words": [
+      [
+       "Et",
+       0.056,
+       0.066
+      ],
+      [
+       "maintenant",
+       0.1,
+       0.444
+      ],
+      [
+       "?",
+       0.708,
+       0.972
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/30-a.mp3",
+     "sec": 1.808073,
+     "text": "Bravo si tu as dit Lettonie.",
+     "words": [
+      [
+       "Bravo",
+       0.348,
+       0.443
+      ],
+      [
+       "si",
+       0.518,
+       0.669
+      ],
+      [
+       "tu",
+       0.719,
+       0.82
+      ],
+      [
+       "as",
+       0.846,
+       0.896
+      ],
+      [
+       "dit",
+       0.933,
+       1.047
+      ],
+      [
+       "Lettonie.",
+       1.122,
+       1.801
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇲"
+   },
+   "answer": "Gambie",
+   "rank": 145,
+   "voice": {
+    "q": {
+     "src": "tts-cache/3da12bbc6536d993.mp3",
+     "sec": 1.445601,
+     "text": "Je parie que tu sèches.",
+     "words": [
+      [
+       "Je",
+       0.201,
+       0.226
+      ],
+      [
+       "parie",
+       0.302,
+       0.604
+      ],
+      [
+       "que",
+       0.623,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "sèches.",
+       0.906,
+       1.434
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/31-a.mp3",
+     "sec": 1.134467,
+     "text": "C'est Gambie.",
+     "words": [
+      [
+       "C'est",
+       0.181,
+       0.226
+      ],
+      [
+       "Gambie.",
+       0.287,
+       1.132
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇼"
+   },
+   "answer": "Guinée-Bissau",
+   "rank": 146,
+   "voice": {
+    "q": {
+     "src": "tts-cache/0e8964525b225b65.mp3",
+     "sec": 0.838073,
+     "text": "Je t'écoute.",
+     "words": [
+      [
+       "Je",
+       0.101,
+       0.151
+      ],
+      [
+       "t'écoute.",
+       0.189,
+       0.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/32-a.mp3",
+     "sec": 1.748005,
+     "text": "Réponse : Guinée-Bissau.",
+     "words": [
+      [
+       "Réponse",
+       0.139,
+       0.528
+      ],
+      [
+       ":",
+       0.717,
+       0.906
+      ],
+      [
+       "Guinée-Bissau.",
+       0.956,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇲🇺"
+   },
+   "answer": "Maurice",
+   "rank": 152,
+   "voice": {
+    "q": {
+     "src": "tts-cache/2218ef1cbaa7bf3e.mp3",
+     "sec": 0.839048,
+     "text": "Pas de panique.",
+     "words": [
+      [
+       "Pas",
+       0.031,
+       0.043
+      ],
+      [
+       "de",
+       0.093,
+       0.194
+      ],
+      [
+       "panique.",
+       0.231,
+       0.646
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/33-a.mp3",
+     "sec": 1.829637,
+     "text": "Réponse : Maurice.",
+     "words": [
+      [
+       "Réponse",
+       0.134,
+       0.688
+      ],
+      [
+       ":",
+       0.914,
+       1.141
+      ],
+      [
+       "Maurice.",
+       1.207,
+       1.82
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇹🇱"
+   },
+   "answer": "Timor oriental",
+   "rank": 153,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7824a50440fc0e93.mp3",
+     "sec": 0.959456,
+     "text": "Accroche-toi.",
+     "words": [
+      [
+       "Accroche-toi.",
+       0.108,
+       0.583
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/34-a.mp3",
+     "sec": 2.123379,
+     "text": "Réponse : Timor oriental.",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.717,
+       0.905
+      ],
+      [
+       "Timor",
+       0.962,
+       1.283
+      ],
+      [
+       "oriental.",
+       1.348,
+       2.113
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇿"
+   },
+   "answer": "Eswatini",
+   "rank": 154,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7824a50440fc0e93.mp3",
+     "sec": 0.959456,
+     "text": "Accroche-toi.",
+     "words": [
+      [
+       "Accroche-toi.",
+       0.108,
+       0.583
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/35-a.mp3",
+     "sec": 1.93619,
+     "text": "Réponse : Eswatini.",
+     "words": [
+      [
+       "Réponse",
+       0.099,
+       0.572
+      ],
+      [
+       ":",
+       0.798,
+       1.024
+      ],
+      [
+       "Eswatini.",
+       1.062,
+       1.93
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇬🇾"
+   },
+   "answer": "Guyana",
+   "rank": 158,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b1f1fa65ff70d701.mp3",
+     "sec": 1.728753,
+     "text": "À quel pays appartient ce drapeau ?",
+     "words": [
+      [
+       "À",
+       0.058,
+       0.067
+      ],
+      [
+       "quel",
+       0.112,
+       0.293
+      ],
+      [
+       "pays",
+       0.354,
+       0.595
+      ],
+      [
+       "appartient",
+       0.639,
+       1.048
+      ],
+      [
+       "ce",
+       1.074,
+       1.124
+      ],
+      [
+       "drapeau",
+       1.161,
+       1.576
+      ],
+      [
+       "?",
+       1.652,
+       1.727
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/36-a.mp3",
+     "sec": 1.054059,
+     "text": "Guyana !",
+     "words": [
+      [
+       "Guyana",
+       0.257,
+       0.528
+      ],
+      [
+       "!",
+       0.981,
+       1.057
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇰🇲"
+   },
+   "answer": "Comores",
+   "fact": "Le drapeau des Comores a quatre étoiles et quatre bandes pour ses quatre îles.",
+   "rank": 159,
+   "voice": {
+    "q": {
+     "src": "tts-cache/7824a50440fc0e93.mp3",
+     "sec": 0.959456,
+     "text": "Accroche-toi.",
+     "words": [
+      [
+       "Accroche-toi.",
+       0.108,
+       0.583
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/37-a.mp3",
+     "sec": 1.36737,
+     "text": "C'est Comores.",
+     "words": [
+      [
+       "C'est",
+       0.068,
+       0.226
+      ],
+      [
+       "Comores.",
+       0.302,
+       1.358
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/37-f.mp3",
+     "sec": 5.580612,
+     "text": "Tu savais ? Le drapeau des Comores a quatre étoiles et quatre bandes pour ses quatre îles.",
+     "words": [
+      [
+       "Tu",
+       0.009,
+       0.018
+      ],
+      [
+       "savais",
+       0.093,
+       0.395
+      ],
+      [
+       "?",
+       0.584,
+       0.772
+      ],
+      [
+       "Le",
+       0.798,
+       0.848
+      ],
+      [
+       "drapeau",
+       0.886,
+       1.301
+      ],
+      [
+       "des",
+       1.338,
+       1.452
+      ],
+      [
+       "Comores",
+       1.508,
+       2.055
+      ],
+      [
+       "a",
+       2.169,
+       2.282
+      ],
+      [
+       "quatre",
+       2.314,
+       2.508
+      ],
+      [
+       "étoiles",
+       2.621,
+       3.036
+      ],
+      [
+       "et",
+       3.086,
+       3.187
+      ],
+      [
+       "quatre",
+       3.231,
+       3.489
+      ],
+      [
+       "bandes",
+       3.55,
+       3.867
+      ],
+      [
+       "pour",
+       3.972,
+       4.395
+      ],
+      [
+       "ses",
+       4.452,
+       4.621
+      ],
+      [
+       "quatre",
+       4.665,
+       4.923
+      ],
+      [
+       "îles.",
+       4.961,
+       5.603
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇸🇧"
+   },
+   "answer": "Îles Salomon",
+   "rank": 162,
+   "voice": {
+    "q": {
+     "src": "tts-cache/6d760cdd0ca9cfe0.mp3",
+     "sec": 1.291497,
+     "text": "Encore un.",
+     "words": [
+      [
+       "Encore",
+       0.25,
+       0.302
+      ],
+      [
+       "un.",
+       0.377,
+       1.283
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/38-a.mp3",
+     "sec": 1.440748,
+     "text": "Eh oui, Îles Salomon !",
+     "words": [
+      [
+       "Eh",
+       0.196,
+       0.226
+      ],
+      [
+       "oui,",
+       0.283,
+       0.679
+      ],
+      [
+       "Îles",
+       0.717,
+       0.906
+      ],
+      [
+       "Salomon",
+       0.943,
+       1.358
+      ],
+      [
+       "!",
+       1.396,
+       1.434
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇨🇻"
+   },
+   "answer": "Cap-Vert",
+   "rank": 165,
+   "voice": {
+    "q": {
+     "src": "tts-cache/a12f3c114d250fa5.mp3",
+     "sec": 2.270839,
+     "text": "Question 40. Ta série tient toujours ?",
+     "words": [
+      [
+       "Question",
+       0.248,
+       0.302
+      ],
+      [
+       "40.",
+       0.377,
+       0.83
+      ],
+      [
+       "Ta",
+       0.956,
+       1.208
+      ],
+      [
+       "série",
+       1.271,
+       1.585
+      ],
+      [
+       "tient",
+       1.623,
+       1.811
+      ],
+      [
+       "toujours",
+       1.853,
+       2.189
+      ],
+      [
+       "?",
+       2.226,
+       2.264
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/39-a.mp3",
+     "sec": 1.062585,
+     "text": "Cap-Vert !",
+     "words": [
+      [
+       "Cap-Vert",
+       0.198,
+       0.679
+      ],
+      [
+       "!",
+       0.717,
+       0.755
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "emoji",
+    "value": "🇻🇺"
+   },
+   "answer": "Vanuatu",
+   "rank": 173,
+   "voice": {
+    "q": {
+     "src": "tts-cache/b86db5a53b4211a8.mp3",
+     "sec": 1.602834,
+     "text": "On termine en beauté.",
+     "words": [
+      [
+       "On",
+       0.01,
+       0.022
+      ],
+      [
+       "termine",
+       0.082,
+       0.475
+      ],
+      [
+       "en",
+       0.6,
+       0.852
+      ],
+      [
+       "beauté.",
+       0.89,
+       1.305
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/40-a.mp3",
+     "sec": 0.7022,
+     "text": "Vanuatu !",
+     "words": [
+      [
+       "Vanuatu",
+       0.153,
+       0.483
+      ],
+      [
+       "!",
+       0.672,
+       0.861
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "Le drapeau de la Norvège porte une croix décalée vers le mât.",
+   "answer": true,
+   "fact": "Comme chez tous ses voisins nordiques, la croix n'est pas centrée mais décalée.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-drapeaux/i0-q.mp3",
+     "sec": 6.802018,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : Le drapeau de la Norvège porte une croix décalée vers le mât.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.29,
+       0.604
+      ],
+      [
+       "entre",
+       0.667,
+       0.981
+      ],
+      [
+       "deux",
+       1.026,
+       1.208
+      ],
+      [
+       "questions",
+       1.253,
+       1.66
+      ],
+      [
+       ":",
+       1.849,
+       2.038
+      ],
+      [
+       "Vrai",
+       2.075,
+       2.264
+      ],
+      [
+       "ou",
+       2.29,
+       2.34
+      ],
+      [
+       "faux",
+       2.4,
+       2.642
+      ],
+      [
+       ":",
+       2.792,
+       2.943
+      ],
+      [
+       "Le",
+       2.993,
+       3.094
+      ],
+      [
+       "drapeau",
+       3.17,
+       3.547
+      ],
+      [
+       "de",
+       3.597,
+       3.698
+      ],
+      [
+       "la",
+       3.724,
+       3.774
+      ],
+      [
+       "Norvège",
+       3.83,
+       4.377
+      ],
+      [
+       "porte",
+       4.478,
+       4.981
+      ],
+      [
+       "une",
+       5.019,
+       5.132
+      ],
+      [
+       "croix",
+       5.189,
+       5.509
+      ],
+      [
+       "décalée",
+       5.635,
+       6.113
+      ],
+      [
+       "vers",
+       6.158,
+       6.34
+      ],
+      [
+       "le",
+       6.365,
+       6.415
+      ],
+      [
+       "mât.",
+       6.491,
+       6.792
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/i0-a.mp3",
+     "sec": 0.798798,
+     "text": "Vrai !",
+     "words": [
+      [
+       "Vrai",
+       0.108,
+       0.268
+      ],
+      [
+       "!",
+       0.532,
+       0.796
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/i0-f.mp3",
+     "sec": 6.093605,
+     "text": "Et pour la culture : Comme chez tous ses voisins nordiques, la croix n'est pas centrée mais décalée.",
+     "words": [
+      [
+       "Et",
+       0.042,
+       0.052
+      ],
+      [
+       "pour",
+       0.082,
+       0.203
+      ],
+      [
+       "la",
+       0.228,
+       0.278
+      ],
+      [
+       "culture",
+       0.354,
+       0.882
+      ],
+      [
+       ":",
+       1.184,
+       1.486
+      ],
+      [
+       "Comme",
+       1.505,
+       1.637
+      ],
+      [
+       "chez",
+       1.682,
+       1.863
+      ],
+      [
+       "tous",
+       1.909,
+       2.09
+      ],
+      [
+       "ses",
+       2.127,
+       2.241
+      ],
+      [
+       "voisins",
+       2.271,
+       2.543
+      ],
+      [
+       "nordiques,",
+       2.588,
+       3.297
+      ],
+      [
+       "la",
+       3.323,
+       3.373
+      ],
+      [
+       "croix",
+       3.429,
+       3.675
+      ],
+      [
+       "n'est",
+       3.712,
+       3.901
+      ],
+      [
+       "pas",
+       3.92,
+       3.976
+      ],
+      [
+       "centrée",
+       4.052,
+       4.505
+      ],
+      [
+       "mais",
+       4.595,
+       4.958
+      ],
+      [
+       "décalée.",
+       5.033,
+       6.09
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays a un drapeau noir, rouge et or ?",
+   "choices": [
+    "Allemagne",
+    "Pays-Bas",
+    "Suède"
+   ],
+   "correct": 0,
+   "fact": "Ces couleurs viennent de l'uniforme d'un corps de volontaires de 1813.",
+   "level": "facile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-drapeaux/i1-q.mp3",
+     "sec": 7.541882,
+     "text": "Intermède ! Quel pays a un drapeau noir, rouge et or : Allemagne, Pays-Bas, ou Suède ?",
+     "words": [
+      [
+       "Intermède",
+       0.128,
+       0.604
+      ],
+      [
+       "!",
+       0.943,
+       1.283
+      ],
+      [
+       "Quel",
+       1.308,
+       1.434
+      ],
+      [
+       "pays",
+       1.509,
+       1.811
+      ],
+      [
+       "a",
+       1.849,
+       1.887
+      ],
+      [
+       "un",
+       1.937,
+       2.038
+      ],
+      [
+       "drapeau",
+       2.075,
+       2.566
+      ],
+      [
+       "noir,",
+       2.642,
+       3.094
+      ],
+      [
+       "rouge",
+       3.158,
+       3.472
+      ],
+      [
+       "et",
+       3.547,
+       3.698
+      ],
+      [
+       "or",
+       3.875,
+       4.226
+      ],
+      [
+       ":",
+       4.453,
+       4.679
+      ],
+      [
+       "Allemagne,",
+       4.729,
+       5.623
+      ],
+      [
+       "Pays-Bas,",
+       5.691,
+       6.34
+      ],
+      [
+       "ou",
+       6.516,
+       6.868
+      ],
+      [
+       "Suède",
+       6.969,
+       7.396
+      ],
+      [
+       "?",
+       7.472,
+       7.547
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/i1-a.mp3",
+     "sec": 1.360476,
+     "text": "C'est Allemagne !",
+     "words": [
+      [
+       "C'est",
+       0.06,
+       0.218
+      ],
+      [
+       "Allemagne",
+       0.244,
+       0.747
+      ],
+      [
+       "!",
+       0.822,
+       0.898
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/i1-f.mp3",
+     "sec": 6.882698,
+     "text": "Pour briller en société : Ces couleurs viennent de l'uniforme d'un corps de volontaires de 1813.",
+     "words": [
+      [
+       "Pour",
+       0.121,
+       0.151
+      ],
+      [
+       "briller",
+       0.227,
+       0.604
+      ],
+      [
+       "en",
+       0.654,
+       0.755
+      ],
+      [
+       "société",
+       0.821,
+       1.283
+      ],
+      [
+       ":",
+       1.51,
+       1.736
+      ],
+      [
+       "Ces",
+       1.793,
+       1.962
+      ],
+      [
+       "couleurs",
+       2,
+       2.415
+      ],
+      [
+       "viennent",
+       2.541,
+       3.019
+      ],
+      [
+       "de",
+       3.044,
+       3.094
+      ],
+      [
+       "l'uniforme",
+       3.17,
+       3.925
+      ],
+      [
+       "d'un",
+       3.962,
+       4.076
+      ],
+      [
+       "corps",
+       4.139,
+       4.453
+      ],
+      [
+       "de",
+       4.478,
+       4.528
+      ],
+      [
+       "volontaires",
+       4.604,
+       5.51
+      ],
+      [
+       "de",
+       5.585,
+       5.736
+      ],
+      [
+       "1813.",
+       5.811,
+       6.868
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau de la Turquie est vert avec une étoile.",
+   "answer": false,
+   "fact": "Il est rouge, orné d'un croissant et d'une étoile blancs, comme un ciel de nuit.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-drapeaux/i2-q.mp3",
+     "sec": 6.943719,
+     "text": "Une question à côté, pour le plaisir : Vrai ou faux : Le drapeau de la Turquie est vert avec une étoile.",
+     "words": [
+      [
+       "Une",
+       0.052,
+       0.074
+      ],
+      [
+       "question",
+       0.108,
+       0.376
+      ],
+      [
+       "à",
+       0.414,
+       0.452
+      ],
+      [
+       "côté,",
+       0.497,
+       0.829
+      ],
+      [
+       "pour",
+       0.844,
+       0.904
+      ],
+      [
+       "le",
+       0.93,
+       0.98
+      ],
+      [
+       "plaisir",
+       1.036,
+       1.433
+      ],
+      [
+       ":",
+       1.697,
+       1.961
+      ],
+      [
+       "Vrai",
+       1.999,
+       2.187
+      ],
+      [
+       "ou",
+       2.213,
+       2.263
+      ],
+      [
+       "faux",
+       2.323,
+       2.565
+      ],
+      [
+       ":",
+       2.678,
+       2.791
+      ],
+      [
+       "Le",
+       2.841,
+       2.942
+      ],
+      [
+       "drapeau",
+       2.98,
+       3.319
+      ],
+      [
+       "de",
+       3.345,
+       3.395
+      ],
+      [
+       "la",
+       3.42,
+       3.47
+      ],
+      [
+       "Turquie",
+       3.508,
+       3.923
+      ],
+      [
+       "est",
+       3.999,
+       4.225
+      ],
+      [
+       "vert",
+       4.316,
+       4.678
+      ],
+      [
+       "avec",
+       4.753,
+       5.055
+      ],
+      [
+       "une",
+       5.093,
+       5.206
+      ],
+      [
+       "étoile.",
+       5.282,
+       6.942
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/i2-a.mp3",
+     "sec": 1.594535,
+     "text": "Eh non, c'est faux.",
+     "words": [
+      [
+       "Eh",
+       0.151,
+       0.302
+      ],
+      [
+       "non,",
+       0.377,
+       0.679
+      ],
+      [
+       "c'est",
+       0.717,
+       0.981
+      ],
+      [
+       "faux.",
+       1.026,
+       1.585
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/i2-f.mp3",
+     "sec": 6.423537,
+     "text": "Pour briller en société : Il est rouge, orné d'un croissant et d'une étoile blancs, comme un ciel de nuit.",
+     "words": [
+      [
+       "Pour",
+       0.126,
+       0.151
+      ],
+      [
+       "briller",
+       0.226,
+       0.604
+      ],
+      [
+       "en",
+       0.629,
+       0.679
+      ],
+      [
+       "société",
+       0.736,
+       1.132
+      ],
+      [
+       ":",
+       1.396,
+       1.66
+      ],
+      [
+       "Il",
+       1.71,
+       1.811
+      ],
+      [
+       "est",
+       1.849,
+       1.962
+      ],
+      [
+       "rouge,",
+       2.038,
+       2.642
+      ],
+      [
+       "orné",
+       2.698,
+       3.019
+      ],
+      [
+       "d'un",
+       3.038,
+       3.094
+      ],
+      [
+       "croissant",
+       3.151,
+       3.623
+      ],
+      [
+       "et",
+       3.648,
+       3.698
+      ],
+      [
+       "d'une",
+       3.736,
+       3.849
+      ],
+      [
+       "étoile",
+       3.925,
+       4.226
+      ],
+      [
+       "blancs,",
+       4.276,
+       4.604
+      ],
+      [
+       "comme",
+       4.679,
+       5.057
+      ],
+      [
+       "un",
+       5.107,
+       5.208
+      ],
+      [
+       "ciel",
+       5.233,
+       5.434
+      ],
+      [
+       "de",
+       5.484,
+       5.585
+      ],
+      [
+       "nuit.",
+       5.645,
+       6.415
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quelle couleur est en haut du drapeau néerlandais ?",
+   "choices": [
+    "Rouge",
+    "Bleu",
+    "Orange"
+   ],
+   "correct": 0,
+   "fact": "À l'origine, la bande du haut était orange, la couleur de la famille d'Orange.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-drapeaux/i3-q.mp3",
+     "sec": 7.101497,
+     "text": "Une question à côté, pour le plaisir : Quelle couleur est en haut du drapeau néerlandais : Rouge, Bleu, ou Orange ?",
+     "words": [
+      [
+       "Une",
+       0.064,
+       0.075
+      ],
+      [
+       "question",
+       0.109,
+       0.377
+      ],
+      [
+       "à",
+       0.415,
+       0.453
+      ],
+      [
+       "côté,",
+       0.513,
+       0.83
+      ],
+      [
+       "pour",
+       0.845,
+       0.906
+      ],
+      [
+       "le",
+       0.931,
+       0.981
+      ],
+      [
+       "plaisir",
+       1.038,
+       1.434
+      ],
+      [
+       ":",
+       1.623,
+       1.811
+      ],
+      [
+       "Quelle",
+       1.837,
+       2.038
+      ],
+      [
+       "couleur",
+       2.094,
+       2.491
+      ],
+      [
+       "est",
+       2.585,
+       2.868
+      ],
+      [
+       "en",
+       2.943,
+       3.094
+      ],
+      [
+       "haut",
+       3.17,
+       3.472
+      ],
+      [
+       "du",
+       3.497,
+       3.547
+      ],
+      [
+       "drapeau",
+       3.585,
+       4
+      ],
+      [
+       "néerlandais",
+       4.025,
+       4.528
+      ],
+      [
+       ":",
+       4.755,
+       4.981
+      ],
+      [
+       "Rouge,",
+       5.044,
+       5.623
+      ],
+      [
+       "Bleu,",
+       5.689,
+       5.962
+      ],
+      [
+       "ou",
+       6.113,
+       6.415
+      ],
+      [
+       "Orange",
+       6.491,
+       6.943
+      ],
+      [
+       "?",
+       7.019,
+       7.094
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/i3-a.mp3",
+     "sec": 1.643356,
+     "text": "Réponse : Rouge.",
+     "words": [
+      [
+       "Réponse",
+       0.108,
+       0.497
+      ],
+      [
+       ":",
+       0.799,
+       1.101
+      ],
+      [
+       "Rouge.",
+       1.176,
+       1.629
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/i3-f.mp3",
+     "sec": 5.748005,
+     "text": "Petit bonus : À l'origine, la bande du haut était orange, la couleur de la famille d'Orange.",
+     "words": [
+      [
+       "Petit",
+       0.119,
+       0.157
+      ],
+      [
+       "bonus",
+       0.232,
+       0.61
+      ],
+      [
+       ":",
+       0.798,
+       0.987
+      ],
+      [
+       "À",
+       1.025,
+       1.062
+      ],
+      [
+       "l'origine,",
+       1.1,
+       1.893
+      ],
+      [
+       "la",
+       1.918,
+       1.968
+      ],
+      [
+       "bande",
+       2.031,
+       2.345
+      ],
+      [
+       "du",
+       2.371,
+       2.421
+      ],
+      [
+       "haut",
+       2.481,
+       2.723
+      ],
+      [
+       "était",
+       2.773,
+       3.025
+      ],
+      [
+       "orange,",
+       3.09,
+       3.855
+      ],
+      [
+       "la",
+       3.88,
+       3.93
+      ],
+      [
+       "couleur",
+       3.977,
+       4.308
+      ],
+      [
+       "de",
+       4.333,
+       4.383
+      ],
+      [
+       "la",
+       4.433,
+       4.534
+      ],
+      [
+       "famille",
+       4.591,
+       4.987
+      ],
+      [
+       "d'Orange.",
+       5.1,
+       5.742
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "Le drapeau du Pérou a 3 bandes horizontales.",
+   "answer": false,
+   "fact": "Rouge, blanc, rouge, ses bandes sont verticales, contrairement à celles de l'Autriche.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-drapeaux/i4-q.mp3",
+     "sec": 5.038435,
+     "text": "Intermède ! Vrai ou faux : Le drapeau du Pérou a 3 bandes horizontales.",
+     "words": [
+      [
+       "Intermède",
+       0.096,
+       0.577
+      ],
+      [
+       "!",
+       0.954,
+       1.332
+      ],
+      [
+       "Vrai",
+       1.369,
+       1.558
+      ],
+      [
+       "ou",
+       1.608,
+       1.709
+      ],
+      [
+       "faux",
+       1.754,
+       1.935
+      ],
+      [
+       ":",
+       2.124,
+       2.313
+      ],
+      [
+       "Le",
+       2.363,
+       2.464
+      ],
+      [
+       "drapeau",
+       2.501,
+       2.841
+      ],
+      [
+       "du",
+       2.891,
+       2.992
+      ],
+      [
+       "Pérou",
+       3.042,
+       3.369
+      ],
+      [
+       "a",
+       3.52,
+       3.671
+      ],
+      [
+       "3",
+       3.747,
+       4.049
+      ],
+      [
+       "bandes",
+       4.079,
+       4.275
+      ],
+      [
+       "horizontales.",
+       4.294,
+       5.03
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-drapeaux/i4-a.mp3",
+     "sec": 0.683696,
+     "text": "Faux !",
+     "words": [
+      [
+       "Faux",
+       0.17,
+       0.453
+      ],
+      [
+       "!",
+       0.566,
+       0.679
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-drapeaux/i4-f.mp3",
+     "sec": 6.203243,
+     "text": "Petit bonus : Rouge, blanc, rouge, ses bandes sont verticales, contrairement à celles de l'Autriche.",
+     "words": [
+      [
+       "Petit",
+       0.119,
+       0.157
+      ],
+      [
+       "bonus",
+       0.232,
+       0.61
+      ],
+      [
+       ":",
+       0.798,
+       0.987
+      ],
+      [
+       "Rouge,",
+       1.05,
+       1.44
+      ],
+      [
+       "blanc,",
+       1.528,
+       2.195
+      ],
+      [
+       "rouge,",
+       2.258,
+       2.949
+      ],
+      [
+       "ses",
+       3.006,
+       3.176
+      ],
+      [
+       "bandes",
+       3.221,
+       3.478
+      ],
+      [
+       "sont",
+       3.523,
+       3.704
+      ],
+      [
+       "verticales,",
+       3.749,
+       4.685
+      ],
+      [
+       "contrairement",
+       4.717,
+       5.138
+      ],
+      [
+       "à",
+       5.213,
+       5.289
+      ],
+      [
+       "celles",
+       5.308,
+       5.44
+      ],
+      [
+       "de",
+       5.465,
+       5.515
+      ],
+      [
+       "l'Autriche.",
+       5.541,
+       6.195
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Un quiz DRAPEAUX en 41 questions, 4 niveaux : facile, moyen, difficile, impossible. 5 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Le même quiz, en version jouable : https://youqwiz.com/quiz-du-jour/2026-11-30-drapeaux\n🔔 Un nouveau quiz chaque jour, abonne-toi !\n\n#quiz #drapeaux #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n02:39 Niveau moyen\n05:14 Niveau difficile\n08:00 Niveau impossible\n11:24 Ton score\n11:35 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "drapeaux",
+   "quiz drapeaux",
+   "pays du monde",
+   "géographie",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Reconnais",
+   "line2": "41 DRAPEAUX",
+   "emoji": "🚩",
+   "sticker": "NIVEAU GÉNIE",
+   "layouts": [
+    2,
+    1
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "Seuls les génies finissent 🧠 Devine 41 DRAPEAUX du MONDE #Shorts",
+  "shortDescription": "Tu veux la réponse ? Elle est dans la vidéo complète (41 questions) 🎬 {url}\n🎮 Ton quiz perso gratuit : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "ES-TU UN GÉNIE ?",
+   "line": "8 questions pour le savoir 🧠"
+  },
+  "short2": {
+   "title": "Mode EXPERT activé 🧠🔥 Devine 41 DRAPEAUX du MONDE #Shorts",
+   "description": "Vidéo complète avec les 41 questions 👉 {url}\n🎮 Défie tes amis sur https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "NIVEAU IMPOSSIBLE",
+   "line": "personne ne finit ce Short 😱"
+  },
+  "short3": {
+   "title": "drapeaux : le milieu fait mal 😅 #Shorts",
+   "description": "La réponse + 41 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU TIENS ?",
+   "line": "le milieu fait mal 😅"
+  },
+  "social": {
+   "caption": "Devine 41 DRAPEAUX du MONDE 🧠 Tu tiens combien de questions ? Réponds en commentaire 👇",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "drapeaux",
+    "quizdrapeaux"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 159.2,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 314.96666666666664,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 480.26666666666665,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 684.9,
+    "title": "Ton score"
+   },
+   {
+    "at": 695.9666666666667,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/139b82cf3489857f.mp3",
+   "sec": 2.583492,
+   "text": "Premier niveau, zéro pression. On démarre.",
+   "words": [
+    [
+     "Premier",
+     0.183,
+     0.236
+    ],
+    [
+     "niveau,",
+     0.279,
+     0.839
+    ],
+    [
+     "zéro",
+     0.915,
+     1.141
+    ],
+    [
+     "pression.",
+     1.191,
+     1.821
+    ],
+    [
+     "On",
+     1.871,
+     1.972
+    ],
+    [
+     "démarre.",
+     2.022,
+     2.575
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/74ae1232019170eb.mp3",
+   "sec": 1.949456,
+   "text": "Niveau moyen. Ça se corse !",
+   "words": [
+    [
+     "Niveau",
+     0.117,
+     0.359
+    ],
+    [
+     "moyen.",
+     0.422,
+     0.812
+    ],
+    [
+     "Ça",
+     1.038,
+     1.34
+    ],
+    [
+     "se",
+     1.365,
+     1.415
+    ],
+    [
+     "corse",
+     1.472,
+     1.868
+    ],
+    [
+     "!",
+     1.906,
+     1.944
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/ca1313e1df6c785d.mp3",
+   "sec": 1.969546,
+   "text": "Niveau difficile. Accroche-toi !",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.302
+    ],
+    [
+     "difficile.",
+     0.362,
+     1.17
+    ],
+    [
+     "Accroche-toi",
+     1.236,
+     1.811
+    ],
+    [
+     "!",
+     1.887,
+     1.962
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/e36437e7e34316c6.mp3",
+   "sec": 2.922766,
+   "text": "Dernier niveau : le boss. Bonne chance.",
+   "words": [
+    [
+     "Dernier",
+     0.202,
+     0.345
+    ],
+    [
+     "niveau",
+     0.389,
+     0.647
+    ],
+    [
+     ":",
+     0.873,
+     1.1
+    ],
+    [
+     "le",
+     1.125,
+     1.175
+    ],
+    [
+     "boss.",
+     1.266,
+     1.704
+    ],
+    [
+     "Bonne",
+     1.855,
+     2.383
+    ],
+    [
+     "chance.",
+     2.437,
+     2.911
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/ab5dfab8b92b7b99.mp3",
+   "sec": 5.211156,
+   "text": "Alors, combien de points ? Écris ton score en commentaire, le meilleur est félicité dès demain !",
+   "words": [
+    [
+     "Alors,",
+     0.065,
+     0.302
+    ],
+    [
+     "combien",
+     0.347,
+     0.604
+    ],
+    [
+     "de",
+     0.654,
+     0.755
+    ],
+    [
+     "points",
+     0.787,
+     0.981
+    ],
+    [
+     "?",
+     1.283,
+     1.585
+    ],
+    [
+     "Écris",
+     1.623,
+     1.811
+    ],
+    [
+     "ton",
+     1.849,
+     1.962
+    ],
+    [
+     "score",
+     2.012,
+     2.264
+    ],
+    [
+     "en",
+     2.314,
+     2.415
+    ],
+    [
+     "commentaire,",
+     2.465,
+     3.17
+    ],
+    [
+     "le",
+     3.245,
+     3.396
+    ],
+    [
+     "meilleur",
+     3.438,
+     3.774
+    ],
+    [
+     "est",
+     3.811,
+     3.925
+    ],
+    [
+     "félicité",
+     3.95,
+     4.453
+    ],
+    [
+     "dès",
+     4.547,
+     4.83
+    ],
+    [
+     "demain",
+     4.868,
+     5.057
+    ],
+    [
+     "!",
+     5.132,
+     5.208
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/68a36803090a9d38.mp3",
+   "sec": 3.247392,
+   "text": "Si tu aimes, abonne-toi. Ça aide la chaîne, et ça ne coûte rien.",
+   "words": [
+    [
+     "Si",
+     0.065,
+     0.075
+    ],
+    [
+     "tu",
+     0.151,
+     0.302
+    ],
+    [
+     "aimes,",
+     0.34,
+     0.679
+    ],
+    [
+     "abonne-toi.",
+     0.729,
+     1.283
+    ],
+    [
+     "Ça",
+     1.434,
+     1.66
+    ],
+    [
+     "aide",
+     1.691,
+     1.811
+    ],
+    [
+     "la",
+     1.837,
+     1.887
+    ],
+    [
+     "chaîne,",
+     1.943,
+     2.415
+    ],
+    [
+     "et",
+     2.441,
+     2.491
+    ],
+    [
+     "ça",
+     2.541,
+     2.642
+    ],
+    [
+     "ne",
+     2.667,
+     2.717
+    ],
+    [
+     "coûte",
+     2.742,
+     2.943
+    ],
+    [
+     "rien.",
+     2.989,
+     3.245
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/d40eeb5c30cabbde.mp3",
+   "sec": 3.446077,
+   "text": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure.",
+   "words": [
+    [
+     "Merci",
+     0.157,
+     0.231
+    ],
+    [
+     "d'avoir",
+     0.25,
+     0.495
+    ],
+    [
+     "joué.",
+     0.533,
+     0.797
+    ],
+    [
+     "Le",
+     0.922,
+     1.174
+    ],
+    [
+     "prochain",
+     1.212,
+     1.476
+    ],
+    [
+     "quiz",
+     1.567,
+     1.929
+    ],
+    [
+     "arrive",
+     1.983,
+     2.306
+    ],
+    [
+     "demain",
+     2.344,
+     2.608
+    ],
+    [
+     "à",
+     2.722,
+     2.835
+    ],
+    [
+     "la",
+     2.885,
+     2.986
+    ],
+    [
+     "même",
+     3.016,
+     3.137
+    ],
+    [
+     "heure.",
+     3.174,
+     3.438
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/f1f466a52d680ac0.mp3",
+   "sec": 3.300045,
+   "text": "Content de te revoir sur YouQwiz ! Prêt à battre ton score d'hier ?",
+   "words": [
+    [
+     "Content",
+     0.221,
+     0.274
+    ],
+    [
+     "de",
+     0.3,
+     0.35
+    ],
+    [
+     "te",
+     0.4,
+     0.501
+    ],
+    [
+     "revoir",
+     0.551,
+     0.878
+    ],
+    [
+     "sur",
+     0.916,
+     1.029
+    ],
+    [
+     "YouQwiz",
+     1.067,
+     1.557
+    ],
+    [
+     "!",
+     1.746,
+     1.934
+    ],
+    [
+     "Prêt",
+     1.96,
+     2.085
+    ],
+    [
+     "à",
+     2.123,
+     2.161
+    ],
+    [
+     "battre",
+     2.191,
+     2.463
+    ],
+    [
+     "ton",
+     2.501,
+     2.614
+    ],
+    [
+     "score",
+     2.651,
+     2.84
+    ],
+    [
+     "d'hier",
+     2.878,
+     3.218
+    ],
+    [
+     "?",
+     3.255,
+     3.293
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-30-drapeaux/intro.mp3",
+   "sec": 2.728345,
+   "text": "Devine 41 Drapeaux du Monde ! À toi de jouer !",
+   "words": [
+    [
+     "Devine",
+     0.19,
+     0.45
+    ],
+    [
+     "41",
+     0.677,
+     0.903
+    ],
+    [
+     "Drapeaux",
+     0.941,
+     1.205
+    ],
+    [
+     "du",
+     1.255,
+     1.356
+    ],
+    [
+     "Monde",
+     1.394,
+     1.582
+    ],
+    [
+     "!",
+     1.809,
+     2.035
+    ],
+    [
+     "À",
+     2.073,
+     2.111
+    ],
+    [
+     "toi",
+     2.167,
+     2.337
+    ],
+    [
+     "de",
+     2.362,
+     2.412
+    ],
+    [
+     "jouer",
+     2.45,
+     2.639
+    ],
+    [
+     "!",
+     2.677,
+     2.714
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/7ca8243e8488ba4b.mp3",
+   "sec": 5.334989,
+   "text": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com.",
+   "words": [
+    [
+     "Crée",
+     0.031,
+     0.192
+    ],
+    [
+     "gratuitement",
+     0.233,
+     0.72
+    ],
+    [
+     "tes",
+     0.777,
+     0.947
+    ],
+    [
+     "quiz",
+     1.007,
+     1.249
+    ],
+    [
+     "personnalisés,",
+     1.286,
+     2.154
+    ],
+    [
+     "à",
+     2.192,
+     2.23
+    ],
+    [
+     "partager",
+     2.271,
+     2.607
+    ],
+    [
+     "avec",
+     2.652,
+     2.834
+    ],
+    [
+     "tes",
+     2.871,
+     2.984
+    ],
+    [
+     "amis,",
+     3.045,
+     3.664
+    ],
+    [
+     "sur",
+     3.758,
+     4.041
+    ],
+    [
+     "youqwiz",
+     4.098,
+     4.645
+    ],
+    [
+     "point",
+     4.657,
+     4.72
+    ],
+    [
+     "com.",
+     4.834,
+     5.324
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/7b54f11b901372ae.mp3",
+   "sec": 4.389637,
+   "text": "Ne t'arrête pas là : ton prochain quiz est juste ici, clique sur une des vidéos !",
+   "words": [
+    [
+     "Ne",
+     0.131,
+     0.151
+    ],
+    [
+     "t'arrête",
+     0.189,
+     0.453
+    ],
+    [
+     "pas",
+     0.491,
+     0.604
+    ],
+    [
+     "là",
+     0.654,
+     0.755
+    ],
+    [
+     ":",
+     0.906,
+     1.057
+    ],
+    [
+     "ton",
+     1.094,
+     1.208
+    ],
+    [
+     "prochain",
+     1.264,
+     1.585
+    ],
+    [
+     "quiz",
+     1.675,
+     2.038
+    ],
+    [
+     "est",
+     2.094,
+     2.264
+    ],
+    [
+     "juste",
+     2.314,
+     2.566
+    ],
+    [
+     "ici,",
+     2.642,
+     3.245
+    ],
+    [
+     "clique",
+     3.289,
+     3.547
+    ],
+    [
+     "sur",
+     3.585,
+     3.698
+    ],
+    [
+     "une",
+     3.736,
+     3.849
+    ],
+    [
+     "des",
+     3.868,
+     3.925
+    ],
+    [
+     "vidéos",
+     3.978,
+     4.302
+    ],
+    [
+     "!",
+     4.34,
+     4.377
+    ]
+   ]
+  }
+ }
+}
