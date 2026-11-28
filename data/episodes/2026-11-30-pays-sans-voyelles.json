@@ -1,0 +1,5474 @@
+{
+ "id": "2026-11-30-pays-sans-voyelles",
+ "pillar": "devine",
+ "template": "DevineEn3s",
+ "fx": {
+  "finish": true,
+  "sync": true,
+  "rig": true,
+  "fast": true
+ },
+ "theme": 0,
+ "style": {
+  "pattern": "confetti",
+  "timer": "digits",
+  "reveal": "slide",
+  "card": "tilt",
+  "music": 0
+ },
+ "variants": {
+  "preroll": {
+   "text": "Content de te revoir sur YouQwiz ! 👋",
+   "line": "Un quiz, et tu repars plus malin !",
+   "voice": "Content de te revoir sur YouQwiz ! Un quiz, et tu repars plus malin !"
+  },
+  "baseline": "Tu joues, tu apprends.",
+  "introCta": "🎯 Objectif : finir sans perdre ta série",
+  "subscribe": {
+   "title": "Pas encore abonné ? 👀",
+   "sub": "un clic, et tu ne rates plus rien 🔔",
+   "voice": "Pas encore abonné ? Un clic, et tu ne rates plus rien."
+  },
+  "levels": {
+   "facile": {
+    "card": "Tranquille pour commencer ☕",
+    "voice": "Niveau facile. Tranquille pour commencer."
+   },
+   "moyen": {
+    "card": "Attention aux pièges ⚠️",
+    "voice": "Niveau moyen. Attention, il y a des pièges."
+   },
+   "difficile": {
+    "card": "Concentration maximale 🧠",
+    "voice": "Niveau difficile. Concentration maximale."
+   },
+   "impossible": {
+    "card": "Même moi je sèche 😈",
+    "voice": "Niveau impossible. Même moi, je sèche sur certains."
+   }
+  },
+  "scoreVoice": "C'est l'heure des comptes ! Ton score en commentaire : le meilleur de la journée est félicité demain, et le champion de la semaine passe lundi !",
+  "outro": {
+   "title": "Merci d'avoir joué 🙏",
+   "voice": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure."
+  },
+  "packshot": {
+   "headline": "Crée GRATUITEMENT tes quiz personnalisés",
+   "sub": "à partager avec tes amis 🎉",
+   "cta": "👉 youqwiz.com",
+   "voice": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com."
+  },
+  "rule": "Retrouve le pays avant la fin du chrono 🔤 et compte tes points ⭐",
+  "ruleVoice": "Retrouve le pays avant la fin du chrono, et compte tes points !",
+  "nextQuizVoice": "Et maintenant ? Un autre quiz t'attend : clique sur une des vidéos !"
+ },
+ "title": "Peux-tu deviner 43 PAYS sans VOYELLES ? 🌍🚩✅ Quiz de facile à IMPOSSIBLE",
+ "question": "Quel est ce pays sans voyelles ?",
+ "intro": {
+  "hook": "Devine 43 PAYS sans VOYELLES",
+  "sub": "Du facile à l'impossible, en 5 secondes 🔥"
+ },
+ "items": [
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_G_"
+   },
+   "answer": "Togo",
+   "voice": {
+    "q": {
+     "src": "tts-cache/08dc84a99e4d6271.mp3",
+     "sec": 1.75127,
+     "text": "Top départ ! On commence en douceur !",
+     "words": [
+      [
+       "Top",
+       0.052,
+       0.075
+      ],
+      [
+       "départ",
+       0.14,
+       0.528
+      ],
+      [
+       "!",
+       0.641,
+       0.754
+      ],
+      [
+       "On",
+       0.779,
+       0.829
+      ],
+      [
+       "commence",
+       0.871,
+       1.207
+      ],
+      [
+       "en",
+       1.232,
+       1.282
+      ],
+      [
+       "douceur",
+       1.32,
+       1.735
+      ],
+      [
+       "!",
+       1.735,
+       1.735
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/0-a.mp3",
+     "sec": 0.855964,
+     "text": "C'est Togo.",
+     "words": [
+      [
+       "C'est",
+       0.096,
+       0.256
+      ],
+      [
+       "Togo.",
+       0.294,
+       0.86
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "__M_N"
+   },
+   "answer": "Yémen",
+   "voice": {
+    "q": {
+     "src": "tts-cache/5b74d8c4d33a1ad7.mp3",
+     "sec": 0.911179,
+     "text": "Tu le connais ?",
+     "words": [
+      [
+       "Tu",
+       0.015,
+       0.027
+      ],
+      [
+       "le",
+       0.053,
+       0.103
+      ],
+      [
+       "connais",
+       0.148,
+       0.405
+      ],
+      [
+       "?",
+       0.857,
+       0.933
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/1-a.mp3",
+     "sec": 1.651542,
+     "text": "Réponse : Yémen.",
+     "words": [
+      [
+       "Réponse",
+       0.121,
+       0.594
+      ],
+      [
+       ":",
+       0.782,
+       0.971
+      ],
+      [
+       "Yémen.",
+       1.046,
+       1.65
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_NT_G__-_T-B_RB_D_"
+   },
+   "answer": "Antigua-et-Barbuda",
+   "voice": {
+    "q": {
+     "src": "tts-cache/68158192e987d94d.mp3",
+     "sec": 0.563152,
+     "text": "Tu l'as ?",
+     "words": [
+      [
+       "Tu",
+       0.102,
+       0.122
+      ],
+      [
+       "l'as",
+       0.16,
+       0.273
+      ],
+      [
+       "?",
+       0.462,
+       0.65
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/2-a.mp3",
+     "sec": 1.976417,
+     "text": "Eh oui, Antigua-et-Barbuda !",
+     "words": [
+      [
+       "Eh",
+       0.201,
+       0.239
+      ],
+      [
+       "oui,",
+       0.295,
+       0.691
+      ],
+      [
+       "Antigua-et-Barbuda",
+       0.767,
+       1.975
+      ],
+      [
+       "!",
+       1.975,
+       1.975
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_R_G___"
+   },
+   "answer": "Uruguay",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2218ef1cbaa7bf3e.mp3",
+     "sec": 0.839048,
+     "text": "Pas de panique.",
+     "words": [
+      [
+       "Pas",
+       0.031,
+       0.043
+      ],
+      [
+       "de",
+       0.093,
+       0.194
+      ],
+      [
+       "panique.",
+       0.231,
+       0.646
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/3-a.mp3",
+     "sec": 1.52093,
+     "text": "Eh oui, Uruguay !",
+     "words": [
+      [
+       "Eh",
+       0.139,
+       0.151
+      ],
+      [
+       "oui,",
+       0.245,
+       0.83
+      ],
+      [
+       "Uruguay",
+       0.906,
+       1.434
+      ],
+      [
+       "!",
+       1.472,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_R_ND_"
+   },
+   "answer": "Burundi",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/4-a.mp3",
+     "sec": 1.138685,
+     "text": "C'est Burundi.",
+     "words": [
+      [
+       "C'est",
+       0.142,
+       0.302
+      ],
+      [
+       "Burundi.",
+       0.377,
+       1.132
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_R__ D_ S_D"
+   },
+   "answer": "Corée du Sud",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0a7d3a45a2475439.mp3",
+     "sec": 0.967596,
+     "text": "Et maintenant ?",
+     "words": [
+      [
+       "Et",
+       0.056,
+       0.066
+      ],
+      [
+       "maintenant",
+       0.1,
+       0.444
+      ],
+      [
+       "?",
+       0.708,
+       0.972
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/5-a.mp3",
+     "sec": 1.281429,
+     "text": "C'est Corée du Sud.",
+     "words": [
+      [
+       "C'est",
+       0.064,
+       0.147
+      ],
+      [
+       "Corée",
+       0.204,
+       0.449
+      ],
+      [
+       "du",
+       0.475,
+       0.525
+      ],
+      [
+       "Sud.",
+       0.6,
+       1.279
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_G_PT_"
+   },
+   "answer": "Égypte",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f5bf2b30ea4f3884.mp3",
+     "sec": 1.014104,
+     "text": "Hop, le suivant !",
+     "words": [
+      [
+       "Hop,",
+       0.143,
+       0.328
+      ],
+      [
+       "le",
+       0.378,
+       0.479
+      ],
+      [
+       "suivant",
+       0.524,
+       0.856
+      ],
+      [
+       "!",
+       1.121,
+       1.385
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/6-a.mp3",
+     "sec": 2.197324,
+     "text": "Bravo si tu as dit Égypte.",
+     "words": [
+      [
+       "Bravo",
+       0.441,
+       0.528
+      ],
+      [
+       "si",
+       0.629,
+       0.83
+      ],
+      [
+       "tu",
+       0.88,
+       0.981
+      ],
+      [
+       "as",
+       1.007,
+       1.057
+      ],
+      [
+       "dit",
+       1.113,
+       1.283
+      ],
+      [
+       "Égypte.",
+       1.509,
+       2.189
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "B_NGL_D_SH"
+   },
+   "answer": "Bangladesh",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/7-a.mp3",
+     "sec": 1.270544,
+     "text": "Bangladesh !",
+     "words": [
+      [
+       "Bangladesh",
+       0.688,
+       0.894
+      ],
+      [
+       "!",
+       1.082,
+       1.271
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "H_NGR__"
+   },
+   "answer": "Hongrie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/0e8964525b225b65.mp3",
+     "sec": 0.838073,
+     "text": "Je t'écoute.",
+     "words": [
+      [
+       "Je",
+       0.101,
+       0.151
+      ],
+      [
+       "t'écoute.",
+       0.189,
+       0.83
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/8-a.mp3",
+     "sec": 1.731179,
+     "text": "Bravo si tu as dit Hongrie.",
+     "words": [
+      [
+       "Bravo",
+       0.351,
+       0.445
+      ],
+      [
+       "si",
+       0.521,
+       0.672
+      ],
+      [
+       "tu",
+       0.722,
+       0.823
+      ],
+      [
+       "as",
+       0.873,
+       0.974
+      ],
+      [
+       "dit",
+       0.993,
+       1.049
+      ],
+      [
+       "Hongrie.",
+       1.125,
+       1.728
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "SR_ L_NK_"
+   },
+   "answer": "Sri Lanka",
+   "fact": "Sri Lanka veut dire « île resplendissante ».",
+   "voice": {
+    "q": {
+     "src": "tts-cache/04f41301031808fb.mp3",
+     "sec": 2.341905,
+     "text": "Question 10. Ta série tient toujours ?",
+     "words": [
+      [
+       "Question",
+       0.248,
+       0.302
+      ],
+      [
+       "10.",
+       0.453,
+       0.755
+      ],
+      [
+       "Ta",
+       0.931,
+       1.283
+      ],
+      [
+       "série",
+       1.346,
+       1.66
+      ],
+      [
+       "tient",
+       1.736,
+       1.962
+      ],
+      [
+       "toujours",
+       1.996,
+       2.264
+      ],
+      [
+       "?",
+       2.302,
+       2.34
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/9-a.mp3",
+     "sec": 1.590408,
+     "text": "Eh oui, Sri Lanka !",
+     "words": [
+      [
+       "Eh",
+       0.139,
+       0.151
+      ],
+      [
+       "oui,",
+       0.226,
+       0.755
+      ],
+      [
+       "Sri",
+       0.83,
+       1.057
+      ],
+      [
+       "Lanka",
+       1.132,
+       1.509
+      ],
+      [
+       "!",
+       1.547,
+       1.585
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/9-f.mp3",
+     "sec": 4.715306,
+     "text": "Pour briller en société : Sri Lanka veut dire « île resplendissante ».",
+     "words": [
+      [
+       "Pour",
+       0.092,
+       0.117
+      ],
+      [
+       "briller",
+       0.167,
+       0.494
+      ],
+      [
+       "en",
+       0.52,
+       0.57
+      ],
+      [
+       "société",
+       0.636,
+       1.098
+      ],
+      [
+       ":",
+       1.287,
+       1.475
+      ],
+      [
+       "Sri",
+       1.532,
+       1.702
+      ],
+      [
+       "Lanka",
+       1.765,
+       2.079
+      ],
+      [
+       "veut",
+       2.109,
+       2.23
+      ],
+      [
+       "dire",
+       2.29,
+       2.532
+      ],
+      [
+       "«",
+       2.683,
+       2.834
+      ],
+      [
+       "île",
+       2.909,
+       3.06
+      ],
+      [
+       "resplendissante",
+       3.154,
+       4.192
+      ],
+      [
+       "».",
+       4.343,
+       4.721
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__NT-K_TTS-_T-N_V_S"
+   },
+   "answer": "Saint-Kitts-et-Nevis",
+   "voice": {
+    "q": {
+     "src": "tts-cache/4b286127aadc1be5.mp3",
+     "sec": 0.983741,
+     "text": "Suivant !",
+     "words": [
+      [
+       "Suivant",
+       0.1,
+       0.346
+      ],
+      [
+       "!",
+       0.874,
+       0.95
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/10-a.mp3",
+     "sec": 2.049093,
+     "text": "Réponse : Saint-Kitts-et-Nevis.",
+     "words": [
+      [
+       "Réponse",
+       0.135,
+       0.525
+      ],
+      [
+       ":",
+       0.751,
+       0.978
+      ],
+      [
+       "Saint-Kitts-et-Nevis.",
+       1.003,
+       2.034
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "J_M__Q__"
+   },
+   "answer": "Jamaïque",
+   "voice": {
+    "q": {
+     "src": "tts-cache/ec9062ffcd7d64d5.mp3",
+     "sec": 1.285329,
+     "text": "Concentre-toi.",
+     "words": [
+      [
+       "Concentre-toi.",
+       0.542,
+       1.278
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/11-a.mp3",
+     "sec": 1.112517,
+     "text": "C'est Jamaïque.",
+     "words": [
+      [
+       "C'est",
+       0.08,
+       0.269
+      ],
+      [
+       "Jamaïque.",
+       0.345,
+       1.25
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P__S-B_S"
+   },
+   "answer": "Pays-Bas",
+   "fact": "Une grande partie des Pays-Bas se trouve sous le niveau de la mer.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/12-a.mp3",
+     "sec": 1.146848,
+     "text": "C'est Pays-Bas.",
+     "words": [
+      [
+       "C'est",
+       0.142,
+       0.302
+      ],
+      [
+       "Pays-Bas.",
+       0.377,
+       1.66
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/12-f.mp3",
+     "sec": 5.055215,
+     "text": "Et pour la culture : Une grande partie des Pays-Bas se trouve sous le niveau de la mer.",
+     "words": [
+      [
+       "Et",
+       0.067,
+       0.075
+      ],
+      [
+       "pour",
+       0.106,
+       0.226
+      ],
+      [
+       "la",
+       0.276,
+       0.377
+      ],
+      [
+       "culture",
+       0.434,
+       0.83
+      ],
+      [
+       ":",
+       1.094,
+       1.358
+      ],
+      [
+       "Une",
+       1.415,
+       1.585
+      ],
+      [
+       "grande",
+       1.617,
+       1.811
+      ],
+      [
+       "partie",
+       1.865,
+       2.189
+      ],
+      [
+       "des",
+       2.208,
+       2.264
+      ],
+      [
+       "Pays-Bas",
+       2.325,
+       2.792
+      ],
+      [
+       "se",
+       2.868,
+       3.019
+      ],
+      [
+       "trouve",
+       3.084,
+       3.472
+      ],
+      [
+       "sous",
+       3.532,
+       3.774
+      ],
+      [
+       "le",
+       3.799,
+       3.849
+      ],
+      [
+       "niveau",
+       3.892,
+       4.151
+      ],
+      [
+       "de",
+       4.176,
+       4.226
+      ],
+      [
+       "la",
+       4.276,
+       4.377
+      ],
+      [
+       "mer.",
+       4.472,
+       5.057
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_NZ_N__"
+   },
+   "answer": "Tanzanie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/13-a.mp3",
+     "sec": 0.905193,
+     "text": "Tanzanie !",
+     "words": [
+      [
+       "Tanzanie",
+       0.121,
+       0.604
+      ],
+      [
+       "!",
+       0.755,
+       0.906
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_TT_N__"
+   },
+   "answer": "Lettonie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/14-a.mp3",
+     "sec": 1.592585,
+     "text": "Bravo si tu as dit Lettonie.",
+     "words": [
+      [
+       "Bravo",
+       0.314,
+       0.377
+      ],
+      [
+       "si",
+       0.427,
+       0.528
+      ],
+      [
+       "tu",
+       0.578,
+       0.679
+      ],
+      [
+       "as",
+       0.705,
+       0.755
+      ],
+      [
+       "dit",
+       0.792,
+       0.906
+      ],
+      [
+       "Lettonie.",
+       0.981,
+       1.585
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_LB_N__"
+   },
+   "answer": "Albanie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/651ff52a4dfd5200.mp3",
+     "sec": 0.881882,
+     "text": "Regarde bien.",
+     "words": [
+      [
+       "Regarde",
+       0.198,
+       0.453
+      ],
+      [
+       "bien.",
+       0.498,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/15-a.mp3",
+     "sec": 1.753107,
+     "text": "Réponse : Albanie.",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "Albanie.",
+       1.12,
+       1.736
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "C_M_R_S"
+   },
+   "answer": "Comores",
+   "voice": {
+    "q": {
+     "src": "tts-cache/d0332425686cefde.mp3",
+     "sec": 1.128934,
+     "text": "À toi.",
+     "words": [
+      [
+       "À",
+       0,
+       0.006
+      ],
+      [
+       "toi.",
+       0.1,
+       1.138
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/16-a.mp3",
+     "sec": 1.725147,
+     "text": "Eh oui, Comores !",
+     "words": [
+      [
+       "Eh",
+       0.184,
+       0.209
+      ],
+      [
+       "oui,",
+       0.266,
+       0.662
+      ],
+      [
+       "Comores",
+       0.719,
+       1.266
+      ],
+      [
+       "!",
+       1.492,
+       1.719
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G_MB__"
+   },
+   "answer": "Gambie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/1f75ceb807c4aa4a.mp3",
+     "sec": 1.064603,
+     "text": "Vite, vite !",
+     "words": [
+      [
+       "Vite,",
+       0.068,
+       0.491
+      ],
+      [
+       "vite",
+       0.528,
+       0.679
+      ],
+      [
+       "!",
+       0.981,
+       1.057
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/17-a.mp3",
+     "sec": 1.526508,
+     "text": "Réponse : Gambie.",
+     "words": [
+      [
+       "Réponse",
+       0.101,
+       0.528
+      ],
+      [
+       ":",
+       0.717,
+       0.906
+      ],
+      [
+       "Gambie.",
+       0.951,
+       1.509
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_C_D__N_ D_ N_RD"
+   },
+   "answer": "Macédoine du Nord",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2b76a4ce3cff8b7b.mp3",
+     "sec": 1.058776,
+     "text": "Et celui-ci ?",
+     "words": [
+      [
+       "Et",
+       0.065,
+       0.075
+      ],
+      [
+       "celui-ci",
+       0.125,
+       0.528
+      ],
+      [
+       "?",
+       0.604,
+       0.679
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/18-a.mp3",
+     "sec": 2.349932,
+     "text": "Réponse : Macédoine du Nord.",
+     "words": [
+      [
+       "Réponse",
+       0.131,
+       0.453
+      ],
+      [
+       ":",
+       0.679,
+       0.906
+      ],
+      [
+       "Macédoine",
+       0.981,
+       1.585
+      ],
+      [
+       "du",
+       1.61,
+       1.66
+      ],
+      [
+       "Nord.",
+       1.766,
+       2.34
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "G___N_"
+   },
+   "answer": "Guyana",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f249575593806a19.mp3",
+     "sec": 2.627392,
+     "text": "On passe la question 20. Compte bien tes points.",
+     "words": [
+      [
+       "On",
+       0.043,
+       0.054
+      ],
+      [
+       "passe",
+       0.117,
+       0.431
+      ],
+      [
+       "la",
+       0.457,
+       0.507
+      ],
+      [
+       "question",
+       0.541,
+       0.809
+      ],
+      [
+       "20.",
+       0.96,
+       1.186
+      ],
+      [
+       "Compte",
+       1.299,
+       1.79
+      ],
+      [
+       "bien",
+       1.835,
+       2.016
+      ],
+      [
+       "tes",
+       2.073,
+       2.243
+      ],
+      [
+       "points.",
+       2.275,
+       2.62
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/19-a.mp3",
+     "sec": 0.979887,
+     "text": "C'est Guyana.",
+     "words": [
+      [
+       "C'est",
+       0.142,
+       0.226
+      ],
+      [
+       "Guyana.",
+       0.302,
+       0.981
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_RKM_N_ST_N"
+   },
+   "answer": "Turkménistan",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9f07014517cde8c7.mp3",
+     "sec": 1.197755,
+     "text": "Réfléchis bien.",
+     "words": [
+      [
+       "Réfléchis",
+       0.177,
+       0.592
+      ],
+      [
+       "bien.",
+       0.652,
+       1.196
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/20-a.mp3",
+     "sec": 1.706667,
+     "text": "Eh oui, Turkménistan !",
+     "words": [
+      [
+       "Eh",
+       0.114,
+       0.134
+      ],
+      [
+       "oui,",
+       0.171,
+       0.511
+      ],
+      [
+       "Turkménistan",
+       0.568,
+       1.19
+      ],
+      [
+       "!",
+       1.228,
+       1.266
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S_R__"
+   },
+   "answer": "Syrie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/cf6dc279aae3d244.mp3",
+     "sec": 1.057778,
+     "text": "Tu vois ce que c'est ?",
+     "words": [
+      [
+       "Tu",
+       0.131,
+       0.151
+      ],
+      [
+       "vois",
+       0.196,
+       0.377
+      ],
+      [
+       "ce",
+       0.403,
+       0.453
+      ],
+      [
+       "que",
+       0.491,
+       0.604
+      ],
+      [
+       "c'est",
+       0.642,
+       0.83
+      ],
+      [
+       "?",
+       0.868,
+       1.208
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/21-a.mp3",
+     "sec": 1.533515,
+     "text": "Réponse : Syrie.",
+     "words": [
+      [
+       "Réponse",
+       0.109,
+       0.506
+      ],
+      [
+       ":",
+       0.77,
+       1.034
+      ],
+      [
+       "Syrie.",
+       1.084,
+       1.563
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "D_N_M_RK"
+   },
+   "answer": "Danemark",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/22-a.mp3",
+     "sec": 1.812698,
+     "text": "Réponse : Danemark.",
+     "words": [
+      [
+       "Réponse",
+       0.201,
+       0.528
+      ],
+      [
+       ":",
+       0.792,
+       1.057
+      ],
+      [
+       "Danemark.",
+       1.094,
+       1.811
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_L_GN_"
+   },
+   "answer": "Pologne",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/23-a.mp3",
+     "sec": 0.877324,
+     "text": "Pologne !",
+     "words": [
+      [
+       "Pologne",
+       0.037,
+       0.573
+      ],
+      [
+       "!",
+       0.799,
+       0.875
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_KR__N_"
+   },
+   "answer": "Ukraine",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/24-a.mp3",
+     "sec": 0.920658,
+     "text": "C'est Ukraine.",
+     "words": [
+      [
+       "C'est",
+       0.181,
+       0.226
+      ],
+      [
+       "Ukraine.",
+       0.302,
+       0.906
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_R__"
+   },
+   "answer": "Pérou",
+   "voice": {
+    "q": {
+     "src": "tts-cache/651ff52a4dfd5200.mp3",
+     "sec": 0.881882,
+     "text": "Regarde bien.",
+     "words": [
+      [
+       "Regarde",
+       0.198,
+       0.453
+      ],
+      [
+       "bien.",
+       0.498,
+       1.132
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/25-a.mp3",
+     "sec": 1.453923,
+     "text": "Eh oui, Pérou !",
+     "words": [
+      [
+       "Eh",
+       0.14,
+       0.166
+      ],
+      [
+       "oui,",
+       0.222,
+       0.543
+      ],
+      [
+       "Pérou",
+       0.593,
+       0.92
+      ],
+      [
+       "!",
+       1.147,
+       1.373
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_FR_Q__ D_ S_D"
+   },
+   "answer": "Afrique du Sud",
+   "fact": "L'Afrique du Sud a trois capitales : Pretoria, Le Cap et Bloemfontein.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/26-a.mp3",
+     "sec": 1.420204,
+     "text": "Afrique du Sud !",
+     "words": [
+      [
+       "Afrique",
+       0.184,
+       0.365
+      ],
+      [
+       "du",
+       0.415,
+       0.516
+      ],
+      [
+       "Sud",
+       0.61,
+       0.893
+      ],
+      [
+       "!",
+       1.12,
+       1.346
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/26-f.mp3",
+     "sec": 6.580113,
+     "text": "Détail amusant : L'Afrique du Sud a trois capitales : Pretoria, Le Cap et Bloemfontein.",
+     "words": [
+      [
+       "Détail",
+       0.069,
+       0.302
+      ],
+      [
+       "amusant",
+       0.352,
+       0.755
+      ],
+      [
+       ":",
+       0.943,
+       1.132
+      ],
+      [
+       "L'Afrique",
+       1.17,
+       1.509
+      ],
+      [
+       "du",
+       1.535,
+       1.585
+      ],
+      [
+       "Sud",
+       1.66,
+       1.887
+      ],
+      [
+       "a",
+       2.038,
+       2.189
+      ],
+      [
+       "trois",
+       2.252,
+       2.566
+      ],
+      [
+       "capitales",
+       2.629,
+       3.17
+      ],
+      [
+       ":",
+       3.396,
+       3.623
+      ],
+      [
+       "Pretoria,",
+       3.668,
+       4.302
+      ],
+      [
+       "Le",
+       4.427,
+       4.679
+      ],
+      [
+       "Cap",
+       4.774,
+       5.057
+      ],
+      [
+       "et",
+       5.182,
+       5.434
+      ],
+      [
+       "Bloemfontein.",
+       5.491,
+       6.566
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_SL_ND_"
+   },
+   "answer": "Islande",
+   "voice": {
+    "q": {
+     "src": "tts-cache/68158192e987d94d.mp3",
+     "sec": 0.563152,
+     "text": "Tu l'as ?",
+     "words": [
+      [
+       "Tu",
+       0.102,
+       0.122
+      ],
+      [
+       "l'as",
+       0.16,
+       0.273
+      ],
+      [
+       "?",
+       0.462,
+       0.65
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/27-a.mp3",
+     "sec": 1.689683,
+     "text": "Bravo si tu as dit Islande.",
+     "words": [
+      [
+       "Bravo",
+       0.317,
+       0.395
+      ],
+      [
+       "si",
+       0.471,
+       0.622
+      ],
+      [
+       "tu",
+       0.672,
+       0.772
+      ],
+      [
+       "as",
+       0.798,
+       0.848
+      ],
+      [
+       "dit",
+       0.886,
+       0.999
+      ],
+      [
+       "Islande.",
+       1.064,
+       1.678
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_R_C"
+   },
+   "answer": "Maroc",
+   "voice": {
+    "q": {
+     "src": "tts-cache/5b74d8c4d33a1ad7.mp3",
+     "sec": 0.911179,
+     "text": "Tu le connais ?",
+     "words": [
+      [
+       "Tu",
+       0.015,
+       0.027
+      ],
+      [
+       "le",
+       0.053,
+       0.103
+      ],
+      [
+       "connais",
+       0.148,
+       0.405
+      ],
+      [
+       "?",
+       0.857,
+       0.933
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/28-a.mp3",
+     "sec": 1.264172,
+     "text": "C'est Maroc.",
+     "words": [
+      [
+       "C'est",
+       0.113,
+       0.302
+      ],
+      [
+       "Maroc.",
+       0.377,
+       0.981
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_N_M_"
+   },
+   "answer": "Panama",
+   "voice": {
+    "q": {
+     "src": "tts-cache/6c46ef74da4efaac.mp3",
+     "sec": 2.505918,
+     "text": "Déjà la question 30 ! Tu tiens le rythme ?",
+     "words": [
+      [
+       "Déjà",
+       0.2,
+       0.313
+      ],
+      [
+       "la",
+       0.363,
+       0.464
+      ],
+      [
+       "question",
+       0.498,
+       0.766
+      ],
+      [
+       "30",
+       0.841,
+       1.219
+      ],
+      [
+       "!",
+       1.407,
+       1.596
+      ],
+      [
+       "Tu",
+       1.621,
+       1.671
+      ],
+      [
+       "tiens",
+       1.721,
+       1.898
+      ],
+      [
+       "le",
+       1.923,
+       1.973
+      ],
+      [
+       "rythme",
+       2.023,
+       2.351
+      ],
+      [
+       "?",
+       2.426,
+       2.502
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/29-a.mp3",
+     "sec": 1.538186,
+     "text": "Bravo si tu as dit Panama.",
+     "words": [
+      [
+       "Bravo",
+       0.316,
+       0.394
+      ],
+      [
+       "si",
+       0.444,
+       0.545
+      ],
+      [
+       "tu",
+       0.595,
+       0.696
+      ],
+      [
+       "as",
+       0.721,
+       0.771
+      ],
+      [
+       "dit",
+       0.809,
+       0.922
+      ],
+      [
+       "Panama.",
+       0.987,
+       1.526
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "BR_S_L"
+   },
+   "answer": "Brésil",
+   "fact": "Le Brésil doit son nom au bois-brésil, un arbre dont on tirait une teinture rouge.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/2218ef1cbaa7bf3e.mp3",
+     "sec": 0.839048,
+     "text": "Pas de panique.",
+     "words": [
+      [
+       "Pas",
+       0.031,
+       0.043
+      ],
+      [
+       "de",
+       0.093,
+       0.194
+      ],
+      [
+       "panique.",
+       0.231,
+       0.646
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/30-a.mp3",
+     "sec": 1.056122,
+     "text": "Brésil !",
+     "words": [
+      [
+       "Brésil",
+       0.129,
+       0.602
+      ],
+      [
+       "!",
+       0.829,
+       1.055
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/30-f.mp3",
+     "sec": 6.199887,
+     "text": "Petit bonus : Le Brésil doit son nom au bois-brésil, un arbre dont on tirait une teinture rouge.",
+     "words": [
+      [
+       "Petit",
+       0.116,
+       0.147
+      ],
+      [
+       "bonus",
+       0.222,
+       0.6
+      ],
+      [
+       ":",
+       0.788,
+       0.977
+      ],
+      [
+       "Le",
+       1.002,
+       1.052
+      ],
+      [
+       "Brésil",
+       1.128,
+       1.581
+      ],
+      [
+       "doit",
+       1.626,
+       1.807
+      ],
+      [
+       "son",
+       1.864,
+       2.034
+      ],
+      [
+       "nom",
+       2.071,
+       2.185
+      ],
+      [
+       "au",
+       2.285,
+       2.486
+      ],
+      [
+       "bois-brésil,",
+       2.562,
+       3.845
+      ],
+      [
+       "un",
+       3.895,
+       3.996
+      ],
+      [
+       "arbre",
+       4.071,
+       4.373
+      ],
+      [
+       "dont",
+       4.419,
+       4.6
+      ],
+      [
+       "on",
+       4.65,
+       4.751
+      ],
+      [
+       "tirait",
+       4.807,
+       5.052
+      ],
+      [
+       "une",
+       5.09,
+       5.203
+      ],
+      [
+       "teinture",
+       5.229,
+       5.581
+      ],
+      [
+       "rouge.",
+       5.656,
+       6.185
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "M_L_W_"
+   },
+   "answer": "Malawi",
+   "voice": {
+    "q": {
+     "src": "tts-cache/f5bf2b30ea4f3884.mp3",
+     "sec": 1.014104,
+     "text": "Hop, le suivant !",
+     "words": [
+      [
+       "Hop,",
+       0.143,
+       0.328
+      ],
+      [
+       "le",
+       0.378,
+       0.479
+      ],
+      [
+       "suivant",
+       0.524,
+       0.856
+      ],
+      [
+       "!",
+       1.121,
+       1.385
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/31-a.mp3",
+     "sec": 1.95161,
+     "text": "Bravo si tu as dit Malawi.",
+     "words": [
+      [
+       "Bravo",
+       0.374,
+       0.453
+      ],
+      [
+       "si",
+       0.528,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "as",
+       0.88,
+       0.981
+      ],
+      [
+       "dit",
+       1.019,
+       1.132
+      ],
+      [
+       "Malawi.",
+       1.245,
+       1.962
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_M_R_TS _R_B_S _N_S"
+   },
+   "answer": "Émirats arabes unis",
+   "voice": {
+    "q": {
+     "src": "tts-cache/9f07014517cde8c7.mp3",
+     "sec": 1.197755,
+     "text": "Réfléchis bien.",
+     "words": [
+      [
+       "Réfléchis",
+       0.177,
+       0.592
+      ],
+      [
+       "bien.",
+       0.652,
+       1.196
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/32-a.mp3",
+     "sec": 2.052902,
+     "text": "Réponse : Émirats arabes unis.",
+     "words": [
+      [
+       "Réponse",
+       0.13,
+       0.527
+      ],
+      [
+       ":",
+       0.716,
+       0.905
+      ],
+      [
+       "Émirats",
+       0.98,
+       1.358
+      ],
+      [
+       "arabes",
+       1.418,
+       1.735
+      ],
+      [
+       "unis.",
+       1.76,
+       2.037
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "D_M_N_Q__"
+   },
+   "answer": "Dominique",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/33-a.mp3",
+     "sec": 0.851655,
+     "text": "C'est Dominique.",
+     "words": [
+      [
+       "C'est",
+       0.068,
+       0.151
+      ],
+      [
+       "Dominique.",
+       0.201,
+       0.981
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_N_S__"
+   },
+   "answer": "Tunisie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/903359a06dc52503.mp3",
+     "sec": 2.198662,
+     "text": "Prends ton temps, enfin, pas trop.",
+     "words": [
+      [
+       "Prends",
+       0.064,
+       0.151
+      ],
+      [
+       "ton",
+       0.208,
+       0.377
+      ],
+      [
+       "temps,",
+       0.453,
+       1.057
+      ],
+      [
+       "enfin,",
+       1.107,
+       1.509
+      ],
+      [
+       "pas",
+       1.566,
+       1.736
+      ],
+      [
+       "trop.",
+       1.796,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/34-a.mp3",
+     "sec": 0.933628,
+     "text": "Tunisie !",
+     "words": [
+      [
+       "Tunisie",
+       0.235,
+       0.691
+      ],
+      [
+       "!",
+       0.918,
+       1.144
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__CH_LL_S"
+   },
+   "answer": "Seychelles",
+   "fact": "Les Seychelles abritent le coco de mer, qui a la plus grosse graine du monde.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/7824a50440fc0e93.mp3",
+     "sec": 0.959456,
+     "text": "Accroche-toi.",
+     "words": [
+      [
+       "Accroche-toi.",
+       0.108,
+       0.583
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/35-a.mp3",
+     "sec": 0.962585,
+     "text": "C'est Seychelles.",
+     "words": [
+      [
+       "C'est",
+       0.044,
+       0.127
+      ],
+      [
+       "Seychelles.",
+       0.202,
+       0.957
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/35-f.mp3",
+     "sec": 4.773152,
+     "text": "Tu savais ? Les Seychelles abritent le coco de mer, qui a la plus grosse graine du monde.",
+     "words": [
+      [
+       "Tu",
+       0.173,
+       0.198
+      ],
+      [
+       "savais",
+       0.208,
+       0.311
+      ],
+      [
+       "?",
+       0.5,
+       0.689
+      ],
+      [
+       "Les",
+       0.708,
+       0.764
+      ],
+      [
+       "Seychelles",
+       0.821,
+       1.368
+      ],
+      [
+       "abritent",
+       1.444,
+       1.821
+      ],
+      [
+       "le",
+       1.846,
+       1.896
+      ],
+      [
+       "coco",
+       1.972,
+       2.274
+      ],
+      [
+       "de",
+       2.299,
+       2.349
+      ],
+      [
+       "mer,",
+       2.444,
+       2.953
+      ],
+      [
+       "qui",
+       2.972,
+       3.028
+      ],
+      [
+       "a",
+       3.104,
+       3.179
+      ],
+      [
+       "la",
+       3.255,
+       3.406
+      ],
+      [
+       "plus",
+       3.436,
+       3.557
+      ],
+      [
+       "grosse",
+       3.611,
+       3.934
+      ],
+      [
+       "graine",
+       3.984,
+       4.236
+      ],
+      [
+       "du",
+       4.261,
+       4.311
+      ],
+      [
+       "monde.",
+       4.375,
+       4.764
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "F_NL_ND_"
+   },
+   "answer": "Finlande",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/36-a.mp3",
+     "sec": 1.96907,
+     "text": "Bravo si tu as dit Finlande.",
+     "words": [
+      [
+       "Bravo",
+       0.305,
+       0.369
+      ],
+      [
+       "si",
+       0.469,
+       0.67
+      ],
+      [
+       "tu",
+       0.72,
+       0.821
+      ],
+      [
+       "as",
+       0.871,
+       0.972
+      ],
+      [
+       "dit",
+       1.01,
+       1.123
+      ],
+      [
+       "Finlande.",
+       1.199,
+       1.953
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "T_DJ_K_ST_N"
+   },
+   "answer": "Tadjikistan",
+   "voice": {
+    "q": {
+     "src": "tts-cache/13f6dec086664307.mp3",
+     "sec": 1.518345,
+     "text": "Là, ça devient sérieux.",
+     "words": [
+      [
+       "Là,",
+       0.136,
+       0.302
+      ],
+      [
+       "ça",
+       0.427,
+       0.679
+      ],
+      [
+       "devient",
+       0.717,
+       0.981
+      ],
+      [
+       "sérieux.",
+       1.031,
+       1.509
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/37-a.mp3",
+     "sec": 1.958798,
+     "text": "Réponse : Tadjikistan.",
+     "words": [
+      [
+       "Réponse",
+       0.127,
+       0.592
+      ],
+      [
+       ":",
+       0.856,
+       1.12
+      ],
+      [
+       "Tadjikistan.",
+       1.158,
+       1.951
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "P_R_G___"
+   },
+   "answer": "Paraguay",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/38-a.mp3",
+     "sec": 1.909909,
+     "text": "Bravo si tu as dit Paraguay.",
+     "words": [
+      [
+       "Bravo",
+       0.313,
+       0.391
+      ],
+      [
+       "si",
+       0.467,
+       0.618
+      ],
+      [
+       "tu",
+       0.668,
+       0.769
+      ],
+      [
+       "as",
+       0.819,
+       0.92
+      ],
+      [
+       "dit",
+       0.957,
+       1.071
+      ],
+      [
+       "Paraguay.",
+       1.165,
+       1.901
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "L_S_TH_"
+   },
+   "answer": "Lesotho",
+   "voice": {
+    "q": {
+     "src": "tts-cache/44035e66f9ae67d6.mp3",
+     "sec": 2.186463,
+     "text": "Déjà la question 40 ! Tu tiens le rythme ?",
+     "words": [
+      [
+       "Déjà",
+       0.201,
+       0.377
+      ],
+      [
+       "la",
+       0.403,
+       0.453
+      ],
+      [
+       "question",
+       0.494,
+       0.83
+      ],
+      [
+       "40",
+       0.906,
+       1.208
+      ],
+      [
+       "!",
+       1.245,
+       1.283
+      ],
+      [
+       "Tu",
+       1.384,
+       1.585
+      ],
+      [
+       "tiens",
+       1.61,
+       1.736
+      ],
+      [
+       "le",
+       1.761,
+       1.811
+      ],
+      [
+       "rythme",
+       1.861,
+       2.113
+      ],
+      [
+       "?",
+       2.151,
+       2.189
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/39-a.mp3",
+     "sec": 1.212086,
+     "text": "Lesotho !",
+     "words": [
+      [
+       "Lesotho",
+       0.253,
+       0.6
+      ],
+      [
+       "!",
+       1.128,
+       1.204
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "_ND_N_S__"
+   },
+   "answer": "Indonésie",
+   "fact": "L'Indonésie compte plus de dix-sept mille îles.",
+   "voice": {
+    "q": {
+     "src": "tts-cache/fc89f54212cb6e88.mp3",
+     "sec": 1.655079,
+     "text": "Quel est ce pays sans voyelles ?",
+     "words": [
+      [
+       "Quel",
+       0,
+       0.143
+      ],
+      [
+       "est",
+       0.18,
+       0.294
+      ],
+      [
+       "ce",
+       0.319,
+       0.369
+      ],
+      [
+       "pays",
+       0.445,
+       0.747
+      ],
+      [
+       "sans",
+       0.807,
+       1.048
+      ],
+      [
+       "voyelles",
+       1.105,
+       1.501
+      ],
+      [
+       "?",
+       1.577,
+       1.652
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/40-a.mp3",
+     "sec": 1.163673,
+     "text": "C'est Indonésie.",
+     "words": [
+      [
+       "C'est",
+       0.064,
+       0.253
+      ],
+      [
+       "Indonésie.",
+       0.309,
+       1.158
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/40-f.mp3",
+     "sec": 3.734104,
+     "text": "Tu savais ? L'Indonésie compte plus de dix-sept mille îles.",
+     "words": [
+      [
+       "Tu",
+       0.011,
+       0.02
+      ],
+      [
+       "savais",
+       0.077,
+       0.397
+      ],
+      [
+       "?",
+       0.624,
+       0.85
+      ],
+      [
+       "L'Indonésie",
+       0.888,
+       1.454
+      ],
+      [
+       "compte",
+       1.508,
+       1.831
+      ],
+      [
+       "plus",
+       1.877,
+       2.058
+      ],
+      [
+       "de",
+       2.083,
+       2.133
+      ],
+      [
+       "dix-sept",
+       2.246,
+       2.737
+      ],
+      [
+       "mille",
+       2.775,
+       2.963
+      ],
+      [
+       "îles.",
+       3.001,
+       3.718
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "V_N__T_"
+   },
+   "answer": "Vanuatu",
+   "voice": {
+    "q": {
+     "src": "tts-cache/3da12bbc6536d993.mp3",
+     "sec": 1.445601,
+     "text": "Je parie que tu sèches.",
+     "words": [
+      [
+       "Je",
+       0.201,
+       0.226
+      ],
+      [
+       "parie",
+       0.302,
+       0.604
+      ],
+      [
+       "que",
+       0.623,
+       0.679
+      ],
+      [
+       "tu",
+       0.729,
+       0.83
+      ],
+      [
+       "sèches.",
+       0.906,
+       1.434
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/41-a.mp3",
+     "sec": 1.536009,
+     "text": "Eh oui, Vanuatu !",
+     "words": [
+      [
+       "Eh",
+       0.097,
+       0.117
+      ],
+      [
+       "oui,",
+       0.173,
+       0.57
+      ],
+      [
+       "Vanuatu",
+       0.645,
+       1.249
+      ],
+      [
+       "!",
+       1.287,
+       1.324
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "prompt": {
+    "type": "text",
+    "value": "S__NT_-L_C__"
+   },
+   "answer": "Sainte-Lucie",
+   "voice": {
+    "q": {
+     "src": "tts-cache/b86db5a53b4211a8.mp3",
+     "sec": 1.602834,
+     "text": "On termine en beauté.",
+     "words": [
+      [
+       "On",
+       0.01,
+       0.022
+      ],
+      [
+       "termine",
+       0.082,
+       0.475
+      ],
+      [
+       "en",
+       0.6,
+       0.852
+      ],
+      [
+       "beauté.",
+       0.89,
+       1.305
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/42-a.mp3",
+     "sec": 0.987211,
+     "text": "C'est Sainte-Lucie.",
+     "words": [
+      [
+       "C'est",
+       0.068,
+       0.226
+      ],
+      [
+       "Sainte-Lucie.",
+       0.252,
+       0.981
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "interludes": [
+  {
+   "type": "vf",
+   "q": "Le plus haut sommet du monde se trouve au Népal.",
+   "answer": true,
+   "fact": "L'Everest culmine à 8 849 mètres, sur la frontière entre le Népal et la Chine.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i0-q.mp3",
+     "sec": 5.290998,
+     "text": "Petite pause ! Vrai ou faux : Le plus haut sommet du monde se trouve au Népal.",
+     "words": [
+      [
+       "Petite",
+       0.312,
+       0.377
+      ],
+      [
+       "pause",
+       0.427,
+       0.679
+      ],
+      [
+       "!",
+       0.981,
+       1.283
+      ],
+      [
+       "Vrai",
+       1.321,
+       1.509
+      ],
+      [
+       "ou",
+       1.535,
+       1.585
+      ],
+      [
+       "faux",
+       1.645,
+       1.887
+      ],
+      [
+       ":",
+       2.151,
+       2.415
+      ],
+      [
+       "Le",
+       2.465,
+       2.566
+      ],
+      [
+       "plus",
+       2.611,
+       2.792
+      ],
+      [
+       "haut",
+       2.838,
+       3.019
+      ],
+      [
+       "sommet",
+       3.075,
+       3.396
+      ],
+      [
+       "du",
+       3.422,
+       3.472
+      ],
+      [
+       "monde",
+       3.522,
+       3.774
+      ],
+      [
+       "se",
+       3.925,
+       4.226
+      ],
+      [
+       "trouve",
+       4.28,
+       4.604
+      ],
+      [
+       "au",
+       4.629,
+       4.679
+      ],
+      [
+       "Népal.",
+       4.717,
+       5.283
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i0-a.mp3",
+     "sec": 1.212404,
+     "text": "Vrai !",
+     "words": [
+      [
+       "Vrai",
+       0.142,
+       0.377
+      ],
+      [
+       "!",
+       1.132,
+       1.208
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i0-f.mp3",
+     "sec": 7.029297,
+     "text": "Petit bonus : L'Everest culmine à 8 849 mètres, sur la frontière entre le Népal et la Chine.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.302,
+       0.679
+      ],
+      [
+       ":",
+       0.906,
+       1.132
+      ],
+      [
+       "L'Everest",
+       1.151,
+       1.585
+      ],
+      [
+       "culmine",
+       1.679,
+       2.189
+      ],
+      [
+       "à",
+       2.302,
+       2.415
+      ],
+      [
+       "8",
+       2.491,
+       2.642
+      ],
+      [
+       "849",
+       2.717,
+       3.774
+      ],
+      [
+       "mètres,",
+       3.849,
+       4.453
+      ],
+      [
+       "sur",
+       4.491,
+       4.604
+      ],
+      [
+       "la",
+       4.629,
+       4.679
+      ],
+      [
+       "frontière",
+       4.729,
+       5.208
+      ],
+      [
+       "entre",
+       5.245,
+       5.434
+      ],
+      [
+       "le",
+       5.459,
+       5.509
+      ],
+      [
+       "Népal",
+       5.585,
+       6.038
+      ],
+      [
+       "et",
+       6.163,
+       6.415
+      ],
+      [
+       "la",
+       6.441,
+       6.491
+      ],
+      [
+       "Chine.",
+       6.566,
+       7.019
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Quel pays porte un nom qui signifie le pays des hommes intègres ?",
+   "choices": [
+    "Bénin",
+    "Burkina Faso",
+    "Mali"
+   ],
+   "correct": 1,
+   "fact": "Burkina Faso est le nom choisi par le pays en 1984, à la place de Haute-Volta.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i1-q.mp3",
+     "sec": 8.721497,
+     "text": "Une question à côté, pour le plaisir : Quel pays porte un nom qui signifie le pays des hommes intègres : Bénin, Burkina Faso, ou Mali ?",
+     "words": [
+      [
+       "Une",
+       0.024,
+       0.038
+      ],
+      [
+       "question",
+       0.072,
+       0.34
+      ],
+      [
+       "à",
+       0.415,
+       0.491
+      ],
+      [
+       "côté,",
+       0.536,
+       0.793
+      ],
+      [
+       "pour",
+       0.823,
+       0.943
+      ],
+      [
+       "le",
+       0.969,
+       1.019
+      ],
+      [
+       "plaisir",
+       1.076,
+       1.472
+      ],
+      [
+       ":",
+       1.623,
+       1.774
+      ],
+      [
+       "Quel",
+       1.799,
+       1.925
+      ],
+      [
+       "pays",
+       1.985,
+       2.226
+      ],
+      [
+       "porte",
+       2.29,
+       2.604
+      ],
+      [
+       "un",
+       2.654,
+       2.755
+      ],
+      [
+       "nom",
+       2.811,
+       2.981
+      ],
+      [
+       "qui",
+       3.019,
+       3.132
+      ],
+      [
+       "signifie",
+       3.177,
+       3.66
+      ],
+      [
+       "le",
+       3.786,
+       4.038
+      ],
+      [
+       "pays",
+       4.143,
+       4.566
+      ],
+      [
+       "des",
+       4.604,
+       4.717
+      ],
+      [
+       "hommes",
+       4.76,
+       5.019
+      ],
+      [
+       "intègres",
+       5.076,
+       5.623
+      ],
+      [
+       ":",
+       5.849,
+       6.076
+      ],
+      [
+       "Bénin,",
+       6.151,
+       6.906
+      ],
+      [
+       "Burkina",
+       6.966,
+       7.359
+      ],
+      [
+       "Faso,",
+       7.396,
+       8.113
+      ],
+      [
+       "ou",
+       8.139,
+       8.189
+      ],
+      [
+       "Mali",
+       8.264,
+       8.566
+      ],
+      [
+       "?",
+       8.642,
+       8.717
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i1-a.mp3",
+     "sec": 1.442381,
+     "text": "C'est Burkina Faso !",
+     "words": [
+      [
+       "C'est",
+       0.066,
+       0.149
+      ],
+      [
+       "Burkina",
+       0.209,
+       0.602
+      ],
+      [
+       "Faso",
+       0.677,
+       0.979
+      ],
+      [
+       "!",
+       1.055,
+       1.13
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i1-f.mp3",
+     "sec": 6.495714,
+     "text": "Petit bonus : Burkina Faso est le nom choisi par le pays en 1984, à la place de Haute-Volta.",
+     "words": [
+      [
+       "Petit",
+       0.189,
+       0.226
+      ],
+      [
+       "bonus",
+       0.302,
+       0.679
+      ],
+      [
+       ":",
+       0.906,
+       1.132
+      ],
+      [
+       "Burkina",
+       1.177,
+       1.585
+      ],
+      [
+       "Faso",
+       1.623,
+       1.962
+      ],
+      [
+       "est",
+       1.981,
+       2.038
+      ],
+      [
+       "le",
+       2.063,
+       2.113
+      ],
+      [
+       "nom",
+       2.151,
+       2.264
+      ],
+      [
+       "choisi",
+       2.321,
+       2.717
+      ],
+      [
+       "par",
+       2.755,
+       2.868
+      ],
+      [
+       "le",
+       2.893,
+       2.943
+      ],
+      [
+       "pays",
+       3.019,
+       3.321
+      ],
+      [
+       "en",
+       3.371,
+       3.472
+      ],
+      [
+       "1984,",
+       3.925,
+       4.981
+      ],
+      [
+       "à",
+       5.019,
+       5.057
+      ],
+      [
+       "la",
+       5.082,
+       5.132
+      ],
+      [
+       "place",
+       5.195,
+       5.509
+      ],
+      [
+       "de",
+       5.559,
+       5.66
+      ],
+      [
+       "Haute-Volta.",
+       5.71,
+       6.491
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "La Mongolie est le pays le plus densément peuplé du monde.",
+   "answer": false,
+   "fact": "C'est l'inverse : elle compte environ 2 habitants au kilomètre carré, un record de faible densité.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i2-q.mp3",
+     "sec": 6.581134,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : La Mongolie est le pays le plus densément peuplé du monde.",
+     "words": [
+      [
+       "Petit",
+       0.119,
+       0.156
+      ],
+      [
+       "bonus",
+       0.219,
+       0.534
+      ],
+      [
+       "entre",
+       0.584,
+       0.835
+      ],
+      [
+       "deux",
+       0.881,
+       1.062
+      ],
+      [
+       "questions",
+       1.1,
+       1.439
+      ],
+      [
+       ":",
+       1.703,
+       1.968
+      ],
+      [
+       "Vrai",
+       2.005,
+       2.269
+      ],
+      [
+       "ou",
+       2.37,
+       2.571
+      ],
+      [
+       "faux",
+       2.632,
+       2.873
+      ],
+      [
+       ":",
+       3.062,
+       3.251
+      ],
+      [
+       "La",
+       3.301,
+       3.402
+      ],
+      [
+       "Mongolie",
+       3.462,
+       3.93
+      ],
+      [
+       "est",
+       3.986,
+       4.156
+      ],
+      [
+       "le",
+       4.182,
+       4.232
+      ],
+      [
+       "pays",
+       4.307,
+       4.609
+      ],
+      [
+       "le",
+       4.635,
+       4.685
+      ],
+      [
+       "plus",
+       4.73,
+       4.911
+      ],
+      [
+       "densément",
+       4.986,
+       5.59
+      ],
+      [
+       "peuplé",
+       5.64,
+       5.968
+      ],
+      [
+       "du",
+       5.993,
+       6.043
+      ],
+      [
+       "monde.",
+       6.106,
+       6.571
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i2-a.mp3",
+     "sec": 0.942449,
+     "text": "C'est faux !",
+     "words": [
+      [
+       "C'est",
+       0.087,
+       0.257
+      ],
+      [
+       "faux",
+       0.333,
+       0.635
+      ],
+      [
+       "!",
+       0.861,
+       0.936
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i2-f.mp3",
+     "sec": 6.782449,
+     "text": "Petit bonus : C'est l'inverse : elle compte environ 2 habitants au kilomètre carré, un record de faible densité.",
+     "words": [
+      [
+       "Petit",
+       0.188,
+       0.225
+      ],
+      [
+       "bonus",
+       0.289,
+       0.603
+      ],
+      [
+       ":",
+       0.792,
+       0.98
+      ],
+      [
+       "C'est",
+       1.018,
+       1.131
+      ],
+      [
+       "l'inverse",
+       1.169,
+       1.659
+      ],
+      [
+       ":",
+       1.773,
+       1.886
+      ],
+      [
+       "elle",
+       1.916,
+       2.037
+      ],
+      [
+       "compte",
+       2.069,
+       2.263
+      ],
+      [
+       "environ",
+       2.32,
+       2.716
+      ],
+      [
+       "2",
+       3.018,
+       3.169
+      ],
+      [
+       "habitants",
+       3.232,
+       3.622
+      ],
+      [
+       "au",
+       3.647,
+       3.697
+      ],
+      [
+       "kilomètre",
+       3.754,
+       4.15
+      ],
+      [
+       "carré,",
+       4.21,
+       4.905
+      ],
+      [
+       "un",
+       4.955,
+       5.056
+      ],
+      [
+       "record",
+       5.142,
+       5.659
+      ],
+      [
+       "de",
+       5.709,
+       5.81
+      ],
+      [
+       "faible",
+       5.86,
+       6.112
+      ],
+      [
+       "densité.",
+       6.173,
+       6.792
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "qcm3",
+   "q": "Dans quel pays se trouve la cité de Petra ?",
+   "choices": [
+    "Égypte",
+    "Syrie",
+    "Jordanie"
+   ],
+   "correct": 2,
+   "fact": "Petra est surnommée la ville rose à cause de la couleur de ses falaises.",
+   "level": "moyen",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i3-q.mp3",
+     "sec": 6.845147,
+     "text": "Petite pause ! Dans quel pays se trouve la cité de Petra : Égypte, Syrie, ou Jordanie ?",
+     "words": [
+      [
+       "Petite",
+       0.159,
+       0.198
+      ],
+      [
+       "pause",
+       0.285,
+       0.726
+      ],
+      [
+       "!",
+       0.764,
+       0.802
+      ],
+      [
+       "Dans",
+       0.922,
+       1.405
+      ],
+      [
+       "quel",
+       1.466,
+       1.707
+      ],
+      [
+       "pays",
+       1.768,
+       2.009
+      ],
+      [
+       "se",
+       2.059,
+       2.16
+      ],
+      [
+       "trouve",
+       2.214,
+       2.537
+      ],
+      [
+       "la",
+       2.563,
+       2.613
+      ],
+      [
+       "cité",
+       2.688,
+       2.99
+      ],
+      [
+       "de",
+       3.04,
+       3.141
+      ],
+      [
+       "Petra",
+       3.229,
+       3.669
+      ],
+      [
+       ":",
+       3.934,
+       4.198
+      ],
+      [
+       "Égypte,",
+       4.273,
+       5.179
+      ],
+      [
+       "Syrie,",
+       5.229,
+       5.707
+      ],
+      [
+       "ou",
+       5.833,
+       6.085
+      ],
+      [
+       "Jordanie",
+       6.16,
+       6.688
+      ],
+      [
+       "?",
+       6.764,
+       6.839
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i3-a.mp3",
+     "sec": 1.217211,
+     "text": "Eh oui : Jordanie !",
+     "words": [
+      [
+       "Eh",
+       0.053,
+       0.073
+      ],
+      [
+       "oui",
+       0.111,
+       0.224
+      ],
+      [
+       ":",
+       0.45,
+       0.677
+      ],
+      [
+       "Jordanie",
+       0.73,
+       1.13
+      ],
+      [
+       "!",
+       1.167,
+       1.205
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i3-f.mp3",
+     "sec": 5.568957,
+     "text": "Et pour la culture : Petra est surnommée la ville rose à cause de la couleur de ses falaises.",
+     "words": [
+      [
+       "Et",
+       0.04,
+       0.051
+      ],
+      [
+       "pour",
+       0.066,
+       0.126
+      ],
+      [
+       "la",
+       0.152,
+       0.202
+      ],
+      [
+       "culture",
+       0.277,
+       0.805
+      ],
+      [
+       ":",
+       1.07,
+       1.334
+      ],
+      [
+       "Petra",
+       1.384,
+       1.636
+      ],
+      [
+       "est",
+       1.673,
+       1.787
+      ],
+      [
+       "surnommée",
+       1.824,
+       2.239
+      ],
+      [
+       "la",
+       2.289,
+       2.39
+      ],
+      [
+       "ville",
+       2.454,
+       2.768
+      ],
+      [
+       "rose",
+       2.858,
+       3.22
+      ],
+      [
+       "à",
+       3.409,
+       3.598
+      ],
+      [
+       "cause",
+       3.648,
+       3.9
+      ],
+      [
+       "de",
+       3.925,
+       3.975
+      ],
+      [
+       "la",
+       4.001,
+       4.051
+      ],
+      [
+       "couleur",
+       4.117,
+       4.579
+      ],
+      [
+       "de",
+       4.629,
+       4.73
+      ],
+      [
+       "ses",
+       4.768,
+       4.881
+      ],
+      [
+       "falaises.",
+       4.937,
+       5.56
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "vf",
+   "q": "L'Afrique du Sud a 3 capitales.",
+   "answer": true,
+   "fact": "Pretoria, Le Cap et Bloemfontein se partagent les pouvoirs du pays.",
+   "level": "difficile",
+   "voice": {
+    "q": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i4-q.mp3",
+     "sec": 6.045601,
+     "text": "Petit bonus entre deux questions : Vrai ou faux : L'Afrique du Sud a 3 capitales.",
+     "words": [
+      [
+       "Petit",
+       0.179,
+       0.229
+      ],
+      [
+       "bonus",
+       0.304,
+       0.681
+      ],
+      [
+       "entre",
+       0.731,
+       0.983
+      ],
+      [
+       "deux",
+       1.044,
+       1.285
+      ],
+      [
+       "questions",
+       1.33,
+       1.738
+      ],
+      [
+       ":",
+       2.078,
+       2.417
+      ],
+      [
+       "Vrai",
+       2.455,
+       2.719
+      ],
+      [
+       "ou",
+       2.795,
+       2.945
+      ],
+      [
+       "faux",
+       3.021,
+       3.323
+      ],
+      [
+       ":",
+       3.512,
+       3.7
+      ],
+      [
+       "L'Afrique",
+       3.738,
+       4.078
+      ],
+      [
+       "du",
+       4.103,
+       4.153
+      ],
+      [
+       "Sud",
+       4.247,
+       4.53
+      ],
+      [
+       "a",
+       4.681,
+       4.832
+      ],
+      [
+       "3",
+       4.983,
+       5.21
+      ],
+      [
+       "capitales.",
+       5.273,
+       6.04
+      ]
+     ]
+    },
+    "a": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i4-a.mp3",
+     "sec": 1.665533,
+     "text": "Eh oui, c'est vrai.",
+     "words": [
+      [
+       "Eh",
+       0.139,
+       0.151
+      ],
+      [
+       "oui,",
+       0.226,
+       0.679
+      ],
+      [
+       "c'est",
+       0.717,
+       0.83
+      ],
+      [
+       "vrai.",
+       0.891,
+       1.585
+      ]
+     ]
+    },
+    "f": {
+     "src": "tts/2026-11-30-pays-sans-voyelles/i4-f.mp3",
+     "sec": 4.609161,
+     "text": "Tu savais ? Pretoria, Le Cap et Bloemfontein se partagent les pouvoirs du pays.",
+     "words": [
+      [
+       "Tu",
+       0,
+       0.002
+      ],
+      [
+       "savais",
+       0.058,
+       0.304
+      ],
+      [
+       "?",
+       0.53,
+       0.756
+      ],
+      [
+       "Pretoria,",
+       0.802,
+       1.436
+      ],
+      [
+       "Le",
+       1.461,
+       1.511
+      ],
+      [
+       "Cap",
+       1.624,
+       1.964
+      ],
+      [
+       "et",
+       1.989,
+       2.039
+      ],
+      [
+       "Bloemfontein",
+       2.096,
+       2.87
+      ],
+      [
+       "se",
+       2.995,
+       3.247
+      ],
+      [
+       "partagent",
+       3.292,
+       3.624
+      ],
+      [
+       "les",
+       3.662,
+       3.775
+      ],
+      [
+       "pouvoirs",
+       3.813,
+       4.077
+      ],
+      [
+       "du",
+       4.127,
+       4.228
+      ],
+      [
+       "pays.",
+       4.289,
+       4.606
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "timing": {
+  "question": 3,
+  "reveal": 2
+ },
+ "cta": {
+  "url": "youqwiz.com",
+  "text": "Défie tes proches sur youqwiz.com"
+ },
+ "meta": {
+  "description": "Aujourd'hui : 43 PAYS sans VOYELLES. Tu as 5 secondes par image, ta série compte double. 6 anecdotes « le savais-tu » glissées après les réponses.\n\n🎮 Crée ton propre quiz gratuit en 2 minutes : https://youqwiz.com/quiz-du-jour/2026-11-30-pays-sans-voyelles\n🔔 Nouveau quiz tous les jours, active la cloche.\n\n#quiz #payssansvoyelles #youqwiz #quizfrancais\n\n⏱️ Chapitres\n00:00 Intro\n02:29 Niveau moyen\n05:01 Niveau difficile\n08:14 Niveau impossible\n11:12 Ton score\n11:26 Prochain quiz",
+  "tags": [
+   "quiz",
+   "quiz français",
+   "quizz",
+   "youqwiz",
+   "pays sans voyelles",
+   "pays",
+   "géographie",
+   "quiz pays",
+   "devinette",
+   "facile à impossible",
+   "culture générale",
+   "quiz en français",
+   "jeu"
+  ],
+  "thumbnail": {
+   "line1": "Devine",
+   "line2": "43 PAYS sans VOYELLES",
+   "emoji": "✅",
+   "sticker": "IMPOSSIBLE ?",
+   "layouts": [
+    0,
+    2
+   ]
+  },
+  "shortItems": 5,
+  "shortTitle": "99 % échouent à la 8e 😱 Devine 43 PAYS sans VOYELLES #Shorts",
+  "shortDescription": "La réponse + 43 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+  "shortHook": {
+   "sticker": "PERSONNE N'A TOUT BON",
+   "line": "prouve le contraire 😏"
+  },
+  "short2": {
+   "title": "Le boss final de pays sans voyelles 👑 #Shorts",
+   "description": "La réponse + 43 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "MODE EXPERT",
+   "line": "les 8 questions que personne n'a 👑"
+  },
+  "short3": {
+   "title": "Tu passes la 5e ? 😏 Devine 43 PAYS sans VOYELLES #Shorts",
+   "description": "La réponse + 43 questions dans la vidéo complète 🎬 {url}\n🎮 Crée gratuitement tes quiz à partager : https://youqwiz.com\n#shorts #quiz #youqwiz",
+   "sticker": "TU TIENS ?",
+   "line": "le milieu fait mal 😅"
+  },
+  "social": {
+   "caption": "43 PAYS sans VOYELLES à deviner aujourd'hui sur YouQwiz 🎯 Ton score en commentaire !",
+   "hashtags": [
+    "quiz",
+    "quizfrancais",
+    "culturegenerale",
+    "jeu",
+    "challenge",
+    "devinette",
+    "youqwiz",
+    "pourtoi",
+    "payssansvoyelles",
+    "pays"
+   ]
+  },
+  "chapters": [
+   {
+    "at": 0,
+    "title": "Intro"
+   },
+   {
+    "at": 149.53333333333333,
+    "title": "Niveau moyen"
+   },
+   {
+    "at": 301.23333333333335,
+    "title": "Niveau difficile"
+   },
+   {
+    "at": 494.76666666666665,
+    "title": "Niveau impossible"
+   },
+   {
+    "at": 672.8,
+    "title": "Ton score"
+   },
+   {
+    "at": 686.8,
+    "title": "Prochain quiz"
+   }
+  ]
+ },
+ "voice": {
+  "level_facile": {
+   "src": "tts-cache/1dc6cc820acd47d2.mp3",
+   "sec": 2.192313,
+   "text": "Niveau facile. Tranquille pour commencer.",
+   "words": [
+    [
+     "Niveau",
+     0.221,
+     0.289
+    ],
+    [
+     "facile.",
+     0.354,
+     1.044
+    ],
+    [
+     "Tranquille",
+     1.104,
+     1.497
+    ],
+    [
+     "pour",
+     1.542,
+     1.723
+    ],
+    [
+     "commencer.",
+     1.738,
+     2.176
+    ]
+   ]
+  },
+  "level_moyen": {
+   "src": "tts-cache/dd39c2bdca6b08b9.mp3",
+   "sec": 2.786054,
+   "text": "Niveau moyen. Attention, il y a des pièges.",
+   "words": [
+    [
+     "Niveau",
+     0.059,
+     0.218
+    ],
+    [
+     "moyen.",
+     0.293,
+     0.746
+    ],
+    [
+     "Attention,",
+     0.829,
+     1.652
+    ],
+    [
+     "il",
+     1.753,
+     1.954
+    ],
+    [
+     "y",
+     1.992,
+     2.029
+    ],
+    [
+     "a",
+     2.067,
+     2.105
+    ],
+    [
+     "des",
+     2.143,
+     2.256
+    ],
+    [
+     "pièges.",
+     2.312,
+     2.784
+    ]
+   ]
+  },
+  "level_difficile": {
+   "src": "tts-cache/ed6a26488dfa87ab.mp3",
+   "sec": 3.107596,
+   "text": "Niveau difficile. Concentration maximale.",
+   "words": [
+    [
+     "Niveau",
+     0.234,
+     0.302
+    ],
+    [
+     "difficile.",
+     0.377,
+     1.434
+    ],
+    [
+     "Concentration",
+     1.481,
+     2.189
+    ],
+    [
+     "maximale.",
+     2.29,
+     3.094
+    ]
+   ]
+  },
+  "level_impossible": {
+   "src": "tts-cache/eb9d320715cf9f27.mp3",
+   "sec": 3.322834,
+   "text": "Niveau impossible. Même moi, je sèche sur certains.",
+   "words": [
+    [
+     "Niveau",
+     0.068,
+     0.453
+    ],
+    [
+     "impossible.",
+     0.535,
+     1.434
+    ],
+    [
+     "Même",
+     1.698,
+     2.113
+    ],
+    [
+     "moi,",
+     2.17,
+     2.34
+    ],
+    [
+     "je",
+     2.39,
+     2.491
+    ],
+    [
+     "sèche",
+     2.566,
+     2.792
+    ],
+    [
+     "sur",
+     2.83,
+     2.943
+    ],
+    [
+     "certains.",
+     2.985,
+     3.321
+    ]
+   ]
+  },
+  "score": {
+   "src": "tts-cache/67848db59130f312.mp3",
+   "sec": 8.157664,
+   "text": "C'est l'heure des comptes ! Ton score en commentaire : le meilleur de la journée est félicité demain, et le champion de la semaine passe lundi !",
+   "words": [
+    [
+     "C'est",
+     0.181,
+     0.226
+    ],
+    [
+     "l'heure",
+     0.264,
+     0.528
+    ],
+    [
+     "des",
+     0.547,
+     0.604
+    ],
+    [
+     "comptes",
+     0.679,
+     1.132
+    ],
+    [
+     "!",
+     1.358,
+     1.585
+    ],
+    [
+     "Ton",
+     1.623,
+     1.736
+    ],
+    [
+     "score",
+     1.786,
+     2.038
+    ],
+    [
+     "en",
+     2.088,
+     2.189
+    ],
+    [
+     "commentaire",
+     2.233,
+     2.717
+    ],
+    [
+     ":",
+     2.906,
+     3.094
+    ],
+    [
+     "le",
+     3.12,
+     3.17
+    ],
+    [
+     "meilleur",
+     3.228,
+     3.698
+    ],
+    [
+     "de",
+     3.724,
+     3.774
+    ],
+    [
+     "la",
+     3.799,
+     3.849
+    ],
+    [
+     "journée",
+     3.906,
+     4.302
+    ],
+    [
+     "est",
+     4.396,
+     4.679
+    ],
+    [
+     "félicité",
+     4.729,
+     5.208
+    ],
+    [
+     "demain,",
+     5.264,
+     5.962
+    ],
+    [
+     "et",
+     6.012,
+     6.113
+    ],
+    [
+     "le",
+     6.139,
+     6.189
+    ],
+    [
+     "champion",
+     6.239,
+     6.642
+    ],
+    [
+     "de",
+     6.667,
+     6.717
+    ],
+    [
+     "la",
+     6.742,
+     6.792
+    ],
+    [
+     "semaine",
+     6.877,
+     7.472
+    ],
+    [
+     "passe",
+     7.509,
+     7.698
+    ],
+    [
+     "lundi",
+     7.736,
+     8
+    ],
+    [
+     "!",
+     8.075,
+     8.151
+    ]
+   ]
+  },
+  "subscribe": {
+   "src": "tts-cache/5cec8bd05b611852.mp3",
+   "sec": 2.635941,
+   "text": "Pas encore abonné ? Un clic, et tu ne rates plus rien.",
+   "words": [
+    [
+     "Pas",
+     0.039,
+     0.062
+    ],
+    [
+     "encore",
+     0.094,
+     0.288
+    ],
+    [
+     "abonné",
+     0.338,
+     0.666
+    ],
+    [
+     "?",
+     0.854,
+     1.043
+    ],
+    [
+     "Un",
+     1.093,
+     1.194
+    ],
+    [
+     "clic,",
+     1.254,
+     1.571
+    ],
+    [
+     "et",
+     1.621,
+     1.722
+    ],
+    [
+     "tu",
+     1.772,
+     1.873
+    ],
+    [
+     "ne",
+     1.899,
+     1.949
+    ],
+    [
+     "rates",
+     1.974,
+     2.099
+    ],
+    [
+     "plus",
+     2.13,
+     2.25
+    ],
+    [
+     "rien.",
+     2.311,
+     2.628
+    ]
+   ]
+  },
+  "outro": {
+   "src": "tts-cache/d40eeb5c30cabbde.mp3",
+   "sec": 3.446077,
+   "text": "Merci d'avoir joué. Le prochain quiz arrive demain à la même heure.",
+   "words": [
+    [
+     "Merci",
+     0.157,
+     0.231
+    ],
+    [
+     "d'avoir",
+     0.25,
+     0.495
+    ],
+    [
+     "joué.",
+     0.533,
+     0.797
+    ],
+    [
+     "Le",
+     0.922,
+     1.174
+    ],
+    [
+     "prochain",
+     1.212,
+     1.476
+    ],
+    [
+     "quiz",
+     1.567,
+     1.929
+    ],
+    [
+     "arrive",
+     1.983,
+     2.306
+    ],
+    [
+     "demain",
+     2.344,
+     2.608
+    ],
+    [
+     "à",
+     2.722,
+     2.835
+    ],
+    [
+     "la",
+     2.885,
+     2.986
+    ],
+    [
+     "même",
+     3.016,
+     3.137
+    ],
+    [
+     "heure.",
+     3.174,
+     3.438
+    ]
+   ]
+  },
+  "cliff": {
+   "src": "tts-cache/e5dee535d923b871.mp3",
+   "sec": 3.411293,
+   "text": "La réponse est dans la vidéo complète, lien dans le commentaire épinglé !",
+   "words": [
+    [
+     "La",
+     0.131,
+     0.151
+    ],
+    [
+     "réponse",
+     0.208,
+     0.604
+    ],
+    [
+     "est",
+     0.623,
+     0.679
+    ],
+    [
+     "dans",
+     0.694,
+     0.755
+    ],
+    [
+     "la",
+     0.805,
+     0.906
+    ],
+    [
+     "vidéo",
+     0.956,
+     1.208
+    ],
+    [
+     "complète,",
+     1.258,
+     1.962
+    ],
+    [
+     "lien",
+     2.023,
+     2.264
+    ],
+    [
+     "dans",
+     2.279,
+     2.34
+    ],
+    [
+     "le",
+     2.365,
+     2.415
+    ],
+    [
+     "commentaire",
+     2.459,
+     2.943
+    ],
+    [
+     "épinglé",
+     2.981,
+     3.321
+    ],
+    [
+     "!",
+     3.358,
+     3.396
+    ]
+   ]
+  },
+  "preroll": {
+   "src": "tts-cache/35de8d844a05172e.mp3",
+   "sec": 3.773968,
+   "text": "Content de te revoir sur YouQwiz ! Un quiz, et tu repars plus malin !",
+   "words": [
+    [
+     "Content",
+     0.311,
+     0.377
+    ],
+    [
+     "de",
+     0.403,
+     0.453
+    ],
+    [
+     "te",
+     0.503,
+     0.604
+    ],
+    [
+     "revoir",
+     0.654,
+     0.981
+    ],
+    [
+     "sur",
+     1,
+     1.057
+    ],
+    [
+     "YouQwiz",
+     1.113,
+     1.585
+    ],
+    [
+     "!",
+     1.774,
+     1.962
+    ],
+    [
+     "Un",
+     2.012,
+     2.113
+    ],
+    [
+     "quiz,",
+     2.174,
+     2.642
+    ],
+    [
+     "et",
+     2.692,
+     2.792
+    ],
+    [
+     "tu",
+     2.842,
+     2.943
+    ],
+    [
+     "repars",
+     2.981,
+     3.245
+    ],
+    [
+     "plus",
+     3.275,
+     3.396
+    ],
+    [
+     "malin",
+     3.434,
+     3.623
+    ],
+    [
+     "!",
+     3.698,
+     3.774
+    ]
+   ]
+  },
+  "intro": {
+   "src": "tts/2026-11-30-pays-sans-voyelles/intro.mp3",
+   "sec": 3.172789,
+   "text": "Devine 43 Pays sans Voyelles ! À toi de jouer !",
+   "words": [
+    [
+     "Devine",
+     0.192,
+     0.377
+    ],
+    [
+     "43",
+     0.604,
+     1.132
+    ],
+    [
+     "Pays",
+     1.253,
+     1.736
+    ],
+    [
+     "sans",
+     1.781,
+     1.962
+    ],
+    [
+     "Voyelles",
+     2,
+     2.34
+    ],
+    [
+     "!",
+     2.453,
+     2.566
+    ],
+    [
+     "À",
+     2.604,
+     2.642
+    ],
+    [
+     "toi",
+     2.698,
+     2.868
+    ],
+    [
+     "de",
+     2.893,
+     2.943
+    ],
+    [
+     "jouer",
+     2.969,
+     3.094
+    ],
+    [
+     "!",
+     3.132,
+     3.17
+    ]
+   ]
+  },
+  "packshot": {
+   "src": "tts-cache/7ca8243e8488ba4b.mp3",
+   "sec": 5.334989,
+   "text": "Crée gratuitement tes quiz personnalisés, à partager avec tes amis, sur youqwiz point com.",
+   "words": [
+    [
+     "Crée",
+     0.031,
+     0.192
+    ],
+    [
+     "gratuitement",
+     0.233,
+     0.72
+    ],
+    [
+     "tes",
+     0.777,
+     0.947
+    ],
+    [
+     "quiz",
+     1.007,
+     1.249
+    ],
+    [
+     "personnalisés,",
+     1.286,
+     2.154
+    ],
+    [
+     "à",
+     2.192,
+     2.23
+    ],
+    [
+     "partager",
+     2.271,
+     2.607
+    ],
+    [
+     "avec",
+     2.652,
+     2.834
+    ],
+    [
+     "tes",
+     2.871,
+     2.984
+    ],
+    [
+     "amis,",
+     3.045,
+     3.664
+    ],
+    [
+     "sur",
+     3.758,
+     4.041
+    ],
+    [
+     "youqwiz",
+     4.098,
+     4.645
+    ],
+    [
+     "point",
+     4.657,
+     4.72
+    ],
+    [
+     "com.",
+     4.834,
+     5.324
+    ]
+   ]
+  },
+  "nextQuiz": {
+   "src": "tts-cache/10b6a3c5821dabb0.mp3",
+   "sec": 4.436304,
+   "text": "Et maintenant ? Un autre quiz t'attend : clique sur une des vidéos !",
+   "words": [
+    [
+     "Et",
+     0.043,
+     0.053
+    ],
+    [
+     "maintenant",
+     0.095,
+     0.506
+    ],
+    [
+     "?",
+     0.544,
+     0.582
+    ],
+    [
+     "Un",
+     0.909,
+     1.563
+    ],
+    [
+     "autre",
+     1.613,
+     1.865
+    ],
+    [
+     "quiz",
+     1.94,
+     2.242
+    ],
+    [
+     "t'attend",
+     2.261,
+     2.619
+    ],
+    [
+     ":",
+     2.808,
+     2.997
+    ],
+    [
+     "clique",
+     3.04,
+     3.299
+    ],
+    [
+     "sur",
+     3.355,
+     3.525
+    ],
+    [
+     "une",
+     3.601,
+     3.827
+    ],
+    [
+     "des",
+     3.846,
+     3.902
+    ],
+    [
+     "vidéos",
+     3.956,
+     4.28
+    ],
+    [
+     "!",
+     4.355,
+     4.431
+    ]
+   ]
+  }
+ }
+}
